@@ -1,0 +1,372 @@
+<title>ЛУКОЙЛ: РСБУ против МСФО</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Mono&display=swap">
+<style>
+:root{
+  --ground:#eef2f3; --surface:#ffffff; --surface-2:#f5f9f9; --surface-3:#e7eef0;
+  --ink:#10181b; --ink-2:#42565b; --muted:#74878c;
+  --rule:#d8e2e4; --rule-strong:#b6c6c9;
+  --s1:#0083a0; --s2:#bd6207; --neg:#a8322a; --ok:#0b6b4f;
+  --accent:#0083a0; --accent-soft:#e2f0f4;
+  --serif:"PT Serif",Georgia,"Times New Roman",serif;
+  --sans:"PT Sans","Segoe UI",Arial,sans-serif;
+  --mono:"PT Mono","Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0d1315; --surface:#131b1d; --surface-2:#182124; --surface-3:#1d282b;
+    --ink:#e7eeef; --ink-2:#aabbbf; --muted:#7e9094;
+    --rule:#233033; --rule-strong:#35484d;
+    --s1:#1fa5b3; --s2:#c8801f; --neg:#e58078; --ok:#4fb391;
+    --accent:#1fa5b3; --accent-soft:#12303a;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0d1315; --surface:#131b1d; --surface-2:#182124; --surface-3:#1d282b;
+  --ink:#e7eeef; --ink-2:#aabbbf; --muted:#7e9094;
+  --rule:#233033; --rule-strong:#35484d;
+  --s1:#1fa5b3; --s2:#c8801f; --neg:#e58078; --ok:#4fb391;
+  --accent:#1fa5b3; --accent-soft:#12303a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px 96px}
+.prose{max-width:68ch}
+p{margin:0 0 1em}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+strong{font-weight:700}
+h1,h2,h3{font-family:var(--serif);text-wrap:balance;margin:0}
+
+/* ——— шапка ——— */
+header.head{border-bottom:1px solid var(--rule-strong);padding:56px 0 28px;margin-bottom:8px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.09em;text-transform:uppercase;
+         color:var(--muted);margin:0 0 18px}
+h1{font-size:clamp(34px,5.2vw,54px);line-height:1.08;letter-spacing:-.01em;margin-bottom:16px}
+h1 .sub{display:block;font-size:clamp(17px,2.2vw,22px);font-weight:400;font-style:italic;
+        color:var(--ink-2);margin-top:12px;letter-spacing:0}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;
+      background:var(--rule);border:1px solid var(--rule);margin-top:30px}
+.meta div{background:var(--surface);padding:12px 14px}
+.meta dt{font-family:var(--mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.meta dd{margin:4px 0 0;font-size:14px;line-height:1.35}
+
+/* ——— секции ——— */
+section{padding-top:56px}
+.sec-head{display:flex;gap:16px;align-items:baseline;border-bottom:1px solid var(--rule);
+          padding-bottom:10px;margin-bottom:26px}
+.sec-num{font-family:var(--mono);font-size:13px;color:var(--accent);flex:none;padding-top:4px}
+h2{font-size:clamp(22px,3vw,30px);line-height:1.2}
+h3{font-size:19px;margin:34px 0 12px}
+.lead{font-size:18px;color:var(--ink-2)}
+
+/* ——— таблицы форм ——— */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--rule);background:var(--surface);margin:18px 0}
+table{border-collapse:collapse;width:100%}
+.fin{font-size:13.5px;min-width:720px}
+.fin th{position:sticky;top:0;background:var(--surface-3);color:var(--ink);font-weight:700;
+        text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule-strong);
+        font-size:12px;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.fin td{padding:6px 12px;border-bottom:1px solid var(--rule)}
+.fin tbody tr:last-child td{border-bottom:none}
+.fin .code{font-family:var(--mono);font-size:12px;color:var(--muted);width:56px;white-space:nowrap}
+.fin .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fin th.num{text-align:right}
+.fin .nil{color:var(--muted)}
+.fin .neg{color:var(--neg)}
+.fin tr.total td{background:var(--surface-2);font-weight:700}
+.fin tr.sub .name{padding-left:30px;color:var(--ink-2)}
+.fin tr:hover td{background:var(--accent-soft)}
+.fin tr.total:hover td{background:var(--accent-soft)}
+.cap{font-size:13px;color:var(--muted);margin:0 0 4px}
+
+/* ——— сравнительные таблицы ——— */
+.cmp{font-size:14.5px;min-width:680px}
+.cmp th{background:var(--surface-3);text-align:left;padding:10px 14px;font-size:12px;
+        letter-spacing:.05em;text-transform:uppercase;border-bottom:1px solid var(--rule-strong);vertical-align:bottom}
+.cmp td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top}
+.cmp tbody tr:last-child td{border-bottom:none}
+.cmp td:first-child{font-weight:700;width:20%}
+.cmp .ras{border-left:2px solid var(--s1)}
+.cmp .ifrs{border-left:2px solid var(--s2)}
+.cmp .eff{color:var(--ink-2);font-size:13.5px}
+.cmp .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:700}
+
+/* ——— плашки ——— */
+.note{border-left:3px solid var(--accent);background:var(--surface);padding:14px 18px;margin:22px 0;
+      font-size:14.5px;color:var(--ink-2)}
+.note b{color:var(--ink)}
+.flags{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:22px 0}
+.flag{background:var(--surface);border:1px solid var(--rule);padding:16px 18px}
+.flag h4{margin:0 0 6px;font-family:var(--serif);font-size:16px}
+.flag p{margin:0;font-size:14px;color:var(--ink-2)}
+.tag{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;
+     padding:2px 7px;border:1px solid var(--rule-strong);color:var(--muted);text-transform:uppercase}
+
+/* ——— график ——— */
+figure{margin:24px 0;background:var(--surface);border:1px solid var(--rule);padding:20px}
+figcaption{font-size:13px;color:var(--muted);margin-top:10px}
+.legend{display:flex;gap:22px;flex-wrap:wrap;font-size:13px;margin-bottom:6px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.sw{width:11px;height:11px;flex:none;border-radius:2px;display:inline-block}
+svg text{font-family:var(--sans)}
+.g-lab{fill:var(--ink);font-size:13px}
+.g-val{fill:var(--ink-2);font-size:12.5px;font-variant-numeric:tabular-nums}
+.g-tick{fill:var(--muted);font-size:11.5px;font-variant-numeric:tabular-nums}
+
+ul,ol{margin:0 0 1em;padding-left:22px}
+li{margin-bottom:.45em}
+ol.steps{counter-reset:s;list-style:none;padding-left:0}
+ol.steps li{position:relative;padding-left:34px;margin-bottom:14px}
+ol.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:1px;
+  font-family:var(--mono);font-size:12px;color:var(--accent);border:1px solid var(--rule-strong);
+  width:22px;height:22px;display:grid;place-items:center}
+footer{margin-top:70px;border-top:1px solid var(--rule-strong);padding-top:22px;
+       font-size:13.5px;color:var(--ink-2)}
+footer ol{padding-left:20px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="head">
+  <p class="eyebrow">ПАО «Нефтяная компания „ЛУКОЙЛ“» · ИНН 7708004767 · ОГРН 1027700035769</p>
+  <h1>Отчетность ЛУКОЙЛа: РСБУ против МСФО
+    <span class="sub">Полный комплект российской бухгалтерской отчетности за 2021–2025 годы из открытых источников — и разбор того, чем она отличается от международной</span></h1>
+  <dl class="meta">
+    <div><dt>Источник данных</dt><dd>ГИР БО ФНС России, карточка организации № 6681478</dd></div>
+    <div><dt>Отчет за 2025 год</dt><dd>представлен 20.03.2026, корректировка № 0</dd></div>
+    <div><dt>Аудитор</dt><dd>АО «Кэпт» (обязательный аудит)</dd></div>
+    <div><dt>Единица измерения</dt><dd>млн руб. (в оригинале — тыс. руб.)</dd></div>
+    <div><dt>Состав</dt><dd>баланс, ОФР, ОИК, ОДДС, пояснения, аудиторское заключение</dd></div>
+  </dl>
+</header>
+
+<section id="istochniki">
+  <div class="sec-head"><span class="sec-num">01</span><h2>Где лежит открытая отчетность</h2></div>
+  <div class="prose">
+    <p class="lead">Отчетность ЛУКОЙЛа по РСБУ раскрывается сразу по трем обязательным каналам, и у каждого свой состав.</p>
+    <p>Данные в таблицах ниже взяты из <b>ГИР БО</b> — государственного информационного ресурса бухгалтерской отчетности ФНС. Это первоисточник: туда отчетность попадает в машиночитаемом виде прямо от компании, вместе с аудиторским заключением и пояснениями.</p>
+  </div>
+  <div class="flags">
+    <div class="flag"><span class="tag">Первоисточник</span><h4>ГИР БО ФНС России</h4>
+      <p>bo.nalog.gov.ru — все пять форм за 2019–2025 годы, пояснения (PDF, 4,9 МБ) и аудиторское заключение АО «Кэпт» (PDF, 12,5 МБ). Скачивается свободно, без регистрации.</p></div>
+    <div class="flag"><span class="tag">Раскрытие эмитента</span><h4>Интерфакс — e-disclosure</h4>
+      <p>e-disclosure.ru, карточка компании № 17: та же отчетность как существенный факт, плюс годовые отчеты, сообщения и решения совета директоров.</p></div>
+    <div class="flag"><span class="tag">Сайт компании</span><h4>lukoil.ru</h4>
+      <p>Раздел «Инвесторам»: консолидированная отчетность по МСФО, анализ руководства (MD&amp;A), пресс-релизы и Databook. РСБУ сюда не выкладывается — только ссылка на e-disclosure.</p></div>
+  </div>
+</section>
+
+<section id="sostav">
+  <div class="sec-head"><span class="sec-num">02</span><h2>Что именно сдает компания</h2></div>
+  <div class="prose">
+    <p>Годовая бухгалтерская отчетность ПАО «ЛУКОЙЛ» — это КНД 0710099: пакет из четырех форм по приказу Минфина № 66н плюс текстовые пояснения. Формы жесткие: у каждой строки свой код, менять состав и порядок строк нельзя.</p>
+    <ul>
+      <li><b>Форма 1</b> — Бухгалтерский баланс (ОКУД 0710001), строки 1100–1700;</li>
+      <li><b>Форма 2</b> — Отчет о финансовых результатах (ОКУД 0710002), строки 2110–2910;</li>
+      <li><b>Форма 3</b> — Отчет об изменениях капитала (ОКУД 0710004). ЛУКОЙЛ заполняет его в минимальном объеме: содержательно там только строка 3600 «Чистые активы», совпадающая с итогом раздела III баланса;</li>
+      <li><b>Форма 4</b> — Отчет о движении денежных средств (ОКУД 0710005), строки 4100–4500, <b>прямым методом</b> — в РСБУ он обязателен;</li>
+      <li><b>Пояснения</b> и <b>аудиторское заключение</b> — отдельными файлами.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="formy">
+  <div class="sec-head"><span class="sec-num">03</span><h2>Формы отчетности, 2021–2025</h2></div>
+  <div class="prose"><p>Показатели приведены так, как они были поданы за каждый отчетный год (без ретроспективных пересчетов, сделанных позже, — о них ниже). Пустые строки формы опущены.</p></div>
+
+  <h3>Форма 1. Бухгалтерский баланс</h3>
+  <p class="cap">ОКУД 0710001, млн руб., на 31 декабря</p>
+  <div class="tbl-wrap"><table class="fin"><thead><tr><th class="code">Код</th><th>Показатель</th><th class="num">2021</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th></tr></thead><tbody><tr><td class="code">1110</td><td class="name">Нематериальные активы</td><td class="num">3 081</td><td class="num">2 251</td><td class="num">1 748</td><td class="num">1 245</td><td class="num">974</td></tr><tr><td class="code">1120</td><td class="name">Результаты исследований и разработок</td><td class="num">7</td><td class="num">4</td><td class="num">2</td><td class="num">0</td><td class="num nil">—</td></tr><tr><td class="code">1130</td><td class="name">Нематериальные поисковые активы</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><td class="code">1140</td><td class="name">Материальные поисковые активы</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><td class="code">1150</td><td class="name">Основные средства</td><td class="num">16 258</td><td class="num">4 774</td><td class="num">7 119</td><td class="num">5 449</td><td class="num">5 613</td></tr><tr><td class="code">1170</td><td class="name">Финансовые вложения</td><td class="num">1 318 842</td><td class="num">1 333 626</td><td class="num">1 521 604</td><td class="num">1 512 533</td><td class="num">919 887</td></tr><tr><td class="code">1180</td><td class="name">Отложенные налоговые активы</td><td class="num">3 563</td><td class="num">9 161</td><td class="num">17 214</td><td class="num">20 228</td><td class="num">185 991</td></tr><tr><td class="code">1190</td><td class="name">Прочие внеоборотные активы</td><td class="num">86</td><td class="num">43</td><td class="num">39</td><td class="num">0</td><td class="num">721 035</td></tr><tr class="total"><td class="code">1100</td><td class="name">ИТОГО по разделу I «Внеоборотные активы»</td><td class="num">1 341 837</td><td class="num">1 349 859</td><td class="num">1 547 725</td><td class="num">1 539 456</td><td class="num">1 833 500</td></tr><tr><td class="code">1210</td><td class="name">Запасы</td><td class="num">64 452</td><td class="num">43 046</td><td class="num">73 435</td><td class="num">74 569</td><td class="num">38 904</td></tr><tr><td class="code">1220</td><td class="name">НДС по приобретенным ценностям</td><td class="num">37</td><td class="num">67</td><td class="num">66</td><td class="num">122</td><td class="num">94</td></tr><tr><td class="code">1230</td><td class="name">Дебиторская задолженность</td><td class="num">501 892</td><td class="num">571 731</td><td class="num">763 640</td><td class="num">1 047 042</td><td class="num">280 366</td></tr><tr><td class="code">1240</td><td class="name">Финансовые вложения (кроме денежных эквивалентов)</td><td class="num">115 628</td><td class="num">4 385</td><td class="num">45 120</td><td class="num">24 859</td><td class="num">42 389</td></tr><tr><td class="code">1250</td><td class="name">Денежные средства и денежные эквиваленты</td><td class="num">76 950</td><td class="num">314 899</td><td class="num">280 248</td><td class="num">177 846</td><td class="num">529 001</td></tr><tr><td class="code">1260</td><td class="name">Прочие оборотные активы</td><td class="num">155</td><td class="num">274</td><td class="num">474</td><td class="num">40</td><td class="num">116</td></tr><tr class="total"><td class="code">1200</td><td class="name">ИТОГО по разделу II «Оборотные активы»</td><td class="num">759 114</td><td class="num">934 402</td><td class="num">1 162 984</td><td class="num">1 324 478</td><td class="num">890 870</td></tr><tr class="total"><td class="code">1600</td><td class="name">БАЛАНС (актив)</td><td class="num">2 100 951</td><td class="num">2 284 260</td><td class="num">2 710 709</td><td class="num">2 863 934</td><td class="num">2 724 371</td></tr><tr><td class="code">1310</td><td class="name">Уставный капитал</td><td class="num">17</td><td class="num">17</td><td class="num">17</td><td class="num">17</td><td class="num">17</td></tr><tr><td class="code">1320</td><td class="name">Собственные акции, выкупленные у акционеров</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><td class="code">1340</td><td class="name">Переоценка внеоборотных активов</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><td class="code">1350</td><td class="name">Добавочный капитал (без переоценки)</td><td class="num neg">-277</td><td class="num neg">-737</td><td class="num neg">-122</td><td class="num">92</td><td class="num neg">-35</td></tr><tr><td class="code">1360</td><td class="name">Резервный капитал</td><td class="num">3</td><td class="num">3</td><td class="num">3</td><td class="num">3</td><td class="num">3</td></tr><tr><td class="code">1370</td><td class="name">Нераспределенная прибыль</td><td class="num">1 024 882</td><td class="num">1 265 884</td><td class="num">1 308 216</td><td class="num">1 339 832</td><td class="num">1 110 199</td></tr><tr class="total"><td class="code">1300</td><td class="name">ИТОГО по разделу III «Капитал и резервы»</td><td class="num">1 024 625</td><td class="num">1 265 167</td><td class="num">1 308 113</td><td class="num">1 339 944</td><td class="num">1 110 184</td></tr><tr><td class="code">1410</td><td class="name">Долгосрочные заемные средства</td><td class="num">170 873</td><td class="num">78 389</td><td class="num">99 955</td><td class="num">113 319</td><td class="num">62 481</td></tr><tr><td class="code">1420</td><td class="name">Отложенные налоговые обязательства</td><td class="num">8 459</td><td class="num">5 032</td><td class="num">10 748</td><td class="num">0</td><td class="num">0</td></tr><tr><td class="code">1430</td><td class="name">Долгосрочные оценочные обязательства</td><td class="num">925</td><td class="num">1 729</td><td class="num">6 362</td><td class="num">18 513</td><td class="num">0</td></tr><tr><td class="code">1450</td><td class="name">Прочие долгосрочные обязательства</td><td class="num">20</td><td class="num">9</td><td class="num">2 221</td><td class="num">2 103</td><td class="num">2 909</td></tr><tr class="total"><td class="code">1400</td><td class="name">ИТОГО по разделу IV «Долгосрочные обязательства»</td><td class="num">180 276</td><td class="num">85 159</td><td class="num">119 285</td><td class="num">133 935</td><td class="num">65 389</td></tr><tr><td class="code">1510</td><td class="name">Краткосрочные заемные средства</td><td class="num">540 193</td><td class="num">571 193</td><td class="num">571 758</td><td class="num">573 978</td><td class="num">708 223</td></tr><tr><td class="code">1520</td><td class="name">Кредиторская задолженность</td><td class="num">353 825</td><td class="num">359 933</td><td class="num">693 019</td><td class="num">805 659</td><td class="num">809 578</td></tr><tr><td class="code">1530</td><td class="name">Доходы будущих периодов</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num nil">—</td></tr><tr><td class="code">1540</td><td class="name">Краткосрочные оценочные обязательства</td><td class="num">2 031</td><td class="num">2 808</td><td class="num">18 533</td><td class="num">10 419</td><td class="num">30 997</td></tr><tr class="total"><td class="code">1500</td><td class="name">ИТОГО по разделу V «Краткосрочные обязательства»</td><td class="num">896 050</td><td class="num">933 934</td><td class="num">1 283 310</td><td class="num">1 390 055</td><td class="num">1 548 798</td></tr><tr class="total"><td class="code">1700</td><td class="name">БАЛАНС (пассив)</td><td class="num">2 100 951</td><td class="num">2 284 260</td><td class="num">2 710 709</td><td class="num">2 863 934</td><td class="num">2 724 371</td></tr></tbody></table></div>
+
+  <h3>Форма 2. Отчет о финансовых результатах</h3>
+  <p class="cap">ОКУД 0710002, млн руб., за год. Прибыль на акцию за 2021–2023 годы в формах не раскрывалась</p>
+  <div class="tbl-wrap"><table class="fin"><thead><tr><th class="code">Код</th><th>Показатель</th><th class="num">2021</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th></tr></thead><tbody><tr><td class="code">2110</td><td class="name">Выручка</td><td class="num">2 389 317</td><td class="num">2 874 037</td><td class="num">2 753 475</td><td class="num">3 046 944</td><td class="num">3 453 225</td></tr><tr><td class="code">2120</td><td class="name">Себестоимость продаж</td><td class="num">1 545 437</td><td class="num">1 785 030</td><td class="num">1 895 178</td><td class="num">2 162 890</td><td class="num">1 878 281</td></tr><tr><td class="code">2100</td><td class="name">Валовая прибыль (убыток)</td><td class="num">843 880</td><td class="num">1 089 007</td><td class="num">858 297</td><td class="num">884 054</td><td class="num">1 574 944</td></tr><tr><td class="code">2210</td><td class="name">Коммерческие расходы</td><td class="num">101 270</td><td class="num">117 340</td><td class="num">114 273</td><td class="num">105 471</td><td class="num">128 102</td></tr><tr><td class="code">2220</td><td class="name">Управленческие расходы</td><td class="num">33 932</td><td class="num">35 600</td><td class="num">60 272</td><td class="num">73 300</td><td class="num">62 697</td></tr><tr><td class="code">2200</td><td class="name">Прибыль (убыток) от продаж</td><td class="num">708 679</td><td class="num">936 067</td><td class="num">683 751</td><td class="num">705 283</td><td class="num">1 384 144</td></tr><tr><td class="code">2310</td><td class="name">Доходы от участия в других организациях</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><td class="code">2320</td><td class="name">Проценты к получению</td><td class="num">25 351</td><td class="num">51 430</td><td class="num">55 731</td><td class="num">91 569</td><td class="num">64 692</td></tr><tr><td class="code">2330</td><td class="name">Проценты к уплате</td><td class="num">41 908</td><td class="num">15 378</td><td class="num">6 003</td><td class="num">6 097</td><td class="num">19 455</td></tr><tr><td class="code">2340</td><td class="name">Прочие доходы</td><td class="num">13 619</td><td class="num">10 649</td><td class="num">45 779</td><td class="num">16 424</td><td class="num">3 269</td></tr><tr><td class="code">2350</td><td class="name">Прочие расходы</td><td class="num">27 556</td><td class="num">97 875</td><td class="num">41 042</td><td class="num">28 006</td><td class="num">1 140 221</td></tr><tr><td class="code">2300</td><td class="name">Прибыль (убыток) до налогообложения</td><td class="num">678 185</td><td class="num">884 893</td><td class="num">738 216</td><td class="num">779 172</td><td class="num">292 429</td></tr><tr><td class="code">2410</td><td class="name">Налог на прибыль</td><td class="num neg">-44 889</td><td class="num neg">-108 903</td><td class="num neg">-83 826</td><td class="num neg">-46 392</td><td class="num">112 362</td></tr><tr class="sub"><td class="code">2411</td><td class="name">в т.ч. текущий налог на прибыль</td><td class="num">25 639</td><td class="num">117 849</td><td class="num">86 313</td><td class="num">60 193</td><td class="num">53 359</td></tr><tr class="sub"><td class="code">2412</td><td class="name">в т.ч. отложенный налог на прибыль</td><td class="num neg">-19 250</td><td class="num">8 946</td><td class="num">2 487</td><td class="num">13 801</td><td class="num">165 721</td></tr><tr><td class="code">2460</td><td class="name">Прочее</td><td class="num">2 412</td><td class="num">14 130</td><td class="num">899</td><td class="num neg">-264</td><td class="num neg">-1 057</td></tr><tr class="total"><td class="code">2400</td><td class="name">ЧИСТАЯ ПРИБЫЛЬ (УБЫТОК)</td><td class="num">635 708</td><td class="num">790 120</td><td class="num">655 289</td><td class="num">732 516</td><td class="num">403 735</td></tr><tr><td class="code">2520</td><td class="name">Результат прочих операций, не включаемый в чистую прибыль</td><td class="num neg">-301</td><td class="num neg">-570</td><td class="num">765</td><td class="num">261</td><td class="num neg">-170</td></tr><tr><td class="code">2530</td><td class="name">Налог на прибыль от операций, не включаемых в чистую прибыль</td><td class="num">61</td><td class="num">110</td><td class="num neg">-150</td><td class="num neg">-46</td><td class="num">42</td></tr><tr class="total"><td class="code">2500</td><td class="name">СОВОКУПНЫЙ ФИНАНСОВЫЙ РЕЗУЛЬТАТ ПЕРИОДА</td><td class="num">635 468</td><td class="num">789 660</td><td class="num">655 904</td><td class="num">732 731</td><td class="num">403 607</td></tr><tr><td class="code">2900</td><td class="name">Базовая прибыль (убыток) на акцию, руб.</td><td class="num nil">—</td><td class="num nil">—</td><td class="num nil">—</td><td class="num">1 057,23</td><td class="num">582,70</td></tr></tbody></table></div>
+
+  <h3>Форма 4. Отчет о движении денежных средств</h3>
+  <p class="cap">ОКУД 0710005, млн руб., прямой метод. Данные за 2021 год компания в этой форме не публиковала</p>
+  <div class="tbl-wrap"><table class="fin"><thead><tr><th class="code">Код</th><th>Показатель</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th></tr></thead><tbody><tr><td class="code">4110</td><td class="name">Поступления от текущих операций — всего</td><td class="num">4 495 690</td><td class="num">4 196 188</td><td class="num">5 082 475</td><td class="num">4 043 388</td></tr><tr class="sub"><td class="code">4111</td><td class="name">от продажи продукции, товаров, работ и услуг</td><td class="num">1 858 866</td><td class="num">1 919 514</td><td class="num">1 889 552</td><td class="num">1 883 540</td></tr><tr class="sub"><td class="code">4112</td><td class="name">арендные, лицензионные платежи, роялти, комиссии</td><td class="num">24 800</td><td class="num">29 065</td><td class="num">39 392</td><td class="num">41 073</td></tr><tr class="sub"><td class="code">4119</td><td class="name">прочие поступления</td><td class="num">2 149 240</td><td class="num">2 000 443</td><td class="num">2 698 141</td><td class="num">1 846 692</td></tr><tr><td class="code">4120</td><td class="name">Платежи по текущим операциям — всего</td><td class="num">1 693 971</td><td class="num">1 732 164</td><td class="num">1 676 952</td><td class="num">1 780 640</td></tr><tr class="sub"><td class="code">4121</td><td class="name">поставщикам за сырье, материалы, работы, услуги</td><td class="num">822 035</td><td class="num">871 868</td><td class="num">815 383</td><td class="num">871 178</td></tr><tr class="sub"><td class="code">4122</td><td class="name">оплата труда работников</td><td class="num">16 936</td><td class="num">17 783</td><td class="num">40 906</td><td class="num">29 864</td></tr><tr class="sub"><td class="code">4123</td><td class="name">проценты по долговым обязательствам</td><td class="num">21 035</td><td class="num">5 820</td><td class="num">5 493</td><td class="num">12 139</td></tr><tr class="sub"><td class="code">4124</td><td class="name">налог на прибыль организаций</td><td class="num">96 731</td><td class="num">80 791</td><td class="num">65 784</td><td class="num">42 536</td></tr><tr class="sub"><td class="code">4129</td><td class="name">прочие платежи</td><td class="num">736 924</td><td class="num">755 406</td><td class="num">748 896</td><td class="num">823 830</td></tr><tr class="total"><td class="code">4100</td><td class="name">САЛЬДО ПО ТЕКУЩИМ ОПЕРАЦИЯМ</td><td class="num">2 801 719</td><td class="num">2 464 024</td><td class="num">3 405 523</td><td class="num">2 262 748</td></tr><tr><td class="code">4210</td><td class="name">Поступления от инвестиционных операций — всего</td><td class="num">482 732</td><td class="num">443 299</td><td class="num">329 262</td><td class="num">96 219</td></tr><tr class="sub"><td class="code">4211</td><td class="name">от продажи внеоборотных активов</td><td class="num">263</td><td class="num">228</td><td class="num">0</td><td class="num">0</td></tr><tr class="sub"><td class="code">4212</td><td class="name">от продажи акций (долей участия) других организаций</td><td class="num">15 565</td><td class="num">1 368</td><td class="num">0</td><td class="num">33 451</td></tr><tr class="sub"><td class="code">4213</td><td class="name">от возврата займов, от продажи долговых ценных бумаг</td><td class="num">446 574</td><td class="num">424 745</td><td class="num">119 065</td><td class="num">39 795</td></tr><tr class="sub"><td class="code">4214</td><td class="name">дивиденды, проценты по долговым финансовым вложениям</td><td class="num">20 329</td><td class="num">16 958</td><td class="num">20 790</td><td class="num">10 299</td></tr><tr class="sub"><td class="code">4219</td><td class="name">прочие поступления</td><td class="num">0</td><td class="num">0</td><td class="num">189 407</td><td class="num">12 674</td></tr><tr><td class="code">4220</td><td class="name">Платежи по инвестиционным операциям — всего</td><td class="num">515 762</td><td class="num">831 858</td><td class="num">292 287</td><td class="num">73 299</td></tr><tr class="sub"><td class="code">4221</td><td class="name">приобретение, создание внеоборотных активов</td><td class="num">927</td><td class="num">931</td><td class="num">210</td><td class="num">441</td></tr><tr class="sub"><td class="code">4222</td><td class="name">приобретение акций (долей участия) других организаций</td><td class="num">167 145</td><td class="num">188 460</td><td class="num">54 638</td><td class="num">25 708</td></tr><tr class="sub"><td class="code">4223</td><td class="name">приобретение долговых ценных бумаг, предоставление займов</td><td class="num">347 683</td><td class="num">628 387</td><td class="num">53 942</td><td class="num">39 036</td></tr><tr class="sub"><td class="code">4229</td><td class="name">прочие платежи</td><td class="num">7</td><td class="num">14 079</td><td class="num">183 497</td><td class="num">8 114</td></tr><tr class="total"><td class="code">4200</td><td class="name">САЛЬДО ПО ИНВЕСТИЦИОННЫМ ОПЕРАЦИЯМ</td><td class="num neg">-33 030</td><td class="num neg">-388 559</td><td class="num">36 975</td><td class="num">22 921</td></tr><tr><td class="code">4310</td><td class="name">Поступления от финансовых операций — всего</td><td class="num">1 536 701</td><td class="num">1 875 989</td><td class="num">2 512 506</td><td class="num">912 511</td></tr><tr class="sub"><td class="code">4311</td><td class="name">получение кредитов и займов</td><td class="num">1 536 701</td><td class="num">1 875 989</td><td class="num">2 512 506</td><td class="num">912 511</td></tr><tr><td class="code">4320</td><td class="name">Платежи по финансовым операциям — всего</td><td class="num">4 038 635</td><td class="num">3 985 109</td><td class="num">6 064 277</td><td class="num">2 832 086</td></tr><tr class="sub"><td class="code">4322</td><td class="name">на уплату дивидендов и иных платежей по распределению прибыли</td><td class="num">478 157</td><td class="num">524 615</td><td class="num">599 638</td><td class="num">344 247</td></tr><tr class="sub"><td class="code">4323</td><td class="name">погашение векселей и долговых бумаг, возврат кредитов и займов</td><td class="num">3 557 867</td><td class="num">3 457 739</td><td class="num">5 461 758</td><td class="num">2 485 349</td></tr><tr class="total"><td class="code">4300</td><td class="name">САЛЬДО ПО ФИНАНСОВЫМ ОПЕРАЦИЯМ</td><td class="num neg">-2 501 934</td><td class="num neg">-2 109 120</td><td class="num neg">-3 551 771</td><td class="num neg">-1 919 574</td></tr><tr class="total"><td class="code">4400</td><td class="name">САЛЬДО ДЕНЕЖНЫХ ПОТОКОВ ЗА ПЕРИОД</td><td class="num">266 754</td><td class="num neg">-33 654</td><td class="num neg">-109 273</td><td class="num">366 095</td></tr><tr><td class="code">4450</td><td class="name">Остаток денежных средств на начало периода</td><td class="num">76 950</td><td class="num">314 899</td><td class="num">280 248</td><td class="num">177 846</td></tr><tr><td class="code">4490</td><td class="name">Влияние изменений курса иностранной валюты</td><td class="num neg">-28 805</td><td class="num neg">-997</td><td class="num">6 871</td><td class="num neg">-14 940</td></tr><tr><td class="code">4500</td><td class="name">Остаток денежных средств на конец периода</td><td class="num">314 899</td><td class="num">280 248</td><td class="num">177 846</td><td class="num">529 001</td></tr></tbody></table></div>
+</section>
+
+<section id="god2025">
+  <div class="sec-head"><span class="sec-num">04</span><h2>Что произошло в 2025 году</h2></div>
+  <div class="prose">
+    <p class="lead">Операционно — лучший год за пятилетку. По итогу — прибыль, урезанная почти вдвое. Оба факта живут в одном отчете.</p>
+    <p>Выручка выросла до <b>3 453 млрд руб.</b>, а себестоимость впервые за годы снизилась, так что прибыль от продаж удвоилась — <b>1 384 млрд руб.</b> против 705 млрд годом раньше. Но ниже по форме стоит строка 2350 «Прочие расходы» на <b>1 140 221 млн руб.</b> — в 40 раз больше уровня 2024 года. Она и съела результат: прибыль до налогообложения 292 млрд, чистая прибыль <b>403,7 млрд руб.</b></p>
+    <p>Что стоит за этой строкой, видно по балансу. Долгосрочные финансовые вложения — то есть доли в дочерних компаниях — упали с 1 512,5 до <b>919,9 млрд руб.</b> Одновременно отложенные налоговые активы выросли с 20,2 до <b>186,0 млрд руб.</b> (в форме 2 это отложенный налог со знаком «плюс» на 165,7 млрд), а налог на прибыль впервые за пять лет стал доходом, а не расходом. Такая связка — обесценение вложений в зарубежный периметр (LUKOIL International GmbH) после включения компании в SDN-лист в октябре 2025 года с признанием вычитаемой временной разницы. Точная расшифровка — в пояснениях к отчетности на ГИР БО.</p>
+    <p>Денежный поток при этом остался сильным: сальдо по текущим операциям <b>2 263 млрд руб.</b>, остаток денежных средств на конец года вырос втрое — до <b>529 млрд руб.</b> Обесценение бумажное, кассы оно не касается.</p>
+    <h3>Ретроспективный пересчет сравнительных данных</h3>
+    <p>В отчете за 2025 год данные прошлых лет показаны иначе, чем они были сданы:</p>
+    <ul>
+      <li>долгосрочная дебиторская задолженность на 335,8 млрд руб. на 31.12.2024 переброшена из строки 1230 в строку 1190 «Прочие внеоборотные активы»;</li>
+      <li>отложенные налоговые активы и обязательства за 2023 год свернуты — ОНА уменьшились с 17,2 до 6,5 млрд руб., ОНО на 10,7 млрд руб. из пассива исчезли;</li>
+      <li>итог баланса на 31.12.2023 в новой редакции — 2 699,9 млрд вместо ранее поданных 2 710,7 млрд руб.</li>
+    </ul>
+    <p>Это ПБУ 22/2010 и ПБУ 1/2008 в действии — российский аналог IAS 8. Механика близка к международной, но третий баланс на начало самого раннего периода, которого требует IAS 1, в форме не предусмотрен.</p>
+  </div>
+</section>
+
+<section id="otlichiya">
+  <div class="sec-head"><span class="sec-num">05</span><h2>Отличия РСБУ от МСФО</h2></div>
+  <div class="prose">
+    <p class="lead">Различия удобно делить на два слоя: разная конструкция самой отчетности — и разные правила по конкретным объектам учета.</p>
+  </div>
+
+  <h3>Слой первый: конструкция отчетности</h3>
+  <div class="tbl-wrap"><table class="cmp">
+    <thead><tr><th>Аспект</th><th class="ras">РСБУ</th><th class="ifrs">МСФО</th></tr></thead>
+    <tbody>
+      <tr><td>Цель</td><td class="ras">Документ для государства, кредиторов и собственника; отчетность — юридический факт</td><td class="ifrs">Информация, полезная инвесторам и кредиторам для экономических решений (Концептуальные основы)</td></tr>
+      <tr><td>Нормативная база</td><td class="ras">ФЗ № 402-ФЗ, ФСБУ и ПБУ, План счетов, приказ Минфина № 66н</td><td class="ifrs">IFRS/IAS + разъяснения IFRIC/SIC; в РФ введены в действие Минфином по ФЗ № 208-ФЗ</td></tr>
+      <tr><td>Базовый принцип</td><td class="ras">Приоритет юридической формы и первичного документа</td><td class="ifrs">Приоритет экономического содержания над формой</td></tr>
+      <tr><td>Формат</td><td class="ras">Жесткие формы, коды строк, единый План счетов</td><td class="ifrs">Форм нет; IAS 1 задает минимальный набор статей, структуру компания выбирает сама</td></tr>
+      <tr><td>Профессиональное суждение</td><td class="ras">Сведено к минимуму: правила прописаны нормативно</td><td class="ifrs">Основной инструмент — оценки, допущения, модели и их раскрытие</td></tr>
+      <tr><td>Периметр</td><td class="ras">Отдельное юридическое лицо</td><td class="ifrs">Группа: контроль (IFRS 10), ассоциированные (IAS 28), совместная деятельность (IFRS 11)</td></tr>
+      <tr><td>Связь с налогами</td><td class="ras">Тесная: учетная политика пишется с оглядкой на НК РФ, ПБУ 18/02 связывает бухгалтерскую и налоговую прибыль</td><td class="ifrs">Отсутствует; IAS 12 лишь отражает налоговые последствия</td></tr>
+      <tr><td>Оценка</td><td class="ras">Преимущественно историческая стоимость</td><td class="ifrs">Смешанная модель: справедливая стоимость (IFRS 13), амортизированная стоимость, ценность использования</td></tr>
+      <tr><td>Дисконтирование</td><td class="ras">Точечно (долгосрочные оценочные обязательства, аренда, отдельные ФСБУ)</td><td class="ifrs">Сквозной принцип: временная стоимость денег учитывается везде, где расчеты долгосрочные</td></tr>
+      <tr><td>Валюта</td><td class="ras">Только рубль; понятия функциональной валюты нет</td><td class="ifrs">Функциональная валюта и валюта представления (IAS 21), учет гиперинфляции (IAS 29)</td></tr>
+      <tr><td>Состав отчетности</td><td class="ras">Баланс, ОФР, ОИК, ОДДС, пояснения</td><td class="ifrs">ОФП, отчет о прибыли и прочем совокупном доходе, ОИК, ОДДС, примечания; при ретроспективном пересчете — третий баланс</td></tr>
+      <tr><td>Совокупный доход</td><td class="ras">Полноценной концепции нет: строки 2510–2530 — рудимент</td><td class="ifrs">Прочий совокупный доход с делением на реклассифицируемый и нереклассифицируемый</td></tr>
+      <tr><td>ОДДС</td><td class="ras">Прямой метод обязателен (ПБУ 23/2011)</td><td class="ifrs">IAS 7 разрешает выбор; на практике почти все используют косвенный</td></tr>
+      <tr><td>Промежуточная отчетность</td><td class="ras">По требованию закона или собственника; единого стандарта нет</td><td class="ifrs">IAS 34 со своим набором правил и сокращенным составом</td></tr>
+      <tr><td>Раскрытия</td><td class="ras">Ограниченный перечень; пояснения часто формальны</td><td class="ifrs">Объем примечаний кратно больше: риски, суждения, чувствительность, сверки движения статей</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Слой второй: объекты учета</h3>
+  <p class="cap">ФСБУ последних лет заметно сблизили правила, поэтому в третьей колонке отмечено, сохраняется разрыв или почти закрыт</p>
+  <div class="tbl-wrap"><table class="cmp">
+    <thead><tr><th>Объект</th><th class="ras">РСБУ</th><th class="ifrs">МСФО</th><th class="eff">Разрыв</th></tr></thead>
+    <tbody>
+      <tr><td>Основные средства</td><td class="ras">ФСБУ 6/2020: ликвидационная стоимость, элементы амортизации пересматриваются, переоценка разрешена</td><td class="ifrs">IAS 16: то же плюс обязательный компонентный учет и включение затрат на ликвидацию в первоначальную стоимость</td><td class="eff">Почти закрыт</td></tr>
+      <tr><td>Капитальные вложения</td><td class="ras">ФСБУ 26/2020, обесценение — по правилам IAS 36 через прямую отсылку</td><td class="ifrs">Часть IAS 16</td><td class="eff">Закрыт</td></tr>
+      <tr><td>Обесценение активов</td><td class="ras">Отсылка к IAS 36 в ФСБУ 6 и 14; на практике тест проводится редко, ЕГДС не выделяются</td><td class="ifrs">IAS 36: ежегодный тест, единицы, генерирующие денежные средства, ценность использования</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Нематериальные активы</td><td class="ras">ФСБУ 14/2022: лимит стоимости, переоценка по группам</td><td class="ifrs">IAS 38: критерии признания НИОКР, активы с неопределенным сроком не амортизируются</td><td class="eff">Сузился</td></tr>
+      <tr><td>Поисковые активы</td><td class="ras">ПБУ 24/2011: капитализация затрат на освоение природных ресурсов по выбору компании</td><td class="ifrs">IFRS 6 плюс отраслевая практика (successful efforts / full cost) и доразведка по IAS 36</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Запасы</td><td class="ras">ФСБУ 5/2019: наименьшая из себестоимости и чистой стоимости продажи, ЛИФО запрещен</td><td class="ifrs">IAS 2 — по существу те же правила</td><td class="eff">Закрыт</td></tr>
+      <tr><td>Аренда</td><td class="ras">ФСБУ 25/2018: право пользования и обязательство на балансе, но с упрощениями для непубличных компаний</td><td class="ifrs">IFRS 16: единая модель у арендатора, исключения только для краткосрочной и малоценной аренды</td><td class="eff">Сузился</td></tr>
+      <tr><td>Финансовые вложения</td><td class="ras">ПБУ 19/02: первоначальная стоимость минус резерв под обесценение по факту устойчивого снижения</td><td class="ifrs">IFRS 9: классификация по бизнес-модели и SPPI-тесту, оценка по амортизированной или справедливой стоимости, ожидаемые кредитные убытки</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Инвестиции в дочерние общества</td><td class="ras">В индивидуальной отчетности — по стоимости приобретения за вычетом резерва</td><td class="ifrs">Консолидация по IFRS 10; в отдельной отчетности — по стоимости, долевым методом или по IFRS 9</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Объединения бизнеса</td><td class="ras">Стандарта нет; при реорганизации применяются методические указания</td><td class="ifrs">IFRS 3: метод приобретения, распределение цены покупки, гудвил</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Гудвил</td><td class="ras">Деловая репутация по ПБУ 14/2007 амортизируется линейно 20 лет</td><td class="ifrs">Не амортизируется, ежегодно тестируется на обесценение</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Резервы и оценочные обязательства</td><td class="ras">ПБУ 8/2010: дисконтирование только для срока свыше 12 месяцев</td><td class="ifrs">IAS 37: дисконтирование по умолчанию, отдельно регулируются обязательства по ликвидации активов</td><td class="eff">Сузился</td></tr>
+      <tr><td>Выручка</td><td class="ras">ПБУ 9/99: пять условий признания, переход права собственности</td><td class="ifrs">IFRS 15: пятиступенчатая модель, обязанности к исполнению, переменное возмещение, агент или принципал</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Вознаграждения работникам</td><td class="ras">Отдельного стандарта нет; резерв на отпуска — через ПБУ 8/2010</td><td class="ifrs">IAS 19: актуарная оценка пенсионных планов, актуарные разницы через прочий совокупный доход</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Налог на прибыль</td><td class="ras">ПБУ 18/02: с 2020 года балансовый метод, но допускается затратный; малые предприятия вправе не применять</td><td class="ifrs">IAS 12: только балансовый метод, признание актива под убытки при вероятности возмещения</td><td class="eff">Сузился</td></tr>
+      <tr><td>Курсовые разницы</td><td class="ras">ПБУ 3/2006: пересчет в рубли, разницы в прочие доходы и расходы</td><td class="ifrs">IAS 21: функциональная валюта, разницы по чистым инвестициям в зарубежную деятельность — в прочий совокупный доход с последующей реклассификацией</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Прекращаемая деятельность</td><td class="ras">ПБУ 16/02: раскрытие информации, отдельной строки в форме 2 нет</td><td class="ifrs">IFRS 5: активы к продаже по наименьшей из стоимостей, результат прекращенной деятельности — отдельной строкой, сравнительные данные пересчитываются</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>События после отчетной даты</td><td class="ras">ПБУ 7/98</td><td class="ifrs">IAS 10 — по существу совпадает</td><td class="eff">Закрыт</td></tr>
+      <tr><td>Учетная политика, ошибки, оценки</td><td class="ras">ПБУ 1/2008, 21/2008, 22/2010</td><td class="ifrs">IAS 8; дополнительно требует третий баланс при ретроспективном пересчете</td><td class="eff">Сузился</td></tr>
+      <tr><td>Связанные стороны</td><td class="ras">ПБУ 11/2008</td><td class="ifrs">IAS 24: шире круг лиц, обязательно раскрытие вознаграждения ключевого управленческого персонала</td><td class="eff">Сузился</td></tr>
+      <tr><td>Сегменты</td><td class="ras">ПБУ 12/2010</td><td class="ifrs">IFRS 8: управленческий подход — сегменты те, по которым отчитываются руководству</td><td class="eff">Сохраняется</td></tr>
+      <tr><td>Прибыль на акцию</td><td class="ras">Методические рекомендации Минфина № 29н, строки 2900–2910</td><td class="ifrs">IAS 33: базовая и разводненная, отдельно по прекращенной деятельности</td><td class="eff">Сузился</td></tr>
+      <tr><td>Справедливая стоимость</td><td class="ras">Прямого аналога нет; ФСБУ ссылаются на МСФО</td><td class="ifrs">IFRS 13: единое определение и трехуровневая иерархия исходных данных</td><td class="eff">Сохраняется</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="cifry">
+  <div class="sec-head"><span class="sec-num">06</span><h2>Одна компания, две отчетности: цифры 2025 года</h2></div>
+  <div class="prose">
+    <p>Лучшая иллюстрация различий — сопоставить показатели РСБУ и МСФО за один и тот же год. Это не расхождение и не ошибка: по РСБУ отчитывается <b>одно юридическое лицо</b>, по МСФО — <b>группа из сотен компаний</b>, причем по разным правилам оценки.</p>
+  </div>
+
+  <figure>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--s1)"></i>РСБУ — ПАО «ЛУКОЙЛ», отдельная отчетность</span>
+      <span><i class="sw" style="background:var(--s2)"></i>МСФО — консолидированная отчетность группы</span>
+    </div>
+    <svg viewBox="0 0 800 340" width="100%" role="img" aria-label="Сравнение показателей ЛУКОЙЛа за 2025 год по РСБУ и МСФО в триллионах рублей">
+      <!-- сетка -->
+      <g stroke="var(--rule)" stroke-width="1">
+        <line x1="209.3" y1="52" x2="209.3" y2="292"></line>
+        <line x1="366.7" y1="52" x2="366.7" y2="292"></line>
+        <line x1="445.3" y1="52" x2="445.3" y2="292"></line>
+        <line x1="524" y1="52" x2="524" y2="292"></line>
+        <line x1="602.7" y1="52" x2="602.7" y2="292"></line>
+        <line x1="681.3" y1="52" x2="681.3" y2="292"></line>
+        <line x1="760" y1="52" x2="760" y2="292"></line>
+      </g>
+      <line x1="288" y1="52" x2="288" y2="292" stroke="var(--rule-strong)" stroke-width="1.5"></line>
+      <!-- подписи шкалы -->
+      <g class="g-tick" text-anchor="middle">
+        <text x="209.3" y="310">−1</text><text x="288" y="310">0</text><text x="366.7" y="310">1</text>
+        <text x="445.3" y="310">2</text><text x="524" y="310">3</text><text x="602.7" y="310">4</text>
+        <text x="681.3" y="310">5</text><text x="760" y="310">6</text>
+      </g>
+      <text class="g-tick" x="800" y="332" text-anchor="end">трлн руб.</text>
+
+      <!-- Выручка -->
+      <text class="g-lab" x="155" y="90" text-anchor="end">Выручка</text>
+      <path d="M288,66 H556.4 A3,3 0 0 1 559.4,69 V81 A3,3 0 0 1 556.4,84 H288 Z" fill="var(--s1)"><title>Выручка, РСБУ: 3,45 трлн руб.</title></path>
+      <path d="M288,86 H581.6 A3,3 0 0 1 584.6,89 V101 A3,3 0 0 1 581.6,104 H288 Z" fill="var(--s2)"><title>Выручка, МСФО (продолжающая деятельность): 3,77 трлн руб.</title></path>
+      <text class="g-val" x="566" y="79">3,45</text><text class="g-val" x="592" y="99">3,77</text>
+
+      <!-- Активы -->
+      <text class="g-lab" x="155" y="150" text-anchor="end">Итого активы</text>
+      <path d="M288,126 H499 A3,3 0 0 1 502,129 V141 A3,3 0 0 1 499,144 H288 Z" fill="var(--s1)"><title>Активы, РСБУ: 2,72 трлн руб.</title></path>
+      <path d="M288,146 H715.3 A3,3 0 0 1 718.3,149 V161 A3,3 0 0 1 715.3,164 H288 Z" fill="var(--s2)"><title>Активы, МСФО: 5,47 трлн руб.</title></path>
+      <text class="g-val" x="509" y="139">2,72</text><text class="g-val" x="726" y="159">5,47</text>
+
+      <!-- Капитал -->
+      <text class="g-lab" x="155" y="210" text-anchor="end">Капитал</text>
+      <path d="M288,186 H372.3 A3,3 0 0 1 375.3,189 V201 A3,3 0 0 1 372.3,204 H288 Z" fill="var(--s1)"><title>Капитал, РСБУ: 1,11 трлн руб.</title></path>
+      <path d="M288,206 H549.3 A3,3 0 0 1 552.3,209 V221 A3,3 0 0 1 549.3,224 H288 Z" fill="var(--s2)"><title>Капитал, МСФО: 3,36 трлн руб.</title></path>
+      <text class="g-val" x="383" y="199">1,11</text><text class="g-val" x="560" y="219">3,36</text>
+
+      <!-- Финрезультат -->
+      <text class="g-lab" x="155" y="270" text-anchor="end">Финансовый результат</text>
+      <path d="M288,246 H316.5 A3,3 0 0 1 319.5,249 V261 A3,3 0 0 1 316.5,264 H288 Z" fill="var(--s1)"><title>Чистая прибыль, РСБУ: +0,40 трлн руб.</title></path>
+      <path d="M288,266 H207.6 A3,3 0 0 0 204.6,269 V281 A3,3 0 0 0 207.6,284 H288 Z" fill="var(--s2)"><title>Чистый убыток, МСФО: −1,06 трлн руб.</title></path>
+      <text class="g-val" x="327" y="259">+0,40</text><text class="g-val" x="196" y="279" text-anchor="end">−1,06</text>
+    </svg>
+    <figcaption>Показатели за 2025 год. РСБУ — данные ГИР БО; МСФО — консолидированная отчетность группы по публикациям компании и «Интерфакса».</figcaption>
+  </figure>
+
+  <div class="tbl-wrap"><table class="cmp">
+    <thead><tr><th>Показатель, млрд руб.</th><th class="ras">РСБУ 2025</th><th class="ifrs">МСФО 2025</th><th class="eff">Откуда разница</th></tr></thead>
+    <tbody>
+      <tr><td>Выручка</td><td class="ras num">3 453</td><td class="ifrs num">3 768</td><td class="eff">В РСБУ — обороты головной компании как трейдера; в МСФО внутригрупповые обороты исключены, но добавлена выручка всех дочерних обществ; зарубежный сегмент вынесен в прекращенную деятельность по IFRS 5</td></tr>
+      <tr><td>Операционная прибыль</td><td class="ras num">1 384</td><td class="ifrs num">527</td><td class="eff">В МСФО в расходы входят амортизация группы (около 523 млрд) и обесценение российских активов (около 204 млрд), которых в отдельной отчетности нет</td></tr>
+      <tr><td>EBITDA</td><td class="ras num">—</td><td class="ifrs num">892</td><td class="eff">Показателя нет в формах РСБУ вообще: он не предусмотрен приказом № 66н</td></tr>
+      <tr><td>Финансовый результат</td><td class="ras num">+404</td><td class="ifrs num">−1 064</td><td class="eff">В РСБУ обесценена только балансовая стоимость долей (1 140 млрд в прочих расходах); в МСФО списан весь чистый актив зарубежного периметра вместе с накопленными курсовыми разницами из прочего совокупного дохода</td></tr>
+      <tr><td>Итого активы</td><td class="ras num">2 724</td><td class="ifrs num">5 474</td><td class="eff">Консолидация: вместо строки «финансовые вложения» в балансе появляются реальные скважины, НПЗ, запасы и дебиторка дочерних компаний</td></tr>
+      <tr><td>Капитал</td><td class="ras num">1 110</td><td class="ifrs num">3 358</td><td class="eff">Накопленная прибыль всей группы против нераспределенной прибыли одного юрлица</td></tr>
+      <tr><td>Денежные средства</td><td class="ras num">529</td><td class="ifrs num">597</td><td class="eff">Ближайшие друг к другу цифры: казначейство группы централизовано на балансе головной компании</td></tr>
+      <tr><td>Долг</td><td class="ras num">771</td><td class="ifrs num">318</td><td class="eff">В РСБУ большая часть заемных средств — внутригрупповые займы и векселя, при консолидации они взаимно погашаются</td></tr>
+      <tr><td>Капитальные вложения</td><td class="ras num">0,4</td><td class="ifrs num">775</td><td class="eff">Головная компания почти ничего не строит сама: добыча и переработка — на балансах дочерних обществ</td></tr>
+      <tr><td>Прибыль на акцию, руб.</td><td class="ras num">582,70</td><td class="ifrs num">133,5</td><td class="eff">По МСФО показана прибыль от продолжающей деятельности; с учетом прекращенной — убыток</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="note"><b>Как это читать.</b> Дивиденды ЛУКОЙЛ платит из прибыли по МСФО (дивидендная база — скорректированный свободный денежный поток), а не из прибыли по РСБУ. За 2025 год объявлено 675 руб. на акцию — при убытке по МСФО и прибыли по РСБУ. Это и есть практический ответ на вопрос, зачем компании две отчетности: РСБУ отвечает на вопрос «что произошло с юридическим лицом», МСФО — «что произошло с бизнесом».</div>
+</section>
+
+<section id="vyvody">
+  <div class="sec-head"><span class="sec-num">07</span><h2>Короткие выводы</h2></div>
+  <div class="prose">
+    <ol class="steps">
+      <li>Отчетность ЛУКОЙЛа по РСБУ — это отчетность <b>холдинговой и торговой компании</b>, а не нефтяного бизнеса: основные средства у нее 5,6 млрд руб. при активах 2 724 млрд.</li>
+      <li>Сравнивать показатели РСБУ и МСФО напрямую нельзя: разный периметр, разные правила оценки, разная логика признания. Сопоставимы только отдельные статьи вроде денежных средств.</li>
+      <li>ФСБУ последних лет (5/2019, 6/2020, 25/2018, 26/2020, 14/2022) закрыли значительную часть технических различий. Принципиальные — консолидация, справедливая стоимость, обесценение, финансовые инструменты и прекращаемая деятельность — остались.</li>
+      <li>2025 год показал это наглядно: одно и то же экономическое событие дало по РСБУ прибыль 404 млрд руб., а по МСФО — убыток 1 064 млрд руб.</li>
+    </ol>
+  </div>
+</section>
+
+<footer>
+  <p><b>Источники</b></p>
+  <ol>
+    <li>ГИР БО ФНС России — бухгалтерская отчетность ПАО «ЛУКОЙЛ» за 2021–2025 годы, формы 0710001, 0710002, 0710004, 0710005 (первоисточник всех данных по РСБУ): <a href="https://bo.nalog.gov.ru/organizations-card/6681478">bo.nalog.gov.ru/organizations-card/6681478</a></li>
+    <li>Центр раскрытия корпоративной информации «Интерфакс», карточка ПАО «ЛУКОЙЛ» № 17: <a href="https://www.e-disclosure.ru/portal/company.aspx?id=17">e-disclosure.ru</a></li>
+    <li>ПАО «ЛУКОЙЛ». Финансовые результаты и отчетность по МСФО: <a href="https://lukoil.ru/InvestorAndShareholderCenter/FinancialReports">lukoil.ru</a></li>
+    <li>«Интерфакс», 20.03.2026. Чистый убыток ЛУКОЙЛа по МСФО за 2025 год: <a href="https://www.interfax.ru/business/1078992">interfax.ru/business/1078992</a></li>
+    <li>«Интерфакс», 24.03.2025. Результаты ЛУКОЙЛа по МСФО за 2024 год: <a href="https://www.interfax.ru/business/1016293">interfax.ru/business/1016293</a></li>
+    <li>Агрегированные показатели МСФО: <a href="https://smart-lab.ru/q/LKOH/f/y/">smart-lab.ru/q/LKOH/f/y</a></li>
+  </ol>
+  <p style="color:var(--muted);font-size:13px">Данные по РСБУ выгружены из ГИР БО и приведены без изменений, кроме перевода из тысяч в миллионы рублей. Показатели МСФО взяты из публикаций компании и информационных агентств. Материал подготовлен для учебных целей и не является инвестиционной рекомендацией.</p>
+</footer>
+
+</div>

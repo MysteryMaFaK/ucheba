@@ -1,0 +1,8 @@
+# локальные индексы и настройки инструментов
+.repowise/
+.claude/settings.local.json
+
+# временные файлы Office и Windows
+~$*
+Thumbs.db
+desktop.ini
