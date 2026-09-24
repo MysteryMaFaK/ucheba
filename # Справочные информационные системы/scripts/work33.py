@@ -3,7 +3,7 @@
 import os
 from work32 import (PROFILE, BASE, S32, S33, EXPAND, shot, quick_search, doc_links,
                     open_doc, open_fav_dialog, to_folder, folders_page, collapse,
-                    open_folder, txt, sync_playwright, time)
+                    open_folder, txt, sync_playwright, time, favorites_section)
 
 CARD = BASE + '/cgi/online.cgi?req=card&div=LAW'
 
@@ -90,7 +90,7 @@ def make_folders33(page):
         # перезагрузка снимает выделение предыдущей папки — иначе новая ляжет внутрь неё
         page.goto(BASE + '/cgi/online.cgi?req=favorites', wait_until='domcontentloaded')
         page.wait_for_timeout(7000)
-        page.mouse.click(32, 203)
+        favorites_section(page, 'Папки')
         page.wait_for_timeout(4000)
         page.get_by_text('Создать папку', exact=True).first.click()
         page.wait_for_timeout(2500)

@@ -10,7 +10,7 @@ FOLDERS = [('Дистанционная торговля', '32_p4_folder'),
 def folders_page(page):
     page.goto(BASE + '/cgi/online.cgi?req=favorites', wait_until='domcontentloaded')
     page.wait_for_timeout(8000)
-    page.mouse.click(32, 203)            # раздел «Папки»
+    favorites_section(page, 'Папки')            # раздел «Папки»
     page.wait_for_timeout(4000)
 
 
@@ -34,7 +34,7 @@ with sync_playwright() as pw:
 
     page.goto(BASE + '/cgi/online.cgi?req=favorites', wait_until='domcontentloaded')
     page.wait_for_timeout(8000)
-    page.mouse.click(32, 265)            # раздел «Документы на контроле»
+    favorites_section(page, 'Документы на контроле')            # раздел «Документы на контроле»
     page.wait_for_timeout(5000)
     collapse(page)
     shot(page, D, '32_p8_list')

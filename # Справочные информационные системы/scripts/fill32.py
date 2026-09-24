@@ -59,7 +59,7 @@ with sync_playwright() as pw:
         to_folder(page, folder)
     page.goto(BASE + '/cgi/online.cgi?req=favorites', wait_until='domcontentloaded')
     page.wait_for_timeout(7000)
-    page.mouse.click(32, 203); page.wait_for_timeout(4500)
+    favorites_section(page, 'Папки'); page.wait_for_timeout(4500)
     shot(page, S, '32_docfolders_filled')
     print(page.evaluate("document.body.innerText")[-330:].replace('\n', ' | '))
     ctx.close()

@@ -19,7 +19,7 @@ def make_folders(page):
         # перезагрузка снимает выделение предыдущей папки — иначе новая ляжет внутрь неё
         page.goto(BASE + '/cgi/online.cgi?req=favorites', wait_until='domcontentloaded')
         page.wait_for_timeout(7000)
-        page.mouse.click(32, 203)
+        favorites_section(page, 'Папки')
         page.wait_for_timeout(4000)
         page.get_by_text('Создать папку', exact=True).first.click()
         page.wait_for_timeout(2500)

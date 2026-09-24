@@ -6,7 +6,7 @@ with sync_playwright() as pw:
     ctx, page = open_ctx(pw)
     page.goto(BASE + '/cgi/online.cgi?req=favorites', wait_until='domcontentloaded')
     page.wait_for_timeout(8000)
-    page.mouse.click(32, 203)
+    favorites_section(page, 'Папки')
     page.wait_for_timeout(5000)
     shot(page, S, 'dbg_folders_section')
     print(page.evaluate("document.body.innerText")[:500].replace('\n', ' | '))

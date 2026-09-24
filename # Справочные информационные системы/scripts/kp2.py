@@ -25,6 +25,22 @@ def open_ctx(pw, headless=True):
     return ctx, page
 
 
+FAV_TABS = {'Закладки': 0, 'Папки': 1, 'Документы на контроле': 2}
+
+
+def favorites_section(page, name):
+    """Раздел Избранного по кнопке боковой панели: координаты иконок зависят от того, свёрнута ли панель."""
+    page.goto(BASE + '/cgi/online.cgi?req=favorites', wait_until='domcontentloaded')
+    page.wait_for_timeout(7000)
+    page.evaluate("""(i)=>{const b=document.querySelectorAll('.x-page-favorites-sidebar-button');
+        if(b[i]) b[i].click();}""", FAV_TABS[name])
+    page.wait_for_timeout(4000)
+    title = page.evaluate("""()=>{const t=document.querySelector('.x-page-favorites-title-toolbar__title');
+        return t ? t.textContent.trim() : '';}""")
+    if title != name:
+        raise RuntimeError('открылся раздел «%s» вместо «%s»' % (title, name))
+
+
 def shot(page, folder, name):
     page.screenshot(path=os.path.join(folder, name + '.png'))
     print('  OK', name, flush=True)
