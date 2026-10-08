@@ -1,0 +1,388 @@
+{
+ "picks": [
+  {
+   "id": null,
+   "name": "xTranslator (sseTranslator)",
+   "url": "https://github.com/MGuffin/xTranslator",
+   "section": "russian",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Основной редактор переводов: ESP/ESM, строки, MCM-файлы Translate, Papyrus PEX. Для Skyrim SE есть профиль sseTranslator.",
+   "vr_status": "works_as_is",
+   "files": "Профиль Skyrim Special Edition (sseTranslator); кодировка по умолчанию UTF-8. Скачивать на Nexus (README просит не качать с других сайтов).",
+   "requires": [],
+   "note": "Внешняя программа, к игре отношения не имеет: открывайте плагины из папки мода MO2, итог кладите отдельным модом. Локализовать/делокализовать плагин он не умеет, для этого нужен xEdit. В VR не проверяется, это не мод.",
+   "evidence": "README github.com/MGuffin/xTranslator: игры Skyrim/SSE/FO4/FNV, режимы ESP, Hybrid, MCM, PEX, UTF-8 по умолчанию для SE, интерфейс есть на русском (частично). В README про VR ничего нет."
+  },
+  {
+   "id": 921,
+   "name": "ESP-ESM Translator",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/921",
+   "section": "russian",
+   "tag": "alt",
+   "choose_one_group": null,
+   "what": "Второй редактор переводов со словарями EET (русский в списке языков). Нужен, если готовый словарь есть только в EET.",
+   "vr_status": "works_as_is",
+   "files": "Актуальная версия лежит на SSE-странице 921; словари EET класть в папку BDD программы.",
+   "requires": [],
+   "note": "Плагины открывать в кодировке UTF-8 (кодовая страница SE), иначе портятся спецсимволы. Если ставите xTranslator, этот инструмент нужен редко.",
+   "evidence": "Сниппет страницы 921: Skyrim/SE/FO3/FNV/FO4, перевод PEX, MCM, fomod, русский среди языков. Совет про UTF-8 и папку BDD: handbook.tesrskywind.com/misc/translation."
+  },
+  {
+   "id": 111491,
+   "name": "SSE Auto Translator (SSE-AT)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/111491",
+   "section": "russian",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Сканирует модлист, качает переводы с Nexus, собирает в один выходной мод через Dynamic String Distributor (он уже в ядре).",
+   "vr_status": "works_as_is",
+   "files": "Отдельная программа Windows, поддерживает MO2 и Vortex. Выходной мод ставится в конец списка MO2.",
+   "requires": [
+    "Dynamic String Distributor"
+   ],
+   "note": "Русская masterlist не подтверждена: в описании названа только немецкая, остальное ищется по ссылкам на страницах модов. Основной упор на плагины; интерфейс и скрипты включаются в настройках. Звук не поддерживается. Не запускать вместе с Vortex.",
+   "evidence": "Страница Nexus 111491 (сниппет) и github.com/Cutleast/SSE-Auto-Translator: перевод всего списка, формат DSD, MO2 поддерживается. Про VR и русский в README ничего нет, поэтому метка try."
+  },
+  {
+   "id": 386,
+   "name": "Sovngarde — A Nordic Font (Mist's Font Replacer)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/386",
+   "section": "russian",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Шрифт интерфейса с кириллицей: у автора заявлено 9 языков, русский среди них. В ядре шрифтового мода нет, а в английском интерфейсе вместо русских букв будут квадраты.",
+   "vr_status": "works_as_is",
+   "files": "Один из двух: Bold V8.9 (стоит в Tempus Maledictum VR) или Light V8.9 (SE-листы). Для чтения в VR берите Bold.",
+   "requires": [],
+   "note": "Ставить один шрифтовый мод, он перезаписывает fontconfig*.txt и fonts_*.swf. Если после смены языка остаются квадраты, ищите fontconfig_ru.txt и проверяйте, что он из этого же мода: для VR гайдов нет. Другие шрифты из VR-листов (Sanguis, Trattatello, Font Overhaul) кириллицу не подтвердили. Перед установкой сохраните оригинальный fontconfig.txt.",
+   "evidence": "whouses 386: Tempus Maledictum VR (Bold V8.9) и ещё 7 SE-листов. Страница LE-версии 77036: 9 языков, русский набор, кириллический шрифт от Fozar. Работа fontconfig_ru в VR не подтверждена, источник по fontconfig — ветка Steam."
+  },
+  {
+   "id": 4505,
+   "name": "Multiple Languages Strings Unified Central SSE-AE",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/4505",
+   "section": "russian",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Единые строковые таблицы для SE/AE на разных языках. Запасной вариант, если после обновлённых мастеров русский текст Update.esm пропадает.",
+   "vr_status": "unknown",
+   "files": "Смотреть вкладку Files: нужен набор строк под ваши мастера 1.6.1170. Не смешивать со строками Legendary Edition.",
+   "requires": [
+    "Skyrim VR Strings Fix for Updated SSE Master Files"
+   ],
+   "note": "Ставить только если после Strings Fix в игре остаются пустые или английские названия. Порядок: ниже Strings Fix проверять на слабых местах (замки, отмычки, Update.esm). Метка try: поддержка русского и VR не сверена с файлами.",
+   "evidence": "Тема Nexus к моду 4505 (сниппет): у одного игрока в VR вернулись пропавшие строки Update.esm, у другого нет; предупреждение, что строки LE и SE/AE несовместимы. Описание Strings Fix 176040: загруженные строки VR перекрывают BSA, правка в interface\\Translate\\_LANGUAGE.txt."
+  },
+  {
+   "id": 28921,
+   "name": "Time Format Changer (Anniversary Edition)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/28921",
+   "section": "russian",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Формат времени в игре: привычные 24 часа вместо 12. Мелочь, но для русской локали удобно.",
+   "vr_status": "works_as_is",
+   "files": "Panda's Sovngarde берёт Time Format Changer (Anniversary Edition) v1.2.1 (файл 2024-02).",
+   "requires": [],
+   "note": "Описание страницы не сверялось, формат и опции берите из FOMOD. Проверьте, что мод не конфликтует с вашими строками времени в русском переводе.",
+   "evidence": "whouses 28921: Panda's Sovngarde (VR) — Time Format Changer (Anniversary Edition) 1-2-1; The Northern Experience (SE) — FOMOD Installer. Других VR-листов нет."
+  },
+  {
+   "id": 77359,
+   "name": "Scaleform Translation Plus Plus NG",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/77359",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: SE/AE-сборка вместо VR. В ядре уже стоит Scaleform Translation++ VR (60210).",
+   "vr_status": "flat_only",
+   "files": "Файлы ScaleformTranslationPP 1.8–1.10 для SE/AE, VR-варианта нет.",
+   "requires": [],
+   "note": "Оба сразу не ставить, будет двойной хук интерфейса. Если мод требует STPP NG, берите VR-версию 60210.",
+   "evidence": "whouses 77359: 10 SE-листов (самый свежий 1.10 от 2026-08-24), 0 из 9 VR. whouses 60210: 4 VR-листа (Tempus, Panda's, Tahrovin, Yggdrasil), версия 1.4.1."
+  },
+  {
+   "id": 166751,
+   "name": "dMenu NG — CTD Fixes and Global Translations",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/166751",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: нет ни одной VR-сборки, версия VR не подтверждена. В VR меню и MCM делают SkyUI VR + MCM Helper (в ядре).",
+   "vr_status": "flat_only",
+   "files": "dMenu NG — Patch 1.3 (файл 2026-03-16), используется в SE-листах.",
+   "requires": [],
+   "note": "Пересмотреть, только если у автора появится VR-версия или VR-лист начнёт её использовать.",
+   "evidence": "whouses 166751: 6 SE-листов (Nordic Souls, NGVO, LoreRim, Tomes of Talos, Nordic Souls PBR, Apostasy), 0 из 9 VR. Проверка VR-сборки на странице не была возможна: nexusmods.com закрыт."
+  },
+  {
+   "id": 30810,
+   "name": "Main Menu Design Replacer (Multilanguage, 60 FPS)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/30810",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: меняет главное меню SE. В VR первой идёт Playroom, мод ничего не даёт, а Multilanguage подтянет лишние файлы.",
+   "vr_status": "flat_only",
+   "files": "Только плоские версии, например «just centered» и «clean» в SE-листах.",
+   "requires": [],
+   "note": "Для VR отдельно ставят разве что Spinning Skyrim Emblem (725): он есть в Librum VR.",
+   "evidence": "whouses 30810: The Northern Experience и Aldrnari (SE), 0 из 9 VR. Про Playroom: README FUS и ядро Realm of Lorkhan (первым в VR идёт главное меню Playroom)."
+  },
+  {
+   "id": null,
+   "name": "Managing Creation Club Content with Your Mod Manager (infernalryan)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/articles/6740",
+   "section": "cc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Гайд: как вынести файлы CC (4 бесплатных и все Anniversary Upgrade) из Data в отдельные моды MO2 и включать их по одному. Работает и для VR 1.4.15.",
+   "vr_status": "works_as_is",
+   "files": "Нужна копия Skyrim SE/AE на Steam или GOG. CC в VR никогда не было, ставится только копированием файлов.",
+   "requires": [],
+   "note": "Отключите автообновление SE, иначе файлы вернутся в Data. Survival Mode в VR работает частично (часть функций недоступна), но плагин лучше оставить включённым и добавить Survival Mode Prompt Removed — оба уже в ядре. Магазин Creations в VR недоступен.",
+   "evidence": "Сниппеты страницы 6740 и 6649: инструкция для VR 1.4.15, про Survival Mode — «minor incompatibilities … no problems in the game». Tempus Maledictum VR ставит десятки модов под CC (Power of Creation, CC Fishing, Cathedral Armory for CC и др.), то есть CC в VR реально используют."
+  },
+  {
+   "id": 18975,
+   "name": "Unofficial Skyrim Creation Club Content Patches",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/18975",
+   "section": "cc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Исправления контента CC и совместимость с USSEP. Нужны, если ставите платные AE-плагины из гайда выше.",
+   "vr_status": "works_as_is",
+   "files": "Основной файл «Unofficial Creation Club Content Patch» последней версии (8.5, август 2026). Tempus Maledictum VR остаётся на 7.10; Restored Helmets — по желанию.",
+   "requires": [
+    "Skyrim VR ESL Support",
+    "Updated masters path"
+   ],
+   "note": "Без DLL, поэтому подходит для VR. Рассчитан на обновлённые мастера и последний USSEP; если вы на Пути B (USSEP 4.2.5b, мастера 1.4.15), берите 7.10. Страница USSEP настоятельно рекомендует патчи Garthand для CC при полном AE-контенте.",
+   "evidence": "whouses 18975: 12 SE-листов (CSVP, NGVO, LoreRim, Lost Legacy, Skyrim25 8.5 и др.) и Tempus Maledictum VR (7.10). Новейшая 8.5 с отметкой 2026-08-03. В VR-версиях 8.x не проверено."
+  },
+  {
+   "id": 61777,
+   "name": "Grass Fixes for Creation Club Mods",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/61777",
+   "section": "cc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Трава не прорастает через ландшафт CC-локаций и построек. Нужно только при установленных платных CC с травой и мод ставится вместе с вашим травяным паком.",
+   "vr_status": "works_as_is",
+   "files": "Grass Fixes for Creation Club Mods 1.2 (единственный файл).",
+   "requires": [],
+   "note": "Проверьте, что патч не конфликтует с Landscape Fixes в ядре (Merethic Grasslands), и грузите после него. Не берите при запуске только с четырьмя бесплатными CC.",
+   "evidence": "whouses 61777: Tempus Maledictum VR и 4 SE-листа (CSVP, Elysium, True North, Wunduniik); один файл 1.2 (2022)."
+  },
+  {
+   "id": 70992,
+   "name": "Creation Club Open Helmets",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/70992",
+   "section": "cc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Открытые лица у шлемов CC. В VR шлем закрывает обзор и мешает видеть руки, так что вариант пригодится.",
+   "vr_status": "works_as_is",
+   "files": "Свежий файл 2.0 (2.4.2) и Patches 2.8.2 — как у Nordic Souls PBR и True North (2026). Tempus Maledictum VR остаётся на 1.4.",
+   "requires": [],
+   "note": "Нужны только при установленных AE-плагинах с шлемами. Патчи берите под ваши моды брони; выбор FOMOD из архивов сборок не виден.",
+   "evidence": "whouses 70992: Tempus Maledictum VR (1.4), Elysium, Nordic Souls PBR (2.0 + Patches 2.8.2), True North (2.0)."
+  },
+  {
+   "id": 106048,
+   "name": "Creation Club Item Descriptions",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/106048",
+   "section": "cc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Описания предметов CC, которых нет в игре. В VR описания видны в рюкзаке и в меню, удобно при чтении без клавиатуры.",
+   "vr_status": "works_as_is",
+   "files": "Файл v1.6 («20 lines lightly edited») из Tempus Maledictum VR и Nordic Souls PBR.",
+   "requires": [
+    "Description Framework"
+   ],
+   "note": "Description Framework в ядре есть (105799), требование сверьте на странице мода. Для русского потребуется отдельный перевод.",
+   "evidence": "whouses 106048: Tempus Maledictum VR и Nordic Souls PBR, файл 1-6 (2025-02)."
+  },
+  {
+   "id": 115096,
+   "name": "LORKHAN — Soundtrack Replacer",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/115096",
+   "section": "music",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Замена саундтрека: около трёх часов оригинальной «лорной» музыки для игры и DLC, музыка привязана к ключевым моментам и ставит паузы.",
+   "vr_status": "works_as_is",
+   "files": "Один файл «LORKHAN - Soundtrack Replacer» 1.0 (2024-03), его же берут Stormcrown VR и Tahrovin.",
+   "requires": [],
+   "note": "Заменяет ванильные музыкальные записи: не ставьте вторым замену Soule-подобную. Для дополнительной музыки используйте Music Type Distributor (LoreRim ставит их вместе). Combat Music Fix NG из ядра совместим.",
+   "evidence": "whouses 115096: VR — Stormcrown VR (2026-09) и Tahrovin; SE — Nordic Souls, Nordic Souls PBR, LoreRim, Tomes of Talos, Apostasy, Wunduniik. Описание по статье DSOGaming: ~3 часа оригинальной музыки."
+  },
+  {
+   "id": 119571,
+   "name": "Music Type Distributor",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/119571",
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фреймворк, раздающий музыкальные типы по локациям и ситуациям. Нужен, чтобы подключать наборы музыки без конфликтов.",
+   "vr_status": "works_as_is",
+   "files": "Файл 1.4.0 (2024-08), стоит в Spirit of Grit и Tahrovin — Grit.",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR"
+   ],
+   "note": "Это DLL: после запуска проверьте в sksevr.log, что она загрузилась. Ставить, только если берёте PMF/Personalized Music или музыкальные паки с MTD.",
+   "evidence": "whouses 119571: VR — Spirit of Grit и Tahrovin — Grit (1.4.0); SE — CSVP, NGVO, LoreRim, Tomes of Talos, Nordic Souls PBR, Wunduniik. Автор и точный состав DLL (VR) на странице не проверены."
+  },
+  {
+   "id": 91231,
+   "name": "Unique Battle Music",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/91231",
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Уникальная боевая музыка для разных ситуаций и противников. Дополняет ванильную, не заменяя её.",
+   "vr_status": "works_as_is",
+   "files": "Основной файл Unique Battle Music; к нему «Combat Music Fix NG — Unique Battle Music Patch» (157985, 2025-08), оба стоят в Grit-листах.",
+   "requires": [
+    "Combat Music Fix NG"
+   ],
+   "note": "Combat Music Fix NG уже в ядре. Патч обязателен, иначе боевая музыка не выключится вовремя. С LORKHAN сочетать на свой вкус: оба правят боевые треки.",
+   "evidence": "whouses 91231 и 157985: Spirit of Grit и Tahrovin — Grit (VR), SE-листов нет."
+  },
+  {
+   "id": 174068,
+   "name": "Personalized Music SSE — Modernized",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/174068",
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": "music_framework",
+   "what": "Каркас для своих плейлистов по локациям, днём и ночью. Версия 2026 года с вариантом под Music Type Distributor.",
+   "vr_status": "works_as_is",
+   "files": "Grit-листы берут три файла: «1 — Personalized Music SSE — ESL», «Personalized Music SSE — MTD — With Vanilla Music» и «2 — Personalized Music — MTD — Without Vanilla Music». Берите один из MTD-файлов.",
+   "requires": [
+    "Music Type Distributor"
+   ],
+   "note": "С vanilla: свою музыку добавляете к ванильной. Без vanilla: ванильная выключается. Своих треков в наборе нет, их нужно положить самому. Выберите один каркас: этот или PMF.",
+   "evidence": "whouses 174068: Spirit of Grit и Tahrovin — Grit (VR), файлы 1.0 от 2026-03-06. SE-листов нет."
+  },
+  {
+   "id": 134467,
+   "name": "Personal Music Framework",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/134467",
+   "section": "music",
+   "tag": "alt",
+   "choose_one_group": "music_framework",
+   "what": "Альтернативный каркас для своих плейлистов. Решение из Grit-листов, где стоит рядом с Personalized Music.",
+   "vr_status": "works_as_is",
+   "files": "Personal Music Framework — FOMOD 1.0 (2024-12); патч «PMF — Personalized Music Patch» (157975, 2025-08).",
+   "requires": [
+    "Music Type Distributor"
+   ],
+   "note": "Ставьте один из двух каркасов. Если оба Grit-листа берут оба, их роли в списке не разведены, поэтому в простом списке достаточно одного.",
+   "evidence": "whouses 134467 и 157975: Spirit of Grit и Tahrovin — Grit (VR), SE-листов нет. Описание Personal Music Framework на странице не проверено."
+  },
+  {
+   "id": 22551,
+   "name": "Soulmancer's Merged Soundtrack",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/22551",
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Сборник фановой музыки (слитые саундтреки) для добавления к вашей основной замене. Подходит как фон к MTD.",
+   "vr_status": "works_as_is",
+   "files": "Soulmancer's Merged Soundtrack 4.10 (2025-03).",
+   "requires": [
+    "Music Type Distributor"
+   ],
+   "note": "Объём большой, на диске займёт гигабайты. Подключать к LORKHAN или к ванильной музыке через MTD. Emeratu — A Music Mod (117413) из тех же листов подходит как ещё одна добавка.",
+   "evidence": "whouses 22551: Spirit of Grit и Tahrovin — Grit (VR), SE-листов нет. Emeratu 117413 там же: основной файл 1.1.1 плюс Expansion Pack и Hotfix 2."
+  },
+  {
+   "id": 10927,
+   "name": "Bard Instrumentals Mostly — Sing Rarely",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/10927",
+   "section": "music",
+   "tag": "rec",
+   "choose_one_group": "bard_songs",
+   "what": "Барды в тавернах чаще играют без слов и реже поют. В VR, где сидишь рядом с бардом, это сильно меньше раздражает.",
+   "vr_status": "works_as_is",
+   "files": "Один файл Bard Instrumentals Mostly — Sing Rarely (1.0).",
+   "requires": [],
+   "note": "Совместим с MTD и ванильной музыкой. Не ставить вместе с BA Bard Songs (47202): оба правят песни бардов, выберите один.",
+   "evidence": "whouses 10927: 4 VR (Tempus, Panda's, Librum, Yggdrasil) и 3 SE (Northern Experience, Apostasy, Aldrnari)."
+  },
+  {
+   "id": 37792,
+   "name": "Chapter II — Jeremy Soule Inspired Music",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/37792",
+   "section": "music",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Музыка в духе Джереми Соула; добавляется к ванильным трекам, ESL-плагин. Свежая версия 2026.",
+   "vr_status": "works_as_is",
+   "files": "Chapter II v3.6 — ESL (2024-12), страница обновлялась в апреле 2026.",
+   "requires": [
+    "Skyrim VR ESL Support"
+   ],
+   "note": "Ни один VR-лист его не берёт, но DLL нет, музыка обычная. Не ставьте рядом с другой полной заменой саундтрека. Хороший запасной вариант, если LORKHAN не по вкусу.",
+   "evidence": "whouses 37792: 0 VR, 8 SE-листов; последний файл 3.6 ESL от 2024-12, страница обновлена 2026-04-06 (pool other_world)."
+  },
+  {
+   "id": 24486,
+   "name": "bHaptics Tactsuit — SkyrimVR Integration",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/24486",
+   "section": "niche",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Вибрация жилета bHaptics от ударов, стрел и заклинаний. Нужен только при наличии Tactsuit/TactVisor/TactSleeve.",
+   "vr_status": "vr_native",
+   "files": "Tactsuit SkyrimVR 2.2.4 (2024-07-28), как в Panda's Sovngarde и FUS.",
+   "requires": [
+    "SKSEVR",
+    "Skyrim VR Tools"
+   ],
+   "note": "Нужны bHaptics Player на ПК и запуск через sksevr_loader.exe. Если брандмауэр блокирует SkyrimVR, связь с Player пропадёт. Haptic Skyrim VR из ядра ставится рядом: Panda's Sovngarde и FUS используют оба.",
+   "evidence": "whouses 24486: Panda's Sovngarde (2.2.4) и FUS (2.0.1 и 2.2.4). Инструкция bHaptics: bhaptics.notion.site (SKSEVR, Skyrim VR Tools, sksevr_loader)."
+  },
+  {
+   "id": null,
+   "name": "Natural Locomotion (Steam)",
+   "url": "https://store.steampowered.com/app/798810/Natural_Locomotion/",
+   "section": "niche",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ходьба взмахом рук или на месте: программа имитирует стик через драйвер SteamVR. Для тех, кто хочет меньше укачивания.",
+   "vr_status": "vr_native",
+   "files": "Платное приложение Steam. В нём есть профиль Skyrim VR: запускайте профиль «Start Selected Profile», потом игру.",
+   "requires": [],
+   "note": "В Skyrim VR должно быть включено свободное перемещение (скользящее). Заявлены проблемы со спринтом и прыжком (резкий наклон стика); у Reverb G2 нет датчиков касания. Не мод, поэтому в MO2 не ставится; привязки SteamVR оставляйте по умолчанию.",
+   "evidence": "Ветки Steam-сообщества NaLo (app 798810): профиль Skyrim VR, эмуляция стика, жалобы на спринт. Ни одна из 9 VR-сборок его не использует, поэтому только opt."
+  }
+ ],
+ "section_leads": [
+  {
+   "section": "russian",
+   "lead": "Готового русификатора для VR я не нашёл: берите переводы модов с Nexus, собирайте их через SSE-AT/DSD (уже в ядре) и правьте в xTranslator. Сначала проверьте Data\\Strings на skyrim_russian и update_russian, затем Strings Fix и шрифт с кириллицей."
+  },
+  {
+   "section": "cc",
+   "lead": "CC в VR никогда не было: файлы переносятся копированием с Skyrim SE/AE по гайду infernalryan. Для ядра достаточно Пути A и 4 бесплатных; платный AE ставьте по необходимости, с патчами USCCCP и ESL Support."
+  },
+  {
+   "section": "music",
+   "lead": "VR-листы сами редко меняют музыку. Берите одну замену саундтрека (LORKHAN у Stormcrown VR и Tahrovin), а добавки подключайте через MTD (как Grit-листы). Фрейморки PMF и Personalized Music не ставьте вместе."
+  },
+  {
+   "section": "niche",
+   "lead": "Железо поддерживают bHaptics и Natural Locomotion: оба внешние и нужны лишь при наличии устройства. Haptic Skyrim VR и Skyrim VR Tools уже в ядре, к ним добавляйте только жилет."
+  },
+  {
+   "section": "dont",
+   "lead": "Для русификации и меню в VR не бери SE-сборки STPP NG и dMenu NG, а также заменитель главного меню: в VR вместо него Playroom."
+  }
+ ],
+ "notes": "Вес данных: 27 архивов Wabbajack через whouses.py и сниппеты WebSearch; nexusmods.com и docs.moddingforge.com закрыты для fetch, страницы модов не читались. По русскому в VR не найдено ни одного готового гайда или русификатора. Нужно проверить локально: (1) есть ли в Data\\Strings файлы _russian у вашего Skyrim VR и заявлен ли русский в Strings Fix 176040 (в списке языков скриншотов мода нет); (2) где живёт fontconfig_ru.txt в Sovngarde 386 и работает ли он в SkyUI VR; (3) есть ли у Music Type Distributor 119571 VR-DLL (в Grit-листах он стоит); (4) описания PMF 134467, Personalized Music 174068, Time Format Changer 28921 и Emeratu 117413 на их страницах; (5) поддержку русского в SSE-AT (сейчас в описании только немецкая masterlist). Русская озвучка: мои источники ничего не говорят о Skyrim - Voices_ru0.bsa в VR; модовые озвучки обычно английские, русские субтитры берутся из переведённых строк (ILSTRINGS). xTranslator проверен через README на GitHub; Nexus-ID не указан, потому что не удалось подтвердить. Отброшены как «не VR/не подтверждено»: Dynamic Translation Framework 166821 (3 SE-листа, назначение не проверено), ModTranslator, Skyrim Strings Localizer 2889 (LE), Super Hi-Res Music Pack (дублирует UHDAP из ядра), CC Fish PBRed и Spell Knight PBR (нужен PBR-путь), Hendraheim/CC Home Requirements (дома игрока исключены), Saints and Seducers Extended Cut (квестовый контент). OWO-порт Tactsuit для костюма owo упомянут в сниппете, ID не подтверждён."
+}
