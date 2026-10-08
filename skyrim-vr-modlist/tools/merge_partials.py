@@ -19,7 +19,8 @@ if mode == 'install-spec':
     json.dump({'result': {'specs': list(specs.values()), 'group_notes': notes, 'procedure': proc, 'critic': critic}}, open(f'{DATA}/install_spec.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump({'specs': list(specs.values())}, open(f'{DATA}/specs_merged.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     draft = ld(f'{DATA}/kit/draft_manifest.json')['items']
-    missing = [x['key'] for x in draft if x['key'] not in specs]
+    _fx = os.path.join(DATA, 'kit', 'fixups.json'); _al = ld(_fx).get('key_aliases', {}) if os.path.exists(_fx) else {}
+    missing = [x['key'] for x in draft if x['key'] not in specs and _al.get(x['key']) not in specs]
     print(f'карточек установки: {len(specs)} из {len(draft)}; процедура: {"есть" if proc else "НЕТ"}; критик: {"есть" if critic else "НЕТ"}')
     by = {}
     for k in missing: by.setdefault(k.split('-')[0], []).append(k)
