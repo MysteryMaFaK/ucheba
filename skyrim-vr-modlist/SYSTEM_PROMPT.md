@@ -22,7 +22,7 @@
 
 ```yaml
 GAME_DIR:      "D:/SteamLibrary/steamapps/common/SkyrimVR"   # папка с SkyrimVR.exe
-MO2_DIR:       "E:/Modding/SkyrimVR-MO2"                     # портативный инстанс MO2 (папка проекта с этими файлами — E:/Modding/ucheba/skyrim-vr-modlist)
+MO2_DIR:       "E:/Modding/SkyrimVR-MO2"                     # портативный инстанс MO2 (папка проекта с этими файлами — E:/Modding/skyrim-vr-modlist или E:/Modding/ucheba/skyrim-vr-modlist)
 PROFILE:       "Core 2026"
 DOWNLOADS_DIR: "E:/Modding/SkyrimVR-MO2/downloads"
 SEVENZIP:      "C:/Program Files/7-Zip/7z.exe"
