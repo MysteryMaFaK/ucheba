@@ -1,0 +1,563 @@
+{
+ "picks": [
+  {
+   "id": 125308,
+   "name": "Faultier's PBR Skyrim",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/125308",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": "arch_base",
+   "what": "PBR-перетекстур архитектуры и клатера: Солитьюд, руины, дворфы/Маркарт, корабли, Скайхейвен, окна. Основа PBR-пути.",
+   "vr_status": "works_as_is",
+   "files": "AIO 2k (Tempus VR, 2.0.4) или отдельные файлы с суффиксом «2k» (Nordic Souls PBR, 2026). Файлы без «2k» (Panda's) — полное разрешение. AIO 4k в VR не брать; при нехватке VRAM — AIO 1k. «Faultier's PBR Windows» нужен при Lux; рядом «Lux - Faultier's PBR Windows Shadow mask fix» #170443 (Morning Star).",
+   "requires": [
+    "Open Shaders (PBR)",
+    "PGPatcher #120946"
+   ],
+   "note": "Только PBR-путь. Установка как обычный ретекстур, затем PGPatcher. Города Tomato's, Stony AF Markarth — выше по приоритету, чтобы они выигрывали у соответствующих файлов Faultier's. Отдельные файлы Solitude/Dwemer Ruins/Nordic Ruins не ставить, если взяли замену. С Noble Skyrim и Vanilla PBR по тем же объектам не смешивать. PBR в VR на Open Shaders проверить на тестовом прогоне.",
+   "evidence": "Panda's Sovngarde (отдельные файлы: Solitude, Nordic Ruins, Dwemer, Clutter, Windows); Tempus VR (Faultier's PBR Skyrim AIO 2k 2.0.4); SE: Nordic Souls PBR и Morning Star (файлы 2k, 2025-2026)."
+  },
+  {
+   "id": 174091,
+   "name": "Vanilla PBR AIO",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/174091",
+   "section": "tex_arch",
+   "tag": "try",
+   "choose_one_group": "arch_base",
+   "what": "Лёгкий PBR-AIO в ванильном стиле: меняет материал, а не дизайн. Вариант PBR-базы, если не хочется смены облика Skyrim.",
+   "vr_status": "works_as_is",
+   "files": "Vanilla PBR 1.33 (2026-08-17, Stormcrown VR). Патч «Vanilla PBR AIO - 3D Whiterun Walls Patch» — только если стоят 3D-стены Вайтрана (Morning Star).",
+   "requires": [
+    "Open Shaders (PBR)",
+    "PGPatcher #120946"
+   ],
+   "note": "Единственный PBR-пак в новейшем VR-списке Stormcrown (CSX 3.19.1-VR + PGPatcher 2.0.0). Содержимое страницы Nexus прочитать не удалось — ориентир только по названию и спискам. Берите либо его, либо Faultier's AIO как базу.",
+   "evidence": "Stormcrown VR (Vanilla PBR 1.33, 2026-08); SE: CSVO (1.32), Morning Star (1.33 + патч Whiterun Walls)."
+  },
+  {
+   "id": 21423,
+   "name": "Noble Skyrim Mod HD-2K",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/21423",
+   "section": "tex_arch",
+   "tag": "alt",
+   "choose_one_group": "arch_base",
+   "what": "Классическая (не PBR) база для интерьеров: мебель, ткани, украшения богатых домов. 2K, проверена на Open Shaders.",
+   "vr_status": "works_as_is",
+   "files": "«B. Noble Skyrim - FULL PACK_Performance Edition» + «NSM - SMIM Patch» (Yggdrasil VR 2026-10, Librum VR). У FUS/Tahrovin/Spirit of Grit — «A. FULL PACK_2K».",
+   "requires": [
+    "SMIM #659"
+   ],
+   "note": "Классический путь, без PGPatcher. В VR брать Performance Edition. На одни и те же объекты с Faultier's PBR не ставить: приоритет определяет победителя, но смесь PBR и не-PBR даёт разные блики.",
+   "evidence": "6 VR-списков: Yggdrasil VR (Open Shaders 2.17), Librum, FUS, Tahrovin, Tahrovin - Grit, Spirit of Grit; SE: LoreRim, NGVO, Elysium, Tomes of Talos."
+  },
+  {
+   "id": 173747,
+   "name": "Tomato's Whiterun Remake - PBR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/173747",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": "whiterun",
+   "what": "PBR-ремейк текстур Вайтрана: чистый дизайн и аккуратный износ. Главный городской PBR-пак 2026 для Вайтрана.",
+   "vr_status": "works_as_is",
+   "files": "«Whiterun Remake - PBR - 2k» 1.1 (Panda's) или новее «Tomato's Whiterun Remake - PBR - 2k» 2.3.1 (2026-07-27, CSVO, Nordic Souls PBR). Не 4K. Для Seasons of Skyrim — «Tomato's Whiterun Remake PBR - Seasonal Landscapes Patch» #174042.",
+   "requires": [
+    "Faultier's PBR Skyrim #125308 (опц.)",
+    "PGPatcher #120946"
+   ],
+   "note": "Новая версия 2.3.1 в VR-списках пока не стоит, Panda's ждёт 1.1. Берите 2.3.1 и смотрите журнал PGPatcher. Конфликтует с Illustrious Whiterun — выбрать один. Стены 3D Whiterun проверить отдельно.",
+   "evidence": "Panda's Sovngarde (Remake PBR 2k 1.1); SE 2026: CSVO (2.3.1), Nordic Souls PBR, CSVP (CM-версия 1.4)."
+  },
+  {
+   "id": 28950,
+   "name": "Illustrious Whiterun SE",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/28950",
+   "section": "tex_arch",
+   "tag": "alt",
+   "choose_one_group": "whiterun",
+   "what": "Классический ретекстур Вайтрана 2K. Безопасный путь без PBR, проверен на Open Shaders 2.17.",
+   "vr_status": "works_as_is",
+   "files": "«Illustrious Whiterun 2K» 2.0 + «Wood Addition 2K» (Yggdrasil VR 2026-10; Tempus: 2K 2.0). 4K — у Tahrovin, в VR только для крупных объектов. Parallax Meshes 2.7 — лишь при PGPatcher/Auto Parallax.",
+   "requires": [],
+   "note": "Выбрать одно: Tomato's Whiterun Remake PBR или этот. Параллакс-меши (Tahrovin, Tempus) в VR добавляют нагрузку на глаз, в Open Shaders не обязательны.",
+   "evidence": "5 VR-списков: Yggdrasil VR, Tahrovin, Tahrovin - Grit, Spirit of Grit, Tempus VR; SE: Aldrnari, Apostasy, Skyrim Unification Project."
+  },
+  {
+   "id": 174492,
+   "name": "Tomato's Windhelm - PBR or Complex Material",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/174492",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "PBR-текстуры Виндхельма (или Complex Material). Единственный свежий PBR-вариант города, лучше всего подходит для 2K.",
+   "vr_status": "works_as_is",
+   "files": "«Tomato's Windhelm PBR - 2K» 1.1 (Panda's, CSVO, Nordic Souls PBR); для CM-пути «Tomato's Windhelm CM - 2K» + «Windhelm Temple Fix - CM».",
+   "requires": [
+    "PGPatcher #120946"
+   ],
+   "note": "Альтернативы по названию: Jiaye's Windhelm PBR #130390 и Ancient AF Windhelm PBR #132706 (оба Tempus VR). Ставить одну. Не брать PBR и CM вместе.",
+   "evidence": "Panda's Sovngarde (PBR 2K); SE: CSVO, Nordic Souls, Nordic Souls PBR, CSVP, The Northern Experience."
+  },
+  {
+   "id": 157340,
+   "name": "Tomato's Riften and Ratway",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/157340",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "PBR-текстуры Рифтена и Рэтвэя: дерево, камень, мокрые поверхности. Ключевой городской пак для PBR-пути.",
+   "vr_status": "works_as_is",
+   "files": "«Tomato's Riften PBR - 2k» + «Tomato's Riften PBR edge FIXER» (Panda's, v1.0); «Riften PBR - 2k 1.2» (2026-06-23, CSVO). 4k (Tempus) не брать.",
+   "requires": [
+    "PGPatcher #120946"
+   ],
+   "note": "Версия Complex Parallax — для не-PBR пути, вместе с PBR не ставить. FYX-фиксы города (мешевые) — отдельная категория.",
+   "evidence": "Panda's Sovngarde (PBR 2k + edge FIXER), Tempus VR (PBR 4k); SE: CSVO (PBR 1.2), Nordic Souls PBR, LoreRim, NGVO, True North."
+  },
+  {
+   "id": 181707,
+   "name": "Tomato's Solitude Remastered - PBR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/181707",
+   "section": "tex_arch",
+   "tag": "try",
+   "choose_one_group": "solitude",
+   "what": "Переработанные PBR-текстуры Солитьюда (июнь 2026). Свежая SE-новинка, текстуры без DLL, для VR безопасно.",
+   "vr_status": "works_as_is",
+   "files": "«Tomato's PBR Solitude - Remastered 2k» 1.1 (CSVO, Nordic Souls PBR). Не 4K.",
+   "requires": [
+    "PGPatcher #120946"
+   ],
+   "note": "В VR-списках не стоит. Проверенная запасная замена: Tomato's PBR Solitude #144182 (Tempus VR) или Faultier's PBR Solitude (внутри #125308, Panda's). Выбрать одно.",
+   "evidence": "SE 2026: CSVO и Nordic Souls PBR. Для VR только косвенно: те же PBR-паки Tomato's ставят Panda's и Tempus."
+  },
+  {
+   "id": 127407,
+   "name": "Stony AF Markarth PBR / Complex Material",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/127407",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "PBR-текстуры Маркарта и дварфских руин поверх Stony AF. Лучший пакет Маркарта в PBR-пути.",
+   "vr_status": "works_as_is",
+   "files": "«Stony AF Markarth PBR» 1.0.0 (Panda's; в Nordic Souls PBR — версия 2025-12). Для дворфских труб — «Faultier's PBR - Dwemer Pipework Reworked patch» (Panda's, Tempus) или «Stony AF Markarth - Dwemer Pipework Reworked 2K» в не-PBR пути.",
+   "requires": [
+    "Stony AF Markarth and Dwemer Ruins #68815 (2K 2.2)",
+    "Dwemer Pipework Reworked #46507"
+   ],
+   "note": "Базовый Stony AF 2K 2.2 ставится первым, PBR сверху. Соседние файлы Faultier's «Dwemer Ruins and Markarth» отключить. 4K не нужен.",
+   "evidence": "Panda's Sovngarde (База 2.2 + PBR + Pipework patch); SE: Nordic Souls PBR, NGVO, CSVP, LoreRim, Tomes of Talos, Wunduniik."
+  },
+  {
+   "id": 158524,
+   "name": "Vanaheimr - Farmhouses - Complex Material and PBR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/158524",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "PBR-ретекстур фермерских домов и усадеб по всей карте. Самый частый выбор PBR-списков.",
+   "vr_status": "works_as_is",
+   "files": "«Vanaheimr - Farmhouses - PBR - 2k» 2.0 (Panda's, Nordic Souls PBR) + «Lux Patch» (Panda's, нужен при Lux). 4k (Tempus) не брать.",
+   "requires": [
+    "PGPatcher #120946"
+   ],
+   "note": "Для не-PBR пути есть «Farmhouses - 2k» с CM. Альтернативы: Tomato's PBR Farmhouses #135774 (SE 2026) и Exist's Farmhouses PBR #111230 (Tempus). Ставить одну.",
+   "evidence": "Panda's Sovngarde (PBR 2k + Lux Patch), Tempus VR (PBR 4k); SE: Nordic Souls PBR, CSVP, NGVO, LoreRim."
+  },
+  {
+   "id": 134372,
+   "name": "Tomato's PBR Imperial Forts and Dungeons",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/134372",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": "imperial_forts",
+   "what": "PBR-текстуры имперских фортов и подземелий. Проверенный в двух VR-списках вариант.",
+   "vr_status": "works_as_is",
+   "files": "«Tomato's Imperial Forts PBR 2k» 1.1. 4k (Tempus) не брать.",
+   "requires": [
+    "PGPatcher #120946"
+   ],
+   "note": "Не-PBR версия — #114714. Выбрать одну из страниц, а также одного из Imperial Forts Remake.",
+   "evidence": "Panda's Sovngarde и Tempus VR."
+  },
+  {
+   "id": 172845,
+   "name": "Imperial Forts Remake - PBR or Complex Material",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/172845",
+   "section": "tex_arch",
+   "tag": "try",
+   "choose_one_group": "imperial_forts",
+   "what": "Свежий PBR-ремейк имперских фортов (июль 2026). Кандидат на замену Tomato's PBR Forts.",
+   "vr_status": "unknown",
+   "files": "«Imperial Forts Remake PBR» 2.0 (2026-07-14) + «Imperial Forts Remake PBR LOD helper» (CSVO, Nordic Souls PBR).",
+   "requires": [
+    "PGPatcher #120946"
+   ],
+   "note": "Слово Remake может означать смену мешей — состав страницы не проверен. В VR-списках не стоит. Пробовать по одному и следить за кадром.",
+   "evidence": "SE 2026: CSVO и Nordic Souls PBR."
+  },
+  {
+   "id": 32376,
+   "name": "Glorious Doors of Skyrim (GDOS) SE",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/32376",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Уникальные двери по всей карте. В 8 VR-списках; без DLL, работает в VR.",
+   "vr_status": "works_as_is",
+   "files": "Основа «Glorious Doors of Skyrim (GDOS) SE» 1.1. Для PBR-пути — отдельная страница «GDOS SE PBR» #150727, файл «GDOS SE PBR» 2.0 (Panda's, Tempus).",
+   "requires": [],
+   "note": "PBR-страница #150727 — только при PBR-пути. Двери — крупные объекты у лица, но нагрузка небольшая.",
+   "evidence": "8 VR-списков: Panda's, Tempus, Yggdrasil, FUS, Librum, Tahrovin, Tahrovin - Grit, Spirit of Grit; SE: 11 списков. PBR — Panda's и Tempus."
+  },
+  {
+   "id": 57686,
+   "name": "Nordic Stonewalls",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/57686",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Новые каменные стены и ограды нордских построек. Популярный пак архитектуры в PBR-списках.",
+   "vr_status": "works_as_is",
+   "files": "«Nordic Stonewalls» 3.11 (Panda's, 2025-11). PBR-вариант — «Nordic Stonewalls PBR» из PBR Hub #139889 (Tempus VR). Патч для JK's Skyrim — только при JK's.",
+   "requires": [],
+   "note": "Мешевый компонент добавляет геометрию, ставить с осторожностью в плотных городах. На Open Shaders без PBR работает.",
+   "evidence": "Panda's Sovngarde и Tempus VR; SE: CSVO, CSVP, LoreRim, NGVO, Nordic Souls, Nordic Souls PBR, Tomes of Talos, True North, Wunduniik."
+  },
+  {
+   "id": 90557,
+   "name": "Paraphernalia - VRAMr",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/90557",
+   "section": "tex_pbr_tools",
+   "tag": "rec",
+   "choose_one_group": "vram_tool",
+   "what": "Автоматически уменьшает и оптимизирует текстуры под VRAM. В VR критично из-за двух глаз.",
+   "vr_status": "works_as_is",
+   "files": "VRAMr v16 (2026-03, NGVO, Tomes of Talos, Wunduniik). В VR-списках v14.74-v15 (Tahrovin, Spirit of Grit, Tempus VR).",
+   "requires": [],
+   "note": "Вывод — в отдельный мод. Сначала поставить все текстуры, затем VRAMr, потом PGPatcher. Для PBR/CM-файлов проверить исключения (у Tomes of Talos есть «v16 Exclusions Update»). Начать с пресета, дающего 2K.",
+   "evidence": "Tahrovin, Tahrovin - Grit, Spirit of Grit, Tempus VR; SE: NGVO, Tomes of Talos, Wunduniik."
+  },
+  {
+   "id": 187049,
+   "name": "Texture Downscaler",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/187049",
+   "section": "tex_pbr_tools",
+   "tag": "try",
+   "choose_one_group": "vram_tool",
+   "what": "Новый инструмент уменьшения текстур. Альтернатива VRAMr, поставлен в свежем Stormcrown VR.",
+   "vr_status": "works_as_is",
+   "files": "Texture Downscaler 2.4.0 (2026-08-22, Stormcrown VR, Apostasy).",
+   "requires": [],
+   "note": "Описание страницы не читалось, только имя и использование в списках. Вместе с VRAMr на одних файлах не гонять — один выбор.",
+   "evidence": "Stormcrown VR (2.4.0); SE: Apostasy (2.4.0), Tomes of Talos (2.3.2)."
+  },
+  {
+   "id": 139889,
+   "name": "PBR Hub",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/139889",
+   "section": "tex_pbr_tools",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Сборник PBR-конверсий для популярных ретекстуров. Берите только файлы под уже стоящие базовые моды.",
+   "vr_status": "works_as_is",
+   "files": "Нужные файлы: «Nordic Stonewalls PBR», «Stonewall Terraces PBR», «Detailed Rugs PBR» (Tempus); «Iconic Statues PBR», «Improved Dwemer Glass PBR», «Dibella Statue PBR» (Panda's); «Praedys College of Winterhold PBR» 1.1.0 и «Praedys Skeleton Replacer HD PBR» (Panda's, Tempus, Nordic).",
+   "requires": [
+    "базовый мод под каждый файл",
+    "PGPatcher #120946"
+   ],
+   "note": "Каждый файл ставится в отдельную папку и включается только при наличии базового мода. Embers XD PBR — только при Embers XD.",
+   "evidence": "Panda's Sovngarde, Tempus VR; SE: Nordic Souls PBR."
+  },
+  {
+   "id": 14365,
+   "name": "Underground - a dungeon texture overhaul",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/14365",
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": "dungeon_style",
+   "what": "Классический ретекстур подземелий и пещер. Базовый не-PBR вариант для Open Shaders.",
+   "vr_status": "works_as_is",
+   "files": "«Underground FOMOD» 1.2 + «Whiterun Tower fix». Complex Parallax Addon #82870 — по желанию (FUS).",
+   "requires": [],
+   "note": "Классический путь. При Faultier's PBR файлы подземелий не ставить на те же объекты. Параллакс-аддон в VR добавляет нагрузку — опционально.",
+   "evidence": "6 VR-списков: FUS, Librum, Panda's, Spirit of Grit, Tahrovin, Tahrovin - Grit; SE: Elysium, LoreRim, NGVO, Tomes of Talos."
+  },
+  {
+   "id": 137033,
+   "name": "Vanaheimr - Mines and Caves",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/137033",
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": "dungeon_style",
+   "what": "PBR-ретекстур шахт и пещер. Хорошо держится в 2K, поддерживают 9 SE-списков.",
+   "vr_status": "works_as_is",
+   "files": "«Vanaheimr - Mines and Caves - PBR - 2k» 5.0 (CSVO, Nordic Souls PBR, Panda's). Не-PBR: «Mines and Caves - 2k» 5.0 + «CPM - Lux Patch».",
+   "requires": [
+    "PGPatcher #120946"
+   ],
+   "note": "В PBR-пути выбрать это или Underground. Не ставить 4k (CSVO, Skyrim UP). Для пещер важно включить Terrain/Complex в Open Shaders и протестировать на Open Shaders.",
+   "evidence": "Panda's Sovngarde (PBR 2k 5.0); SE: CSVO, Nordic Souls PBR, LoreRim, NGVO, CSVP, Skyrim UP, Tomes, Wunduniik."
+  },
+  {
+   "id": 19365,
+   "name": "Rudy HQ - Nordic Ruins SE",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/19365",
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "HQ-текстуры нордских руин: сундуки, рычаги, урны, дерево. Классика, стоит в Yggdrasil VR 2026-10.",
+   "vr_status": "works_as_is",
+   "files": "«Rudy HQ - Nordic Ruins SE version» + «Chests addon» + «Ruin Levers addon». Файл «4K textures for the ruins chests urns and a wood» в VR не брать — только 2K-базу.",
+   "requires": [],
+   "note": "В PBR-пути с Faultier's «Nordic Ruins» не ставить поверх. Для серебра есть «PBR for Rudy HQ Silverware» #135776 (Panda's, Tempus).",
+   "evidence": "Yggdrasil VR, Librum VR, Tempus VR; SE: Aldrnari, Apostasy, Elysium, LoreRim, Wunduniik."
+  },
+  {
+   "id": 5870,
+   "name": "Ruins Clutter Improved",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/5870",
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Клатер нордских руин: горшки, ковры, свечи, подсвечники. Самый часто ставимый пак руин в VR-списках.",
+   "vr_status": "works_as_is",
+   "files": "«Ruins Clutter Improved SE Mod Manager» 3.2b (7 VR). Рядом «Ruins Clutter Improved - Fixes» 1.2 #21031 (Tahrovin, Spirit of Grit, Tempus).",
+   "requires": [],
+   "note": "Мешевый клатер с мелкими деталями. Для PBR — #152196.",
+   "evidence": "7 VR-списков: FUS, Librum, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus, Yggdrasil; SE: 10."
+  },
+  {
+   "id": 152196,
+   "name": "Ruins Clutter Improved PBR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/152196",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "PBR-конверсия Ruins Clutter Improved для PBR-пути.",
+   "vr_status": "works_as_is",
+   "files": "«Ruins Clutter Improved PBR» 2.0 (Tempus VR).",
+   "requires": [
+    "Ruins Clutter Improved #5870",
+    "PGPatcher #120946"
+   ],
+   "note": "Параллакс-аддон #118864 вместе с PBR не ставить. Только при PBR-базе.",
+   "evidence": "Tempus Maledictum VR."
+  },
+  {
+   "id": 46507,
+   "name": "Dwemer Pipework Reworked",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/46507",
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Переработанные трубы дворфских руин: меши и текстуры. Основа большинства PBR-ориентированных списков.",
+   "vr_status": "works_as_is",
+   "files": "«Dwemer Pipework Reworked 5» + hotfix + hotfix 2/3/4 (Panda's, Nordic Souls PBR, Wunduniik). Файл с «optional ENB Lights» не брать.",
+   "requires": [],
+   "note": "Версия 4 стоит в Yggdrasil VR, но актуальна 5. Для PBR нужен патч «Faultier's PBR - Dwemer Pipework Reworked patch» (Panda's, Tempus). ENB Light-опции не работают с Open Shaders.",
+   "evidence": "Panda's Sovngarde (v5 + hotfix 1-4), Tempus VR, Yggdrasil VR; SE: Nordic Souls PBR, True North, Apostasy, Wunduniik."
+  },
+  {
+   "id": 52845,
+   "name": "Skeleton Replacer HD - SE",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/52845",
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "HD-скелеты и кости в склепах. Единственный пакет костей, который встречается в 3 VR-списках.",
+   "vr_status": "works_as_is",
+   "files": "«Skeleton Replacer HD 2K SE» + «SkeletonReplacer - LuxPatch» (Panda's). Для PBR — «Praedys Skeleton Replacer HD PBR» из PBR Hub.",
+   "requires": [],
+   "note": "Нужен Lux-патч при Lux. Desaturated-вариант — для более тусклых гробниц.",
+   "evidence": "Panda's Sovngarde, Tempus VR, Yggdrasil VR; SE: 10 списков (LoreRim, NGVO, Nordic Souls, ...)."
+  },
+  {
+   "id": 659,
+   "name": "Static Mesh Improvement Mod - SMIM",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/659",
+   "section": "tex_clutter",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Базовые улучшенные меши мебели и построек. Нужны множеству ретекстур-паков и PBR-конверсий.",
+   "vr_status": "works_as_is",
+   "files": "«SMIM SE 2-08». Farming CC Patch — только при CC. «SMIM Quality Addon» 1.5 #44388 (Panda's, Tempus, Yggdrasil).",
+   "requires": [],
+   "note": "Модель/меши — возможен дубль у категории мешей. Нужна для Noble Skyrim, Rustic и SMIM PBR.",
+   "evidence": "Все 9 VR-списков (в т.ч. Stormcrown, Yggdrasil, Panda's); SE: 17 списков."
+  },
+  {
+   "id": 151346,
+   "name": "Static Mesh Improvement Mod - SMIM PBR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/151346",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "PBR-версия текстур SMIM для PBR-пути: бочки, корзины, мебель.",
+   "vr_status": "works_as_is",
+   "files": "«Static Mesh Improvement Mod PBR» 2.1 (Panda's, 2026-02); 2.0 (Tempus).",
+   "requires": [
+    "SMIM #659",
+    "PGPatcher #120946"
+   ],
+   "note": "Не ставить вместе с Noble Skyrim по SMIM-объектам.",
+   "evidence": "Panda's Sovngarde и Tempus VR."
+  },
+  {
+   "id": 95032,
+   "name": "Skyland Bits and Bobs - A Clutter Overhaul",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/95032",
+   "section": "tex_clutter",
+   "tag": "rec",
+   "choose_one_group": "clutter_style",
+   "what": "Клатер-оверхол: блюда, бутылки, инструменты с хорошей геометрией. Для PBR-пути есть PBR-версия.",
+   "vr_status": "works_as_is",
+   "files": "«Skyland bits and Bobs - Performance Version» 1.91 (Panda's). PBR: «Skyland Bits and Bobs PBR» 1.2 #142908 (Panda's, Tempus, Nordic Souls PBR) и Skyland PBR #142565 (Tempus).",
+   "requires": [
+    "PGPatcher #120946 (для PBR)"
+   ],
+   "note": "В VR выбирать Performance-версию: меньше draw calls. Tempus сочетает с Rustic.",
+   "evidence": "Panda's Sovngarde (Performance Version 1.91), Tempus VR; SE: Nordic Souls PBR, LoreRim, NGVO, CSVP, Tomes of Talos."
+  },
+  {
+   "id": 182471,
+   "name": "Skyrim 3D Series - PBR and Complex Material Hub",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/182471",
+   "section": "tex_clutter",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "PBR/CM-текстуры для набора Skyrim 3D: мебель, камни, бочки, серебро, вывески. Свежая сборка 2026.",
+   "vr_status": "works_as_is",
+   "files": "«Skyrim 3D Furniture PBR and Complex Material Hub» 1.3, «Skyrim 3D Misc» 1.0, «Skyrim 3D Rocks» 1, «Sacks Remodeled», «Carts Remodeled», «Medieval Silverworks» 1.1, «Realistic Roadsigns» 1.0.",
+   "requires": [
+    "Skyrim 3D Furniture #23552 (и др. базовые меши)",
+    "PGPatcher #120946"
+   ],
+   "note": "Файл включать только под установленную базу. В VR-списках не стоит, но базовый Skyrim 3D Furniture есть в Yggdrasil VR и Librum.",
+   "evidence": "SE 2026: CSVO, Nordic Souls PBR (файлы от июня-июля 2026); базовые Skyrim 3D — Yggdrasil VR, Librum VR."
+  },
+  {
+   "id": 17228,
+   "name": "RUSTIC FURNITURE - SPECIAL EDITION",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/17228",
+   "section": "tex_clutter",
+   "tag": "alt",
+   "choose_one_group": "clutter_style",
+   "what": "Классический ретекстур мебели 2K. Стоит в 6 VR-списках, включая Yggdrasil VR 2026-10.",
+   "vr_status": "works_as_is",
+   "files": "«RUSTIC FURNITURE - SE - SMIM - 2K» 3.0. 4K (LoreRim) не брать.",
+   "requires": [
+    "SMIM #659"
+   ],
+   "note": "Классический вариант. С Skyland Bits and Bobs возможен перекрой по приоритету.",
+   "evidence": "6 VR-списков: Yggdrasil, Librum, Tahrovin, Tahrovin - Grit, Spirit of Grit, Tempus; SE: Aldrnari, Elysium."
+  },
+  {
+   "id": 49903,
+   "name": "VR Refit - ElSopa - HD Keys Resized",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/49903",
+   "section": "tex_clutter",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "VR-ресайз HD-ключей ElSopa: по размеру удобны для руки. Редкий VR-специфичный мод среди текстур.",
+   "vr_status": "vr_native",
+   "files": "«VR Refit - ElSopa - HD Keys Resized» + база «ElSopa - HD Keys Redone» 2k (Tahrovin, Spirit of Grit).",
+   "requires": [
+    "ElSopa - HD Keys Redone SE #48209"
+   ],
+   "note": "Ключи — предметы в руке в VR, масштаб важен.",
+   "evidence": "Tahrovin, Tahrovin - Grit, Spirit of Grit. База ElSopa Keys — Panda's, Spirit, Tahrovin."
+  },
+  {
+   "id": 125308,
+   "name": "Faultier's PBR Skyrim - AIO 4k",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/125308",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "AIO 4k и 4k-файлы PBR-паков (Riften, Farmhouses, Praedy) не брать в VR.",
+   "vr_status": "works_as_is",
+   "files": "AIO 4k, Riften PBR 4k, Farmhouses PBR 4k, Praedy 4K.",
+   "requires": [],
+   "note": "Две глаза и PBR-карты (rmaos+n+d) умножают нагрузку на VRAM. Для VR хватает 2k; лишь самые видимые объекты — 4k.",
+   "evidence": "Panda's — 2k; Tempus — AIO 2k; SE Nordic Souls PBR — файлы 2k."
+  },
+  {
+   "id": 85416,
+   "name": "ECPLW - ENB Complex Particle Lights for Windows",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/85416",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "ENB-свет окон: с Open Shaders не работает, только с CSX.",
+   "vr_status": "flat_only",
+   "files": "—",
+   "requires": [],
+   "note": "Свет окон — Lux и Light Placer. ENB Light и Particle Lights для ENB не поддерживаются Open Shaders; исключение — CSX.",
+   "evidence": "6 SE-списков (Apostasy, CSVP, LoreRim, NGVO, Northern Experience, Tomes), ни одного VR."
+  },
+  {
+   "id": null,
+   "name": "PbrNifPatcher",
+   "url": "https://github.com/alandtse/open-shaders/wiki/True-PBR",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Устаревший патчер мешей под PBR. Полностью заменён PGPatcher.",
+   "vr_status": "flat_only",
+   "files": "—",
+   "requires": [],
+   "note": "Использовать PGPatcher из ядра.",
+   "evidence": "Вики Open Shaders, страница True PBR: PbrNifPatcher «ultra obsolete» и заменён PGPatcher."
+  },
+  {
+   "id": 69158,
+   "name": "SMIM 4K - Cleaned and Upscaled Textures",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/69158",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "4K-апскейл SMIM: популярен в SE, в VR тяжёл для VRAM.",
+   "vr_status": "works_as_is",
+   "files": "«2k-1k Textures for Baked Potatoes» (единственный файл в списках).",
+   "requires": [],
+   "note": "В VR-списках не стоит. Достаточно 2K из Noble Skyrim/Rustic или SMIM PBR.",
+   "evidence": "6 SE-списков, 0 VR-списков."
+  },
+  {
+   "id": null,
+   "name": "PBR и Complex Parallax версии одного пака одновременно",
+   "url": "https://github.com/alandtse/open-shaders/wiki/True-PBR",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "PBR и CM/Parallax-версии одного пака не ставить вместе (Riften, Windhelm, RCI, Stony AF и т.п.).",
+   "vr_status": "works_as_is",
+   "files": "—",
+   "requires": [],
+   "note": "Вики говорит: смысла комбинировать PBR и Complex Material нет. CM на не-PBR объектах допустим. Выбрать одну версию пака.",
+   "evidence": "Вики Open Shaders, True PBR. У Panda's и Tempus нужная версия пака выбирается одна."
+  }
+ ],
+ "section_leads": [
+  {
+   "section": "tex_arch",
+   "lead": "Выбрать путь: PBR (Faultier's или Vanilla PBR как база, поверх Tomato's по городам) или классический 2K (Noble Skyrim, Illustrious Whiterun). Смесь на одних и тех же объектах не держать. PBR в VR на Open Shaders в списках с этим стеком не обкатан, поэтому PBR ставить после теста на одном городе."
+  },
+  {
+   "section": "tex_dungeons",
+   "lead": "Подземелья и руины: классика (Underground, Rudy HQ, Ruins Clutter Improved) или PBR (Vanaheimr Mines and Caves, Faultier's Nordic Ruins). Параллакс-аддоны в VR только для крупных поверхностей, 4K не нужен."
+  },
+  {
+   "section": "tex_clutter",
+   "lead": "Клатер и мебель: SMIM как основа, затем Skyland (PBR или нет) или Rustic. VR-ресайз ключей ElSopa. Hub-паки включать только под установленные базовые меши."
+  },
+  {
+   "section": "tex_pbr_tools",
+   "lead": "Порядок: поставить текстуры, уменьшить до 2K через VRAMr или Texture Downscaler (один), затем PGPatcher (уже в ядре) с выводом в отдельный мод наверху, Auto Parallax только для parallax без карты высот. Проверять журнал PGPatcher и визуально три города перед включением остального."
+  },
+  {
+   "section": "dont",
+   "lead": "Не брать: 4K-варианты PBR-паков, ENB-свет для окон, PbrNifPatcher, 4K-апскейлы SMIM и одновременные PBR и CM версии одного пака."
+  }
+ ],
+ "notes": "Часть 2, архитектура и объекты. Основание: архивные списки в data/rep и поиск в сети. Страницы Nexus не читались (блок), поэтому содержимое страниц определено по названиям файлов и спискам. Главный риск: PBR-текстуры на Open Shaders 2.17 в VR не подтверждены ни одним VR-списком с этим стеком. Yggdrasil VR (Open Shaders 2.17) PBR не ставит, ставит классику (Noble Skyrim, Rustic, Illustrious Whiterun, Underground, Rudy HQ). PBR-пакеты ставят Stormcrown VR (CSX 3.19.1-VR, PGPatcher 2.0.0), Panda's Sovngarde и Tempus VR (CS/CSX). Открытый вопрос: wiki Open Shaders не говорит про PBR в VR, вики-страница помечена как возможно устаревшая. Поэтому PBR-путь помечен для проверки. Дубли с другими агентами возможны: SMIM #659, Dwemer Pipework Reworked #46507, Skeleton Replacer HD #52845, GDOS #32376 по сути мешевые. PGPatcher #120946 и Auto Parallax #79473 уже в ядре и не предлагались. Не включены из-за бюджета: Cathedral Assets Optimizer #23316, Parallax Textures For Vanilla Game #125527, Cubemap Reflections #103077, Rustic Clutter #5795, Rustic Windows #1937, Soul Cairn HD #15481, Tomato's Wood #115201, Skyking Signs #112902, Praedy's College #46334, Complex Material Hub #135679. Элементы dont с id null (PbrNifPatcher и PBR+CM) ссылаются на вики Open Shaders."
+}
