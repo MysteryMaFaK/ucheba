@@ -99,6 +99,42 @@ https://www.nexusmods.com/skyrimspecialedition/mods/180186
 https://www.nexusmods.com/skyrimspecialedition/mods/172083
 https://www.nexusmods.com/skyrimspecialedition/mods/172018
 
+# [core] SSE Terrain Tamriel (xLODGen Resource) — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/54680
+
+# [rec] Simple Realistic Archery VR — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/28524
+
+# [rec] Simple Offence Suppression (SE/AE, основной файл) — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/41764
+
+# [rec] Broken Feathers — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/160798
+
+# [opt] Floating Subtitles (базовый мод) — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/154424
+
+# [opt] RaceMenu (Anniversary Edition) — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/19080
+
+# [opt] Frozen Electrocuted Combustion (оригинал для SE) — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/3532
+
+# [rec] Embers XD - Frozen Electrocuted Combustion Patch — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/69446
+
+# [opt] Behavior Data Injector — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/78146
+
+# [opt] Behavior Data Injector Universal Support — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/78159
+
+# [opt] ISC-SRDified Main File — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/78446
+
+# [opt] Seasons of Skyrim VR — основной файл; VR-вариант, если есть
+https://www.nexusmods.com/skyrimspecialedition/mods/63593
+
 # [core] Poached Bugs VR — Main: «Poached Bugs VR Core File» последней версии (0.6.0 — так в Stormcrown VR, Librum VR, Yggdrasil VR). Отдельным модом — «Simonrim Choice Config» той же версии (0.6.0), потому что в сборке Adamant и Mysticism (SimonRim). Версии Core и Simonrim Config должны совпадать.
 https://www.nexusmods.com/skyrimspecialedition/mods/107053
 
@@ -123,7 +159,7 @@ https://www.nexusmods.com/skyrimspecialedition/mods/69331
 # [rec] Stagger Effect Fix — Main: «Stagger Effect Fix» последней версии (1.0.4 — Stormcrown VR, Yggdrasil VR).
 https://www.nexusmods.com/skyrimspecialedition/mods/110508
 
-# [rec] Animation Queue Fix — Main: «Animation Queue Fix» последней версии (1.0.2 — Yggdrasil VR, 2026-08; 1.0.1 — ещё 6 VR-списков).
+# [core] Animation Queue Fix — Main: «Animation Queue Fix» последней версии (1.0.2 — Yggdrasil VR, 2026-08; 1.0.1 — ещё 6 VR-списков).
 https://www.nexusmods.com/skyrimspecialedition/mods/82395
 
 # [rec] Seamless Saving VR — Main: «SeamlessSaving» v1.0.7 (Stormcrown VR, Librum VR, Tempus VR). Мод только для VR.

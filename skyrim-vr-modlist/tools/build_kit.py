@@ -28,7 +28,7 @@ crit = wf.get('critic') or {}
 
 mods = []
 for it in draft['items']:
-    sp = specs.get(it['key'], {})
+    sp = specs.get(it['key']) or specs.get(extra_cfg.get('key_aliases', {}).get(it['key'], ''), {})
     m = collections.OrderedDict()
     m['id'] = it['id']
     m['key'] = it['key']
@@ -66,7 +66,11 @@ for it in draft['items']:
 
 # requirements added by the critic
 SECTION_SEP = {it['section']: it['separator'] for it in draft['items']}
+system_reqs = []
 for r in crit.get('add_requirements', []):
+    if r.get('id') is None:
+        system_reqs.append({'name': r['name'], 'needed_by': r['needed_by'], 'note': r.get('note', '')})
+        continue
     sec = r.get('separator_section') or 'frameworks'
     if sec not in SECTION_SEP:
         sec = 'frameworks'
@@ -121,6 +125,21 @@ manifest['meta'] = {
 }
 manifest['phases'] = [{'phase': n, 'title': t, 'sections': secs} for n, t, secs in PHASES] + [
     {'phase': 10, 'title': 'Текстуры — отдельный этап, затем финальная генерация', 'sections': []}]
+def _fix_all(v):
+    if isinstance(v, str): return _fix(v)
+    if isinstance(v, list): return [_fix_all(x) for x in v]
+    if isinstance(v, dict): return {k: _fix_all(x) for k, x in v.items()}
+    return v
+crit = _fix_all(crit)
+groups = _fix_all(groups)
+keymap = {m['key']: m['name'] for m in mods}
+for _new, _old in extra_cfg.get('key_aliases', {}).items():
+    if _new in keymap: keymap[_old] = keymap[_new]
+_kre = re.compile(r'\b([a-z]+-[0-9]+)\b')
+def _names(t):
+    return _kre.sub(lambda mo: f"{keymap[mo.group(1)]} [{mo.group(1)}]" if mo.group(1) in keymap else mo.group(1), t) if isinstance(t, str) else t
+groups = [{'group': g['group'], 'members': [_names(x) for x in g['members']], 'default': _names(g['default']), 'rule': _names(g['rule'])} for g in groups]
+manifest['system_requirements'] = [dict(r, needed_by=[_names(x) for x in r['needed_by']]) for r in system_reqs]
 manifest['choose_one_groups'] = groups
 manifest['order_rules'] = crit.get('order_rules', [])
 manifest['plugin_rules'] = crit.get('plugin_rules', [])
@@ -189,14 +208,17 @@ c = ['# Конфликты, порядок и запреты', '',
      '| Группа | Варианты | По умолчанию | Правило |', '|---|---|---|---|']
 for g in groups:
     c.append(f"| `{g['group']}` | {'; '.join(g['members'])} | {g['default']} | {g['rule']} |")
+if system_reqs:
+    c += ['', '## Системные требования (не моды MO2)', '', 'Проверить на компьютере до установки; из MO2 не ставятся.', '']
+    c += [f"- **{r['name']}** — нужен для: {', '.join(_names(x) for x in r['needed_by'])}. {r.get('note', '')}" for r in system_reqs]
 c += ['', '## Порядок в MO2 (левая панель)', '', 'Разделители сверху вниз: ' + ' → '.join(by_sep.keys()) + '.', '']
-c += [f'{i}. {r}' for i, r in enumerate(crit.get('order_rules', []), 1)]
+c += [f'{i}. {_names(r)}' for i, r in enumerate(crit.get('order_rules', []), 1)]
 c += ['', '## Порядок плагинов', '', 'Сначала LOOT, затем эти правила:', '']
-c += [f'{i}. {r}' for i, r in enumerate(crit.get('plugin_rules', []), 1)]
+c += [f'{i}. {_names(r)}' for i, r in enumerate(crit.get('plugin_rules', []), 1)]
 if crit.get('contradictions'):
     c += ['', '## Найденные противоречия и как они решены', '']
     for x in crit['contradictions']:
-        c.append(f"- **{', '.join(x['keys'])}**: {x['problem']} → {x['fix']}")
+        c.append(f"- **{', '.join(_names(k) for k in x['keys'])}**: {_names(x['problem'])} → {_names(x['fix'])}")
 c += ['', '## Не ставить в VR', '', '| Что | Почему |', '|---|---|']
 c += [f'| {a} | {b} |' for a, b in draft['dont']]
 open(f'{OUT}/CONFLICTS.md', 'w', encoding='utf-8').write('\n'.join(c) + '\n')

@@ -6,7 +6,7 @@
 ## Разделители
 - [00 Инструменты и корень](#00-инструменты-и-корень) — 16
 - [01 Мастера и USSEP](#01-мастера-и-ussep) — 8
-- [02 SKSEVR и библиотеки](#02-sksevr-и-библиотеки) — 31
+- [02 SKSEVR и библиотеки](#02-sksevr-и-библиотеки) — 43
 - [03 Фиксы движка](#03-фиксы-движка) — 36
 - [04 Шейдеры и свет](#04-шейдеры-и-свет) — 6
 - [05 VR-ядро](#05-vr-ядро) — 35
@@ -78,7 +78,7 @@
 - Порядок в MO2: Мод с выводом (Pandora Output) — в самом низу, в блоке «Сгенерированное».
 - Настройки: Распаковать в tools, добавить исполняемым в MO2. В GUI указать Game path и Output path. Output вести в отдельную папку мода, например mods\Pandora Output, и включить этот мод. С 4.4.0 Settings.json лежит в папке установки, поэтому настройки свои у каждого профиля. Пересобирать после каждого изменения поведенческих модов.
 - Проверка: Сборка проходит без ошибок, в Pandora Output есть meshes. В игре нет T-позы у NPC.
-- Заметка: Сборка поведений для OAR и анимаций. Поддержку Skyrim VR вернули в 4.1.2-beta. Если какой-то мод не собирается — запасной вариант Nemesis.
+- Заметка: Сборка поведений для OAR и анимаций. Поддержку Skyrim VR вернули в 4.1.2-beta. Если 5.0.0-beta не собирает поведения какого-то мода, откатитесь на 4.4.0-beta; второй генератор (Nemesis) не ставьте. Запускать после всех анимационных модов.
 
 ### Synthesis — `rec` [ссылка](https://github.com/Mutagen-Modding/Synthesis/releases)
 - Фаза 1 · тип `external_tool` · установка `external_tool` · надёжность данных `medium`
@@ -96,7 +96,7 @@
 - Установщик: нет установщика
 - Настройки: Смотреть время кадра CPU и GPU, а не загрузку видеокарты. С OpenComposite игра идёт мимо SteamVR, поэтому оверлей fpsVR в шлеме не появится — замеры делать на SteamVR или через встроенный счётчик Open Shaders.
 - Проверка: Время кадра укладывается в бюджет частоты шлема.
-- Заметка: Без замеров время кадра не настроить. Смотрите на CPU и GPU frametime, а не на загрузку видеокарты.
+- Заметка: Без замеров время кадра не настроить. Смотрите на CPU и GPU frametime, а не на загрузку видеокарты. С OpenComposite оверлеи SteamVR пропадают: тогда замеряйте счётчиком Open Shaders, Oculus Debug Tool или графиком Virtual Desktop, а fpsVR — только при выключенном OpenComposite.
 
 ### DynDOLOD 3 + Resources SE 3 + DynDOLOD DLL NG — `core` [#68518](https://www.nexusmods.com/skyrimspecialedition/mods/68518)
 - Также скачать: Resources: https://www.nexusmods.com/skyrimspecialedition/mods/52897; DLL NG: https://www.nexusmods.com/skyrimspecialedition/mods/97720
@@ -159,7 +159,7 @@
 - Требует: SKSEVR (#30457)
 - Настройки: Проверить, нужен ли он вообще. По заметке куратора к OpenComposite Unleashed, в этой сборке виртуальная клавиатура уже работает. Если ввод имени там работает — не ставить.
 - Проверка: При вводе имени персонажа появляется виртуальная клавиатура.
-- Заметка: Виртуальная клавиатура для имён и поиска — с OpenComposite оверлея SteamVR нет.
+- Заметка: Виртуальная клавиатура для имён и поиска. OpenComposite Unleashed уже даёт рабочую клавиатуру, поэтому не ставить, пока ввод имени работает.
 
 ### PGPatcher (бывш. ParallaxGen) — `opt` [#120946](https://www.nexusmods.com/skyrimspecialedition/mods/120946)
 - Фаза 1 · тип `external_tool` · установка `external_tool` · надёжность данных `medium`
@@ -303,7 +303,7 @@
 - Порядок в MO2: Part 1 — обычный мод в разделе фреймворков. Part 2 — отдельный мод «Engine Fixes VR Part 2», все файлы в Root, раздел «Инструменты и корень».
 - Настройки: В EngineFixes.toml (7.x), секция [Patches]: bMaxStdIO = true (значение по умолчанию, число не задаётся). Файл создаётся при первом запуске игры. Страница ESL Support требует MaxStdio — true в старых версиях или 4096 в новых. Отдельный ObjectLOD/Shadow Map fix не ставить: он встроен с 7.4.9, а если стоит — удалить.
 - Проверка: В sksevr.log Engine Fixes загружен. В логе ESL Support нет предупреждения про MaxStdio. При неправильно поставленном Part 2 плагин не грузится.
-- Заметка: Part 1 — мод, Part 2 — в корень. В EngineFixes.toml в секции [Patches] оставить bMaxStdIO = true (по умолчанию): это требование Skyrim VR ESL Support. Старый отдельный ObjectLOD/Shadow Map fix не ставить — он уже внутри с 7.4.9.
+- Заметка: Part 1 — мод, Part 2 — в корень. В EngineFixes.toml (запустить игру один раз, файл создаётся сам) в секции [Patches] оставить bMaxStdIO = true — это значение по умолчанию и требование Skyrim VR ESL Support. Старый отдельный ObjectLOD/Shadow Map fix не ставить — он уже внутри с 7.4.9.
 
 ### Skyrim VR ESL Support — `core` [#106712](https://www.nexusmods.com/skyrimspecialedition/mods/106712)
 - Фаза 2 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
@@ -551,6 +551,78 @@
 - Проверка: В sksevr.log обе DLL загружены, лут из нескольких модов смешивается.
 - Заметка: Сливает конфликтующие левел-листы прямо в игре. В установщике выбрать VR. Те же списки не сливать ещё и Bashed Patch.
 
+### SSE Terrain Tamriel (xLODGen Resource) — `core` [#54680](https://www.nexusmods.com/skyrimspecialedition/mods/54680)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: tools-9. Нужен только на время генерации LOD рельефа в xLODGen; после неё отключить (если страница так велит). В VR-списках лежит как «SSE Terrain Tamriel Extend» (Tempus VR) или «Full Extend» (Librum VR, Yggdrasil VR), версия 2.0. Какой из файлов брать — неизвестно, общие правила: читать описания файлов. Уверенность: средняя.
+
+### Simple Realistic Archery VR — `rec` [#28524](https://www.nexusmods.com/skyrimspecialedition/mods/28524)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: vr-117254. Нет в манифесте, хотя стоит во всех 9 VR-списках: файл 1.26. Без него Seamless Arrow Nocking VR ничего не меняет. Ставить выше vr-117254. Старые 1.22 и 1.23b-beta (Librum VR) не брать. Метка rec. Уверенность: высокая.
+
+### Simple Offence Suppression (SE/AE, основной файл) — `rec` [#41764](https://www.nexusmods.com/skyrimspecialedition/mods/41764)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: combat-59508. Основа для VR-файла #59508. В Panda's Sovngarde — 2.2.1, в Yggdrasil VR — «Simple Offence Suppression SE» 2.1.0. Какую версию брать — неизвестно, общие правила: сверить на странице #59508. VR-файл ставить сразу ниже основного (его VR-DLL заменяет SE-DLL). Уверенность: средняя.
+
+### Broken Feathers — `rec` [#160798](https://www.nexusmods.com/skyrimspecialedition/mods/160798)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: hitech-169833. Файл «Broken Feathers - Latest Version» 1.0.1. Pull Arrows VR ставить ниже него. Ни один из 9 VR-списков его не использует, только SE-списки. Если в архиве есть DLL — проверить загрузку в sksevr.log; не загрузилась — убрать. Без мода ломка стрел при вытаскивании не покажется, остальное работает. Уверенность: низкая.
+
+### Floating Subtitles (базовый мод) — `opt` [#154424](https://www.nexusmods.com/skyrimspecialedition/mods/154424)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: ui-183714. База для Floating Subtitles VR. В VR-списках — версия 3.3.3 (Spirit of Grit, Tahrovin - Grit). VR-файлы ставить отдельным модом ниже. Нужен только если выбран ui-183714 (opt). Уверенность: средняя.
+
+### RaceMenu (Anniversary Edition) — `opt` [#19080](https://www.nexusmods.com/skyrimspecialedition/mods/19080)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: ui-156898, ui-192158. База для RacemenuVR: версия 0.4.19.16 (Spirit of Grit VR). Для RaceMenu VR 2: 0.4.20.0. Ставить одну версию, по выбранной группе racemenu. VR-мод — ниже базы. Оба мода — opt/try. Уверенность: средняя.
+
+### Frozen Electrocuted Combustion (оригинал для SE) — `opt` [#3532](https://www.nexusmods.com/skyrimspecialedition/mods/3532)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: immersion-59118. Файл 5.1.0 — его берут все VR-списки. Версию 6.x (SE) не ставить. FEC VR — отдельным модом ниже. Нужен только если выбран immersion-59118 (opt). Уверенность: высокая.
+
+### Embers XD - Frozen Electrocuted Combustion Patch — `rec` [#69446](https://www.nexusmods.com/skyrimspecialedition/mods/69446)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: world-37085, immersion-59118. Ставить только если стоят оба: Embers XD и FEC VR. Патч — ниже обоих. В VR-списках: 1.0 (Tempus VR) и 2.0 (Panda's Sovngarde). Какую версию — неизвестно, общие правила: брать свежую со страницы. Уверенность: средняя.
+
+### Behavior Data Injector — `opt` [#78146](https://www.nexusmods.com/skyrimspecialedition/mods/78146)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: immersion-86950. Файл v0.13, нужен Combat Pathing Revolution (opt). Порядок: BDI, ниже Universal Support, ещё ниже CPR. Уверенность: средняя.
+
+### Behavior Data Injector Universal Support — `opt` [#78159](https://www.nexusmods.com/skyrimspecialedition/mods/78159)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: immersion-86950. Файл v0.13.0.1, DLL с поддержкой AE и VR. Ставить сразу ниже Behavior Data Injector, чтобы заменить его DLL. Уверенность: средняя.
+
+### ISC-SRDified Main File — `opt` [#78446](https://www.nexusmods.com/skyrimspecialedition/mods/78446)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: audio-523. Только если в группе audio-stack выбран ISC вместо AOS (вариант Panda's Sovngarde, файл 2.2.1). Нужен Sound Record Distributor. Ставить ниже ISC. По умолчанию — не ставить. Уверенность: средняя.
+
+### Seasons of Skyrim VR — `opt` [#63593](https://www.nexusmods.com/skyrimspecialedition/mods/63593)
+- Фаза 2 · тип `unknown` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: основной файл; VR-вариант, если есть
+- Установщик: неизвестно — общие правила
+- Заметка: Требование для: land-6. VR-DLL, версия 1.8.6 (Panda's Sovngarde). Отдельный мод ниже основного. Уверенность: средняя.
+
 ## 03 Фиксы движка
 
 ### Poached Bugs VR — `core` [#107053](https://www.nexusmods.com/skyrimspecialedition/mods/107053)
@@ -625,13 +697,14 @@
 - Порядок в MO2: Раздел «03 Фиксы движка».
 - Проверка: В sksevr.log DLL загружена. В игре: шокирующая магия/крик отталкивает цель от заклинателя, а не к нему.
 
-### Animation Queue Fix — `rec` [#82395](https://www.nexusmods.com/skyrimspecialedition/mods/82395)
+### Animation Queue Fix — `core` [#82395](https://www.nexusmods.com/skyrimspecialedition/mods/82395)
 - Фаза 2 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
 - Файл: Main: «Animation Queue Fix» последней версии (1.0.2 — Yggdrasil VR, 2026-08; 1.0.1 — ещё 6 VR-списков).
 - Установщик: нет установщика (по именам архивов)
 - Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
 - Порядок в MO2: Раздел «03 Фиксы движка».
 - Проверка: В sksevr.log DLL загружена без ошибки. В людных местах (Вайтран) нет застывших NPC в T-позе.
+- Заметка: Нужен Open Animation Replacer — ставить до него.
 
 ### Seamless Saving VR — `rec` [#174106](https://www.nexusmods.com/skyrimspecialedition/mods/174106)
 - Фаза 2 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
@@ -2015,7 +2088,8 @@
 - Проверка: Деревья заменены. После DynDOLOD дальние деревья совпадают с ближними.
 - Заметка: Лёгкие деревья с хорошими LOD.
 
-### Seasons of Skyrim — `opt` [ссылка](https://www.nexusmods.com/skyrimspecialedition/search/?gsearch=Seasons%20of%20Skyrim)
+### Seasons of Skyrim + Seasons of Skyrim VR — `opt` [#62861](https://www.nexusmods.com/skyrimspecialedition/mods/62861)
+- Также скачать: VR-DLL: https://www.nexusmods.com/skyrimspecialedition/mods/63593
 - Фаза 5 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
 - Файл: «Seasons of Skyrim» (62861) 1.8.6 + «Seasons of Skyrim VR» (63593) 1.8.6 — так Panda's Sovngarde. Версию 1.9.0 не брать: VR-DLL под неё не видно. По желанию — «Four Seasons - Faster Seasons of Skyrim» (#64286; Panda's, Librum VR).
 - Установщик: неизвестно — общие правила
@@ -2093,7 +2167,7 @@
 - Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL OAR загружена без ошибки версии/адресов. В игре NPC ходят и стоят без T-позы, в логе OAR (рядом с sksevr.log) нет ошибок чтения пакетов.
 - Заметка: Официально поддерживает SE, AE и VR.
 
-### Paired Animation Improvements — `rec` [#99621](https://www.nexusmods.com/skyrimspecialedition/mods/99621)
+### Paired Animation Improvements — `core` [#99621](https://www.nexusmods.com/skyrimspecialedition/mods/99621)
 - Фаза 6 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
 - Файл: Main «Paired Animation Improvements» 1.0.3 (Yggdrasil VR, 2026-08-31), иначе 1.0.2 (Panda, FUS, Tempus, Librum, Grit). Файл «Horse Mount and Dismount Double Sound Fix» (тот же ID) — не ставить, если нет двойного звука посадки на коня (Panda и FUS берут).
 - Установщик: нет установщика (по именам архивов); структуру проверить при установке.
@@ -2101,6 +2175,7 @@
 - Порядок в MO2: Раздел «11 Анимации и физика», сразу после OAR. Конфликтов файлов не ожидается.
 - Настройки: Без настроек.
 - Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Парные анимации (добивания, рукопожатия квестов) играют без зависания персонажей.
+- Заметка: Нужен Open Animation Replacer — ставить до него.
 
 ### Mu Joint Fix (DLL) — `rec` [#61479](https://www.nexusmods.com/skyrimspecialedition/mods/61479)
 - Фаза 6 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
@@ -2668,7 +2743,7 @@
 - Порядок плагина: По LOOT.
 - Настройки: Плагин CC Survival Mode не удалять (путь A): страница SunHelm сама отключает CC-выживание. Настройки — в MCM. Начинать на новой игре.
 - Проверка: В MCM есть пункт SunHelm. В игре появляются голод, жажда, усталость; предложения CC-выживания нет.
-- Заметка: Голод, жажда, усталость, холод. CC-выживание на странице отключено, дубля нет.
+- Заметка: Голод, жажда, усталость, холод. На пути A плагин CC Survival Mode остаётся включённым, а SunHelm с режимом выживания CC несовместим: по умолчанию не ставить, при необходимости только вместе с «Survival Mode Prompt Removed» и проверкой в игре.
 
 ### Recipe Auto-Learn + Reading Is Good — `opt` [#84909](https://www.nexusmods.com/skyrimspecialedition/mods/84909)
 - Также скачать: Reading Is Good VR: https://www.nexusmods.com/skyrimspecialedition/mods/42026

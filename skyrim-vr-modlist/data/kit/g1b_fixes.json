@@ -128,10 +128,10 @@
   "id": 82395,
   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/82395",
   "extra": [],
-  "tag": "rec",
+  "tag": "core",
   "version": null,
   "vr_file": null,
-  "note": "",
+  "note": "Нужен Open Animation Replacer — ставить до него.",
   "new": false
  },
  {

@@ -584,16 +584,21 @@
   "new": false
  },
  {
-  "key": "land-6",
+  "key": "land-62861",
   "section": "land",
   "separator": "10 Ландшафт, трава, деревья",
   "order": 189,
-  "name": "Seasons of Skyrim",
-  "id": null,
-  "url": "https://www.nexusmods.com/skyrimspecialedition/search/?gsearch=Seasons%20of%20Skyrim",
-  "extra": [],
+  "name": "Seasons of Skyrim + Seasons of Skyrim VR",
+  "id": 62861,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/62861",
+  "extra": [
+   {
+    "label": "VR-DLL",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63593"
+   }
+  ],
   "tag": "opt",
-  "version": null,
+  "version": "1.8+",
   "vr_file": null,
   "note": "Работает в VR (есть в MGO), но кэш травы и LOD придётся генерировать на каждый сезон.",
   "new": false

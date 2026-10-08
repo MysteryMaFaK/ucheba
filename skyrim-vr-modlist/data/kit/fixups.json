@@ -1,6 +1,10 @@
 {
  "text_fixes": [
   [
+   "поставить MaxStdio = 8192; это не меньше требуемых 4096.",
+   "оставить bMaxStdIO = true (по умолчанию); число не задаётся, Skyrim VR ESL Support достаточно лимита не ниже 2048 (по его исходникам)."
+  ],
+  [
    "В конфиге Part 1 (EngineFixes.toml в 7.x), секция [Patches]: MaxStdio = 8192.",
    "В EngineFixes.toml (7.x), секция [Patches]: bMaxStdIO = true (значение по умолчанию, число не задаётся). Файл создаётся при первом запуске игры."
   ],
@@ -16,5 +20,8 @@
    "MaxStdio = 8192",
    "bMaxStdIO = true"
   ]
- ]
+ ],
+ "key_aliases": {
+  "land-62861": "land-6"
+ }
 }

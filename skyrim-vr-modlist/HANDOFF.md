@@ -18,67 +18,44 @@
 | Часть | Статус | Где |
 |---|---|---|
 | Страница ядра (275 модов) | **Готова, опубликована** | https://claude.ai/artifact/CtFycL6Py2fC2TDY7NZgCa · исходник `site/skyrim-vr-core-2026.html` |
-| Данные проверки ядра | Готовы | `data/wf1.json` (подборка из 27 сборок), `data/wf2.json` (хайтек 2026) |
-| Черновой манифест ядра | Готов | `data/kit/draft_manifest.json`, группы `data/kit/g*.json` |
-| Системный промпт, навык, README | Готовы | `SYSTEM_PROMPT.md`, `.claude/skills/skyrim-vr-install/`, `README.md` |
-| `INSTALL_GUIDE.md` | Черновик, места с ⚠ нужно сверить | в конце файла список проверок |
-| Карточки установки (файл, FOMOD, требования, порядок) | **131 из 275** | блоки `g1a`, `g1b`, `g2` в `data/partial/` |
-| `manifest.yaml`, `MODLIST.md`, `CONFLICTS.md`, `links/` | **Промежуточная сборка**: 275 модов, у 144 карточка с `confidence: low` и общими правилами | собираются `tools/build_kit.py` |
-| Проверка процедуры (MO2, Root Builder, xEdit, DynDOLOD и т. д.) | **Не выполнена** | нужен агент `procedure` |
-| Критик согласованности (недостающие требования, группы «одно из», порядок) | **Не выполнен** | нужен агент `critic` |
-| «Other Mods 2026»: пробелы ядра, часть 1 (старт, спутники, навигация, управление, сохранения, снаряжение, голос) | Собрано 30 кандидатов, **не проверены** | `data/partial/other-mods__collect_gaps-1.json` |
-| «Other Mods 2026»: русификация, CC, музыка, ниша; текстуры; внешний вид и мир | **Не начато** | пулы кандидатов готовы в `data/pools/` |
+| Манифест установки ядра | **Готов**: 287 модов, карточки у всех (275 подробных, 12 коротких у требований, найденных критиком) | `manifest.yaml`, `MODLIST.md`, `links/` |
+| Группы «одно из», правила порядка в MO2 и плагинов, найденные противоречия, системные требования | **Готовы** (17 групп, 22 + 14 правил, 38 противоречий) | `CONFLICTS.md`, `manifest.yaml` |
+| Проверка процедуры (MO2, Root Builder, SKSEVR, Engine Fixes, xEdit, DynDOLOD, NGIO, Synthesis) | **Выполнена**; низкая надёжность помечена **(проверить)** | `INSTALL_GUIDE.md`, `data/partial/install-spec__procedure_fact-check.json` |
+| Системный промпт и навык `/skyrim-vr-install` | Готовы | `SYSTEM_PROMPT.md`, `.claude/skills/skyrim-vr-install/` |
+| «Other Mods 2026» — список | **Готов, опубликован**: 128 модов + 23 запрета (из 178 кандидатов оставлено 151) | https://claude.ai/artifact/GRjZnT1B4zRCYUyV4UppH9 · `OTHER_MODS.md` · `site/skyrim-vr-other-mods-2026.html` |
+| «Other Mods 2026» — файлы установки (файл, FOMOD, требования, порядок) | **Не сделаны** | см. шаг 2 ниже |
 
-## Продолжение — по шагам (в порядке приоритета)
+## Что осталось
 
-Везде команды из папки `skyrim-vr-modlist`. Нужен Python 3 с PyYAML (`pip install pyyaml`).
-
-### Шаг 0. Данные сборок (один раз)
+### Шаг 0. Данные сборок (нужны, если будете искать по сборкам)
 
 ```
 python tools/fetch_reports.py
 ```
 
-Скачивает отчёты 27 сборок в `data/rep/` (около 42 МБ, в git не попадает). Они нужны для `tools/whouses.py <id или имя>`: показывает, в каких сборках стоит мод и **точные имена файлов** (по ним видно, какой вариант выбирают VR-сборки).
+Скачивает отчёты 27 сборок в `data/rep/` (около 42 МБ, 2 секунды, в git не попадает). Дальше `python tools/whouses.py <id или имя>` показывает, в каких сборках стоит мод и **точные имена файлов**.
 
-### Шаг 1. Дописать карточки установки ядра
+### Шаг 1. Закрыть метки «проверить» в ядре (ручная сверка на Nexus)
 
-Недостающие группы: `g3_vr_hitech_ui` (68 модов), `g4_anim_combat` (37), `g5_immersion_audio_ai` (39), затем `procedure` и `critic`.
+Локально Nexus открывается, поэтому агент читает страницы и правит карточки. Список — в конце `INSTALL_GUIDE.md` и в разделе «Найденные противоречия» файла `CONFLICTS.md` (пункты с «уточнить вручную»): зависимости SkyrimNet (Prisma UI, Media Keys Fix), Mantella (No NPC Greetings, World Encounter Hostility Fix), патч NPC Spell Variance для PLANCK, SkyUI Weapons Pack для Norden UI, DynamicShader Core, Tiny Light Placer Hub, ImGui Icons для SKSE Menu Framework. Все они относятся к модам с меткой `opt` или `try`: по умолчанию не ставятся.
+Карточки 12 требований, добавленных критиком (SSE Terrain Tamriel, Simple Realistic Archery VR, Broken Feathers, Floating Subtitles, RaceMenu AE, FEC SE, Embers XD FEC Patch, Behavior Data Injector и Universal Support, ISC-SRDified, Seasons of Skyrim VR, Simple Offence Suppression SE) короткие: файл и выборы установщика берутся со страницы мода.
 
-**Если у вас есть инструмент Workflow (режим «ultracode»):** запустите скрипт `workflows/skyrim-vr-install-spec-wf_a8af17cf-37b.js`.
+### Шаг 2. Файлы установки для «Other Mods 2026»
 
-1. `args: {"only": ["g3_vr_hitech_ui", "g4_anim_combat", "g5_immersion_audio_ai", "procedure"]}`
-2. `python tools/save_journal.py <Transcript dir из ответа Workflow> install-spec`
-3. `python tools/merge_partials.py install-spec`
-4. Критик: `args: {"only": ["critic"], "specsFile": "skyrim-vr-modlist/data/specs_merged.json"}`, затем снова `save_journal.py`, `merge_partials.py`.
-5. `python tools/build_kit.py data/install_spec.json`
+Для 151 мода второй подборки нужны карточки установки по образцу `manifest.yaml`. Процесс тот же, что был для ядра:
 
-**Без Workflow:** для каждой группы возьмите `data/kit/<группа>.json` и заполните карточки по схеме, как в готовых `data/partial/install-spec__enrich_g1a_tools_base_frameworks.json` (поля `key, kind, install_target, files, fomod, requires, requires_missing, incompatible_with, choose_one_group, mo2_order, plugin_order, config, verify, risk, confidence, sources`). Не выдумывайте названия опций FOMOD: если не знаете, пишите «неизвестно — общие правила». Результат сохраните как `data/partial/install-spec__enrich_<группа>.json` (формат `{"items": [...], "group_notes": ""}`), потом шаги 3 и 5.
+1. Список — `data/other_result.json` (поле `verified`, `keep: true`).
+2. Разбейте на группы по 25–40 модов, для каждой заполните карточку (`key, kind, install_target, files, fomod, requires, requires_missing, incompatible_with, choose_one_group, mo2_order, plugin_order, config, verify, risk, confidence, sources`). Схема и образец — `data/partial/install-spec__enrich_g1a_tools_base_frameworks.json`. Не выдумывайте названия опций FOMOD: «неизвестно — общие правила».
+3. Критик согласованности (как для ядра): недостающие требования, группы «одно из», противоречия, порядок. Особое внимание группам тел, лиц, ландшафта, городов; BodySlide и тела — до брони.
+4. Соберите `manifest_other.yaml`, `MODLIST_OTHER.md`, `links_other/` по образцу `tools/build_kit.py`.
 
-Что должен сделать критик: найти требования, которых нет в манифесте; пары «одно из» без группы; моды из списка «не ставить»; противоречия порядка; свести правила порядка в MO2 и плагинов в `CONFLICTS.md`.
+С Workflow: скрипт `workflows/skyrim-vr-install-spec-wf_a8af17cf-37b.js` написан под ядро (группы в `GROUPS`); для второго списка замените `GROUPS` и пути на `data/other_result.json`. Без Workflow — вручную по группам.
 
-Факты процедуры для агента `procedure` (проверить на страницах модов, а не по памяти): режим Root Builder для VR; аргумент xEdit/xLODGen/DynDOLOD для VR; путь `sksevr.log`; ключ `MaxStdio` в настройках Engine Fixes VR; папка `PrecacheGrass.txt` в VR; выбор игры в Synthesis; запуск Pandora из MO2; корневые файлы OpenComposite Unleashed. Полный перечень вопросов — в `workflows/skyrim-vr-install-spec-wf_a8af17cf-37b.js` (`PROCEDURE_PROMPT`) и в конце `INSTALL_GUIDE.md`.
+### Шаг 3. Публикации
 
-### Шаг 2. Собрать «Skyrim VR Other Mods 2026»
-
-Скрипт `workflows/skyrim-vr-other-mods-wf_25225427-efd.js`. Кандидаты по темам лежат в `data/pools/` (`other_world.txt`, `other_tex_nature.txt`, `other_tex_arch.txt`, `other_chars.txt`).
-
-1. Сбор оставшихся агентов: `args: {"only": ["gaps-2", "tex-nature", "tex-arch", "chars-armor", "world-creatures"]}`.
-2. `python tools/save_journal.py <Transcript dir> other-mods`, затем `python tools/merge_partials.py other-mods` → `data/other_picks.json` (кандидаты с ключами).
-3. Проверка в двух проходах: `args: {"picksFile": "skyrim-vr-modlist/data/other_picks.json"}`. Агенты `verify:vr-compat` и `verify:value-perf` читают файл сами. Снова `save_journal.py`, `merge_partials.py other-mods` → `data/other_result.json`.
-4. Страница и markdown: `python tools/build_other.py data/other_result.json site/skyrim-vr-other-mods-2026.html OTHER_MODS.md`.
-5. Опубликуйте `site/skyrim-vr-other-mods-2026.html` инструментом Artifact (новая страница) и пришлите пользователю ссылку.
-6. Для файлов установки второй подборки повторите шаг 1 на её модах (отдельный манифест `manifest_other.yaml`, по образцу первого).
-
-Если Workflow нет, выполните то же вручную: пройдите пулы построчно, для каждого кандидата проверьте VR (`whouses.py`, страница мода: требования, файлы, баги с «VR»), отсейте дубли и запрещённые категории.
-
-Критерии для текстур в VR: по умолчанию **2K** (видеопамять делится на два глаза), 4K только для того, что видно вплотную; PBR-ландшафты — только те, что работают с Open Shaders; одна группа «одно из» на конкурирующие пакеты ландшафта, городов и тел. После текстур в финальную генерацию входят PGPatcher, прекэш травы NGIO, xLODGen, TexGen, DynDOLOD.
-
-### Шаг 3. Обновить публикации
-
-- Ядро: если меняете список, правьте `tools/build_page.py` и `tools/additions.py`, затем `python tools/build_page.py site/skyrim-vr-core-2026.html` и опубликуйте тем же URL (инструмент Artifact, `url=https://claude.ai/artifact/CtFycL6Py2fC2TDY7NZgCa`).
-- После правок списка ядра пересоберите черновой манифест: `python tools/make_draft_manifest.py`.
-- Закоммитьте и запушьте всё в ветку.
+- Ядро: правьте `tools/build_page.py` и `tools/additions.py`, затем `python tools/build_page.py site/skyrim-vr-core-2026.html` и публикуйте тем же URL (инструмент Artifact, `url=https://claude.ai/artifact/CtFycL6Py2fC2TDY7NZgCa`). После правок пересоберите манифест: `python tools/make_draft_manifest.py && python tools/build_kit.py data/install_spec.json`.
+- Вторая подборка: `python tools/build_other.py data/other_result.json site/skyrim-vr-other-mods-2026.html OTHER_MODS.md`, URL `https://claude.ai/artifact/GRjZnT1B4zRCYUyV4UppH9`.
+- Закоммитьте и запушьте в ветку.
 
 ## Известные решения и оговорки
 

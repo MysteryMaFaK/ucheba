@@ -85,8 +85,9 @@ https://www.nexusmods.com/skyrimspecialedition/mods/80687
 https://www.nexusmods.com/skyrimspecialedition/mods/50961
 https://www.nexusmods.com/skyrimspecialedition/mods/56907
 
-# [opt] Seasons of Skyrim — «Seasons of Skyrim» (62861) 1.8.6 + «Seasons of Skyrim VR» (63593) 1.8.6 — так Panda's Sovngarde. Версию 1.9.0 не брать: VR-DLL под неё не видно. По желанию — «Four Seasons - Faster Seasons of Skyrim» (#64286; Panda's, Librum VR).
-https://www.nexusmods.com/skyrimspecialedition/search/?gsearch=Seasons%20of%20Skyrim
+# [opt] Seasons of Skyrim + Seasons of Skyrim VR — «Seasons of Skyrim» (62861) 1.8.6 + «Seasons of Skyrim VR» (63593) 1.8.6 — так Panda's Sovngarde. Версию 1.9.0 не брать: VR-DLL под неё не видно. По желанию — «Four Seasons - Faster Seasons of Skyrim» (#64286; Panda's, Librum VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/62861
+https://www.nexusmods.com/skyrimspecialedition/mods/63593
 
 # [rec] LOD Model Library for DynDOLOD — LOD Model Library: последний 1.8.3 (CSVO, NGVO, 2026-06). В VR только Panda's — «LOD Model Library - FOMOD» 1.6.
 https://www.nexusmods.com/skyrimspecialedition/mods/87521

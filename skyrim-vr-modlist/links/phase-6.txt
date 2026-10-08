@@ -4,7 +4,7 @@
 # [core] Open Animation Replacer — Main «Open Animation Replacer» 3.2.1 (Yggdrasil VR, 2026-08-31: «Open Animation Replacer 92109 3.2.1») — один архив для SE/AE/VR, отдельного VR-файла нет. Версии 2.3.6 (Panda, Tempus, Tahrovin, Librum, FUS) и 2.1.0 (Grit) — только как откат, если 3.2.1 не загрузится. Пре-релизы и файлы для моддеров не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/92109
 
-# [rec] Paired Animation Improvements — Main «Paired Animation Improvements» 1.0.3 (Yggdrasil VR, 2026-08-31), иначе 1.0.2 (Panda, FUS, Tempus, Librum, Grit). Файл «Horse Mount and Dismount Double Sound Fix» (тот же ID) — не ставить, если нет двойного звука посадки на коня (Panda и FUS берут).
+# [core] Paired Animation Improvements — Main «Paired Animation Improvements» 1.0.3 (Yggdrasil VR, 2026-08-31), иначе 1.0.2 (Panda, FUS, Tempus, Librum, Grit). Файл «Horse Mount and Dismount Double Sound Fix» (тот же ID) — не ставить, если нет двойного звука посадки на коня (Panda и FUS берут).
 https://www.nexusmods.com/skyrimspecialedition/mods/99621
 
 # [rec] Mu Joint Fix (DLL) — Main «Mu Joint Fix» 2.1.3 (Yggdrasil VR, 2026-09-18: «MuJointFix 61479 2.1.3»), запасной вариант 2.1.2 (Librum VR, Yggdrasil VR). Старую 2.0.17 не брать. Назначение мода и состав архива не подтверждены — смотреть описание на странице.

@@ -6239,6 +6239,695 @@
    ],
    "caveats": "Лимит веб-поиска исчерпан, fetch к nexusmods, modding.wiki, dyndolod.info, stepmodifications.org, loot.readthedocs.io, tes5edit.github.io, mutagen-modding.github.io и synergyvr.org заблокирован. Поэтому темы 5, 6.2, 8, 9, 10, 12 и 13 опираются на сниппеты поиска и README с GitHub. Помечены medium/low. Проверено по коду MO2 (master, версия 2.5.2 совпадает по логике): порядок modlist.txt, формат plugins.txt/loadorder.txt, INI профиля, SKSEVR-имя sksevr_loader.exe, LOOT --game=\\\"Skyrim VR\\\". Проверено по документам: Root Builder (docs/rootbuilder.md), Engine Fixes 7.x (SETTINGS.md), исходники Skyrim VR ESL Support. Исправление манифеста: ключ MaxStdio для Engine Fixes VR 7.x — это bMaxStdIO (bool, секция [Patches], default true), а не число 8192. ESL-мод требует лишь, чтобы лимит дескрипторов был не ниже 2048. Конфиг — Data\\\\SKSE\\\\Plugins\\\\EngineFixes.toml, генерируется при первом запуске; перед правкой запусти игру один раз. Расхождение с одним из сниппетов поиска: он утверждал, что первая строка modlist.txt — наименьший приоритет. Код MO2 показывает обратное (первая строка = наивысший приоритет, нижний мод левой панели). Следуй коду. Что агенту надо прочитать у реальных установщиков: список файлов в архивах SKSEVR (sksevr_steam_loader.dll?), Engine Fixes Part 2, OpenComposite Unleashed (имя ini и ключи), FOMOD-варианты, содержимое гайда infernalryan (какие именно файлы копировать). Имена exe DynDOLOD (TexGenx64.exe, DynDOLODx64.exe) и xEdit QAC (суффикс QuickAutoClean) даны по памяти. Пункты меню активации рантайма SteamVR/Oculus даны по памяти. Даты релизов Pandora и MO2 на GitHub показаны без года, год домысливать нельзя. Файлы на диске создавались только во временной папке scratchpad, в репозиторий ничего не записано."
   },
-  "critic": {}
+  "critic": {
+   "add_requirements": [
+    {
+     "name": "SSE Terrain Tamriel (xLODGen Resource)",
+     "id": 54680,
+     "needed_by": [
+      "tools-9"
+     ],
+     "separator_section": "00 Инструменты и корень",
+     "note": "Нужен только на время генерации LOD рельефа в xLODGen; после неё отключить (если страница так велит). В VR-списках лежит как «SSE Terrain Tamriel Extend» (Tempus VR) или «Full Extend» (Librum VR, Yggdrasil VR), версия 2.0. Какой из файлов брать — неизвестно, общие правила: читать описания файлов. Уверенность: средняя."
+    },
+    {
+     "name": "Simple Realistic Archery VR",
+     "id": 28524,
+     "needed_by": [
+      "vr-117254"
+     ],
+     "separator_section": "05 VR-ядро",
+     "note": "Нет в манифесте, хотя стоит во всех 9 VR-списках: файл 1.26. Без него Seamless Arrow Nocking VR ничего не меняет. Ставить выше vr-117254. Старые 1.22 и 1.23b-beta (Librum VR) не брать. Метка rec. Уверенность: высокая."
+    },
+    {
+     "name": "Simple Offence Suppression (SE/AE, основной файл)",
+     "id": 41764,
+     "needed_by": [
+      "combat-59508"
+     ],
+     "separator_section": "12 Бой и геймплей",
+     "note": "Основа для VR-файла #59508. В Panda's Sovngarde — 2.2.1, в Yggdrasil VR — «Simple Offence Suppression SE» 2.1.0. Какую версию брать — неизвестно, общие правила: сверить на странице #59508. VR-файл ставить сразу ниже основного (его VR-DLL заменяет SE-DLL). Уверенность: средняя."
+    },
+    {
+     "name": "Broken Feathers",
+     "id": 160798,
+     "needed_by": [
+      "hitech-169833"
+     ],
+     "separator_section": "06 Хайтек 2026",
+     "note": "Файл «Broken Feathers - Latest Version» 1.0.1. Pull Arrows VR ставить ниже него. Ни один из 9 VR-списков его не использует, только SE-списки. Если в архиве есть DLL — проверить загрузку в sksevr.log; не загрузилась — убрать. Без мода ломка стрел при вытаскивании не покажется, остальное работает. Уверенность: низкая."
+    },
+    {
+     "name": "Floating Subtitles (базовый мод)",
+     "id": 154424,
+     "needed_by": [
+      "ui-183714"
+     ],
+     "separator_section": "07 Интерфейс",
+     "note": "База для Floating Subtitles VR. В VR-списках — версия 3.3.3 (Spirit of Grit, Tahrovin - Grit). VR-файлы ставить отдельным модом ниже. Нужен только если выбран ui-183714 (opt). Уверенность: средняя."
+    },
+    {
+     "name": "RaceMenu (Anniversary Edition)",
+     "id": 19080,
+     "needed_by": [
+      "ui-156898",
+      "ui-192158"
+     ],
+     "separator_section": "07 Интерфейс",
+     "note": "База для RacemenuVR: версия 0.4.19.16 (Spirit of Grit VR). Для RaceMenu VR 2: 0.4.20.0. Ставить одну версию, по выбранной группе racemenu. VR-мод — ниже базы. Оба мода — opt/try. Уверенность: средняя."
+    },
+    {
+     "name": "Frozen Electrocuted Combustion (оригинал для SE)",
+     "id": 3532,
+     "needed_by": [
+      "immersion-59118"
+     ],
+     "separator_section": "13 Мир, ИИ, погружение",
+     "note": "Файл 5.1.0 — его берут все VR-списки. Версию 6.x (SE) не ставить. FEC VR — отдельным модом ниже. Нужен только если выбран immersion-59118 (opt). Уверенность: высокая."
+    },
+    {
+     "name": "Embers XD - Frozen Electrocuted Combustion Patch",
+     "id": 69446,
+     "needed_by": [
+      "world-37085",
+      "immersion-59118"
+     ],
+     "separator_section": "13 Мир, ИИ, погружение",
+     "note": "Ставить только если стоят оба: Embers XD и FEC VR. Патч — ниже обоих. В VR-списках: 1.0 (Tempus VR) и 2.0 (Panda's Sovngarde). Какую версию — неизвестно, общие правила: брать свежую со страницы. Уверенность: средняя."
+    },
+    {
+     "name": "Behavior Data Injector",
+     "id": 78146,
+     "needed_by": [
+      "immersion-86950"
+     ],
+     "separator_section": "02 SKSEVR и библиотеки",
+     "note": "Файл v0.13, нужен Combat Pathing Revolution (opt). Порядок: BDI, ниже Universal Support, ещё ниже CPR. Уверенность: средняя."
+    },
+    {
+     "name": "Behavior Data Injector Universal Support",
+     "id": 78159,
+     "needed_by": [
+      "immersion-86950"
+     ],
+     "separator_section": "02 SKSEVR и библиотеки",
+     "note": "Файл v0.13.0.1, DLL с поддержкой AE и VR. Ставить сразу ниже Behavior Data Injector, чтобы заменить его DLL. Уверенность: средняя."
+    },
+    {
+     "name": "ISC-SRDified Main File",
+     "id": 78446,
+     "needed_by": [
+      "audio-523"
+     ],
+     "separator_section": "08 Звук",
+     "note": "Только если в группе audio-stack выбран ISC вместо AOS (вариант Panda's Sovngarde, файл 2.2.1). Нужен Sound Record Distributor. Ставить ниже ISC. По умолчанию — не ставить. Уверенность: средняя."
+    },
+    {
+     "name": "Seasons of Skyrim",
+     "id": 62861,
+     "needed_by": [
+      "land-6"
+     ],
+     "separator_section": "10 Ландшафт, трава, деревья",
+     "note": "У land-6 в манифесте id пуст; основной мод — #62861 (Panda's Sovngarde: 1.8.6; True North: 1.9.0). Нужна версия 1.8+. Всё ещё opt: сезонные кэши травы и LOD — по 4 прогона. Уверенность: средняя."
+    },
+    {
+     "name": "Seasons of Skyrim VR",
+     "id": 63593,
+     "needed_by": [
+      "land-6"
+     ],
+     "separator_section": "10 Ландшафт, трава, деревья",
+     "note": "VR-DLL, версия 1.8.6 (Panda's Sovngarde). Отдельный мод ниже основного. Уверенность: средняя."
+    },
+    {
+     "name": "Microsoft Visual C++ Redistributable (последний, x64)",
+     "id": null,
+     "needed_by": [
+      "vr-92804",
+      "ai-0"
+     ],
+     "separator_section": "00 Инструменты и корень",
+     "note": "Системный компонент, не мод MO2. Страница Dual Casting Fix VR (rec) просит его явно. Проверить наличие в Windows, при отсутствии поставить с сайта Microsoft. Уверенность: высокая."
+    },
+    {
+     "name": ".NET SDK (для Synthesis)",
+     "id": null,
+     "needed_by": [
+      "tools-6"
+     ],
+     "separator_section": "00 Инструменты и корень",
+     "note": "Системный компонент. Нужную версию Synthesis покажет при первом запуске. Версию не угадывать. Уверенность: средняя."
+    },
+    {
+     "name": "OpenXR-рантайм (SteamVR, VDXR или Meta)",
+     "id": null,
+     "needed_by": [
+      "perf-171182"
+     ],
+     "separator_section": "00 Инструменты и корень",
+     "note": "Не мод. В Virtual Desktop Streamer, приложении Oculus и SteamVR выставить один рантайм. Проверить, но не ставить из MO2. Уверенность: средняя."
+    },
+    {
+     "name": "Windows Subsystem for Linux (WSL)",
+     "id": null,
+     "needed_by": [
+      "ai-126330"
+     ],
+     "separator_section": "00 Инструменты и корень",
+     "note": "Нужен CHIM (opt, по умолчанию не ставить). Включение — системная настройка, не MO2. Уверенность: средняя."
+    },
+    {
+     "name": "DwemerDistro (сервер CHIM)",
+     "id": null,
+     "needed_by": [
+      "ai-126330"
+     ],
+     "separator_section": "00 Инструменты и корень",
+     "note": "Внешний сервер в WSL, не мод. Нужен только если выбран CHIM. Установку вести по инструкции CHIM: неизвестно, общие правила. Уверенность: средняя."
+    }
+   ],
+   "choose_one_groups": [
+    {
+     "group": "masters-path",
+     "members": [
+      "base-0",
+      "base-91475"
+     ],
+     "default": "base-0 (путь A), если на ПК есть купленная SE/AE 1.6.1170; иначе base-91475 (путь B)",
+     "rule": "Ровно один путь обязателен: любой USSEP-зависимый мод (immersion-16692, fixes-69026, fixes-49616) требует USSEP, а он идёт только внутри пути. Путь A тянет base-266, base-176040, base-59049, base-177398, base-177650(opt). Путь B тянет только base-91475 и USSEP 4.2.5b. Смешивать детали путей нельзя. Теги alt у обоих путей — это не отказ, а выбор."
+    },
+    {
+     "group": "shaders",
+     "members": [
+      "gfx-180419",
+      "gfx-166950"
+     ],
+     "default": "gfx-180419 (Open Shaders)",
+     "rule": "Один шейдерный пакет. CSX — только по явному запросу. Community Shaders 1.7+, ENB, Intellightent и DLSS5-форк не ставить (dont)."
+    },
+    {
+     "group": "water",
+     "members": [
+      "world-56520",
+      "world-37061"
+     ],
+     "default": "world-56520 (Simplicity of Sea)",
+     "rule": "Одна вода. Water for ENB — не ENB-пресет, а обычный водный мод; можно, но только вместо Simplicity of Sea. Natural Waterfalls (world-87261) ставить ниже выбранного."
+    },
+    {
+     "group": "grass",
+     "members": [
+      "land-164058",
+      "land-80687"
+     ],
+     "default": "land-164058 (Merethic Grasslands)",
+     "rule": "Выбирается один травяной набор. Файл «DrJacopo's - 3D Grass Library - Meshes» из land-80687 ставится ВСЕГДА, при любом выборе: его требует Merethic. Остальное из land-80687 (Resource Textures, сет Cathedral/Freak's Floral Fields, 3D-растения) — только если вместо Merethic выбран Cathedral. Meshes стоят выше Merethic."
+    },
+    {
+     "group": "footprints",
+     "members": [
+      "land-3808",
+      "hitech-175254",
+      "hitech-189713"
+     ],
+     "default": "land-3808 (Footprints + SPID for Footprints)",
+     "rule": "Один источник следов на снегу и песке. Dynamic Footprints (try) и DynamicShader — DynamicSnow (try, VR не подтверждён) — только по явному запросу и на отдельном сохранении. DynamicSnow дополнительно дублирует фичу снега Open Shaders. Dynamic Terrain Deformation не ставить (dont). Уверенность: средняя."
+    },
+    {
+     "group": "racemenu",
+     "members": [
+      "ui-156898",
+      "ui-192158"
+     ],
+     "default": "ui-156898 (RacemenuVR + RaceMenu 0.4.19.16)",
+     "rule": "Одна пара: RaceMenu (#19080) нужной версии + VR-мод. RaceMenu VR 2 — только по запросу, база 0.4.20.0. Оба мода opt/try, по умолчанию можно не ставить. RaceMenu VR Layout Fix и Position Tweaks не ставить с RaceMenu VR 2."
+    },
+    {
+     "group": "audio-stack",
+     "members": [
+      "audio-12466",
+      "audio-523"
+     ],
+     "default": "audio-12466 (Audio Overhaul for Skyrim)",
+     "rule": "Один звуковой стек. ISC вместо AOS — на месте AOS, плюс ISC-SRDified (#78446) ниже. Оба сразу — только с патчем AOS–ISC (#36761), по умолчанию не делать. RSE, RISE и ASIF (audio-77829, audio-78992) ставятся при любом выборе."
+    },
+    {
+     "group": "item-info",
+     "members": [
+      "frameworks-85702",
+      "ui-192976"
+     ],
+     "default": "frameworks-85702 (I4, файл VR 1.1.0)",
+     "rule": "Использовать I4. I5 (try) — только по запросу и вместо I4, не вместе: спецификации спорят, замена это или надстройка. Norden UI и QuickLoot IE рассчитаны на I4. Уверенность: низкая."
+    },
+    {
+     "group": "hud-style",
+     "members": [
+      "ui-49657",
+      "ui-17812",
+      "ui-169537"
+     ],
+     "default": "ui-49657 + ui-17812 (Clear HUD VR + Clean Menu и Minimal Enemy Healthbar VR)",
+     "rule": "Либо ветка HUD-твиков (ui-49657 + ui-17812, можно вместе), либо Norden UI VR (ui-169537). Общий HUD-файл достаётся нижнему моду, поэтому HUD-твики перекроют HUD Norden. Все три — opt. Из Clean Menu не брать «Unobtrusive HUD». Уверенность: средняя."
+    },
+    {
+     "group": "spell-aim",
+     "members": [
+      "vr-55751",
+      "vr-119689"
+     ],
+     "default": "vr-55751 (Magic Improvements for Skyrim VR)",
+     "rule": "Spell Auto-Aim VR (opt) частично дублирует прицеливание Magic Improvements. По умолчанию не ставить. Если ставить, подбирать силу в INI и проверять отдельно. SpellBender VR не ставить рядом ни с одним из двух. Уверенность: средняя."
+    },
+    {
+     "group": "jump-scheme",
+     "members": [
+      "vr-28354",
+      "vr-23649"
+     ],
+     "default": "vr-28354 (Sprint Jump VR)",
+     "rule": "Одна схема прыжка. Auto Sneak and Jump VR можно держать вместе только при отключённом авто-прыжке в его INI (ключ JumpThreshold и соседние); иначе только Sprint Jump VR. Физическое приседание встроенной игры отключить в playroom. Уверенность: средняя."
+    },
+    {
+     "group": "ai-npc",
+     "members": [
+      "ai-0",
+      "ai-98631",
+      "ai-126330"
+     ],
+     "default": "ничего (все три opt)",
+     "rule": "Не больше одного ИИ-NPC мода: SkyrimNet, Mantella и CHIM несовместимы друг с другом. Fuz Ro D-oh VR не ставить, если мод его не требует (dont)."
+    },
+    {
+     "group": "behavior-engine",
+     "members": [
+      "tools-133232"
+     ],
+     "default": "tools-133232 (Pandora Behaviour Engine+)",
+     "rule": "Один генератор. Nemesis в манифесте нет, вместе с Pandora не ставить. Версия Pandora не старше 4.1.2-beta (там вернули Skyrim VR)."
+    },
+    {
+     "group": "mcm-backup",
+     "members": [
+      "tools-189722"
+     ],
+     "default": "tools-189722 (MCM Memory)",
+     "rule": "MCM Recorder и MCM Bridge не ставить. MCM Memory 1.5.3 или новее."
+    },
+    {
+     "group": "opencomposite",
+     "members": [
+      "perf-171182"
+     ],
+     "default": "perf-171182 (Unleashed 5.0.0)",
+     "rule": "Одна сборка OpenComposite. Старый «OpenComposite Fixes Custom Build» (#85389) не ставить (dont)."
+    },
+    {
+     "group": "climbing",
+     "members": [
+      "vr-170321"
+     ],
+     "default": "vr-170321 (VR Climbing Aelove Ver)",
+     "rule": "Оригинальный VR Climbing (#168553) не ставить: форк самостоятельный. SkyClimb, SkyParkour, StepUpOnto и EVG Animated Traversal — dont."
+    },
+    {
+     "group": "subtitles",
+     "members": [
+      "ui-183714"
+     ],
+     "default": "ui-183714 (Floating Subtitles VR)",
+     "rule": "Subtitles VR (#131015) не ставить. Fuz Ro D-oh VR не нужен."
+    }
+   ],
+   "contradictions": [
+    {
+     "keys": [
+      "vr-81220",
+      "tools-133232"
+     ],
+     "problem": "Steeds of Ultima требует «Pandora (или Nemesis)», а Nemesis вместе с Pandora в списке dont. В заметке Pandora Nemesis назван запасным вариантом, но Nemesis в манифесте нет.",
+     "fix": "Считать зависимостью только Pandora. Запасной Nemesis из инструкций убрать. Если 5.0.0-beta не собирает поведения — откатить Pandora на 4.4.0-beta, а не добавлять второй генератор. После установки Steeds запустить Pandora."
+    },
+    {
+     "keys": [
+      "frameworks-30457",
+      "frameworks-58101",
+      "frameworks-62089",
+      "perf-171182"
+     ],
+     "problem": "Разделитель в манифесте (02 или 15) расходится с указаниями: SKSEVR — «первый мод раздела Инструменты и корень», Engine Fixes VR Part 2 и OpenComposite — тоже в разделе корня (манифест mo2_order, пункт 0). VR Address Library — «сразу после SKSEVR».",
+     "fix": "Перенести в 00: SKSEVR, сразу ниже VR Address Library, мод «Engine Fixes VR Part 2» (все файлы в Root), OpenComposite Unleashed. Engine Fixes VR Part 1 остаётся в 02. Все моды с папкой Root держать в 00, включая True 3D Sound (audio-1897); порядок среди них не важен."
+    },
+    {
+     "keys": [
+      "frameworks-30457"
+     ],
+     "problem": "SKSEVR «первый мод» в списке (низший приоритет), но «его скрипты должны выигрывать любые конфликты» (нужен высокий приоритет). Оба требования сразу не выполнить.",
+     "fix": "Оставить SKSEVR первым в 00. Скрипты защищать иначе: на вкладке конфликтов MO2 для каждого .pex/.psc, где другой мод перезаписывает файл SKSEVR, скрыть (Hide) файл у того мода. Двигать SKSEVR вниз не нужно. Уверенность: средняя."
+    },
+    {
+     "keys": [
+      "gfx-138443",
+      "hitech-181533",
+      "gfx-127557",
+      "world-43158",
+      "world-37085"
+     ],
+     "problem": "CS Light (разделитель 04) и Helios (06) по правилам должны быть НИЖЕ Lux, Embers XD и Light Placer, но Lux и Embers лежат в 09, ниже по списку.",
+     "fix": "Перенести CS Light и Helios в конец раздела 09: порядок Lux → Lux Via → Lux Orbis → Embers XD → CS Light → Helios. Light Placer VR стоит ниже основного Light Placer. Патчи Lux Patch Hub — в раздел «17 Патчи»."
+    },
+    {
+     "keys": [
+      "vr-16330",
+      "ui-169537"
+     ],
+     "problem": "SKSEVR Perk Extender (разделитель 05) должен перекрывать statsmenu.swf у Norden UI VR и SkyUI VR, но 05 выше интерфейса 07.",
+     "fix": "Перенести vr-16330 в раздел 07, ниже SkyUI VR и Norden UI VR (Norden и его заплатки выше). Нижний мод в списке MO2 побеждает."
+    },
+    {
+     "keys": [
+      "vr-28831",
+      "hitech-166560",
+      "hitech-186081",
+      "hitech-192698"
+     ],
+     "problem": "Neutral VR Animations (05) должен быть ниже Open Animation Replacer (11). Interactive Waters (06) — ниже Splashes of Skyrim VR (09). Bobbing Framework (06) — ниже Dynamic Wind (09). XPMF (06) — ниже Seasons of Skyrim (10). Разделители стоят выше.",
+     "fix": "Перенести: vr-28831 в 11 ниже OAR; hitech-166560 и hitech-186081 в 09 (ниже Splashes и Dynamic Wind); hitech-192698 в 10 ниже Seasons of Skyrim."
+    },
+    {
+     "keys": [
+      "vr-186335",
+      "vr-184223",
+      "vr-44571",
+      "vr-185816",
+      "vr-191123"
+     ],
+     "problem": "Поле order манифеста ставит Physical Collision VR раньше Immersive Weapon Penetration VR, а Instant Equip VR позже Swap Drop and Hold Redux. Правила требуют обратного.",
+     "fix": "Порядок сверху вниз: HIGGS → PLANCK → IWP VR → Physical Collision VR → True Wield VR; Instant Equip VR выше Swap Drop and Hold Redux и Steeds of Ultima; Swap Drop and Hold Redux ниже True Wield VR."
+    },
+    {
+     "keys": [
+      "land-164058",
+      "land-80687"
+     ],
+     "problem": "Order манифеста: Merethic раньше 3D Grass Library Meshes, а Merethic должен перекрывать её файлы. Плюс группа grass объявляет «одно из двух», тогда как Meshes из land-80687 нужны Merethic всегда.",
+     "fix": "Meshes (land-80687) ставить всегда и выше Merethic. Группа grass выбирает только травяной сет (Merethic по умолчанию или Cathedral)."
+    },
+    {
+     "keys": [
+      "anim-1988",
+      "anim-92109",
+      "anim-57339"
+     ],
+     "problem": "Order манифеста ставит XPMSSE после OAR и FSMP, а правила: XPMSSE первым в разделе 11, VR-фикс сразу ниже.",
+     "fix": "Порядок: XPMSSE → «VR-фикс» сразу ниже → FSMP → Dynamic Armor Physics → OAR → Paired Animation Improvements → остальные анимации."
+    },
+    {
+     "keys": [
+      "combat-27839",
+      "combat-30191",
+      "combat-34549",
+      "combat-146873",
+      "combat-187578",
+      "combat-148388"
+     ],
+     "problem": "Order манифеста нарушает правила: Blade and Blunt и Adamant стоят раньше Mysticism, Accuracy раньше Core Impact Framework.",
+     "fix": "Порядок: Mysticism → Adamant → Adamant VR Tweaks → Blade and Blunt → Blade and Blunt VR; Thaumaturgy → Apothecary → Mundus ниже Adamant; Core Impact Framework → Accuracy и Sanguine Symphony ниже него."
+    },
+    {
+     "keys": [
+      "audio-18115",
+      "audio-12466"
+     ],
+     "problem": "Обе карточки говорят «самым первым» в разделе 08: UHDAP и Audio Overhaul for Skyrim.",
+     "fix": "Первым UHDAP (музыка и озвучка должны его перекрывать), вторым AOS (или ISC на его месте), затем RSE → RISE → ASIF."
+    },
+    {
+     "keys": [
+      "frameworks-85702",
+      "ui-192976"
+     ],
+     "problem": "I5 по карточке «обязательно требует I4», но I4 по карточке несовместим с I5. Заметка I5: «если I4 не вылетает — оставить I4», то есть I5 заменяет I4.",
+     "fix": "Считать I5 заменой I4. Ставить I4, I5 не ставить без запроса. Если пользователь выберет I5 — прочитать Requirements его страницы и решить вручную. Уверенность: низкая."
+    },
+    {
+     "keys": [
+      "anim-92109",
+      "anim-99621",
+      "fixes-82395"
+     ],
+     "problem": "OAR (core) требует Paired Animation Improvements и Animation Queue Fix, но у тех тег rec — зависимость слабее зависимого.",
+     "fix": "Повысить оба до core, ставить до OAR."
+    },
+    {
+     "keys": [
+      "base-266",
+      "base-0",
+      "base-91475",
+      "immersion-16692",
+      "fixes-49616"
+     ],
+     "problem": "USSEP помечен alt и привязан к пути A, а моды с тегом rec (Realistic Mining and Chopping) требуют USSEP «пути A или B».",
+     "fix": "Один из путей обязателен: USSEP 4.3.x (A) или 4.2.5b из старых файлов (B). Считать это требованием ядра."
+    },
+    {
+     "keys": [
+      "immersion-39414",
+      "base-59049",
+      "base-0"
+     ],
+     "problem": "Путь A требует оставить включённым плагин CC Survival Mode, а SunHelm Survival несовместим с режимом выживания CC.",
+     "fix": "SunHelm по умолчанию не ставить на пути A. Если очень нужен — ставить только с «Survival Mode Prompt Removed» и проверять в игре. Уверенность: низкая."
+    },
+    {
+     "keys": [
+      "vr-44571",
+      "vr-59816",
+      "ui-185197",
+      "vr-185816",
+      "vr-81220"
+     ],
+     "problem": "В конфиге Instant Equip VR написано «нужен Swap Drop and Hold Redux и Steeds of Ultima (жёстко)», у Dialogue Movement Enabler VR — «нужен No Menu Fade Out VR (жёстко)». В полях requires направление обратное: Swap Drop, Steeds и No Menu Fade Out зависят от них. По тексту получился бы цикл.",
+     "fix": "Считать зависимости только из поля requires: Instant Equip и DME сами требуют лишь SKSEVR. Фразы в конфигах читать как «от этого мода зависят». Уверенность: средняя."
+    },
+    {
+     "keys": [
+      "perf-171182",
+      "tools-7"
+     ],
+     "problem": "OpenComposite убирает оверлеи SteamVR, поэтому fpsVR и SteamVR Frame Timing при нём ничего не покажут, а tools-7 помечен rec.",
+     "fix": "Замеры делать с OpenComposite через счётчик Open Shaders, Oculus Debug Tool или график Virtual Desktop. fpsVR и SteamVR Frame Timing — только при выключенном OpenComposite (Root Builder → Clear)."
+    },
+    {
+     "keys": [
+      "tools-64319",
+      "perf-171182"
+     ],
+     "problem": "VR Keyboard (opt) дублирует виртуальную клавиатуру, которая уже работает в OpenComposite Unleashed.",
+     "fix": "VR Keyboard не ставить, пока ввод имени работает в игре. Уверенность: средняя."
+    },
+    {
+     "keys": [
+      "frameworks-62089",
+      "frameworks-106712"
+     ],
+     "problem": "Engine Fixes VR: в заметке MaxStdio = 8192, на странице ESL Support — «true в старых версиях, 4096 в новых».",
+     "fix": "В EngineFixes.toml, секция [Patches], поставить MaxStdio = 8192; это не меньше требуемых 4096. Если у новой версии ключа нет — читать README, не угадывать. Уверенность: средняя."
+    },
+    {
+     "keys": [
+      "hitech-169833"
+     ],
+     "problem": "Pull Arrows VR (rec) просит Broken Feathers, но тот есть только в SE-списках, VR-файла нет.",
+     "fix": "Поставить Broken Feathers, проверить загрузку DLL по sksevr.log. Не грузится — убрать, Pull Arrows работает без него. Уверенность: низкая."
+    },
+    {
+     "keys": [
+      "land-6"
+     ],
+     "problem": "У Seasons of Skyrim в манифесте id пуст, ссылка ведёт на поиск Nexus.",
+     "fix": "Заполнить id 62861 и VR-DLL 63593 (оба есть в Panda's Sovngarde). Ставить только по запросу: кэш травы и LOD нужен на каждый сезон."
+    },
+    {
+     "keys": [
+      "hitech-189713"
+     ],
+     "problem": "DynamicShader Core нужен для DynamicSnow (try), страница неизвестна.",
+     "fix": "Уточнить вручную. По умолчанию DynamicSnow не ставить."
+    },
+    {
+     "keys": [
+      "ui-169537"
+     ],
+     "problem": "Заплатка «SkyUI Weapons Pack» для Norden UI VR (opt) — мод не в манифесте, страница не определена.",
+     "fix": "Уточнить вручную; ставить только если у пользователя уже стоит SkyUI Weapons Pack."
+    },
+    {
+     "keys": [
+      "ai-0"
+     ],
+     "problem": "SkyrimNet (opt) просит Prisma UI (статус в VR не подтверждён) и Media Keys Fix SKSE; страницы не определены.",
+     "fix": "Уточнить вручную. SkyrimNet по умолчанию не ставить. Если ставить — Prisma UI и Media Keys Fix в 02 после проверки VR."
+    },
+    {
+     "keys": [
+      "ai-98631"
+     ],
+     "problem": "Mantella (opt) ссылается на No NPC Greetings и World Encounter Hostility Fix «по зеркалу страницы», обязательность не проверена.",
+     "fix": "Уточнить вручную по Requirements страницы Mantella."
+    },
+    {
+     "keys": [
+      "vr-66025",
+      "immersion-132097"
+     ],
+     "problem": "Для NPC Spell Variance (opt) нужен «NPC Spell Variance VR Patch» с GitHub Treatid2, ссылки нет.",
+     "fix": "Уточнить вручную; без патча возможны проблемы collision-alpha у PLANCK. Если NPC Spell Variance не ставится — пропустить."
+    },
+    {
+     "keys": [
+      "vr-76830",
+      "world-37085",
+      "vr-161676",
+      "fixes-69026"
+     ],
+     "problem": "Упомянуты «EmbersXD Compatibility Patch» (к Immersive Smithing) и «патч GDOS» (к Interactive Activators VR и Dwemer Gates Don't Reset); источников нет.",
+     "fix": "Уточнить вручную; оба нужны только для opt-модов, по умолчанию не ставить."
+    },
+    {
+     "keys": [
+      "frameworks-120352",
+      "ui-183714"
+     ],
+     "problem": "Для SKSE Menu Framework указана ImGui Icons (#114790) как обязательная, но Stormcrown VR с SMF 3.18 её не ставит (ImGui Icons есть только в Spirit of Grit).",
+     "fix": "Уточнить вручную по Requirements страницы SMF; в manifest не добавлять без подтверждения. Уверенность: низкая."
+    },
+    {
+     "keys": [
+      "tools-175086"
+     ],
+     "problem": "Lights Conflict Resolver упоминает «Tiny Light Placer Hub», которого нет в манифесте.",
+     "fix": "Уточнить вручную; без него запускать на установленных конфигах."
+    },
+    {
+     "keys": [
+      "tools-3",
+      "tools-133232",
+      "tools-6",
+      "tools-120946",
+      "tools-68518",
+      "land-42161"
+     ],
+     "problem": "gen_steps не содержит Pandora, но Pandora Output пишется в блок «Сгенерированное», а поведения нужно пересобирать после любых поведенческих модов.",
+     "fix": "Порядок генерации: Pandora (после установки всех анимаций) → PGPatcher (если есть PBR/parallax) → Synthesis → Grass Cache (NGIO) → xLODGen → TexGen → DynDOLOD. Synthesis.esp в плагинах последним в любом случае."
+    },
+    {
+     "keys": [
+      "land-3808",
+      "hitech-175254"
+     ],
+     "problem": "dont-список называет Dynamic Footprints заменой Dynamic Terrain Deformation, но в манифесте он try, а Footprints + SPID — opt и проверен в VR-списках.",
+     "fix": "По умолчанию Footprints + SPID. Dynamic Footprints — по запросу. Уверенность: средняя."
+    },
+    {
+     "keys": [
+      "hitech-189713",
+      "gfx-180419"
+     ],
+     "problem": "DynamicSnow (try) дублирует фичу динамического снега Open Shaders (core).",
+     "fix": "Не ставить DynamicSnow по умолчанию; только эксперимент на отдельном сохранении."
+    },
+    {
+     "keys": [
+      "anim-183892",
+      "fixes-181445",
+      "vr-66025",
+      "vr-186335"
+     ],
+     "problem": "Variadic Collision Dynamics (try) помечен как возможный конфликт с PLANCK, Physical Collision VR и Collision Sentinel.",
+     "fix": "Не ставить: он конфликтует с core/rec модами. Collision Sentinel (opt) — отдельный диагностический мод, допустим."
+    },
+    {
+     "keys": [
+      "world-37061"
+     ],
+     "problem": "Water for ENB содержит ENB в названии, а ENB запрещён.",
+     "fix": "Это водный мод, не ENB. Оставить как alt к Simplicity of Sea, файлы ENB (пресеты, binaries) не брать."
+    },
+    {
+     "keys": [
+      "vr-23416",
+      "anim-1988"
+     ],
+     "problem": "VRIK просит, чтобы его файлы перезаписывали остальное, а VR-фикс XPMSSE должен выиграть по _1stperson\\skeleton.nif. Оба претендуют на skeleton*.nif.",
+     "fix": "Ставить XPMSSE и VR-фикс ниже VRIK/HIGGS/PLANCK. Если на вкладке конфликтов видны общие skeleton*.nif — открыть оба, для _1stperson\\skeleton.nif оставить файл VR-фикса XPMSSE. Остальные файлы VRIK не трогать. Уверенность: низкая."
+    },
+    {
+     "keys": [
+      "tools-189722",
+      "tools-19250",
+      "tools-64319"
+     ],
+     "problem": "Эти DLL-моды лежат в разделе «00 Инструменты и корень», хотя это обычные моды MO2, не root.",
+     "fix": "MCM Memory и More Informative Console — в 02. VR Keyboard по умолчанию не ставить."
+    },
+    {
+     "keys": [
+      "anim-168903",
+      "combat-111890"
+     ],
+     "problem": "A-Pose Bug Fix (try) и NPCs Take Cover (opt) без VR-файла. Состав NPCs Take Cover не проверен.",
+     "fix": "A-Pose Bug Fix не ставить. NPCs Take Cover ставить в самом конце, проверить sksevr.log."
+    },
+    {
+     "keys": [
+      "frameworks-62089"
+     ],
+     "problem": "Engine Fixes VR записан как один root_builder, но по карточке это два мода: Part 1 в Data, Part 2 в Root.",
+     "fix": "Два мода: «Engine Fixes VR» в 02, «Engine Fixes VR Part 2» в 00 с Root. Старый «ObjectLOD and Shadow Map Crash Fix» (#188237) не ставить: он встроен с 7.4.9."
+    }
+   ],
+   "order_rules": [
+    "Правило MO2: нижний мод левой панели побеждает. Ниже = ближе к низу списка. Все правила ниже считать от этого.",
+    "Разделители сверху вниз: 00 Инструменты и корень, 01 Мастера и USSEP, 02 SKSEVR и библиотеки, 03 Фиксы движка, 04 Шейдеры и свет, 05 VR-ядро, 06 Хайтек 2026, 07 Интерфейс, 08 Звук, 09 Свет, погода, вода, VFX, 10 Ландшафт, трава, деревья, 11 Анимации и физика, 12 Бой и геймплей, 13 Мир, ИИ, погружение, 14 ИИ-NPC, 15 VR-рантайм и производительность, 16 Текстуры (создать, пока пусто), 17 Патчи (создать), 18 Сгенерированное (создать). Манифест mo2_order эти последние три и разделы 06, 13, 15 не нумерует.",
+    "00: SKSEVR (первым), VR Address Library ниже, Engine Fixes VR Part 2 (Root), OpenComposite Unleashed (Root, openvr_api.dll и opencomposite.ini), True 3D Sound (Root). Root Builder сам установить в plugins MO2 заранее и перезапустить MO2. DynDOLOD Resources SE 3 — рано в списке.",
+    "01 путь A: Updated Masters → Strings Fix → Survival Text Removed → USSEP 4.3.x → Survival Mode Prompt Removed → VR Fixes for Latest USSEP (если нужен) → Cleaned Masters. Путь B: USSEP 4.2.5b → его патч совместимости → Cleaned Masters. Cleaned Masters всегда ниже мастеров и их патчей. Чистить мастера Quick Auto Clean после установки пути.",
+    "02: каждый VR-мод ниже основного (Papyrus Extender, po3 Tweaks, Container Distribution Framework, PapyrusUtil ESL Patch ниже PapyrusUtil VR). ImGui VR Helper ниже SKSE Menu Framework. Behavior Data Injector → BDI Universal Support, и только потом CPR (13). I4 выше всех его иконочных паков и патчей. Base Object Swapper VR выше Lightened Skyrim BOS (03).",
+    "03: Poached Bugs VR Core → Simonrim Choice Config ниже; USSEP (01) → SCROTE → Dragonactorscript Infinite Loop Fix и CritterSpawn Congestion Fix ниже SCROTE (каждый побеждает в своём скрипте). Assorted Mesh Fixes → Unofficial Material Fix → Fixed Mesh Lighting. Water Effects Brightness Fix выше Splashes и Simplicity of Sea. USMP ниже USSEP.",
+    "04: Open Shaders (или CSX) → «Open Shaders — настройки» (SettingsUser.json) сразу ниже; Light Placer → Light Placer VR ниже. Моды с файлами под CS (Azurite HDR, Map Weather — CS, Parallax Spell Impacts) — ниже Open Shaders.",
+    "05 VR-ядро: SkyUI VR (02) → VRIK → HIGGS → PLANCK → PLANCK Stability Patch ниже. Затем Immersive Weapon Penetration VR → Physical Collision VR → True Wield VR → Swap Drop and Hold Redux. Instant Equip VR выше Swap Drop и Steeds of Ultima. Spell Wheel VR выше Durability VR и Steeds of Ultima. Weapon Throw VR выше Pull Arrows VR и Durability VR. Simple Realistic Archery VR выше Seamless Arrow Nocking VR. Аддоны VRIK и HIGGS ниже своих баз.",
+    "06 Хайтек: Smooth Terrain ниже Open Shaders; DynamicSnow (если есть) ниже Smooth Terrain и DynamicShader Core. Broken Feathers, Weapon Throw VR, HIGGS выше Pull Arrows VR. Immersive Harvesting VR ниже HIGGS и Interactive Activators VR. ISPVR ниже VRIK и MISVR. Steeds of Omega VR ниже Steeds of Ultima.",
+    "07 Интерфейс: SkyUI VR → Norden UI VR (его заплатки ниже) → SKSEVR Perk Extender (перенести из 05). moreHUD VR ниже SkyUI VR; Clear HUD VR и Minimal Enemy Healthbar VR ниже moreHUD и Norden. Floating Subtitles база → Floating Subtitles VR ниже. RaceMenu база → RacemenuVR ниже. QuickLoot IE ниже I4 и SkyUI VR. No Menu Fade Out VR ниже DME (05).",
+    "08 Звук: UHDAP первым, затем AOS (или ISC на его месте) → RSE → RISE → ASIF. ISC-SRDified ниже ISC. Патч AOS–ISC ниже обоих. Immersive Draw Sheathe Sounds VR — ниже AOS. Wildwood Echoes, Murmurs and Mead, Haunting Harmonies, Whispers — ниже RSE и RISE.",
+    "09: Lux → Lux Via → Lux Orbis; Azurite → MCM/HDR → Storm Lightning; Simplicity of Sea (или Water for ENB) → Color Tweaks → Natural Waterfalls; Splashes of Skyrim/Storms (VR ниже основного); Dynamic Wind Framework → Dynamic Wind — Skyrim → Bobbing Framework; Interactive Waters ниже Splashes VR; Deadly Spell Impacts → Parallax Spell Impacts; Embers XD → CS Light → Helios (самые нижние в разделе).",
+    "10: 3D Grass Library Meshes → Merethic; HLT → его LOD-аддон; Seasons of Skyrim → VR-мод → сезонные патчи → XPMF; Footprints → SPID for Footprints → фиксы; Landscape Fixes For Grass Mods → патчи к нему. LOD Model Library ниже DynDOLOD Resources SE 3 (00).",
+    "11: XPMSSE → «VR-фикс» (сразу ниже) → FSMP → «XML VR» ниже → Dynamic Armor Physics → OAR → Paired Animation Improvements → NPC Animation Remix → остальные OAR-пакеты (Gesture Remix ниже NPC Remix) → Neutral VR Animations. Приоритет между OAR-пакетами задаётся полем priority в config.json, не порядком MO2. Variadic и A-Pose (try) — последними, по одному.",
+    "12: Mysticism → Adamant → Adamant VR Tweaks → Blade and Blunt → Blade and Blunt VR (сразу ниже) → Thaumaturgy → Apothecary → Mundus. Core Impact Framework → Sanguine Symphony (сразу ниже) → Accuracy → Dynamic Bloodpool Framework. Dismembering Framework → DF Asset Packs → Next-Gen Decapitations. Simple Offence Suppression (SE) → SOS VR сразу ниже. Physical Dodge VR ниже PLANCK и PCVR.",
+    "13: FEC → FEC VR → патч Embers XD–FEC. Enhanced Reanimation → Enhanced Reanimation VR. NND → Tamrielic Names. CPR → CPR VR DLL. AI Overhaul ниже USSEP и NPC-модов, его патчи ниже. Realistic Mining and Chopping → VR Refit. Dirt and Blood → VR-патч. Dynamic Things Alternative ниже BOS VR. Gift by Hand VR ниже HIGGS.",
+    "14 ИИ-NPC: ниже всех NPC-модов. Prisma UI и Media Keys Fix (если понадобятся) — в 02.",
+    "15: S.L.A.C.K., VR FPS Stabilizer — конфликтов нет. OpenComposite в 00, не здесь.",
+    "17 Патчи: все Patch Hub (Lux, Lux Via, Lux Orbis, eFPS) и вывод Lights Conflict Resolver — ниже модов, которые они патчат. Патч Embers XD–Immersive Smithing — ниже Embers XD и Immersive Smithing.",
+    "18 Сгенерированное, сверху вниз: Pandora Output → PGPatcher Output → Synthesis Output → Grass Cache → xLODGen_Output → TexGen_Output → DynDOLOD_Output (самый нижний). SSE Terrain Tamriel включать как мод только на время генерации xLODGen.",
+    "Вкладка конфликтов MO2: у SKSEVR защищать скрипты через Hide у чужих файлов, не сдвигая SKSEVR. Спорные skeleton*.nif разбирать вручную, не гадать.",
+    "Никогда не сортировать мод вручную сверх этих правил без причины в конфликтах. Перед правкой записать, какой мод должен победить."
+   ],
+   "plugin_rules": [
+    "Сначала LOOT после каждой порции модов. Ручные правила ниже добавлять только при подтверждённом конфликте. Поведение LOOT с ESL в VR не подтверждено, проверять список вручную.",
+    "Skyrim VR ESL Support должен быть установлен до любого ESL/ESP-FE плагина (пути A и B). В Engine Fixes VR MaxStdio не ниже 4096 (по заметке 8192).",
+    "Мастера (Skyrim, Update, Dawnguard, HearthFires, Dragonborn, CC пути A) — по LOOT. Плагин CC Survival Mode оставить включённым (требует USSEP 4.3.x).",
+    "USSEP сразу после мастеров и CC. Сразу за ним Skyrim VR Fixes for Latest USSEP (ESL-мастер), если он нужен. После USSEP же: USMP, SCROTE (если есть плагин), CritterSpawn Congestion Fix, Unaggressive Dragon Priests + Dwemer Gates, Realistic Mining and Chopping и VR Refit, Mantella.",
+    "Navigator — Navmesh Fixes высоко в порядке загрузки. Не чистить в xEdit: «грязные» записи намеренные.",
+    "Lux Patch Hub и прочие патчи — после Lux и патчируемых плагинов. CS Light.esp поздно, после True Light и Window Shadows Ultimate, если они есть. Helios.esp после Lux и CS Light. Storm Lightning после Azurite.",
+    "VRIK.esp и higgs_vr.esp — по LOOT. Плагин Arctal's VRIK Tweaks (ESL) после VRIK.esp. XPMSSE.esp включить, если он есть в архиве. ESP ISPVR включить в plugins.txt.",
+    "Боевые плагины: Mysticism → Adamant → Blade and Blunt. Thaumaturgy, Apothecary, Mundus — после Adamant. Патчи под Adamant — после Adamant. Патч Apothecary — после Apothecary. Dismembering Framework выше своих пакетов. NPCs Take Cover — после USSEP.",
+    "AI Overhaul — после USSEP и модов, правящих NPC и пакеты ИИ. Если взят AE-файл (ESL) и мастера красные — заменить на SE Only 1.8.7. VR-патч Dirt and Blood — после основного плагина.",
+    "FEC.esp — после Papyrus Extender. Патч Embers XD–FEC — после обоих.",
+    "Звук: все звуковые плагины после Sound Record Distributor. ASIF «Plugin Version» — после RISE (в SkyPatcher-версии плагина нет). ISC-SRDified и патч AOS–ISC — после своих баз.",
+    "SkyrimNet.esp — после Skyrim VR ESL Support. Остальное по LOOT.",
+    "DynDOLOD.esm и DynDOLOD.esp ставит LOOT. SSE Terrain Tamriel.esm включать только на время генерации xLODGen.",
+    "Synthesis.esp — всегда последним, без исключений, даже после DynDOLOD (если Synthesis запускали ещё раз)."
+   ]
+  }
  }
 }

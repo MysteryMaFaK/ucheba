@@ -96,7 +96,7 @@ OAR-пакеты NPC; XPMSSE + VR-фикс скелета первого лиц�
 ## 10. VR-рантайм и OpenComposite
 
 - **OpenComposite Unleashed** (#171182, 5.x): `openvr_api.dll` — в **Root**, SKSE-плагин `OpenCompositeInput.dll` — в `Data\SKSE\Plugins`, рядом программа-конфигуратор; остальное по структуре архива. Оригинальный `openvr_api.dll` Root Builder сохраняет (backup) и возвращает при Clear. INI и ключи Unleashed читать в README мода **(проверить)**. Настройки при обновлении сохранять. Не ставить вместе со старым OpenComposite Fixes Custom Build. Чтобы вернуться на SteamVR, мало отключить мод: удалить папку `shadercache` в папке игры.
-- Рантайм OpenXR выбирается вне MO2: SteamVR — «Set SteamVR as OpenXR runtime» в настройках SteamVR; VDXR — Virtual Desktop Streamer → Options → OpenXR Runtime = VDXR (в оверлее Virtual Desktop поле Runtime покажет VDXR); Oculus — «Set Oculus as active OpenXR runtime» в приложении Oculus (формулировки двух последних пунктов **проверить**). Оверлеи SteamVR при OpenComposite пропадают.
+- Рантайм OpenXR выбирается вне MO2: SteamVR — «Set SteamVR as OpenXR runtime» в настройках SteamVR; VDXR — Virtual Desktop Streamer → Options → OpenXR Runtime = VDXR (в оверлее Virtual Desktop поле Runtime покажет VDXR); Oculus — «Set Oculus as active OpenXR runtime» в приложении Oculus (формулировки двух последних пунктов **проверить**). Оверлеи SteamVR при OpenComposite пропадают: fpsVR и SteamVR Frame Timing тогда ничего не покажут. Замеры делайте счётчиком Open Shaders, Oculus Debug Tool или графиком Virtual Desktop, а fpsVR — только при выключенном OpenComposite (Root Builder → Clear).
 
 ## 11. Финальная генерация (после текстур)
 
