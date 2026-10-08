@@ -1,0 +1,1588 @@
+{
+ "items": [
+  {
+   "key": "vr-23416",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «VRIK Player Avatar» 0.8.7 (Stormcrown VR, Yggdrasil VR, Tahrovin - Grit, 2026-09-18). Файл «VRIK Rift-Index-WMR Controller Bindings V2.1.0» — это биндинги SteamVR, в MO2 не ставить: импортировать в SteamVR, если у вас Index/Rift/WMR. Старые 0.8.2–0.8.5 не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Show Player In Inventory (плоский режим)",
+    "View Yourself VR (#16809) — клон вместо тела"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Сепаратор «VR-ядро», ниже SkyUI VR и SKSEVR. Все аддоны VRIK (Arctal's Tweaks, Closed Fist, Neutral Animations, Inventory Selfie) — ниже VRIK.",
+   "plugin_order": "Плагин VRIK из архива — LOOT, ручного порядка нет. Arctal's VRIK Tweaks — после VRIK.",
+   "config": "После первого входа: меню VRIK в MCM (SkyUI VR) → калибровка роста и рук. fNearDistance задавать в MCM VRIK (минимум 3.0; меньшие значения мерцают), а не в INI. Три INI VRIK лежат в SKSE\\Plugins: сохранить копию перед обновлением. ShowFistWhileUnarmed оставить выключенным, если ставите VRIK Closed Fist. Open Hand Casting выключить, если ставите ISPVR. Без калибровки руки/рост будут неверными.",
+   "verify": "В sksevr.log строка о загрузке VRIK без ошибки. В игре виден аватар и холстеры, руки следуют за контроллерами; в MCM есть страница VRIK. Сделать цикл «сохранить — загрузить» перед калибровкой.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 23416: 0.8.7 (2026-09-18) — Stormcrown, Tahrovin - Grit, Yggdrasil; 0.8.4/0.8.5 — остальные; Rift-Index-WMR Bindings V2.1.0 — 4 списка. Nexus-сниппет VRIK: требуются SKSE VR и SkyUI (MCM), 0.8.7 добавил showBodyInMenu. FUS README: три INI в VRIK\\SKSE\\Plugins, бэкап при обновлении. Arctal's page: fNearDistance в MCM VRIK с 0.8.2."
+  },
+  {
+   "key": "vr-43930",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «HIGGS» 1.10.10 (Tempus, Stormcrown, SoG, Tahrovin - Grit, Panda's, Librum, Yggdrasil). Старые 1.10.0–1.10.8 не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро», рядом с VRIK. Все аддоны HIGGS (PLANCK, Physical Collision VR, Pull Arrows, Immersive Harvesting и др.) — ниже HIGGS.",
+   "plugin_order": "Плагин из архива (higgs_vr.esp) — LOOT; ручного порядка нет.",
+   "config": "Настройки HIGGS в higgs_vr.ini (SKSE\\Plugins); синее свечение захватываемых объектов отключается ключом DisableShaders=1 (по комментарию на странице Interactive Activators VR). Только PC VR, не Quest-автономка.",
+   "verify": "В sksevr.log HIGGS загружен без ошибки версии. В игре предмет хватается рукой, работают гравиперчатки и хват оружия двумя руками.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses 43930: 1.10.10 — 7 VR-листов. Nexus-сниппет: требование SKSE VR 2.0.12+. На странице HIGGS VR Address Library как требование не указан; ставим его всё равно как общий слой."
+  },
+  {
+   "key": "vr-66025",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «PLANCK» 0.8.1 (Yggdrasil VR, Spirit of Grit, Tahrovin - Grit, 2026-07-30). Версии 0.4–0.7.1 из старых списков не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "HIGGS (#43930) 1.6.0 и новее"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро», ниже HIGGS. PLANCK VR Stability Patch — ниже PLANCK (перезаписывает activeragdoll.dll).",
+   "plugin_order": "",
+   "config": "INI PLANCK лежит в SKSE\\Plugins (имя файла неизвестно — смотреть в папке мода). При вылетах ставить PLANCK VR Stability Patch (vr-188233). Если ставите NPC Spell Variance — нужен «NPC Spell Variance VR Patch» (GitHub Treatid2): без него возможны проблемы collision-alpha.",
+   "verify": "В sksevr.log PLANCK загружен без ошибки. Удар или толчок по NPC даёт физическую реакцию (ragdoll); activeragdoll.log создаётся рядом с логами SKSE.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses 66025: 0.8.1 — Yggdrasil, SoG, Tahrovin - Grit; 0.7.1 — остальные. Поиск Nexus: «SKSE VR 2.0.12+ и HIGGS 1.6.0+». GitHub Treatid2/activeragdoll (релизы Stability Patch)."
+  },
+  {
+   "key": "vr-186335",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «PhysicalCollisionVR» 5.2.x (Yggdrasil VR — 5.2.0, 2026-10-03; на странице уже 5.2.1 от 06.10.2026). Версия должна быть 5.0.0 и новее: True Wield VR и Swap Drop and Hold Redux 3.0.0 требуют именно её. Один DLL и один INI, ESP нет.",
+   "fomod": "неизвестно — общие правила. Файл 5.0.0 на Nexus был помечен как FOMOD; архив 5.2.0 в Yggdrasil — без пометки. Если установщик есть и спрашивает про True Wield VR / Swap Drop and Hold — выбрать вариант с ними (они у нас стоят).",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "VRIK Player Avatar (#23416)",
+    "HIGGS (#43930)",
+    "PLANCK (#66025)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Pseudo Physical Weapon Collision and Parry (#100781) — делает то же самое",
+    "Precision (плоский режим)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро», ниже HIGGS, PLANCK, VRIK и Immersive Weapon Penetration VR. True Wield VR, Swap Drop and Hold Redux — ниже него.",
+   "plugin_order": "",
+   "config": "INI рядом с DLL: жёсткость, размер руки, сила следования; режим коллизии оружия Full / Simple / Off, коллизия рук отдельно. Начать с настроек по умолчанию. Метка AI-Generated на странице.",
+   "verify": "В sksevr.log DLL загружена. Ладонь упирается в стену, оружие ложится на стол, меч звенит о собственный щит.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses 186335: 5.2.0 — Yggdrasil, 4.1.0 — Tahrovin - Grit, 4.0.0 — SoG. Поиск Nexus (страница 186335): требования HIGGS, PLANCK, VR Address Library, VRIK; Immersive Weapon Penetration VR — «не обязателен, но настоятельно рекомендуется»; один DLL + INI; 5.0.0 — FOMOD; 5.1.0 — обновление под True Wield VR."
+  },
+  {
+   "key": "vr-191123",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «TrueWieldVR» 1.2.0 (Yggdrasil VR, 2026-10-03). Нужен Physical Collision VR 5.0.0 и новее (лучше 5.2.x, как в Yggdrasil).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Physical Collision VR (#186335)",
+    "HIGGS (#43930)",
+    "PLANCK (#66025)",
+    "VRIK Player Avatar (#23416)",
+    "MCM Helper (#53000)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "XPMSSE Weapon Styles — на странице предупреждение о вылетах: не включать этот модуль из XPMSSE"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Physical Collision VR. Swap Drop and Hold Redux — ниже True Wield VR.",
+   "plugin_order": "",
+   "config": "Вес и хват настраиваются в MCM (MCM Helper). Вес оружия задаётся по классам: кинжалы, мечи, топоры и булавы, двуручные, секиры и молоты. Скользить хватом вверх по рукояти — оружие легче.",
+   "verify": "В sksevr.log DLL загружена. Тяжёлый молот в одной руке «провисает», хват ближе к лезвию делает его легче. В MCM есть страница True Wield.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 191123: только Yggdrasil VR (TrueWieldVR 1.2.0, 2026-10-03). Поиск Nexus: вес по классам оружия, хват в любой точке, 5.0.0/5.1.0 Physical Collision VR добавили поддержку True Wield; предупреждение про XPMSSE Weapon Styles. MCM Helper и SkyUI VR — по заметке куратора, на странице не проверены."
+  },
+  {
+   "key": "vr-184223",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «ImmersiveWeaponPenetrationVR» 1.8.0 (Yggdrasil VR, 2026-10-03; Spirit of Grit и Tahrovin - Grit держат 1.6.1). Брать 1.8.0: Swap Drop and Hold Redux 2.0.0+ рекомендует именно её.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS (#43930)",
+    "PLANCK (#66025)",
+    "VRIK Player Avatar (#23416)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро», рядом с Physical Collision VR; Physical Collision VR — ниже него (он уступает руку застрявшему клинку).",
+   "plugin_order": "",
+   "config": "Настройки по умолчанию. Метка AI-Generated на странице.",
+   "verify": "В sksevr.log DLL загружена. Колющий удар входит в тело NPC, вытащить клинок нужно усилием.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses 184223: 1.8.0 — Yggdrasil, 1.6.1 — SoG и Grit. Поиск Nexus (страница 184223, автор Asterrath): требования HIGGS, PLANCK, SKSEVR, VR Address Library, VRIK; Physical Collision VR — рекомендован."
+  },
+  {
+   "key": "vr-185816",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «SwapDropAndHoldRedux 3.0.0 FOMOD» (Yggdrasil VR, 2026-10-03). Версия 3.0.0 требует Physical Collision VR и True Wield VR.",
+   "fomod": "неизвестно — общие правила. В имени файла есть «FOMOD», а описание Nexus говорит о ручной установке DLL + INI в SKSE\\Plugins — опции читать в установщике; при выборе вариантов предпочесть тот, что использует Physical Collision VR и True Wield VR.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS (#43930)",
+    "Instant Equip VR (#44571)",
+    "Physical Collision VR (#186335) — обязателен для 3.0.0",
+    "True Wield VR (#191123) — обязателен для 3.0.0"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Swap Drop and Hold (#49425) и Swap Drop and Hold Add Spells (#55983) — старый скриптовый предшественник; Redux их заменяет (проверить на странице)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже True Wield VR и Physical Collision VR. Immersive Weapon Penetration VR 1.8.0 — рекомендован.",
+   "plugin_order": "",
+   "config": "Файл SwapDropAndHoldRedux.ini в SKSE\\Plugins (по описанию Nexus). Метка AI-Generated не подтверждена.",
+   "verify": "В sksevr.log DLL загружена. Оружие в руке можно сменить, бросить и удержать жестом.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 185816: только Yggdrasil VR (3.0.0 FOMOD). Поиск Nexus (страница 185816): Hard req — HIGGS, Instant Equip VR; Physical Collision VR и True Wield VR — обязательны для 3.0.0; IWP VR 1.8.0 рекомендована."
+  },
+  {
+   "key": "vr-47630",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Spell Wheel VR» 1.5.11 (Stormcrown, SoG, Tahrovin - Grit, Yggdrasil VR, 2026-08-09). Не брать 1.2–1.5.9 из старых списков. Русский/французский/китайский переводы — отдельные страницы, не нужны.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Skyrim VR Tools (#27782)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро», ниже SkyUI VR. Durability VR, Steeds of Ultima VR — ниже Spell Wheel VR.",
+   "plugin_order": "",
+   "config": "Колесо и кнопка вызова — в MCM Spell Wheel VR. Работает с HIGGS 1.10.3 и новее. Durability VR требует версию 1.4.12+, Steeds of Ultima — 1.4.2+; наша 1.5.11 их покрывает.",
+   "verify": "В MCM есть страница Spell Wheel VR; кнопка вызывает колесо с заклинаниями, оружием, зельями.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 47630: 1.5.11 — 4 VR-списка (2026-08-09). Поиск Nexus (страница 47630): Nexus requirements — SKSEVR, Skyrim VR Tools; off-site — SkyUI-VR для MCM; changelog: совместим с HIGGS 1.10.3+."
+  },
+  {
+   "key": "vr-31374",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Weapon Throw VR» 1.4.0 (Yggdrasil VR, SoG, Tahrovin - Grit, 2026-08-09). Версии 1.3.19–1.3.20 из старых списков не брать: Pull Arrows VR 2.0 просит свежую.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Skyrim VR Tools (#27782)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Throwable Weapons SKSE (#182872) и другие метатели оружия — не вместе"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро», ниже HIGGS. Pull Arrows VR и Durability VR — ниже него.",
+   "plugin_order": "",
+   "config": "Настройки в MCM (SkyUI VR). Режим Auto Return влияет на износ в Durability VR: брошенное оружие изнашивается, только если Auto Return включён.",
+   "verify": "В MCM есть Weapon Throw VR. Оружие, брошенное рукой, летит и (при Auto Return) возвращается. В sksevr.log нет ошибок плагина.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 31374: 1.4.0 — Yggdrasil, SoG, Grit. Поиск Nexus (страница 31374): Nexus requirements SKSEVR, Skyrim VR Tools; SkyUI-VR для MCM. VR Address Library на странице не указан (страница 2018 года), но ставится в списке всё равно. Нужен ли HIGGS — неизвестно."
+  },
+  {
+   "key": "vr-161676",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Interactive Activators VR» 1.1.8 (Yggdrasil, SoG, Tahrovin - Grit, Stormcrown, 2026-08-30). Старые 1.0.3–1.1.6 не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS (#43930)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Interactive Pullchains VR — предшественник, заменён этим модом"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро», ниже HIGGS.",
+   "plugin_order": "",
+   "config": "Настройки по умолчанию. В комментариях Nexus советуют не ставить Dwemer Gates Don't Reset («Unaggressive Dragon Priests Fix + Dwemer Gates Don't Reset», fixes-69026) вместе с патчем GDOS — проверить, нужен ли патч.",
+   "verify": "В sksevr.log DLL загружена. Рычаги, цепочки и кнопки двигаются рукой; подсвеченные активаторы можно схватить HIGGS.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses 161676: 1.1.8 — 4 VR-списка. Поиск Nexus: тег Skyrim VR Required, версия 1.1.8; список требований в сниппете не виден, HIGGS предполагается по комментарию про higgs_vr.ini (не подтверждено)."
+  },
+  {
+   "key": "vr-44571",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Instant Equip VR» 1.2.0 (Yggdrasil, Stormcrown, Tempus, Panda's, Librum). Не брать 1.0.0 (SoG, Tahrovin - Grit, FUS).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро». Swap Drop and Hold Redux и Steeds of Ultima — ниже него.",
+   "plugin_order": "",
+   "config": "Не требуется. Нужен Swap Drop and Hold Redux (жёстко) и Steeds of Ultima VR (жёстко).",
+   "verify": "В sksevr.log плагин загружен. Взятое в руку оружие экипируется мгновенно, без анимации.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 44571: 1.2.0 — 5 VR-списков (в т.ч. Yggdrasil). Поиск Nexus (страница 44571): единственное требование — SKSEVR; анимационные инструменты не нужны. Steeds of Ultima и Swap Drop Redux ссылаются на него как на обязательный."
+  },
+  {
+   "key": "vr-59816",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Dialogue Movement Enabler VR» 2.3.0 (Stormcrown, SoG, Tahrovin - Grit, Tahrovin, Yggdrasil, 2026-07-02). Не брать 2.2.0 (старые списки).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) 0.230.0 и новее"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Dialogue Movement Enabler (SE, #43708) — плоская версия"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "«VR-ядро». No Menu Fade Out VR — ниже него.",
+   "plugin_order": "",
+   "config": "Не требуется. Нужен No Menu Fade Out VR (жёстко) и желателен для Immersive NPC Dialogue VR.",
+   "verify": "В sksevr.log DLL загружена. Во время диалога можно ходить и поворачиваться.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 59816: 2.3.0 — 5 VR-листов (2026-07-02). Поиск Nexus (страница 59816): требования VR Address Library 0.230.0+, VC++ 2019, SKSEVR."
+  },
+  {
+   "key": "vr-55962",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «STUF VR» 1.0.0 — единственный, во всех 9 VR-листах.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Stop Automatic Weapon Draw NG (#99667) — тот же эффект"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "",
+   "config": "Не требуется.",
+   "verify": "Нажатие курка без оружия в руке не вынимает оружие. В sksevr.log нет ошибок плагина.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 55962: STUF VR-55962-1-0-0 — 9 VR-листов. Поиск Nexus: единственное требование SKSEVR; совместим с VRIK, HIGGS, Spell Wheel VR (работает на уровне игры)."
+  },
+  {
+   "key": "vr-92804",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Dual Casting Fix VR» 1.0.0 — единственный, 8 VR-листов.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) 0.98.0 и новее"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Dual Casting Fix (плоский, #92454) — не ставить"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил. ESP нет.",
+   "plugin_order": "",
+   "config": "Не требуется. На странице нужен VC++ Redistributable.",
+   "verify": "Двойное заклинание в обеих руках считается двойным (усиленным). В sksevr.log нет ошибок плагина.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 92804: 1.0.0 — 8 VR-листов. Поиск Nexus и японский каталог: SKSEVR, VR Address Library 0.98.0+, VC++; VR-порт кода po3 (автор alandtse)."
+  },
+  {
+   "key": "vr-20364",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Haptic Skyrim VR» 1.8.0 (Stormcrown, SoG, Tahrovin - Grit, Librum, Yggdrasil). Версию 1.7.3 из старых списков не брать: 1.8.0 переписан с нуля как чистый SKSE-плагин без ESP и скриптов.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Skyrim VR Tools (#27782)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Старые версии Haptic Skyrim VR с ESP и скриптами (1.7.x) — удалить до установки 1.8.0"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил. ISPVR, Magic Improvements — совместимы.",
+   "plugin_order": "",
+   "config": "Параметры задаются INI и через SKSE-интерфейс ChangeSetting(); имя INI неизвестно — смотреть в папке мода.",
+   "verify": "В sksevr.log плагин загружен. Контроллеры вибрируют при натяжении лука, касте и ударе.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 20364: 1.8.0 — 5 VR-списков (в т.ч. Yggdrasil), 1.7.3 — 4. Поиск Nexus: Nexus requirements — SKSEVR и Skyrim VR Tools; changelog 1.8.0: «remade from scratch, only SKSE plugin», старые esp/скрипты/dll удалить. VR Address Library на странице не указан, ставим как общий слой."
+  },
+  {
+   "key": "vr-117254",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) «Seamless Arrow Nocking» 1.0.4 (#117254, 6 VR-листов). 2) «Immersive Crossbow Reload VR» 1.0.4 (#139152, 8 VR-листов). Ставить каждый как отдельный мод.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Skyrim VR Tools (#27782)"
+   ],
+   "requires_missing": [
+    "Simple Realistic Archery VR (#28524) — без него Seamless Arrow Nocking ничего не меняет (стрелы не снимаются после выстрела); стоит во всех 9 VR-списках, версия 1.26"
+   ],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Simple Realistic Archery VR. Pull Arrows VR — совместим.",
+   "plugin_order": "",
+   "config": "В INI Seamless Arrow Nocking есть опция запрета стрельбы при низкой выносливости; по желанию. Требования Crossbow Reload отдельно не проверены.",
+   "verify": "В sksevr.log оба плагина загружены. Стрела накладывается на тетиву рукой без пауз; арбалет перезаряжается жестом.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 117254/139152: оба 1.0.4. Поиск Nexus (страница 117254): требуется мод вроде Simple Realistic Archery VR; SKSEVR, Skyrim VR Tools, VR Address Library. SRAVR (#28524) есть во всех 9 VR-списках, но отсутствует в draft_manifest."
+  },
+  {
+   "key": "vr-55751",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «MISVR» 1.2.0 — единственный, во всех 9 VR-листах.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "SpellBender VR (#164902) и Spell Auto-Aim VR (#119689) — перекрываются по прицеливанию заклинаний, подбирать вместе осторожно"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "",
+   "config": "INI в SKSE\\Plugins (имя неизвестно). Исходники — GitHub adamhynek/misvr.",
+   "verify": "В sksevr.log плагин загружен. Огненные шары и молнии ведут себя лучше, прицел заклинаний от руки.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 55751: MISVR 1.2.0 — 9 VR-листов. Поиск Nexus (страница 55751): единственное требование — SKSEVR."
+  },
+  {
+   "key": "vr-191124",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «LethalUnarmedVR 3.0.0 FOMOD» (Yggdrasil VR, 2026-10-03). Автор Asterrath, метка AI Assisted.",
+   "fomod": "неизвестно — общие правила (в имени файла есть «FOMOD»; опции на странице не найдены, читать установщик).",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS (#43930)",
+    "VRIK Player Avatar (#23416)",
+    "PLANCK (#66025)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Physical Collision VR и Immersive Weapon Penetration VR. VRIK Closed Fist — рядом.",
+   "plugin_order": "",
+   "config": "Настройки по умолчанию. Хват за руку, бросок и удушение работают через HIGGS.",
+   "verify": "В sksevr.log DLL загружена. Схватить врага за руку — можно тащить и бросать; рука на горле — удушение.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses 191124: Yggdrasil VR (3.0.0 FOMOD, 2026-10-03). Поиск Nexus: описание «grab, throw, slam, choke», автор Asterrath. Список требований страницы не получен; HIGGS, VRIK, PLANCK — по семейству модов Asterrath (IWP VR, Physical Collision VR)."
+  },
+  {
+   "key": "vr-170321",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «VR Climbing - Aelove Version» 0.11.3 (Tahrovin - Grit и Yggdrasil VR, 2026-09-19). Оригинал «VR Climbing» (#168553, 0.11.0) НЕ ставить: форк самостоятельный.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS (#43930)",
+    "Skyrim VR Tools (#27782)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "VR Climbing (#168553) — оригинал; нужен один из двух",
+    "SkyClimb, SkyParkour, StepUpOnto, EVG Animated Traversal (плоский режим)"
+   ],
+   "choose_one_group": "climbing",
+   "mo2_order": "Ниже HIGGS.",
+   "plugin_order": "",
+   "config": "Доп. параметры (например, минимум выносливости для лазания, по умолчанию 75; 0 — отключить) — в INI мода; имя INI неизвестно (у оригинала VRClimbing.ini). Метка AI-generated.",
+   "verify": "В sksevr.log плагин загружен. Скалы и уступы можно хватать контроллерами и подтягиваться.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 170321: 0.11.3 — Tahrovin - Grit и Yggdrasil; 168553 — только Tempus и Panda's. Поиск Nexus (страница 170321): требования HIGGS, Skyrim VR Tools, VR Address Library; базовый VR Climbing «не обязателен»."
+  },
+  {
+   "key": "vr-26627",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Spellsiphon - Complete Edition» 5.28 (Tempus, FUS, Panda's, Yggdrasil). Версия 5.27 у SoG/Tahrovin; отдельный патч кинжальной анимации не нужен (он в Complete Edition). Файл «Book at Archmage Quarters» не нужен.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Skyrim VR Tools (#27782)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил. ISPVR рекомендован как пара.",
+   "plugin_order": "Обычный ESP — LOOT.",
+   "config": "Назначение кнопок — в игре (в FUS есть схема биндингов Spellsiphon). Мод работает и в VR, и в плоском режиме; для лука рекомендуют Simple Realistic Archery VR.",
+   "verify": "Заклинания вызываются жестом, перерыв между кастами работает. Нет конфликта с ISPVR.",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "whouses 26627: 5.28 — Tempus, FUS, Panda's, Yggdrasil. Поиск Nexus: описание и Complete Edition; список требований страницы не получен, Skyrim VR Tools — по заметке куратора (frameworks-27782: «Spellsiphon»)."
+  },
+  {
+   "key": "vr-24720",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Файл «To Your Face VR» 1.0f (Tempus, Stormcrown, Panda's, Librum, FUS, Yggdrasil). Файл «To Your Face SE» 1.0h (в Librum) НЕ брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "ESP — LOOT.",
+   "config": "Не требуется.",
+   "verify": "Собеседник в диалоге поворачивается лицом к игроку.",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "whouses 24720: VR 1.0f — 6 VR-листов, SE 1.0h — Librum. Требования не проверялись: SKSEVR указан как общее правило."
+  },
+  {
+   "key": "vr-28354",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «SprintJumpVR» 2.0.2 (7 VR-листов). Не брать 1.x.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Auto Sneak and Jump VR (#23649) — выбрать одну схему прыжка (отключить авто-прыжок там)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "",
+   "config": "INI в SKSE\\Plugins (имя неизвестно). Многократный прыжок включается там же.",
+   "verify": "Прыжок во время бега работает. В sksevr.log нет ошибок плагина.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 28354: 2.0.2 — 7 VR-листов (2.0.1 — Tempus). Поиск Nexus: единственное требование SKSEVR; хуки совместимы с другими модами, прямого конфликта с Auto Sneak and Jump VR не заявлено."
+  },
+  {
+   "key": "vr-63663",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Arctals VRIK Tweaks» 2.0 (Panda's, Librum, FUS, Tempus, Yggdrasil). Варианты «Merged» (1.2) и 1.9 не брать. Русификация — отдельная страница #165797 (по желанию).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "VRIK Player Avatar (#23416)",
+    "Skyrim VR ESL Support (#106712) — плагин ESL"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Arctal's VRIK Tweaks - Merged (старый вариант)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже VRIK.",
+   "plugin_order": "ESL-плагин — после VRIK.esp; LOOT. Не обновлять посреди сохранения со старой версии (ESL-сжатие).",
+   "config": "Ползунок NearDist убран: fNearDistance теперь в MCM VRIK. Остальное — MCM Arctal's Tweaks (быстрые жесты для заклинаний и криков, ragdoll).",
+   "verify": "В MCM есть страница Arctal's VRIK Tweaks. В sksevr.log нет ошибок. Жесты работают.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 63663: 2.0 — 5 VR-листов, 1.9 — SoG, Grit, Tahrovin. Поиск Nexus (страница 63663): требование VRIK (грузить после), ESL-флаг, требует VR ESL Support."
+  },
+  {
+   "key": "vr-16335",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Файл «NoStaggerMod v 1.0» — единственный, 9 VR-листов.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "ESP на 1 КБ — LOOT.",
+   "config": "Не требуется. Игрок перестаёт шататься от ударов — баланс сложности смещается.",
+   "verify": "Удар по игроку не дёргает камеру.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 16335: NoStaggerMod v 1.0 — все 9 VR-листов."
+  },
+  {
+   "key": "vr-28831",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Файл «Neutral VR Animations for VRIK and PCEA2» 0.0.1 (FUS, Panda's, Tahrovin, Tempus, Yggdrasil). Единственный файл.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "VRIK Player Avatar (#23416)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже VRIK и Open Animation Replacer.",
+   "plugin_order": "",
+   "config": "Содержит анимации: если в архиве есть папки FNIS/Nemesis_Engine, после установки запустить Pandora (группа behavior-engine). Неизвестно — проверить архив.",
+   "verify": "Тело VRIK не принимает боевые стойки при ходьбе. После Pandora — без ошибок.",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "whouses 28831: 0.0.1 — 5 VR-листов (Yggdrasil обновлён 2026-10-04)."
+  },
+  {
+   "key": "vr-16330",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «SKSEVR Perk Extender» 2.0 — единственный, 8 VR-листов.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Содержит statsmenu.swf — он должен ПОБЕЖДАТЬ у UI-модов: ставить НИЖЕ Norden UI VR и SkyUI VR (нижний в списке MO2 имеет больший приоритет).",
+   "plugin_order": "",
+   "config": "Не требуется.",
+   "verify": "Вход в дерево перков не вылетает, большие перк-моды открываются.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 16330: 2.0 — 8 VR-листов. Заметка куратора: statsmenu.swf не давать перезаписать."
+  },
+  {
+   "key": "vr-129594",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) «SmoothCarriageRideVR» 0.5 (#129594, 5 VR-листов). 2) «ImWalkinHereVR» v0.2 BETA (#39433, 4 VR-листа). Ставить отдельными модами.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "VRIK Player Avatar (#23416) 0.8.4 и новее (иначе карета переворачивает вид)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже VRIK.",
+   "plugin_order": "",
+   "config": "Не требуется. Smooth Carriage Ride сглаживает только дрожание положения; Touring Carriages поддержан экспериментально.",
+   "verify": "В карете камера не дёргается. Im Walkin' Here: NPC не толкают игрока.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 129594: 0.5 — 5 VR-листов; 39433: v0.2 BETA — 4 VR-листа. Поиск Nexus (страница 129594): SKSEVR, VR Address Library, только DLL и INI; совет обновить VRIK до 0.8.4. Требования Im Walkin' Here не проверялись."
+  },
+  {
+   "key": "vr-104975",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Файл «No more werewolf hat» 1.0 (Librum VR, SoG, Tahrovin, Tahrovin - Grit). Только меш.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие замены меша оборотня — не вместе"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже модов тела/существ, которые меняют меш оборотня (победить должен этот).",
+   "plugin_order": "",
+   "config": "Не требуется.",
+   "verify": "Голова оборотня не закрывает обзор.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 104975: 1.0 — 4 VR-листа. Описание: «invisible as it was blinding me in VR»."
+  },
+  {
+   "key": "vr-83092",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «VR Equip» 1.3.2 (FUS, Panda's, Tempus, Yggdrasil).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "HIGGS (#43930)",
+    "VRIK Player Avatar (#23416)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже HIGGS и VRIK. Instant Equip VR — рядом (парные моды).",
+   "plugin_order": "",
+   "config": "Для ног советуют Feet max height=60 и Feet width=40 (по странице).",
+   "verify": "Поднести вещь к голове — одеть шлем, к торсу — броню, к ногам — обувь.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 83092: 1.3.2 — 4 VR-листа. Поиск Nexus (страница 83092): HIGGS, VRIK, SKSEVR."
+  },
+  {
+   "key": "vr-23649",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «Auto Sneak and Jump VR» 0.5.0 (6 VR-листов).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Sprint Jump VR (#28354) — выбрать одну схему прыжка",
+    "Встроенный Physical Sneaking Skyrim VR — отключить в настройках игры (playroom)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "",
+   "config": "В INI JumpThreshold (порог роста головы для прыжка); авто-прыжок можно ослабить там же. Известная жалоба: «залипание» приседа.",
+   "verify": "Реальное приседание включает скрытность.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 23649: 0.5.0 — 6 VR-листов. Поиск Nexus: требования SKSEVR и актуальный SkyrimVR; прыжок отправляет Space при превышении JumpThreshold; игра должна быть активным окном."
+  },
+  {
+   "key": "vr-119689",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «Spell Auto Aim VR» 1.0.1 (Tempus, Panda's, Tahrovin, FUS).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "SpellBender VR (#164902) — взаимоисключаются (автор SpellBender)",
+    "Magic Improvements for Skyrim VR — частично дублирует прицеливание, подбирать силу"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "",
+   "config": "В INI подобрать силу автонаведения. DLL + конфиг, ESP нет.",
+   "verify": "Заклинания слегка доводятся до цели.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 119689: 1.0.1 — 4 VR-листа. Поиск Nexus: единственное требование SKSEVR; на странице SpellBender VR — несовместимость с Auto-Aim."
+  },
+  {
+   "key": "vr-76830",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) «Durability VR» 1.1.4 (Spirit of Grit, Tahrovin - Grit, 2025-11-09). 2) «Immersive Smithing» 1.0.5 (#72298; Panda's, SoG): HIGGS 1.5.8+, PLANCK 0.4.6+, Spell Wheel VR 1.3.0+, последний VRIK. Из страницы Immersive Smithing взять ещё «EmbersXD - Compatibility Patch» (у нас Embers XD).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Spell Wheel VR (#47630) 1.4.12 и новее",
+    "HIGGS (#43930)",
+    "PLANCK (#66025)",
+    "VRIK Player Avatar (#23416)",
+    "Weapon Throw VR (#31374) 1.3.14 и новее — если ставите"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Spell Wheel VR и Weapon Throw VR. Immersive Smithing — ниже Durability VR; EmbersXD Compatibility Patch — ниже Embers XD и Immersive Smithing.",
+   "plugin_order": "",
+   "config": "Износ и полоски на запястье настраиваются в MCM. «SIMM Compatible Smelter» — только если ставите SIMM (в манифесте нет).",
+   "verify": "На запястье полоски износа. У наковальни можно починить и улучшить молотом. В sksevr.log нет ошибок.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 76830: 1.1.4 — SoG, Grit; 72298: Immersive Smithing 1.0.5 + EmbersXD Compatibility Patch + SIMM Smelter — Grit, Panda's. Поиск Nexus: Durability VR — SKSEVR, SPELL WHEEL VR 1.4.12+; Immersive Smithing — HIGGS 1.5.8+, PLANCK 0.4.6+, SW VR 1.3.0+, VRIK."
+  },
+  {
+   "key": "vr-188233",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «PLANCK VR Stability Patch» 1.3.1 (Tahrovin - Grit, 2026-09-21; Nexus-страница 188233). На GitHub уже вышли 1.3.2 (21.09, pre-release: давал нестабильность VRIK) и 1.3.3 (23.09, pre-release, исправление); брать 1.3.1, если на Nexus нет более нового стабильного файла.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "PLANCK (#66025) ровно 0.8.1"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "PLANCK других версий (0.7.x и ранее)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже PLANCK; перезаписывает activeragdoll.dll (разрешить замену).",
+   "plugin_order": "",
+   "config": "В INI PLANCK секция [Settings]: enableWeaponNodeRebinding=true (false — отключить), rebindUnobservedWeaponNodes=false; в 1.3.3 добавлен enableHiggsBodyReportingQualityRefresh. Настройки не перечитываются на лету. При сбое приложить activeragdoll.log.",
+   "verify": "В activeragdoll.log есть строка версии патча. Вылетов PLANCK при ударах по NPC нет.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 188233: 1.3.1 — Tahrovin - Grit. GitHub Treatid2/activeragdoll: релизы planck-v0.8.1-stability-fix-1.3.1…1.3.3 (все помечены pre-release; 1.3.3 исправляет пропущенное изменение 1.3.2)."
+  },
+  {
+   "key": "vr-182410",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «VRIK Closed Fist» 1.1 (страница), в списках: Tahrovin 1, SoG и Grit без номера. Берите последнюю.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VRIK Player Avatar (#23416)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Опция ShowFistWhileUnarmed в VRIK — не включать одновременно"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже VRIK. Lethal Unarmed VR — рядом.",
+   "plugin_order": "",
+   "config": "Работает через VRIK API, настроек нет.",
+   "verify": "При обнажённых кулаках руки сжимаются в кулак.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 182410: Tahrovin 2026-06-12, SoG, Grit. Поиск Nexus: требование VRIK; Immersive NPC Dialogue VR рекомендует этот мод."
+  },
+  {
+   "key": "vr-81220",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Steeds of Ultima - VR» 1.1.2 (Tempus VR, Librum VR, 2025-08). Не брать 1.1.0–1.1.1.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Pandora Behaviour Engine+ (#133232) (или Nemesis)",
+    "Spell Wheel VR (#47630) 1.4.2 и новее",
+    "Instant Equip VR (#44571)",
+    "VRIK Player Avatar (#23416) 0.8.2 и новее"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "HorsePower, Skyrim Mounted Movesets (плоский режим)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Spell Wheel VR и Instant Equip VR.",
+   "plugin_order": "",
+   "config": "После установки обязательно запустить Pandora из MO2 (нужен Nemesis-патч поведений).",
+   "verify": "После Pandora без ошибок. С седла работают магия, крики, посохи.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 81220: 1.1.2 — Tempus, Librum. Поиск Nexus (страница Steeds of Ultima): SKSEVR, Nemesis/Pandora+, Spell Wheel VR 1.4.2+, Instant Equip VR, VRIK 0.8.2+; Glaive Danger — необязателен."
+  },
+  {
+   "key": "hitech-186875",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Smooth Terrain» 0.6.0 (Yggdrasil VR, 2026-08-27). Один DLL для SE/AE/VR.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) свежая (в Offsets есть VR 1.4.15)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Dynamic Terrain Deformation (только SE/AE, в списке «не ставить»)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Open Shaders. DynamicShader — DynamicSnow — ниже него.",
+   "plugin_order": "",
+   "config": "SKSE\\Plugins\\SmoothTerrain.ini: iSubdivisions=2 (0–3, 4×/16×/64× треугольников), fMaxRise=20.0, iSmoothedQuads=3, iGradientStep=2. Для VR начать с умолчаний; если fpsVR показывает перегрузку — iSubdivisions=1 и iSmoothedQuads=2. Метка AI Assisted.",
+   "verify": "В sksevr.log плагин загружен. Холмы без углов, коллизия не изменилась. Время кадра в Вайтране и Ривервуде в норме.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "GitHub hakasapl/SmoothTerrain: README «single DLL for SE, AE and VR», package/SmoothTerrain.ini (ключи и значения по умолчанию). Yggdrasil VR 2.2.0.1: Smooth Terrain 0.6.0."
+  },
+  {
+   "key": "hitech-181533",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Четыре архива одной связкой (Stormcrown VR, июль 2026): «Helios» 1.01 (#181533), «MMSF» 1.1.0.0 (#183073), «Luma Utility» 1.7.0.0 (#177961), «XEMI Util» 1.6.0.0 (#159084). Luma и MMSF 2.x НЕ брать: Helios 1.01 с ними несовместим (использует удалённую Papyrus-функцию).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Regional Sounds Expansion + Reverb Interior Sounds Expansion (#77829) — если у погоды нет звуков интерьера"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Luma Utility 2.x и MMSF 2.x",
+    "DIAL (#149920) — предшественник",
+    "Region Weather - Engine Fix (#191323) — автор признаёт несовместимость"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Luma, MMSF, XEMI — любой порядок (у Luma порядок не важен); Helios — ниже Lux и CS Light, чтобы подчинить их интерьерный свет погоде.",
+   "plugin_order": "Helios.esp — после Lux и CS Light; LOOT.",
+   "config": "Пары версий строго: MMSF 1.1.0.0 с Luma 1.7.0.0; смешивание версий даёт вылеты (API MMSF переписан в 2.0). В Helios 1.01 своей DLL нет.",
+   "verify": "В sksevr.log загружены Luma, MMSF, XEMI. В интерьере с окнами свет меняется с погодой и временем суток.",
+   "risk": "high",
+   "confidence": "medium",
+   "sources": "whouses 181533/183073/177961/159084: Stormcrown VR (Helios 1.01, MMSF 1.1.0.0, Luma Utility 1.7.0.0, XEMI Util 1.6.0.0). Страницы Luma Utility/Helios: «Helios 1.01 — Luma 1.7 и MMSF 1.1»; Luma 2.0 несовместим с Helios 1.01. Связка с Lux в VR-листах не проверена."
+  },
+  {
+   "key": "hitech-190704",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Inventory Selfie VR - Redux» 1.3 (исправляет вылет с HDT-SMP; Tahrovin - Grit ставит 1.2).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "VRIK Player Avatar (#23416) 0.8.7 и новее"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "View Yourself VR (#16809) — клон",
+    "Show Player In Inventory (плоский режим)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже VRIK.",
+   "plugin_order": "",
+   "config": "Работает через настройку VRIK showBodyInMenu; настроек в Redux нет.",
+   "verify": "В инвентаре виден настоящий аватар VRIK, а не клон.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 190704: 1.2 — Tahrovin - Grit (2026-09-19). Поиск Nexus (страница 190704): требование VRIK 0.8.7+ и SKSE VR; DLL, использует showBodyInMenu. VR Address Library на странице не указан, ставится как общий слой."
+  },
+  {
+   "key": "hitech-169833",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Pull Arrows VR» 2.0.0 (Spirit of Grit, Tahrovin - Grit, 2026-07-12). 1.2.0 (Panda's) не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS (#43930)",
+    "Weapon Throw VR (#31374) — последняя версия",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [
+    "Broken Feathers (#160798, «Broken Feathers - Latest Version», 1.0.1) — в списке требований; ломание стрел при вытаскивании без него без визуала"
+   ],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Weapon Throw VR, HIGGS и Broken Feathers.",
+   "plugin_order": "",
+   "config": "Настройки в MCM (шанс поломки стрелы при вытаскивании). Запускать через sksevr_loader.exe.",
+   "verify": "Стрела или болт, вытаскиваемые рукой из тела, с сопротивлением, звуком и кровью.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 169833: 2.0.0 — SoG, Grit; Panda's 1.2.0. Broken Feathers (160798): SUP, Wunduniik. Поиск Nexus (страница 169833): Address Library, Broken Feathers, HIGGS, Weapon Throw VR (последняя), SkyUI."
+  },
+  {
+   "key": "hitech-174838",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Cold Breath NG» последней версии (SE-листы берут 1.8). Автор заявляет поддержку 1.5.97/1.6/VR.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Wet and Cold Breath и другие скриптовые моды пара изо рта — убрать"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "",
+   "config": "Не требуется.",
+   "verify": "В sksevr.log нет ошибок. У NPC в Винтерхолде идёт пар изо рта.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "Описание Nexus (по заметке куратора): «performance of a SKSE DLL mod! For 1.5.97/1.6.x+/VR». whouses 174838: 1.7–1.8 — SE-листы (LoreRim, CSVP, Apostasy). VR-листов нет."
+  },
+  {
+   "key": "hitech-166560",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Interactive Waters - VR» (в VR-листах — «Interactive Water VR» 1.2.2.1; на странице уже 1.3.1). Брать последний; при проблемах — 1.2.2.1 (Librum VR, Panda's Sovngarde).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже воды Open Shaders / Splashes of Skyrim VR.",
+   "plugin_order": "",
+   "config": "В бета-версии мод не включается на новой игре: загрузить сохранение. Проверить вместе с Splashes of Skyrim VR и водой Open Shaders.",
+   "verify": "Рука в воде даёт рябь, волны и брызги.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 166560: 1.2.2.1 — Panda's, Librum. Поиск Nexus (страница 166560): жёсткое требование VR Address Library; совместим с HIGGS и VRIK."
+  },
+  {
+   "key": "hitech-186754",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Immersive Harvesting» 1.5.23 (Yggdrasil VR, 2026-09-19).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) 0.194 и новее",
+    "HIGGS (#43930)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Smart Harvest NG AutoLoot (#37091)",
+    "IHarvest (#27789)",
+    "Dynamic Looting and Harvesting Animations",
+    "Любые автосборы"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже HIGGS и Interactive Activators VR.",
+   "plugin_order": "",
+   "config": "Настройки по умолчанию. Метка AI-Generated Content.",
+   "verify": "Растения срываются рукой через HIGGS, ингредиент сразу в ладони.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 186754: Yggdrasil VR 1.5.23. Поиск Nexus (страница 186754): HIGGS, VR Address Library 0.194+."
+  },
+  {
+   "key": "hitech-164183",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «ISPVR - Immersive Spellcasting VR» 1.1.1 (Panda's Sovngarde). Опциональный патч HIGGS — по желанию.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS (#43930)",
+    "VRIK Player Avatar (#23416)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Open Hand Casting в VRIK (выключить в MCM VRIK)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже VRIK и MISVR.",
+   "plugin_order": "ESP — включить в plugins.txt; LOOT.",
+   "config": "В MCM VRIK выключить Open Hand Casting. Для контроллеров без ремней выключить опцию Immersive Input. MCM — SkyUI VR (по желанию).",
+   "verify": "Сжал кисть — заряд, вибрация — готово, раскрыл — выстрел.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 164183: Panda's. Поиск Nexus (страница 164183): SKSEVR, VR Address Library; протестирован с VRIK, HIGGS, MISVR, Haptic Skyrim VR; несовместим с Open Hand Casting VRIK."
+  },
+  {
+   "key": "hitech-169221",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Steeds of Omega - VR (Mounted NPC combat)» 0.9.5 beta (Tempus VR).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "HorsePower, Skyrim Mounted Movesets (плоский режим)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Steeds of Ultima VR.",
+   "plugin_order": "",
+   "config": "Бета. Рекомендуются Steeds of Ultima VR, Glaive Danger, Hold Riders, Horsemen Torch Wield Fix (для последнего нужен Pandora).",
+   "verify": "Конные NPC в бою атакуют, отходят и не падают с лошадей.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 169221: Tempus Maledictum VR. Поиск Nexus (страница 169221): рекомендации — Glaive Danger, Hold Riders, Horsemen Torch Wield Fix and Mount Tweaks SE, Steeds of Ultima VR."
+  },
+  {
+   "key": "hitech-175254",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Dynamic Footprints Skse BASE» v2.3 (LoreRim, Wunduniik, CSVP). Файлы «NMN DynamicFootprints CPM Vanaheimr» — пресеты текстур, не нужны. Аддон Beast Race Expansion (#177496) — по желанию.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Keyword Item Distributor (#55728) — необязательно"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Footprints + SPID for Footprints (#3808)",
+    "DynamicShader — DynamicSnow (дублируют следы)"
+   ],
+   "choose_one_group": "footprints",
+   "mo2_order": "Ниже Footprints-модов, если оставите их ненадолго для проверки.",
+   "plugin_order": "",
+   "config": "Автор: «рассчитан на SE, AE и VR, VR проверить не могу», есть отзыв о работе в VR.",
+   "verify": "В sksevr.log строка о загрузке DynamicFootprints без ошибок. По снегу у Виндхельма остаются следы игрока и NPC.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Поиск Nexus 175254: Address Library for SKSEVR — «VR users only», подтверждение работы в VR (HOSE85). whouses: 3 SE-листа (2.3 / 3.0). VR-листов нет."
+  },
+  {
+   "key": "hitech-189713",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Релиз «DynamicSnow-v630» (2026-08-30), плагин DynamicSnow.dll. Нужен ещё DynamicShader Core (DynamicShader.dll).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Smooth Terrain (#186875)"
+   ],
+   "requires_missing": [
+    "DynamicShader Core (DynamicShader.dll) — ядро, ставится с DynamicSnow; ID страницы неизвестен"
+   ],
+   "incompatible_with": [
+    "Dynamic Footprints SKSE (#175254)",
+    "Фича динамического снега Community Shaders / Open Shaders"
+   ],
+   "choose_one_group": "snow-deformation",
+   "mo2_order": "Порядок: Smooth Terrain → DynamicShader Core → DynamicSnow (нижний выше по приоритету).",
+   "plugin_order": "",
+   "config": "SKSE\\Plugins\\DynamicSnow.ini, [General] MaxFootprints=100–2000 (по умолчанию 400); для VR начать со 100. Перезапуск игры для применения. README заявляет только SE/AE, VR не подтверждён: пробовать на отдельном сохранении.",
+   "verify": "В sksevr.log обе DLL (DynamicShader и DynamicSnow) загружены. DynamicSnow.log не пуст. В снегу у Виндхельма остаются борозды.",
+   "risk": "high",
+   "confidence": "low",
+   "sources": "GitHub jatelop8/SnowDeformationPlugin: README, release/DynamicSnow/README.txt (Requires: SKSE64 / Address Library / DynamicShaderCore / Smooth Terrain), DynamicSnow.ini. В коде версия игры не закреплена."
+  },
+  {
+   "key": "hitech-192698",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «XPMF» 0.7.0 (Morning Star, 2026-10-03). Профили — JSON в Data\\SKSE\\Plugins\\XPMF\\: snow.json, snow_pbr.json, ash.json, ash_pbr.json.",
+   "fomod": "неизвестно — общие правила (в пакете 4 профиля; оставить пары под тип текстур ландшафта: *_pbr — для PBR).",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) 0.266.0 и новее"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Seasons of Skyrim. Simplicity of Snow Sulfur Ash Moss (#192910) — ниже XPMF.",
+   "plugin_order": "",
+   "config": "Профили: snow / ash и их _pbr-варианты — выбрать по текстурам (текстуры — поздний этап, вернуться к выбору). Версия 0.x.",
+   "verify": "В sksevr.log XPMF загружен. Под крышами и укрытиями чисто, на открытых местах снег по текстуре земли.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "GitHub hakasapl/xpmf: README «Supports SE, AE and VR. On VR requires VR Address Library 0.266.0+», CMake ENABLE_SKYRIM_VR ON, package/XPMF/*.json. whouses 192698: Morning Star (0.7.0)."
+  },
+  {
+   "key": "hitech-184628",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Frostwalker» 2.2 (True North, 2026-09-23).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "",
+   "config": "Настройки — SKSE\\Plugins\\Frostwalker.ini (плагин сам его записывает). Метка AI-assisted не подтверждена.",
+   "verify": "Морозное заклинание в воду создаёт льдины, по ним можно идти.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "GitHub RavenKZP/Frostwalker: ENABLE_SKYRIM_VR ON; Settings.cpp читает Data\\SKSE\\Plugins\\Frostwalker.ini. whouses 184628: True North 2.2."
+  },
+  {
+   "key": "hitech-186081",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Bobbing Framework» последней версии. VR-листов нет.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SKSE Menu Framework (#120352)",
+    "ImGui VR Helper (#183466)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ставить вместе с Dynamic Wind (world-177023) — ниже него.",
+   "plugin_order": "",
+   "config": "Меню настроек — через SKSE Menu Framework. В VR автор отключил хук отрисовки из-за вылетов: эффект может быть слабее.",
+   "verify": "В sksevr.log нет ошибок. Лодки у Рифтена покачиваются.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "GitHub RavenKZP/Bobbing-Framework README и CMake: ветка IsVR, хук отрисовки отключён. whouses: VR-листов нет, 4 SE-листа."
+  },
+  {
+   "key": "hitech-184804",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Immersive NPC Dialogue - VR» 1.1 (автор TheMachinaGod, июль 2026). Метка AI-Generated.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "HIGGS (#43930)",
+    "VRIK Player Avatar (#23416)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже VRIK и HIGGS.",
+   "plugin_order": "",
+   "config": "Рекомендуются Dialogue Movement Enabler VR и VRIK Closed Fist (чтобы взмах не стал ударом). Меню диалога переносится на запястье; подсказки «Talk to» можно скрыть.",
+   "verify": "Взмах руки в сторону NPC начинает диалог; варианты на запястье.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Поиск Nexus (страница 184804): Hard req — HIGGS, VRIK; рекомендованы Dialogue Movement Enabler VR и VRIK Closed Fist. В VR-листах нет."
+  },
+  {
+   "key": "hitech-189452",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Palm Compass VR» (версия 2 и новее). Метка AI-Generated.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "HIGGS (#43930)",
+    "VRIK Player Avatar (#23416)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "VR HUD UI Reworked (#172476) и другие моды, двигающие узел компаса"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже VRIK.",
+   "plugin_order": "",
+   "config": "В MCM VRIK включить «right palm up for compass»; в настройках Skyrim VR установить Compass = low. Свой MCM — позиция и масштаб.",
+   "verify": "Раскрытая правая ладонь вверх показывает компас над ладонью.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Поиск Nexus (страница 189452): Hard req HIGGS, SKSEVR, VRIK; SkyUI-VR для MCM; шаги настройки в VRIK MCM."
+  },
+  {
+   "key": "hitech-184607",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Horizon Fix» 0.5.1 или новее (Winds of the North, Nordic Souls PBR, 2026-08-07). Файл «Horizon Fix AE» 0.4.1 не брать. Опционально «Horizon Fix Exponential Height Fog Config» под фичу Open Shaders.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Open Shaders.",
+   "plugin_order": "",
+   "config": "SKSE\\Plugins\\HorizonFix.ini: fWaterSkirtRadius=2000000.0, fHorizonBlendDegrees=1.5, sWorldSpaceBlocklist (по умолчанию города и Долина Фалмер). В Open Shaders есть одноимённая фича-компаньон: не включать дважды, проверить в меню END. В VR работает урезанно (подбор цвета по кадру выключен). Использовался ИИ при разработке.",
+   "verify": "В sksevr.log плагин загружен. Нет резкой полосы воды у горизонта.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "GitHub hakasapl/HorizonFix: package/SKSE/Plugins/HorizonFix.ini, Meshes/HorizonFix/HorizonBand.nif; CMake SE/AE/VR. whouses 184607: Winds of the North, Nordic Souls PBR (0.5.1); CSVO — AE 0.4.1."
+  },
+  {
+   "key": "ui-33215",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «moreHUD VR» 1.1.0 (9 VR-листов). «Debug Symbols» не нужны.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457) 2.0.12+",
+    "VR Address Library for SKSEVR (#58101) (с 1.1.0)",
+    "SkyUI VR (#91535) — необязательно, для MCM"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже SkyUI VR. Norden UI VR — своя заплатка для moreHUD VR.",
+   "plugin_order": "ESP из архива — LOOT.",
+   "config": "Настройки в MCM. Пара moreHUD Inventory Edition VR (#59142) — по желанию, нужен SkyUI VR.",
+   "verify": "Над целью видны HUD-показатели, в sksevr.log нет ошибок.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 33215: 1.1.0 — 9 VR-листов. Поиск Nexus (страница 33215): SKSE VR 2.0.12+, Skyrim VR 1.4.15, VR Address Library с 1.1.0; SkyUI VR рекомендован."
+  },
+  {
+   "key": "ui-120075",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «QuickLoot IE - A QuickLoot EE Fork» 4.1.3 (Stormcrown VR, Yggdrasil VR, 2026-09-17). Не брать 3.x из SE-листов.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)",
+    "PapyrusUtil VR (#13048)",
+    "Inventory Interface Information Injector (#85702) — необязательно"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Quickloot VR (#102094)",
+    "QuickLoot EE / QuickLoot RE"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже I4 и SkyUI VR.",
+   "plugin_order": "",
+   "config": "Настройки в MCM (SkyUI VR). Поддержка VR заявлена как экспериментальная с 4.1.0, но стоит в Yggdrasil VR и Stormcrown VR.",
+   "verify": "В sksevr.log плагин загружен. При наведении на труп или сундук появляется окно быстрого лута.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 120075: 4.1.3 — Stormcrown VR, Yggdrasil VR. GitHub MissCorruption/QuickLootIE: Address Library, SkyUI, PapyrusUtil SE, I4 необязателен; релиз 4.1.0 — экспериментальная поддержка VR."
+  },
+  {
+   "key": "ui-140752",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «Console Selection Fix» 1.2.1 (7 VR-листов).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Без особых правил.",
+   "plugin_order": "",
+   "config": "Не требуется.",
+   "verify": "Консольная команда выбора цели работает мышью. В sksevr.log нет ошибок.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 140752: 1.2.1 — 7 VR-листов. Описание: SKSE-плагин; VR Address Library — общее правило."
+  },
+  {
+   "key": "ui-185197",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «No Menu Fade Out VR» 1.0.2 (Stormcrown, SoG, Tahrovin - Grit, Yggdrasil).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Dialogue Movement Enabler VR (#59816)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Dialogue Movement Enabler VR.",
+   "plugin_order": "",
+   "config": "NoMenuFadeOutVR.ini в SKSE\\Plugins.",
+   "verify": "Меню диалога не гаснет.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 185197: 1.0.2 — 4 VR-списка. Поиск Nexus (страница 185197): SKSEVR, Dialogue Movement Enabler VR; NoMenuFadeOutVR.ini."
+  },
+  {
+   "key": "ui-169537",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Файлы «Norden UI VR Edition» 1.2 (Tempus VR) и заплатки «PATCH - moreHUD VR», «PATCH - UIextensions», «PATCH - SkyUI Weapons Pack» (по установленным модам).",
+   "fomod": "неизвестно — общие правила. По описанию Nexus файлы кладутся поверх SkyUI VR с перезаписью (в MO2 — мод ниже SkyUI VR).",
+   "requires": [
+    "SkyUI VR (#91535)",
+    "Inventory Interface Information Injector (#85702)"
+   ],
+   "requires_missing": [
+    "SkyUI Weapons Pack (только если ставите заплатку)"
+   ],
+   "incompatible_with": [
+    "Edge UI - VR Edition (#168702) — держать выключенным",
+    "Clear HUD VR + Clean Menu, Minimal Enemy Healthbar VR — конфликт по HUD-файлам"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже SkyUI VR, выше SKSEVR Perk Extender (его statsmenu.swf должен победить). Заплатки — ниже Norden. COCKS — проверить меню крафта.",
+   "plugin_order": "",
+   "config": "Рекомендуются SkyUI Colored Category Icons и Colorful Map Markers VR (в манифесте нет).",
+   "verify": "Меню инвентаря в стиле Norden; в sksevr.log нет ошибок.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 169537: Tempus Maledictum VR (1.2 + три PATCH). Поиск Nexus (страница 169537): требует SkyUI VR; установка поверх SkyUI VR, включить I4, Edge UI держать выключенным."
+  },
+  {
+   "key": "ui-59554",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) «Essential Favorites VR» 2.2.0 (6 VR-листов). 2) «Favorite Misc Items VR» 3.5 (Tempus, SoG, Grit) — версия 4.0.0 у Librum VR под вопросом.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) 0.24.0 и новее",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Essential Favorites (#42997) и Support Equipped Items — базовые SE-файлы не ставить"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже SkyUI VR.",
+   "plugin_order": "",
+   "config": "Favorite Misc Items добавляет в Избранное факелы и кирки.",
+   "verify": "Вещь из Избранного нельзя продать, выбросить или разобрать.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 59554: 2.2.0 — 6 VR-листов; 42750: Favorite Misc Items VR 3.5 — Tempus, SoG, Grit; 4.0.0 — Librum и SE-листы. Поиск Nexus (страница 59554): VR Address Library 0.24.0+, VC++ 2019; Essential Favorites — только как кредит."
+  },
+  {
+   "key": "ui-33414",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «Menu Mouse Fix» 1.6.0 (7 VR-листов).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Skyrim VR Tools (#27782)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже SkyUI VR.",
+   "plugin_order": "",
+   "config": "Кнопка клика по умолчанию — Trigger. Stable Hands — необязательно.",
+   "verify": "Курсор от контроллера в MCM, поиске SkyUI, назначении клавиш.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 33414: 1.6.0 — 7 VR-листов. Поиск Nexus (страница 33414): SKSEVR, Skyrim VR Tools, SkyUI-VR."
+  },
+  {
+   "key": "ui-81409",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Файл «Crafting Categories for SkyUI VR» 1.1.1 (страница 81409, VR-файл от 23.04.2024). Основной файл 1.2.0 — SE, не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Crafting Categories for SkyUI (SE-файл)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже SkyUI VR; с Norden UI VR — проверить меню крафта.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "В кузнице категории вместо одного длинного списка.",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "whouses 81409: 1.1.1 — 6 VR-листов (VR-файл). Поиск Nexus (страница 81409): VR-файл 1.1.1 для 1.4.15.1; перезапись SkyUI VR не подтверждена."
+  },
+  {
+   "key": "ui-183714",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) «Floating Subtitles» 3.3.4 (#154424, Skyrim Unification Project — 3.3.4; Spirit of Grit — 3.3.3). 2) «Floating Subtitles VR» 3.3.4 (#183714) поверх основного — та же мажорная версия.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) 0.230.0 и новее",
+    "ImGui VR Helper (#183466) 1.5.1 и новее"
+   ],
+   "requires_missing": [
+    "Floating Subtitles (#154424) — базовый мод; VR-файлы перезаписывают его"
+   ],
+   "incompatible_with": [
+    "Subtitles VR (#131015)",
+    "Fuz Ro D-oh — не нужен"
+   ],
+   "choose_one_group": "subtitles",
+   "mo2_order": "VR-мод — ниже основного, чтобы перезаписать его файлы. ImGui VR Helper — выше (в сепараторе фреймворков).",
+   "plugin_order": "",
+   "config": "Оба архива нужны. В Spirit of Grit рядом стоит imGui Icons (#114790) — для SMF/Floating Subtitles проверить требования (у SKSE Menu Framework imGui Icons указан обязательным).",
+   "verify": "В sksevr.log оба плагина загружены. Субтитры висят над говорящим NPC.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 154424: Floating_Subtitles_3.3.3 — SoG, Grit; 3.3.4 — SUP (SE). 183714: Floating Subtitles VR 3.3.4 — SoG, Grit. Поиск Nexus и GitHub alandtse/FloatingSubtitles: VR-файлы перезаписывают оригинал, ImGui VR Helper 1.5.1+, VR Address Library 0.230.0+."
+  },
+  {
+   "key": "ui-184159",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «Floating Damage NG» 1.4.0 (Spirit of Grit, Tahrovin - Grit).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) 0.230.0 и новее",
+    "ImGui VR Helper (#183466) 1.5.4 и новее",
+    "SKSE Menu Framework (#120352) — необязательно"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Floating Damage Numbers NG (#190796)",
+    "Modern Floating Damage",
+    "Floating Damage (SE)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже ImGui VR Helper.",
+   "plugin_order": "",
+   "config": "Data\\SKSE\\Plugins\\FloatingDamageNG.ini (фильтры, цвета, стиль). Без ImGui VR Helper цифры в VR не показываются. Игрок видит урон в метре перед собой на высоте груди.",
+   "verify": "Число урона висит в воздухе у цели. Лог FloatingDamageNG-combat.log создаётся рядом с логами SKSE.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 184159: 1.4.0 — SoG, Grit. GitHub alandtse/FloatingDamageNG: VR requirements (SKSE VR, VR Address Library, ImGuiVRHelper 1.5+)."
+  },
+  {
+   "key": "ui-49657",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) «Clear HUD VR» 1.0.0 (8 VR-листов). 2) «Clean Menu» 1.0 (#53524). Из страницы Clean Menu НЕ брать файл «Unobtrusive HUD» (дублирует Clear HUD).",
+   "fomod": "FOMOD есть у Clear HUD VR (выбор скрываемых элементов HUD); названия опций неизвестны — читать установщик. Скрывать: полосы здоровья, магии и запаса сил, счётчик стрел.",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Unobtrusive HUD (#53524, файл)",
+    "Less HUD VR",
+    "VR HUD UI Reworked (#172476)"
+   ],
+   "choose_one_group": "hud-clean",
+   "mo2_order": "Ниже moreHUD VR и Norden UI VR; HUD-файл у них общий, побеждает нижний.",
+   "plugin_order": "",
+   "config": "Не требуется.",
+   "verify": "HUD чист, в sksevr.log нет ошибок.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 49657: Clear HUD VR 1.0.0 — 8 VR-листов; 53524: Clean Menu 1.0 — 6 VR-листов; Yggdrasil — также Unobtrusive HUD. Поиск Nexus: FOMOD у Clear HUD VR."
+  },
+  {
+   "key": "ui-17812",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Файл «No Enemybar and no Names» 0.7 (Tempus, Panda's, Librum, FUS). Варианты на странице: «Enemy Healthbar Red with Names», «Enemy Healthbar Red without Names».",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Clear HUD VR и Norden UI VR; HUD-файл общий.",
+   "plugin_order": "",
+   "config": "Не требуется.",
+   "verify": "Нет полоски здоровья врага.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 17812: 0.7 — FUS (три варианта), Librum, Panda's, Tempus."
+  },
+  {
+   "key": "ui-155978",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) «Dynamic Location Pop-ups» 1.0.1 (#153122). 2) «Dynamic Location Pop-ups VR» 1.0.1 (#155978) поверх основного (Tempus Maledictum VR ставит оба).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) 0.185.0 и новее"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "VR-файл — ниже основного.",
+   "plugin_order": "",
+   "config": "Настройки в INI основного мода (SKSE\\Plugins).",
+   "verify": "При входе в локацию появляется её название.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 153122/155978: Tempus VR — оба 1.0.1. Поиск Nexus (155978): SKSEVR, VR Address Library 0.185.0+; порт кода powerof3."
+  },
+  {
+   "key": "ui-156898",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл «RacemenuVR» 0.5 (#156898; Spirit of Grit, Tahrovin - Grit, Tahrovin, Librum VR) поверх RaceMenu Anniversary Edition 0.4.19.16 (те же списки).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [
+    "RaceMenu (#19080) — базовый мод, версия 0.4.19.16 (как в 4 VR-списках)"
+   ],
+   "incompatible_with": [
+    "RaceMenu VR 2 (#192158)",
+    "RaceMenu VR Layout Fix"
+   ],
+   "choose_one_group": "racemenu",
+   "mo2_order": "Ниже RaceMenu; он перезаписывает часть файлов. RaceMenu VR Position Tweaks (#174652) — ниже и требует RacemenuVR.",
+   "plugin_order": "",
+   "config": "Редактор персонажа открывается в VR; расположение — Position Tweaks по желанию.",
+   "verify": "В sksevr.log RaceMenu загружен. В начале игры открывается редактор персонажа.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 156898: 0.5 — 4 VR-списка; 19080: RaceMenu Anniversary Edition 0.4.19.16 — Grit, Tahrovin, Librum. Поиск Nexus (156898): требует RaceMenu AE; Position Tweaks требует RacemenuVR."
+  },
+  {
+   "key": "ui-192158",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «RaceMenu VR 2» (бета, номера 0.1.x). Основа — RaceMenu SE 0.4.20.0 с оригинальными BSA, ESP и скриптами (не пакет LE).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457) 2.0.12",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [
+    "RaceMenu SE 0.4.20.0 (#19080) — файлы основы"
+   ],
+   "incompatible_with": [
+    "RacemenuVR (#156898)",
+    "RaceMenu VR Layout Fix",
+    "RaceMenu VR Position Tweaks (#174652)"
+   ],
+   "choose_one_group": "racemenu",
+   "mo2_order": "Ниже RaceMenu (SE): его skee64.dll должен победить; сохранить пользовательский INI.",
+   "plugin_order": "",
+   "config": "Только VR 1.4.15. Бета; в листах нет. Новые функции: стабильный вид лица, Sculpt с undo, своя клавиатура.",
+   "verify": "Редактор персонажа открывается; в sksevr.log нет ошибок skee64.",
+   "risk": "high",
+   "confidence": "low",
+   "sources": "Поиск Nexus (страница 192158): требования Skyrim VR 1.4.15, SKSE VR, VR Address Library, SkyUI VR, RaceMenu SE 0.4.20.0; перезаписывает skee64.dll. В листах нет."
+  },
+  {
+   "key": "ui-192976",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «Inventory Interface Information Injector Improved» 0.4.0 (04.10.2026); VR включён с 0.3.0.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)",
+    "Inventory Interface Information Injector (#85702) — обязателен"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже I4.",
+   "plugin_order": "",
+   "config": "Консольные команды: i5 status, i5 debug on|off, i5 cache purge. Кэш в co-save.",
+   "verify": "В sksevr.log плагин загружен. Меню инвентаря не тормозит при обновлениях.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "GitHub codepuncher/InventoryInjectorImproved: README (требует I4, SkyUI, SKSE, Address Library/VR Address Library) и релизы 0.3.0 (VR runtime), 0.4.0."
+  }
+ ],
+ "group_notes": "Цепочка VR-ядра (ставить в таком порядке): SKSEVR → VR Address Library → SkyUI VR → MCM Helper → Skyrim VR Tools → VRIK 0.8.7 → HIGGS 1.10.10 → PLANCK 0.8.1 (+ PLANCK VR Stability Patch 1.3.1, перезаписывает activeragdoll.dll) → Physical Collision VR 5.2.x (Immersive Weapon Penetration VR 1.8.0 рекомендован, ставить до него) → True Wield VR 1.2.0 (нужен PCVR 5.0.0+, MCM Helper, SkyUI VR) → Swap Drop and Hold Redux 3.0.0 (жёстко: HIGGS, Instant Equip VR; для 3.0.0 — PCVR и True Wield VR). Weapon Throw VR 1.4.0 → Pull Arrows VR 2.0.0 (HIGGS, WTVR, Broken Feathers). Spell Wheel VR 1.5.11 → Durability VR (SW VR 1.4.12+), Immersive Smithing, Steeds of Ultima (SW VR 1.4.2+, Instant Equip VR, VRIK 0.8.2+, Pandora). Все аддоны ниже своих основ в левой панели MO2.\nНе хватает в draft_manifest (добавить): Broken Feathers (#160798), Simple Realistic Archery VR (#28524; нужен Seamless Arrow Nocking, стоит во всех 9 VR-листах, версия 1.26), RaceMenu (#19080; для обоих RaceMenu-модов), Floating Subtitles (#154424; базовый для Floating Subtitles VR), DynamicShader Core (для DynamicSnow), SkyUI Weapons Pack (только для заплатки Norden UI). Также у страницы SKSE Menu Framework (frameworks-120352) на Nexus указан обязательный imGui Icons (#114790) — в карточке g1a его нет, а Spirit of Grit и Tahrovin - Grit его ставят.\nГруппы выбора: climbing — VR Climbing Aelove (оригинал #168553 не ставить). footprints — Dynamic Footprints SKSE ИЛИ Footprints + SPID. snow-deformation — DynamicSnow (не вместе с Dynamic Footprints и снежной фичей Open Shaders). subtitles — Floating Subtitles VR ИЛИ Subtitles VR (#131015). racemenu — RacemenuVR (проверен в 4 листах) ИЛИ RaceMenu VR 2 (бета). hud-clean — Clear HUD VR, без файла Unobtrusive HUD со страницы Clean Menu.\nВАЖНО по item-info: I5 (ui-192976) НЕ заменяет I4, а требует его (README codepuncher/InventoryInjectorImproved: надстройка с кэшем иконок, обёртка хуков I4). Поэтому группа item-info для I5 не ставится. Карточку I4 (frameworks-85702 в g1a) исправить: убрать incompatible_with «I5» и choose_one_group «item-info»; ставить оба.\nКонфликты и дубли: Physical Collision VR vs Pseudo Physical Weapon Collision and Parry (#100781); Spell Auto-Aim VR vs SpellBender VR (#164902); ISPVR vs Open Hand Casting в VRIK; VRIK Closed Fist vs ShowFistWhileUnarmed в VRIK; Sprint Jump VR vs авто-прыжок Auto Sneak and Jump VR; Helios 1.01 vs Luma/MMSF 2.x (пара строго Luma 1.7.0.0 + MMSF 1.1.0.0 + XEMI 1.6.0.0) и Region Weather - Engine Fix; Inventory Selfie VR vs View Yourself VR; Immersive Harvesting vs автосборы; Floating Damage NG vs прочие плавающие числа. SKSEVR Perk Extender: его statsmenu.swf должен победить Norden UI VR (в MO2 — ниже Norden). True Wield VR: на странице предупреждение о вылетах с XPMSSE Weapon Styles (в манифесте есть XPMSSE, anim-1988) — проверить модуль. Если ставите NPC Spell Variance (immersion-132097) — ему нужен «NPC Spell Variance VR Patch» (GitHub Treatid2), иначе возможны проблемы PLANCK.\nВерсии по сборкам 2026: Physical Collision VR — на странице 5.2.1 (06.10), в Yggdrasil 5.2.0; PLANCK Stability Patch — в Tahrovin - Grit 1.3.1, на GitHub 1.3.2/1.3.3 помечены pre-release; Interactive Waters — на странице 1.3.1, в листах 1.2.2.1; Favorite Misc Items — VR 3.5 (3 листа) против 4.0.0 (Librum).\nНеизвестно — общие правила: опции FOMOD у Physical Collision VR, Swap Drop and Hold Redux (имя файла со словом FOMOD, а описание — ручная установка DLL+INI), Lethal Unarmed VR, Clear HUD VR, XPMF (профили snow/ash и _pbr), RacemenuVR, RaceMenu VR 2; имена INI у PLANCK, MISVR, Sprint Jump VR, Haptic Skyrim VR, VR Climbing Aelove; требования Im Walkin' Here VR и Immersive Crossbow Reload VR; содержимое архива Neutral VR Animations (есть ли hkx для Pandora).\nНизкая уверенность (читать страницу мода перед установкой): Interactive Activators VR, Lethal Unarmed VR, Spellsiphon, To Your Face VR, Cold Breath NG, Horizon Fix (VR урезан), Bobbing Framework (хук отрисовки в VR выключен), DynamicSnow (README только SE/AE), RaceMenu VR 2 (бета), Crafting Categories VR. Для HIGGS, VRIK и PLANCK на страницах VR Address Library как требование не указан, но ставится как общий слой.\nИсточники: whouses.py по 9 VR-листам, сниппеты страниц Nexus через поиск, GitHub (alandtse/FloatingDamageNG, imgui-vr-helper, FloatingSubtitles; Treatid2/activeragdoll; hakasapl/SmoothTerrain, xpmf, HorizonFix; codepuncher/InventoryInjectorImproved; MissCorruption/QuickLootIE; jatelop8/SnowDeformationPlugin)."
+}
