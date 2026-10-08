@@ -171,7 +171,7 @@
    "requires_missing": [],
    "incompatible_with": [],
    "choose_one_group": null,
-   "mo2_order": "Раздел «11 Анимации и физика». Любое место после MFG Fix NG (#133568) не обязательно, но желательно ниже него.",
+   "mo2_order": "Раздел «11 Анимации и физика». Желательно ниже MFG Fix NG (#133568), но не обязательно.",
    "plugin_order": "",
    "config": "MFG Fix NG (#133568) из манифеста дополняет эффект, обязательным не является.",
    "verify": "В диалоге у NPC мигают глаза и меняется выражение лица; нет искажённых лиц.",
@@ -193,7 +193,7 @@
     "Animation Motion Revolution — оба меняют передвижение, оставить только Pristine"
    ],
    "choose_one_group": null,
-   "mo2_order": "После OAR; ниже NPC Animation Remix (у Remix приоритет выше). Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "mo2_order": "После OAR; ниже NPC Animation Remix (у Remix приоритет выше). Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR).",
    "plugin_order": "",
    "config": "Без настроек.",
    "verify": "NPC ходят и бегают без T-позы и скольжения. Нет конфликтов по meshes\\actors\\character\\animations в MO2 с другими пакетами движения.",
@@ -213,7 +213,7 @@
    "requires_missing": [],
    "incompatible_with": [],
    "choose_one_group": null,
-   "mo2_order": "После NPC Animation Remix. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "mo2_order": "После NPC Animation Remix. Приоритет между OAR-пакетами задаётся полем priority в config.json каждого пакета, порядок MO2 важен только при совпадении файлов.",
    "plugin_order": "",
    "config": "Без настроек.",
    "verify": "NPC при ходьбе держат руки естественно; нет лишних конфликтов с NPC Animation Remix в окне OAR.",
@@ -235,7 +235,7 @@
     "Take a Seat DAR-версия 1.0 (FUS, Yggdrasil) — не смешивать с OAR-версией"
    ],
    "choose_one_group": null,
-   "mo2_order": "После OAR. Table Transitions — ниже Take a Seat. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "mo2_order": "После OAR. Table Transitions — ниже Take a Seat. Приоритет между OAR-пакетами задаётся полем priority в config.json.",
    "plugin_order": "",
    "config": "Без настроек.",
    "verify": "NPC садятся на скамьи и за столы плавно, без телепорта.",
@@ -255,7 +255,7 @@
    "requires_missing": [],
    "incompatible_with": [],
    "choose_one_group": null,
-   "mo2_order": "После NPC Animation Remix. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "mo2_order": "После NPC Animation Remix. Приоритет между OAR-пакетами задаётся полем priority в config.json.",
    "plugin_order": "",
    "config": "Без настроек.",
    "verify": "Дети в городах не стоят деревянно.",
@@ -267,7 +267,7 @@
    "key": "anim-34006",
    "kind": "assets_only",
    "install_target": "mo2_mod",
-   "files": "Только «EVG Conditional Idles» 1.51 (Tempus, Panda, FUS, CSVP, SUP). «EVG Animation Variance» (#38534) НЕ брать: по заметке куратора дублирует Remix (VR-списки его ставят — это отклонение сознательное). «(beta) Wade In Water Animations» не брать. 1.42 (Yggdrasil) — устарела.",
+   "files": "Только «EVG Conditional Idles» 1.51 (Tempus, Panda, FUS, CSVP, SUP). «EVG Animation Variance» (#38534) НЕ брать: по заметке куратора дублирует Remix (VR-списки его ставят — отклонение сознательное). «(beta) Wade In Water Animations» не брать. 1.42 (Yggdrasil) — устарела.",
    "fomod": "нет установщика (по именам архивов); структуру проверить при установке. Архив может быть DAR-формата — OAR читает.",
    "requires": [
     "Open Animation Replacer (#92109)"
@@ -277,13 +277,13 @@
     "EVG Animation Variance (#38534) — дублирует NPC Animation Remix"
    ],
    "choose_one_group": null,
-   "mo2_order": "Ниже NPC Animation Remix: при конфликте приоритет у Remix. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "mo2_order": "Ниже NPC Animation Remix: при конфликте приоритет у Remix. Приоритет между OAR-пакетами задаётся полем priority в config.json.",
    "plugin_order": "",
    "config": "Без настроек.",
    "verify": "Мёрзнущие/уставшие NPC играют свои стойки; Remix-позы не ломаются.",
    "risk": "low",
    "confidence": "medium",
-   "sources": "whouses 34006: 1.51 — Tempus, Panda, FUS, CSVP, SUP; 1.42 — Yggdrasil, Elysium. 38534 берут Tempus, Panda, FUS, Yggdrasil — курирующая заметка против."
+   "sources": "whouses 34006: 1.51 — Tempus, Panda, FUS, CSVP, SUP; 1.42 — Yggdrasil, Elysium. 38534 берут Tempus, Panda, FUS, Yggdrasil — заметка куратора против."
   },
   {
    "key": "anim-70204",
@@ -297,7 +297,7 @@
    "requires_missing": [],
    "incompatible_with": [],
    "choose_one_group": null,
-   "mo2_order": "После OAR. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "mo2_order": "После OAR. Приоритет между OAR-пакетами задаётся полем priority в config.json.",
    "plugin_order": "",
    "config": "Эффект виден только у NPC-магов; у игрока в VR каст задают VRIK/Spell Wheel.",
    "verify": "NPC-маг при касте и крике играет новые анимации. Если страница требует Nemesis/Pandora — прогнать Pandora (#133232) и проверить, что нет T-позы.",
@@ -309,7 +309,7 @@
    "key": "anim-47092",
    "kind": "assets_only",
    "install_target": "mo2_mod",
-   "files": "Стойки и атаки NPC, шесть-семь архивов (как в Panda's Sovngarde): Leviathan — «Two-Handed High Stance SE» (#47092) 1.4, «Two-Handed Normal Attacks For High Stance» (#48550) 1.2, «Two-Handed Power Attacks For High Stance» (#50545) 1.4c; Vanargand — «One handed Mid Stance» (#57544) 1.2, «One handed Normal Attacks» (#58326) 1.1, «One Handed Power Attacks» (#58997) 1.2, «Dual Wield Attacks» (#63566) 1.0. Sneak-пакеты Vanargand для игрока не брать. В SE-списках 2026 (SUP) — 1.5/1.4/1.5/1.4b — только после проверки.",
+   "files": "Стойки и атаки NPC, семь архивов (как в Panda's Sovngarde): Leviathan — «Two-Handed High Stance SE» (#47092) 1.4, «Two-Handed Normal Attacks For High Stance» (#48550) 1.2, «Two-Handed Power Attacks For High Stance» (#50545) 1.4c; Vanargand — «One handed Mid Stance» (#57544) 1.2, «One handed Normal Attacks» (#58326) 1.1, «One Handed Power Attacks» (#58997) 1.2, «Dual Wield Attacks» (#63566) 1.0. Sneak-пакеты Vanargand для игрока не брать. В SE-списках 2026 (SUP) — 1.5/1.4/1.5/1.4b — только после проверки.",
    "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
    "requires": [
     "Open Animation Replacer (#92109)"
@@ -320,9 +320,9 @@
     "MCO / BFCO / ADXP / Precision — не нужны и в VR бесполезны"
    ],
    "choose_one_group": null,
-   "mo2_order": "После OAR и NPC Animation Remix. Все семь пакетов — подряд. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "mo2_order": "После OAR и NPC Animation Remix. Все семь пакетов — подряд. Приоритет между OAR-пакетами задаётся полем priority в config.json.",
    "plugin_order": "",
-   "config": "Анимации действуют на NPC и на игрока в 3-м лице, в VR атаками игрока управляют VRIK/HIGGS/PLANCK — отдельно это не настраивать.",
+   "config": "Анимации действуют на NPC и на игрока в 3-м лице; в VR атаками игрока управляют VRIK/HIGGS/PLANCK — отдельно это не настраивать.",
    "verify": "Бандит и страж держат разные стойки в бою; нет скольжения и T-позы при атаке.",
    "risk": "medium",
    "confidence": "medium",
@@ -340,7 +340,7 @@
    "requires_missing": [],
    "incompatible_with": [],
    "choose_one_group": null,
-   "mo2_order": "После OAR. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "mo2_order": "После OAR. Приоритет между OAR-пакетами задаётся полем priority в config.json.",
    "plugin_order": "",
    "config": "Без настроек.",
    "verify": "Посетители таверны аплодируют, когда играет бард.",
@@ -498,7 +498,7 @@
    "kind": "skse_dll",
    "install_target": "mo2_mod",
    "files": "Main «Core Impact Framework - Latest Version» 2.0.5 (Stormcrown VR, 2026-08-28). Старые 1.2.x (Tempus, Panda) не брать: конфиги Sanguine Symphony 1.3.x рассчитаны на 2.x.",
-   "fomod": "нет установщика (по именам архивов); структуру проверить при установке (DLL + JSON-конфиги, без плагина).",
+   "fomod": "нет установщика (по именам архивов; DLL + JSON-конфиги, без плагина).",
    "requires": [
     "SKSEVR (#30457)",
     "VR Address Library for SKSEVR (#58101)"
@@ -542,7 +542,7 @@
    "kind": "mixed",
    "install_target": "mo2_mod",
    "files": "Main «Dismembering Framework - Latest Version» 1.2.3 (Yggdrasil VR, 2026-09-02), запасной 1.2.2 (Stormcrown VR). Версии 1.0.6 (Tempus, Grit, Tahrovin) не брать. Работает только вместе с пакетами ресурсов из следующего пункта (#126328).",
-   "fomod": "нет установщика (по именам архивов); структуру проверить при установке. Если установщик есть — неизвестно — общие правила.",
+   "fomod": "нет установщика (по именам архивов). Если установщик есть — неизвестно — общие правила.",
    "requires": [
     "SKSEVR (#30457)",
     "VR Address Library for SKSEVR (#58101)",
@@ -633,14 +633,14 @@
    "kind": "plugin_only",
    "install_target": "mo2_mod",
    "files": "Main «Mysticism - A Magic Overhaul» (#27839) 2.5.0 (Stormcrown VR, 2026-08-09). Запасная 2.4.2 (Panda's, FUS). «Ordinator Patch» не брать (Ordinator не ставится). Версии 1.x/2.2.4 (Librum, Grit, Tahrovin) устарели.",
-   "fomod": "нет установщика (по именам архивов); структуру проверить при установке (по именам архивов — один файл).",
+   "fomod": "нет установщика (по именам архивов — один файл).",
    "requires": [],
    "requires_missing": [],
    "incompatible_with": [
     "Другие перковые/магические оверхолы (Ordinator, Apocalypse, Enhanced Magic и т. п.)"
    ],
    "choose_one_group": null,
-   "mo2_order": "Раздел «12 Бой и геймплей», перед Adamant. Заклинания Spell Wheel VR, Magic Improvements VR, Spellsiphon не конфликтуют (другая область: ввод, не данные).",
+   "mo2_order": "Раздел «12 Бой и геймплей», перед Adamant. Spell Wheel VR, Magic Improvements VR, Spellsiphon не конфликтуют (другая область: ввод, не данные).",
    "plugin_order": "Mysticism выше Adamant; остальное LOOT.",
    "config": "Без настроек. Poached Bugs VR со своим Simonrim Choice Config стоит отдельным модом в фиксах (g1b).",
    "verify": "Заклинания в меню — переработанные Mysticism, нет ошибок плагина в xEdit.",
@@ -653,7 +653,7 @@
    "kind": "plugin_only",
    "install_target": "mo2_mod",
    "files": "Три отдельных мода SimonRim, везде Main: Thaumaturgy (#57138) 1.5 (Stormcrown VR, 2026-08-10; запасная 1.4.5 — Panda, FUS), Apothecary (#52130) 1.3.9 (Stormcrown, Panda, FUS), Mundus (#33411) 1.15.1 (Stormcrown; запасная 1.13.1). Не брать: Apothecary «Bruma/Fishing/Rare Curios/Food and Drink» патчи (этих модов нет), Thaumaturgy «Jump Boots Addon». «Enchantment XP Tweak» 1.5 (Stormcrown VR) / «Weapon Enchantment XP Tweak» 1.1 (Panda, FUS) — опционально, по умолчанию не ставить; если есть DLL, нужны SKSEVR и VR Address Library и проверка лога.",
-   "fomod": "нет установщика (по именам архивов); структуру проверить при установке (по именам архивов — отдельные файлы).",
+   "fomod": "нет установщика (по именам архивов — отдельные файлы).",
    "requires": [],
    "requires_missing": [],
    "incompatible_with": [
@@ -810,7 +810,7 @@
    "kind": "assets_only",
    "install_target": "mo2_mod",
    "files": "Main «Sanguine Symphony - Latest Version» 1.3.3 (Stormcrown VR, 2026-08-01, в паре с CIF 2.0.5); 1.3.5 (Morning Star, SE) — после проверки. «Ultra-HD Textures» — НЕ брать (текстуры отдельным этапом).",
-   "fomod": "нет установщика (по именам архивов); структуру проверить при установке (JSON-конфиги CIF и звуки/эффекты).",
+   "fomod": "нет установщика (по именам архивов; JSON-конфиги CIF и звуки/эффекты).",
    "requires": [
     "Core Impact Framework (#146873)"
    ],
@@ -828,5 +828,5 @@
    "sources": "whouses 148388: 1.3.3 — Stormcrown VR; 1.2.1 — Panda; 1.1.0 — Tempus; 1.3.5 — Morning Star. Nexus: «modifies settings in Core Impact Framework». Состав архива без DLL — по заметке куратора."
   }
  ],
- "group_notes": "Группа «Анимации и бой». 1) Скелет: XPMSSE 5.06 (#1988) + отдельный VR-фикс первого лица #34301 (5.06-1/5.06) — первым в разделе анимаций, VR-фикс сразу ниже и выигрывает _1stperson\\skeleton.nif. Без фикса вылеты. Названия опций установщика XPMSSE неизвестны. 2) OAR 3.2.1 (VR-проверено только в Yggdrasil VR) + PAI + Animation Queue Fix; все анимационные пакеты — OAR-варианты (не DAR 1.x и не «no looped idles»). Приоритет пакетов задаётся priority в config.json, а не порядком MO2. Remix выше EVG/Pristine. EVG Animation Variance не ставить (по заметке куратора), хотя VR-списки его берут. Для анимаций без DLL брали последние OAR-версии, откат — VR-проверенные (Panda/FUS). 3) FSMP: самый неясный VR-пункт. Либо 4.0.1 (Tahrovin - Grit, VR), либо 2.5.1 + «XML VR» (Panda/Tahrovin). Нужен только при SMP-одежде/волосах; метка opt, риск высокий. 4) SimonRim: Mysticism 2.5.0 → Adamant 5.9.2 (VR-списки остаются на 5.9.2, SE-списки на 6.0.4; Adamant VR Tweaks 1.2 из Stormcrown — перед установкой прочитать страницу #190589 и убедиться, какую версию Adamant она требует) → Thaumaturgy 1.5 → Apothecary 1.3.9 → Mundus 1.15.1. Poached Bugs VR + Simonrim Choice Config (#107053) стоят в g1b как отдельные моды: Core выше, Config сразу ниже. 5) Blade and Blunt: основной 3.8.3 + «Blade and Blunt VR» 1.0.2 (VR-DLL ниже основного). Версию 4.0.x не брать: VR-порт под неё не подтверждён. Требует SPID VR, Poached Bugs VR (вместо Scrambled Bugs), Dual Casting Fix VR. 6) Simple Offence Suppression: ставятся ДВА мода — SE-страница #41764 (её нет в манифесте, добавлена в requires_missing) + VR-файл #59508. 7) Seb263 (CIF 2.0.5, Sanguine Symphony 1.3.3, DF 1.2.3, Accuracy, Ricochet, Death Drop 1.3.6, Dynamic Bloodpool, Dynamic Armor Physics): README каждого подтверждает, что в VR нужен VR Address Library. Порядок: CIF → Sanguine Symphony ниже; DF → ресурсы DF → Next-Gen Decapitations. Accuracy требует CIF (medium). Патчи CBBE-3BA/HIMBO к DF — решаются вместе с телами. 8) Низкая уверенность: Mu Joint Fix, NPCs Take Cover, Throat Slit VR, Physical Dodge VR, Leviathan/Vanargand (влияние на игрока в VR). Мод с меткой try (Variadic Collision Dynamics, A-Pose Fix) — только по одному и с разрешения. 9) choose_one_group в этой группе нет: пересечения внутри группы (Remix vs Reanimated/EVG Variance, Pristine vs Animation Motion Revolution, Dynamic Bloodpool vs другие лужи крови) описаны в incompatible_with."
+ "group_notes": "Группа «Анимации и бой». Копия сохранена локально: skyrim-vr-modlist/data/partial/install-spec__enrich_g4_anim_combat.json. 1) Скелет: XPMSSE 5.06 (#1988) + отдельный VR-фикс первого лица #34301 (5.06-1/5.06) — первым в разделе анимаций, VR-фикс сразу ниже и выигрывает _1stperson\\skeleton.nif. Без фикса вылеты. Названия опций установщика XPMSSE неизвестны. 2) OAR 3.2.1 (VR-проверено только в Yggdrasil VR) + PAI + Animation Queue Fix; все анимационные пакеты — OAR-варианты (не DAR 1.x и не «no looped idles»). Приоритет пакетов задаётся priority в config.json, а не порядком MO2. Remix выше EVG/Pristine. EVG Animation Variance не ставить (по заметке куратора), хотя VR-списки его берут. Для анимаций без DLL брали последние OAR-версии, откат — VR-проверенные (Panda/FUS). 3) FSMP: самый неясный VR-пункт. Либо 4.0.1 (Tahrovin - Grit, VR), либо 2.5.1 + «XML VR» (Panda/Tahrovin). Нужен только при SMP-одежде/волосах; метка opt, риск высокий. 4) SimonRim: Mysticism 2.5.0 → Adamant 5.9.2 (VR-списки остаются на 5.9.2, SE-списки на 6.0.4; Adamant VR Tweaks 1.2 из Stormcrown — перед установкой прочитать страницу #190589 и убедиться, какую версию Adamant она требует) → Thaumaturgy 1.5 → Apothecary 1.3.9 → Mundus 1.15.1. Poached Bugs VR + Simonrim Choice Config (#107053) стоят в g1b как отдельные моды: Core выше, Config сразу ниже. 5) Blade and Blunt: основной 3.8.3 + «Blade and Blunt VR» 1.0.2 (VR-DLL ниже основного). Версию 4.0.x не брать: VR-порт под неё не подтверждён. Требует SPID VR, Poached Bugs VR (вместо Scrambled Bugs), Dual Casting Fix VR. 6) Simple Offence Suppression: ставятся ДВА мода — SE-страница #41764 (её нет в манифесте, добавлена в requires_missing) + VR-файл #59508. 7) Seb263 (CIF 2.0.5, Sanguine Symphony 1.3.3, DF 1.2.3, Accuracy, Ricochet, Death Drop 1.3.6, Dynamic Bloodpool, Dynamic Armor Physics): README каждого подтверждает, что в VR нужен VR Address Library. Порядок: CIF → Sanguine Symphony ниже; DF → ресурсы DF → Next-Gen Decapitations. Accuracy требует CIF (medium). Патчи CBBE-3BA/HIMBO к DF — решаются вместе с телами. 8) Низкая уверенность: Mu Joint Fix, NPCs Take Cover, Throat Slit VR, Physical Dodge VR, Leviathan/Vanargand (влияние на игрока в VR). Моды с меткой try (Variadic Collision Dynamics, A-Pose Fix) — только по одному и с разрешения. 9) choose_one_group в этой группе нет: пересечения внутри группы (Remix vs Reanimated/EVG Variance, Pristine vs Animation Motion Revolution, Dynamic Bloodpool vs другие лужи крови) описаны в incompatible_with."
 }
