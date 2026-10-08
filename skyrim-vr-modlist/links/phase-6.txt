@@ -1,0 +1,65 @@
+# Фаза 6: Анимации и физика, затем Pandora
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [core] Open Animation Replacer — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/92109
+
+# [rec] Paired Animation Improvements — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/99621
+
+# [rec] Mu Joint Fix (DLL) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/61479
+
+# [opt] FSMP — Faster HDT-SMP — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/57339
+
+# [opt] Dynamic Armor Physics — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/186346
+
+# [core] XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/1988
+https://www.nexusmods.com/skyrimspecialedition/mods/34301
+
+# [rec] NPC Animation Remix + Gesture Animation Remix (OAR) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/63471
+https://www.nexusmods.com/skyrimspecialedition/mods/64420
+
+# [rec] Expressive Facial Animation — Male + Female — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/19532
+https://www.nexusmods.com/skyrimspecialedition/mods/19181
+
+# [opt] Pristine Vanilla Movement — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/66635
+
+# [opt] Arm Movement Animations (OAR) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/62849
+
+# [opt] Take a Seat + Improved Table Transitions — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/54193
+https://www.nexusmods.com/skyrimspecialedition/mods/84160
+
+# [opt] Lively Children Animations (OAR) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/67557
+
+# [opt] EVG Conditional Idles — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/34006
+
+# [opt] Goetia Animations — Spell Casting + Conditional Shouts — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/70204
+https://www.nexusmods.com/skyrimspecialedition/mods/76388
+
+# [opt] Leviathan / Vanargand Animations (стойки и атаки NPC) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/47092
+
+# [opt] Conditional Tavern Cheering (OAR) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/63029
+
+# [opt] Super Fast Get Up Animation — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/46714
+
+# [try] Variadic Collision Dynamics — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/183892
+https://www.nexusmods.com/skyrimspecialedition/mods/184110
+
+# [try] A-Pose Bug Fix — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/168903

@@ -1,0 +1,1195 @@
+{
+ "items": [
+  {
+   "key": "tools-0",
+   "kind": "external_tool",
+   "install_target": "manual_steps",
+   "files": "Mod.Organizer-2.5.2.7z с GitHub (ModOrganizer2/modorganizer releases). Ту же версию ставят Stormcrown VR и Panda's Sovngarde.",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Создать портативный инстанс в отдельной папке. Не класть его в Program Files и в папку Steam (например, C:\\Modding\\SkyrimVR). Игра — Skyrim VR. В профиле включить «Use profile-specific Game INI Files», локальные сохранения — по желанию. Папку downloads держать внутри инстанса. Разделители — по mo2_order манифеста.",
+   "verify": "В заголовке MO2 — Skyrim VR. На вкладке Plugins видны Skyrim.esm … SkyrimVR.esm.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: Stormcrown VR и Panda's Sovngarde — Mod.Organizer-2.5.2.7z (GitHub). Заметка куратора."
+  },
+  {
+   "key": "tools-31720",
+   "kind": "mo2_plugin",
+   "install_target": "mo2_plugins_folder",
+   "files": "Root Builder 5.1.x (Stormcrown VR — Root Builder-31720-5-1-1). Panda's Sovngarde и Tempus VR — 5.0.5.",
+   "fomod": "нет установщика: папку rootbuilder распаковать в <MO2>\\plugins\\rootbuilder",
+   "requires": [
+    "Mod Organizer 2 (2.5.2)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Сам Root Builder — не мод. Моды с папкой Root ставить в разделе «Инструменты и корень».",
+   "plugin_order": "",
+   "config": "Оставить настройки по умолчанию: copyfiles=** (режим Copy), autobuild=true, redirect=true, backup=true, cache=true. installer=false (по умолчанию), поэтому корневые файлы класть в папку Root вручную. Папка Root лежит рядом с содержимым Data, а не внутри Data. Папку Data в Root не класть — мод будет проигнорирован. Пока MO2 работает, не нажимать Unlock. После вылета игры: Tools → Root Builder → Clear, потом Clear Overwrite (так советует FUS).",
+   "verify": "При запуске через MO2 в папке игры появляются sksevr_loader.exe, DLL SKSEVR и Part 2 Engine Fixes. После закрытия игры они убираются.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "docs/rootbuilder.md (Kezyma/ModOrganizer-Plugins): режимы, autobuild, redirect, installer, правило «Data внутри Root — мод игнорируется». FUS wiki, Troubleshooting (ROOT Clearing Error). whouses: Stormcrown 5.1.1, Panda/Tempus 5.0.5."
+  },
+  {
+   "key": "tools-164",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "SSEEdit/xEdit 4.1.5f (xEdit.4.1.5f.7z с GitHub TES5Edit или Nexus #164). Ставят Stormcrown VR, Tempus VR, FUS и Panda's Sovngarde.",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Распаковать в <MO2>\\tools\\SSEEdit (не в mods и не в папку игры). Добавить exe из архива исполняемым в MO2 с аргументом -tes5vr. Запускать только из MO2. Результат правок попадает в Overwrite — переносить его в отдельный мод.",
+   "verify": "Окно открывается в режиме TES5VR, в списке есть SkyrimVR.esm.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: SSEEdit 4.1.5f — Tempus VR, Stormcrown VR, FUS. Panda — xEdit.4.1.5f.7z (GitHub). Аргумент -tes5vr указан в заметке куратора."
+  },
+  {
+   "key": "tools-3",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "LOOT с GitHub (loot/loot releases), свежая версия. Panda's Sovngarde — loot_0.26.0-win64.7z.",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "Сортировать после каждой порции модов. Свои правила добавлять только при подтверждённом конфликте.",
+   "config": "Распаковать в tools и добавить исполняемым в MO2. Игра — Skyrim VR. После сортировки проверить конфликты в xEdit. Если LOOT помечает ESL как неподдерживаемые в VR — обновить LOOT. При стоящем Skyrim VR ESL Support это не ошибка игры.",
+   "verify": "LOOT видит SkyrimVR.esm, ошибок про отсутствующие мастера нет.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Panda's Sovngarde — loot_0.26.0-win64.7z, Librum VR — loot_0.16. Заметка куратора. Поведение LOOT с ESL в VR не подтверждено."
+  },
+  {
+   "key": "tools-4",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "BethINI Pie (Nexus site/mods/631) и Skyrim VR Plugin for Bethini Pie (#177465). Старый BethINI Standalone 3.6.1 (стоит в Tahrovin и SoG) не брать.",
+   "fomod": "неизвестно — общие правила: куда класть VR-плагин, смотреть в README/описании",
+   "requires": [
+    "Skyrim VR Plugin for Bethini Pie (#177465)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "BethINI Standalone (#4875)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Распаковать в tools и запускать из MO2. Указать INI профиля MO2 (SkyrimVR.ini и SkyrimPrefs.ini лежат в папке профиля). Взять низкий или средний пресет, затем точечно поправить под VR. Делать до тонкой настройки Open Shaders.",
+   "verify": "INI в папке профиля MO2 изменились, игра стартует с ними.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Заметка куратора (VR-плагин 177465 также требуется для Skyrim VR Fixes for Latest USSEP). whouses: BethINI Standalone 3.6.1 только в старых VR-списках. Страница VR-плагина поиском не найдена."
+  },
+  {
+   "key": "tools-133232",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "Pandora Behaviour Engine не старше 4.1.2-beta: в ней вернули поддержку SkyrimVR, Tahrovin ставит v4.1.2-beta. Последние — 4.4.0-beta и 5.0.0-beta (01.10). Если 5.0 не собирает, взять 4.4.0-beta.",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Nemesis Unlimited Behavior Engine"
+   ],
+   "choose_one_group": "behavior-engine",
+   "mo2_order": "Мод с выводом (Pandora Output) — в самом низу, в блоке «Сгенерированное».",
+   "plugin_order": "",
+   "config": "Распаковать в tools, добавить исполняемым в MO2. В GUI указать Game path и Output path. Output вести в отдельную папку мода, например mods\\Pandora Output, и включить этот мод. С 4.4.0 Settings.json лежит в папке установки, поэтому настройки свои у каждого профиля. Пересобирать после каждого изменения поведенческих модов.",
+   "verify": "Сборка проходит без ошибок, в Pandora Output есть meshes. В игре нет T-позы у NPC.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "GitHub releases Monitor221hz/Pandora-Behaviour-Engine-Plus: v4.1.2-beta «Re-add SkyrimVR support», v4.1.0 GUI путей вывода, v4.4.0 Settings.json по профилям, v5.0.0-beta 01.10. whouses: Tahrovin v4.1.2-beta."
+  },
+  {
+   "key": "tools-6",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "Synthesis.zip с GitHub (Mutagen-Modding/Synthesis releases). Panda's Sovngarde — 0.35.0.",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Мод Synthesis Output — в самом низу, в блоке «Сгенерированное».",
+   "plugin_order": "Synthesis.esp — самым последним, без исключений (FUS).",
+   "config": "Распаковать в tools и запускать из MO2. Цель — Skyrim VR. Вывод направить в отдельный мод. Перед повторным запуском отключить старый Synthesis.esp, после — включить. Перезапускать после каждой генерации LOD и после изменений погоды или ячеек (FUS). Нужен .NET SDK — версию Synthesis покажет сам.",
+   "verify": "Synthesis.esp создан и стоит последним в load order.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: Synthesis.zip — Tahrovin, Librum, FUS, Yggdrasil, Panda (0.35.0). FUS wiki, Settings-for-tools: «Synthesis.esp loads at the very very last». Требование .NET SDK — по общим знаниям."
+  },
+  {
+   "key": "tools-7",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "fpsVR (платное приложение Steam) или бесплатный SteamVR → Advanced Frame Timing. В MO2 не ставится.",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Смотреть время кадра CPU и GPU, а не загрузку видеокарты. С OpenComposite игра идёт мимо SteamVR, поэтому оверлей fpsVR в шлеме не появится — замеры делать на SteamVR или через встроенный счётчик Open Shaders.",
+   "verify": "Время кадра укладывается в бюджет частоты шлема.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Заметка куратора. Про пропадание оверлеев SteamVR с OpenComposite — заметка куратора к perf-171182."
+  },
+  {
+   "key": "tools-68518",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "DynDOLOD 3.00 Alpha-210 или новее (Stormcrown VR, 20.08.2026; Morning Star — Alpha-212). Resources SE 3.00 Alpha-59 (#52897, Stormcrown). DynDOLOD DLL NG and Scripts 3.00 Alpha-43 (#97720, Stormcrown). Старую DynDOLOD DLL VR и DLL SE не брать.",
+   "fomod": "DynDOLOD — нет установщика, распаковать в tools. Resources SE 3 и DLL NG — неизвестно, общие правила: читать установщик, если он есть.",
+   "requires": [
+    "DynDOLOD Resources SE 3 (#52897)",
+    "DynDOLOD DLL NG and Scripts (#97720)",
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Skyrim VR ESL Support (#106712)",
+    "xLODGen (вывод рельефа)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "DynDOLOD DLL VR (старая)",
+    "DynDOLOD DLL SE"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Resources SE 3 — высоко в списке (рано), чтобы моды с LOD-ассетами её перезаписывали. DLL NG — обычный мод в блоке фреймворков. TexGen_Output и DynDOLOD_Output — в самом низу: xLODGen → TexGen → DynDOLOD.",
+   "plugin_order": "DynDOLOD.esm и DynDOLOD.esp ставит LOOT. Если Synthesis перезапускали после DynDOLOD (так у FUS), Synthesis.esp идёт после них, самым последним.",
+   "config": "Распаковать в <MO2>\\tools\\DynDOLOD. Исполняемые TexGenx64.exe и DynDOLODx64.exe — с аргументом -tes5vr. Руководство для VR — DynDOLOD_Manual_TES5VR в архиве. В TexGen для VR рекомендуется сжатие BC3 (FUS). Вывод каждого инструмента — в свой мод. Запуск — только на финальном этапе (gen_steps), после Grass Cache и xLODGen.",
+   "verify": "DynDOLOD завершается без ошибок. В игре дальние LOD на месте, при подходе ничего не мерцает. В sksevr.log загружена DLL NG.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses: Stormcrown VR — DynDOLOD Alpha-210, Resources Alpha-59, DLL NG Alpha-43. DLL NG также в Tahrovin, FUS, Yggdrasil, Tempus. STEP-форум: «DLL NG supersedes DLL SE and DLL VR». FUS wiki: BC3, порядок xLODGen → TexGen → DynDOLOD, отдельные моды вывода. Порядок Resources в MO2 — по общим правилам (medium)."
+  },
+  {
+   "key": "tools-9",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "xLODGen.132.7z с GitHub (sheson/xLODGen release v132), так в Stormcrown VR.",
+   "fomod": "нет установщика",
+   "requires": [
+    "SSE Terrain Tamriel (#54680)"
+   ],
+   "requires_missing": [
+    "SSE Terrain Tamriel (#54680)"
+   ],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "xLODGen_Output — в самом низу, перед TexGen_Output и DynDOLOD_Output. SSE Terrain Tamriel включать как мод на время генерации.",
+   "plugin_order": "SSE Terrain Tamriel.esm (если есть) нужен только для генерации — после неё отключить, если его страница так велит.",
+   "config": "Распаковать в tools, исполняемый xLODGenx64.exe — с аргументом -tes5vr. Генерировать только Terrain LOD по всем мирам (FUS). Вывод — в отдельный мод. Файл Terrain Tamriel: Librum и Yggdrasil берут «Full Extend», Tempus — «Extend».",
+   "verify": "Рельеф вдали без дыр и чужих текстур.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Stormcrown — xLODGen.132.7z (GitHub). Terrain Tamriel: Tempus — Extend, Librum и Ygg — Full Extend. FUS wiki: «We are only using Terrain LODs», все миры. Имя exe и аргумент — по общим правилам xLODGen."
+  },
+  {
+   "key": "tools-189722",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "MCM Memory 1.5.3 или новее: в 1.5.3 исправлено автовосстановление в VR. Stormcrown VR — 1.5.3.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)",
+    "SKSE Menu Framework (#120352)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "MCM Recorder (#61719)",
+    "MCM Bridge"
+   ],
+   "choose_one_group": "mcm-backup",
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Свой интерфейс открывается через SKSE Menu Framework. Совместим с MCM Helper и MCM Unlocked.",
+   "verify": "В sksevr.log DLL загружена. В новой игре настройки MCM восстанавливаются сами.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Stormcrown VR — MCM Memory 1.5.3. Сниппет: «Supports Skyrim SE, AE, and VR… workaround for Automatic Restore… in Skyrim VR». Research куратора."
+  },
+  {
+   "key": "tools-19250",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Универсальный 1.2.2 (FUS, Panda, Tempus VR, Librum VR). Запасной — файл «More Informative Console 1.0.1 VR» (Tahrovin, SoG).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Работает вместе с ConsoleUtilVR и VR Console Selection Fix.",
+   "verify": "В консоли выбрать объект — сбоку панель с плагином-источником и перезаписями.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 1.2.2 — Tempus, Panda, Librum, FUS. 1.0.1 VR — Tahrovin, SoG."
+  },
+  {
+   "key": "tools-175086",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "Последняя версия (Tahrovin — 0.2.6, Tempus VR — 0.2.5).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Light Placer + Light Placer VR (#127557, #135822)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Если инструмент создаёт файлы — вывод в отдельный мод ниже всех конфигов света.",
+   "plugin_order": "",
+   "config": "Запускать из MO2 после установки всех конфигов Light Placer, CS Light, Lux и Tiny Light Placer Hub. Формат вывода — неизвестно, читать описание.",
+   "verify": "В интерьерах Lux нет удвоенного света от одного источника.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Tahrovin 0.2.6, Tempus VR 0.2.5. Описание: «Detects overlapping Placed Lights and/or Particle Lights entries»."
+  },
+  {
+   "key": "tools-64319",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "VR Keyboard-64319-1-0-1 (единственный файл, 5 VR-списков).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Проверить, нужен ли он вообще. По заметке куратора к OpenComposite Unleashed, в этой сборке виртуальная клавиатура уже работает. Если ввод имени там работает — не ставить.",
+   "verify": "При вводе имени персонажа появляется виртуальная клавиатура.",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "whouses: Librum, Tahrovin, Tahrovin - Grit, SoG, Tempus VR — VR Keyboard-64319-1-0-1. Тип мода и требования не подтверждены."
+  },
+  {
+   "key": "tools-120946",
+   "kind": "external_tool",
+   "install_target": "external_tool",
+   "files": "PGPatcher 2.0.x (Stormcrown — 2.0.0, True North — 2.1.1).",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Вывод — в отдельный мод в блоке «Сгенерированное», выше Synthesis и LOD-вывода.",
+   "plugin_order": "",
+   "config": "Только на этапе текстур (gen_steps, шаг 2), если стоят PBR или parallax-текстуры. Запуск из MO2.",
+   "verify": "Без фиолетовых или блестящих мешей на объектах с parallax и PBR.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Stormcrown 2.0.0. Panda, Tahrovin и Tempus — 0.9.x. gen_steps манифеста."
+  },
+  {
+   "key": "tools-137741",
+   "kind": "mo2_plugin",
+   "install_target": "mo2_plugins_folder",
+   "files": "Вариант под MO2 2.5.2 — «NIF Preview MO2-2.5.2» 0.5.1 (Stormcrown VR). Panda — 0.4.3.",
+   "fomod": "нет установщика: распаковать в <MO2>\\plugins и проверить, что не вышло plugins\\plugins",
+   "requires": [
+    "Mod Organizer 2 (2.5.2)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В окне информации о моде превью .nif показывает 3D-модель.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Stormcrown VR — NIF Preview MO2-2.5.2-137741-0-5-1. Panda — 0.4.3."
+  },
+  {
+   "key": "base-0",
+   "kind": "guide_steps",
+   "install_target": "manual_steps",
+   "files": "Мастера из купленной SE/AE 1.6.1170 (Steam/GOG): Skyrim.esm, Update.esm, Dawnguard.esm, HearthFires.esm, Dragonborn.esm. Плюс 4 бесплатных CC с их BSA: Survival Mode, Saints & Seducers, Rare Curios, Fishing. Точный список файлов — по гайду.",
+   "fomod": "нет установщика: собрать вручную по гайду infernalryan (статья 6642)",
+   "requires": [
+    "Skyrim VR ESL Support (#106712)",
+    "Skyrim VR Strings Fix for Updated SSE Master Files (#176040)",
+    "USSEP 4.3.x (#266)",
+    "Survival Mode Prompt Removed (#59049)",
+    "Skyrim VR Survival Text Removed (#177398)",
+    "Engine Fixes VR (#62089)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Путь B: USSEP 4.2.5b + Skyrim VR USSEP patch (#91475)"
+   ],
+   "choose_one_group": "masters-path",
+   "mo2_order": "Мод «Updated Masters» — первым после раздела инструментов. Ниже — Strings Fix, ещё ниже — USSEP.",
+   "plugin_order": "Порядок мастеров и CC — по LOOT. CC-плагин Survival Mode оставить включённым.",
+   "config": "Идти строго по гайду infernalryan (обновлён 23.07.2026). SkyrimVR.esm остаётся из игры. Часть CC — ESL, поэтому без Skyrim VR ESL Support путь A не работает. Если копии SE/AE нет — выбрать путь B.",
+   "verify": "В игре есть контент Rare Curios и Fishing, предложения Survival нет, тексты на месте, отмычки поднимаются.",
+   "risk": "high",
+   "confidence": "medium",
+   "sources": "Заметка куратора. infernalryan, Updating Game Masters (6642): для VR — «Survival Mode - Disable Permanently», чтобы свежий USSEP грузился. Страница Strings Fix 176040: поддержка мастеров 1.6.1170."
+  },
+  {
+   "key": "base-266",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Основной файл последней версии (4.3.x; в Tempus VR — 4.3.2). Только для пути A.",
+   "fomod": "нет установщика",
+   "requires": [
+    "Путь A — обновлённые мастера (base-0)",
+    "Survival Mode Prompt Removed (#59049)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "USSEP 4.2.5b и Skyrim VR USSEP patch (путь B, #91475)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже мода с мастерами и Strings Fix.",
+   "plugin_order": "Сразу после мастеров и CC, по LOOT.",
+   "config": "Предупреждение страницы про SSE 1.6.1130+ закрывают мастера из пути A.",
+   "verify": "Игра стартует, xEdit не ругается на отсутствующие мастера USSEP.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: Tempus VR — USSEP 4.3.2. Заметка куратора. Сниппет USSEP: «requires 1.6.1130 or greater»."
+  },
+  {
+   "key": "base-176040",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Версия 2.0 поддерживает обновлённые мастера 1.6.1170 и 1.5.97. Проверить, что в архиве есть строки для вашего языка игры.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Путь A — обновлённые мастера (base-0)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Путь B (#91475)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже мода с обновлёнными мастерами: он перезаписывает ванильные строки VR.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Нет пустых названий и диалогов, отмычки подбираются и не пропадают.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Сниппет страницы 176040: строки VR несовместимы с новыми мастерами, отмычки не подбираются. Перезаписывает ванильные строки VR. Поддерживает 1.6.1170 и 1.5.97."
+  },
+  {
+   "key": "base-59049",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Survival Mode - Disable Permanently 1.0.0 (Tempus VR).",
+   "fomod": "нет установщика",
+   "requires": [
+    "Путь A — обновлённые мастера (base-0)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Путь B (#91475)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "CC-плагин Survival Mode оставить включённым: его требует свежий USSEP.",
+   "config": "",
+   "verify": "Предложение включить режим выживания не появляется.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: Tempus VR — Survival Mode - Disable Permanently-59049-1-0-0. infernalryan 6642 советует его для VR."
+  },
+  {
+   "key": "base-177398",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной файл.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Путь A — обновлённые мастера (base-0)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Путь B (#91475)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Strings Fix, если правит те же строки.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В карточках предметов нет «SURV=…».",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "Заметка куратора. В VR-списках не найден, состав архива не подтверждён."
+  },
+  {
+   "key": "base-177650",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Основной файл (ESL-мастер).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "USSEP 4.3.x (#266)",
+    "Skyrim VR ESL Support (#106712)",
+    "Skyrim VR Plugin for Bethini Pie (#177465)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Путь B (#91475)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "Сразу после USSEP.",
+   "config": "Ставить, только если в Playroom или в мире видны белые деревья. С Open Shaders и другими шейдерами семейства CS обычно не нужен.",
+   "verify": "Белых деревьев нет.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Заметка куратора: ESL-мастер сразу после USSEP, требует VR-плагин BethINI. В VR-списках не найден."
+  },
+  {
+   "key": "base-91475",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "USSEP 4.2.5b из Old files страницы 266 (Unofficial Skyrim Special Edition Patch-266-4-2-5b, есть во всех 9 VR-списках). Плюс SkyrimVR USSEP 4.2.5b Compatibility Patch 1.0 (#91475; Stormcrown VR, Panda).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "USSEP 4.2.5b (#266, Old files)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Путь A (base-0)",
+    "USSEP 4.3.x",
+    "Skyrim VR Strings Fix (#176040)",
+    "Skyrim VR Fixes for Latest USSEP (#177650)"
+   ],
+   "choose_one_group": "masters-path",
+   "mo2_order": "USSEP 4.2.5b — сразу после инструментов. Патч совместимости — ниже USSEP.",
+   "plugin_order": "По LOOT.",
+   "config": "Путь для тех, у кого нет SE/AE. Моды, которым нужен свежий USSEP, проверять вручную в xEdit.",
+   "verify": "Игра стартует, в xEdit нет ошибок мастеров.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses: USSEP 4.2.5b — все 9 VR-списков. 91475 — Stormcrown VR, Panda's Sovngarde."
+  },
+  {
+   "key": "base-7",
+   "kind": "guide_steps",
+   "install_target": "manual_steps",
+   "files": "Своих файлов нет: нужен SSEEdit 4.1.5f.",
+   "fomod": "нет установщика",
+   "requires": [
+    "SSEEdit (xEdit) (#164)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Мод «Cleaned Masters» (из Overwrite) — сразу ниже модов с мастерами и патчем пути A или B, чтобы выигрывал.",
+   "plugin_order": "",
+   "config": "Quick Auto Clean по очереди: Update.esm, Dawnguard.esm, HearthFires.esm, Dragonborn.esm (аргументы -tes5vr -qac -autoexit -autoload <файл>). Чистить ту версию, что сейчас выигрывает в MO2, то есть после установки пути A или B. Skyrim.esm и SkyrimVR.esm не трогать. Результат перенести из Overwrite в мод «Cleaned Masters» — так это сделано у Stormcrown VR.",
+   "verify": "Повторный QAC ничего не находит, DynDOLOD не пишет про удалённые большие референсы.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Stormcrown VR содержит авторский архив «Cleaned Masters.zip». Заметка куратора. Флаги QAC — общие правила xEdit."
+  },
+  {
+   "key": "frameworks-30457",
+   "kind": "mixed",
+   "install_target": "root_builder",
+   "files": "SKSEVR 2.0.12: sksevr_2_00_12.7z с сайта SKSE (Tempus, FUS, Ygg и др.) или файл Nexus #30457 (Stormcrown, Panda). Других версий нет.",
+   "fomod": "нет установщика",
+   "requires": [
+    "Root Builder (#31720)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "SKSE64"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Первый мод, раздел «Инструменты и корень». Скрипты SKSEVR должны выигрывать любые конфликты.",
+   "plugin_order": "",
+   "config": "В окне установки MO2 создать папку Root рядом с Data. Перенести туда exe и dll SKSEVR из корня архива: sksevr_loader.exe и sksevr_*.dll. txt и src не нужны. Папку Data со скриптами назначить как <data>. Добавить исполняемый <MO2>\\mods\\SKSEVR\\Root\\sksevr_loader.exe — при redirect=true он запускается из папки игры. Игру запускать только так.",
+   "verify": "Создаётся Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log. Консольная команда GetSKSEVersion возвращает 2.0.12.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses: все VR-списки. Root Builder docs и статья 6614 (перенос loader в Root, Set as data directory). Сниппет Steam: 5 файлов sksevr_*."
+  },
+  {
+   "key": "frameworks-58101",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Последняя версия: Stormcrown — 0.270.0, Yggdrasil VR — 0.275.0 (30.09.2026).",
+   "fomod": "нет установщика",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Address Library for SKSE Plugins (SE/AE, #32444)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Сразу после SKSEVR.",
+   "plugin_order": "",
+   "config": "Обновлять вместе с каждым SKSE-плагином: новые версии плагинов просят новые адреса.",
+   "verify": "В sksevr.log и логах плагинов нет ошибок про отсутствующие адреса или Address Library.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 8 VR-списков, версии 0.194–0.275."
+  },
+  {
+   "key": "frameworks-62089",
+   "kind": "mixed",
+   "install_target": "root_builder",
+   "files": "Part 1 — основной файл 7.x: 7.10.0 от 03.10.2026, Stormcrown и Ygg ставят 7.9.0. Part 2 — файл «Part 2 Engine Fixes VR v1.26»/«v1.26a» с той же страницы: Stormcrown ставит его в пару к 7.9.0.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Root Builder (#31720)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "SSE Engine Fixes (#17230)",
+    "Engine Fixes VR ObjectLOD and Shadow Map Crash Fix (#188237)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Part 1 — обычный мод в разделе фреймворков. Part 2 — отдельный мод «Engine Fixes VR Part 2», все файлы в Root, раздел «Инструменты и корень».",
+   "plugin_order": "",
+   "config": "В конфиге Part 1 (EngineFixes.toml в 7.x), секция [Patches]: MaxStdio = 8192. Страница ESL Support требует MaxStdio — true в старых версиях или 4096 в новых. Отдельный ObjectLOD/Shadow Map fix не ставить: он встроен с 7.4.9, а если стоит — удалить.",
+   "verify": "В sksevr.log Engine Fixes загружен. В логе ESL Support нет предупреждения про MaxStdio. При неправильно поставленном Part 2 плагин не грузится.",
+   "risk": "high",
+   "confidence": "medium",
+   "sources": "whouses: Stormcrown — Engine Fixes VR 7.9.0 + Part 2 v1.26a, Ygg — 7.9.0, Panda — 7.2.1 + Part 2 v1.26. Поиск: 7.10.0 от 03.10.2026, фикс 188237 встроен с 7.4.9, ключи TOML в 7.10. Страница 106712: «MaxStdio = true or 4096 (later versions) must be set». rollingrock README: part2 — в основную папку SkyrimVR."
+  },
+  {
+   "key": "frameworks-106712",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной «Skyrim VR ESL» 1.3.2 (Stormcrown, Librum, Ygg). С той же страницы: «PapyrusUtil ESL Patch» 1.1 — ставить обязательно, он есть в 7 VR-списках, включая Stormcrown. «RaceMenu ESL Patch» 1.0 — только для старого RaceMenu VR 0.4.14 (#19080, так в Panda). Со RacemenuVR 0.5 (#156898) VR-списки его не ставят.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Engine Fixes VR (#62089)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Backported Extended ESL Support"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "PapyrusUtil ESL Patch — ниже PapyrusUtil VR, чтобы его перезаписать.",
+   "plugin_order": "",
+   "config": "Работает только с официальным SKSEVR 2.0.12. Нужен MaxStdio в Engine Fixes VR. Ставить до запуска xEdit, LOOT и DynDOLOD. После включения ESL лучше начать новую игру.",
+   "verify": "В логе ESL Support (Documents\\My Games\\Skyrim VR\\SKSE) нет предупреждения про MaxStdio. ESL-плагины (например, CC пути A) работают в игре.",
+   "risk": "high",
+   "confidence": "high",
+   "sources": "whouses: «Skyrim VR ESL» — 7 VR-списков (1.2 и 1.3.2). «PapyrusUtil ESL Patch-106712-1-1» — Tempus, Stormcrown, SoG, Tahrovin, Grit, Panda, FUS. «RaceMenu ESL Patch» — только Panda, со старым RaceMenu VR 0.4.14. GitHub Nightfallstorm/SkyrimVRESL и PapyrusUtilVR_ESLPatch."
+  },
+  {
+   "key": "frameworks-59818",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "CrashLogger 1.25.0 — универсальный файл (Stormcrown, Ygg). Опционально с той же страницы «Skyrim PDBs» 2026.08.23 — для имён функций в логах.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие логгеры вылетов (Trainwreck и т. п.)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "При вылете в Documents\\My Games\\Skyrim VR\\SKSE появляется crash-*.log.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: CrashLogger 1.25.0 и Skyrim PDBs — Stormcrown, Ygg. SkyrimVR PDB — Panda, Librum, Tempus."
+  },
+  {
+   "key": "frameworks-27782",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "SkyrimVRTools 2.3 BETA — единственный файл, во всех VR-списках.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log SkyrimVRTools загружен. VR Climbing и Spellsiphon работают.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: SkyrimVRTools-27782-2-3-BETA — 9 VR-списков."
+  },
+  {
+   "key": "frameworks-13048",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Файл «PapyrusUtil VR - Scripting Utility Functions» 3.6b — во всех VR-списках. AE/SE-файлы не брать.",
+   "fomod": "нет установщика",
+   "requires": [
+    "SKSEVR (#30457)",
+    "PapyrusUtil ESL Patch (со страницы #106712)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "PapyrusUtil AE SE"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "PapyrusUtil ESL Patch — ниже, перезаписывает.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log PapyrusUtil загружен. Моды на нём работают.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: PapyrusUtil VR 3.6b — Tempus, Stormcrown, SoG, Grit, Panda, Tahrovin, Librum, FUS, Ygg. ESL-патч — с 106712."
+  },
+  {
+   "key": "frameworks-16495",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Файл «JContainers VR», новейший 4.3.x (Ygg — 4.3.2, 09.2026). Stormcrown, Panda, Tempus, FUS — 4.2.11. JContainers SE не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "JContainers SE"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log JContainers загружен без ошибок.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: JContainers VR 4.3.2 — Yggdrasil. 4.2.11 — Tempus, Stormcrown, Panda, Librum, FUS."
+  },
+  {
+   "key": "frameworks-22854",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной Papyrus Extender (скрипты) и Papyrus Extender VR (#58296) одной версии. Stormcrown и Ygg ставят обе 6.5.2.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Мод с VR-DLL — ниже основного, его DLL выигрывает. SE/AE-DLL основного мода можно скрыть.",
+   "plugin_order": "",
+   "config": "Обновлять обе части вместе, до одной версии.",
+   "verify": "В sksevr.log po3_PapyrusExtender загружен, версия совпадает с VR-файлом.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: основной + VR в паре — Stormcrown и Ygg 6.5.2, Tempus и Panda 5.10.0, FUS 6.1–6.2, SoG 5.8.0."
+  },
+  {
+   "key": "frameworks-51073",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной po3 Tweaks (INI) и po3 Tweaks VR (#59510) одной версии. Stormcrown, Panda, Librum, Tempus — 1.15.1 + VR 1.15.1.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "VR-мод ниже основного: DLL берётся из VR, INI — из основного.",
+   "plugin_order": "",
+   "config": "Твики включать в po3_Tweaks.ini основного мода.",
+   "verify": "В sksevr.log po3_Tweaks загружен.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 51073 + 59510 — Tempus, Stormcrown, Panda, Librum (1.15.1), FUS, SoG, Tahrovin. Tempus дополнительно ставит «INI file» с той же страницы."
+  },
+  {
+   "key": "frameworks-59121",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Spell Perk Item Distributor VR 7.3.0 — отдельная страница (Stormcrown, Ygg).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Spell Perk Item Distributor SE/AE (#36869)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Лог SPID в Documents\\My Games\\Skyrim VR\\SKSE без ошибок, правила *_DISTR.ini применяются.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: SPID VR 7.3.0 — Stormcrown, Ygg. 7.1.3 — Tempus, Panda, Tahrovin, Librum, FUS."
+  },
+  {
+   "key": "frameworks-55728",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «Keyword Item Distributor (VR)» 4.1.0 со страницы 55728 (Stormcrown, Ygg). Старые VR-списки ставили универсальный 3.4.0.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Лог KID без ошибок, правила *_KID.ini применяются.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: Keyword Item Distributor (VR) 4.1.0 — Stormcrown, Yggdrasil."
+  },
+  {
+   "key": "frameworks-61734",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Base Object Swapper VR 3.4.1 — отдельная страница (Stormcrown, Panda, Librum, FUS, Ygg).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Base Object Swapper SE/AE (#60805)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Лог BOS без ошибок, замены *_SWAP.ini видны в мире.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: BOS VR 3.4.1 — 5 VR-списков."
+  },
+  {
+   "key": "frameworks-106659",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «SkyPatcher - VR» 7.1.0 (Stormcrown). Panda — 5.0.3, Tempus — 6.3.1.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Лог SkyPatcher без ошибок, INI-патчи применяются.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: SkyPatcher - VR — Stormcrown 7.1.0, Tempus, Panda, FUS."
+  },
+  {
+   "key": "frameworks-53000",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной универсальный файл последней версии (Stormcrown — 1.6.2, Ygg — 1.6.3). Старый «MCM Helper VR» 1.4.0 не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "MCM модов на MCM Helper открываются, настройки сохраняются.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: MCM Helper 1.6.2 — Stormcrown, 1.6.3 — Ygg, 1.5.0 — 7 VR-списков. «MCM Helper VR 1.4.0» — только Tahrovin."
+  },
+  {
+   "key": "frameworks-91535",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "SkyUI VR 1.2.2 с Nexus #91535 (Stormcrown, Panda, FUS, Ygg). Старую GitHub-бету SkyUI-VR v1.0-beta не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "SkyUI (SE)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В меню паузы есть «Настройки модов» (MCM).",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: SkyUI VR 1.2.2 — Tempus, Stormcrown, Panda, FUS, Ygg. SkyUI.v1.2.2 — SoG, Tahrovin."
+  },
+  {
+   "key": "frameworks-120152",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной CDF 3.0.2 и Container Distribution Framework VR 3.0.2 (#139051). Stormcrown и Ygg ставят пару.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "VR-мод ниже основного, его DLL выигрывает.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log CDF загружен, конфиги распределения в контейнерах срабатывают.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 120152 3.0.2 + 139051 3.0.2 — Stormcrown, Yggdrasil."
+  },
+  {
+   "key": "frameworks-74037",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "FormList Manipulator - FLM 1.8.1 — общий файл (Tempus, Stormcrown, Panda, Librum).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log FLM загружен.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: FormList Manipulator 1.8.1 — 4 VR-списка."
+  },
+  {
+   "key": "frameworks-105799",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "2.1.2 (Stormcrown, Tempus) или 3.0.0 (Yggdrasil VR, 28.09.2026). Опционально «Description Framework User INI settings» (Tahrovin).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В карточках предметов видны описания из *_DESC.ini.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 2.1.2 — Stormcrown, Tempus. 3.0.0 — Ygg. 2.1.1 — Panda, Tahrovin."
+  },
+  {
+   "key": "frameworks-85702",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «Inventory Interface Information Injector (VR)» 1.1.0 (Tempus, Stormcrown, Panda, Tahrovin). SE-файл не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "I5 — Information Injector Improved (ui-192976)"
+   ],
+   "choose_one_group": "item-info",
+   "mo2_order": "Иконочные паки и патчи I4 — ниже I4.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В инвентаре SkyUI VR у предметов появились иконки I4.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: I4 (VR) 1.1.0 — 4 VR-списка, (VR) 1.0.2 — Librum."
+  },
+  {
+   "key": "frameworks-77815",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Sound Record Distributor 1.5.4 — общий файл (Stormcrown). Tempus и Panda — 1.5.0, Librum — 1.5.3.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log SRD загружен, звуки модов раздела «Звук» играют.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: SRD — Stormcrown 1.5.4, Tempus, Panda, Librum."
+  },
+  {
+   "key": "frameworks-47189",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "ConsoleUtilVR 1.3 — единственный файл (6 VR-списков).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "ConsoleUtilSSE"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log ConsoleUtilVR загружен. Моды, вызывающие консольные команды, работают.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: ConsoleUtilVR-47189-1-3 — SoG, Grit, Tahrovin, Librum, FUS, Ygg."
+  },
+  {
+   "key": "frameworks-120352",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "SKSE Menu Framework 3.18 (Stormcrown) и ImGui VR Helper (#183466): 1.9.4 в Ygg, 1.9.3 в Stormcrown.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "ImGui VR Helper — ниже SKSE Menu Framework.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Меню Open Shaders и MCM Memory открывается и управляется в шлеме.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: SKSE Menu Framework 3.18 — Stormcrown. ImGui VR Helper — Stormcrown, Ygg, SoG, Grit."
+  },
+  {
+   "key": "frameworks-133568",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "MfgFix NG последней версии (Tempus VR — 1.0.4, Panda — 1.0.3).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "MfgFix-vr 1.0 (старый)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "У NPC при разговоре двигаются губы и меняется мимика.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: Mfg Fix NG — Tempus (1.0.1, 1.0.4), Tahrovin, Panda (1.0.3). Заметка куратора."
+  },
+  {
+   "key": "frameworks-32737",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Skyrim VR Refocused 1.0.2 — единственный файл (5 VR-списков).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Ищет окно с заголовком «Skyrim VR» — не переименовывать окно игры.",
+   "verify": "Моды, эмулирующие нажатия, срабатывают, даже если фокус был на другом окне.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: SoG, Grit, Tahrovin, Librum, Ygg — 1.0.2."
+  },
+  {
+   "key": "frameworks-60210",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "ScaleformTranslationPP VR 1.4.1 (Tempus, Panda, Tahrovin, Ygg).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В MCM на русском нет сырых ключей $KEY.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 4 VR-списка. Описание Wabbajack."
+  },
+  {
+   "key": "frameworks-17561",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "UIExtensions 1.2.0 (5 VR-списков).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Ставить, только когда его потребует мод.",
+   "verify": "Меню мода-потребителя открывается.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: Tempus, SoG, Grit, Panda, Tahrovin — v1-2-0."
+  },
+  {
+   "key": "frameworks-81469",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Object Categorization Framework 6.1.0 (Stormcrown). Tempus — 6.0.2.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Keyword Item Distributor (#55728)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Своей DLL нет. Иконки показываются через I4.",
+   "verify": "Предметы получили ключевые слова OCF, в I4 видны иконки категорий.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Stormcrown 6.1.0, Tempus 6.0.2, Librum. Research куратора."
+  },
+  {
+   "key": "frameworks-107676",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Dynamic String Distributor 1.3.1 (Panda). Tempus — 1.2.5.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Один и тот же текст править в одном месте: либо DSD, либо ESP-перевод.",
+   "verify": "В sksevr.log DSD загружен, тексты из JSON заменены в игре.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: Panda 1.3.1, Tempus 1.2.5. В CMakePresets репозитория SkyHorizon3 есть VR-пресеты."
+  },
+  {
+   "key": "frameworks-180186",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "MCM Unlocked 2.1.6 (Stormcrown VR).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "MCM super SEEDED",
+    "Menu Maid 2"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Видны все MCM, даже если их больше 128.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Stormcrown VR 2.1.6. Описание: «Supports SE, AE, and VR via SKSE». Метка AI-Generated."
+  },
+  {
+   "key": "frameworks-172083",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "VR-файлы: «Dynamic Leveled Lists VR (SKSE)» 0.4.3a и «Dynamic Container Loot VR (SKSE)» 0.4a (#172018), так в Panda. Если на странице один файл с установщиком — выбрать VR. Предпочесть 0.5.2+: в ней исправлены вылеты.",
+   "fomod": "Если установщик есть — выбрать вариант VR (сниппет: «choose Skyrim 1.5.97, 1.6.x, 1.7.104 or VR»). Иначе — VR-файл.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Те же левел-листы не сливать ещё и в Bashed Patch или Synthesis-патчере.",
+   "verify": "В sksevr.log обе DLL загружены, лут из нескольких модов смешивается.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: Panda — Dynamic Leveled Lists VR (SKSE) 0.4.3a и Dynamic Container Loot VR (SKSE) 0.4a. Сниппет про выбор VR и фикс в 0.5.2."
+  }
+ ],
+ "group_notes": "Главные выводы по группе: 1) В корень через Root Builder идут только SKSEVR (exe и dll sksevr_*) и Part 2 Engine Fixes VR. Это отдельные моды с папкой Root рядом с Data. installer=false по умолчанию, поэтому Root создавать вручную в окне установки. После вылета: Root Builder → Clear и Clear Overwrite. 2) Engine Fixes VR 7.x (7.10.0 от 03.10.2026): Stormcrown ставит в пару к 7.9.0 файл «Part 2 Engine Fixes VR v1.26a». ESL Support требует MaxStdio: страница 106712 пишет «true or 4096 (later versions)», куратор задаёт 8192. Проверка — лог ESL Support. 3) С той же страницы ESL Support брать «PapyrusUtil ESL Patch» (есть в 7 VR-списках, включая Stormcrown) и ставить ниже PapyrusUtil VR 3.6b. RaceMenu ESL Patch — только для старого RaceMenu VR 0.4.14 (#19080); со RacemenuVR 0.5 (#156898) его не ставят — это важно для группы UI. 4) Схема «основной мод + VR-DLL одной версии, VR ниже»: Papyrus Extender 6.5.2 + VR 6.5.2, po3 Tweaks 1.15.1 + VR 1.15.1, CDF 3.0.2 + VR 3.0.2 (Light Placer — в другой группе). 5) VR-варианты файлов по точным именам из архивов: «PapyrusUtil VR» 3.6b, «JContainers VR» 4.2.11/4.3.2, «Keyword Item Distributor (VR)» 4.1.0, «SkyPatcher - VR» 7.1.0, «Inventory Interface Information Injector (VR)» 1.1.0, SPID VR и BOS VR — отдельные страницы. MCM Helper и CrashLogger — универсальные файлы. Для NIF Preview брать вариант «MO2-2.5.2». 6) Пути A и B — группа masters-path. Подмоды пути A (USSEP 4.3, Strings Fix, Survival Prompt/Text) помечены как требующие base-0 и несовместимые с #91475. 7) Не найдено и помечено низкой уверенностью: тип и требования VR Keyboard, точное содержимое Skyrim VR Survival Text Removed, имя конфига Engine Fixes VR 7.x (по заметкам к релизу — TOML). Nexus напрямую не читался: остались сниппеты, whouses и GitHub."
+}

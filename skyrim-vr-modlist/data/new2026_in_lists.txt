@@ -1,0 +1,536 @@
+#186875 | Smooth Terrain | VR-lists:1 SE-lists:7 | newest 2026-08-27 | VR: Yggdrasil VR | Smooth Terrain 186875 0.2.0 2026-07-30T20-25Z Z3mWyIQDt.zip
+#173716 | Stuck Underwater Visuals and Sounds Fix SKSE | VR-lists:0 SE-lists:9 | newest 2026-08-23 | VR: - | Stuck Underwater Visuals and Sounds Fix SKSE 173716 0.2.1 2026-08-23T23-54Z yIjvuhTB2.7z
+#173629 | Saving on Steed - Horse Save Load Fix SKSE | VR-lists:2 SE-lists:5 | newest 2026-08-24 | VR: Librum VR, Panda's Sovngarde | Saving on Steed - Horse Save Load Fix SKSE 173629 0.2.1 2026-08-24T05-20Z cE8hkAmRs.7z
+#172417 | First Person FOV SKSE | VR-lists:0 SE-lists:8 | newest 2026-08-22 | VR: - | First Person FOV SKSE 172417 1.0.11 2026-08-22T22-08Z 587RqTfXD.zip
+#172080 | Dynamic Bloodpool Framework | VR-lists:1 SE-lists:6 | newest 2026-09-02 | VR: Panda's Sovngarde | Dynamic Bloodpool Framework - Latest Version 172080 1.1.0 2026-07-25T00-22Z Dc5uGkaOG.zip
+#169904 | First Person Height Fix SKSE | VR-lists:0 SE-lists:8 | newest 2026-08-22 | VR: - | First Person Height Fix SKSE 169904 2.0.0 2026-08-22T20-51Z UK35XnEe6.7z
+#169335 | HorsePower - Modernized Horse Riding (Total Riding Overhaul) | VR-lists:0 SE-lists:8 | newest 2026-05-30 | VR: - | Horsepower - Modernized Horse Riding-169335-1-0-2-1770148502.rar
+#168016 | DrJacopo's - 3D Maple Sapling | VR-lists:1 SE-lists:6 | newest 2025-12-25 | VR: Panda's Sovngarde | DrJacopo's 3D Maple Sapling-168016-1-1766678405.7z
+#171447 | Frost Atronach SE | VR-lists:1 SE-lists:5 | newest 2026-02-02 | VR: Stormcrown VR | Alternative shader flags-171447-1-1770055855.7z
+#169288 | Apprentice - A Class Overhaul | VR-lists:1 SE-lists:5 | newest 2026-08-15 | VR: Stormcrown VR | Apprentice - A Class Overhaul 169288 1.0.2 2026-07-10T13-59Z L5WQbqzfq.7z
+#182410 | VRIK Closed Fist | VR-lists:3 SE-lists:0 | newest 2026-06-12 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | VRIK Closed Fist 182410 1 2026-06-12T17-28Z cE8hkAJoc.7z
+#180186 | MCM Unlocked | VR-lists:1 SE-lists:4 | newest 2026-09-02 | VR: Stormcrown VR | MCM Unlocked - Latest Version 180186 2.1.5 2026-06-17T20-01Z s6Og0dEIX.zip
+#179088 | Stuck on Screen Auto Load Door Fix SKSE | VR-lists:0 SE-lists:6 | newest 2026-08-23 | VR: - | Auto Load Door Stuck On Screen Fix SKSE 179088 0.3.1 2026-08-23T23-46Z IoFlhf49c.7z
+#177961 | Luma Utility | VR-lists:2 SE-lists:2 | newest 2026-07-13 | VR: Stormcrown VR, Tempus Maledictum VR | Luma Utility - CommonLibNG Experiment-177961-1-2-3-NG-1778864262.7z
+#176365 | Bow Animation Fix - no more string on the wrong side | VR-lists:0 SE-lists:6 | newest 2026-04-03 | VR: - | Bow Animation Fix-176365-0-1-1775208641.7z
+#175385 | Bethesda Plugin Manager - Extended | VR-lists:1 SE-lists:4 | newest 2026-09-17 | VR: Stormcrown VR | Bethesda Plugin Manager - Extended 2.5.2 175385 1.3.0 2026-07-06T12-44Z Ae46W7hCc.7z
+#174136 | Dynamic Inventory Icon Injector | VR-lists:0 SE-lists:6 | newest 2026-03-23 | VR: - | DynamicInventoryIconInjector-174136-1-0-7-1-1774277708.zip
+#173617 | Racemenu(SKEE) cosave Load Crash Fix | VR-lists:1 SE-lists:4 | newest 2026-04-27 | VR: Librum VR | Racemenu(SKEE) cosave Load Crash Fix-173617-1-1-0-1772461105.zip
+#172844 | Lingering Subtitles Fix | VR-lists:0 SE-lists:6 | newest 2026-09-04 | VR: - | Lingering Subtitles Fix (SKSE) 172844 1.2.5 2026-09-04T04-36Z Dc5uGkSvk.7z
+#170945 | ValArt hanging moss | VR-lists:1 SE-lists:4 | newest 2026-04-16 | VR: Panda's Sovngarde | ValArt_hangingmoss_1k-170945-1-1-1769689698.rar
+#170776 | Faction Ranks | VR-lists:1 SE-lists:4 | newest 2026-08-29 | VR: Panda's Sovngarde | Faction Ranks 170776 1.0.3 2026-06-26T18-57Z CmfxYjnUd.zip
+#170321 | VR Climbing - Aelove Ver | VR-lists:3 SE-lists:0 | newest 2026-09-19 | VR: Spirit of Grit, Tahrovin - Grit, Yggdrasil VR | VR Climbing - Aelove Version 170321 0.11.3 2026-09-19T22-42Z vlGiB9you.7z
+#169833 | Pull Arrows VR - Immersive Extraction | VR-lists:3 SE-lists:0 | newest 2026-07-12 | VR: Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit | Pull Arrows VR 169833 2.0.0 2026-07-12T12-24Z Ae46W7BnM.zip
+#168903 | A-Pose Bug Fix - Universal Behavior Runtime | VR-lists:0 SE-lists:6 | newest 2026-03-17 | VR: - | A-Pose Fix-168903-v1-1-0-1767657544.zip
+#189722 | MCM Memory - Settings Backup and Restore | VR-lists:1 SE-lists:3 | newest 2026-09-24 | VR: Stormcrown VR | MCM Memory 189722 1.5.0 2026-09-14T20-05Z oPpNfUCGr.7z
+#187070 | LOD Refresh Bug Fix | VR-lists:0 SE-lists:5 | newest 2026-08-07 | VR: - | LOD Refresh Bug Fix 187070 1.0.0 2026-08-01T16-11Z yIjvuh3eR.zip
+#181445 | Collision Sentinel - Crash Fix | VR-lists:2 SE-lists:1 | newest 2026-07-10 | VR: Spirit of Grit, Tahrovin - Grit | CollisionSentinel 181445 2.1.0 2026-07-10T17-08Z n0oTCm5ba.7z
+#180956 | Critter Fixes | VR-lists:1 SE-lists:3 | newest 2026-05-31 | VR: Tempus Maledictum VR | Critter Fixes-180956-0-1-1-1780209809.7z
+#179132 | ISL Helper SKSE | VR-lists:0 SE-lists:5 | newest 2026-09-13 | VR: - | ISL Helper SKSE 179132 1.0.5 2026-07-11T01-51Z HZCMOyGHy.zip
+#178439 | Copy Paste In Menus | VR-lists:0 SE-lists:5 | newest 2026-09-03 | VR: - | Copy Paste In Menus-178439-1-0-3-1778187304.7z
+#177313 | Precision - Attack Collision Fixes | VR-lists:0 SE-lists:5 | newest 2026-06-10 | VR: - | Precision   Attack Collision Fixes FOMOD-177313-1-18-1781083122.7z
+#176593 | Unpoisoned Blocking | VR-lists:1 SE-lists:3 | newest 2026-09-02 | VR: Stormcrown VR | Unpoisoned Blocking - Latest Version-176593-1-0-0-1775477161.zip
+#174812 | Particle Wind - SKSE Plugin | VR-lists:0 SE-lists:5 | newest 2026-09-25 | VR: - | Particle Wind-174812-3-3-1-1774786263.7z
+#173086 | ShowRaceMenu - NG | VR-lists:0 SE-lists:5 | newest 2026-04-18 | VR: - | ShowRaceMenu NG - Latest Version-173086-1-0-4-1776530436.zip
+#173074 | Character Menu SE | VR-lists:0 SE-lists:5 | newest 2026-09-16 | VR: - | Character Menu SE 173074 1.3 2026-09-16T16-38Z Ae46W7Lot.zip
+#172767 | LessPoly for various mods | VR-lists:1 SE-lists:3 | newest 2026-03-30 | VR: Panda's Sovngarde | Dovahnique'sDiverseDarkElfLanterns_BOS (LessPoly)-172767-1-0-1771417631.rar
+#172423 | Intellightent | VR-lists:0 SE-lists:5 | newest 2026-08-26 | VR: - | Intellightent v2-172423-2-1771572083.zip
+#171870 | Steal off Scoundrels - Pickpocketing Criminals is Not Stealing | VR-lists:0 SE-lists:5 | newest 2026-08-23 | VR: - | Pickpocketing Criminals is not Stealing 171870 0.2.1 2026-08-23T23-52Z 6Xybdakt1.7z
+#171762 | True Directional Movement Mounted Archery Fix | VR-lists:0 SE-lists:5 | newest 2026-02-05 | VR: - | TDM - 360 Horseback Archery Fix-171762-1-0-1-1770292677.zip
+#170693 | No Load Door NPC Fade | VR-lists:0 SE-lists:5 | newest 2026-01-25 | VR: - | No Load Door NPC Fade-170693-0-2-1769335742.7z
+#191729 | Telekinesis Aim Fix VR | VR-lists:2 SE-lists:0 | newest 2026-09-13 | VR: Tahrovin - Grit, Yggdrasil VR | Telekinesis Aim Fix VR 191729 1 2026-09-13T23-20Z PuQ2UKm9H.7z
+#190218 | Why I Came to Skyrim - Ask Innkeepers | VR-lists:2 SE-lists:0 | newest 2026-09-01 | VR: Spirit of Grit, Tahrovin - Grit | Why I Came To Skyrim - Ask Innkeepers 190218 1 2026-08-31T07-24Z gbrZ4t5CS.7z
+#188102 | Simonrim SKSE Addons | VR-lists:0 SE-lists:4 | newest 2026-08-19 | VR: - | Adamant Evasion Addon 188102 1.0.0 2026-08-15T17-37Z lNkz9LtL9.7z
+#184868 | Dwarven Engineering - Tweaks | VR-lists:2 SE-lists:0 | newest 2026-07-09 | VR: Spirit of Grit, Tahrovin - Grit | Dwarven Engineering Tweaks 184868 1 2026-07-09T23-52Z N2AYL5aI1.7z
+#184607 | Horizon Fix - SKSE | VR-lists:0 SE-lists:4 | newest 2026-09-06 | VR: - | Horizon Fix 184607 0.5.1 2026-08-07T05-28Z JrECN2nN4.zip
+#184159 | Floating Damage NG | VR-lists:2 SE-lists:0 | newest 2026-07-12 | VR: Spirit of Grit, Tahrovin - Grit | Floating Damage NG-184159-1-4-0-1783897443.7z
+#183714 | Floating Subtitles VR | VR-lists:2 SE-lists:0 | newest 2026-07-25 | VR: Spirit of Grit, Tahrovin - Grit | Floating Subtitles VR-183714-3-3-4-1784962683.7z
+#183073 | Mini's Micro-Systems Framework (MMSF) | VR-lists:1 SE-lists:2 | newest 2026-07-07 | VR: Stormcrown VR | MMSF 183073 1.1.0.0 2026-07-07T00-43Z izKcFp4Vg.7z
+#181533 | Helios | VR-lists:1 SE-lists:2 | newest 2026-07-08 | VR: Stormcrown VR | Helios 181533 1.01 2026-07-08T07-49Z 8gJHT4j2t.zip
+#181459 | Auto Name Enchantments - Durability VR Patch | VR-lists:2 SE-lists:0 | newest 2026-06-01 | VR: Spirit of Grit, Tahrovin - Grit | Auto Name Enchantments - Durability VR Patch-181459-1-1780355096.7z
+#179043 | 1st Person Vertical Aim Fix | VR-lists:0 SE-lists:4 | newest 2026-05-02 | VR: - | 1st Person Vertical Aim Fix-179043-1-1777749632.zip
+#176995 | Gods and Worship - Thunderchild Patch | VR-lists:2 SE-lists:0 | newest 2026-04-10 | VR: Spirit of Grit, Tahrovin - Grit | Thunderchild - GnW Patch-176995-1-0-1775810169.7z
+#176275 | Smooth Arrow Trails and Fixes | VR-lists:0 SE-lists:4 | newest 2026-04-10 | VR: - | LeanWolf's Better-Shaped Weapons - Patch-176275-LWBSW-01-1775605112.zip
+#176028 | Interesting Popups for Interesting Requirements for Interesting NPCs | VR-lists:2 SE-lists:0 | newest 2026-03-30 | VR: Spirit of Grit, Tahrovin - Grit | Interesting Follower Popups-176028-1-0-1774874520.7z
+#175689 | StepUpOnto SKSE | VR-lists:0 SE-lists:4 | newest 2026-04-02 | VR: - | StepUpOnto SKSE-175689-1-5-1775124142.rar
+#175086 | Lights Conflict Resolver | VR-lists:2 SE-lists:0 | newest 2026-07-12 | VR: Tahrovin, Tempus Maledictum VR | Lights Conflict Resolver 175086 0.2.6 2026-07-12T09-29Z L5WQbqc6C.7z
+#174855 | Pickpocket Reset - VR | VR-lists:2 SE-lists:0 | newest 2026-03-16 | VR: Spirit of Grit, Tahrovin - Grit | Pickpocket Reset VR-174855-1-0-1773661934.7z
+#174838 | Cold Breath NG | VR-lists:0 SE-lists:4 | newest 2026-05-09 | VR: - | Cold Breath NG-174838-1-7-1774226527.zip
+#174649 | SIGMA - Archery animations - 1st person | VR-lists:0 SE-lists:4 | newest 2026-03-16 | VR: - | Sigma - Archery-174649-1-0-2-1773655242.7z
+#174098 | Auto Physics Reset | VR-lists:0 SE-lists:4 | newest 2026-03-12 | VR: - | Auto Physics Reset-174098-1-3-1773304783.zip
+#174068 | Personalized Music SSE - Modernized | VR-lists:2 SE-lists:0 | newest 2026-03-06 | VR: Spirit of Grit, Tahrovin - Grit | 1 - Personalized Music SSE - ESL-174068-1-0-1772808954.zip
+#172992 | QTE VR Framework - Music Pack | VR-lists:2 SE-lists:0 | newest 2026-02-20 | VR: Spirit of Grit, Tahrovin - Grit | QTE VR - Music Pack-172992-1-0-1771596123.7z
+#172991 | QTE VR Framework | VR-lists:2 SE-lists:0 | newest 2026-02-20 | VR: Spirit of Grit, Tahrovin - Grit | QTE VR - Ordinator Perform Perks-172991-1-0-1771595767.7z
+#172046 | Block Cancel Fix | VR-lists:0 SE-lists:4 | newest 2026-09-15 | VR: - | Block Cancel Fix 172046 1.1.1 8gJHT4jZf.zip
+#171105 | Fortify Attribute Refill Fix | VR-lists:0 SE-lists:4 | newest 2026-01-29 | VR: - | Fortify Attribute Refill Fix-171105-1-0-0-1769709656.zip
+#170979 | Pray to Kynareth - Eldergleam Sapling | VR-lists:2 SE-lists:0 | newest 2026-02-05 | VR: Spirit of Grit, Tahrovin - Grit | Pray To Kynareth - Gods and Worship Patch-170979-1-0-1770289955.7z
+#170830 | Unstack Stolen Items | VR-lists:0 SE-lists:4 | newest 2026-03-08 | VR: - | Unstack Stolen Items-170830-1-1-1769528039.zip
+#170631 | Food Size Scaling - Base Object Swapper | VR-lists:2 SE-lists:0 | newest 2026-01-25 | VR: Panda's Sovngarde, Tempus Maledictum VR | Food Size Scaling - Diverse Foods Friendly-170631-1-0-1769342915.rar
+#169188 | Unmarked Locations Pack - Wyrmstooth Addon | VR-lists:0 SE-lists:4 | newest 2026-01-10 | VR: - | Unmarked Locations Pack - Wyrmstooth Addon-169188-1-0-1768053521.rar
+#168840 | Whiterun Railings SMIMed | VR-lists:0 SE-lists:4 | newest 2026-01-04 | VR: - | Whiterun Railing Improved Meshes-168840-1-0-1767559481.zip
+#168585 | Nature of the Wild Lands - Dawnguard Additions | VR-lists:1 SE-lists:2 | newest 2026-01-30 | VR: Panda's Sovngarde | NOTWL - Forgotten Vale-168585-0-2-1767867546.7z
+#168432 | Immersive Dialogue Expansion - Thalmor | VR-lists:0 SE-lists:4 | newest 2026-08-11 | VR: - | IDE Thalmor 168432 1.0.4-LATEST 2026-08-11T23-16Z XnIqaC5Ah.zip
+#191417 | Frea - A Lightweight Dialogue Expansion | VR-lists:1 SE-lists:1 | newest 2026-09-11 | VR: Tahrovin - Grit | Frea Lightweight Dialogue Expansion 191417 1.0 2026-09-11T06-08Z pQ0AZ3wBG.zip
+#190886 | Water Collision Crash Fix NG | VR-lists:0 SE-lists:3 | newest 2026-09-08 | VR: - | Water Collision Crash Fix 190886 v1.1.1 2026-09-08T18-30Z tSBIcE1QN.zip
+#189699 | GC Bug Fix | VR-lists:0 SE-lists:3 | newest 2026-08-26 | VR: - | GC Bug Fix 189699 1.0.1 2026-08-26T15-41Z s6Og0dGun.zip
+#189279 | 1.6.1170 Missing Files | VR-lists:0 SE-lists:3 | newest 2026-08-22 | VR: - | 1.6.1170 Missing Files 189279 2 2026-08-22T19-39Z L5WQbqheO.7z
+#188551 | Accurate Projectile Collision | VR-lists:0 SE-lists:3 | newest 2026-09-02 | VR: - | Accurate Projectile Collision - Latest Version 188551 2.0.0 2026-08-17T23-21Z IoFlhfdgK.zi
+#188411 | Vanargand Animations II - Sword Normal Attacks | VR-lists:0 SE-lists:3 | newest 2026-08-15 | VR: - | Vanargand Animations II - Sword Normal Attacks 188411 1.3 2026-08-15T12-27Z gbrZ4tkJy.7z
+#187094 | Vanargand Animations II - Sword Low Stance | VR-lists:0 SE-lists:3 | newest 2026-08-25 | VR: - | Vanargand Animations II Sword Low Stance 187094 1.1 2026-08-01T20-49Z IoFlhf1bR.7z
+#186434 | Cached Recursive Directory Walk | VR-lists:0 SE-lists:3 | newest 2026-08-25 | VR: - | CRDW AE 186434 1.1.4 2026-08-01T17-00Z RHaV1OFcs.7z
+#186092 | Vanargand Animations II - Sword Non Combat Locomotion | VR-lists:0 SE-lists:3 | newest 2026-08-25 | VR: - | Vanargand II - Sword Non Combat Locomotion 186092 1.3 2026-07-27T11-12Z n0oTCms0C.7z
+#185666 | Emittance Removal Project (Dust Fog Smoke Mist FX Effect) | VR-lists:0 SE-lists:3 | newest 2026-07-18 | VR: - | Emittance Removal Project (1.0) 185666 1.0 2026-07-18T07-35Z kATsMW2pE.7z
+#184207 | Simonrim Modlist Resources | VR-lists:0 SE-lists:3 | newest 2026-08-16 | VR: - | Adamant - Bard Addon 184207 1.1.0 2026-08-16T20-36Z Yj6wQRoMo.7z
+#179965 | Mage Towers of Skyrim | VR-lists:0 SE-lists:3 | newest 2026-05-20 | VR: - | Mage Towers Of Skyrim-179965-1-7-1779309612.zip
+#179842 | SIGMA - Spear animations - 1st person | VR-lists:0 SE-lists:3 | newest 2026-08-21 | VR: - | SIGMA-Spear Animations-179842-1-3-1779097211.7z
+#179515 | SigmaJelly - Katana animations - 1st person | VR-lists:0 SE-lists:3 | newest 2026-05-15 | VR: - | SigmaJelly - Katana-179515-3-1778839823.7z
+#179371 | HDR - Community Shaders | VR-lists:0 SE-lists:3 | newest 2026-09-23 | VR: - | HDR 179371 1.2.1 2026-08-06T11-51Z hfH9s6lKw.zip
+#179060 | SIGMA - Fisting animations - 1st person | VR-lists:0 SE-lists:3 | newest 2026-05-28 | VR: - | Sigma-Fists-179060-1-2-1779097360.7z
+#179039 | 1st Person Motion Sickness Remover | VR-lists:0 SE-lists:3 | newest 2026-05-13 | VR: - | Regular Attacks-179039-3-1778709041.zip
+#178689 | Show Player In Inventory | VR-lists:0 SE-lists:3 | newest 2026-08-30 | VR: - | Show Player In Inventory-178689-1-0-4-1777472844.zip
+#177951 | Dynamic Wind - Nature of the Wild Lands Patch | VR-lists:0 SE-lists:3 | newest 2026-04-24 | VR: - | Dynamic Wind - Nature Of The Wild Lands Patch-177951-1-1-1777036882.7z
+#177696 | SIGMA - Dagger animations - 1st person | VR-lists:0 SE-lists:3 | newest 2026-04-19 | VR: - | Sigma   Daggers   All In One-177696-1-0-1-1776633455.7z
+#176688 | MMOP - Mihail Meshes Optimization Project | VR-lists:0 SE-lists:3 | newest 2026-04-15 | VR: - | MMOP - Hanging Dead Bantam Guars-176688-1-0-1775810277.7z
+#176230 | Vel'dun UI | VR-lists:0 SE-lists:3 | newest 2026-08-02 | VR: - | Vel'dun Racemenu DIP-176230-1-0-3-1778881075.7z
+#175514 | RaySense - Edge Lookdown | VR-lists:0 SE-lists:3 | newest 2026-03-24 | VR: - | RaySense - Edge Lookdown-175514-1-0-1774379841.zip
+#175504 | RaySense - Cover Animation | VR-lists:0 SE-lists:3 | newest 2026-03-28 | VR: - | RaySense - Cover Animation-175504-1-5-1774677046.zip
+#175254 | Dynamic Footprints Skse | VR-lists:0 SE-lists:3 | newest 2026-06-21 | VR: - | Dynamic Footprints Skse BASE v2.3-175254-2-3-1776972176.7z
+#174246 | Enchanted Icon Overhaul | VR-lists:0 SE-lists:3 | newest 2026-03-08 | VR: - | Enchantment Icon Overhaul-174246-1-0-0-1773004742.zip
+#173918 | Item Stacking Tweaks SKSE | VR-lists:0 SE-lists:3 | newest 2026-07-11 | VR: - | Item Stacking Tweaks SKSE 173918 1.0.7 2026-07-11T07-45Z 8gJHT4weh.zip
+#173827 | Character Menu SE - Hand to Hand Patch | VR-lists:0 SE-lists:3 | newest 2026-09-26 | VR: - | Character Menu SE - Simonrim Patch (All in one) 173827 3.0.0 2026-07-16T12-41Z tSBIcEMZK.7
+#173121 | Pickpocket Everyone SKSE - Steal from Any Creature | VR-lists:0 SE-lists:3 | newest 2026-08-23 | VR: - | Pickpocket Everyone SKSE-173121-0-1-1-1771964264.7z
+#172986 | Unslaad and JS Purses and Septims | VR-lists:0 SE-lists:3 | newest 2026-02-20 | VR: - | Unslaad - JS Purses and Septims Compatibility Ver.-172986-1-0b-1771585430.zip
+#172724 | CC Fishing Gear Diversified - BOS or Model Swapper | VR-lists:0 SE-lists:3 | newest 2026-03-24 | VR: - | Diverse Fishing Gear - Base Object Swapper-172724-1-1-1771542794.rar
+#172073 | Molag Bal Voice Unification Project | VR-lists:0 SE-lists:3 | newest 2026-02-08 | VR: - | MBVUP - House of Horrors Quest Expansion-172073-1-0-1770577990.zip
+#171277 | Knockback SKSE (For BFCO and MCO Users) | VR-lists:0 SE-lists:3 | newest 2026-02-07 | VR: - | Knockback SKSE - SE Version-171277-1-0-0-1770452395.zip
+#171136 | Universal Arrow Spin - SKSE plugin | VR-lists:0 SE-lists:3 | newest 2026-02-02 | VR: - | Universal Arrow Spin-171136-1-1-1770034629.7z
+#169984 | Skyfall's Sleeping Hist Tree Overhaul - DynDOLOD Add-On | VR-lists:0 SE-lists:3 | newest 2026-01-17 | VR: - | Skyfall Sleeping Hist Tree Overhaul - LOD-169984-1-0-1768654293.rar
+#169785 | Kanjs - Imperial Dungeon Floor Chunk Flattened for Parallax | VR-lists:1 SE-lists:1 | newest 2026-01-15 | VR: Panda's Sovngarde | Kanjs - Imperial Dungeon Floor Chunk Flattened for-169785-1-1768461932.zip
+#169559 | Locally made Planters - Planter Diversity - Base Object Swapper | VR-lists:0 SE-lists:3 | newest 2026-01-26 | VR: - | Locally made Planters - Planter Diversity-169559-2-0-1769443571.zip
+#169298 | The Rot Below | VR-lists:1 SE-lists:1 | newest 2026-01-17 | VR: Tahrovin - Grit | The Rot Below-169298-1-1-7-1768689529.7z
+#168082 | Fort Fellhammer | VR-lists:0 SE-lists:3 | newest 2026-07-25 | VR: - | Fort Fellhammer 168082 1.1 2026-07-25T20-30Z UK35XncEj.7z
+#192807 | Subtle Waterfall Steam FX | VR-lists:1 SE-lists:0 | newest 2026-09-23 | VR: Stormcrown VR | Subtle Steam FX - V2 192807 1.0 2026-09-23T12-00Z n0oTCmVch.7z
+#192167 | Conduit - Two-handed Addon | VR-lists:1 SE-lists:0 | newest 2026-09-17 | VR: Tahrovin - Grit | Conduit Two Handed 192167 1 2026-09-17T14-44Z zYsEpQod3.7z
+#192119 | Start Menu Redesigned | VR-lists:1 SE-lists:0 | newest 2026-09-17 | VR: Stormcrown VR | Start Menu Redesigned 192119 1.2 2026-09-17T17-05Z n0oTCmHLA.zip
+#192051 | Archery Behavior Overhaul | VR-lists:0 SE-lists:2 | newest 2026-09-17 | VR: - | Archery Behavior Overhaul 192051 1.0.0 2026-09-17T05-55Z aChSzY1Ro.7z
+#191203 | Missives - Board Still Updating | VR-lists:1 SE-lists:0 | newest 2026-09-08 | VR: Tahrovin - Grit | Missives - Board Still Updating 191203 1 2026-09-08T19-15Z gbrZ4tQzz.zip
+#190704 | Inventory Selfie VR - Redux | VR-lists:1 SE-lists:0 | newest 2026-09-19 | VR: Tahrovin - Grit | Inventory Selfie VR Redux 190704 1.2 2026-09-19T21-58Z bqv3tS6MV.7z
+#190156 | Guard Helmet Variety | VR-lists:1 SE-lists:0 | newest 2026-08-30 | VR: Stormcrown VR | Guard Helmet Variety 190156 1.0 2026-08-30T16-19Z 587RqT93i.7z
+#190139 | Unique Region Names Framework | VR-lists:1 SE-lists:0 | newest 2026-09-01 | VR: Stormcrown VR | Unique Region Name Framework (SKSE) - VR 190139 1.0.2.0 2026-09-01T13-05Z PuQ2UKIbC.7z
+#189774 | RaceMenu VR Layout Fix | VR-lists:1 SE-lists:0 | newest 2026-08-27 | VR: Tahrovin - Grit | RaceMenu VR Layout Fix 189774 1.0.0 2026-08-27T11-14Z MWx0rvRQC.7z
+#188573 | Lost Arcana - A SimonRim Addon for Anniversary Edition | VR-lists:0 SE-lists:2 | newest 2026-08-17 | VR: - | Lost Arcana - ECSS 188573 1 2026-08-16T11-17Z hfH9s6iZs.zip
+#188486 | Immersive Dialogue Expansion - Dawnguard and Vigilants | VR-lists:0 SE-lists:2 | newest 2026-09-16 | VR: - | IDE Dawnguard and Vigilants 188486 1-LATEST 2026-08-15T13-29Z miUDjFOfT.zip
+#188452 | Ascension - Adamant 6 Patch | VR-lists:0 SE-lists:2 | newest 2026-08-20 | VR: - | Ascension Adamant Patch 188452 2 2026-08-20T05-59Z yIjvuh03M.zip
+#188398 | AutoBlend | VR-lists:0 SE-lists:2 | newest 2026-10-03 | VR: - | AutoBlend 188398 1.0.16 2026-08-25T13-55Z 31i7Iogjn.zip
+#188233 | PLANCK VR Lifetime and Collision Alpha Fix | VR-lists:1 SE-lists:0 | newest 2026-09-21 | VR: Tahrovin - Grit | PLANCK VR Stability Patch 1.3.1 188233 1.3.1 2026-09-21T09-14Z lNkz9LIfc.zip
+#187632 | Beautiful Modlist Comparisons - MO2 Diff and Load Order and Coverage Reports | VR-lists:0 SE-lists:2 | newest 2026-08-07 | VR: - | Modlist Compare 1.1.0 187632 1.1.0 2026-08-07T18-30Z cE8hkAIAA.zip
+#186831 | Performance and Save Bloat Fix for Tools of Kagrenac Wraithguard Barrier Script | VR-lists:1 SE-lists:0 | newest 2026-07-29 | VR: Tahrovin - Grit | ToK Wraithguard Barrier Script Replacer 186831 1 2026-07-29T23-48Z izKcFpaKG.7z
+#186754 | Immersive Harvesting VR | VR-lists:1 SE-lists:0 | newest 2026-09-19 | VR: Yggdrasil VR | Immersive Harvesting 1.5.23 186754 1.5.23 2026-09-19T16-19Z n0oTCmHMT.zip
+#186700 | Native Water Light Stabilizer | VR-lists:0 SE-lists:2 | newest 2026-08-23 | VR: - | NativeWaterLightStabilizer 186700 1.2 2026-07-31T23-22Z N2AYL5rn5.zip
+#185414 | Static Mesh Improvement Mod (SMIM) - DLC2 Common Furniture | VR-lists:0 SE-lists:2 | newest 2026-07-18 | VR: - | SMIM - Missing Common Furniture - Rally's Version-185414-1-1-778000-1784350380.7z
+#185293 | College of Winterhold Bridge Has Steps | VR-lists:0 SE-lists:2 | newest 2026-07-13 | VR: - | College Of Winterhold Bridge Has Steps 185293 1 2026-07-13T22-13Z eVtX7J9Cj.7z
+#185238 | Manual Crossbow Reloading - SKSE | VR-lists:0 SE-lists:2 | newest 2026-09-07 | VR: - | MCR - Blade And Blunt Patch 185238 1.1.0 2026-07-16T15-19Z MWx0rv5Qx.7z
+#184140 | Throat Slit - VR | VR-lists:1 SE-lists:0 | newest 2026-07-25 | VR: Yggdrasil VR | Throat Slit VR 184140 1.2 2026-07-25T02-15Z VMSnJrpUs.zip
+#182623 | Simple Tween Menu Hotkey | VR-lists:0 SE-lists:2 | newest 2026-08-26 | VR: - | Simple Tween Menu Hotkey - Character Menu 182623 1.0.0 2026-06-17T20-00Z MWx0rvpcT.7z
+#181614 | New Creature Animation - Gargolye | VR-lists:0 SE-lists:2 | newest 2026-06-04 | VR: - | Gargolye-181614-2-1780584239.zip
+#181562 | BGSWaterCollision - CrashFix | VR-lists:0 SE-lists:2 | newest 2026-06-03 | VR: - | BGSWaterCollisionCrashFix-181562-1-00-1780506561.7z
+#181505 | The Halls of Rielle Alternate Location - Mountain LOD Helper Patch | VR-lists:0 SE-lists:2 | newest 2026-06-02 | VR: - | Rielle Alternate Location   MountainLOD Patch-181505-1-0-1780423953.7z
+#181396 | Yngol Barrow - Unmissable Atmosphere Event | VR-lists:0 SE-lists:2 | newest 2026-06-01 | VR: - | Yngol Barrow - Unmissable Atmosphere Event-181396-1-0-0-1780342552.zip
+#181389 | For Honor in Skyrim -BFCO Edition (All-in-One) | VR-lists:0 SE-lists:2 | newest 2026-06-29 | VR: - | ForHonorInSkyrim BFCO V2-181389-2-1-1780330200.zip
+#181314 | Wall Bang - An Ostim Animation | VR-lists:1 SE-lists:0 | newest 2026-06-02 | VR: Tahrovin - Grit | SP Wall Bang-181314-2-0-1780437190.rar
+#181066 | Intuitive Optional Quick Start | VR-lists:0 SE-lists:2 | newest 2026-05-27 | VR: - | IntuitiveQuickStart-181066-1-0-0-1779925578.7z
+#180814 | Miraak's Prequel - Before the Summit | VR-lists:1 SE-lists:0 | newest 2026-05-29 | VR: Tahrovin - Grit | Miraak's Prequel - Before the Summit 1.1-180814-1-1-1780054095.zip
+#180787 | Lore-Friendly Thalmor Banners | VR-lists:0 SE-lists:2 | newest 2026-05-24 | VR: - | Lore-Friendly Thalmor Banners-180787-0-2-1779638408.7z
+#180690 | Start Game Settings | VR-lists:0 SE-lists:2 | newest 2026-06-12 | VR: - | Start Game Settings 180690 1.0.1 2026-06-12T17-17Z izKcFp1SI.7z
+#180217 | Lean-To Alternative - BOS Variance and Campfire addon | VR-lists:0 SE-lists:2 | newest 2026-07-02 | VR: - | CC Camping - Plaid - Hay Bed 180217 1 2026-07-02T16-44Z kATsMWusv.rar
+#180178 | Unslaad SE - TrueHUD Boss Bar | VR-lists:0 SE-lists:2 | newest 2026-05-18 | VR: - | Unslaad   TrueHUD   Boss Bars VX09-180178-3-0-5-1779113250.7z
+#180048 | Dual Wield Poisoning | VR-lists:0 SE-lists:2 | newest 2026-05-14 | VR: - | Dual Wield Poisoning-180048-1-0-0-1778793752.zip
+#180015 | Left Hand Rings SKSE | VR-lists:0 SE-lists:2 | newest 2026-06-01 | VR: - | Left Hand Rings SKSE - MCM Addon-180015-0-2-2-1780085358.zip
+#179961 | Alchemy Highlighting | VR-lists:0 SE-lists:2 | newest 2026-05-14 | VR: - | AlchemyHighlighting-179961-1-0-0-1778731806.7z
+#179541 | Meeko's Shack Reborn - Shack Overhaul | VR-lists:0 SE-lists:2 | newest 2026-07-02 | VR: - | Meeko's Shack Reborn   Specular Addon-179541-1-0-2-1778343382.7z
+#179487 | The Mists of Blackreach - New Mist and Fog VFX | VR-lists:0 SE-lists:2 | newest 2026-08-17 | VR: - | FS BlackreachMists V 1 0-179487-1-0-1778223014.rar
+#179179 | First-Person Blood Wipe Animation | VR-lists:0 SE-lists:2 | newest 2026-05-04 | VR: - | First Person Blood Wipe Animation-179179-1-0-1777872789.zip
+#179019 | New Creature Animation - Spider | VR-lists:0 SE-lists:2 | newest 2026-05-03 | VR: - | SpiderAnim 1-179019-1-02-1777804432.zip
+#178910 | More Radiant Requirements | VR-lists:0 SE-lists:2 | newest 2026-04-30 | VR: - | More Radiant Requirements QAIS-178910-1-1777587033.rar
+#178781 | Angi Uses Unique Practice Arrows | VR-lists:0 SE-lists:2 | newest 2026-04-30 | VR: - | Angi'S Unique Practice Arrows-178781-1-1777532577.7z
+#178745 | Break Stagger | VR-lists:0 SE-lists:2 | newest 2026-04-30 | VR: - | Break Stagger-178745-1-0-1-1777590242.zip
+#178699 | First-Person Awakening Animation | VR-lists:0 SE-lists:2 | newest 2026-04-28 | VR: - | First Person Awakening Animation-178699-1-0-1777364200.zip
+#178624 | LDD - Modular Warpaints for HPH 'n UBE | VR-lists:0 SE-lists:2 | newest 2026-04-27 | VR: - | LDD - Modular Warpaints - HPH 2K-178624-1-0-0-1777297514.7z
+#178568 | Angi's Camp Archery Targets | VR-lists:0 SE-lists:2 | newest 2026-05-01 | VR: - | Angi'S Camp Archery Targets-178568-0-3-1777605153.7z
+#178565 | Aggro Management in Skyrim | VR-lists:0 SE-lists:2 | newest 2026-05-04 | VR: - | Aggro Management In Skyrim-178565-1-3-1777896774.7z
+#178262 | First-Person Torchlight Animation | VR-lists:0 SE-lists:2 | newest 2026-04-24 | VR: - | First Person Torchlight Animation-178262-1-0-1777014807.zip
+#177901 | First-Person Snowy Weather Animation | VR-lists:0 SE-lists:2 | newest 2026-04-20 | VR: - | First-Person Snowy Weather Animation-177901-1-0-1776676678.zip
+#177677 | Unsearched Corpse Indicator | VR-lists:0 SE-lists:2 | newest 2026-04-24 | VR: - | Unsearched Corpses Indicator-177677-1-3-2-1777011434.zip
+#177661 | Local Map Icons | VR-lists:0 SE-lists:2 | newest 2026-06-10 | VR: - | Local Map Icons-177661-1-0-2-1777184804.zip
+#177587 | Status Indicator Framework - Floating Icons | VR-lists:0 SE-lists:2 | newest 2026-04-19 | VR: - | Status Indicator Framework-177587-1-0-2-1776597568.zip
+#177568 | Wheezing Draugr | VR-lists:0 SE-lists:2 | newest 2026-04-18 | VR: - | Wheezing Draugr-177568-1-1-1776476616.7z
+#177449 | NPC Fixer - Invisible and Naked NPC Fixer | VR-lists:0 SE-lists:2 | newest 2026-04-26 | VR: - | NPC Fixer   Invisible And Naked NPC Fixer-177449-1-8-1-1777235623.rar
+#177359 | Racemenu Rotation with Gamepad Support NG | VR-lists:0 SE-lists:2 | newest 2026-04-14 | VR: - | Racemenu Rotation With Gamepad Support NG.zip
+#177133 | A Daedric Dremora Merchant | VR-lists:0 SE-lists:2 | newest 2026-05-29 | VR: - | A Daedric Dremora Merchant-177133-1-0-1776036436.7z
+#176987 | First-Person Swimming Animation | VR-lists:0 SE-lists:2 | newest 2026-04-10 | VR: - | First-Person Swimming Animation-176987-1-0-1775800932.zip
+#176622 | Fresh Ink - Blip for newly received documents | VR-lists:0 SE-lists:2 | newest 2026-04-06 | VR: - | Fresh Ink - Blip for newly received documents-176622-1-0-0-1775483222.zip
+#176454 | No Auto-Equip Behaviour | VR-lists:0 SE-lists:2 | newest 2026-04-04 | VR: - | No Auto-Equip Behaviour - Latest Version-176454-1-0-0-1775314016.zip
+#175895 | Disable Particle Wind for magic | VR-lists:0 SE-lists:2 | newest 2026-04-20 | VR: - | Particle Wind - Exclude magic-175895-1-5-0-1776691733.7z
+#175559 | Underwater Bubbles - SKSE Plugin | VR-lists:0 SE-lists:2 | newest 2026-07-25 | VR: - | Underwater Bubbles 175559 2 2026-07-25T01-46Z hfH9s6xva.zip
+#175485 | Dragons and Creatures - MCO | VR-lists:0 SE-lists:2 | newest 2026-03-24 | VR: - | Dragons and Creature - MCO-175485-0-2-2-1774355378.zip
+#175270 | A Dark Warrior's Tale | VR-lists:0 SE-lists:2 | newest 2026-04-22 | VR: - | A Dark Warrior's Tale-175270-1-37-1776818366.zip
+#175250 | Troll - MCO | VR-lists:0 SE-lists:2 | newest 2026-03-21 | VR: - | Troll - MCO-175250-2-0-1-1774122004.zip
+#175189 | Icons for Skill Books - DIII | VR-lists:0 SE-lists:2 | newest 2026-03-21 | VR: - | Icons for Skill Books-175189-1-0-0-1774065215.zip
+#175076 | Dawnfire NAT3 ENB - Reborn | VR-lists:0 SE-lists:2 | newest 2026-03-19 | VR: - | Dawnfire NAT3 ENB - Addon-175076-1-0-1773934954.zip
+#175044 | Attack - MCO | VR-lists:0 SE-lists:2 | newest 2026-03-19 | VR: - | Attack MCO-DXP-175044-1-6-0-6-1773913408.zip
+#174949 | Skyrim's Submerged Audio Fixed | VR-lists:0 SE-lists:2 | newest 2026-04-17 | VR: - | Skyrim's Submerged Audio Fixed-174949-1-3-1776468151.7z
+#174927 | Bloodskal SE | VR-lists:0 SE-lists:2 | newest 2026-03-17 | VR: - | BloodskalV2-174927-1-1773758903.7z
+#174866 | Dark Brotherhood Door | VR-lists:0 SE-lists:2 | newest 2026-03-30 | VR: - | BD_New_Door-174866-3-1774893721.zip
+#174807 | A Leek Plant | VR-lists:0 SE-lists:2 | newest 2026-03-18 | VR: - | A Leek Plant-174807-1-3-1773805622.zip
+#174652 | RaceMenu VR Position Tweaks | VR-lists:1 SE-lists:0 | newest 2026-03-13 | VR: Panda's Sovngarde | RaceMenu VR Position Tweaks-174652-1-0-1773437433.7z
+#174601 | LoTD Inventory Icons for DIII | VR-lists:0 SE-lists:2 | newest 2026-03-13 | VR: - | LoTD Inventory Icons-174601-1-0-0-1773386906.zip
+#174499 | Directional Movement Keys - DMK | VR-lists:0 SE-lists:2 | newest 2026-07-25 | VR: - | Directional Movement Keys 174499 1.5.0 2026-07-25T18-34Z uhRBKsSmc.zip
+#174302 | Better Windhelm Ground Piece | VR-lists:1 SE-lists:0 | newest 2026-03-09 | VR: Panda's Sovngarde | Better Windhelm Ground Piece-174302-1-0-1773055801.7z
+#174146 | Temper Tier Icon | VR-lists:0 SE-lists:2 | newest 2026-03-07 | VR: - | TemperTierIcon-174146-1-0-0-1772898728.zip
+#174135 | Vampire Lord fixes SkyrimVR | VR-lists:1 SE-lists:0 | newest 2026-03-07 | VR: Tempus Maledictum VR | VampireLordFixesVR(SAN)-174135-1-0-1772902363.7z
+#173939 | Whiterun 3D stone walls - Seasonal Landscapes Patch | VR-lists:1 SE-lists:0 | newest 2026-03-05 | VR: Panda's Sovngarde | Whiterun 3D stone walls - Seasonal Landscapes-173939-1-3-1772696651.7z
+#173928 | Load Time Profiler | VR-lists:0 SE-lists:2 | newest 2026-03-11 | VR: - | Load Time Profiler-173928-1-2-2-1773266833.7z
+#173678 | Statics of Skyrim - Improved Resources for Mods (SMIMed - HD - Optimized) | VR-lists:0 SE-lists:2 | newest 2026-03-16 | VR: - | Statics of Skyrim-173678-1-1-1773681756.7z
+#173428 | First Person Jumping Attack Fix | VR-lists:0 SE-lists:2 | newest 2026-02-25 | VR: - | Jumping Attack Fix-173428-1-0-1-1772024634.7z
+#173176 | Community Plants and Flora - Snow Variants | VR-lists:1 SE-lists:0 | newest 2026-02-22 | VR: Panda's Sovngarde | Community Plants and Flora - Snow Variants-173176-1-1771764508.zip
+#173161 | Seamless Saving - Skyrim Save Accelerator | VR-lists:0 SE-lists:2 | newest 2026-02-25 | VR: - | Seamless Saving-173161-1-0-6-1771989736.zip
+#172811 | Skyrim Mounted Movesets | VR-lists:0 SE-lists:2 | newest 2026-02-17 | VR: - | Skyrim Mounted Combat Moveset for Horsepower-172811-v1-1771372383.zip
+#172783 | Inertia - Physical Movement Response System - SKSE | VR-lists:1 SE-lists:0 | newest 2026-02-19 | VR: Stormcrown VR | Inertia - Physical Movement Response System-172783-1-2-0-1771526633.zip
+#172385 | Sabrecats of Skyrim - CS ENB Fur Parallax | VR-lists:0 SE-lists:2 | newest 2026-02-15 | VR: - | Sabrecat Variants (CS or ENB)-172385-2-1-1771093732.zip
+#172207 | Smart Optimal Salves - SKSE | VR-lists:0 SE-lists:2 | newest 2026-08-24 | VR: - | Smart Optimal Salves - SKSE-172207-1-2-1773964585.7z
+#172083 | Dynamic Leveled Lists (SKSE) | VR-lists:1 SE-lists:0 | newest 2026-02-22 | VR: Panda's Sovngarde | Dynamic Leveled Lists VR (SKSE)-172083-0-4-3a-1771728465.zip
+#172018 | Dynamic Container Loot (SKSE) | VR-lists:1 SE-lists:0 | newest 2026-02-12 | VR: Panda's Sovngarde | Dynamic Container Loot VR (SKSE)-172018-0-4a-1770861777.zip
+#172002 | PPA - Procedural Penis Animations | VR-lists:1 SE-lists:0 | newest 2026-04-02 | VR: Tahrovin | PPA - Penetration Physics v0.0.28 (BETA)-172002-v0-0-28-1770806153.zip
+#171886 | The Chantry - An Overhaul | VR-lists:0 SE-lists:2 | newest 2026-02-06 | VR: - | The Chantry - CORE-171886-1-0-1770386841.zip
+#171747 | Augur of Dunlain Revoiced | VR-lists:0 SE-lists:2 | newest 2026-02-05 | VR: - | Augur of Dunlain Revoiced-171747-1-0-1770284625.zip
+#171332 | HFs - Imperial jail grates - remodel | VR-lists:0 SE-lists:2 | newest 2026-01-31 | VR: - | HFs - Imperial jail grates - 2K-171332-1-1769903871.rar
+#171248 | Glow Be Gone Redone - NG | VR-lists:0 SE-lists:2 | newest 2026-08-23 | VR: - | Glow Be Gone Redone - NG-171248-1-4-6-1774018674.7z
+#171029 | BMered goat horns | VR-lists:0 SE-lists:2 | newest 2026-01-29 | VR: - | BMered goat horns - 1k-171029-1-1-1769702261.rar
+#170889 | Fake Edge VR (beta) | VR-lists:1 SE-lists:0 | newest 2026-02-08 | VR: Panda's Sovngarde | Fake Edge - VR-170889-2-0-8-1770590705.zip
+#170685 | Vanaheimr - Complex Parallax Whiterun Roads | VR-lists:0 SE-lists:2 | newest 2026-01-25 | VR: - | Vanaheimr - Whiterun Roads - Darker Grey-170685-1-0-1769303668.zip
+#170595 | Moonblade | VR-lists:0 SE-lists:2 | newest 2026-03-28 | VR: - | Moonblade - 2k Textures-170595-1-01-1774704484.7z
+#170497 | SCIE - Skyrim Crafting Inventory Extender | VR-lists:1 SE-lists:0 | newest 2026-02-01 | VR: Tempus Maledictum VR | SCIE-HomeConfigs.zip-170497-2-5-0-0-1769707917.zip
+#170242 | Immersive 3D Leaves | VR-lists:0 SE-lists:2 | newest 2026-01-20 | VR: - | Immersive 3D Leaves - 1k Default Scale-170242-1-0-1768871047.7z
+#170038 | Detailed Landscapes - Natural Waterfalls Ref Patch | VR-lists:0 SE-lists:2 | newest 2026-01-18 | VR: - | DL - Natural Waterfall 3.5 Patch-170038-1-0-1768700542.7z
+#169830 | Lund's Hamlet - An Overhaul | VR-lists:0 SE-lists:2 | newest 2026-02-06 | VR: - | Lund's Hamlet - CORE-169830-1-3-5-1769974937.zip
+#169779 | HasMagicEffect - Condition Tweak | VR-lists:0 SE-lists:2 | newest 2026-01-18 | VR: - | HasMagicEffect - Condition Tweak-169779-1-0-0-1768698077.7z
+#169711 | Precision - NPC Combat Fix | VR-lists:0 SE-lists:2 | newest 2026-01-25 | VR: - | Precision - NPC Combat Fix-169711-1-0-8-1769332280.zip
+#169631 | 3D Furniture Noble Drawer SMIMed | VR-lists:0 SE-lists:2 | newest 2026-01-16 | VR: - | 3D Furniture Noble Drawer SMIMed-169631-1-1768312679.zip
+#169590 | NIF Performance Analyzer | VR-lists:0 SE-lists:2 | newest 2026-01-14 | VR: - | NIF Analyzer_3_2-169590-3-2-1768384699.zip
+#169557 | CC Pets Begone or Journal Remover | VR-lists:0 SE-lists:2 | newest 2026-02-01 | VR: - | CC Pets - Hide Quest Logs - Sleeping Wolves Requir-169557-1-2-1769976083.zip
+#169472 | Tiny Light Placer Hub (CS Lights) | VR-lists:1 SE-lists:0 | newest 2026-01-16 | VR: Panda's Sovngarde | Tiny Light Placer Hub-169472-1-1-1768577815.7z
+#169412 | Anise's Key | VR-lists:0 SE-lists:2 | newest 2026-01-11 | VR: - | Anise's Key-169412-1-0-1768105720.7z
+#169221 | Steeds of Omega VR - NPC Mounted Combat (EARLY BETA) | VR-lists:1 SE-lists:0 | newest 2026-01-19 | VR: Tempus Maledictum VR | Steeds of Omega - VR (Mounted NPC combat)-169221-0-9-5-1768791076.zip
+#169108 | Alternative Riften - Revived and Optimized | VR-lists:0 SE-lists:2 | newest 2026-04-30 | VR: - | Alternative Riften - CORE - ESL-169108-1-4-6-1770186694.zip
+#169066 | Kanjs - Sigil of the Black Covenant | VR-lists:0 SE-lists:2 | newest 2026-01-08 | VR: - | Kanjs - Sigil of the Black Covenant 2k se-169066-1-1-1767832329.zip
+#168702 | Edge UI - VR Edition | VR-lists:1 SE-lists:0 | newest 2026-01-08 | VR: Tempus Maledictum VR | PATCH - moreHUD VR-168702-1-1767888122.7z
+#168629 | The City of Crossed Daggers - Riften Expansion | VR-lists:0 SE-lists:2 | newest 2026-03-16 | VR: - | Canal Defenses Add-on-168629-1-0-1767381323.zip
+#168593 | Spell Casting Reworked - SKSE - SkyPatcher | VR-lists:0 SE-lists:2 | newest 2026-08-23 | VR: - | Spell Casting Reworked 168593 2.0.3 2026-08-23T10-23Z GkqKVMYHJ.zip
+#168534 | Wintersun Faiths - New Diety - Sai Addon | VR-lists:0 SE-lists:2 | newest 2026-01-18 | VR: - | Wintersun - Sai Addon - Flavor Edition-168534-1-2-1768751056.zip
+#168229 | Lightened JK's Markarth Outskirts | VR-lists:1 SE-lists:0 | newest 2026-01-01 | VR: Panda's Sovngarde | Lightened JK's Markarth Outskirts - FOMOD-168229-1-01-1767284523.7z
+#168108 | JellyFish Ultimate Animated Potions NG | VR-lists:0 SE-lists:2 | newest 2025-12-27 | VR: - | JellyFish Ultimate Animated Potions NG patch-168108-1-0-1766843927.7z
+#168105 | JellyFish ELDER SCROLL read animation | VR-lists:0 SE-lists:2 | newest 2025-12-26 | VR: - | JellyFish ELDER SCROLL-168105-1-0-1766781615.7z
+#168075 | Missives - The Witcher Board HD(LessPoly) | VR-lists:0 SE-lists:2 | newest 2025-12-26 | VR: - | Missives - The Witcher Board HD (LessPoly)-168075-1-0-1766746170.rar
+#193863 | Shadow Scene Node Crash Fix | VR-lists:0 SE-lists:1 | newest 2026-10-03 | VR: - | SKSE 193863 1.0.0 2026-10-03T13-11Z lNkz9Lv36.zip
+#193635 | Reticle Arcs | VR-lists:0 SE-lists:1 | newest 2026-10-02 | VR: - | Reticle Arcs 193635 1.1.1 2026-10-02T22-30Z 9LMpgbByv.zip
+#192974 | Bear Race Fixes | VR-lists:0 SE-lists:1 | newest 2026-09-24 | VR: - | Bear Race Data Fixes 192974 1.0 2026-09-24T23-17Z HZCMOy8hp.7z
+#192946 | Content Catalog Renamer | VR-lists:0 SE-lists:1 | newest 2026-09-24 | VR: - | Content Catalog Renamer 192946 1 2026-09-24T15-45Z VMSnJrREE.zip
+#192910 | Simplicity of Snow Sulfur Ash Moss | VR-lists:0 SE-lists:1 | newest 2026-10-02 | VR: - | Simplicity of Snow Sulfur Ash Moss 192910 0.4.3 2026-10-02T00-41Z 587RqTLrE.7z
+#192698 | XPMF - Extended Projected Materials Framework | VR-lists:0 SE-lists:1 | newest 2026-10-03 | VR: - | XPMF 192698 0.7.0 2026-10-03T06-01Z pQ0AZ3Fxi.zip
+#192479 | Music Queue Fix | VR-lists:0 SE-lists:1 | newest 2026-09-20 | VR: - | Music Queue Fix 192479 0.1.0 2026-09-20T14-41Z Ks18n0G6G.zip
+#192299 | Vanilla Tree Model Fixes and Improvements | VR-lists:0 SE-lists:1 | newest 2026-09-20 | VR: - | Vanilla Tree Model Fixes And Improvements 192299 1.1.0 2026-09-20T17-19Z gbrZ4tsWq.7z
+#191783 | Equip Enchantment Fix NG | VR-lists:0 SE-lists:1 | newest 2026-09-18 | VR: - | EquipEnchantmentFixNG 191783 1.3.22 2026-09-18T13-33Z 587RqTGjH.zip
+#191779 | UNSLAAD - CoMAP Addon | VR-lists:0 SE-lists:1 | newest 2026-09-14 | VR: - | UNSLAAD Map Markers 191779 1 2026-09-14T13-14Z 587RqTG3z.zip
+#191701 | Alchemy Effect Icons | VR-lists:0 SE-lists:1 | newest 2026-09-14 | VR: - | Alchemy Effect Icons 191701 1 2026-09-14T22-07Z HZCMOysyD.zip
+#191396 | NUTS - Navigate Using Triggers and Sticks | VR-lists:0 SE-lists:1 | newest 2026-09-10 | VR: - | Navigate Using Triggers Sticks 191396 2 2026-09-10T22-04Z RHaV1OkUX.zip
+#191365 | Herman The Mad Patch | VR-lists:0 SE-lists:1 | newest 2026-09-10 | VR: - | Herman Patch By Hoody 191365 1 2026-09-10T15-41Z uhRBKslSm.rar
+#191325 | ElSopa - Talos Redone | VR-lists:0 SE-lists:1 | newest 2026-09-14 | VR: - | ElSopa Talos Redone 4k 191325 1.0 2026-09-10T02-41Z EwgfAePCS.7z
+#191323 | Region Weather - Engine Fix | VR-lists:0 SE-lists:1 | newest 2026-09-10 | VR: - | Region Weather Fix 191323 1.0 2026-09-10T01-40Z kATsMWfzO.7z
+#191298 | Less Tedious Thieves Guild - NG | VR-lists:0 SE-lists:1 | newest 2026-09-09 | VR: - | Less Tedious Thieves Guild NG 191298 1 2026-09-09T18-20Z VMSnJrsw9.zip
+#191177 | Voiced Narrative - The Cause (Creation Club) | VR-lists:0 SE-lists:1 | newest 2026-09-08 | VR: - | The Cause - Voiced Narrative 191177 1.0 2026-09-08T14-52Z MWx0rv6YZ.zip
+#191100 | Reflect Damage (SKSE) - Cut Content Restoration | VR-lists:0 SE-lists:1 | newest 2026-09-20 | VR: - | Reflect Damage Restored - Adamant Patch 191100 1.5 2026-09-09T00-38Z Ae46W7UiC.zip
+#190903 | Herman The Mad SSE PORT (OG by JaervSkyrim) | VR-lists:0 SE-lists:1 | newest 2026-09-06 | VR: - | Herman The Mad 190903 1.0 2026-09-06T03-26Z XnIqaC8d8.zip
+#190892 | Portal Strict Lights Patcher Framework (SKSE) | VR-lists:0 SE-lists:1 | newest 2026-09-14 | VR: - | Portal Strict Lights Patcher Framework (SKSE) - AE 190892 1.1.1.1 2026-09-14T13-35Z 4t2yDc
+#190881 | Ice is Slick | VR-lists:0 SE-lists:1 | newest 2026-09-13 | VR: - | Ice is Slick 1.0.3.2 - All-in-One 190881 1.0.3.2 2026-09-13T02-58Z n0oTCmH1a.zip
+#190789 | Delphine and Esbern Hug - Cut Content Restoration | VR-lists:0 SE-lists:1 | newest 2026-09-05 | VR: - | DelphineAndEsbernHug 190789 1.0.0 2026-09-05T07-23Z zYsEpQxYN.zip
+#190754 | Thaumaturgy - ECSS Patch 2026 NG Edition | VR-lists:0 SE-lists:1 | newest 2026-09-06 | VR: - | ECSS - Thaumaturgy Chaotic Souls Tweak 190754 1.11 2026-09-05T15-47Z XnIqaC8WK.7z
+#190374 | Zodd's skyparkour steps | VR-lists:0 SE-lists:1 | newest 2026-09-01 | VR: - | SkyParkour V3 Zodd'S RL Step Low And High 190374 1 2026-09-01T19-19Z bqv3tS8EY.zip
+#190077 | Nvidia RTX DLSS 5 - Skyrim SSE | VR-lists:0 SE-lists:1 | newest 2026-08-29 | VR: - | DLSS 5 - Skyrim SSE 190077 1 2026-08-29T23-12Z vlGiB9JuG.rar
+#190041 | Mysticism Holy Templar Magic Patch | VR-lists:0 SE-lists:1 | newest 2026-08-29 | VR: - | Lightpower Adamant Patch MO2 190041 1 2026-08-29T17-09Z Ae46W7GVq.zip
+#189821 | Swimming Extensions - Swimming Overhaul (Svimex) | VR-lists:0 SE-lists:1 | newest 2026-09-04 | VR: - | Svimex Pandora Cache 189821 1.PandoraCache 2026-09-04T18-15Z CmfxYjdyh.7z
+#189542 | 1.7.99 ContentCatalog.txt Nuker for MO2 | VR-lists:0 SE-lists:1 | newest 2026-08-24 | VR: - | Content Catalog Nuker 189542 1 2026-08-24T23-19Z 8gJHT4UvV.zip
+#189151 | Automatic CRDW (Faster Load Times) | VR-lists:0 SE-lists:1 | newest 2026-08-23 | VR: - | Automatic CRDW - MANUAL INSTALL - MO2 Plugin 189151 1.2.7 2026-08-23T05-04Z izKcFprfu.zip
+#188762 | DONG - Dungeon Objects Now Glow | VR-lists:0 SE-lists:1 | newest 2026-08-17 | VR: - | DONG Dungeon Objects Now Glow 188762 1 2026-08-17T20-59Z OyYrPunKe.zip
+#188756 | Promises To Keep Plus Plus | VR-lists:0 SE-lists:1 | newest 2026-09-02 | VR: - | Promises To Keep Plus Plus ESL-188756-1-12-799431-1788385140.zip
+#188744 | Sleepwalking into a Nightmare - Tweaks and Fixes | VR-lists:0 SE-lists:1 | newest 2026-08-18 | VR: - | Sleepwalking Into A Nightmare - Tweaks and Fixes-188744-1-1-791721-1787086500.zip
+#188687 | Alternative Palace of The Kings | VR-lists:0 SE-lists:1 | newest 2026-08-17 | VR: - | Alternative Palace Of Kings 188687 V2 2026-08-17T12-35Z 587RqTwvA.rar
+#188649 | Destrier Mill and Winery - Renewed | VR-lists:0 SE-lists:1 | newest 2026-08-16 | VR: - | Destrier Mill and Winery Renewed 188649 1.0 2026-08-16T21-04Z MWx0rv8zb.7z
+#188628 | Grass Optimizations - Community Shaders | VR-lists:0 SE-lists:1 | newest 2026-09-23 | VR: - | Grass Optimizations 188628 1.0.0 2026-09-23T19-13Z 31i7IobhH.zip
+#188543 | Archery Techniques - Multishot Add On | VR-lists:0 SE-lists:1 | newest 2026-08-26 | VR: - | Archery Techniques NG Add On 188543 3.5 2026-08-26T13-09Z N2AYL5I1s.zip
+#188506 | SIGMA - Sword dual wield animations - 1st person | VR-lists:0 SE-lists:1 | newest 2026-08-15 | VR: - | SIGMA-SwordsDW-188506-1-790397-1786817160.7z
+#188483 | Map Menu Extension | VR-lists:0 SE-lists:1 | newest 2026-08-16 | VR: - | Map Menu Extension-188483-1-790945-1786910160.zip
+#188168 | Miscellaneous Plus Plus | VR-lists:0 SE-lists:1 | newest 2026-08-29 | VR: - | Miscellaneous Plus Plus FOMOD-188168-1-06-796981-1788009060.zip
+#187914 | Interior DALC Fix | VR-lists:0 SE-lists:1 | newest 2026-08-09 | VR: - | Interior DALC Fix 187914 1.0.0 2026-08-09T23-36Z bqv3tSQBw.zip
+#187790 | Ancient AF Windhelm - Remastered | VR-lists:0 SE-lists:1 | newest 2026-08-15 | VR: - | Ancient AF Windhelm Remastered 187790 3 2026-08-15T20-32Z 587RqTw1j.7z
+#187730 | Dynamic Wind - Fabled Forests Patch | VR-lists:0 SE-lists:1 | newest 2026-08-08 | VR: - | Dynamic Wind Fabled Forests Patch 187730 1.0 2026-08-08T08-51Z Ks18n0Bdq.rar
+#187672 | The Tools of Kagrenac - Unoffical Patch | VR-lists:0 SE-lists:1 | newest 2026-08-11 | VR: - | The Tools of Kagrenac - Unofficial Patch-187672-1-1-788397-1786441020.zip
+#187503 | Bogmort - Mud Monsters of Morthal Swamp - Tweaks and Fixes | VR-lists:0 SE-lists:1 | newest 2026-08-06 | VR: - | Bogmort Tweaks And Fixes 187503 1 2026-08-06T03-53Z 4t2yDcZIZ.zip
+#187476 | Skyrim Cave Fixes | VR-lists:0 SE-lists:1 | newest 2026-09-05 | VR: - | Skyrim Cave Fixes 187476 1.0.4 2026-09-04T20-02Z XnIqaCsHf.zip
+#187452 | Map Menu Clouds Fix | VR-lists:0 SE-lists:1 | newest 2026-08-11 | VR: - | Map Menu Clouds Fix 187452 1.1 2026-08-11T12-44Z uhRBKsvSi.zip
+#187403 | Halls of Order | VR-lists:0 SE-lists:1 | newest 2026-09-04 | VR: - | Halls Of Order 187403 1.1.4 2026-09-04T19-03Z FpnkHZYfM.7z
+#187138 | EasyNPC Next | VR-lists:0 SE-lists:1 | newest 2026-08-18 | VR: - | EasyNPC Next - Post-Build Verify 187138 1.0.0.0 2026-08-18T09-46Z 31i7Io6G1.7z
+#187100 | Tavern Servers Walk Not Run | VR-lists:0 SE-lists:1 | newest 2026-08-17 | VR: - | TavernServersWalkNotRun 187100 1.1.0 2026-08-17T23-07Z Sx9oEw76G.zip
+#186978 | Ancient Hoplite Kopis | VR-lists:0 SE-lists:1 | newest 2026-07-31 | VR: - | Ancient Hoplite Kopis 186978 1 2026-07-31T13-52Z kATsMWEr3.zip
+#186575 | NAT Effect 11 | VR-lists:0 SE-lists:1 | newest 2026-08-22 | VR: - | NAT Effect 11 Plugins 186575 1.0.2 2026-08-22T23-14Z yIjvuhTPo.zip
+#186475 | A Dragonknight's Tale | VR-lists:0 SE-lists:1 | newest 2026-08-17 | VR: - | A Dragonknight'S Tale 186475 1.57 2026-08-17T14-20Z vlGiB94e0.zip
+#186443 | CC Backpacks for Bandits | VR-lists:0 SE-lists:1 | newest 2026-08-14 | VR: - | CC Backpacks For Bandits 186443 1.1 2026-08-14T01-19Z JrECN2qSZ.zip
+#186432 | Native Mesh Light Flicker Fix | VR-lists:0 SE-lists:1 | newest 2026-08-13 | VR: - | Native Mesh Light Flicker Fix-186432-1-6-789402-1786635300.zip
+#186413 | Equip Camera Behavior Fixes | VR-lists:0 SE-lists:1 | newest 2026-07-31 | VR: - | Equip Camera Behavior Fixes V2 186413 2 2026-07-31T00-03Z bqv3tS5Dz.zip
+#186404 | Rain Splashes SKSE | VR-lists:0 SE-lists:1 | newest 2026-07-25 | VR: - | Rain Splashes SKSE 186404 1.1.0 2026-07-25T18-19Z zYsEpQrIv.zip
+#186340 | ElSopa - Sacks Redone | VR-lists:0 SE-lists:1 | newest 2026-07-24 | VR: - | ElSopa Sacks Redone 2k 186340 1 2026-07-24T20-50Z 8gJHT4fBJ.7z
+#186165 | DMCO 1st Person Dodge | VR-lists:0 SE-lists:1 | newest 2026-09-06 | VR: - | DMCO 1st Person Dodge 186165 3.3 2026-09-06T04-25Z cE8hkAoUf.zip
+#185892 | Sundered Seasons - Sunder and Wraithguard (and Forgotten Seasons) Reintegration | VR-lists:0 SE-lists:1 | newest 2026-07-20 | VR: - | Sundered Seasons - Engine Fixes Cell Settings 185892 1.0.0 2026-07-20T18-30Z OyYrPubzf.zip
+#185557 | Wait Your Turn Redux - Enemy Circling Behavior | VR-lists:0 SE-lists:1 | newest 2026-09-06 | VR: - | Wait Your Turn Redux-185557-v1-1-0-801047-1788656700.zip
+#185531 | Devotion - An Immersive Religion Mod | VR-lists:0 SE-lists:1 | newest 2026-08-17 | VR: - | Devotion 1.5.0e 185531 1.5.0e 2026-08-17T23-36Z 6Xybdapcl.zip
+#185515 | Bard's Little Touches - Dawnstar Whalebone Arch | VR-lists:0 SE-lists:1 | newest 2026-07-16 | VR: - | BLT - Dawnstar Whalebone Arch 185515 1 2026-07-16T04-45Z n0oTCmQpX.zip
+#185317 | Skyrim Auto Casting - Click-Casting | VR-lists:0 SE-lists:1 | newest 2026-07-17 | VR: - | Skyrim Auto Casting - Click-Casting 185317 1.2 2026-07-17T18-48Z 8gJHT4w5i.zip
+#185158 | Companions' Path | VR-lists:0 SE-lists:1 | newest 2026-07-22 | VR: - | CompanionsPath 185158 6 2026-07-22T10-14Z tSBIcEnUN.zip
+#184938 | Handy Perk Points | VR-lists:0 SE-lists:1 | newest 2026-07-10 | VR: - | Handy Perk Points-184938-0-0-1-774042-1783692600.7z
+#184887 | Sensible General Merchants | VR-lists:0 SE-lists:1 | newest 2026-07-11 | VR: - | Sensible General Merchants 184887 1.0.0 2026-07-11T04-19Z hfH9s6vhc.7z
+#184763 | ISL DESTified - ENHANCED SCRIPT - FIX | VR-lists:0 SE-lists:1 | newest 2026-07-08 | VR: - | ISL Patch 184763 1 2026-07-08T18-36Z Ae46W7hYY.7z
+#184628 | Frostwalker - SKSE Plugin | VR-lists:0 SE-lists:1 | newest 2026-09-23 | VR: - | Frostwalker 184628 2.2 2026-09-23T10-05Z aChSzY7F4.7z
+#184589 | Douse - Water Kills Fire Creatures - SKSE Plugin | VR-lists:0 SE-lists:1 | newest 2026-09-23 | VR: - | Douse 184589 2.2 2026-09-23T11-48Z Ae46W7pCv.7z
+#184367 | Particle Limit Uncapper | VR-lists:0 SE-lists:1 | newest 2026-07-07 | VR: - | Particle Limit Uncapper 184367 2 2026-07-07T17-13Z RHaV1OwzR.zip
+#184257 | Skyrim Water Inertia | VR-lists:0 SE-lists:1 | newest 2026-09-05 | VR: - | Skyrim Water Inertia 1.4.1 184257 1.4.1 2026-09-05T22-54Z n0oTCmgJI.zip
+#184191 | Imperial Kit Tweaks | VR-lists:0 SE-lists:1 | newest 2026-07-02 | VR: - | Imperial Kit Tweaks 184191 1.01 2026-07-02T20-25Z oPpNfU7zJ.zip
+#184110 | Variadic Collision Dynamics - Resources | VR-lists:0 SE-lists:1 | newest 2026-08-29 | VR: - | Variadic Collision Dynamics - Resources 184110 1.0.11 2026-08-29T10-20Z JrECN2WCV.7z
+#183969 | Simple Wheeler Menu - dMenu Port | VR-lists:0 SE-lists:1 | newest 2026-07-05 | VR: - | Simple Wheeler Menu DMenu Port 183969 1.0.2 2026-07-05T12-31Z 587RqTY7j.7z
+#183892 | Variadic Collision Dynamics | VR-lists:0 SE-lists:1 | newest 2026-09-19 | VR: - | Variadic Collision Dynamics 183892 1.3.5 2026-09-19T22-08Z EwgfAezjB.7z
+#183879 | Character Menu - Untarnished UI Reskin | VR-lists:0 SE-lists:1 | newest 2026-08-21 | VR: - | Character Menu SE - Untarnished - Simonrim Patches 183879 3.0.0 2026-08-21T11-05Z MWx0rv8V
+#183586 | Fast Travel Faster on Horseback | VR-lists:0 SE-lists:1 | newest  | VR: - | Fast_Travel_Faster_On_Horseback_1_4t2yDcgjx.7z
+#183499 | The Winds of Fate | VR-lists:0 SE-lists:1 | newest  | VR: - | The_Winds_Of_Fate_1.0.1_L5WQbqNCU.7z
+#183459 | Sa'chil - Bug Fixes | VR-lists:0 SE-lists:1 | newest  | VR: - | Sa'Chil Bug Fixes 183459 1.1 uhRBKsyoh.zip
+#183441 | Pick Up Radius SKSE | VR-lists:0 SE-lists:1 | newest  | VR: - | Pick_Up_Radius_1.6_JrECN2VMQ.zip
+#183368 | Dynamic Block Hit Rebalanced | VR-lists:0 SE-lists:1 | newest 2026-07-01 | VR: - | Dynamic Block Hit Rebalanced 183368 1.1 2026-07-01T10-14Z 2Bej58rPK.rar
+#183061 | Kachunk Reloaded - Crossbow Distribution | VR-lists:0 SE-lists:1 | newest 2026-08-12 | VR: - | Kachunk Reloaded - Crossbow Distribution 183061 2.0.0 2026-08-12T05-22Z izKcFptCO.7z
+#182863 | Yorgrim Hall - A Dwemer Home | VR-lists:0 SE-lists:1 | newest 2026-07-09 | VR: - | Yorgrim Hall - More Carriages - Granite Hill 182863 1.0.0 2026-07-09T01-58Z Ae46W7hh5.7z
+#182838 | Vaelyra the Veiled | VR-lists:0 SE-lists:1 | newest  | VR: - | Vaelyra The Veiled Standalone 182838 1.2 Dc5uGkOuq.zip
+#182733 | 4thUnknown Spider SE - Unique Spider Matriarchs | VR-lists:0 SE-lists:1 | newest  | VR: - | 4th Unknown Spiders SE - Unique Spider Matriarchs.7z
+#182638 | Spider SE | VR-lists:0 SE-lists:1 | newest  | VR: - | Medium.7z
+#182537 | Selling of Stacks or Singles | VR-lists:0 SE-lists:1 | newest  | VR: - | Selling of Stacks or Singles for Skyrim 1.6-182537-1-0-6-0-774261.7z
+#182536 | Racemenu Enhancer | VR-lists:0 SE-lists:1 | newest 2026-07-21 | VR: - | Racemenu Enhancer for Skyrim 1.6-182536-2-0-2-779319-1784618340.7z
+#182349 | Immersive Ancient Potions | VR-lists:0 SE-lists:1 | newest  | VR: - | Immersive Ancient Potions-182349-1-0-0-0-762625.7z
+#182338 | SIGMA - Stances Distributed | VR-lists:0 SE-lists:1 | newest  | VR: - | SIGMA - Stances Distributed-182338-f1-01-762594.zip
+#182185 | Static Skill Leveling Rewritten - Enhanced Script (FIX) | VR-lists:0 SE-lists:1 | newest 2026-06-10 | VR: - | SSLR - Enhanced SCRIPT Skill Distribution-182185-1-1781103445.7z
+#182117 | dunDustmansCairnEndController MicroOptimization | VR-lists:0 SE-lists:1 | newest 2026-06-09 | VR: - | dunDustmansCairnEndController MicroOptimization-182117-1-0-1-1781031945.zip
+#181864 | AEGIS - Anniversary Edition General Integration System | VR-lists:0 SE-lists:1 | newest 2026-08-12 | VR: - | AEGIS 181864 1.2.1 2026-08-12T14-43Z vlGiB9dyz.zip
+#181757 | Atronach Friendly Fire SKSE | VR-lists:0 SE-lists:1 | newest 2026-06-06 | VR: - | Atronach Friendly Fire SKSE-181757-1-1780729670.zip
+#181603 | Fuzz's Legally Intelligible Core Kit | VR-lists:0 SE-lists:1 | newest 2026-07-21 | VR: - | FLICK NG-181603-1-3-0-779322-1784618580.7z
+#181585 | Folgunthur - Portcullis Icy Chain Event | VR-lists:0 SE-lists:1 | newest 2026-06-05 | VR: - | Folgunthur - Portcullis Icy Chain Event-181585-1-0-3-1780652607.zip
+#181532 | Sev's Bug Fixes - Caves of Morrowind | VR-lists:0 SE-lists:1 | newest 2026-06-03 | VR: - | Sev's Bug Fixes - Caves of Morrowind-181532-1-1-1780506790.zip
+#181239 | Timed Block-Dodge and Counter | VR-lists:0 SE-lists:1 | newest 2026-06-23 | VR: - | Timed Block Dodge And Counter 181239 1.6 2026-06-23T16-13Z 8gJHT4BVF.rar
+#181212 | Tears of Kyne - Water Need Mod | VR-lists:0 SE-lists:1 | newest 2026-08-17 | VR: - | Tears Of Kyne 181212 2.5 2026-08-12T23-47Z 587RqTjky.7z
+#181084 | Chocolate Poise - Blessed Settings | VR-lists:0 SE-lists:1 | newest 2026-08-30 | VR: - | Chocolate Poise - Reforged 181084 3.32 2026-08-30T04-47Z gbrZ4t517.rar
+#181022 | Sprint Swim Redux All Bugs Fixed | VR-lists:0 SE-lists:1 | newest 2026-06-07 | VR: - | SprintSwimFixes-181022-1-4-1780802736.zip
+#181002 | Item Preview Auto Spinning | VR-lists:0 SE-lists:1 | newest 2026-06-01 | VR: - | Item Preview Auto Spinning-181002-0-1-7-1780290103.zip
+#180914 | Windhelm Is Snowy - FYX - Windhelm Graveyard and Spaghetti Cities Patch | VR-lists:0 SE-lists:1 | newest 2026-05-25 | VR: - | Windhelm Is Snowy - FYX WG - Spaghetti Patch-180914-1-1779722247.zip
+#180865 | Stress and Fear - Tweaked | VR-lists:0 SE-lists:1 | newest 2026-09-01 | VR: - | Stress And Fear   Tweaks-180865-3-3-798866-1788299040.7z
+#180711 | Cathedral Mountain Flowers - Ingredient Inventory Fix | VR-lists:0 SE-lists:1 | newest 2026-05-31 | VR: - | Cathedral Mountain Flowers Ingredient Fix-180711-0-2-1-1780209873.7z
+#180603 | First-person Immersive Interactions | VR-lists:0 SE-lists:1 | newest 2026-05-21 | VR: - | First Person Immersive Interactions-180603-1-0-1779355340.zip
+#180584 | Bleakfalls Barrow spider trap Fix - BOS Patch | VR-lists:0 SE-lists:1 | newest 2026-05-20 | VR: - | Blkfallsbarrow Spider Trap Fix-180584-1-1779316405.zip
+#180382 | Crossbow Reload Speed Perk Fix | VR-lists:0 SE-lists:1 | newest 2026-05-18 | VR: - | Crossbow Reload Speed Perk Fix-180382-1-1779131442.7z
+#180100 | Undodgeable Hits | VR-lists:0 SE-lists:1 | newest 2026-05-29 | VR: - | Undodgeable Hits-180100-1-0-0-1780095394.zip
+#180080 | All Bandits Wear Helmets | VR-lists:0 SE-lists:1 | newest 2026-05-15 | VR: - | K2BanditHelmetsFix-180080-1-1778835009.zip
+#180059 | How many days passed - HMDP | VR-lists:0 SE-lists:1 | newest 2026-05-25 | VR: - | How many days passed-180059-1-0-0-1779719810.zip
+#179931 | Unique Border Gates Fixes - CoMAP Patch | VR-lists:0 SE-lists:1 | newest 2026-05-13 | VR: - | Unique Border Gates Fixes   CoMAP Patch-179931-1-1778705128.zip
+#179853 | The Younglings - High Poly - RS Children | VR-lists:0 SE-lists:1 | newest 2026-09-01 | VR: - | The Younglings - Patches-179853-2-11-796678-1787956440.7z
+#179716 | First-Person Boxing Animation | VR-lists:0 SE-lists:1 | newest 2026-05-11 | VR: - | First Person Boxing Animation-179716-1-0-1778482937.zip
+#179709 | Sailor's Repose Reworked | VR-lists:0 SE-lists:1 | newest 2026-05-11 | VR: - | SailorsReposeRegen-179709-1-1778469933.zip
+#179677 | True Daughters of Skyrim - Refined | VR-lists:0 SE-lists:1 | newest 2026-05-10 | VR: - | True Daughters Of Skyrim Refined-179677-1-0-0-1778432443.7z
+#179612 | Modern Vanilla Combat (MVC) - A BFCO Animation Set | VR-lists:0 SE-lists:1 | newest 2026-06-05 | VR: - | Modern Vanilla Combat - MVC-179612-1-0-3-1780628297.zip
+#179568 | A Legacy Of Stone - Nordic Ruin Remesh | VR-lists:0 SE-lists:1 | newest 2026-05-09 | VR: - | Legacy Of Stone 1.0-179568-1-0-1778315500.zip
+#179546 | Khajiit Has Tents - Animated Banner | VR-lists:0 SE-lists:1 | newest 2026-05-11 | VR: - | Khajiit Has Tents   Animated Banner-179546-1-0-0-1778520561.zip
+#179539 | 1st Person Jump Animation Left Hand and Stutter Fixes | VR-lists:0 SE-lists:1 | newest 2026-05-09 | VR: - | First Person Jump Animation Fixes-179539-2-1778344251.zip
+#179439 | JK's Optimised Exteriors - Drunken Huntsman | VR-lists:0 SE-lists:1 | newest 2026-05-07 | VR: - | JK'S Optimised Exteriors   Drunken Huntsman-179439-1-1778156646.rar
+#179420 | Grassreach - A Blackreach Grass Mod | VR-lists:0 SE-lists:1 | newest 2026-05-07 | VR: - | Grassreach - A Blackreach Grass Mod-179420-1-1-1778198372.rar
+#179396 | Arrows Drift From Wind | VR-lists:0 SE-lists:1 | newest 2026-06-01 | VR: - | ArrowDriftFromWind-179396-2-1-1780277267.zip
+#179330 | Fancy Skyfall's Sleeping Tree | VR-lists:0 SE-lists:1 | newest 2026-05-06 | VR: - | Fancy Skyfall's Sleeping Tree-179330-1-1-1778072398.rar
+#179296 | Arctic - Frost Effects Redux - cubemap fix | VR-lists:0 SE-lists:1 | newest 2026-05-05 | VR: - | Arctic Cubemap Fix-179296-1-0-1777972360.zip
+#179266 | Horn of Jurgen Windcaller Tweaks | VR-lists:0 SE-lists:1 | newest 2026-05-09 | VR: - | Horn of Jurgen Windcaller Tweaks-179266-1-0-1778345606.rar
+#179258 | Lux Via - Whiterun Dragon patch | VR-lists:0 SE-lists:1 | newest 2026-05-04 | VR: - | Lux Via   Whiterun Dragon Patch-179258-1-1777929376.7z
+#179192 | Glowing Mesh Fix SKSE | VR-lists:0 SE-lists:1 | newest 2026-05-04 | VR: - | GlowingMeshFixSKSE V1.0.0-179192-1-0-0-1777895665.zip
+#179174 | Smooth Scrolling for Many SkyUI | VR-lists:0 SE-lists:1 | newest 2026-05-18 | VR: - | Smooth Scrolling for SkyUI-179174-1-3-1-1779084687.7z
+#179159 | Reactive Arsenal | VR-lists:0 SE-lists:1 | newest 2026-05-05 | VR: - | Reactive Arsenal-179159-1-1-1777994620.zip
+#179154 | Chattier Hunters and Fishermen | VR-lists:0 SE-lists:1 | newest 2026-05-03 | VR: - | Chattier Hunters And Fishermen-179154-1-0-1777847567.7z
+#179139 | Pinepeak Crypt | VR-lists:0 SE-lists:1 | newest 2026-08-17 | VR: - | Pinepeak Crypt 179139 1.1.1 2026-08-17T19-39Z L5WQbqEST.zip
+#178989 | The Truman Show-Case (SKSE mods and more) | VR-lists:0 SE-lists:1 | newest 2026-09-12 | VR: - | Cathedral Landscapes Distant Grass Render Fix-178989-2-1780067171.zip
+#178977 | Just Ivy ReachMountainMossCover Fern | VR-lists:0 SE-lists:1 | newest 2026-05-04 | VR: - | Just Ivy ReachMountainMossCover Fern-178977-1-01-1777901459.rar
+#178947 | Dynamic Spell Cards - SKSE | VR-lists:0 SE-lists:1 | newest 2026-05-01 | VR: - | Dynamic Spell Cards-178947-1-0-0-1777665002.zip
+#178940 | M.I.N.T. - Mint-Issued National Tenders | VR-lists:0 SE-lists:1 | newest 2026-05-27 | VR: - | M.I.N.T.-178940-1-0-6-1779843603.zip
+#178881 | Whiterun Simple 3D Wooden Trellis (Tree Circle - Dragonsreach - Temple of Kynareth - Skaal Village) | VR-lists:0 SE-lists:1 | newest 2026-05-14 | VR: - | Whiterun Simple 3D Wooden Trellis - AIO-178881-1-1778788988.rar
+#178880 | REBEL NORTH - Immersive Dialogue Expansion - Stormcloaks | VR-lists:0 SE-lists:1 | newest 2026-05-19 | VR: - | IDE Stormcloaks-178880-3-0-1-1779170522.zip
+#178786 | Seasons of Skyrim - Unfrozen Extender - SKSE Plugin | VR-lists:0 SE-lists:1 | newest 2026-05-12 | VR: - | Seasons of Skyrim - Unfrozen Extender - CS-178786-1-1-1778579001.7z
+#178532 | NPC Senses | VR-lists:0 SE-lists:1 | newest 2026-04-29 | VR: - | NPC Senses-178532-1-0-0-1777483841.zip
+#178518 | Hvislharan - TGC of Dawnstar ZX Patch | VR-lists:0 SE-lists:1 | newest 2026-04-26 | VR: - | Hvislharan   TGC Of Dawnstar Patch-178518-1-1777223447.zip
+#178379 | Serana No Hood After Cure | VR-lists:0 SE-lists:1 | newest 2026-04-29 | VR: - | Serana No Hood After Cure-178379-0-2-1777450796.7z
+#178084 | Unofficial Legacy of the Dragonborn (LOTD) - Alternative Building Requirements | VR-lists:0 SE-lists:1 | newest 2026-04-22 | VR: - | Unofficial LOTD - Alt Building Reqs - FOMOD-178084-1-0-1-1776889110.7z
+#177953 | dominicgraham1994's dark brotherhood door complex material thing | VR-lists:0 SE-lists:1 | newest  | VR: - | black door-177953-1-1-0-0-772791.7z
+#177676 | First-Person Falling Animation | VR-lists:0 SE-lists:1 | newest 2026-04-18 | VR: - | First-Person Falling Animation-177676-1-0-1776496706.zip
+#177592 | Witness Indicator | VR-lists:0 SE-lists:1 | newest 2026-04-17 | VR: - | Witness Indicator-177592-1-0-0-1776396703.zip
+#177327 | New Dragon Word Wall SFW | VR-lists:0 SE-lists:1 | newest 2026-04-14 | VR: - | 2-4k. New Dragon Word Wall SFW-177327-1-0-1776152273.rar
+#177236 | Dynamic Looting and Harvesting - Fixed Wardrobe and Bookcase Animations | VR-lists:0 SE-lists:1 | newest 2026-04-12 | VR: - | Dynamic Looting And Harvesting - Wardrobe Tweaks-177236-1-1776034246.zip
+#177219 | ICFur's Dead Vines | VR-lists:0 SE-lists:1 | newest 2026-04-12 | VR: - | ICFurs Dead Vines-177219-1-01-1776019017.7z
+#177167 | K.C.C.E Enhanced Khajiit Patch | VR-lists:0 SE-lists:1 | newest 2026-04-12 | VR: - | Enhanced Khajiit KCCE Patch-177167-1-1775982118.7z
+#176939 | Modlist Startup Helper Utility | VR-lists:0 SE-lists:1 | newest 2026-04-12 | VR: - | Modlist Startup Helper - Alternate Perspective-176939-1-0-1-1776021306.7z
+#176938 | Better Staff Enchanter - Praedys's Meshes | VR-lists:0 SE-lists:1 | newest 2026-05-10 | VR: - | Overhauled Sorcerer Meshes - for Praedy's Meshes-176938-4-1-1-1778422979.zip
+#176925 | Mystical Canticle Tree | VR-lists:0 SE-lists:1 | newest 2026-04-09 | VR: - | Mystical Canticle Tree Replacer-176925-1-1775749767.7z
+#176900 | Rihad Swordswman Set - 3BA - HIMBO | VR-lists:0 SE-lists:1 | newest 2026-04-09 | VR: - | Rihad Swordsman Set - 3BA-176900-1-0-1775714635.rar
+#176881 | Sun of Survival | VR-lists:0 SE-lists:1 | newest 2026-04-08 | VR: - | Sun of Survival-176881-1-1775686471.zip
+#176793 | Women of Skyrim Refined - Missing NPCs | VR-lists:0 SE-lists:1 | newest 2026-05-10 | VR: - | Missing NPCs-176793-2-2-1778375221.7z
+#176771 | Fixed Riften Leaf Litter | VR-lists:0 SE-lists:1 | newest 2026-04-08 | VR: - | Fixed Riften Leaf Litter-176771-v3-0-1775677091.zip
+#176644 | FYX - Riekling Painting Decals | VR-lists:0 SE-lists:1 | newest 2026-04-07 | VR: - | FYX - B - Riekling Painting Decals-176644-1-1-1775537239.7z
+#176536 | Dwemer Ruins Overhaul - Exterior | VR-lists:0 SE-lists:1 | newest 2026-04-08 | VR: - | Dwemer Ruins Overhaul - ESP-176536-1-6-1775679061.zip
+#176481 | Enhanced Khajiit CBBE Himbo | VR-lists:0 SE-lists:1 | newest 2026-05-15 | VR: - | Enhanced Khajiit V1.03-176481-V1-03-1778855002.zip
+#176434 | Pig Iron Set - 3BA - HIMBO | VR-lists:0 SE-lists:1 | newest 2026-04-04 | VR: - | Pig Iron Set - 3BA-176434-1-0-1775277265.rar
+#176345 | Remiel - Cleaned Audio | VR-lists:0 SE-lists:1 | newest 2026-04-03 | VR: - | Remiel - Cleaned Audio-176345-1-1-1775184105.zip
+#176307 | Immersive Sounds - Compendium - Fixes | VR-lists:0 SE-lists:1 | newest 2026-04-02 | VR: - | Immersive Sounds - Compendium - Fixes-176307-1-0-0-1775143185.zip
+#176233 | RaySense - Edge Lookdown - 1st | VR-lists:0 SE-lists:1 | newest 2026-04-01 | VR: - | RaySense - Edge Lookdown - 1st-176233-1-0-1775053815.zip
+#175935 | Dynamic Interior Fog | VR-lists:0 SE-lists:1 | newest 2026-04-17 | VR: - | Dynamic Interior Fog 0.0.6-175935-0-0-6-1776448347.zip
+#175871 | Wintersun Nordic Addon | VR-lists:0 SE-lists:1 | newest 2026-07-24 | VR: - | Wintersun - Nordic Addon-175871-2-0-1-780797-1784925240.7z
+#175848 | Notify Events | VR-lists:0 SE-lists:1 | newest 2026-03-28 | VR: - | Notify Events-175848-1-0-0-1774714588.zip
+#175676 | Threads of the North | VR-lists:0 SE-lists:1 | newest  | VR: - | Threads of the North-SkyrimSE-175676-1-0-6-0-765095.7z
+#175580 | Fuse00 - Thalmor Investigator 3BA UBE SMP | VR-lists:0 SE-lists:1 | newest 2026-03-25 | VR: - | Thalmor Investigator 3BA-175580-1-1-1774459591.7z
+#175531 | Faster File Copy | VR-lists:0 SE-lists:1 | newest 2026-04-18 | VR: - | Faster File Copy-175531-1-6-1776514545.zip
+#175518 | Boar Sound Fix | VR-lists:0 SE-lists:1 | newest 2026-03-24 | VR: - | Boar Sound Fix-175518-1-1774381017.rar
+#175511 | Beam Walking Assist | VR-lists:0 SE-lists:1 | newest 2026-04-16 | VR: - | Beam Walking Assist-175511-1-3-1776342987.zip
+#175506 | RaySense - Jumping over obstacles | VR-lists:0 SE-lists:1 | newest 2026-03-24 | VR: - | RaySense - Jumping Over Obstacles-175506-1-0-1774374499.zip
+#175499 | Beam Walking Assist - 1st | VR-lists:0 SE-lists:1 | newest 2026-03-24 | VR: - | Beam Walking Assist - 1st-175499-1-0-1774367337.zip
+#175460 | Solitude - Square of Akatosh | VR-lists:0 SE-lists:1 | newest 2026-05-08 | VR: - | Solitude - Square of Akatosh - GS Patch-175460-2-5-1778280835.zip
+#175451 | Particle Wind - Footprints - floating lumps of snow fix | VR-lists:0 SE-lists:1 | newest 2026-03-23 | VR: - | Floating Lumps Fix-175451-1-0-1774307650.rar
+#175362 | Dyn FNIS AA functions | VR-lists:0 SE-lists:1 | newest 2026-04-02 | VR: - | Dyn FNIS AA functions-175362-3-0-0-1775134958.zip
+#175346 | JK's Radiant Raiment - Some Elven Decor Addon | VR-lists:0 SE-lists:1 | newest 2026-03-22 | VR: - | JK's Radiant Raiment - More Elven Decor Addon-175346-1-0-1774223504.7z
+#175326 | Foxes of Skyrim - CS ENB parallax Fur | VR-lists:0 SE-lists:1 | newest 2026-03-29 | VR: - | Foxes of Skyrim - Parallax Fur-175326-1-2-1774786870.zip
+#175182 | Skyrim Vanity System | VR-lists:0 SE-lists:1 | newest 2026-04-28 | VR: - | Skyrim Vanity System-175182-v1-4-10-1777394364.zip
+#175161 | Draugr - MCO | VR-lists:0 SE-lists:1 | newest 2026-03-20 | VR: - | Draugr - MCO-175161-1-4-0-1774031698.zip
+#175129 | Dodge - MCO (DMCO) | VR-lists:0 SE-lists:1 | newest 2026-03-20 | VR: - | Dodge - MCO-175129-2-1-21-1774004233.zip
+#175120 | Screen Blood Enhanced | VR-lists:0 SE-lists:1 | newest 2026-03-28 | VR: - | Screen Blood Enhanced-175120-1-0-1-1774731165.zip
+#175115 | Splash Screen NG | VR-lists:0 SE-lists:1 | newest 2026-03-23 | VR: - | SplashScreenNG-175115-0-2-1774279963.zip
+#174995 | Depths of Skyrim - Mesh fixes | VR-lists:0 SE-lists:1 | newest 2026-03-19 | VR: - | Depths of Skyrim - Mesh Fixes-174995-v1-0-0-1773893039.7z
+#174974 | Picta - ENB Game Tweaks | VR-lists:0 SE-lists:1 | newest 2026-03-18 | VR: - | Picta - ENB Game Tweaks-174974-1-0-0-1773834239.zip
+#174907 | Patchwork Emporium | VR-lists:0 SE-lists:1 | newest 2026-03-17 | VR: - | Dark Brotherhood Door Fix-174907-1-0-0-1773723365.7z
+#174815 | Immersive Spell Learning - DESTified Study Icon | VR-lists:0 SE-lists:1 | newest 2026-03-15 | VR: - | Immersive Spell Learning - DESTified Study Icon-174815-1-0-1773610925.zip
+#174813 | Modex Lite - SKSE Menu Framework Addon | VR-lists:0 SE-lists:1 | newest 2026-03-22 | VR: - | Modex Lite - SKSE Menu Framework Addon - v1.0.2-174813-v1-0-2-1774177179.zip
+#174783 | RELight - Official Light Addon | VR-lists:0 SE-lists:1 | newest 2026-09-13 | VR: - | RELight Official Light Addon - Alternate 174783 4.4 2026-09-13T23-34Z FpnkHZhea.zip
+#174712 | VIGILANT - CoMAP Addon | VR-lists:0 SE-lists:1 | newest 2026-03-14 | VR: - | VIGILANT Map Markers-174712-1-0-1773506777.zip
+#174669 | Alchemy Tier - DIII | VR-lists:0 SE-lists:1 | newest 2026-03-16 | VR: - | Alchemy Tier - DIII-174669-1-1-1773679981.7z
+#174651 | Known Spell Tomes Icon | VR-lists:0 SE-lists:1 | newest 2026-03-14 | VR: - | Known Spell Tomes Icon-174651-1-1-1773504208.zip
+#174629 | For Honor for NPC (SCAR) | VR-lists:0 SE-lists:1 | newest 2026-03-13 | VR: - | For Honor in Skyrim for NPCs (SCAR)-174629-0-1-1773422629.rar
+#174608 | Vigilant - Nature of the Wildlands - Gildergreen True End Patch | VR-lists:0 SE-lists:1 | newest 2026-03-13 | VR: - | Vigilant NOTWL TEnd Gildergreen Patch-174608-1-2-1773416394.7z
+#174545 | Input Manager | VR-lists:0 SE-lists:1 | newest 2026-05-23 | VR: - | Input Manager-174545-1-0-4-1779559852.zip
+#174532 | Legendary Map - CoMAP Support and Some Improvements | VR-lists:0 SE-lists:1 | newest 2026-09-01 | VR: - | Legendary Map - CoMAP Support and Some Improvement-174532-2-1-798486-1788241440.zip
+#174268 | A Minotaur in Hakkvild's High Hall - An Addon for CotN Falkreath | VR-lists:0 SE-lists:1 | newest 2026-03-10 | VR: - | A Minotaur in Hakkvild's High Hall -CotN Falkreath-174268-1-0-1773179957.7z
+#174178 | Project Polygon - Vanilla Plus Mesh Improvements | VR-lists:0 SE-lists:1 | newest 2026-03-31 | VR: - | Project Polygon - Fuzz Cut-174178-1-0-1773205470.zip
+#174139 | Dynamic Relaxed sneak OAR | VR-lists:0 SE-lists:1 | newest 2026-03-09 | VR: - | Dynamic Relaxed sneak OAR-174139-1-00-1773056302.rar
+#174120 | For Honor Stamina System | VR-lists:0 SE-lists:1 | newest 2026-09-10 | VR: - | For Honor Stamina System 174120 3.42 2026-09-10T13-24Z Ae46W7UBN.rar
+#174085 | New Skill Menu - NSM | VR-lists:0 SE-lists:1 | newest 2026-04-29 | VR: - | 1_New Skill Menu-174085-1-3-2-1777495999.zip
+#174078 |  | VR-lists:0 SE-lists:1 | newest 2026-09-26 | VR: - | Morning Star - DynDOLOD Ouput 174078 1.0.0 2026-09-26T16-13Z CmfxYjJ1l.7z
+#174018 | Wait Carriage in Inns Anywhere | VR-lists:0 SE-lists:1 | newest 2026-03-05 | VR: - | Wait Carriage in Inns Anywhere-174018-1-0-1772750742.7z
+#174007 | Diagonal Sprint - First Person Free Sprint | VR-lists:0 SE-lists:1 | newest 2026-03-23 | VR: - | Diagonal Sprint-174007-1-0-4-1774275951.zip
+#173987 | Magic Organizer SKSE - Hide Spells Powers Active Effects | VR-lists:0 SE-lists:1 | newest 2026-03-29 | VR: - | Magic Organizer-173987-1-2-1774789990.zip
+#173855 | Fast Travel Crash Fix - Another way | VR-lists:0 SE-lists:1 | newest 2026-03-03 | VR: - | Fast Travel Crash Fix - Another way-173855-1-0-1772534530.rar
+#173796 | Buy Displayed Items NG | VR-lists:0 SE-lists:1 | newest 2026-04-10 | VR: - | Buy Displayed Items NG Cell Scan Edition-173796-1-8-1775857638.zip
+#173566 | Black Market - Duration Extended | VR-lists:0 SE-lists:1 | newest 2026-02-27 | VR: - | Black Market Duration Extended-173566-1-0-0-1772177303.zip
+#173224 | Phostwood's QLP - MO2 Crash Log Quick-Link Plugin | VR-lists:0 SE-lists:1 | newest 2026-02-23 | VR: - | MO2Plugin-PhostwoodQLP.py-173224-2-0-0-1771821725.7z
+#173157 | Respawn - transform fix - Lorerim | VR-lists:0 SE-lists:1 | newest 2026-02-22 | VR: - | Transform-Respawn patch-173157-2-0-0-1771751253.zip
+#173155 | Honed Metal - Complete Crafting Overhaul Remastered (CCOR) FLM | VR-lists:0 SE-lists:1 | newest 2026-02-28 | VR: - | Honed Metal - CCOR (FLM)-173155-1-01-1772291909.zip
+#173106 | A Potato Plant | VR-lists:0 SE-lists:1 | newest 2026-02-23 | VR: - | A Potato Plant - High Poly Dirtmound-173106-1-1-1771874817.7z
+#173097 | Freak's Floral Fields - Dirtcliffs02 Fix | VR-lists:0 SE-lists:1 | newest 2026-02-21 | VR: - | Freak's Floral Fields - Dirtcliffs02 Fix-173097-1-0-1771698020.rar
+#173058 | Hand to Hand - Skill Book Distribution | VR-lists:0 SE-lists:1 | newest 2026-03-01 | VR: - | Hand to Hand - Skill Book Distribution-173058-1-1-1772391571.zip
+#173039 | Granite Hill - Hvislharan - Iggath by Schlitzohr - Revoiced | VR-lists:0 SE-lists:1 | newest 2026-02-21 | VR: - | Hvislharan Revoiced - Damesch-173039-rev00-1771635364.zip
+#172898 | Requiem - Lockpicking SKSE | VR-lists:0 SE-lists:1 | newest 2026-02-21 | VR: - | Requiem - Lockpicking SKSE-172898-1-0-2-1771705821.7z
+#172831 | Dvs Civil War Fixes | VR-lists:0 SE-lists:1 | newest 2026-02-20 | VR: - | DVs' Civil War fixes-172831-1-2-0-1771620637.zip
+#172824 | SCAR NPC Stamina and Exhaustion System | VR-lists:0 SE-lists:1 | newest 2026-03-07 | VR: - | SCAR NPC Exhaustion System-172824-1-1772875493.rar
+#172780 | Precision - Dac0da lightsabers patch | VR-lists:0 SE-lists:1 | newest 2026-02-17 | VR: - | Precision - Dac0da lightsabers patch-172780-1-0-1771337812.zip
+#172627 | Precision - VAER patch | VR-lists:0 SE-lists:1 | newest 2026-02-15 | VR: - | Precision - VAER patch-172627-1-0-1771184011.zip
+#172599 | Auto Input Switch For Gamepad | VR-lists:0 SE-lists:1 | newest 2026-02-15 | VR: - | AutoInputSwitch For Gamepad-172599-0-1-1771149010.zip
+#172596 | RELICS OF THE TSAESCI | VR-lists:0 SE-lists:1 | newest 2026-02-15 | VR: - | RELICS OF THE TSAESCI-172596-1-1-1771170573.zip
+#172480 | Dynamic Boats at Docks | VR-lists:0 SE-lists:1 | newest 2026-03-06 | VR: - | Dynamic Boats at Docks-172480-1-1-0-1772827060.zip
+#172364 | Saadia to Iman - Dynamic Name Change | VR-lists:0 SE-lists:1 | newest 2026-02-12 | VR: - | Saadia to Iman - FDE Patch-172364-1-0-1770910236.7z
+#172304 | Ash Footsteps Fixed for Skyrim Audio Overhaul | VR-lists:0 SE-lists:1 | newest 2026-02-11 | VR: - | Ash Footsteps Fixed-172304-1-0-0-1770808670.zip
+#172209 | Hit Flash | VR-lists:0 SE-lists:1 | newest 2026-04-05 | VR: - | Hit Flash SE-172209-1-0-6-1775427918.zip
+#172176 | For Honor Reforged | VR-lists:0 SE-lists:1 | newest 2026-03-07 | VR: - | For Honor Reforged-172176-1-31-1772903544.rar
+#172172 | Vigilant SE - TrueHUD Boss Bar | VR-lists:0 SE-lists:1 | newest 2026-04-25 | VR: - | Vigilant SE - TrueHUD Boss Bar-172172-1-8-1b-1777139016.7z
+#172147 | Grand Solitude - About Roggvir... patch | VR-lists:0 SE-lists:1 | newest 2026-02-09 | VR: - | Main File-172147-1-0-0-1770635416.zip
+#172079 | Skyrim's Got Talent - Show in UI (Visual Improvements) | VR-lists:0 SE-lists:1 | newest 2026-02-08 | VR: - | Visual Improvements for SGT - Show in UI-172079-1-0-1770590934.zip
+#172014 | MO2 Hardlink Builder - MO2 Plugin Version | VR-lists:0 SE-lists:1 | newest 2026-03-05 | VR: - | MO2 Hardlink Builder-172014-3-2-0-1772737065.7z
+#171992 | Glorious Doors of Skyrim (GDoS) - Silver-Blood Inn door fix | VR-lists:0 SE-lists:1 | newest 2026-02-07 | VR: - | GDoS - Silver-Blood Inn fix-171992-1-0-1770500799.7z
+#171955 | Waking Nightmare - Alternative Ending | VR-lists:0 SE-lists:1 | newest 2026-02-07 | VR: - | Waking Nightmare - Alternative Ending-171955-1-1-1-1770490197.zip
+#171898 | Block Commitment Overhaul SKSE | VR-lists:0 SE-lists:1 | newest 2026-02-13 | VR: - | Main File-171898-1-0-1771012277.7z
+#171605 | Heljarchen Creek - A Nightgate Inn Overhaul | VR-lists:0 SE-lists:1 | newest 2026-06-03 | VR: - | Heljarchen Creek   PATCH COLLECTION-171605-1-0-5-1780518991.zip
+#171542 | JK's College of Winterhold - Fixes (BOS) | VR-lists:0 SE-lists:1 | newest 2026-02-03 | VR: - | JK's College of Winterhold - Fixes (BOS)-171542-1-1-1770137760.7z
+#171475 | Ultimate MCO and BFCO Attack Speed Fix SKSE | VR-lists:0 SE-lists:1 | newest 2026-02-08 | VR: - | main v1.2-171475-1-2-1770538892.7z
+#171451 | Don't Hate Me - Taking Care of Business | VR-lists:0 SE-lists:1 | newest 2026-02-14 | VR: - | Don't Hate Me-171451-1-1-1771087173.zip
+#171391 | Community Shaders - FWMF Map Brightness Fix | VR-lists:0 SE-lists:1 | newest 2026-02-02 | VR: - | Community Shaders - FWMF Map Brightness Fix-171391-1-1-1770007521.zip
+#171382 | Fura Bloodmouth DF Edit SkyPatched | VR-lists:0 SE-lists:1 | newest 2026-02-01 | VR: - | Fura DF Edit - Static Hair (NO SkyPatcher)-171382-1-0-1769965489.rar
+#171333 | Fur Paint - RaceMenu Overlays for Khajiit - CBBE 3BA | VR-lists:0 SE-lists:1 | newest 2026-09-12 | VR: - | Fur Paint Overlays for Khajiit - 3BA (2k) 171333 1.1 2026-09-12T02-40Z Sx9oEwOyZ.7z
+#171172 | Interesting Roads - Navmesh Free | VR-lists:0 SE-lists:1 | newest 2026-02-01 | VR: - | Interesting Roads - Navmesh Free - FOMOD-171172-1-1-1769962644.zip
+#171129 | Death and Ragdoll Behavior Fix | VR-lists:0 SE-lists:1 | newest 2026-01-29 | VR: - | Death and Ragdoll Behavior Fix-171129-1-01-1769722598.zip
+#171007 | A Sheep for EVERYONE | VR-lists:0 SE-lists:1 | newest 2026-07-27 | VR: - | Cheesemod - A Sheep for EVERYONE 171007 1.2 2026-07-27T17-29Z n0oTCms1I.7z
+#170985 | Higher Poly Amulets (Vanilla - HIMBO) - Optional HDT-SMP | VR-lists:0 SE-lists:1 | newest 2026-02-03 | VR: - | Gold Sapphire Necklace Integration-170985-1-0-0-1769587759.7z
+#170851 | NPCs Know About Mod Towns | VR-lists:0 SE-lists:1 | newest 2026-01-26 | VR: - | NPCs Know About Mod Towns-170851-1-0-1769458728.7z
+#170787 | Requiem - Exhaustion and Stamina Fix | VR-lists:0 SE-lists:1 | newest 2026-01-26 | VR: - | Requiem - Exhaustion and Stamina Fix-170787-1-0-1769390758.7z
+#170781 | Highlight Safe Containers | VR-lists:0 SE-lists:1 | newest 2026-01-25 | VR: - | Highlight Safe Containers-170781-1-0-0-1769380802.zip
+#170709 | Higher Poly Vanilla Leather Strips | VR-lists:0 SE-lists:1 | newest 2026-01-25 | VR: - | Higher Poly Vanilla Leather Strips-170709-1-0-1769335983.rar
+#170708 | Reactable Spellsword Attack | VR-lists:0 SE-lists:1 | newest 2026-01-25 | VR: - | Reactable Spellsword Attack-170708-0-0-1-1769328487.zip
+#170673 | Simpler Knock - Tweaks and Fixes - DAK Patch | VR-lists:0 SE-lists:1 | newest 2026-03-15 | VR: - | Simpler Knock - Tweaks and Fixes - DAK Patch-170673-1-1-1773536043.zip
+#170553 | eFPS - JK's Riverwood | VR-lists:0 SE-lists:1 | newest 2026-01-23 | VR: - | Jk's Riverwood - eFPS Patch-170553-1-0-1769172344.rar
+#170549 | Dynamic Two-Handed | VR-lists:0 SE-lists:1 | newest 2026-01-30 | VR: - | Dynamic Two-Handed-170549-1-0-1-1769783217.zip
+#170332 | Fauxvale's Unsorted Tweaks and Additions (FUTA) | VR-lists:0 SE-lists:1 | newest 2026-01-20 | VR: - | JK's Dragonsreach - Remove Ugly Shadow Banner BOS-170332-1-0-0-1768953363.zip
+#170317 | Dismembering Framework - Static Target Fix | VR-lists:0 SE-lists:1 | newest 2026-01-20 | VR: - | Dismember_TrapFix.7z-170317-1-0-2-1768948560.7z
+#170295 | Firmament and Constellations MCO And SSL Alternatives | VR-lists:0 SE-lists:1 | newest 2026-01-20 | VR: - | Constellations - MCO Perks-170295-1-0-1768918045.zip
+#170280 | GLEN-MORIL - Architecture Clutter Meshes Improvement | VR-lists:0 SE-lists:1 | newest 2026-01-24 | VR: - | GLEN-MORIL - Clutter Fix-170280-1-1768908251.zip
+#170168 | Oddments and Miscellanea - Alternate Glass for Winterhold Bookcase | VR-lists:0 SE-lists:1 | newest 2026-01-19 | VR: - | Oddments and Miscellanea - Alternate Glass-170168-1-1768801085.zip
+#170164 | Evigheden - SerketHetyt's Serana Overhaul | VR-lists:0 SE-lists:1 | newest 2026-02-07 | VR: - | Evigheden - SerketHetyt's Serana Overhaul-170164-1-1-1770491987.rar
+#170101 | ValArt Mountains flowers | VR-lists:0 SE-lists:1 | newest 2026-01-18 | VR: - | ValArt_MountainFlowers_2k-170101-1-1768749931.rar
+#170086 | Whiterun Buildings - Light Leak Mesh Fix | VR-lists:0 SE-lists:1 | newest 2026-01-18 | VR: - | Whiterun Buildings - Light Leak Mesh Fix-170086-1-0-1768741587.zip
+#170043 | The Book of Love - Fastred's Awakening | VR-lists:0 SE-lists:1 | newest 2026-01-19 | VR: - | Fastred's Awakening-170043-1-0-2-1768781156.zip
+#170013 | FHIS Redux | VR-lists:0 SE-lists:1 | newest 2026-02-09 | VR: - | FHIS_Redux-170013-2-0-1770608807.zip
+#170009 | Ophyre's Lakeview Honeyside | VR-lists:0 SE-lists:1 | newest 2026-02-25 | VR: - | 01 Ophyre's Honeyside FOMOD-170009-1-1-0-1772007232.zip
+#169925 | Use Those Basins (Dirt and Blood Add-on) | VR-lists:0 SE-lists:1 | newest 2026-01-17 | VR: - | Use Those Basins-169925-1-01-1768688583.zip
+#169920 | Companions Radiant Expansion | VR-lists:0 SE-lists:1 | newest 2026-06-09 | VR: - | Companions Radiant Expansion - Requiem 1.1-169920-1-1-1781013746.zip
+#169910 | Ysolda DF Edit SkyPatched | VR-lists:0 SE-lists:1 | newest 2026-01-18 | VR: - | Ysolda DF Edit NO SkyPatcher-169910-1-0a-1768735589.rar
+#169824 | OAR integration for Vanilla Sneak animations | VR-lists:0 SE-lists:1 | newest 2026-01-15 | VR: - | OAR integration for Vanilla Sneak animations-169824-1-00-1768495979.rar
+#169780 | Children of the North Wind - Official Patch Collection | VR-lists:0 SE-lists:1 | newest 2026-02-12 | VR: - | Children of the North Wind Official Patch Hub-169780-6-9-1-1770878700.zip
+#169678 | Neloth's Tentacle Spell - Experimental Subject | VR-lists:0 SE-lists:1 | newest 2026-01-14 | VR: - | Neloth's Tentacle Spell - Experimental Subject-169678-0-1-1-1768368831.7z
+#169645 | Stendarr's Wisdom - WeelBones' Carcette Overhaul | VR-lists:0 SE-lists:1 | newest 2026-01-15 | VR: - | Stendarr's Wisdom - WeelBones' Carcette Overhaul-169645-1-0-0-1768494056.rar
+#169541 | Better Shaped Riften Bridges | VR-lists:0 SE-lists:1 | newest 2026-01-12 | VR: - | Riften -  Better Shaped Bridges-169541-1-0-1768222353.zip
+#169526 | Loading Screen Locker | VR-lists:0 SE-lists:1 | newest 2026-01-12 | VR: - | Loading Screen Locker-169526-1-0-1768204119.7z
+#169481 | Static Skill Leveling for Firmament | VR-lists:0 SE-lists:1 | newest 2026-01-13 | VR: - | Static Skill Leveling for Firmament-169481-1-3-1768282295.7z
+#169419 | Medieval Markets - Snowy Rugs Fix | VR-lists:0 SE-lists:1 | newest 2026-01-11 | VR: - | Medieval Markets - Snowy Rug Fix-169419-1-1768109135.7z
+#169415 | Wyrmstooth - Unqiue Items Simonrim Patch | VR-lists:0 SE-lists:1 | newest 2026-01-11 | VR: - | Wyrmstooth - Unique Item Simonrim Patch-169415-1-0-1-1768111120.7z
+#169356 | SC Horses - Glowing Horse Fix | VR-lists:0 SE-lists:1 | newest 2026-01-10 | VR: - | SC Horses - Glowing Horse Fix-169356-0-1-1768061315.7z
+#169355 | Unblockable Hits | VR-lists:0 SE-lists:1 | newest 2026-05-29 | VR: - | Unblockable Hits-169355-1-3-0-1780098601.zip
+#169354 | Dtry Key Util Stuck Keys fix | VR-lists:0 SE-lists:1 | newest 2026-01-11 | VR: - | KeyTrace Fix-169354-1-3-1768116828.rar
+#169287 | Saadia DF Edit | VR-lists:0 SE-lists:1 | newest 2026-01-10 | VR: - | Saadia DF Edit - NO SkyPatcher-169287-1-0a-1768075984.rar
+#169082 | Voices Beyond Reach - Audio Repair Project | VR-lists:0 SE-lists:1 | newest 2026-07-23 | VR: - | Beyond Reach   Audio Repair Project-169082-1-3-780308-1784826480.zip
+#169034 | Dawnguard Robes | VR-lists:0 SE-lists:1 | newest 2026-01-07 | VR: - | CBBE 3BA BodySlide Files-169034-1-0-1767773584.7z
+#169028 | Predator Vision - Delay Those Scripts | VR-lists:0 SE-lists:1 | newest 2026-01-13 | VR: - | Predator Vision - Delayed Scripts-169028-v1-000001-1768278128.7z
+#168926 | Regeneration Overhaul - SKSE | VR-lists:0 SE-lists:1 | newest 2026-03-21 | VR: - | Regeneration Overhaul-168926-1-2-0-1774093228.zip
+#168918 | The Keeper - Carcette Expanded | VR-lists:0 SE-lists:1 | newest 2026-01-05 | VR: - | The Keeper - Carcette Expanded-168918-1-0-1767652938.7z
+#168915 | SkyParkour - Community Shader Inidicator Fix | VR-lists:0 SE-lists:1 | newest 2026-01-05 | VR: - | SkyParkour - Community Shader Inidicator Fix-168915-1-1767647505.zip
+#168838 | Hospitable Gerdur and Alvor - Bedrolls in Riverwood | VR-lists:0 SE-lists:1 | newest 2026-01-04 | VR: - | Hospitable Gerdur and Alvor - A Player Bedroll-168838-1-0-1767557320.rar
+#168805 | Troll Cubs- Mihail Monsters and Animals (SE-AE version) - My Fluffy Patch | VR-lists:0 SE-lists:1 | newest 2026-01-04 | VR: - | Troll Cubs (se-ae) - My Shell Patch-168805-1-0-1767532560.7z
+#168780 | JK's College of Winterhold - more FPS in Arcanaeum | VR-lists:0 SE-lists:1 | newest 2026-01-04 | VR: - | JK's College of Winterhold - more FPS in Arcanaeum-168780-1-0-1767507906.rar
+#168722 | High-Poly ELFX Shadows Dunmer Lanterns and TCZ Caged Bugs - SE by Xtudo - JK's Raven Rock JK's Tel Mithryn Gate To Sovngarde | VR-lists:0 SE-lists:1 | newest 2026-01-03 | VR: - | JK's Raven Rock - HP Caged Bugs by Xtudo-168722-1-1-1767456179.7z
+#168685 | Escapeweave | VR-lists:0 SE-lists:1 | newest 2026-07-20 | VR: - | Escapeweave 168685 1.0.1 2026-07-20T06-23Z izKcFpJ9B.zip
+#168649 | Rite of Arcana | VR-lists:0 SE-lists:1 | newest 2026-07-28 | VR: - | Rite Of Arcana - A Spell Learning Mod 168649 4.5.7 2026-07-28T15-59Z QRde31jZw.7z
+#168584 | Arbalist - A Crossbow Overhaul | VR-lists:0 SE-lists:1 | newest 2026-01-10 | VR: - | Arbalist - A Crossbow Overhaul-168584-1-0-1-1767385499.7z
+#168531 | First Person (FP) Camera Settle - SKSE | VR-lists:0 SE-lists:1 | newest  | VR: - | FP_Camera_Settle_-_SKSE_2.33_IoFlhfqcN.rar
+#168405 | Next Gen Dragon VFX | VR-lists:0 SE-lists:1 | newest 2026-07-16 | VR: - | Dragon War - Next Gen Dragon VFX patch-168405-1-50-1770040217.zip
+#168369 | Grand Solitude - The Walls of High King Erling - Fixed and Optimized | VR-lists:0 SE-lists:1 | newest 2025-12-30 | VR: - | Grand Solitude - Fixes and Optimizations-168369-1-0-0-1767088181.7z
+#168363 | Hey You. You're Finally Awake - A Permadeath Mod | VR-lists:0 SE-lists:1 | newest 2025-12-30 | VR: - | Hey You. You're Finally Awake - A Permadeath Mod-168363-1-0-0-1767094696.7z
+#168268 | Dac0da - TrueHUD Boss Bars | VR-lists:0 SE-lists:1 | newest 2025-12-28 | VR: - | Dac0da - TrueHUD Boss Bars-168268-1-0-1766955321.7z
+#168114 | Kanjs - Smooth and artifact-free gradient | VR-lists:0 SE-lists:1 | newest 2026-01-25 | VR: - | Kanjs - Smooth and artifact-free gradient-168114-1-1-1769302077.zip
+#168088 | USSEP Forks and Knives UV Fix | VR-lists:0 SE-lists:1 | newest 2025-12-26 | VR: - | USSEP Forks and Knives UV Fix-168088-1-0-0-1766759988.7z
+#168030 | Argonian Hdt-SMP Feathers - plug n play also with wigs and Spid distribution | VR-lists:0 SE-lists:1 | newest 2026-05-08 | VR: - | Argonian Hdt Feathers-168030-4-3-1778255196.zip
+#168019 | Dire Wolves (Prehistoric Content Series) SE-AE | VR-lists:0 SE-lists:1 | newest 2025-12-25 | VR: - | Dire Wolves (Prehistoric Content Series) SE-AE-168019-1-0-1766684324.zip

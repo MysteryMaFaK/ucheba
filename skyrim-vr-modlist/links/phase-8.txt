@@ -1,0 +1,56 @@
+# Фаза 8: Хайтек-новинки 2026 — по одному
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [rec] Smooth Terrain — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/186875
+
+# [opt] Helios + MMSF, Luma Utility, XEMI Utility — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/181533
+https://www.nexusmods.com/skyrimspecialedition/mods/183073
+https://www.nexusmods.com/skyrimspecialedition/mods/177961
+https://www.nexusmods.com/skyrimspecialedition/mods/159084
+
+# [rec] Inventory Selfie VR — Redux — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/190704
+
+# [rec] Pull Arrows VR — Immersive Extraction — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/169833
+
+# [rec] Cold Breath NG — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/174838
+
+# [opt] Interactive Waters — VR (beta) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/166560
+
+# [opt] Immersive Harvesting VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/186754
+
+# [opt] ISPVR — Immersive Spellcasting VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/164183
+
+# [opt] Steeds of Omega VR — NPC Mounted Combat — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/169221
+
+# [try] Dynamic Footprints SKSE — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/175254
+
+# [try] DynamicShader — DynamicSnow — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/189713
+
+# [try] XPMF — Extended Projected Materials Framework — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/192698
+
+# [try] Frostwalker — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/184628
+
+# [try] Bobbing Framework — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/186081
+
+# [try] Immersive NPC Dialogue — VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/184804
+
+# [try] Palm Compass VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/189452
+
+# [opt] Horizon Fix — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/184607

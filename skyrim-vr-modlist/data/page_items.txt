@@ -1,0 +1,150 @@
+[Инструменты и подготовка] Mod Organizer 2 | ids: - | tag: core
+[Инструменты и подготовка] Root Builder | ids: 31720 | tag: core
+[Инструменты и подготовка] SSEEdit (xEdit) | ids: 164 | tag: core
+[Инструменты и подготовка] LOOT | ids: - | tag: core
+[Инструменты и подготовка] BethINI Pie + Skyrim VR Plugin for Bethini Pie | ids: 177465 | tag: core
+[Инструменты и подготовка] Pandora Behaviour Engine+ | ids: 133232 | tag: rec
+[Инструменты и подготовка] Synthesis | ids: - | tag: rec
+[Инструменты и подготовка] fpsVR или SteamVR Frame Timing | ids: - | tag: rec
+[База игры: мастера и USSEP] Путь A. Обновлённые мастера SSE 1.6.1170 + 4 бесплатных CC | ids: - | tag: alt
+[База игры: мастера и USSEP] USSEP (последний, 4.3.x) | ids: 266 | tag: alt
+[База игры: мастера и USSEP] Skyrim VR Strings Fix for Updated SSE Master Files | ids: 176040 | tag: alt
+[База игры: мастера и USSEP] Survival Mode Prompt Removed (Disable Permanently) | ids: 59049 | tag: alt
+[База игры: мастера и USSEP] Skyrim VR Survival Text Removed | ids: 177398 | tag: alt
+[База игры: мастера и USSEP] Skyrim VR Fixes for Latest USSEP | ids: 177650 | tag: opt
+[База игры: мастера и USSEP] Путь B. USSEP 4.2.5b + Skyrim VR USSEP patch for 4.2.5b | ids: 91475 | tag: alt
+[База игры: мастера и USSEP] Чистка мастеров в SSEEdit | ids: - | tag: rec
+[SKSEVR, библиотеки и фреймворки] SKSEVR | ids: 30457 | tag: core
+[SKSEVR, библиотеки и фреймворки] VR Address Library for SKSEVR | ids: 58101 | tag: core
+[SKSEVR, библиотеки и фреймворки] Engine Fixes VR | ids: 62089 | tag: core
+[SKSEVR, библиотеки и фреймворки] Skyrim VR ESL Support | ids: 106712 | tag: core
+[SKSEVR, библиотеки и фреймворки] Crash Logger SSE AE VR | ids: 59818 | tag: core
+[SKSEVR, библиотеки и фреймворки] Skyrim VR Tools | ids: 27782 | tag: core
+[SKSEVR, библиотеки и фреймворки] PapyrusUtil VR | ids: 13048 | tag: core
+[SKSEVR, библиотеки и фреймворки] JContainers VR | ids: 16495 | tag: core
+[SKSEVR, библиотеки и фреймворки] powerofthree's Papyrus Extender + Papyrus Extender VR | ids: 22854,58296 | tag: core
+[SKSEVR, библиотеки и фреймворки] powerofthree's Tweaks + po3 Tweaks VR | ids: 51073,59510 | tag: core
+[SKSEVR, библиотеки и фреймворки] Spell Perk Item Distributor VR | ids: 59121 | tag: core
+[SKSEVR, библиотеки и фреймворки] Keyword Item Distributor | ids: 55728 | tag: core
+[SKSEVR, библиотеки и фреймворки] Base Object Swapper VR | ids: 61734 | tag: core
+[SKSEVR, библиотеки и фреймворки] SkyPatcher | ids: 106659 | tag: core
+[SKSEVR, библиотеки и фреймворки] MCM Helper | ids: 53000 | tag: core
+[SKSEVR, библиотеки и фреймворки] SkyUI VR | ids: 91535 | tag: core
+[SKSEVR, библиотеки и фреймворки] Container Distribution Framework + VR | ids: 120152,139051 | tag: rec
+[SKSEVR, библиотеки и фреймворки] FormList Manipulator | ids: 74037 | tag: rec
+[SKSEVR, библиотеки и фреймворки] Description Framework | ids: 105799 | tag: rec
+[SKSEVR, библиотеки и фреймворки] Inventory Interface Information Injector | ids: 85702 | tag: rec
+[SKSEVR, библиотеки и фреймворки] Sound Record Distributor | ids: 77815 | tag: rec
+[SKSEVR, библиотеки и фреймворки] ConsoleUtilVR | ids: 47189 | tag: rec
+[SKSEVR, библиотеки и фреймворки] SKSE Menu Framework + ImGui VR Helper | ids: 120352,183466 | tag: rec
+[SKSEVR, библиотеки и фреймворки] MFG Fix NG | ids: 133568 | tag: rec
+[SKSEVR, библиотеки и фреймворки] Skyrim VR Refocused | ids: 32737 | tag: rec
+[Движок, стабильность, производительность] Poached Bugs VR | ids: 107053 | tag: core
+[Движок, стабильность, производительность] Papyrus Tweaks NG | ids: 77779 | tag: core
+[Движок, стабильность, производительность] Skyrim freeze fix NG | ids: 160704 | tag: rec
+[Движок, стабильность, производительность] Disabled Reference Integrity Fix (VR) | ids: 175062 | tag: rec
+[Движок, стабильность, производительность] Block Condition Freeze CTD Fix | ids: 193168 | tag: rec
+[Движок, стабильность, производительность] NPC AI Process Position Fix NG | ids: 69326 | tag: rec
+[Движок, стабильность, производительность] Animated Static Reload Fix NG | ids: 69331 | tag: rec
+[Движок, стабильность, производительность] Stagger Effect Fix | ids: 110508 | tag: rec
+[Движок, стабильность, производительность] Animation Queue Fix | ids: 82395 | tag: rec
+[Движок, стабильность, производительность] Seamless Saving VR | ids: 174106 | tag: rec
+[Движок, стабильность, производительность] Faster Decompression | ids: 174643 | tag: rec
+[Движок, стабильность, производительность] Disk Cache Enabler | ids: 100975 | tag: rec
+[Движок, стабильность, производительность] PrivateProfileRedirector | ids: 18860 | tag: rec
+[Движок, стабильность, производительность] Skyrim Priority SE AE VR | ids: 50129 | tag: rec
+[Движок, стабильность, производительность] SCROTE — Simply Optimized Scripts | ids: 97155 | tag: rec
+[Движок, стабильность, производительность] eFPS — Exterior FPS boost + Patch Hub | ids: 54907,54998 | tag: rec
+[Движок, стабильность, производительность] Lightened Skyrim — BOS edition | ids: 111475 | tag: rec
+[Движок, стабильность, производительность] Inertia (Floating Gear Fix) | ids: 148746 | tag: rec
+[Движок, стабильность, производительность] Assorted Mesh Fixes | ids: 32117 | tag: rec
+[Движок, стабильность, производительность] Unofficial Material Fix | ids: 21027 | tag: rec
+[Движок, стабильность, производительность] Skyrim Landscape and Water Fixes | ids: 26138 | tag: rec
+[Движок, стабильность, производительность] Navigator — Navmesh Fixes | ids: 52641 | tag: rec
+[Движок, стабильность, производительность] Increase Actor Limit for VR | ids: 37440 | tag: opt
+[VR-ядро: тело, руки, физика] VRIK Player Avatar | ids: 23416 | tag: core
+[VR-ядро: тело, руки, физика] HIGGS — Enhanced VR Interaction | ids: 43930 | tag: core
+[VR-ядро: тело, руки, физика] PLANCK | ids: 66025 | tag: core
+[VR-ядро: тело, руки, физика] Physical Collision VR | ids: 186335 | tag: rec
+[VR-ядро: тело, руки, физика] True Wield VR | ids: 191123 | tag: rec
+[VR-ядро: тело, руки, физика] Immersive Weapon Penetration VR | ids: 184223 | tag: rec
+[VR-ядро: тело, руки, физика] Swap Drop and Hold Redux — VR | ids: 185816 | tag: rec
+[VR-ядро: тело, руки, физика] Spell Wheel VR | ids: 47630 | tag: core
+[VR-ядро: тело, руки, физика] Weapon Throw VR | ids: 31374 | tag: rec
+[VR-ядро: тело, руки, физика] Interactive Activators VR | ids: 161676 | tag: rec
+[VR-ядро: тело, руки, физика] Instant Equip VR | ids: 44571 | tag: rec
+[VR-ядро: тело, руки, физика] Dialogue Movement Enabler VR | ids: 59816 | tag: rec
+[VR-ядро: тело, руки, физика] Stop Trigger Unsheathing For VR | ids: 55962 | tag: rec
+[VR-ядро: тело, руки, физика] Dual Casting Fix VR | ids: 92804 | tag: rec
+[VR-ядро: тело, руки, физика] Haptic Skyrim VR | ids: 20364 | tag: rec
+[VR-ядро: тело, руки, физика] Seamless Arrow Nocking VR + Immersive Crossbow Reload VR | ids: 117254,139152 | tag: rec
+[VR-ядро: тело, руки, физика] Magic Improvements for Skyrim VR | ids: 55751 | tag: rec
+[VR-ядро: тело, руки, физика] Lethal Unarmed VR | ids: 191124 | tag: opt
+[VR-ядро: тело, руки, физика] VR Climbing | ids: 168553 | tag: opt
+[VR-ядро: тело, руки, физика] Spellsiphon | ids: 26627 | tag: opt
+[VR-ядро: тело, руки, физика] To Your Face | ids: 24720 | tag: opt
+[VR-ядро: тело, руки, физика] Sprint Jump VR | ids: 28354 | tag: opt
+[Интерфейс] moreHUD VR | ids: 33215 | tag: rec
+[Интерфейс] QuickLoot IE | ids: 120075 | tag: rec
+[Интерфейс] VR Console Selection Fix | ids: 140752 | tag: rec
+[Интерфейс] No Menu Fade Out VR | ids: 185197 | tag: opt
+[Интерфейс] Norden UI — VR Edition | ids: 169537 | tag: opt
+[Графика: шейдеры и свет] Open Shaders | ids: 180419 | tag: core
+[Графика: шейдеры и свет] Community Shaders Expanded (CSX), VR-сборка | ids: 166950 | tag: alt
+[Графика: шейдеры и свет] Light Placer + Light Placer VR | ids: 127557,135822 | tag: core
+[Графика: шейдеры и свет] CS Light | ids: 138443 | tag: rec
+[Освещение, погода, вода] Lux + Lux Patch Hub | ids: 43158,113002 | tag: core
+[Освещение, погода, вода] Lux Via + Patch Hub | ids: 63588,116722 | tag: rec
+[Освещение, погода, вода] Lux Orbis + Patch Hub | ids: 56095,114169 | tag: opt
+[Освещение, погода, вода] Azurite Weathers III + MCM + Azurite III HDR | ids: 42731,139858,138991 | tag: core
+[Освещение, погода, вода] Splashes of Storms + VR | ids: 72115,73111 | tag: rec
+[Освещение, погода, вода] Splashes of Skyrim + VR | ids: 47710,58104 | tag: rec
+[Освещение, погода, вода] Dynamic Wind Framework + Dynamic Wind — Skyrim | ids: 177023,177024 | tag: rec
+[Освещение, погода, вода] Simplicity of Sea | ids: 56520 | tag: rec
+[Освещение, погода, вода] Water for ENB | ids: 37061 | tag: alt
+[Освещение, погода, вода] Map Weather — CS | ids: 170955 | tag: opt
+[Трава, деревья, ландшафт] No Grass In Objects NG | ids: 42161 | tag: core
+[Трава, деревья, ландшафт] Grass Cache Helper NG | ids: 101095 | tag: core
+[Трава, деревья, ландшафт] Landscape Fixes For Grass Mods | ids: 9005 | tag: core
+[Трава, деревья, ландшафт] Merethic Grasslands | ids: 164058 | tag: rec
+[Трава, деревья, ландшафт] Cathedral 3D Grass Library + 3D-растения | ids: 80687 | tag: alt
+[Трава, деревья, ландшафт] Happy Little Trees + DynDOLOD 3 Add-On | ids: 50961,56907 | tag: rec
+[Трава, деревья, ландшафт] Seasons of Skyrim | ids: - | tag: opt
+[Анимации и физика] Open Animation Replacer | ids: 92109 | tag: core
+[Анимации и физика] Paired Animation Improvements | ids: 99621 | tag: rec
+[Анимации и физика] Mu Joint Fix (DLL) | ids: 61479 | tag: rec
+[Анимации и физика] FSMP — Faster HDT-SMP | ids: 57339 | tag: opt
+[Анимации и физика] Dynamic Armor Physics | ids: 186346 | tag: opt
+[Бой и геймплей] Blade and Blunt + Blade and Blunt VR | ids: 34549,120494 | tag: rec
+[Бой и геймплей] Adamant + Adamant — VR Tweaks | ids: 30191,190589 | tag: rec
+[Бой и геймплей] Accuracy — Localized Combat Damage | ids: 187578 | tag: opt
+[Бой и геймплей] Core Impact Framework | ids: 146873 | tag: opt
+[Бой и геймплей] Ricochet — Arrow Physics Framework | ids: 160603 | tag: opt
+[Бой и геймплей] Dismembering Framework | ids: 126203 | tag: opt
+[Бой и геймплей] NPCs Take Cover | ids: 111890 | tag: opt
+[Бой и геймплей] Enemy Friendly Fire | ids: 50483 | tag: opt
+[Звук] Audio Overhaul for Skyrim | ids: 12466 | tag: rec
+[Звук] Regional Sounds Expansion + Reverb Interior Sounds Expansion | ids: 77829,77947 | tag: rec
+[Звук] Acoustic Space Improvement Fixes | ids: 78992 | tag: rec
+[Звук] Immersive Sounds Compendium + AOS–ISC patch | ids: 523,36761 | tag: alt
+[Звук] True 3D Sound for Headphones | ids: 1897 | tag: rec
+[ИИ-NPC] SkyrimNet | ids: - | tag: opt
+[ИИ-NPC] Mantella | ids: 98631 | tag: opt
+[ИИ-NPC] CHIM | ids: 126330 | tag: opt
+[VR-рантайм] OpenComposite Unleashed for Skyrim VR | ids: 171182 | tag: rec
+[VR-рантайм] VR FPS Stabilizer | ids: 31392 | tag: opt
+--- DO-NOT-INSTALL list on page ---
+Community Shaders 1.7 и новее: Официальный CS убрал поддержку VR. Нужен Open Shaders или CSX.
+Два шейдерных пакета сразу: Open Shaders, CSX и CS используют одни и те же файлы. Только один.
+ENB: Несовместим с семейством CS и слишком дорог для VR.
+SSE Engine Fixes, Address Library for SKSE, SKSE64: Это версии для SE/AE. В VR — Engine Fixes VR, VR Address Library, SKSEVR.
+Backported Extended ESL Support: Без VR-поддержки. Вместо него Skyrim VR ESL Support.
+Scrambled Bugs: В VR не работает. Вместо него Poached Bugs VR.
+SSE Display Tweaks: Нет VR-сборки, частоту кадров в VR задаёт шлем.
+Precision, True Directional Movement, SkyParkour, SkyClimb: Только для плоского режима. В VR их роль играют PLANCK, Physical Collision VR, VR Climbing.
+Skyrim Upscaler VR (PureDark) или vrperfkit вместе с апскейлом Open Shaders: Два апскейлера дерутся за один кадр. Апскейл — только встроенный.
+ENB Light и Particle Lights for ENB: Не работают с CS 1.4+ и Open Shaders. Свет — через Light Placer. Исключение — CSX.
+Volumetric Mists с Azurite III: FUS убрал его ради производительности, автор погоды больше не рекомендует.
+Разделённые меши Lux: С Light Limit Fix не нужны, только добавляют draw calls.
+Две сборки OpenComposite: Старый OpenComposite Fixes Custom Build или Unleashed — что-то одно.
+Fuz Ro D-oh VR без необходимости: Принудительно включает субтитры. Ставить, только если его требует другой мод.

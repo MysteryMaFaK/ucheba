@@ -1,0 +1,845 @@
+[
+ {
+  "key": "immersion-85212",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 233,
+  "name": "Locational Encounter Zones",
+  "id": 85212,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/85212",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Стража у входа в подземелье того же уровня, что и враги внутри. Одна DLL с VR-пресетом, 6 VR-сборок.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Одна NG-DLL с VR-пресетом; нужна VR Address Library. Брать 1.0.3.",
+    "overlaps": "Дополняет Arena (Stormcrown VR и Panda's Sovngarde ставят оба).",
+    "evidence": "6 VR-сборок: Stormcrown VR (1.0.3 2026-08-24), Panda's Sovngarde, Librum VR, Tempus Maledictum VR, Spirit of Grit, Tahrovin-Grit. 9 SE-сборок. По выдаче поиска на странице мода указан VR Address Library 0.81+."
+   }
+  ]
+ },
+ {
+  "key": "immersion-52164",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 234,
+  "name": "Don't Stay in The Water — NPC Water AI Fix",
+  "id": 52164,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/52164",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": "VR 4.1",
+  "note": "NPC перестают стоять в воде и топтаться у кромки в бою. Брать VR-файл 4.1, не AE-версию 5.x.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Брать файл «Don't Stay in The Water - VR» 4.1, не AE-версию 5.x.",
+    "overlaps": "",
+    "evidence": "6 VR-списков с файлом '...- VR-52164-4-1-1626445959.zip': Yggdrasil VR, Librum VR, Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR."
+   }
+  ]
+ },
+ {
+  "key": "immersion-86950",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 235,
+  "name": "Combat Pathing Revolution + VR",
+  "id": 86950,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/86950",
+  "extra": [
+   {
+    "label": "VR-DLL",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/87895"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "NPC в бою кружат, отступают и обходят. Поверх основного — DLL с VR-страницы.",
+  "new": true
+ },
+ {
+  "key": "immersion-21654",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 236,
+  "name": "AI Overhaul",
+  "id": 21654,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/21654",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Живее распорядок и реакции ванильных NPC. Путь B — файл «SE Only», путь A — AE-файл. Нужны патчи с NPC-модами.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин; на пути B брать «AI Overhaul SE Only», на пути A с мастерами 1.6 — AE-файл.",
+    "overlaps": "Для многих квестовых и NPC-модов нужны патчи. На пути A с мастерами 1.6 можно взять AE-файл.",
+    "evidence": "7 VR-сборок: FUS (SE Only 1.8.6), Panda's Sovngarde (SE Only 1.8.7), Yggdrasil VR, Librum VR, Tahrovin, Spirit of Grit, Tahrovin-Grit. 7 SE-сборок."
+   }
+  ]
+ },
+ {
+  "key": "immersion-2345",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 237,
+  "name": "Realistic AI Detection (RAID)",
+  "id": 2345,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/2345",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Зорче зрение и слух врагов, дольше поиски, без скриптов. RAID 3 Medium или Lite.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только плагин, RAID 3 Medium или Lite.",
+    "overlaps": "Конфликтует с другими модами на скрытность и обнаружение.",
+    "evidence": "7 VR-сборок: Yggdrasil VR, Panda's Sovngarde, Spirit of Grit, Tahrovin-Grit (3 Medium), FUS, Tahrovin (3 Lite), Librum VR."
+   }
+  ]
+ },
+ {
+  "key": "immersion-40102",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 238,
+  "name": "Smart NPC Potions",
+  "id": 40102,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/40102",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Враги носят и пьют зелья, используют яды. VR заявлен в changelog.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "DLL; в changelog заявлена поддержка AE и VR. Брать 1.22, как в Grit-линейке; нужна VR Address Library.",
+    "overlaps": "Хорошо дополняет Apothecary.",
+    "evidence": "3 VR-сборки: Spirit of Grit, Tahrovin-Grit (1.22), Tahrovin (1.11). 8 SE-сборок: LoreRim, Wunduniik, SUP (1.30). В changelog: «AE and VR versions are now fully supported»."
+   }
+  ]
+ },
+ {
+  "key": "immersion-132097",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 239,
+  "name": "NPC Spell Variance",
+  "id": 132097,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/132097",
+  "extra": [],
+  "tag": "opt",
+  "version": "2.7.1+",
+  "vr_file": null,
+  "note": "Маги-NPC используют весь арсенал. VR-хук исправлен только в 2.7.1 — не брать старее.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Нужна 2.7.1+ (VR-хук исправлен); VR-списки пока на 2.1–2.4. Проверить skse-лог.",
+    "overlaps": "Хорошо работает с Adamant. KID/SPID-аддоны для магических паков — по желанию.",
+    "evidence": "Nexus 191145 (по выдаче поиска): хук 2.7.0 в VR ставился не в тот слот vtable, исправлено в основном моде 2.7.1. whouses: Panda's Sovngarde, Tempus Maledictum VR; True North (2.7.2 от 2026-09-25), TNE, SUP."
+   }
+  ]
+ },
+ {
+  "key": "immersion-91480",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 240,
+  "name": "NPCs React To Invisibility + NPCs React To Necromancy",
+  "id": 91480,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/91480",
+  "extra": [
+   {
+    "label": "Necromancy",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/70428"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Озвученные реакции NPC на невидимость и поднятых мертвецов.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин и звук, 1.11.",
+    "overlaps": "Есть патч для Apothecary.",
+    "evidence": "6 VR-сборок: FUS, Panda's Sovngarde (1.11 + патч Apothecary), Tempus, Tahrovin, Spirit of Grit, Tahrovin-Grit. 8 SE-сборок."
+   }
+  ]
+ },
+ {
+  "key": "immersion-43500",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 241,
+  "name": "Enhanced Reanimation + VR",
+  "id": 43500,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/43500",
+  "extra": [
+   {
+    "label": "VR-файл",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/59512"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Улучшенное поднятие мёртвых. Основной 1.5.1 и VR-файл 1.5.1 поверх; SE 1.5.2 без VR-обновления не ставить.",
+  "new": true
+ },
+ {
+  "key": "immersion-59118",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 242,
+  "name": "Frozen Electrocuted Combustion VR",
+  "id": 59118,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/59118",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Замороженные, обугленные и наэлектризованные тела. Брать VR-страницу, не SE 3532.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "VR-страница FEC VR 5.1.0.4, не SE 3532.",
+    "overlaps": "Нужен po3 Papyrus Extender VR со страницы.",
+    "evidence": "5 VR-списков: Librum VR, Panda's Sovngarde, Tahrovin, Tahrovin - Grit, Spirit of Grit. Файл: FEC VR-59118-5-1-0-4-1702713188.7z"
+   }
+  ]
+ },
+ {
+  "key": "immersion-33487",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 243,
+  "name": "Arena — An Encounter Zone Overhaul",
+  "id": 33487,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/33487",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Опасность растёт по регионам, а не под уровень игрока. Совместим с Locational Encounter Zones.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только плагин 1.2.0.",
+    "overlaps": "С Locational Encounter Zones совместим, сборки ставят оба. С Open World Loot конфликтует: выбрать что-то одно.",
+    "evidence": "3 VR-сборки: Stormcrown VR, Panda's Sovngarde, FUS (1.2.0). 6 SE-сборок."
+   }
+  ]
+ },
+ {
+  "key": "immersion-23081",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 244,
+  "name": "Trade and Barter",
+  "id": 23081,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/23081",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Настройка курсов торговли и золота торговцев.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только плагин 2.2.",
+    "overlaps": "Конфликтует с другими модами на цены и торговлю.",
+    "evidence": "6 VR-сборок: Panda's Sovngarde (2.2), Tempus VR, Librum VR, Yggdrasil VR, Spirit of Grit, Tahrovin-Grit. 7 SE-сборок."
+   }
+  ]
+ },
+ {
+  "key": "immersion-16692",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 245,
+  "name": "Realistic Mining and Chopping for VR + VR Refit",
+  "id": 16692,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/16692",
+  "extra": [
+   {
+    "label": "VR Refit",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/49205"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Руду и дрова добывают настоящими взмахами, а VR Refit роняет их физическими предметами. Файл «for VR - USSEP». 8 VR-сборок.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Файл «...for VR - USSEP» 1.1.0.",
+    "overlaps": "Обычно идёт в паре с VR Refit - Mine Chop and Drop.",
+    "evidence": "8 VR-списков: FUS, Yggdrasil VR, Librum VR, Panda's Sovngarde, Tahrovin, Tahrovin - Grit, Spirit of Grit, Tempus Maledictum VR."
+   }
+  ]
+ },
+ {
+  "key": "immersion-99809",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 246,
+  "name": "Gift by Hand VR",
+  "id": 99809,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/99809",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Отдать предмет NPC, протянув его рукой.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "VR-мод 2.1.0.",
+    "overlaps": "",
+    "evidence": "7 VR-списков: FUS, Yggdrasil VR, Panda's Sovngarde, Tahrovin, Tahrovin - Grit, Spirit of Grit, Tempus Maledictum VR. Файл: Gift By Hand VR-99809-2-1-0-1700472570.zip"
+   }
+  ]
+ },
+ {
+  "key": "immersion-59250",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 247,
+  "name": "Sleeping Expanded",
+  "id": 59250,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/59250",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Разные позы сна NPC и реакции на спящих.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Тот же архив 1.22, что и в SE.",
+    "overlaps": "",
+    "evidence": "7 VR-списков: FUS, Panda, Spirit of Grit, Tahrovin, Tahrovin-Grit, Tempus, Yggdrasil VR. 14 SE-списков (LoreRim, Nordic Souls, NGVO-форк CSVP, Apostasy и др.)."
+   }
+  ]
+ },
+ {
+  "key": "immersion-16613",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 248,
+  "name": "Be Seated — Skyrim VR Edition",
+  "id": 16613,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/16613",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Сесть где угодно — на землю, у костра.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "VR-редакция 4.2.5.",
+    "overlaps": "",
+    "evidence": "4 VR-списка: FUS, Librum, Tempus, Yggdrasil VR — 'Be Seated 4.2.5-16613-4-2-5-1655673281.zip'."
+   }
+  ]
+ },
+ {
+  "key": "immersion-39414",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 249,
+  "name": "SunHelm Survival",
+  "id": 39414,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/39414",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Голод, жажда, усталость, холод. CC-выживание на странице отключено, дубля нет.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Скрипты и плагин без DLL, 3.1.4.",
+    "overlaps": "Не совмещать с режимом выживания CC: страница его и так отключает. Survival Mode Improved SKSE в VR не работает.",
+    "evidence": "6 VR-сборок: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin-Grit (3.1.4), Yggdrasil (3.1.2a), Librum (2.0.6)."
+   }
+  ]
+ },
+ {
+  "key": "immersion-84909",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 250,
+  "name": "Recipe Auto-Learn + Reading Is Good",
+  "id": 84909,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/84909",
+  "extra": [
+   {
+    "label": "Reading Is Good VR",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/42026"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Рецепты открывают эффекты ингредиентов; книги навыков дают опыт сразу. У Reading Is Good брать VR-файл.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "DLL; автор пишет, что проверено в VR. Нужна VR Address Library.",
+    "overlaps": "Хорошо работает с Apothecary.",
+    "evidence": "3 VR-сборки: FUS, Panda's Sovngarde, Tempus VR. 8 SE-сборок: LoreRim, CSVP, Nordic Souls, TNE (1.2.0 2026-09)."
+   }
+  ]
+ },
+ {
+  "key": "immersion-77409",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 251,
+  "name": "Mum's the Word NG",
+  "id": 77409,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/77409",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Снимает метку «украдено», если кражу никто не видел — с HIGGS легко схватить чужое. VR заявлен.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "CLib-NG DLL; в описании заявлен VR.",
+    "overlaps": "",
+    "evidence": "5 VR-сборок: Librum, Tahrovin, Spirit of Grit, Tahrovin-Grit, Tempus VR. Описание мода: «works in all Skyrim SE versions, including AE 1.6.629+ and VR»."
+   }
+  ]
+ },
+ {
+  "key": "immersion-61015",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 252,
+  "name": "Honed Metal",
+  "id": 61015,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/61015",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": "VR",
+  "note": "Кузнецы и маги за плату куют и зачаровывают снаряжение.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Файл «Honed Metal VR» 1.23.",
+    "overlaps": "",
+    "evidence": "VR-файл в 3 VR-сборках: Tempus, Spirit of Grit, Tahrovin-Grit (Honed Metal VR-61015-1-23). 7 SE-сборок."
+   }
+  ]
+ },
+ {
+  "key": "immersion-15755",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 253,
+  "name": "GIST — Genuinely Intelligent Soul Trap",
+  "id": 15755,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/15755",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Душа идёт в самый подходящий камень.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Papyrus без DLL, файл 1.3.",
+    "overlaps": "Mysticism/Sorcerer: в FUS ставят патч совместимости.",
+    "evidence": "6 VR-сборок: FUS, Yggdrasil, Tahrovin, Spirit of Grit, Tahrovin-Grit, Tempus VR. Для Sorcerer есть патч под GIST (стоит в FUS)."
+   }
+  ]
+ },
+ {
+  "key": "immersion-170497",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 254,
+  "name": "SCIE — Crafting Inventory Extender",
+  "id": 170497,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/170497",
+  "extra": [],
+  "tag": "opt",
+  "version": "2.6",
+  "vr_file": null,
+  "note": "Верстак берёт материалы из ближних сундуков и у спутников. В 2.6 исправлен VR-вылет на старте.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Tempus Maledictum VR ставит 2.5.3. В 2.6.0.0 исправлены VR-вылет на старте и нулевые счётчики",
+    "overlaps": "Не ставить с другими модами «крафт из сундуков» (Craft from Containers и т.п.)",
+    "evidence": "whouses: [VR] Tempus Maledictum VR: 'SCIE-Main-v2.5.3.zip-170497'. Сниппет чейнджлога: «VR: Material counts showing 0… VR: Hook 5 crash on startup» (исправлено). Исходники: github.com/ohfor/scie"
+   }
+  ]
+ },
+ {
+  "key": "immersion-38886",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 255,
+  "name": "Dirt and Blood",
+  "id": 38886,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/38886",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "На телах копятся грязь и кровь, смываются водой. Поставить VR-патч «No Washing Animation».",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Основной 2.37 + «Optional patch for VR - No Washing Animation»; или Wash That Blood Off 2 VR — что-то одно.",
+    "overlaps": "Альтернатива — Wash That Blood Off 2 VR (62372; Yggdrasil VR, Panda's Sovngarde, Tahrovin, Spirit of Grit, Tahrovin-Grit). Ставить что-то одно.",
+    "evidence": "VR: Librum VR (2.37 + VR-патч), Panda's Sovngarde 2.37. SE: CSVP, True North, SUP (2.38, 2025-10), Elysium."
+   }
+  ]
+ },
+ {
+  "key": "immersion-60741",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 256,
+  "name": "Dynamic Things Alternative + Random Barrel Roll",
+  "id": 60741,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/60741",
+  "extra": [
+   {
+    "label": "Random Barrel Roll",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/78195"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Разнообразие контейнеров и случайный поворот бочек через BOS VR.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "INI для BOS и меши, через BOS VR.",
+    "overlaps": "Использует BOS VR со страницы. С Lightened Skyrim — BOS edition не пересекается.",
+    "evidence": "8 VR-списков (Stormcrown VR — v0.5 2026, Tempus и Panda — v0.3, а также Librum, Yggdrasil, Tahrovin, Spirit of Grit, Tahrovin - Grit) и 10 SE-сборок."
+   }
+  ]
+ },
+ {
+  "key": "immersion-26751",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 257,
+  "name": "Better Resource Warnings",
+  "id": 26751,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/26751",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Сердцебиение и дыхание при низком здоровье — в шлеме звук заметнее полосок.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин и скрипты без DLL.",
+    "overlaps": "Если стоит Immersive HUD или полоски на запястье Spell Wheel VR, частично дублирует.",
+    "evidence": "whouses: Yggdrasil VR, Librum VR, Panda's Sovngarde, FUS — Better Resource Warnings-26751-2-2. Описание: «intended to be used without any User Interface… heartbeat and heavy breathing»."
+   }
+  ]
+ },
+ {
+  "key": "immersion-78610",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 258,
+  "name": "Sink Or Swim NG",
+  "id": 78610,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/78610",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "В тяжёлой броне игрок тонет и идёт по дну. Сборка NG для AE/VR, не старая 42962.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "CLib-NG сборка для AE/VR, 1.9; не путать со старым 42962.",
+    "overlaps": "Старый Sink Or Swim (42962) из того же списка не ставить вместе с NG.",
+    "evidence": "whouses: Librum VR, Tahrovin, Tahrovin - Grit, Spirit of Grit — Sink Or Swim NG-78610-1-9."
+   }
+  ]
+ },
+ {
+  "key": "immersion-73153",
+  "section": "immersion",
+  "separator": "13 Мир, ИИ, погружение",
+  "order": 259,
+  "name": "Tamrielic Names + NPCs Names Distributor",
+  "id": 73153,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/73153",
+  "extra": [
+   {
+    "label": "NND",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/73081"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Безымянные NPC получают имена по расе. Полезно с ИИ-NPC.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только конфиги; нужен NPCs Names Distributor (73081) — в исходниках ENABLE_SKYRIM_VR ON — и SPID VR.",
+    "overlaps": "Требует NND NG и SPID VR (SPID на странице). С LLM-модами (SkyrimNet, CHIM) именованные NPC дают более осмысленный диалог.",
+    "evidence": "whouses: CSVP, Nordic Souls, Nordic Souls PBR, LoreRim, TNE, Apostasy, Wunduniik. Поиск: страница NND NG — «main reason to use this mod is for VR Support»."
+   }
+  ]
+ },
+ {
+  "key": "audio-12466",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 260,
+  "name": "Audio Overhaul for Skyrim",
+  "id": 12466,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/12466",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "audio-77829",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 261,
+  "name": "Regional Sounds Expansion + Reverb Interior Sounds Expansion",
+  "id": 77829,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/77829",
+  "extra": [
+   {
+    "label": "Reverb Interior",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/77947"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "audio-78992",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 262,
+  "name": "Acoustic Space Improvement Fixes",
+  "id": 78992,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/78992",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "audio-523",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 263,
+  "name": "Immersive Sounds Compendium + AOS–ISC patch",
+  "id": 523,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/523",
+  "extra": [
+   {
+    "label": "патч",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/36761"
+   }
+  ],
+  "tag": "alt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "audio-1897",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 264,
+  "name": "True 3D Sound for Headphones",
+  "id": 1897,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1897",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "HRTF-позиционирование для наушников гарнитуры.",
+  "new": false
+ },
+ {
+  "key": "audio-18115",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 265,
+  "name": "UHDAP — Music HQ",
+  "id": 18115,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/18115",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Ванильная музыка без артефактов. Голоса EN — только при английской озвучке.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Music HQ — всем; Voices EN только при английской озвучке.",
+    "overlaps": "Голоса UHDAP перезаписываются модами озвучки. Музыку перекроют музыкальные моды, если их поставить.",
+    "evidence": "4 VR-списка: FUS и Yggdrasil (музыка + голоса), Tempus (Music HQ), Panda (голоса). 14 SE-сборок: NGVO, LoreRim, Nordic Souls, CSVP, Elysium."
+   }
+  ]
+ },
+ {
+  "key": "audio-112008",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 266,
+  "name": "Wildwood Echoes + Murmurs and Mead",
+  "id": 112008,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/112008",
+  "extra": [
+   {
+    "label": "Murmurs and Mead",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/114716"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Звуки леса и 18 вариантов шума таверн.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин и звуки без DLL.",
+    "overlaps": "Может пересекаться с Regional Sounds Expansion и AOS со страницы по регионам звука. Ставить ниже, проверить в xEdit.",
+    "evidence": "VR: Librum VR (1.2/1.3). SE: 10 сборок, включая NGVO и Nordic Souls PBR (1.4), LoreRim, CSVP, Nordic Souls, Tomes of Talos."
+   }
+  ]
+ },
+ {
+  "key": "audio-125873",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 267,
+  "name": "Haunting Harmonies of Hjaalmarch + Whispers of the Daedric Princes",
+  "id": 125873,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/125873",
+  "extra": [
+   {
+    "label": "Whispers",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/141931"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Атмосфера болот Морфала и шёпот у святилищ. Позиционный звук в шлеме.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Звуки и конфиги SRD (есть на странице).",
+    "overlaps": "Совместим с RSE: SRD распределяет поверх.",
+    "evidence": "whouses: NGVO, CSVP, LoreRim, Tomes of Talos, SUP, TNE, Wunduniik."
+   }
+  ]
+ },
+ {
+  "key": "audio-44992",
+  "section": "audio",
+  "separator": "08 Звук",
+  "order": 268,
+  "name": "Immersive Draw Sheathe Sounds VR",
+  "id": 44992,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/44992",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "VR-мод 1.1.",
+    "overlaps": "Проверить, не перезаписывает ли Audio Overhaul for Skyrim те же звуковые дескрипторы.",
+    "evidence": "6 VR-списков: Stormcrown VR, FUS, Panda's Sovngarde, Tahrovin, Tahrovin - Grit, Spirit of Grit. Файл: Immersive Draw Sheathe Sounds VR-44992-1-1-1643041361.7z"
+   }
+  ]
+ },
+ {
+  "key": "ai-0",
+  "section": "ai",
+  "separator": "14 ИИ-NPC",
+  "order": 269,
+  "name": "SkyrimNet",
+  "id": null,
+  "url": "https://github.com/MinLL/SkyrimNet-GamePlugin/releases",
+  "extra": [],
+  "tag": "opt",
+  "version": "Beta26, 03.10.2026",
+  "vr_file": null,
+  "note": "Развивается активнее всех, VR-фиксы почти в каждой бете. Для VR требует Skyrim VR ESL Support, Refocused, MFG Fix NG, po3 Tweaks SE и VR. Модели через OpenRouter, часть платная.",
+  "new": false
+ },
+ {
+  "key": "ai-98631",
+  "section": "ai",
+  "separator": "14 ИИ-NPC",
+  "order": 270,
+  "name": "Mantella",
+  "id": 98631,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/98631",
+  "extra": [],
+  "tag": "opt",
+  "version": "0.14",
+  "vr_file": null,
+  "note": "Проще в настройке, бесплатная модель по умолчанию, голос Piper или XTTS. Замечены вылеты вместе с Fuz Ro D-oh.",
+  "new": false
+ },
+ {
+  "key": "ai-126330",
+  "section": "ai",
+  "separator": "14 ИИ-NPC",
+  "order": 271,
+  "name": "CHIM",
+  "id": 126330,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/126330",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Больше всего возможностей, ставится сложнее всех.",
+  "new": false
+ }
+]

@@ -1,0 +1,151 @@
+# Фаза 7: Бой, геймплей, мир и ИИ
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [rec] Blade and Blunt + Blade and Blunt VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/34549
+https://www.nexusmods.com/skyrimspecialedition/mods/120494
+
+# [rec] Adamant + Adamant — VR Tweaks — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/30191
+https://www.nexusmods.com/skyrimspecialedition/mods/190589
+
+# [opt] Accuracy — Localized Combat Damage — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/187578
+
+# [opt] Core Impact Framework — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/146873
+
+# [opt] Ricochet — Arrow Physics Framework — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/160603
+
+# [opt] Dismembering Framework — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/126203
+
+# [opt] NPCs Take Cover — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/111890
+
+# [opt] Enemy Friendly Fire — VR-файл: VR
+https://www.nexusmods.com/skyrimspecialedition/mods/50483
+
+# [rec] Simple Offence Suppression (VR) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/59508
+
+# [rec] Mysticism — A Magic Overhaul — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/27839
+
+# [opt] Thaumaturgy + Apothecary + Mundus — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/57138
+https://www.nexusmods.com/skyrimspecialedition/mods/52130
+https://www.nexusmods.com/skyrimspecialedition/mods/33411
+
+# [opt] Experience — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/17751
+
+# [opt] Death Drop Overhaul — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/151590
+
+# [opt] Magic Sneak Attacks VR + Physical Dodge VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/68028
+https://www.nexusmods.com/skyrimspecialedition/mods/58605
+
+# [opt] Throat Slit — VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/184140
+
+# [opt] Dynamic Bloodpool Framework — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/172080
+
+# [opt] DF Asset Packs + Next-Gen Decapitations — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/126328
+https://www.nexusmods.com/skyrimspecialedition/mods/126327
+https://www.nexusmods.com/skyrimspecialedition/mods/135254
+
+# [opt] Sanguine Symphony — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/148388
+
+# [rec] Locational Encounter Zones — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/85212
+
+# [rec] Don't Stay in The Water — NPC Water AI Fix — VR-файл: VR 4.1
+https://www.nexusmods.com/skyrimspecialedition/mods/52164
+
+# [opt] Combat Pathing Revolution + VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/86950
+https://www.nexusmods.com/skyrimspecialedition/mods/87895
+
+# [opt] AI Overhaul — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/21654
+
+# [opt] Realistic AI Detection (RAID) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/2345
+
+# [opt] Smart NPC Potions — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/40102
+
+# [opt] NPC Spell Variance — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/132097
+
+# [opt] NPCs React To Invisibility + NPCs React To Necromancy — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/91480
+https://www.nexusmods.com/skyrimspecialedition/mods/70428
+
+# [opt] Enhanced Reanimation + VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/43500
+https://www.nexusmods.com/skyrimspecialedition/mods/59512
+
+# [opt] Frozen Electrocuted Combustion VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/59118
+
+# [opt] Arena — An Encounter Zone Overhaul — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/33487
+
+# [opt] Trade and Barter — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/23081
+
+# [rec] Realistic Mining and Chopping for VR + VR Refit — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/16692
+https://www.nexusmods.com/skyrimspecialedition/mods/49205
+
+# [opt] Gift by Hand VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/99809
+
+# [opt] Sleeping Expanded — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/59250
+
+# [opt] Be Seated — Skyrim VR Edition — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/16613
+
+# [opt] SunHelm Survival — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/39414
+
+# [opt] Recipe Auto-Learn + Reading Is Good — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/84909
+https://www.nexusmods.com/skyrimspecialedition/mods/42026
+
+# [opt] Mum's the Word NG — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/77409
+
+# [opt] Honed Metal — VR-файл: VR
+https://www.nexusmods.com/skyrimspecialedition/mods/61015
+
+# [opt] GIST — Genuinely Intelligent Soul Trap — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/15755
+
+# [opt] SCIE — Crafting Inventory Extender — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/170497
+
+# [opt] Dirt and Blood — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/38886
+
+# [opt] Dynamic Things Alternative + Random Barrel Roll — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/60741
+https://www.nexusmods.com/skyrimspecialedition/mods/78195
+
+# [opt] Better Resource Warnings — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/26751
+
+# [opt] Sink Or Swim NG — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/78610
+
+# [opt] Tamrielic Names + NPCs Names Distributor — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/73153
+https://www.nexusmods.com/skyrimspecialedition/mods/73081

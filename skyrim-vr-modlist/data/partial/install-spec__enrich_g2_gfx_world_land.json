@@ -1,0 +1,847 @@
+{
+ "items": [
+  {
+   "key": "gfx-180419",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Main file «Open Shaders» 2.17.0, один архив (Yggdrasil VR: «Open Shaders 180419 2.17.0»). Не брать пре-релизы GitHub (v2.17.0-prNNN, dev-latest) и форк «Open Shaders With DLSS5 Neural Rendering». Отдельные аддоны фич CS (Grass Lighting, Light Limit Fix, Dynamic Cubemaps и т. п.) не ставить: по заметке куратора они уже в архиве.",
+   "fomod": "неизвестно — общие правила. Если установщик предлагает альтернативную DLL (clang-cl), оставить вариант по умолчанию. Фичи включать и выключать в меню игры, а не в установщике.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Community Shaders Expanded (CSX) (#166950)",
+    "Community Shaders 1.7+ (#86492)",
+    "ENB",
+    "Skyrim Upscaler / vrperfkit",
+    "Intellightent",
+    "Open Shaders With DLSS5 Neural Rendering",
+    "ENB Light / Particle Lights for ENB"
+   ],
+   "choose_one_group": "shaders",
+   "mo2_order": "Сепаратор «Open Shaders, Light Placer», ниже фреймворков и фиксов. Сразу под ним поставить отдельный мод «Open Shaders — настройки» с SettingsUser.json. Моды с файлами под CS (Azurite III HDR, Map Weather — CS, Parallax Spell Impacts) — ниже Open Shaders.",
+   "plugin_order": "",
+   "config": "Первый запуск долго компилирует шейдеры — не прерывать. Меню открывается клавишей END в окне игры на ПК: виртуальная клавиатура в шлеме его не вызывает. После настройки перенести SKSE\\Plugins\\CommunityShaders\\SettingsUser.json из Overwrite в мод «Open Shaders — настройки». Для параллакса рельефа нужен bLandSpecular=1 в SkyrimVR.ini (по FAQ). Апскейл DLSS/DLAA/FSR — только встроенный. После смены фич очистить Overwrite от кэша шейдеров.",
+   "verify": "В sksevr.log DLL Open Shaders загружена без ошибки версии (внутреннее имя осталось CommunityShaders). Есть лог My Games\\Skyrim VR\\SKSE\\CommunityShaders.log без ошибок. END в окне ПК открывает меню.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses 180419: Yggdrasil VR и Morning Star — «Open Shaders 180419 2.17.0»; Tempus VR — 1.8.0 + свой ShaderCache VR.7z. github.com/alandtse/open-shaders README (User Requirements: VR Address Library; идентификатор CommunityShaders сохранён), страница releases (v2.17.0 Latest от 29 сентября, далее pre-release). Вики alandtse/open-shaders.wiki: FAQ (END, SettingsUser.json, bLandSpecular), Particle-Lights.md (поддержка частиц прекращена в пользу Light Placer). Список dont в манифесте."
+  },
+  {
+   "key": "gfx-166950",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Main «Community Shaders Expanded (CSX)» csx3.19.1-VR (Stormcrown VR, 2026-09-23) плюс ОДИН пресет: «CSX Balanced Preset», «CSX Perform. Preset» или «CSX Quality Preset» (- Press END On PC To Customize). Старую линейку «Community Shaders Particle Lights VR» (PL3.x) с той же страницы не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Open Shaders (#180419)",
+    "Community Shaders 1.7+ (#86492)",
+    "ENB"
+   ],
+   "choose_one_group": "shaders",
+   "mo2_order": "Встаёт вместо Open Shaders в том же сепараторе. Пресет — ниже основного архива CSX.",
+   "plugin_order": "",
+   "config": "Пресет — это стартовые настройки, донастраивать клавишей END на ПК. В CSX работают Particle Lights: ENB Particle Lights-моды допустимы только с CSX. Не вешать на одни и те же объекты свет и частицами, и конфигами Light Placer — свет удвоится.",
+   "verify": "В sksevr.log DLL загружена. Есть лог CommunityShaders.log. END открывает меню CSX.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 166950: Stormcrown VR (CSX csx3.19.1-VR + три пресета, 2026-09), Tahrovin (csx3.18-VR); Panda's, Tempus VR, Spirit of Grit — старая линейка «Community Shaders Particle Lights VR». Название страницы в метаданных WJ: «Community Shaders - Particle Lights (Unofficial Fork)». Требования — по семейству CS (README Open Shaders/CS), прямого подтверждения нет."
+  },
+  {
+   "key": "gfx-127557",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной 127557 и VR-DLL 135822 из одной линейки: Light Placer 4.2.x + «Light Placer VR» 4.2.0 (так Panda's, Stormcrown и Tempus VR). Основной 5.0.0 брать, только если на VR-странице вышла 5.x.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "ENB Light",
+    "Particle Lights for ENB (с Open Shaders не работают)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Light Placer VR — ниже основного Light Placer: его DLL должна перекрыть DLL основного. Конфиг-моды (CS Light и др.) — ниже обоих.",
+   "plugin_order": "",
+   "config": "JSON-конфиги лежат в Data\\LightPlacer\\. Пересечения огней проверить Lights Conflict Resolver (есть в манифесте).",
+   "verify": "В sksevr.log Light Placer загружен без ошибки версии. Свечи и жаровни из конфигов CS Light дают свет.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "github.com/powerof3/LightPlacer README: SSE/AE — 127557, VR — 135822; User Requirements: VR Address Library for SKSEVR. whouses 135822: Panda's, Stormcrown, Tempus VR — «Light Placer VR-135822-4-2-0»; 127557 у Panda's — 4.2.0, у Morning Star — 5.0.0."
+  },
+  {
+   "key": "gfx-138443",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "CS Light 2.0.1 (Stormcrown VR, Nordic Souls PBR) — последний.",
+   "fomod": "Первый шаг (по комментарию автора): три группы — Lux, Embers XD, Vanilla. С Lux выбирать только группу Lux: её конфиги подходят и для Embers XD. По FOMOD из репозитория InTheBottle/CS-Light: «Furniture» при Lux не брать; «Deathbell» не брать при Cathedral 3D Deathbell; Potions — одно из Dim, Bright или Legacy; «CS Light» (esp: ISL для магии в руках и снарядов) — брать. «Magic FX» и «Bound Weapons» — по желанию; «Mysticsm» — только вместе с Mysticism. «Interior Window Lights» требует включённой фичи Inverse Square Lighting. Патчи (Wyrmstooth, Nirn Necessities и т. п.) — только для установленных модов. Версия FOMOD на Nexus может отличаться: читать установщик.",
+   "requires": [
+    "Light Placer + Light Placer VR (#127557, #135822)",
+    "Open Shaders (#180419) или CSX (#166950)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "ENB Lights For Effect Shaders вместе с опцией Magic FX (двойной свет)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Light Placer, Lux и Embers XD.",
+   "plugin_order": "CS Light.esp — после True Light и Window Shadows Ultimate, если они есть. Автор советует грузить его поздно.",
+   "config": "",
+   "verify": "Магия в руке и снаряды светят. Свечи и факелы без двойного свечения. У Light Placer нет ошибок в логе.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "github.com/InTheBottle/CS-Light: fomod/ModuleConfig.xml (шаги Main lights, Mods, Magic effects ISL, Window Lights). Поиск: комментарий автора Sebasa81 про три группы Lux/Embers/Vanilla. whouses 138443: Stormcrown VR 2.0.1, Panda's 1.9.3, Tempus VR."
+  },
+  {
+   "key": "gfx-164488",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Rim Lighting Removed 1.1.0 (Panda's Sovngarde VR) или 1.1.1 (TNE, 2026-08). Состав архива неизвестен.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Ореол по краям объектов и персонажей пропал. Нет вылетов при загрузке.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 164488: Panda's Sovngarde (VR) — 1.1.0; NGVO, LoreRim, Wunduniik — 1.1.0; TNE — 1.1.1."
+  },
+  {
+   "key": "gfx-186700",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "NativeWaterLightStabilizer 1.3 (TNE, 2026-08-23), последний известный. В VR-сборках не встречается.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Ставить последним и только после того, как Open Shaders уже стабильно работает. Если Open Shaders перестал грузиться — выключить этот мод первым.",
+   "verify": "В sksevr.log плагин загружен, Open Shaders тоже загружен. Блики на воде мерцают меньше.",
+   "risk": "high",
+   "confidence": "medium",
+   "sources": "github.com/nicola89b/NativeWaterLightStabilizer README: «Supports Skyrim SE, AE, VR», User Requirements — SKSEVR для VR. whouses 186700: CSVP 1.2, TNE 1.3; VR-листов нет. Заметка куратора о жалобе на несовместимость с OS."
+  },
+  {
+   "key": "world-43158",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«Lux (main)» 7.0 и «Lux (main plugin update)» 7.1 с той же страницы: так в 12 SE-списках, Tempus VR и Panda's берут 7.0. Patch Hub 113002 — «Lux (patch hub)» 7.1.",
+   "fomod": "Опции разделённых мешей (split meshes) НЕ выбирать: с Light Limit Fix они не нужны и добавляют draw calls. Меши с префиксом Lux_ оставить. Остальные опции — неизвестно, общие правила. В Patch Hub отмечать только патчи для установленных модов (Embers XD и др.).",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Разделённые меши Lux",
+    "ENB Light"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Patch Hub — ниже Lux и ниже патчируемых модов. Lux — выше CS Light.",
+   "plugin_order": "Патчи из Patch Hub — после Lux и патчируемых плагинов (LOOT обычно справляется).",
+   "config": "",
+   "verify": "В интерьерах нет чёрных мешей и мерцания света. В xEdit у патчей нет пропавших мастеров.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 43158: Tempus VR — Lux (main) 7.0; Panda's — 6.9 и 7.0; SE-списки — 7.0 + main plugin update 7.1. 113002: SE и Panda's — patch hub 7.1. FAQ Community Shaders: ставить Lux без опций мешей. Список dont в манифесте."
+  },
+  {
+   "key": "world-63588",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«Lux Via (main)» 2.2, «Lux Via main plugin update», «Lux Via meshes update», «Updated Lux - Resources plugin» — так Tempus VR. Если нужен Resource pack, то вариант «Optional Lux Resource pack (No ENB light)», как в CS-сборках CSVO и Morning Star; «(ENB light)» не брать. Patch Hub 116722 — «Lux Via (patch hub)» 2.2.",
+   "fomod": "неизвестно — общие правила; патчи — только для установленных модов",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Lux Via Resource pack (ENB light) при Open Shaders"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Обновления (plugin/meshes update) — ниже основного Lux Via. Patch Hub — ниже патчируемых модов.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Фонари на дорогах и мостах светят. В xEdit нет пропавших мастеров.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 63588: Tempus VR — четыре файла; CSVO и Morning Star — Resource pack (No ENB light); Panda's — (ENB light). 116722: Tempus VR и 10 SE-списков — patch hub 2.2."
+  },
+  {
+   "key": "world-56095",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«Lux Orbis (main)» 4.5 (Tempus VR, Panda's, Tahrovin) + «Lux Orbis - Patch Hub» 4.7 (Tahrovin, SE-списки).",
+   "fomod": "неизвестно — общие правила; патчи — только для установленных модов",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Patch Hub — ниже Lux Orbis и патчируемых модов.",
+   "plugin_order": "",
+   "config": "Мод дорогой по кадру. Включать, если есть запас по времени кадра.",
+   "verify": "Уличные фонари в городах светят. Время кадра в Вайтране в норме.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 56095 и 114169: Tempus VR, Panda's, Tahrovin — main 4.5; Patch Hub 4.7 — Tahrovin и SE-списки."
+  },
+  {
+   "key": "world-42731",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Azurite Weathers III 3.35 (Stormcrown VR, 2026). MCM: «Azurite Weathers - MCM and Settings Loader» 1.2.1 (Stormcrown, Panda's). HDR: «Azurite III - HDR» 1.0.1 (Stormcrown VR). По желанию, как у Panda's Sovngarde: Alluring Sunsets and Sunrises 3 (#119148), Azurite Weathers III - Enhanced (#150269); Seasonal Weathers Framework (#63562) — только с Seasons of Skyrim.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Open Shaders (#180419) или CSX (#166950) — для HDR"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Volumetric Mists",
+    "другие погодные моды"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "MCM и HDR — ниже основного Azurite. Storm Lightning — ниже погоды.",
+   "plugin_order": "",
+   "config": "HDR, по странице мода: [Display] bUseFilmicCurve=1 и fFilmicWhiteScale=10. В какой именно ini это задаётся — сверить со страницей, без этого тонмаппинг не работает. Проверить, не дублирует ли HDR встроенный HDR или Post-Processing Open Shaders. Настройки погоды — через MCM.",
+   "verify": "В MCM есть меню Azurite. Небо и погода меняются, нет пересвета. В логах Papyrus нет ошибок Azurite.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 42731: Stormcrown 3.35, Panda's и Tahrovin 3.34. 139858: Stormcrown, Panda's 1.2.1. 138991: Stormcrown 1.0.1. Поиск: описание HDR (требует CS и Azurite III, строки [Display]). Сканирование VR-списков: аддоны Azurite у Panda's. Список dont (Volumetric Mists)."
+  },
+  {
+   "key": "world-72115",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной 72115 + VR-DLL 73111. Брать одну из двух проверенных пар: основной 1.3.1 + «Splashes of Storms VR» 1.3.0 (FUS, Panda's, Tempus VR) или основной 1.4.0 + VR 1.3.1 (Yggdrasil VR, 2026).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "VR-мод — ниже основного, его DLL должна победить.",
+   "plugin_order": "",
+   "config": "Настройки — в po3_SplashesOfStorms.toml.",
+   "verify": "В sksevr.log DLL Splashes of Storms загружена без ошибки версии. В дождь видны брызги.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 73111: 6 VR-списков — VR 1.3.0, Yggdrasil — 1.3.1. 72115: FUS, Panda's, Tempus — 1.3.1; Yggdrasil — 1.4.0. Step wiki: Splashes of Storms by powerofthree, po3_SplashesOfStorms.toml. VR Address Library — общее правило для SKSE-DLL."
+  },
+  {
+   "key": "world-47710",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Основной 47710 + VR-DLL 58104. Пары: основной 1.4.0 + «Splashes of Skyrim VR» 1.4.0 (FUS, Panda's) или основной 1.6.0 + VR 1.5.0 (Yggdrasil VR, 2026). Старый VR 1.6.0.2 от 2021 года (Librum) не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "VR-мод — ниже основного.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена. Стрела или заклинание в воде дают брызги и круги, под водой — взрывы.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 58104: FUS и Panda's — VR 1.4.0; Yggdrasil — 1.5.0 (2026-06); Librum — 1.6.0.2. 47710: Yggdrasil — 1.6.0. Описание по гайду Nolvus: SKSE-плагин брызг и кругов от снарядов."
+  },
+  {
+   "key": "world-177023",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Dynamic Wind Framework 1.4 + «DynamicWindSkyrim» 1 (#177024) — так Stormcrown VR.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Dynamic Wind Framework (#177023) — для Dynamic Wind — Skyrim",
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Dynamic Wind — Skyrim — ниже фреймворка.",
+   "plugin_order": "",
+   "config": "Если в архиве есть DLL — нужна VR Address Library (общее правило).",
+   "verify": "В sksevr.log фреймворк загружен без ошибки. Деревья и трава качаются по ветру. Время кадра не просело.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses 177023 и 177024: из VR только Stormcrown VR; SE — LoreRim, NGVO, Wunduniik, True North. Официальных сведений о поддержке VR не найдено."
+  },
+  {
+   "key": "world-56520",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«Water Mod» 0.8 (Stormcrown VR, Spirit of Grit, SE-списки). По желанию — «Simplicity of Sea - Water Color Tweaks» (#148761, Stormcrown VR).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Water for ENB (#37061)"
+   ],
+   "choose_one_group": "water",
+   "mo2_order": "Color Tweaks — ниже основного.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Вода в реках и море меняет вид. Нет швов и прозрачных пятен на стыках ячеек.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 56520: Stormcrown VR, Spirit of Grit, Tahrovin-Grit — 0.8; Panda's — 0.7. 148761 — Stormcrown VR."
+  },
+  {
+   "key": "world-37061",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Water for ENB: 2.15 (Tempus VR) или последний 2.21 (Morning Star, SUP).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Simplicity of Sea (#56520)"
+   ],
+   "choose_one_group": "water",
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Вода меняет вид. Нет швов на стыках ячеек.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 37061: Tempus VR — 2.03 и 2.15; SE — 2.16–2.21."
+  },
+  {
+   "key": "world-170955",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«Map - CS» 1.0.0 (Stormcrown VR, CSVO, Morning Star).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Open Shaders (#180419) или CSX (#166950)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Open Shaders или CSX.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "На карте мира видна погода. Карта открывается без вылета.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses 170955: Stormcrown VR (с CSX), CSVO, Morning Star — 1.0.0. Требование CS — по названию; на Open Shaders в VR не проверено."
+  },
+  {
+   "key": "world-37085",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«Embers XD 2K» 3.2.8 (Stormcrown VR, 2026-09) или 1K. Для слабых ПК по желанию — «Embers XD (Less Poly)» (#164369, Panda's).",
+   "fomod": "По треду Step, в установщике есть качество частиц: для VR выбрать Optimized. С Open Shaders опции ENB/Complex Particle Lights не брать — свет даст CS Light (группа Embers XD или Lux). С CSX — либо частицы Embers, либо конфиги CS Light, не оба. Точные названия опций — читать установщик.",
+   "requires": [],
+   "requires_missing": [
+    "Embers XD - Frozen Electrocuted Combustion Patch (#69446) — если ставите Frozen Electrocuted Combustion VR"
+   ],
+   "incompatible_with": [
+    "Embers HD"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Патчи Lux для Embers XD из Lux Patch Hub — ниже обоих модов. CS Light — ниже.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "У костров видны дым и искры. Свет не двоится. FPS у костров в норме.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 37085: Stormcrown VR — 2K 3.2.8; Tempus VR — 3.1.7; Panda's — 3.1.5; Yggdrasil — Lite. 69446: Tempus VR, Panda's. 164369: Panda's. Тред Step про опцию Optimized. Описание Embers XD: поддержка Complex Particle Lights ENB."
+  },
+  {
+   "key": "world-73336",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "«Moons And Stars - Sky Overhaul SKSE» 2.0.2 (73336) + «Moons and Stars - Sky Overhaul SKSEVR» 2.0.0 (73667). Версию 2.1.0 не брать: под неё нет VR-DLL.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Moons and Stars 2.1.x",
+    "другие моды, меняющие меши звёзд и лун"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Мод с SKSEVR-DLL — ниже основного 2.0.2: VR-DLL должна победить.",
+   "plugin_order": "",
+   "config": "Текстуры галактики совместимость не ломают: Stormcrown VR ставит Realistic Galaxy вместе с M&S.",
+   "verify": "В sksevr.log DLL Moons and Stars загружена без ошибки версии. Ночью видны фазы лун и вращение неба.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: все 6 VR-списков ставят пару 73336 2.0.2 + 73667 2.0.0; 2.1.0 — только SE-списки. Step wiki: автор powerofthree, wSkeever. Stormcrown_VR.txt: Realistic Galaxy 16k."
+  },
+  {
+   "key": "world-29243",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«Storm Lightning for SSE and VR - Fomod Installer»: последний 1.4.25 (TNE, 2026-08) или 1.4.22–1.4.23 (FUS, Tahrovin).",
+   "fomod": "В установщике выбрать вариант для VR, если он есть. Остальное — неизвестно, общие правила.",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Azurite Weathers III.",
+   "plugin_order": "После Azurite (LOOT).",
+   "config": "",
+   "verify": "В грозу видны разряды в землю и синхронный гром.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 29243: FUS 1.4.22, Tahrovin 1.4.23, Tempus VR 1.4.21, Librum 1.4.18; TNE и SUP — 1.4.25."
+  },
+  {
+   "key": "world-87261",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Natural Waterfalls 3.7 (последний, SE-списки). В VR-сборках: Panda's — 3.2, Tempus VR — 3.0.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "WAVY Waterfalls Effect (#126073) — проверить, оба меняют водопады"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Simplicity of Sea или Water for ENB.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "У водопадов есть брызги, пена и туман. В xEdit нет конфликта с водным модом.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 87261: Tempus VR 3.0, Panda's 3.2; NGVO, CSVP, SUP — 3.7. Заметка research про WAVY."
+  },
+  {
+   "key": "world-112509",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Каждый модуль — отдельная страница: Frost (112509) 1.2, Fire (109414) 1.23 (по желанию вариант «Yellow Fire»), Lightning (124520) 1.3, Dragon Breath (118431) 1.32, Healing (133774) 1.3, Portals (135614) 1.03. Так Tempus VR.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "другие замены визуала магии тех же школ"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Огонь, мороз и молния выглядят по-новому. В шлеме эффект не закрывает обзор.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 112509, 109414, 124520, 118431, 133774, 135614: Tempus VR — все 6 модулей; Tahrovin и Panda's — часть."
+  },
+  {
+   "key": "world-12939",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Deadly Spell Impacts v1.70 (6 VR-списков) или v1.9 (Panda's). Parallax Spell Impacts 83935 — 2.1, по желанию «Thunderbolt HD» (Panda's).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Deadly Spell Impacts (#12939) — для PSI",
+    "Open Shaders (#180419) — параллакс PSI"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "PSI — ниже DSI.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "На земле остаются следы заклинаний. С PSI у следов есть рельеф.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 12939: Tempus VR, Spirit of Grit, Tahrovin, Librum, Yggdrasil — v1.70; Panda's — v1.9. 83935: Panda's — 2.1 + Thunderbolt HD."
+  },
+  {
+   "key": "world-133368",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«slightly Better Dust» 1.0 (Stormcrown VR, Tempus VR). Improved Sparks 19831: файлы «Grindstones - 10X Sparks» и «Impact Effects - Vanilla Sparks» (Yggdrasil VR); какой из них основной — неизвестно, смотреть страницу.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Пыль от ударов мелкая. Искры от оружия и точила видны.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 133368: Stormcrown VR, Tempus VR — 1.0. 19831: Panda's — Grindstones 10X Sparks; Yggdrasil — оба файла."
+  },
+  {
+   "key": "world-13749",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«VolcanicHeatHaze-by-fadingsignal» 1.0 — единственный файл.",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Если марево в шлеме неприятно — выключить мод.",
+   "verify": "Над горячими источниками Истмарка видно марево.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 13749: Librum VR, Panda's, Tahrovin, Spirit of Grit, Tahrovin-Grit — тот же файл 1.0."
+  },
+  {
+   "key": "land-42161",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "«NGIO - NG (1.6.14)» — общая сборка, VR поддерживается (так Stormcrown VR). Старый «NGIO - VR (1.4.15)» 1.1.0 не брать. С той же страницы по желанию: «Config INI - GrassControl.ini» отдельным модом и «Grass Generation MO2 Plugin v2» — плагин MO2 «Precache Grass» в папку plugins MO2 (так Tempus VR).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "NGIO .NET Framework-версия"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Сгенерированный кэш (папка Grass из Overwrite) — отдельный мод «Grass Cache» в самом низу, в сепараторе «Сгенерированное».",
+   "plugin_order": "",
+   "config": "SKSE\\Plugins\\GrassControl.ini (дефисные ключи, как в GrassControl.toml из репо). Задать: Use-grass-cache = true; Only-load-from-cache = true; Ray-cast-enabled = true (основная функция — трава не растёт в камнях и дорогах); DynDOLOD-Grass-Mode = 1 (Grass Cache Helper NG работает только с 1, и так дешевле для VR); Extend-grass-distance = false (при Mode 1); Super-dense-grass = false; Overwrite-min-grass-size = -1 (брать из ini). iMinGrassSize в SkyrimVR.ini [Grass] задать ДО прекэша: он запекается в кэш, FUS советует 60–100, больше — реже трава. Прекэш: в Root Builder добавить исключение для PrecacheGrass.txt; создать PrecacheGrass.txt в корне игры или запустить «Precache Grass» из меню Tools MO2. Вылеты во время генерации — норма, перезапускать. После любых изменений травы, ландшафта или ini — удалить кэш и сгенерировать заново. В DynDOLOD Advanced тоже выставить Grass LOD Mode 1.",
+   "verify": "В sksevr.log GrassControl загружен. После прекэша в моде Grass Cache есть Grass\\*.cgid. В игре трава не растёт сквозь камни и дороги, FPS на открытой местности выше.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "github.com/DwemerEngineer/No-Grass-In-Objects-NG: README (VR Address Library, PrecacheGrass.txt, Precache Grass в MO2) и GrassControl.toml (имена ключей). whouses 42161: Stormcrown VR — NG 1.6.14; Tahrovin — VR 1.1.0; Tempus VR — Config INI и MO2 Plugin v2. Поиск: Step и форум DynDOLOD о Mode 1/2. Страница GCH NG: только Mode 1. Вики FUS про iMinGrassSize."
+  },
+  {
+   "key": "land-101095",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Grass Cache Helper NG 1.0.2 (Stormcrown VR).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "No Grass In Objects NG (#42161)",
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Работает только с DynDOLOD-Grass-Mode = 1. Подменяет загрузку .GID на .CGID — кэш NGIO переименовывать не нужно. Видит PrecacheGrass.txt и на время прекэша сам выставляет ini игры. С Seasons of Skyrim 1.8+ сам грузит сезонный кэш (.SPR/.SUM/.AUT/.WIN.CGID).",
+   "verify": "В sksevr.log плагин загружен. Трава из кэша видна. Нет пустых квадратов травы.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Сниппеты страницы 101095 и форума Step (автор Shizof): совместим с SE/AE/VR/GOG, только Mode 1, PrecacheGrass.txt, поддержка сезонов. whouses: Stormcrown VR 1.0.2, Tempus VR 1.0.1."
+  },
+  {
+   "key": "land-9005",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Landscape Fixes For Grass Mods 5.8 (Tempus VR, Stormcrown VR, Panda's). Доп. патчи с той же страницы (Arthmoor's Town add-ons, Great Cities, Helgen Reborn и т. п.) — только если стоят эти моды.",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "Как ставит LOOT, до генерации кэша травы.",
+   "config": "Ставить до прекэша травы.",
+   "verify": "У дорог и стен нет торчащей травы.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 9005: 9 VR-списков, свежие — 5.8."
+  },
+  {
+   "key": "land-164058",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Merethic Grasslands, один вариант под ландшафтные текстуры: Vanilla, Faultier's, Vanaheimr или Exist (бывший «Vanilla Plus»). Stormcrown VR ставит «Merethic Grass - Exist Variant» Ex1.68. Пока текстуры ванильные — брать Vanilla. На этапе текстур пересмотреть вариант и перегенерировать кэш.",
+   "fomod": "неизвестно — общие правила; вариант выбирать по ландшафтным текстурам",
+   "requires": [
+    "DrJacopo's 3D Grass Library — только файл Meshes (#80687)",
+    "Open Shaders (#180419) — Grass Lighting"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "другие травяные оверхолы"
+   ],
+   "choose_one_group": "grass",
+   "mo2_order": "Ниже 3D Grass Library Meshes: Merethic должен перекрыть её файлы.",
+   "plugin_order": "",
+   "config": "Landscape Fixes For Grass Mods рекомендован. Перед прекэшем NGIO выставить iMinGrassSize.",
+   "verify": "Трава ванильного стиля, без парящей травы. Время кадра на открытой местности в норме.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Поиск (зеркало Schaken и страница 164058): нужны только Meshes 3D Grass Library + CS Grass Lighting, грузить после Library; Exist = бывший Vanilla Plus. whouses 164058: Stormcrown VR — Exist Ex1.68; там же 80687 Meshes 16.53."
+  },
+  {
+   "key": "land-80687",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "«DrJacopo's - 3D Grass Library - Meshes» 16.53 (Stormcrown, Panda's). Этот файл ставить ВСЕГДА: он нужен и Merethic. «Resource Textures» и травяной сет на базе Cathedral (Panda's и Tempus VR ставят Freak's Floral Fields) — только если вместо Merethic выбран Cathedral-сет. 3D-растения (Cathedral 3D Tundra Shrubs, 3D Stonecrop) Stormcrown ставит вместе с Merethic.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Open Shaders (#180419) — Grass Lighting"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": "grass",
+   "mo2_order": "Выше Merethic или выше травяного сета Cathedral.",
+   "plugin_order": "",
+   "config": "Как альтернатива Merethic — один травяной сет. Meshes — общая зависимость, не конфликт.",
+   "verify": "Нет невидимой и парящей травы. Время кадра в норме.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 80687: Stormcrown и Panda's — Meshes 16.53; Tempus — Meshes + Resource Textures; FUS — Cathedral 15.2. Сканирование VR-списков: Freak's Floral Fields у Panda's и Tempus. Stormcrown_VR.txt: 3D Tundra Shrubs и Stonecrop с Merethic."
+  },
+  {
+   "key": "land-50961",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Happy Little Trees 2.03 + «Happy Little Trees 3D LOD - Performance» 2.02 (5 VR-списков). Quality — только на мощной видеокарте. Как у FUS, по желанию: «Performance - dlc1 pine fix» и «Solstheim Broken Pines 3D LOD Fix» с той же страницы 56907.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "DynDOLOD 3 + Resources SE 3 + DynDOLOD DLL NG (#68518) — для LOD-аддона"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "другие оверхолы деревьев"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "LOD-аддон — ниже HLT и ниже DynDOLOD Resources.",
+   "plugin_order": "",
+   "config": "В DynDOLOD выбрать 3D tree LOD (FUS по умолчанию берёт Performance и средний пресет).",
+   "verify": "Деревья заменены. После DynDOLOD дальние деревья совпадают с ближними.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 50961 и 56907: Spirit of Grit, Tahrovin, FUS, Yggdrasil — 2.03 + 3D LOD Performance 2.02; у FUS также Quality и фиксы. Вики FUS (Settings-for-tools): пресеты DynDOLOD."
+  },
+  {
+   "key": "land-6",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "«Seasons of Skyrim» (62861) 1.8.6 + «Seasons of Skyrim VR» (63593) 1.8.6 — так Panda's Sovngarde. Версию 1.9.0 не брать: VR-DLL под неё не видно. По желанию — «Four Seasons - Faster Seasons of Skyrim» (#64286; Panda's, Librum VR).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [
+    "Seasons of Skyrim VR (#63593) — VR-DLL",
+    "Seasons of Skyrim (#62861) — основной"
+   ],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "VR-мод — ниже основного. Сезонные патчи — ниже.",
+   "plugin_order": "",
+   "config": "Кэш травы и LOD — на каждый сезон: 4 прогона прекэша NGIO, Grass Cache Helper NG сам грузит нужный сезонный кэш (нужна SoS 1.8+). Для Azurite — по желанию Seasonal Weathers Framework (#63562).",
+   "verify": "В sksevr.log VR-DLL загружена. Зимой летние регионы в снегу. Трава сезона без парящей травы.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: Panda's — 62861 1.8.6 + 63593 1.8.6 и 64286; True North — 1.9.0 (SE). Страница GCH NG: поддержка SoS через SKSE API с 1.8. VR Address Library — общее правило для DLL."
+  },
+  {
+   "key": "land-87521",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "LOD Model Library: последний 1.8.3 (CSVO, NGVO, 2026-06). В VR только Panda's — «LOD Model Library - FOMOD» 1.6.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "DynDOLOD 3 + Resources SE 3 + DynDOLOD DLL NG (#68518)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже DynDOLOD Resources SE 3.",
+   "plugin_order": "",
+   "config": "Нужен только при генерации DynDOLOD. Держать включённым до и во время запуска TexGen и DynDOLOD.",
+   "verify": "После DynDOLOD дальние скалы, руины и постройки детальнее.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 87521: Panda's — FOMOD 1.6; 12 SE-списков, 1.8.3. Заметка research."
+  },
+  {
+   "key": "land-12431",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "No Grass In Caves: 1.2 (FUS, Yggdrasil VR) или 1.3 (последний, SE).",
+   "fomod": "нет установщика",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Ставить до прекэша травы.",
+   "verify": "В пещерах нет травы.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 12431: FUS и Yggdrasil — 1.2; 1.3 — 2025-12."
+  },
+  {
+   "key": "land-9121",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Better Dynamic Snow SE 3.6.0 (Stormcrown, Tempus, Panda's) + Better Dynamic Ash SE 2.1.1 (54754). На этапе параллакса по желанию — «Better Dynamic Snow - Complex Parallax Materials» (#115401, Tempus VR).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Возможно пересечение с DynamicShader — DynamicSnow (try): проверить снег на объектах вместе, при двойном снеге оставить одно.",
+   "verify": "Снег и пепел лежат сверху объектов по геометрии.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 9121: Stormcrown, Tempus, Panda's — 3.6.0; 54754: 5 VR-списков — 2.1.1; 115401 — Tempus VR."
+  },
+  {
+   "key": "land-78702",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "«Simple Snow Improvements - Skyrim Fixes» 2.3 (Panda's) или 2.4 (SE). По желанию аддоны SSI, как у Panda's: Snow Forts (#85413), Giant Obelisks (#75251), Solstheim Ruins (#96532).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Base Object Swapper VR (#61734)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Снег на скалах и постройках без лишнего блеска и швов. У BOS нет ошибок в логе.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 78702: Panda's — 2.3; сканирование VR-списков — аддоны SSI у Panda's."
+  },
+  {
+   "key": "land-3808",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Footprints 1.6.1 + SPID for Footprints 3.4 (54924) — так Tempus VR и Panda's. По желанию: «SPIDforFootprintUltimateFix» 1.03 (#96086; Tempus, Panda's) и «Footprints - Alternative Design» (#109544).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Spell Perk Item Distributor VR (#59121)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Dynamic Footprints SKSE (#175254)"
+   ],
+   "choose_one_group": "footprints",
+   "mo2_order": "SPID for Footprints — ниже Footprints. Фиксы — ниже SPID for Footprints.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "На снегу и песке остаются следы игрока и NPC. В логе SPID раздача прошла без ошибок.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 3808, 54924: Tempus VR, Panda's, Yggdrasil; 96086 и 109544 — Tempus и Panda's."
+  },
+  {
+   "key": "land-79473",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Auto Parallax 1.0.27 (FUS, Panda's, Tahrovin), одна NG-DLL.",
+   "fomod": "нет установщика",
+   "requires": [
+    "VR Address Library for SKSEVR (#58101) 0.65.0+",
+    "Engine Fixes VR (#62089)",
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Экспериментальное автовключение параллакса в INI оставить выключенным. Нужен на этапе parallax-текстур.",
+   "verify": "В sksevr.log Auto Parallax загружен. Нет растянутых и «плывущих» текстур на мешах без карты высот.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Сниппет страницы 79473: для VR нужны VR Address Library 0.65.0+ и Engine Fixes VR, CS рекомендован; опция в INI экспериментальная. whouses: FUS, Panda's, Tahrovin — 1.0.27."
+  },
+  {
+   "key": "perf-171182",
+   "kind": "root_files",
+   "install_target": "root_builder",
+   "files": "«Open Composite Unleashed for Skyrim VR» 5.0.0 (Stormcrown VR, 2026-09-19). Название страницы на Nexus — «Open Composite XR with Working Keyboard for VR».",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Root Builder (#31720)",
+    "OpenXR-рантайм: SteamVR, VDXR или Meta (не мод)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Skyrim VR OpenComposite Fixes Custom Build (#85389)",
+    "оверлеи SteamVR (fpsVR не покажется)"
+   ],
+   "choose_one_group": "opencomposite",
+   "mo2_order": "Сепаратор «Инструменты и корень».",
+   "plugin_order": "",
+   "config": "openvr_api.dll и opencomposite.ini должны лежать в папке Root внутри мода. Если её нет — создать и перенести туда файлы. Root Builder подменит openvr_api.dll в корне игры. OpenXR-рантайм: в Virtual Desktop Streamer, приложении Oculus и SteamVR выставить один рантайм (SteamVR или VDXR) — по вики FUS. Разрешение рендера менять только в одном месте (opencomposite.ini, SteamVR или VD), иначе оно перемножится. Нагрузку смотреть через Oculus Debug Tool или график Virtual Desktop. После отключения OC: Root Builder → Clear и очистить Overwrite.",
+   "verify": "В окне SteamVR написано «Now Playing - OpenComposite_SkyrimVR» (по вики FUS), при VDXR игра идёт без SteamVR. Виртуальная клавиатура работает при вводе имени.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 171182: Stormcrown VR — 5.0.0; Panda's, Tahrovin, Librum, Tempus — 3.0.1. Метаданные WJ: название страницы. Вики FUS: Using-opencomposite-with-Virtual-Desktop, Performance-adjustment, Troubleshooting (Root Builder Clear, Overwrite). Сниппет GitHub OpenOVR: opencomposite.ini ищется рядом с openvr_api.dll. Список dont: «Две сборки OpenComposite»."
+  },
+  {
+   "key": "perf-31392",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "«VR FPS Stabilizer (FOMOD Installer)» 1.4.12 (Stormcrown VR, Tahrovin, 2026-08).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Целевую частоту в ini задать под частоту шлема. Имена ключей — смотреть в файле мода.",
+   "verify": "В sksevr.log плагин загружен. В тяжёлых сценах меньше репроекции.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 31392: Stormcrown и Tahrovin — 1.4.12; Panda's, Spirit of Grit, Librum — 1.4.6; FUS — 1.4.3/1.4.6. Сниппет: «Requires SKSEVR». Stormcrown ставит его вместе с CSX."
+  },
+  {
+   "key": "perf-163969",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "«Save.Load.Accelerator.For.SKSE.Cosaves.VR.zip» 1.5.1 (сборка под SKSE 2.0.12 / VR 1.4.15). Из AIO-архива с FOMOD выбрать VR.",
+   "fomod": "Если берёте AIO-архив — выбрать VR. VR.zip ставится без установщика.",
+   "requires": [
+    "SKSEVR 2.0.12 (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "",
+   "config": "Ini «!!!!!!!##$Save&LoadAcceleratorForSKSECosaves.ini» — оставить по умолчанию. Дополняет Seamless Saving VR, не заменяет его.",
+   "verify": "В sksevr.log плагин загружен. Сохранение и загрузка с ко-сейвом заметно быстрее.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "github.com/just-harry/save-load-accelerator-for-skse-cosaves: README (в благодарностях — VR Address Library), releases v1.5.1 (2026-09-09): ассет .VR.zip, VR — для SKSE 2.0.12. whouses: Librum VR 1.3.x, Panda's 1.1.0."
+  }
+ ],
+ "group_notes": "Выбрать по одному: shaders — Open Shaders (core) ИЛИ CSX (alt), никогда вместе с CS 1.7+ или ENB. water — Simplicity of Sea ИЛИ Water for ENB. grass — Merethic Grasslands ИЛИ травяной сет Cathedral; файл «3D Grass Library - Meshes» (#80687) нужен Merethic и ставится в любом случае. footprints — Footprints+SPID ИЛИ Dynamic Footprints SKSE (hitech-175254). opencomposite — Unleashed ИЛИ старый Custom Build (#85389).\nСвязка света: Open Shaders → Light Placer (VR-DLL ниже основного) → Lux / Lux Via / Lux Orbis без split meshes → Embers XD без ENB-частиц → CS Light (группа Lux на первом шаге, без Furniture) → патчи Patch Hub ниже всех. С CSX работают Particle Lights, но один объект не освещать дважды. ENB Lights For Effect Shaders не ставить вместе с Magic FX из CS Light.\nПины VR-DLL: Moons and Stars 2.0.2 + SKSEVR 2.0.0 (2.1 не брать); Splashes of Storms и Splashes of Skyrim — только проверенными парами основной+VR; Seasons of Skyrim 1.8.6 + VR 1.8.6 (VR-страница #63593 в манифест не внесена).\nТрава: все травяные и ландшафтные моды и iMinGrassSize — ДО прекэша. GrassControl.ini: Use-grass-cache=true, Only-load-from-cache=true, Ray-cast-enabled=true, DynDOLOD-Grass-Mode=1 (Grass Cache Helper NG поддерживает только 1), Extend-grass-distance=false. Root Builder — исключение для PrecacheGrass.txt. Кэш — отдельный мод внизу. С Seasons — 4 кэша. DynDOLOD — тоже Mode 1.\nМожно попробовать с риском: Native Water Light Stabilizer (выключать первым, если Open Shaders не грузится), Dynamic Wind Framework и Map Weather — CS (в VR подтверждены только Stormcrown VR на CSX). Неизвестно: точные названия опций FOMOD у Open Shaders, Lux, Azurite, Embers XD, Storm Lightning, VR FPS Stabilizer, а также структура архива OpenComposite (проверить папку Root). Пакеты с проверкой: /tmp/claude-0/-home-user-ucheba/675ca7ba-7e86-5498-b13b-77d6827cd5fd/scratchpad/gh/cslight/main.xml (FOMOD CS Light), /tmp/claude-0/-home-user-ucheba/675ca7ba-7e86-5498-b13b-77d6827cd5fd/scratchpad/gh/ngio/GrassControl.toml (ключи NGIO)."
+}

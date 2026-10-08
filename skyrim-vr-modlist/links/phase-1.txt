@@ -1,0 +1,78 @@
+# Фаза 1: Инструменты, корень игры, мастера и USSEP
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [core] Mod Organizer 2 — Mod.Organizer-2.5.2.7z с GitHub (ModOrganizer2/modorganizer releases). Ту же версию ставят Stormcrown VR и Panda's Sovngarde.
+https://github.com/ModOrganizer2/modorganizer/releases
+
+# [core] Root Builder — Root Builder 5.1.x (Stormcrown VR — Root Builder-31720-5-1-1). Panda's Sovngarde и Tempus VR — 5.0.5.
+https://www.nexusmods.com/skyrimspecialedition/mods/31720
+
+# [core] SSEEdit (xEdit) — SSEEdit/xEdit 4.1.5f (xEdit.4.1.5f.7z с GitHub TES5Edit или Nexus #164). Ставят Stormcrown VR, Tempus VR, FUS и Panda's Sovngarde.
+https://www.nexusmods.com/skyrimspecialedition/mods/164
+
+# [core] LOOT — LOOT с GitHub (loot/loot releases), свежая версия. Panda's Sovngarde — loot_0.26.0-win64.7z.
+https://loot.github.io/
+
+# [core] BethINI Pie + Skyrim VR Plugin for Bethini Pie — BethINI Pie (Nexus site/mods/631) и Skyrim VR Plugin for Bethini Pie (#177465). Старый BethINI Standalone 3.6.1 (стоит в Tahrovin и SoG) не брать.
+https://www.nexusmods.com/site/mods/631
+https://www.nexusmods.com/skyrimspecialedition/mods/177465
+
+# [rec] Pandora Behaviour Engine+ — Pandora Behaviour Engine не старше 4.1.2-beta: в ней вернули поддержку SkyrimVR, Tahrovin ставит v4.1.2-beta. Последние — 4.4.0-beta и 5.0.0-beta (01.10). Если 5.0 не собирает, взять 4.4.0-beta.
+https://www.nexusmods.com/skyrimspecialedition/mods/133232
+
+# [rec] Synthesis — Synthesis.zip с GitHub (Mutagen-Modding/Synthesis releases). Panda's Sovngarde — 0.35.0.
+https://github.com/Mutagen-Modding/Synthesis/releases
+
+# [rec] fpsVR или SteamVR Frame Timing — fpsVR (платное приложение Steam) или бесплатный SteamVR → Advanced Frame Timing. В MO2 не ставится.
+https://store.steampowered.com/app/908520/fpsVR/
+
+# [core] DynDOLOD 3 + Resources SE 3 + DynDOLOD DLL NG — DynDOLOD 3.00 Alpha-210 или новее (Stormcrown VR, 20.08.2026; Morning Star — Alpha-212). Resources SE 3.00 Alpha-59 (#52897, Stormcrown). DynDOLOD DLL NG and Scripts 3.00 Alpha-43 (#97720, Stormcrown). Старую DynDOLOD DLL VR и DLL SE не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/68518
+https://www.nexusmods.com/skyrimspecialedition/mods/52897
+https://www.nexusmods.com/skyrimspecialedition/mods/97720
+
+# [core] xLODGen — xLODGen.132.7z с GitHub (sheson/xLODGen release v132), так в Stormcrown VR.
+https://stepmodifications.org/forum/topic/13451-xlodgen/
+
+# [rec] MCM Memory — MCM Memory 1.5.3 или новее: в 1.5.3 исправлено автовосстановление в VR. Stormcrown VR — 1.5.3.
+https://www.nexusmods.com/skyrimspecialedition/mods/189722
+
+# [opt] More Informative Console — Универсальный 1.2.2 (FUS, Panda, Tempus VR, Librum VR). Запасной — файл «More Informative Console 1.0.1 VR» (Tahrovin, SoG).
+https://www.nexusmods.com/skyrimspecialedition/mods/19250
+
+# [opt] Lights Conflict Resolver — Последняя версия (Tahrovin — 0.2.6, Tempus VR — 0.2.5).
+https://www.nexusmods.com/skyrimspecialedition/mods/175086
+
+# [opt] VR Keyboard — VR Keyboard-64319-1-0-1 (единственный файл, 5 VR-списков).
+https://www.nexusmods.com/skyrimspecialedition/mods/64319
+
+# [opt] PGPatcher (бывш. ParallaxGen) — PGPatcher 2.0.x (Stormcrown — 2.0.0, True North — 2.1.1).
+https://www.nexusmods.com/skyrimspecialedition/mods/120946
+
+# [opt] NIF Preview for MO2 — Вариант под MO2 2.5.2 — «NIF Preview MO2-2.5.2» 0.5.1 (Stormcrown VR). Panda — 0.4.3.
+https://www.nexusmods.com/skyrimspecialedition/mods/137741
+
+# [alt] Путь A. Обновлённые мастера SSE 1.6.1170 + 4 бесплатных CC — Мастера из купленной SE/AE 1.6.1170 (Steam/GOG): Skyrim.esm, Update.esm, Dawnguard.esm, HearthFires.esm, Dragonborn.esm. Плюс 4 бесплатных CC с их BSA: Survival Mode, Saints & Seducers, Rare Curios, Fishing. Точный список файлов — по гайду.
+https://www.nexusmods.com/skyrimspecialedition/articles/6529
+https://www.nexusmods.com/skyrimspecialedition/articles/6642
+
+# [alt] USSEP (последний, 4.3.x) — Основной файл последней версии (4.3.x; в Tempus VR — 4.3.2). Только для пути A.
+https://www.nexusmods.com/skyrimspecialedition/mods/266
+
+# [alt] Skyrim VR Strings Fix for Updated SSE Master Files — Версия 2.0 поддерживает обновлённые мастера 1.6.1170 и 1.5.97. Проверить, что в архиве есть строки для вашего языка игры.
+https://www.nexusmods.com/skyrimspecialedition/mods/176040
+
+# [alt] Survival Mode Prompt Removed (Disable Permanently) — Survival Mode - Disable Permanently 1.0.0 (Tempus VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/59049
+
+# [alt] Skyrim VR Survival Text Removed — Основной файл.
+https://www.nexusmods.com/skyrimspecialedition/mods/177398
+
+# [opt] Skyrim VR Fixes for Latest USSEP — Основной файл (ESL-мастер).
+https://www.nexusmods.com/skyrimspecialedition/mods/177650
+
+# [alt] Путь B. USSEP 4.2.5b + Skyrim VR USSEP patch for 4.2.5b — USSEP 4.2.5b из Old files страницы 266 (Unofficial Skyrim Special Edition Patch-266-4-2-5b, есть во всех 9 VR-списках). Плюс SkyrimVR USSEP 4.2.5b Compatibility Patch 1.0 (#91475; Stormcrown VR, Panda).
+https://www.nexusmods.com/skyrimspecialedition/mods/91475
+
+# [rec] Чистка мастеров в SSEEdit — Своих файлов нет: нужен SSEEdit 4.1.5f.
+https://www.nexusmods.com/skyrimspecialedition/mods/113681

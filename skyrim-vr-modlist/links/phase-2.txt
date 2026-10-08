@@ -1,0 +1,220 @@
+# Фаза 2: SKSEVR, библиотеки, фиксы движка, производительность
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [core] SKSEVR — SKSEVR 2.0.12: sksevr_2_00_12.7z с сайта SKSE (Tempus, FUS, Ygg и др.) или файл Nexus #30457 (Stormcrown, Panda). Других версий нет.
+https://www.nexusmods.com/skyrimspecialedition/mods/30457
+
+# [core] VR Address Library for SKSEVR — Последняя версия: Stormcrown — 0.270.0, Yggdrasil VR — 0.275.0 (30.09.2026).
+https://www.nexusmods.com/skyrimspecialedition/mods/58101
+
+# [core] Engine Fixes VR — Part 1 — основной файл 7.x: 7.10.0 от 03.10.2026, Stormcrown и Ygg ставят 7.9.0. Part 2 — файл «Part 2 Engine Fixes VR v1.26»/«v1.26a» с той же страницы: Stormcrown ставит его в пару к 7.9.0.
+https://www.nexusmods.com/skyrimspecialedition/mods/62089
+
+# [core] Skyrim VR ESL Support — Основной «Skyrim VR ESL» 1.3.2 (Stormcrown, Librum, Ygg). С той же страницы: «PapyrusUtil ESL Patch» 1.1 — ставить обязательно, он есть в 7 VR-списках, включая Stormcrown. «RaceMenu ESL Patch» 1.0 — только для старого RaceMenu VR 0.4.14 (#19080, так в Panda). Со RacemenuVR 0.5 (#156898) VR-списки его не ставят.
+https://www.nexusmods.com/skyrimspecialedition/mods/106712
+
+# [core] Crash Logger SSE AE VR — CrashLogger 1.25.0 — универсальный файл (Stormcrown, Ygg). Опционально с той же страницы «Skyrim PDBs» 2026.08.23 — для имён функций в логах.
+https://www.nexusmods.com/skyrimspecialedition/mods/59818
+
+# [core] Skyrim VR Tools — SkyrimVRTools 2.3 BETA — единственный файл, во всех VR-списках.
+https://www.nexusmods.com/skyrimspecialedition/mods/27782
+
+# [core] PapyrusUtil VR — Файл «PapyrusUtil VR - Scripting Utility Functions» 3.6b — во всех VR-списках. AE/SE-файлы не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/13048
+
+# [core] JContainers VR — Файл «JContainers VR», новейший 4.3.x (Ygg — 4.3.2, 09.2026). Stormcrown, Panda, Tempus, FUS — 4.2.11. JContainers SE не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/16495
+
+# [core] powerofthree's Papyrus Extender + Papyrus Extender VR — Основной Papyrus Extender (скрипты) и Papyrus Extender VR (#58296) одной версии. Stormcrown и Ygg ставят обе 6.5.2.
+https://www.nexusmods.com/skyrimspecialedition/mods/22854
+https://www.nexusmods.com/skyrimspecialedition/mods/58296
+
+# [core] powerofthree's Tweaks + po3 Tweaks VR — Основной po3 Tweaks (INI) и po3 Tweaks VR (#59510) одной версии. Stormcrown, Panda, Librum, Tempus — 1.15.1 + VR 1.15.1.
+https://www.nexusmods.com/skyrimspecialedition/mods/51073
+https://www.nexusmods.com/skyrimspecialedition/mods/59510
+
+# [core] Spell Perk Item Distributor VR — Spell Perk Item Distributor VR 7.3.0 — отдельная страница (Stormcrown, Ygg).
+https://www.nexusmods.com/skyrimspecialedition/mods/59121
+
+# [core] Keyword Item Distributor — Файл «Keyword Item Distributor (VR)» 4.1.0 со страницы 55728 (Stormcrown, Ygg). Старые VR-списки ставили универсальный 3.4.0.
+https://www.nexusmods.com/skyrimspecialedition/mods/55728
+
+# [core] Base Object Swapper VR — Base Object Swapper VR 3.4.1 — отдельная страница (Stormcrown, Panda, Librum, FUS, Ygg).
+https://www.nexusmods.com/skyrimspecialedition/mods/61734
+
+# [core] SkyPatcher — Файл «SkyPatcher - VR» 7.1.0 (Stormcrown). Panda — 5.0.3, Tempus — 6.3.1.
+https://www.nexusmods.com/skyrimspecialedition/mods/106659
+
+# [core] MCM Helper — Основной универсальный файл последней версии (Stormcrown — 1.6.2, Ygg — 1.6.3). Старый «MCM Helper VR» 1.4.0 не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/53000
+
+# [core] SkyUI VR — SkyUI VR 1.2.2 с Nexus #91535 (Stormcrown, Panda, FUS, Ygg). Старую GitHub-бету SkyUI-VR v1.0-beta не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/91535
+
+# [rec] Container Distribution Framework + VR — Основной CDF 3.0.2 и Container Distribution Framework VR 3.0.2 (#139051). Stormcrown и Ygg ставят пару.
+https://www.nexusmods.com/skyrimspecialedition/mods/120152
+https://www.nexusmods.com/skyrimspecialedition/mods/139051
+
+# [rec] FormList Manipulator — FormList Manipulator - FLM 1.8.1 — общий файл (Tempus, Stormcrown, Panda, Librum).
+https://www.nexusmods.com/skyrimspecialedition/mods/74037
+
+# [rec] Description Framework — 2.1.2 (Stormcrown, Tempus) или 3.0.0 (Yggdrasil VR, 28.09.2026). Опционально «Description Framework User INI settings» (Tahrovin).
+https://www.nexusmods.com/skyrimspecialedition/mods/105799
+
+# [rec] Inventory Interface Information Injector — Файл «Inventory Interface Information Injector (VR)» 1.1.0 (Tempus, Stormcrown, Panda, Tahrovin). SE-файл не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/85702
+
+# [rec] Sound Record Distributor — Sound Record Distributor 1.5.4 — общий файл (Stormcrown). Tempus и Panda — 1.5.0, Librum — 1.5.3.
+https://www.nexusmods.com/skyrimspecialedition/mods/77815
+
+# [rec] ConsoleUtilVR — ConsoleUtilVR 1.3 — единственный файл (6 VR-списков).
+https://www.nexusmods.com/skyrimspecialedition/mods/47189
+
+# [rec] SKSE Menu Framework + ImGui VR Helper — SKSE Menu Framework 3.18 (Stormcrown) и ImGui VR Helper (#183466): 1.9.4 в Ygg, 1.9.3 в Stormcrown.
+https://www.nexusmods.com/skyrimspecialedition/mods/120352
+https://www.nexusmods.com/skyrimspecialedition/mods/183466
+
+# [rec] MFG Fix NG — MfgFix NG последней версии (Tempus VR — 1.0.4, Panda — 1.0.3).
+https://www.nexusmods.com/skyrimspecialedition/mods/133568
+
+# [rec] Skyrim VR Refocused — Skyrim VR Refocused 1.0.2 — единственный файл (5 VR-списков).
+https://www.nexusmods.com/skyrimspecialedition/mods/32737
+
+# [rec] Scaleform Translation Plus Plus VR — ScaleformTranslationPP VR 1.4.1 (Tempus, Panda, Tahrovin, Ygg).
+https://www.nexusmods.com/skyrimspecialedition/mods/60210
+
+# [opt] UIExtensions — UIExtensions 1.2.0 (5 VR-списков).
+https://www.nexusmods.com/skyrimspecialedition/mods/17561
+
+# [opt] Object Categorization Framework — Object Categorization Framework 6.1.0 (Stormcrown). Tempus — 6.0.2.
+https://www.nexusmods.com/skyrimspecialedition/mods/81469
+
+# [opt] Dynamic String Distributor — Dynamic String Distributor 1.3.1 (Panda). Tempus — 1.2.5.
+https://www.nexusmods.com/skyrimspecialedition/mods/107676
+
+# [opt] MCM Unlocked — MCM Unlocked 2.1.6 (Stormcrown VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/180186
+
+# [opt] Dynamic Leveled Lists + Dynamic Container Loot — VR-файлы: «Dynamic Leveled Lists VR (SKSE)» 0.4.3a и «Dynamic Container Loot VR (SKSE)» 0.4a (#172018), так в Panda. Если на странице один файл с установщиком — выбрать VR. Предпочесть 0.5.2+: в ней исправлены вылеты.
+https://www.nexusmods.com/skyrimspecialedition/mods/172083
+https://www.nexusmods.com/skyrimspecialedition/mods/172018
+
+# [core] Poached Bugs VR — Main: «Poached Bugs VR Core File» последней версии (0.6.0 — так в Stormcrown VR, Librum VR, Yggdrasil VR). Отдельным модом — «Simonrim Choice Config» той же версии (0.6.0), потому что в сборке Adamant и Mysticism (SimonRim). Версии Core и Simonrim Config должны совпадать.
+https://www.nexusmods.com/skyrimspecialedition/mods/107053
+
+# [core] Papyrus Tweaks NG — Main: «Papyrus Tweaks» последней версии (4.2.1 — Yggdrasil VR, 2026-09; 4.1.1 — Stormcrown VR). Файл «INI file for reference» — не ставить, это образец INI.
+https://www.nexusmods.com/skyrimspecialedition/mods/77779
+
+# [rec] Skyrim freeze fix NG — Main: «skyrim-freeze-fix» последней версии (0.0.5 — Stormcrown VR, 2026-08; 0.0.3 — Tempus Maledictum VR). Отдельного VR-файла нет.
+https://www.nexusmods.com/skyrimspecialedition/mods/160704
+
+# [rec] Disabled Reference Integrity Fix (VR) — Брать VR-файл: «Disabled Reference Integrity Fix VR (SKSE)» (1.5.0 — Stormcrown VR, 2026-09). Файл «…AE (SKSE)» не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/175062
+
+# [rec] Block Condition Freeze CTD Fix — Main: «Block Condition Freeze CTD Fix» 1.0 (так в Yggdrasil VR, 2026-09-26). Отдельного VR-файла не видно.
+https://www.nexusmods.com/skyrimspecialedition/mods/193168
+
+# [rec] NPC AI Process Position Fix NG — Main: «NPC AI Process Position Fix - NG» последней версии (1.1.3 — Stormcrown VR, 2026-08; 1.1.1 — Yggdrasil VR, Panda's). Одна DLL на SE/AE/VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/69326
+
+# [rec] Animated Static Reload Fix NG — Main: «Animated Static Reload Fix - NG» последней версии (1.0.4 — Stormcrown VR, Yggdrasil VR). Одна DLL на SE/AE/VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/69331
+
+# [rec] Stagger Effect Fix — Main: «Stagger Effect Fix» последней версии (1.0.4 — Stormcrown VR, Yggdrasil VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/110508
+
+# [rec] Animation Queue Fix — Main: «Animation Queue Fix» последней версии (1.0.2 — Yggdrasil VR, 2026-08; 1.0.1 — ещё 6 VR-списков).
+https://www.nexusmods.com/skyrimspecialedition/mods/82395
+
+# [rec] Seamless Saving VR — Main: «SeamlessSaving» v1.0.7 (Stormcrown VR, Librum VR, Tempus VR). Мод только для VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/174106
+
+# [rec] Faster Decompression — Main: «Fast Decompress» последней версии (1.4.2 — Stormcrown VR, 2026-09). Универсальная DLL для AE и VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/174643
+
+# [rec] Disk Cache Enabler — Для VR брать вариант «Universal» (DiskCacheEnabler-Universal; так в Librum VR, Spirit of Grit, Tahrovin, Grit). Вариант «Main» по цитате описания — memory patch для AE. Файл «1.2» стоит в FUS/Stormcrown/Yggdrasil/Panda's/Tempus — брать его, только если в описании файла на вкладке Files прямо указан VR/universal.
+https://www.nexusmods.com/skyrimspecialedition/mods/100975
+
+# [rec] PrivateProfileRedirector — Только VR-файл: «PrivateProfileRedirector VR 0.6.2 (Runtime 1.4.15)» (так во всех 5 VR-списках: Stormcrown, Panda's, Tahrovin, FUS, Yggdrasil). Не брать SE-файлы 0.5.x/0.6.x.
+https://www.nexusmods.com/skyrimspecialedition/mods/18860
+
+# [rec] Skyrim Priority SE AE VR — Main: «Skyrim Priority SE AE» 3.4.0 (так в Stormcrown VR, Tempus VR, Panda's). Отдельного VR-файла нет.
+https://www.nexusmods.com/skyrimspecialedition/mods/50129
+
+# [rec] SCROTE — Simply Optimized Scripts — Брать «SCROTE Loose Files Version» последней версии (1.0.3 — Stormcrown VR, 2026-09). BSA-версию не брать: все VR-списки берут Loose Files.
+https://www.nexusmods.com/skyrimspecialedition/mods/97155
+
+# [rec] eFPS — Exterior FPS boost + Patch Hub — Main: «eFPS - Exterior FPS boost» 2.4.2. Отдельно «eFPS - Official Patch Hub» 1.7a (страница 54998) — только патчи для установленных модов. Так в Tempus VR, Yggdrasil VR, Stormcrown VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/54907
+https://www.nexusmods.com/skyrimspecialedition/mods/54998
+
+# [rec] Lightened Skyrim — BOS edition — Main: «Lightened Skyrim» на странице 111475 — версия для Base Object Swapper (1.10 — Stormcrown VR). ESP-версию со страницы 50755 вместе с ней не ставить.
+https://www.nexusmods.com/skyrimspecialedition/mods/111475
+
+# [rec] Inertia (Floating Gear Fix) — Main: «Inertia - Latest Version» (1.1.1 — Yggdrasil VR, 2026-09; 1.1.0 — Stormcrown VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/148746
+
+# [rec] Assorted Mesh Fixes — Main: «Assorted Mesh Fixes» последней версии (0.144 — Stormcrown VR, 2026-09-26). Файл «parallax shit (unsupported)» — не ставить, пока нет parallax-текстур (решить на этапе текстур).
+https://www.nexusmods.com/skyrimspecialedition/mods/32117
+
+# [rec] Unofficial Material Fix — Main: «Unofficial Material Fix» 1.18.0 (Stormcrown VR, Panda's).
+https://www.nexusmods.com/skyrimspecialedition/mods/21027
+
+# [rec] Skyrim Landscape and Water Fixes — Main: «Skyrim Landscape and Water Fixes - FOMOD» последней версии (v10.x; Panda's v10.0.2, Tempus v9.9.1A, SE до v10.6).
+https://www.nexusmods.com/skyrimspecialedition/mods/26138
+
+# [rec] Navigator — Navmesh Fixes — Main: «Navigator - Navmesh Fixes» последней версии (1.8.3 — Stormcrown VR, 2026-07).
+https://www.nexusmods.com/skyrimspecialedition/mods/52641
+
+# [opt] Increase Actor Limit for VR — Main: «Increase Actor Limit VR» v1.0 (единственный файл, во всех 8 VR-списках).
+https://www.nexusmods.com/skyrimspecialedition/mods/37440
+
+# [rec] Save Unbaker VR — Main: «Save Unbaker VR» 1.0.4 (Panda's, Tahrovin, Librum VR, Yggdrasil VR). SE-версию 85565 не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/86265
+
+# [rec] Dragonactorscript Infinite Loop Fix — Main: «Dragonactorscript Infinite Loop Fix - FOMOD» 1.4.2 (Spirit of Grit, Tahrovin-Grit, Yggdrasil VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/87940
+
+# [rec] Telekinesis Aim Fix VR — Main: «Telekinesis Aim Fix VR», версия «1» (2026-09-13; Yggdrasil VR, Tahrovin-Grit). Мод только для VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/191729
+
+# [opt] Collision Sentinel — Main: «CollisionSentinel» последней версии (2.1.0 — Spirit of Grit, Tahrovin-Grit, 2026-07).
+https://www.nexusmods.com/skyrimspecialedition/mods/181445
+
+# [opt] Recursion Monitor — Main: «Recursion Fix» 1.2 (единственный файл; 5 VR-списков).
+https://www.nexusmods.com/skyrimspecialedition/mods/76867
+
+# [opt] Combat Music Fix NG — Main: «Combat Music Fix NG» 2.0.0 (Stormcrown VR, 2026-09). Вариант «Only At Save Load» не брать (он только в SE-списке Nordic Souls PBR).
+https://www.nexusmods.com/skyrimspecialedition/mods/110459
+
+# [opt] Fixed Mesh Lighting — Main: «Fixed Mesh Lighting» 1.9.1 (Librum VR, FUS).
+https://www.nexusmods.com/skyrimspecialedition/mods/53653
+
+# [opt] Aurora Fix + Sky Reflection Fix — Два мода: «Aurora Fix» 1.0.1 (77834) и «Sky Reflection Fix» 1.0.1 (110604). Отдельных VR-файлов нет.
+https://www.nexusmods.com/skyrimspecialedition/mods/77834
+https://www.nexusmods.com/skyrimspecialedition/mods/110604
+
+# [opt] Water Effects Brightness and Reflection Fix — Main: «Water Effects Brightness and Reflection Fix» 0.5 (FUS, Panda's, Tempus).
+https://www.nexusmods.com/skyrimspecialedition/mods/63862
+
+# [opt] Unaggressive Dragon Priests Fix + Dwemer Gates Don't Reset — Два мода. 1) «Unaggressive Dragon Priests Fix» 1.3.1 (FUS, Librum, Panda's, Tempus); патчи Beyond Reach / Wyrmstooth — только если стоят эти моды. 2) «Dwemer Gates Don't Reset» 1.3.7 (Tempus).
+https://www.nexusmods.com/skyrimspecialedition/mods/69026
+https://www.nexusmods.com/skyrimspecialedition/mods/26331
+
+# [opt] CritterSpawn Congestion Fix — Main: «CritterSpawn Congestion Fix» 1.54 (Panda's Sovngarde).
+https://www.nexusmods.com/skyrimspecialedition/mods/67276
+
+# [opt] Unofficial Skyrim Modder's Patch (USMP) — Версию брать под путь USSEP. Путь A (свежий USSEP 4.3.x) — последняя USMP (2.6.8b, июль 2026). Путь B (USSEP 4.2.5b) — 2.6.6 (Tahrovin так и стоит на 4.2.5b; Tempus — 2.6.2b). «USMP Patch Emporium» (50813) — только при конфликтах с NPC-модами.
+https://www.nexusmods.com/skyrimspecialedition/mods/49616
+
+# [try] Saving on Steed — Horse Save Load Fix — Только 0.1.2 («Saving on Steed - Horse Save Load Fix SKSE»; Librum VR, Panda's). Ветку 0.2.x не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/173629
+
+# [rec] OpenComposite Unleashed for Skyrim VR — «Open Composite Unleashed for Skyrim VR» 5.0.0 (Stormcrown VR, 2026-09-19). Название страницы на Nexus — «Open Composite XR with Working Keyboard for VR».
+https://www.nexusmods.com/skyrimspecialedition/mods/171182
+
+# [opt] VR FPS Stabilizer — «VR FPS Stabilizer (FOMOD Installer)» 1.4.12 (Stormcrown VR, Tahrovin, 2026-08).
+https://www.nexusmods.com/skyrimspecialedition/mods/31392
+
+# [rec] S.L.A.C.K. — Save and Load Accelerator — «Save.Load.Accelerator.For.SKSE.Cosaves.VR.zip» 1.5.1 (сборка под SKSE 2.0.12 / VR 1.4.15). Из AIO-архива с FOMOD выбрать VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/163969

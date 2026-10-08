@@ -1,0 +1,129 @@
+# Фаза 3: Шейдеры, свет и VR-ядро
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [core] Open Shaders — Main file «Open Shaders» 2.17.0, один архив (Yggdrasil VR: «Open Shaders 180419 2.17.0»). Не брать пре-релизы GitHub (v2.17.0-prNNN, dev-latest) и форк «Open Shaders With DLSS5 Neural Rendering». Отдельные аддоны фич CS (Grass Lighting, Light Limit Fix, Dynamic Cubemaps и т. п.) не ставить: по заметке куратора они уже в архиве.
+https://www.nexusmods.com/skyrimspecialedition/mods/180419
+
+# [alt] Community Shaders Expanded (CSX), VR-сборка — Main «Community Shaders Expanded (CSX)» csx3.19.1-VR (Stormcrown VR, 2026-09-23) плюс ОДИН пресет: «CSX Balanced Preset», «CSX Perform. Preset» или «CSX Quality Preset» (- Press END On PC To Customize). Старую линейку «Community Shaders Particle Lights VR» (PL3.x) с той же страницы не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/166950
+
+# [core] Light Placer + Light Placer VR — Основной 127557 и VR-DLL 135822 из одной линейки: Light Placer 4.2.x + «Light Placer VR» 4.2.0 (так Panda's, Stormcrown и Tempus VR). Основной 5.0.0 брать, только если на VR-странице вышла 5.x.
+https://www.nexusmods.com/skyrimspecialedition/mods/127557
+https://www.nexusmods.com/skyrimspecialedition/mods/135822
+
+# [rec] CS Light — CS Light 2.0.1 (Stormcrown VR, Nordic Souls PBR) — последний.
+https://www.nexusmods.com/skyrimspecialedition/mods/138443
+
+# [opt] Rim Lighting Removed — Rim Lighting Removed 1.1.0 (Panda's Sovngarde VR) или 1.1.1 (TNE, 2026-08). Состав архива неизвестен.
+https://www.nexusmods.com/skyrimspecialedition/mods/164488
+
+# [try] Native Water Light Stabilizer — NativeWaterLightStabilizer 1.3 (TNE, 2026-08-23), последний известный. В VR-сборках не встречается.
+https://www.nexusmods.com/skyrimspecialedition/mods/186700
+
+# [core] VRIK Player Avatar — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/23416
+
+# [core] HIGGS — Enhanced VR Interaction — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/43930
+
+# [core] PLANCK — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/66025
+
+# [rec] Physical Collision VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/186335
+
+# [rec] True Wield VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/191123
+
+# [rec] Immersive Weapon Penetration VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/184223
+
+# [rec] Swap Drop and Hold Redux — VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/185816
+
+# [core] Spell Wheel VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/47630
+
+# [rec] Weapon Throw VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/31374
+
+# [rec] Interactive Activators VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/161676
+
+# [rec] Instant Equip VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/44571
+
+# [rec] Dialogue Movement Enabler VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/59816
+
+# [rec] Stop Trigger Unsheathing For VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/55962
+
+# [rec] Dual Casting Fix VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/92804
+
+# [rec] Haptic Skyrim VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/20364
+
+# [rec] Seamless Arrow Nocking VR + Immersive Crossbow Reload VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/117254
+https://www.nexusmods.com/skyrimspecialedition/mods/139152
+
+# [rec] Magic Improvements for Skyrim VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/55751
+
+# [opt] Lethal Unarmed VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/191124
+
+# [opt] VR Climbing — Aelove Ver — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/170321
+
+# [opt] Spellsiphon — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/26627
+
+# [opt] To Your Face — VR-файл: VR
+https://www.nexusmods.com/skyrimspecialedition/mods/24720
+
+# [opt] Sprint Jump VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/28354
+
+# [rec] Arctal's VRIK Tweaks — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/63663
+
+# [rec] No Stagger Mod — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/16335
+
+# [opt] Neutral VR Animations for VRIK — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/28831
+
+# [opt] SKSEVR Perk Extender — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/16330
+
+# [opt] Smooth Carriage Ride VR + Im Walkin' Here VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/129594
+https://www.nexusmods.com/skyrimspecialedition/mods/39433
+
+# [opt] No more werewolf hat — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/104975
+
+# [opt] VR Equip — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/83092
+
+# [opt] Auto Sneak and Jump VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/23649
+
+# [opt] Spell Auto-Aim VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/119689
+
+# [opt] Durability VR + Immersive Smithing — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/76830
+https://www.nexusmods.com/skyrimspecialedition/mods/72298
+
+# [opt] PLANCK VR Stability Patch — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/188233
+
+# [opt] VRIK Closed Fist — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/182410
+
+# [opt] Steeds of Ultima — VR Mounted Combat — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/81220

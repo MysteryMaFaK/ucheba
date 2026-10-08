@@ -1,0 +1,11 @@
+# Фаза 9: ИИ-NPC
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [opt] SkyrimNet — основной файл
+https://github.com/MinLL/SkyrimNet-GamePlugin/releases
+
+# [opt] Mantella — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/98631
+
+# [opt] CHIM — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/126330

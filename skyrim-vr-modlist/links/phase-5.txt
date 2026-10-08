@@ -1,0 +1,109 @@
+# Фаза 5: Свет, погода, вода, VFX, ландшафт
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [core] Lux + Lux Patch Hub — «Lux (main)» 7.0 и «Lux (main plugin update)» 7.1 с той же страницы: так в 12 SE-списках, Tempus VR и Panda's берут 7.0. Patch Hub 113002 — «Lux (patch hub)» 7.1.
+https://www.nexusmods.com/skyrimspecialedition/mods/43158
+https://www.nexusmods.com/skyrimspecialedition/mods/113002
+
+# [rec] Lux Via + Patch Hub — «Lux Via (main)» 2.2, «Lux Via main plugin update», «Lux Via meshes update», «Updated Lux - Resources plugin» — так Tempus VR. Если нужен Resource pack, то вариант «Optional Lux Resource pack (No ENB light)», как в CS-сборках CSVO и Morning Star; «(ENB light)» не брать. Patch Hub 116722 — «Lux Via (patch hub)» 2.2.
+https://www.nexusmods.com/skyrimspecialedition/mods/63588
+https://www.nexusmods.com/skyrimspecialedition/mods/116722
+
+# [opt] Lux Orbis + Patch Hub — «Lux Orbis (main)» 4.5 (Tempus VR, Panda's, Tahrovin) + «Lux Orbis - Patch Hub» 4.7 (Tahrovin, SE-списки).
+https://www.nexusmods.com/skyrimspecialedition/mods/56095
+https://www.nexusmods.com/skyrimspecialedition/mods/114169
+
+# [core] Azurite Weathers III + MCM + Azurite III HDR — Azurite Weathers III 3.35 (Stormcrown VR, 2026). MCM: «Azurite Weathers - MCM and Settings Loader» 1.2.1 (Stormcrown, Panda's). HDR: «Azurite III - HDR» 1.0.1 (Stormcrown VR). По желанию, как у Panda's Sovngarde: Alluring Sunsets and Sunrises 3 (#119148), Azurite Weathers III - Enhanced (#150269); Seasonal Weathers Framework (#63562) — только с Seasons of Skyrim.
+https://www.nexusmods.com/skyrimspecialedition/mods/42731
+https://www.nexusmods.com/skyrimspecialedition/mods/139858
+https://www.nexusmods.com/skyrimspecialedition/mods/138991
+
+# [rec] Splashes of Storms + VR — Основной 72115 + VR-DLL 73111. Брать одну из двух проверенных пар: основной 1.3.1 + «Splashes of Storms VR» 1.3.0 (FUS, Panda's, Tempus VR) или основной 1.4.0 + VR 1.3.1 (Yggdrasil VR, 2026).
+https://www.nexusmods.com/skyrimspecialedition/mods/72115
+https://www.nexusmods.com/skyrimspecialedition/mods/73111
+
+# [rec] Splashes of Skyrim + VR — Основной 47710 + VR-DLL 58104. Пары: основной 1.4.0 + «Splashes of Skyrim VR» 1.4.0 (FUS, Panda's) или основной 1.6.0 + VR 1.5.0 (Yggdrasil VR, 2026). Старый VR 1.6.0.2 от 2021 года (Librum) не брать.
+https://www.nexusmods.com/skyrimspecialedition/mods/47710
+https://www.nexusmods.com/skyrimspecialedition/mods/58104
+
+# [rec] Dynamic Wind Framework + Dynamic Wind — Skyrim — Dynamic Wind Framework 1.4 + «DynamicWindSkyrim» 1 (#177024) — так Stormcrown VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/177023
+https://www.nexusmods.com/skyrimspecialedition/mods/177024
+
+# [rec] Simplicity of Sea — «Water Mod» 0.8 (Stormcrown VR, Spirit of Grit, SE-списки). По желанию — «Simplicity of Sea - Water Color Tweaks» (#148761, Stormcrown VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/56520
+
+# [alt] Water for ENB — Water for ENB: 2.15 (Tempus VR) или последний 2.21 (Morning Star, SUP).
+https://www.nexusmods.com/skyrimspecialedition/mods/37061
+
+# [opt] Map Weather — CS — «Map - CS» 1.0.0 (Stormcrown VR, CSVO, Morning Star).
+https://www.nexusmods.com/skyrimspecialedition/mods/170955
+
+# [rec] Embers XD — «Embers XD 2K» 3.2.8 (Stormcrown VR, 2026-09) или 1K. Для слабых ПК по желанию — «Embers XD (Less Poly)» (#164369, Panda's).
+https://www.nexusmods.com/skyrimspecialedition/mods/37085
+
+# [rec] Moons and Stars + SKSEVR DLL — «Moons And Stars - Sky Overhaul SKSE» 2.0.2 (73336) + «Moons and Stars - Sky Overhaul SKSEVR» 2.0.0 (73667). Версию 2.1.0 не брать: под неё нет VR-DLL.
+https://www.nexusmods.com/skyrimspecialedition/mods/73336
+https://www.nexusmods.com/skyrimspecialedition/mods/73667
+
+# [rec] Storm Lightning for SSE and VR — «Storm Lightning for SSE and VR - Fomod Installer»: последний 1.4.25 (TNE, 2026-08) или 1.4.22–1.4.23 (FUS, Tahrovin).
+https://www.nexusmods.com/skyrimspecialedition/mods/29243
+
+# [opt] Natural Waterfalls — Natural Waterfalls 3.7 (последний, SE-списки). В VR-сборках: Panda's — 3.2, Tempus VR — 3.0.
+https://www.nexusmods.com/skyrimspecialedition/mods/87261
+
+# [opt] KittyVFX — Frost, Fire, Lightning, Dragon Breath, Healing, Portals — Каждый модуль — отдельная страница: Frost (112509) 1.2, Fire (109414) 1.23 (по желанию вариант «Yellow Fire»), Lightning (124520) 1.3, Dragon Breath (118431) 1.32, Healing (133774) 1.3, Portals (135614) 1.03. Так Tempus VR.
+https://www.nexusmods.com/skyrimspecialedition/mods/112509
+
+# [opt] Deadly Spell Impacts + Parallax Spell Impacts — Deadly Spell Impacts v1.70 (6 VR-списков) или v1.9 (Panda's). Parallax Spell Impacts 83935 — 2.1, по желанию «Thunderbolt HD» (Panda's).
+https://www.nexusmods.com/skyrimspecialedition/mods/12939
+https://www.nexusmods.com/skyrimspecialedition/mods/83935
+
+# [opt] slightly Better Dust + Improved Sparks — «slightly Better Dust» 1.0 (Stormcrown VR, Tempus VR). Improved Sparks 19831: файлы «Grindstones - 10X Sparks» и «Impact Effects - Vanilla Sparks» (Yggdrasil VR); какой из них основной — неизвестно, смотреть страницу.
+https://www.nexusmods.com/skyrimspecialedition/mods/133368
+https://www.nexusmods.com/skyrimspecialedition/mods/19831
+
+# [opt] Volcanic Tundra — Heat Wave Effects — «VolcanicHeatHaze-by-fadingsignal» 1.0 — единственный файл.
+https://www.nexusmods.com/skyrimspecialedition/mods/13749
+
+# [core] No Grass In Objects NG — «NGIO - NG (1.6.14)» — общая сборка, VR поддерживается (так Stormcrown VR). Старый «NGIO - VR (1.4.15)» 1.1.0 не брать. С той же страницы по желанию: «Config INI - GrassControl.ini» отдельным модом и «Grass Generation MO2 Plugin v2» — плагин MO2 «Precache Grass» в папку plugins MO2 (так Tempus VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/42161
+
+# [core] Grass Cache Helper NG — Grass Cache Helper NG 1.0.2 (Stormcrown VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/101095
+
+# [core] Landscape Fixes For Grass Mods — Landscape Fixes For Grass Mods 5.8 (Tempus VR, Stormcrown VR, Panda's). Доп. патчи с той же страницы (Arthmoor's Town add-ons, Great Cities, Helgen Reborn и т. п.) — только если стоят эти моды.
+https://www.nexusmods.com/skyrimspecialedition/mods/9005
+
+# [rec] Merethic Grasslands — Merethic Grasslands, один вариант под ландшафтные текстуры: Vanilla, Faultier's, Vanaheimr или Exist (бывший «Vanilla Plus»). Stormcrown VR ставит «Merethic Grass - Exist Variant» Ex1.68. Пока текстуры ванильные — брать Vanilla. На этапе текстур пересмотреть вариант и перегенерировать кэш.
+https://www.nexusmods.com/skyrimspecialedition/mods/164058
+
+# [alt] Cathedral 3D Grass Library + 3D-растения — «DrJacopo's - 3D Grass Library - Meshes» 16.53 (Stormcrown, Panda's). Этот файл ставить ВСЕГДА: он нужен и Merethic. «Resource Textures» и травяной сет на базе Cathedral (Panda's и Tempus VR ставят Freak's Floral Fields) — только если вместо Merethic выбран Cathedral-сет. 3D-растения (Cathedral 3D Tundra Shrubs, 3D Stonecrop) Stormcrown ставит вместе с Merethic.
+https://www.nexusmods.com/skyrimspecialedition/mods/80687
+
+# [rec] Happy Little Trees + DynDOLOD 3 Add-On — Happy Little Trees 2.03 + «Happy Little Trees 3D LOD - Performance» 2.02 (5 VR-списков). Quality — только на мощной видеокарте. Как у FUS, по желанию: «Performance - dlc1 pine fix» и «Solstheim Broken Pines 3D LOD Fix» с той же страницы 56907.
+https://www.nexusmods.com/skyrimspecialedition/mods/50961
+https://www.nexusmods.com/skyrimspecialedition/mods/56907
+
+# [opt] Seasons of Skyrim — «Seasons of Skyrim» (62861) 1.8.6 + «Seasons of Skyrim VR» (63593) 1.8.6 — так Panda's Sovngarde. Версию 1.9.0 не брать: VR-DLL под неё не видно. По желанию — «Four Seasons - Faster Seasons of Skyrim» (#64286; Panda's, Librum VR).
+https://www.nexusmods.com/skyrimspecialedition/search/?gsearch=Seasons%20of%20Skyrim
+
+# [rec] LOD Model Library for DynDOLOD — LOD Model Library: последний 1.8.3 (CSVO, NGVO, 2026-06). В VR только Panda's — «LOD Model Library - FOMOD» 1.6.
+https://www.nexusmods.com/skyrimspecialedition/mods/87521
+
+# [opt] No Grass In Caves — No Grass In Caves: 1.2 (FUS, Yggdrasil VR) или 1.3 (последний, SE).
+https://www.nexusmods.com/skyrimspecialedition/mods/12431
+
+# [opt] Better Dynamic Snow + Better Dynamic Ash — Better Dynamic Snow SE 3.6.0 (Stormcrown, Tempus, Panda's) + Better Dynamic Ash SE 2.1.1 (54754). На этапе параллакса по желанию — «Better Dynamic Snow - Complex Parallax Materials» (#115401, Tempus VR).
+https://www.nexusmods.com/skyrimspecialedition/mods/9121
+https://www.nexusmods.com/skyrimspecialedition/mods/54754
+
+# [opt] Simple Snow Improvements (BOS) — «Simple Snow Improvements - Skyrim Fixes» 2.3 (Panda's) или 2.4 (SE). По желанию аддоны SSI, как у Panda's: Snow Forts (#85413), Giant Obelisks (#75251), Solstheim Ruins (#96532).
+https://www.nexusmods.com/skyrimspecialedition/mods/78702
+
+# [opt] Footprints + SPID for Footprints — Footprints 1.6.1 + SPID for Footprints 3.4 (54924) — так Tempus VR и Panda's. По желанию: «SPIDforFootprintUltimateFix» 1.03 (#96086; Tempus, Panda's) и «Footprints - Alternative Design» (#109544).
+https://www.nexusmods.com/skyrimspecialedition/mods/3808
+https://www.nexusmods.com/skyrimspecialedition/mods/54924
+
+# [opt] Auto Parallax — Auto Parallax 1.0.27 (FUS, Panda's, Tahrovin), одна NG-DLL.
+https://www.nexusmods.com/skyrimspecialedition/mods/79473

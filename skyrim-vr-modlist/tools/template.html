@@ -1,0 +1,355 @@
+<title>Skyrim VR Core 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (~60rem) — header with frame budget, decisions, sticky checklist toolbar, sectioned mod lists, reference blocks. */
+:root {
+  --bg: #edf1f3;
+  --surface: #ffffff;
+  --sunk: #e2e8ec;
+  --line: #cdd6dc;
+  --fg: #162027;
+  --muted: #55646d;
+  --accent: #295a79;
+  --accent-soft: #dbe7ef;
+  --ok: #2c7549;
+  --warn: #93600d;
+  --bad: #a2372c;
+  --bad-soft: #f6e3e0;
+  --core: #295a79;
+  --rec: #2c7549;
+  --opt: #6b6f76;
+  --alt: #93600d;
+  --try: #7a3f8f;
+  --font-display: "Jost", "Futura", "Century Gothic", "Segoe UI", sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f151a; --surface: #161f26; --sunk: #1d2830; --line: #2a3741; --fg: #e2e9ed; --muted: #94a3ad;
+    --accent: #84b5d6; --accent-soft: #1d3141; --ok: #6cc08d; --warn: #e0a54b; --bad: #e57a6d; --bad-soft: #3a2220;
+    --core: #84b5d6; --rec: #6cc08d; --opt: #a3aab2; --alt: #e0a54b; --try: #c99be0; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f151a; --surface: #161f26; --sunk: #1d2830; --line: #2a3741; --fg: #e2e9ed; --muted: #94a3ad;
+  --accent: #84b5d6; --accent-soft: #1d3141; --ok: #6cc08d; --warn: #e0a54b; --bad: #e57a6d; --bad-soft: #3a2220;
+  --core: #84b5d6; --rec: #6cc08d; --opt: #a3aab2; --alt: #e0a54b; --try: #c99be0; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--font-body); padding-inline: 16px; padding-block: 0 48px; }
+.wrap { max-width: 60rem; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+
+header.top { padding-block: 36px 4px; display: flex; flex-direction: column; gap: 14px; }
+.eyebrow { font: 600 12px/1 var(--font-display); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+h1 { font-size: clamp(30px, 6vw, 46px); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; line-height: 1.05; }
+.sub { margin: 0; max-width: 46rem; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: 500 12.5px/1 var(--font-mono); padding: 6px 9px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); }
+.budget { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); }
+.budget div { padding: 10px 14px; border-left: 1px solid var(--line); display: flex; flex-direction: column; gap: 2px; }
+.budget div:first-child { border-left: 0; }
+.budget b { font: 600 22px/1.1 var(--font-mono); font-variant-numeric: tabular-nums; }
+.budget span { font-size: 12.5px; color: var(--muted); }
+.budget-cap { font-size: 12.5px; color: var(--muted); margin: -6px 0 0; }
+
+.decisions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.dec { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.dec h3 { font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.dec p { margin: 0; font-size: 14px; }
+.dec .pick { font-weight: 600; }
+
+.map { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.map table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.map th, .map td { text-align: left; padding: 9px 14px; border-top: 1px solid var(--line); vertical-align: top; }
+.map thead th { border-top: 0; font: 600 12px/1.2 var(--font-display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); background: var(--sunk); }
+
+.toolbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; }
+.prog { display: flex; align-items: center; gap: 12px; }
+.bar { flex: 1; height: 6px; background: var(--sunk); border-radius: 3px; overflow: hidden; }
+.bar i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .25s; }
+.prog output { font: 500 13px/1 var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ctrls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ctrls button { font: 500 13px/1 var(--font-body); padding: 7px 11px; border-radius: 4px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.ctrls button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.ctrls .sp { flex: 1; }
+.ctrls #reset.arm { border-color: var(--bad); color: var(--bad); }
+nav.jump { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; }
+nav.jump a { color: var(--muted); text-decoration: none; }
+nav.jump a:hover { color: var(--accent); text-decoration: underline; }
+
+.sec { display: flex; flex-direction: column; gap: 10px; scroll-margin-top: 110px; }
+.h2s { font-size: 21px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
+.sec h2 { font-size: 21px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.cnt { font: 500 13px/1 var(--font-mono); color: var(--muted); letter-spacing: 0; text-transform: none; font-variant-numeric: tabular-nums; }
+.lead { margin: 0; color: var(--muted); max-width: 48rem; }
+.mods { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+.mod { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; padding: 11px 14px; border-top: 1px solid var(--line); }
+.mod:first-child { border-top: 0; }
+.mod input { width: 17px; height: 17px; margin: 3px 0 0; accent-color: var(--accent); cursor: pointer; }
+.body { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.nm { font-weight: 600; }
+.nm a { color: var(--fg); text-decoration-color: var(--line); }
+.nm a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+.xl { font-size: 13px; }
+.tag { margin-left: auto; font: 600 11px/1 var(--font-display); letter-spacing: .1em; text-transform: uppercase; padding: 4px 7px; border-radius: 3px; border: 1px solid currentColor; white-space: nowrap; }
+.t-core { color: var(--core); } .t-rec { color: var(--rec); } .t-opt { color: var(--opt); } .t-alt { color: var(--alt); } .t-try { color: var(--try); }
+.nb { font: 500 11px/1 var(--font-mono); padding: 3px 6px; border-radius: 3px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.callout { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--try); border-radius: 6px; padding: 12px 16px; font-size: 14px; display: flex; flex-direction: column; gap: 4px; }
+.callout b { font-family: var(--font-display); letter-spacing: .06em; text-transform: uppercase; font-size: 13px; color: var(--try); }
+.callout p { margin: 0; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font: 400 12.5px/1.4 var(--font-mono); color: var(--muted); }
+.meta:empty { display: none; }
+.note { margin: 0; font-size: 14px; color: var(--muted); max-width: 52rem; }
+.mod.done .nm a { text-decoration: line-through; color: var(--muted); }
+.mod.f-hide, body.hide-done .mod.done { display: none; }
+
+.panel { background: var(--accent-soft); border-radius: 6px; padding: 14px 18px; display: flex; flex-direction: column; gap: 8px; }
+.panel h3 { font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.panel ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
+.panel p { margin: 0; font-size: 13px; color: var(--muted); }
+
+.dont { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.dont li { display: grid; grid-template-columns: minmax(0, 18rem) minmax(0, 1fr); gap: 4px 16px; padding: 10px 14px; border-top: 1px solid var(--line); font-size: 14px; }
+.dont li:first-child { border-top: 0; }
+.dont strong { color: var(--bad); font-weight: 600; }
+.dont span { color: var(--muted); }
+
+ol.steps { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+ol.steps li { padding-left: 4px; }
+ol.steps li::marker { font: 600 14px var(--font-mono); color: var(--accent); }
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.two > div { min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+.src { margin: 0; padding-left: 18px; columns: 2 18rem; font-size: 14px; }
+.src li { break-inside: avoid; margin-bottom: 4px; }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+
+.compat { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.cc { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--c); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.cc h3 { font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--c); }
+.cc ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.cc-ok { --c: var(--ok); } .cc-warn { --c: var(--warn); } .cc-bad { --c: var(--bad); }
+.checks { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 18px 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+.checks h3 { font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.checks ol.steps { font-size: 14px; }
+
+@media (max-width: 860px) { .compat { grid-template-columns: 1fr; } }
+@media (max-width: 640px) {
+  .decisions, .two { grid-template-columns: 1fr; }
+  .dont li { grid-template-columns: 1fr; }
+  .budget b { font-size: 18px; }
+  .tag { margin-left: 0; }
+  .toolbar { position: static; }
+  .map th, .map td { padding: 8px 10px; }
+}
+@media (prefers-reduced-motion: reduce) { .bar i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <span class="eyebrow">Ядро сборки · без текстур</span>
+    <h1>Skyrim VR Core 2026</h1>
+    <p class="sub">Технологическая основа next-gen сборки для Skyrim VR: фреймворки, фиксы, VR-физика, шейдеры, свет, погода, LOD-пайплайн и ИИ-NPC. Каждый мод сверен с составом 27 популярных сборок Wabbajack 2025–2026 (9 VR и 18 плоских next-gen, включая NGVO, LoreRim, Nordic Souls, Yggdrasil VR, Stormcrown VR) и со страницами или исходниками модов.</p>
+    <div class="chips">
+      <span class="chip">Skyrim VR 1.4.15</span>
+      <span class="chip">SKSEVR 2.0.12</span>
+      <span class="chip">Engine Fixes VR 7.10</span>
+      <span class="chip">Open Shaders 2.17</span>
+      <span class="chip">сверено 08.10.2026</span>
+    </div>
+    <div class="budget" role="group" aria-label="Бюджет времени кадра">
+      <div><b>13,9 мс</b><span>72 Гц</span></div>
+      <div><b>11,1 мс</b><span>90 Гц</span></div>
+      <div><b>8,3 мс</b><span>120 Гц</span></div>
+    </div>
+    <p class="budget-cap">Бюджет кадра: и CPU, и GPU должны укладываться в него, иначе включается репроекция. Каждый мод ниже оценивайте в миллисекундах, а не в FPS.</p>
+  </header>
+
+  <section class="decisions" aria-label="Решения до установки">
+    <div class="dec"><h3>Шейдеры</h3><p class="pick">Open Shaders</p><p>Официальный Community Shaders с 1.7 больше не поддерживает VR. Open Shaders — всё в одном, с DLSS и фовеальным рендерингом. CSX — альтернатива с упором на стабильность.</p></div>
+    <div class="dec"><h3>Мастера</h3><p class="pick">Путь A, если есть SE/AE</p><p>Обновлённые мастера 1.6.1170 и свежий USSEP открывают моды, которые требуют новые записи. Без SE/AE — USSEP 4.2.5b с VR-патчем.</p></div>
+    <div class="dec"><h3>Рантайм</h3><p class="pick">OpenComposite Unleashed</p><p>OpenXR без SteamVR даёт ощутимый прирост. Если нужны оверлеи SteamVR, остаётся обычный SteamVR.</p></div>
+    <div class="dec"><h3>Язык</h3><p class="pick">Решить до установки</p><p>На русском: для ESP-модов ищите переводы во вкладке Translations, проверьте языки в Strings Fix. Refocused ищет окно «Skyrim VR».</p></div>
+  </section>
+
+  <div class="callout"><b>Обновление 08.10</b><p>Добавлено около 150 модов из популярных сборок и раздел <a href="#hitech">«Хайтек-новинки 2026»</a> с вашими примерами. Совместимость каждого с VR проверена дважды. Кнопка «Новое» в фильтре показывает только добавленное, «Проверить» — моды, которые в VR нужно сначала испытать.</p></div>
+
+  <section class="sec" aria-labelledby="map-h">
+    <h2 id="map-h">Из роликов про next-gen → в VR</h2>
+    <div class="map"><table>
+      <thead><tr><th>В плоском Skyrim 2026</th><th>В этой VR-сборке</th></tr></thead>
+      <tbody>
+        <tr><td>Community Shaders 1.4+</td><td>Open Shaders (или CSX)</td></tr>
+        <tr><td>DLSS 4, генерация кадров</td><td>DLSS/DLAA внутри Open Shaders, сглаживание — ASW/SSW шлема</td></tr>
+        <tr><td>Precision, TDM, боевые оверхолы</td><td>PLANCK, Physical Collision VR, True Wield VR, Immersive Weapon Penetration VR</td></tr>
+        <tr><td>ИИ-NPC</td><td>SkyrimNet, Mantella или CHIM — один на выбор</td></tr>
+        <tr><td>Lux, Light Placer, Azurite</td><td>То же, но Lux без split meshes и без Volumetric Mists</td></tr>
+        <tr><td>PBR, ParallaxGen, ландшафты</td><td>Этап текстур, после ядра</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <div class="toolbar">
+    <div class="prog"><div class="bar" aria-hidden="true"><i id="barfill"></i></div><output id="progress">0 из {{TOTAL}}</output></div>
+    <div class="ctrls" role="group" aria-label="Фильтр">
+      <button type="button" data-filter="all" aria-pressed="true">Все</button>
+      <button type="button" data-filter="core" aria-pressed="false">Обязательные</button>
+      <button type="button" data-filter="rec" aria-pressed="false">Рекомендую</button>
+      <button type="button" data-filter="opt" aria-pressed="false">По желанию</button>
+      <button type="button" data-filter="alt" aria-pressed="false">Выбор</button>
+      <button type="button" data-filter="try" aria-pressed="false">Проверить</button>
+      <button type="button" data-filter="new" aria-pressed="false">Новое</button>
+      <span class="sp"></span>
+      <button type="button" id="hidedone" aria-pressed="false">Скрыть отмеченные</button>
+      <button type="button" id="reset">Сбросить отметки</button>
+    </div>
+  </div>
+  <nav class="jump" aria-label="Разделы">{{NAV}}<a href="#se">SE-моды в VR</a><a href="#dont">Не ставить в VR</a></nav>
+
+  {{SECTIONS}}
+
+  <section class="sec" id="se">
+    <h2>SE-моды в VR</h2>
+    <p class="lead">Skyrim VR построен на той же основе, что и SE 1.5.97: тот же формат плагинов, мешей, BSA и скриптов. Поэтому большинство модов для SE подходят и для VR. Решает тип мода, а не раздел Nexus, в котором он лежит.</p>
+    <div class="compat">
+      <div class="cc cc-ok"><h3>Работают как есть</h3><ul>
+        <li>Плагины ESP/ESM без DLL: квесты, NPC, предметы, баланс, оверхолы вроде SimonRim.</li>
+        <li>Меши, текстуры, звуки, музыка, озвучка.</li>
+        <li>Papyrus-скрипты, в том числе с функциями SKSE.</li>
+        <li>ESL и ESPFE — через Skyrim VR ESL Support, он уже в списке.</li>
+        <li>Анимации NPC через OAR и Pandora.</li>
+      </ul></div>
+      <div class="cc cc-warn"><h3>Нужна VR-версия</h3><ul>
+        <li>SKSE-плагины (.dll в SKSE/Plugins). DLL для SE в VR не загрузится. Ищите файл с пометкой VR, отдельную страницу «… VR» или «SE/AE/VR» в описании. Если мод требует Address Library, для VR нужна VR Address Library.</li>
+        <li>Интерфейс на Flash: меню, HUD, темы. Нужны VR-версии, как SkyUI VR или moreHUD VR.</li>
+        <li>Моды, которым нужен контент SE 1.6, Creation Club или свежий USSEP, — только с путём A.</li>
+        <li>Моды, которым нужен свежий SKSE64 ради новых Papyrus-функций: в SKSEVR 2.0.12 их может не быть.</li>
+        <li>Моды на горячих клавишах: в шлеме клавиатуры нет, нужна привязка к контроллеру или кнопка в MCM.</li>
+      </ul></div>
+      <div class="cc cc-bad"><h3>Не имеют смысла в VR</h3><ul>
+        <li>Анимации от первого лица: взмахи мечом, натяжение лука, каст магии, idle рук. В VR руки ваши.</li>
+        <li>Анимации игрока от третьего лица и фреймворки атак (MCO/ADXP, BFCO, Precision): телом управляет VRIK, удар физический. Если пак меняет и анимации NPC, эта часть остаётся полезной.</li>
+        <li>Камеры: SmoothCam, Improved Camera, TDM, моды на покачивание камеры и FOV.</li>
+        <li>Перекаты и уклонения на кнопку: в VR уклоняются телом или через Physical Dodge VR.</li>
+        <li>SSE Display Tweaks и ENB-пресеты под плоский экран.</li>
+      </ul></div>
+    </div>
+    <div class="checks"><h3>Как проверить мод из плоской next-gen сборки</h3><ol class="steps">
+      <li>Откройте архив: есть ли .dll в SKSE/Plugins. Нет DLL — мод почти наверняка заработает.</li>
+      <li>DLL есть — ищите VR-файл, VR-страницу или «SE/AE/VR» в описании. Нет ни того, ни другого — мод не подойдёт, какими бы хорошими ни были отзывы.</li>
+      <li>Комментарии и баг-репорты на Nexus: поиск по «VR». Нет жалоб — хороший знак для мода без DLL, но не гарантия: VR-игроков меньше, мод мог просто никто не проверить.</li>
+      <li>Поищите мод в VR-листах Wabbajack: <a href="https://github.com/wabbajack-tools/mod-lists/blob/master/reports/wj-featured/yggdrasil_vr/status.md" target="_blank" rel="noopener">Yggdrasil VR</a>, <a href="https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Stormcrown_VR/Stormcrown_VR/status.md" target="_blank" rel="noopener">Stormcrown VR</a>, <a href="https://github.com/wabbajack-tools/mod-lists/blob/master/reports/wj-featured/fus/status.md" target="_blank" rel="noopener">FUS</a>. Если он там есть, его уже собрали и прогнали в VR.</li>
+      <li>Тест в отдельном профиле MO2. sksevr.log в Documents/My Games/Skyrim VR/SKSE покажет, загрузилась ли DLL; при вылете смотрите лог Crash Logger.</li>
+    </ol></div>
+  </section>
+
+  <section class="sec" id="dont">
+    <h2>Не ставить в VR</h2>
+    <p class="lead">Частые причины вылетов и потерянных миллисекунд.</p>
+    <ul class="dont">{{DONT}}</ul>
+  </section>
+
+  <div class="two">
+    <div>
+      <h2 class="h2s">Финальная генерация</h2>
+      <p class="lead">Строго по порядку и только после этапа текстур: каждый шаг читает результат предыдущего.</p>
+      <ol class="steps">{{GEN}}</ol>
+    </div>
+    <div>
+      <h2 class="h2s">Сепараторы в MO2</h2>
+      <p class="lead">Сверху вниз; нижнее перезаписывает верхнее.</p>
+      <ol class="steps">{{MO2}}</ol>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3>Оставлено на этап текстур</h3>
+    <ul>
+      <li>PBR и parallax: Vanilla PBR AIO, Tomato's PBR, затем ParallaxGen.</li>
+      <li>Ландшафт, горы, архитектура городов, интерьеры.</li>
+      <li>Текстурные варианты травы и деревьев под выбранные модели.</li>
+      <li>Лица NPC, броня, оружие, существа.</li>
+      <li>После этого — генерация из блока «Финальная генерация».</li>
+    </ul>
+  </div>
+
+  <section class="sec" id="sources">
+    <h2>Источники</h2>
+    <ul class="src">{{SRC}}</ul>
+  </section>
+
+  <footer>Версии на 8 октября 2026. Перед установкой сверяйтесь со страницей мода: у VR-модов часто отдельный файл с пометкой VR. Отметки хранятся только в этом браузере.</footer>
+</div>
+
+<script>
+(function () {
+  var KEY = 'svr26-checked';
+  var store = {};
+  try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+  var mods = Array.prototype.slice.call(document.querySelectorAll('.mod'));
+  var total = mods.length;
+  function update() {
+    var n = 0;
+    var per = {};
+    mods.forEach(function (li) {
+      var sec = li.closest('.sec').id;
+      per[sec] = per[sec] || [0, 0];
+      per[sec][1]++;
+      if (li.classList.contains('done')) { n++; per[sec][0]++; }
+    });
+    document.getElementById('progress').textContent = n + ' из ' + total;
+    document.getElementById('barfill').style.width = (total ? (100 * n / total) : 0) + '%';
+    document.querySelectorAll('.cnt').forEach(function (c) {
+      var p = per[c.getAttribute('data-sec')];
+      if (p) c.textContent = p[0] + '/' + p[1];
+    });
+  }
+  mods.forEach(function (li) {
+    var k = li.getAttribute('data-key');
+    var cb = li.querySelector('input');
+    if (store[k]) { cb.checked = true; li.classList.add('done'); }
+    cb.addEventListener('change', function () {
+      li.classList.toggle('done', cb.checked);
+      if (cb.checked) store[k] = 1; else delete store[k];
+      save(); update();
+    });
+  });
+  var fbtns = document.querySelectorAll('[data-filter]');
+  fbtns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var f = b.getAttribute('data-filter');
+      fbtns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      mods.forEach(function (li) { var hide = f === 'new' ? !li.hasAttribute('data-new') : (f !== 'all' && li.getAttribute('data-tag') !== f); li.classList.toggle('f-hide', hide); });
+    });
+  });
+  var hd = document.getElementById('hidedone');
+  hd.addEventListener('click', function () {
+    var on = hd.getAttribute('aria-pressed') !== 'true';
+    hd.setAttribute('aria-pressed', on ? 'true' : 'false');
+    document.body.classList.toggle('hide-done', on);
+  });
+  var rs = document.getElementById('reset');
+  var armT = null;
+  rs.addEventListener('click', function () {
+    if (!rs.classList.contains('arm')) {
+      rs.classList.add('arm'); rs.textContent = 'Точно сбросить?';
+      armT = setTimeout(function () { rs.classList.remove('arm'); rs.textContent = 'Сбросить отметки'; }, 4000);
+      return;
+    }
+    clearTimeout(armT);
+    store = {}; save();
+    mods.forEach(function (li) { li.classList.remove('done'); li.querySelector('input').checked = false; });
+    rs.classList.remove('arm'); rs.textContent = 'Отметки сброшены';
+    setTimeout(function () { rs.textContent = 'Сбросить отметки'; }, 2000);
+    update();
+  });
+  update();
+})();
+</script>

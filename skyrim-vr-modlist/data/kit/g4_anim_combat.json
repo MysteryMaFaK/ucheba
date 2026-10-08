@@ -1,0 +1,793 @@
+[
+ {
+  "key": "anim-92109",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 196,
+  "name": "Open Animation Replacer",
+  "id": 92109,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/92109",
+  "extra": [],
+  "tag": "core",
+  "version": "3.2.1",
+  "vr_file": null,
+  "note": "Официально поддерживает SE, AE и VR.",
+  "new": false
+ },
+ {
+  "key": "anim-99621",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 197,
+  "name": "Paired Animation Improvements",
+  "id": 99621,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/99621",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "anim-61479",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 198,
+  "name": "Mu Joint Fix (DLL)",
+  "id": 61479,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/61479",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "anim-57339",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 199,
+  "name": "FSMP — Faster HDT-SMP",
+  "id": 57339,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/57339",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Только если будут SMP-волосы или одежда. Проверьте VR-вариант в установщике. Нужен XPMSSE с VR-фиксом.",
+  "new": false
+ },
+ {
+  "key": "anim-186346",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 200,
+  "name": "Dynamic Armor Physics",
+  "id": 186346,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/186346",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "2026 год, есть в Stormcrown VR.",
+  "new": false
+ },
+ {
+  "key": "anim-1988",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 201,
+  "name": "XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR",
+  "id": 1988,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1988",
+  "extra": [
+   {
+    "label": "VR-фикс",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/34301"
+   }
+  ],
+  "tag": "core",
+  "version": null,
+  "vr_file": null,
+  "note": "Расширенный скелет — база для FSMP и многих анимаций. Без VR-фикса поверх SE-скелет в VR даёт вылеты.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Основной файл 5.06 (меши/скрипты, без DLL) + сверху обязательно XP32 First Person Skeleton CTD Bugfix for VR (34301).",
+    "overlaps": "Нужен для FSMP и Dynamic Armor Physics со страницы; в VR без фикса 34301 — вылеты из-за скелета 1-го лица.",
+    "evidence": "7 VR-списков: Panda's Sovngarde, Tahrovin, Spirit of Grit, Tahrovin - Grit, Librum VR (XP32 ...-1988-5-06-1707663131.7z), Tempus Maledictum VR, Yggdrasil VR; 14 SE-списков."
+   }
+  ]
+ },
+ {
+  "key": "anim-63471",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 202,
+  "name": "NPC Animation Remix + Gesture Animation Remix (OAR)",
+  "id": 63471,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63471",
+  "extra": [
+   {
+    "label": "Gesture Remix",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/64420"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Стойки, ходьба и жесты NPC в диалогах. В VR собеседник в метре от вас — деревянные позы видно сразу.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только анимации и условия OAR. Основной OAR-архив 2.x, shield patch по желанию.",
+    "overlaps": "Требует OAR (есть на странице). Частично пересекается с Reanimated NPC Animations и EVG Animation Variance — ставить что-то одно, приоритет у Remix.",
+    "evidence": "7 VR-списков: Panda's Sovngarde и FUS (OAR 2.0.0 + shield patch), Tahrovin (OAR 1.8.2), Yggdrasil VR, Tempus Maledictum VR, Spirit of Grit, Tahrovin-Grit (DAR 1.x). 12 SE-списков, в том числе NGVO/LoreRim/SUP: '...main archive-63471-2-3-0-1780811714.zip' (2026-06)."
+   }
+  ]
+ },
+ {
+  "key": "anim-19532",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 203,
+  "name": "Expressive Facial Animation — Male + Female",
+  "id": 19532,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/19532",
+  "extra": [
+   {
+    "label": "Female",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/19181"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Мимика и моргание NPC. Дополняет MFG Fix NG и ИИ-NPC.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только анимации. Ставить оба архива: Male 19532 (1.21) и Female 19181 (1.7).",
+    "overlaps": "Дополняет MFG Fix NG со страницы, не конфликтует. С SkyrimNet/Mantella мимика тоже станет живее.",
+    "evidence": "Male: 7 VR-списков (Librum, Panda, Spirit of Grit, Stormcrown VR, Tahrovin, Tahrovin-Grit, Tempus) и 16 SE-списков (NGVO, LoreRim, Nordic Souls и др.). Female (19181): те же 7 VR-списков, 15 SE."
+   }
+  ]
+ },
+ {
+  "key": "anim-66635",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 204,
+  "name": "Pristine Vanilla Movement",
+  "id": 66635,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/66635",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Исправленные ванильные анимации передвижения — база под OAR-пакеты.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только анимации. Опция «Sprint – No Camera Shake» в VR не нужна.",
+    "overlaps": "Пересекается с Animation Motion Revolution (оба меняют передвижение). Выбрать одно; Pristine легче и ближе к ванили.",
+    "evidence": "6 VR-списков: Librum, Panda, Spirit of Grit, Tahrovin, Tahrovin-Grit, Tempus. 11 SE: CSVO, NGVO-форк CSVP, Nordic Souls, True North и др. Везде архив '...66635-1-1-1650775951.zip'."
+   }
+  ]
+ },
+ {
+  "key": "anim-62849",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 205,
+  "name": "Arm Movement Animations (OAR)",
+  "id": 62849,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/62849",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "NPC при ходьбе держат руки естественно.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только анимации, OAR-архив.",
+    "overlaps": "Из серии NPC/Gesture Animation Remix, совместим с ними.",
+    "evidence": "6 VR-списков: Panda, FUS (OAR 2.2.0), Tempus, Tahrovin, Spirit of Grit, Tahrovin-Grit (DAR). 13 SE: NGVO/LoreRim/SUP/TNE — 'Arm Movement Animations (OAR)-62849-3-0-1-1780808360.zip'."
+   }
+  ]
+ },
+ {
+  "key": "anim-54193",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 206,
+  "name": "Take a Seat + Improved Table Transitions",
+  "id": 54193,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/54193",
+  "extra": [
+   {
+    "label": "Table Transitions",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/84160"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Позы сидения и плавный вход за стол без телепорта.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Брать OAR-архив 1.01, не DAR.",
+    "overlaps": "Дополняет Improved Table Transitions и Barstool Exit (переходы за стол). Paired Animation Improvements со страницы не задевает.",
+    "evidence": "5 VR-списков: Panda, Librum, Tempus (OAR 1.01), FUS, Yggdrasil VR (DAR). SE: Nordic Souls, LoreRim, SUP, TNE, True North."
+   }
+  ]
+ },
+ {
+  "key": "anim-67557",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 207,
+  "name": "Lively Children Animations (OAR)",
+  "id": 67557,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/67557",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "OAR-архив 2.2.1.",
+    "overlaps": "Из той же серии, что NPC Animation Remix.",
+    "evidence": "VR: Panda's Sovngarde (OAR 2.2.1), Yggdrasil VR (DAR 1.0). SE: 13 списков (NGVO, LoreRim, Nordic Souls, SUP, TNE, Apostasy и др.)."
+   }
+  ]
+ },
+ {
+  "key": "anim-34006",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 208,
+  "name": "EVG Conditional Idles",
+  "id": 34006,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/34006",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "NPC мёрзнет, устал, ранен. Animation Variance не брать — дублирует Remix.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только анимации с условиями, Conditional Idles 1.51 + Animation Variance 38534.",
+    "overlaps": "EVG Animation Variance частично пересекается с NPC Animation Remix — при конфликте приоритет у Remix (выше в OAR).",
+    "evidence": "34006: 4 VR-списка (FUS, Panda, Tempus — 1.51; Yggdrasil VR — 1.42), SE — CSVP, SUP, True North. 38534: FUS, Panda, Tempus, Yggdrasil VR."
+   }
+  ]
+ },
+ {
+  "key": "anim-70204",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 209,
+  "name": "Goetia Animations — Spell Casting + Conditional Shouts",
+  "id": 70204,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/70204",
+  "extra": [
+   {
+    "label": "Shouts",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/76388"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Каст и крики у NPC-магов. У игрока в VR не видны.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только анимации; у игрока в VR не видны, у NPC-магов работают.",
+    "overlaps": "",
+    "evidence": "Panda's Sovngarde и Tempus Maledictum VR (1.4); SE — NGVO, LoreRim, Nordic Souls, True North, SUP (1.5b, '...70204-1-5b-798351-1788213480.7z'). Conditional Shouts 76388: Panda, Tempus."
+   }
+  ]
+ },
+ {
+  "key": "anim-47092",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 210,
+  "name": "Leviathan / Vanargand Animations (стойки и атаки NPC)",
+  "id": 47092,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/47092",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Разнообразие врагов в ближнем бою. Sneak-пакеты для игрока не брать.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Анимации OAR. Брать стойки и атаки, sneak-пакеты Vanargand для игрока в VR бесполезны.",
+    "overlaps": "Не трогает атаки игрока (их делает VRIK/HIGGS). Боевые фреймворки MCO/SCAR для них не нужны и в VR бесполезны.",
+    "evidence": "Leviathan 47092/48550/50545 и Vanargand 57544/58326/58997/63566: Panda's Sovngarde, Tempus Maledictum VR, частично Yggdrasil VR. SE: Nordic Souls, SUP, Apostasy. Файлы 2026: '...47092-1-5-798357-1788214020.7z'."
+   }
+  ]
+ },
+ {
+  "key": "anim-63029",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 211,
+  "name": "Conditional Tavern Cheering (OAR)",
+  "id": 63029,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63029",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "OAR-версия 1.3.0.",
+    "overlaps": "Нужен Open Animation Replacer со страницы.",
+    "evidence": "4 VR-списка: FUS и Panda's Sovngarde (OAR 1.3.0), Tempus и Yggdrasil (DAR). 12 SE-сборок: NGVO, LoreRim, Nordic Souls, CSVP."
+   }
+  ]
+ },
+ {
+  "key": "anim-46714",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 212,
+  "name": "Super Fast Get Up Animation",
+  "id": 46714,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/46714",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "С PLANCK враги падают часто — быстрый подъём не тормозит бой.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Одна замена анимации, без DLL.",
+    "overlaps": "Хорошо сочетается с PLANCK и Physical Collision VR.",
+    "evidence": "5 VR-списков: Librum, Panda, Spirit of Grit, Tahrovin-Grit, Tempus. 9 SE: NGVO, LoreRim, Elysium, True North и др."
+   }
+  ]
+ },
+ {
+  "key": "anim-183892",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 213,
+  "name": "Variadic Collision Dynamics",
+  "id": 183892,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/183892",
+  "extra": [
+   {
+    "label": "Resources",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184110"
+   }
+  ],
+  "tag": "try",
+  "version": null,
+  "vr_file": null,
+  "note": "Капсула коллизии меняется по позе — меньше застреваний. Капсула игрока в VR — зона PLANCK, конфликт вероятен.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "По чейнджлогу с 1.3.2 одна DLL SE/AE/VR и фикс хука приседа в VR. VR-листов нет. Проверка: sksevr.log, присесть и залезть на мелкий уступ, следить за конфликтом с PLANCK",
+    "overlaps": "В VR заменяет StepUpOnto (у того только SE). Может спорить с PLANCK/Physical Collision VR из-за капсулы игрока, а с Collision Sentinel есть жалоба на скелета в Geirmund's Hall",
+    "evidence": "Сниппет Nexus-чейнджлога: «Added a universal DLL supporting Skyrim SE, AE, and VR… Fixed the sneak button hook in VR». whouses: [SE] True North 1.3.5. VR-сборок пока нет"
+   }
+  ]
+ },
+ {
+  "key": "anim-168903",
+  "section": "anim",
+  "separator": "11 Анимации и физика",
+  "order": 214,
+  "name": "A-Pose Bug Fix",
+  "id": 168903,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/168903",
+  "extra": [],
+  "tag": "try",
+  "version": null,
+  "vr_file": null,
+  "note": "Только как лекарство, если появится A-поза. VR не подтверждён.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Сабмодуль alandtse/CommonLibVR (ветка ng, VR включён по умолчанию), но VR-файла и VR-листов нет. Проверка: sksevr.log, нет ли ошибок загрузки поведения",
+    "overlaps": "От автора Pandora (на странице). Пересекается с Animation Queue Fix только по теме, не по коду",
+    "evidence": "GitHub .gitmodules: url=https://github.com/alandtse/CommonLibVR.git branch=ng. В xmake.lua CommonLibVR: option skyrim_vr set_default(true). whouses: только SE (Nordic Souls, NGVO, Tomes of Talos). Отзывы смешанные, 2026-10-01: «hasn't been updated yet so don't use it»"
+   }
+  ]
+ },
+ {
+  "key": "combat-34549",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 215,
+  "name": "Blade and Blunt + Blade and Blunt VR",
+  "id": 34549,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/34549",
+  "extra": [
+   {
+    "label": "VR",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/120494"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "combat-30191",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 216,
+  "name": "Adamant + Adamant — VR Tweaks",
+  "id": 30191,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/30191",
+  "extra": [
+   {
+    "label": "VR Tweaks",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/190589"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "combat-187578",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 217,
+  "name": "Accuracy — Localized Combat Damage",
+  "id": 187578,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/187578",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Урон по зонам попадания, 2026 год.",
+  "new": false
+ },
+ {
+  "key": "combat-146873",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 218,
+  "name": "Core Impact Framework",
+  "id": 146873,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/146873",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "combat-160603",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 219,
+  "name": "Ricochet — Arrow Physics Framework",
+  "id": 160603,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/160603",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "combat-126203",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 220,
+  "name": "Dismembering Framework",
+  "id": 126203,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/126203",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "combat-111890",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 221,
+  "name": "NPCs Take Cover",
+  "id": 111890,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/111890",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "combat-50483",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 222,
+  "name": "Enemy Friendly Fire",
+  "id": 50483,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/50483",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": "VR",
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "combat-59508",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 223,
+  "name": "Simple Offence Suppression (VR)",
+  "id": 59508,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/59508",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Спутники и нейтралы не становятся врагами от случайного удара — с физическим боем это обычное дело.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "VR-страница 59508; README даёт VR-ссылку и VR Address Library.",
+    "overlaps": "Не противоречит Enemy Friendly Fire со страницы: тот про урон между врагами, этот про агрессию нейтралов к игроку.",
+    "evidence": "GitHub powerof3/SimpleOffenceSuppression: README ссылается на VR 59508 и требует VR Address Library, сборка через CommonLibVR, версия 2.3.1. whouses: Yggdrasil VR (SE 2.1.0), Panda's Sovngarde (2.2.1), SE-сборки Tomes of Talos, Aldrnari, SUP (2.3.1, 2026)."
+   }
+  ]
+ },
+ {
+  "key": "combat-27839",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 224,
+  "name": "Mysticism — A Magic Overhaul",
+  "id": 27839,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/27839",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Переработка всей магии, пара к Adamant. Без DLL, 7 VR-сборок.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только плагин; брать 2.5.0, как в Stormcrown VR.",
+    "overlaps": "Рассчитан на Adamant (уже на странице). Spell Wheel VR, Magic Improvements VR и Spellsiphon не конфликтуют: они про ввод, а Mysticism про данные заклинаний.",
+    "evidence": "7 VR-сборок: Stormcrown VR (2.5.0 2026-08-09), Panda's Sovngarde, FUS (2.4.2), Spirit of Grit, Tahrovin, Tahrovin-Grit, Librum VR. В SE 10 сборок. На Nexus указано: зависимостей нет, кроме базовой игры."
+   }
+  ]
+ },
+ {
+  "key": "combat-57138",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 225,
+  "name": "Thaumaturgy + Apothecary + Mundus",
+  "id": 57138,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/57138",
+  "extra": [
+   {
+    "label": "Apothecary",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/52130"
+   },
+   {
+    "label": "Mundus",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/33411"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Зачарование, алхимия и камни-хранители из набора SimonRim. Опциональную DLL Enchantment XP Tweak не ставить без проверки.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Основной ESP. Опциональную DLL Enchantment XP Tweak в VR не ставить без проверки.",
+    "overlaps": "Часть связки Simonrim вместе с Mysticism и Adamant.",
+    "evidence": "5 VR-сборок: Stormcrown VR (1.5 2026-08-10 + Enchantment XP Tweak), Panda's Sovngarde, FUS (1.4.5), Spirit of Grit, Tahrovin-Grit. 8 SE-сборок."
+   }
+  ]
+ },
+ {
+  "key": "combat-17751",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 226,
+  "name": "Experience",
+  "id": 17751,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/17751",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Уровень за квесты и исследование. DLL с VR Address Library, стоит в Stormcrown VR.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "DLL; Stormcrown VR — 3.7.3, Tempus — 3.5.0. Нужна VR Address Library.",
+    "overlaps": "Не ставить вместе с другими модами на кривую опыта (Leveling Freedom и т.п.).",
+    "evidence": "4 VR-сборки: Stormcrown VR (3.7.3), Tempus Maledictum VR (3.5.0), Spirit of Grit и Tahrovin-Grit (Experience NG 3.1.0). 11 SE-сборок, включая LoreRim, CSVP, Apostasy и TNE (3.7.4 2026-09)."
+   }
+  ]
+ },
+ {
+  "key": "combat-151590",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 227,
+  "name": "Death Drop Overhaul",
+  "id": 151590,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/151590",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Оружие убитых падает с инерцией, его можно поднять HIGGS.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Брать 1.3.6, как в Stormcrown и Yggdrasil.",
+    "overlaps": "Хорошо сочетается с HIGGS: оружие лежит физически, его можно хватать.",
+    "evidence": "3 VR-сборки: Stormcrown VR и Yggdrasil VR (1.3.6 2026-09-06), Panda's Sovngarde. 10 SE-сборок: NGVO, CSVP, LoreRim, Nordic Souls и другие. Автор Seb263, он же сделал Accuracy с этой страницы."
+   }
+  ]
+ },
+ {
+  "key": "combat-68028",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 228,
+  "name": "Magic Sneak Attacks VR + Physical Dodge VR",
+  "id": 68028,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/68028",
+  "extra": [
+   {
+    "label": "Physical Dodge",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/58605"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Скрытые атаки магией; уклонение рывком корпуса.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "VR-файл 68028 1.3.0 (SE 67613 поверх не обязателен).",
+    "overlaps": "С Magic Improvements for Skyrim VR не пересекается. С Adamant — совместим, если перки скрытности не дублируют множитель.",
+    "evidence": "6 VR-списков: FUS, Panda (1.3.0), Yggdrasil VR (1.3.0), Spirit of Grit, Tahrovin, Tahrovin-Grit (1.1.0). SE-версия 67613 — в Tempus VR, FUS, Apostasy, Wunduniik, SUP."
+   }
+  ]
+ },
+ {
+  "key": "combat-184140",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 229,
+  "name": "Throat Slit — VR",
+  "id": 184140,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184140",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Горло перерезают движением руки с кинжалом.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "VR-only 1.2.",
+    "overlaps": "Скрытые убийства с ножом в VR. Проверить вместе с Physical Collision VR и Immersive Weapon Penetration VR",
+    "evidence": "whouses: Yggdrasil VR — 'Throat Slit VR 184140 1.2 2026-07-25'"
+   }
+  ]
+ },
+ {
+  "key": "combat-172080",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 230,
+  "name": "Dynamic Bloodpool Framework",
+  "id": 172080,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/172080",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Лужи крови растекаются по рельефу. VR Address Library в требованиях, стоит в Panda's Sovngarde.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "SKSE-DLL без VR-файла; только Panda.",
+    "overlaps": "Дополняет Core Impact Framework и Dismembering Framework со страницы. Отключить лужи в других кровавых модах, если там они есть",
+    "evidence": "whouses: Panda's Sovngarde — 'Dynamic Bloodpool Framework - Latest Version-172080-1-0-1'; 6 SE-листов (NGVO, CSVP, LoreRim, NS PBR 1.1.0 от 2026-07-25, SUP, Wunduniik)"
+   },
+   {
+    "vr_note": "README: VR Address Library «Needed for VR». Panda's Sovngarde (VR) ставит 1.0.1",
+    "overlaps": "Дополняет Core Impact Framework (на странице opt). Другие моды луж крови — что-то одно.",
+    "evidence": "github.com/Seb263/SkyrimSE_DynamicBloodpoolFramework README. whouses: [VR] Panda's Sovngarde, «Dynamic Bloodpool Framework - Latest Version-172080-1-0-1». По wabbajack mod-lists — 30 листов."
+   }
+  ]
+ },
+ {
+  "key": "combat-126328",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 231,
+  "name": "DF Asset Packs + Next-Gen Decapitations",
+  "id": 126328,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/126328",
+  "extra": [
+   {
+    "label": "Humanoid",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/126327"
+   },
+   {
+    "label": "Decapitations",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/135254"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Нужны, если стоит Dismembering Framework.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Меши и конфиги; Humanoid 126327 + патчи CBBE/HIMBO.",
+    "overlaps": "Имеет смысл только с Dismembering Framework со страницы.",
+    "evidence": "5 VR-списков: Stormcrown VR, Tempus, Spirit of Grit, Tahrovin, Tahrovin - Grit. Файлы: Official Creature Asset Pack-126328-1-0-2, Official Humanoid Asset Pack-126327-1-0-1."
+   }
+  ]
+ },
+ {
+  "key": "combat-148388",
+  "section": "combat",
+  "separator": "12 Бой и геймплей",
+  "order": 232,
+  "name": "Sanguine Symphony",
+  "id": 148388,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/148388",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Конфиги Core Impact Framework: отклик зависит от брони и места удара.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Конфиги поверх CIF, своей DLL нет.",
+    "overlaps": "Требует Core Impact Framework (на странице он помечен opt). Ultra-HD Textures из мода пропустить — текстуры позже.",
+    "evidence": "VR: Stormcrown VR (1.3.3, 2026-08), Panda's Sovngarde (1.2.1), Tempus Maledictum VR. SE: 10 сборок, включая NGVO, LoreRim, CSVP, Morning Star (1.3.5). CIF в тех же VR-списках."
+   }
+  ]
+ }
+]

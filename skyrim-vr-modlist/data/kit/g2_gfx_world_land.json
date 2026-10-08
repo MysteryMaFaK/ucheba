@@ -1,0 +1,800 @@
+[
+ {
+  "key": "gfx-180419",
+  "section": "gfx",
+  "separator": "04 Шейдеры и свет",
+  "order": 159,
+  "name": "Open Shaders",
+  "id": 180419,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/180419",
+  "extra": [],
+  "tag": "core",
+  "version": "2.17.0",
+  "vr_file": null,
+  "note": "Форк Community Shaders от alandtse, всё в одном архиве: DLSS/DLAA/FSR для VR, фовеальный рендеринг, Skylighting, Light Limit Fix, Grass Lighting, Dynamic Cubemaps, тени облаков и рельефа, Wetness. Ставится вместо CS: те же файлы и папка настроек. Так собран Yggdrasil VR.",
+  "new": false
+ },
+ {
+  "key": "gfx-166950",
+  "section": "gfx",
+  "separator": "04 Шейдеры и свет",
+  "order": 160,
+  "name": "Community Shaders Expanded (CSX), VR-сборка",
+  "id": 166950,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/166950",
+  "extra": [],
+  "tag": "alt",
+  "version": "3.19.x-VR",
+  "vr_file": null,
+  "note": "Альтернатива Open Shaders: вернул Particle Lights и Screen Space Shadows в VR, упор на стабильность. Так собраны Stormcrown VR и MGO 4.0.",
+  "new": false
+ },
+ {
+  "key": "gfx-127557",
+  "section": "gfx",
+  "separator": "04 Шейдеры и свет",
+  "order": 161,
+  "name": "Light Placer + Light Placer VR",
+  "id": 127557,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/127557",
+  "extra": [
+   {
+    "label": "VR-DLL",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/135822"
+   }
+  ],
+  "tag": "core",
+  "version": null,
+  "vr_file": null,
+  "note": "Огни на мешах и эффектах через JSON. ENB Light в CS 1.4+ не работает, его заменяет Light Placer. Основной мод — конфиги, VR-страница — DLL.",
+  "new": false
+ },
+ {
+  "key": "gfx-138443",
+  "section": "gfx",
+  "separator": "04 Шейдеры и свет",
+  "order": 162,
+  "name": "CS Light",
+  "id": 138443,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/138443",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Конфиги Light Placer для свечей, факелов, эффектов. Не включайте одновременно опции «ENB lights for effect shaders» и «Magic FX lights» — свет удвоится.",
+  "new": false
+ },
+ {
+  "key": "gfx-164488",
+  "section": "gfx",
+  "separator": "04 Шейдеры и свет",
+  "order": 163,
+  "name": "Rim Lighting Removed",
+  "id": 164488,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/164488",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Убирает ванильную ореольную подсветку объектов. Дело вкуса, стоит в Panda's Sovngarde.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Panda's Sovngarde (VR) ставит 1.1.0",
+    "overlaps": "Нет.",
+    "evidence": "whouses: [VR] Panda's Sovngarde, «Rim Lighting Removed-164488-1-1-0-1763323624». 17 листов (NGVO, LoreRim, TNE)."
+   }
+  ]
+ },
+ {
+  "key": "gfx-186700",
+  "section": "gfx",
+  "separator": "04 Шейдеры и свет",
+  "order": 164,
+  "name": "Native Water Light Stabilizer",
+  "id": 186700,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/186700",
+  "extra": [],
+  "tag": "try",
+  "version": null,
+  "vr_file": null,
+  "note": "Меньше мерцания бликов на воде. VR заявлен, но один пользователь писал, что с ним не грузится Open Shaders — проверять только вместе с OS 2.17.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "README и CMake: «Supports Skyrim SE, AE, VR», SKSEVR «Needed for VR». VR-листов нет",
+    "overlaps": "Работает с CS. С Light Limit Fix из Open Shaders конфликт не заявлен.",
+    "evidence": "github.com/nicola89b/NativeWaterLightStabilizer README («Supports Skyrim SE, AE, VR»). Листы: CSVP, The Northern Experience."
+   }
+  ]
+ },
+ {
+  "key": "world-43158",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 165,
+  "name": "Lux + Lux Patch Hub",
+  "id": 43158,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/43158",
+  "extra": [
+   {
+    "label": "Patch Hub",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/113002"
+   }
+  ],
+  "tag": "core",
+  "version": null,
+  "vr_file": null,
+  "note": "В установщике не выбирайте split meshes. Меши с префиксом Lux_ оставьте — они заменяют модели, а не режут их.",
+  "new": false
+ },
+ {
+  "key": "world-63588",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 166,
+  "name": "Lux Via + Patch Hub",
+  "id": 63588,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63588",
+  "extra": [
+   {
+    "label": "Patch Hub",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/116722"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Свет на дорогах и мостах.",
+  "new": false
+ },
+ {
+  "key": "world-56095",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 167,
+  "name": "Lux Orbis + Patch Hub",
+  "id": 56095,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/56095",
+  "extra": [
+   {
+    "label": "Patch Hub",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/114169"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Больше уличных огней. Красиво, но дороже — включать при запасе по времени кадра.",
+  "new": false
+ },
+ {
+  "key": "world-42731",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 168,
+  "name": "Azurite Weathers III + MCM + Azurite III HDR",
+  "id": 42731,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/42731",
+  "extra": [
+   {
+    "label": "MCM",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/139858"
+   },
+   {
+    "label": "HDR",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/138991"
+   }
+  ],
+  "tag": "core",
+  "version": null,
+  "vr_file": null,
+  "note": "FUS перешёл на III как на более оптимизированную для VR, особенно небо. Volumetric Mists к ней не ставят.",
+  "new": false
+ },
+ {
+  "key": "world-72115",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 169,
+  "name": "Splashes of Storms + VR",
+  "id": 72115,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/72115",
+  "extra": [
+   {
+    "label": "VR-DLL",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/73111"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "world-47710",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 170,
+  "name": "Splashes of Skyrim + VR",
+  "id": 47710,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/47710",
+  "extra": [
+   {
+    "label": "VR-DLL",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/58104"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "world-177023",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 171,
+  "name": "Dynamic Wind Framework + Dynamic Wind — Skyrim",
+  "id": 177023,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/177023",
+  "extra": [
+   {
+    "label": "Dynamic Wind — Skyrim",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/177024"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Ветер для растительности, 2026 год, есть в Stormcrown VR.",
+  "new": false
+ },
+ {
+  "key": "world-56520",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 172,
+  "name": "Simplicity of Sea",
+  "id": 56520,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/56520",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Вода под шейдерные эффекты воды. Стоит в Stormcrown VR и MGO 4.0. Ставится один водный мод.",
+  "new": false
+ },
+ {
+  "key": "world-37061",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 173,
+  "name": "Water for ENB",
+  "id": 37061,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/37061",
+  "extra": [],
+  "tag": "alt",
+  "version": null,
+  "vr_file": null,
+  "note": "Альтернатива Simplicity of Sea, вариант Tempus VR.",
+  "new": false
+ },
+ {
+  "key": "world-170955",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 174,
+  "name": "Map Weather — CS",
+  "id": 170955,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/170955",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "world-37085",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 175,
+  "name": "Embers XD",
+  "id": 37085,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/37085",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Объёмный огонь, искры и дым у костров, факелов и свечей. В CS Light выбрать опцию под Embers XD. 7 VR-сборок.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин и меши без DLL. Брать 3.2.x; в CS Light выбрать опцию под Embers XD.",
+    "overlaps": "В CS Light (уже на странице) есть отдельная опция FOMOD под Embers XD — выбрать её. Патчи Lux для Embers XD есть в Lux Patch Hub.",
+    "evidence": "7 VR-списков: Stormcrown VR (Embers XD 2K 3.2.8, 2026-09-05), Tempus Maledictum VR 3.1.7, Panda's Sovngarde 3.1.5, Tahrovin, Spirit of Grit, Tahrovin-Grit, Yggdrasil VR (Lite). 15 SE: NGVO, CSVO, CSVP, LoreRim, Nordic Souls(+PBR), Morning Star, TNE, SUP и др."
+   }
+  ]
+ },
+ {
+  "key": "world-73336",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 176,
+  "name": "Moons and Stars + SKSEVR DLL",
+  "id": 73336,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/73336",
+  "extra": [
+   {
+    "label": "SKSEVR DLL",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/73667"
+   }
+  ],
+  "tag": "rec",
+  "version": "2.0.2",
+  "vr_file": null,
+  "note": "Реальные звёзды, фазы лун, вращение неба. Держаться 2.0.2 — у 2.1 нет VR-DLL.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Ассеты 73336 (2.0.2) + DLL со страницы SKSEVR 73667 (2.0.0). 2.1.0 без VR-DLL — держаться 2.0.2.",
+    "overlaps": "Совместим с Azurite Weathers III (только небесные меши/текстуры звёзд). Не ставить другие замены звёзд/лун.",
+    "evidence": "Все 6 VR-списков, где есть мод (Stormcrown VR 2026-09, Tempus Maledictum VR, Panda's Sovngarde, Tahrovin, Spirit of Grit, Tahrovin-Grit), ставят пару файлов «Moons And Stars SKSE 2.0.2» + «Moons and Stars - Sky Overhaul SKSEVR-73667-2-0-0». 16 SE-списков (NGVO, CSVO, LoreRim, Nordic Souls, Morning Star, TNE…)."
+   }
+  ]
+ },
+ {
+  "key": "world-29243",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 177,
+  "name": "Storm Lightning for SSE and VR",
+  "id": 29243,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/29243",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Разряды в землю, синхронный гром, вспышки. Дополняет грозы Azurite.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "«for SSE and VR» в названии; FOMOD.",
+    "overlaps": "Совместим с KittyVFX Lightning (его используют вместе Tahrovin и Tempus Maledictum VR). С Azurite III — ставить после погоды, патч не нужен по данным списков.",
+    "evidence": "6 VR-списков: FUS 1.4.22, Librum VR 1.4.18, Tempus Maledictum VR 1.4.21, Tahrovin 1.4.23, Spirit of Grit, Tahrovin-Grit. SE: LoreRim, Elysium, Wunduniik, SUP, TNE (1.4.25 2026-08-27)."
+   }
+  ]
+ },
+ {
+  "key": "world-87261",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 178,
+  "name": "Natural Waterfalls",
+  "id": 87261,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/87261",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Брызги, пена и туман вместо ванильных полотен водопадов.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Меши, эффекты и ESP без DLL.",
+    "overlaps": "Альтернатива/дополнение — WAVY Waterfalls Effect (126073, ESL; FUS, Panda's Sovngarde, Tempus Maledictum VR). Проверить совместимость с Simplicity of Sea в xEdit (оба трогают воду).",
+    "evidence": "VR: Tempus Maledictum VR 3.0, Panda's Sovngarde 3.2. SE: 12 списков — NGVO/CSVP/Nordic Souls/Wunduniik/SUP (3.7), CSVO, LoreRim, True North, Tomes of Talos."
+   }
+  ]
+ },
+ {
+  "key": "world-112509",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 179,
+  "name": "KittyVFX — Frost, Fire, Lightning, Dragon Breath, Healing, Portals",
+  "id": 112509,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/112509",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Серия новых эффектов магии, без DLL. Магия кастуется прямо перед глазами.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагины и частицы без DLL; модули: Frost, Fire 109414, Lightning 124520, Dragon Breath 118431, Healing 133774, Portals 135614.",
+    "overlaps": "Пересекается с другими заменами магических эффектов; совместимо с Magic Improvements for Skyrim VR и Spell Wheel VR (не трогают визуал).",
+    "evidence": "Tempus Maledictum VR — все 6 модулей; Tahrovin — Frost, Fire, Lightning, Dragon Breath; Panda's Sovngarde — Lightning, Dragon Breath. SE: 8-10 списков каждый (NGVO, CSVP, LoreRim, Nordic Souls, True North, SUP, Wunduniik)."
+   }
+  ]
+ },
+ {
+  "key": "world-12939",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 180,
+  "name": "Deadly Spell Impacts + Parallax Spell Impacts",
+  "id": 12939,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/12939",
+  "extra": [
+   {
+    "label": "Parallax",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/83935"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Выжженные и обледенелые следы заклинаний на поверхностях.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин и декали; Parallax Spell Impacts 83935 поверх, параллакс через Open Shaders.",
+    "overlaps": "PSI — надстройка над DSI, не замена.",
+    "evidence": "DSI: 7 VR-списков (Tempus Maledictum VR, Panda's Sovngarde, Librum VR, Yggdrasil VR, Tahrovin, Spirit of Grit, Tahrovin-Grit) и 14 SE. PSI: Panda's Sovngarde (VR) + NGVO, CSVP, LoreRim, Nordic Souls, Wunduniik."
+   }
+  ]
+ },
+ {
+  "key": "world-133368",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 181,
+  "name": "slightly Better Dust + Improved Sparks",
+  "id": 133368,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/133368",
+  "extra": [
+   {
+    "label": "Improved Sparks",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/19831"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Мелкая пыль вместо облаков, настоящие искры от ударов.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин и частицы без DLL.",
+    "overlaps": "Нет.",
+    "evidence": "VR: Stormcrown VR, Tempus Maledictum VR. SE: NGVO, CSVO, CSVP, Nordic Souls PBR, Tomes of Talos, Wunduniik, Apostasy."
+   }
+  ]
+ },
+ {
+  "key": "world-13749",
+  "section": "world",
+  "separator": "09 Свет, погода, вода, VFX",
+  "order": 182,
+  "name": "Volcanic Tundra — Heat Wave Effects",
+  "id": 13749,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/13749",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Марево над горячими источниками. Если в шлеме мешает — выключить.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин и эффекты; если марево в шлеме неприятно — отключить.",
+    "overlaps": "Нет.",
+    "evidence": "5 VR-списков: Librum VR, Panda's Sovngarde, Tahrovin, Spirit of Grit, Tahrovin-Grit. SE: NGVO, LoreRim, Tomes of Talos, Apostasy."
+   }
+  ]
+ },
+ {
+  "key": "land-42161",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 183,
+  "name": "No Grass In Objects NG",
+  "id": 42161,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/42161",
+  "extra": [],
+  "tag": "core",
+  "version": "1.6.14",
+  "vr_file": null,
+  "note": "Прекэш травы: большой выигрыш в VR и основа для Grass LOD в DynDOLOD. После смены травы или iMinGrassSize кэш генерируется заново.",
+  "new": false
+ },
+ {
+  "key": "land-101095",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 184,
+  "name": "Grass Cache Helper NG",
+  "id": 101095,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/101095",
+  "extra": [],
+  "tag": "core",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "land-9005",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 185,
+  "name": "Landscape Fixes For Grass Mods",
+  "id": 9005,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/9005",
+  "extra": [],
+  "tag": "core",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": false
+ },
+ {
+  "key": "land-164058",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 186,
+  "name": "Merethic Grasslands",
+  "id": 164058,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/164058",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Трава в ванильном стиле. Выбрана в Stormcrown VR, где упор на производительность.",
+  "new": false
+ },
+ {
+  "key": "land-80687",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 187,
+  "name": "Cathedral 3D Grass Library + 3D-растения",
+  "id": 80687,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/80687",
+  "extra": [],
+  "tag": "alt",
+  "version": null,
+  "vr_file": null,
+  "note": "Плотнее и красивее, но тяжелее.",
+  "new": false
+ },
+ {
+  "key": "land-50961",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 188,
+  "name": "Happy Little Trees + DynDOLOD 3 Add-On",
+  "id": 50961,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/50961",
+  "extra": [
+   {
+    "label": "LOD add-on",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/56907"
+   }
+  ],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Лёгкие деревья с хорошими LOD.",
+  "new": false
+ },
+ {
+  "key": "land-6",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 189,
+  "name": "Seasons of Skyrim",
+  "id": null,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/search/?gsearch=Seasons%20of%20Skyrim",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Работает в VR (есть в MGO), но кэш травы и LOD придётся генерировать на каждый сезон.",
+  "new": false
+ },
+ {
+  "key": "land-87521",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 190,
+  "name": "LOD Model Library for DynDOLOD",
+  "id": 87521,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/87521",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": null,
+  "note": "Качественные дальние скалы, руины и постройки для DynDOLOD 3. Стандарт next-gen сборок 2026.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Ресурс только для генерации DynDOLOD (меши), в игре без DLL.",
+    "overlaps": "Дополняет Happy Little Trees DynDOLOD Add-On (на странице); при генерации ставить ниже DynDOLOD Resources.",
+    "evidence": "12 SE-списков: CSVO (1.8.3 2026-06-14), NGVO 1.8.3, Nordic Souls PBR, LoreRim, Elysium, Winds of the North, TNE, SUP, Wunduniik, Apostasy, Tomes of Talos; VR: Panda's Sovngarde."
+   }
+  ]
+ },
+ {
+  "key": "land-12431",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 191,
+  "name": "No Grass In Caves",
+  "id": 12431,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/12431",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Только плагин.",
+    "overlaps": "Дополняет No Grass In Objects NG и Landscape Fixes For Grass Mods (на странице): они решают другие случаи.",
+    "evidence": "VR: FUS, Yggdrasil VR. SE: SUP и TNE (1.3), Tomes of Talos, Apostasy."
+   }
+  ]
+ },
+ {
+  "key": "land-9121",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 192,
+  "name": "Better Dynamic Snow + Better Dynamic Ash",
+  "id": 9121,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/9121",
+  "extra": [
+   {
+    "label": "BDA",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/54754"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Снег и пепел на объектах по геометрии.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Меши и плагин без DLL; BDS 3.6.0, BDA 54754 2.1.1.",
+    "overlaps": "Совместимы с Simple Snow Improvements (NGVO ставит оба). Динамический снег Open Shaders пока WIP — дублирования нет.",
+    "evidence": "BDS: VR — Stormcrown VR, Tempus Maledictum VR, Panda's Sovngarde, Librum VR; SE — NGVO, CSVO, CSVP, LoreRim, TNE. BDA: VR — Tempus Maledictum VR, Panda's Sovngarde, Tahrovin, Spirit of Grit, Tahrovin-Grit; SE — CSVO, Elysium, TNE, True North."
+   }
+  ]
+ },
+ {
+  "key": "land-78702",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 193,
+  "name": "Simple Snow Improvements (BOS)",
+  "id": 78702,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/78702",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Чинит блеск и швы снега через BOS VR.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Работает через Base Object Swapper VR со страницы.",
+    "overlaps": "Работает вместе с Better Dynamic Snow.",
+    "evidence": "VR: Panda's Sovngarde 2.3. SE: 10 списков — NGVO, CSVP, Morning Star, SUP, TNE, Wunduniik (2.4), Winds of the North, Tomes of Talos, Apostasy, Elysium."
+   }
+  ]
+ },
+ {
+  "key": "land-3808",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 194,
+  "name": "Footprints + SPID for Footprints",
+  "id": 3808,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/3808",
+  "extra": [
+   {
+    "label": "SPID for Footprints",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/54924"
+   }
+  ],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Проверенные следы на снегу и песке. Или Dynamic Footprints SKSE из хайтек-раздела — одно из двух.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Плагин и текстуры следов, раздача через SPID VR (SPID for Footprints 54924).",
+    "overlaps": "Нет.",
+    "evidence": "VR: Tempus Maledictum VR, Panda's Sovngarde, Yggdrasil VR (оба файла). SE: Nordic Souls(+PBR), True North, SUP, Tomes of Talos, Elysium, Apostasy, Aldrnari."
+   }
+  ]
+ },
+ {
+  "key": "land-79473",
+  "section": "land",
+  "separator": "10 Ландшафт, трава, деревья",
+  "order": 195,
+  "name": "Auto Parallax",
+  "id": 79473,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/79473",
+  "extra": [],
+  "tag": "opt",
+  "version": null,
+  "vr_file": null,
+  "note": "Отключает параллакс на мешах без карты высот. Нужен на этапе parallax-текстур.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Одна NG-DLL (VR-пресет в исходниках); нужна VR Address Library.",
+    "overlaps": "Нет. Пригодится, когда дойдёт до параллакс-текстур.",
+    "evidence": "VR: FUS, Panda's Sovngarde, Tahrovin (тот же файл 1.0.27). SE: NGVO, LoreRim, TNE (1.0.28 2026-08-24), Elysium, Tomes of Talos, Wunduniik, Apostasy."
+   }
+  ]
+ },
+ {
+  "key": "perf-171182",
+  "section": "perf",
+  "separator": "15 VR-рантайм и производительность",
+  "order": 272,
+  "name": "OpenComposite Unleashed for Skyrim VR",
+  "id": 171182,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/171182",
+  "extra": [],
+  "tag": "rec",
+  "version": "5.0",
+  "vr_file": null,
+  "note": "OpenXR в обход SteamVR. FUS сообщал о приросте до ~30%. В этой сборке работает виртуальная клавиатура. Оверлеи SteamVR пропадают. DLL — в корень через Root Builder.",
+  "new": false
+ },
+ {
+  "key": "perf-31392",
+  "section": "perf",
+  "separator": "15 VR-рантайм и производительность",
+  "order": 273,
+  "name": "VR FPS Stabilizer",
+  "id": 31392,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/31392",
+  "extra": [],
+  "tag": "opt",
+  "version": "1.4.12",
+  "vr_file": null,
+  "note": "Снижает настройки на лету при просадках.",
+  "new": false
+ },
+ {
+  "key": "perf-163969",
+  "section": "perf",
+  "separator": "15 VR-рантайм и производительность",
+  "order": 274,
+  "name": "S.L.A.C.K. — Save and Load Accelerator",
+  "id": 163969,
+  "url": "https://www.nexusmods.com/skyrimspecialedition/mods/163969",
+  "extra": [],
+  "tag": "rec",
+  "version": null,
+  "vr_file": "VR",
+  "note": "Ускоряет запись и чтение ко-сейвов SKSE в разы. Дополняет Seamless Saving VR. Отдельный VR-архив под SKSEVR 2.0.12.",
+  "new": true,
+  "research": [
+   {
+    "vr_note": "Архив Save.Load.Accelerator.For.SKSE.Cosaves.VR.zip (под SKSE 2.0.12 / VR 1.4.15), v1.5.1.",
+    "overlaps": "Дополняет Seamless Saving VR со страницы: тот ускоряет основное сохранение (.ess), этот — co-save SKSE. Не дублирует.",
+    "evidence": "Используют VR-списки Librum VR (1.3.1/1.3.2) и Panda's Sovngarde, а также 5 SE-сборок: Nordic Souls PBR, Skyrim25, SUP, Apostasy, Wunduniik. В заметках к релизу: «VR is for version 2.0.12 of SKSE»."
+   },
+   {
+    "vr_note": "Отдельный VR-архив под SKSEVR 2.0.12. Librum VR и Panda's Sovngarde ставят",
+    "overlaps": "Совместим с Seamless Saving VR: тот убирает фриз при сейве, этот ускоряет ко-сейв. Форк Faster Loadin' 'n' Savin' VR-сборки не имеет",
+    "evidence": "whouses: Librum VR (1.3.1 и 1.3.2) и Panda's Sovngarde (1.1.0), плюс SE-листы. Сниппет GitHub just-harry: 'VR is for version 2.0.12 of SKSE…'"
+   }
+  ]
+ }
+]

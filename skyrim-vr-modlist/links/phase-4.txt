@@ -1,0 +1,84 @@
+# Фаза 4: Интерфейс и звук
+# Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
+
+# [rec] moreHUD VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/33215
+
+# [rec] QuickLoot IE — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/120075
+
+# [rec] VR Console Selection Fix — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/140752
+
+# [opt] No Menu Fade Out VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/185197
+
+# [opt] Norden UI — VR Edition — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/169537
+
+# [rec] Essential Favorites VR + Favorite Misc Items — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/59554
+https://www.nexusmods.com/skyrimspecialedition/mods/42750
+
+# [opt] VR Menu Mouse Fix — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/33414
+
+# [opt] Crafting Categories for SkyUI VR (COCKS) — VR-файл: VR
+https://www.nexusmods.com/skyrimspecialedition/mods/81409
+
+# [opt] Floating Subtitles VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/183714
+
+# [opt] Floating Damage NG — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/184159
+
+# [opt] Clear HUD VR + Clean Menu — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/49657
+https://www.nexusmods.com/skyrimspecialedition/mods/53524
+
+# [opt] Minimal Enemy Healthbar VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/17812
+
+# [opt] Dynamic Location Pop-ups (VR) — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/155978
+https://www.nexusmods.com/skyrimspecialedition/mods/153122
+
+# [opt] RacemenuVR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/156898
+
+# [try] RaceMenu VR 2 — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/192158
+
+# [try] I5 — Information Injector Improved — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/192976
+
+# [rec] Audio Overhaul for Skyrim — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/12466
+
+# [rec] Regional Sounds Expansion + Reverb Interior Sounds Expansion — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/77829
+https://www.nexusmods.com/skyrimspecialedition/mods/77947
+
+# [rec] Acoustic Space Improvement Fixes — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/78992
+
+# [alt] Immersive Sounds Compendium + AOS–ISC patch — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/523
+https://www.nexusmods.com/skyrimspecialedition/mods/36761
+
+# [rec] True 3D Sound for Headphones — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/1897
+
+# [opt] UHDAP — Music HQ — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/18115
+
+# [opt] Wildwood Echoes + Murmurs and Mead — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/112008
+https://www.nexusmods.com/skyrimspecialedition/mods/114716
+
+# [opt] Haunting Harmonies of Hjaalmarch + Whispers of the Daedric Princes — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/125873
+https://www.nexusmods.com/skyrimspecialedition/mods/141931
+
+# [opt] Immersive Draw Sheathe Sounds VR — основной файл
+https://www.nexusmods.com/skyrimspecialedition/mods/44992

@@ -1,0 +1,748 @@
+{
+ "items": [
+  {
+   "key": "fixes-107053",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Poached Bugs VR Core File» последней версии (0.6.0 — так в Stormcrown VR, Librum VR, Yggdrasil VR). Отдельным модом — «Simonrim Choice Config» той же версии (0.6.0), потому что в сборке Adamant и Mysticism (SimonRim). Версии Core и Simonrim Config должны совпадать.",
+   "fomod": "нет установщика (по именам архивов — два отдельных файла: Core и Simonrim Choice Config); точную структуру проверить при установке",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Scrambled Bugs (SE/AE, в VR не работает)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Simonrim Choice Config — сразу НИЖЕ Core (должен перезаписать его конфиг). Оба — в разделе «03 Фиксы движка», после Engine Fixes VR.",
+   "plugin_order": "",
+   "config": "Фиксы включены по умолчанию — не трогать. Твики оставить по умолчанию; Simonrim Choice Config сам выставляет значения под Adamant/Mysticism. Имя конфига не придумывать — смотреть в архиве.",
+   "verify": "В sksevr.log DLL Poached Bugs загружена без ошибки. В MO2 на вкладке конфликтов Simonrim Config побеждает Core.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 9/9 VR-списков; Core 0.6.0 в Stormcrown VR, Librum VR, Yggdrasil VR, FUS; Simonrim Choice Config 0.6.0 в Stormcrown VR, Librum VR (0.5.0 — Panda's, FUS). Метаданные WJ: «SKSEVR/CommonLibVR plugin… reproducing fixes and tweaks found in Scrambled Bugs». Сниппет Nexus: автор Rafear; совместимость с Adamant 5.1+."
+  },
+  {
+   "key": "fixes-77779",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Papyrus Tweaks» последней версии (4.2.1 — Yggdrasil VR, 2026-09; 4.1.1 — Stormcrown VR). Файл «INI file for reference» — не ставить, это образец INI.",
+   "fomod": "нет установщика (по именам архивов); проверить структуру при установке",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка». Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "INI по умолчанию. Не включать экспериментальные/рискованные опции без причины.",
+   "verify": "В sksevr.log DLL Papyrus Tweaks загружена без ошибки. В Papyrus-логе нет ошибок от неё.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "GitHub Nightfallstorm/PapyrusTweaks README: User Requirements — «VR Address Library for SKSEVR — Needed for VR». whouses: Yggdrasil VR 4.2.1, Stormcrown VR 4.1.1, ещё 6 VR-списков 4.1.0/4.1.1."
+  },
+  {
+   "key": "fixes-160704",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «skyrim-freeze-fix» последней версии (0.0.5 — Stormcrown VR, 2026-08; 0.0.3 — Tempus Maledictum VR). Отдельного VR-файла нет.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Обязательно: в sksevr.log DLL загружена, нет «incompatible»/«failed». Если не грузится — удалить мод (в описании заявлены только SE и AE).",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Метаданные WJ: «targets a specific deadlock in both Skyrim SE and AE» — VR не заявлен. Но стоит в двух VR-списках: Stormcrown VR (0.0.5), Tempus Maledictum VR (0.0.3). Что VR-адреса нужны — общее правило для NG-DLL."
+  },
+  {
+   "key": "fixes-175062",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Брать VR-файл: «Disabled Reference Integrity Fix VR (SKSE)» (1.5.0 — Stormcrown VR, 2026-09). Файл «…AE (SKSE)» не брать.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "Настраивается (по описанию «Highly configurable»). Оставить по умолчанию.",
+   "verify": "В sksevr.log VR-DLL загружена. Если у мода есть лог — проверить, что при загрузке ячеек он сканирует их без ошибок.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: Stormcrown VR — «Disabled Reference Integrity Fix VR (SKSE) 175062 1.5.0»; SE-списки берут файл AE. Метаданные WJ: «script-free SKSE plugin that fixes references incorrectly disabled/deleted… Highly configurable»."
+  },
+  {
+   "key": "fixes-193168",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Block Condition Freeze CTD Fix» 1.0 (так в Yggdrasil VR, 2026-09-26). Отдельного VR-файла не видно.",
+   "fomod": "нет установщика (по имени архива; «SKSE and no esp»)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Обязательно: в sksevr.log DLL загружена без ошибки. Проверить блок щитом/оружием в бою (PLANCK/HIGGS): нет фризов, блок работает. Если DLL не грузится — удалить.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "Метаданные WJ (автор Kenny Leone): «native IsBlocking func… FPS drops, freezes, crashes… SKSE and no esp». VR в описании не заявлен. Из VR-списков только Yggdrasil VR (2026-10-04), плюс SE Morning Star."
+  },
+  {
+   "key": "fixes-69326",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «NPC AI Process Position Fix - NG» последней версии (1.1.3 — Stormcrown VR, 2026-08; 1.1.1 — Yggdrasil VR, Panda's). Одна DLL на SE/AE/VR.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Старая не-NG версия NPC AI Process Position Fix"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена без ошибки.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Метаданные WJ (doodlum): «adding support for SE, AE, and VR in one DLL». whouses: Stormcrown VR, Panda's, Librum VR, Yggdrasil VR."
+  },
+  {
+   "key": "fixes-69331",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Animated Static Reload Fix - NG» последней версии (1.0.4 — Stormcrown VR, Yggdrasil VR). Одна DLL на SE/AE/VR.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Старая не-NG версия Animated Static Reload Fix"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена без ошибки.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Метаданные WJ (doodlum): «support for SSE, AE, and VR in one DLL». whouses: Stormcrown VR 1.0.4, Yggdrasil VR 1.0.4, Tempus, Panda's, Librum VR."
+  },
+  {
+   "key": "fixes-110508",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Stagger Effect Fix» последней версии (1.0.4 — Stormcrown VR, Yggdrasil VR).",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена. В игре: шокирующая магия/крик отталкивает цель от заклинателя, а не к нему.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Метаданные WJ (Maxsu, SkyHorizon): «fixes an engine bug with magic effects that caused targets to stagger in the wrong direction. Supports SE, AE and VR». whouses: Stormcrown VR, Yggdrasil VR 1.0.4; Librum VR, Tempus."
+  },
+  {
+   "key": "fixes-82395",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Animation Queue Fix» последней версии (1.0.2 — Yggdrasil VR, 2026-08; 1.0.1 — ещё 6 VR-списков).",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена без ошибки. В людных местах (Вайтран) нет застывших NPC в T-позе.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Метаданные WJ (Ersh): «Fixes the queue getting overloaded when a lot of animations are queued». whouses: 7/9 VR-списков (FUS, Librum, Panda's, Tahrovin, Grit, Tempus, Yggdrasil 1.0.2)."
+  },
+  {
+   "key": "fixes-174106",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «SeamlessSaving» v1.0.7 (Stormcrown VR, Librum VR, Tempus VR). Мод только для VR.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена. Автосейв и быстрое сохранение проходят без заметного фриза. Сохранение затем загружается (проверить 2–3 раза).",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Метаданные WJ (alandtse): «optimizing the Skyrim Script VM's save time… VR port of JerryYOJ MIT code». whouses: Stormcrown VR, Librum VR, Tempus Maledictum VR — 1.0.7. Дополняет S.L.A.C.K. (perf-163969): тот ускоряет ко-сейв SKSE."
+  },
+  {
+   "key": "fixes-174643",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Fast Decompress» последней версии (1.4.2 — Stormcrown VR, 2026-09). Универсальная DLL для AE и VR.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена без ошибки. Нужна ли VR Address Library, сверить со вкладкой Requirements; если в логе ошибка адресов — поставить/обновить её.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (Asciimov): «Speeds up BSA asset loading by replacing the game's outdated decompression libraries… Universal plugin that supports AE and VR». whouses: Stormcrown VR 1.4.2; SE LoreRim, Nordic Souls PBR 1.3."
+  },
+  {
+   "key": "fixes-100975",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Для VR брать вариант «Universal» (DiskCacheEnabler-Universal; так в Librum VR, Spirit of Grit, Tahrovin, Grit). Вариант «Main» по цитате описания — memory patch для AE. Файл «1.2» стоит в FUS/Stormcrown/Yggdrasil/Panda's/Tempus — брать его, только если в описании файла на вкладке Files прямо указан VR/universal.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка». Проверить структуру архива: DLL должна оказаться в Data/SKSE/Plugins.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена без ошибки.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Сниппет (STEP forum, цитата описания): «Main… memory patched… for AE»; «Universal hooks function… works universally including VR regardless of version». whouses: Universal 1.0 — Librum VR, Spirit of Grit, Tahrovin, Tahrovin-Grit; 1.2 — FUS, Stormcrown VR, Yggdrasil VR, Panda's, Tempus."
+  },
+  {
+   "key": "fixes-18860",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Только VR-файл: «PrivateProfileRedirector VR 0.6.2 (Runtime 1.4.15)» (так во всех 5 VR-списках: Stormcrown, Panda's, Tahrovin, FUS, Yggdrasil). Не брать SE-файлы 0.5.x/0.6.x.",
+   "fomod": "нет установщика (по именам архивов). Если в архиве верхний уровень — папка Data, MO2 возьмёт её как корень мода",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "PrivateProfileRedirector 0.5.x и старее (зависание на старте с шейдерами семейства CS)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка». DLL и INI — в Data/SKSE/Plugins.",
+   "plugin_order": "",
+   "config": "PrivateProfileRedirector.ini — по умолчанию.",
+   "verify": "В sksevr.log DLL загружена. Игра стартует быстрее. Open Shaders создаёт свой JSON нормально, на старте нет зависания.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 5 VR-списков — «PrivateProfileRedirector VR 0.6.2 (Runtime 1.4.15)-18860-0-6-2». FAQ вики Community Shaders: «PrivateProfileRedirector… Version 0.5.x or lower is known to cause this issue [freeze]. Please update to version 0.6.x or higher». Метаданные WJ (Karandra): кэширует INI в памяти."
+  },
+  {
+   "key": "fixes-50129",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Skyrim Priority SE AE» 3.4.0 (так в Stormcrown VR, Tempus VR, Panda's). Отдельного VR-файла нет.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды и утилиты, меняющие приоритет процесса (Fallrim Priority / PriorityMod) — оставить один"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "По умолчанию. Не ставить Realtime-приоритет.",
+   "verify": "В sksevr.log DLL загружена. В диспетчере задач у SkyrimVR.exe приоритет «Высокий».",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (Boring3): «Elevate the CPU Priority of the game process». Сниппет Nexus: SKSE DLL без ESP; проверки версии SKSE нет; автор VR не проверял, «some VR users confirmed the mod works on SkyrimVR». whouses: Stormcrown VR, Tempus, Panda's, FUS."
+  },
+  {
+   "key": "fixes-97155",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Брать «SCROTE Loose Files Version» последней версии (1.0.3 — Stormcrown VR, 2026-09). BSA-версию не брать: все VR-списки берут Loose Files.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Сразу ниже USSEP (должен перезаписать его скрипты). Ниже SCROTE — моды, которые правят те же скрипты точечно: Dragonactorscript Infinite Loop Fix, CritterSpawn Congestion Fix. Конфликты .pex смотреть на вкладке конфликтов MO2.",
+   "plugin_order": "Если в версии есть плагин — LOOT, сразу после USSEP.",
+   "config": "",
+   "verify": "В MO2 SCROTE побеждает USSEP по общим .pex; Dragonactorscript Fix и CritterSpawn Fix побеждают SCROTE.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Loose Files — Stormcrown VR 1.0.3, Panda's, FUS, Librum VR, Tempus 1.0.2, Yggdrasil 1.0.1; BSA — только SE-списки. Метаданные WJ (ferrari365): «A collection of all my vanilla game script fixes»."
+  },
+  {
+   "key": "fixes-54907",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Main: «eFPS - Exterior FPS boost» 2.4.2. Отдельно «eFPS - Official Patch Hub» 1.7a (страница 54998) — только патчи для установленных модов. Так в Tempus VR, Yggdrasil VR, Stormcrown VR.",
+   "fomod": "неизвестно — общие правила; в Patch Hub отметить только патчи для модов, которые реально стоят (сверить с Lux Orbis, Lux Via, городскими модами)",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Open Cities",
+    "JK's Skyrim и др. моды, перестраивающие города, — без патча из Patch Hub"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Patch Hub — ниже eFPS и ниже модов, которые он патчит.",
+   "plugin_order": "eFPS — по LOOT. Патчи Patch Hub — ниже eFPS и модов, к которым они.",
+   "config": "",
+   "verify": "В xEdit нет конфликтов eFPS с модами городов без патча. В Вайтране и Рифтене нет «дыр» и исчезающих зданий.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: Tempus VR, Stormcrown VR, Yggdrasil VR — 2.4.2; Patch Hub 1.7a — Tempus VR, Yggdrasil VR. Сниппеты обзоров: «incompatible with mods that rearrange structures, like Open Cities and JK's Skyrim»; автор советует новую игру."
+  },
+  {
+   "key": "fixes-111475",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Main: «Lightened Skyrim» на странице 111475 — версия для Base Object Swapper (1.10 — Stormcrown VR). ESP-версию со страницы 50755 вместе с ней не ставить.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Base Object Swapper VR (#61734)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Lightened Skyrim (ESP-версия, #50755)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка» (или «Производительность»), ниже Base Object Swapper VR.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В логе Base Object Swapper видны SWAP-файлы Lightened Skyrim. Время кадра в экстерьере (fpsVR) не хуже, чем без мода.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (nicola89b): «This is the version for Base Object Swapper». whouses: BOS-версия 111475 — Stormcrown VR 1.10, Tempus 1.08, Panda's 1.08, Tahrovin; ESP-версия 50755 — FUS, Librum, Yggdrasil, Grit. Changelog FUS: «Lightened Skyrim (1-2 better MS)»."
+  },
+  {
+   "key": "fixes-148746",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Inertia - Latest Version» (1.1.1 — Yggdrasil VR, 2026-09; 1.1.0 — Stormcrown VR).",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "Длительность «инерции» настраивается — оставить по умолчанию.",
+   "verify": "В sksevr.log DLL загружена. Убить NPC: снаряжение падает вместе с телом, не висит в воздухе.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Сниппет Nexus (Seb263): требует SKSE и Address Library. VR явно не заявлен, но стоит в трёх VR-списках: Stormcrown VR 1.1.0, Yggdrasil VR 1.1.1, Tempus 1.0.1."
+  },
+  {
+   "key": "fixes-32117",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main: «Assorted Mesh Fixes» последней версии (0.144 — Stormcrown VR, 2026-09-26). Файл «parallax shit (unsupported)» — не ставить, пока нет parallax-текстур (решить на этапе текстур).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Рано в разделе фиксов мешей. Выше Unofficial Material Fix и Fixed Mesh Lighting. Более поздние меш-реплейсеры и патчи могут его перезаписывать.",
+   "plugin_order": "Если есть ESP — по LOOT.",
+   "config": "",
+   "verify": "MO2: конфликты с UMF/Fixed Mesh Lighting осознанные (UMF ставить патч для AMF, если есть).",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (wankingSkeever): «Fixes various issues with vanilla Skyrim meshes». whouses: Stormcrown VR 0.144, Panda's 0.127, FUS 0.111, Tempus, Yggdrasil; файл parallax — только в SE-списках."
+  },
+  {
+   "key": "fixes-21027",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main: «Unofficial Material Fix» 1.18.0 (Stormcrown VR, Panda's).",
+   "fomod": "неизвестно — общие правила. По словам пользователя STEP, сейчас один файл с FOMOD и патчами (Assorted Mesh Fixes, ELFX, SMIM). Отметить патч для Assorted Mesh Fixes, если он есть, и не отмечать патчи для неустановленных модов",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Assorted Mesh Fixes.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "MO2: UMF побеждает AMF по общим мешам (если выбран патч под AMF).",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (Elzee): материалы мешей — звуки шагов и искры. whouses: Stormcrown VR, Panda's 1.18.0. Сниппеты STEP: патч «Unofficial Material Fix - Assorted Mesh Fixes Patch»; «now only one file, with a FOMOD»."
+  },
+  {
+   "key": "fixes-26138",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Main: «Skyrim Landscape and Water Fixes - FOMOD» последней версии (v10.x; Panda's v10.0.2, Tempus v9.9.1A, SE до v10.6).",
+   "fomod": "Есть FOMOD. По гайду STEP (старая версия): основной плагин, патчи (ELFX, Relighting Skyrim, CACO, Landscape Fixes For Grass Mods), Walkway Wall fix, Missing Lights Fix. Отметить патч для Landscape Fixes For Grass Mods (он в сборке), остальные патчи — только для установленных модов. Точные названия опций — читать в установщике",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Landscape Fixes For Grass Mods (если выбран патч к нему).",
+   "plugin_order": "По LOOT. Патч к LFfGM — после обоих модов.",
+   "config": "",
+   "verify": "В xEdit нет перезаписи ландшафта SLaWF без патча модами ландшафта/городов. У Ривервуда и у рек нет дыр и висящей воды.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: Panda's v10.0.2, Tempus v9.9, Librum v8.4, Grit/Tahrovin v7.9, Yggdrasil v6.4. Сниппет STEP wiki: состав FOMOD, CACO и патч для грасс-модов отмечены по умолчанию. Steam: нужны патчи с модами, меняющими ландшафт. Changelog FUS: добавлен."
+  },
+  {
+   "key": "fixes-52641",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Main: «Navigator - Navmesh Fixes» последней версии (1.8.3 — Stormcrown VR, 2026-07).",
+   "fomod": "Есть FOMOD. По гайду STEP: выбрать All-In-One ESL; патчи (Interesting NPCs, Skyrim Sewers, Sunder and Wraithguard) — только если эти моды стоят. Точные названия — читать в установщике",
+   "requires": [
+    "Skyrim VR ESL Support (#106712)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "Высоко в порядке загрузки (автор советует, если LOOT не поставил сам). НЕ чистить в xEdit — «грязные» записи намеренные.",
+   "config": "",
+   "verify": "Плагин ESL активен (VR ESL Support в sksevr.log работает). В подземельях компаньоны не застревают в дверях.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Stormcrown VR 1.8.3, Yggdrasil VR 1.1.9; SE: NGVO, LoreRim, Skyrim25. Сниппет STEP: «Choose the All-In-One ESL option… sort high… Don't clean it with xEdit»; список опциональных патчей."
+  },
+  {
+   "key": "fixes-37440",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Increase Actor Limit VR» v1.0 (единственный файл, во всех 8 VR-списках).",
+   "fomod": "нет установщика (по имени архива)",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Actor Limit Fix (SE, #32349) — не для VR"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена. В больших боях/толпах нет NPC, «плывущих» без анимации.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (RollingRock): «Binary patch mod to fix issue of floating NPC's caused by hitting the arbitrary limit of 128… implement for VR what was fixed in meh321's Actor Limit Fix». whouses: 8/9 VR-списков, файл 1.0. Что это SKSE-DLL, а не правка exe, — по типу мода, проверить архив."
+  },
+  {
+   "key": "fixes-86265",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Save Unbaker VR» 1.0.4 (Panda's, Tahrovin, Librum VR, Yggdrasil VR). SE-версию 85565 не брать.",
+   "fomod": "нет установщика (по имени архива)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Save Unbaker SE/AE (#85565)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена без ошибки.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "GitHub powerof3/SaveUnbaker README: ссылка VR → 86265; «VR Address Library for SKSEVR — Needed for VR». Метаданные WJ: «VR port of po3's MIT code» (alandtse). whouses: 4 VR-списка, 1.0.4."
+  },
+  {
+   "key": "fixes-87940",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main: «Dragonactorscript Infinite Loop Fix - FOMOD» 1.4.2 (Spirit of Grit, Tahrovin-Grit, Yggdrasil VR).",
+   "fomod": "Есть FOMOD с двумя вариантами (по описанию): основной («fail silently» — цикл завершается, когда ячейка дракона выгружена; душу недоступного трупа не получить) и альтернативный («absorb anywhere» — душа поглощается через ~5 минут где угодно; конфликтует с анимацией поглощения у модов вроде Cinematic Dragon Soul Absorption). Брать основной. Отдельной опции «под USSEP» нет: правки USSEP уже включены, USSEP не обязателен. Точные надписи — читать в установщике",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже USSEP, SCROTE и любых модов драконов с dragonactorscript.pex — этот мод должен победить в конфликте.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "MO2: dragonactorscript.pex приходит из этого мода (вкладка конфликтов).",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Сниппет Nexus 87940 (Blackread): описание двух вариантов FOMOD; «USSEP… changes are included. However, USSEP… not required»; «Overwrite any other mods containing the same script». whouses: 1.4.2 — Grit, Tahrovin-Grit, Yggdrasil VR; Panda's 1.4.1."
+  },
+  {
+   "key": "fixes-191729",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Telekinesis Aim Fix VR», версия «1» (2026-09-13; Yggdrasil VR, Tahrovin-Grit). Мод только для VR.",
+   "fomod": "нет установщика (по имени архива)",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка» или «VR-ядро».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена. Телекинез бросает предмет туда, куда направлена рука. Нужна ли VR Address Library — сверить с Requirements.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (Aelover): «Fixes Telekinesis's release direction in Skyrim VR». whouses: Yggdrasil VR и Tahrovin-Grit — 191729 v1. Что это DLL — вывод по типу фикса, проверить архив."
+  },
+  {
+   "key": "fixes-181445",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «CollisionSentinel» последней версии (2.1.0 — Spirit of Grit, Tahrovin-Grit, 2026-07).",
+   "fomod": "нет установщика (по имени архива)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "По умолчанию. Свой лог с виновником (NIF, FormID) — читать при вылетах.",
+   "verify": "В sksevr.log DLL загружена. Проверить, что в EngineFixes.toml защита Havok-материалов и Collision Sentinel не дают двойных срабатываний. Пройти мост у Ивастеда (жалоба на зависание вместе с Water Collision Crash Fix).",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (Tesfantom): «stops crashes and freezes caused by broken collision on modded meshes… SE/AE/VR». whouses: Spirit of Grit, Tahrovin-Grit 2.1.0; NGVO. Исследование: на Nexus метка AI-Generated; похожая защита в Engine Fixes VR 7.4.9+."
+  },
+  {
+   "key": "fixes-76867",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Recursion Fix» 1.2 (единственный файл; 5 VR-списков).",
+   "fomod": "нет установщика (по имени архива)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log DLL загружена без ошибки.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "Метаданные WJ (Nightfallstorm, автор Papyrus Tweaks): «Detects broken papyrus scripts stuck in recursion». Страница Nexus (по исследованию): «VR users need VR Address Library». whouses: Librum, Panda's, Grit, Tahrovin, Tahrovin-Grit."
+  },
+  {
+   "key": "fixes-110459",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main: «Combat Music Fix NG» 2.0.0 (Stormcrown VR, 2026-09). Вариант «Only At Save Load» не брать (он только в SE-списке Nordic Souls PBR).",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Combat Music Fix (старый, dTry, #67015)",
+    "Старые ESP-фиксы боевой музыки"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Обязательно: в sksevr.log DLL загружена без ошибки (VR-файла нет). Сохранения загружаются без вылета: есть жалоба SE-пользователя на вылет при загрузке. После боя музыка стихает.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (dTry, GabonZ): «Simple SKSE plugin to fix the never-ending combat music bug». whouses: Stormcrown VR 2.0.0, Spirit of Grit / Tahrovin-Grit / Panda's 1.2.0, FUS / Tempus 1.1.0. Reddit-сниппет 2025: вылет при загрузке сейва на SE."
+  },
+  {
+   "key": "fixes-53653",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main: «Fixed Mesh Lighting» 1.9.1 (Librum VR, FUS).",
+   "fomod": "неизвестно — общие правила. В описании «Patches for popular mods included» — отметить патчи только для установленных модов",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже Assorted Mesh Fixes и Unofficial Material Fix. Конфликты мешей смотреть в MO2.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "MO2: конфликты с AMF/UMF осознанные. Днём в тени предметы не светятся.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (Catnyss): «Fixes lighting bugs with vanilla Skyrim meshes rendering too bright… Patches for popular mods included». whouses: Librum VR, FUS 1.9.1; Tempus, Yggdrasil 1.8.0."
+  },
+  {
+   "key": "fixes-77834",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два мода: «Aurora Fix» 1.0.1 (77834) и «Sky Reflection Fix» 1.0.1 (110604). Отдельных VR-файлов нет.",
+   "fomod": "нет установщика (по именам архивов)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка». Ставить как два отдельных мода.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "В sksevr.log загружены обе DLL. После Апокрифа/Солстейма в небе Скайрима нет чужого сияния. Отражения неба в воде не съезжают при поворотах головы.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (doodlum/doodlez): Aurora Fix — «fixes auroras getting stuck when transitioning between worldspaces»; Sky Reflection Fix — «fixes the sky in reflections». whouses: Aurora — Librum VR, Tempus; Sky Reflection — Librum VR, Tempus, FUS. Что DLL общая для VR — по исследованию куратора."
+  },
+  {
+   "key": "fixes-63862",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main: «Water Effects Brightness and Reflection Fix» 0.5 (FUS, Panda's, Tempus).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Выше Splashes of Skyrim / Splashes of Storms и водного мода (Simplicity of Sea). Где они пересекаются по мешам, должны побеждать они. Решить по вкладке конфликтов MO2.",
+   "plugin_order": "",
+   "config": "",
+   "verify": "MO2: проверить конфликты с водными модами. Ночью пена и водопады не светятся неоном.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ (wankingSkeever): «Fixes bright water effects at night and neon green reflections». whouses: FUS, Panda's, Tempus — 0.5. Порядок относительно водных модов — общее правило, не по документации."
+  },
+  {
+   "key": "fixes-69026",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Два мода. 1) «Unaggressive Dragon Priests Fix» 1.3.1 (FUS, Librum, Panda's, Tempus); патчи Beyond Reach / Wyrmstooth — только если стоят эти моды. 2) «Dwemer Gates Don't Reset» 1.3.7 (Tempus).",
+   "fomod": "Dwemer Gates Don't Reset: по описанию есть версии «Dwemer-only» и «complete» и форматы .esl / ESM / ESP-FE / ESP. Брать «complete» в формате ESP-FE или ESL (VR ESL Support стоит). Точные надписи — читать в установщике/файлах. Unaggressive Dragon Priests Fix — неизвестно — общие правила",
+   "requires": [
+    "USSEP (#266) — для Dwemer Gates Don't Reset",
+    "Skyrim VR ESL Support (#106712) — если выбран ESL/ESP-FE"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "",
+   "plugin_order": "Оба — после USSEP (LOOT).",
+   "config": "",
+   "verify": "В xEdit Dwemer Gates видит USSEP мастером. В Блэкрич/Мзинчалефт ворота остаются открытыми после сброса ячейки; жрецы-драконы атакуют сразу.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "Метаданные WJ: Dwemer Gates (tarlazo) — «\"Dwemer-only\" and \"complete\" versions. Requires USSEP. .esl - ESM - ESP-FE - ESP»; Dragon Priests Fix (AndrealphusVIII). whouses: Dragon Priests 1.3.1 — FUS, Librum, Panda's, Tempus; патчи Beyond Reach/Wyrmstooth в архивах; Dwemer Gates 1.3.7 — Tempus."
+  },
+  {
+   "key": "fixes-67276",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Main: «CritterSpawn Congestion Fix» 1.54 (Panda's Sovngarde).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже SCROTE и USSEP. Если MO2 показывает конфликт по скриптам спавна живности — победителем оставить CritterSpawn Congestion Fix (это его единственная цель).",
+   "plugin_order": "Если есть ESP — по LOOT, после USSEP.",
+   "config": "",
+   "verify": "MO2: скрипт спавна живности приходит из этого мода. В Papyrus-логе нет спама от critter-скриптов.",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "Метаданные WJ (Excinerus): «A fix for the bug spawner, clogging your script engine». whouses: Panda's 1.54; 6 SE-списков. Пересечение со SCROTE — гипотеза куратора, не подтверждена."
+  },
+  {
+   "key": "fixes-49616",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Версию брать под путь USSEP. Путь A (свежий USSEP 4.3.x) — последняя USMP (2.6.8b, июль 2026). Путь B (USSEP 4.2.5b) — 2.6.6 (Tahrovin так и стоит на 4.2.5b; Tempus — 2.6.2b). «USMP Patch Emporium» (50813) — только при конфликтах с NPC-модами.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "USSEP (#266, путь A) или USSEP 4.2.5b + Skyrim VR USSEP patch (#91475, путь B)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Ниже USSEP.",
+   "plugin_order": "Сразу после USSEP и VR-патчей USSEP (LOOT).",
+   "config": "",
+   "verify": "В xEdit USMP загружается без ошибок мастеров. Нет перезаписи VR-правок USSEP-патча (сравнить записи в xEdit).",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "Метаданные WJ: USMP SE (PlagueHush, sattyre) — сборник фиксов поверх USSEP; Patch Emporium «Good for SE/AE». whouses: Tahrovin — USMP 2.6.6 при USSEP 4.2.5b; Tempus — 2.6.2b; SE CSVO/Nordic Souls — 2.6.8b."
+  },
+  {
+   "key": "fixes-173629",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Только 0.1.2 («Saving on Steed - Horse Save Load Fix SKSE»; Librum VR, Panda's). Ветку 0.2.x не брать.",
+   "fomod": "нет установщика (по имени архива)",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Horse Save Load Fix (скриптовый, #132110)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «03 Фиксы движка».",
+   "plugin_order": "",
+   "config": "",
+   "verify": "Обязательно: в sksevr.log DLL загружена без ошибки (VR автор не заявлял). Сохраниться верхом и загрузиться — лошадь и игрок на месте. Если DLL не грузится — удалить.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "Метаданные WJ (wankingSkeever): «SKSE version of my Horse Save Load Fix. Prevents you flying off into space». whouses: Librum VR, Panda's — 0.1.2; скриптовый 132110 — Tempus VR. VR-поддержка не заявлена."
+  }
+ ],
+ "group_notes": "Группа «Фиксы движка». Почти всё — SKSE-DLL. Ставить каждый мод отдельным модом MO2 в разделе «03 Фиксы движка», ниже SKSEVR, VR Address Library и Engine Fixes VR. Root Builder для этой группы не нужен: в корень идут только SKSEVR и Engine Fixes VR Part 2.\n1) VR-файлы. PrivateProfileRedirector — только «VR 0.6.2 (Runtime 1.4.15)»: версии 0.5.x и старее подвешивают старт с шейдерами семейства CS (FAQ CS). Disabled Reference Integrity Fix — файл «VR (SKSE)». Save Unbaker и Seamless Saving — VR-порты alandtse. Disk Cache Enabler — вариант Universal, если для 1.2 не заявлен VR. Combat Music Fix NG — основной файл, не «Only At Save Load».\n2) Без заявленной поддержки VR, только по VR-спискам: Skyrim freeze fix NG (в описании SE/AE), Block Condition Freeze Fix, Saving on Steed, Inertia, Combat Music Fix NG. После первого запуска проверить по sksevr.log, что каждая DLL загружена. Если нет — удалить, не чинить.\n3) Пересечения. Poached Bugs VR заменяет Scrambled Bugs. С Engine Fixes VR файлов не делит. Simonrim Choice Config ставить, потому что в сборке Adamant и Mysticism. Recursion Monitor и Papyrus Tweaks NG одного автора, дополняют друг друга. Seamless Saving VR (основной сейв) и S.L.A.C.K. (ко-сейв SKSE) не дублируют друг друга. Collision Sentinel может дублировать защиту Havok-материалов в Engine Fixes VR 7.4.9+, поэтому он opt.\n4) Скрипты. Порядок в MO2: USSEP → SCROTE (Loose Files) → Dragonactorscript Fix и CritterSpawn Fix (точечные фиксы должны побеждать). В FOMOD Dragonactorscript брать основной вариант. Отдельной опции «под USSEP» нет: заметка куратора неточна.\n5) Меши. Assorted Mesh Fixes → Unofficial Material Fix (патч под AMF, если есть в FOMOD) → Fixed Mesh Lighting. Water Effects Fix ставить выше водных модов. Файл AMF с parallax не ставить до этапа текстур.\n6) Не ставить вместе. Lightened Skyrim BOS (111475) и ESP-версию (50755). Saving on Steed и Horse Save Load Fix 132110. Increase Actor Limit VR и SE Actor Limit Fix. eFPS — не ставить с Open Cities / JK's Skyrim без патча из Patch Hub.\n7) ESL. Navigator (AIO ESL) и Dwemer Gates (ESP-FE/ESL) требуют Skyrim VR ESL Support. Navigator не чистить в xEdit.\n8) USMP. Версию брать под путь USSEP: путь A — 2.6.8b, путь B (4.2.5b) — 2.6.6, как в Tahrovin."
+}
