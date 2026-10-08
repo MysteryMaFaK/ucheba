@@ -1,0 +1,1784 @@
+{
+ "verdicts": [
+  {
+   "key": "id:30174",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Женское тело 3BA для BodySlide: на нём построено большинство броневых патчей и пресетов VR-листов.",
+   "note": "Файл 2.48 (Panda's, Tahrovin), Grit-листы на 2.47. После установки соберите тело в BodySlide. VRIK рисует руки и торс игрока поверх тела, смена тела его не ломает; проверьте руки в зеркале. Физика только при CBPC или SMP.",
+   "reason": "4 из 9 VR-листов, ставится вместе с VRIK; DLL нет."
+  },
+  {
+   "key": "id:201",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Сборщик тел и брони: без него CBBE 3BA, HIMBO и патчи под них не превратятся в меши. Запускается из MO2.",
+   "note": "Файл v5.7.0 (Panda's); старые VR-листы на 5.4-5.6. Внешняя программа. Результат сборки - отдельный мод в самом низу приоритета, пересобирать после каждого брони-мода.",
+   "reason": "6 из 9 VR-листов, не мод, к VR отношения не имеет."
+  },
+  {
+   "key": "id:46311",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Мужское тело для BodySlide: лучшие меши и текстуры тела NPC-мужчин и игрока, основа броневых refit-патчей.",
+   "note": "Файлы в Panda's: «01) HIMBO V5 - Core» 5.6.1 и «02a) HIMBO V5 - BG-DG-DB Refits» 5.5 (проверено по архивам). Grit и Tahrovin на FOMOD 5.3.1g. Патчи брони с пометкой HIMBO строить тем же BodySlide.",
+   "reason": "4 из 9 VR-листов; меши без DLL, VRIK не мешает."
+  },
+  {
+   "key": "id:65274",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Текстуры кожи для женского тела CBBE; для VR хватает 2K.",
+   "note": "Берите «BnP female skin 2k (CBBE Player and Replacer)» 2.0 (Panda's). Tahrovin ставит 4K, Grit-листы 4K 1.8, Librum - 2K для UNP. Для мужчин BnP Male Skin (65402) или Tempered Skins for Males - один. Расовые вариации кожи (~1,2 ГБ) в VR не нужны.",
+   "reason": "Текстуры, 5 из 9 VR-листов; 2K экономит VRAM."
+  },
+  {
+   "key": "id:57318",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "VR-версия тела Повелителя-вампира. Нет ни в одном SE-листе, стоит в 7 из 9 VR-листов.",
+   "note": "Файл «Vampire Lord Body for VR» 1.1 (Panda's, Tahrovin, Tempus); FUS, Grit, Yggdrasil на 1.0. Ставить после XPMSSE и VRIK. Страницу прочитать не удалось - состав сверьте при загрузке.",
+   "reason": "VR-мод, 7 из 9 VR-листов."
+  },
+  {
+   "key": "id:56394",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "VR-версия тела оборотня, пара к Vampire Body for VR. Стоит в 7 из 9 VR-листов, в SE-листах нет.",
+   "note": "Файл «Werewolf Body for VR» 2.4 (Panda's, Tempus); остальные на 2.3. Нужны VRIK и XPMSSE. С Manbeast/Growl и мод «No more werewolf hat» из ядра проверьте порядок.",
+   "reason": "VR-мод, подтверждён листами."
+  },
+  {
+   "key": "id:77016",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Раздаёт NPC разные тела из пресетов BodySlide на лету. Без него все NPC-женщины в 3BA выглядят одинаково.",
+   "note": "4.4.3 + Configuration File 4.2.0 в Panda's и Tahrovin (проверено); Grit-листы на 4.2.0. Автор VR не тестирует, в гайде «работает, отчёты разные» (бывает не открывается UI Extensions). Нужны VR-файл RaceMenu и PapyrusUtil. Запасной - AutoBody VR (61690).",
+   "reason": "2 свежих VR-листа ставят; официальной VR-гарантии нет, поэтому только opt."
+  },
+  {
+   "key": "id:42441",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Лечит тёмные и разноцветные лица NPC, когда фейсген не совпал с телом. Для VR - отдельный VR-файл.",
+   "note": "Файл «Face Discoloration Fix VR» 1.0.3. SE-версию не ставить (её берут SE-листы). Проверьте лица в Вайтране после первого запуска.",
+   "reason": "6 из 9 VR-листов берут именно VR-файл."
+  },
+  {
+   "key": "id:40658",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "rec",
+   "choose_one_group": "npc_faces",
+   "what": "Переделка лиц ванильных NPC в стиле оригинала. Самый свежий VR-вариант: Panda's и Stormcrown VR.",
+   "note": "v5.0: «Textures and Body Meshes» + «FaceGen - BSA» (Panda's); Stormcrown без FSMP добавляет «FaceGen - Non-SMP». Один пакет лиц NPC, не вместе с Pandorable's. Версии 2.8/3-4 устарели.",
+   "reason": "Два свежих VR-листа, текстуры и меши без DLL."
+  },
+  {
+   "key": "id:19012",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "npc_faces",
+   "what": "Старый пакет лиц NPC с высоким числом полигонов; для листов Grit/Tahrovin. Выбор вместо Nordic Faces.",
+   "note": "«PAN_NPCs» 1.4 + «PAN NPCs - 1k facetints» (19012); остальные части 42043, 50617, 24135, 30680. Ставить 1K-facetints. Датируется 2019-2022, стыкуется с новыми ретекстурами хуже. Нужен Face Discoloration Fix VR.",
+   "reason": "4 VR-листа, но устарел; только как альтернатива."
+  },
+  {
+   "key": "id:63979",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Перерисованные ванильные причёски всех рас; есть вариант с физикой SMP. Основной выбор свежих VR-листов.",
+   "note": "Без FSMP: 1.0.2 (Stormcrown, Librum, Tahrovin). С FSMP: «Vanilla hair remake SMP» 1.0.3 (Panda's) - нагрузка на CPU. SMP-NPC crash fix с FSMP 2.5.1+ не нужен. Faithful Faces (143247) - патч Panda's под SMP-волосы.",
+   "reason": "4 из 9 VR-листов; без DLL."
+  },
+  {
+   "key": "id:35785",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Расширяет морфы лиц (RaceMenu-плагин и фейсген) для выразительных лиц и пресетов. Стоит в 7 из 9 VR-листов.",
+   "note": "«Expressive Facegen Morphs SE» 1.0 + «EFM SE - Racemenu plugin» (Panda's, Tahrovin). Это морфы лица; анимации мимики стоят в ядре отдельно.",
+   "reason": "7 из 9 VR-листов, нужен RaceMenu VR из ядра."
+  },
+  {
+   "key": "id:1067",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Расширенный набор бород для RaceMenu и NPC; один из самых частых модов лица в VR-листах (6 из 9).",
+   "note": "«Hvergelmir's Aesthetics - Beards» 5.0.1; брови - Brows 4.1 (1062). Beard Mask Fix (80232) - SKSE-плагин, VR-сборка не проверена, не брать. Версия под High Poly Head только с этим пакетом голов.",
+   "reason": "6 из 9 VR-листов, без DLL."
+  },
+  {
+   "key": "id:36063",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Реалистичные глаза вместо ванильных; в VR лица видны вплотную, глаза бросаются в глаза первыми.",
+   "note": "Authentic Eyes v1.1 (Panda's, Tempus). Один пакет глаз: либо этот, либо The Eyes of Beauty (16185). Eye Normal Map Fix SSE (5445) можно добавить.",
+   "reason": "Текстуры/меши, 2 VR-листа."
+  },
+  {
+   "key": "id:149011",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Блики на волосах (модуль Hair Specular семейства Community Shaders) и flow-карты ванильных причёсок.",
+   "note": "Файлы: Hair Specular 1.0.3 (Panda's, 2026-01) + Vanilla Hair Flow Maps. В релизе Open Shaders 2.17 есть свой модуль Hair.Specular: берите его, а не Nexus-версию 1.1.2, иначе возможен конфликт версий. Flow Maps - данные, безопасны. Проверьте пункт в меню шейдеров.",
+   "reason": "Wiki Open Shaders: Hair Specular = Yes для CS VR, но с Nexus-модулем стыковка не проверена."
+  },
+  {
+   "key": "id:52057",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Разный рост именных NPC (около 860 персонажей). В VR смотришь на NPC снизу вверх или сверху.",
+   "note": "Heights of Skyrim 2 (Panda's) или 1.05 (Yggdrasil). Рост 0.95-1.08, масштабирует только именных NPC. С NPC-оверхолами нужен патч Synthesis. Спорно: уберите, если мешает в диалогах.",
+   "reason": "2 VR-листа, SKSE не нужен, но заметно в диалогах."
+  },
+  {
+   "key": "id:21224",
+   "keep": true,
+   "section": "physics",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Физика с коллизиями для волос, плащей и тела на скелете игрока и NPC; VR заявлен в названии мода.",
+   "note": "«CBPC - Fomod installer - MAIN FILE» 1.6.4 (Panda's, Tahrovin; Grit на 1.6.2). 1.7.2 стоит только в SE-листах - VR-файл не подтверждён, не брать. Не включайте CBPC и SMP на одних костях. Коллизии рук - HIGGS.",
+   "reason": "4 VR-листа ставят 1.6.x, DLL с VR в названии."
+  },
+  {
+   "key": "id:100781",
+   "keep": true,
+   "section": "physics",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Оружие и щит физически парируют удары и снаряды: стрелы, огненные шары. Только VR, 6 из 9 VR-листов.",
+   "note": "«Pseudo Physical Weapon Collision and Parry VR» 1.0.2. Конфиг «a more grounded» (162758, Panda's) - один из конфигов поверх; Grit/Tahrovin берут форк Tweaked (125542). Рядом с PLANCK и Physical Collision VR (ядро).",
+   "reason": "VR-мод, 6 из 9 VR-листов."
+  },
+  {
+   "key": "id:60064",
+   "keep": true,
+   "section": "physics",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Исправляет коллизию призванных меча и кинжала, чтобы работала физика оружия (HIGGS, парирование).",
+   "note": "Файл в листах называется «Improved Bound Sword and Dagger Collision» 1.0.0 (60064). Только меши, нужен HIGGS. Проверка: призовите меч и ударьте о стену.",
+   "reason": "5 из 9 VR-листов, меши без DLL."
+  },
+  {
+   "key": "id:159682",
+   "keep": true,
+   "section": "physics",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Патч коллизий оружия под VR; в Yggdrasil VR взят один файл «Rapier - Dawnbreaker».",
+   "note": "Только Yggdrasil VR (файл 1.0, 2025-09), по имени - патч под конкретную модель рапиры/Dawnbreaker. Без замены этих мечей пользы нет: пропустите. Страницу не читал, проверьте перед установкой.",
+   "reason": "Один VR-лист; применимость зависит от другого мода."
+  },
+  {
+   "key": "id:175319",
+   "keep": true,
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": "armor_gear",
+   "what": "PBR-текстуры ванильной брони и одежды в ванильном размере. Для PBR-пути, свежий Stormcrown VR.",
+   "note": "«Faultier's PBR Armors and Clothes - vanilla res» + «USSEP patch» 1.0 (Stormcrown, 2026-03). Нужен PGPatcher. Stormcrown на CSX, не на Open Shaders: PBR в меню Open Shaders проверьте. С Rustic/Cathedral Armory не вместе.",
+   "reason": "Один VR-лист, и тот на другом шейдерном стеке; текстуры без DLL."
+  },
+  {
+   "key": "id:20199",
+   "keep": true,
+   "section": "armor",
+   "tag": "alt",
+   "choose_one_group": "armor_gear",
+   "what": "Меши и текстуры ванильного оружия и брони с кубемапами. Классический путь: 6 из 9 VR-листов.",
+   "note": "«Cathedral Armory» 3.19 + «3.18 to 3.20 Update»; Tempus добавляет «CBBE BodySlide Patch» и «Improved Closed Faced Helmets Patch». Последняя версия 2022-07. При PBR-пути берите Faultier's.",
+   "reason": "6 из 9 VR-листов, без DLL."
+  },
+  {
+   "key": "id:85445",
+   "keep": true,
+   "section": "armor",
+   "tag": "alt",
+   "choose_one_group": "armor_gear",
+   "what": "Серия ретекстур брони и оружия (Iron, Steel, Elven, Ebony, Daedric, Dragon и др.). Для VR - Half res.",
+   "note": "Tempus: файлы «Half res» (Steel 85445-1-11); Panda's - полные + «Bodyslide Patches». Каждая броня - отдельный мод, ставьте семейства разом. Не вместе с Faultier's. Полное разрешение дорого по VRAM.",
+   "reason": "2 VR-листа, текстуры; Half res для VRAM."
+  },
+  {
+   "key": "id:4703",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур одежды в «деревенском» стиле. 6 из 9 VR-листов; при PBR-пути заменяется Faultier's.",
+   "note": "Берите «RUSTIC CLOTHING - SE - 2K-1K» (Librum, Tempus, Yggdrasil), не чистый 2K. С Faultier's PBR Armors and Clothes конфликтует.",
+   "reason": "Текстуры, 6 VR-листов."
+  },
+  {
+   "key": "id:126793",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меш-фикс: юбки и подолы ванильной брони не проваливаются сквозь ноги.",
+   "note": "«VanillaArmor_SkirtClippingFIX» 1.5.8 (Stormcrown). Ставить после Cathedral Armory и Vanilla Outfits Redone, порядок сверить во вкладке «Конфликты».",
+   "reason": "Один VR-лист, меши без DLL; польза мелкая."
+  },
+  {
+   "key": "id:109194",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ванильные наряды под тело CBBE 3BA (меши и BodySlide); без них броня «тянется» на теле.",
+   "note": "5.0.0 + «Small update» + «Xavbio's Steel Retexture Patch» (Panda's); Grit 4.1.8, Tahrovin 3.2.1. FSXRR 3BBB - про мех, не брать. Нужны CBBE 3BA и BodySlide.",
+   "reason": "4 VR-листа, меши без DLL."
+  },
+  {
+   "key": "id:2017",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Более правильные формы ванильного оружия (меши); оружие в руке видно вплотную.",
+   "note": "«LeanWolfs Better-Shaped Weapons Installer v2.1.03 SE». Believable Weapons (37737) - другой набор, не вместе. С Cathedral Armory смотрите конфликты.",
+   "reason": "5 из 9 VR-листов, меши без DLL."
+  },
+  {
+   "key": "id:91616",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: устарел. С FSMP 2.5.1 и новее лишний, Panda's с SMP-волосами обходится без него.",
+   "note": "Если вылеты с SMP остаются, включите журнал hdtsmp64 и смотрите, какой NPC падает.",
+   "reason": "6 SE-листов, 0 VR; DLL для SE."
+  },
+  {
+   "key": "id:142450",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: SMP-физика на каждую ванильную броню NPC бьёт по CPU, а VR и так упирается в процессор.",
+   "note": "То же с Southbound Scouts HDT-SMP, Hinterland Ranger, Nirn Necessities SMP. Вместо них Dynamic Armor Physics (ядро) и CBPC.",
+   "reason": "6 SE-листов, 0 VR; CPU-нагрузка."
+  },
+  {
+   "key": "id:85085",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: надстройка к Immersive Equipment Displays, а IED - SKSE-плагин без VR-сборки.",
+   "note": "Показом оружия за спиной в VR занимаются кобуры VRIK. Пресеты и надстройки IED тоже не нужны.",
+   "reason": "11 SE-листов, 0 VR."
+  },
+  {
+   "key": "id:18223",
+   "keep": true,
+   "section": "start",
+   "tag": "rec",
+   "choose_one_group": "alt_start",
+   "what": "Вместо Хелгена - потусторонний хаб: создаёте персонажа, класс и проклятие, кристаллом переноситесь в любую точку Скайрима.",
+   "note": "Основной файл 4.2 (Tempus); FUS и Tahrovin на 4.1. В VR первым всё равно идёт Playroom, мод подменяет пролог после «Новой игры». Yggdrasil ставит «Unofficial Alternate Cut» (44327) с VR-версией.",
+   "reason": "3 VR-листа, в SE-листах нет; без DLL."
+  },
+  {
+   "key": "id:14553",
+   "keep": true,
+   "section": "start",
+   "tag": "alt",
+   "choose_one_group": "alt_start",
+   "what": "Минимальный пропуск пролога: сразу выбор спутника - Ралоф или Хадвар. Квесты не трогает.",
+   "note": "«Ralof or Hadvar (alternate start) ESPfe» 220206 (Stormcrown 2026) или «3 torches ESPfe» 221121 (FUS). ESPfe - нужен Skyrim VR ESL Support. С Lux добавьте патч 119391 (есть в FUS).",
+   "reason": "Самый лёгкий; Stormcrown VR 2026."
+  },
+  {
+   "key": "id:272",
+   "keep": true,
+   "section": "start",
+   "tag": "alt",
+   "choose_one_group": "alt_start",
+   "what": "Классический альтернативный старт Arthmoor: тюремная камера, выбор предыстории и точки начала.",
+   "note": "Версия под ваш USSEP: путь B (4.2.5b) - LAL 4.1.4 (Panda's); путь A (4.3.x) - LAL 4.2.5 (Tempus). Старый единичный отчёт о зависании новой игры в VR - проверьте старт из Playroom.",
+   "reason": "2 VR-листа, оба разных пути USSEP."
+  },
+  {
+   "key": "id:50307",
+   "keep": true,
+   "section": "start",
+   "tag": "try",
+   "choose_one_group": "alt_start",
+   "what": "Альтернативный старт с сюжетом: разрушение Хелгена глазами другого персонажа, много вариантов старта.",
+   "note": "Alternate Perspective 4.0.3 (Tempus). Тяжелее по скриптам, обкатан хуже RoL и Ralof or Hadvar. Проверьте старт на отдельном сохранении.",
+   "reason": "Один VR-лист."
+  },
+  {
+   "key": "id:55653",
+   "keep": true,
+   "section": "followers",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Фреймворк спутников: до 10 человек, приказы, телепорт отставших, стили боя, лагерь.",
+   "note": "«Nether's Follower Framework - Universal Installer» 2.8.6b (Panda's, Tempus); Grit и Tahrovin на 2.8.5. Отдельной VR-версии нет, нужен SkyUI VR. Settings Loader не нужен. Yggdrasil вместо него берёт FollowerLivePackage.",
+   "reason": "6 из 9 VR-листов."
+  },
+  {
+   "key": "id:193226",
+   "keep": true,
+   "section": "followers",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Спутники прыгают за вами или перепрыгивают препятствия. Без ESP и без раздувания сейва.",
+   "note": "0.4.3 от 2026-10-02 (Yggdrasil VR). Выпуск шестидневной давности, страницу не подтвердил. После установки смотрите Documents/My Games/Skyrim VR/SKSE/sksevr.log: плагин загружен без ошибок? Нет - уберите.",
+   "reason": "Свежий SKSE-плагин без подтверждённой VR-сборки; один VR-лист."
+  },
+  {
+   "key": "id:47174",
+   "keep": true,
+   "section": "navigation",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Компас в руке и бумажные карты, надеваемые и убираемые в кобуры VRIK. Карты владений покупаются у торговцев.",
+   "note": "Основной файл 1.51 (Yggdrasil, Panda's); левшам - «Navigate VR Leftie Fix» 85776. Palm Compass VR из ядра - тоже компас: оставьте один.",
+   "reason": "VR-мод, 4 VR-листа."
+  },
+  {
+   "key": "id:119923",
+   "keep": true,
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Маркеры отслеживаемых квестов на ручных картах Navigate VR. Путь по-прежнему ищете по компасу.",
+   "note": "Архив называется «Map Markers for Navigate VR» 1.1.4 (FUS, Panda's), автор LXE97. Позиция игрока выключена по умолчанию, включается в конфиге. Для «честной» навигации не ставьте.",
+   "reason": "2 VR-листа, пара к Navigate VR."
+  },
+  {
+   "key": "id:56367",
+   "keep": true,
+   "section": "navigation",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Чистая карта мира: убирает облака и туман, правит камеру, добавляет дороги и недостающие карты.",
+   "note": "«A Clear Map of Skyrim and Other Worlds FOMOD» 4.0. Правила DynDOLOD ставьте до генерации LOD. С Map Weather - CS из ядра работает вместе (Stormcrown).",
+   "reason": "5 VR-листов, без DLL."
+  },
+  {
+   "key": "id:35627",
+   "keep": true,
+   "section": "navigation",
+   "tag": "rec",
+   "choose_one_group": "map_markers",
+   "what": "Маркеры карты высокого разрешения вместо мыльных VR-маркеров.",
+   "note": "«High Res VR Map Markers - Standard» 1.1 (Stormcrown 2026) или «Outline» 1.0 (Tahrovin, Grit). Маркеры конфликтуют между собой - один мод.",
+   "reason": "VR-мод, 4 VR-листа."
+  },
+  {
+   "key": "id:27503",
+   "keep": true,
+   "section": "navigation",
+   "tag": "alt",
+   "choose_one_group": "map_markers",
+   "what": "Маркеры карты в приглушённых «природных» цветах, читаются в любую погоду. Есть VR-версия.",
+   "note": "«Natural Colored Map Markers 2K VR» (Yggdrasil, Librum). Замена Hi-Res VR Map Markers, ставить один.",
+   "reason": "VR-файл, 2 VR-листа."
+  },
+  {
+   "key": "id:134212",
+   "keep": true,
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "VR-порт Local Map Upgrade: свои метки в интерьерах, туман войны, исправления локальной карты.",
+   "note": "LocalMapUpgradeVR 2.1.0 (Panda's, Tahrovin). SE-версию (129756) не ставить - SKSE-плагин без VR. Порт отстаёт от SE-ветки 3.1.",
+   "reason": "Официальный VR-порт, 2 VR-листа."
+  },
+  {
+   "key": "id:123044",
+   "keep": true,
+   "section": "controls",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Чинит двоение контроллеров в игре: убирает лишний узел в дереве wand, nif не заменяет. Контроллеры показываются или скрываются в меню.",
+   "note": "1.0.1 (FUS, Panda's, Tempus); Grit-листы на 1.0. Мелкая SKSEVR-правка, авторы Shizof и NightfallStorm.",
+   "reason": "VR-мод, 6 из 9 VR-листов."
+  },
+  {
+   "key": "id:23416",
+   "keep": true,
+   "section": "controls",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Раскладка VRIK для Index, Rift и WMR: жесты, тачпады, свободные кнопки. Для Index включите привязку в SteamVR.",
+   "note": "Отдельный архив «VRIK Rift-Index-WMR Controller Bindings V2.1.0» с той же страницы, что и VRIK (23416). В SteamVR выбирайте «VRIK Index Controller Bindings V2.1.0». Сохраните три ini VRIK при переустановке. Нужно только владельцам этих контроллеров.",
+   "reason": "Файл со страницы VRIK из ядра; зависит от железа, поэтому opt."
+  },
+  {
+   "key": "id:49650",
+   "keep": true,
+   "section": "controls",
+   "tag": "alt",
+   "choose_one_group": "bindings",
+   "what": "Установщик с несколькими альтернативными схемами управления вместо стандартных биндингов VRIK.",
+   "note": "1.0.0 (FOMOD), Grit-листы и Tahrovin. Одна игровая раскладка: эта, FUS (Kvite/Cangar) или Narsil (61282).",
+   "reason": "3 VR-листа, VR-мод."
+  },
+  {
+   "key": "id:53186",
+   "keep": true,
+   "section": "controls",
+   "tag": "alt",
+   "choose_one_group": "bindings",
+   "what": "Раскладки авторов FUS: Kvite - универсальная, Cangar - крики жестами, Cangar Spellsiphon - крик на левом гриппе.",
+   "note": "Брать только архивы «Controller Bindings - Kvite / Cangar / Cangar - Spellsiphon». Остальные патчи компендиума сделаны под состав FUS - не брать. Схемы в вики FUS.",
+   "reason": "3 VR-листа ставят; VR-мод."
+  },
+  {
+   "key": "id:79663",
+   "keep": true,
+   "section": "controls",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Готовые ini VRIK с правильным масштабом мира и слотами оружия под рост ~172 и ~186 см.",
+   "note": "«VRIK - 172cm» или «186cm» 1.02 (Panda's); FUS и Tempus - «Preset configuration files for VRIK» 1.0. Собраны под VRIK до 0.8.7. Arctal's VRIK Tweaks из ядра тоже правит ini: после установки запустите VRIK Calibration и проверьте MCM.",
+   "reason": "3 VR-листа, конфиги."
+  },
+  {
+   "key": "id:118579",
+   "keep": true,
+   "section": "controls",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Делает курсор-указку в меню точным: DPI, мёртвая зона, сглаживание дрожания рук.",
+   "note": "Stable Hands 1.1.1 (март 2025), автор NightfallStorm. Уживается с VR Menu Mouse Fix из ядра: в Panda's и Tahrovin стоят оба.",
+   "reason": "VR-мод, 4 VR-листа."
+  },
+  {
+   "key": "id:16242",
+   "keep": true,
+   "section": "controls",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Внешняя утилита для VR-настроек ini: рендер, тени, трава (iMinGrassSize), HUD - без ручной правки.",
+   "note": "SkyrimVR and Fallout4VR Configuration Tool 1.3.0, запуск из MO2. Пересекается с BethINI Pie из ядра: один ключ правьте одним инструментом. Разрешение рендера меняйте в одном месте.",
+   "reason": "4 VR-листа, внешняя утилита."
+  },
+  {
+   "key": "n:fuswikiperformanceadjustmentcontrollerbindingsguide",
+   "keep": true,
+   "section": "controls",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Справка авторов FUS: что сильнее всего бьёт по кадру в VR и схемы всех раскладок.",
+   "note": "Брать методику, а не файлы: Low/Medium/High.ini лежат только внутри Wabbajack-листов (FUS, Stormcrown, Yggdrasil), на GitHub Kvitekvist/FUS их нет.",
+   "reason": "Не мод, а справка; полезна как руководство."
+  },
+  {
+   "key": "id:5031",
+   "keep": true,
+   "section": "saves",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Внешний редактор и чистильщик сейвов: осиротевшие скрипты, неприкреплённые экземпляры, раздутые сохранения.",
+   "note": "ReSaver 6.0.643, нужна Java. VR в описании не заявлен; сейвы VR в формате SSE, и игроки Steam чистили им VR-сейвы. Работать только с копией сейва. Проверьте: открывается ли ваш .ess.",
+   "reason": "Нет подтверждения от автора, только отчёты игроков; метка try."
+  },
+  {
+   "key": "id:49698",
+   "keep": true,
+   "section": "saves",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "SKSE-правка powerofthree: сейвы называются по региону, где сохранились.",
+   "note": "В VR-листах (Stormcrown, Panda's) стоит файл 1.1 (2021), а не 1.3.1: 1.3.1 - только Tomes of Talos (SE). По данным STEP 2021, мод опирался на Unique Region Names - сверьте требования на странице. Проверьте загрузку DLL в sksevr.log.",
+   "reason": "Файл в листах другой, чем в карточке; VR-сборка автором не заявлена."
+  },
+  {
+   "key": "id:7560",
+   "keep": true,
+   "section": "equipment",
+   "tag": "opt",
+   "choose_one_group": "lanterns",
+   "what": "Фонарь на поясе или в руке, светлячковые фонари, фонари у спутников. Свет в данжах без факела.",
+   "note": "«Wearable Lanterns 4.0.3 Release» + обязательный «Wearable Lanterns - VR Patch» (19348), как в Yggdrasil и Librum (проверено). Без патча VR застревает на экране «Press Any Button». Альтернатива - Simple Wearable Lanterns Remastered (132196).",
+   "reason": "VR-патч существует, 2 VR-листа."
+  },
+  {
+   "key": "id:2417",
+   "keep": true,
+   "section": "equipment",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Видимые сумки, подсумки и бандольеры - крафтятся и добавляют переносимый вес; видны на теле.",
+   "note": "Bandolier Bags and Pouches Classic SE 1.2.1; с C.O.C.K.S - патч 145134 (Tempus). Носится в слотах брони: конфликт с рюкзаками на тех же слотах.",
+   "reason": "3 VR-листа, плагин и меши."
+  },
+  {
+   "key": "id:16514",
+   "keep": true,
+   "section": "voice",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Голосовой выбор реплик: читаете строку диалога вслух. Команды вроде «Equip X» для Избранного.",
+   "note": "«DragonbornSpeaksNaturally - Alpha (New Engine)» 0.31.1 (Panda's); Grit на 0.30.8, FUS и Yggdrasil на Beta. Распознаёт через Windows: для русского нужен распознаватель того же языка. Mantella, CHIM, SkyrimNet не держите одновременно.",
+   "reason": "VR-мод, 5 VR-листов."
+  },
+  {
+   "key": "id:62001",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: SKSE64-плагин только под SE/AE, сборки под VR 1.4.15 нет. Видимое снаряжение в VR дают кобуры VRIK.",
+   "note": "Есть только «for 1.5.39-1.6.353» и «for 1.6.629 and newer». Все пресеты и надстройки IED тоже не нужны.",
+   "reason": "14 SE-листов, 0 VR."
+  },
+  {
+   "key": "id:50049",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: SKSE64-плагин без VR-сборки. Оружие в левой руке и щит за спиной в VR показывают кобуры VRIK.",
+   "note": "Надстройки Left Hand Vanilla Scabbards и Simple Dual Sheath Tweaks тоже не нужны.",
+   "reason": "14 SE-листов, 0 VR."
+  },
+  {
+   "key": "id:74484",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: компас в стиле Witcher 3 рассчитан на плоский HUD. В VR вместо него Navigate VR + Hi-Res VR Map Markers.",
+   "note": "HUD в VR имеет свою геометрию; его правят Clear HUD VR и VR Smooth Dialogue Mesh.",
+   "reason": "11 SE-листов, 0 VR."
+  },
+  {
+   "key": "id:129756",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить SE-версию Local Map Upgrade: SKSE-плагин под SE/AE. Для VR есть порт 134212.",
+   "note": "Порт 2.1.0 отстаёт по функциям, но только он грузится на 1.4.15.",
+   "reason": "13 SE-листов, 0 VR."
+  },
+  {
+   "key": "id:99978",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: раскладки геймпада под плоские боевые моды (OCPA, DMCO, TK Dodge, Wheeler). В VR есть биндинги VRIK.",
+   "note": "Моды, под которые он настраивает кнопки, в VR не работают.",
+   "reason": "4 SE-листа, 0 VR."
+  },
+  {
+   "key": "n:xtranslatorssetranslator",
+   "keep": true,
+   "section": "russian",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Основной редактор переводов: ESP/ESM, строки, MCM-файлы Translate, Papyrus PEX. Профиль Skyrim Special Edition.",
+   "note": "Скачивать только на Nexus. Внешняя программа, открывайте плагины из папки мода MO2, результат - отдельным модом. Локализовать плагин не умеет - нужен xEdit. Кодировка UTF-8.",
+   "reason": "Не мод, к версии игры отношения не имеет."
+  },
+  {
+   "key": "id:921",
+   "keep": true,
+   "section": "russian",
+   "tag": "alt",
+   "choose_one_group": null,
+   "what": "Второй редактор переводов со словарями EET (русский в списке языков). Нужен, если готовый словарь есть только в EET.",
+   "note": "Актуальная версия на SSE-странице 921; словари EET - в папку BDD. Плагины открывать в UTF-8. Если стоит xTranslator, нужен редко.",
+   "reason": "Внешний инструмент."
+  },
+  {
+   "key": "id:111491",
+   "keep": true,
+   "section": "russian",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Сканирует модлист, качает переводы с Nexus и собирает один выходной мод через Dynamic String Distributor (в ядре).",
+   "note": "Отдельная программа, MO2 поддерживает. Выходной мод - в конец списка. Русская masterlist не подтверждена: в описании только немецкая, остальное ищется по ссылкам. Не запускать с Vortex.",
+   "reason": "Русский и VR не подтверждены; DSD в ядре есть."
+  },
+  {
+   "key": "id:386",
+   "keep": true,
+   "section": "russian",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Шрифт интерфейса с кириллицей (автор заявляет русский). В ядре шрифтового мода нет, без него вместо букв квадраты.",
+   "note": "В VR-листах только Tempus: Bold V8.9 (Light V8.9 - SE-листы). Работа fontconfig_ru в VR не подтверждена, гайдов нет. Один шрифтовый мод; сохраните оригинальный fontconfig.txt. Проверка: русский язык - пройти меню SkyUI и инвентарь.",
+   "reason": "Русский в VR не подтверждён ни одним листом; рекомендация снижена до try."
+  },
+  {
+   "key": "id:4505",
+   "keep": true,
+   "section": "russian",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Единые строковые таблицы SE/AE на разных языках. Запасной вариант, если после обновлённых мастеров пропал русский текст Update.esm.",
+   "note": "Нужен набор строк под мастера 1.6.1170; строки LE не смешивать. Ставить только если после Strings Fix остаются пустые или английские названия. Игрок в VR: у одного строки вернулись, у другого нет.",
+   "reason": "Подтверждения для русского и VR нет."
+  },
+  {
+   "key": "id:28921",
+   "keep": true,
+   "section": "russian",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Формат времени в игре: привычные 24 часа вместо 12. Мелочь для русской локали.",
+   "note": "Time Format Changer (Anniversary Edition) 1.2.1 (Panda's). Опции берите из FOMOD, проверьте на конфликт со строками русского перевода.",
+   "reason": "Один VR-лист."
+  },
+  {
+   "key": "id:77359",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: SE/AE-сборка вместо VR. В ядре уже стоит Scaleform Translation++ VR (60210).",
+   "note": "Файлы 1.8-1.10, VR-варианта нет. Оба сразу - двойной хук интерфейса. Если мод требует STPP NG, берите VR-версию.",
+   "reason": "10 SE-листов, 0 VR."
+  },
+  {
+   "key": "id:166751",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: нет ни одной VR-сборки. В VR меню и MCM делают SkyUI VR + MCM Helper (ядро).",
+   "note": "dMenu NG - Patch 1.3 (2026-03) используется в SE-листах. Пересмотреть, если появится VR-версия.",
+   "reason": "6 SE-листов, 0 VR."
+  },
+  {
+   "key": "id:30810",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить: меняет главное меню SE. В VR первой идёт Playroom, Multilanguage подтянет лишние файлы.",
+   "note": "Для VR отдельно ставят разве что Spinning Skyrim Emblem (725, Librum).",
+   "reason": "SE-меню, 0 VR."
+  },
+  {
+   "key": "n:managingcreationclubcontentwithyourmodmanagerinfernalryan",
+   "keep": true,
+   "section": "cc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Гайд: как вынести файлы CC (4 бесплатных и Anniversary Upgrade) из Data в отдельные моды MO2. Работает для VR 1.4.15.",
+   "note": "Нужна копия Skyrim SE/AE (Steam/GOG). CC в VR не было, ставится копированием. Плагины CC требуют пути A (обновлённые мастера). Отключите автообновление SE. Магазин Creations в VR недоступен; Survival Mode частично.",
+   "reason": "Нужна копия SE/AE и путь A, поэтому opt."
+  },
+  {
+   "key": "id:18975",
+   "keep": true,
+   "section": "cc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправления контента CC и совместимость с USSEP. Нужны, если ставите платные AE-плагины.",
+   "note": "Версия 8.5 (2026-08) требует путь A (обновлённые мастера, ESL Support); Tempus на 7.10. На пути B (USSEP 4.2.5b) берите 7.10. Страница USSEP рекомендует патчи Garthand при полном AE.",
+   "reason": "Без DLL, 1 VR-лист (7.10); 8.x в VR не обкатан."
+  },
+  {
+   "key": "id:61777",
+   "keep": true,
+   "section": "cc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Трава не прорастает через ландшафт CC-локаций и построек. Нужно при платных CC и травяном паке.",
+   "note": "Grass Fixes for Creation Club Mods 1.2. Грузить после Landscape Fixes (Merethic Grasslands, ядро). При четырёх бесплатных CC не берите.",
+   "reason": "1 VR-лист, без DLL."
+  },
+  {
+   "key": "id:70992",
+   "keep": true,
+   "section": "cc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Открытые лица у шлемов CC: польза в зеркале, у спутников и при виде NPC, свой шлем VRIK не закрывает обзор.",
+   "note": "Файл 2.0 + Patches 2.8.2 (Nordic Souls PBR, True North); Tempus на 1.4. Нужны только с AE-плагинами шлемов; патчи под ваши моды брони.",
+   "reason": "Исправлено описание: первое лицо шлем не закрывает."
+  },
+  {
+   "key": "id:106048",
+   "keep": true,
+   "section": "cc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Описания предметов CC, которых нет в игре; видны в инвентаре.",
+   "note": "Файл «20 lines lightly edited» v1.6 (Tempus, Nordic Souls PBR). Description Framework (105799) в ядре. Для русского нужен отдельный перевод.",
+   "reason": "1 VR-лист, без DLL."
+  },
+  {
+   "key": "id:115096",
+   "keep": true,
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Замена саундтрека: около трёх часов оригинальной «лорной» музыки, привязанной к ключевым моментам.",
+   "note": "«LORKHAN - Soundtrack Replacer» 1.0 (Stormcrown, Tahrovin). В SE-листах стоит вместе с UHDAP Music HQ (ядро), порядок: LORKHAN выше. Вторую полную замену не ставить. Combat Music Fix NG из ядра совместим.",
+   "reason": "Музыка - вкус, 2 VR-листа; снижено до opt."
+  },
+  {
+   "key": "id:119571",
+   "keep": true,
+   "section": "music",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фреймворк, раздающий музыкальные типы по локациям и ситуациям. Нужен для наборов музыки на MTD.",
+   "note": "1.4.0 (2024-08) - Spirit of Grit и Tahrovin - Grit. SKSE-DLL: VR-сборку автор не подтверждал, лист ставит. Проверьте sksevr.log; нужны VR Address Library. Ставить только вместе с MTD-паками.",
+   "reason": "DLL без явной VR-сборки; пока два Grit-листа."
+  },
+  {
+   "key": "id:91231",
+   "keep": true,
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Уникальная боевая музыка для разных ситуаций и противников. Дополняет ванильную.",
+   "note": "Основной файл + «Combat Music Fix NG - Unique Battle Music Patch» (157985, Grit-листы). Патч обязателен, иначе боевая музыка не выключится вовремя. С LORKHAN оба правят боевые треки.",
+   "reason": "2 VR-листа, плагин и звуки."
+  },
+  {
+   "key": "id:174068",
+   "keep": true,
+   "section": "music",
+   "tag": "try",
+   "choose_one_group": "music_framework",
+   "what": "Каркас для своих плейлистов по локациям, днём и ночью. Версия 2026 года с вариантом под MTD.",
+   "note": "Файлы Grit-листов: «1 - ESL», «MTD - With Vanilla Music» или «2 - MTD - Without Vanilla Music» (1.0, 2026-03). Берите один из MTD-файлов; ESL-файл требует Skyrim VR ESL Support. Своих треков нет. Зависит от MTD (DLL).",
+   "reason": "Зависит от MTD, у которого VR не подтверждён."
+  },
+  {
+   "key": "id:134467",
+   "keep": true,
+   "section": "music",
+   "tag": "alt",
+   "choose_one_group": "music_framework",
+   "what": "Альтернативный каркас для своих плейлистов из Grit-листов.",
+   "note": "Personal Music Framework FOMOD 1.0 (2024-12) + «PMF - Personalized Music Patch» (157975). Один из двух каркасов. Зависит от MTD (DLL, проверьте sksevr.log).",
+   "reason": "2 Grit-листа; зависит от MTD."
+  },
+  {
+   "key": "id:22551",
+   "keep": true,
+   "section": "music",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Сборник слитых саундтреков для добавления к основной замене. Подходит как фон к MTD.",
+   "note": "Soulmancer's Merged Soundtrack 4.10 (2025-03), гигабайты на диске. Emeratu (117413) - ещё одна добавка. Работает через MTD (DLL, VR не подтверждён).",
+   "reason": "Зависит от MTD; два Grit-листа."
+  },
+  {
+   "key": "id:10927",
+   "keep": true,
+   "section": "music",
+   "tag": "rec",
+   "choose_one_group": "bard_songs",
+   "what": "Барды в тавернах чаще играют без слов и реже поют. В VR, где сидишь рядом с бардом, это меньше раздражает.",
+   "note": "Файл 1.0. Совместим с MTD и ванильной музыкой. Не вместе с BA Bard Songs (47202).",
+   "reason": "4 VR-листа, плагин и звуки."
+  },
+  {
+   "key": "id:37792",
+   "keep": true,
+   "section": "music",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Музыка в духе Джереми Соула, добавляется к ванильным трекам; ESL-плагин. Свежая версия.",
+   "note": "Chapter II v3.6 ESL (2024-12). ESL - нужен Skyrim VR ESL Support. VR-листов нет, DLL нет. Не ставить рядом с другой полной заменой саундтрека.",
+   "reason": "0 VR-листов, 8 SE; без DLL."
+  },
+  {
+   "key": "id:24486",
+   "keep": true,
+   "section": "niche",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Вибрация жилета bHaptics от ударов, стрел и заклинаний. Только при наличии Tactsuit/TactVisor/TactSleeve.",
+   "note": "Tactsuit SkyrimVR 2.2.4 (Panda's, FUS). Нужны bHaptics Player и запуск через sksevr_loader.exe. Haptic Skyrim VR из ядра ставится рядом.",
+   "reason": "VR-мод, 2 VR-листа."
+  },
+  {
+   "key": "n:naturallocomotionsteam",
+   "keep": true,
+   "section": "niche",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ходьба взмахом рук или на месте: имитирует стик через драйвер SteamVR, меньше укачивания.",
+   "note": "Платное приложение Steam, профиль Skyrim VR. Нужно включённое свободное перемещение. Проблемы со спринтом и прыжком. Не мод, в MO2 не ставится; привязки SteamVR - по умолчанию.",
+   "reason": "Ни один VR-лист не использует."
+  },
+  {
+   "key": "id:125308",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": "arch_base",
+   "what": "PBR-перетекстур архитектуры и клатера: Солитьюд, руины, дворфы, корабли, окна. Основа PBR-пути.",
+   "note": "AIO 2k (Tempus 2.0.4) или отдельные файлы «2k» (Nordic Souls PBR); без «2k» (Panda's) - полное разрешение. AIO 4k не брать. «Faultier's PBR Windows» при Lux. Установка как ретекстур, затем PGPatcher. PBR на Open Shaders - проверить на тесте.",
+   "reason": "PBR в VR идёт в Panda's (CSX) и Tempus (Open Shaders 1.8), 2K."
+  },
+  {
+   "key": "id:174091",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "try",
+   "choose_one_group": "arch_base",
+   "what": "Лёгкий PBR-AIO в ванильном стиле: меняет материал, а не дизайн. Вариант PBR-базы без смены облика.",
+   "note": "Vanilla PBR 1.33 (2026-08-17, Stormcrown VR на CSX). Страницу прочитать не удалось. Либо он, либо Faultier's AIO. «3D Whiterun Walls Patch» только при 3D-стенах.",
+   "reason": "Один VR-лист на другом стеке; текстуры."
+  },
+  {
+   "key": "id:21423",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "alt",
+   "choose_one_group": "arch_base",
+   "what": "Классическая (не PBR) база интерьеров: мебель, ткани, украшения. 2K, проверена на Open Shaders 2.17.",
+   "note": "«B. Noble Skyrim - FULL PACK_Performance Edition» + «NSM - SMIM Patch» (Yggdrasil, Librum); FUS/Tahrovin/Grit - «A. FULL PACK_2K». В VR берите Performance. На те же объекты с Faultier's PBR не ставить.",
+   "reason": "6 VR-листов; Yggdrasil на Open Shaders 2.17 - ближе всего к ядру."
+  },
+  {
+   "key": "id:173747",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": "whiterun",
+   "what": "PBR-ремейк текстур Вайтрана: чистый дизайн и аккуратный износ. Главный городской PBR-пак 2026.",
+   "note": "«Whiterun Remake - PBR - 2k» 1.1 (Panda's) или 2.3.1 (2026-07, CSVO, Nordic Souls PBR); 4K не брать. Версия 2.3.1 в VR не обкатана - смотрите журнал PGPatcher. Конфликт с Illustrious Whiterun - один.",
+   "reason": "Текстуры, 1 VR-лист (1.1)."
+  },
+  {
+   "key": "id:28950",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "alt",
+   "choose_one_group": "whiterun",
+   "what": "Классический ретекстур Вайтрана 2K. Безопасный путь без PBR.",
+   "note": "«Illustrious Whiterun 2K» 2.0 + «Wood Addition 2K» (Yggdrasil, Tempus). 4K (Tahrovin) только для крупного. Parallax Meshes только при PGPatcher. Выберите одно с Tomato's.",
+   "reason": "5 VR-листов, Yggdrasil на Open Shaders."
+  },
+  {
+   "key": "id:174492",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "PBR-текстуры Виндхельма (или Complex Material). Единственный свежий PBR-вариант города.",
+   "note": "«Tomato's Windhelm PBR - 2K» 1.1 (Panda's, CSVO, Nordic Souls PBR); для CM - «Windhelm CM - 2K» + «Windhelm Temple Fix - CM». Альтернативы: Jiaye's #130390, Ancient AF #132706. PBR и CM вместе не ставить.",
+   "reason": "Текстуры, 1 VR-лист."
+  },
+  {
+   "key": "id:157340",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "PBR-текстуры Рифтена и Рэтвэя: дерево, камень, мокрые поверхности.",
+   "note": "«Tomato's Riften PBR - 2k» + «edge FIXER» (Panda's); 1.2 (CSVO). 4k (Tempus) не брать. CM-версию с PBR не смешивать.",
+   "reason": "2 VR-листа, 2K."
+  },
+  {
+   "key": "id:181707",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "try",
+   "choose_one_group": "solitude",
+   "what": "Переработанные PBR-текстуры Солитьюда (июнь 2026). Свежая SE-новинка, без DLL.",
+   "note": "«Tomato's PBR Solitude - Remastered 2k» 1.1 (CSVO, Nordic Souls PBR). В VR-листах нет; проверенная замена - Tomato's PBR Solitude #144182 (Tempus) или Faultier's PBR Solitude. Один.",
+   "reason": "0 VR-листов."
+  },
+  {
+   "key": "id:127407",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "PBR-текстуры Маркарта и дворфских руин поверх Stony AF. Лучший пакет Маркарта в PBR-пути.",
+   "note": "«Stony AF Markarth PBR» 1.0.0 (Panda's). База Stony AF 2K 2.2 (68815) первой, PBR сверху; отключить Faultier's «Dwemer Ruins and Markarth». Для труб - Dwemer Pipework patch. 4K не нужен.",
+   "reason": "1 VR-лист, текстуры."
+  },
+  {
+   "key": "id:158524",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "PBR-ретекстур фермерских домов и усадеб по всей карте.",
+   "note": "«Farmhouses - PBR - 2k» 2.0 + «Lux Patch» (Panda's). 4k (Tempus) не брать. Альтернативы: Tomato's #135774, Exist's #111230 - одна.",
+   "reason": "2 VR-листа, 2K."
+  },
+  {
+   "key": "id:134372",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": "imperial_forts",
+   "what": "PBR-текстуры имперских фортов и подземелий. Проверен в двух VR-листах.",
+   "note": "«Tomato's Imperial Forts PBR 2k» 1.1. 4k (Tempus) не брать. Не-PBR вариант - #114714. Выбрать одну страницу.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:172845",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "try",
+   "choose_one_group": "imperial_forts",
+   "what": "Свежий PBR-ремейк имперских фортов (июль 2026). Кандидат на замену Tomato's PBR Forts.",
+   "note": "«Imperial Forts Remake PBR» 2.0 + «LOD helper» (CSVO, Nordic Souls PBR). Слово Remake может означать смену мешей - состав не проверен. Пробуйте по одному.",
+   "reason": "0 VR-листов."
+  },
+  {
+   "key": "id:32376",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Уникальные двери по всей карте. В 8 VR-листах; без DLL.",
+   "note": "«GDOS SE» 1.1; для PBR - «GDOS SE PBR» #150727 v2.0 (Panda's, Tempus).",
+   "reason": "8 из 9 VR-листов."
+  },
+  {
+   "key": "id:57686",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Новые каменные стены и ограды нордских построек. Популярный пак архитектуры в PBR-листах.",
+   "note": "«Nordic Stonewalls» 3.11 (Panda's); PBR - «Nordic Stonewalls PBR» из PBR Hub #139889 (Tempus). Меши добавляют геометрию - осторожно в плотных городах.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:90557",
+   "keep": true,
+   "section": "tex_pbr_tools",
+   "tag": "rec",
+   "choose_one_group": "vram_tool",
+   "what": "Уменьшает и оптимизирует текстуры под VRAM. В VR критично из-за двух глаз.",
+   "note": "VRAMr v16 (2026-03, SE-листы), в VR-листах v14.74-v15. Вывод в отдельный мод; порядок: все текстуры, VRAMr, затем PGPatcher. Для PBR/CM проверьте исключения. Начните с пресета на 2K.",
+   "reason": "Внешний инструмент, 4 VR-листа."
+  },
+  {
+   "key": "id:187049",
+   "keep": true,
+   "section": "tex_pbr_tools",
+   "tag": "try",
+   "choose_one_group": "vram_tool",
+   "what": "Новый инструмент уменьшения текстур. Альтернатива VRAMr из Stormcrown VR.",
+   "note": "Texture Downscaler 2.4.0 (2026-08-22, Stormcrown, Apostasy). Страницу не читал. На одних файлах не вместе с VRAMr.",
+   "reason": "Один VR-лист, внешний инструмент."
+  },
+  {
+   "key": "id:139889",
+   "keep": true,
+   "section": "tex_pbr_tools",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Сборник PBR-конверсий популярных ретекстуров. Берите файлы только под уже стоящие базовые моды.",
+   "note": "Нужные: Nordic Stonewalls PBR, Stonewall Terraces PBR, Detailed Rugs PBR (Tempus); Iconic Statues PBR, Improved Dwemer Glass PBR, Dibella Statue PBR, Praedys College of Winterhold PBR, Praedys Skeleton Replacer HD PBR (Panda's). Каждый файл в отдельную папку.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:14365",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": "dungeon_style",
+   "what": "Классический ретекстур подземелий и пещер. Базовый не-PBR вариант.",
+   "note": "«Underground FOMOD» 1.2 + «Whiterun Tower fix»; Complex Parallax Addon #82870 (FUS) нагружает - необязательно. С Faultier's PBR не ставить на те же объекты.",
+   "reason": "6 VR-листов."
+  },
+  {
+   "key": "id:137033",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "alt",
+   "choose_one_group": "dungeon_style",
+   "what": "PBR-ретекстур шахт и пещер, держится в 2K. Вариант вместо Underground.",
+   "note": "«Mines and Caves - PBR - 2k» 5.0 (Panda's, CSVO). Не-PBR: «Mines and Caves - 2k» + «CPM - Lux Patch». 4k не брать. Выбрать это или Underground.",
+   "reason": "1 VR-лист; Underground проверен шире."
+  },
+  {
+   "key": "id:19365",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "HQ-текстуры нордских руин: сундуки, рычаги, урны, дерево. Стоит в Yggdrasil VR 2026-10.",
+   "note": "«Rudy HQ - Nordic Ruins SE» + «Chests addon» + «Ruin Levers addon». 4K-файл не брать. С Faultier's «Nordic Ruins» поверх не ставить. Серебро - PBR for Rudy HQ Silverware #135776.",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:5870",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Клатер нордских руин: горшки, ковры, свечи, подсвечники. Самый частый пак руин в VR-листах.",
+   "note": "«Ruins Clutter Improved SE Mod Manager» 3.2b + «Fixes» 1.2 #21031. Мелкие меши. PBR - #152196.",
+   "reason": "7 VR-листов."
+  },
+  {
+   "key": "id:152196",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "PBR-конверсия Ruins Clutter Improved для PBR-пути.",
+   "note": "«Ruins Clutter Improved PBR» 2.0 (Tempus). Параллакс-аддон #118864 вместе с PBR не ставить.",
+   "reason": "1 VR-лист."
+  },
+  {
+   "key": "id:46507",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Переработанные трубы дворфских руин: меши и текстуры. Основа PBR-ориентированных списков.",
+   "note": "«Dwemer Pipework Reworked 5» + hotfix 1-4 (Panda's); v4 в Yggdrasil. «optional ENB Lights» не брать. Для PBR - «Faultier's PBR - Dwemer Pipework Reworked patch».",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:52845",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "HD-скелеты и кости в склепах. Единственный пакет костей в 3 VR-листах.",
+   "note": "«Skeleton Replacer HD 2K SE» + «LuxPatch» (Panda's). Для PBR - «Praedys Skeleton Replacer HD PBR» из PBR Hub.",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:659",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Базовые улучшенные меши мебели и построек. Нужны многим ретекстур-паками.",
+   "note": "«SMIM SE 2-08»; Farming CC Patch только при CC. «SMIM Quality Addon» 1.5 #44388. Нужен Noble Skyrim, Rustic, SMIM PBR.",
+   "reason": "Все 9 VR-листов."
+  },
+  {
+   "key": "id:151346",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "PBR-версия текстур SMIM для PBR-пути.",
+   "note": "«SMIM PBR» 2.1 (Panda's), 2.0 (Tempus). Не вместе с Noble Skyrim по SMIM-объектам.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:95032",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "rec",
+   "choose_one_group": "clutter_style",
+   "what": "Клатер-оверхол: блюда, бутылки, инструменты с хорошей геометрией. Есть PBR-версия.",
+   "note": "«Skyland bits and Bobs - Performance Version» 1.91 (Panda's) - в VR меньше draw calls. PBR: #142908. Конфликтует с Rally's All The Things - выбрать одно.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:182471",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "PBR/CM-текстуры для набора Skyrim 3D: мебель, камни, бочки, серебро, вывески.",
+   "note": "Файл включать только под установленную базу. В VR-листах не стоит, базовый Skyrim 3D Furniture есть в Yggdrasil и Librum.",
+   "reason": "0 VR-листов, текстуры."
+  },
+  {
+   "key": "id:17228",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "alt",
+   "choose_one_group": "clutter_style",
+   "what": "Классический ретекстур мебели 2K. Стоит в 6 VR-листах, включая Yggdrasil VR 2026-10.",
+   "note": "«RUSTIC FURNITURE - SE - SMIM - 2K» 3.0; 4K не брать. С Skyland возможен перекрой по приоритету.",
+   "reason": "6 VR-листов."
+  },
+  {
+   "key": "id:49903",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "VR-ресайз HD-ключей ElSopa: размер удобен для руки.",
+   "note": "«VR Refit - ElSopa - HD Keys Resized» + база ElSopa HD Keys Redone SE #48209 2k (Tahrovin, Grit).",
+   "reason": "VR-мод, 3 VR-листа; нишевый."
+  },
+  {
+   "key": "id:85416",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "ENB-свет окон: с Open Shaders не работает, только с CSX.",
+   "note": "Свет окон - Lux и Light Placer. ENB Light и Particle Lights для ENB Open Shaders не поддерживает.",
+   "reason": "6 SE-листов, 0 VR."
+  },
+  {
+   "key": "n:pbrnifpatcher",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Устаревший патчер мешей под PBR. Полностью заменён PGPatcher.",
+   "note": "Вики Open Shaders: PbrNifPatcher «ultra obsolete». Использовать PGPatcher из ядра.",
+   "reason": "Подтверждено вики Open Shaders."
+  },
+  {
+   "key": "id:69158",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "4K-апскейл SMIM: популярен в SE, в VR тяжёл для VRAM.",
+   "note": "В VR-листах не стоит. Достаточно 2K из Noble Skyrim/Rustic или SMIM PBR.",
+   "reason": "6 SE-листов, 0 VR."
+  },
+  {
+   "key": "n:pbrиcomplexparallaxверсииодногопакаодновременно",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "PBR и CM/Parallax-версии одного пака не ставить вместе (Riften, Windhelm, RCI, Stony AF и т.п.).",
+   "note": "Вики: смысла комбинировать PBR и Complex Material нет. Выбрать одну версию пака.",
+   "reason": "Правило вики Open Shaders."
+  },
+  {
+   "key": "id:143767",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "rec",
+   "choose_one_group": "land_pbr",
+   "what": "Ландшафт в ванильном стиле с parallax и PBR. Лёгкий (~0,9 ГБ), пара к Merethic Grasslands (вариант Exist) из ядра.",
+   "note": "«ICFur Exist Landscapes Mashup PBR» 1.0.5 + «Sloppy Landscapes PBR Blended Roads Support» 1.1 (Stormcrown, проверено). С Merethic - вариант Exist. Один пак ландшафта на весь мир (квад с PBR рендерится PBR целиком). Горы - через ERM.",
+   "reason": "Файлы подтверждены Stormcrown VR (CSX), PBR-ландшафт на Open Shaders - проверить."
+  },
+  {
+   "key": "id:145439",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "alt",
+   "choose_one_group": "land_pbr",
+   "what": "Богатый PBR-ландшафт всех миров. Тяжелее Sloppy, но чаще у VR-листов с PBR.",
+   "note": "«Vanaheimr Landscapes - AIO - PBR - 2k» v5.5 (Panda's), 4.0/4.5 (Tempus, Open Shaders 1.8), ~2,2 ГБ. Только 2K. Горы Tempus (PBR 16K, 3,7 ГБ) для VR слишком тяжёлые. Слои нескольких пакетов не повторять.",
+   "reason": "2 VR-листа, один из них на Open Shaders."
+  },
+  {
+   "key": "id:177621",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "try",
+   "choose_one_group": "land_pbr",
+   "what": "Свежий PBR-ландшафт в стиле TomatoRim. В VR-листах нет, текстуры без DLL.",
+   "note": "«TomatoRim PBR - Landscapes 2K» 1.6 (~2,1 ГБ) или 1.7 (2026-09-18, True North). ECSS Landscapes - только с ECSS. Не смешивать с другим пакетом ландшафта.",
+   "reason": "0 VR-листов."
+  },
+  {
+   "key": "id:121336",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Скалы и горы с объёмом (complex parallax). В трёх VR-листах и 13 SE.",
+   "note": "ERM 1.1.2 (Stormcrown), 1.1.1 (Panda's, Tempus). Ставить с Fix and Addon (142493) и DynDOLOD Add-On (88754). Blended ERM - отдельный файл Tempus, по умолчанию не нужен.",
+   "reason": "3 VR-листа; Open Shaders поддерживает object parallax."
+  },
+  {
+   "key": "id:142493",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Фиксы и дополнения к ERM: недостающие скалы и исправления мешей.",
+   "note": "VR-листы: 5.0 (Panda's), 4.5 (Tempus); SE 2026 - 6.4. Берите свежий, если страница не требует новый ERM. Ниже основного ERM.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:88754",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Дальние (LOD) модели скал и гор под ERM для DynDOLOD, ~1 МБ.",
+   "note": "ERM - DynDOLOD 1.0.1 (единственный файл). Ставить до генерации DynDOLOD.",
+   "reason": "2 VR-листа, 12 SE."
+  },
+  {
+   "key": "id:115471",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Текстуры гор под ERM. В VR только лёгкий вариант Vanilla ERM 2K, не PBR 16K.",
+   "note": "«Vanaheimr - Mountains - Vanilla ERM - 2k» v5.0 (Nordic Souls). Tempus ставит PBR 16k (3,7 ГБ) - для VR слишком тяжело. С Vanaheimr AIO сверьте, что горы не входят в AIO.",
+   "reason": "VR-лист только с 16K; 2K-вариант из SE."
+  },
+  {
+   "key": "id:8834",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Дороги без резких краёв: плавно сливаются с землёй. Малый (~56 МБ).",
+   "note": "Blended Roads 1.7. К Sloppy - патч Blended Roads Support; Vanaheimr в Tempus идёт со своей веткой.",
+   "reason": "8 из 9 VR-листов."
+  },
+  {
+   "key": "id:47057",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": "terrain_noise",
+   "what": "HD-замена шумовой текстуры рельефа. Почти бесплатна по FPS.",
+   "note": "HD Terrain Noise Texture 1.1.1 (2026-02) или 1.1 (FUS, Tempus). Альтернатива в Panda - Hank's Heavy Terrain Noise (152390). Один.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:56235",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Снег на ландшафте и объектах: чище и без швов. Нужен на пути без PBR-ландшафта.",
+   "note": "0.26 (SE-листы); VR-листы 0.11-0.23.1. Требует parallax. В Tempus стоит вместе с Better Dynamic Snow из ядра. Поверх Sloppy/Vanaheimr без теста не ставить. Нет в Panda и Stormcrown.",
+   "reason": "6 VR-листов; частично пересекается с снегом ядра."
+  },
+  {
+   "key": "id:73381",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Ледники, льдины и ледяные формы: новые меши и LOD.",
+   "note": "3.40: Meshes + IcyFixes (Morning Star); VR-листы на 2.13-2.41. После DynDOLOD сверьте льды у побережья. Рядом Animated Ice Floes (90634), Icebergs (121420).",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:60762",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Каменные кучи у дорог и лагерей смешиваются с землёй, не торчат над ней.",
+   "note": "0.3 (Stormcrown 2026-03); Panda и Yggdrasil на 0.2. Меши и плагин, без DLL.",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:139375",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "rec",
+   "choose_one_group": "trees_pbr",
+   "what": "PBR-текстуры ванильных деревьев с опциями дерева и снега. Работает и поверх Happy Little Trees.",
+   "note": "«Ultimate» 2.6 (2026-09) + Custom Wood Addon 2.4 + Modern snow patch 2.5 (Stormcrown); Tempus - 1.0. ~320 МБ. HLT из ядра остаётся. С HLT PBR не сочетать.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:159171",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "alt",
+   "choose_one_group": "trees_pbr",
+   "what": "PBR-слой для Happy Little Trees из ядра.",
+   "note": "HLT - PBR 1.0.0 (~370 МБ, Panda's). Только один список; Tomato's красит и ванильные деревья, свидетельств больше.",
+   "reason": "1 VR-лист."
+  },
+  {
+   "key": "id:135836",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "PBR-переработка Cathedral Plants: цветы, папоротники, ягоды, грибы.",
+   "note": "2.9 (Panda), 2.0a (Tempus), 2.8 (Nordic Souls PBR); ~425 МБ. Автор помечал версию 2 как альфу, в FOMOD много непроверенных опций - берите опции Panda и пробуйте по очереди.",
+   "reason": "2 VR-листа; снижено до opt из-за альфа-статуса."
+  },
+  {
+   "key": "id:41312",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Набор мелких 3D-растений Cathedral. Работает с Merethic из ядра.",
+   "note": "Mountain Flowers 2.0 (+ Hearthfire Patch) / BOS 60756; Snow Berries 69415; Tundra Cotton 68068; Thistle 67619; Nightshade 81284; Clover 68793. Нужен Base Object Swapper VR. Файлы 5-25 МБ.",
+   "reason": "Mountain Flowers в 9 из 9 VR-листов."
+  },
+  {
+   "key": "id:154489",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Кусты и подлесок в PBR. Есть Seasons pack под Seasons of Skyrim.",
+   "note": "Diverse HQ PBR shrubs 2.3 (Panda, ~200 МБ); Tempus 1.0.1. Seasons pack (310 МБ) только с сезонами.",
+   "reason": "2 VR-листа; PBR-путь, снижено до opt."
+  },
+  {
+   "key": "id:148782",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "PBR-перекраска растительности. Дополняет Cathedral PBR Plants.",
+   "note": "PBR Flora Overhaul 2.8.3 (SE), 2.7 (Tempus), ~0,9 ГБ - бюджет VRAM! Если тесно, оставьте Cathedral PBR Plants и Diverse shrubs.",
+   "reason": "1 VR-лист."
+  },
+  {
+   "key": "id:113578",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмный плющ на стенах, заборах и пнях через Base Object Swapper, плюс PBR-текстуры.",
+   "note": "HQ Ivy 1.35 (Panda) и PBR Ivy 1.5 #129934. Патч для пней - 116248. PBR-часть только при PBR-пути.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:39998",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Осины с разноцветной листвой. Есть аддон для LOD и PBR-вариант Variety.",
+   "note": "2.38-2.39 + Add-On DynDOLOD 3 (51135) 2.36.4 + Variety PBR (146940); Grit-листы 2.35. С HLT - Aspen Addendum (72540).",
+   "reason": "4 VR-листа."
+  },
+  {
+   "key": "id:125349",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "alt",
+   "choose_one_group": "grass",
+   "what": "Цветущая трава для Cathedral 3D Grass Library. Альтернатива Merethic Grasslands из ядра, заметно тяжелее.",
+   "note": "3.1 (Panda); 2.2 (Tempus); ~1,9-2,2 ГБ. Merethic ИЛИ Cathedral 3D Grass Library + это. Кэш травы собирать заново; прогоните VRAMr.",
+   "reason": "2 VR-листа; тяжёлая альтернатива."
+  },
+  {
+   "key": "id:63604",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Переработка лесов и деревьев по регионам. Меняет вид мира; в VR дороже по кадру.",
+   "note": "3.14 + Patch Collection 3.10; Panda ещё NOTWL PBR (150319) и hybrid LOD (133619). ~1,7 + 1,7 ГБ. Пересекается с Happy Little Trees. Тест на отдельном сохранении, следите за draw calls.",
+   "reason": "2 VR-листа; сильно влияет на CPU/GPU."
+  },
+  {
+   "key": "id:111458",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "rec",
+   "choose_one_group": "night_sky",
+   "what": "Млечный путь на 360 градусов без повторов. В ваниле в VR виден второй галактический центр, здесь UV исправлен.",
+   "note": "Realistic Galaxy 16k 3.1 (~270 МБ). При нехватке VRAM смотрите меньший вариант. Со звёздами Cathedral Night Skies не смешивать.",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:20301",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "alt",
+   "choose_one_group": "night_sky",
+   "what": "Звёздное небо Cathedral Concept: несколько наборов звёзд и галактик. Старая альтернатива.",
+   "note": "High Realism (8K) - Tempus, Yggdrasil; Blue Lore - Librum. 8K для VR расточительно, берите 4K. Взаимоисключает Realistic Galaxy.",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:13539",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Дымка и туман у горных вершин; в 6 VR-листах, в Panda рядом с Azurite Weathers.",
+   "note": "1.21 (Tempus, Panda); 1.01 в Grit. Мягче: Tweaked -20% (71189). Альфа-меши добавляют заливку на кадр.",
+   "reason": "6 VR-листов."
+  },
+  {
+   "key": "id:126073",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Живая рябь на водопадах (ESL-плагин). Дополняет Natural Waterfalls из ядра.",
+   "note": "WAVY Waterfalls Effect ESL 1.3.0. Нужен Skyrim VR ESL Support. Смотрите у водопада Ривервуда.",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:148761",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Подстройка цвета и прозрачности воды Simplicity of Sea из ядра.",
+   "note": "Water Color Tweaks 1.0.0 (Stormcrown). Ставится после основного Simplicity of Sea (56520).",
+   "reason": "1 VR-лист."
+  },
+  {
+   "key": "id:23316",
+   "keep": true,
+   "section": "tex_pbr_tools",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Утилита для упаковки модов в BSA и чистки чужих мешей и текстур. Нужна редко.",
+   "note": "CAO 7.0.i (Morning Star); VR-листы 5.3.13-7.0.g beta. Не прогонять по PBR/CM-наборам без нужды - VRAMr и PGPatcher уже делают нужное.",
+   "reason": "Внешний инструмент, 3 VR-листа."
+  },
+  {
+   "key": "id:143149",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Отдельный плагин не нужен: Terrain Helper по вики Open Shaders уже входит в движок (Yes для CS VR).",
+   "note": "Это SKSE-плагин hakasapl (для ENB, интегрирован в CS). Panda's и Tempus ставят его рядом со старым CS 1.4. Если в меню Open Shaders 2.17 пункта Terrain Helper нет, а PBR-ландшафт показывает швы - поставьте 1.0.1. Не смешивать с Terrain Variation/Blending.",
+   "reason": "Вики Open Shaders - Yes; проверка в меню."
+  },
+  {
+   "key": "id:148123",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Функции Community Shaders; в Open Shaders AIO они встроены, отдельные моды дублируют.",
+   "note": "Terrain Variation 1.0.1-1.2.0 (Librum, Panda, Tempus), Terrain Blending (Librum) - листы на CS/CSX. Ставьте только с оригинальным CS, не Open Shaders 2.17. Нет пункта в меню - поставьте.",
+   "reason": "Подтверждено wiki-таблицей и ядром."
+  },
+  {
+   "key": "id:32973",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ландшафты 2020 года в 4K (~2,5 ГБ): тяжелы для VR и не PBR, рядом с PBR-ландшафтом дают швы.",
+   "note": "Tamrielic Textures 4K (Yggdrasil), Cathedral/Septentrional Landscapes. Без PBR-ландшафта берите 2K-версии. В PBR-пути - один пак из land_pbr.",
+   "reason": "VRAM и швы PBR."
+  },
+  {
+   "key": "id:2182",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "alt",
+   "choose_one_group": null,
+   "what": "Вода Realistic Water Two: замена Simplicity of Sea + Water for ENB из ядра, не дополнение к ним.",
+   "note": "5.3.0-5.6.0 в Librum, Tahrovin и Yggdrasil VR (на Open Shaders 2.17, не только ENB), 5.7.3 в SE. Один водный мод: либо он, либо SoS из ядра. Совместимость с Lux и Open Shaders проверьте.",
+   "reason": "Исправлено: Yggdrasil на Open Shaders ставит его, значит не «dont», а альтернатива."
+  },
+  {
+   "key": "id:67304",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Патчи травы под ENB Complex Grass. В нашей сборке Open Shaders и Merethic Grasslands.",
+   "note": "Folkvangr 1.05, Cathedral 3D Pine Grass 2.0, Cathedral Landscapes 1.04 для ENB Complex Grass. Нужны только при ENB. Трава - Merethic (ядро) или Cathedral 3D Grass Library.",
+   "reason": "Файлы «for ENB Complex Grass»."
+  },
+  {
+   "key": "id:132218",
+   "keep": true,
+   "section": "creatures",
+   "tag": "rec",
+   "choose_one_group": "dragons_models",
+   "what": "Новые модели и текстуры драконов. Ставят оба самых свежих VR-списка с высокой графикой.",
+   "note": "Для VR - «1DragonsSE-with-low-res-textures» (Stormcrown); Panda's берёт полный набор («1DragonsSE» v2). Не вместе с Rustic DRAGONS, Splendor, HD Serpentine. Panda's: Diverse 4thUnknown Dragons (146462), Broken Horn (140627).",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:123170",
+   "keep": true,
+   "section": "creatures",
+   "tag": "rec",
+   "choose_one_group": "draugr_models",
+   "what": "Новые модели и текстуры драугров, одних из самых частых врагов, видны вплотную.",
+   "note": "«Draugrs 2K» (Stormcrown); Panda's - обычный. «Draugrs - PBR 2K» (172664) только при PBR-пути. Не вместе с Rustic DRAUGR и Haugbui.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:86338",
+   "keep": true,
+   "section": "creatures",
+   "tag": "rec",
+   "choose_one_group": "falmer_models",
+   "what": "Новые модели и 2K-текстуры фалмеров. В тёмных пещерах враг рядом, в VR хорошо видно.",
+   "note": "«Falmers - with 2k textures» 1.01 (Stormcrown, Panda's). Заменяет Rustic FALMER; New Creature Animation в VR не брать.",
+   "reason": "2 VR-листа, 9 SE."
+  },
+  {
+   "key": "id:160407",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": "hagraven_models",
+   "what": "Новые модели и текстуры гагрейвенов (2K). Свежий мод 2025-10.",
+   "note": "«Hagraven 2k» 1.0. Вместо Rustic HAGRAVEN. Аддоны Falmer Ear/Hagraven Claw могут перекрывать меши - проверьте порядок.",
+   "reason": "1 VR-лист."
+  },
+  {
+   "key": "id:82382",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые модели огненного, ледяного и штормового атронахов. Меши лёгкие.",
+   "note": "Flame «1Atronach» (82382), Frost (171447), Storm (160837) - все в Stormcrown. Не вместе с «Transparent and Refracting Icicle and Frost Atronach» (2458). Addi's Atronachs PBR (Panda's) - для PBR-пути.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:19272",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Серия Rustic: текстуры даэдра, великанов, троллей, мамонтов, саблезубов, гончих и горгулий.",
+   "note": "Daedra: 2K; Giant, Troll, Sabrecat, Mammoth: «4k-2k», ставить 2K-часть; Death Hound/Gargoyle 17740. Только текстуры. Rustic DRAUGR/FALMER/HAGRAVEN/DRAGONS не нужны при новых моделях.",
+   "reason": "6 VR-листов."
+  },
+  {
+   "key": "id:51551",
+   "keep": true,
+   "section": "creatures",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Размеры существ под масштаб VR. Мод только для VR, в SE-листах нет.",
+   "note": "«Creatures Resized for VR - SE» 1.0 (Tempus, FUS); Librum - «Smaller Insects». Применять после Dragons SE; проверьте масштаб драконов и пауков. Другие ресайзеры с ним не смешивать.",
+   "reason": "VR-мод, 3 VR-листа."
+  },
+  {
+   "key": "id:28249",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Лошади в HD - видны постоянно, когда сидишь в седле.",
+   "note": "Для VR - «2K-1K» (Librum). Остальные листы берут полный набор. Харнесс/седло ретекстуры - отдельные моды.",
+   "reason": "5 VR-листов."
+  },
+  {
+   "key": "id:55543",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Исправления и доработки поверх SMIM. Свежая версия 1.14 в Stormcrown VR 2026.",
+   "note": "1.14.1 (Stormcrown), 1.12.1 (Tempus), 1.4.2 (Yggdrasil) - берите новую. Читайте описание страницы, новая версия может требовать свежий SMIM.",
+   "reason": "3 VR-листа."
+  },
+  {
+   "key": "id:112902",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": "signs",
+   "what": "Вывески трактиров и магазинов: актуальная замена Skyrim 3D Signs. Panda's и Tempus ставят оба мода.",
+   "note": "Skyking Signs 2.1 (Panda's); Tempus - 1.6 + патчи Bruma/S&S + LotD. Unique Signs 2.1 (114940). PBR - «Skyking Misc PBR» 143209. Вместо Skyrim 3D Signs (21338) - один.",
+   "reason": "2 VR-листа."
+  },
+  {
+   "key": "id:66037",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Плоские стены, причалы и заборы заменены 3D-мешами. Дёшево по ресурсам.",
+   "note": "Stockades Walls and Gate: обычный файл или «Parallax - OPTI»; Parallax - только при PGPatcher. Riften Canal 1.0.2 (75431), RavenRock Docks 1.0.3 (75794).",
+   "reason": "5 VR-листов."
+  },
+  {
+   "key": "id:93733",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переработанные дворцы и залы фракций. Stormcrown VR 2026-09; заметный скачок для интерьеров.",
+   "note": "Palaces AIO 1.0; Faction Halls AIO 1.1 (Stormcrown); NavCut Addon 1.0 обязателен для навмеша. Не смешивать с JK's Palace of the Kings/Dragonsreach.",
+   "reason": "2 VR-листа; правит ячейки."
+  },
+  {
+   "key": "id:151526",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Простые деревья в городах. Единственный VR-список - Stormcrown 2026-09.",
+   "note": "«Pleasantrees - Simple Trees in Cities» 1.2.4. Деревья добавляют draw calls: проверьте кадр в Вайтране. Плохо с модами, которые уже сажают деревья в городах.",
+   "reason": "1 VR-лист, цена не измерена."
+  },
+  {
+   "key": "id:17127",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Расширенный Винтерхолд. Из серии Great Cities в VR берёт только Tempus; тяжёлые города грузят CPU.",
+   "note": "4.2.3 + Patch Collection 2.7.1 (Tempus). Сотни мешей и NPC: по одному и сверять в fpsVR. Всю серию подряд не ставить.",
+   "reason": "1 VR-лист; CPU."
+  },
+  {
+   "key": "id:6289",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Знаменитые переделки городов. В VR только Panda's, причём с «Lightened»-патчами.",
+   "note": "JK's Skyrim AIO 1.7 + Lightened Whiterun/Riverwood (111896/111895). Дорого для CPU. Пробовать только Whiterun/Riverwood с Lightened; остальные ~50 модов не брать. Замеров нет.",
+   "reason": "1 VR-лист, нагрузка по отзывам."
+  },
+  {
+   "key": "id:17732",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "alt",
+   "choose_one_group": "rocks_mesh",
+   "what": "3D-камни вместо плоских. Старый мод (2020), в VR его берут только FUS и Librum.",
+   "note": "1.0.3. Пересекается с ERM из текстурной части; выбирать одно. Камни добавляют draw calls. Новые VR-листы берут ERM.",
+   "reason": "2 VR-листа, пересекается с ERM."
+  },
+  {
+   "key": "id:36594",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Правка орбов Candlelight и Magelight (VR-версия): переносит орб от головы, убирает дымку. Во всех 9 VR-листах.",
+   "note": "Версия 1.3 (Librum - 1.1). Три меши перекрывают Particle Patch for ENB (65720): ставить Rally's после него. Легкий.",
+   "reason": "VR-мод, 9 из 9 VR-листов."
+  },
+  {
+   "key": "id:44776",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "rec",
+   "choose_one_group": "food_scale",
+   "what": "Уменьшает слишком крупную еду. Только VR-листы (FUS, Librum, Yggdrasil).",
+   "note": "1.4 (2025-08, FUS, Librum); Yggdrasil на 1.3. Альтернатива с BOS - Food Size Scaling (170631, Tempus, Panda's). Один.",
+   "reason": "3 VR-листа, VR-мод."
+  },
+  {
+   "key": "id:33669",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Серия Rally: меши мелкой утвари. Широко в VR-листах, дёшево.",
+   "note": "All The Things: FOMOD 1.5 или «Rally's Cut» 1.6; Solstheim AIO 36893; Crates 80417; Barrels 80061. Без «ENB Light»-вариантов. Конфликт со Skyland Bits and Bobs - одно.",
+   "reason": "6 VR-листов."
+  },
+  {
+   "key": "id:33394",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные алтари богов; серия JS - лёгкие меши предметов, видны вплотную.",
+   "note": "JS Shrines 2K (Tempus, Panda's, Yggdrasil), не 4K. Purses and Septims 37306 + VR Refit 49850 (Yggdrasil) уменьшает кошельки. Остальные JS - по желанию.",
+   "reason": "6 VR-листов."
+  },
+  {
+   "key": "id:57268",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Вода в колодцах и умывальниках только мешами, без скриптов.",
+   "note": "Water in Wells 0.8; Wash Basins 1.2 (59333). FYX - Smooth Wells (66715) - другой набор, одно. MIC имеет патч.",
+   "reason": "4 VR-листа."
+  },
+  {
+   "key": "id:131131",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Сборник улучшенных мешей с патчами под Embers XD, Lux, Dynamic Things Alt и Water in Wells.",
+   "note": "Основной 0.5 (Tempus) / 0.6.4 (SE); патчи Embers XD, DTA - BOS, Animated Clutter (Panda's). Грузить после Rally/JS/SMIM-аддонов, прочитать список мешей перед установкой.",
+   "reason": "2 VR-листа; перекрывает другие меши."
+  },
+  {
+   "key": "id:61434",
+   "keep": true,
+   "section": "reshade",
+   "tag": "try",
+   "choose_one_group": "reshade_sharpen",
+   "what": "Резкость + AO одним шейдером. Единственный ReShade, что есть в 6 VR-листах; самые свежие его не ставят.",
+   "note": "Glamur v2.5.1 (Grit, Tahrovin), 2.4 (Librum), 2.0 (FUS, Yggdrasil). OpenComposite у Grit - «with Working Keyboard», у других Unleashed. Не сочетать с vrperfkit и Skyrim Upscaler; отключить Bloom при нехватке кадров. Сначала без ReShade.",
+   "reason": "6 VR-листов; совместимость с Open Shaders 2.17 только косвенная (Yggdrasil)."
+  },
+  {
+   "key": "id:47989",
+   "keep": true,
+   "section": "reshade",
+   "tag": "alt",
+   "choose_one_group": "reshade_sharpen",
+   "what": "Лёгкая резкость для VR на основе The Sharper Eye. Yggdrasil VR ставит версию 4.0.",
+   "note": "VRVision 4.0 (Yggdrasil, Librum); 3.0 (FUS). Использует dxgi.dll: конфликтует с vrperfkit и Skyrim Upscaler. С Glamur вместе смысла мало.",
+   "reason": "VR-мод, 3 VR-листа."
+  },
+  {
+   "key": "id:74887",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Конфиги существ под Precision. Сам Precision в VR не работает, мод без него бесполезен.",
+   "note": "Tempus VR оставила его без Precision. Ядро Precision не включает.",
+   "reason": "10 SE-листов."
+  },
+  {
+   "key": "id:45966",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Совместимость поведения существ с Nemesis. У нас Pandora + OAR, Nemesis нет.",
+   "note": "New Creature Animation (Falmer, Giant, Troll, Frost Atronach) и Draugr-анимации DAR тоже не брать.",
+   "reason": "Нужен только при Nemesis."
+  },
+  {
+   "key": "id:89614",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Трассировка лучей в ReShade. Для VR слишком дорого на двух глазах; стоит только в Librum.",
+   "note": "Раньше его заменили Glamur и VrVision. Для CS-пресетов Fjord/Skyward/Klarity данных о стоимости в VR нет.",
+   "reason": "1 VR-лист, нагрузка."
+  }
+ ]
+}
