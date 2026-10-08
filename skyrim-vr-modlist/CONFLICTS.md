@@ -9,9 +9,13 @@
 | Группа | Варианты | По умолчанию | Правило |
 |---|---|---|---|
 | `masters-path` | Путь A. Обновлённые мастера SSE 1.6.1170 + 4 бесплатных CC; Путь B. USSEP 4.2.5b + Skyrim VR USSEP patch for 4.2.5b | Путь A. Обновлённые мастера SSE 1.6.1170 + 4 бесплатных CC | ставится один; по умолчанию первый, пока критик не уточнил |
+| `footprints` | Dynamic Footprints SKSE; Footprints + SPID for Footprints | Dynamic Footprints SKSE | ставится один; по умолчанию первый, пока критик не уточнил |
+| `racemenu` | RacemenuVR; RaceMenu VR 2 | RacemenuVR | ставится один; по умолчанию первый, пока критик не уточнил |
 | `shaders` | Open Shaders; Community Shaders Expanded (CSX), VR-сборка | Open Shaders | ставится один; по умолчанию первый, пока критик не уточнил |
 | `water` | Simplicity of Sea; Water for ENB | Simplicity of Sea | ставится один; по умолчанию первый, пока критик не уточнил |
 | `grass` | Merethic Grasslands; Cathedral 3D Grass Library + 3D-растения | Merethic Grasslands | ставится один; по умолчанию первый, пока критик не уточнил |
+| `audio-stack` | Audio Overhaul for Skyrim; Immersive Sounds Compendium + AOS–ISC patch | Audio Overhaul for Skyrim | ставится один; по умолчанию первый, пока критик не уточнил |
+| `ai-npc` | SkyrimNet; Mantella; CHIM | SkyrimNet | ставится один; по умолчанию первый, пока критик не уточнил |
 
 ## Порядок в MO2 (левая панель)
 

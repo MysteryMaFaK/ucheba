@@ -1,56 +1,56 @@
 # Фаза 8: Хайтек-новинки 2026 — по одному
 # Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
 
-# [rec] Smooth Terrain — основной файл
+# [rec] Smooth Terrain — Основной файл «Smooth Terrain» 0.6.0 (Yggdrasil VR, 2026-08-27). Один DLL для SE/AE/VR.
 https://www.nexusmods.com/skyrimspecialedition/mods/186875
 
-# [opt] Helios + MMSF, Luma Utility, XEMI Utility — основной файл
+# [opt] Helios + MMSF, Luma Utility, XEMI Utility — Четыре архива одной связкой (Stormcrown VR, июль 2026): «Helios» 1.01 (#181533), «MMSF» 1.1.0.0 (#183073), «Luma Utility» 1.7.0.0 (#177961), «XEMI Util» 1.6.0.0 (#159084). Luma и MMSF 2.x НЕ брать: Helios 1.01 с ними несовместим (использует удалённую Papyrus-функцию).
 https://www.nexusmods.com/skyrimspecialedition/mods/181533
 https://www.nexusmods.com/skyrimspecialedition/mods/183073
 https://www.nexusmods.com/skyrimspecialedition/mods/177961
 https://www.nexusmods.com/skyrimspecialedition/mods/159084
 
-# [rec] Inventory Selfie VR — Redux — основной файл
+# [rec] Inventory Selfie VR — Redux — Основной файл «Inventory Selfie VR - Redux» 1.3 (исправляет вылет с HDT-SMP; Tahrovin - Grit ставит 1.2).
 https://www.nexusmods.com/skyrimspecialedition/mods/190704
 
-# [rec] Pull Arrows VR — Immersive Extraction — основной файл
+# [rec] Pull Arrows VR — Immersive Extraction — Основной файл «Pull Arrows VR» 2.0.0 (Spirit of Grit, Tahrovin - Grit, 2026-07-12). 1.2.0 (Panda's) не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/169833
 
-# [rec] Cold Breath NG — основной файл
+# [rec] Cold Breath NG — Основной файл «Cold Breath NG» последней версии (SE-листы берут 1.8). Автор заявляет поддержку 1.5.97/1.6/VR.
 https://www.nexusmods.com/skyrimspecialedition/mods/174838
 
-# [opt] Interactive Waters — VR (beta) — основной файл
+# [opt] Interactive Waters — VR (beta) — Основной файл «Interactive Waters - VR» (в VR-листах — «Interactive Water VR» 1.2.2.1; на странице уже 1.3.1). Брать последний; при проблемах — 1.2.2.1 (Librum VR, Panda's Sovngarde).
 https://www.nexusmods.com/skyrimspecialedition/mods/166560
 
-# [opt] Immersive Harvesting VR — основной файл
+# [opt] Immersive Harvesting VR — Основной файл «Immersive Harvesting» 1.5.23 (Yggdrasil VR, 2026-09-19).
 https://www.nexusmods.com/skyrimspecialedition/mods/186754
 
-# [opt] ISPVR — Immersive Spellcasting VR — основной файл
+# [opt] ISPVR — Immersive Spellcasting VR — Основной файл «ISPVR - Immersive Spellcasting VR» 1.1.1 (Panda's Sovngarde). Опциональный патч HIGGS — по желанию.
 https://www.nexusmods.com/skyrimspecialedition/mods/164183
 
-# [opt] Steeds of Omega VR — NPC Mounted Combat — основной файл
+# [opt] Steeds of Omega VR — NPC Mounted Combat — Основной файл «Steeds of Omega - VR (Mounted NPC combat)» 0.9.5 beta (Tempus VR).
 https://www.nexusmods.com/skyrimspecialedition/mods/169221
 
-# [try] Dynamic Footprints SKSE — основной файл
+# [try] Dynamic Footprints SKSE — Основной файл «Dynamic Footprints Skse BASE» v2.3 (LoreRim, Wunduniik, CSVP). Файлы «NMN DynamicFootprints CPM Vanaheimr» — пресеты текстур, не нужны. Аддон Beast Race Expansion (#177496) — по желанию.
 https://www.nexusmods.com/skyrimspecialedition/mods/175254
 
-# [try] DynamicShader — DynamicSnow — основной файл
+# [try] DynamicShader — DynamicSnow — Релиз «DynamicSnow-v630» (2026-08-30), плагин DynamicSnow.dll. Нужен ещё DynamicShader Core (DynamicShader.dll).
 https://www.nexusmods.com/skyrimspecialedition/mods/189713
 
-# [try] XPMF — Extended Projected Materials Framework — основной файл
+# [try] XPMF — Extended Projected Materials Framework — Основной файл «XPMF» 0.7.0 (Morning Star, 2026-10-03). Профили — JSON в Data\SKSE\Plugins\XPMF\: snow.json, snow_pbr.json, ash.json, ash_pbr.json.
 https://www.nexusmods.com/skyrimspecialedition/mods/192698
 
-# [try] Frostwalker — основной файл
+# [try] Frostwalker — Основной файл «Frostwalker» 2.2 (True North, 2026-09-23).
 https://www.nexusmods.com/skyrimspecialedition/mods/184628
 
-# [try] Bobbing Framework — основной файл
+# [try] Bobbing Framework — Основной файл «Bobbing Framework» последней версии. VR-листов нет.
 https://www.nexusmods.com/skyrimspecialedition/mods/186081
 
-# [try] Immersive NPC Dialogue — VR — основной файл
+# [try] Immersive NPC Dialogue — VR — Основной файл «Immersive NPC Dialogue - VR» 1.1 (автор TheMachinaGod, июль 2026). Метка AI-Generated.
 https://www.nexusmods.com/skyrimspecialedition/mods/184804
 
-# [try] Palm Compass VR — основной файл
+# [try] Palm Compass VR — Основной файл «Palm Compass VR» (версия 2 и новее). Метка AI-Generated.
 https://www.nexusmods.com/skyrimspecialedition/mods/189452
 
-# [opt] Horizon Fix — основной файл
+# [opt] Horizon Fix — Основной файл «Horizon Fix» 0.5.1 или новее (Winds of the North, Nordic Souls PBR, 2026-08-07). Файл «Horizon Fix AE» 0.4.1 не брать. Опционально «Horizon Fix Exponential Height Fog Config» под фичу Open Shaders.
 https://www.nexusmods.com/skyrimspecialedition/mods/184607

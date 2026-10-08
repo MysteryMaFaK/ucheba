@@ -301,9 +301,9 @@
 - Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Root Builder (#31720)
 - Не вместе с: SSE Engine Fixes (#17230); Engine Fixes VR ObjectLOD and Shadow Map Crash Fix (#188237)
 - Порядок в MO2: Part 1 — обычный мод в разделе фреймворков. Part 2 — отдельный мод «Engine Fixes VR Part 2», все файлы в Root, раздел «Инструменты и корень».
-- Настройки: В конфиге Part 1 (EngineFixes.toml в 7.x), секция [Patches]: MaxStdio = 8192. Страница ESL Support требует MaxStdio — true в старых версиях или 4096 в новых. Отдельный ObjectLOD/Shadow Map fix не ставить: он встроен с 7.4.9, а если стоит — удалить.
+- Настройки: В EngineFixes.toml (7.x), секция [Patches]: bMaxStdIO = true (значение по умолчанию, число не задаётся). Файл создаётся при первом запуске игры. Страница ESL Support требует MaxStdio — true в старых версиях или 4096 в новых. Отдельный ObjectLOD/Shadow Map fix не ставить: он встроен с 7.4.9, а если стоит — удалить.
 - Проверка: В sksevr.log Engine Fixes загружен. В логе ESL Support нет предупреждения про MaxStdio. При неправильно поставленном Part 2 плагин не грузится.
-- Заметка: Part 1 — мод, Part 2 — в корень. В EngineFixes.toml поставить MaxStdio = 8192: это требование Skyrim VR ESL Support. Старый отдельный ObjectLOD/Shadow Map fix не ставить — он уже внутри с 7.4.9.
+- Заметка: Part 1 — мод, Part 2 — в корень. В EngineFixes.toml в секции [Patches] оставить bMaxStdIO = true (по умолчанию): это требование Skyrim VR ESL Support. Старый отдельный ObjectLOD/Shadow Map fix не ставить — он уже внутри с 7.4.9.
 
 ### Skyrim VR ESL Support — `core` [#106712](https://www.nexusmods.com/skyrimspecialedition/mods/106712)
 - Фаза 2 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
@@ -312,7 +312,7 @@
 - Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Engine Fixes VR (#62089)
 - Не вместе с: Backported Extended ESL Support
 - Порядок в MO2: PapyrusUtil ESL Patch — ниже PapyrusUtil VR, чтобы его перезаписать.
-- Настройки: Работает только с официальным SKSEVR 2.0.12. Нужен MaxStdio в Engine Fixes VR. Ставить до запуска xEdit, LOOT и DynDOLOD. После включения ESL лучше начать новую игру.
+- Настройки: Работает только с официальным SKSEVR 2.0.12. Нужен включённый bMaxStdIO в Engine Fixes VR (EngineFixes.toml, секция [Patches]). Ставить до запуска xEdit, LOOT и DynDOLOD. После включения ESL лучше начать новую игру.
 - Проверка: В логе ESL Support (Documents\My Games\Skyrim VR\SKSE) нет предупреждения про MaxStdio. ESL-плагины (например, CC пути A) работают в игре.
 - Заметка: ESL и ESPFE в VR, включая расширенный диапазон 1.6.1130. Работает только с официальным SKSEVR 2.0.12. Должен стоять до запуска DynDOLOD.
 
@@ -946,465 +946,835 @@
 ## 05 VR-ядро
 
 ### VRIK Player Avatar — `core` [#23416](https://www.nexusmods.com/skyrimspecialedition/mods/23416)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «VRIK Player Avatar» 0.8.7 (Stormcrown VR, Yggdrasil VR, Tahrovin - Grit, 2026-09-18). Файл «VRIK Rift-Index-WMR Controller Bindings V2.1.0» — это биндинги SteamVR, в MO2 не ставить: импортировать в SteamVR, если у вас Index/Rift/WMR. Старые 0.8.2–0.8.5 не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); SkyUI VR (#91535)
+- Не вместе с: Show Player In Inventory (плоский режим); View Yourself VR (#16809) — клон вместо тела
+- Порядок в MO2: Сепаратор «VR-ядро», ниже SkyUI VR и SKSEVR. Все аддоны VRIK (Arctal's Tweaks, Closed Fist, Neutral Animations, Inventory Selfie) — ниже VRIK.
+- Порядок плагина: Плагин VRIK из архива — LOOT, ручного порядка нет. Arctal's VRIK Tweaks — после VRIK.
+- Настройки: После первого входа: меню VRIK в MCM (SkyUI VR) → калибровка роста и рук. fNearDistance задавать в MCM VRIK (минимум 3.0; меньшие значения мерцают), а не в INI. Три INI VRIK лежат в SKSE\Plugins: сохранить копию перед обновлением. ShowFistWhileUnarmed оставить выключенным, если ставите VRIK Closed Fist. Open Hand Casting выключить, если ставите ISPVR. Без калибровки руки/рост будут неверными.
+- Проверка: В sksevr.log строка о загрузке VRIK без ошибки. В игре виден аватар и холстеры, руки следуют за контроллерами; в MCM есть страница VRIK. Сделать цикл «сохранить — загрузить» перед калибровкой.
 - Заметка: Тело игрока, холстеры, жесты.
 
 ### HIGGS — Enhanced VR Interaction — `core` [#43930](https://www.nexusmods.com/skyrimspecialedition/mods/43930)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `mixed` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «HIGGS» 1.10.10 (Tempus, Stormcrown, SoG, Tahrovin - Grit, Panda's, Librum, Yggdrasil). Старые 1.10.0–1.10.8 не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Порядок в MO2: «VR-ядро», рядом с VRIK. Все аддоны HIGGS (PLANCK, Physical Collision VR, Pull Arrows, Immersive Harvesting и др.) — ниже HIGGS.
+- Порядок плагина: Плагин из архива (higgs_vr.esp) — LOOT; ручного порядка нет.
+- Настройки: Настройки HIGGS в higgs_vr.ini (SKSE\Plugins); синее свечение захватываемых объектов отключается ключом DisableShaders=1 (по комментарию на странице Interactive Activators VR). Только PC VR, не Quest-автономка.
+- Проверка: В sksevr.log HIGGS загружен без ошибки версии. В игре предмет хватается рукой, работают гравиперчатки и хват оружия двумя руками.
 - Заметка: Коллизии рук, хват двумя руками, гравиперчатки.
 
 ### PLANCK — `core` [#66025](https://www.nexusmods.com/skyrimspecialedition/mods/66025)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «PLANCK» 0.8.1 (Yggdrasil VR, Spirit of Grit, Tahrovin - Grit, 2026-07-30). Версии 0.4–0.7.1 из старых списков не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); HIGGS (#43930) 1.6.0 и новее
+- Порядок в MO2: «VR-ядро», ниже HIGGS. PLANCK VR Stability Patch — ниже PLANCK (перезаписывает activeragdoll.dll).
+- Настройки: INI PLANCK лежит в SKSE\Plugins (имя файла неизвестно — смотреть в папке мода). При вылетах ставить PLANCK VR Stability Patch (vr-188233). Если ставите NPC Spell Variance — нужен «NPC Spell Variance VR Patch» (GitHub Treatid2): без него возможны проблемы collision-alpha.
+- Проверка: В sksevr.log PLANCK загружен без ошибки. Удар или толчок по NPC даёт физическую реакцию (ragdoll); activeragdoll.log создаётся рядом с логами SKSE.
 - Заметка: Физические удары и реакции NPC. Требует HIGGS 1.6.0+ и SKSEVR 2.0.12.
 
 ### Physical Collision VR — `rec` [#186335](https://www.nexusmods.com/skyrimspecialedition/mods/186335)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «PhysicalCollisionVR» 5.2.x (Yggdrasil VR — 5.2.0, 2026-10-03; на странице уже 5.2.1 от 06.10.2026). Версия должна быть 5.0.0 и новее: True Wield VR и Swap Drop and Hold Redux 3.0.0 требуют именно её. Один DLL и один INI, ESP нет.
+- Установщик: неизвестно — общие правила. Файл 5.0.0 на Nexus был помечен как FOMOD; архив 5.2.0 в Yggdrasil — без пометки. Если установщик есть и спрашивает про True Wield VR / Swap Drop and Hold — выбрать вариант с ними (они у нас стоят).
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); VRIK Player Avatar (#23416); HIGGS (#43930); PLANCK (#66025)
+- Не вместе с: Pseudo Physical Weapon Collision and Parry (#100781) — делает то же самое; Precision (плоский режим)
+- Порядок в MO2: «VR-ядро», ниже HIGGS, PLANCK, VRIK и Immersive Weapon Penetration VR. True Wield VR, Swap Drop and Hold Redux — ниже него.
+- Настройки: INI рядом с DLL: жёсткость, размер руки, сила следования; режим коллизии оружия Full / Simple / Off, коллизия рук отдельно. Начать с настроек по умолчанию. Метка AI-Generated на странице.
+- Проверка: В sksevr.log DLL загружена. Ладонь упирается в стену, оружие ложится на стол, меч звенит о собственный щит.
 - Заметка: Руки и оружие упираются в стены, столы и щит. Требует HIGGS, PLANCK, VRIK. Не совмещать с другими модами коллизии оружия вроде Pseudo Physical Weapon Collision and Parry — они делают одно и то же.
 
 ### True Wield VR — `rec` [#191123](https://www.nexusmods.com/skyrimspecialedition/mods/191123)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «TrueWieldVR» 1.2.0 (Yggdrasil VR, 2026-10-03). Нужен Physical Collision VR 5.0.0 и новее (лучше 5.2.x, как в Yggdrasil).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Physical Collision VR (#186335); HIGGS (#43930); PLANCK (#66025); VRIK Player Avatar (#23416); MCM Helper (#53000); SkyUI VR (#91535)
+- Не вместе с: XPMSSE Weapon Styles — на странице предупреждение о вылетах: не включать этот модуль из XPMSSE
+- Порядок в MO2: Ниже Physical Collision VR. Swap Drop and Hold Redux — ниже True Wield VR.
+- Настройки: Вес и хват настраиваются в MCM (MCM Helper). Вес оружия задаётся по классам: кинжалы, мечи, топоры и булавы, двуручные, секиры и молоты. Скользить хватом вверх по рукояти — оружие легче.
+- Проверка: В sksevr.log DLL загружена. Тяжёлый молот в одной руке «провисает», хват ближе к лезвию делает его легче. В MCM есть страница True Wield.
 - Заметка: Масса оружия и хват в любой точке рукояти. Требует Physical Collision VR, MCM Helper, SkyUI VR.
 
 ### Immersive Weapon Penetration VR — `rec` [#184223](https://www.nexusmods.com/skyrimspecialedition/mods/184223)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «ImmersiveWeaponPenetrationVR» 1.8.0 (Yggdrasil VR, 2026-10-03; Spirit of Grit и Tahrovin - Grit держат 1.6.1). Брать 1.8.0: Swap Drop and Hold Redux 2.0.0+ рекомендует именно её.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); HIGGS (#43930); PLANCK (#66025); VRIK Player Avatar (#23416)
+- Порядок в MO2: «VR-ядро», рядом с Physical Collision VR; Physical Collision VR — ниже него (он уступает руку застрявшему клинку).
+- Настройки: Настройки по умолчанию. Метка AI-Generated на странице.
+- Проверка: В sksevr.log DLL загружена. Колющий удар входит в тело NPC, вытащить клинок нужно усилием.
 - Заметка: Колющий удар входит в тело и застревает. Требует HIGGS, PLANCK, VRIK.
 
 ### Swap Drop and Hold Redux — VR — `rec` [#185816](https://www.nexusmods.com/skyrimspecialedition/mods/185816)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «SwapDropAndHoldRedux 3.0.0 FOMOD» (Yggdrasil VR, 2026-10-03). Версия 3.0.0 требует Physical Collision VR и True Wield VR.
+- Установщик: неизвестно — общие правила. В имени файла есть «FOMOD», а описание Nexus говорит о ручной установке DLL + INI в SKSE\Plugins — опции читать в установщике; при выборе вариантов предпочесть тот, что использует Physical Collision VR и True Wield VR.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); HIGGS (#43930); Instant Equip VR (#44571); Physical Collision VR (#186335) — обязателен для 3.0.0; True Wield VR (#191123) — обязателен для 3.0.0
+- Не вместе с: Swap Drop and Hold (#49425) и Swap Drop and Hold Add Spells (#55983) — старый скриптовый предшественник; Redux их заменяет (проверить на странице)
+- Порядок в MO2: Ниже True Wield VR и Physical Collision VR. Immersive Weapon Penetration VR 1.8.0 — рекомендован.
+- Настройки: Файл SwapDropAndHoldRedux.ini в SKSE\Plugins (по описанию Nexus). Метка AI-Generated не подтверждена.
+- Проверка: В sksevr.log DLL загружена. Оружие в руке можно сменить, бросить и удержать жестом.
 - Заметка: Смена, бросание и удержание предметов в руке.
 
 ### Spell Wheel VR — `core` [#47630](https://www.nexusmods.com/skyrimspecialedition/mods/47630)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `mixed` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «Spell Wheel VR» 1.5.11 (Stormcrown, SoG, Tahrovin - Grit, Yggdrasil VR, 2026-08-09). Не брать 1.2–1.5.9 из старых списков. Русский/французский/китайский переводы — отдельные страницы, не нужны.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); Skyrim VR Tools (#27782); SkyUI VR (#91535)
+- Порядок в MO2: «VR-ядро», ниже SkyUI VR. Durability VR, Steeds of Ultima VR — ниже Spell Wheel VR.
+- Настройки: Колесо и кнопка вызова — в MCM Spell Wheel VR. Работает с HIGGS 1.10.3 и новее. Durability VR требует версию 1.4.12+, Steeds of Ultima — 1.4.2+; наша 1.5.11 их покрывает.
+- Проверка: В MCM есть страница Spell Wheel VR; кнопка вызывает колесо с заклинаниями, оружием, зельями.
 - Заметка: Выбор заклинаний и предметов жестом, без меню.
 
 ### Weapon Throw VR — `rec` [#31374](https://www.nexusmods.com/skyrimspecialedition/mods/31374)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Weapon Throw VR» 1.4.0 (Yggdrasil VR, SoG, Tahrovin - Grit, 2026-08-09). Версии 1.3.19–1.3.20 из старых списков не брать: Pull Arrows VR 2.0 просит свежую.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); Skyrim VR Tools (#27782); SkyUI VR (#91535)
+- Не вместе с: Throwable Weapons SKSE (#182872) и другие метатели оружия — не вместе
+- Порядок в MO2: «VR-ядро», ниже HIGGS. Pull Arrows VR и Durability VR — ниже него.
+- Настройки: Настройки в MCM (SkyUI VR). Режим Auto Return влияет на износ в Durability VR: брошенное оружие изнашивается, только если Auto Return включён.
+- Проверка: В MCM есть Weapon Throw VR. Оружие, брошенное рукой, летит и (при Auto Return) возвращается. В sksevr.log нет ошибок плагина.
 
 ### Interactive Activators VR — `rec` [#161676](https://www.nexusmods.com/skyrimspecialedition/mods/161676)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Основной файл «Interactive Activators VR» 1.1.8 (Yggdrasil, SoG, Tahrovin - Grit, Stormcrown, 2026-08-30). Старые 1.0.3–1.1.6 не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); HIGGS (#43930)
+- Не вместе с: Interactive Pullchains VR — предшественник, заменён этим модом
+- Порядок в MO2: «VR-ядро», ниже HIGGS.
+- Настройки: Настройки по умолчанию. В комментариях Nexus советуют не ставить Dwemer Gates Don't Reset («Unaggressive Dragon Priests Fix + Dwemer Gates Don't Reset», fixes-69026) вместе с патчем GDOS — проверить, нужен ли патч.
+- Проверка: В sksevr.log DLL загружена. Рычаги, цепочки и кнопки двигаются рукой; подсвеченные активаторы можно схватить HIGGS.
 - Заметка: Физические рычаги, цепи и кнопки. Заменил Interactive Pullchains VR.
 
 ### Instant Equip VR — `rec` [#44571](https://www.nexusmods.com/skyrimspecialedition/mods/44571)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Instant Equip VR» 1.2.0 (Yggdrasil, Stormcrown, Tempus, Panda's, Librum). Не брать 1.0.0 (SoG, Tahrovin - Grit, FUS).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Порядок в MO2: «VR-ядро». Swap Drop and Hold Redux и Steeds of Ultima — ниже него.
+- Настройки: Не требуется. Нужен Swap Drop and Hold Redux (жёстко) и Steeds of Ultima VR (жёстко).
+- Проверка: В sksevr.log плагин загружен. Взятое в руку оружие экипируется мгновенно, без анимации.
 
 ### Dialogue Movement Enabler VR — `rec` [#59816](https://www.nexusmods.com/skyrimspecialedition/mods/59816)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Dialogue Movement Enabler VR» 2.3.0 (Stormcrown, SoG, Tahrovin - Grit, Tahrovin, Yggdrasil, 2026-07-02). Не брать 2.2.0 (старые списки).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) 0.230.0 и новее
+- Не вместе с: Dialogue Movement Enabler (SE, #43708) — плоская версия
+- Порядок в MO2: «VR-ядро». No Menu Fade Out VR — ниже него.
+- Настройки: Не требуется. Нужен No Menu Fade Out VR (жёстко) и желателен для Immersive NPC Dialogue VR.
+- Проверка: В sksevr.log DLL загружена. Во время диалога можно ходить и поворачиваться.
 
 ### Stop Trigger Unsheathing For VR — `rec` [#55962](https://www.nexusmods.com/skyrimspecialedition/mods/55962)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «STUF VR» 1.0.0 — единственный, во всех 9 VR-листах.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Не вместе с: Stop Automatic Weapon Draw NG (#99667) — тот же эффект
+- Порядок в MO2: Без особых правил.
+- Настройки: Не требуется.
+- Проверка: Нажатие курка без оружия в руке не вынимает оружие. В sksevr.log нет ошибок плагина.
 
 ### Dual Casting Fix VR — `rec` [#92804](https://www.nexusmods.com/skyrimspecialedition/mods/92804)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «Dual Casting Fix VR» 1.0.0 — единственный, 8 VR-листов.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) 0.98.0 и новее
+- Не вместе с: Dual Casting Fix (плоский, #92454) — не ставить
+- Порядок в MO2: Без особых правил. ESP нет.
+- Настройки: Не требуется. На странице нужен VC++ Redistributable.
+- Проверка: Двойное заклинание в обеих руках считается двойным (усиленным). В sksevr.log нет ошибок плагина.
 
 ### Haptic Skyrim VR — `rec` [#20364](https://www.nexusmods.com/skyrimspecialedition/mods/20364)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Haptic Skyrim VR» 1.8.0 (Stormcrown, SoG, Tahrovin - Grit, Librum, Yggdrasil). Версию 1.7.3 из старых списков не брать: 1.8.0 переписан с нуля как чистый SKSE-плагин без ESP и скриптов.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); Skyrim VR Tools (#27782); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Старые версии Haptic Skyrim VR с ESP и скриптами (1.7.x) — удалить до установки 1.8.0
+- Порядок в MO2: Без особых правил. ISPVR, Magic Improvements — совместимы.
+- Настройки: Параметры задаются INI и через SKSE-интерфейс ChangeSetting(); имя INI неизвестно — смотреть в папке мода.
+- Проверка: В sksevr.log плагин загружен. Контроллеры вибрируют при натяжении лука, касте и ударе.
 - Заметка: Отдача в контроллеры от лука, магии и ударов.
 
 ### Seamless Arrow Nocking VR + Immersive Crossbow Reload VR — `rec` [#117254](https://www.nexusmods.com/skyrimspecialedition/mods/117254)
 - Также скачать: Crossbow Reload: https://www.nexusmods.com/skyrimspecialedition/mods/139152
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) «Seamless Arrow Nocking» 1.0.4 (#117254, 6 VR-листов). 2) «Immersive Crossbow Reload VR» 1.0.4 (#139152, 8 VR-листов). Ставить каждый как отдельный мод.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Skyrim VR Tools (#27782)
+- Порядок в MO2: Ниже Simple Realistic Archery VR. Pull Arrows VR — совместим.
+- Настройки: В INI Seamless Arrow Nocking есть опция запрета стрельбы при низкой выносливости; по желанию. Требования Crossbow Reload отдельно не проверены.
+- Проверка: В sksevr.log оба плагина загружены. Стрела накладывается на тетиву рукой без пауз; арбалет перезаряжается жестом.
 
 ### Magic Improvements for Skyrim VR — `rec` [#55751](https://www.nexusmods.com/skyrimspecialedition/mods/55751)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «MISVR» 1.2.0 — единственный, во всех 9 VR-листах.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Не вместе с: SpellBender VR (#164902) и Spell Auto-Aim VR (#119689) — перекрываются по прицеливанию заклинаний, подбирать вместе осторожно
+- Порядок в MO2: Без особых правил.
+- Настройки: INI в SKSE\Plugins (имя неизвестно). Исходники — GitHub adamhynek/misvr.
+- Проверка: В sksevr.log плагин загружен. Огненные шары и молнии ведут себя лучше, прицел заклинаний от руки.
 
 ### Lethal Unarmed VR — `opt` [#191124](https://www.nexusmods.com/skyrimspecialedition/mods/191124)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Основной файл «LethalUnarmedVR 3.0.0 FOMOD» (Yggdrasil VR, 2026-10-03). Автор Asterrath, метка AI Assisted.
+- Установщик: неизвестно — общие правила (в имени файла есть «FOMOD»; опции на странице не найдены, читать установщик).
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); HIGGS (#43930); VRIK Player Avatar (#23416); PLANCK (#66025)
+- Порядок в MO2: Ниже Physical Collision VR и Immersive Weapon Penetration VR. VRIK Closed Fist — рядом.
+- Настройки: Настройки по умолчанию. Хват за руку, бросок и удушение работают через HIGGS.
+- Проверка: В sksevr.log DLL загружена. Схватить врага за руку — можно тащить и бросать; рука на горле — удушение.
 - Заметка: Захваты: схватить за руку, бросить, придушить.
 
 ### VR Climbing — Aelove Ver — `opt` [#170321](https://www.nexusmods.com/skyrimspecialedition/mods/170321)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «VR Climbing - Aelove Version» 0.11.3 (Tahrovin - Grit и Yggdrasil VR, 2026-09-19). Оригинал «VR Climbing» (#168553, 0.11.0) НЕ ставить: форк самостоятельный.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); HIGGS (#43930); Skyrim VR Tools (#27782)
+- Не вместе с: VR Climbing (#168553) — оригинал; нужен один из двух; SkyClimb, SkyParkour, StepUpOnto, EVG Animated Traversal (плоский режим)
+- Группа «одно из»: `climbing`
+- Порядок в MO2: Ниже HIGGS.
+- Настройки: Доп. параметры (например, минимум выносливости для лазания, по умолчанию 75; 0 — отключить) — в INI мода; имя INI неизвестно (у оригинала VRClimbing.ini). Метка AI-generated.
+- Проверка: В sksevr.log плагин загружен. Скалы и уступы можно хватать контроллерами и подтягиваться.
 - Заметка: Форк VR Climbing с доп. настройками, свежие VR-сборки перешли на него. Ставить вместо оригинала 168553. Нужны HIGGS и Skyrim VR Tools. Метка AI-generated.
 
 ### Spellsiphon — `opt` [#26627](https://www.nexusmods.com/skyrimspecialedition/mods/26627)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Основной файл «Spellsiphon - Complete Edition» 5.28 (Tempus, FUS, Panda's, Yggdrasil). Версия 5.27 у SoG/Tahrovin; отдельный патч кинжальной анимации не нужен (он в Complete Edition). Файл «Book at Archmage Quarters» не нужен.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); Skyrim VR Tools (#27782)
+- Порядок в MO2: Без особых правил. ISPVR рекомендован как пара.
+- Порядок плагина: Обычный ESP — LOOT.
+- Настройки: Назначение кнопок — в игре (в FUS есть схема биндингов Spellsiphon). Мод работает и в VR, и в плоском режиме; для лука рекомендуют Simple Realistic Archery VR.
+- Проверка: Заклинания вызываются жестом, перерыв между кастами работает. Нет конфликта с ISPVR.
 - Заметка: Жестовая магия.
 
 ### To Your Face — `opt` [#24720](https://www.nexusmods.com/skyrimspecialedition/mods/24720)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: VR-файл: VR
+- Фаза 3 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Файл «To Your Face VR» 1.0f (Tempus, Stormcrown, Panda's, Librum, FUS, Yggdrasil). Файл «To Your Face SE» 1.0h (в Librum) НЕ брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Порядок в MO2: Без особых правил.
+- Порядок плагина: ESP — LOOT.
+- Настройки: Не требуется.
+- Проверка: Собеседник в диалоге поворачивается лицом к игроку.
 
 ### Sprint Jump VR — `opt` [#28354](https://www.nexusmods.com/skyrimspecialedition/mods/28354)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «SprintJumpVR» 2.0.2 (7 VR-листов). Не брать 1.x.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Не вместе с: Auto Sneak and Jump VR (#23649) — выбрать одну схему прыжка (отключить авто-прыжок там)
+- Порядок в MO2: Без особых правил.
+- Настройки: INI в SKSE\Plugins (имя неизвестно). Многократный прыжок включается там же.
+- Проверка: Прыжок во время бега работает. В sksevr.log нет ошибок плагина.
 
 ### Arctal's VRIK Tweaks — `rec` [#63663](https://www.nexusmods.com/skyrimspecialedition/mods/63663)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Arctals VRIK Tweaks» 2.0 (Panda's, Librum, FUS, Tempus, Yggdrasil). Варианты «Merged» (1.2) и 1.9 не брать. Русификация — отдельная страница #165797 (по желанию).
 - Установщик: неизвестно — общие правила
+- Требует: VRIK Player Avatar (#23416); Skyrim VR ESL Support (#106712) — плагин ESL
+- Не вместе с: Arctal's VRIK Tweaks - Merged (старый вариант)
+- Порядок в MO2: Ниже VRIK.
+- Порядок плагина: ESL-плагин — после VRIK.esp; LOOT. Не обновлять посреди сохранения со старой версии (ESL-сжатие).
+- Настройки: Ползунок NearDist убран: fNearDistance теперь в MCM VRIK. Остальное — MCM Arctal's Tweaks (быстрые жесты для заклинаний и криков, ragdoll).
+- Проверка: В MCM есть страница Arctal's VRIK Tweaks. В sksevr.log нет ошибок. Жесты работают.
 - Заметка: Быстрые жесты для заклинаний и криков, правка ragdoll, fNearDistance против мерцания снега. 8 VR-сборок, есть русификация.
 
 ### No Stagger Mod — `rec` [#16335](https://www.nexusmods.com/skyrimspecialedition/mods/16335)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Файл «NoStaggerMod v 1.0» — единственный, 9 VR-листов.
 - Установщик: неизвестно — общие правила
+- Порядок в MO2: Без особых правил.
+- Порядок плагина: ESP на 1 КБ — LOOT.
+- Настройки: Не требуется. Игрок перестаёт шататься от ударов — баланс сложности смещается.
+- Проверка: Удар по игроку не дёргает камеру.
 - Заметка: Убирает пошатывание игрока — в VR оно дёргает камеру и укачивает. Во всех 9 VR-сборках.
 
 ### Neutral VR Animations for VRIK — `opt` [#28831](https://www.nexusmods.com/skyrimspecialedition/mods/28831)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Файл «Neutral VR Animations for VRIK and PCEA2» 0.0.1 (FUS, Panda's, Tahrovin, Tempus, Yggdrasil). Единственный файл.
 - Установщик: неизвестно — общие правила
+- Требует: VRIK Player Avatar (#23416)
+- Порядок в MO2: Ниже VRIK и Open Animation Replacer.
+- Настройки: Содержит анимации: если в архиве есть папки FNIS/Nemesis_Engine, после установки запустить Pandora (группа behavior-engine). Неизвестно — проверить архив.
+- Проверка: Тело VRIK не принимает боевые стойки при ходьбе. После Pandora — без ошибок.
 - Заметка: Тело VRIK не принимает боевые стойки.
 
 ### SKSEVR Perk Extender — `opt` [#16330](https://www.nexusmods.com/skyrimspecialedition/mods/16330)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Файл «SKSEVR Perk Extender» 2.0 — единственный, 8 VR-листов.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Порядок в MO2: Содержит statsmenu.swf — он должен ПОБЕЖДАТЬ у UI-модов: ставить НИЖЕ Norden UI VR и SkyUI VR (нижний в списке MO2 имеет больший приоритет).
+- Настройки: Не требуется.
+- Проверка: Вход в дерево перков не вылетает, большие перк-моды открываются.
 - Заметка: Без него большие перк-моды вылетают при входе в дерево. Его statsmenu.swf не давать перезаписать.
 
 ### Smooth Carriage Ride VR + Im Walkin' Here VR — `opt` [#129594](https://www.nexusmods.com/skyrimspecialedition/mods/129594)
 - Также скачать: Im Walkin' Here: https://www.nexusmods.com/skyrimspecialedition/mods/39433
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) «SmoothCarriageRideVR» 0.5 (#129594, 5 VR-листов). 2) «ImWalkinHereVR» v0.2 BETA (#39433, 4 VR-листа). Ставить отдельными модами.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); VRIK Player Avatar (#23416) 0.8.4 и новее (иначе карета переворачивает вид)
+- Порядок в MO2: Ниже VRIK.
+- Настройки: Не требуется. Smooth Carriage Ride сглаживает только дрожание положения; Touring Carriages поддержан экспериментально.
+- Проверка: В карете камера не дёргается. Im Walkin' Here: NPC не толкают игрока.
 - Заметка: Комфорт: карета не трясёт камеру, NPC не сдвигают игрока толчками.
 
 ### No more werewolf hat — `opt` [#104975](https://www.nexusmods.com/skyrimspecialedition/mods/104975)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «No more werewolf hat» 1.0 (Librum VR, SoG, Tahrovin, Tahrovin - Grit). Только меш.
 - Установщик: неизвестно — общие правила
+- Не вместе с: Другие замены меша оборотня — не вместе
+- Порядок в MO2: Ниже модов тела/существ, которые меняют меш оборотня (победить должен этот).
+- Настройки: Не требуется.
+- Проверка: Голова оборотня не закрывает обзор.
 - Заметка: Голова вервольфа больше не закрывает обзор.
 
 ### VR Equip — `opt` [#83092](https://www.nexusmods.com/skyrimspecialedition/mods/83092)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «VR Equip» 1.3.2 (FUS, Panda's, Tempus, Yggdrasil).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); HIGGS (#43930); VRIK Player Avatar (#23416)
+- Порядок в MO2: Ниже HIGGS и VRIK. Instant Equip VR — рядом (парные моды).
+- Настройки: Для ног советуют Feet max height=60 и Feet width=40 (по странице).
+- Проверка: Поднести вещь к голове — одеть шлем, к торсу — броню, к ногам — обувь.
 - Заметка: Поднёс вещь к телу — надел, ко рту — съел.
 
 ### Auto Sneak and Jump VR — `opt` [#23649](https://www.nexusmods.com/skyrimspecialedition/mods/23649)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «Auto Sneak and Jump VR» 0.5.0 (6 VR-листов).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Не вместе с: Sprint Jump VR (#28354) — выбрать одну схему прыжка; Встроенный Physical Sneaking Skyrim VR — отключить в настройках игры (playroom)
+- Порядок в MO2: Без особых правил.
+- Настройки: В INI JumpThreshold (порог роста головы для прыжка); авто-прыжок можно ослабить там же. Известная жалоба: «залипание» приседа.
+- Проверка: Реальное приседание включает скрытность.
 - Заметка: Скрытность — когда реально приседаете, прыжок — когда подпрыгиваете. Со Sprint Jump VR выбрать одну схему.
 
 ### Spell Auto-Aim VR — `opt` [#119689](https://www.nexusmods.com/skyrimspecialedition/mods/119689)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «Spell Auto Aim VR» 1.0.1 (Tempus, Panda's, Tahrovin, FUS).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Не вместе с: SpellBender VR (#164902) — взаимоисключаются (автор SpellBender); Magic Improvements for Skyrim VR — частично дублирует прицеливание, подбирать силу
+- Порядок в MO2: Без особых правил.
+- Настройки: В INI подобрать силу автонаведения. DLL + конфиг, ESP нет.
+- Проверка: Заклинания слегка доводятся до цели.
 - Заметка: Мягкое автонаведение заклинаний. Не совместим со SpellBender VR.
 
 ### Durability VR + Immersive Smithing — `opt` [#76830](https://www.nexusmods.com/skyrimspecialedition/mods/76830)
 - Также скачать: Immersive Smithing: https://www.nexusmods.com/skyrimspecialedition/mods/72298
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) «Durability VR» 1.1.4 (Spirit of Grit, Tahrovin - Grit, 2025-11-09). 2) «Immersive Smithing» 1.0.5 (#72298; Panda's, SoG): HIGGS 1.5.8+, PLANCK 0.4.6+, Spell Wheel VR 1.3.0+, последний VRIK. Из страницы Immersive Smithing взять ещё «EmbersXD - Compatibility Patch» (у нас Embers XD).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); Spell Wheel VR (#47630) 1.4.12 и новее; HIGGS (#43930); PLANCK (#66025); VRIK Player Avatar (#23416); Weapon Throw VR (#31374) 1.3.14 и новее — если ставите
+- Порядок в MO2: Ниже Spell Wheel VR и Weapon Throw VR. Immersive Smithing — ниже Durability VR; EmbersXD Compatibility Patch — ниже Embers XD и Immersive Smithing.
+- Настройки: Износ и полоски на запястье настраиваются в MCM. «SIMM Compatible Smelter» — только если ставите SIMM (в манифесте нет).
+- Проверка: На запястье полоски износа. У наковальни можно починить и улучшить молотом. В sksevr.log нет ошибок.
 - Заметка: Износ снаряжения с полосками на запястье и физическая кузня с молотом.
 
 ### PLANCK VR Stability Patch — `opt` [#188233](https://www.nexusmods.com/skyrimspecialedition/mods/188233)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «PLANCK VR Stability Patch» 1.3.1 (Tahrovin - Grit, 2026-09-21; Nexus-страница 188233). На GitHub уже вышли 1.3.2 (21.09, pre-release: давал нестабильность VRIK) и 1.3.3 (23.09, pre-release, исправление); брать 1.3.1, если на Nexus нет более нового стабильного файла.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); PLANCK (#66025) ровно 0.8.1
+- Не вместе с: PLANCK других версий (0.7.x и ранее)
+- Порядок в MO2: Ниже PLANCK; перезаписывает activeragdoll.dll (разрешить замену).
+- Настройки: В INI PLANCK секция [Settings]: enableWeaponNodeRebinding=true (false — отключить), rebindUnobservedWeaponNodes=false; в 1.3.3 добавлен enableHiggsBodyReportingQualityRefresh. Настройки не перечитываются на лету. При сбое приложить activeragdoll.log.
+- Проверка: В activeragdoll.log есть строка версии патча. Вылетов PLANCK при ударах по NPC нет.
 - Заметка: Неофициальная пересборка DLL PLANCK 0.8.1. Ставить, если PLANCK вылетает. Перезаписывает activeragdoll.dll.
 
 ### VRIK Closed Fist — `opt` [#182410](https://www.nexusmods.com/skyrimspecialedition/mods/182410)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «VRIK Closed Fist» 1.1 (страница), в списках: Tahrovin 1, SoG и Grit без номера. Берите последнюю.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VRIK Player Avatar (#23416)
+- Не вместе с: Опция ShowFistWhileUnarmed в VRIK — не включать одновременно
+- Порядок в MO2: Ниже VRIK. Lethal Unarmed VR — рядом.
+- Настройки: Работает через VRIK API, настроек нет.
+- Проверка: При обнажённых кулаках руки сжимаются в кулак.
 - Заметка: Свободные руки сжимаются в кулак. Пара к Lethal Unarmed VR.
 
 ### Steeds of Ultima — VR Mounted Combat — `opt` [#81220](https://www.nexusmods.com/skyrimspecialedition/mods/81220)
-- Фаза 3 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 3 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Steeds of Ultima - VR» 1.1.2 (Tempus VR, Librum VR, 2025-08). Не брать 1.1.0–1.1.1.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); Pandora Behaviour Engine+ (#133232) (или Nemesis); Spell Wheel VR (#47630) 1.4.2 и новее; Instant Equip VR (#44571); VRIK Player Avatar (#23416) 0.8.2 и новее
+- Не вместе с: HorsePower, Skyrim Mounted Movesets (плоский режим)
+- Порядок в MO2: Ниже Spell Wheel VR и Instant Equip VR.
+- Настройки: После установки обязательно запустить Pandora из MO2 (нужен Nemesis-патч поведений).
+- Проверка: После Pandora без ошибок. С седла работают магия, крики, посохи.
 - Заметка: Магия, крики и посохи с седла. Nemesis-патч собрать через Pandora.
 
 ## 06 Хайтек 2026
 
 ### Smooth Terrain — `rec` [#186875](https://www.nexusmods.com/skyrimspecialedition/mods/186875)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «Smooth Terrain» 0.6.0 (Yggdrasil VR, 2026-08-27). Один DLL для SE/AE/VR.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) свежая (в Offsets есть VR 1.4.15)
+- Не вместе с: Dynamic Terrain Deformation (только SE/AE, в списке «не ставить»)
+- Порядок в MO2: Ниже Open Shaders. DynamicShader — DynamicSnow — ниже него.
+- Настройки: SKSE\Plugins\SmoothTerrain.ini: iSubdivisions=2 (0–3, 4×/16×/64× треугольников), fMaxRise=20.0, iSmoothedQuads=3, iGradientStep=2. Для VR начать с умолчаний; если fpsVR показывает перегрузку — iSubdivisions=1 и iSmoothedQuads=2. Метка AI Assisted.
+- Проверка: В sksevr.log плагин загружен. Холмы без углов, коллизия не изменилась. Время кадра в Вайтране и Ривервуде в норме.
 - Заметка: Ваш пример. На лету дробит меши ландшафта вокруг игрока: холмы без углов, коллизия и сейвы не меняются. Одна DLL на SE/AE/VR (видно в исходниках), стоит в Yggdrasil VR рядом с Open Shaders. Метка AI Assisted. Начните с настроек по умолчанию и сверьте время кадра.
 
 ### Helios + MMSF, Luma Utility, XEMI Utility — `opt` [#181533](https://www.nexusmods.com/skyrimspecialedition/mods/181533)
 - Также скачать: MMSF: https://www.nexusmods.com/skyrimspecialedition/mods/183073; Luma: https://www.nexusmods.com/skyrimspecialedition/mods/177961; XEMI: https://www.nexusmods.com/skyrimspecialedition/mods/159084
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Четыре архива одной связкой (Stormcrown VR, июль 2026): «Helios» 1.01 (#181533), «MMSF» 1.1.0.0 (#183073), «Luma Utility» 1.7.0.0 (#177961), «XEMI Util» 1.6.0.0 (#159084). Luma и MMSF 2.x НЕ брать: Helios 1.01 с ними несовместим (использует удалённую Papyrus-функцию).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Regional Sounds Expansion + Reverb Interior Sounds Expansion (#77829) — если у погоды нет звуков интерьера
+- Не вместе с: Luma Utility 2.x и MMSF 2.x; DIAL (#149920) — предшественник; Region Weather - Engine Fix (#191323) — автор признаёт несовместимость
+- Порядок в MO2: Luma, MMSF, XEMI — любой порядок (у Luma порядок не важен); Helios — ниже Lux и CS Light, чтобы подчинить их интерьерный свет погоде.
+- Порядок плагина: Helios.esp — после Lux и CS Light; LOOT.
+- Настройки: Пары версий строго: MMSF 1.1.0.0 с Luma 1.7.0.0; смешивание версий даёт вылеты (API MMSF переписан в 2.0). В Helios 1.01 своей DLL нет.
+- Проверка: В sksevr.log загружены Luma, MMSF, XEMI. В интерьере с окнами свет меняется с погодой и временем суток.
 - Заметка: Ваш пример, преемник DIAL: свет в интерьерах с окнами следует за погодой и временем суток. Набор версий как в Stormcrown VR: Helios 1.01, Luma 1.7, MMSF 1.1, XEMI 1.6. Luma и MMSF 2.x с ним несовместимы. С интерьерным светом Lux связку никто не проверял.
 
 ### Inventory Selfie VR — Redux — `rec` [#190704](https://www.nexusmods.com/skyrimspecialedition/mods/190704)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Inventory Selfie VR - Redux» 1.3 (исправляет вылет с HDT-SMP; Tahrovin - Grit ставит 1.2).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); VRIK Player Avatar (#23416) 0.8.7 и новее
+- Не вместе с: View Yourself VR (#16809) — клон; Show Player In Inventory (плоский режим)
+- Порядок в MO2: Ниже VRIK.
+- Настройки: Работает через настройку VRIK showBodyInMenu; настроек в Redux нет.
+- Проверка: В инвентаре виден настоящий аватар VRIK, а не клон.
 - Заметка: VR-замена Show Player In Inventory: в меню видно настоящее тело VRIK, без клона. Нужен VRIK 0.8.7+. Берите 1.3 — в ней исправлен вылет с HDT-SMP. Стоит в Tahrovin — Grit. Со старым View Yourself VR вместе не ставить.
 
 ### Pull Arrows VR — Immersive Extraction — `rec` [#169833](https://www.nexusmods.com/skyrimspecialedition/mods/169833)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Pull Arrows VR» 2.0.0 (Spirit of Grit, Tahrovin - Grit, 2026-07-12). 1.2.0 (Panda's) не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); HIGGS (#43930); Weapon Throw VR (#31374) — последняя версия; SkyUI VR (#91535)
+- Порядок в MO2: Ниже Weapon Throw VR, HIGGS и Broken Feathers.
+- Настройки: Настройки в MCM (шанс поломки стрелы при вытаскивании). Запускать через sksevr_loader.exe.
+- Проверка: Стрела или болт, вытаскиваемые рукой из тела, с сопротивлением, звуком и кровью.
 - Заметка: Стрелы, болты и брошенное оружие вытаскиваются из тел рукой: с сопротивлением, звуком и кровью. Нужны HIGGS, Weapon Throw VR и Broken Feathers. Есть в трёх VR-сборках.
 
 ### Cold Breath NG — `rec` [#174838](https://www.nexusmods.com/skyrimspecialedition/mods/174838)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Основной файл «Cold Breath NG» последней версии (SE-листы берут 1.8). Автор заявляет поддержку 1.5.97/1.6/VR.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Wet and Cold Breath и другие скриптовые моды пара изо рта — убрать
+- Порядок в MO2: Без особых правил.
+- Настройки: Не требуется.
+- Проверка: В sksevr.log нет ошибок. У NPC в Винтерхолде идёт пар изо рта.
 - Заметка: Пар изо рта на холоде у игрока, NPC и существ, без скриптов. Автор прямо пишет «для 1.5.97/1.6/VR». Старые скриптовые моды пара убрать. Проверка: у NPC в Винтерхолде идёт пар, в sksevr.log нет ошибок.
 
 ### Interactive Waters — VR (beta) — `opt` [#166560](https://www.nexusmods.com/skyrimspecialedition/mods/166560)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Interactive Waters - VR» (в VR-листах — «Interactive Water VR» 1.2.2.1; на странице уже 1.3.1). Брать последний; при проблемах — 1.2.2.1 (Librum VR, Panda's Sovngarde).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Ниже воды Open Shaders / Splashes of Skyrim VR.
+- Настройки: В бета-версии мод не включается на новой игре: загрузить сохранение. Проверить вместе с Splashes of Skyrim VR и водой Open Shaders.
+- Проверка: Рука в воде даёт рябь, волны и брызги.
 - Заметка: Руки поднимают на воде рябь, волны и брызги, эффект зависит от скорости и силы удара. Только VR, стоит в Librum VR и Panda's Sovngarde. Бета.
 
 ### Immersive Harvesting VR — `opt` [#186754](https://www.nexusmods.com/skyrimspecialedition/mods/186754)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Immersive Harvesting» 1.5.23 (Yggdrasil VR, 2026-09-19).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) 0.194 и новее; HIGGS (#43930)
+- Не вместе с: Smart Harvest NG AutoLoot (#37091); IHarvest (#27789); Dynamic Looting and Harvesting Animations; Любые автосборы
+- Порядок в MO2: Ниже HIGGS и Interactive Activators VR.
+- Настройки: Настройки по умолчанию. Метка AI-Generated Content.
+- Проверка: Растения срываются рукой через HIGGS, ингредиент сразу в ладони.
 - Заметка: Растения срываются рукой через HIGGS, ингредиент сразу в ладони. Стоит в Yggdrasil VR. Метка AI-Generated. С автосбором не совмещать.
 
 ### ISPVR — Immersive Spellcasting VR — `opt` [#164183](https://www.nexusmods.com/skyrimspecialedition/mods/164183)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «ISPVR - Immersive Spellcasting VR» 1.1.1 (Panda's Sovngarde). Опциональный патч HIGGS — по желанию.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); HIGGS (#43930); VRIK Player Avatar (#23416)
+- Не вместе с: Open Hand Casting в VRIK (выключить в MCM VRIK)
+- Порядок в MO2: Ниже VRIK и MISVR.
+- Порядок плагина: ESP — включить в plugins.txt; LOOT.
+- Настройки: В MCM VRIK выключить Open Hand Casting. Для контроллеров без ремней выключить опцию Immersive Input. MCM — SkyUI VR (по желанию).
+- Проверка: Сжал кисть — заряд, вибрация — готово, раскрыл — выстрел.
 - Заметка: Магия кистью: сжал — заряд, вибрация — готово, раскрыл ладонь — выстрел. В VRIK выключить Open Hand Casting. Стоит в Panda's Sovngarde.
 
 ### Steeds of Omega VR — NPC Mounted Combat — `opt` [#169221](https://www.nexusmods.com/skyrimspecialedition/mods/169221)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Steeds of Omega - VR (Mounted NPC combat)» 0.9.5 beta (Tempus VR).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: HorsePower, Skyrim Mounted Movesets (плоский режим)
+- Порядок в MO2: Ниже Steeds of Ultima VR.
+- Настройки: Бета. Рекомендуются Steeds of Ultima VR, Glaive Danger, Hold Riders, Horsemen Torch Wield Fix (для последнего нужен Pandora).
+- Проверка: Конные NPC в бою атакуют, отходят и не падают с лошадей.
 - Заметка: Конные NPC в бою атакуют, отходят и не падают с лошадей; всадника можно стащить через HIGGS. Пара к Steeds of Ultima VR. Стоит в Tempus VR.
 
 ### Dynamic Footprints SKSE — `try` [#175254](https://www.nexusmods.com/skyrimspecialedition/mods/175254)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Dynamic Footprints Skse BASE» v2.3 (LoreRim, Wunduniik, CSVP). Файлы «NMN DynamicFootprints CPM Vanaheimr» — пресеты текстур, не нужны. Аддон Beast Race Expansion (#177496) — по желанию.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Keyword Item Distributor (#55728) — необязательно
+- Не вместе с: Footprints + SPID for Footprints (#3808); DynamicShader — DynamicSnow (дублируют следы)
+- Группа «одно из»: `footprints`
+- Порядок в MO2: Ниже Footprints-модов, если оставите их ненадолго для проверки.
+- Настройки: Автор: «рассчитан на SE, AE и VR, VR проверить не могу», есть отзыв о работе в VR.
+- Проверка: В sksevr.log строка о загрузке DynamicFootprints без ошибок. По снегу у Виндхельма остаются следы игрока и NPC.
 - Заметка: Работающая в VR часть идеи Dynamic Terrain Deformation: следы игрока, NPC и существ на снегу, пепле и песке. Автор: «рассчитан на SE, AE и VR, VR проверить не могу», есть отзыв о работе в VR. Вместо старых Footprints, не вместе.
 
 ### DynamicShader — DynamicSnow — `try` [#189713](https://www.nexusmods.com/skyrimspecialedition/mods/189713)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Релиз «DynamicSnow-v630» (2026-08-30), плагин DynamicSnow.dll. Нужен ещё DynamicShader Core (DynamicShader.dll).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Smooth Terrain (#186875)
+- Не вместе с: Dynamic Footprints SKSE (#175254); Фича динамического снега Community Shaders / Open Shaders
+- Группа «одно из»: `snow-deformation`
+- Порядок в MO2: Порядок: Smooth Terrain → DynamicShader Core → DynamicSnow (нижний выше по приоритету).
+- Настройки: SKSE\Plugins\DynamicSnow.ini, [General] MaxFootprints=100–2000 (по умолчанию 400); для VR начать со 100. Перезапуск игры для применения. README заявляет только SE/AE, VR не подтверждён: пробовать на отдельном сохранении.
+- Проверка: В sksevr.log обе DLL (DynamicShader и DynamicSnow) загружены. DynamicSnow.log не пуст. В снегу у Виндхельма остаются борозды.
 - Заметка: Настоящая деформация вершин ландшафта поверх Smooth Terrain: колеи в снегу, песке и грязи. В README только SE/AE, VR не подтверждён. Только для эксперимента на отдельном сохранении, не вместе с Dynamic Footprints.
 
 ### XPMF — Extended Projected Materials Framework — `try` [#192698](https://www.nexusmods.com/skyrimspecialedition/mods/192698)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «XPMF» 0.7.0 (Morning Star, 2026-10-03). Профили — JSON в Data\SKSE\Plugins\XPMF\: snow.json, snow_pbr.json, ash.json, ash_pbr.json.
+- Установщик: неизвестно — общие правила (в пакете 4 профиля; оставить пары под тип текстур ландшафта: *_pbr — для PBR).
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) 0.266.0 и новее
+- Порядок в MO2: Ниже Seasons of Skyrim. Simplicity of Snow Sulfur Ash Moss (#192910) — ниже XPMF.
+- Настройки: Профили: snow / ash и их _pbr-варианты — выбрать по текстурам (текстуры — поздний этап, вернуться к выбору). Версия 0.x.
+- Проверка: В sksevr.log XPMF загружен. Под крышами и укрытиями чисто, на открытых местах снег по текстуре земли.
 - Заметка: Проецируемый снег и пепел на объектах: текстура как у земли, под крышами чисто, учитывает Seasons of Skyrim. VR заявлен, нужен VR Address Library 0.266+. Версия 0.x.
 
 ### Frostwalker — `try` [#184628](https://www.nexusmods.com/skyrimspecialedition/mods/184628)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Frostwalker» 2.2 (True North, 2026-09-23).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Без особых правил.
+- Настройки: Настройки — SKSE\Plugins\Frostwalker.ini (плагин сам его записывает). Метка AI-assisted не подтверждена.
+- Проверка: Морозное заклинание в воду создаёт льдины, по ним можно идти.
 - Заметка: Морозная магия превращает воду в льдины, по которым можно идти. В исходниках есть отдельные VR-адреса. Проверка: заморозить воду морозным заклинанием.
 
 ### Bobbing Framework — `try` [#186081](https://www.nexusmods.com/skyrimspecialedition/mods/186081)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Основной файл «Bobbing Framework» последней версии. VR-листов нет.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); SKSE Menu Framework (#120352); ImGui VR Helper (#183466)
+- Порядок в MO2: Ставить вместе с Dynamic Wind (world-177023) — ниже него.
+- Настройки: Меню настроек — через SKSE Menu Framework. В VR автор отключил хук отрисовки из-за вылетов: эффект может быть слабее.
+- Проверка: В sksevr.log нет ошибок. Лодки у Рифтена покачиваются.
 - Заметка: Лодки и плавучие предметы покачиваются на воде без замены мешей. В VR автор отключил хук отрисовки из-за вылетов. Проверка: лодки у Рифтена.
 
 ### Immersive NPC Dialogue — VR — `try` [#184804](https://www.nexusmods.com/skyrimspecialedition/mods/184804)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Immersive NPC Dialogue - VR» 1.1 (автор TheMachinaGod, июль 2026). Метка AI-Generated.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); HIGGS (#43930); VRIK Player Avatar (#23416)
+- Порядок в MO2: Ниже VRIK и HIGGS.
+- Настройки: Рекомендуются Dialogue Movement Enabler VR и VRIK Closed Fist (чтобы взмах не стал ударом). Меню диалога переносится на запястье; подсказки «Talk to» можно скрыть.
+- Проверка: Взмах руки в сторону NPC начинает диалог; варианты на запястье.
 - Заметка: Разговор начинается взмахом руки в сторону NPC, варианты ответа — на запястье. Только SKSEVR, автор Interactive Waters. Ни в одной сборке пока нет.
 
 ### Palm Compass VR — `try` [#189452](https://www.nexusmods.com/skyrimspecialedition/mods/189452)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «Palm Compass VR» (версия 2 и новее). Метка AI-Generated.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); HIGGS (#43930); VRIK Player Avatar (#23416); SkyUI VR (#91535)
+- Не вместе с: VR HUD UI Reworked (#172476) и другие моды, двигающие узел компаса
+- Порядок в MO2: Ниже VRIK.
+- Настройки: В MCM VRIK включить «right palm up for compass»; в настройках Skyrim VR установить Compass = low. Свой MCM — позиция и масштаб.
+- Проверка: Раскрытая правая ладонь вверх показывает компас над ладонью.
 - Заметка: Компас уходит с HUD на ладонь: подняли раскрытую руку — компас над ней. Нужны VRIK и HIGGS. Метка AI-Generated.
 
 ### Horizon Fix — `opt` [#184607](https://www.nexusmods.com/skyrimspecialedition/mods/184607)
-- Фаза 8 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 8 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Основной файл «Horizon Fix» 0.5.1 или новее (Winds of the North, Nordic Souls PBR, 2026-08-07). Файл «Horizon Fix AE» 0.4.1 не брать. Опционально «Horizon Fix Exponential Height Fog Config» под фичу Open Shaders.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Ниже Open Shaders.
+- Настройки: SKSE\Plugins\HorizonFix.ini: fWaterSkirtRadius=2000000.0, fHorizonBlendDegrees=1.5, sWorldSpaceBlocklist (по умолчанию города и Долина Фалмер). В Open Shaders есть одноимённая фича-компаньон: не включать дважды, проверить в меню END. В VR работает урезанно (подбор цвета по кадру выключен). Использовался ИИ при разработке.
+- Проверка: В sksevr.log плагин загружен. Нет резкой полосы воды у горизонта.
 - Заметка: Убирает разрыв на горизонте: полоса перехода к небу и водная «юбка» до горизонта. В коде есть отдельная VR-ветка, в Open Shaders — фича-компаньон. В VR работает урезанно.
 
 ## 07 Интерфейс
 
 ### moreHUD VR — `rec` [#33215](https://www.nexusmods.com/skyrimspecialedition/mods/33215)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «moreHUD VR» 1.1.0 (9 VR-листов). «Debug Symbols» не нужны.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457) 2.0.12+; VR Address Library for SKSEVR (#58101) (с 1.1.0); SkyUI VR (#91535) — необязательно, для MCM
+- Порядок в MO2: Ниже SkyUI VR. Norden UI VR — своя заплатка для moreHUD VR.
+- Порядок плагина: ESP из архива — LOOT.
+- Настройки: Настройки в MCM. Пара moreHUD Inventory Edition VR (#59142) — по желанию, нужен SkyUI VR.
+- Проверка: Над целью видны HUD-показатели, в sksevr.log нет ошибок.
 
 ### QuickLoot IE — `rec` [#120075](https://www.nexusmods.com/skyrimspecialedition/mods/120075)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «QuickLoot IE - A QuickLoot EE Fork» 4.1.3 (Stormcrown VR, Yggdrasil VR, 2026-09-17). Не брать 3.x из SE-листов.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); SkyUI VR (#91535); PapyrusUtil VR (#13048); Inventory Interface Information Injector (#85702) — необязательно
+- Не вместе с: Quickloot VR (#102094); QuickLoot EE / QuickLoot RE
+- Порядок в MO2: Ниже I4 и SkyUI VR.
+- Настройки: Настройки в MCM (SkyUI VR). Поддержка VR заявлена как экспериментальная с 4.1.0, но стоит в Yggdrasil VR и Stormcrown VR.
+- Проверка: В sksevr.log плагин загружен. При наведении на труп или сундук появляется окно быстрого лута.
 - Заметка: Быстрый лут. Работает в VR — стоит в Yggdrasil VR и Stormcrown VR.
 
 ### VR Console Selection Fix — `rec` [#140752](https://www.nexusmods.com/skyrimspecialedition/mods/140752)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «Console Selection Fix» 1.2.1 (7 VR-листов).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Без особых правил.
+- Настройки: Не требуется.
+- Проверка: Консольная команда выбора цели работает мышью. В sksevr.log нет ошибок.
 
 ### No Menu Fade Out VR — `opt` [#185197](https://www.nexusmods.com/skyrimspecialedition/mods/185197)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «No Menu Fade Out VR» 1.0.2 (Stormcrown, SoG, Tahrovin - Grit, Yggdrasil).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); Dialogue Movement Enabler VR (#59816)
+- Порядок в MO2: Ниже Dialogue Movement Enabler VR.
+- Настройки: NoMenuFadeOutVR.ini в SKSE\Plugins.
+- Проверка: Меню диалога не гаснет.
 
 ### Norden UI — VR Edition — `opt` [#169537](https://www.nexusmods.com/skyrimspecialedition/mods/169537)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 4 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файлы «Norden UI VR Edition» 1.2 (Tempus VR) и заплатки «PATCH - moreHUD VR», «PATCH - UIextensions», «PATCH - SkyUI Weapons Pack» (по установленным модам).
+- Установщик: неизвестно — общие правила. По описанию Nexus файлы кладутся поверх SkyUI VR с перезаписью (в MO2 — мод ниже SkyUI VR).
+- Требует: SkyUI VR (#91535); Inventory Interface Information Injector (#85702)
+- Не вместе с: Edge UI - VR Edition (#168702) — держать выключенным; Clear HUD VR + Clean Menu, Minimal Enemy Healthbar VR — конфликт по HUD-файлам
+- Порядок в MO2: Ниже SkyUI VR, выше SKSEVR Perk Extender (его statsmenu.swf должен победить). Заплатки — ниже Norden. COCKS — проверить меню крафта.
+- Настройки: Рекомендуются SkyUI Colored Category Icons и Colorful Map Markers VR (в манифесте нет).
+- Проверка: Меню инвентаря в стиле Norden; в sksevr.log нет ошибок.
 - Заметка: Тема интерфейса.
 
 ### Essential Favorites VR + Favorite Misc Items — `rec` [#59554](https://www.nexusmods.com/skyrimspecialedition/mods/59554)
 - Также скачать: Favorite Misc Items: https://www.nexusmods.com/skyrimspecialedition/mods/42750
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) «Essential Favorites VR» 2.2.0 (6 VR-листов). 2) «Favorite Misc Items VR» 3.5 (Tempus, SoG, Grit) — версия 4.0.0 у Librum VR под вопросом.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) 0.24.0 и новее; SkyUI VR (#91535)
+- Не вместе с: Essential Favorites (#42997) и Support Equipped Items — базовые SE-файлы не ставить
+- Порядок в MO2: Ниже SkyUI VR.
+- Настройки: Favorite Misc Items добавляет в Избранное факелы и кирки.
+- Проверка: Вещь из Избранного нельзя продать, выбросить или разобрать.
 - Заметка: Избранное нельзя случайно продать или выронить — с HIGGS это частая беда. Favorite Misc Items добавляет в Избранное факелы и кирки, VR-файл.
 
 ### VR Menu Mouse Fix — `opt` [#33414](https://www.nexusmods.com/skyrimspecialedition/mods/33414)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Файл «Menu Mouse Fix» 1.6.0 (7 VR-листов).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); Skyrim VR Tools (#27782); SkyUI VR (#91535)
+- Порядок в MO2: Ниже SkyUI VR.
+- Настройки: Кнопка клика по умолчанию — Trigger. Stable Hands — необязательно.
+- Проверка: Курсор от контроллера в MCM, поиске SkyUI, назначении клавиш.
 - Заметка: Курсор от контроллера в MCM, поиске SkyUI, назначении клавиш.
 
 ### Crafting Categories for SkyUI VR (COCKS) — `opt` [#81409](https://www.nexusmods.com/skyrimspecialedition/mods/81409)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: VR-файл: VR
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Файл «Crafting Categories for SkyUI VR» 1.1.1 (страница 81409, VR-файл от 23.04.2024). Основной файл 1.2.0 — SE, не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SkyUI VR (#91535)
+- Не вместе с: Crafting Categories for SkyUI (SE-файл)
+- Порядок в MO2: Ниже SkyUI VR; с Norden UI VR — проверить меню крафта.
+- Настройки: Без настроек.
+- Проверка: В кузнице категории вместо одного длинного списка.
 - Заметка: Категории в меню кузницы вместо одного длинного списка.
 
 ### Floating Subtitles VR — `opt` [#183714](https://www.nexusmods.com/skyrimspecialedition/mods/183714)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) «Floating Subtitles» 3.3.4 (#154424, Skyrim Unification Project — 3.3.4; Spirit of Grit — 3.3.3). 2) «Floating Subtitles VR» 3.3.4 (#183714) поверх основного — та же мажорная версия.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) 0.230.0 и новее; ImGui VR Helper (#183466) 1.5.1 и новее
+- Не вместе с: Subtitles VR (#131015); Fuz Ro D-oh — не нужен
+- Группа «одно из»: `subtitles`
+- Порядок в MO2: VR-мод — ниже основного, чтобы перезаписать его файлы. ImGui VR Helper — выше (в сепараторе фреймворков).
+- Настройки: Оба архива нужны. В Spirit of Grit рядом стоит imGui Icons (#114790) — для SMF/Floating Subtitles проверить требования (у SKSE Menu Framework imGui Icons указан обязательным).
+- Проверка: В sksevr.log оба плагина загружены. Субтитры висят над говорящим NPC.
 - Заметка: Субтитры висят над говорящим NPC. Нужен ImGui VR Helper. Метка AI-Generated.
 
 ### Floating Damage NG — `opt` [#184159](https://www.nexusmods.com/skyrimspecialedition/mods/184159)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Основной файл «Floating Damage NG» 1.4.0 (Spirit of Grit, Tahrovin - Grit).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) 0.230.0 и новее; ImGui VR Helper (#183466) 1.5.4 и новее; SKSE Menu Framework (#120352) — необязательно
+- Не вместе с: Floating Damage Numbers NG (#190796); Modern Floating Damage; Floating Damage (SE)
+- Порядок в MO2: Ниже ImGui VR Helper.
+- Настройки: Data\SKSE\Plugins\FloatingDamageNG.ini (фильтры, цвета, стиль). Без ImGui VR Helper цифры в VR не показываются. Игрок видит урон в метре перед собой на высоте груди.
+- Проверка: Число урона висит в воздухе у цели. Лог FloatingDamageNG-combat.log создаётся рядом с логами SKSE.
 - Заметка: Числа урона висят в 3D у цели. Нужен ImGui VR Helper 1.5.4+.
 
 ### Clear HUD VR + Clean Menu — `opt` [#49657](https://www.nexusmods.com/skyrimspecialedition/mods/49657)
 - Также скачать: Clean Menu: https://www.nexusmods.com/skyrimspecialedition/mods/53524
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 4 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) «Clear HUD VR» 1.0.0 (8 VR-листов). 2) «Clean Menu» 1.0 (#53524). Из страницы Clean Menu НЕ брать файл «Unobtrusive HUD» (дублирует Clear HUD).
+- Установщик: FOMOD есть у Clear HUD VR (выбор скрываемых элементов HUD); названия опций неизвестны — читать установщик. Скрывать: полосы здоровья, магии и запаса сил, счётчик стрел.
+- Не вместе с: Unobtrusive HUD (#53524, файл); Less HUD VR; VR HUD UI Reworked (#172476)
+- Группа «одно из»: `hud-clean`
+- Порядок в MO2: Ниже moreHUD VR и Norden UI VR; HUD-файл у них общий, побеждает нижний.
+- Настройки: Не требуется.
+- Проверка: HUD чист, в sksevr.log нет ошибок.
 - Заметка: Чистый HUD и главное меню. Unobtrusive HUD не нужен — дублирует Clear HUD.
 
 ### Minimal Enemy Healthbar VR — `opt` [#17812](https://www.nexusmods.com/skyrimspecialedition/mods/17812)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «No Enemybar and no Names» 0.7 (Tempus, Panda's, Librum, FUS). Варианты на странице: «Enemy Healthbar Red with Names», «Enemy Healthbar Red without Names».
 - Установщик: неизвестно — общие правила
+- Порядок в MO2: Ниже Clear HUD VR и Norden UI VR; HUD-файл общий.
+- Настройки: Не требуется.
+- Проверка: Нет полоски здоровья врага.
 
 ### Dynamic Location Pop-ups (VR) — `opt` [#155978](https://www.nexusmods.com/skyrimspecialedition/mods/155978)
 - Также скачать: основной: https://www.nexusmods.com/skyrimspecialedition/mods/153122
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) «Dynamic Location Pop-ups» 1.0.1 (#153122). 2) «Dynamic Location Pop-ups VR» 1.0.1 (#155978) поверх основного (Tempus Maledictum VR ставит оба).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101) 0.185.0 и новее
+- Порядок в MO2: VR-файл — ниже основного.
+- Настройки: Настройки в INI основного мода (SKSE\Plugins).
+- Проверка: При входе в локацию появляется её название.
 - Заметка: Название локации при каждом входе.
 
 ### RacemenuVR — `opt` [#156898](https://www.nexusmods.com/skyrimspecialedition/mods/156898)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной файл «RacemenuVR» 0.5 (#156898; Spirit of Grit, Tahrovin - Grit, Tahrovin, Librum VR) поверх RaceMenu Anniversary Edition 0.4.19.16 (те же списки).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); SkyUI VR (#91535)
+- Не вместе с: RaceMenu VR 2 (#192158); RaceMenu VR Layout Fix
+- Группа «одно из»: `racemenu`
+- Порядок в MO2: Ниже RaceMenu; он перезаписывает часть файлов. RaceMenu VR Position Tweaks (#174652) — ниже и требует RacemenuVR.
+- Настройки: Редактор персонажа открывается в VR; расположение — Position Tweaks по желанию.
+- Проверка: В sksevr.log RaceMenu загружен. В начале игры открывается редактор персонажа.
 - Заметка: Редактор персонажа. Проверенный вариант из 4 VR-сборок.
 
 ### RaceMenu VR 2 — `try` [#192158](https://www.nexusmods.com/skyrimspecialedition/mods/192158)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Файл «RaceMenu VR 2» (бета, номера 0.1.x). Основа — RaceMenu SE 0.4.20.0 с оригинальными BSA, ESP и скриптами (не пакет LE).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457) 2.0.12; VR Address Library for SKSEVR (#58101); SkyUI VR (#91535)
+- Не вместе с: RacemenuVR (#156898); RaceMenu VR Layout Fix; RaceMenu VR Position Tweaks (#174652)
+- Группа «одно из»: `racemenu`
+- Порядок в MO2: Ниже RaceMenu (SE): его skee64.dll должен победить; сохранить пользовательский INI.
+- Настройки: Только VR 1.4.15. Бета; в листах нет. Новые функции: стабильный вид лица, Sculpt с undo, своя клавиатура.
+- Проверка: Редактор персонажа открывается; в sksevr.log нет ошибок skee64.
 - Заметка: Новая надстройка: стабильный вид лица, Sculpt с undo, своя клавиатура. Бета, вместо RacemenuVR.
 
 ### I5 — Information Injector Improved — `try` [#192976](https://www.nexusmods.com/skyrimspecialedition/mods/192976)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «Inventory Interface Information Injector Improved» 0.4.0 (04.10.2026); VR включён с 0.3.0.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); SkyUI VR (#91535); Inventory Interface Information Injector (#85702) — обязателен
+- Порядок в MO2: Ниже I4.
+- Настройки: Консольные команды: i5 status, i5 debug on|off, i5 cache purge. Кэш в co-save.
+- Проверка: В sksevr.log плагин загружен. Меню инвентаря не тормозит при обновлениях.
 - Заметка: Преемник I4: меню не тормозит при каждом обновлении. VR включён в 0.3. Если I4 не вылетает — оставить I4.
 
 ## 08 Звук
 
 ### Audio Overhaul for Skyrim — `rec` [#12466](https://www.nexusmods.com/skyrimspecialedition/mods/12466)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Audio Overhaul for Skyrim 4.1.3, основной файл со SKSE (Audio Overhaul for Skyrim (4.1.3)-12466-4-1-3-1683940246.7z; Stormcrown VR, Librum VR). Файл «Non-SKSE - Epic Game Store - Game Pass» не брать. Tempus VR держит старую 3.4.3 — не брать.
 - Установщик: неизвестно — общие правила
+- Требует: Sound Record Distributor (#77815); Engine Fixes VR (#62089); SKSEVR (#30457)
+- Не вместе с: Immersive Sounds Compendium (audio-523) вместо AOS — выбрать одно, либо оба только с патчем AOS–ISC (#36761)
+- Группа «одно из»: `audio-stack`
+- Порядок в MO2: Раздел «08 Звук», первым в стеке (самый низкий приоритет среди звука). Ниже по порядку: RSE, RISE, ASIF.
+- Порядок плагина: После Sound Record Distributor; остальное по LOOT.
+- Настройки: Выбор стека: по умолчанию AOS + RSE + RISE + ASIF (как Stormcrown VR). Требует рабочий SRD и Engine Fixes VR (регулировка громкости). Версию 4.1.3 не смешивать со старой 3.x.
+- Проверка: В sksevr.log SRD загружен и находит конфиги AOS. В игре другие шаги, ветер, бой — звук насыщеннее ванильного.
 
 ### Regional Sounds Expansion + Reverb Interior Sounds Expansion — `rec` [#77829](https://www.nexusmods.com/skyrimspecialedition/mods/77829)
 - Также скачать: Reverb Interior: https://www.nexusmods.com/skyrimspecialedition/mods/77947
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива: Regional Sounds Expansion 2.1.0 (Regional Sounds Expansion (2.1.0)-77829-2-1-0-1748013115.7z; Stormcrown VR, Panda) и Reverb Interior Sounds Expansion 1.5.0 со страницы 77947 (Reverb Interior Sounds Expansion (1.5.0)-77947-1-5-0-1675142342.7z; Stormcrown VR, Panda). RSE 2.0.0 — старее.
 - Установщик: неизвестно — общие правила
+- Требует: Sound Record Distributor (#77815); SKSEVR (#30457)
+- Порядок в MO2: Раздел «08 Звук». RSE ниже AOS (перекрывает регионы AOS), RISE ниже RSE. Ставится при любом выборе стека (AOS или ISC).
+- Порядок плагина: После SRD; по LOOT.
+- Настройки: Отдельного патча RSE–RISE нет: RISE подмешивает звуки RSE в записи регионов через SRD. Ставить обе страницы.
+- Проверка: В sksevr.log SRD применил конфиги RSE и RISE. В городах и подземельях разные реверберации.
 
 ### Acoustic Space Improvement Fixes — `rec` [#78992](https://www.nexusmods.com/skyrimspecialedition/mods/78992)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Acoustic Space Improvement Fixes 1.3.3, SkyPatcher-версия (Acoustic Space Improvement Fixes (SkyPatcher)-78992-1-3-3-1747812242.7z; Stormcrown VR). Запасной — Plugin Version (...(Plugin Version)-78992-1-3-3-1747812411.7z; Panda) без SkyPatcher. Файл «Patch for Extended Cut - Saints and Seducers» не нужен.
 - Установщик: неизвестно — общие правила
+- Требует: SkyPatcher (#106659)
+- Не вместе с: Обе версии (SkyPatcher и Plugin) одновременно
+- Порядок в MO2: Раздел «08 Звук», ниже RISE.
+- Порядок плагина: Plugin Version — после RISE; SkyPatcher-версия плагина не имеет.
+- Настройки: Во всех списках стоит вместе с RISE и RSE — ставить после них. Если SkyPatcher в VR работает нестабильно — взять Plugin Version.
+- Проверка: Нет ошибок SkyPatcher в логе. Маленькие дома звучат тише и теснее, чем в ваниле.
 
 ### Immersive Sounds Compendium + AOS–ISC patch — `alt` [#523](https://www.nexusmods.com/skyrimspecialedition/mods/523)
 - Также скачать: патч: https://www.nexusmods.com/skyrimspecialedition/mods/36761
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Immersive Sounds - Compendium 3.0 (Immersive Sounds Compendium 3.0-523-3-0-1629219996.zip; Tempus, Librum, Grit x2, Tahrovin, FUS, Ygg, Panda). Для SRD-варианта (Panda) поверх — «ISC-SRDified Main File» 2.2.1 (#78446, ISC-SRDified Main File-78446-2-2-1-1698505409.zip; он убирает часть патчей). Патч AOS–ISC (#36761, 1.1.0) ставить ТОЛЬКО если установлен AOS: Tempus и Librum держат AOS + ISC + патч.
+- Установщик: нет установщика (по заметке куратора); состав неизвестен
+- Не вместе с: Audio Overhaul for Skyrim (audio-12466) в варианте «или-или»; вместе — только с патчем #36761; AOS без патча AOS–ISC (#36761), если ISC включён
+- Группа «одно из»: `audio-stack`
+- Порядок в MO2: Раздел «08 Звук». Если ISC вместо AOS — на месте AOS; ISC-SRDified ниже ISC; RSE, RISE, ASIF ниже. Патч AOS–ISC (при обоих) — ниже AOS и ISC.
+- Порядок плагина: Патч AOS–ISC и ISC-SRDified — после соответствующих плагинов; остальное по LOOT.
+- Настройки: Альтернативный стек: ISC + RSE + RISE + ASIF (Panda, SRD-вариант). Не включать AOS и ISC одновременно без патча #36761. SRD (frameworks-77815) нужен только для ISC-SRDified. ESP-версия ISC 3.0 без SRDified — вариант FUS/Ygg/Grit.
+- Проверка: ISC-плагин активен, SRD (если вариант SRDified) загружен. Звуки оружия и окружения ISC слышны, нет двойных звуков с AOS.
 
 ### True 3D Sound for Headphones — `rec` [#1897](https://www.nexusmods.com/skyrimspecialedition/mods/1897)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 4 · тип `root_files` · установка `root_builder` · надёжность данных `low`
+- Файл: Skyrim SE 3D Sound (X3DAudio HRTF) 1.0 (Skyrim SE 3D Sound (X3DAudio HRTF)-1897-1-0.zip; FUS, Yggdrasil VR, Panda). Ставить в корень игры через Root Builder, не в Data.
+- Установщик: нет установщика; состав архива не проверен (ожидается X3DAudio1_7.dll)
+- Не вместе с: Другие обработчики пространственного звука (Windows Sonic, Dolby, драйвер гарнитуры) одновременно
+- Порядок в MO2: Раздел «08 Звук», файлы уходят в корень через Root Builder; порядок среди звуковых модов не важен.
+- Настройки: Отключить любую другую пространственную обработку звука на гарнитуре и звуковой карте. Работает только на наушниках. Автор родственной страницы 98346 просит копировать файлы вручную, не через менеджер — здесь заменяет Root Builder. Если звук пропал — убрать DLL из корня.
+- Проверка: В корне игры после запуска появилась X3DAudio1_7.dll. Направление звука чёткое, звук есть.
 - Заметка: HRTF-позиционирование для наушников гарнитуры.
 
 ### UHDAP — Music HQ — `opt` [#18115](https://www.nexusmods.com/skyrimspecialedition/mods/18115)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 4 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: «Music - HQ» (Music - HQ-18115-0-1.7z): все VR-списки, музыка. «Voices EN - Part 1» и «Voices EN - Part 2» (оба архива) — только при английской озвучке (FUS, Ygg, Panda). Большие архивы.
+- Установщик: нет установщика (отдельные файлы)
+- Не вместе с: Другие моды озвучки (перекрывают голоса UHDAP)
+- Порядок в MO2: Раздел «08 Звук», самым первым (низший приоритет): музыкальные моды и озвучка должны перекрывать UHDAP.
+- Настройки: Голоса EN не ставить при русской озвучке.
+- Проверка: Музыка в меню и в мире играет без артефактов. Файлы лежат в Data\Music.
 - Заметка: Ванильная музыка без артефактов. Голоса EN — только при английской озвучке.
 
 ### Wildwood Echoes + Murmurs and Mead — `opt` [#112008](https://www.nexusmods.com/skyrimspecialedition/mods/112008)
 - Также скачать: Murmurs and Mead: https://www.nexusmods.com/skyrimspecialedition/mods/114716
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Wildwood Echoes 1.3 (Wildwood Echoes-112008-1-3-1716161041.7z; Librum VR и SE) + Murmurs and Mead 1.1 со страницы 114716 (Murmurs and Mead-114716-1-1-1711757412.7z; только SE-списки). 1.4 (2026) — новее, в VR не проверена.
+- Установщик: Murmurs and Mead: FOMOD есть (описание WJ), варианты неизвестны — общие правила
+- Требует: Sound Record Distributor (#77815); Base Object Swapper VR (#61734); SKSEVR (#30457)
+- Не вместе с: Не дублировать лесные и таверные звуки другими модами на тот же SRD-слой
+- Порядок в MO2: Раздел «08 Звук», ниже RSE и RISE. Проверить в xEdit пересечения по звуковым регионам.
+- Порядок плагина: По LOOT.
+- Настройки: Murmurs and Mead заменяет одиночный таверный цикл через Base Object Swapper — нужен BOS VR. Wildwood Echoes — только через SRD.
+- Проверка: В sksevr.log SRD и BOS применили файлы без ошибок. В лесу слышны ветер, лягушки, вой; в таверне разные варианты шума.
 - Заметка: Звуки леса и 18 вариантов шума таверн.
 
 ### Haunting Harmonies of Hjaalmarch + Whispers of the Daedric Princes — `opt` [#125873](https://www.nexusmods.com/skyrimspecialedition/mods/125873)
 - Также скачать: Whispers: https://www.nexusmods.com/skyrimspecialedition/mods/141931
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: The Haunting Harmonies of Hjaalmarch 1.0 (The Haunting Harmonies of Hjaalmarch-125873-1-0-1724214662.7z) + Whispers of the Daedric Princes 1.2 со страницы 141931 (Whispers of the Daedric Princes-141931-1-2-1740012920.7z). В VR-списках оба не встречаются.
+- Установщик: Haunting Harmonies: FOMOD есть (описание WJ), варианты неизвестны — общие правила
+- Требует: Sound Record Distributor (#77815); Base Object Swapper VR (#61734); SKSEVR (#30457)
+- Порядок в MO2: Раздел «08 Звук», ниже RSE и RISE (SRD распределяет поверх).
+- Порядок плагина: По LOOT.
+- Настройки: Whispers требует Base Object Swapper (VR-версия в наборе). Опция «замолчать после квеста» — выбрать на странице или в установщике.
+- Проверка: В sksevr.log SRD и BOS загрузили файлы. В Морфале слышен болотный фон, у святилищ — шёпот.
 - Заметка: Атмосфера болот Морфала и шёпот у святилищ. Позиционный звук в шлеме.
 
 ### Immersive Draw Sheathe Sounds VR — `opt` [#44992](https://www.nexusmods.com/skyrimspecialedition/mods/44992)
-- Фаза 4 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 4 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Immersive Draw Sheathe Sounds VR 1.1 (Immersive Draw Sheathe Sounds VR-44992-1-1-1643041361.7z; Stormcrown VR, Panda, Grit x2). Файл 1.0 — старее.
 - Установщик: неизвестно — общие правила
+- Порядок в MO2: Раздел «08 Звук», ниже AOS: пересекается по звукам оружия.
+- Порядок плагина: После AOS; конфликты по SNDR проверить в xEdit.
+- Настройки: Проверить, не конфликтуют ли записи с AOS (одни дескрипторы). Если конфликт — оставить версию Draw Sheathe.
+- Проверка: Звуки доставания и убирания оружия соответствуют VR-версии, нет двойного звука.
 
 ## 09 Свет, погода, вода, VFX
 
@@ -1713,418 +2083,743 @@
 ## 11 Анимации и физика
 
 ### Open Animation Replacer — `core` [#92109](https://www.nexusmods.com/skyrimspecialedition/mods/92109)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Open Animation Replacer» 3.2.1 (Yggdrasil VR, 2026-08-31: «Open Animation Replacer 92109 3.2.1») — один архив для SE/AE/VR, отдельного VR-файла нет. Версии 2.3.6 (Panda, Tempus, Tahrovin, Librum, FUS) и 2.1.0 (Grit) — только как откат, если 3.2.1 не загрузится. Пре-релизы и файлы для моддеров не брать.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке. Если установщик есть — неизвестно — общие правила.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Paired Animation Improvements (#99621); Animation Queue Fix (#82395)
+- Не вместе с: Dynamic Animation Replacer (DAR) — не ставить, OAR сам читает DAR-папки
+- Порядок в MO2: Раздел «11 Анимации и физика», первым среди анимаций: до всех OAR/DAR-пакетов, после XPMSSE. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.
+- Настройки: Настройки OAR — INI/JSON в SKSE\Plugins (точное имя смотреть в архиве), по умолчанию не менять. Меню OAR в игре (ImGui) проверить в шлеме: если не открывается — открывать через SKSE Menu Framework + ImGui VR Helper (#120352) или править config.json пакетов вручную.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL OAR загружена без ошибки версии/адресов. В игре NPC ходят и стоят без T-позы, в логе OAR (рядом с sksevr.log) нет ошибок чтения пакетов.
 - Заметка: Официально поддерживает SE, AE и VR.
 
 ### Paired Animation Improvements — `rec` [#99621](https://www.nexusmods.com/skyrimspecialedition/mods/99621)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Paired Animation Improvements» 1.0.3 (Yggdrasil VR, 2026-08-31), иначе 1.0.2 (Panda, FUS, Tempus, Librum, Grit). Файл «Horse Mount and Dismount Double Sound Fix» (тот же ID) — не ставить, если нет двойного звука посадки на коня (Panda и FUS берут).
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Open Animation Replacer (#92109)
+- Порядок в MO2: Раздел «11 Анимации и физика», сразу после OAR. Конфликтов файлов не ожидается.
+- Настройки: Без настроек.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Парные анимации (добивания, рукопожатия квестов) играют без зависания персонажей.
 
 ### Mu Joint Fix (DLL) — `rec` [#61479](https://www.nexusmods.com/skyrimspecialedition/mods/61479)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 6 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Main «Mu Joint Fix» 2.1.3 (Yggdrasil VR, 2026-09-18: «MuJointFix 61479 2.1.3»), запасной вариант 2.1.2 (Librum VR, Yggdrasil VR). Старую 2.0.17 не брать. Назначение мода и состав архива не подтверждены — смотреть описание на странице.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Раздел «11 Анимации и физика» после XPMSSE. Конфликтов файлов не ожидается.
+- Настройки: Без настроек, пока описание не требует иного.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена без ошибки. Если DLL не грузится или в архиве нет SKSE\Plugins\*.dll — отключить мод, не чинить.
 
 ### FSMP — Faster HDT-SMP — `opt` [#57339](https://www.nexusmods.com/skyrimspecialedition/mods/57339)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Только если в сборке есть SMP-волосы или одежда. Вариант A (VR-проверен в свежем списке): основной файл «FSMP 4.0.1» (Tahrovin - Grit, 2026-07-05). Вариант Б (проверен в Panda's и Tahrovin): «Faster HDT-SMP» 2.5.1 + отдельный файл «XML VR» 1.0 (конфиги для VR от Alandtse). Версию 4.1.1 (SE-списки, 2026-08) брать, только если её установщик явно предлагает рантайм Skyrim VR/1.4.15. Файлы 1.50.9 rc1 / 2.1.3 (Grit) — устарели.
+- Установщик: Установщик FSMP, вероятно, спрашивает версию игры/платформу: выбирать Skyrim VR (Steam, 1.4.15), CUDA-вариант не брать, AVX2 — если CPU поддерживает. Точные названия опций — неизвестно — общие правила.
+- Требует: SKSEVR (#30457); XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR (#1988); SKSE Menu Framework + ImGui VR Helper (#120352)
+- Не вместе с: HDT-SMP оригинальный (DaymareOn/aers) и другие сборки hdtSMP64.dll — только один SMP-движок; XPMSSE без VR-фикса (#34301) — вылеты
+- Порядок в MO2: Раздел «11 Анимации и физика», сразу ниже XPMSSE и его VR-фикса. «XML VR» — отдельным модом ниже основного FSMP (должен его перезаписывать).
+- Настройки: Сначала замерить кадр без SMP-одежды, потом включать. Лимиты физики держать низкими; параметры — в hdtSkinnedMeshConfigs\configs.xml (по SE-гайдам; сверить с FSMP wiki). Сверить Requirements: старые версии просят SkyUI VR (#91535), PapyrusUtil VR (#13048), JContainers VR (#16495), ConsoleUtilVR (#47189) — все есть в манифесте. SKSE Menu Framework + ImGui VR Helper нужны только для FSMP 4.x (меню вместо MCM).
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log виден hdtSMP64/FSMP DLL без ошибки. В игре на NPC с SMP-волосами двигаются волосы, кадр в городе не падает ниже допустимого.
 - Заметка: Только если будут SMP-волосы или одежда. Проверьте VR-вариант в установщике. Нужен XPMSSE с VR-фиксом.
 
 ### Dynamic Armor Physics — `opt` [#186346](https://www.nexusmods.com/skyrimspecialedition/mods/186346)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Dynamic Armor Physics - Latest Version» 1.0.3 (Stormcrown VR, 2026-08-01) — VR-проверено; 1.0.4 (SUP, SE) — только после проверки sksevr.log. Единственный VR-список — Stormcrown.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR (#1988)
+- Порядок в MO2: Раздел «11 Анимации и физика», ниже XPMSSE и FSMP. Конфликтов файлов не ожидается.
+- Настройки: Четыре профиля веса (без брони/одежда/лёгкая/тяжёлая) — по умолчанию.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Тела убитых NPC падают с разным весом/звуком в зависимости от брони.
 - Заметка: 2026 год, есть в Stormcrown VR.
 
 ### XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR — `core` [#1988](https://www.nexusmods.com/skyrimspecialedition/mods/1988)
 - Также скачать: VR-фикс: https://www.nexusmods.com/skyrimspecialedition/mods/34301
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Ставить ДВА мода. 1) Основной «XP32 Maximum Skeleton Special Extended» (#1988), файл 5.06 (Panda, Tahrovin, Grit, Librum VR, CSVP). Версии 4.80/4.81 (Tempus, Yggdrasil VR) — не брать. 2) Отдельным модом «XP32 First Person Skeleton CTD Bugfix for VR» (#34301): самая свежая 5.06-1 (Librum VR, 2025-10), иначе 5.06 (Panda, Tempus, Grit). Версию 4.71 (Yggdrasil) вместе с 5.06 не брать. Основной файл без VR-фикса в VR даёт вылеты.
+- Установщик: Установщик основного XPMSSE: названия опций — неизвестно — общие правила. По смыслу: взять скелет и скелеты существ; физику SMP включать, только если ставится FSMP; опции первого лица/оружейных стилей игрока в VR не нужны (управляет VRIK), брать вариант по умолчанию. VR-фикс #34301 — без установщика (по имени).
+- Требует: SKSEVR (#30457)
+- Не вместе с: Любой другой скелет и моды, перезаписывающие meshes\actors\character\character assets\skeleton*.nif и meshes\actors\character\_1stperson\skeleton.nif; XPMSSE без VR-фикса #34301
+- Порядок в MO2: Первым в разделе «11 Анимации и физика», до анимаций и FSMP. «VR-фикс» — отдельный мод СРАЗУ НИЖЕ основного (выше приоритет), он обязан выиграть конфликт по _1stperson\skeleton.nif. Если конфликт с файлами VRIK/HIGGS/PLANCK по skeleton*.nif — открыть оба в MO2 и разобрать, не гадать (VRIK просит, чтобы его файлы перезаписывали остальное).
+- Порядок плагина: XPMSSE.esp/плагин — если есть в архиве, включить; LOOT.
+- Настройки: Настроек нет. Меню XPMSE (если есть в MCM) не трогать.
+- Проверка: Игра грузит сейв без вылета; достать лук и меч, поднять руки — нет T-позы и ошибок скелета. В MO2 конфликт по _1stperson\skeleton.nif: победитель — VR-фикс.
 - Заметка: Расширенный скелет — база для FSMP и многих анимаций. Без VR-фикса поверх SE-скелет в VR даёт вылеты.
 
 ### NPC Animation Remix + Gesture Animation Remix (OAR) — `rec` [#63471](https://www.nexusmods.com/skyrimspecialedition/mods/63471)
 - Также скачать: Gesture Remix: https://www.nexusmods.com/skyrimspecialedition/mods/64420
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: NPC Animation Remix (OAR): «main archive» последней OAR-версии (2.3.0 — SE-списки 2026-06; VR-проверено 2.0.0 в Panda's и FUS) + «shield patch» той же ветки (2.0.0 у Panda/FUS; ставят все VR-списки). Gesture Animation Remix (#64420): «main archive» (OAR) 2.1.1 + «shield patch» 1.2.0 (Panda, FUS). Если 2.3.0 вызывает ошибки OAR — откат на 2.0.0. Не брать DAR-архивы (1.x) и «(no looped idles)».
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: Open Animation Replacer (#92109)
+- Не вместе с: Reanimated NPC Animations — дублирует; EVG Animation Variance (#38534) — частично дублирует, приоритет у Remix
+- Порядок в MO2: После OAR и PAI. Gesture Remix — ниже NPC Remix. В OAR у Remix приоритет выше EVG и Pristine. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.
+- Настройки: Без настроек.
+- Проверка: В диалоге NPC стоят и жестикулируют без деревянных поз, щит в руке NPC не торчит из-за спины. В логе OAR нет ошибок пакета.
 - Заметка: Стойки, ходьба и жесты NPC в диалогах. В VR собеседник в метре от вас — деревянные позы видно сразу.
 
 ### Expressive Facial Animation — Male + Female — `rec` [#19532](https://www.nexusmods.com/skyrimspecialedition/mods/19532)
 - Также скачать: Female: https://www.nexusmods.com/skyrimspecialedition/mods/19181
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Два архива, оба Main: «Expressive Facial Animation - Male Edition» (#19532) 1.21 и «Expressive Facial Animation - Female Edition» (#19181) 1.7 — как во всех 7 VR-списках.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Порядок в MO2: Раздел «11 Анимации и физика». Желательно ниже MFG Fix NG (#133568), но не обязательно.
+- Настройки: MFG Fix NG (#133568) из манифеста дополняет эффект, обязательным не является.
+- Проверка: В диалоге у NPC мигают глаза и меняется выражение лица; нет искажённых лиц.
 - Заметка: Мимика и моргание NPC. Дополняет MFG Fix NG и ИИ-NPC.
 
 ### Pristine Vanilla Movement — `opt` [#66635](https://www.nexusmods.com/skyrimspecialedition/mods/66635)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Pristine Vanilla Movement» 1.1.1 (все 6 VR-списков: Librum, Panda, Grit, Tahrovin, Tahrovin-Grit, Tempus). «Sprint - No Camera Shake» не брать (в VR нет тряски камеры).
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке. Архив, вероятно, DAR-формата (папка DynamicAnimationReplacer) — OAR её читает; ничего конвертировать не нужно.
+- Требует: Open Animation Replacer (#92109)
+- Не вместе с: Animation Motion Revolution — оба меняют передвижение, оставить только Pristine
+- Порядок в MO2: После OAR; ниже NPC Animation Remix (у Remix приоритет выше). Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR).
+- Настройки: Без настроек.
+- Проверка: NPC ходят и бегают без T-позы и скольжения. Нет конфликтов по meshes\actors\character\animations в MO2 с другими пакетами движения.
 - Заметка: Исправленные ванильные анимации передвижения — база под OAR-пакеты.
 
 ### Arm Movement Animations (OAR) — `opt` [#62849](https://www.nexusmods.com/skyrimspecialedition/mods/62849)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Arm Movement Animations (OAR)» 2.2.0 (Panda, FUS, CSVP, Nordic Souls). Не брать DAR-версии «Immersive Folded Hands» 1.x и «Harkon dialogue moving animation replacer (DAR folder)».
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: Open Animation Replacer (#92109)
+- Порядок в MO2: После NPC Animation Remix. Приоритет между OAR-пакетами задаётся полем priority в config.json каждого пакета, порядок MO2 важен только при совпадении файлов.
+- Настройки: Без настроек.
+- Проверка: NPC при ходьбе держат руки естественно; нет лишних конфликтов с NPC Animation Remix в окне OAR.
 - Заметка: NPC при ходьбе держат руки естественно.
 
 ### Take a Seat + Improved Table Transitions — `opt` [#54193](https://www.nexusmods.com/skyrimspecialedition/mods/54193)
 - Также скачать: Table Transitions: https://www.nexusmods.com/skyrimspecialedition/mods/84160
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Take a Seat: «Take a Seat - OAR Animations» 1.01 (Tempus, Panda, Librum, Nordic Souls, LoreRim) — не DAR 1.0. Improved Table Transitions (#84160): вариант «Improved Table Sit Transition OAR» 1.4 (Panda's, CSVP) или 1.5 (NGVO, 2025-09); «Improved Table Transitions» 1.3 (Librum, LoreRim) — старая.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: Open Animation Replacer (#92109)
+- Не вместе с: Take a Seat DAR-версия 1.0 (FUS, Yggdrasil) — не смешивать с OAR-версией
+- Порядок в MO2: После OAR. Table Transitions — ниже Take a Seat. Приоритет между OAR-пакетами задаётся полем priority в config.json.
+- Настройки: Без настроек.
+- Проверка: NPC садятся на скамьи и за столы плавно, без телепорта.
 - Заметка: Позы сидения и плавный вход за стол без телепорта.
 
 ### Lively Children Animations (OAR) — `opt` [#67557](https://www.nexusmods.com/skyrimspecialedition/mods/67557)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Lively Children Animations (OAR)» 2.2.1 (Panda's VR, CSVP, Nordic Souls). DAR 1.0.0 (Yggdrasil, Elysium) не брать.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: Open Animation Replacer (#92109)
+- Порядок в MO2: После NPC Animation Remix. Приоритет между OAR-пакетами задаётся полем priority в config.json.
+- Настройки: Без настроек.
+- Проверка: Дети в городах не стоят деревянно.
 
 ### EVG Conditional Idles — `opt` [#34006](https://www.nexusmods.com/skyrimspecialedition/mods/34006)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Только «EVG Conditional Idles» 1.51 (Tempus, Panda, FUS, CSVP, SUP). «EVG Animation Variance» (#38534) НЕ брать: по заметке куратора дублирует Remix (VR-списки его ставят — отклонение сознательное). «(beta) Wade In Water Animations» не брать. 1.42 (Yggdrasil) — устарела.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке. Архив может быть DAR-формата — OAR читает.
+- Требует: Open Animation Replacer (#92109)
+- Не вместе с: EVG Animation Variance (#38534) — дублирует NPC Animation Remix
+- Порядок в MO2: Ниже NPC Animation Remix: при конфликте приоритет у Remix. Приоритет между OAR-пакетами задаётся полем priority в config.json.
+- Настройки: Без настроек.
+- Проверка: Мёрзнущие/уставшие NPC играют свои стойки; Remix-позы не ломаются.
 - Заметка: NPC мёрзнет, устал, ранен. Animation Variance не брать — дублирует Remix.
 
 ### Goetia Animations — Spell Casting + Conditional Shouts — `opt` [#70204](https://www.nexusmods.com/skyrimspecialedition/mods/70204)
 - Также скачать: Shouts: https://www.nexusmods.com/skyrimspecialedition/mods/76388
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: «Goetia Animations - Magic Spell Casting» 1.4 (Tempus, Panda, CSVP, Nordic Souls, NGVO; в SUP — 1.5b) и «Goetia Animations - Conditional Shouts» (#76388) 1.2 (Tempus, Panda). «Momentum Whirlwind Sprint» (Panda, #76388) — не брать, это для игрока в 3-м лице.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: Open Animation Replacer (#92109)
+- Порядок в MO2: После OAR. Приоритет между OAR-пакетами задаётся полем priority в config.json.
+- Настройки: Эффект виден только у NPC-магов; у игрока в VR каст задают VRIK/Spell Wheel.
+- Проверка: NPC-маг при касте и крике играет новые анимации. Если страница требует Nemesis/Pandora — прогнать Pandora (#133232) и проверить, что нет T-позы.
 - Заметка: Каст и крики у NPC-магов. У игрока в VR не видны.
 
 ### Leviathan / Vanargand Animations (стойки и атаки NPC) — `opt` [#47092](https://www.nexusmods.com/skyrimspecialedition/mods/47092)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Стойки и атаки NPC, семь архивов (как в Panda's Sovngarde): Leviathan — «Two-Handed High Stance SE» (#47092) 1.4, «Two-Handed Normal Attacks For High Stance» (#48550) 1.2, «Two-Handed Power Attacks For High Stance» (#50545) 1.4c; Vanargand — «One handed Mid Stance» (#57544) 1.2, «One handed Normal Attacks» (#58326) 1.1, «One Handed Power Attacks» (#58997) 1.2, «Dual Wield Attacks» (#63566) 1.0. Sneak-пакеты Vanargand для игрока не брать. В SE-списках 2026 (SUP) — 1.5/1.4/1.5/1.4b — только после проверки.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: Open Animation Replacer (#92109)
+- Не вместе с: Reanimated NPC Animations / другие пакеты боевых анимаций NPC с теми же условиями; MCO / BFCO / ADXP / Precision — не нужны и в VR бесполезны
+- Порядок в MO2: После OAR и NPC Animation Remix. Все семь пакетов — подряд. Приоритет между OAR-пакетами задаётся полем priority в config.json.
+- Настройки: Анимации действуют на NPC и на игрока в 3-м лице; в VR атаками игрока управляют VRIK/HIGGS/PLANCK — отдельно это не настраивать.
+- Проверка: Бандит и страж держат разные стойки в бою; нет скольжения и T-позы при атаке.
 - Заметка: Разнообразие врагов в ближнем бою. Sneak-пакеты для игрока не брать.
 
 ### Conditional Tavern Cheering (OAR) — `opt` [#63029](https://www.nexusmods.com/skyrimspecialedition/mods/63029)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Conditional Tavern Cheering (OAR)» 1.3.0 (Panda, FUS, CSVP, Nordic Souls). DAR 1.0.3 (Tempus, Yggdrasil) не брать.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: Open Animation Replacer (#92109)
+- Порядок в MO2: После OAR. Приоритет между OAR-пакетами задаётся полем priority в config.json.
+- Настройки: Без настроек.
+- Проверка: Посетители таверны аплодируют, когда играет бард.
 
 ### Super Fast Get Up Animation — `opt` [#46714](https://www.nexusmods.com/skyrimspecialedition/mods/46714)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `assets_only` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Main «Super Fast Get Up Animation» 1.0 (5 VR-списков и 9 SE-списков, везде один файл 1615242774).
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Не вместе с: Другие моды, заменяющие анимацию вставания после падения (getup)
+- Порядок в MO2: Раздел «11 Анимации и физика», после OAR-пакетов (обычная замена hkx без OAR). Конфликт с другими вставаниями решать вручную в MO2.
+- Настройки: Без настроек.
+- Проверка: После нокдауна от PLANCK/HIGGS-удара NPC быстро встаёт. Нет T-позы.
 - Заметка: С PLANCK враги падают часто — быстрый подъём не тормозит бой.
 
 ### Variadic Collision Dynamics — `try` [#183892](https://www.nexusmods.com/skyrimspecialedition/mods/183892)
 - Также скачать: Resources: https://www.nexusmods.com/skyrimspecialedition/mods/184110
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: «Variadic Collision Dynamics» (#183892) последняя 1.3.5 (True North, SE, 2026-09-19) + «Resources» (#184110) 1.0.11. По чейнджлогу с 1.3.2 одна DLL для SE/AE/VR. VR-списков нет — ставить только по разрешению (метка try).
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: PLANCK / Physical Collision VR — возможный конфликт капсулы игрока; Collision Sentinel (#181445) — есть жалоба на конфликт
+- Порядок в MO2: Раздел «11 Анимации и физика», последним из DLL; по одному и с отдельным тестом.
+- Настройки: Если игрок застревает/проваливается — удалить мод, не настраивать.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена, нет конфликта с PLANCK при приседании и подъёме на уступ.
 - Заметка: Капсула коллизии меняется по позе — меньше застреваний. Капсула игрока в VR — зона PLANCK, конфликт вероятен.
 
 ### A-Pose Bug Fix — `try` [#168903](https://www.nexusmods.com/skyrimspecialedition/mods/168903)
-- Фаза 6 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 6 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: «A-Pose Fix» (#168903) v1.1.0 (NGVO, Tomes of Talos; Nordic Souls — v1.1.0-a 2026-03). VR-файла нет. Ставить только если появилась A-поза.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Pandora Behaviour Engine+ (#133232)
+- Порядок в MO2: Раздел «11 Анимации и физика», последним; по одному.
+- Настройки: Не ставить по умолчанию.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена без ошибок; после установки A-поза исчезла, иначе удалить.
 - Заметка: Только как лекарство, если появится A-поза. VR не подтверждён.
 
 ## 12 Бой и геймплей
 
 ### Blade and Blunt + Blade and Blunt VR — `rec` [#34549](https://www.nexusmods.com/skyrimspecialedition/mods/34549)
 - Также скачать: VR: https://www.nexusmods.com/skyrimspecialedition/mods/120494
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Ставить ДВА мода. 1) Основной «Blade and Blunt - A Combat Overhaul» (#34549) 3.8.3 (Stormcrown VR, 2025-09); fallback 3.7.4 (Tempus, Panda, Tahrovin, FUS). Версии 4.0.x (SE-списки 2026-08) — НЕ брать: Stormcrown VR после выхода 4.0 остался на 3.8.3 и VR-порта под 4.x в списках нет. Версия 1.4.1 (Grit, Yggdrasil, FUS) — старая, без DLL, не брать. 2) Поверх — «Blade and Blunt VR» (#120494) 1.0.2 (Stormcrown), иначе 1.0.1 (Tempus, Panda, Tahrovin, FUS). Перед установкой открыть страницу #120494 и сверить, какие версии основного она поддерживает.
+- Установщик: неизвестно — общие правила (по именам архивов — два отдельных файла без установщика).
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Spell Perk Item Distributor VR (#59121); Poached Bugs VR (#107053); Dual Casting Fix VR (#92804); SkyUI VR (#91535)
+- Не вместе с: Scrambled Bugs (SE/AE) — в VR не работает, вместо него Poached Bugs VR; Precision, True Directional Movement, MCO/BFCO/ADXP; Другие крупные боевые оверхолы (Wildcat, Valhalla Combat и т. п.) — не смешивать
+- Порядок в MO2: Раздел «12 Бой и геймплей». Порядок: Blade and Blunt (основной) → Blade and Blunt VR СРАЗУ НИЖЕ (его VR-DLL должна перезаписать SE-DLL). Adamant и Mysticism — выше. Simonrim Choice Config из Poached Bugs VR должен стоять ниже Core Poached Bugs VR.
+- Порядок плагина: Плагины Blade and Blunt — после Adamant и Mysticism; остальное LOOT.
+- Настройки: Настройки через MCM. В VR не включать вторую модель урона от ударов (PLANCK/HIGGS) без проверки: смотреть, нет ли двойного расхода выносливости; начальные значения не менять.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL Blade and Blunt загружена (без ошибки версии/адресов). В MCM есть «Blade and Blunt». В бою расходуется выносливость от удара, нет двойного урона.
 
 ### Adamant + Adamant — VR Tweaks — `rec` [#30191](https://www.nexusmods.com/skyrimspecialedition/mods/30191)
 - Также скачать: VR Tweaks: https://www.nexusmods.com/skyrimspecialedition/mods/190589
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Основной «Adamant - A Perk Overhaul» (#30191) 5.9.2 (все VR-списки, включая Stormcrown). Версию 6.0.x (SE-списки 2026-08) НЕ брать без проверки страницы #190589: Stormcrown VR остался на 5.9.2 и дополнительно ставит «Adamant - VR Tweaks» (#190589) 1.2 (2026-09-04) — этот файл брать поверх. Что именно меняет VR Tweaks и какую версию Adamant он требует — сверить на странице. Опционально (не по умолчанию): «Adamant - Smithing Addon» 5.4.6 (Stormcrown, FUS) и «Simonrim Attack Speed Fix» 1.0.0 (Panda) — их назначение не проверено.
+- Установщик: неизвестно — общие правила (по именам архивов — отдельные файлы).
+- Требует: Mysticism — A Magic Overhaul (#27839); Poached Bugs VR (#107053); SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Другие перковые оверхолы (Ordinator, Vokrii, Perk Tree Overhaul и т. п.); Skyrim VR perk-limit патчи, дублирующие VR Tweaks — сверить
+- Порядок в MO2: Раздел «12 Бой и геймплей». Порядок: Mysticism → Adamant → Adamant VR Tweaks (ниже Adamant, перезаписывает). Poached Bugs VR с Simonrim Choice Config (из #107053) — в разделе фиксов, отдельный мод.
+- Порядок плагина: Adamant после Mysticism; остальное LOOT. Патчи под Adamant (Blade and Blunt и пр.) — ниже самого Adamant.
+- Настройки: Начальные значения не менять.
+- Проверка: Окно перков показывает перки Adamant; нет вылета при открытии дерева умений. В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL VR Tweaks (если она есть) загружена без ошибки.
 
 ### Accuracy — Localized Combat Damage — `opt` [#187578](https://www.nexusmods.com/skyrimspecialedition/mods/187578)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Accuracy - Latest Version» 1.0.1 (SUP, SE, 2026-09) или VR-проверенная 1.0.0 (Stormcrown VR, 2026-08-07). Один универсальный архив.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Core Impact Framework (#146873)
+- Не вместе с: Другие моды урона по зонам попадания
+- Порядок в MO2: Раздел «12 Бой и геймплей», ниже Core Impact Framework.
+- Настройки: Урон по зонам — настройки в JSON/INI конфигах (имя смотреть в архиве). Начальные не менять.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Попадание в голову незащищённого противника наносит заметно больше урона, чем в ногу в тяжёлой броне.
 - Заметка: Урон по зонам попадания, 2026 год.
 
 ### Core Impact Framework — `opt` [#146873](https://www.nexusmods.com/skyrimspecialedition/mods/146873)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Main «Core Impact Framework - Latest Version» 2.0.5 (Stormcrown VR, 2026-08-28). Старые 1.2.x (Tempus, Panda) не брать: конфиги Sanguine Symphony 1.3.x рассчитаны на 2.x.
+- Установщик: нет установщика (по именам архивов; DLL + JSON-конфиги, без плагина).
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Другие моды звуков/эффектов попаданий (Improved Weapon Impact Effects и т. п.) — дублируют
+- Порядок в MO2: Раздел «12 Бой и геймплей». Сначала CIF, потом его конфиги (Sanguine Symphony) — ниже.
+- Настройки: Свои конфиги CIF не править: Sanguine Symphony ставит готовые.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. При ударе по броне/плоти слышны и видны разные эффекты.
 
 ### Ricochet — Arrow Physics Framework — `opt` [#160603](https://www.nexusmods.com/skyrimspecialedition/mods/160603)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Ricochet Framework - Latest Version» 1.1.2 (Stormcrown VR, 2026-08-16); 1.1.3 (SUP, SE) — после проверки. Файл «MCM menu» (MCM-02) — по желанию, Stormcrown VR его не ставит.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.
+- Настройки: Если ставится файл MCM menu — нужен SkyUI VR (#91535). Иначе настройки по умолчанию.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Стрела по камню/металлу рикошетит, без вылетов в бою.
 
 ### Dismembering Framework — `opt` [#126203](https://www.nexusmods.com/skyrimspecialedition/mods/126203)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Dismembering Framework - Latest Version» 1.2.3 (Yggdrasil VR, 2026-09-02), запасной 1.2.2 (Stormcrown VR). Версии 1.0.6 (Tempus, Grit, Tahrovin) не брать. Работает только вместе с пакетами ресурсов из следующего пункта (#126328).
+- Установщик: нет установщика (по именам архивов). Если установщик есть — неизвестно — общие правила.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); SkyUI VR (#91535)
+- Не вместе с: Precision — в этой сборке не ставится (только для плоского режима)
+- Порядок в MO2: Раздел «12 Бой и геймплей». DF → DF Asset Packs → Next-Gen Decapitations (в таком порядке, нижние перезаписывают).
+- Порядок плагина: LOOT; DF-плагин выше его пакетов ресурсов.
+- Настройки: Настройки через MCM. Для VR шансы расчленения держать умеренными — проверить кадр в бою. Начальные не менять.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. В MCM есть Dismembering Framework. Сильный удар по гуманоиду отрубает конечность без вылета.
 
 ### NPCs Take Cover — `opt` [#111890](https://www.nexusmods.com/skyrimspecialedition/mods/111890)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Main «NPCs Take Cover» 1.02 (Stormcrown VR, CSVP, Nordic Souls; формат .rar — MO2 нужен 7-Zip/rar-плагин); 1.01 (Grit, Panda, Librum, LoreRim) — запасная.
+- Установщик: неизвестно — общие правила.
+- Порядок в MO2: Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.
+- Порядок плагина: Плагин после USSEP; остальное LOOT. Другие моды боевого ИИ — решать по LOOT.
+- Настройки: Без настроек.
+- Проверка: Лучники прячутся за укрытиями и не стоят на открытом месте под выстрелами. Нет зависания ИИ.
 
 ### Enemy Friendly Fire — `opt` [#50483](https://www.nexusmods.com/skyrimspecialedition/mods/50483)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: VR-файл: VR
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Файл «Enemy Friendly Fire VR» 1.3.1 (Yggdrasil VR, 2026-08-26: «Enemy Friendly Fire VR 50483 1.3.1»). SE-версию 1.3.1/1.2.0/1.1.0 не брать — SE-DLL в VR не загрузится.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Enemy Friendly Fire SE/AE (основной файл без VR)
+- Порядок в MO2: Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.
+- Настройки: Без настроек.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Стрелы и заклинания врагов задевают союзников.
 
 ### Simple Offence Suppression (VR) — `rec` [#59508](https://www.nexusmods.com/skyrimspecialedition/mods/59508)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Ставить ДВА мода (как Panda's Sovngarde и Yggdrasil VR): 1) основной «Simple Offence Suppression» (#41764) 2.1.0 («Simple Offence Suppression SE» — Yggdrasil); 2) поверх VR-файл «Simple Offence Suppression VR» (#59508) 2.1.0 — он содержит VR-DLL. Версии SE 2.2.1/2.3.1 с VR 2.1.0 не смешивать без проверки страницы #59508.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); SkyUI VR (#91535)
+- Не вместе с: Simple Offence Suppression SE/AE без VR-файла — SE-DLL в VR не работает
+- Порядок в MO2: Раздел «12 Бой и геймплей». Основной (#41764) → VR-файл (#59508) СРАЗУ НИЖЕ (VR-DLL выигрывает).
+- Настройки: Настройки через MCM (SkyUI VR). Начальные не менять.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log VR-DLL загружена без ошибки. Случайный удар по спутнику или нейтралу не делает его врагом.
 - Заметка: Спутники и нейтралы не становятся врагами от случайного удара — с физическим боем это обычное дело.
 
 ### Mysticism — A Magic Overhaul — `rec` [#27839](https://www.nexusmods.com/skyrimspecialedition/mods/27839)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Main «Mysticism - A Magic Overhaul» (#27839) 2.5.0 (Stormcrown VR, 2026-08-09). Запасная 2.4.2 (Panda's, FUS). «Ordinator Patch» не брать (Ordinator не ставится). Версии 1.x/2.2.4 (Librum, Grit, Tahrovin) устарели.
+- Установщик: нет установщика (по именам архивов — один файл).
+- Не вместе с: Другие перковые/магические оверхолы (Ordinator, Apocalypse, Enhanced Magic и т. п.)
+- Порядок в MO2: Раздел «12 Бой и геймплей», перед Adamant. Spell Wheel VR, Magic Improvements VR, Spellsiphon не конфликтуют (другая область: ввод, не данные).
+- Порядок плагина: Mysticism выше Adamant; остальное LOOT.
+- Настройки: Без настроек. Poached Bugs VR со своим Simonrim Choice Config стоит отдельным модом в фиксах (g1b).
+- Проверка: Заклинания в меню — переработанные Mysticism, нет ошибок плагина в xEdit.
 - Заметка: Переработка всей магии, пара к Adamant. Без DLL, 7 VR-сборок.
 
 ### Thaumaturgy + Apothecary + Mundus — `opt` [#57138](https://www.nexusmods.com/skyrimspecialedition/mods/57138)
 - Также скачать: Apothecary: https://www.nexusmods.com/skyrimspecialedition/mods/52130; Mundus: https://www.nexusmods.com/skyrimspecialedition/mods/33411
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Три отдельных мода SimonRim, везде Main: Thaumaturgy (#57138) 1.5 (Stormcrown VR, 2026-08-10; запасная 1.4.5 — Panda, FUS), Apothecary (#52130) 1.3.9 (Stormcrown, Panda, FUS), Mundus (#33411) 1.15.1 (Stormcrown; запасная 1.13.1). Не брать: Apothecary «Bruma/Fishing/Rare Curios/Food and Drink» патчи (этих модов нет), Thaumaturgy «Jump Boots Addon». «Enchantment XP Tweak» 1.5 (Stormcrown VR) / «Weapon Enchantment XP Tweak» 1.1 (Panda, FUS) — опционально, по умолчанию не ставить; если есть DLL, нужны SKSEVR и VR Address Library и проверка лога.
+- Установщик: нет установщика (по именам архивов — отдельные файлы).
+- Не вместе с: Другие оверхолы зачарования, алхимии и камней-хранителей
+- Порядок в MO2: Раздел «12 Бой и геймплей», после Mysticism и Adamant: Thaumaturgy → Apothecary → Mundus. Если есть SunHelm Survival (#39414) — проверить на странице Apothecary патч под него.
+- Порядок плагина: LOOT; все три после Adamant.
+- Настройки: Без настроек.
+- Проверка: В столах зачарования и алхимии есть переработанные эффекты; камни-хранители — Mundus. Нет ошибок плагина.
 - Заметка: Зачарование, алхимия и камни-хранители из набора SimonRim. Опциональную DLL Enchantment XP Tweak не ставить без проверки.
 
 ### Experience — `opt` [#17751](https://www.nexusmods.com/skyrimspecialedition/mods/17751)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Experience» 3.7.3 (Stormcrown VR, 2025-11); 3.5.0 (Tempus) — запасная; «Experience NG» 3.1.0 (Grit) устарела. 3.7.4 (TNE, SE) — после проверки.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Другие моды на кривую опыта и уровней (Leveling Freedom и т. п.); Experience NG и Experience одновременно
+- Порядок в MO2: Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.
+- Настройки: Настройки в INI рядом с DLL (имя файла смотреть в архиве). Начальные не менять.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Уровень растёт за квесты и открытия.
 - Заметка: Уровень за квесты и исследование. DLL с VR Address Library, стоит в Stormcrown VR.
 
 ### Death Drop Overhaul — `opt` [#151590](https://www.nexusmods.com/skyrimspecialedition/mods/151590)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Death Drop Overhaul - Latest Version» 1.3.6 (Stormcrown VR и Yggdrasil VR, 2026-09-06). 1.1.0 (Panda) — старая.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); HIGGS — Enhanced VR Interaction (#43930)
+- Не вместе с: Другие моды выпадения оружия при смерти
+- Порядок в MO2: Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.
+- Настройки: Без настроек. HIGGS нужен только чтобы поднимать упавшее оружие рукой, DLL от него не зависит.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Оружие убитого падает с инерцией и его можно схватить HIGGS.
 - Заметка: Оружие убитых падает с инерцией, его можно поднять HIGGS.
 
 ### Magic Sneak Attacks VR + Physical Dodge VR — `opt` [#68028](https://www.nexusmods.com/skyrimspecialedition/mods/68028)
 - Также скачать: Physical Dodge: https://www.nexusmods.com/skyrimspecialedition/mods/58605
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Два отдельных мода. «Magic Sneak Attacks VR» (#68028) 1.3.0 (Panda, FUS, Yggdrasil VR); 1.1.0 (Grit, Tahrovin) — старая. «Physical Dodge VR» (#58605) 0.1 (6 VR-списков). SE-версию Magic Sneak Attacks (#67613) поверх не ставить.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Magic Sneak Attacks SE/AE (#67613) — SE-DLL в VR не работает
+- Порядок в MO2: Раздел «12 Бой и геймплей». Physical Dodge VR — ниже PLANCK и Physical Collision VR.
+- Настройки: Магические скрытые атаки: перки скрытности Adamant не дублируют множитель — сверить в MCM/INI, если он есть.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log обе DLL загружены. Скрытая атака заклинанием наносит множитель, рывок корпуса уклоняется.
 - Заметка: Скрытые атаки магией; уклонение рывком корпуса.
 
 ### Throat Slit — VR — `opt` [#184140](https://www.nexusmods.com/skyrimspecialedition/mods/184140)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Main «Throat Slit VR» (#184140) 1.2 (Yggdrasil VR, 2026-07-25). Единственный VR-список.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.
+- Настройки: Без настроек. Не совмещать на одном движении с Immersive Weapon Penetration VR без проверки.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. Скрытое движение кинжалом по горлу срабатывает без вылета и двойных ударов.
 - Заметка: Горло перерезают движением руки с кинжалом.
 
 ### Dynamic Bloodpool Framework — `opt` [#172080](https://www.nexusmods.com/skyrimspecialedition/mods/172080)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Dynamic Bloodpool Framework - Latest Version» 1.0.1 (Panda's Sovngarde, единственный VR-список). 1.1.0 (Nordic Souls PBR, SE, 2026-07-25) — после проверки.
+- Установщик: нет установщика (по именам архивов); структуру проверить при установке.
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Другие моды луж крови
+- Порядок в MO2: Раздел «12 Бой и геймплей». Ниже Core Impact Framework.
+- Настройки: Лужи в других кровавых модах отключить.
+- Проверка: В Documents\My Games\Skyrim VR\SKSE\sksevr.log DLL загружена. После убийства растекается лужа по рельефу.
 - Заметка: Лужи крови растекаются по рельефу. VR Address Library в требованиях, стоит в Panda's Sovngarde.
 
 ### DF Asset Packs + Next-Gen Decapitations — `opt` [#126328](https://www.nexusmods.com/skyrimspecialedition/mods/126328)
 - Также скачать: Humanoid: https://www.nexusmods.com/skyrimspecialedition/mods/126327; Decapitations: https://www.nexusmods.com/skyrimspecialedition/mods/135254
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Четыре архива (Main): «Official Creature Asset Pack» (#126328) 1.0.2, «Official Humanoid Asset Pack» (#126327) 1.0.1 (в файле опечатка «Veersion»), «Next-Gen Decapitations» (#135254) 1.4.3 (Stormcrown VR) или 1.2.0/1.3.4 (старые). Патчи «CBBE-3BA» и «HIMBO» (#126327) — только под выбранное тело (решается на этапе тел).
+- Установщик: неизвестно — общие правила.
+- Требует: Dismembering Framework (#126203)
+- Не вместе с: Другие пакеты ресурсов расчленения
+- Порядок в MO2: Раздел «12 Бой и геймплей», ниже Dismembering Framework: Creature → Humanoid → Next-Gen Decapitations.
+- Порядок плагина: Плагины DF-пакетов — после Dismembering Framework.
+- Настройки: Без настроек.
+- Проверка: Отрубленная голова/конечность у гуманоида, волка, тролля выглядит корректно, без «квадратных» дыр.
 - Заметка: Нужны, если стоит Dismembering Framework.
 
 ### Sanguine Symphony — `opt` [#148388](https://www.nexusmods.com/skyrimspecialedition/mods/148388)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `assets_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main «Sanguine Symphony - Latest Version» 1.3.3 (Stormcrown VR, 2026-08-01, в паре с CIF 2.0.5); 1.3.5 (Morning Star, SE) — после проверки. «Ultra-HD Textures» — НЕ брать (текстуры отдельным этапом).
+- Установщик: нет установщика (по именам архивов; JSON-конфиги CIF и звуки/эффекты).
+- Требует: Core Impact Framework (#146873)
+- Не вместе с: Другие конфиги CIF и моды звуков/эффектов попаданий
+- Порядок в MO2: Раздел «12 Бой и геймплей», СРАЗУ НИЖЕ Core Impact Framework (должен перезаписать его конфиги).
+- Настройки: Свои правки в конфигах CIF не вносить.
+- Проверка: Эффект и звук удара зависят от брони и места удара. В MO2 нет конфликтов с другими CIF-конфигами.
 - Заметка: Конфиги Core Impact Framework: отклик зависит от брони и места удара.
 
 ## 13 Мир, ИИ, погружение
 
 ### Locational Encounter Zones — `rec` [#85212](https://www.nexusmods.com/skyrimspecialedition/mods/85212)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Locational Encounter Zones 1.0.3 (файл от 2026-08-24, его ставит Stormcrown VR). Запасной — 1.0.2 (Locational Encounter Zones-85212-1-0-2-1676905795.zip): 5 VR-списков.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение», рядом с Arena. Порядок между ними не важен.
+- Настройки: Менять нечего. Совместим с Arena (33487): ставить оба.
+- Проверка: В sksevr.log DLL загружена без ошибки. У входа в подземелье стража того же уровня, что враги внутри.
 - Заметка: Стража у входа в подземелье того же уровня, что и враги внутри. Одна DLL с VR-пресетом, 6 VR-сборок.
 
 ### Don't Stay in The Water — NPC Water AI Fix — `rec` [#52164](https://www.nexusmods.com/skyrimspecialedition/mods/52164)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: VR-файл: VR 4.1
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Только файл «Don't Stay in The Water - VR» 4.1 (Don't Stay in The Water - VR-52164-4-1-1626445959.zip). Файлы «NPC Water AI Fix for SkyrimSE» 5.1 и «...AE 1.6.629 and newer» 5.1 не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: NPC Water AI Fix 5.x (файлы SE и AE той же страницы)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». Порядка относительно других модов нет.
+- Настройки: Менять нечего. Страница VR-файла может не требовать Address Library явно — это не мешает, она уже стоит.
+- Проверка: В sksevr.log плагин загружен без ошибки. Враги не стоят в воде, а выходят к игроку.
 - Заметка: NPC перестают стоять в воде и топтаться у кромки в бою. Брать VR-файл 4.1, не AE-версию 5.x.
 
 ### Combat Pathing Revolution + VR — `opt` [#86950](https://www.nexusmods.com/skyrimspecialedition/mods/86950)
 - Также скачать: VR-DLL: https://www.nexusmods.com/skyrimspecialedition/mods/87895
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) Combat Pathing Revolution 0.30 со страницы 86950 (Combat Pathing Revolution-86950-v0-30-1678975298.7z). 2) Поверх него VR-файл со страницы 87895: Combat Pathing Revolution VR 0.30.1 (Combat Pathing Revolution VR-87895-0-30-1-1694056363.7z); он заменяет DLL и PDB. Оба архива стоят в FUS, Panda, Tahrovin, Tempus VR.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Fenix Combat AI (страница CPR: переписывает дерево поведения ИИ, вместе с CPR вылеты)
+- Порядок в MO2: Два отдельных мода: «CPR» и ниже «CPR VR DLL» (VR выше по приоритету, перезаписывает файлы). Behavior Data Injector — в раздел «02 SKSEVR и библиотеки»: сначала BDI, ниже BDI Universal Support (перезаписать DLL), и только потом CPR.
+- Настройки: Менять нечего. Не ставить второй мод боевого ИИ, который переписывает behavior-дерево. Тег opt: при проблемах с поведениями (Pandora) отключить сначала CPR.
+- Проверка: В sksevr.log загружены DLL CPR и Behavior Data Injector без ошибок. В бою NPC обходят и отступают, а не стоят.
 - Заметка: NPC в бою кружат, отступают и обходят. Поверх основного — DLL с VR-страницы.
 
 ### AI Overhaul — `opt` [#21654](https://www.nexusmods.com/skyrimspecialedition/mods/21654)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Путь B (USSEP 4.2.5b): только файл «AI Overhaul for SE Only» — 1.8.7 (AI Overhaul SE Only 1.8.7-21654-1-8-7-1746511421.zip, Panda) или 1.8.6 (FUS). Путь A (мастера 1.6.1170, USSEP 4.3.x): по заметке куратора AE-файл — «AI Overhaul AE 1.8.7» (LoreRim, Tomes of Talos, True North); он помечен как ESL. В VR-списках AE-файл не проверен: при красных мастерах в MO2/xEdit заменить на SE Only 1.8.7. Файл Lite и Scripted BETA не брать.
+- Установщик: нет установщика (отдельные файлы SE Only / AE на странице)
+- Не вместе с: AI Overhaul Lite (если ставится основной)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение», ниже USSEP и модов, меняющих NPC и расписания. Патчи совместимости с NPC-модами — ниже AI Overhaul.
+- Порядок плагина: После USSEP и модов, правящих NPC/пакеты; остальное по LOOT. Если взят AE-файл — он ESL, проверить число плагинов.
+- Настройки: Нужны патчи под NPC-моды (брать только для установленных, из xEdit-конфликтов). Расписания AI Overhaul меняются при загрузке старого сохранения — ставить на новую игру.
+- Проверка: Плагин в списке активен, xEdit не показывает отсутствующих мастеров. Лог Papyrus без ошибок от AI Overhaul.
 - Заметка: Живее распорядок и реакции ванильных NPC. Путь B — файл «SE Only», путь A — AE-файл. Нужны патчи с NPC-модами.
 
 ### Realistic AI Detection (RAID) — `opt` [#2345](https://www.nexusmods.com/skyrimspecialedition/mods/2345)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 7 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `high`
+- Файл: RAID 3: «Realistic AI Detection 3 - Medium Interior Medium Exterior» 3.1 (Realistic AI Detection 3 - Medium Interior Medium Exterior-2345-3-1-1650801751.zip): Panda, Spirit of Grit, Tahrovin-Grit, Yggdrasil VR. Для лёгкого варианта — «RAID 3 - Lite» (FUS, Tahrovin). Только один файл из трёх (Lite / Medium / High).
+- Установщик: нет установщика (отдельные файлы по уровню сложности)
+- Не вместе с: Другие моды, переписывающие формулу обнаружения и скрытности; Второй файл RAID (Lite/Medium/High) одновременно
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». Мод без скриптов, порядок не критичен.
+- Настройки: Менять нечего. Ничего больше про обнаружение не ставить.
+- Проверка: Плагин активен. В стелсе враги замечают игрока заметно раньше, чем в ваниле.
 - Заметка: Зорче зрение и слух врагов, дольше поиски, без скриптов. RAID 3 Medium или Lite.
 
 ### Smart NPC Potions — `opt` [#40102](https://www.nexusmods.com/skyrimspecialedition/mods/40102)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Smart NPC Potions 1.22 (Smart NPC Potions-40102-1-22-1730744765.rar): Spirit of Grit, Tahrovin-Grit. Запасные: 1.11 (Tahrovin), новее — 1.30 (LoreRim, SKP). Архив .rar, нужен 7-Zip-движок MO2.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Другие моды зелий и ядов для NPC
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». Рядом с Apothecary (combat-57138), если тот ставится.
+- Настройки: INI в Data\SKSE\Plugins настраивает шансы — по желанию. Дополняет Apothecary.
+- Проверка: В sksevr.log DLL загружена без ошибки. У врагов в бою есть зелья и яды.
 - Заметка: Враги носят и пьют зелья, используют яды. VR заявлен в changelog.
 
 ### NPC Spell Variance — `opt` [#132097](https://www.nexusmods.com/skyrimspecialedition/mods/132097)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: NPC Spell Variance не старее 2.7.1: 2.7.2 (True North, 2026-09-25) или 2.7.1 (Northern Experience, 2026-09-09). VR-проверенный запасной — 2.4.3 (NPC Spell Variance-132097-2-4-3-1752745072.7z, Panda), 2.1.5 (Tempus). Необязательный файл «NSV - Vanilla Runes for Spellcasters (SPID)» 2.1.6 (Panda) — только с SPID VR.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». Если ставится Adamant (combat-30191) — ниже него.
+- Настройки: После первого запуска просмотреть INI. KID/SPID-аддоны для пакетов магии — по желанию.
+- Проверка: В sksevr.log нет ошибки хука при загрузке. Маги в бою меняют заклинания, нет вылета при первом бою с магом. Вылет — откатить на 2.4.3.
 - Заметка: Маги-NPC используют весь арсенал. VR-хук исправлен только в 2.7.1 — не брать старее.
 
 ### NPCs React To Invisibility + NPCs React To Necromancy — `opt` [#91480](https://www.nexusmods.com/skyrimspecialedition/mods/91480)
 - Также скачать: Necromancy: https://www.nexusmods.com/skyrimspecialedition/mods/70428
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: NPCs React To Invisibility 1.11 (NPCs React To Invisibility-91480-1-11-1724586730.zip; FUS, Panda) + NPCs React To Necromancy 1.03 (#70428; NPCs React To Necromancy-70428-1-03-1739570458.zip; Panda). Только если ставится Apothecary (combat-57138) — файл «Patch for Apothecary's Ethereal Potions» 1.10 (#91480, Panda). Патчи «Bow of Shadows» (CC нет в наборе) и «No Consequences» не брать.
 - Установщик: неизвестно — общие правила
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». Патч Apothecary — ниже Apothecary.
+- Порядок плагина: Патч Apothecary — после Apothecary, по LOOT.
+- Настройки: Менять нечего.
+- Проверка: Плагины активны. Невидимость или поднятый мертвец рядом с NPC вызывает озвученную реплику.
 - Заметка: Озвученные реакции NPC на невидимость и поднятых мертвецов.
 
 ### Enhanced Reanimation + VR — `opt` [#43500](https://www.nexusmods.com/skyrimspecialedition/mods/43500)
 - Также скачать: VR-файл: https://www.nexusmods.com/skyrimspecialedition/mods/59512
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: VR-файл Enhanced Reanimation VR 1.5.1 со страницы 59512 (Enhanced Reanimation VR-59512-1-5-1-1669711333.7z): 6 VR-списков, описание — «SKSEVR plugin, built from po3's source». Основной Enhanced Reanimation 1.5.1 (#43500, Enhanced Reanimation-43500-1-5-1-1665607585.7z) ставят под него только Spirit of Grit, Tahrovin, Tahrovin-Grit; Panda, Tempus, Yggdrasil — один VR-файл. Версию SE 1.5.2 без VR-обновления не ставить.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Enhanced Reanimation SE 1.5.2 (DLL без VR)
+- Порядок в MO2: Если нужен основной файл — отдельный мод «Enhanced Reanimation», ниже него «Enhanced Reanimation VR» (VR выше по приоритету, перезаписывает DLL). Раздел «13 Мир, ИИ, погружение».
+- Настройки: Сначала открыть VR-архив: если в нём есть ESP и ассеты — основной файл не нужен. Если ESP нет — поставить основной 1.5.1 и перезаписать DLL VR-файлом. В Data\SKSE\Plugins не должно остаться двух DLL Enhanced Reanimation.
+- Проверка: В sksevr.log DLL VR загружена без ошибки. Поднятый мертвец встаёт с анимацией и эффектом.
 - Заметка: Улучшенное поднятие мёртвых. Основной 1.5.1 и VR-файл 1.5.1 поверх; SE 1.5.2 без VR-обновления не ставить.
 
 ### Frozen Electrocuted Combustion VR — `opt` [#59118](https://www.nexusmods.com/skyrimspecialedition/mods/59118)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Два архива: сначала оригинал Frozen Electrocuted Combustion 5.1.0 со страницы 3532 (Frozen Electrocuted Combustion-3532-5-1-0-1668639002.7z; во всех 7 VR-списках), затем поверх FEC VR 5.1.0.4 со страницы 59118 (FEC VR-59118-5-1-0-4-1702713188.7z; Librum, Panda, Grit, Tahrovin-Grit, Tahrovin). FEC 6.x (True North) не брать. Заметка куратора «VR вместо SE 3532» неверна: описание VR-файла — «requires original FEC to run».
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); powerofthree's Papyrus Extender + Papyrus Extender VR (#22854)
+- Не вместе с: Frozen Electrocuted Combustion 6.x (SE-версия новее 5.1.0)
+- Порядок в MO2: Два мода: «FEC» выше, «FEC VR» ниже и перезаписывает. Раздел «09 Свет, погода, вода, VFX» или «13». Патч Embers XD — ниже обоих.
+- Порядок плагина: Плагин FEC после Papyrus Extender; остальное по LOOT.
+- Настройки: Если ставится Embers XD (world-37085): добавить «Embers XD - Frozen Electrocuted Combustion Patch» (#69446; 2.0 у Panda, 1.0 у Tempus) — в manifest его нет. Остальные патчи FEC (Ordinator и т.п.) не нужны.
+- Проверка: В sksevr.log DLL FEC VR загружена. Убитый огнём враг обугливается, замороженный покрыт льдом.
 - Заметка: Замороженные, обугленные и наэлектризованные тела. Брать VR-страницу, не SE 3532.
 
 ### Arena — An Encounter Zone Overhaul — `opt` [#33487](https://www.nexusmods.com/skyrimspecialedition/mods/33487)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Arena - An Encounter Zone Overhaul 1.2.0, основной файл (Arena - An Encounter Zone Overhaul-33487-1-2-0-1687450157.7z; Stormcrown VR, Panda, FUS). Файл «Harder Easy Spawns» не брать.
 - Установщик: неизвестно — общие правила
+- Не вместе с: Open World Loot (в manifest нет); Другие моды, переделывающие encounter zones
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение», рядом с Locational Encounter Zones.
+- Порядок плагина: По LOOT.
+- Настройки: Менять нечего. Совместим с Locational Encounter Zones (85212): ставить оба.
+- Проверка: Плагин активен. Уровни врагов в регионе не равны уровню игрока на низких уровнях.
 - Заметка: Опасность растёт по регионам, а не под уровень игрока. Совместим с Locational Encounter Zones.
 
 ### Trade and Barter — `opt` [#23081](https://www.nexusmods.com/skyrimspecialedition/mods/23081)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Trade and Barter SE 2.2 (Trade and Barter SE-23081-2-2-1737695883.7z; Panda). Запасные — 2.1 (Tempus, Librum), 2.0 (Grit, Ygg). Отдельного VR-файла нет.
 - Установщик: неизвестно — общие правила
+- Не вместе с: Другие моды на цены, торговлю и золото торговцев
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Порядок плагина: По LOOT.
+- Настройки: Курсы и золото торговцев менять в INI/MCM по желанию.
+- Проверка: Плагин активен. В торговле другие цены и золото торговцев, чем в ваниле.
 - Заметка: Настройка курсов торговли и золота торговцев.
 
 ### Realistic Mining and Chopping for VR + VR Refit — `rec` [#16692](https://www.nexusmods.com/skyrimspecialedition/mods/16692)
 - Также скачать: VR Refit: https://www.nexusmods.com/skyrimspecialedition/mods/49205
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Два архива. 1) Realistic Mining and Chopping for VR, файл «for VR - USSEP» 1.1.0 (Realistic Mining and Chopping for VR - USSEP-16692-1-1-0.zip; 8 VR-списков, в том числе Tempus на USSEP 4.3.2). 2) VR Refit - Mine Chop and Drop 1.0.4 со страницы 49205 (VR Refit - Mine Chop and Drop-49205-1-0-4-1648691454.zip; 6 VR-списков; 1.0.3 — FUS, Librum). Файл «Infinite Mining Nodes» не брать.
 - Установщик: неизвестно — общие правила
+- Требует: USSEP 4.3.x (#266, путь A) или USSEP 4.2.5b (#266 Old files, путь B)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». VR Refit — отдельным модом ниже основного.
+- Порядок плагина: Оба плагина ниже USSEP.
+- Настройки: Требования на странице проверить: скорее всего SKSEVR, а VR Refit — HIGGS (уже в наборе). Оба файла стоят в 6 VR-списках вместе.
+- Проверка: У рудной жилы и дерева нужны реальные удары киркой и топором. Руда и дрова падают физическими предметами.
 - Заметка: Руду и дрова добывают настоящими взмахами, а VR Refit роняет их физическими предметами. Файл «for VR - USSEP». 8 VR-сборок.
 
 ### Gift by Hand VR — `opt` [#99809](https://www.nexusmods.com/skyrimspecialedition/mods/99809)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Main file - Gift By Hand VR 2.1.0 (Main file - Gift By Hand VR-99809-2-1-0-1700472570.zip; FUS, Panda, Grit x2, Tahrovin; у Tempus файл с префиксом «1_Main file»). Остальные необязательные файлы не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение» или рядом с HIGGS; ниже HIGGS (vr-43930).
+- Настройки: По описанию мод использует захват рукой — вероятно, зависит от HIGGS (он в наборе). Подтвердить по вкладке Requirements.
+- Проверка: Отдать предмет компаньону, протянув руку. В sksevr.log нет ошибок плагина.
 - Заметка: Отдать предмет NPC, протянув его рукой.
 
 ### Sleeping Expanded — `opt` [#59250](https://www.nexusmods.com/skyrimspecialedition/mods/59250)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Sleeping Expanded 1.22 (Sleeping Expanded-59250-1-22-1670752210.zip): все 7 VR-списков, один и тот же архив с SE. Старый «Animations and NPC Reactions» 1.21 не нужен.
 - Установщик: неизвестно — общие правила
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Порядок плагина: По LOOT.
+- Настройки: Если установщик или страница требуют OAR — Open Animation Replacer (anim-92109) уже в наборе. Если мод кладёт behavior-файлы, перегенерировать их Pandora (tools-133232). Состав архива не проверен.
+- Проверка: NPC дышат во сне, при пробуждении ночью озвучены реакции.
 - Заметка: Разные позы сна NPC и реакции на спящих.
 
 ### Be Seated — Skyrim VR Edition — `opt` [#16613](https://www.nexusmods.com/skyrimspecialedition/mods/16613)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Be Seated 4.2.5, VR-редакция (Be Seated 4.2.5-16613-4-2-5-1655673281.zip; FUS, Librum, Tempus, Yggdrasil VR).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Настройки: Проверить Requirements на странице: вероятно, нужен SkyUI VR для MCM. Возможное перекрытие с Take a Seat (anim-54193) — оба про сидение; не включать оба без проверки.
+- Проверка: Можно сесть на землю или у костра. Нет вылетов при вставании.
 - Заметка: Сесть где угодно — на землю, у костра.
 
 ### SunHelm Survival — `opt` [#39414](https://www.nexusmods.com/skyrimspecialedition/mods/39414)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: SunHelm Survival 3.1.4 (SunHelm Survival-39414-3-1-4-1661703641.7z; FUS, Panda, Spirit of Grit, Tahrovin-Grit). Ygg — 3.1.2a, Librum — 2.0.6 не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); SkyUI VR (#91535)
+- Не вместе с: Survival Mode Improved SKSE (в списке запретов); Режим выживания CC одновременно с SunHelm
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Порядок плагина: По LOOT.
+- Настройки: Плагин CC Survival Mode не удалять (путь A): страница SunHelm сама отключает CC-выживание. Настройки — в MCM. Начинать на новой игре.
+- Проверка: В MCM есть пункт SunHelm. В игре появляются голод, жажда, усталость; предложения CC-выживания нет.
 - Заметка: Голод, жажда, усталость, холод. CC-выживание на странице отключено, дубля нет.
 
 ### Recipe Auto-Learn + Reading Is Good — `opt` [#84909](https://www.nexusmods.com/skyrimspecialedition/mods/84909)
 - Также скачать: Reading Is Good VR: https://www.nexusmods.com/skyrimspecialedition/mods/42026
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Recipe Auto-Learn 1.1.1 (Recipes 1.1.1-84909-1-1-1-1677267647.rar; FUS, Panda, Tempus VR; 1.2.0 — новее, SE). Reading Is Good — только VR-файл «Reading Is Good VR» 1.1.2 со страницы 42026 (Reading Is Good VR-42026-1-1-2-1664479626.7z; Spirit of Grit, Tahrovin-Grit); SE-файл «Reading Is Good SE» не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Reading Is Good SE (файл SE той же страницы)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». Хорошо работает с Apothecary.
+- Настройки: Менять нечего. Мод Reading Is Good (SKSE) — отдельный DLL, оба плагина должны быть в Data\SKSE\Plugins.
+- Проверка: В sksevr.log обе DLL загружены. Прочитанная книга навыка даёт опыт сразу, рецепт открывает эффекты ингредиентов.
 - Заметка: Рецепты открывают эффекты ингредиентов; книги навыков дают опыт сразу. У Reading Is Good брать VR-файл.
 
 ### Mum's the Word NG — `opt` [#77409](https://www.nexusmods.com/skyrimspecialedition/mods/77409)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Mum's the Word NG 2.1 (Mum's the Word-77409-2-1-1666299465.zip; Librum, Tahrovin, Grit x2, Tempus VR). Версия 2.2 (SKP) в VR не проверена.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Настройки: Менять нечего. Описание: одна DLL на CLib-NG для всех SE, AE 1.6.629+ и VR.
+- Проверка: В sksevr.log DLL загружена. Украденная вещь без свидетелей не помечена «украдено».
 - Заметка: Снимает метку «украдено», если кражу никто не видел — с HIGGS легко схватить чужое. VR заявлен.
 
 ### Honed Metal — `opt` [#61015](https://www.nexusmods.com/skyrimspecialedition/mods/61015)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: VR-файл: VR
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Только «Honed Metal VR» 1.23 (Honed Metal VR-61015-1-23-1646437077.7z; Spirit of Grit, Tahrovin-Grit, Tempus). Основной SE/AE-файл 1.26.1 вместо VR не брать: Tempus ставит его вместе с VR-файлом, Grit-списки — один VR-файл. Файл «HonedMetal.ini - Ordinator» нужен только при Ordinator (в наборе нет).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); SkyUI VR (#91535)
+- Не вместе с: Honed Metal SE/AE-файл как замена VR-файла
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Порядок плагина: По LOOT.
+- Настройки: Настройка — MCM. Если VR-архив окажется неполным (нет ESP) — поставить основной 1.26.1 и перезаписать VR-файлом.
+- Проверка: В MCM есть Honed Metal. Кузнец за плату куёт и зачаровывает.
 - Заметка: Кузнецы и маги за плату куют и зачаровывают снаряжение.
 
 ### GIST — Genuinely Intelligent Soul Trap — `opt` [#15755](https://www.nexusmods.com/skyrimspecialedition/mods/15755)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: GIST Soul Trap 1.3 (GIST Soul Trap-15755-1-3.zip): 6 VR-списков.
 - Установщик: неизвестно — общие правила
+- Не вместе с: Другие моды переработки захвата душ
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». Патчи совместимости — ниже.
+- Порядок плагина: По LOOT.
+- Настройки: Если Mysticism (combat-27839) трогает захват душ — на страницах Mysticism/GIST искать патч (FUS ставит такой для Sorcerer). Название патча неизвестно.
+- Проверка: Плагин активен. Душа идёт в камень по размеру.
 - Заметка: Душа идёт в самый подходящий камень.
 
 ### SCIE — Crafting Inventory Extender — `opt` [#170497](https://www.nexusmods.com/skyrimspecialedition/mods/170497)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: SCIE-Main 2.6.0.0 или новее — в нём исправлены VR-вылет на старте (Hook 5) и нулевые счётчики. Tempus VR ставит SCIE-Main 2.5.3 (SCIE-Main-v2.5.3.zip-170497-2-5-3-0-1769949698.zip) — старее, не брать. Необязательные файлы: SCIE-HomeConfigs (есть у Tempus), CCOR/DLC/Babel — не нужны.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Skyrim VR ESL Support (#106712)
+- Не вместе с: Craft from Containers и другие моды «крафт из сундуков»
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Порядок плагина: По LOOT.
+- Настройки: SkyUI VR нужен только для MCM. Ограничение VR: глобальные контейнеры могут не работать для неперсистентных ссылок (мод пишет об этом сам). Локальные контейнеры работают.
+- Проверка: В sksevr.log DLL загружена, старт игры без вылета. У верстака в списке материалов есть предметы из соседних сундуков, счётчики не нулевые.
 - Заметка: Верстак берёт материалы из ближних сундуков и у спутников. В 2.6 исправлен VR-вылет на старте.
 
 ### Dirt and Blood — `opt` [#38886](https://www.nexusmods.com/skyrimspecialedition/mods/38886)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Dirt and Blood 2.37 (Dirt and Blood-38886-2-37-1735311983.rar; Librum VR, Panda) + «Optional patch for VR - No Washing Animation» (Optional patch for VR - No Washing Animation-38886-1-66-1612390710.zip; Librum VR). Версию 2.38 (SKP) не брать.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457)
+- Не вместе с: Wash That Blood Off 2 VR (#62372) — не ставить вместе, функции смыва пересекаются
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». VR-патч — ниже основного.
+- Порядок плагина: VR-патч — после основного.
+- Настройки: Патч «No Washing Animation» ставить всегда. Если нужен Wash That Blood Off 2 VR (62372, 5 VR-списков) — выбрать что-то одно.
+- Проверка: На теле копятся грязь и кровь. При входе в воду нет анимации умывания.
 - Заметка: На телах копятся грязь и кровь, смываются водой. Поставить VR-патч «No Washing Animation».
 
 ### Dynamic Things Alternative + Random Barrel Roll — `opt` [#60741](https://www.nexusmods.com/skyrimspecialedition/mods/60741)
 - Также скачать: Random Barrel Roll: https://www.nexusmods.com/skyrimspecialedition/mods/78195
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Dynamic Things Alternative - Base Object Swapper 0.3 (Dynamic Things Alternative - Base Object Swapper-60741-0-3-1728083488.7z; Panda, Tempus VR) — VR-проверенная. 0.5 (Stormcrown VR, 2026) — новее и «с DLL»: брать после проверки лога. Random Barrel Roll 0.1.1 (Random Barrel Roll-78195-0-1-1-1744090974.7z; Panda) или 0.1 (Grit, Tempus).
 - Установщик: неизвестно — общие правила
+- Требует: Base Object Swapper VR (#61734); SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение», ниже Base Object Swapper VR. С Lightened Skyrim BOS не пересекается.
+- Настройки: Если взят 0.5 и в sksevr.log ошибка DLL — вернуть 0.3.
+- Проверка: В sksevr.log Base Object Swapper применил SWAP-файлы, ошибок нет. В мире больше разных контейнеров, бочки повёрнуты по-разному.
 - Заметка: Разнообразие контейнеров и случайный поворот бочек через BOS VR.
 
 ### Better Resource Warnings — `opt` [#26751](https://www.nexusmods.com/skyrimspecialedition/mods/26751)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `plugin_only` · установка `mo2_mod` · надёжность данных `high`
+- Файл: Better Resource Warnings 2.2 (Better Resource Warnings-26751-2-2-1609018535.7z; FUS, Librum, Panda, Ygg).
 - Установщик: неизвестно — общие правила
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Настройки: Пороги здоровья и запаса сил — в настройках мода. Частично дублирует Immersive HUD и полоски на запястье Spell Wheel VR; при дубле отключить пороги здесь.
+- Проверка: При низком здоровье слышны сердцебиение и дыхание.
 - Заметка: Сердцебиение и дыхание при низком здоровье — в шлеме звук заметнее полосок.
 
 ### Sink Or Swim NG — `opt` [#78610](https://www.nexusmods.com/skyrimspecialedition/mods/78610)
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `skse_dll` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Sink Or Swim NG 1.9 (Sink Or Swim NG-78610-1-9-1668230874.rar; Librum VR, Spirit of Grit, Tahrovin, Tahrovin-Grit). Старый Sink Or Swim со страницы 42962 не ставить: Librum VR живёт без него; Grit-списки держат оба (причина неизвестна).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: Sink Or Swim (#42962, старая версия)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение».
+- Настройки: Если описание файла NG требует оригинал — поставить 42962 первым и перезаписать NG; иначе только NG.
+- Проверка: В sksevr.log DLL загружена. В тяжёлой броне игрок идёт по дну, остальные тонут медленнее.
 - Заметка: В тяжёлой броне игрок тонет и идёт по дну. Сборка NG для AE/VR, не старая 42962.
 
 ### Tamrielic Names + NPCs Names Distributor — `opt` [#73153](https://www.nexusmods.com/skyrimspecialedition/mods/73153)
 - Также скачать: NND: https://www.nexusmods.com/skyrimspecialedition/mods/73081
-- Фаза 7 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 7 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Tamrielic Names 1.2.1 (Tamrielic Names-73153-1-2-1-1725015432.zip; CSVP, LoreRim, Nordic Souls, Wunduniik, Northern Experience) + NPCs Names Distributor (#73081): 2.6.2 (LoreRim) или 2.6.3 (Northern Experience, 2026-09-01). Среди VR-списков не используется. Файл «NPCs Names Distributor INI» не нужен.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Spell Perk Item Distributor VR (#59121)
+- Порядок в MO2: Раздел «13 Мир, ИИ, погружение». NND выше, Tamrielic Names ниже (его конфиги перезаписывают).
+- Настройки: Tamrielic Names — только конфиги для NND. Проверить в архиве NND наличие VR-сборки DLL. Если у NND нет VR-DLL — пропустить пару целиком.
+- Проверка: В sksevr.log NND загружен. Безымянные NPC получают имена по расе.
 - Заметка: Безымянные NPC получают имена по расе. Полезно с ИИ-NPC.
 
 ## 14 ИИ-NPC
 
 ### SkyrimNet — `opt` [ссылка](https://github.com/MinLL/SkyrimNet-GamePlugin/releases)
-- Фаза 9 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
-- Установщик: неизвестно — общие правила
+- Фаза 9 · тип `mixed` · установка `mo2_mod` · надёжность данных `medium`
+- Файл: Основной архив SkyrimNet из последнего релиза GitHub: MinLL/SkyrimNet-GamePlugin, Beta26 (тег vbeta26-rc4, 03.10.2026, четыре файла в релизе; имена не получены). Голоса Piper TTS — отдельным модом, только если выбран Piper.
+- Установщик: нет установщика (по README): поставить мод, включить SkyrimNet.esp, дальше мастер настройки в браузере
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Skyrim VR ESL Support (#106712); Skyrim VR Refocused (#32737); MFG Fix NG (#133568); PapyrusUtil VR (#13048); powerofthree's Papyrus Extender + Papyrus Extender VR (#22854); powerofthree's Tweaks + po3 Tweaks VR (#51073)
+- Не вместе с: Mantella (ai-98631); CHIM (ai-126330); Backported Extended ESL Support (в списке запретов)
+- Группа «одно из»: `ai-npc`
+- Порядок в MO2: Раздел «14 ИИ-NPC», ниже всех NPC-модов. Prisma UI и Media Keys Fix — в «02 SKSEVR и библиотеки».
+- Порядок плагина: SkyrimNet.esp — после Skyrim VR ESL Support; остальное по LOOT.
+- Настройки: Нужен ключ OpenRouter (или совместимый OpenAI API), CPU с AVX2. У po3 Tweaks оставить включённым «Load EditorIDs». Запуск через SKSE, затем localhost:8080 — мастер настройки. DBVO (1.1.1, не 2.x) и CUDA 12.x (не 13.x) — по желанию; DBVO в VR требует VR-патч DBVO. Piper-голоса, если Piper.
+- Проверка: В sksevr.log SkyrimNet загружен. localhost:8080 открывается, мастер пройден, NPC отвечают на реплику.
 - Заметка: Развивается активнее всех, VR-фиксы почти в каждой бете. Для VR требует Skyrim VR ESL Support, Refocused, MFG Fix NG, po3 Tweaks SE и VR. Модели через OpenRouter, часть платная.
 
 ### Mantella — `opt` [#98631](https://www.nexusmods.com/skyrimspecialedition/mods/98631)
-- Фаза 9 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 9 · тип `mixed` · установка `mo2_mod` · надёжность данных `low`
+- Файл: Mantella 0.14 — основной файл со страницы 98631 (релиз 0.14 на GitHub art-from-the-machine/Mantella от 21 апреля). Страница заявляет VR / SE / AE. Модель по умолчанию — бесплатная Gemma 4 через API. Голос — Piper или XTTS; распознавание речи — Moonshine или Whisper.
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); PapyrusUtil VR (#13048)
+- Не вместе с: SkyrimNet (ai-0); CHIM (ai-126330); Fuz Ro D-oh VR (вылеты, в списке запретов)
+- Группа «одно из»: `ai-npc`
+- Порядок в MO2: Раздел «14 ИИ-NPC», ниже всех NPC-модов.
+- Порядок плагина: После USSEP (требование страницы); остальное по LOOT.
+- Настройки: Для PapyrusUtil брать VR-версию (в наборе). Приложение Mantella запускается отдельно; ключ API и голос настраиваются в его интерфейсе. Список требований страницы 0.14 не прочитан — сверить вкладку Requirements.
+- Проверка: В sksevr.log плагин загружен. Запущен Mantella, NPC отвечает голосом на реплику из микрофона.
 - Заметка: Проще в настройке, бесплатная модель по умолчанию, голос Piper или XTTS. Замечены вылеты вместе с Fuz Ro D-oh.
 
 ### CHIM — `opt` [#126330](https://www.nexusmods.com/skyrimspecialedition/mods/126330)
-- Фаза 9 · тип `unknown` · установка `mo2_mod` · надёжность данных `low`
-- Файл: основной файл
+- Фаза 9 · тип `guide_steps` · установка `manual_steps` · надёжность данных `low`
+- Файл: Два шага. 1) Мод CHIM со страницы 126330 (файл AIAgent) в MO2. 2) Внешний сервер: DwemerDistroInstaller.exe из релиза Dwemer-Dynamics/DwemerDistro-Launcher (не ZIP), запуск от администратора, затем в лаунчере в Quickstart выбрать CHIM. Нативный плагин CHIM — одна DLL для SE, AE и VR (README).
 - Установщик: неизвестно — общие правила
+- Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101)
+- Не вместе с: SkyrimNet (ai-0); Mantella (ai-98631)
+- Группа «одно из»: `ai-npc`
+- Порядок в MO2: Раздел «14 ИИ-NPC», ниже всех NPC-модов.
+- Порядок плагина: По LOOT.
+- Настройки: Сервер, ключи API и голос настраивать в веб-интерфейсе DwemerDistro. Список модов-требований страницы 126330 не прочитан — сверить вкладку Requirements. После обновления мода обновлять и сервер.
+- Проверка: В sksevr.log CHIM загружен. DwemerDistro запущен, NPC отвечает на реплику.
 - Заметка: Больше всего возможностей, ставится сложнее всех.
 
 ## 15 VR-рантайм и производительность

@@ -88,6 +88,18 @@ for key, patch in extra_cfg.get('mod_patches', {}).items():
         if m['key'] == key:
             m.update(patch)
 
+def _fix(v):
+    if isinstance(v, str):
+        for a, b in extra_cfg.get('text_fixes', []):
+            v = v.replace(a, b)
+        return v
+    if isinstance(v, list):
+        return [_fix(x) for x in v]
+    return v
+for m in mods:
+    for k in list(m.keys()):
+        m[k] = _fix(m[k])
+
 groups = crit.get('choose_one_groups', [])
 if not groups:  # критик ещё не отработал — собираем группы из карточек
     _g = collections.OrderedDict()

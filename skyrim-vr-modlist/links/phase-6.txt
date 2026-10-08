@@ -1,65 +1,65 @@
 # Фаза 6: Анимации и физика, затем Pandora
 # Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
 
-# [core] Open Animation Replacer — основной файл
+# [core] Open Animation Replacer — Main «Open Animation Replacer» 3.2.1 (Yggdrasil VR, 2026-08-31: «Open Animation Replacer 92109 3.2.1») — один архив для SE/AE/VR, отдельного VR-файла нет. Версии 2.3.6 (Panda, Tempus, Tahrovin, Librum, FUS) и 2.1.0 (Grit) — только как откат, если 3.2.1 не загрузится. Пре-релизы и файлы для моддеров не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/92109
 
-# [rec] Paired Animation Improvements — основной файл
+# [rec] Paired Animation Improvements — Main «Paired Animation Improvements» 1.0.3 (Yggdrasil VR, 2026-08-31), иначе 1.0.2 (Panda, FUS, Tempus, Librum, Grit). Файл «Horse Mount and Dismount Double Sound Fix» (тот же ID) — не ставить, если нет двойного звука посадки на коня (Panda и FUS берут).
 https://www.nexusmods.com/skyrimspecialedition/mods/99621
 
-# [rec] Mu Joint Fix (DLL) — основной файл
+# [rec] Mu Joint Fix (DLL) — Main «Mu Joint Fix» 2.1.3 (Yggdrasil VR, 2026-09-18: «MuJointFix 61479 2.1.3»), запасной вариант 2.1.2 (Librum VR, Yggdrasil VR). Старую 2.0.17 не брать. Назначение мода и состав архива не подтверждены — смотреть описание на странице.
 https://www.nexusmods.com/skyrimspecialedition/mods/61479
 
-# [opt] FSMP — Faster HDT-SMP — основной файл
+# [opt] FSMP — Faster HDT-SMP — Только если в сборке есть SMP-волосы или одежда. Вариант A (VR-проверен в свежем списке): основной файл «FSMP 4.0.1» (Tahrovin - Grit, 2026-07-05). Вариант Б (проверен в Panda's и Tahrovin): «Faster HDT-SMP» 2.5.1 + отдельный файл «XML VR» 1.0 (конфиги для VR от Alandtse). Версию 4.1.1 (SE-списки, 2026-08) брать, только если её установщик явно предлагает рантайм Skyrim VR/1.4.15. Файлы 1.50.9 rc1 / 2.1.3 (Grit) — устарели.
 https://www.nexusmods.com/skyrimspecialedition/mods/57339
 
-# [opt] Dynamic Armor Physics — основной файл
+# [opt] Dynamic Armor Physics — Main «Dynamic Armor Physics - Latest Version» 1.0.3 (Stormcrown VR, 2026-08-01) — VR-проверено; 1.0.4 (SUP, SE) — только после проверки sksevr.log. Единственный VR-список — Stormcrown.
 https://www.nexusmods.com/skyrimspecialedition/mods/186346
 
-# [core] XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR — основной файл
+# [core] XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR — Ставить ДВА мода. 1) Основной «XP32 Maximum Skeleton Special Extended» (#1988), файл 5.06 (Panda, Tahrovin, Grit, Librum VR, CSVP). Версии 4.80/4.81 (Tempus, Yggdrasil VR) — не брать. 2) Отдельным модом «XP32 First Person Skeleton CTD Bugfix for VR» (#34301): самая свежая 5.06-1 (Librum VR, 2025-10), иначе 5.06 (Panda, Tempus, Grit). Версию 4.71 (Yggdrasil) вместе с 5.06 не брать. Основной файл без VR-фикса в VR даёт вылеты.
 https://www.nexusmods.com/skyrimspecialedition/mods/1988
 https://www.nexusmods.com/skyrimspecialedition/mods/34301
 
-# [rec] NPC Animation Remix + Gesture Animation Remix (OAR) — основной файл
+# [rec] NPC Animation Remix + Gesture Animation Remix (OAR) — NPC Animation Remix (OAR): «main archive» последней OAR-версии (2.3.0 — SE-списки 2026-06; VR-проверено 2.0.0 в Panda's и FUS) + «shield patch» той же ветки (2.0.0 у Panda/FUS; ставят все VR-списки). Gesture Animation Remix (#64420): «main archive» (OAR) 2.1.1 + «shield patch» 1.2.0 (Panda, FUS). Если 2.3.0 вызывает ошибки OAR — откат на 2.0.0. Не брать DAR-архивы (1.x) и «(no looped idles)».
 https://www.nexusmods.com/skyrimspecialedition/mods/63471
 https://www.nexusmods.com/skyrimspecialedition/mods/64420
 
-# [rec] Expressive Facial Animation — Male + Female — основной файл
+# [rec] Expressive Facial Animation — Male + Female — Два архива, оба Main: «Expressive Facial Animation - Male Edition» (#19532) 1.21 и «Expressive Facial Animation - Female Edition» (#19181) 1.7 — как во всех 7 VR-списках.
 https://www.nexusmods.com/skyrimspecialedition/mods/19532
 https://www.nexusmods.com/skyrimspecialedition/mods/19181
 
-# [opt] Pristine Vanilla Movement — основной файл
+# [opt] Pristine Vanilla Movement — Main «Pristine Vanilla Movement» 1.1.1 (все 6 VR-списков: Librum, Panda, Grit, Tahrovin, Tahrovin-Grit, Tempus). «Sprint - No Camera Shake» не брать (в VR нет тряски камеры).
 https://www.nexusmods.com/skyrimspecialedition/mods/66635
 
-# [opt] Arm Movement Animations (OAR) — основной файл
+# [opt] Arm Movement Animations (OAR) — Main «Arm Movement Animations (OAR)» 2.2.0 (Panda, FUS, CSVP, Nordic Souls). Не брать DAR-версии «Immersive Folded Hands» 1.x и «Harkon dialogue moving animation replacer (DAR folder)».
 https://www.nexusmods.com/skyrimspecialedition/mods/62849
 
-# [opt] Take a Seat + Improved Table Transitions — основной файл
+# [opt] Take a Seat + Improved Table Transitions — Take a Seat: «Take a Seat - OAR Animations» 1.01 (Tempus, Panda, Librum, Nordic Souls, LoreRim) — не DAR 1.0. Improved Table Transitions (#84160): вариант «Improved Table Sit Transition OAR» 1.4 (Panda's, CSVP) или 1.5 (NGVO, 2025-09); «Improved Table Transitions» 1.3 (Librum, LoreRim) — старая.
 https://www.nexusmods.com/skyrimspecialedition/mods/54193
 https://www.nexusmods.com/skyrimspecialedition/mods/84160
 
-# [opt] Lively Children Animations (OAR) — основной файл
+# [opt] Lively Children Animations (OAR) — Main «Lively Children Animations (OAR)» 2.2.1 (Panda's VR, CSVP, Nordic Souls). DAR 1.0.0 (Yggdrasil, Elysium) не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/67557
 
-# [opt] EVG Conditional Idles — основной файл
+# [opt] EVG Conditional Idles — Только «EVG Conditional Idles» 1.51 (Tempus, Panda, FUS, CSVP, SUP). «EVG Animation Variance» (#38534) НЕ брать: по заметке куратора дублирует Remix (VR-списки его ставят — отклонение сознательное). «(beta) Wade In Water Animations» не брать. 1.42 (Yggdrasil) — устарела.
 https://www.nexusmods.com/skyrimspecialedition/mods/34006
 
-# [opt] Goetia Animations — Spell Casting + Conditional Shouts — основной файл
+# [opt] Goetia Animations — Spell Casting + Conditional Shouts — «Goetia Animations - Magic Spell Casting» 1.4 (Tempus, Panda, CSVP, Nordic Souls, NGVO; в SUP — 1.5b) и «Goetia Animations - Conditional Shouts» (#76388) 1.2 (Tempus, Panda). «Momentum Whirlwind Sprint» (Panda, #76388) — не брать, это для игрока в 3-м лице.
 https://www.nexusmods.com/skyrimspecialedition/mods/70204
 https://www.nexusmods.com/skyrimspecialedition/mods/76388
 
-# [opt] Leviathan / Vanargand Animations (стойки и атаки NPC) — основной файл
+# [opt] Leviathan / Vanargand Animations (стойки и атаки NPC) — Стойки и атаки NPC, семь архивов (как в Panda's Sovngarde): Leviathan — «Two-Handed High Stance SE» (#47092) 1.4, «Two-Handed Normal Attacks For High Stance» (#48550) 1.2, «Two-Handed Power Attacks For High Stance» (#50545) 1.4c; Vanargand — «One handed Mid Stance» (#57544) 1.2, «One handed Normal Attacks» (#58326) 1.1, «One Handed Power Attacks» (#58997) 1.2, «Dual Wield Attacks» (#63566) 1.0. Sneak-пакеты Vanargand для игрока не брать. В SE-списках 2026 (SUP) — 1.5/1.4/1.5/1.4b — только после проверки.
 https://www.nexusmods.com/skyrimspecialedition/mods/47092
 
-# [opt] Conditional Tavern Cheering (OAR) — основной файл
+# [opt] Conditional Tavern Cheering (OAR) — Main «Conditional Tavern Cheering (OAR)» 1.3.0 (Panda, FUS, CSVP, Nordic Souls). DAR 1.0.3 (Tempus, Yggdrasil) не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/63029
 
-# [opt] Super Fast Get Up Animation — основной файл
+# [opt] Super Fast Get Up Animation — Main «Super Fast Get Up Animation» 1.0 (5 VR-списков и 9 SE-списков, везде один файл 1615242774).
 https://www.nexusmods.com/skyrimspecialedition/mods/46714
 
-# [try] Variadic Collision Dynamics — основной файл
+# [try] Variadic Collision Dynamics — «Variadic Collision Dynamics» (#183892) последняя 1.3.5 (True North, SE, 2026-09-19) + «Resources» (#184110) 1.0.11. По чейнджлогу с 1.3.2 одна DLL для SE/AE/VR. VR-списков нет — ставить только по разрешению (метка try).
 https://www.nexusmods.com/skyrimspecialedition/mods/183892
 https://www.nexusmods.com/skyrimspecialedition/mods/184110
 
-# [try] A-Pose Bug Fix — основной файл
+# [try] A-Pose Bug Fix — «A-Pose Fix» (#168903) v1.1.0 (NGVO, Tomes of Talos; Nordic Souls — v1.1.0-a 2026-03). VR-файла нет. Ставить только если появилась A-поза.
 https://www.nexusmods.com/skyrimspecialedition/mods/168903

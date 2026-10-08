@@ -67,7 +67,7 @@ SECTIONS = [
             dict(name="VR Address Library for SKSEVR", id=58101, ver="0.27x, окт. 2026", tag="core",
                  note="Обновлять вместе с каждым SKSE-плагином: новые версии плагинов просят новые адреса."),
             dict(name="Engine Fixes VR", id=62089, ver="7.10", tag="core",
-                 note="Part 1 — мод, Part 2 — в корень. В EngineFixes.toml поставить MaxStdio = 8192: это требование Skyrim VR ESL Support. Старый отдельный ObjectLOD/Shadow Map fix не ставить — он уже внутри с 7.4.9."),
+                 note="Part 1 — мод, Part 2 — в корень. В EngineFixes.toml (запустить игру один раз, файл создаётся сам) в секции [Patches] оставить bMaxStdIO = true — это значение по умолчанию и требование Skyrim VR ESL Support. Старый отдельный ObjectLOD/Shadow Map fix не ставить — он уже внутри с 7.4.9."),
             dict(name="Skyrim VR ESL Support", id=106712, ver="1.3.2", tag="core",
                  note="ESL и ESPFE в VR, включая расширенный диапазон 1.6.1130. Работает только с официальным SKSEVR 2.0.12. Должен стоять до запуска DynDOLOD."),
             dict(name="Crash Logger SSE AE VR", id=59818, tag="core", note="Логи вылетов. Без него конфликт в 300 модах не найти."),

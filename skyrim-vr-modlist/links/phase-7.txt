@@ -1,151 +1,151 @@
 # Фаза 7: Бой, геймплей, мир и ИИ
 # Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
 
-# [rec] Blade and Blunt + Blade and Blunt VR — основной файл
+# [rec] Blade and Blunt + Blade and Blunt VR — Ставить ДВА мода. 1) Основной «Blade and Blunt - A Combat Overhaul» (#34549) 3.8.3 (Stormcrown VR, 2025-09); fallback 3.7.4 (Tempus, Panda, Tahrovin, FUS). Версии 4.0.x (SE-списки 2026-08) — НЕ брать: Stormcrown VR после выхода 4.0 остался на 3.8.3 и VR-порта под 4.x в списках нет. Версия 1.4.1 (Grit, Yggdrasil, FUS) — старая, без DLL, не брать. 2) Поверх — «Blade and Blunt VR» (#120494) 1.0.2 (Stormcrown), иначе 1.0.1 (Tempus, Panda, Tahrovin, FUS). Перед установкой открыть страницу #120494 и сверить, какие версии основного она поддерживает.
 https://www.nexusmods.com/skyrimspecialedition/mods/34549
 https://www.nexusmods.com/skyrimspecialedition/mods/120494
 
-# [rec] Adamant + Adamant — VR Tweaks — основной файл
+# [rec] Adamant + Adamant — VR Tweaks — Основной «Adamant - A Perk Overhaul» (#30191) 5.9.2 (все VR-списки, включая Stormcrown). Версию 6.0.x (SE-списки 2026-08) НЕ брать без проверки страницы #190589: Stormcrown VR остался на 5.9.2 и дополнительно ставит «Adamant - VR Tweaks» (#190589) 1.2 (2026-09-04) — этот файл брать поверх. Что именно меняет VR Tweaks и какую версию Adamant он требует — сверить на странице. Опционально (не по умолчанию): «Adamant - Smithing Addon» 5.4.6 (Stormcrown, FUS) и «Simonrim Attack Speed Fix» 1.0.0 (Panda) — их назначение не проверено.
 https://www.nexusmods.com/skyrimspecialedition/mods/30191
 https://www.nexusmods.com/skyrimspecialedition/mods/190589
 
-# [opt] Accuracy — Localized Combat Damage — основной файл
+# [opt] Accuracy — Localized Combat Damage — Main «Accuracy - Latest Version» 1.0.1 (SUP, SE, 2026-09) или VR-проверенная 1.0.0 (Stormcrown VR, 2026-08-07). Один универсальный архив.
 https://www.nexusmods.com/skyrimspecialedition/mods/187578
 
-# [opt] Core Impact Framework — основной файл
+# [opt] Core Impact Framework — Main «Core Impact Framework - Latest Version» 2.0.5 (Stormcrown VR, 2026-08-28). Старые 1.2.x (Tempus, Panda) не брать: конфиги Sanguine Symphony 1.3.x рассчитаны на 2.x.
 https://www.nexusmods.com/skyrimspecialedition/mods/146873
 
-# [opt] Ricochet — Arrow Physics Framework — основной файл
+# [opt] Ricochet — Arrow Physics Framework — Main «Ricochet Framework - Latest Version» 1.1.2 (Stormcrown VR, 2026-08-16); 1.1.3 (SUP, SE) — после проверки. Файл «MCM menu» (MCM-02) — по желанию, Stormcrown VR его не ставит.
 https://www.nexusmods.com/skyrimspecialedition/mods/160603
 
-# [opt] Dismembering Framework — основной файл
+# [opt] Dismembering Framework — Main «Dismembering Framework - Latest Version» 1.2.3 (Yggdrasil VR, 2026-09-02), запасной 1.2.2 (Stormcrown VR). Версии 1.0.6 (Tempus, Grit, Tahrovin) не брать. Работает только вместе с пакетами ресурсов из следующего пункта (#126328).
 https://www.nexusmods.com/skyrimspecialedition/mods/126203
 
-# [opt] NPCs Take Cover — основной файл
+# [opt] NPCs Take Cover — Main «NPCs Take Cover» 1.02 (Stormcrown VR, CSVP, Nordic Souls; формат .rar — MO2 нужен 7-Zip/rar-плагин); 1.01 (Grit, Panda, Librum, LoreRim) — запасная.
 https://www.nexusmods.com/skyrimspecialedition/mods/111890
 
-# [opt] Enemy Friendly Fire — VR-файл: VR
+# [opt] Enemy Friendly Fire — Файл «Enemy Friendly Fire VR» 1.3.1 (Yggdrasil VR, 2026-08-26: «Enemy Friendly Fire VR 50483 1.3.1»). SE-версию 1.3.1/1.2.0/1.1.0 не брать — SE-DLL в VR не загрузится.
 https://www.nexusmods.com/skyrimspecialedition/mods/50483
 
-# [rec] Simple Offence Suppression (VR) — основной файл
+# [rec] Simple Offence Suppression (VR) — Ставить ДВА мода (как Panda's Sovngarde и Yggdrasil VR): 1) основной «Simple Offence Suppression» (#41764) 2.1.0 («Simple Offence Suppression SE» — Yggdrasil); 2) поверх VR-файл «Simple Offence Suppression VR» (#59508) 2.1.0 — он содержит VR-DLL. Версии SE 2.2.1/2.3.1 с VR 2.1.0 не смешивать без проверки страницы #59508.
 https://www.nexusmods.com/skyrimspecialedition/mods/59508
 
-# [rec] Mysticism — A Magic Overhaul — основной файл
+# [rec] Mysticism — A Magic Overhaul — Main «Mysticism - A Magic Overhaul» (#27839) 2.5.0 (Stormcrown VR, 2026-08-09). Запасная 2.4.2 (Panda's, FUS). «Ordinator Patch» не брать (Ordinator не ставится). Версии 1.x/2.2.4 (Librum, Grit, Tahrovin) устарели.
 https://www.nexusmods.com/skyrimspecialedition/mods/27839
 
-# [opt] Thaumaturgy + Apothecary + Mundus — основной файл
+# [opt] Thaumaturgy + Apothecary + Mundus — Три отдельных мода SimonRim, везде Main: Thaumaturgy (#57138) 1.5 (Stormcrown VR, 2026-08-10; запасная 1.4.5 — Panda, FUS), Apothecary (#52130) 1.3.9 (Stormcrown, Panda, FUS), Mundus (#33411) 1.15.1 (Stormcrown; запасная 1.13.1). Не брать: Apothecary «Bruma/Fishing/Rare Curios/Food and Drink» патчи (этих модов нет), Thaumaturgy «Jump Boots Addon». «Enchantment XP Tweak» 1.5 (Stormcrown VR) / «Weapon Enchantment XP Tweak» 1.1 (Panda, FUS) — опционально, по умолчанию не ставить; если есть DLL, нужны SKSEVR и VR Address Library и проверка лога.
 https://www.nexusmods.com/skyrimspecialedition/mods/57138
 https://www.nexusmods.com/skyrimspecialedition/mods/52130
 https://www.nexusmods.com/skyrimspecialedition/mods/33411
 
-# [opt] Experience — основной файл
+# [opt] Experience — Main «Experience» 3.7.3 (Stormcrown VR, 2025-11); 3.5.0 (Tempus) — запасная; «Experience NG» 3.1.0 (Grit) устарела. 3.7.4 (TNE, SE) — после проверки.
 https://www.nexusmods.com/skyrimspecialedition/mods/17751
 
-# [opt] Death Drop Overhaul — основной файл
+# [opt] Death Drop Overhaul — Main «Death Drop Overhaul - Latest Version» 1.3.6 (Stormcrown VR и Yggdrasil VR, 2026-09-06). 1.1.0 (Panda) — старая.
 https://www.nexusmods.com/skyrimspecialedition/mods/151590
 
-# [opt] Magic Sneak Attacks VR + Physical Dodge VR — основной файл
+# [opt] Magic Sneak Attacks VR + Physical Dodge VR — Два отдельных мода. «Magic Sneak Attacks VR» (#68028) 1.3.0 (Panda, FUS, Yggdrasil VR); 1.1.0 (Grit, Tahrovin) — старая. «Physical Dodge VR» (#58605) 0.1 (6 VR-списков). SE-версию Magic Sneak Attacks (#67613) поверх не ставить.
 https://www.nexusmods.com/skyrimspecialedition/mods/68028
 https://www.nexusmods.com/skyrimspecialedition/mods/58605
 
-# [opt] Throat Slit — VR — основной файл
+# [opt] Throat Slit — VR — Main «Throat Slit VR» (#184140) 1.2 (Yggdrasil VR, 2026-07-25). Единственный VR-список.
 https://www.nexusmods.com/skyrimspecialedition/mods/184140
 
-# [opt] Dynamic Bloodpool Framework — основной файл
+# [opt] Dynamic Bloodpool Framework — Main «Dynamic Bloodpool Framework - Latest Version» 1.0.1 (Panda's Sovngarde, единственный VR-список). 1.1.0 (Nordic Souls PBR, SE, 2026-07-25) — после проверки.
 https://www.nexusmods.com/skyrimspecialedition/mods/172080
 
-# [opt] DF Asset Packs + Next-Gen Decapitations — основной файл
+# [opt] DF Asset Packs + Next-Gen Decapitations — Четыре архива (Main): «Official Creature Asset Pack» (#126328) 1.0.2, «Official Humanoid Asset Pack» (#126327) 1.0.1 (в файле опечатка «Veersion»), «Next-Gen Decapitations» (#135254) 1.4.3 (Stormcrown VR) или 1.2.0/1.3.4 (старые). Патчи «CBBE-3BA» и «HIMBO» (#126327) — только под выбранное тело (решается на этапе тел).
 https://www.nexusmods.com/skyrimspecialedition/mods/126328
 https://www.nexusmods.com/skyrimspecialedition/mods/126327
 https://www.nexusmods.com/skyrimspecialedition/mods/135254
 
-# [opt] Sanguine Symphony — основной файл
+# [opt] Sanguine Symphony — Main «Sanguine Symphony - Latest Version» 1.3.3 (Stormcrown VR, 2026-08-01, в паре с CIF 2.0.5); 1.3.5 (Morning Star, SE) — после проверки. «Ultra-HD Textures» — НЕ брать (текстуры отдельным этапом).
 https://www.nexusmods.com/skyrimspecialedition/mods/148388
 
-# [rec] Locational Encounter Zones — основной файл
+# [rec] Locational Encounter Zones — Locational Encounter Zones 1.0.3 (файл от 2026-08-24, его ставит Stormcrown VR). Запасной — 1.0.2 (Locational Encounter Zones-85212-1-0-2-1676905795.zip): 5 VR-списков.
 https://www.nexusmods.com/skyrimspecialedition/mods/85212
 
-# [rec] Don't Stay in The Water — NPC Water AI Fix — VR-файл: VR 4.1
+# [rec] Don't Stay in The Water — NPC Water AI Fix — Только файл «Don't Stay in The Water - VR» 4.1 (Don't Stay in The Water - VR-52164-4-1-1626445959.zip). Файлы «NPC Water AI Fix for SkyrimSE» 5.1 и «...AE 1.6.629 and newer» 5.1 не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/52164
 
-# [opt] Combat Pathing Revolution + VR — основной файл
+# [opt] Combat Pathing Revolution + VR — Два архива. 1) Combat Pathing Revolution 0.30 со страницы 86950 (Combat Pathing Revolution-86950-v0-30-1678975298.7z). 2) Поверх него VR-файл со страницы 87895: Combat Pathing Revolution VR 0.30.1 (Combat Pathing Revolution VR-87895-0-30-1-1694056363.7z); он заменяет DLL и PDB. Оба архива стоят в FUS, Panda, Tahrovin, Tempus VR.
 https://www.nexusmods.com/skyrimspecialedition/mods/86950
 https://www.nexusmods.com/skyrimspecialedition/mods/87895
 
-# [opt] AI Overhaul — основной файл
+# [opt] AI Overhaul — Путь B (USSEP 4.2.5b): только файл «AI Overhaul for SE Only» — 1.8.7 (AI Overhaul SE Only 1.8.7-21654-1-8-7-1746511421.zip, Panda) или 1.8.6 (FUS). Путь A (мастера 1.6.1170, USSEP 4.3.x): по заметке куратора AE-файл — «AI Overhaul AE 1.8.7» (LoreRim, Tomes of Talos, True North); он помечен как ESL. В VR-списках AE-файл не проверен: при красных мастерах в MO2/xEdit заменить на SE Only 1.8.7. Файл Lite и Scripted BETA не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/21654
 
-# [opt] Realistic AI Detection (RAID) — основной файл
+# [opt] Realistic AI Detection (RAID) — RAID 3: «Realistic AI Detection 3 - Medium Interior Medium Exterior» 3.1 (Realistic AI Detection 3 - Medium Interior Medium Exterior-2345-3-1-1650801751.zip): Panda, Spirit of Grit, Tahrovin-Grit, Yggdrasil VR. Для лёгкого варианта — «RAID 3 - Lite» (FUS, Tahrovin). Только один файл из трёх (Lite / Medium / High).
 https://www.nexusmods.com/skyrimspecialedition/mods/2345
 
-# [opt] Smart NPC Potions — основной файл
+# [opt] Smart NPC Potions — Smart NPC Potions 1.22 (Smart NPC Potions-40102-1-22-1730744765.rar): Spirit of Grit, Tahrovin-Grit. Запасные: 1.11 (Tahrovin), новее — 1.30 (LoreRim, SKP). Архив .rar, нужен 7-Zip-движок MO2.
 https://www.nexusmods.com/skyrimspecialedition/mods/40102
 
-# [opt] NPC Spell Variance — основной файл
+# [opt] NPC Spell Variance — NPC Spell Variance не старее 2.7.1: 2.7.2 (True North, 2026-09-25) или 2.7.1 (Northern Experience, 2026-09-09). VR-проверенный запасной — 2.4.3 (NPC Spell Variance-132097-2-4-3-1752745072.7z, Panda), 2.1.5 (Tempus). Необязательный файл «NSV - Vanilla Runes for Spellcasters (SPID)» 2.1.6 (Panda) — только с SPID VR.
 https://www.nexusmods.com/skyrimspecialedition/mods/132097
 
-# [opt] NPCs React To Invisibility + NPCs React To Necromancy — основной файл
+# [opt] NPCs React To Invisibility + NPCs React To Necromancy — NPCs React To Invisibility 1.11 (NPCs React To Invisibility-91480-1-11-1724586730.zip; FUS, Panda) + NPCs React To Necromancy 1.03 (#70428; NPCs React To Necromancy-70428-1-03-1739570458.zip; Panda). Только если ставится Apothecary (combat-57138) — файл «Patch for Apothecary's Ethereal Potions» 1.10 (#91480, Panda). Патчи «Bow of Shadows» (CC нет в наборе) и «No Consequences» не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/91480
 https://www.nexusmods.com/skyrimspecialedition/mods/70428
 
-# [opt] Enhanced Reanimation + VR — основной файл
+# [opt] Enhanced Reanimation + VR — VR-файл Enhanced Reanimation VR 1.5.1 со страницы 59512 (Enhanced Reanimation VR-59512-1-5-1-1669711333.7z): 6 VR-списков, описание — «SKSEVR plugin, built from po3's source». Основной Enhanced Reanimation 1.5.1 (#43500, Enhanced Reanimation-43500-1-5-1-1665607585.7z) ставят под него только Spirit of Grit, Tahrovin, Tahrovin-Grit; Panda, Tempus, Yggdrasil — один VR-файл. Версию SE 1.5.2 без VR-обновления не ставить.
 https://www.nexusmods.com/skyrimspecialedition/mods/43500
 https://www.nexusmods.com/skyrimspecialedition/mods/59512
 
-# [opt] Frozen Electrocuted Combustion VR — основной файл
+# [opt] Frozen Electrocuted Combustion VR — Два архива: сначала оригинал Frozen Electrocuted Combustion 5.1.0 со страницы 3532 (Frozen Electrocuted Combustion-3532-5-1-0-1668639002.7z; во всех 7 VR-списках), затем поверх FEC VR 5.1.0.4 со страницы 59118 (FEC VR-59118-5-1-0-4-1702713188.7z; Librum, Panda, Grit, Tahrovin-Grit, Tahrovin). FEC 6.x (True North) не брать. Заметка куратора «VR вместо SE 3532» неверна: описание VR-файла — «requires original FEC to run».
 https://www.nexusmods.com/skyrimspecialedition/mods/59118
 
-# [opt] Arena — An Encounter Zone Overhaul — основной файл
+# [opt] Arena — An Encounter Zone Overhaul — Arena - An Encounter Zone Overhaul 1.2.0, основной файл (Arena - An Encounter Zone Overhaul-33487-1-2-0-1687450157.7z; Stormcrown VR, Panda, FUS). Файл «Harder Easy Spawns» не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/33487
 
-# [opt] Trade and Barter — основной файл
+# [opt] Trade and Barter — Trade and Barter SE 2.2 (Trade and Barter SE-23081-2-2-1737695883.7z; Panda). Запасные — 2.1 (Tempus, Librum), 2.0 (Grit, Ygg). Отдельного VR-файла нет.
 https://www.nexusmods.com/skyrimspecialedition/mods/23081
 
-# [rec] Realistic Mining and Chopping for VR + VR Refit — основной файл
+# [rec] Realistic Mining and Chopping for VR + VR Refit — Два архива. 1) Realistic Mining and Chopping for VR, файл «for VR - USSEP» 1.1.0 (Realistic Mining and Chopping for VR - USSEP-16692-1-1-0.zip; 8 VR-списков, в том числе Tempus на USSEP 4.3.2). 2) VR Refit - Mine Chop and Drop 1.0.4 со страницы 49205 (VR Refit - Mine Chop and Drop-49205-1-0-4-1648691454.zip; 6 VR-списков; 1.0.3 — FUS, Librum). Файл «Infinite Mining Nodes» не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/16692
 https://www.nexusmods.com/skyrimspecialedition/mods/49205
 
-# [opt] Gift by Hand VR — основной файл
+# [opt] Gift by Hand VR — Main file - Gift By Hand VR 2.1.0 (Main file - Gift By Hand VR-99809-2-1-0-1700472570.zip; FUS, Panda, Grit x2, Tahrovin; у Tempus файл с префиксом «1_Main file»). Остальные необязательные файлы не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/99809
 
-# [opt] Sleeping Expanded — основной файл
+# [opt] Sleeping Expanded — Sleeping Expanded 1.22 (Sleeping Expanded-59250-1-22-1670752210.zip): все 7 VR-списков, один и тот же архив с SE. Старый «Animations and NPC Reactions» 1.21 не нужен.
 https://www.nexusmods.com/skyrimspecialedition/mods/59250
 
-# [opt] Be Seated — Skyrim VR Edition — основной файл
+# [opt] Be Seated — Skyrim VR Edition — Be Seated 4.2.5, VR-редакция (Be Seated 4.2.5-16613-4-2-5-1655673281.zip; FUS, Librum, Tempus, Yggdrasil VR).
 https://www.nexusmods.com/skyrimspecialedition/mods/16613
 
-# [opt] SunHelm Survival — основной файл
+# [opt] SunHelm Survival — SunHelm Survival 3.1.4 (SunHelm Survival-39414-3-1-4-1661703641.7z; FUS, Panda, Spirit of Grit, Tahrovin-Grit). Ygg — 3.1.2a, Librum — 2.0.6 не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/39414
 
-# [opt] Recipe Auto-Learn + Reading Is Good — основной файл
+# [opt] Recipe Auto-Learn + Reading Is Good — Recipe Auto-Learn 1.1.1 (Recipes 1.1.1-84909-1-1-1-1677267647.rar; FUS, Panda, Tempus VR; 1.2.0 — новее, SE). Reading Is Good — только VR-файл «Reading Is Good VR» 1.1.2 со страницы 42026 (Reading Is Good VR-42026-1-1-2-1664479626.7z; Spirit of Grit, Tahrovin-Grit); SE-файл «Reading Is Good SE» не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/84909
 https://www.nexusmods.com/skyrimspecialedition/mods/42026
 
-# [opt] Mum's the Word NG — основной файл
+# [opt] Mum's the Word NG — Mum's the Word NG 2.1 (Mum's the Word-77409-2-1-1666299465.zip; Librum, Tahrovin, Grit x2, Tempus VR). Версия 2.2 (SKP) в VR не проверена.
 https://www.nexusmods.com/skyrimspecialedition/mods/77409
 
-# [opt] Honed Metal — VR-файл: VR
+# [opt] Honed Metal — Только «Honed Metal VR» 1.23 (Honed Metal VR-61015-1-23-1646437077.7z; Spirit of Grit, Tahrovin-Grit, Tempus). Основной SE/AE-файл 1.26.1 вместо VR не брать: Tempus ставит его вместе с VR-файлом, Grit-списки — один VR-файл. Файл «HonedMetal.ini - Ordinator» нужен только при Ordinator (в наборе нет).
 https://www.nexusmods.com/skyrimspecialedition/mods/61015
 
-# [opt] GIST — Genuinely Intelligent Soul Trap — основной файл
+# [opt] GIST — Genuinely Intelligent Soul Trap — GIST Soul Trap 1.3 (GIST Soul Trap-15755-1-3.zip): 6 VR-списков.
 https://www.nexusmods.com/skyrimspecialedition/mods/15755
 
-# [opt] SCIE — Crafting Inventory Extender — основной файл
+# [opt] SCIE — Crafting Inventory Extender — SCIE-Main 2.6.0.0 или новее — в нём исправлены VR-вылет на старте (Hook 5) и нулевые счётчики. Tempus VR ставит SCIE-Main 2.5.3 (SCIE-Main-v2.5.3.zip-170497-2-5-3-0-1769949698.zip) — старее, не брать. Необязательные файлы: SCIE-HomeConfigs (есть у Tempus), CCOR/DLC/Babel — не нужны.
 https://www.nexusmods.com/skyrimspecialedition/mods/170497
 
-# [opt] Dirt and Blood — основной файл
+# [opt] Dirt and Blood — Dirt and Blood 2.37 (Dirt and Blood-38886-2-37-1735311983.rar; Librum VR, Panda) + «Optional patch for VR - No Washing Animation» (Optional patch for VR - No Washing Animation-38886-1-66-1612390710.zip; Librum VR). Версию 2.38 (SKP) не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/38886
 
-# [opt] Dynamic Things Alternative + Random Barrel Roll — основной файл
+# [opt] Dynamic Things Alternative + Random Barrel Roll — Dynamic Things Alternative - Base Object Swapper 0.3 (Dynamic Things Alternative - Base Object Swapper-60741-0-3-1728083488.7z; Panda, Tempus VR) — VR-проверенная. 0.5 (Stormcrown VR, 2026) — новее и «с DLL»: брать после проверки лога. Random Barrel Roll 0.1.1 (Random Barrel Roll-78195-0-1-1-1744090974.7z; Panda) или 0.1 (Grit, Tempus).
 https://www.nexusmods.com/skyrimspecialedition/mods/60741
 https://www.nexusmods.com/skyrimspecialedition/mods/78195
 
-# [opt] Better Resource Warnings — основной файл
+# [opt] Better Resource Warnings — Better Resource Warnings 2.2 (Better Resource Warnings-26751-2-2-1609018535.7z; FUS, Librum, Panda, Ygg).
 https://www.nexusmods.com/skyrimspecialedition/mods/26751
 
-# [opt] Sink Or Swim NG — основной файл
+# [opt] Sink Or Swim NG — Sink Or Swim NG 1.9 (Sink Or Swim NG-78610-1-9-1668230874.rar; Librum VR, Spirit of Grit, Tahrovin, Tahrovin-Grit). Старый Sink Or Swim со страницы 42962 не ставить: Librum VR живёт без него; Grit-списки держат оба (причина неизвестна).
 https://www.nexusmods.com/skyrimspecialedition/mods/78610
 
-# [opt] Tamrielic Names + NPCs Names Distributor — основной файл
+# [opt] Tamrielic Names + NPCs Names Distributor — Tamrielic Names 1.2.1 (Tamrielic Names-73153-1-2-1-1725015432.zip; CSVP, LoreRim, Nordic Souls, Wunduniik, Northern Experience) + NPCs Names Distributor (#73081): 2.6.2 (LoreRim) или 2.6.3 (Northern Experience, 2026-09-01). Среди VR-списков не используется. Файл «NPCs Names Distributor INI» не нужен.
 https://www.nexusmods.com/skyrimspecialedition/mods/73153
 https://www.nexusmods.com/skyrimspecialedition/mods/73081

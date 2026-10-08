@@ -1,84 +1,84 @@
 # Фаза 4: Интерфейс и звук
 # Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
 
-# [rec] moreHUD VR — основной файл
+# [rec] moreHUD VR — Основной файл «moreHUD VR» 1.1.0 (9 VR-листов). «Debug Symbols» не нужны.
 https://www.nexusmods.com/skyrimspecialedition/mods/33215
 
-# [rec] QuickLoot IE — основной файл
+# [rec] QuickLoot IE — Основной файл «QuickLoot IE - A QuickLoot EE Fork» 4.1.3 (Stormcrown VR, Yggdrasil VR, 2026-09-17). Не брать 3.x из SE-листов.
 https://www.nexusmods.com/skyrimspecialedition/mods/120075
 
-# [rec] VR Console Selection Fix — основной файл
+# [rec] VR Console Selection Fix — Файл «Console Selection Fix» 1.2.1 (7 VR-листов).
 https://www.nexusmods.com/skyrimspecialedition/mods/140752
 
-# [opt] No Menu Fade Out VR — основной файл
+# [opt] No Menu Fade Out VR — Основной файл «No Menu Fade Out VR» 1.0.2 (Stormcrown, SoG, Tahrovin - Grit, Yggdrasil).
 https://www.nexusmods.com/skyrimspecialedition/mods/185197
 
-# [opt] Norden UI — VR Edition — основной файл
+# [opt] Norden UI — VR Edition — Файлы «Norden UI VR Edition» 1.2 (Tempus VR) и заплатки «PATCH - moreHUD VR», «PATCH - UIextensions», «PATCH - SkyUI Weapons Pack» (по установленным модам).
 https://www.nexusmods.com/skyrimspecialedition/mods/169537
 
-# [rec] Essential Favorites VR + Favorite Misc Items — основной файл
+# [rec] Essential Favorites VR + Favorite Misc Items — Два архива. 1) «Essential Favorites VR» 2.2.0 (6 VR-листов). 2) «Favorite Misc Items VR» 3.5 (Tempus, SoG, Grit) — версия 4.0.0 у Librum VR под вопросом.
 https://www.nexusmods.com/skyrimspecialedition/mods/59554
 https://www.nexusmods.com/skyrimspecialedition/mods/42750
 
-# [opt] VR Menu Mouse Fix — основной файл
+# [opt] VR Menu Mouse Fix — Файл «Menu Mouse Fix» 1.6.0 (7 VR-листов).
 https://www.nexusmods.com/skyrimspecialedition/mods/33414
 
-# [opt] Crafting Categories for SkyUI VR (COCKS) — VR-файл: VR
+# [opt] Crafting Categories for SkyUI VR (COCKS) — Файл «Crafting Categories for SkyUI VR» 1.1.1 (страница 81409, VR-файл от 23.04.2024). Основной файл 1.2.0 — SE, не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/81409
 
-# [opt] Floating Subtitles VR — основной файл
+# [opt] Floating Subtitles VR — Два архива. 1) «Floating Subtitles» 3.3.4 (#154424, Skyrim Unification Project — 3.3.4; Spirit of Grit — 3.3.3). 2) «Floating Subtitles VR» 3.3.4 (#183714) поверх основного — та же мажорная версия.
 https://www.nexusmods.com/skyrimspecialedition/mods/183714
 
-# [opt] Floating Damage NG — основной файл
+# [opt] Floating Damage NG — Основной файл «Floating Damage NG» 1.4.0 (Spirit of Grit, Tahrovin - Grit).
 https://www.nexusmods.com/skyrimspecialedition/mods/184159
 
-# [opt] Clear HUD VR + Clean Menu — основной файл
+# [opt] Clear HUD VR + Clean Menu — Два архива. 1) «Clear HUD VR» 1.0.0 (8 VR-листов). 2) «Clean Menu» 1.0 (#53524). Из страницы Clean Menu НЕ брать файл «Unobtrusive HUD» (дублирует Clear HUD).
 https://www.nexusmods.com/skyrimspecialedition/mods/49657
 https://www.nexusmods.com/skyrimspecialedition/mods/53524
 
-# [opt] Minimal Enemy Healthbar VR — основной файл
+# [opt] Minimal Enemy Healthbar VR — Файл «No Enemybar and no Names» 0.7 (Tempus, Panda's, Librum, FUS). Варианты на странице: «Enemy Healthbar Red with Names», «Enemy Healthbar Red without Names».
 https://www.nexusmods.com/skyrimspecialedition/mods/17812
 
-# [opt] Dynamic Location Pop-ups (VR) — основной файл
+# [opt] Dynamic Location Pop-ups (VR) — Два архива. 1) «Dynamic Location Pop-ups» 1.0.1 (#153122). 2) «Dynamic Location Pop-ups VR» 1.0.1 (#155978) поверх основного (Tempus Maledictum VR ставит оба).
 https://www.nexusmods.com/skyrimspecialedition/mods/155978
 https://www.nexusmods.com/skyrimspecialedition/mods/153122
 
-# [opt] RacemenuVR — основной файл
+# [opt] RacemenuVR — Основной файл «RacemenuVR» 0.5 (#156898; Spirit of Grit, Tahrovin - Grit, Tahrovin, Librum VR) поверх RaceMenu Anniversary Edition 0.4.19.16 (те же списки).
 https://www.nexusmods.com/skyrimspecialedition/mods/156898
 
-# [try] RaceMenu VR 2 — основной файл
+# [try] RaceMenu VR 2 — Файл «RaceMenu VR 2» (бета, номера 0.1.x). Основа — RaceMenu SE 0.4.20.0 с оригинальными BSA, ESP и скриптами (не пакет LE).
 https://www.nexusmods.com/skyrimspecialedition/mods/192158
 
-# [try] I5 — Information Injector Improved — основной файл
+# [try] I5 — Information Injector Improved — Файл «Inventory Interface Information Injector Improved» 0.4.0 (04.10.2026); VR включён с 0.3.0.
 https://www.nexusmods.com/skyrimspecialedition/mods/192976
 
-# [rec] Audio Overhaul for Skyrim — основной файл
+# [rec] Audio Overhaul for Skyrim — Audio Overhaul for Skyrim 4.1.3, основной файл со SKSE (Audio Overhaul for Skyrim (4.1.3)-12466-4-1-3-1683940246.7z; Stormcrown VR, Librum VR). Файл «Non-SKSE - Epic Game Store - Game Pass» не брать. Tempus VR держит старую 3.4.3 — не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/12466
 
-# [rec] Regional Sounds Expansion + Reverb Interior Sounds Expansion — основной файл
+# [rec] Regional Sounds Expansion + Reverb Interior Sounds Expansion — Два архива: Regional Sounds Expansion 2.1.0 (Regional Sounds Expansion (2.1.0)-77829-2-1-0-1748013115.7z; Stormcrown VR, Panda) и Reverb Interior Sounds Expansion 1.5.0 со страницы 77947 (Reverb Interior Sounds Expansion (1.5.0)-77947-1-5-0-1675142342.7z; Stormcrown VR, Panda). RSE 2.0.0 — старее.
 https://www.nexusmods.com/skyrimspecialedition/mods/77829
 https://www.nexusmods.com/skyrimspecialedition/mods/77947
 
-# [rec] Acoustic Space Improvement Fixes — основной файл
+# [rec] Acoustic Space Improvement Fixes — Acoustic Space Improvement Fixes 1.3.3, SkyPatcher-версия (Acoustic Space Improvement Fixes (SkyPatcher)-78992-1-3-3-1747812242.7z; Stormcrown VR). Запасной — Plugin Version (...(Plugin Version)-78992-1-3-3-1747812411.7z; Panda) без SkyPatcher. Файл «Patch for Extended Cut - Saints and Seducers» не нужен.
 https://www.nexusmods.com/skyrimspecialedition/mods/78992
 
-# [alt] Immersive Sounds Compendium + AOS–ISC patch — основной файл
+# [alt] Immersive Sounds Compendium + AOS–ISC patch — Immersive Sounds - Compendium 3.0 (Immersive Sounds Compendium 3.0-523-3-0-1629219996.zip; Tempus, Librum, Grit x2, Tahrovin, FUS, Ygg, Panda). Для SRD-варианта (Panda) поверх — «ISC-SRDified Main File» 2.2.1 (#78446, ISC-SRDified Main File-78446-2-2-1-1698505409.zip; он убирает часть патчей). Патч AOS–ISC (#36761, 1.1.0) ставить ТОЛЬКО если установлен AOS: Tempus и Librum держат AOS + ISC + патч.
 https://www.nexusmods.com/skyrimspecialedition/mods/523
 https://www.nexusmods.com/skyrimspecialedition/mods/36761
 
-# [rec] True 3D Sound for Headphones — основной файл
+# [rec] True 3D Sound for Headphones — Skyrim SE 3D Sound (X3DAudio HRTF) 1.0 (Skyrim SE 3D Sound (X3DAudio HRTF)-1897-1-0.zip; FUS, Yggdrasil VR, Panda). Ставить в корень игры через Root Builder, не в Data.
 https://www.nexusmods.com/skyrimspecialedition/mods/1897
 
-# [opt] UHDAP — Music HQ — основной файл
+# [opt] UHDAP — Music HQ — «Music - HQ» (Music - HQ-18115-0-1.7z): все VR-списки, музыка. «Voices EN - Part 1» и «Voices EN - Part 2» (оба архива) — только при английской озвучке (FUS, Ygg, Panda). Большие архивы.
 https://www.nexusmods.com/skyrimspecialedition/mods/18115
 
-# [opt] Wildwood Echoes + Murmurs and Mead — основной файл
+# [opt] Wildwood Echoes + Murmurs and Mead — Wildwood Echoes 1.3 (Wildwood Echoes-112008-1-3-1716161041.7z; Librum VR и SE) + Murmurs and Mead 1.1 со страницы 114716 (Murmurs and Mead-114716-1-1-1711757412.7z; только SE-списки). 1.4 (2026) — новее, в VR не проверена.
 https://www.nexusmods.com/skyrimspecialedition/mods/112008
 https://www.nexusmods.com/skyrimspecialedition/mods/114716
 
-# [opt] Haunting Harmonies of Hjaalmarch + Whispers of the Daedric Princes — основной файл
+# [opt] Haunting Harmonies of Hjaalmarch + Whispers of the Daedric Princes — The Haunting Harmonies of Hjaalmarch 1.0 (The Haunting Harmonies of Hjaalmarch-125873-1-0-1724214662.7z) + Whispers of the Daedric Princes 1.2 со страницы 141931 (Whispers of the Daedric Princes-141931-1-2-1740012920.7z). В VR-списках оба не встречаются.
 https://www.nexusmods.com/skyrimspecialedition/mods/125873
 https://www.nexusmods.com/skyrimspecialedition/mods/141931
 
-# [opt] Immersive Draw Sheathe Sounds VR — основной файл
+# [opt] Immersive Draw Sheathe Sounds VR — Immersive Draw Sheathe Sounds VR 1.1 (Immersive Draw Sheathe Sounds VR-44992-1-1-1643041361.7z; Stormcrown VR, Panda, Grit x2). Файл 1.0 — старее.
 https://www.nexusmods.com/skyrimspecialedition/mods/44992

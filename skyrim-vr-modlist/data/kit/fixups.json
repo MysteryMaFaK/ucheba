@@ -1,0 +1,20 @@
+{
+ "text_fixes": [
+  [
+   "В конфиге Part 1 (EngineFixes.toml в 7.x), секция [Patches]: MaxStdio = 8192.",
+   "В EngineFixes.toml (7.x), секция [Patches]: bMaxStdIO = true (значение по умолчанию, число не задаётся). Файл создаётся при первом запуске игры."
+  ],
+  [
+   "В EngineFixes.toml поставить MaxStdio = 8192: это требование Skyrim VR ESL Support.",
+   "В EngineFixes.toml в секции [Patches] оставить bMaxStdIO = true (по умолчанию): это требование Skyrim VR ESL Support."
+  ],
+  [
+   "Нужен MaxStdio в Engine Fixes VR.",
+   "Нужен включённый bMaxStdIO в Engine Fixes VR (EngineFixes.toml, секция [Patches])."
+  ],
+  [
+   "MaxStdio = 8192",
+   "bMaxStdIO = true"
+  ]
+ ]
+}

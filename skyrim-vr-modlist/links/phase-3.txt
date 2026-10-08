@@ -20,110 +20,110 @@ https://www.nexusmods.com/skyrimspecialedition/mods/164488
 # [try] Native Water Light Stabilizer — NativeWaterLightStabilizer 1.3 (TNE, 2026-08-23), последний известный. В VR-сборках не встречается.
 https://www.nexusmods.com/skyrimspecialedition/mods/186700
 
-# [core] VRIK Player Avatar — основной файл
+# [core] VRIK Player Avatar — Основной файл «VRIK Player Avatar» 0.8.7 (Stormcrown VR, Yggdrasil VR, Tahrovin - Grit, 2026-09-18). Файл «VRIK Rift-Index-WMR Controller Bindings V2.1.0» — это биндинги SteamVR, в MO2 не ставить: импортировать в SteamVR, если у вас Index/Rift/WMR. Старые 0.8.2–0.8.5 не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/23416
 
-# [core] HIGGS — Enhanced VR Interaction — основной файл
+# [core] HIGGS — Enhanced VR Interaction — Основной файл «HIGGS» 1.10.10 (Tempus, Stormcrown, SoG, Tahrovin - Grit, Panda's, Librum, Yggdrasil). Старые 1.10.0–1.10.8 не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/43930
 
-# [core] PLANCK — основной файл
+# [core] PLANCK — Основной файл «PLANCK» 0.8.1 (Yggdrasil VR, Spirit of Grit, Tahrovin - Grit, 2026-07-30). Версии 0.4–0.7.1 из старых списков не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/66025
 
-# [rec] Physical Collision VR — основной файл
+# [rec] Physical Collision VR — Основной файл «PhysicalCollisionVR» 5.2.x (Yggdrasil VR — 5.2.0, 2026-10-03; на странице уже 5.2.1 от 06.10.2026). Версия должна быть 5.0.0 и новее: True Wield VR и Swap Drop and Hold Redux 3.0.0 требуют именно её. Один DLL и один INI, ESP нет.
 https://www.nexusmods.com/skyrimspecialedition/mods/186335
 
-# [rec] True Wield VR — основной файл
+# [rec] True Wield VR — Основной файл «TrueWieldVR» 1.2.0 (Yggdrasil VR, 2026-10-03). Нужен Physical Collision VR 5.0.0 и новее (лучше 5.2.x, как в Yggdrasil).
 https://www.nexusmods.com/skyrimspecialedition/mods/191123
 
-# [rec] Immersive Weapon Penetration VR — основной файл
+# [rec] Immersive Weapon Penetration VR — Основной файл «ImmersiveWeaponPenetrationVR» 1.8.0 (Yggdrasil VR, 2026-10-03; Spirit of Grit и Tahrovin - Grit держат 1.6.1). Брать 1.8.0: Swap Drop and Hold Redux 2.0.0+ рекомендует именно её.
 https://www.nexusmods.com/skyrimspecialedition/mods/184223
 
-# [rec] Swap Drop and Hold Redux — VR — основной файл
+# [rec] Swap Drop and Hold Redux — VR — Основной файл «SwapDropAndHoldRedux 3.0.0 FOMOD» (Yggdrasil VR, 2026-10-03). Версия 3.0.0 требует Physical Collision VR и True Wield VR.
 https://www.nexusmods.com/skyrimspecialedition/mods/185816
 
-# [core] Spell Wheel VR — основной файл
+# [core] Spell Wheel VR — Основной файл «Spell Wheel VR» 1.5.11 (Stormcrown, SoG, Tahrovin - Grit, Yggdrasil VR, 2026-08-09). Не брать 1.2–1.5.9 из старых списков. Русский/французский/китайский переводы — отдельные страницы, не нужны.
 https://www.nexusmods.com/skyrimspecialedition/mods/47630
 
-# [rec] Weapon Throw VR — основной файл
+# [rec] Weapon Throw VR — Основной файл «Weapon Throw VR» 1.4.0 (Yggdrasil VR, SoG, Tahrovin - Grit, 2026-08-09). Версии 1.3.19–1.3.20 из старых списков не брать: Pull Arrows VR 2.0 просит свежую.
 https://www.nexusmods.com/skyrimspecialedition/mods/31374
 
-# [rec] Interactive Activators VR — основной файл
+# [rec] Interactive Activators VR — Основной файл «Interactive Activators VR» 1.1.8 (Yggdrasil, SoG, Tahrovin - Grit, Stormcrown, 2026-08-30). Старые 1.0.3–1.1.6 не брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/161676
 
-# [rec] Instant Equip VR — основной файл
+# [rec] Instant Equip VR — Основной файл «Instant Equip VR» 1.2.0 (Yggdrasil, Stormcrown, Tempus, Panda's, Librum). Не брать 1.0.0 (SoG, Tahrovin - Grit, FUS).
 https://www.nexusmods.com/skyrimspecialedition/mods/44571
 
-# [rec] Dialogue Movement Enabler VR — основной файл
+# [rec] Dialogue Movement Enabler VR — Основной файл «Dialogue Movement Enabler VR» 2.3.0 (Stormcrown, SoG, Tahrovin - Grit, Tahrovin, Yggdrasil, 2026-07-02). Не брать 2.2.0 (старые списки).
 https://www.nexusmods.com/skyrimspecialedition/mods/59816
 
-# [rec] Stop Trigger Unsheathing For VR — основной файл
+# [rec] Stop Trigger Unsheathing For VR — Основной файл «STUF VR» 1.0.0 — единственный, во всех 9 VR-листах.
 https://www.nexusmods.com/skyrimspecialedition/mods/55962
 
-# [rec] Dual Casting Fix VR — основной файл
+# [rec] Dual Casting Fix VR — Основной файл «Dual Casting Fix VR» 1.0.0 — единственный, 8 VR-листов.
 https://www.nexusmods.com/skyrimspecialedition/mods/92804
 
-# [rec] Haptic Skyrim VR — основной файл
+# [rec] Haptic Skyrim VR — Основной файл «Haptic Skyrim VR» 1.8.0 (Stormcrown, SoG, Tahrovin - Grit, Librum, Yggdrasil). Версию 1.7.3 из старых списков не брать: 1.8.0 переписан с нуля как чистый SKSE-плагин без ESP и скриптов.
 https://www.nexusmods.com/skyrimspecialedition/mods/20364
 
-# [rec] Seamless Arrow Nocking VR + Immersive Crossbow Reload VR — основной файл
+# [rec] Seamless Arrow Nocking VR + Immersive Crossbow Reload VR — Два архива. 1) «Seamless Arrow Nocking» 1.0.4 (#117254, 6 VR-листов). 2) «Immersive Crossbow Reload VR» 1.0.4 (#139152, 8 VR-листов). Ставить каждый как отдельный мод.
 https://www.nexusmods.com/skyrimspecialedition/mods/117254
 https://www.nexusmods.com/skyrimspecialedition/mods/139152
 
-# [rec] Magic Improvements for Skyrim VR — основной файл
+# [rec] Magic Improvements for Skyrim VR — Основной файл «MISVR» 1.2.0 — единственный, во всех 9 VR-листах.
 https://www.nexusmods.com/skyrimspecialedition/mods/55751
 
-# [opt] Lethal Unarmed VR — основной файл
+# [opt] Lethal Unarmed VR — Основной файл «LethalUnarmedVR 3.0.0 FOMOD» (Yggdrasil VR, 2026-10-03). Автор Asterrath, метка AI Assisted.
 https://www.nexusmods.com/skyrimspecialedition/mods/191124
 
-# [opt] VR Climbing — Aelove Ver — основной файл
+# [opt] VR Climbing — Aelove Ver — Основной файл «VR Climbing - Aelove Version» 0.11.3 (Tahrovin - Grit и Yggdrasil VR, 2026-09-19). Оригинал «VR Climbing» (#168553, 0.11.0) НЕ ставить: форк самостоятельный.
 https://www.nexusmods.com/skyrimspecialedition/mods/170321
 
-# [opt] Spellsiphon — основной файл
+# [opt] Spellsiphon — Основной файл «Spellsiphon - Complete Edition» 5.28 (Tempus, FUS, Panda's, Yggdrasil). Версия 5.27 у SoG/Tahrovin; отдельный патч кинжальной анимации не нужен (он в Complete Edition). Файл «Book at Archmage Quarters» не нужен.
 https://www.nexusmods.com/skyrimspecialedition/mods/26627
 
-# [opt] To Your Face — VR-файл: VR
+# [opt] To Your Face — Файл «To Your Face VR» 1.0f (Tempus, Stormcrown, Panda's, Librum, FUS, Yggdrasil). Файл «To Your Face SE» 1.0h (в Librum) НЕ брать.
 https://www.nexusmods.com/skyrimspecialedition/mods/24720
 
-# [opt] Sprint Jump VR — основной файл
+# [opt] Sprint Jump VR — Основной файл «SprintJumpVR» 2.0.2 (7 VR-листов). Не брать 1.x.
 https://www.nexusmods.com/skyrimspecialedition/mods/28354
 
-# [rec] Arctal's VRIK Tweaks — основной файл
+# [rec] Arctal's VRIK Tweaks — Основной файл «Arctals VRIK Tweaks» 2.0 (Panda's, Librum, FUS, Tempus, Yggdrasil). Варианты «Merged» (1.2) и 1.9 не брать. Русификация — отдельная страница #165797 (по желанию).
 https://www.nexusmods.com/skyrimspecialedition/mods/63663
 
-# [rec] No Stagger Mod — основной файл
+# [rec] No Stagger Mod — Файл «NoStaggerMod v 1.0» — единственный, 9 VR-листов.
 https://www.nexusmods.com/skyrimspecialedition/mods/16335
 
-# [opt] Neutral VR Animations for VRIK — основной файл
+# [opt] Neutral VR Animations for VRIK — Файл «Neutral VR Animations for VRIK and PCEA2» 0.0.1 (FUS, Panda's, Tahrovin, Tempus, Yggdrasil). Единственный файл.
 https://www.nexusmods.com/skyrimspecialedition/mods/28831
 
-# [opt] SKSEVR Perk Extender — основной файл
+# [opt] SKSEVR Perk Extender — Файл «SKSEVR Perk Extender» 2.0 — единственный, 8 VR-листов.
 https://www.nexusmods.com/skyrimspecialedition/mods/16330
 
-# [opt] Smooth Carriage Ride VR + Im Walkin' Here VR — основной файл
+# [opt] Smooth Carriage Ride VR + Im Walkin' Here VR — Два архива. 1) «SmoothCarriageRideVR» 0.5 (#129594, 5 VR-листов). 2) «ImWalkinHereVR» v0.2 BETA (#39433, 4 VR-листа). Ставить отдельными модами.
 https://www.nexusmods.com/skyrimspecialedition/mods/129594
 https://www.nexusmods.com/skyrimspecialedition/mods/39433
 
-# [opt] No more werewolf hat — основной файл
+# [opt] No more werewolf hat — Файл «No more werewolf hat» 1.0 (Librum VR, SoG, Tahrovin, Tahrovin - Grit). Только меш.
 https://www.nexusmods.com/skyrimspecialedition/mods/104975
 
-# [opt] VR Equip — основной файл
+# [opt] VR Equip — Файл «VR Equip» 1.3.2 (FUS, Panda's, Tempus, Yggdrasil).
 https://www.nexusmods.com/skyrimspecialedition/mods/83092
 
-# [opt] Auto Sneak and Jump VR — основной файл
+# [opt] Auto Sneak and Jump VR — Файл «Auto Sneak and Jump VR» 0.5.0 (6 VR-листов).
 https://www.nexusmods.com/skyrimspecialedition/mods/23649
 
-# [opt] Spell Auto-Aim VR — основной файл
+# [opt] Spell Auto-Aim VR — Файл «Spell Auto Aim VR» 1.0.1 (Tempus, Panda's, Tahrovin, FUS).
 https://www.nexusmods.com/skyrimspecialedition/mods/119689
 
-# [opt] Durability VR + Immersive Smithing — основной файл
+# [opt] Durability VR + Immersive Smithing — Два архива. 1) «Durability VR» 1.1.4 (Spirit of Grit, Tahrovin - Grit, 2025-11-09). 2) «Immersive Smithing» 1.0.5 (#72298; Panda's, SoG): HIGGS 1.5.8+, PLANCK 0.4.6+, Spell Wheel VR 1.3.0+, последний VRIK. Из страницы Immersive Smithing взять ещё «EmbersXD - Compatibility Patch» (у нас Embers XD).
 https://www.nexusmods.com/skyrimspecialedition/mods/76830
 https://www.nexusmods.com/skyrimspecialedition/mods/72298
 
-# [opt] PLANCK VR Stability Patch — основной файл
+# [opt] PLANCK VR Stability Patch — Файл «PLANCK VR Stability Patch» 1.3.1 (Tahrovin - Grit, 2026-09-21; Nexus-страница 188233). На GitHub уже вышли 1.3.2 (21.09, pre-release: давал нестабильность VRIK) и 1.3.3 (23.09, pre-release, исправление); брать 1.3.1, если на Nexus нет более нового стабильного файла.
 https://www.nexusmods.com/skyrimspecialedition/mods/188233
 
-# [opt] VRIK Closed Fist — основной файл
+# [opt] VRIK Closed Fist — Файл «VRIK Closed Fist» 1.1 (страница), в списках: Tahrovin 1, SoG и Grit без номера. Берите последнюю.
 https://www.nexusmods.com/skyrimspecialedition/mods/182410
 
-# [opt] Steeds of Ultima — VR Mounted Combat — основной файл
+# [opt] Steeds of Ultima — VR Mounted Combat — Основной файл «Steeds of Ultima - VR» 1.1.2 (Tempus VR, Librum VR, 2025-08). Не брать 1.1.0–1.1.1.
 https://www.nexusmods.com/skyrimspecialedition/mods/81220

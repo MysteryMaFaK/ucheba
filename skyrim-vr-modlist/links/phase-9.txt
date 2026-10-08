@@ -1,11 +1,11 @@
 # Фаза 9: ИИ-NPC
 # Открыть ссылки в браузере, скачать нужный файл (см. manifest.yaml → files). Метка в скобках — tag.
 
-# [opt] SkyrimNet — основной файл
+# [opt] SkyrimNet — Основной архив SkyrimNet из последнего релиза GitHub: MinLL/SkyrimNet-GamePlugin, Beta26 (тег vbeta26-rc4, 03.10.2026, четыре файла в релизе; имена не получены). Голоса Piper TTS — отдельным модом, только если выбран Piper.
 https://github.com/MinLL/SkyrimNet-GamePlugin/releases
 
-# [opt] Mantella — основной файл
+# [opt] Mantella — Mantella 0.14 — основной файл со страницы 98631 (релиз 0.14 на GitHub art-from-the-machine/Mantella от 21 апреля). Страница заявляет VR / SE / AE. Модель по умолчанию — бесплатная Gemma 4 через API. Голос — Piper или XTTS; распознавание речи — Moonshine или Whisper.
 https://www.nexusmods.com/skyrimspecialedition/mods/98631
 
-# [opt] CHIM — основной файл
+# [opt] CHIM — Два шага. 1) Мод CHIM со страницы 126330 (файл AIAgent) в MO2. 2) Внешний сервер: DwemerDistroInstaller.exe из релиза Dwemer-Dynamics/DwemerDistro-Launcher (не ZIP), запуск от администратора, затем в лаунчере в Quickstart выбрать CHIM. Нативный плагин CHIM — одна DLL для SE, AE и VR (README).
 https://www.nexusmods.com/skyrimspecialedition/mods/126330
