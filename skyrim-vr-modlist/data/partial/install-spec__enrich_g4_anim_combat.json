@@ -1,0 +1,832 @@
+{
+ "items": [
+  {
+   "key": "anim-92109",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Open Animation Replacer» 3.2.1 (Yggdrasil VR, 2026-08-31: «Open Animation Replacer 92109 3.2.1») — один архив для SE/AE/VR, отдельного VR-файла нет. Версии 2.3.6 (Panda, Tempus, Tahrovin, Librum, FUS) и 2.1.0 (Grit) — только как откат, если 3.2.1 не загрузится. Пре-релизы и файлы для моддеров не брать.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке. Если установщик есть — неизвестно — общие правила.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Paired Animation Improvements (#99621)",
+    "Animation Queue Fix (#82395)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Dynamic Animation Replacer (DAR) — не ставить, OAR сам читает DAR-папки"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика», первым среди анимаций: до всех OAR/DAR-пакетов, после XPMSSE. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Настройки OAR — INI/JSON в SKSE\\Plugins (точное имя смотреть в архиве), по умолчанию не менять. Меню OAR в игре (ImGui) проверить в шлеме: если не открывается — открывать через SKSE Menu Framework + ImGui VR Helper (#120352) или править config.json пакетов вручную.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL OAR загружена без ошибки версии/адресов. В игре NPC ходят и стоят без T-позы, в логе OAR (рядом с sksevr.log) нет ошибок чтения пакетов.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 92109: Yggdrasil VR 3.2.1 (2026-08-31), остальные 7 VR — 2.3.6/2.1.0. GitHub Ersh1/OpenAnimationReplacer README: «VR Address Library for SKSEVR — Needed for VR»; Nexus-сниппет: SE/AE/VR, требования Address Library, Animation Queue Fix (если не включена экспериментальная настройка) и Paired Animation Improvements; PAI несовместим с OAR < 2.0.0. Состав требований сверить на вкладке Requirements."
+  },
+  {
+   "key": "anim-99621",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Paired Animation Improvements» 1.0.3 (Yggdrasil VR, 2026-08-31), иначе 1.0.2 (Panda, FUS, Tempus, Librum, Grit). Файл «Horse Mount and Dismount Double Sound Fix» (тот же ID) — не ставить, если нет двойного звука посадки на коня (Panda и FUS берут).",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика», сразу после OAR. Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. Парные анимации (добивания, рукопожатия квестов) играют без зависания персонажей.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 99621: Tempus, Grit, Tahrovin-Grit, Panda, Librum, FUS — 1.0.2, Tahrovin 1.0.1, Yggdrasil VR 1.0.3. Nexus-сниппет: SKSE-плагин Ersh, SE/AE/VR, работает с OAR >= 2.0.0. Address Library для VR — по общему правилу DLL (не подтверждено README)."
+  },
+  {
+   "key": "anim-61479",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Mu Joint Fix» 2.1.3 (Yggdrasil VR, 2026-09-18: «MuJointFix 61479 2.1.3»), запасной вариант 2.1.2 (Librum VR, Yggdrasil VR). Старую 2.0.17 не брать. Назначение мода и состав архива не подтверждены — смотреть описание на странице.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика» после XPMSSE. Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "Без настроек, пока описание не требует иного.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена без ошибки. Если DLL не грузится или в архиве нет SKSE\\Plugins\\*.dll — отключить мод, не чинить.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses 61479: Librum VR (2.0.17 и 2.1.2), Yggdrasil VR (2.1.2 и 2.1.3 от 2026-09-18), SE — только Apostasy. Заметка куратора пуста, README не найден; требования Address Library — по общему правилу для DLL."
+  },
+  {
+   "key": "anim-57339",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Только если в сборке есть SMP-волосы или одежда. Вариант A (VR-проверен в свежем списке): основной файл «FSMP 4.0.1» (Tahrovin - Grit, 2026-07-05). Вариант Б (проверен в Panda's и Tahrovin): «Faster HDT-SMP» 2.5.1 + отдельный файл «XML VR» 1.0 (конфиги для VR от Alandtse). Версию 4.1.1 (SE-списки, 2026-08) брать, только если её установщик явно предлагает рантайм Skyrim VR/1.4.15. Файлы 1.50.9 rc1 / 2.1.3 (Grit) — устарели.",
+   "fomod": "Установщик FSMP, вероятно, спрашивает версию игры/платформу: выбирать Skyrim VR (Steam, 1.4.15), CUDA-вариант не брать, AVX2 — если CPU поддерживает. Точные названия опций — неизвестно — общие правила.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR (#1988)",
+    "SKSE Menu Framework + ImGui VR Helper (#120352)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "HDT-SMP оригинальный (DaymareOn/aers) и другие сборки hdtSMP64.dll — только один SMP-движок",
+    "XPMSSE без VR-фикса (#34301) — вылеты"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика», сразу ниже XPMSSE и его VR-фикса. «XML VR» — отдельным модом ниже основного FSMP (должен его перезаписывать).",
+   "plugin_order": "",
+   "config": "Сначала замерить кадр без SMP-одежды, потом включать. Лимиты физики держать низкими; параметры — в hdtSkinnedMeshConfigs\\configs.xml (по SE-гайдам; сверить с FSMP wiki). Сверить Requirements: старые версии просят SkyUI VR (#91535), PapyrusUtil VR (#13048), JContainers VR (#16495), ConsoleUtilVR (#47189) — все есть в манифесте. SKSE Menu Framework + ImGui VR Helper нужны только для FSMP 4.x (меню вместо MCM).",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log виден hdtSMP64/FSMP DLL без ошибки. В игре на NPC с SMP-волосами двигаются волосы, кадр в городе не падает ниже допустимого.",
+   "risk": "high",
+   "confidence": "low",
+   "sources": "whouses 57339: Panda, Tahrovin — 2.5.1 + «XML VR» 1.0; Tahrovin - Grit — FSMP 4.0.1; Spirit of Grit — 2.1.3. GitHub DaymareOn/hdtSMP64 README: «Skinned-mesh physics for Skyrim SE / AE / VR»; поиск: V4 использует SKSE Menu Framework вместо MCM, «XML VR» — XML-файлы для VR от Alandtse. Открытые VR-проблемы у автора есть (производительность) — не подтверждено. Названия опций установщика не известны."
+  },
+  {
+   "key": "anim-186346",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Dynamic Armor Physics - Latest Version» 1.0.3 (Stormcrown VR, 2026-08-01) — VR-проверено; 1.0.4 (SUP, SE) — только после проверки sksevr.log. Единственный VR-список — Stormcrown.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR (#1988)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика», ниже XPMSSE и FSMP. Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "Четыре профиля веса (без брони/одежда/лёгкая/тяжёлая) — по умолчанию.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. Тела убитых NPC падают с разным весом/звуком в зависимости от брони.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "GitHub Seb263/SkyrimSE_DynamicArmorPhysics README: «VR Address Library for SKSEVR — Needed for VR». whouses 186346: Stormcrown VR 1.0.3, SUP 1.0.4, CSVP 1.0.3. Зависимость от XPMSSE — из заметки куратора, README её не подтверждает."
+  },
+  {
+   "key": "anim-1988",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Ставить ДВА мода. 1) Основной «XP32 Maximum Skeleton Special Extended» (#1988), файл 5.06 (Panda, Tahrovin, Grit, Librum VR, CSVP). Версии 4.80/4.81 (Tempus, Yggdrasil VR) — не брать. 2) Отдельным модом «XP32 First Person Skeleton CTD Bugfix for VR» (#34301): самая свежая 5.06-1 (Librum VR, 2025-10), иначе 5.06 (Panda, Tempus, Grit). Версию 4.71 (Yggdrasil) вместе с 5.06 не брать. Основной файл без VR-фикса в VR даёт вылеты.",
+   "fomod": "Установщик основного XPMSSE: названия опций — неизвестно — общие правила. По смыслу: взять скелет и скелеты существ; физику SMP включать, только если ставится FSMP; опции первого лица/оружейных стилей игрока в VR не нужны (управляет VRIK), брать вариант по умолчанию. VR-фикс #34301 — без установщика (по имени).",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Любой другой скелет и моды, перезаписывающие meshes\\actors\\character\\character assets\\skeleton*.nif и meshes\\actors\\character\\_1stperson\\skeleton.nif",
+    "XPMSSE без VR-фикса #34301"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Первым в разделе «11 Анимации и физика», до анимаций и FSMP. «VR-фикс» — отдельный мод СРАЗУ НИЖЕ основного (выше приоритет), он обязан выиграть конфликт по _1stperson\\skeleton.nif. Если конфликт с файлами VRIK/HIGGS/PLANCK по skeleton*.nif — открыть оба в MO2 и разобрать, не гадать (VRIK просит, чтобы его файлы перезаписывали остальное).",
+   "plugin_order": "XPMSSE.esp/плагин — если есть в архиве, включить; LOOT.",
+   "config": "Настроек нет. Меню XPMSE (если есть в MCM) не трогать.",
+   "verify": "Игра грузит сейв без вылета; достать лук и меч, поднять руки — нет T-позы и ошибок скелета. В MO2 конфликт по _1stperson\\skeleton.nif: победитель — VR-фикс.",
+   "risk": "high",
+   "confidence": "medium",
+   "sources": "whouses 1988: XPMSSE 5.06 — Panda, Tahrovin, Grit, Tahrovin-Grit, Librum; 4.81/4.80 — Tempus, Yggdrasil. whouses 34301: 5.06 (Panda, Tempus, Grit, Tahrovin-Grit), 5.06-1 (Librum, 2025-10), 4.71 (Yggdrasil). Заметка куратора: без VR-фикса — вылеты. Названия опций установщика не подтверждены."
+  },
+  {
+   "key": "anim-63471",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "NPC Animation Remix (OAR): «main archive» последней OAR-версии (2.3.0 — SE-списки 2026-06; VR-проверено 2.0.0 в Panda's и FUS) + «shield patch» той же ветки (2.0.0 у Panda/FUS; ставят все VR-списки). Gesture Animation Remix (#64420): «main archive» (OAR) 2.1.1 + «shield patch» 1.2.0 (Panda, FUS). Если 2.3.0 вызывает ошибки OAR — откат на 2.0.0. Не брать DAR-архивы (1.x) и «(no looped idles)».",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Reanimated NPC Animations — дублирует",
+    "EVG Animation Variance (#38534) — частично дублирует, приоритет у Remix"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "После OAR и PAI. Gesture Remix — ниже NPC Remix. В OAR у Remix приоритет выше EVG и Pristine. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "В диалоге NPC стоят и жестикулируют без деревянных поз, щит в руке NPC не торчит из-за спины. В логе OAR нет ошибок пакета.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 63471: OAR main 2.0.0 + shield patch — Panda, FUS; 2.3.0 — NGVO/LoreRim/SUP (SE, 2026-06); 1.8.2 — Tahrovin. whouses 64420: OAR 2.1.1 + shield patch 1.2.0 — Panda, FUS. Совместимость с OAR 3.2.1 не проверялась VR-списком (Yggdrasil берёт DAR-версии)."
+  },
+  {
+   "key": "anim-19532",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Два архива, оба Main: «Expressive Facial Animation - Male Edition» (#19532) 1.21 и «Expressive Facial Animation - Female Edition» (#19181) 1.7 — как во всех 7 VR-списках.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика». Любое место после MFG Fix NG (#133568) не обязательно, но желательно ниже него.",
+   "plugin_order": "",
+   "config": "MFG Fix NG (#133568) из манифеста дополняет эффект, обязательным не является.",
+   "verify": "В диалоге у NPC мигают глаза и меняется выражение лица; нет искажённых лиц.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 19532 и 19181: Male 1.21, Female 1.7 — Tempus, Stormcrown, Grit, Tahrovin-Grit, Panda, Tahrovin, Librum."
+  },
+  {
+   "key": "anim-66635",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main «Pristine Vanilla Movement» 1.1.1 (все 6 VR-списков: Librum, Panda, Grit, Tahrovin, Tahrovin-Grit, Tempus). «Sprint - No Camera Shake» не брать (в VR нет тряски камеры).",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке. Архив, вероятно, DAR-формата (папка DynamicAnimationReplacer) — OAR её читает; ничего конвертировать не нужно.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Animation Motion Revolution — оба меняют передвижение, оставить только Pristine"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "После OAR; ниже NPC Animation Remix (у Remix приоритет выше). Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "NPC ходят и бегают без T-позы и скольжения. Нет конфликтов по meshes\\actors\\character\\animations в MO2 с другими пакетами движения.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 66635: 1.1.1 (1650775951) во всех VR-списках; Sprint - No Camera Shake берут только Tempus и Librum. Совместимость DAR-папок с OAR — по Nexus-сниппету «DAR-моды работают с OAR»."
+  },
+  {
+   "key": "anim-62849",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main «Arm Movement Animations (OAR)» 2.2.0 (Panda, FUS, CSVP, Nordic Souls). Не брать DAR-версии «Immersive Folded Hands» 1.x и «Harkon dialogue moving animation replacer (DAR folder)».",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "После NPC Animation Remix. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "NPC при ходьбе держат руки естественно; нет лишних конфликтов с NPC Animation Remix в окне OAR.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 62849: OAR 2.2.0 — Panda, FUS, CSVP, Nordic Souls; DAR 1.2.0/1.4.0 — Tempus, Grit, Tahrovin."
+  },
+  {
+   "key": "anim-54193",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Take a Seat: «Take a Seat - OAR Animations» 1.01 (Tempus, Panda, Librum, Nordic Souls, LoreRim) — не DAR 1.0. Improved Table Transitions (#84160): вариант «Improved Table Sit Transition OAR» 1.4 (Panda's, CSVP) или 1.5 (NGVO, 2025-09); «Improved Table Transitions» 1.3 (Librum, LoreRim) — старая.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Take a Seat DAR-версия 1.0 (FUS, Yggdrasil) — не смешивать с OAR-версией"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "После OAR. Table Transitions — ниже Take a Seat. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "NPC садятся на скамьи и за столы плавно, без телепорта.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 54193: OAR 1.01 — Tempus, Panda, Librum, Nordic Souls; DAR 1.0 — FUS, Yggdrasil. whouses 84160: Table Sit Transition OAR 1.4 — Panda, CSVP; 1.5 — NGVO; Improved Table Transitions 1.3 — Librum, LoreRim."
+  },
+  {
+   "key": "anim-67557",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main «Lively Children Animations (OAR)» 2.2.1 (Panda's VR, CSVP, Nordic Souls). DAR 1.0.0 (Yggdrasil, Elysium) не брать.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "После NPC Animation Remix. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "Дети в городах не стоят деревянно.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 67557: OAR 2.2.1 — Panda, CSVP, Nordic Souls; DAR 1.0.0 — Yggdrasil, Elysium."
+  },
+  {
+   "key": "anim-34006",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Только «EVG Conditional Idles» 1.51 (Tempus, Panda, FUS, CSVP, SUP). «EVG Animation Variance» (#38534) НЕ брать: по заметке куратора дублирует Remix (VR-списки его ставят — это отклонение сознательное). «(beta) Wade In Water Animations» не брать. 1.42 (Yggdrasil) — устарела.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке. Архив может быть DAR-формата — OAR читает.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "EVG Animation Variance (#38534) — дублирует NPC Animation Remix"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Ниже NPC Animation Remix: при конфликте приоритет у Remix. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "Мёрзнущие/уставшие NPC играют свои стойки; Remix-позы не ломаются.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 34006: 1.51 — Tempus, Panda, FUS, CSVP, SUP; 1.42 — Yggdrasil, Elysium. 38534 берут Tempus, Panda, FUS, Yggdrasil — курирующая заметка против."
+  },
+  {
+   "key": "anim-70204",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "«Goetia Animations - Magic Spell Casting» 1.4 (Tempus, Panda, CSVP, Nordic Souls, NGVO; в SUP — 1.5b) и «Goetia Animations - Conditional Shouts» (#76388) 1.2 (Tempus, Panda). «Momentum Whirlwind Sprint» (Panda, #76388) — не брать, это для игрока в 3-м лице.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "После OAR. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Эффект виден только у NPC-магов; у игрока в VR каст задают VRIK/Spell Wheel.",
+   "verify": "NPC-маг при касте и крике играет новые анимации. Если страница требует Nemesis/Pandora — прогнать Pandora (#133232) и проверить, что нет T-позы.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 70204: 1.4 — Tempus, Panda, CSVP, Nordic Souls, NGVO; 1.5b — SUP. whouses 76388: Conditional Shouts 1.2 — Tempus, Panda. Нужен ли Nemesis/Pandora — не подтверждено."
+  },
+  {
+   "key": "anim-47092",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Стойки и атаки NPC, шесть-семь архивов (как в Panda's Sovngarde): Leviathan — «Two-Handed High Stance SE» (#47092) 1.4, «Two-Handed Normal Attacks For High Stance» (#48550) 1.2, «Two-Handed Power Attacks For High Stance» (#50545) 1.4c; Vanargand — «One handed Mid Stance» (#57544) 1.2, «One handed Normal Attacks» (#58326) 1.1, «One Handed Power Attacks» (#58997) 1.2, «Dual Wield Attacks» (#63566) 1.0. Sneak-пакеты Vanargand для игрока не брать. В SE-списках 2026 (SUP) — 1.5/1.4/1.5/1.4b — только после проверки.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Reanimated NPC Animations / другие пакеты боевых анимаций NPC с теми же условиями",
+    "MCO / BFCO / ADXP / Precision — не нужны и в VR бесполезны"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "После OAR и NPC Animation Remix. Все семь пакетов — подряд. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Анимации действуют на NPC и на игрока в 3-м лице, в VR атаками игрока управляют VRIK/HIGGS/PLANCK — отдельно это не настраивать.",
+   "verify": "Бандит и страж держат разные стойки в бою; нет скольжения и T-позы при атаке.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 47092/48550/50545/57544/58326/58997/63566: Tempus, Panda's (все); Yggdrasil — только Vanargand (58326, 58997); SUP — 1.5/1.4. Вопрос, влияют ли эти пакеты на атаки игрока в VR, не проверялся."
+  },
+  {
+   "key": "anim-63029",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main «Conditional Tavern Cheering (OAR)» 1.3.0 (Panda, FUS, CSVP, Nordic Souls). DAR 1.0.3 (Tempus, Yggdrasil) не брать.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "Open Animation Replacer (#92109)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "После OAR. Приоритет между OAR-пакетами задаётся не порядком в MO2, а полем priority в config.json каждого пакета (переопределяется в меню OAR). Порядок MO2 важен только при совпадении одних и тех же файлов.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "Посетители таверны аплодируют, когда играет бард.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 63029: OAR 1.3.0 — Panda, FUS, CSVP, Nordic Souls; DAR 1.0.3 — Tempus, Yggdrasil, Elysium."
+  },
+  {
+   "key": "anim-46714",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main «Super Fast Get Up Animation» 1.0 (5 VR-списков и 9 SE-списков, везде один файл 1615242774).",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды, заменяющие анимацию вставания после падения (getup)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика», после OAR-пакетов (обычная замена hkx без OAR). Конфликт с другими вставаниями решать вручную в MO2.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "После нокдауна от PLANCK/HIGGS-удара NPC быстро встаёт. Нет T-позы.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 46714: Librum, Panda, Grit, Tahrovin-Grit, Tempus и 6+ SE-списков — одна версия 1.0."
+  },
+  {
+   "key": "anim-183892",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "«Variadic Collision Dynamics» (#183892) последняя 1.3.5 (True North, SE, 2026-09-19) + «Resources» (#184110) 1.0.11. По чейнджлогу с 1.3.2 одна DLL для SE/AE/VR. VR-списков нет — ставить только по разрешению (метка try).",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "PLANCK / Physical Collision VR — возможный конфликт капсулы игрока",
+    "Collision Sentinel (#181445) — есть жалоба на конфликт"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика», последним из DLL; по одному и с отдельным тестом.",
+   "plugin_order": "",
+   "config": "Если игрок застревает/проваливается — удалить мод, не настраивать.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена, нет конфликта с PLANCK при приседании и подъёме на уступ.",
+   "risk": "high",
+   "confidence": "low",
+   "sources": "Сниппет Nexus-чейнджлога: «Added a universal DLL supporting Skyrim SE, AE, and VR… Fixed the sneak button hook in VR». whouses: True North 1.3.5 и Resources 1.0.11 — только SE. Требования Resources и Address Library не проверены."
+  },
+  {
+   "key": "anim-168903",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "«A-Pose Fix» (#168903) v1.1.0 (NGVO, Tomes of Talos; Nordic Souls — v1.1.0-a 2026-03). VR-файла нет. Ставить только если появилась A-поза.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Pandora Behaviour Engine+ (#133232)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «11 Анимации и физика», последним; по одному.",
+   "plugin_order": "",
+   "config": "Не ставить по умолчанию.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена без ошибок; после установки A-поза исчезла, иначе удалить.",
+   "risk": "high",
+   "confidence": "low",
+   "sources": "GitHub .gitmodules: alandtse/CommonLibVR, ветка ng, skyrim_vr по умолчанию true; whouses — только SE-списки. Отзывы смешанные; 2026-10-01: «hasn't been updated yet so don't use it». Привязка к Pandora — из описания «от автора Pandora» (не проверено)."
+  },
+  {
+   "key": "combat-34549",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Ставить ДВА мода. 1) Основной «Blade and Blunt - A Combat Overhaul» (#34549) 3.8.3 (Stormcrown VR, 2025-09); fallback 3.7.4 (Tempus, Panda, Tahrovin, FUS). Версии 4.0.x (SE-списки 2026-08) — НЕ брать: Stormcrown VR после выхода 4.0 остался на 3.8.3 и VR-порта под 4.x в списках нет. Версия 1.4.1 (Grit, Yggdrasil, FUS) — старая, без DLL, не брать. 2) Поверх — «Blade and Blunt VR» (#120494) 1.0.2 (Stormcrown), иначе 1.0.1 (Tempus, Panda, Tahrovin, FUS). Перед установкой открыть страницу #120494 и сверить, какие версии основного она поддерживает.",
+   "fomod": "неизвестно — общие правила (по именам архивов — два отдельных файла без установщика).",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Spell Perk Item Distributor VR (#59121)",
+    "Poached Bugs VR (#107053)",
+    "Dual Casting Fix VR (#92804)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Scrambled Bugs (SE/AE) — в VR не работает, вместо него Poached Bugs VR",
+    "Precision, True Directional Movement, MCO/BFCO/ADXP",
+    "Другие крупные боевые оверхолы (Wildcat, Valhalla Combat и т. п.) — не смешивать"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Порядок: Blade and Blunt (основной) → Blade and Blunt VR СРАЗУ НИЖЕ (его VR-DLL должна перезаписать SE-DLL). Adamant и Mysticism — выше. Simonrim Choice Config из Poached Bugs VR должен стоять ниже Core Poached Bugs VR.",
+   "plugin_order": "Плагины Blade and Blunt — после Adamant и Mysticism; остальное LOOT.",
+   "config": "Настройки через MCM. В VR не включать вторую модель урона от ударов (PLANCK/HIGGS) без проверки: смотреть, нет ли двойного расхода выносливости; начальные значения не менять.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL Blade and Blunt загружена (без ошибки версии/адресов). В MCM есть «Blade and Blunt». В бою расходуется выносливость от удара, нет двойного урона.",
+   "risk": "high",
+   "confidence": "medium",
+   "sources": "Nexus-сниппет страницы 34549: DLL, Address Library, SPID, Scrambled Bugs, Dual Casting Fix; автор отмечает «not currently compatible w/ VR» и оставляет pre-DLL версию для VR. whouses 34549: 3.8.3 — Stormcrown; 3.7.4 — Tempus, Panda, Tahrovin, FUS; 4.0.1/4.0.2 — Nordic Souls, Morning Star, Winds of the North (SE). whouses 120494: 1.0.2 — Stormcrown; 1.0.1 — Tempus, Panda, Tahrovin, FUS. Замена Scrambled Bugs на Poached Bugs VR и Dual Casting Fix VR — вывод по таблице dont, поддерживаемые версии порта не проверены."
+  },
+  {
+   "key": "combat-30191",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной «Adamant - A Perk Overhaul» (#30191) 5.9.2 (все VR-списки, включая Stormcrown). Версию 6.0.x (SE-списки 2026-08) НЕ брать без проверки страницы #190589: Stormcrown VR остался на 5.9.2 и дополнительно ставит «Adamant - VR Tweaks» (#190589) 1.2 (2026-09-04) — этот файл брать поверх. Что именно меняет VR Tweaks и какую версию Adamant он требует — сверить на странице. Опционально (не по умолчанию): «Adamant - Smithing Addon» 5.4.6 (Stormcrown, FUS) и «Simonrim Attack Speed Fix» 1.0.0 (Panda) — их назначение не проверено.",
+   "fomod": "неизвестно — общие правила (по именам архивов — отдельные файлы).",
+   "requires": [
+    "Mysticism — A Magic Overhaul (#27839)",
+    "Poached Bugs VR (#107053)",
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие перковые оверхолы (Ordinator, Vokrii, Perk Tree Overhaul и т. п.)",
+    "Skyrim VR perk-limit патчи, дублирующие VR Tweaks — сверить"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Порядок: Mysticism → Adamant → Adamant VR Tweaks (ниже Adamant, перезаписывает). Poached Bugs VR с Simonrim Choice Config (из #107053) — в разделе фиксов, отдельный мод.",
+   "plugin_order": "Adamant после Mysticism; остальное LOOT. Патчи под Adamant (Blade and Blunt и пр.) — ниже самого Adamant.",
+   "config": "Начальные значения не менять.",
+   "verify": "Окно перков показывает перки Adamant; нет вылета при открытии дерева умений. В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL VR Tweaks (если она есть) загружена без ошибки.",
+   "risk": "high",
+   "confidence": "low",
+   "sources": "whouses 30191: 5.9.2 — Stormcrown, Panda, FUS, Lost Legacy; 6.0.4 — Nordic Souls, Morning Star (SE, 2026-08-19); VR Tweaks 1.2 — только Stormcrown. Nexus-сниппет страницы: «requires Mysticism - A Magic Overhaul». Poached Bugs VR: «Adamant 5.1+ will not have any issue with this». Содержимое VR Tweaks (DLL/ESP) не подтверждено."
+  },
+  {
+   "key": "combat-187578",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Accuracy - Latest Version» 1.0.1 (SUP, SE, 2026-09) или VR-проверенная 1.0.0 (Stormcrown VR, 2026-08-07). Один универсальный архив.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Core Impact Framework (#146873)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды урона по зонам попадания"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей», ниже Core Impact Framework.",
+   "plugin_order": "",
+   "config": "Урон по зонам — настройки в JSON/INI конфигах (имя смотреть в архиве). Начальные не менять.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. Попадание в голову незащищённого противника наносит заметно больше урона, чем в ногу в тяжёлой броне.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "GitHub Seb263/SkyrimSE_Accuracy README: «VR Address Library for SKSEVR — Needed for VR». Зависимость от Core Impact Framework — сниппет-пересказ описания («построен на CIF»), не подтверждено. whouses 187578: Stormcrown VR 1.0.0, SUP 1.0.1."
+  },
+  {
+   "key": "combat-146873",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Core Impact Framework - Latest Version» 2.0.5 (Stormcrown VR, 2026-08-28). Старые 1.2.x (Tempus, Panda) не брать: конфиги Sanguine Symphony 1.3.x рассчитаны на 2.x.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке (DLL + JSON-конфиги, без плагина).",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды звуков/эффектов попаданий (Improved Weapon Impact Effects и т. п.) — дублируют"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Сначала CIF, потом его конфиги (Sanguine Symphony) — ниже.",
+   "plugin_order": "",
+   "config": "Свои конфиги CIF не править: Sanguine Symphony ставит готовые.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. При ударе по броне/плоти слышны и видны разные эффекты.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "GitHub Seb263/SkyrimSE_CoreImpactFramework README: «VR Address Library for SKSEVR — Needed for VR»; Nexus: «modular impact system overhaul powered by SKSE, operates without plugins or scripts». whouses 146873: Stormcrown VR 2.0.5; Panda 1.2.8; Tempus 1.1.1/1.2.0."
+  },
+  {
+   "key": "combat-160603",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Ricochet Framework - Latest Version» 1.1.2 (Stormcrown VR, 2026-08-16); 1.1.3 (SUP, SE) — после проверки. Файл «MCM menu» (MCM-02) — по желанию, Stormcrown VR его не ставит.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "Если ставится файл MCM menu — нужен SkyUI VR (#91535). Иначе настройки по умолчанию.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. Стрела по камню/металлу рикошетит, без вылетов в бою.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "GitHub Seb263/SkyrimSE_RicochetFramework README: «VR Address Library for SKSEVR — Needed for VR», без скриптов и плагина. whouses 160603: Stormcrown VR 1.1.2; Nordic Souls PBR 1.1.2 + MCM-02; SUP 1.1.3."
+  },
+  {
+   "key": "combat-126203",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Main «Dismembering Framework - Latest Version» 1.2.3 (Yggdrasil VR, 2026-09-02), запасной 1.2.2 (Stormcrown VR). Версии 1.0.6 (Tempus, Grit, Tahrovin) не брать. Работает только вместе с пакетами ресурсов из следующего пункта (#126328).",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке. Если установщик есть — неизвестно — общие правила.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Precision — в этой сборке не ставится (только для плоского режима)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». DF → DF Asset Packs → Next-Gen Decapitations (в таком порядке, нижние перезаписывают).",
+   "plugin_order": "LOOT; DF-плагин выше его пакетов ресурсов.",
+   "config": "Настройки через MCM. Для VR шансы расчленения держать умеренными — проверить кадр в бою. Начальные не менять.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. В MCM есть Dismembering Framework. Сильный удар по гуманоиду отрубает конечность без вылета.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "GitHub Seb263/SkyrimSE_DismemberingFramework README: «VR Address Library for SKSEVR — Needed for VR», настройка через MCM. whouses 126203: 1.2.3 — Yggdrasil; 1.2.2 — Stormcrown; 1.0.6 — Tempus, Grit, Tahrovin. Совместимость с физическим боем PLANCK/HIGGS — в списках работает, отдельно не проверялась."
+  },
+  {
+   "key": "combat-111890",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Main «NPCs Take Cover» 1.02 (Stormcrown VR, CSVP, Nordic Souls; формат .rar — MO2 нужен 7-Zip/rar-плагин); 1.01 (Grit, Panda, Librum, LoreRim) — запасная.",
+   "fomod": "неизвестно — общие правила.",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.",
+   "plugin_order": "Плагин после USSEP; остальное LOOT. Другие моды боевого ИИ — решать по LOOT.",
+   "config": "Без настроек.",
+   "verify": "Лучники прячутся за укрытиями и не стоят на открытом месте под выстрелами. Нет зависания ИИ.",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "whouses 111890: 1.02 — Stormcrown, CSVP, Nordic Souls; 1.01 — Grit, Panda, Librum, LoreRim. Состав архива (ESP/скрипты/DLL) и требования не подтверждены; автор JaySerpa, SE-страница без VR-файла."
+  },
+  {
+   "key": "combat-50483",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Файл «Enemy Friendly Fire VR» 1.3.1 (Yggdrasil VR, 2026-08-26: «Enemy Friendly Fire VR 50483 1.3.1»). SE-версию 1.3.1/1.2.0/1.1.0 не брать — SE-DLL в VR не загрузится.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Enemy Friendly Fire SE/AE (основной файл без VR)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "Без настроек.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. Стрелы и заклинания врагов задевают союзников.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses 50483: VR-файл только в Yggdrasil VR (1.3.1); Wunduniik SE 1.3.1, Aldrnari SE 1.1.0, Elysium 1.2.0. Требование Address Library — по общему правилу DLL."
+  },
+  {
+   "key": "combat-59508",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Ставить ДВА мода (как Panda's Sovngarde и Yggdrasil VR): 1) основной «Simple Offence Suppression» (#41764) 2.1.0 («Simple Offence Suppression SE» — Yggdrasil); 2) поверх VR-файл «Simple Offence Suppression VR» (#59508) 2.1.0 — он содержит VR-DLL. Версии SE 2.2.1/2.3.1 с VR 2.1.0 не смешивать без проверки страницы #59508.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [
+    "Simple Offence Suppression SE/AE (#41764)"
+   ],
+   "incompatible_with": [
+    "Simple Offence Suppression SE/AE без VR-файла — SE-DLL в VR не работает"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Основной (#41764) → VR-файл (#59508) СРАЗУ НИЖЕ (VR-DLL выигрывает).",
+   "plugin_order": "",
+   "config": "Настройки через MCM (SkyUI VR). Начальные не менять.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log VR-DLL загружена без ошибки. Случайный удар по спутнику или нейтралу не делает его врагом.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses: «Simple Offence Suppression VR-59508-2-1-0» — Panda и Yggdrasil VR (оба вместе с SE-страницей #41764: 2.2.1 у Panda, 2.1.0 у Yggdrasil). GitHub powerof3/SimpleOffenceSuppression: VR 59508, нужен VR Address Library. Что именно лежит в VR-архиве — не подтверждено."
+  },
+  {
+   "key": "combat-27839",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Main «Mysticism - A Magic Overhaul» (#27839) 2.5.0 (Stormcrown VR, 2026-08-09). Запасная 2.4.2 (Panda's, FUS). «Ordinator Patch» не брать (Ordinator не ставится). Версии 1.x/2.2.4 (Librum, Grit, Tahrovin) устарели.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке (по именам архивов — один файл).",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие перковые/магические оверхолы (Ordinator, Apocalypse, Enhanced Magic и т. п.)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей», перед Adamant. Заклинания Spell Wheel VR, Magic Improvements VR, Spellsiphon не конфликтуют (другая область: ввод, не данные).",
+   "plugin_order": "Mysticism выше Adamant; остальное LOOT.",
+   "config": "Без настроек. Poached Bugs VR со своим Simonrim Choice Config стоит отдельным модом в фиксах (g1b).",
+   "verify": "Заклинания в меню — переработанные Mysticism, нет ошибок плагина в xEdit.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses 27839: 2.5.0 — Stormcrown; 2.4.2 — Panda, FUS, CSVP; 2.2.4 — Grit, Tahrovin; 1.2.1 — Librum. Nexus: зависимостей нет, кроме базовой игры."
+  },
+  {
+   "key": "combat-57138",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Три отдельных мода SimonRim, везде Main: Thaumaturgy (#57138) 1.5 (Stormcrown VR, 2026-08-10; запасная 1.4.5 — Panda, FUS), Apothecary (#52130) 1.3.9 (Stormcrown, Panda, FUS), Mundus (#33411) 1.15.1 (Stormcrown; запасная 1.13.1). Не брать: Apothecary «Bruma/Fishing/Rare Curios/Food and Drink» патчи (этих модов нет), Thaumaturgy «Jump Boots Addon». «Enchantment XP Tweak» 1.5 (Stormcrown VR) / «Weapon Enchantment XP Tweak» 1.1 (Panda, FUS) — опционально, по умолчанию не ставить; если есть DLL, нужны SKSEVR и VR Address Library и проверка лога.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке (по именам архивов — отдельные файлы).",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие оверхолы зачарования, алхимии и камней-хранителей"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей», после Mysticism и Adamant: Thaumaturgy → Apothecary → Mundus. Если есть SunHelm Survival (#39414) — проверить на странице Apothecary патч под него.",
+   "plugin_order": "LOOT; все три после Adamant.",
+   "config": "Без настроек.",
+   "verify": "В столах зачарования и алхимии есть переработанные эффекты; камни-хранители — Mundus. Нет ошибок плагина.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 57138: 1.5 + Enchantment XP Tweak 1.5 — Stormcrown; 1.4.5 — Panda, FUS; whouses 52130: 1.3.9 — Stormcrown, Panda, FUS; whouses 33411: 1.15.1 — Stormcrown; 1.13.1 — Panda, FUS. Что внутри XP Tweak (DLL/ESP) и требования Thaumaturgy/Apothecary/Mundus — не подтверждено."
+  },
+  {
+   "key": "combat-17751",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Experience» 3.7.3 (Stormcrown VR, 2025-11); 3.5.0 (Tempus) — запасная; «Experience NG» 3.1.0 (Grit) устарела. 3.7.4 (TNE, SE) — после проверки.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды на кривую опыта и уровней (Leveling Freedom и т. п.)",
+    "Experience NG и Experience одновременно"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "Настройки в INI рядом с DLL (имя файла смотреть в архиве). Начальные не менять.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. Уровень растёт за квесты и открытия.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 17751: 3.7.3 — Stormcrown, CSVP, LoreRim; 3.5.0 — Tempus; Experience NG 3.1.0 — Grit, Tahrovin-Grit. Требование Address Library — из заметки куратора."
+  },
+  {
+   "key": "combat-151590",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Death Drop Overhaul - Latest Version» 1.3.6 (Stormcrown VR и Yggdrasil VR, 2026-09-06). 1.1.0 (Panda) — старая.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS — Enhanced VR Interaction (#43930)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды выпадения оружия при смерти"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "Без настроек. HIGGS нужен только чтобы поднимать упавшее оружие рукой, DLL от него не зависит.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. Оружие убитого падает с инерцией и его можно схватить HIGGS.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "GitHub Seb263/SkyrimSE_DeathDropOverhaul README: «VR Address Library for SKSEVR — Needed for VR». whouses 151590: 1.3.6 — Stormcrown, Yggdrasil; 1.1.0 — Panda. HIGGS — рекомендация, не требование."
+  },
+  {
+   "key": "combat-68028",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два отдельных мода. «Magic Sneak Attacks VR» (#68028) 1.3.0 (Panda, FUS, Yggdrasil VR); 1.1.0 (Grit, Tahrovin) — старая. «Physical Dodge VR» (#58605) 0.1 (6 VR-списков). SE-версию Magic Sneak Attacks (#67613) поверх не ставить.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Magic Sneak Attacks SE/AE (#67613) — SE-DLL в VR не работает"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Physical Dodge VR — ниже PLANCK и Physical Collision VR.",
+   "plugin_order": "",
+   "config": "Магические скрытые атаки: перки скрытности Adamant не дублируют множитель — сверить в MCM/INI, если он есть.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log обе DLL загружены. Скрытая атака заклинанием наносит множитель, рывок корпуса уклоняется.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses 68028: 1.3.0 — Panda, FUS, Yggdrasil; 1.1.0 — Grit, Tahrovin, Tahrovin-Grit. whouses 58605: Physical Dodge VR 0.1 — Tempus, Grit, Tahrovin-Grit, Panda, Tahrovin, FUS. Требования Physical Dodge VR (HIGGS/VRIK?) не подтверждены."
+  },
+  {
+   "key": "combat-184140",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Throat Slit VR» (#184140) 1.2 (Yggdrasil VR, 2026-07-25). Единственный VR-список.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Конфликтов файлов не ожидается.",
+   "plugin_order": "",
+   "config": "Без настроек. Не совмещать на одном движении с Immersive Weapon Penetration VR без проверки.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. Скрытое движение кинжалом по горлу срабатывает без вылета и двойных ударов.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses 184140: Yggdrasil VR 1.2 (2026-07-25). Страница — VR-only. Требования к HIGGS/PLANCK не проверены."
+  },
+  {
+   "key": "combat-172080",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Main «Dynamic Bloodpool Framework - Latest Version» 1.0.1 (Panda's Sovngarde, единственный VR-список). 1.1.0 (Nordic Souls PBR, SE, 2026-07-25) — после проверки.",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды луж крови"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей». Ниже Core Impact Framework.",
+   "plugin_order": "",
+   "config": "Лужи в других кровавых модах отключить.",
+   "verify": "В Documents\\My Games\\Skyrim VR\\SKSE\\sksevr.log DLL загружена. После убийства растекается лужа по рельефу.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "GitHub Seb263/SkyrimSE_DynamicBloodpoolFramework README: «VR Address Library for SKSEVR — Needed for VR». whouses 172080: Panda's 1.0.1 (VR); SE — NGVO, LoreRim, CSVP."
+  },
+  {
+   "key": "combat-126328",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Четыре архива (Main): «Official Creature Asset Pack» (#126328) 1.0.2, «Official Humanoid Asset Pack» (#126327) 1.0.1 (в файле опечатка «Veersion»), «Next-Gen Decapitations» (#135254) 1.4.3 (Stormcrown VR) или 1.2.0/1.3.4 (старые). Патчи «CBBE-3BA» и «HIMBO» (#126327) — только под выбранное тело (решается на этапе тел).",
+   "fomod": "неизвестно — общие правила.",
+   "requires": [
+    "Dismembering Framework (#126203)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие пакеты ресурсов расчленения"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей», ниже Dismembering Framework: Creature → Humanoid → Next-Gen Decapitations.",
+   "plugin_order": "Плагины DF-пакетов — после Dismembering Framework.",
+   "config": "Без настроек.",
+   "verify": "Отрубленная голова/конечность у гуманоида, волка, тролля выглядит корректно, без «квадратных» дыр.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 126328: 1.0.2 — Stormcrown, Tempus, Grit, Tahrovin, Tahrovin-Grit; whouses 126327: 1.0.1 — Stormcrown, Tempus, Grit, Tahrovin-Grit; патчи CBBE-3BA/HIMBO — Grit, Tahrovin; whouses 135254: 1.4.3 — Stormcrown. Поддержка тел и порядок патчей не проверены."
+  },
+  {
+   "key": "combat-148388",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "Main «Sanguine Symphony - Latest Version» 1.3.3 (Stormcrown VR, 2026-08-01, в паре с CIF 2.0.5); 1.3.5 (Morning Star, SE) — после проверки. «Ultra-HD Textures» — НЕ брать (текстуры отдельным этапом).",
+   "fomod": "нет установщика (по именам архивов); структуру проверить при установке (JSON-конфиги CIF и звуки/эффекты).",
+   "requires": [
+    "Core Impact Framework (#146873)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие конфиги CIF и моды звуков/эффектов попаданий"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «12 Бой и геймплей», СРАЗУ НИЖЕ Core Impact Framework (должен перезаписать его конфиги).",
+   "plugin_order": "",
+   "config": "Свои правки в конфигах CIF не вносить.",
+   "verify": "Эффект и звук удара зависят от брони и места удара. В MO2 нет конфликтов с другими CIF-конфигами.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses 148388: 1.3.3 — Stormcrown VR; 1.2.1 — Panda; 1.1.0 — Tempus; 1.3.5 — Morning Star. Nexus: «modifies settings in Core Impact Framework». Состав архива без DLL — по заметке куратора."
+  }
+ ],
+ "group_notes": "Группа «Анимации и бой». 1) Скелет: XPMSSE 5.06 (#1988) + отдельный VR-фикс первого лица #34301 (5.06-1/5.06) — первым в разделе анимаций, VR-фикс сразу ниже и выигрывает _1stperson\\skeleton.nif. Без фикса вылеты. Названия опций установщика XPMSSE неизвестны. 2) OAR 3.2.1 (VR-проверено только в Yggdrasil VR) + PAI + Animation Queue Fix; все анимационные пакеты — OAR-варианты (не DAR 1.x и не «no looped idles»). Приоритет пакетов задаётся priority в config.json, а не порядком MO2. Remix выше EVG/Pristine. EVG Animation Variance не ставить (по заметке куратора), хотя VR-списки его берут. Для анимаций без DLL брали последние OAR-версии, откат — VR-проверенные (Panda/FUS). 3) FSMP: самый неясный VR-пункт. Либо 4.0.1 (Tahrovin - Grit, VR), либо 2.5.1 + «XML VR» (Panda/Tahrovin). Нужен только при SMP-одежде/волосах; метка opt, риск высокий. 4) SimonRim: Mysticism 2.5.0 → Adamant 5.9.2 (VR-списки остаются на 5.9.2, SE-списки на 6.0.4; Adamant VR Tweaks 1.2 из Stormcrown — перед установкой прочитать страницу #190589 и убедиться, какую версию Adamant она требует) → Thaumaturgy 1.5 → Apothecary 1.3.9 → Mundus 1.15.1. Poached Bugs VR + Simonrim Choice Config (#107053) стоят в g1b как отдельные моды: Core выше, Config сразу ниже. 5) Blade and Blunt: основной 3.8.3 + «Blade and Blunt VR» 1.0.2 (VR-DLL ниже основного). Версию 4.0.x не брать: VR-порт под неё не подтверждён. Требует SPID VR, Poached Bugs VR (вместо Scrambled Bugs), Dual Casting Fix VR. 6) Simple Offence Suppression: ставятся ДВА мода — SE-страница #41764 (её нет в манифесте, добавлена в requires_missing) + VR-файл #59508. 7) Seb263 (CIF 2.0.5, Sanguine Symphony 1.3.3, DF 1.2.3, Accuracy, Ricochet, Death Drop 1.3.6, Dynamic Bloodpool, Dynamic Armor Physics): README каждого подтверждает, что в VR нужен VR Address Library. Порядок: CIF → Sanguine Symphony ниже; DF → ресурсы DF → Next-Gen Decapitations. Accuracy требует CIF (medium). Патчи CBBE-3BA/HIMBO к DF — решаются вместе с телами. 8) Низкая уверенность: Mu Joint Fix, NPCs Take Cover, Throat Slit VR, Physical Dodge VR, Leviathan/Vanargand (влияние на игрока в VR). Мод с меткой try (Variadic Collision Dynamics, A-Pose Fix) — только по одному и с разрешения. 9) choose_one_group в этой группе нет: пересечения внутри группы (Remix vs Reanimated/EVG Variance, Pristine vs Animation Motion Revolution, Dynamic Bloodpool vs другие лужи крови) описаны в incompatible_with."
+}
