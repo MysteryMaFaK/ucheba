@@ -7,8 +7,8 @@ export const meta = {
   ],
 }
 
-const K = 'skyrim-vr-modlist/data/kit'
-const D = 'skyrim-vr-modlist'
+const D = (typeof args !== 'undefined' && args && args.root) || 'skyrim-vr-modlist'  // args.root — абсолютный путь к папке проекта, если cwd не её родитель
+const K = D + '/data/kit'
 
 const CONTEXT = `
 Goal: produce an installation spec that a LOCAL Claude agent will follow to install a Skyrim VR modlist in Mod Organizer 2 correctly — right files, right FOMOD choices, all requirements and patches, conflicts pre-solved. Game: Skyrim VR 1.4.15, SKSEVR 2.0.12, MO2 2.5.2 portable + Root Builder 5.x. Today 2026-10-08. Textures are a later stage.

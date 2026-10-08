@@ -5,7 +5,6 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SCR = os.path.dirname(HERE)
 NX = 'https://www.nexusmods.com/skyrimspecialedition/mods/{}'
 res = json.load(open(sys.argv[1]))['result']
-fix = json.load(open(f'{SCR}/data/kit/other_fixups.json')) if len(sys.argv) > 4 else {}
 
 PARTS = [
     ('Часть 1 · Пробелы ядра', 'Ставится сразу после ядра, до текстур.',

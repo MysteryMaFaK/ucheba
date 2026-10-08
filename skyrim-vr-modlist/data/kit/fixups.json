@@ -1,6 +1,22 @@
 {
  "text_fixes": [
   [
+   "В Engine Fixes VR MaxStdio не ниже 4096 (по заметке 8192).",
+   "В Engine Fixes VR 7.x ключ bMaxStdIO = true ([Patches] в EngineFixes.toml, по умолчанию уже true; числа не задаются)."
+  ],
+  [
+   "Страница ESL Support требует MaxStdio — true в старых версиях или 4096 в новых.",
+   "Skyrim VR ESL Support при старте проверяет лимит открытых файлов (нужно не ниже 2048) и при нехватке пишет предупреждение в SkyrimVRESL.log."
+  ],
+  [
+   "«true в старых версиях, 4096 в новых»",
+   "«true или 4096» (по исходникам ESL Support достаточно лимита не ниже 2048)"
+  ],
+  [
+   "«MaxStdio = true or 4096 (later versions) must be set»",
+   "упоминание MaxStdio в сниппете страницы 106712 (по исходникам ESL Support достаточно лимита не ниже 2048)"
+  ],
+  [
    "поставить MaxStdio = 8192; это не меньше требуемых 4096.",
    "оставить bMaxStdIO = true (по умолчанию); число не задаётся, Skyrim VR ESL Support достаточно лимита не ниже 2048 (по его исходникам)."
   ],
@@ -19,6 +35,10 @@
   [
    "MaxStdio = 8192",
    "bMaxStdIO = true"
+  ],
+  [
+   "Engine Fixes VR: в заметке bMaxStdIO = true, на странице ESL Support — «true или 4096» (по исходникам ESL Support достаточно лимита не ниже 2048).",
+   "Разные источники называли разные значения лимита файлов. Решено по исходникам: ключ bMaxStdIO = true, числа не задаются."
   ]
  ],
  "key_aliases": {

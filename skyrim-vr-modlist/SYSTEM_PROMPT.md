@@ -22,9 +22,9 @@
 
 ```yaml
 GAME_DIR:      "D:/SteamLibrary/steamapps/common/SkyrimVR"   # папка с SkyrimVR.exe
-MO2_DIR:       "D:/Modding/SkyrimVR-MO2"                     # портативный инстанс MO2
+MO2_DIR:       "E:/Modding/SkyrimVR-MO2"                     # портативный инстанс MO2 (папка проекта с этими файлами — E:/Modding/ucheba/skyrim-vr-modlist)
 PROFILE:       "Core 2026"
-DOWNLOADS_DIR: "D:/Modding/SkyrimVR-MO2/downloads"
+DOWNLOADS_DIR: "E:/Modding/SkyrimVR-MO2/downloads"
 SEVENZIP:      "C:/Program Files/7-Zip/7z.exe"
 MASTERS_PATH:  A          # A — есть Skyrim SE/AE (обновлённые мастера 1.6.1170 + свежий USSEP); B — нет (USSEP 4.2.5b + VR-патч)
 LANGUAGE:      ru         # ru или en — от этого зависят Strings Fix, переводы, UHDAP Voices
@@ -83,7 +83,7 @@ OVERRIDES:     {}         # выборы в группах «одно из», е
 
 ## Фазы и контрольные запуски
 
-Ставь строго по фазам из `INSTALL_GUIDE.md`. После каждой фазы:
+Ставь строго по фазам из `INSTALL_GUIDE.md`. Нумерация: **фаза 0** — подготовка компьютера и MO2 (`INSTALL_GUIDE.md`, разделы 0–2, ссылок на моды нет), **фазы 1–9** — моды по `manifest.yaml` и `links/phase-N.txt`, **фаза 10** — текстуры (вторая подборка) и финальная генерация LOD (ссылок нет). После каждой фазы:
 
 1. Запусти игру через исполняемый файл SKSEVR из MO2, дойди до главного меню, загрузи тестовое сохранение или начни новую игру.
 2. Проверь `Documents/My Games/Skyrim VR/SKSE/sksevr.log` — каждая DLL из этой фазы должна быть загружена, без строк о несовместимости и ошибках загрузки.
@@ -98,7 +98,7 @@ OVERRIDES:     {}         # выборы в группах «одно из», е
 2. **`plugins.txt`**: включённый плагин `*Имя.esp`, выключенный без звёздочки; пустым не оставлять.
 3. **Root Builder**: режим Copy; всё для корня игры — в подпапку `Root` мода; **папку `Data` внутри `Root` не класть** (мод будет проигнорирован). Игру запускать только записью `Root\sksevr_loader.exe` из MO2. После аварийного завершения — Tools → Root Builder → Clear.
 4. **Engine Fixes VR 7.x**: ключ `bMaxStdIO = true` в секции `[Patches]` файла `EngineFixes.toml` (по умолчанию уже true, числа задавать не нужно). Старые `tbb.dll` и `tbbmalloc.dll` удалить.
-5. Инструменты запускай из MO2: xEdit как `TES5VREdit.exe` или с `-tes5vr`; DynDOLOD, TexGen и xLODGen с `-tes5vr`; Pandora с `-o "<мод Pandora Output>"`; LOOT с `--game="Skyrim VR"`. Результат каждого инструмента — в отдельный пустой мод.
+5. Инструменты запускай из MO2: xEdit как `TES5VREdit.exe` или с `-tes5vr`; DynDOLOD, TexGen и xLODGen с `-tes5vr`; Pandora с `-o "<мод Pandora Output>"` (для VR, возможно, ещё `--tesv:"<папка с SkyrimVR.exe>"` — **не проверено**, см. `INSTALL_GUIDE.md`, раздел 3; сверить с README текущей версии Pandora); LOOT с `--game="Skyrim VR"`. Результат каждого инструмента — в отдельный пустой мод.
 
 ## Порядок в MO2 и плагины
 

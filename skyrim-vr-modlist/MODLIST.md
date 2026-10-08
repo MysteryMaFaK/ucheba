@@ -301,7 +301,7 @@
 - Требует: SKSEVR (#30457); VR Address Library for SKSEVR (#58101); Root Builder (#31720)
 - Не вместе с: SSE Engine Fixes (#17230); Engine Fixes VR ObjectLOD and Shadow Map Crash Fix (#188237)
 - Порядок в MO2: Part 1 — обычный мод в разделе фреймворков. Part 2 — отдельный мод «Engine Fixes VR Part 2», все файлы в Root, раздел «Инструменты и корень».
-- Настройки: В EngineFixes.toml (7.x), секция [Patches]: bMaxStdIO = true (значение по умолчанию, число не задаётся). Файл создаётся при первом запуске игры. Страница ESL Support требует MaxStdio — true в старых версиях или 4096 в новых. Отдельный ObjectLOD/Shadow Map fix не ставить: он встроен с 7.4.9, а если стоит — удалить.
+- Настройки: В EngineFixes.toml (7.x), секция [Patches]: bMaxStdIO = true (значение по умолчанию, число не задаётся). Файл создаётся при первом запуске игры. Skyrim VR ESL Support при старте проверяет лимит открытых файлов (нужно не ниже 2048) и при нехватке пишет предупреждение в SkyrimVRESL.log. Отдельный ObjectLOD/Shadow Map fix не ставить: он встроен с 7.4.9, а если стоит — удалить.
 - Проверка: В sksevr.log Engine Fixes загружен. В логе ESL Support нет предупреждения про MaxStdio. При неправильно поставленном Part 2 плагин не грузится.
 - Заметка: Part 1 — мод, Part 2 — в корень. В EngineFixes.toml (запустить игру один раз, файл создаётся сам) в секции [Patches] оставить bMaxStdIO = true — это значение по умолчанию и требование Skyrim VR ESL Support. Старый отдельный ObjectLOD/Shadow Map fix не ставить — он уже внутри с 7.4.9.
 

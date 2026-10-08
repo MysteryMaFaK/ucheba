@@ -27,6 +27,40 @@
 | «Other Mods 2026» — список | **Готов, опубликован**: 128 модов + 23 запрета (из 178 кандидатов оставлено 151) | https://claude.ai/artifact/GRjZnT1B4zRCYUyV4UppH9 · `OTHER_MODS.md` · `site/skyrim-vr-other-mods-2026.html` |
 | «Other Mods 2026» — файлы установки (файл, FOMOD, требования, порядок) | **Не сделаны** | см. шаг 2 ниже |
 
+## Требования к окружению
+
+- **Python 3** (на Windows команда `python`, на Linux и macOS `python3`; ниже везде `python`) и `pip install pyyaml` (нужен `build_kit.py`).
+- Интернет к `raw.githubusercontent.com` (скачивание отчётов сборок). **Перед `whouses.py`, `cand.py`, `cats.py`, `union.py` обязателен шаг 0** (`fetch_reports.py`): без папки `data/rep/` они упадут.
+- Git. Репозиторий приватный: при первом обращении Git попросит войти в GitHub.
+- Для воркфлоу-скриптов — инструмент Workflow Claude Code (режим «ultracode» или явная просьба владельца). Без него те же шаги выполняются вручную (описано ниже).
+
+## Где править (сгенерированные файлы)
+
+Эти файлы **собираются скриптами**; правка вручную пропадёт при пересборке. Перед любой пересборкой сделайте коммит или копию.
+
+| Сгенерированный файл | Что править |
+|---|---|
+| `site/skyrim-vr-core-2026.html` | `tools/build_page.py` (основной список) и `tools/additions.py` (добавления 08.10), затем `python tools/build_page.py site/skyrim-vr-core-2026.html` |
+| `data/kit/draft_manifest.json` | не вручную: `python tools/make_draft_manifest.py` (читает `build_page.py` и `additions.py`) |
+| `manifest.yaml`, `MODLIST.md`, `CONFLICTS.md`, `links/` | **карточки модов**: `data/partial/install-spec__enrich_*.json` (источник) либо точечно `data/kit/fixups.json` (`mod_patches` по ключу мода, `text_fixes` для замены текста, `key_aliases` для переименованных ключей); **группы, порядок, противоречия**: `data/partial/install-spec__critic_consistency.json`. Затем `python tools/merge_partials.py install-spec` и `python tools/build_kit.py data/install_spec.json` |
+| `OTHER_MODS.md`, `site/skyrim-vr-other-mods-2026.html` | `data/partial/other-mods__*.json`, затем `merge_partials.py other-mods` и `build_other.py` (см. шаг 3) |
+
+Закрывая метку «проверить» в карточке мода: поправьте поля в `data/partial/install-spec__enrich_<группа>.json` (источник; ключ карточки — поле `key`) или добавьте запись в `mod_patches` файла `fixups.json`, потом пересоберите. Правка прямо в `manifest.yaml` не переживёт пересборку.
+
+## Как перезапустить часть агентов (инструмент Workflow)
+
+Вызов: `Workflow({scriptPath: "<абсолютный путь к скрипту из workflows/>", args: {...}})`. Скрипты по умолчанию используют относительные пути `skyrim-vr-modlist/...`, то есть рассчитаны на запуск из папки, **содержащей** `skyrim-vr-modlist` (корень клона). Если рабочая папка чата — сама папка проекта, добавьте во **все** вызовы параметр `root` с абсолютным путём, например `"root": "E:/Modding/ucheba/skyrim-vr-modlist"`. Ответ инструмента содержит `Transcript dir`: он нужен для сохранения результатов.
+
+| Скрипт | Параметры `args` |
+|---|---|
+| `skyrim-vr-install-spec-wf_*.js` | `{"only": ["g3_vr_hitech_ui","g4_anim_combat","g5_immersion_audio_ai","procedure"]}` — карточки и проверка процедуры; `{"only": ["critic"], "specsFile": "<абс. путь>/data/specs_merged.json"}` — критик. Группы: `g1a_tools_base_frameworks`, `g1b_fixes`, `g2_gfx_world_land`, `g3_vr_hitech_ui`, `g4_anim_combat`, `g5_immersion_audio_ai` |
+| `skyrim-vr-other-mods-wf_*.js` | сбор: `{"only": ["gaps-1","gaps-2","tex-nature","tex-arch","chars-armor","world-creatures"]}`; проверка: `{"picksFile": "<абс. путь>/data/other_picks.json"}` |
+| `skyrim-vr-core-additions-wf_*.js`, `skyrim-vr-hitech-2026-wf_*.js` | **без параметров** и перезапускать не нужно: их результаты уже в `data/wf1.json` и `data/wf2.json` |
+
+После запуска: `python tools/save_journal.py "<Transcript dir>" <install-spec|other-mods>` (существующие файлы не перезаписывает; `--overwrite` заменяет с копией в `data/partial/_backup/`), затем `merge_partials.py`, затем `build_kit.py` / `build_other.py`. Это можно делать и фоном: `tools/autosave.sh <кампания>=<Transcript dir>` (с `--push` добавит коммит и пуш, только с разрешения владельца).
+
+**Без Workflow:** прочитайте нужный скрипт, возьмите из него текст запроса агента (`CONTEXT`, `prompt`, схему результата) и выполните ту же работу самостоятельно, сохраняя результат в файл формата `data/partial/<кампания>__<метка>.json`.
+
 ## Что осталось
 
 ### Шаг 0. Данные сборок (нужны, если будете искать по сборкам)
@@ -49,7 +83,7 @@ python tools/fetch_reports.py
 1. Список — `data/other_result.json` (поле `verified`, `keep: true`).
 2. Разбейте на группы по 25–40 модов, для каждой заполните карточку (`key, kind, install_target, files, fomod, requires, requires_missing, incompatible_with, choose_one_group, mo2_order, plugin_order, config, verify, risk, confidence, sources`). Схема и образец — `data/partial/install-spec__enrich_g1a_tools_base_frameworks.json`. Не выдумывайте названия опций FOMOD: «неизвестно — общие правила».
 3. Критик согласованности (как для ядра): недостающие требования, группы «одно из», противоречия, порядок. Особое внимание группам тел, лиц, ландшафта, городов; BodySlide и тела — до брони.
-4. Соберите `manifest_other.yaml`, `MODLIST_OTHER.md`, `links_other/` по образцу `tools/build_kit.py`.
+4. **Нужен новый скрипт** (например, `tools/build_kit_other.py`): `build_kit.py` привязан к ядру (фазы, `draft_manifest.json`, разделители). Вход: `data/other_result.json` (элементы `verified` с `keep: true`: `name, id, url, section, tag, choose_one_group, what, files, requires, note`) и карточки установки; выход: `manifest_other.yaml`, `MODLIST_OTHER.md`, `links_other/phase-*.txt`. Формат карточек и полей — как в `manifest.yaml`.
 
 С Workflow: скрипт `workflows/skyrim-vr-install-spec-wf_a8af17cf-37b.js` написан под ядро (группы в `GROUPS`); для второго списка замените `GROUPS` и пути на `data/other_result.json`. Без Workflow — вручную по группам.
 
@@ -57,7 +91,8 @@ python tools/fetch_reports.py
 
 - Ядро: правьте `tools/build_page.py` и `tools/additions.py`, затем `python tools/build_page.py site/skyrim-vr-core-2026.html` и публикуйте тем же URL (инструмент Artifact, `url=https://claude.ai/artifact/CtFycL6Py2fC2TDY7NZgCa`). После правок пересоберите манифест: `python tools/make_draft_manifest.py && python tools/build_kit.py data/install_spec.json`.
 - Вторая подборка: `python tools/build_other.py data/other_result.json site/skyrim-vr-other-mods-2026.html OTHER_MODS.md`, URL `https://claude.ai/artifact/GRjZnT1B4zRCYUyV4UppH9`.
-- Закоммитьте и запушьте в ветку.
+- Публикация страницы инструментом Artifact **перезаписывает опубликованную страницу**: делайте это только с явного «да» владельца. Запасной вариант без Artifact: отдать HTML-файл из `site/`.
+- Коммит и пуш в ветку — тоже по просьбе владельца.
 
 ## Известные решения и оговорки
 

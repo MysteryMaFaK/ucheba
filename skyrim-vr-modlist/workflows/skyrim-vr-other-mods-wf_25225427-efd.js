@@ -7,7 +7,7 @@ export const meta = {
   ],
 }
 
-const D = 'skyrim-vr-modlist'
+const D = (typeof args !== 'undefined' && args && args.root) || 'skyrim-vr-modlist'  // args.root — абсолютный путь к папке проекта, если cwd не её родитель
 const SECTIONS = ['start','followers','navigation','controls','russian','saves','cc','equipment','voice','music','niche',
   'tex_strategy','tex_land','tex_flora','tex_water_sky','tex_arch','tex_dungeons','tex_clutter','tex_pbr_tools',
   'chars_body','chars_faces','physics','armor','creatures','city_meshes','clutter_meshes','reshade','dont']

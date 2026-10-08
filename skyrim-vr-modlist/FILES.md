@@ -2,6 +2,20 @@
 
 Папка `skyrim-vr-modlist` (репозиторий `MysteryMaFaK/ucheba`, ветка `claude/wizardly-brahmagupta-qj2sb4`).
 
+## Сводка чисел
+
+| Что | Число |
+|---|---|
+| Страница ядра | 275 позиций |
+| `manifest.yaml` ядра | 287 модов = 275 + 12 требований, найденных проверкой согласованности |
+| Группы «одно из» / правила порядка MO2 / правила порядка плагинов / разобранные противоречия | 17 / 22 / 14 / 38 |
+| Вторая подборка | 178 кандидатов → 151 прошли обе проверки = **128 модов + 23 запрета «не ставить»** |
+| Сборки Wabbajack в анализе | 27 = 9 VR + 18 плоских next-gen |
+
+## Что генерируется
+
+Не править вручную: `manifest.yaml`, `MODLIST.md`, `CONFLICTS.md`, `links/`, `OTHER_MODS.md`, `site/*.html`, `data/kit/draft_manifest.json`, `data/install_spec.json`, `data/specs_merged.json`, `data/other_picks.json`, `data/other_result.json`. Источники правок — `tools/build_page.py`, `tools/additions.py`, `data/partial/`, `data/kit/fixups.json` (подробно — `HANDOFF.md`, «Где править»).
+
 ## Читать в первую очередь
 
 | Файл | Что внутри |
@@ -57,11 +71,11 @@
 | `build_other.py`, `template_other.html` | Собрать страницу и markdown второй подборки |
 | `save_journal.py`, `autosave.sh` | Сохранить результаты агентов воркфлоу из журнала в `data/partial/` |
 | `cand.py`, `cats.py`, `union.py`, `listdates.py`, `wjlist.py` | Вспомогательные скрипты анализа составов сборок |
-| `windows_setup.ps1` | Клонирование репозитория на Windows (по умолчанию в `E:\Modding`) |
+| `windows_setup.ps1` | Клонирование только папки проекта на Windows: по умолчанию в `E:\Modding\ucheba\skyrim-vr-modlist` |
 
 ## Сценарии воркфлоу (`workflows/`)
 
-Скрипты для инструмента Workflow (режим «ultracode»), пути в них относительные. Параметры `only`, `specsFile`, `picksFile` запускают отдельные части.
+Скрипты для инструмента Workflow (режим «ultracode»), пути в них относительные (`skyrim-vr-modlist/...`). Параметры `args` есть только у `install-spec` (`only`, `specsFile`) и `other-mods` (`only`, `picksFile`); `core-additions` и `hitech-2026` без параметров и уже отработали. Точные вызовы — `HANDOFF.md`, раздел «Как перезапустить часть агентов».
 
 | Файл | Что делает |
 |---|---|

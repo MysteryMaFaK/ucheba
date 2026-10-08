@@ -7,7 +7,7 @@ export const meta = {
   ],
 }
 
-const D = 'skyrim-vr-modlist'
+const D = (typeof args !== 'undefined' && args && args.root) || 'skyrim-vr-modlist'  // args.root — абсолютный путь к папке проекта, если cwd не её родитель
 const SECTIONS = ['tools','base','frameworks','fixes','vr','ui','gfx','world','land','anim','combat','audio','ai','perf','immersion','dont']
 
 const CONTEXT = `

@@ -267,8 +267,8 @@ order_rules:
 plugin_rules:
 - Сначала LOOT после каждой порции модов. Ручные правила ниже добавлять только при подтверждённом конфликте. Поведение LOOT с ESL в VR не подтверждено,
   проверять список вручную.
-- Skyrim VR ESL Support должен быть установлен до любого ESL/ESP-FE плагина (пути A и B). В Engine Fixes VR MaxStdio не ниже 4096 (по заметке
-  8192).
+- Skyrim VR ESL Support должен быть установлен до любого ESL/ESP-FE плагина (пути A и B). В Engine Fixes VR 7.x ключ bMaxStdIO = true ([Patches]
+  в EngineFixes.toml, по умолчанию уже true; числа не задаются).
 - Мастера (Skyrim, Update, Dawnguard, HearthFires, Dragonborn, CC пути A) — по LOOT. Плагин CC Survival Mode оставить включённым (требует USSEP
   4.3.x).
 - 'USSEP сразу после мастеров и CC. Сразу за ним Skyrim VR Fixes for Latest USSEP (ESL-мастер), если он нужен. После USSEP же: USMP, SCROTE (если
@@ -425,7 +425,7 @@ resolved_contradictions:
 - keys:
   - frameworks-62089
   - frameworks-106712
-  problem: 'Engine Fixes VR: в заметке bMaxStdIO = true, на странице ESL Support — «true в старых версиях, 4096 в новых».'
+  problem: 'Разные источники называли разные значения лимита файлов. Решено по исходникам: ключ bMaxStdIO = true, числа не задаются.'
   fix: 'В EngineFixes.toml, секция [Patches], оставить bMaxStdIO = true (по умолчанию); число не задаётся, Skyrim VR ESL Support достаточно лимита
     не ниже 2048 (по его исходникам). Если у новой версии ключа нет — читать README, не угадывать. Уверенность: средняя.'
 - keys:
@@ -1278,8 +1278,8 @@ mods:
   mo2_order: Part 1 — обычный мод в разделе фреймворков. Part 2 — отдельный мод «Engine Fixes VR Part 2», все файлы в Root, раздел «Инструменты
     и корень».
   config: 'В EngineFixes.toml (7.x), секция [Patches]: bMaxStdIO = true (значение по умолчанию, число не задаётся). Файл создаётся при первом
-    запуске игры. Страница ESL Support требует MaxStdio — true в старых версиях или 4096 в новых. Отдельный ObjectLOD/Shadow Map fix не ставить:
-    он встроен с 7.4.9, а если стоит — удалить.'
+    запуске игры. Skyrim VR ESL Support при старте проверяет лимит открытых файлов (нужно не ниже 2048) и при нехватке пишет предупреждение в
+    SkyrimVRESL.log. Отдельный ObjectLOD/Shadow Map fix не ставить: он встроен с 7.4.9, а если стоит — удалить.'
   verify: В sksevr.log Engine Fixes загружен. В логе ESL Support нет предупреждения про MaxStdio. При неправильно поставленном Part 2 плагин не
     грузится.
   note: Part 1 — мод, Part 2 — в корень. В EngineFixes.toml (запустить игру один раз, файл создаётся сам) в секции [Patches] оставить bMaxStdIO
@@ -1288,8 +1288,8 @@ mods:
   risk: high
   confidence: medium
   sources: 'whouses: Stormcrown — Engine Fixes VR 7.9.0 + Part 2 v1.26a, Ygg — 7.9.0, Panda — 7.2.1 + Part 2 v1.26. Поиск: 7.10.0 от 03.10.2026,
-    фикс 188237 встроен с 7.4.9, ключи TOML в 7.10. Страница 106712: «MaxStdio = true or 4096 (later versions) must be set». rollingrock README:
-    part2 — в основную папку SkyrimVR.'
+    фикс 188237 встроен с 7.4.9, ключи TOML в 7.10. Страница 106712: упоминание MaxStdio в сниппете страницы 106712 (по исходникам ESL Support
+    достаточно лимита не ниже 2048). rollingrock README: part2 — в основную папку SkyrimVR.'
 - id: 106712
   key: frameworks-106712
   name: Skyrim VR ESL Support

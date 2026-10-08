@@ -17,6 +17,8 @@
 
 **Общение с владельцем — на русском.** Владелец хочет максимальной полноты и проверенных данных, а не быстрого ответа.
 
+Идея списка — ролики и статьи про «next-gen Skyrim 2026». Конкретный ролик владелец не называл; в поиске встречались: [ScreenRant: Skyrim 2026 Next-Gen Overhaul](https://screenrant.com/skyrim-2026-next-gen-graphics-mods-elder-scrolls-6/), видео «Skyrim in 2026 Looks INSANE» (https://www.youtube.com/watch?v=PCMnOtyIVlA), «ULTIMATE Next-Gen Skyrim: 20 Massive Mods in 2026!» (https://www.youtube.com/watch?v=3v_Rc3Xs_1U) и «20 Next-Gen Skyrim Mods You Need in 2026!» (https://www.youtube.com/watch?v=WYre8g7er04). Состав списка опирается не на эти ролики, а на реальные составы популярных сборок (раздел 4).
+
 ## 2. Хронология запросов владельца
 
 1. Собрать список самых актуальных и технологичных модов «как в ролике Next Gen Skyrim 2026», **все кроме текстур** (их потом отдельно), нужна **основа сборки**. Играть будут в **VR**. Моды без конфликтов, со всеми патчами, сборка собрана правильно и производительно.
