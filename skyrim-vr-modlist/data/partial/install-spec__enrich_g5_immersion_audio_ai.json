@@ -1,0 +1,876 @@
+{
+ "items": [
+  {
+   "key": "immersion-85212",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Locational Encounter Zones 1.0.3 (файл от 2026-08-24, его ставит Stormcrown VR). Запасной — 1.0.2 (Locational Encounter Zones-85212-1-0-2-1676905795.zip): 5 VR-списков.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение», рядом с Arena. Порядок между ними не важен.",
+   "plugin_order": "",
+   "config": "Менять нечего. Совместим с Arena (33487): ставить оба.",
+   "verify": "В sksevr.log DLL загружена без ошибки. У входа в подземелье стража того же уровня, что враги внутри.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 1.0.3 — Stormcrown VR (2026-08-24) и The Northern Experience; 1.0.2 — Tempus, Panda, Librum, Grit x2. Заметка куратора: NG-DLL с VR-пресетом, VR Address Library 0.81+ (сниппет страницы)."
+  },
+  {
+   "key": "immersion-52164",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Только файл «Don't Stay in The Water - VR» 4.1 (Don't Stay in The Water - VR-52164-4-1-1626445959.zip). Файлы «NPC Water AI Fix for SkyrimSE» 5.1 и «...AE 1.6.629 and newer» 5.1 не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "NPC Water AI Fix 5.x (файлы SE и AE той же страницы)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». Порядка относительно других модов нет.",
+   "plugin_order": "",
+   "config": "Менять нечего. Страница VR-файла может не требовать Address Library явно — это не мешает, она уже стоит.",
+   "verify": "В sksevr.log плагин загружен без ошибки. Враги не стоят в воде, а выходят к игроку.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: файл VR 4.1 — Yggdrasil VR, Librum VR, Panda, Spirit of Grit, Tahrovin-Grit, Tempus VR (6 из 6 VR-списков). Все SE/AE-списки берут 5.1."
+  },
+  {
+   "key": "immersion-86950",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) Combat Pathing Revolution 0.30 со страницы 86950 (Combat Pathing Revolution-86950-v0-30-1678975298.7z). 2) Поверх него VR-файл со страницы 87895: Combat Pathing Revolution VR 0.30.1 (Combat Pathing Revolution VR-87895-0-30-1-1694056363.7z); он заменяет DLL и PDB. Оба архива стоят в FUS, Panda, Tahrovin, Tempus VR.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [
+    "Behavior Data Injector (#78146, v0.13)",
+    "Behavior Data Injector Universal Support (#78159, v0.13.0.1 — DLL с поддержкой AE и VR)"
+   ],
+   "incompatible_with": [
+    "Fenix Combat AI (страница CPR: переписывает дерево поведения ИИ, вместе с CPR вылеты)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Два отдельных мода: «CPR» и ниже «CPR VR DLL» (VR выше по приоритету, перезаписывает файлы). Behavior Data Injector — в раздел «02 SKSEVR и библиотеки»: сначала BDI, ниже BDI Universal Support (перезаписать DLL), и только потом CPR.",
+   "plugin_order": "",
+   "config": "Менять нечего. Не ставить второй мод боевого ИИ, который переписывает behavior-дерево. Тег opt: при проблемах с поведениями (Pandora) отключить сначала CPR.",
+   "verify": "В sksevr.log загружены DLL CPR и Behavior Data Injector без ошибок. В бою NPC обходят и отступают, а не стоят.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: 87895 VR 0.30.1 — FUS, Panda, Tahrovin, Tempus VR; Behavior Data Injector 78146 и Universal Support 78159 — те же списки. Описание 87895 (WJ): SKSE VR plugin, порт maxsu2017. README alandtse/CombatPathingRevolution: VR Address Library для VR; страница 86950 (сниппет): нужен BDI и предупреждение про Fenix. Совместимость с Pandora не проверена."
+  },
+  {
+   "key": "immersion-21654",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Путь B (USSEP 4.2.5b): только файл «AI Overhaul for SE Only» — 1.8.7 (AI Overhaul SE Only 1.8.7-21654-1-8-7-1746511421.zip, Panda) или 1.8.6 (FUS). Путь A (мастера 1.6.1170, USSEP 4.3.x): по заметке куратора AE-файл — «AI Overhaul AE 1.8.7» (LoreRim, Tomes of Talos, True North); он помечен как ESL. В VR-списках AE-файл не проверен: при красных мастерах в MO2/xEdit заменить на SE Only 1.8.7. Файл Lite и Scripted BETA не брать.",
+   "fomod": "нет установщика (отдельные файлы SE Only / AE на странице)",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "AI Overhaul Lite (если ставится основной)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение», ниже USSEP и модов, меняющих NPC и расписания. Патчи совместимости с NPC-модами — ниже AI Overhaul.",
+   "plugin_order": "После USSEP и модов, правящих NPC/пакеты; остальное по LOOT. Если взят AE-файл — он ESL, проверить число плагинов.",
+   "config": "Нужны патчи под NPC-моды (брать только для установленных, из xEdit-конфликтов). Расписания AI Overhaul меняются при загрузке старого сохранения — ставить на новую игру.",
+   "verify": "Плагин в списке активен, xEdit не показывает отсутствующих мастеров. Лог Papyrus без ошибок от AI Overhaul.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: SE Only — 7 VR-списков (FUS 1.8.6, Panda 1.8.7, Grit x3 1.8.3, Ygg 1.7, Librum 1.6.5 rar); AE 1.8.7 — LoreRim/True North/Tomes; AE 1.9 — CSVP; AE 1.9.5 — Northern Experience. Заметка куратора про выбор по пути. Сниппет страницы: основной файл бывает AE/SE/Scripted. VR-проверки AE-файла нет."
+  },
+  {
+   "key": "immersion-2345",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "RAID 3: «Realistic AI Detection 3 - Medium Interior Medium Exterior» 3.1 (Realistic AI Detection 3 - Medium Interior Medium Exterior-2345-3-1-1650801751.zip): Panda, Spirit of Grit, Tahrovin-Grit, Yggdrasil VR. Для лёгкого варианта — «RAID 3 - Lite» (FUS, Tahrovin). Только один файл из трёх (Lite / Medium / High).",
+   "fomod": "нет установщика (отдельные файлы по уровню сложности)",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды, переписывающие формулу обнаружения и скрытности",
+    "Второй файл RAID (Lite/Medium/High) одновременно"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». Мод без скриптов, порядок не критичен.",
+   "plugin_order": "",
+   "config": "Менять нечего. Ничего больше про обнаружение не ставить.",
+   "verify": "Плагин активен. В стелсе враги замечают игрока заметно раньше, чем в ваниле.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: Medium — Panda, Grit, Tahrovin-Grit, Ygg; Lite — FUS, Tahrovin. Описание (WJ): скриптов нет, пересчёт формулы обнаружения."
+  },
+  {
+   "key": "immersion-40102",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Smart NPC Potions 1.22 (Smart NPC Potions-40102-1-22-1730744765.rar): Spirit of Grit, Tahrovin-Grit. Запасные: 1.11 (Tahrovin), новее — 1.30 (LoreRim, SKP). Архив .rar, нужен 7-Zip-движок MO2.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды зелий и ядов для NPC"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». Рядом с Apothecary (combat-57138), если тот ставится.",
+   "plugin_order": "",
+   "config": "INI в Data\\SKSE\\Plugins настраивает шансы — по желанию. Дополняет Apothecary.",
+   "verify": "В sksevr.log DLL загружена без ошибки. У врагов в бою есть зелья и яды.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 1.22 — Spirit of Grit, Tahrovin-Grit (VR), Apostasy, Tomes; 1.11 — Tahrovin; 1.30 — LoreRim, SKP. Changelog (по заметке куратора): «AE and VR versions are now fully supported»."
+  },
+  {
+   "key": "immersion-132097",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "NPC Spell Variance не старее 2.7.1: 2.7.2 (True North, 2026-09-25) или 2.7.1 (Northern Experience, 2026-09-09). VR-проверенный запасной — 2.4.3 (NPC Spell Variance-132097-2-4-3-1752745072.7z, Panda), 2.1.5 (Tempus). Необязательный файл «NSV - Vanilla Runes for Spellcasters (SPID)» 2.1.6 (Panda) — только с SPID VR.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». Если ставится Adamant (combat-30191) — ниже него.",
+   "plugin_order": "",
+   "config": "После первого запуска просмотреть INI. KID/SPID-аддоны для пакетов магии — по желанию.",
+   "verify": "В sksevr.log нет ошибки хука при загрузке. Маги в бою меняют заклинания, нет вылета при первом бою с магом. Вылет — откатить на 2.4.3.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: 2.1.5 Tempus VR; 2.4.3 + Vanilla Runes 2.1.6 Panda; 2.7.1 Northern Experience; 2.7.2 True North. Заметка куратора (поиск, Nexus 191145): хук 2.7.0 в VR ставился не в тот слот vtable, исправлено в 2.7.1. VR-списков с 2.7.1+ нет — проверка по логу обязательна."
+  },
+  {
+   "key": "immersion-91480",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "NPCs React To Invisibility 1.11 (NPCs React To Invisibility-91480-1-11-1724586730.zip; FUS, Panda) + NPCs React To Necromancy 1.03 (#70428; NPCs React To Necromancy-70428-1-03-1739570458.zip; Panda). Только если ставится Apothecary (combat-57138) — файл «Patch for Apothecary's Ethereal Potions» 1.10 (#91480, Panda). Патчи «Bow of Shadows» (CC нет в наборе) и «No Consequences» не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». Патч Apothecary — ниже Apothecary.",
+   "plugin_order": "Патч Apothecary — после Apothecary, по LOOT.",
+   "config": "Менять нечего.",
+   "verify": "Плагины активны. Невидимость или поднятый мертвец рядом с NPC вызывает озвученную реплику.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Invisibility 1.11 — FUS, Panda; 1.03 — FUS, Tahrovin, Grit, Tempus; Necromancy 1.03 — Panda, 1.02 — FUS/Grit/Tempus; Apothecary patch 1.10 — Panda. Описание (WJ): около 300 озвученных реакций."
+  },
+  {
+   "key": "immersion-43500",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "VR-файл Enhanced Reanimation VR 1.5.1 со страницы 59512 (Enhanced Reanimation VR-59512-1-5-1-1669711333.7z): 6 VR-списков, описание — «SKSEVR plugin, built from po3's source». Основной Enhanced Reanimation 1.5.1 (#43500, Enhanced Reanimation-43500-1-5-1-1665607585.7z) ставят под него только Spirit of Grit, Tahrovin, Tahrovin-Grit; Panda, Tempus, Yggdrasil — один VR-файл. Версию SE 1.5.2 без VR-обновления не ставить.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Enhanced Reanimation SE 1.5.2 (DLL без VR)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Если нужен основной файл — отдельный мод «Enhanced Reanimation», ниже него «Enhanced Reanimation VR» (VR выше по приоритету, перезаписывает DLL). Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "",
+   "config": "Сначала открыть VR-архив: если в нём есть ESP и ассеты — основной файл не нужен. Если ESP нет — поставить основной 1.5.1 и перезаписать DLL VR-файлом. В Data\\SKSE\\Plugins не должно остаться двух DLL Enhanced Reanimation.",
+   "verify": "В sksevr.log DLL VR загружена без ошибки. Поднятый мертвец встаёт с анимацией и эффектом.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: 59512 — Panda, Tempus, Yggdrasil, Spirit of Grit, Tahrovin, Tahrovin-Grit; 43500 1.5.1 — Grit x3 + много SE; 1.5.2 — Northern Experience (SE). Описание 59512 (WJ): SKSEVR plugin, VR-версия из исходников po3. Состав VR-архива не проверен."
+  },
+  {
+   "key": "immersion-59118",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Два архива: сначала оригинал Frozen Electrocuted Combustion 5.1.0 со страницы 3532 (Frozen Electrocuted Combustion-3532-5-1-0-1668639002.7z; во всех 7 VR-списках), затем поверх FEC VR 5.1.0.4 со страницы 59118 (FEC VR-59118-5-1-0-4-1702713188.7z; Librum, Panda, Grit, Tahrovin-Grit, Tahrovin). FEC 6.x (True North) не брать. Заметка куратора «VR вместо SE 3532» неверна: описание VR-файла — «requires original FEC to run».",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "powerofthree's Papyrus Extender + Papyrus Extender VR (#22854)"
+   ],
+   "requires_missing": [
+    "Frozen Electrocuted Combustion (#3532), файл 5.1.0 (оригинал для SE)"
+   ],
+   "incompatible_with": [
+    "Frozen Electrocuted Combustion 6.x (SE-версия новее 5.1.0)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Два мода: «FEC» выше, «FEC VR» ниже и перезаписывает. Раздел «09 Свет, погода, вода, VFX» или «13». Патч Embers XD — ниже обоих.",
+   "plugin_order": "Плагин FEC после Papyrus Extender; остальное по LOOT.",
+   "config": "Если ставится Embers XD (world-37085): добавить «Embers XD - Frozen Electrocuted Combustion Patch» (#69446; 2.0 у Panda, 1.0 у Tempus) — в manifest его нет. Остальные патчи FEC (Ordinator и т.п.) не нужны.",
+   "verify": "В sksevr.log DLL FEC VR загружена. Убитый огнём враг обугливается, замороженный покрыт льдом.",
+   "risk": "medium",
+   "confidence": "high",
+   "sources": "whouses: FEC VR 5.1.0.4 — Librum, Panda, Grit, Tahrovin-Grit, Tahrovin (5.1.0.3 — Librum, Tahrovin); FEC 3532 5.1.0 — Librum, Panda, Grit, Tahrovin, Tahrovin-Grit, Tempus. Описание FEC VR (WJ): «VR version that requires original FEC to run». Сниппет оригинала: нужен Papyrus Extender. Embers XD FEC patch 69446 — Panda, Tempus."
+  },
+  {
+   "key": "immersion-33487",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Arena - An Encounter Zone Overhaul 1.2.0, основной файл (Arena - An Encounter Zone Overhaul-33487-1-2-0-1687450157.7z; Stormcrown VR, Panda, FUS). Файл «Harder Easy Spawns» не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Open World Loot (в manifest нет)",
+    "Другие моды, переделывающие encounter zones"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение», рядом с Locational Encounter Zones.",
+   "plugin_order": "По LOOT.",
+   "config": "Менять нечего. Совместим с Locational Encounter Zones (85212): ставить оба.",
+   "verify": "Плагин активен. Уровни врагов в регионе не равны уровню игрока на низких уровнях.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 1.2.0 — Stormcrown VR, Panda, FUS. Заметка куратора: совместим с LEZ, конфликтует с Open World Loot."
+  },
+  {
+   "key": "immersion-23081",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Trade and Barter SE 2.2 (Trade and Barter SE-23081-2-2-1737695883.7z; Panda). Запасные — 2.1 (Tempus, Librum), 2.0 (Grit, Ygg). Отдельного VR-файла нет.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды на цены, торговлю и золото торговцев"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "По LOOT.",
+   "config": "Курсы и золото торговцев менять в INI/MCM по желанию.",
+   "verify": "Плагин активен. В торговле другие цены и золото торговцев, чем в ваниле.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 2.2 — Panda; 2.1 — Tempus, Librum; 2.0 — Librum, Grit, Tahrovin-Grit, Ygg. Описание (WJ): переменные торговли и перки. Заметка куратора: только плагин."
+  },
+  {
+   "key": "immersion-16692",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Два архива. 1) Realistic Mining and Chopping for VR, файл «for VR - USSEP» 1.1.0 (Realistic Mining and Chopping for VR - USSEP-16692-1-1-0.zip; 8 VR-списков, в том числе Tempus на USSEP 4.3.2). 2) VR Refit - Mine Chop and Drop 1.0.4 со страницы 49205 (VR Refit - Mine Chop and Drop-49205-1-0-4-1648691454.zip; 6 VR-списков; 1.0.3 — FUS, Librum). Файл «Infinite Mining Nodes» не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "USSEP 4.3.x (#266, путь A) или USSEP 4.2.5b (#266 Old files, путь B)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». VR Refit — отдельным модом ниже основного.",
+   "plugin_order": "Оба плагина ниже USSEP.",
+   "config": "Требования на странице проверить: скорее всего SKSEVR, а VR Refit — HIGGS (уже в наборе). Оба файла стоят в 6 VR-списках вместе.",
+   "verify": "У рудной жилы и дерева нужны реальные удары киркой и топором. Руда и дрова падают физическими предметами.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: Mining 1.1.0 USSEP — FUS, Ygg, Librum, Panda, Tahrovin, Grit x2, Tempus; VR Refit 1.0.4 — FUS, Panda, Grit x2, Tahrovin, Tempus. Описание VR Refit (WJ): патч и расширение Realistic Mining VR. Список требований страницы не прочитан."
+  },
+  {
+   "key": "immersion-99809",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Main file - Gift By Hand VR 2.1.0 (Main file - Gift By Hand VR-99809-2-1-0-1700472570.zip; FUS, Panda, Grit x2, Tahrovin; у Tempus файл с префиксом «1_Main file»). Остальные необязательные файлы не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение» или рядом с HIGGS; ниже HIGGS (vr-43930).",
+   "plugin_order": "",
+   "config": "По описанию мод использует захват рукой — вероятно, зависит от HIGGS (он в наборе). Подтвердить по вкладке Requirements.",
+   "verify": "Отдать предмет компаньону, протянув руку. В sksevr.log нет ошибок плагина.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 2.1.0 — FUS, Panda, Grit, Tahrovin, Tahrovin-Grit, Tempus VR; Ygg — 1.1.0. Описание (WJ): физический захват спутника для передачи предмета."
+  },
+  {
+   "key": "immersion-59250",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Sleeping Expanded 1.22 (Sleeping Expanded-59250-1-22-1670752210.zip): все 7 VR-списков, один и тот же архив с SE. Старый «Animations and NPC Reactions» 1.21 не нужен.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "По LOOT.",
+   "config": "Если установщик или страница требуют OAR — Open Animation Replacer (anim-92109) уже в наборе. Если мод кладёт behavior-файлы, перегенерировать их Pandora (tools-133232). Состав архива не проверен.",
+   "verify": "NPC дышат во сне, при пробуждении ночью озвучены реакции.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 1.22 — FUS, Panda, Grit, Tahrovin, Tahrovin-Grit, Tempus, Ygg (и 14 SE). Описание (WJ): анимации и реакции NPC на пробуждение."
+  },
+  {
+   "key": "immersion-16613",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Be Seated 4.2.5, VR-редакция (Be Seated 4.2.5-16613-4-2-5-1655673281.zip; FUS, Librum, Tempus, Yggdrasil VR).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "",
+   "config": "Проверить Requirements на странице: вероятно, нужен SkyUI VR для MCM. Возможное перекрытие с Take a Seat (anim-54193) — оба про сидение; не включать оба без проверки.",
+   "verify": "Можно сесть на землю или у костра. Нет вылетов при вставании.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 4.2.5 — FUS, Librum, Tempus, Yggdrasil. Описание (WJ): сидеть где угодно, питьё и еда за столом."
+  },
+  {
+   "key": "immersion-39414",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "SunHelm Survival 3.1.4 (SunHelm Survival-39414-3-1-4-1661703641.7z; FUS, Panda, Spirit of Grit, Tahrovin-Grit). Ygg — 3.1.2a, Librum — 2.0.6 не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Survival Mode Improved SKSE (в списке запретов)",
+    "Режим выживания CC одновременно с SunHelm"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "По LOOT.",
+   "config": "Плагин CC Survival Mode не удалять (путь A): страница SunHelm сама отключает CC-выживание. Настройки — в MCM. Начинать на новой игре.",
+   "verify": "В MCM есть пункт SunHelm. В игре появляются голод, жажда, усталость; предложения CC-выживания нет.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: 3.1.4 — FUS, Panda, Grit, Tahrovin-Grit. Заметка куратора: CC-выживание на странице отключено. Список запретов manifest: Survival Mode Improved SKSE не работает в VR. Точные требования страницы не прочитаны."
+  },
+  {
+   "key": "immersion-84909",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Recipe Auto-Learn 1.1.1 (Recipes 1.1.1-84909-1-1-1-1677267647.rar; FUS, Panda, Tempus VR; 1.2.0 — новее, SE). Reading Is Good — только VR-файл «Reading Is Good VR» 1.1.2 со страницы 42026 (Reading Is Good VR-42026-1-1-2-1664479626.7z; Spirit of Grit, Tahrovin-Grit); SE-файл «Reading Is Good SE» не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Reading Is Good SE (файл SE той же страницы)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». Хорошо работает с Apothecary.",
+   "plugin_order": "",
+   "config": "Менять нечего. Мод Reading Is Good (SKSE) — отдельный DLL, оба плагина должны быть в Data\\SKSE\\Plugins.",
+   "verify": "В sksevr.log обе DLL загружены. Прочитанная книга навыка даёт опыт сразу, рецепт открывает эффекты ингредиентов.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Recipes 1.1.1 — FUS, Panda, Tempus VR; Reading Is Good VR 1.1.2 — Spirit of Grit, Tahrovin-Grit; 1.1.1 — Ygg. Описание Recipe Auto-Learn (WJ): SKSE-плагин. Заметка куратора: автор проверил в VR."
+  },
+  {
+   "key": "immersion-77409",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Mum's the Word NG 2.1 (Mum's the Word-77409-2-1-1666299465.zip; Librum, Tahrovin, Grit x2, Tempus VR). Версия 2.2 (SKP) в VR не проверена.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "",
+   "config": "Менять нечего. Описание: одна DLL на CLib-NG для всех SE, AE 1.6.629+ и VR.",
+   "verify": "В sksevr.log DLL загружена. Украденная вещь без свидетелей не помечена «украдено».",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 2.1 — 5 VR-списков. Описание (WJ): «one .dll file that works in all Skyrim SE versions, including AE 1.6.629+ and VR»."
+  },
+  {
+   "key": "immersion-61015",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Только «Honed Metal VR» 1.23 (Honed Metal VR-61015-1-23-1646437077.7z; Spirit of Grit, Tahrovin-Grit, Tempus). Основной SE/AE-файл 1.26.1 вместо VR не брать: Tempus ставит его вместе с VR-файлом, Grit-списки — один VR-файл. Файл «HonedMetal.ini - Ordinator» нужен только при Ordinator (в наборе нет).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "SkyUI VR (#91535)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Honed Metal SE/AE-файл как замена VR-файла"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "По LOOT.",
+   "config": "Настройка — MCM. Если VR-архив окажется неполным (нет ESP) — поставить основной 1.26.1 и перезаписать VR-файлом.",
+   "verify": "В MCM есть Honed Metal. Кузнец за плату куёт и зачаровывает.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: VR 1.23 — Tempus, Spirit of Grit, Tahrovin-Grit; основной 1.26.1 — Tempus и SE-списки; SE 1.23 — Aldrnari, Elysium. Описание (WJ): настройка через MCM. Требования страницы не прочитаны."
+  },
+  {
+   "key": "immersion-15755",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "GIST Soul Trap 1.3 (GIST Soul Trap-15755-1-3.zip): 6 VR-списков.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды переработки захвата душ"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». Патчи совместимости — ниже.",
+   "plugin_order": "По LOOT.",
+   "config": "Если Mysticism (combat-27839) трогает захват душ — на страницах Mysticism/GIST искать патч (FUS ставит такой для Sorcerer). Название патча неизвестно.",
+   "verify": "Плагин активен. Душа идёт в камень по размеру.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 1.3 — FUS, Ygg, Tahrovin, Grit x2, Tempus. Заметка куратора: Papyrus без DLL; патч Sorcerer–GIST в FUS."
+  },
+  {
+   "key": "immersion-170497",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "SCIE-Main 2.6.0.0 или новее — в нём исправлены VR-вылет на старте (Hook 5) и нулевые счётчики. Tempus VR ставит SCIE-Main 2.5.3 (SCIE-Main-v2.5.3.zip-170497-2-5-3-0-1769949698.zip) — старее, не брать. Необязательные файлы: SCIE-HomeConfigs (есть у Tempus), CCOR/DLC/Babel — не нужны.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Skyrim VR ESL Support (#106712)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Craft from Containers и другие моды «крафт из сундуков»"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "По LOOT.",
+   "config": "SkyUI VR нужен только для MCM. Ограничение VR: глобальные контейнеры могут не работать для неперсистентных ссылок (мод пишет об этом сам). Локальные контейнеры работают.",
+   "verify": "В sksevr.log DLL загружена, старт игры без вылета. У верстака в списке материалов есть предметы из соседних сундуков, счётчики не нулевые.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "README github.com/ohfor/scie: SE/AE/VR одной DLL; VR требует VR Address Library и Skyrim VR ESL Support; SkyUI опционален. whouses: Tempus VR — Main 2.5.3 + HomeConfigs. Changelog 2.6 (по заметке куратора): исправлены «VR: Hook 5 crash on startup», «Material counts showing 0»."
+  },
+  {
+   "key": "immersion-38886",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Dirt and Blood 2.37 (Dirt and Blood-38886-2-37-1735311983.rar; Librum VR, Panda) + «Optional patch for VR - No Washing Animation» (Optional patch for VR - No Washing Animation-38886-1-66-1612390710.zip; Librum VR). Версию 2.38 (SKP) не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Wash That Blood Off 2 VR (#62372) — не ставить вместе, функции смыва пересекаются"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». VR-патч — ниже основного.",
+   "plugin_order": "VR-патч — после основного.",
+   "config": "Патч «No Washing Animation» ставить всегда. Если нужен Wash That Blood Off 2 VR (62372, 5 VR-списков) — выбрать что-то одно.",
+   "verify": "На теле копятся грязь и кровь. При входе в воду нет анимации умывания.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: 2.37 — Librum, Panda, True North, CSVP; VR-патч — Librum; Wash That Blood Off 2 VR — Panda, Grit x2, Tahrovin, Ygg. Заметка куратора: что-то одно из D&B и WTBO. Требования страницы не прочитаны."
+  },
+  {
+   "key": "immersion-60741",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Dynamic Things Alternative - Base Object Swapper 0.3 (Dynamic Things Alternative - Base Object Swapper-60741-0-3-1728083488.7z; Panda, Tempus VR) — VR-проверенная. 0.5 (Stormcrown VR, 2026) — новее и «с DLL»: брать после проверки лога. Random Barrel Roll 0.1.1 (Random Barrel Roll-78195-0-1-1-1744090974.7z; Panda) или 0.1 (Grit, Tempus).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Base Object Swapper VR (#61734)",
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение», ниже Base Object Swapper VR. С Lightened Skyrim BOS не пересекается.",
+   "plugin_order": "",
+   "config": "Если взят 0.5 и в sksevr.log ошибка DLL — вернуть 0.3.",
+   "verify": "В sksevr.log Base Object Swapper применил SWAP-файлы, ошибок нет. В мире больше разных контейнеров, бочки повёрнуты по-разному.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: DTA 0.3 — Panda, Tempus; 0.2.x — Librum, Grit, Tahrovin, Ygg; 0.5 — Stormcrown VR. RBR 0.1.1 — Panda; 0.1 — Grit, Tahrovin, Tempus. Описание (WJ): DTA 0.5 «Now with DLL»."
+  },
+  {
+   "key": "immersion-26751",
+   "kind": "plugin_only",
+   "install_target": "mo2_mod",
+   "files": "Better Resource Warnings 2.2 (Better Resource Warnings-26751-2-2-1609018535.7z; FUS, Librum, Panda, Ygg).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "",
+   "config": "Пороги здоровья и запаса сил — в настройках мода. Частично дублирует Immersive HUD и полоски на запястье Spell Wheel VR; при дубле отключить пороги здесь.",
+   "verify": "При низком здоровье слышны сердцебиение и дыхание.",
+   "risk": "low",
+   "confidence": "high",
+   "sources": "whouses: 2.2 — FUS, Librum, Panda, Ygg. Описание (WJ): без интерфейса, звук и фильтры экрана. Заметка куратора: без DLL."
+  },
+  {
+   "key": "immersion-78610",
+   "kind": "skse_dll",
+   "install_target": "mo2_mod",
+   "files": "Sink Or Swim NG 1.9 (Sink Or Swim NG-78610-1-9-1668230874.rar; Librum VR, Spirit of Grit, Tahrovin, Tahrovin-Grit). Старый Sink Or Swim со страницы 42962 не ставить: Librum VR живёт без него; Grit-списки держат оба (причина неизвестна).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Sink Or Swim (#42962, старая версия)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение».",
+   "plugin_order": "",
+   "config": "Если описание файла NG требует оригинал — поставить 42962 первым и перезаписать NG; иначе только NG.",
+   "verify": "В sksevr.log DLL загружена. В тяжёлой броне игрок идёт по дну, остальные тонут медленнее.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: NG 1.9 — Librum, Grit x2, Tahrovin; старый 42962 1.8/1.8.5 — Grit x3 (+NG), Elysium. Описание (WJ): «SKSE plugin... converted to CLIB-NG for AE/VR users»."
+  },
+  {
+   "key": "immersion-73153",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Tamrielic Names 1.2.1 (Tamrielic Names-73153-1-2-1-1725015432.zip; CSVP, LoreRim, Nordic Souls, Wunduniik, Northern Experience) + NPCs Names Distributor (#73081): 2.6.2 (LoreRim) или 2.6.3 (Northern Experience, 2026-09-01). Среди VR-списков не используется. Файл «NPCs Names Distributor INI» не нужен.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Spell Perk Item Distributor VR (#59121)"
+   ],
+   "requires_missing": [
+    "NPCs Names Distributor (#73081)"
+   ],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «13 Мир, ИИ, погружение». NND выше, Tamrielic Names ниже (его конфиги перезаписывают).",
+   "plugin_order": "",
+   "config": "Tamrielic Names — только конфиги для NND. Проверить в архиве NND наличие VR-сборки DLL. Если у NND нет VR-DLL — пропустить пару целиком.",
+   "verify": "В sksevr.log NND загружен. Безымянные NPC получают имена по расе.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses: TN 1.2.1 и NND 2.5.x–2.6.3 — только SE-списки. Заметка куратора (поиск): на странице NND NG основная причина — поддержка VR; в исходниках ENABLE_SKYRIM_VR ON. Описание NND (WJ): раздача имён через SPID."
+  },
+  {
+   "key": "audio-12466",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Audio Overhaul for Skyrim 4.1.3, основной файл со SKSE (Audio Overhaul for Skyrim (4.1.3)-12466-4-1-3-1683940246.7z; Stormcrown VR, Librum VR). Файл «Non-SKSE - Epic Game Store - Game Pass» не брать. Tempus VR держит старую 3.4.3 — не брать.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Sound Record Distributor (#77815)",
+    "Engine Fixes VR (#62089)",
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Immersive Sounds Compendium (audio-523) вместо AOS — выбрать одно, либо оба только с патчем AOS–ISC (#36761)"
+   ],
+   "choose_one_group": "audio-stack",
+   "mo2_order": "Раздел «08 Звук», первым в стеке (самый низкий приоритет среди звука). Ниже по порядку: RSE, RISE, ASIF.",
+   "plugin_order": "После Sound Record Distributor; остальное по LOOT.",
+   "config": "Выбор стека: по умолчанию AOS + RSE + RISE + ASIF (как Stormcrown VR). Требует рабочий SRD и Engine Fixes VR (регулировка громкости). Версию 4.1.3 не смешивать со старой 3.x.",
+   "verify": "В sksevr.log SRD загружен и находит конфиги AOS. В игре другие шаги, ветер, бой — звук насыщеннее ванильного.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: 4.1.3 — Stormcrown VR, Librum VR (+SE); 3.4.3 — Tempus VR. Страница AOS (поиск): требует Sound Record Distributor и Engine Fixes; рекомендует ISC Integration и ASIF. Состав установщика неизвестен."
+  },
+  {
+   "key": "audio-77829",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Два архива: Regional Sounds Expansion 2.1.0 (Regional Sounds Expansion (2.1.0)-77829-2-1-0-1748013115.7z; Stormcrown VR, Panda) и Reverb Interior Sounds Expansion 1.5.0 со страницы 77947 (Reverb Interior Sounds Expansion (1.5.0)-77947-1-5-0-1675142342.7z; Stormcrown VR, Panda). RSE 2.0.0 — старее.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "Sound Record Distributor (#77815)",
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «08 Звук». RSE ниже AOS (перекрывает регионы AOS), RISE ниже RSE. Ставится при любом выборе стека (AOS или ISC).",
+   "plugin_order": "После SRD; по LOOT.",
+   "config": "Отдельного патча RSE–RISE нет: RISE подмешивает звуки RSE в записи регионов через SRD. Ставить обе страницы.",
+   "verify": "В sksevr.log SRD применил конфиги RSE и RISE. В городах и подземельях разные реверберации.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: RSE 2.1.0 и RISE 1.5.0 — Stormcrown VR, Panda (+SE). Описание RSE (WJ): standalone, основан на AOS. Страница RISE (поиск): с RSE звуки патчатся в регионы автоматически, без патча."
+  },
+  {
+   "key": "audio-78992",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Acoustic Space Improvement Fixes 1.3.3, SkyPatcher-версия (Acoustic Space Improvement Fixes (SkyPatcher)-78992-1-3-3-1747812242.7z; Stormcrown VR). Запасной — Plugin Version (...(Plugin Version)-78992-1-3-3-1747812411.7z; Panda) без SkyPatcher. Файл «Patch for Extended Cut - Saints and Seducers» не нужен.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SkyPatcher (#106659)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Обе версии (SkyPatcher и Plugin) одновременно"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «08 Звук», ниже RISE.",
+   "plugin_order": "Plugin Version — после RISE; SkyPatcher-версия плагина не имеет.",
+   "config": "Во всех списках стоит вместе с RISE и RSE — ставить после них. Если SkyPatcher в VR работает нестабильно — взять Plugin Version.",
+   "verify": "Нет ошибок SkyPatcher в логе. Маленькие дома звучат тише и теснее, чем в ваниле.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: SkyPatcher — Stormcrown VR; Plugin Version — Panda; без RISE нигде не встречается. Описание (WJ): корректировка реверберации интерьеров."
+  },
+  {
+   "key": "audio-523",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Immersive Sounds - Compendium 3.0 (Immersive Sounds Compendium 3.0-523-3-0-1629219996.zip; Tempus, Librum, Grit x2, Tahrovin, FUS, Ygg, Panda). Для SRD-варианта (Panda) поверх — «ISC-SRDified Main File» 2.2.1 (#78446, ISC-SRDified Main File-78446-2-2-1-1698505409.zip; он убирает часть патчей). Патч AOS–ISC (#36761, 1.1.0) ставить ТОЛЬКО если установлен AOS: Tempus и Librum держат AOS + ISC + патч.",
+   "fomod": "нет установщика (по заметке куратора); состав неизвестен",
+   "requires": [],
+   "requires_missing": [
+    "ISC-SRDified Main File (#78446) — по желанию, вариант Panda's Sovngarde"
+   ],
+   "incompatible_with": [
+    "Audio Overhaul for Skyrim (audio-12466) в варианте «или-или»; вместе — только с патчем #36761",
+    "AOS без патча AOS–ISC (#36761), если ISC включён"
+   ],
+   "choose_one_group": "audio-stack",
+   "mo2_order": "Раздел «08 Звук». Если ISC вместо AOS — на месте AOS; ISC-SRDified ниже ISC; RSE, RISE, ASIF ниже. Патч AOS–ISC (при обоих) — ниже AOS и ISC.",
+   "plugin_order": "Патч AOS–ISC и ISC-SRDified — после соответствующих плагинов; остальное по LOOT.",
+   "config": "Альтернативный стек: ISC + RSE + RISE + ASIF (Panda, SRD-вариант). Не включать AOS и ISC одновременно без патча #36761. SRD (frameworks-77815) нужен только для ISC-SRDified. ESP-версия ISC 3.0 без SRDified — вариант FUS/Ygg/Grit.",
+   "verify": "ISC-плагин активен, SRD (если вариант SRDified) загружен. Звуки оружия и окружения ISC слышны, нет двойных звуков с AOS.",
+   "risk": "medium",
+   "confidence": "medium",
+   "sources": "whouses: ISC 3.0 — 7 VR-списков; ISC-SRDified 2.2.1 — Panda; AOS+патч+ISC — Tempus, Librum. Описание патча 36761 (WJ): интеграция двух крупнейших звуковых модов с полной совместимостью. Форум (поиск): патч AOS–ISC всё ещё нужен при обоих."
+  },
+  {
+   "key": "audio-1897",
+   "kind": "root_files",
+   "install_target": "root_builder",
+   "files": "Skyrim SE 3D Sound (X3DAudio HRTF) 1.0 (Skyrim SE 3D Sound (X3DAudio HRTF)-1897-1-0.zip; FUS, Yggdrasil VR, Panda). Ставить в корень игры через Root Builder, не в Data.",
+   "fomod": "нет установщика; состав архива не проверен (ожидается X3DAudio1_7.dll)",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие обработчики пространственного звука (Windows Sonic, Dolby, драйвер гарнитуры) одновременно"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «08 Звук», файлы уходят в корень через Root Builder; порядок среди звуковых модов не важен.",
+   "plugin_order": "",
+   "config": "Отключить любую другую пространственную обработку звука на гарнитуре и звуковой карте. Работает только на наушниках. Автор родственной страницы 98346 просит копировать файлы вручную, не через менеджер — здесь заменяет Root Builder. Если звук пропал — убрать DLL из корня.",
+   "verify": "В корне игры после запуска появилась X3DAudio1_7.dll. Направление звука чёткое, звук есть.",
+   "risk": "medium",
+   "confidence": "low",
+   "sources": "whouses: 1.0 — FUS, Ygg, Panda. Описание (WJ): 3D-позиционирование звука. Поиск по родственной странице 98346: HRTF через X3DAudio, ручная установка, отключать другой surround."
+  },
+  {
+   "key": "audio-18115",
+   "kind": "assets_only",
+   "install_target": "mo2_mod",
+   "files": "«Music - HQ» (Music - HQ-18115-0-1.7z): все VR-списки, музыка. «Voices EN - Part 1» и «Voices EN - Part 2» (оба архива) — только при английской озвучке (FUS, Ygg, Panda). Большие архивы.",
+   "fomod": "нет установщика (отдельные файлы)",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Другие моды озвучки (перекрывают голоса UHDAP)"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «08 Звук», самым первым (низший приоритет): музыкальные моды и озвучка должны перекрывать UHDAP.",
+   "plugin_order": "",
+   "config": "Голоса EN не ставить при русской озвучке.",
+   "verify": "Музыка в меню и в мире играет без артефактов. Файлы лежат в Data\\Music.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Music HQ — FUS, Ygg, Tempus (+SE); Voices EN Part 1+2 — FUS, Ygg, Panda. Описание (WJ): восстановление голосов и музыки из PS4."
+  },
+  {
+   "key": "audio-112008",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Wildwood Echoes 1.3 (Wildwood Echoes-112008-1-3-1716161041.7z; Librum VR и SE) + Murmurs and Mead 1.1 со страницы 114716 (Murmurs and Mead-114716-1-1-1711757412.7z; только SE-списки). 1.4 (2026) — новее, в VR не проверена.",
+   "fomod": "Murmurs and Mead: FOMOD есть (описание WJ), варианты неизвестны — общие правила",
+   "requires": [
+    "Sound Record Distributor (#77815)",
+    "Base Object Swapper VR (#61734)",
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [
+    "Не дублировать лесные и таверные звуки другими модами на тот же SRD-слой"
+   ],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «08 Звук», ниже RSE и RISE. Проверить в xEdit пересечения по звуковым регионам.",
+   "plugin_order": "По LOOT.",
+   "config": "Murmurs and Mead заменяет одиночный таверный цикл через Base Object Swapper — нужен BOS VR. Wildwood Echoes — только через SRD.",
+   "verify": "В sksevr.log SRD и BOS применили файлы без ошибок. В лесу слышны ветер, лягушки, вой; в таверне разные варианты шума.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: Wildwood 1.3/1.2 — Librum VR; 1.4 — NGVO, SKP и др.; Murmurs 1.1 — 7 SE-списков. Описание (WJ): SRD для леса; BOS + 18 вариантов шума таверн, FOMOD."
+  },
+  {
+   "key": "audio-125873",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "The Haunting Harmonies of Hjaalmarch 1.0 (The Haunting Harmonies of Hjaalmarch-125873-1-0-1724214662.7z) + Whispers of the Daedric Princes 1.2 со страницы 141931 (Whispers of the Daedric Princes-141931-1-2-1740012920.7z). В VR-списках оба не встречаются.",
+   "fomod": "Haunting Harmonies: FOMOD есть (описание WJ), варианты неизвестны — общие правила",
+   "requires": [
+    "Sound Record Distributor (#77815)",
+    "Base Object Swapper VR (#61734)",
+    "SKSEVR (#30457)"
+   ],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «08 Звук», ниже RSE и RISE (SRD распределяет поверх).",
+   "plugin_order": "По LOOT.",
+   "config": "Whispers требует Base Object Swapper (VR-версия в наборе). Опция «замолчать после квеста» — выбрать на странице или в установщике.",
+   "verify": "В sksevr.log SRD и BOS загрузили файлы. В Морфале слышен болотный фон, у святилищ — шёпот.",
+   "risk": "low",
+   "confidence": "low",
+   "sources": "whouses: HH — NGVO, CSVP, LoreRim, SKP, Tomes, TNE, Wunduniik; Whispers 1.2 — LoreRim, NGVO, Nordic Souls PBR, True North и др. Описание (WJ): HH через SRD, FOMOD; Whispers требует Base Object Swapper."
+  },
+  {
+   "key": "audio-44992",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Immersive Draw Sheathe Sounds VR 1.1 (Immersive Draw Sheathe Sounds VR-44992-1-1-1643041361.7z; Stormcrown VR, Panda, Grit x2). Файл 1.0 — старее.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [],
+   "requires_missing": [],
+   "incompatible_with": [],
+   "choose_one_group": null,
+   "mo2_order": "Раздел «08 Звук», ниже AOS: пересекается по звукам оружия.",
+   "plugin_order": "После AOS; конфликты по SNDR проверить в xEdit.",
+   "config": "Проверить, не конфликтуют ли записи с AOS (одни дескрипторы). Если конфликт — оставить версию Draw Sheathe.",
+   "verify": "Звуки доставания и убирания оружия соответствуют VR-версии, нет двойного звука.",
+   "risk": "low",
+   "confidence": "medium",
+   "sources": "whouses: 1.1 — Stormcrown VR, Panda, Spirit of Grit, Tahrovin-Grit; 1.0 — FUS, Tahrovin, Panda. Описание (WJ): улучшает звуки доставания и убирания для VR."
+  },
+  {
+   "key": "ai-0",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Основной архив SkyrimNet из последнего релиза GitHub: MinLL/SkyrimNet-GamePlugin, Beta26 (тег vbeta26-rc4, 03.10.2026, четыре файла в релизе; имена не получены). Голоса Piper TTS — отдельным модом, только если выбран Piper.",
+   "fomod": "нет установщика (по README): поставить мод, включить SkyrimNet.esp, дальше мастер настройки в браузере",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Skyrim VR ESL Support (#106712)",
+    "Skyrim VR Refocused (#32737)",
+    "MFG Fix NG (#133568)",
+    "PapyrusUtil VR (#13048)",
+    "powerofthree's Papyrus Extender + Papyrus Extender VR (#22854)",
+    "powerofthree's Tweaks + po3 Tweaks VR (#51073)"
+   ],
+   "requires_missing": [
+    "Prisma UI (для VR статус не подтверждён)",
+    "Media Keys Fix SKSE (требование Prisma UI)",
+    "Microsoft Visual C++ Redistributable (последний)"
+   ],
+   "incompatible_with": [
+    "Mantella (ai-98631)",
+    "CHIM (ai-126330)",
+    "Backported Extended ESL Support (в списке запретов)"
+   ],
+   "choose_one_group": "ai-npc",
+   "mo2_order": "Раздел «14 ИИ-NPC», ниже всех NPC-модов. Prisma UI и Media Keys Fix — в «02 SKSEVR и библиотеки».",
+   "plugin_order": "SkyrimNet.esp — после Skyrim VR ESL Support; остальное по LOOT.",
+   "config": "Нужен ключ OpenRouter (или совместимый OpenAI API), CPU с AVX2. У po3 Tweaks оставить включённым «Load EditorIDs». Запуск через SKSE, затем localhost:8080 — мастер настройки. DBVO (1.1.1, не 2.x) и CUDA 12.x (не 13.x) — по желанию; DBVO в VR требует VR-патч DBVO. Piper-голоса, если Piper.",
+   "verify": "В sksevr.log SkyrimNet загружен. localhost:8080 открывается, мастер пройден, NPC отвечают на реплику.",
+   "risk": "high",
+   "confidence": "medium",
+   "sources": "README MinLL/SkyrimNet-GamePlugin: раздел VR — Skyrim VR ESL Support, Refocused (или подобный), MFG Fix NG, DBVO VR Patch; общие — SKSE, Address Library, Papyrus Extender, PapyrusUtil, po3 Tweaks (или VR-версия), Prisma UI, Media Keys Fix. Релиз Beta26: «fixes several VR issues». VR-статус Prisma UI в источниках не найден."
+  },
+  {
+   "key": "ai-98631",
+   "kind": "mixed",
+   "install_target": "mo2_mod",
+   "files": "Mantella 0.14 — основной файл со страницы 98631 (релиз 0.14 на GitHub art-from-the-machine/Mantella от 21 апреля). Страница заявляет VR / SE / AE. Модель по умолчанию — бесплатная Gemma 4 через API. Голос — Piper или XTTS; распознавание речи — Moonshine или Whisper.",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "PapyrusUtil VR (#13048)"
+   ],
+   "requires_missing": [
+    "No NPC Greetings (по зеркалу страницы, обязательность проверить)",
+    "World Encounter Hostility Fix (по зеркалу страницы, обязательность проверить)"
+   ],
+   "incompatible_with": [
+    "SkyrimNet (ai-0)",
+    "CHIM (ai-126330)",
+    "Fuz Ro D-oh VR (вылеты, в списке запретов)"
+   ],
+   "choose_one_group": "ai-npc",
+   "mo2_order": "Раздел «14 ИИ-NPC», ниже всех NPC-модов.",
+   "plugin_order": "После USSEP (требование страницы); остальное по LOOT.",
+   "config": "Для PapyrusUtil брать VR-версию (в наборе). Приложение Mantella запускается отдельно; ключ API и голос настраиваются в его интерфейсе. Список требований страницы 0.14 не прочитан — сверить вкладку Requirements.",
+   "verify": "В sksevr.log плагин загружен. Запущен Mantella, NPC отвечает голосом на реплику из микрофона.",
+   "risk": "high",
+   "confidence": "low",
+   "sources": "Страница Mantella (зеркало, поиск): fully playable in VR/SE/AE, VR Address Library, PapyrusUtil VR из Misc files, загрузка после USSEP. GitHub: релиз 0.14 (Gemma 4 по умолчанию). Нет подтверждения VR для 0.14. Заметка куратора: вылеты с Fuz Ro D-oh."
+  },
+  {
+   "key": "ai-126330",
+   "kind": "guide_steps",
+   "install_target": "manual_steps",
+   "files": "Два шага. 1) Мод CHIM со страницы 126330 (файл AIAgent) в MO2. 2) Внешний сервер: DwemerDistroInstaller.exe из релиза Dwemer-Dynamics/DwemerDistro-Launcher (не ZIP), запуск от администратора, затем в лаунчере в Quickstart выбрать CHIM. Нативный плагин CHIM — одна DLL для SE, AE и VR (README).",
+   "fomod": "неизвестно — общие правила",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "requires_missing": [
+    "DwemerDistro (внешний сервер в WSL, не мод)",
+    "Windows Subsystem for Linux"
+   ],
+   "incompatible_with": [
+    "SkyrimNet (ai-0)",
+    "Mantella (ai-98631)"
+   ],
+   "choose_one_group": "ai-npc",
+   "mo2_order": "Раздел «14 ИИ-NPC», ниже всех NPC-модов.",
+   "plugin_order": "По LOOT.",
+   "config": "Сервер, ключи API и голос настраивать в веб-интерфейсе DwemerDistro. Список модов-требований страницы 126330 не прочитан — сверить вкладку Requirements. После обновления мода обновлять и сервер.",
+   "verify": "В sksevr.log CHIM загружен. DwemerDistro запущен, NPC отвечает на реплику.",
+   "risk": "high",
+   "confidence": "low",
+   "sources": "README Dwemer-Dynamics/CHIM: плагин поддерживает SE, AE, VR одной DLL; для 1.7.104 — SKSE 2.3.1 и Address Library All in One. README DwemerDistro-Launcher: установка через DwemerDistroInstaller.exe. Заметка куратора: сложнее всех. Подтверждения именно для Skyrim VR 1.4.15 нет."
+  }
+ ],
+ "group_notes": "ai-npc: ставится один из SkyrimNet, Mantella, CHIM. По умолчанию — SkyrimNet (порядок куратора, зависимости почти все уже в manifest). Риск: README требует Prisma UI, а VR-сборка Prisma UI не подтверждена. Перед установкой прочитать страницу Prisma UI; если VR-файла нет или он не грузится — перейти на Mantella (страница заявляет VR). CHIM — только с внешним сервером DwemerDistro (WSL), VR для 1.4.15 не подтверждён. Всё ИИ-NPC — в самом конце, после NPC-модов; нужны ключи API.\naudio-stack: в группе только AOS (по умолчанию) и ISC. RSE+RISE (audio-77829) и ASIF (audio-78992) вне группы: их ставят при любом выборе (Stormcrown VR — с AOS, Panda's Sovngarde — с ISC; ASIF нигде не встречается без RISE). Патч AOS–ISC (#36761) нужен лишь при установке обоих (Tempus, Librum), не при варианте «ISC вместо AOS». У всех мод-DLL звукового раздела общее требование — Sound Record Distributor (frameworks-77815, в manifest есть).\nПравки к заметкам куратора: 1) FEC VR (59118) ставится ПОВЕРХ оригинального FEC 3532 5.1.0, а не вместо; 2) CPR (86950) требует Behavior Data Injector (78146) и Universal Support (78159); 3) Sink Or Swim NG ставить без старого 42962 (Librum VR так и делает; Grit-списки держат оба); 4) NPC Spell Variance: VR-проверенный запасной — 2.4.3 (Panda); 5) AI Overhaul: путь B — только SE Only 1.8.7; AE-файл на пути A в VR-списках не проверен.\nДобавить в manifest (requires_missing): Behavior Data Injector (#78146), BDI Universal Support (#78159), Frozen Electrocuted Combustion (#3532, 5.1.0), NPCs Names Distributor (#73081), Prisma UI, Media Keys Fix SKSE. Условные: Embers XD – FEC Patch (#69446) при Embers XD, ISC-SRDified (#78446) для варианта Panda, патч Apothecary для NPCs React To Invisibility. У Mantella возможны No NPC Greetings и World Encounter Hostility Fix (проверить на вкладке Requirements).\nНе проверено: страницы Nexus, step wiki, документация Mantella и CHIM закрыты. Составы архивов и FOMOD-варианты неизвестны — агент читает установщик; точные требования страниц сверять на вкладке Requirements. Всё, помеченное low, подтверждать логом sksevr.log после установки."
+}
