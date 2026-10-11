@@ -1,0 +1,76 @@
+{
+ "picks": [],
+ "considered_dropped": [
+  {
+   "id": null,
+   "name": "djhert/CookingVR",
+   "reason": "список наблюдения: нет релиза. Страница Releases пуста («There aren't any releases here»), 1 коммит, страницы Nexus не нашёл. README читается: готовка у котла (колесо 3DUI, ингредиенты хватом HIGGS, помешивание); HIGGS/VRIK/PLANCK и 3DUI - мягкие зависимости; установка только сборкой из исходников (VS2022, vcpkg). Проверялось 2026-10-11; новое с раунда 1 - только это подтверждение."
+  },
+  {
+   "id": null,
+   "name": "djhert/InteractiveAnimalSkinningVR",
+   "reason": "список наблюдения: нет релиза. Описание репозитория: «harvesting items from an animal via VR interactions». Релизов нет, 2 коммита, README по прямой ссылке не открылся (404), требований и функций не знаю, Nexus нет."
+  },
+  {
+   "id": null,
+   "name": "GabeAlvess/True-Grip-SkyrimVR",
+   "reason": "список наблюдения: нет релиза. README: постоянная подстройка позиции и поворота руки на двуручном оружии (мечи, секиры, молоты), требует SKSEVR и HIGGS, GPL-3.0, сборка xmake, 2 коммита, релизов и Nexus нет. Пересекается с True Wield VR из Core (хват двуручного оружия), поэтому и с релизом вряд ли нужен."
+  },
+  {
+   "id": null,
+   "name": "SamuelJohnBrown/Neck-Snap-VR (Neck Snap VR)",
+   "reason": "список наблюдения: нет релиза. Описание: скрадывание сзади, хват головы двумя руками HIGGS, свёрнутая шея, свидетели дают розыск; требует HIGGS (PLANCK не указан, в исходниках есть vrikinterface). 3 коммита, обновлён 2026-07-09, Releases пуста, страницу Nexus поиск не нашёл. Пересечение с Throat Slit VR и Lethal Unarmed VR из ядра."
+  },
+  {
+   "id": null,
+   "name": "SamuelJohnBrown/Biting-Axes-swords (Biting Axes & Swords VR)",
+   "reason": "список наблюдения: нет релиза. Описание: топоры и мечи вгрызаются в NPC при сильном ударе, застревают, локационное кровотечение; «HIGGS + PLANCK required». 5 коммитов, MIT, обновлён 2026-07-25, Releases пуста, Nexus не найден. Прямо пересекается с Immersive Weapon Penetration VR (#184223, 1.8.0) из Core: ставить обе нельзя без проверки."
+  },
+  {
+   "id": null,
+   "name": "SamuelJohnBrown/Weapons-shields-unlocked (Weapons & Shields Unlocked)",
+   "reason": "список наблюдения: нет релиза. Снимает привязку щита к левой и двуручного оружия к правой руке; в исходниках есть интерфейсы HIGGS и VRIK, требований в README нет, установки нет, 5 коммитов, Releases пуста, Nexus не найден. Конфликт по теме с True Wield VR (#191123) и Swap Drop and Hold Redux из Core."
+  },
+  {
+   "id": null,
+   "name": "Treatid2/DynamicHavokVR",
+   "reason": "список наблюдения: нет релиза. Это SKSEVR-плагин под Skyrim VR 1.4.15: берёт частоту дисплея шлема и выставляет fMaxTime/fMaxTimeComplex (и опционально uMaxNumPhysicsStepsPerUpdate) в HAVOK. README описывает ручную установку DLL+INI, но готовой сборки нет (Releases пуста, 1 коммит, обновлён 2026-07-15), Nexus не нашёл. Может влиять на физику HIGGS/PLANCK, без теста не ставить."
+  },
+  {
+   "id": null,
+   "name": "Treatid2/BlockingStateRepairVR",
+   "reason": "список наблюдения: нет релиза. Чинит залипшее состояние блока (IsBlocking true при wantBlocking false), которое глушит каст правой рукой; требует SKSEVR 2.0.12 и Skyrim VR 1.4.15, HIGGS/PLANCK не упомянуты, установка только сборкой из исходников (CommonLibVR ng). Releases пуста, 1 коммит, обновлён 2026-07-24, Nexus нет. Дополняет Dual Casting Fix VR, но не заменяет его."
+  },
+  {
+   "id": null,
+   "name": "xNicklaj/SkyrimVR-Apply-Poison",
+   "reason": "список наблюдения: нет релиза. Без описания и README, 4 коммита, обновлён 2026-08-11, xmake; что делает - только догадка по имени, VR-статуса и требований нет, Nexus нет."
+  },
+  {
+   "id": null,
+   "name": "xNicklaj/SkyrimVR-AimAssist",
+   "reason": "список наблюдения: нет релиза. Без описания и README, 5 коммитов, обновлён 2026-07-25, в extern лежит SKSE Menu Framework; функции и требований нет, Nexus нет. Помощь прицела в VR к тому же сомнительна рядом с Accuracy из ядра."
+  },
+  {
+   "id": null,
+   "name": "Immersive VR Actions (r/skyrimvr, 2026-02-26)",
+   "reason": "список наблюдения: нет релиза. Альфа «Coming Soon»: стрелы из-за плеча, отмычка с вращением контроллера и вибрацией, предметы из контейнеров, предпросмотр содержимого. Поиск не нашёл страницы Nexus или релиза; в комментариях в конце мая спрашивали «ещё в работе?». Страницу Reddit открыть не удалось (зеркало не резолвится), опираюсь на сниппет поиска. Функции частично закрывают MageVR Reborn, Interactive Door actions и Take All Lockpicks VR."
+  },
+  {
+   "id": null,
+   "name": "Telord72612/VRTouchEvents",
+   "reason": "НЕ рекомендовать (адулт-уклон): релиз теперь есть (v3.4, FOMOD только на странице Releases), но мод передаёт касания NPC в LLM SkyrimNet Beta 25+, включает интимные контакты и опциональные адулт-интеграции (OSL/SLA Aroused, патчи под SexLab/OStim); нужны PPB, PLANCK, HIGGS, VRIK. Автор пишет, что код сделан через Claude Code и за безопасность не ручается. Для безопасной конфигурации без SkyrimNet смысла нет."
+  },
+  {
+   "id": null,
+   "name": "SamuelJohnBrown: Water-interactions-VR, Physical-Torch-Lighting-VR, Equipped-weapon-collision, SpellBender-VR, NPC-mounted-combat, Interactive-Pipe-Smoking",
+   "reason": "вне моей группы и не из списка; нашёл в профиле автора (обновлены 2026-01..08, README не читал, Releases не проверял). Передаю как наводку другому проходу: у автора есть и Nexus-релизы (Throat Slit VR #184140 в Yggdrasil VR), так что страницы для этих может появиться. Не проверено."
+  },
+  {
+   "id": null,
+   "name": "Treatid2/Throwing-Stuff-VR, dual_wield_block_vr, SkyrimVR-Havok-Material-Guard (форки и вспомогательные репозитории)",
+   "reason": "в профиле Treatid2; форки существующих модов (Throw Stuff VR, блок при двух руках) или внутренние гарды без релиза; не по этой группе, не проверял."
+  }
+ ],
+ "notes": "Итог по GAP 6: установочных релизов нет ни у одного пункта списка, поэтому picks пустой. Проверка 2026-10-11 через WebFetch: страницы /releases и главные страницы репозиториев (djhert/CookingVR, InteractiveAnimalSkinningVR; GabeAlvess/True-Grip-SkyrimVR; SamuelJohnBrown Neck Snap, Biting Axes, Weapons & Shields Unlocked; Treatid2 DynamicHavokVR, BlockingStateRepairVR; xNicklaj Apply-Poison, AimAssist) - везде «There aren't any releases here», по 1-5 коммитов, у DynamicHavokVR в разделе Releases тоже пусто. Nexus-страницы поиск (запросы «<name> at Skyrim Special Edition Nexus») не нашёл ни для одного; это негативное свидетельство слабое, т.к. поиск по Nexus ненадёжен, но сам автор Samuel Brown выкладывает на Nexus (Throat Slit VR #184140, Interactive Door actions, Interactive NPC Dialogue), так что через 1-2 месяца стоит перепроверить. whouses по этим именам: ни один VR-лист их не ставит (Throat Slit VR есть только в Yggdrasil VR). Единственное изменение с раунда 1: у VRTouchEvents появился релиз v3.4 с FOMOD, но он адулт-ориентирован и зависит от LLM SkyrimNet, поэтому остаётся «не рекомендовать». Сборка из исходников пользователю не нужна: советую не ставить самосборные DLL в боевую сборку. Если захочется рискнуть, самые безобидные для проверки после появления релиза: BlockingStateRepairVR (узкая починка каста при залипшем блоке; требования SKSEVR 2.0.12 и VR 1.4.15 совпадают с нашими) и Neck Snap VR (нужен HIGGS). Biting Axes и Weapons & Shields Unlocked конфликтуют по теме с Immersive Weapon Penetration VR и True Wield VR из ядра, DynamicHavokVR трогает физику Havok и может ломать HIGGS/PLANCK. Что не удалось прочитать: README InteractiveAnimalSkinningVR, xNicklaj Apply-Poison и AimAssist (raw-ссылки 404, на главных страницах текста README нет); страница Reddit Immersive VR Actions (зеркало не резолвится); GitHub API недоступен без add_repo, add_repo не вызывал, так как владелец об этом не просил и страниц github.com хватило. VR-статус доказательствами: CookingVR - README «Skyrim VR» (CommonLibSSE-NG, vr-only preset); True Grip, BlockingStateRepairVR, DynamicHavokVR - README говорит VR/SKSEVR; остальные - по описанию репозитория."
+}

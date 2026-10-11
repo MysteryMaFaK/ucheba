@@ -1,0 +1,486 @@
+# Уже взято: [core]=ядро, [other1]=Other Mods первый проход, [ix]=взаимодействие в VR. Формат: #id название
+[core] Mod Organizer 2
+[core] #31720 Root Builder
+[core] #164 SSEEdit (xEdit)
+[core] LOOT
+[core] BethINI Pie + Skyrim VR Plugin for Bethini Pie
+[core] #133232 Pandora Behaviour Engine+
+[core] Synthesis
+[core] fpsVR или SteamVR Frame Timing
+[core] #68518 DynDOLOD 3 + Resources SE 3 + DynDOLOD DLL NG
+[core] xLODGen
+[core] #189722 MCM Memory
+[core] #19250 More Informative Console
+[core] #175086 Lights Conflict Resolver
+[core] #64319 VR Keyboard
+[core] #120946 PGPatcher (бывш. ParallaxGen)
+[core] #137741 NIF Preview for MO2
+[core] Путь A. Обновлённые мастера SSE 1.6.1170 + 4 бесплатных CC
+[core] #266 USSEP (последний, 4.3.x)
+[core] #176040 Skyrim VR Strings Fix for Updated SSE Master Files
+[core] #59049 Survival Mode Prompt Removed (Disable Permanently)
+[core] #177398 Skyrim VR Survival Text Removed
+[core] #177650 Skyrim VR Fixes for Latest USSEP
+[core] #91475 Путь B. USSEP 4.2.5b + Skyrim VR USSEP patch for 4.2.5b
+[core] Чистка мастеров в SSEEdit
+[core] #30457 SKSEVR
+[core] #58101 VR Address Library for SKSEVR
+[core] #62089 Engine Fixes VR
+[core] #106712 Skyrim VR ESL Support
+[core] #59818 Crash Logger SSE AE VR
+[core] #27782 Skyrim VR Tools
+[core] #13048 PapyrusUtil VR
+[core] #16495 JContainers VR
+[core] #22854 powerofthree's Papyrus Extender + Papyrus Extender VR
+[core] #51073 powerofthree's Tweaks + po3 Tweaks VR
+[core] #59121 Spell Perk Item Distributor VR
+[core] #55728 Keyword Item Distributor
+[core] #61734 Base Object Swapper VR
+[core] #106659 SkyPatcher
+[core] #53000 MCM Helper
+[core] #91535 SkyUI VR
+[core] #120152 Container Distribution Framework + VR
+[core] #74037 FormList Manipulator
+[core] #105799 Description Framework
+[core] #85702 Inventory Interface Information Injector
+[core] #77815 Sound Record Distributor
+[core] #47189 ConsoleUtilVR
+[core] #120352 SKSE Menu Framework + ImGui VR Helper
+[core] #133568 MFG Fix NG
+[core] #32737 Skyrim VR Refocused
+[core] #60210 Scaleform Translation Plus Plus VR
+[core] #17561 UIExtensions
+[core] #81469 Object Categorization Framework
+[core] #107676 Dynamic String Distributor
+[core] #180186 MCM Unlocked
+[core] #172083 Dynamic Leveled Lists + Dynamic Container Loot
+[core] #107053 Poached Bugs VR
+[core] #77779 Papyrus Tweaks NG
+[core] #160704 Skyrim freeze fix NG
+[core] #175062 Disabled Reference Integrity Fix (VR)
+[core] #193168 Block Condition Freeze CTD Fix
+[core] #69326 NPC AI Process Position Fix NG
+[core] #69331 Animated Static Reload Fix NG
+[core] #110508 Stagger Effect Fix
+[core] #82395 Animation Queue Fix
+[core] #174106 Seamless Saving VR
+[core] #174643 Faster Decompression
+[core] #100975 Disk Cache Enabler
+[core] #18860 PrivateProfileRedirector
+[core] #50129 Skyrim Priority SE AE VR
+[core] #97155 SCROTE — Simply Optimized Scripts
+[core] #54907 eFPS — Exterior FPS boost + Patch Hub
+[core] #111475 Lightened Skyrim — BOS edition
+[core] #148746 Inertia (Floating Gear Fix)
+[core] #32117 Assorted Mesh Fixes
+[core] #21027 Unofficial Material Fix
+[core] #26138 Skyrim Landscape and Water Fixes
+[core] #52641 Navigator — Navmesh Fixes
+[core] #37440 Increase Actor Limit for VR
+[core] #86265 Save Unbaker VR
+[core] #87940 Dragonactorscript Infinite Loop Fix
+[core] #191729 Telekinesis Aim Fix VR
+[core] #181445 Collision Sentinel
+[core] #76867 Recursion Monitor
+[core] #110459 Combat Music Fix NG
+[core] #53653 Fixed Mesh Lighting
+[core] #77834 Aurora Fix + Sky Reflection Fix
+[core] #63862 Water Effects Brightness and Reflection Fix
+[core] #69026 Unaggressive Dragon Priests Fix + Dwemer Gates Don't Reset
+[core] #67276 CritterSpawn Congestion Fix
+[core] #49616 Unofficial Skyrim Modder's Patch (USMP)
+[core] #173629 Saving on Steed — Horse Save Load Fix
+[core] #23416 VRIK Player Avatar
+[core] #43930 HIGGS — Enhanced VR Interaction
+[core] #66025 PLANCK
+[core] #186335 Physical Collision VR
+[core] #191123 True Wield VR
+[core] #184223 Immersive Weapon Penetration VR
+[core] #185816 Swap Drop and Hold Redux — VR
+[core] #47630 Spell Wheel VR
+[core] #31374 Weapon Throw VR
+[core] #161676 Interactive Activators VR
+[core] #44571 Instant Equip VR
+[core] #59816 Dialogue Movement Enabler VR
+[core] #55962 Stop Trigger Unsheathing For VR
+[core] #92804 Dual Casting Fix VR
+[core] #20364 Haptic Skyrim VR
+[core] #117254 Seamless Arrow Nocking VR + Immersive Crossbow Reload VR
+[core] #55751 Magic Improvements for Skyrim VR
+[core] #191124 Lethal Unarmed VR
+[core] #170321 VR Climbing — Aelove Ver
+[core] #26627 Spellsiphon
+[core] #24720 To Your Face
+[core] #28354 Sprint Jump VR
+[core] #63663 Arctal's VRIK Tweaks
+[core] #16335 No Stagger Mod
+[core] #28831 Neutral VR Animations for VRIK
+[core] #16330 SKSEVR Perk Extender
+[core] #129594 Smooth Carriage Ride VR + Im Walkin' Here VR
+[core] #104975 No more werewolf hat
+[core] #83092 VR Equip
+[core] #23649 Auto Sneak and Jump VR
+[core] #119689 Spell Auto-Aim VR
+[core] #76830 Durability VR + Immersive Smithing
+[core] #188233 PLANCK VR Stability Patch
+[core] #182410 VRIK Closed Fist
+[core] #81220 Steeds of Ultima — VR Mounted Combat
+[core] #186875 Smooth Terrain
+[core] #181533 Helios + MMSF, Luma Utility, XEMI Utility
+[core] #190704 Inventory Selfie VR — Redux
+[core] #169833 Pull Arrows VR — Immersive Extraction
+[core] #174838 Cold Breath NG
+[core] #166560 Interactive Waters — VR (beta)
+[core] #186754 Immersive Harvesting VR
+[core] #164183 ISPVR — Immersive Spellcasting VR
+[core] #169221 Steeds of Omega VR — NPC Mounted Combat
+[core] #175254 Dynamic Footprints SKSE
+[core] #189713 DynamicShader — DynamicSnow
+[core] #192698 XPMF — Extended Projected Materials Framework
+[core] #184628 Frostwalker
+[core] #186081 Bobbing Framework
+[core] #184804 Immersive NPC Dialogue — VR
+[core] #189452 Palm Compass VR
+[core] #184607 Horizon Fix
+[core] #33215 moreHUD VR
+[core] #120075 QuickLoot IE
+[core] #140752 VR Console Selection Fix
+[core] #185197 No Menu Fade Out VR
+[core] #169537 Norden UI — VR Edition
+[core] #59554 Essential Favorites VR + Favorite Misc Items
+[core] #33414 VR Menu Mouse Fix
+[core] #81409 Crafting Categories for SkyUI VR (COCKS)
+[core] #183714 Floating Subtitles VR
+[core] #184159 Floating Damage NG
+[core] #49657 Clear HUD VR + Clean Menu
+[core] #17812 Minimal Enemy Healthbar VR
+[core] #155978 Dynamic Location Pop-ups (VR)
+[core] #156898 RacemenuVR
+[core] #192158 RaceMenu VR 2
+[core] #192976 I5 — Information Injector Improved
+[core] #180419 Open Shaders
+[core] #166950 Community Shaders Expanded (CSX), VR-сборка
+[core] #127557 Light Placer + Light Placer VR
+[core] #138443 CS Light
+[core] #164488 Rim Lighting Removed
+[core] #186700 Native Water Light Stabilizer
+[core] #43158 Lux + Lux Patch Hub
+[core] #63588 Lux Via + Patch Hub
+[core] #56095 Lux Orbis + Patch Hub
+[core] #42731 Azurite Weathers III + MCM + Azurite III HDR
+[core] #72115 Splashes of Storms + VR
+[core] #47710 Splashes of Skyrim + VR
+[core] #177023 Dynamic Wind Framework + Dynamic Wind — Skyrim
+[core] #56520 Simplicity of Sea
+[core] #37061 Water for ENB
+[core] #170955 Map Weather — CS
+[core] #37085 Embers XD
+[core] #73336 Moons and Stars + SKSEVR DLL
+[core] #29243 Storm Lightning for SSE and VR
+[core] #87261 Natural Waterfalls
+[core] #112509 KittyVFX — Frost, Fire, Lightning, Dragon Breath, Healing, Portals
+[core] #12939 Deadly Spell Impacts + Parallax Spell Impacts
+[core] #133368 slightly Better Dust + Improved Sparks
+[core] #13749 Volcanic Tundra — Heat Wave Effects
+[core] #42161 No Grass In Objects NG
+[core] #101095 Grass Cache Helper NG
+[core] #9005 Landscape Fixes For Grass Mods
+[core] #164058 Merethic Grasslands
+[core] #80687 Cathedral 3D Grass Library + 3D-растения
+[core] #50961 Happy Little Trees + DynDOLOD 3 Add-On
+[core] #62861 Seasons of Skyrim + Seasons of Skyrim VR
+[core] #87521 LOD Model Library for DynDOLOD
+[core] #12431 No Grass In Caves
+[core] #9121 Better Dynamic Snow + Better Dynamic Ash
+[core] #78702 Simple Snow Improvements (BOS)
+[core] #3808 Footprints + SPID for Footprints
+[core] #79473 Auto Parallax
+[core] #92109 Open Animation Replacer
+[core] #99621 Paired Animation Improvements
+[core] #61479 Mu Joint Fix (DLL)
+[core] #57339 FSMP — Faster HDT-SMP
+[core] #186346 Dynamic Armor Physics
+[core] #1988 XPMSSE + XP32 First Person Skeleton CTD Bugfix for VR
+[core] #63471 NPC Animation Remix + Gesture Animation Remix (OAR)
+[core] #19532 Expressive Facial Animation — Male + Female
+[core] #66635 Pristine Vanilla Movement
+[core] #62849 Arm Movement Animations (OAR)
+[core] #54193 Take a Seat + Improved Table Transitions
+[core] #67557 Lively Children Animations (OAR)
+[core] #34006 EVG Conditional Idles
+[core] #70204 Goetia Animations — Spell Casting + Conditional Shouts
+[core] #47092 Leviathan / Vanargand Animations (стойки и атаки NPC)
+[core] #63029 Conditional Tavern Cheering (OAR)
+[core] #46714 Super Fast Get Up Animation
+[core] #183892 Variadic Collision Dynamics
+[core] #168903 A-Pose Bug Fix
+[core] #34549 Blade and Blunt + Blade and Blunt VR
+[core] #30191 Adamant + Adamant — VR Tweaks
+[core] #187578 Accuracy — Localized Combat Damage
+[core] #146873 Core Impact Framework
+[core] #160603 Ricochet — Arrow Physics Framework
+[core] #126203 Dismembering Framework
+[core] #111890 NPCs Take Cover
+[core] #50483 Enemy Friendly Fire
+[core] #59508 Simple Offence Suppression (VR)
+[core] #27839 Mysticism — A Magic Overhaul
+[core] #57138 Thaumaturgy + Apothecary + Mundus
+[core] #17751 Experience
+[core] #151590 Death Drop Overhaul
+[core] #68028 Magic Sneak Attacks VR + Physical Dodge VR
+[core] #184140 Throat Slit — VR
+[core] #172080 Dynamic Bloodpool Framework
+[core] #126328 DF Asset Packs + Next-Gen Decapitations
+[core] #148388 Sanguine Symphony
+[core] #85212 Locational Encounter Zones
+[core] #52164 Don't Stay in The Water — NPC Water AI Fix
+[core] #86950 Combat Pathing Revolution + VR
+[core] #21654 AI Overhaul
+[core] #2345 Realistic AI Detection (RAID)
+[core] #40102 Smart NPC Potions
+[core] #132097 NPC Spell Variance
+[core] #91480 NPCs React To Invisibility + NPCs React To Necromancy
+[core] #43500 Enhanced Reanimation + VR
+[core] #59118 Frozen Electrocuted Combustion VR
+[core] #33487 Arena — An Encounter Zone Overhaul
+[core] #23081 Trade and Barter
+[core] #16692 Realistic Mining and Chopping for VR + VR Refit
+[core] #99809 Gift by Hand VR
+[core] #59250 Sleeping Expanded
+[core] #16613 Be Seated — Skyrim VR Edition
+[core] #39414 SunHelm Survival
+[core] #84909 Recipe Auto-Learn + Reading Is Good
+[core] #77409 Mum's the Word NG
+[core] #61015 Honed Metal
+[core] #15755 GIST — Genuinely Intelligent Soul Trap
+[core] #170497 SCIE — Crafting Inventory Extender
+[core] #38886 Dirt and Blood
+[core] #60741 Dynamic Things Alternative + Random Barrel Roll
+[core] #26751 Better Resource Warnings
+[core] #78610 Sink Or Swim NG
+[core] #73153 Tamrielic Names + NPCs Names Distributor
+[core] #12466 Audio Overhaul for Skyrim
+[core] #77829 Regional Sounds Expansion + Reverb Interior Sounds Expansion
+[core] #78992 Acoustic Space Improvement Fixes
+[core] #523 Immersive Sounds Compendium + AOS–ISC patch
+[core] #1897 True 3D Sound for Headphones
+[core] #18115 UHDAP — Music HQ
+[core] #112008 Wildwood Echoes + Murmurs and Mead
+[core] #125873 Haunting Harmonies of Hjaalmarch + Whispers of the Daedric Princes
+[core] #44992 Immersive Draw Sheathe Sounds VR
+[core] SkyrimNet
+[core] #98631 Mantella
+[core] #126330 CHIM
+[core] #171182 OpenComposite Unleashed for Skyrim VR
+[core] #31392 VR FPS Stabilizer
+[core] #163969 S.L.A.C.K. — Save and Load Accelerator
+[core] #54680 SSE Terrain Tamriel (xLODGen Resource)
+[core] #28524 Simple Realistic Archery VR
+[core] #41764 Simple Offence Suppression (SE/AE, основной файл)
+[core] #160798 Broken Feathers
+[core] #154424 Floating Subtitles (базовый мод)
+[core] #19080 RaceMenu (Anniversary Edition)
+[core] #3532 Frozen Electrocuted Combustion (оригинал для SE)
+[core] #69446 Embers XD - Frozen Electrocuted Combustion Patch
+[core] #78146 Behavior Data Injector
+[core] #78159 Behavior Data Injector Universal Support
+[core] #78446 ISC-SRDified Main File
+[core] #63593 Seasons of Skyrim VR
+[other1] #30174 CBBE 3BA (3BBB)
+[other1] #201 BodySlide and Outfit Studio
+[other1] #46311 HIMBO (Highly Improved Male Body Overhaul)
+[other1] #65274 BnP - Female Skin
+[other1] #57318 Vampire Body for VR
+[other1] #56394 Werewolf Body for VR
+[other1] #77016 OBody Next Generation
+[other1] #42441 Face Discoloration Fix
+[other1] #40658 Nordic Faces - Immersive Characters Overhaul
+[other1] #63979 Vanilla hair remake
+[other1] #35785 Expressive Facegen Morphs SE
+[other1] #1067 Beards (Hvergelmir's Aesthetics)
+[other1] #36063 Authentic Eyes
+[other1] #149011 Hair Specular - Community Shaders
+[other1] #52057 Heights of Skyrim - Diverse NPC Heights
+[other1] #21224 CBPC - Physics with Collisions for SSE and VR
+[other1] #100781 Pseudo Physical Weapon Collision and Parry (VR)
+[other1] #60064 Fixed Bound Sword and Dagger Collision
+[other1] #175319 Faultier's PBR Armors and Clothes
+[other1] #20199 Cathedral - Armory
+[other1] #4703 Rustic Clothing - Special Edition
+[other1] #126793 Vanilla Armor Skirt Clipping Fix
+[other1] #109194 CBBE 3BA Vanilla Outfits Redone
+[other1] #2017 LeanWolf's Better-Shaped Weapons SE
+[other1] #91616 SMP-NPC crash fix
+[other1] #142450 HDT-SMP Vanilla Armors
+[other1] #85085 Weapon Styles - Draw-Sheathe animations for IED
+[other1] #18223 Realm of Lorkhan — Freeform Alternate Start
+[other1] #14553 Ralof or Hadvar (alternate start)
+[other1] #272 Alternate Start — Live Another Life
+[other1] #55653 Nether's Follower Framework
+[other1] #193226 Follower Jumping Framework
+[other1] #47174 Navigate VR — Equipable Dynamic Compass and Maps
+[other1] #119923 Quest Markers for NavigateVR
+[other1] #56367 A Clear Map of Skyrim and Other Worlds
+[other1] #35627 Hi-Res VR Map Markers
+[other1] #27503 Natural Colored Map Markers 4K VR and SSE
+[other1] #134212 Local Map Upgrade VR
+[other1] #123044 Controller Fix VR
+[other1] #23416 VRIK Rift-Index-WMR Controller Bindings V2.1.0 (файл со страницы VRIK)
+[other1] #49650 Alternative VRIK Controller Bindings
+[other1] #53186 FUS Patch Compendium — Controller Bindings (Kvite / Cangar)
+[other1] #79663 VRIK — an optimized configuration file set
+[other1] #118579 Stable Hands — VR Mouse Stabilization
+[other1] FUS Wiki: Performance adjustment + Controller bindings guide
+[other1] #5031 FallrimTools — ReSaver
+[other1] #49698 Regional Save Names
+[other1] #7560 Wearable Lanterns + Chesko's Wearable Lanterns — SE and VR Patch
+[other1] #2417 Bandolier — Bags and Pouches Classic SE
+[other1] #16514 Dragonborn Speaks Naturally
+[other1] #62001 Immersive Equipment Displays (IED)
+[other1] #50049 Simple Dual Sheath
+[other1] #74484 Compass Navigation Overhaul
+[other1] #129756 Local Map Upgrade (SE-версия)
+[other1] #99978 Complete Controller Setup
+[other1] xTranslator (sseTranslator)
+[other1] #111491 SSE Auto Translator (SSE-AT)
+[other1] #386 Sovngarde — A Nordic Font (Mist's Font Replacer)
+[other1] #28921 Time Format Changer (Anniversary Edition)
+[other1] #77359 Scaleform Translation Plus Plus NG
+[other1] #166751 dMenu NG — CTD Fixes and Global Translations
+[other1] #30810 Main Menu Design Replacer (Multilanguage, 60 FPS)
+[other1] Managing Creation Club Content with Your Mod Manager (infernalryan)
+[other1] #18975 Unofficial Skyrim Creation Club Content Patches
+[other1] #61777 Grass Fixes for Creation Club Mods
+[other1] #70992 Creation Club Open Helmets
+[other1] #115096 LORKHAN — Soundtrack Replacer
+[other1] #119571 Music Type Distributor
+[other1] #91231 Unique Battle Music
+[other1] #22551 Soulmancer's Merged Soundtrack
+[other1] #10927 Bard Instrumentals Mostly — Sing Rarely
+[other1] #37792 Chapter II — Jeremy Soule Inspired Music
+[other1] #24486 bHaptics Tactsuit — SkyrimVR Integration
+[other1] #125308 Faultier's PBR Skyrim
+[other1] #174091 Vanilla PBR AIO
+[other1] #21423 Noble Skyrim Mod HD-2K
+[other1] #173747 Tomato's Whiterun Remake - PBR
+[other1] #28950 Illustrious Whiterun SE
+[other1] #174492 Tomato's Windhelm - PBR or Complex Material
+[other1] #157340 Tomato's Riften and Ratway
+[other1] #181707 Tomato's Solitude Remastered - PBR
+[other1] #127407 Stony AF Markarth PBR / Complex Material
+[other1] #158524 Vanaheimr - Farmhouses - Complex Material and PBR
+[other1] #134372 Tomato's PBR Imperial Forts and Dungeons
+[other1] #32376 Glorious Doors of Skyrim (GDOS) SE
+[other1] #57686 Nordic Stonewalls
+[other1] #90557 Paraphernalia - VRAMr
+[other1] #139889 PBR Hub
+[other1] #14365 Underground - a dungeon texture overhaul
+[other1] #137033 Vanaheimr - Mines and Caves
+[other1] #19365 Rudy HQ - Nordic Ruins SE
+[other1] #5870 Ruins Clutter Improved
+[other1] #152196 Ruins Clutter Improved PBR
+[other1] #46507 Dwemer Pipework Reworked
+[other1] #52845 Skeleton Replacer HD - SE
+[other1] #659 Static Mesh Improvement Mod - SMIM
+[other1] #151346 Static Mesh Improvement Mod - SMIM PBR
+[other1] #95032 Skyland Bits and Bobs - A Clutter Overhaul
+[other1] #17228 RUSTIC FURNITURE - SPECIAL EDITION
+[other1] #49903 VR Refit - ElSopa - HD Keys Resized
+[other1] #85416 ECPLW - ENB Complex Particle Lights for Windows
+[other1] PbrNifPatcher
+[other1] #69158 SMIM 4K - Cleaned and Upscaled Textures
+[other1] PBR и Complex Parallax версии одного пака одновременно
+[other1] #143767 Sloppy Vanilla Landscapes - Parallax and PBR
+[other1] #145439 Vanaheimr - Landscapes - AIO
+[other1] #177621 TomatoRim PBR - Landscapes AIO (1K/2K/4K)
+[other1] #121336 ERM - Enhanced Rocks and Mountains (Complex Parallax Materials)
+[other1] #142493 Enhanced Rocks and Mountains - Fix and Addon
+[other1] #88754 ERM - Enhanced Rocks and Mountains - DynDOLOD Add-On
+[other1] #8834 Blended Roads
+[other1] #47057 HD Terrain Noise Texture SE
+[other1] #73381 Icy Mesh Remaster - Ice Glaciers - LOD - other fixes
+[other1] #60762 Stones of Solitude - Better Blended Rock Piles
+[other1] #139375 Tomato's Vanilla Trees PBR
+[other1] #159171 Happy Little Trees - PBR
+[other1] #135836 Cathedral PBR Plants
+[other1] #41312 Cathedral 3D-цветы и ягоды (Mountain Flowers + BOS, Snow Berries, Tundra Cotton, Thistle, Nightshade, Clover)
+[other1] #154489 Diverse high-quality PBR shrubs
+[other1] #113578 High Quality Ivy Replacer (BOS) + High Quality PBR Ivy
+[other1] #39998 Aspens Ablaze (+ DynDOLOD Add-On, Variety PBR)
+[other1] #111458 Realistic Galaxy
+[other1] #13539 Obsidian Mountain Fogs
+[other1] #126073 WAVY Waterfalls Effect
+[other1] #143149 Terrain Helper (отдельным плагином)
+[other1] #148123 Terrain Variation + Terrain Blending (отдельные CS-моды)
+[other1] #32973 Tamrielic Textures SE 1 - Landscapes 4K (и старые не-PBR ландшафты)
+[other1] #2182 Realistic Water Two SE
+[other1] #67304 Folkvangr / Cathedral 3D Pine Grass / Cathedral Landscapes for ENB Complex Grass
+[other1] #132218 Dragons SE
+[other1] #123170 Draugrs - New models and textures
+[other1] #86338 Falmer Overhaul - New models and textures
+[other1] #160407 Hagraven - New models and Textures
+[other1] #82382 Атронахи SE: Flame (+ Frost 171447, Storm 160837)
+[other1] #19272 Rustic creature textures: Daedra + Giant, Troll, Mammoth, Sabrecat, Death Hound/Gargoyle
+[other1] #51551 Creatures Resized for VR - SE
+[other1] #28249 HD Reworked Horses
+[other1] #55543 Static Mesh Improvement Mod Improvement Mod
+[other1] #112902 Skyking Signs (+ Unique Signs 114940)
+[other1] #66037 FYX 3D серия: Stockades Walls and Gate (+ 65104, Riften Canal 75431, RavenRock Docks 75794)
+[other1] #93733 Spaghetti's Palaces - AIO (+ Faction Halls 106054, NavCut Addon 120793)
+[other1] #36594 Rally's Candlelight and Magelight Fix SE - VR
+[other1] #44776 Food Resized
+[other1] #33669 Rally's All The Things (+ Solstheim AIO 36893, Crates 80417, Barrels 80061)
+[other1] #33394 JS Shrines of the Divines SE (+ JS Purses and Septims 37306 + VR Refit 49850)
+[other1] #57268 Water in Wells (+ Water in Wash Basins 59333)
+[other1] #61434 Glamur ReShade VR (+ Glam Up Glamur 105032)
+[other1] #47989 VrVision - Performance-friendly sharpening for VR
+[other1] #74887 Precision Creatures
+[other1] #45966 Nemesis Creature Behaviour Compatibility
+[other1] #89614 Radiant Realism - A Raytraced ReShade Preset
+[ix] #103990 Blocking and Flash VR - Redux
+[ix] #182364 Dead Weight VR - Penalty for one-handing 2H weapons
+[ix] #28948 Sighted Crossbows VR
+[ix] #128285 More Interactive Objects - Throwing Things VR port (Throw Stuff VR)
+[ix] #105789 PLANCK - Ignore Followers (Planck Follower Ragdoll Disable)
+[ix] #58374 Power Attack VR
+[ix] #4668 Throwing Weapons Lite SE
+[ix] #72174 Yelling At The Sky — Immersive VR Transformations
+[ix] #174135 Vampire Lord fixes SkyrimVR
+[ix] #42550 Flinching for VR (Script Free Flinching)
+[ix] #69298 OnHit Animations Framework - NG
+[ix] #84507 Skyrim Rumble (doodlum)
+[ix] #86071 Dynamic Impact - Slash Effects X
+[ix] #65737 Wearable Health bars - Soul Gauge
+[ix] #45586 iNeed Water - A VR Needs Management Adaption
+[ix] #147691 VR Equip Potions And Ingredients
+[ix] #36132 No Silly Physics Damage - Carts Pots Bones etc
+[ix] #144669 Bard VR (Beta)
+[ix] #184347 Interactive Door Actions - VR
+[ix] #21297 MageVR (MuKen's Active Gesture Extension)
+[ix] #49425 Swap Drop and Hold (+ Swap Drop and Hold Add Spells #55983)
+[ix] #151637 Wade in Water VR
+[ix] #69282 VRIK Actions
+[ix] #185070 SkyrimVR FBT - Full Body Tracking with Physics
+[ix] #165369 Convenient Horses VR (+ Convenient Horses #9519)
+[ix] #77303 Horsemen Torch Wield Fix and Mount Tweaks SE
+[ix] #92795 First Person Animation Teleport Bug Fix
+[ix] #71418 Wade In Water Redone (+ Loki's Wade In Water #42854)
+[ix] #187230 Underwater NG (+ Sprint Swim Redux SKSE #156417)
+[ix] #38950 Плоские анимации перемещения игрока: Movement Behavior Overhaul, Jump Behavior Overhaul, Smooth Moveset, Vanargand II/Leviathan II/Goetia Idle Walk-Run и Sprint
+[ix] #164902 SpellBender VR
+[ix] #30558 SkyrimVR Strange Runes — Spellcasting Enhanced (VR Edition / Palm Edition)
+[ix] 3D Interface Replacement Project (3DIRP, LXE97)
+[ix] #87315 Eagle Eye Cursor Replacer for Skyrim VR
+[ix] #97345 Wheeler — Quick Action Wheel of Skyrim (+ Show in UI, Crash-Fix, Untarnished UI Edit)
+[ix] #166987 SIGMA — Magic animations 1st person
+[ix] #102094 Quickloot VR
+[ix] #131015 Subtitles VR (+ Subtitles)
+[ix] #107993 VR Smooth Dialogue Mesh
+[ix] #60211 Whose Quest Is It Anyway VR
+[ix] #118174 Persistent Favorites
+[ix] #164263 Physical VR Knocking - Simply Knock
+[ix] #14098 Simply Knock SE
+[ix] #1439 Realistic Ragdolls and Force SE
+[ix] #67637 Interactive AI - Play Fetch
+[ix] #24297 Simply Knock SKSEVR 2.0.10 DLL EXPERIMENTAL
+[ix] #120460 Grab And Throw (+ Show in UI)
