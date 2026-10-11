@@ -1,0 +1,816 @@
+{
+ "batch": "C12",
+ "band": "C",
+ "themes": {
+  "land_nature": 13,
+  "other": 21
+ },
+ "items": [
+  {
+   "id": 13428,
+   "name": "SkyTEST Integration Project SE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "SkyTEST Vanilla and DLC Creation Extension-13428-1-2.7z"
+   ],
+   "author": "evrymetul",
+   "leftover": false,
+   "key": "id:13428",
+   "theme": "land_nature"
+  },
+  {
+   "id": 92602,
+   "name": "SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement)",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-06-04",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "SkyUI 3D Item Offset Fix - MCM Helper-92602-1-1-0-1685838384.zip"
+   ],
+   "author": "SkyUI Team - Dylan James",
+   "leftover": false,
+   "key": "id:92602",
+   "theme": "land_nature"
+  },
+  {
+   "id": 20146,
+   "name": "Skyrim 2018 by Pfuscher",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-02-27",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Skyrim 2018 Fomod 1.7-20146-1-7-1677491250.7z"
+   ],
+   "author": "Pfuscher",
+   "leftover": false,
+   "key": "id:20146",
+   "theme": "land_nature"
+  },
+  {
+   "id": 48745,
+   "name": "Skyrim Painting for Cozy Taverns",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-04-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "cozy tavern skyrim paint-48745-1-0-1618778575.7z"
+   ],
+   "author": "HugLefuer",
+   "leftover": false,
+   "key": "id:48745",
+   "theme": "land_nature"
+  },
+  {
+   "id": 82558,
+   "name": "Skyrim Skill Uncapper for SE and AE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-09-26",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Skyrim Skill Uncapper for SE and AE-82558-2-2-3-1695703184.zip"
+   ],
+   "author": "Kasplat",
+   "leftover": false,
+   "key": "id:82558",
+   "theme": "land_nature"
+  },
+  {
+   "id": 84551,
+   "name": "Skyrim VR OpenComposite ENB fix",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-02-10",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SkyrimVR_WMR_ENB_Fix-84551-1-1-1676057533.zip"
+   ],
+   "author": "ColdBomb1",
+   "leftover": false,
+   "key": "id:84551",
+   "theme": "land_nature"
+  },
+  {
+   "id": 53256,
+   "name": "Skyrim's Paraglider",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-08-24",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "SkyrimsParaglider-53256-1-5-0-1629830063.7z"
+   ],
+   "author": "Loki and NickNak",
+   "leftover": false,
+   "key": "id:53256",
+   "theme": "land_nature"
+  },
+  {
+   "id": 19401,
+   "name": "Still - Skyrim Inspired Music",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-01-22",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Still - ESP Version-19401-1-01-1548115357.rar",
+    "Still - ESP flagged as ESL-19401-1-01-1548115456.rar"
+   ],
+   "author": "Organic View aka CaptainCreepy",
+   "leftover": false,
+   "key": "id:19401",
+   "theme": "land_nature"
+  },
+  {
+   "id": 6092,
+   "name": "Waterplants",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-11-05",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Waterplants - lily only-6092-1-8-1699186362.zip",
+    "Waterplants for Skyrim-6092-1-7-1613289970.zip"
+   ],
+   "author": "Halifax0815",
+   "leftover": false,
+   "key": "id:6092",
+   "theme": "land_nature"
+  },
+  {
+   "id": 55152,
+   "name": "Worldspaces with Grass SSEEdit Script for No Grass In Objects",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-06-23",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Worldspaces with Grass SSEEdit Script-55152-1-1-1634759935.zip",
+    "Worldspaces with Grass SSEEdit Script-55152-2-0-1719117187.zip"
+   ],
+   "author": "DoubleYou",
+   "leftover": false,
+   "key": "id:55152",
+   "theme": "land_nature"
+  },
+  {
+   "id": 72174,
+   "name": "Yelling At The Sky - Immersive VR Transformations",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-29",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Yelling At the Sky VR-72174-0-9-1659060626.7z"
+   ],
+   "author": "Wolfman5750",
+   "leftover": false,
+   "key": "id:72174",
+   "theme": "land_nature"
+  },
+  {
+   "id": 76278,
+   "name": "[серия «my version se», 6 модов] Minedoors Redone - My version SE и др.",
+   "vr": 2,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-01-13",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Minedoors Redone - My version SE - 2K-76278-1-1-1705147441.7z",
+    "Minedoors Redone - My version SE - 2K-76278-1-1664480186.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:76278",
+   "series": "my version se",
+   "members": [
+    {
+     "id": 76278,
+     "name": "Minedoors Redone - My version SE",
+     "vr": 1,
+     "se": 4,
+     "newest": "2024-01-13",
+     "files": [
+      "Minedoors Redone - My version SE - 2K-76278-1-1-1705147441.7z"
+     ]
+    },
+    {
+     "id": 88124,
+     "name": "Potion of Blood - My version SE",
+     "vr": 1,
+     "se": 4,
+     "newest": "2023-03-31",
+     "files": [
+      "Blood Potion - My version SE by Xtudo - ENB-88124-1-1680210595.7z"
+     ]
+    },
+    {
+     "id": 87908,
+     "name": "Vaermina's Torpor - My version SE",
+     "vr": 1,
+     "se": 4,
+     "newest": "2023-09-26",
+     "files": [
+      "Vaermina's Torpor - My version SE by Xtudo - 2K-87908-1-1-1695727676.7z"
+     ]
+    },
+    {
+     "id": 92939,
+     "name": "Jug of Milk HD by iimlenny - My version SE",
+     "vr": 2,
+     "se": 1,
+     "newest": "2023-06-06",
+     "files": [
+      "Jug of Milk HD - My version SE by Xtudo - 1K-92939-1-1685993331.7z"
+     ]
+    },
+    {
+     "id": 87789,
+     "name": "Sleeping Tree Sap - My version SE",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-03-27",
+     "files": [
+      "Sleeping Tree Sap - My version SE by Xtudo - Version 01 - ENB-87789-1-1-1679948489.7z"
+     ]
+    },
+    {
+     "id": 88704,
+     "name": "The White Phial - My version SE",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-04-09",
+     "files": [
+      "The White Phial - My version SE by Xtudo - ENB-88704-1-2-1681037983.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 112554,
+   "name": "[серия «northern roads», 6 модов] Northern Roads - Collision and Placement Fix и др.",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-12-20",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Northern Concept - Parallax Meshes (Meshes Folder)-112554-1-0-0-0-1732847475.7z",
+    "Northern Concept - Parallax Meshes-112554-1-0-0-0-1711312623.7z",
+    "Northern Roads - Collision and Placement Fix-112554-2-0-0-0-1709018078.7z"
+   ],
+   "author": "Sleepingbadgr",
+   "leftover": false,
+   "key": "id:112554",
+   "series": "northern roads",
+   "members": [
+    {
+     "id": 112554,
+     "name": "Northern Roads - Collision and Placement Fix",
+     "vr": 0,
+     "se": 6,
+     "newest": "2025-12-20",
+     "files": [
+      "Northern Concept - Parallax Meshes (Meshes Folder)-112554-1-0-0-0-1732847475.7z"
+     ]
+    },
+    {
+     "id": 91969,
+     "name": "Northern Roads Patch Collection - Addon Patches and Combos",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-12-04",
+     "files": [
+      "Northern Roads Patch Collection Addons-91969-4-1701648244.7z"
+     ]
+    },
+    {
+     "id": 108532,
+     "name": "Northern Roads Tents - Animated",
+     "vr": 0,
+     "se": 6,
+     "newest": "2024-12-18",
+     "files": [
+      "Northern Roads Tents - Animated-108532-1-2-1-1734541108.7z"
+     ]
+    },
+    {
+     "id": 111609,
+     "name": "Northern Roads Whiterun stone texture fix",
+     "vr": 0,
+     "se": 6,
+     "newest": "2024-02-14",
+     "files": [
+      "Northern Roads - Whiterun Fix-111609-1-1-1707870045.zip"
+     ]
+    },
+    {
+     "id": 137238,
+     "name": "Northern Roads - Collision Box Fix in Whiterun",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-12-25",
+     "files": [
+      "Northern Roads - Collision Box Fix-137238-1-0-0-1735101879.rar"
+     ]
+    },
+    {
+     "id": 112130,
+     "name": "Northern Roads - Landscape Fix and Improvement",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-02-26",
+     "files": [
+      "Northern Roads - Landscape Fix and Improvement-112130-1-2-1708942942.zip"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 62963,
+   "name": "2k-4k Executioner's Block",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-02-03",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "2k Executioner's Block Dry Faded Blood-62963-1-0-1643874328.zip",
+    "2k Executioner's Block Less Saturation-62963-1-0-1643876844.zip",
+    "2k Executioner's Block-62963-1-0-1643785845.zip"
+   ],
+   "author": "Haladoon",
+   "leftover": false,
+   "key": "id:62963",
+   "theme": "other"
+  },
+  {
+   "id": 40196,
+   "name": "4K Tendril Vines",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-02-23",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "2K tendril Vines-40196-1-0-1599485015.7z",
+    "Pulsating Cluster-40196-1-2-1614064209.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:40196",
+   "theme": "other"
+  },
+  {
+   "id": 21916,
+   "name": "A Lovely Letter Alternate Routes",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2018-12-16",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "A Lovely Letter Alternate Routes-21916-1-0-1544983389.zip"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:21916",
+   "theme": "other"
+  },
+  {
+   "id": 4875,
+   "name": "BethINI",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-04-30",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "BethINI Standalone Version-4875-3-6-1-1651358897.zip"
+   ],
+   "author": "DoubleYou",
+   "leftover": false,
+   "key": "id:4875",
+   "theme": "other"
+  },
+  {
+   "id": 76928,
+   "name": "Better Oghma Infinium",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-10-11",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Oghma Infinium-76928-1-00-1665474731.7z"
+   ],
+   "author": "SavrenX",
+   "leftover": false,
+   "key": "id:76928",
+   "theme": "other"
+  },
+  {
+   "id": 30887,
+   "name": "Choose Your Own Arch-Mage",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2019-12-29",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Choose Your Own Arch-Mage-30887-1-0-01-1577640933.7z"
+   ],
+   "author": "SomethingObscure",
+   "leftover": false,
+   "key": "id:30887",
+   "theme": "other"
+  },
+  {
+   "id": 15831,
+   "name": "Daedric Beasts",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-01-07",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Daedric Beasts-15831-2-1-1641579220.zip",
+    "Wendigos and Howlers-15831-1-2-1570672760.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:15831",
+   "theme": "other"
+  },
+  {
+   "id": 493,
+   "name": "Dressed Hearthfire Doll",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Dressed Hearthfire Doll-493-3-0.7z"
+   ],
+   "author": "uni_SL",
+   "leftover": false,
+   "key": "id:493",
+   "theme": "other"
+  },
+  {
+   "id": 62546,
+   "name": "Dynamic Weather and Time Based Detection (SE and AE compatible)",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-04-03",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Dynamic Weather and Time Based Detection-62546-2-1-4-1649009467.7z"
+   ],
+   "author": "Monitor144hz",
+   "leftover": false,
+   "key": "id:62546",
+   "theme": "other"
+  },
+  {
+   "id": 70144,
+   "name": "ElSopa - Silver Mold Redone",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-06-23",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "ElSopa - Silver Mold Redone-70144-1-0-1655963063.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:70144",
+   "theme": "other"
+  },
+  {
+   "id": 9264,
+   "name": "Ennead Shadowmarks",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Khonsu - Mist's Shadowmarks 1K-9264-1.7z",
+    "Khonsu - Mist's Shadowmarks 2K-9264-1.7z"
+   ],
+   "author": "Koveich",
+   "leftover": false,
+   "key": "id:9264",
+   "theme": "other"
+  },
+  {
+   "id": 69744,
+   "name": "Ethereal Immunity",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-07-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Ethereal Immunity-69744-1-1-1-1657281674.7z",
+    "Ethereal Immunity-69744-1-1-1656347817.7z"
+   ],
+   "author": "igotnousername",
+   "leftover": false,
+   "key": "id:69744",
+   "theme": "other"
+  },
+  {
+   "id": 16137,
+   "name": "Hoth",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2019-06-20",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Hoth-16137-3-2-1561052047.7z"
+   ],
+   "author": "Hothtrooper44",
+   "leftover": false,
+   "key": "id:16137",
+   "theme": "other"
+  },
+  {
+   "id": 60994,
+   "name": "Ill Met Bolar's Oathblade",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-12-29",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Ill Met Bolar's Oathblade-60994-1-2-1672320779.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:60994",
+   "theme": "other"
+  },
+  {
+   "id": 45431,
+   "name": "Juniper by Mari",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-02-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Juniper by Mari - only textures.-45431-1-0-1612871829.7z",
+    "Juniper by Mari-45431-1-1-1612778718.7z"
+   ],
+   "author": "ArtByMari",
+   "leftover": false,
+   "key": "id:45431",
+   "theme": "other"
+  },
+  {
+   "id": 81912,
+   "name": "KG's Elves Ear",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-01-03",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "KG's Elves Ear Replacer-81912-1-0-1672721762.7z"
+   ],
+   "author": "kiddgimmick",
+   "leftover": false,
+   "key": "id:81912",
+   "theme": "other"
+  },
+  {
+   "id": 79455,
+   "name": "Kabu's Fire Salts",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-04-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Kabu's Fire Salts - BS Bruma Patch 1k-79455-1-4-1680941478.rar",
+    "Kabu's Fire Salts - BS Bruma Patch 2k-79455-1-4-1680941418.rar",
+    "Kabu's Fire Salts 1k-79455-1-4-1680940199.rar"
+   ],
+   "author": "Kabunouveau",
+   "leftover": false,
+   "key": "id:79455",
+   "theme": "other"
+  },
+  {
+   "id": 53074,
+   "name": "Leaps of Faith - A Misc Quest",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-12-02",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Leap of Faith - Legacy of the Dragonborn Patch-53074-1-02-1636970842.zip",
+    "Leaps of Faith-53074-1-02-1636970781.zip",
+    "Leaps of Faith-53074-1-03-1681138702.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:53074",
+   "theme": "other"
+  },
+  {
+   "id": 93217,
+   "name": "Lux Via Kynareth Addon",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-06-10",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Lux Via Kynareth Addon-93217-1-0-1686403336.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:93217",
+   "theme": "other"
+  },
+  {
+   "id": 60764,
+   "name": "Masque of Clavicus Vile",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-12-26",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Masque of Clavicus Vile - 2k-60764-1-01-1640490173.zip",
+    "Masque of Clavicus Vile - 4k-60764-1-01-1640490129.zip",
+    "USSEP patch by Xtudo -  fixes to the Masque-60764-1-0-1640481468.zip"
+   ],
+   "author": "Mandragorasprouts",
+   "leftover": false,
+   "key": "id:60764",
+   "theme": "other"
+  },
+  {
+   "id": 67772,
+   "name": "Missives - Bigger Trigger Box",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-05-10",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Missives - Bigger Trigger Boxes-67772-1-1652165661.zip"
+   ],
+   "author": "Missile",
+   "leftover": false,
+   "key": "id:67772",
+   "theme": "other"
+  }
+ ]
+}

@@ -1,0 +1,744 @@
+{
+ "batch": "D28",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 43674,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-09",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Sonora Nord Low Poly Preset And Face Gen Files-43674-1-0-1610152836.rar"
+   ],
+   "author": "Lustful Luna",
+   "leftover": false,
+   "key": "id:43674",
+   "theme": "other"
+  },
+  {
+   "id": 49223,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-04-29",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Saffy High Poly Nord Prest-49223-1-0-1619708045.rar"
+   ],
+   "author": "Lustful Luna",
+   "leftover": false,
+   "key": "id:49223",
+   "theme": "other"
+  },
+  {
+   "id": 53394,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-08-06",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Estrid High Poly Nord Preset-53394-1-0-1628293166.rar"
+   ],
+   "author": "Lustful Luna",
+   "leftover": false,
+   "key": "id:53394",
+   "theme": "other"
+  },
+  {
+   "id": 44616,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-29",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Elva Low Poly Preset-44616-1-0-1611900323.rar"
+   ],
+   "author": "Lustful Luna",
+   "leftover": false,
+   "key": "id:44616",
+   "theme": "other"
+  },
+  {
+   "id": 47300,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-03-20",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Caramella Nord Preset-47300-1-0-1616282821.rar"
+   ],
+   "author": "Lustful Luna",
+   "leftover": false,
+   "key": "id:47300",
+   "theme": "other"
+  },
+  {
+   "id": 61827,
+   "name": "",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-03-12",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "2 Spellbreaker Remesh Animated ENB Light-61827-2-5-1647102042.rar"
+   ],
+   "author": "Skyrim Special Edition",
+   "leftover": false,
+   "key": "id:61827",
+   "theme": "other"
+  },
+  {
+   "id": 29205,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-03",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "centaurs (se-ae) v3-29205-3-1717412610.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:29205",
+   "theme": "other"
+  },
+  {
+   "id": 51477,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "harpies (se-ae) v2-51477-2-1715271547.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:51477",
+   "theme": "other"
+  },
+  {
+   "id": 50869,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-02",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Lesser Griffins v1.1 (se-ae)-50869-1-1-1717363557.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:50869",
+   "theme": "other"
+  },
+  {
+   "id": 1377,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-11-02",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ELE - SE v1.2.2-1377-1-2-2-1543800567.7z",
+    "ELE SE - Beyond Skyrim - Bruma patch-1377-BSBr1-0-1572705668.7z",
+    "ELE SE - Cutting Room Floor patch-1377-CRF1-1-1572392787.7z"
+   ],
+   "author": "--JawZ-- TechAngel85",
+   "leftover": false,
+   "key": "id:1377",
+   "theme": "other"
+  },
+  {
+   "id": 35744,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-11-14",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Beyond Skyrim Bruma Patch v1.0-35744-1-0-0-1588964209.7z",
+    "Beyond Skyrim Bruma Patch v5.0-35744-5-0-1636851948.7z",
+    "Wyrmstooth Patch v5.0-35744-5-0-1636852731.7z"
+   ],
+   "author": "RWT Patch Team",
+   "leftover": false,
+   "key": "id:35744",
+   "theme": "other"
+  },
+  {
+   "id": 20438,
+   "name": "2K Rueful Axe",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "2K Rueful Axe-20438-1-0.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:20438",
+   "theme": "other"
+  },
+  {
+   "id": 33456,
+   "name": "4K HQ Puddles",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-03-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "2K Puddle No Ripples-33456-1-0-1583780172.7z",
+    "4K Puddle No Ripples-33456-1-0-1583780055.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:33456",
+   "theme": "other"
+  },
+  {
+   "id": 32449,
+   "name": "4K Satchel",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-02-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "2K Satchel-32449-1-1-1581083217.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:32449",
+   "theme": "other"
+  },
+  {
+   "id": 152267,
+   "name": "Above all Else - Lovecraft Inspired Quest",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-07-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Above All Else - 1.0.4-152267-1-0-4-1753411083.zip"
+   ],
+   "author": "nimwraith",
+   "leftover": false,
+   "key": "id:152267",
+   "theme": "other"
+  },
+  {
+   "id": 97892,
+   "name": "Abyssal Tides Magic",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-02-10",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Abyssal Tides Magic-97892-1-63-1716263581.zip",
+    "Abyssal Tides Magic-97892-1-64-1739196399.zip"
+   ],
+   "author": "Kittytail",
+   "leftover": false,
+   "key": "id:97892",
+   "theme": "other"
+  },
+  {
+   "id": 94555,
+   "name": "Adamant Tweaks for ADXP and VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-24",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Main-94555-1-2-1694185644.zip",
+    "Main-94555-1-3-1745531067.zip"
+   ],
+   "author": "Heloriel",
+   "leftover": false,
+   "key": "id:94555",
+   "theme": "other"
+  },
+  {
+   "id": 106066,
+   "name": "Angeline's Aromatics rework",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Angeline's Aromatics rework - Parallax-106066-1-0-1701542624.7z",
+    "Angeline's Aromatics rework-106066-1-0-1701542582.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:106066",
+   "theme": "other"
+  },
+  {
+   "id": 149031,
+   "name": "Animated Festival Rings",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Solitude Objects SMIMed-149031-1-1746197949.zip",
+    "slightly Better Bunting-149031-1-1746197918.zip"
+   ],
+   "author": "inaiinai",
+   "leftover": false,
+   "key": "id:149031",
+   "theme": "other"
+  },
+  {
+   "id": 166533,
+   "name": "Animated Objects Overhauled aka That is NOT a spoon",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-13",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Animated Objects Overhauled Part One-166533-1-1-1765487978.rar",
+    "Animated Objects Overhauled Part Two CCA ALT-166533-1-1-1765632783.rar",
+    "Animated Objects Overhauled Part Two CCA-166533-1-1b-1765496353.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:166533",
+   "theme": "other"
+  },
+  {
+   "id": 112517,
+   "name": "Animated Ships - Finer Sails",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-01",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Animated Ships - Finer Sails for Sigils of Skyrim-112517-1-2-1709259272.zip",
+    "Animated Ships - Finer Sails-112517-1-2-1709259137.zip"
+   ],
+   "author": "Artisto",
+   "leftover": false,
+   "key": "id:112517",
+   "theme": "other"
+  },
+  {
+   "id": 56981,
+   "name": "Animated Tentacles for the GlowingMushrooms",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-09-29",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Imstaller_AnimTentacles4GlowMush_HP_EnbPL-56981-v3-01-1664461299.7z",
+    "Installer_AnimTentacles4GlowMush_HP_EnbPL-56981-v2-01-1638403850.7z"
+   ],
+   "author": "skirymmods",
+   "leftover": false,
+   "key": "id:56981",
+   "theme": "other"
+  },
+  {
+   "id": 54483,
+   "name": "Apoapse's Arcana (Spellforge for Spell Research)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-08-25",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Apoapse's Arcana-54483-v1-0-1629871060.7z"
+   ],
+   "author": "Apoapse",
+   "leftover": false,
+   "key": "id:54483",
+   "theme": "other"
+  },
+  {
+   "id": 12530,
+   "name": "Archery Target Retexture 2k and 4k added",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Archery Target Retexture 2k-12530-1-0-1609533765.zip",
+    "Archery Target Retexture and Mesh file.-12530-1-0.zip",
+    "Archery Target Retexture-12530-1-0.zip"
+   ],
+   "author": "Haladoon",
+   "leftover": false,
+   "key": "id:12530",
+   "theme": "other"
+  },
+  {
+   "id": 111694,
+   "name": "Arcs Kitchen Redux 2k - 4k",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Arcs Kitchen redux-2k-111694-2-1708588993.rar"
+   ],
+   "author": "ArchonShadow",
+   "leftover": false,
+   "key": "id:111694",
+   "theme": "other"
+  },
+  {
+   "id": 89223,
+   "name": "Ascension",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ascension-89223-1-0-1-1682259456.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:89223",
+   "theme": "other"
+  },
+  {
+   "id": 52704,
+   "name": "At Your Own Pace",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "At Your Own Pace - College of Winterhold-52704-2-1-0MG-1684436813.zip",
+    "At Your Own Pace - Companions-52704-3-0-4CP-1700976265.zip",
+    "At Your Own Pace - Dark Brotherhood-52704-1-1-1DB-1638762189.zip"
+   ],
+   "author": "agd25",
+   "leftover": false,
+   "key": "id:52704",
+   "theme": "other"
+  },
+  {
+   "id": 125734,
+   "name": "Attacks Cost Stamina VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-11-13",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Attacks Cost Stamina VR - 2H Requirement-125734-1-21-1763025801.7z",
+    "Attacks Cost Stamina VR-125734-1-21-1763025780.7z",
+    "Blade and Blunt Harsher Penalty for No Stamina-125734-1-0-1722503959.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:125734",
+   "theme": "other"
+  },
+  {
+   "id": 174098,
+   "name": "Auto Physics Reset",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-12",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Auto Physics Reset-174098-1-3-1773304783.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:174098",
+   "theme": "other"
+  },
+  {
+   "id": 122915,
+   "name": "Auto Resolution",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-09-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Auto Resolution-122915-1-1-0-1727086671.zip"
+   ],
+   "author": "Quantumyilmaz",
+   "leftover": false,
+   "key": "id:122915",
+   "theme": "other"
+  },
+  {
+   "id": 113023,
+   "name": "Base Object Swapper - Master Occlusion",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-07-22",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tahrovin"
+   ],
+   "se_lists": 0,
+   "files": [
+    "BOS Master Occlusion-113023-1-0-2-1709571322.7z",
+    "Master Occlusion Field-113023-1-0-4-1721663639.7z"
+   ],
+   "author": "J3w3ls",
+   "leftover": false,
+   "key": "id:113023",
+   "theme": "other"
+  },
+  {
+   "id": 117310,
+   "name": "Basic Wenches",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-23",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Basic Wenches 1.1 SSE-117310-1-1-1713850790.7z"
+   ],
+   "author": "Nerd of Prey",
+   "leftover": false,
+   "key": "id:117310",
+   "theme": "other"
+  },
+  {
+   "id": 118166,
+   "name": "Basic Wenches",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-21",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Basic Wenches RaceMenu Presets-117310-1-0-1713664190.7z"
+   ],
+   "author": "Nerd of Prey",
+   "leftover": false,
+   "key": "id:118166",
+   "theme": "other"
+  },
+  {
+   "id": 974,
+   "name": "Bethesda Archive Extractor (BSA and BA2)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "BAE v0.10-974-0-10.7z"
+   ],
+   "author": "hexabit",
+   "leftover": false,
+   "key": "id:974",
+   "theme": "other"
+  },
+  {
+   "id": 71680,
+   "name": "Better Chests",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-24",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Better Chest 4K Optimised SSE Version-71680-1-1-3-1659945946.zip",
+    "Better Chests 2K Optimised SSE-71680-1-1-4-1682352723.7z"
+   ],
+   "author": "The Blender Animator",
+   "leftover": false,
+   "key": "id:71680",
+   "theme": "other"
+  },
+  {
+   "id": 97006,
+   "name": "Better Female Elks",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-14",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Better Female Elks - DTA Patch - Fluffy version-97006-1-02-1705234582.7z",
+    "Better Female Elks-97006-1-04-1705226396.7z",
+    "Fluffworks patch-97006-1-00-1694016096.7z"
+   ],
+   "author": "GhdOne",
+   "leftover": false,
+   "key": "id:97006",
+   "theme": "other"
+  }
+ ]
+}

@@ -1,0 +1,861 @@
+{
+ "batch": "D07",
+ "band": "D",
+ "themes": {
+  "armor": 5,
+  "body_face": 27
+ },
+ "items": [
+  {
+   "id": 63036,
+   "name": "Wind Ruler Armor SE - hdt-SMP Patch",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Wind Ruler Armor SE - hdt-SMP-63036-1-0-1643915638.7z"
+   ],
+   "author": "4thUnknown",
+   "leftover": false,
+   "key": "id:63036",
+   "theme": "armor"
+  },
+  {
+   "id": 174649,
+   "name": "[серия «animations 1st person», 9 модов] SIGMA - Archery animations - 1st person и др.",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Sigma - Archery-174649-1-0-2-1773655242.7z"
+   ],
+   "author": "Sigerious",
+   "leftover": false,
+   "key": "id:174649",
+   "series": "animations 1st person",
+   "members": [
+    {
+     "id": 174649,
+     "name": "SIGMA - Archery animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-03-16",
+     "files": [
+      "Sigma - Archery-174649-1-0-2-1773655242.7z"
+     ]
+    },
+    {
+     "id": 162611,
+     "name": "SIGMA - Battleaxe animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-04-23",
+     "files": [
+      "All in one-162611-1-0-2-1776969666.7z"
+     ]
+    },
+    {
+     "id": 164551,
+     "name": "SIGMA - Greatsword animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-04-28",
+     "files": [
+      "All in one-164551-1-0-1-1763281453.7z"
+     ]
+    },
+    {
+     "id": 163952,
+     "name": "SIGMA - Mace animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-05-30",
+     "files": [
+      "All in one-163952-1-0-3-1763924208.7z"
+     ]
+    },
+    {
+     "id": 166987,
+     "name": "SIGMA - Magic animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-07-29",
+     "files": [
+      "Sigma - magic-166987-1-0-1765633259.7z"
+     ]
+    },
+    {
+     "id": 163954,
+     "name": "SIGMA - Shield animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-11-08",
+     "files": [
+      "1_Sigma - shield animations-163954-1-0-1762624941.7z"
+     ]
+    },
+    {
+     "id": 161095,
+     "name": "SIGMA - Sword animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-06-22",
+     "files": [
+      "All in one 161095 3.4 2026-06-22T12-57Z rvwm2BZae.7z"
+     ]
+    },
+    {
+     "id": 163226,
+     "name": "SIGMA - Waraxe animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-04-29",
+     "files": [
+      "All in one-163226-1-0-1761927367.7z"
+     ]
+    },
+    {
+     "id": 164549,
+     "name": "SIGMA - Warhammer animations - 1st person",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-04-23",
+     "files": [
+      "All in one-164549-1-0-1-1763469328.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 114083,
+   "name": "[серия «enb lights», 3 модов] ENB Lights - Dawnguard Rune Weapons и др.",
+   "vr": 2,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "ENB Lights - Dawnguard Rune Weapons - BW - Frankly-114083-1-0-1710670393.zip",
+    "ENB Lights - Dawnguard Rune Weapons - BW-114083-1-0-1710670246.zip"
+   ],
+   "author": "HeartFlow",
+   "leftover": false,
+   "key": "id:114083",
+   "series": "enb lights",
+   "members": [
+    {
+     "id": 114083,
+     "name": "ENB Lights - Dawnguard Rune Weapons",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-03-17",
+     "files": [
+      "ENB Lights - Dawnguard Rune Weapons - BW - Frankly-114083-1-0-1710670393.zip"
+     ]
+    },
+    {
+     "id": 99753,
+     "name": "ENB Lights For Effect Shaders VR",
+     "vr": 2,
+     "se": 0,
+     "newest": "2024-10-12",
+     "files": [
+      "ENB Lights For Effect Shaders VR-99753-2-2-0-1728717288.7z"
+     ]
+    },
+    {
+     "id": 54472,
+     "name": "ENB lights for Aetherium shards",
+     "vr": 0,
+     "se": 4,
+     "newest": "2021-08-25",
+     "files": [
+      "ENB lights for Aetherium Shards SE-54472-1-0-1629895053.zip"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 60881,
+   "name": "[серия «reforging to», 4 модов] Reforging - To The Masses - Weapon Balance Patch и др.",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-24",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "RFM - Balance Patch-60881-1-0-1640688132.7z",
+    "RFM - Balance Patch-60881-2-1-1679667910.7z"
+   ],
+   "author": "David West",
+   "leftover": false,
+   "key": "id:60881",
+   "series": "reforging to",
+   "members": [
+    {
+     "id": 60881,
+     "name": "Reforging - To The Masses - Weapon Balance Patch",
+     "vr": 2,
+     "se": 0,
+     "newest": "2023-03-24",
+     "files": [
+      "RFM - Balance Patch-60881-1-0-1640688132.7z"
+     ]
+    },
+    {
+     "id": 49030,
+     "name": "Reforging - To the Masses (Weapons Expansion)",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-04-25",
+     "files": [
+      "Reforging - To the Masses-49030-2-1-1619349008.7z"
+     ]
+    },
+    {
+     "id": 50850,
+     "name": "Reforging - To the Masses - Consistency patches",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-06-09",
+     "files": [
+      "RFM - Crafting-50850-1-1623241609.rar"
+     ]
+    },
+    {
+     "id": 50860,
+     "name": "Reforging- To the Masses Patch Hub",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-06-07",
+     "files": [
+      "Reforging - To the Masses Breakdown Patch-50860-1-0-0-1623101396.zip"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 87325,
+   "name": "[серия «sons of», 5 модов] Sons of Nirn - Whiterun и др.",
+   "vr": 1,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Sons of Nirn - Whiterun-87325-1-1679212183.rar"
+   ],
+   "author": "lilson",
+   "leftover": false,
+   "key": "id:87325",
+   "series": "sons of",
+   "members": [
+    {
+     "id": 87325,
+     "name": "Sons of Nirn - Whiterun",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-03-19",
+     "files": [
+      "Sons of Nirn - Whiterun-87325-1-1679212183.rar"
+     ]
+    },
+    {
+     "id": 68656,
+     "name": "Sons of Skyrim",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-12-02",
+     "files": [
+      "Main Files-68656-2-0-2-1701526801.7z"
+     ]
+    },
+    {
+     "id": 114690,
+     "name": "Sons of Skyrim - HDT Physics for Cloaks Patch",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-03-23",
+     "files": [
+      "Sons of Skyrim - HDT-SMP Cloaks-114690-1-1-1711186151.zip"
+     ]
+    },
+    {
+     "id": 88218,
+     "name": "Sons of Skyrim - HIMBO conversion",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-12-24",
+     "files": [
+      "Sons of Skyrim - HIMBO-88218-2-0-1699552697.7z"
+     ]
+    },
+    {
+     "id": 104126,
+     "name": "Sons of Skyrim v2.0 - My patches and fixes by Xtudo SE",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-09-30",
+     "files": [
+      "SOS V2.0 - SE by Xtudo - CA Falkreath - Default-104126-1-9-1701354736.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 73324,
+   "name": "3BA Collision Bodyslides for KS Hairdos - HDT SMP (Physics)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-08-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "KS Hairdos SMP 3BA Collision Bodyslides Low to High ESPFE-73324-1-1660427874.zip",
+    "KS Hairdos SMP 3BA Collision Bodyslides NO ESP-73324-2-1660426476.zip"
+   ],
+   "author": "Sonderbain",
+   "leftover": false,
+   "key": "id:73324",
+   "theme": "body_face"
+  },
+  {
+   "id": 95391,
+   "name": "Aestheticus - A HIMBO preset collection",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-07-08",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Aestheticus - A HIMBO Collection-95391-1-1688843043.rar"
+   ],
+   "author": "ENR",
+   "leftover": false,
+   "key": "id:95391",
+   "theme": "body_face"
+  },
+  {
+   "id": 102860,
+   "name": "Argonian Crests",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-10-23",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Argonian Crests-102860-1-0-1698024599.7z"
+   ],
+   "author": "allonsywisegirl",
+   "leftover": false,
+   "key": "id:102860",
+   "theme": "body_face"
+  },
+  {
+   "id": 93212,
+   "name": "Argonians Enhanced Remade",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-06-17",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Argonians Enhanced Remade-93212-1-0-1686399452.rar",
+    "HD Scars-93212-1-0-1687015819.rar"
+   ],
+   "author": "Blackwolf24 and Krittakitty",
+   "leftover": false,
+   "key": "id:93212",
+   "theme": "body_face"
+  },
+  {
+   "id": 42928,
+   "name": "Courier Delivers to NPCs",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-12-02",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Courier Delivers to NPCs-42928-1-0-4-1606942689.7z"
+   ],
+   "author": "Pickysaurus",
+   "leftover": false,
+   "key": "id:42928",
+   "theme": "body_face"
+  },
+  {
+   "id": 5013,
+   "name": "Craftable Torches",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Craftable Torches-5013-1-1.rar"
+   ],
+   "author": "charizardwithatwist",
+   "leftover": false,
+   "key": "id:5013",
+   "theme": "body_face"
+  },
+  {
+   "id": 37607,
+   "name": "Enchantments and Potions Work for NPCs - EPW4NPCs (SKSE64) (SPID Plugin ini)",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-11-27",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Enchantments and Potions Work for NPCs - EPW4NPCs-37607-1-0-2-1669579454.7z"
+   ],
+   "author": "KaptainCnucklz",
+   "leftover": false,
+   "key": "id:37607",
+   "theme": "body_face"
+  },
+  {
+   "id": 162116,
+   "name": "HFs - Simply improved seats - (chairs remodels)",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "HFs - Simply improved seats - 2K-162116-1-1760900507.rar"
+   ],
+   "author": "Halffaces",
+   "leftover": false,
+   "key": "id:162116",
+   "theme": "body_face"
+  },
+  {
+   "id": 84770,
+   "name": "HIMBO PAU - Powerful Aesthetics United - Male Bodyslide Presets",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-09-15",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tahrovin"
+   ],
+   "se_lists": 1,
+   "files": [
+    "HIMBO PAU Bola V5 Bodyslide Preset-84770-1-0-1701610787.7z",
+    "HIMBO PAU Male Bodyslide Presets-84770-1-0-1676185975.7z",
+    "HIMBO PAU Medium V Shape-84770-1-0-1726374609.7z"
+   ],
+   "author": "GCrow",
+   "leftover": false,
+   "key": "id:84770",
+   "theme": "body_face"
+  },
+  {
+   "id": 130164,
+   "name": "Hayd's Warpaints",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-09-26",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Hayds Warpaints-130164-3-1727378940.zip"
+   ],
+   "author": "hayd",
+   "leftover": false,
+   "key": "id:130164",
+   "theme": "body_face"
+  },
+  {
+   "id": 119348,
+   "name": "Hunters Loot - and skin animals",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-05-14",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Hunters Loot-119348-1-1-1715647989.zip"
+   ],
+   "author": "GiraPomba",
+   "leftover": false,
+   "key": "id:119348",
+   "theme": "body_face"
+  },
+  {
+   "id": 49058,
+   "name": "Immersive Khajiit Caravan Mules",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-05-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Immersive Khajiit Caravan Mules-49058-1-3-1622281021.rar",
+    "Khajiit Caravan Mules 1.1-49058-1-1-1619515492.rar",
+    "Khajiit Caravan Mules Enderal Donkey Model-49058-1-0-1619521438.rar"
+   ],
+   "author": "bientje",
+   "leftover": false,
+   "key": "id:49058",
+   "theme": "body_face"
+  },
+  {
+   "id": 60108,
+   "name": "JS Emissive Eyes SE",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-21",
+   "vr_lists": [
+    "FUS",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "JS Emissive Eyes SE-60108-1-3-1639882303.rar",
+    "JS Emissive Eyes SE-60108-1-34-1705844643.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:60108",
+   "theme": "body_face"
+  },
+  {
+   "id": 95969,
+   "name": "K.C.C.E Khajiit Character Creation Extended",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-09",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "KCCE  - Khajiit Character Creation Extended v.1.2-95969-1-2--1707447365.zip"
+   ],
+   "author": "Volno",
+   "leftover": false,
+   "key": "id:95969",
+   "theme": "body_face"
+  },
+  {
+   "id": 94485,
+   "name": "Kala's Beast Eyes - Improved",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kala's Beast Eyes - Improved 1k-94485-1-1-0-1694227937.7z",
+    "Kala's Beast Eyes - Improved 1k-94485-2-0-0-1742613691.7z",
+    "Kala's Beast Eyes - Improved 2k-94485-3-0-0-1778056255.7z"
+   ],
+   "author": "naChooey - Kalahira",
+   "leftover": false,
+   "key": "id:94485",
+   "theme": "body_face"
+  },
+  {
+   "id": 42298,
+   "name": "Kala's Eyes- Beast Race Edition Khajiit Argonian",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-11-20",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kala's Eyes Beast Race Edition Default Replacement-42298-1-0-1605847485.rar",
+    "Kala's Eyes Beast Races-42298-1-1-1605235321.rar",
+    "Kala's Eyes ESL-42298-1-0-1605235449.rar"
+   ],
+   "author": "Kala",
+   "leftover": false,
+   "key": "id:42298",
+   "theme": "body_face"
+  },
+  {
+   "id": 94486,
+   "name": "Kala's Vampire Eyes - Improved",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kala's Vampire Eyes - Improved 1k-94486-1-1-0-1694223077.7z",
+    "Kala's Vampire Eyes - Improved 2k-94486-2-0-0-1778056146.7z",
+    "Kala's Vampire Eyes - Improved-94486-1-0-1-1688030587.7z"
+   ],
+   "author": "naChooey - Kalahira",
+   "leftover": false,
+   "key": "id:94486",
+   "theme": "body_face"
+  },
+  {
+   "id": 22486,
+   "name": "Khajiit Hair by Saerileth",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-01-10",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Khajiit Hair by Saerileth-22486-1-0-1547080559.rar"
+   ],
+   "author": "Saerileth -- port by robbobert",
+   "leftover": false,
+   "key": "id:22486",
+   "theme": "body_face"
+  },
+  {
+   "id": 119988,
+   "name": "Khajiit Has Tents Animated",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-05-29",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Khajiit Has Tents Animated-119988-1-1-1716972767.7z"
+   ],
+   "author": "StoneSpiralgaming",
+   "leftover": false,
+   "key": "id:119988",
+   "theme": "body_face"
+  },
+  {
+   "id": 13630,
+   "name": "Kyoe's Bang'n Brows",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kyoe_BanginBrows_StandalonebyShiva182alt.zip-13630-1-0.zip"
+   ],
+   "author": "Kyoe",
+   "leftover": false,
+   "key": "id:13630",
+   "theme": "body_face"
+  },
+  {
+   "id": 63664,
+   "name": "Maevan2's Eye Brows for High Poly Head (and extras)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-01-25",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Maevan2's Eye Brows - High Poly Head-63664-1-0-1644922984.zip",
+    "Maevan2's Eye Brows for HPH - COTR - UBE-63664-2-1-0-1737806445.7z",
+    "Maevan2's Eye Brows for High Poly Head - Males-63664-2-0-0-1711611638.7z"
+   ],
+   "author": "naChooey",
+   "leftover": false,
+   "key": "id:63664",
+   "theme": "body_face"
+  },
+  {
+   "id": 2482,
+   "name": "NPC's Run and Walk at Your Pace",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "NPCs Run And Walk At Your Pace - TDM 2482 1.1 hfH9s6SNi.zip",
+    "NPCs Run And Walk At Your Pace - TDM.zip",
+    "Run and Walk at your Pace-2482-1-00.7z"
+   ],
+   "author": "popcornsoda55",
+   "leftover": false,
+   "key": "id:2482",
+   "theme": "body_face"
+  },
+  {
+   "id": 22480,
+   "name": "Nix-Hound Eyes Fix (Creation Club Nixhound Patch)",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-01-09",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Nixhound Eyes Fix-22480-1-0-1547051275.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:22480",
+   "theme": "body_face"
+  },
+  {
+   "id": 170693,
+   "name": "No Load Door NPC Fade",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-01-25",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "No Load Door NPC Fade-170693-0-2-1769335742.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:170693",
+   "theme": "body_face"
+  },
+  {
+   "id": 166086,
+   "name": "Norden UI",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-06-21",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Norden Racemenu DIP-166086-1-0-0-1764709829.7z",
+    "Norden Racemenu DIP-166086-1-1-1-1764976269.7z",
+    "Norden Racemenu DIP-166086-1-2-2-1776858764.7z"
+   ],
+   "author": "Nithog",
+   "leftover": false,
+   "key": "id:166086",
+   "theme": "body_face"
+  },
+  {
+   "id": 133489,
+   "name": "Orc Exiles - The Cracked Tusk Keep",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "EFPS - Orc Exiles - The Cracked Tusk Keep Patch-133489-1-0d-1731596314.7z",
+    "Imperial castles patch-133489-1-6-1Imperial-1739545798.7z",
+    "Lux Orbis - Orc Exiles - The Cracked Tusk Keep-133489-1-6Lux-1739464762.7z"
+   ],
+   "author": "JJerem",
+   "leftover": false,
+   "key": "id:133489",
+   "theme": "body_face"
+  },
+  {
+   "id": 160944,
+   "name": "Orc Strongholds - AIO - Patches Collection",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-09-01",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Orc Strongholds - AIO - Fixes and Optimization-160944-1-4-0-1774371196.7z",
+    "Orc Strongholds - AIO - Patches Collection-160944-1-2-2-1760200988.7z",
+    "Orc Strongholds - AIO - Patches Collection-160944-1-2-3-1760366531.7z"
+   ],
+   "author": "Alaxouche",
+   "leftover": false,
+   "key": "id:160944",
+   "theme": "body_face"
+  }
+ ]
+}

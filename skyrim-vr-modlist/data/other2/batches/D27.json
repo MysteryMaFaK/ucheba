@@ -1,0 +1,738 @@
+{
+ "batch": "D27",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 14098,
+   "name": "Simply Knock SE",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Simply Knock SE 1.0.3 Release-14098-1-0-3.zip"
+   ],
+   "author": "Chesko",
+   "leftover": false,
+   "key": "id:14098",
+   "theme": "other"
+  },
+  {
+   "id": 125858,
+   "name": "Skip Time Wound Scene",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-08-08",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Skip Time Wound Scene-125858-1-1-1-1723098180.7z"
+   ],
+   "author": "Styyx",
+   "leftover": false,
+   "key": "id:125858",
+   "theme": "other"
+  },
+  {
+   "id": 70531,
+   "name": "Smooth Moveset",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-05-31",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Anchor weapons grip position fix-70531-1-0-1656997151.zip",
+    "Animated armoury Grip position fix-70531-1-0-1656997185.zip",
+    "Skyrim Spear Mechanic Grip position fix-70531-1-0-1662386993.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:70531",
+   "theme": "other"
+  },
+  {
+   "id": 59239,
+   "name": "Smooth Random Blocking Animation 3.0",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-11-30",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Smooth Random Blocking Animation 3.2-59239-3-2-1638279965.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:59239",
+   "theme": "other"
+  },
+  {
+   "id": 110110,
+   "name": "Snozz's Resource Pack",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-09-10",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Snozz's Resources 110110 1.16b 2026-09-10T12-10Z RHaV1Okf6.7z",
+    "Snozz's Resources-110110-1-10-1743515322.7z",
+    "Snozz's Resources-110110-1-13-1766696412.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:110110",
+   "theme": "other"
+  },
+  {
+   "id": 97984,
+   "name": "Soldier of Stendarr",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-09-16",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Soldier of Stendarr - No amulet Req patch-97984-1-0-0-1726451291.7z",
+    "Soldier of Stendarr-97984-1-0-3-1691724041.7z"
+   ],
+   "author": "Garaleos",
+   "leftover": false,
+   "key": "id:97984",
+   "theme": "other"
+  },
+  {
+   "id": 15891,
+   "name": "Sovngarde HD",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-10-11",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Sovngarde 2K-15891-3-2-1728657152.zip",
+    "Sovngarde HD 2K-15891-3-1-1619791146.7z"
+   ],
+   "author": "LoD7995",
+   "leftover": false,
+   "key": "id:15891",
+   "theme": "other"
+  },
+  {
+   "id": 106054,
+   "name": "Spaghetti's Faction Halls - AIO",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-12-04",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Spaghetti's Faction Halls - AIO-106054-1-1-1701719359.zip"
+   ],
+   "author": "RubberSpaghetti",
+   "leftover": false,
+   "key": "id:106054",
+   "theme": "other"
+  },
+  {
+   "id": 41348,
+   "name": "Stalhrim Refrozen",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-07-08",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Stalhrim Refrozen - CC Stalhrim Crossbow 4k-41348-1-5-1619669477.7z",
+    "Stalhrim Refrozen - CC Stalhrim Fur 2k-41348-1-6-0-1625784168.7z",
+    "Stalhrim Refrozen - Core Package 2k-41348-1-6-0-1625783888.7z"
+   ],
+   "author": "Jelidity",
+   "leftover": false,
+   "key": "id:41348",
+   "theme": "other"
+  },
+  {
+   "id": 89940,
+   "name": "Static Skill Leveling Rewritten",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-05-29",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Static Skill Leveling Rewriten-89940-1-8-1716997976.7z"
+   ],
+   "author": "RookMeister and noyou",
+   "leftover": false,
+   "key": "id:89940",
+   "theme": "other"
+  },
+  {
+   "id": 171870,
+   "name": "Steal off Scoundrels - Pickpocketing Criminals is Not Stealing",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-23",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Pickpocketing Criminals is not Stealing 171870 0.2.1 2026-08-23T23-52Z 6Xybdakt1.7z",
+    "Pickpocketing Criminals is not Stealing-171870-0-1-2-1771837086.7z",
+    "Pickpocketing Criminals is not Stealing-171870-0-2-1-794155-1787529120.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:171870",
+   "theme": "other"
+  },
+  {
+   "id": 51645,
+   "name": "Sweeping Organizes Stuff - Use Broom to Clean Mess",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-12-02",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Sweeping Organizes Stuff - Use Broom to Clean Mess-51645-0-4-1631276902.7z",
+    "Sweeping Organizes Stuff - Use Broom to Clean Mess-51645-0-5-2-1701477128.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:51645",
+   "theme": "other"
+  },
+  {
+   "id": 37541,
+   "name": "TB's Improved Smoke",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-07-15",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "TB's 4K Smoke FOMOD-37541-3-1689442033.7z"
+   ],
+   "author": "The Blender Animator",
+   "leftover": false,
+   "key": "id:37541",
+   "theme": "other"
+  },
+  {
+   "id": 72023,
+   "name": "Taunt Your Enemies - Taunting Matters",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-06-16",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Taunt Your Enemies - Taunting Matters-72023-1-01-1659039276.zip",
+    "Taunt Your Enemies - Taunting Matters-72023-1-03-1718560896.rar"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:72023",
+   "theme": "other"
+  },
+  {
+   "id": 95062,
+   "name": "The Chain of Time",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "The Chain of Time-95062-1-2-1-1770232494.zip"
+   ],
+   "author": "Betalille",
+   "leftover": false,
+   "key": "id:95062",
+   "theme": "other"
+  },
+  {
+   "id": 84348,
+   "name": "The Clever Prisoner",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-11-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "The Clever Prisoner-84348-1-3-0-1745020038.7z",
+    "The Clever Prisoner-84348-1-3-1-1764490248.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:84348",
+   "theme": "other"
+  },
+  {
+   "id": 7644,
+   "name": "The Gray Cowl of Nocturnal SSE - HD pack",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "The Grey Cowl of Nocturnal SE - HD Texture pack-7644-1-2.zip"
+   ],
+   "author": "Salchichen",
+   "leftover": false,
+   "key": "id:7644",
+   "theme": "other"
+  },
+  {
+   "id": 43766,
+   "name": "The Paarthurnax Resolution",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-12-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "The Paarthurnax Resolution-43766-1-1609224380.7z"
+   ],
+   "author": "Epic Crab",
+   "leftover": false,
+   "key": "id:43766",
+   "theme": "other"
+  },
+  {
+   "id": 87634,
+   "name": "Thugs Not Assassins Extended",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-03-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Thugs Not Assassins Extended-87634-1-2-1679708898.7z"
+   ],
+   "author": "Korodic",
+   "leftover": false,
+   "key": "id:87634",
+   "theme": "other"
+  },
+  {
+   "id": 46024,
+   "name": "Thunderbolt HD Lightning",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-10-16",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Thunderbolt - HD Lightning-46024-1-0-1613946208.zip",
+    "Thunderbolt HD Lightning-46024-2-0-1697434374.zip"
+   ],
+   "author": "Catir and SRW0 and Akira1364",
+   "leftover": false,
+   "key": "id:46024",
+   "theme": "other"
+  },
+  {
+   "id": 108489,
+   "name": "UNDERDOG Death Animations OAR - DAR",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-05",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "UNDERDOG Death Animations OAR-108489-2-0-4-1704479515.rar"
+   ],
+   "author": "Hiro aka Tsaxaman",
+   "leftover": false,
+   "key": "id:108489",
+   "theme": "other"
+  },
+  {
+   "id": 131607,
+   "name": "Unarmed Behaviors Expanded",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-11-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Unarmed Behaviors Expanded-131607-2-0-1-1764478034.7z"
+   ],
+   "author": "lambdacdm",
+   "leftover": false,
+   "key": "id:131607",
+   "theme": "other"
+  },
+  {
+   "id": 40802,
+   "name": "Undeath - Classical Lichdom",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-08-09",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Hishy's Undeath Cleaner Script Improved-40802-1-1-1601050264.rar",
+    "UCL - The Cause Ayleid Lich Model Patch-40802-3-20-1637411365.rar",
+    "UCL - The Cause Ayleid Lich Model Patch-40802-3-45-1641386219.rar"
+   ],
+   "author": "ConnerRia",
+   "leftover": false,
+   "key": "id:40802",
+   "theme": "other"
+  },
+  {
+   "id": 6180,
+   "name": "Undeath Remastered",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Skyrim - Undeath SSE 1.7-6180-1-7.rar"
+   ],
+   "author": "Antioch08",
+   "leftover": false,
+   "key": "id:6180",
+   "theme": "other"
+  },
+  {
+   "id": 43830,
+   "name": "Unique Stros M'Kai Rum",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-12-31",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Stros M'Kai Rum Replacer 1K-43830-1-2-1609421380.rar",
+    "Stros M'Kai Rum Replacer 2K-43830-1-2-1609421401.rar"
+   ],
+   "author": "fadingsignal",
+   "leftover": false,
+   "key": "id:43830",
+   "theme": "other"
+  },
+  {
+   "id": 176593,
+   "name": "Unpoisoned Blocking",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-09-02",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Unpoisoned Blocking - Latest Version-176593-1-0-0-1775477161.zip",
+    "Unpoisoned Blocking - Latest Version-176593-1-0-1-799460-1788387840.zip"
+   ],
+   "author": "Seb263",
+   "leftover": false,
+   "key": "id:176593",
+   "theme": "other"
+  },
+  {
+   "id": 69047,
+   "name": "Visage of Mzund - My version SE-AE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-04-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Visage of Mzund - My version by Xtudo SE-AE - LOTD patch-69047-1-1654261868.7z",
+    "Visage of Mzund - My version by Xtudo SE-AE - Vanilla Color version-69047-1-1-1681387498.7z",
+    "Visage of Mzund - My version by Xtudo SE-AE-69047-1-1654261800.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:69047",
+   "theme": "other"
+  },
+  {
+   "id": 4873,
+   "name": "WEBS S.E.",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "WEBS SE lighting mod patch-4873-4-0.7z",
+    "WEBS SE x2048-4873-4-0.7z"
+   ],
+   "author": "ramccoid",
+   "leftover": false,
+   "key": "id:4873",
+   "theme": "other"
+  },
+  {
+   "id": 2136,
+   "name": "WICO - Windsong Immersive Character Overhaul",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "WICO Special Edition - Nude 0.9f-2136-0-9f.7z",
+    "WICO Special Edition - VNL 0.9f-2136-0-9f.7z"
+   ],
+   "author": "Windsong",
+   "leftover": false,
+   "key": "id:2136",
+   "theme": "other"
+  },
+  {
+   "id": 33104,
+   "name": "Welcome Back to the Bee and Barb",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-02-27",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Welcome Back to the Bee and Barb-33104-1-0-1-1582816365.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:33104",
+   "theme": "other"
+  },
+  {
+   "id": 39640,
+   "name": "WiZkiD Carriages",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-06-14",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "WiZkiD Carriages 2K-39640-1-5-1718377330.7z",
+    "WiZkiD Carriages 2k-39640-1-3-1639916435.7z",
+    "WiZkiD Carriages-39640-1-4-1675626743.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:39640",
+   "theme": "other"
+  },
+  {
+   "id": 113558,
+   "name": "WiZkiD Hunter's Camp Overhaul",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-07-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "WiZkiD Hunter's Camp Overhaul (2K)-113558-1-2-1711538033.7z",
+    "WiZkiD Hunter's Camp Overhaul (2K)-113558-1-3-1751788635.7z",
+    "WiZkiD Hunter's Camp Overhaul (4K)-113558-1-2-1711537929.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:113558",
+   "theme": "other"
+  },
+  {
+   "id": 113603,
+   "name": "Women of Unslaad Refined",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-03-11",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Unslaad - NPCs Refined-113603-1-0-1710155911.7z"
+   ],
+   "author": "KaruraWasabi",
+   "leftover": false,
+   "key": "id:113603",
+   "theme": "other"
+  },
+  {
+   "id": 24898,
+   "name": "Yes Im Sure",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-10-23",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "YesImSure-24898-1-5-0-1583022330.zip",
+    "YesImSure-24898-1-7-0-1666563689.zip"
+   ],
+   "author": "Ryan",
+   "leftover": false,
+   "key": "id:24898",
+   "theme": "other"
+  },
+  {
+   "id": 170403,
+   "name": "Yuril's Textures Repository",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-04-09",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "YTR - Ice Floes-170403-1-0-1769021185.7z",
+    "YTR - Riekling Painting-170403-1-0-1775472799.7z",
+    "YTR - Riekling Painting-170403-1-2-1775711680.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:170403",
+   "theme": "other"
+  },
+  {
+   "id": 44156,
+   "name": "",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-09",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Rosemary Nord Low Poly Preset and Face gen Files-44156-1-0-1610169886.rar"
+   ],
+   "author": "Lustful Luna",
+   "leftover": false,
+   "key": "id:44156",
+   "theme": "other"
+  }
+ ]
+}

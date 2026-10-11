@@ -1,0 +1,1051 @@
+{
+ "section_lead": "База интерфейса в Core уже плотная: SkyUI VR, Menu Mouse Fix, Stable Hands, moreHUD VR, Clear HUD VR, Spell Wheel VR, QuickLoot IE, Floating Subtitles VR, Palm Compass и Navigate VR, Immersive NPC Dialogue VR, Inventory Selfie. Не хватает трёх вещей: запасных вариантов (тема меню, быстрый лут, субтитры, раскладки), мелких VR-правок диалога и сообщений (Smooth Dialogue Mesh, Centered Messages, Whose Quest, Smart Talk) и удобств для карты и консоли. Тему меню берите одну: Norden, Edge UI VR или Dear Diary VR. Все три правят одни и те же swf SkyUI. Ничто из списка не дублирует HIGGS, PLANCK или VRIK: интерфейс с ними не пересекается, кроме узла компаса (Palm Compass, Navigate VR, меши компаса в Smooth Dialogue Mesh).",
+ "picks": [
+  {
+   "key": "id:102094",
+   "id": 102094,
+   "name": "Quickloot VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/102094",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "quickloot",
+   "what": "Окно быстрого лута как в Fallout 4: VR-порт QuickLoot EE. Запасной вариант, если QuickLoot IE из Core в VR вылетает.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit, Panda's Sovngarde, Tahrovin, FUS",
+   "files": "Quickloot VR 1.3 (2026-06-12; Spirit of Grit, Tahrovin - Grit). Версия 1.2 — Panda's, Tahrovin, FUS. Архивы: «Quickloot VR 102094 1.3 2026-06-12T21-46Z», «Quickloot VR-102094-1-2».",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Не вместе с QuickLoot IE (#120075) из Core: ставить одно из двух. С HIGGS не пересекается: HIGGS берёт предмет рукой, Quickloot показывает список при наведении. Порядок в MO2: ниже SkyUI VR.",
+   "note": "Core ставит QuickLoot IE 4.1.3, у него VR 'экспериментально' с 4.1.0. Если IE работает, Quickloot VR не нужен. Остальные требования DLL (Address Library VR, SkyUI VR) на странице не проверены.",
+   "evidence": "whouses 102094: 5 VR-листов, 1.3 от 2026-06-12 в обоих Grit-листах. Описание автора (Nightfallstorm/alandtse, v1.1): 'VR port of Quickloot EE ... fork of QuickLootEE with old QuickLootSE icons and TCC icons for LOTD'. MODLIST: QuickLoot IE 'Не вместе с Quickloot VR'."
+  },
+  {
+   "key": "id:59142",
+   "id": 59142,
+   "name": "moreHUD Inventory Edition VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/59142",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Расширяет меню инвентаря: известные зачарования, прочитанные книги, увеличенная карточка предмета. Пара к moreHUD VR из Core.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Panda's Sovngarde, Librum VR",
+   "files": "«moreHUD Inventory Edition VR» 1.0.18 (59142-1-0-18-1652997855; Tempus, Panda's, Librum). Librum дополнительно ставит SE-базу 18619 Loose Version 1.0.18.",
+   "requires": [
+    "SkyUI VR (#91535)",
+    "moreHUD VR (#33215)"
+   ],
+   "interplay": "В Core у moreHUD VR уже есть строка 'пара moreHUD Inventory Edition VR — по желанию', отдельной карточки нет. Модифицирует swf инвентаря: с Norden UI VR нужна его заплатка, с Dear Diary VR или Edge UI VR порядок проверять. Не брать AE-версию 18619 2.x.",
+   "note": "Нужна ли SE-база 18619, как у Librum, страница VR не проверена: смотреть Requirements и пробовать без неё.",
+   "evidence": "whouses 59142: Tempus, Panda's, Librum. Описание (Ahzaab): 'brings some features from moreHUD into the inventory menu, enchantments known by the player ... increases the Item Card size'. Nexus-сниппет страницы 59142 подтверждает то же. MODLIST (moreHUD VR): 'Пара moreHUD Inventory Edition VR (#59142) — по желанию'."
+  },
+  {
+   "key": "id:168702",
+   "id": 168702,
+   "name": "Edge UI - VR Edition",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/168702",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "ui_theme",
+   "what": "Упрощённая VR-версия современной темы Edge UI (автор EugeneUI). Альтернатива Norden UI VR из Core: взять одну тему.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "В Tempus виден только файл «PATCH - moreHUD VR» (168702-1-1767888122, январь 2026). Основной файл страницы в данных не виден, версия страницы 1.2.",
+   "requires": [
+    "SkyUI VR (#91535)",
+    "moreHUD VR (#33215)"
+   ],
+   "interplay": "Не вместе с Norden UI VR (Core: 'держать выключенным'), Dear Diary VR, Clear HUD VR и Minimal Enemy Healthbar VR: у всех общие swf и HUD-файлы. С HIGGS, PLANCK и VRIK не пересекается.",
+   "note": "Какой именно файл страницы брать (Main или другой), неизвестно: открыть страницу на Nexus. Плоский Edge UI (130983) в VR не ставить.",
+   "evidence": "whouses 168702: только Tempus, 'PATCH - moreHUD VR-168702-1-1767888122.7z'. Метаданные Wabbajack: 'simplified VR-compatible version of Edge UI', v1.2, автор EugeneUI. MODLIST (Norden): 'Не вместе с Edge UI - VR Edition (#168702)'."
+  },
+  {
+   "key": "id:143678",
+   "id": 143678,
+   "name": "Edge UI - Explorer Addon",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/143678",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": "ui_theme",
+   "what": "Перекраска, форма и расстановка элементов к Edge UI. Только если выбрали Edge UI VR как тему.",
+   "vr_status": "unknown",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "«Edge UI - Explorer Addon» 3.5.1 (143678-3-5-1-1758278077) + «21x9 Patch» 3.2.0 (Tempus). Патч 21x9 для VR не нужен.",
+   "requires": [
+    "Edge UI - VR Edition (#168702)"
+   ],
+   "interplay": "Только с Edge UI VR. Не ставить с Norden UI VR и Dear Diary VR. Патчи под ширину экрана и RaceMenu DIP пропускать.",
+   "note": "Аддон сделан под плоский Edge UI, в VR его поведение не подтверждено. Ставить последним и сверять HUD в шлеме.",
+   "evidence": "whouses 143678: Tempus (Explorer Addon 3.5.1 и 21x9 Patch 3.2.0), SE-списки Tomes of Talos, Wunduniik. Описание (EugeneBober): 'A recolor, reshape and UI placement and preset to complement Edge UI mod'."
+  },
+  {
+   "key": "id:44874",
+   "id": 44874,
+   "name": "Dear Diary VR - Paper SkyUI and Categorized Favorites",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/44874",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "ui_theme",
+   "what": "Бумажная тема SkyUI с VR-эксклюзивными меню и возвращённым Избранным по категориям. Альтернатива Norden UI VR.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Tempus Maledictum VR, Tahrovin, Librum VR, FUS, Yggdrasil VR",
+   "files": "«Dear Diary VR - Paper SkyUI and Categorized Favorites» 1.06 (44874-1-06-1617397007; 5 VR-листов). Tempus ещё ставит «I4 Icon Colors - Dear Diary» (файл страницы 85702) и 60837 Dear Diary Dark Mode.",
+   "requires": [
+    "SkyUI VR (#91535)"
+   ],
+   "interplay": "Одна тема на сборку: не вместе с Norden UI VR и Edge UI VR. Страница сообщает о полной совместимости с VR Menu Mouse Fix (из Core). Очерёдность с moreHUD Inventory Edition VR и I4 проверять. Категории Избранного не пересекаются с Essential Favorites VR.",
+   "note": "Для Crafting Categories (COCKS) есть отдельная заплатка 100170. Если Norden уже настроен, меняйте тему целиком, а не вперемешку.",
+   "evidence": "whouses 44874: Tempus, Tahrovin, Librum, FUS, Yggdrasil (1.06). Описание (TheRetroCarrot): 'Unofficial Dear Diary Paper SkyUI ported to VR. Requires SkyUI VR and covers VR exclusive menus. This also restores categorized favorites.' Nexus-сниппет: 'fully compatible with VR Menu Mouse Fix'."
+  },
+  {
+   "key": "id:100170",
+   "id": 100170,
+   "name": "Dear Diary Light and Wood and Paper for C.O.C.K.S VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/100170",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Скин меню кузницы (COCKS VR из Core) в стиле Dear Diary, с ассетами и масштабом ширины под VR.",
+   "vr_status": "vr_native",
+   "in_lists": "Librum VR, FUS",
+   "files": "«Dear Diary Light Skin for C.O.C.K.S VR» 1.0.0 (FUS) или «Dear Diary Wood and Paper for C.O.C.K.S VR» 1.0.0 (Librum): одно из двух по вкусу.",
+   "requires": [
+    "Dear Diary VR (#44874)",
+    "Crafting Categories for SkyUI VR (#81409)"
+   ],
+   "interplay": "Только если выбрали Dear Diary VR. С Norden UI VR (в Core 'проверить меню крафта') не использовать. Ниже COCKS.",
+   "note": "Два файла, ставится один. Какой светлее, решать по скриншотам страницы.",
+   "evidence": "whouses 100170: Librum (Wood and Paper), FUS (Light Skin). Описание (arkcom): 'includes the assets and width scaling required to work in VR'."
+  },
+  {
+   "key": "id:131015",
+   "id": 131015,
+   "name": "Subtitles VR (+ Subtitles)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/131015",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "subtitles",
+   "what": "Несколько субтитров одновременно, плагин CommonLib-NG. Проверенная альтернатива Floating Subtitles VR из Core (тот только в двух Grit-листах).",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Tempus Maledictum VR, Panda's Sovngarde, FUS",
+   "files": "«Subtitles VR» 0.6.2 (131015-0-6-2-1737415695) поверх основы «Subtitles» 0.6.2 (113214-0-6-2-1737415550); FUS местами 0.6.1. Оба архива нужны.",
+   "requires": [
+    "Subtitles (#113214)",
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Не вместе с Floating Subtitles VR (#183714) из Core: субтитры наложатся (так и записано в manifest, группа subtitles). Выбрать одно. С Immersive NPC Dialogue VR не пересекается.",
+   "note": "Запасной путь, если Floating Subtitles VR (метка AI-Generated, ImGui VR Helper) капризничает. Тогда убрать Floating Subtitles и его основу.",
+   "evidence": "whouses 131015: Tempus, Panda's, FUS (0.6.2); основа 113214 в тех же листах. Описание (FlayaN): 'CommonLib-NG plugin; adds supports for showing multiple subtitles at the same time'. CONFLICTS.md: группа subtitles, Subtitles VR запрещён вместе с Floating Subtitles VR."
+  },
+  {
+   "key": "id:87315",
+   "id": 87315,
+   "name": "Eagle Eye Cursor Replacer for Skyrim VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/87315",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Заменяет почти невидимый крестик перка Орлиный глаз на один из 4 заметных, в двух размерах и с прозрачностью.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Stormcrown VR, Panda's Sovngarde, FUS",
+   "files": "«Eagle Eye Cursor Replacer for Skyrim VR» 0.1 (87315-0-1-1679370970; 4 VR-листа). Выбрать один из вариантов прицела.",
+   "requires": [],
+   "interplay": "Текстуры без DLL. С Crosshairs with different colours VR не конфликтует, но цели у них разные: Eagle Eye про лук, Crosshairs про магию. Рядом с Simple Realistic Archery VR из Core безопасно.",
+   "note": "Нужен перк Орлиный глаз. Мелкий, но один из самых популярных VR-только твиков прицела.",
+   "evidence": "whouses 87315: Tempus, Stormcrown, Panda's, FUS. Описание (butterenough): 'Replaces the default targeting crosshair cursor that appears with the Eagle Eye Archery Perk ... For SkyrimVR only'."
+  },
+  {
+   "key": "id:17512",
+   "id": 17512,
+   "name": "Crosshairs with different colours VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/17512",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Красный и зелёный прицелы вместо серого: в VR видно, какой рукой целишься при двойном касте.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Yggdrasil VR",
+   "files": "«Crosshairs different colours» 0.9 (17512-0-9; Tempus, Yggdrasil).",
+   "requires": [],
+   "interplay": "Правит HUD-файлы прицела: рядом с Clear HUD VR, Norden UI VR или Edge UI VR порядок проверять. Colorful Compass Markers VR (Other-2, #150302) уже включает этот мод в пакете, вместе не ставить.",
+   "note": "Спутывается с прицелом Eagle Eye только по файлам, не по назначению.",
+   "evidence": "whouses 17512: Tempus, Yggdrasil. Описание (Vince Trust): 'gray target crosshairs are difficult to see and you can not distinguish them in casting double magic, I colored them red and green'. Описание 150302: 'Colorful Compass Markers + Clear HUD VR + Crosshairs with different colours VR'."
+  },
+  {
+   "key": "id:17687",
+   "id": 17687,
+   "name": "Centered Messages Box VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/17687",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Переносит всплывающие сообщения в центр поля зрения VR-HUD, чтобы их не терять на краю.",
+   "vr_status": "vr_native",
+   "in_lists": "Librum VR",
+   "files": "«Centered Messages Box» 0.5 (17687-0-5; Librum).",
+   "requires": [],
+   "interplay": "Правит HUD-файлы: порядок относительно Clear HUD VR, Norden UI VR и Edge UI VR нужно сверять. Соседний мод того же автора — Transparent Dialogue VR.",
+   "note": "Один лист, старый файл 0.5. Ставить для пробы и смотреть, не мешает ли сообщениям Notification Log.",
+   "evidence": "whouses 17687: только Librum VR. Описание (Vince Trust): 'Centered Messages Box for VR-HUD'."
+  },
+  {
+   "key": "id:17897",
+   "id": 17897,
+   "name": "Transparent Dialogue VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/17897",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Прозрачное окно сообщений и диалога для VR: мир виден сквозь панель. Файл без разделительной линии.",
+   "vr_status": "vr_native",
+   "in_lists": "Librum VR",
+   "files": "«Transparent Dialogue VR without Separating Line» 0.5 (17897-0-5; Librum).",
+   "requires": [],
+   "interplay": "Правит меш и текстуры окна диалога, как и VR Smooth Dialogue Mesh. Ставить после Smooth Dialogue Mesh и сверять результат. С Immersive NPC Dialogue VR (варианты на запястье) может оказаться лишним.",
+   "note": "Один лист, 2019–2020. Если выбрали Immersive NPC Dialogue VR, мод почти не нужен.",
+   "evidence": "whouses 17897: Librum VR. Описание (Vince Trust): 'Transparent Dialogue Messagebox for Skyrim VR'."
+  },
+  {
+   "key": "id:107993",
+   "id": 107993,
+   "name": "VR Smooth Dialogue Mesh",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/107993",
+   "section": "ix_ui",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Сглаживает меш окна диалога в SkyrimVR. В пакете также меши текстов навыков и компаса.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Stormcrown VR, Panda's Sovngarde, Tahrovin, FUS",
+   "files": "«VR Smooth Dialogue Mesh» 1.0.0 (107993-1-0-0-1703910901; 5 VR-листов).",
+   "requires": [],
+   "interplay": "Только меши. В пакете есть меш компаса: при Palm Compass VR или Navigate VR проверить, чьи файлы выигрывают. С Dialogue Movement Enabler VR и No Menu Fade Out VR из Core дружит. С Transparent Dialogue VR порядок сверять.",
+   "note": "Дополнительно: auto_excluded в data/other2 помечал мод как 'контент', это ошибка — это VR-правка меша меню. Что именно выглядит иначе, сверить по описанию страницы.",
+   "evidence": "whouses 107993: Tempus, Stormcrown, Panda's, Tahrovin, FUS. Описание (chikuwan): 'Smoothing the dialogue mesh for SkyrimVR. Also include meshes of skill view texts and the compass.'"
+  },
+  {
+   "key": "id:161500",
+   "id": 161500,
+   "name": "Smart Talk (Dialogue Menu Enhancer)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/161500",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшает меню диалога: подсвечивает квестовые реплики, даёт переставлять варианты, паузы, пропуск и перебивание, поддержка контроллеров.",
+   "vr_status": "works_as_is",
+   "in_lists": "Stormcrown VR, Spirit of Grit, Tahrovin - Grit",
+   "files": "1.0.6 (Stormcrown VR, 2026-09-02) или 1.0.3 (Spirit of Grit, Tahrovin - Grit). Брать свежую.",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Пересекается с Instantly Skip Dialogue NG (оба умеют пропуск), ставить один из двух. Рядом с Dialogue Movement Enabler VR работает. С Immersive NPC Dialogue VR (варианты на запястье) возможен конфликт по меню: проверить.",
+   "note": "Отдельной VR-сборки нет, но три VR-листа (один из них свежий 2026-09) ставят основной файл. Следить за sksevr.log.",
+   "evidence": "whouses 161500: Stormcrown (1.0.6 2026-09-02), SoG и Grit (1.0.3). Описание (Seb263): 'highlights quest-related lines, lets you reorder dialogue options, adds natural pauses, flexible skipping and interruption, full support for controllers'."
+  },
+  {
+   "key": "id:89163",
+   "id": 89163,
+   "name": "Instantly Skip Dialogue NG",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/89163",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мгновенный пропуск реплик без задержки в 750 мс, включая вынужденные диалоги Хермеуса Моры и Молаг Бала.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR, Panda's Sovngarde, Librum VR, FUS",
+   "files": "«Instantly Skip Dialogue NG» 1.1.1 (89163-1-1-1-1693399775; 4 VR-листа).",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Дублирует функцию пропуска из Smart Talk: ставить один из двух. С Immersive NPC Dialogue VR проверить, что пропуск не закрывает диалог раньше времени.",
+   "note": "Однодллный NG-плагин, VR в тексте страницы не заявлен, но четыре VR-листа его ставят.",
+   "evidence": "whouses 89163: Tempus, Panda's, Librum, FUS (1.1.1). Описание (Osmosis-Wrench): 'skip dialogue instantly, bypassing the 750 millisecond delay ... normally unskippable'."
+  },
+  {
+   "key": "id:60211",
+   "id": 60211,
+   "name": "Whose Quest Is It Anyway VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/60211",
+   "section": "ix_ui",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Вместо 'Квестовые предметы нельзя убрать' сообщение называет квест. Полезно в VR: HIGGS легко выбрасывает вещи из рук.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Spirit of Grit, Tahrovin - Grit, Panda's Sovngarde, Tahrovin, FUS, Yggdrasil VR",
+   "files": "«WhoseQuestIsItAnyway VR» 1.3.0 (60211-1-3-0-1639723153; 7 VR-листов).",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Подмена текста сообщения, с HIGGS, PLANCK, VRIK и Swap Drop and Hold не конфликтует. Центрирование сообщений (Centered Messages Box VR) независимо.",
+   "note": "Это не квестовый контент: мод только меняет строку сообщения.",
+   "evidence": "whouses 60211: 7 из 9 VR-листов. Описание (alandtse): 'Swaps the Quest items cannot be removed message for a more descriptive message informing you which quest the item belongs to. VR port'."
+  },
+  {
+   "key": "id:118174",
+   "id": 118174,
+   "name": "Persistent Favorites",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/118174",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Автоматически возвращает в Избранное брошенное или кончившееся оружие и зелья, когда они снова в инвентаре.",
+   "vr_status": "works_as_is",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "«Persistent Favorites» 1.0.4 (118174-1-0-4-1767917666, январь 2026; два Grit-листа).",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Дополняет Essential Favorites VR (тот лишь защищает от продажи). С HIGGS полезен: выбросил оружие рукой, подобрал, оно снова в Избранном. С Dear Diary VR и Edge UI VR не конфликтует (DLL).",
+   "note": "В описании 'No esp/scripts'. VR-файла на странице нет, но оба Grit-листа ставят основной архив. Проверить sksevr.log.",
+   "evidence": "whouses 118174: Spirit of Grit, Tahrovin - Grit (1.0.4). Описание (Quantumyilmaz): 'dropped your favorited weapon? ... will automatically favorite them again ... No esp/scripts'."
+  },
+  {
+   "key": "id:116713",
+   "id": 116713,
+   "name": "Kome's Inventory Tweaks",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/116713",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Большой оверхол сортировки, значков и фреймворков для SkyUI (и Wheeler). Для VR берётся только часть про инвентарь.",
+   "vr_status": "unknown",
+   "in_lists": "Stormcrown VR",
+   "files": "«Komegaki's Inventory Tweaks» 1.21 и «Komegaki's Inventory Tweaks - Patches» 1.21 (Stormcrown VR, 2026).",
+   "requires": [
+    "SkyUI VR (#91535)",
+    "Inventory Interface Information Injector (#85702)"
+   ],
+   "interplay": "Правит swf SkyUI: не вместе с Norden UI VR, Dear Diary VR и Edge UI VR без проверки. Часть про Wheeler в VR бесполезна, там Spell Wheel VR из Core. Рядом с I4 Weapon Icons Overhaul того же автора безопасно.",
+   "note": "Что именно внутри и какие патчи нужны, не проверено. Ставить последним и сравнить инвентарь со снимком до установки.",
+   "evidence": "whouses 116713: Stormcrown VR (Komegaki's Inventory Tweaks 1.21 + Patches). Описание (Komegaki): '1000+ hours ... overhauls SkyUI and Wheeler through new Sorting, Icons, and Frameworks'."
+  },
+  {
+   "key": "id:106432",
+   "id": 106432,
+   "name": "I4 Weapon Icons Overhaul",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/106432",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Значки для 30+ классов оружия в инвентаре через I4: катана, копьё, арбалет, коса и др. Различать оружие указкой проще.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR, Stormcrown VR, Librum VR",
+   "files": "2.41 (106432-2-41-1724073558; Tempus, Stormcrown). Librum ставит 1.1, 2.1 и 2.3.",
+   "requires": [
+    "Inventory Interface Information Injector (#85702)"
+   ],
+   "interplay": "Только ресурсы для I4 (Core). С I5 (Core, try) совместим. Рядом с I4 SkyUI Weapons Pack (85703) не нужен: у Norden UI VR есть заплатка именно под Weapons Pack, смотреть, какой из двух паков берёте.",
+   "note": "Остальные иконочные паки (Shout, Armor, THICC) отнесены к косметике и в список не взяты.",
+   "evidence": "whouses 106432: Tempus, Stormcrown (2.41), Librum. Описание (Komegaki): 'custom made icons to over 30+ categories of weapons including katana, gun, scythe, crossbow, lance, quarterstaff'."
+  },
+  {
+   "key": "id:68032",
+   "id": 68032,
+   "name": "ConsolePlusPlus VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/68032",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Вставка из буфера и память команд консоли между сессиями. С экранной клавиатурой в VR набирать команды заново мучительно.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Tahrovin, Librum VR",
+   "files": "«ConsolePlusPlus VR» 1.3.0 (68032-1-3-0-1690527639; Tahrovin, Librum).",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Дополняет More Informative Console, ConsoleUtilVR и VR Console Selection Fix из Core, не заменяет их. Консоль в VR идёт через OpenComposite Unleashed и клавиатуру Core.",
+   "note": "Пригодится при отладке сборки. Для обычной игры не нужен.",
+   "evidence": "whouses 68032: Tahrovin, Librum (1.3.0). Описание (alandtse): 'Adds copy paste into console and caches console commands between game sessions ... VR port of po3's MIT source code'."
+  },
+  {
+   "key": "id:76947",
+   "id": 76947,
+   "name": "Notification Log SSE NG",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/76947",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Сохраняет текст всплывших уведомлений, чтобы перечитать позже. В VR сообщения в углу легко пропустить.",
+   "vr_status": "unknown",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "«NotificationLogSSE» 1.4 (76947-1-4-1665499719; Tempus). Страница описывает NG-версию в одной DLL.",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Вместе с Centered Messages Box VR уведомления видны сразу и в журнале. Окно журнала не занимает HUD, так что с Clear HUD VR не спорит.",
+   "note": "VR прямо не заявлен: если DLL не грузится, в sksevr.log будет ошибка загрузки, тогда убрать. Один лист.",
+   "evidence": "whouses 76947: Tempus (NotificationLogSSE 1.4). Описание (Ryan---VersuchDrei): 'Conversion to CLib-NG ... one .dll that works in all SE versions incl. AE 1.6.629+. Caches notification messages, so you can look at them later'."
+  },
+  {
+   "key": "id:169690",
+   "id": 169690,
+   "name": "Weapon Damage Display Fix",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/169690",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Вместо обрезанных 3–4 цифр урона оружия в SkyUI-меню показывает число полностью. Нужен при модах с большим уроном.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde",
+   "files": "«Weapon Damage Display Fix» 0.4 (169690-0-4-1768542312, январь 2026; Panda's).",
+   "requires": [
+    "SkyUI VR (#91535)"
+   ],
+   "interplay": "Правит вывод в swf. С Norden UI VR, Dear Diary VR и Edge UI VR порядок проверять, ставить последним.",
+   "note": "Нужен только если у оружия реально 5+ цифр урона. Остальное VR-совместимость подтверждена одним VR-листом.",
+   "evidence": "whouses 169690: Panda's Sovngarde (VR) и The Northern Experience (SE). Описание (wankingskeever): 'Vanilla UI, SkyUI, and SkyUI-derived interface mods can only display 3-4 digits for weapon damage ... This fixes it.'"
+  },
+  {
+   "key": "id:52743",
+   "id": 52743,
+   "name": "Oblivion Interaction Icons (Interaction Icons Rework)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/52743",
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новые значки мировых действий: Talk, Harvest, Sleep, Activate, как в Oblivion. Читаемая подсказка перед рукой.",
+   "vr_status": "unknown",
+   "in_lists": "Yggdrasil VR",
+   "files": "«Interaction Icons Rework» 1.375 (52743-1-375-1644261272; Yggdrasil VR).",
+   "requires": [],
+   "interplay": "Правит значки подсказок в HUD-файлах: рядом с Clear HUD VR, Norden UI VR и Edge UI VR сверять порядок. Физические интеракции (HIGGS, Interactive Activators VR) не затрагивает.",
+   "note": "Один VR-лист 2022 года, в VR вид подсказки не проверен. Ставить как косметику с откатом.",
+   "evidence": "whouses 52743: Yggdrasil VR (1.375), 7 SE-листов. Описание (rbt): 'custom icons to world interactions like Talk, Harvest, Sleep, Activate, like in Oblivion'."
+  },
+  {
+   "key": "id:189774",
+   "id": 189774,
+   "name": "RaceMenu VR Layout Fix",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/189774",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Правка раскладки RaceMenu в VR: панели ложатся читаемо. Свежий (2026-08) мод, который Tahrovin - Grit ставит поверх RacemenuVR.",
+   "vr_status": "vr_native",
+   "in_lists": "Tahrovin - Grit",
+   "files": "«RaceMenu VR Layout Fix» 1.0.0 (189774, 2026-08-27; Tahrovin - Grit).",
+   "requires": [
+    "RacemenuVR (#156898)",
+    "RaceMenu Anniversary Edition (#19080)"
+   ],
+   "interplay": "ВАЖНО: Core пишет 'не вместе с RaceMenu VR Layout Fix' (RacemenuVR и RaceMenu VR 2). Tahrovin - Grit ставит RacemenuVR 0.5 и Layout Fix вместе, значит запрет, вероятно, ошибочен. С RaceMenu VR 2 не ставить. Position Tweaks (#174652, Other-2) делает схожее: брать один.",
+   "note": "Сначала проверить сам RacemenuVR. Layout Fix включать, только если панели неудобно стоят. Описание автора скудное ('by GPT Sol').",
+   "evidence": "whouses 189774: Tahrovin - Grit. В том же листе RacemenuVR 0.5 (156898) + RaceMenu AE 0.4.19.16. Описание (sunflowercx): 'RaceMenu VR Layout Fix by GPT Sol'. MODLIST (RacemenuVR): 'Не вместе с ... RaceMenu VR Layout Fix'."
+  },
+  {
+   "key": "id:59817",
+   "id": 59817,
+   "name": "Disable Fast Travel SKSEVR - No Janky Map UI for VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/59817",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Отключает быстрое перемещение в меню карты и чинит баг с меткой рядом с открытыми местами. Идёт в паре с картой в руках Navigate VR.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Librum VR",
+   "files": "«Disable Fast Travel VR» 1.0.0 (59817-1-0-0-1639117355; Librum).",
+   "requires": [
+    "SKSEVR (#30457)"
+   ],
+   "interplay": "Игровое ограничение, не только интерфейс. С Navigate VR и Hi-Res VR Map Markers (Other-1) из Core по смыслу сочетается. Перевозчиков и лошадей не запрещает.",
+   "note": "Ставить, если хотите ходить по карте в руках без телепорта. Один лист 2021.",
+   "evidence": "whouses 59817: Librum VR. Описание (alandtse): 'Disables fast travel in the map menu, and fixes the bug where you would no longer be able to place custom markers near discovered locations. VR port of Parapets MIT source'."
+  },
+  {
+   "key": "id:119899",
+   "id": 119899,
+   "name": "No Player Position on World Map (VR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/119899",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Прячет маркер игрока на карте мира: ориентироваться приходится по местности. Хорошо с картой в руках из Navigate VR.",
+   "vr_status": "vr_native",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "«No Player Position on World Map» 1.0.0 (119899-1-0-0-1716227942; оба Grit-листа).",
+   "requires": [],
+   "interplay": "Только метка на карте. С Navigate VR, Palm Compass VR и Hi-Res VR Map Markers из Core и Other-1 не конфликтует. Не вместе с модами, возвращающими маркер игрока.",
+   "note": "Чисто режим погружения: убирает подсказку, где вы.",
+   "evidence": "whouses 119899: Spirit of Grit, Tahrovin - Grit. Описание (washyourpaws): 'hides the player's position on the world map ... navigate using your surroundings in a more immersive way'. В названии VR."
+  },
+  {
+   "key": "id:71681",
+   "id": 71681,
+   "name": "Colorful Map Markers VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/71681",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "map_markers",
+   "what": "Цветные маркеры карты, порт для VR. В Core рекомендован в примечании к Norden UI VR, но карточки не было.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "«Colorful Map Markers VR» 1.0 (71681-1-0-1658235754; Tempus).",
+   "requires": [
+    "SkyUI VR (#91535)"
+   ],
+   "interplay": "Группа с Hi-Res VR Map Markers и Natural Colored Map Markers 4K VR (Other-1): выбрать один набор значков. Colorful Compass Markers VR (Other-2) — парная вещь для компаса.",
+   "note": "Текстуры без DLL. В Core упомянут в Norden UI VR: 'Рекомендуются SkyUI Colored Category Icons и Colorful Map Markers VR'.",
+   "evidence": "whouses 71681: Tempus Maledictum VR. Описание (Natakiro): 'Colorful Map Markers ported to Skyrim VR'. MODLIST (Norden): 'Рекомендуются ... Colorful Map Markers VR (в манифесте нет)'."
+  },
+  {
+   "key": "n:navigatevr-map-framework",
+   "id": null,
+   "name": "NavigateVR Map Framework (LivSterling, GitHub)",
+   "url": "https://github.com/LivSterling/NavigateVR-Map-Framework",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Надстройка к Navigate VR: наборы физических карт регистрируются по миру или локации, при вытягивании карты выбирается нужная.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "Релизов на GitHub нет (8 коммитов, 2026-08). Нужна сборка DLL самому или готовый файл от автора.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Navigate VR (#47174)",
+    "Visual C++ Redistributable 2015-2022 x64"
+   ],
+   "interplay": "Только для Navigate VR (Other-1). Не заменяет логику убирания карт Navigate VR и не рисует метки. Без набора карт-паков сам ничего не меняет. С Palm Compass VR (того же автора) не пересекается.",
+   "note": "Это каркас для карт-паков, паков пока нет. Без них смысла нет, держать на радаре.",
+   "evidence": "README (получен через github.com): 'an SKSEVR plugin that lets independent NavigateVR map packs register physical maps by worldspace or location'. Требует Skyrim VR 1.4.15, SKSEVR, NavigateVR. Releases пуст, Nexus-ссылки нет."
+  },
+  {
+   "key": "n:skyrimvr-3dirp",
+   "id": null,
+   "name": "3D Interface Replacement Project (3DIRP, LXE97)",
+   "url": "https://github.com/LXE97/skyrimvr-3DIRP",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "3D-замена меню заклинаний для Skyrim VR: меню становится объёмным и берётся рукой. Свежий (2026-07) проект автора Wearable Healthbars.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "Релизов на GitHub нет (72 коммита, создан 2026-07-02). Страница мода на Nexus по README есть, файл не проверен.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "Skyrim VR Tools (#27782)",
+    "VR Address Library (минимум v235)"
+   ],
+   "interplay": "HIGGS и SkyUI в README не указаны как требование. С Spell Wheel VR из Core может перекрываться по меню заклинаний. С SkyUI VR magic menu не ставить без проверки.",
+   "note": "Дубль подбора из группы 'магия'. Статус релиза неясен: перед установкой найти файл на Nexus.",
+   "evidence": "GitHub LXE97/skyrimvr-3DIRP: '3D UI Replacement for skyrim spell menu'; README: 'SKSE plugin source for Skyrim VR mod 3D Interface Replacement Project ... Developed with CommonLibVR'; требует SKSE, Skyrim VR Tools, Address Library VR v235+. Releases пуст."
+  },
+  {
+   "key": "id:190084",
+   "id": 190084,
+   "name": "SteamVR's wrist overlay for PrismaUI",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/190084",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Ярлык на запястье открывает плавающий экран-оверлей PrismaUI. Нужен, только если среди модов есть PrismaUI-меню.",
+   "vr_status": "unknown",
+   "in_lists": "none",
+   "files": "Обновлён 2026-09-22 (по сниппету поиска). По описанию работает только с PrismaUI 1.4.1, упомянуто обновление под 1.5. Состав файлов не проверен.",
+   "requires": [
+    "PrismaUI (версия по странице)",
+    "SteamVR"
+   ],
+   "interplay": "ВАЖНО: Core ставит OpenComposite Unleashed, а он убирает оверлеи SteamVR. Запястный оверлей через SteamVR там, скорее всего, не заработает. Годится только при запуске через SteamVR без OpenComposite.",
+   "note": "Только сниппет поиска, страница Nexus недоступна. В Core нет модов на PrismaUI, поэтому пользы сейчас нет. Тег try ради наблюдения.",
+   "evidence": "Поиск по Nexus: 'SteamVR's wrist overlay for PrismaUI ... wrist shortcut that opens a floating monitor-style PrismaUI overlay; last updated 22 September 2026; works only with PrismaUI 1.4.1'. MODLIST (OpenComposite Unleashed): 'Оверлеи SteamVR пропадают'."
+  },
+  {
+   "key": "id:61282",
+   "id": 61282,
+   "name": "Narsil Bindings for VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/61282",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": "bindings",
+   "what": "Раскладка кнопок Skyrim VR с упором на быстрый доступ к меню. Альтернатива схемам VRIK и Alternative VRIK Bindings из Other-1.",
+   "vr_status": "vr_native",
+   "in_lists": "Yggdrasil VR",
+   "files": "«Narsil Bindings» 1.0.1 (61282-1-0-1-1641330198; Yggdrasil VR). Это файл биндингов, в MO2 не ставится: импорт в SteamVR.",
+   "requires": [],
+   "interplay": "Одна схема кнопок на сборку: вместо VRIK Rift-Index-WMR Bindings или Alternative VRIK Bindings. Свободные грипы под HIGGS и VRIK в описании не обещаны, проверить в SteamVR.",
+   "note": "Other-2 (r2) уже сбросил мод как 'закрыто группой bindings'. Оставлен как запасной вариант: единственный набор, заточенный под быстрые меню. Один лист 2022, Oculus-ориентирован.",
+   "evidence": "whouses 61282: Yggdrasil VR (Narsil Bindings 1.0.1). Описание (Crithion): 'My own take on the bindings of Skyrim VR with a focus on quick menu access'."
+  },
+  {
+   "key": "id:61016",
+   "id": 61016,
+   "name": "Alternate Oculus Vanilla Bindings - VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/61016",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": "bindings",
+   "what": "Oculus-раскладка, освобождающая аналоговые кнопки и грипы под VRIK и HIGGS. Жертвует кнопкой Избранного, поэтому в паре со Spell Wheel VR.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde",
+   "files": "«Venoms Alternate Vanilla Bindings» 1.0 (61016-1-0-1640932291; Panda's). Файл биндингов для SteamVR, не ставится из MO2.",
+   "requires": [
+    "Spell Wheel VR (#47630)"
+   ],
+   "interplay": "Одна схема кнопок на сборку, вместо схем VRIK и Alternative VRIK. Хорошо подходит к Spell Wheel VR (Core: core). Без колеса Избранное остаётся без кнопки.",
+   "note": "Other-2 (r2) сбросил как 'covered_elsewhere'. Оставлен: описание автора прямо про свободные грипы для VR-взаимодействия и Spell Wheel VR. Только Oculus, один лист 2021.",
+   "evidence": "whouses 61016: Panda's Sovngarde. Описание (TeH_Venom): 'move a few things around ... free analogue buttons to use with VRIK bindings, clearing up the grip buttons so that you can actually grip and interact ... sacrifices the favorites button, i recommend using a mod like Spell Wheel VR'."
+  },
+  {
+   "key": "id:130983",
+   "id": 130983,
+   "name": "Edge UI - Modern Skyrim Interface (плоская SE/AE) и её патчи",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/130983",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоская версия Edge UI и десятки патчей к ней (QuickLoot IE 3.3, ImGui Icons, STB Widgets, RaceMenu DIP). В VR своя версия.",
+   "vr_status": "flat_only",
+   "in_lists": "Tomes of Talos, Wunduniik (оба SE)",
+   "files": "Edge UI 0.60 SE to AE 1.6.640 (130983-0-61) и патчи 131896, 142390, 140978, 156574 и др.",
+   "requires": [],
+   "interplay": "Конфликт с Norden UI VR и с VR-версией Edge UI (168702): общие swf. Патчи Edge UI под moreHUD IE и QuickLoot IE 3.x плоские.",
+   "note": "Для VR берите только Edge UI - VR Edition (#168702). Аддон 143678 есть в Tempus, но под VR-версией.",
+   "evidence": "whouses 130983: только SE-листы Tomes of Talos и Wunduniik. В VR-листах основной файл Edge UI не найден; Tempus ставит только 168702, 143678 и Fancy Fishing Patch."
+  },
+  {
+   "key": "n:untarnished-ui",
+   "id": 75188,
+   "name": "Untarnished UI и патчи (Wheeler, Character Menu, Loading Menu)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/75188",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоская тема с набором патчей под Wheeler, Character Menu SE, Modern Wait Menu и другие. Построена под SkyUI SE и SKSE Menu Framework, VR-сборок нет.",
+   "vr_status": "flat_only",
+   "in_lists": "Tomes of Talos, Nordic Souls, NGVO, LoreRim (все SE)",
+   "files": "Untarnished UI 1.1.6 (75188-1-1-6) и патчи 114953, 97434, 101499, 118915, 149979 (только SE-листы).",
+   "requires": [],
+   "interplay": "Конфликтует по swf со всеми VR-темами. Патчи под Wheeler бесполезны: Wheeler плоский, в VR Spell Wheel VR.",
+   "note": "Ни один VR-лист не ставит.",
+   "evidence": "whouses по имени Untarnished: Nordic Souls, NGVO, LoreRim, Tomes of Talos (все SE), VR-листов нет."
+  },
+  {
+   "key": "id:12604",
+   "id": 12604,
+   "name": "SkyUI SE/AE 5.2 и Complete Widescreen Fix",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/12604",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоский SkyUI и фиксы ширины экрана (Complete Widescreen Fix 1778). В VR панели меню рисуются на меше, подгонка под 21:9 и замена SkyUI VR ломают меню.",
+   "vr_status": "flat_only",
+   "in_lists": "Tempus Maledictum VR и Librum VR ставят виджетные патчи 1778 (по данным whouses)",
+   "files": "SkyUI 5.2SE (12604); «Complete Widescreen Fix for Vanilla and SkyUI» 3.9.0 (1778-3-9-0, Tempus), «... SkyUI 5.2 SE Alpha - 2560x1080» (Librum).",
+   "requires": [],
+   "interplay": "Ломает SkyUI VR (#91535) из Core и все темы поверх него. Патч 21x9 к Edge UI Explorer Addon из Tempus для VR тоже не нужен.",
+   "note": "Это предостережение: вместе с SkyUI VR ставить только SkyUI - VR (Odie). Два VR-листа, видимо, тянут widescreen по инерции.",
+   "evidence": "whouses 1778: Tempus (Complete Widescreen Fix 3.9.0) и Librum (2560x1080 Alpha) среди VR, ещё 4 SE-листа. Описание 12604 (SkyUI Team): 'Elegant, PC-friendly interface mod'. Core: SkyUI VR — core."
+  },
+  {
+   "key": "n:quickloot-flat",
+   "id": null,
+   "name": "QuickLoot EE / QuickLoot RE / QuickLoot IE 3.x (плоские версии)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/120075",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоские SE/AE версии быстрого лута. В VR берётся только QuickLoot IE 4.1.3 (экспериментально) или Quickloot VR, не вместе.",
+   "vr_status": "flat_only",
+   "in_lists": "SE-листы (3.x), VR: Stormcrown VR и Yggdrasil VR только 4.1.3",
+   "files": "«Quickloot EE NG Fork» 1.1.0 (120075) — SE; в VR-листах «QuickLoot IE 120075 4.1.3 2026-09-17».",
+   "requires": [],
+   "interplay": "Core уже запрещает 3.x из SE-листов. Edge UI-патч QuickLoot IE 3.3 (140978) тоже плоский.",
+   "note": "Дубль правила Core. Повторено ради полноты раздела.",
+   "evidence": "whouses 120075: Stormcrown VR и Yggdrasil VR — 4.1.3 (2026-09-17), 8 SE-листов. MODLIST (QuickLoot IE): 'Не брать 3.x из SE-листов', 'Не вместе с Quickloot VR'."
+  },
+  {
+   "key": "id:18619",
+   "id": 18619,
+   "name": "moreHUD Inventory Edition (плоская SE/AE 2.x)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/18619",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "AE/SE-версия 2.x с DLL под 1.6.x. В VR нужна только VR-версия 1.0.18 (#59142).",
+   "vr_status": "flat_only",
+   "in_lists": "15 SE-листов; VR только Librum (Loose 1.0.18)",
+   "files": "«moreHUD Inventory Edition - AE» 2.1.3.0 и «Loose Version» 2.2.3.0 — SE/AE. Librum VR ставит Loose Version 1.0.18 из 2020.",
+   "requires": [],
+   "interplay": "AE-DLL под VR 1.4.15 не годится. Конфликтует с moreHUD Inventory Edition VR (#59142).",
+   "note": "Librum ставит старую SE-базу 1.0.18 рядом с VR-файлом. Нужна ли она, страница VR не проверена.",
+   "evidence": "whouses 18619: 15 SE-листов (2.1.x, 2.2.3.0), VR только Librum (Loose Version 1.0.18 от 2020)."
+  },
+  {
+   "key": "id:64339",
+   "id": 64339,
+   "name": "Better Third Person Selection (BTPS)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/64339",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переписывает выбор предметов по прицелу для вида от третьего лица. В VR вида от третьего лица нет, выбор делает HIGGS.",
+   "vr_status": "flat_only",
+   "in_lists": "16 SE-листов; Librum VR (0.5.8)",
+   "files": "«Better Third Person Selection (AE - SE)» 0.8.9; Librum ставит 0.5.8.",
+   "requires": [],
+   "interplay": "Правит crosshair-подбор, это столкнётся с выбором предметов в HIGGS и с наведением Quickloot.",
+   "note": "Смысла в VR нет. Один VR-лист ставит по инерции.",
+   "evidence": "whouses 64339: 15 SE-листов + Librum VR (0.5-8). Описание (Shrimperator): 'overhaul 3rd person object selection ... Rewrites Skyrim's crosshair selection'."
+  },
+  {
+   "key": "n:flat-ui-2026",
+   "id": null,
+   "name": "Плоские UI-плагины 2026: Character Menu SE, Copy Paste In Menus, Dynamic Inventory Icon Injector, Lingering Subtitles Fix, ShowRaceMenu NG, Favorite Wheel",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/173074",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Свежие плоские UI-плагины: в VR-листах нет, VR-сборок не заявлено. Favorite Wheel (GitHub, 2026-10) прямо пишет: VR не поддерживается.",
+   "vr_status": "flat_only",
+   "in_lists": "только SE-листы (LoreRim, SUP, Nordic Souls, Wunduniik и др.)",
+   "files": "173074, 178439, 174136, 172844, 173086; GitHub BlackMesa79/Favorite-Wheel 0.5.2.",
+   "requires": [],
+   "interplay": "Часть тянет SKSE Menu Framework или SkyUI SE, что сложно в VR. Lingering Subtitles Fix затрагивает субтитры, которыми уже заняты Floating Subtitles VR или Subtitles VR.",
+   "note": "Не доказано, что не заработают, но подтверждений VR нет, ставить нечего. Favorite Wheel: 'VR ... not supported by this build'.",
+   "evidence": "whouses 173074/178439/174136/172844/173086: только SE. README Favorite Wheel: 'Other versions, including older GOG runtimes, and VR are not supported by this build'."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 123044,
+   "name": "Controller Fix VR",
+   "reason": "Уже в Other-1 (rec, группа управления)."
+  },
+  {
+   "id": 49650,
+   "name": "Alternative VRIK Controller Bindings",
+   "reason": "Уже в Other-1 (alt, группа bindings)."
+  },
+  {
+   "id": 53186,
+   "name": "FUS Patch Compendium - Controller Bindings",
+   "reason": "Уже в Other-1 (alt, группа bindings)."
+  },
+  {
+   "id": 79663,
+   "name": "VRIK - an optimized configuration file set",
+   "reason": "Уже в Other-1 (opt)."
+  },
+  {
+   "id": 16242,
+   "name": "Skyrim VR Configuration Tool",
+   "reason": "Уже в Other-1."
+  },
+  {
+   "id": 118579,
+   "name": "Stable Hands - VR Mouse Stabilization",
+   "reason": "Уже в Other-1 (opt) и упомянут в Core у VR Menu Mouse Fix."
+  },
+  {
+   "id": 33414,
+   "name": "VR Menu Mouse Fix",
+   "reason": "Уже в Core (opt)."
+  },
+  {
+   "id": 64319,
+   "name": "VR Keyboard",
+   "reason": "Уже в Core (opt), OpenComposite Unleashed даёт клавиатуру."
+  },
+  {
+   "id": 16627,
+   "name": "Oculus Controller Remapping Tool for Skyrim VR",
+   "reason": "Один VR-лист (Yggdrasil), утилита для Oculus 2019-го, перекрыта нативными биндингами SteamVR и схемами VRIK."
+  },
+  {
+   "id": 85389,
+   "name": "Skyrim VR OpenComposite Fixes Custom Build (OC_VRIK_Bindings Holographic/ReverbG2)",
+   "reason": "Core: 'Не вместе с' OpenComposite Unleashed, группа opencomposite; биндинги WMR/Reverb G2 уже закрыты схемами VRIK."
+  },
+  {
+   "id": 84551,
+   "name": "Skyrim VR OpenComposite ENB fix",
+   "reason": "Только ENB, а ENB в сборке нет."
+  },
+  {
+   "id": 150302,
+   "name": "Colorful Compass Markers VR",
+   "reason": "Уже в Other-2 (r2, try, navigation). Включает Clear HUD VR и Crosshairs VR в пакете."
+  },
+  {
+   "id": 174652,
+   "name": "RaceMenu VR Position Tweaks",
+   "reason": "Уже в Other-2 (r2, keep opt) и упомянут в Core у RacemenuVR."
+  },
+  {
+   "id": 156898,
+   "name": "RacemenuVR",
+   "reason": "Уже в Core (opt, группа racemenu)."
+  },
+  {
+   "id": 192158,
+   "name": "RaceMenu VR 2",
+   "reason": "Уже в Core (try, группа racemenu)."
+  },
+  {
+   "id": 120075,
+   "name": "QuickLoot IE",
+   "reason": "Уже в Core (rec); Quickloot VR добавлен как alt."
+  },
+  {
+   "id": 183714,
+   "name": "Floating Subtitles VR",
+   "reason": "Уже в Core (opt, группа subtitles); Subtitles VR добавлен как alt."
+  },
+  {
+   "id": 53524,
+   "name": "Clean Menu / Unobtrusive UI for VR",
+   "reason": "Уже в Core (Clear HUD VR + Clean Menu)."
+  },
+  {
+   "id": 59554,
+   "name": "Essential Favorites VR / Favorite Misc Items",
+   "reason": "Уже в Core (rec)."
+  },
+  {
+   "id": 85702,
+   "name": "Inventory Interface Information Injector (I4) / I5",
+   "reason": "Уже в Core (rec, try)."
+  },
+  {
+   "id": 107879,
+   "name": "No UI Sounds",
+   "reason": "Только звук интерфейса, не интерактивность; один лист (Librum)."
+  },
+  {
+   "id": 38944,
+   "name": "Paper UI Sounds for Skyrim",
+   "reason": "Звуковая косметика под бумажную тему, два старых листа."
+  },
+  {
+   "id": 42534,
+   "name": "Remove Menu Blur",
+   "reason": "Плоская правка размытия меню (Librum), в VR эффект и совместимость не подтверждены; в Core есть No Menu Fade Out VR."
+  },
+  {
+   "id": 21404,
+   "name": "Hidden location info and more VR",
+   "reason": "Прячет информацию о локации в HUD; перекрывается Clear HUD VR и Dynamic Location Pop-ups из Core; один лист 2018."
+  },
+  {
+   "id": 1428,
+   "name": "Better MessageBox Controls",
+   "reason": "Управление клавишами, в VR указка; один лист (Librum), выгода только в области клика кнопок."
+  },
+  {
+   "id": 104522,
+   "name": "Loading Screen Truce AE Support",
+   "reason": "Автор пишет 'untested VR support', назначение подробно не проверено; 4 листа ставят по инерции."
+  },
+  {
+   "id": 103278,
+   "name": "Main Menu Customizer / Start Menu Redesigned (192119) / замены главного меню",
+   "reason": "В VR сначала идёт Playroom; Other-1 уже запрещает Main Menu Design Replacer. Stormcrown ставит Start Menu Redesigned, но VR-пользы не подтверждено."
+  },
+  {
+   "id": 68557,
+   "name": "Aura's Inventory Tweaks",
+   "reason": "Правит swf SkyUI, конфликтует с Norden/Dear Diary/Edge; один VR-лист (Librum); Kome's Inventory Tweaks свежее."
+  },
+  {
+   "id": 49095,
+   "name": "Better SkyUI Config - Dear Diary compatible version",
+   "reason": "Конфиг-твик SkyUI под Dear Diary, один лист (Yggdrasil)."
+  },
+  {
+   "id": 49881,
+   "name": "NORDIC UI (Final Design) / Assorted Nordic UI Tweaks (160938) / Colored Nordic Category Icons (74540)",
+   "reason": "Плоская тема 'Replaces everything, requires SkyUI and SkyHUD' (описание автора); в Tempus лежит рядом с Norden. Дублирует группу ui_theme."
+  },
+  {
+   "id": 35568,
+   "name": "SkyUI The Adventurer Theme Mod SE",
+   "reason": "Тема под SkyUI SE, один лист (Librum); дублирует ui_theme."
+  },
+  {
+   "id": 37295,
+   "name": "SkyUI Weapon Icon Patches",
+   "reason": "Иконочная косметика (Librum); I4 Weapon Icons Overhaul закрывает."
+  },
+  {
+   "id": 90508,
+   "name": "Иконочные паки I4: THICC (90508), Shout Icons (107334), Armor Icons (119824), SkyUI Weapons Pack (85703)",
+   "reason": "Косметика внешнего вида (отдельный этап), взят только Weapon Icons Overhaul."
+  },
+  {
+   "id": 29682,
+   "name": "Oblivionesque Active Effects For SkyUI SE",
+   "reason": "Косметика активных эффектов, один лист."
+  },
+  {
+   "id": 22938,
+   "name": "ElSopa - Animated Celtic Icons For SkyUI SE",
+   "reason": "Косметика значков, один лист (Stormcrown)."
+  },
+  {
+   "id": 74483,
+   "name": "Infinity UI",
+   "reason": "Фреймворк совместимости UI-модов (alexsylex), стоит в Panda's и Tahrovin, но роль в VR и поддержка SkyUI VR не проверены."
+  },
+  {
+   "id": 92602,
+   "name": "SkyUI 3D Item Offset Fix",
+   "reason": "Перекомпилированный скрипт SkyUI SE, рискует затереть скрипты SkyUI VR; один лист."
+  },
+  {
+   "id": 172476,
+   "name": "VR HUD UI Reworked / Less HUD VR",
+   "reason": "Упомянуты в Core как конфликты, ни одного VR-листа нет, данных и поиска нет."
+  },
+  {
+   "id": 126492,
+   "name": "Improvement Names Customized VR",
+   "reason": "Названия улучшений предметов, не интерактивность; VR-порт есть, 3 листа."
+  },
+  {
+   "id": 181459,
+   "name": "Auto Name Enchantments - Durability VR Patch",
+   "reason": "Заплатка к чужому моду, не интерфейс."
+  },
+  {
+   "id": 112132,
+   "name": "Missives - Quickloot Patch",
+   "reason": "Нужен только вместе с Missives (контентный мод), в Core и Other-1 его нет."
+  },
+  {
+   "id": 137877,
+   "name": "Modex - A Mod Explorer Menu",
+   "reason": "Чит- и отладочное меню на SE/AE по описанию, один VR-лист (Tahrovin), к интерактивности отношения не имеет."
+  },
+  {
+   "id": 147691,
+   "name": "VR Equip Potions And Ingredients",
+   "reason": "Группа hands: подбор подготовлен другим агентом."
+  },
+  {
+   "id": 85776,
+   "name": "Navigate VR - Left handed fix",
+   "reason": "Группа hands: взят другим агентом (ix_hands), к моему разделу не относится."
+  },
+  {
+   "id": 64772,
+   "name": "Linked Crafting Storage",
+   "reason": "Крафт из контейнеров, группа world; SCIE в Core закрывает."
+  },
+  {
+   "id": 105970,
+   "name": "Vanilla Item Descriptions",
+   "reason": "Контентные описания через Description Framework, не интерактивность."
+  },
+  {
+   "id": 99878,
+   "name": "Show Follower Carry Weight",
+   "reason": "Спутники исключены."
+  },
+  {
+   "id": 26722,
+   "name": "Undiscovered Means Unknown - Map Markers for VR",
+   "reason": "Маркеры карты: группа Other-1 уже закрывает, один лист 2019."
+  },
+  {
+   "id": 37238,
+   "name": "Helps To Have A Map (и патчи)",
+   "reason": "Контент карт локаций, не интерфейс; один лист."
+  },
+  {
+   "id": 42614,
+   "name": "RUSTIC MAPS / MAPS / Enhanced Worldspace Maps / World map WJ VR lists",
+   "reason": "Текстуры карт: отдельный этап (внешний вид)."
+  },
+  {
+   "id": 137944,
+   "name": "Flayan's Tweaks",
+   "reason": "'Only contains a VR fix for now', содержимое не описано."
+  },
+  {
+   "id": 77677,
+   "name": "Small VR Fixes (doodlum)",
+   "reason": "'Some small VR fixes', состав не описан, один лист."
+  },
+  {
+   "id": 131341,
+   "name": "Virtual Reality General Enhancements",
+   "reason": "Правки SimonRim-частей (Manbeast, Pilgrim): такие исключены."
+  },
+  {
+   "id": 173617,
+   "name": "Racemenu(SKEE) cosave Load Crash Fix / OverlayFix (138586)",
+   "reason": "Стабильность и внешний вид RaceMenu, не интерактивность; VR-сборка DLL не подтверждена."
+  },
+  {
+   "id": 25251,
+   "name": "Vanity Mirror SE",
+   "reason": "Внешний вид, плоский SE; в VR RaceMenu открывается только из RacemenuVR."
+  },
+  {
+   "id": 96273,
+   "name": "Dynamic Activation Key",
+   "reason": "Меняет клавишу активации; в VR активация идёт от рук (HIGGS), польза не подтверждена."
+  },
+  {
+   "id": 169690,
+   "name": "(взят как pick)",
+   "reason": "См. picks."
+  },
+  {
+   "id": null,
+   "name": "SkyrimVR-DamageHUD (jrubimf, GitHub 2026-02)",
+   "reason": "Дублирует Floating Damage NG из Core, релизов нет."
+  },
+  {
+   "id": null,
+   "name": "MagelightUI (Severause, GitHub 2026-10)",
+   "reason": "Каркас для разработчиков, готового контента нет."
+  },
+  {
+   "id": null,
+   "name": "Faster-Loadscreens (1001Bits, GitHub)",
+   "reason": "Заявлен VR, но README в выборке пуст, релизов нет, пользы для интерактивности нет."
+  },
+  {
+   "id": null,
+   "name": "Papyrus Extender VR 6.4 MapMenu Fix (Treatid2, GitHub)",
+   "reason": "Заплатка именно под PE VR 6.4; Core ставит 6.5.2; релизов нет."
+  },
+  {
+   "id": null,
+   "name": "Detailed MiniMap (Neutral9, GitHub 2026-10)",
+   "reason": "В README про VR ни слова, плоская 3D-миникарта на HUD, релизов нет."
+  },
+  {
+   "id": null,
+   "name": "Physical Letters (zevck, GitHub)",
+   "reason": "Надстройка к SkyrimNet, README: 'VR untested'; не интерактивность рук."
+  },
+  {
+   "id": null,
+   "name": "concise-mouse-consistency-cmc (Kexodus, GitHub 2026-04)",
+   "reason": "Чувствительность мыши, README: VR заявлен, но 'not validated'; в VR указатель уже обслуживают Menu Mouse Fix и Stable Hands."
+  },
+  {
+   "id": null,
+   "name": "SkyrimVR_TrueGear (GitHub)",
+   "reason": "Привязка аппаратного жилета TrueGear, группа feedback; аналог bHaptics уже в Other-1."
+  },
+  {
+   "id": null,
+   "name": "Immersive VR Actions (alpha, Reddit 2026-02)",
+   "reason": "Релиза нет, подбор hands-агента уже учёл как dropped."
+  },
+  {
+   "id": 172844,
+   "name": "Lingering Subtitles Fix",
+   "reason": "Только SE-листы; вошёл в ix_dont группой."
+  },
+  {
+   "id": 58638,
+   "name": "Immersive Player Dialogue / Immersive Speech Dialogues (42090) / More Dialogue Options",
+   "reason": "Контент реплик, не интерфейс."
+  }
+ ],
+ "notes": "Не проверено локально на Nexus (страницы Nexus из этой среды недоступны, данные взяты из списков, метаданных Wabbajack и GitHub): 1) Edge UI - VR Edition 168702: в Tempus виден только файл «PATCH - moreHUD VR», какой основной файл брать, смотреть страницу. 2) Quickloot VR 102094: требования DLL и версия 1.3 против 1.2. 3) RaceMenu VR Layout Fix 189774: Core запрещает ставить его с RacemenuVR, но Tahrovin - Grit ставит оба вместе (RacemenuVR 0.5 + Layout Fix 1.0.0, 2026-08), поправить CONFLICTS.md и manifest. 4) Notification Log 76947, Kome's Inventory Tweaks 116713, Interaction Icons 52743: VR-совместимость не заявлена страницей, смотреть sksevr.log. 5) NavigateVR Map Framework, 3DIRP: релизов на GitHub нет, искать файл на Nexus. 6) SteamVR wrist overlay for PrismaUI 190084: только сниппет поиска, и он конфликтует с OpenComposite Unleashed из Core. 7) Narsil Bindings и Alternate Oculus Vanilla Bindings: Other-2 (r2) сбросил их как 'covered', здесь возвращены как try, итоговое решение за владельцем. 8) VR Smooth Dialogue Mesh 107993 был в data/other2/auto_excluded.tsv как 'контент', это ошибка (VR-правка меша меню); стоит исправить фильтр. 9) Eagle Eye 87315, Crosshairs 17512 и 3DIRP продублированы с подбором 'магия' (ix_magic): при слиянии убрать дубли по ключу. 10) Поиск по Reddit и Nexus почти ничего не дал: новинок 2026 года для VR-интерфейса кроме перечисленных GitHub-проектов не найдено; 'Immersive VR Actions' без релиза. Связка тем: в Tempus лежат Norden UI VR, Dear Diary VR, Edge UI Explorer Addon и NORDIC UI одновременно, выбирать одну тему и проверять порядок MO2 по swf (SkyUI VR, тема, SKSEVR Perk Extender).\""
+}

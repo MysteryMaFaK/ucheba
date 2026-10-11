@@ -1,0 +1,987 @@
+{
+ "batch": "A04",
+ "band": "A",
+ "themes": {
+  "body_face": 16,
+  "clutter_misc": 16
+ },
+ "items": [
+  {
+   "id": 20446,
+   "name": "Beast Race Bodypaints SE -Khajiit and Argonian Themed Bodypaints Facepaints RaceMenu Overlays-",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 6,
+   "files": [
+    "BRB SE-BeastRaceBodypaints- 2K-20446-3-2.7z"
+   ],
+   "author": "DomainWolf",
+   "leftover": false,
+   "key": "id:20446",
+   "theme": "body_face"
+  },
+  {
+   "id": 45148,
+   "name": "Conditional Expressions - Subtle Face Animations",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2025-08-15",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Conditional Expressions-45148-1-26-1654324876.zip",
+    "Conditional Expressions-45148-1-27-1679991906.zip",
+    "Conditional Expressions-45148-1-29-1755293339.rar"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:45148",
+   "theme": "body_face"
+  },
+  {
+   "id": 183,
+   "name": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2026-07-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Feminine Grey Cat and Leopard (CBBE) 2K 183 4.0 2026-07-18T23-25Z miUDjF7DV.7z",
+    "Feminine Grey Cat and Leopard (CBBE) 2K-183-3-2-1649921808.7z",
+    "Feminine Grey Cat and Leopard (CBBE) 2K-183-4-0-778318-1784417100.7z"
+   ],
+   "author": "MONSTERaider",
+   "leftover": false,
+   "key": "id:183",
+   "theme": "body_face"
+  },
+  {
+   "id": 80079,
+   "name": "Fixed Nordic Metal Grate",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-12-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Fixed Nordic metal grate-80079-1-0-1670252502.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:80079",
+   "theme": "body_face"
+  },
+  {
+   "id": 79958,
+   "name": "Look Around - Searching Animations For NPCs",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-06-17",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Look Around - Searching Animations For NPCs-79958-1-0-1670543214.zip",
+    "Look Around - Searching Animations for NPC - OAR-79958-1-1-1687041934.zip"
+   ],
+   "author": "TheCyclist",
+   "leftover": false,
+   "key": "id:79958",
+   "theme": "body_face"
+  },
+  {
+   "id": 112042,
+   "name": "Rally's Dark Elf Furniture    (High Poly - ENB Light)",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2025-05-29",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Rally's Dark Elf Furniture 2K - ENB Light-112042-1-0-1708521468.7z",
+    "Rally's Dark Elf Furniture 2K - ENB Light-112042-1-1-1748513976.7z",
+    "Rally's Dark Elf Furniture 2K-112042-1-1-1748513842.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:112042",
+   "theme": "body_face"
+  },
+  {
+   "id": 84046,
+   "name": "Rally's Sparkling Torchbugs (High Poly - ENB Light)",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-09-13",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Rally's Bliss Bug AE-84046-1-1-1675462107.7z",
+    "Rally's Bugs in Jars-84046-1-0-1677090516.7z",
+    "Rally's Sparkling Torchbugs-84046-1-3-1694611148.7z"
+   ],
+   "author": "Rallyeator - StoneSpiralGaming",
+   "leftover": false,
+   "key": "id:84046",
+   "theme": "body_face"
+  },
+  {
+   "id": 25890,
+   "name": "SG Female Eyebrows",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2019-06-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 6,
+   "files": [
+    "SE SG Brows-25890-2-0-1561787899.rar"
+   ],
+   "author": "Hello Santa",
+   "leftover": false,
+   "key": "id:25890",
+   "theme": "body_face"
+  },
+  {
+   "id": 67602,
+   "name": "[серия «even more», 3 модов] Even More Makeup by Koralina - ESL и др.",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-05-05",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Even More Makeup - 2k-67602-1-0-1651776095.7z"
+   ],
+   "author": "Koralina",
+   "leftover": false,
+   "key": "id:67602",
+   "series": "even more",
+   "members": [
+    {
+     "id": 67602,
+     "name": "Even More Makeup by Koralina - ESL",
+     "vr": 3,
+     "se": 6,
+     "newest": "2022-05-05",
+     "files": [
+      "Even More Makeup - 2k-67602-1-0-1651776095.7z"
+     ]
+    },
+    {
+     "id": 87305,
+     "name": "Even More Brows - HPH - COtR",
+     "vr": 0,
+     "se": 5,
+     "newest": "2023-07-13",
+     "files": [
+      "Even More Brows HPH-87305-1-1-1689244489.7z"
+     ]
+    },
+    {
+     "id": 80477,
+     "name": "Even More Eyes by Koralina",
+     "vr": 0,
+     "se": 4,
+     "newest": "2022-12-11",
+     "files": [
+      "Even More Eyes by Koralina - ESL flagged-80477-1-0-1670790402.7z"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 64313,
+   "name": "[серия «particle lights», 15 модов] Particle Lights for ENB - Dwarven Spiders и др.",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-03-28",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Dwemer Tech Glowmapped PATCH-64313-1-1-1646145679.rar",
+    "Particle Lights for ENB - Dwarven Spiders-64313-1-0-1645996637.rar",
+    "Particle Lights for ENB - Dwarven Spiders-64313-1-1-1648443604.rar"
+   ],
+   "author": "RemmyKun",
+   "leftover": false,
+   "key": "id:64313",
+   "series": "particle lights",
+   "members": [
+    {
+     "id": 64313,
+     "name": "Particle Lights for ENB - Dwarven Spiders",
+     "vr": 1,
+     "se": 10,
+     "newest": "2022-03-28",
+     "files": [
+      "Dwemer Tech Glowmapped PATCH-64313-1-1-1646145679.rar"
+     ]
+    },
+    {
+     "id": 50737,
+     "name": "Particle Lights for ENB - Light Orbs - Motes",
+     "vr": 1,
+     "se": 9,
+     "newest": "2022-03-28",
+     "files": [
+      "Particle Lights for ENB - Light Orbs - Motes-50737-1-0-1622659895.rar"
+     ]
+    },
+    {
+     "id": 65984,
+     "name": "Particle Lights for ENB - Falmer Things",
+     "vr": 0,
+     "se": 10,
+     "newest": "2022-04-06",
+     "files": [
+      "Eyes of the Falmer - Gemstones Replacers HD SE PATCH-65984-1-1-1649205704.rar"
+     ]
+    },
+    {
+     "id": 64690,
+     "name": "Particle Lights for ENB - Fire Traps",
+     "vr": 0,
+     "se": 10,
+     "newest": "2022-03-28",
+     "files": [
+      "Particle Lights for ENB - Fire Traps - FULL-64690-1-0-1646755658.rar"
+     ]
+    },
+    {
+     "id": 72652,
+     "name": "Particle Lights for ENB - Luminous Ground Cover",
+     "vr": 1,
+     "se": 8,
+     "newest": "2022-08-04",
+     "files": [
+      "Particle Lights for ENB - Luminous Ground Cover-72652-1-0-1659594659.rar"
+     ]
+    },
+    {
+     "id": 63878,
+     "name": "Particle Lights for ENB - Moon Crests",
+     "vr": 1,
+     "se": 8,
+     "newest": "2022-03-28",
+     "files": [
+      "Castle Volkihar HD - SE PATCH-63878-1-1-1648442979.rar"
+     ]
+    },
+    {
+     "id": 50868,
+     "name": "Particle Lights for ENB - Wisps - Witchlight",
+     "vr": 0,
+     "se": 10,
+     "newest": "2022-03-28",
+     "files": [
+      "Particle Lights for ENB - Wisps - Witchlight-50868-1-1-1622955948.rar"
+     ]
+    },
+    {
+     "id": 68580,
+     "name": "Particle Lights for ENB - Ebonmere",
+     "vr": 1,
+     "se": 6,
+     "newest": "2022-05-24",
+     "files": [
+      "JS Lockpicking UI SE - FIX-68580-1-0-1653434518.rar"
+     ]
+    },
+    {
+     "id": 67663,
+     "name": "Particle Lights for ENB - Ice Torches",
+     "vr": 0,
+     "se": 8,
+     "newest": "2022-05-07",
+     "files": [
+      "Particle Lights for ENB - Ice Torches-67663-1-0-1651893895.rar"
+     ]
+    },
+    {
+     "id": 88919,
+     "name": "Particle Lights for ENB - Shellbug",
+     "vr": 0,
+     "se": 7,
+     "newest": "2023-04-10",
+     "files": [
+      "HD Reworked Shellbug - PATCH-88919-1-0-1681109434.rar"
+     ]
+    },
+    {
+     "id": 64801,
+     "name": "Particle Lights for ENB - Spectral Warhound Eyes",
+     "vr": 0,
+     "se": 7,
+     "newest": "2022-03-28",
+     "files": [
+      "Particle Lights for ENB - Spectral Warhound Eyes - Default Intensity-64801-1-1-1648444936.rar"
+     ]
+    },
+    {
+     "id": 48424,
+     "name": "Particle Lights For ENB SE - Undead Creatures",
+     "vr": 1,
+     "se": 4,
+     "newest": "2021-04-24",
+     "files": [
+      "Particle Lights for ENB SE - Undead Creatures-48424-1-1-1619288317.7z"
+     ]
+    },
+    {
+     "id": 64359,
+     "name": "Particle Lights for ENB - Standing Stones",
+     "vr": 1,
+     "se": 3,
+     "newest": "2022-03-28",
+     "files": [
+      "Astral Aspect PATCH - LESS INTENSITY-64359-1-2-1648443930.rar"
+     ]
+    },
+    {
+     "id": 44022,
+     "name": "Particle Lights For ENB SE - Ingredients",
+     "vr": 1,
+     "se": 2,
+     "newest": "2021-01-08",
+     "files": [
+      "Particle Lights For ENB SE - Ingredients-44022-1-2-1610127565.7z"
+     ]
+    },
+    {
+     "id": 52335,
+     "name": "Particle Lights for ENB - Nordic Ruins Candles",
+     "vr": 1,
+     "se": 2,
+     "newest": "2022-03-28",
+     "files": [
+      "Particle Lights for ENB - Nordic Ruins Candles-52335-1-1-1626141018.rar"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 65402,
+   "name": "BnP - Male Skin",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "A",
+   "newest": "2024-02-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "BnP male skin 2k (SOS full Player Replacer)-65402-2-1-1704039187.7z",
+    "BnP male skin 4k (SOS full Player Replacer)-65402-2-1-1704038091.7z",
+    "Schlong and elder body normal fix-65402-2-2-1707315219.7z"
+   ],
+   "author": "Fridam and Enroys",
+   "leftover": true,
+   "key": "id:65402",
+   "theme": "body_face"
+  },
+  {
+   "id": 61690,
+   "name": "AutoBody VR - Configurable Randomized Bodies",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "A",
+   "newest": "2023-12-23",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Autobody NG-61690-1-5-3-1-1703366602.7z"
+   ],
+   "author": "alandtse",
+   "leftover": true,
+   "key": "id:61690",
+   "theme": "body_face"
+  },
+  {
+   "id": 140404,
+   "name": "Physical Torch Lighting - VR",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "2025-02-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Physical Torch Lighting VR-140404-1-2-1740485780.zip"
+   ],
+   "author": "Machina",
+   "leftover": true,
+   "key": "id:140404",
+   "theme": "body_face"
+  },
+  {
+   "id": 174652,
+   "name": "RaceMenu VR Position Tweaks",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "2026-03-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "RaceMenu VR Position Tweaks-174652-1-0-1773437433.7z"
+   ],
+   "author": "Virtual Panda",
+   "leftover": true,
+   "key": "id:174652",
+   "theme": "body_face"
+  },
+  {
+   "id": 81668,
+   "name": "Racial Skin Variance - SPID",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "2025-06-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "RSV - Additional Dremora Faces Patch-81668-2-2-0-1699289934.7z",
+    "RSV - Teeth Variance (Standalone)-81668-2-2-0-1699272105.7z",
+    "Racial Skin Variance - SPID 2K Version-81668-2-5-2-1748927485.7z"
+   ],
+   "author": "Thardrim and 8Hyperplex8",
+   "leftover": true,
+   "key": "id:81668",
+   "theme": "body_face"
+  },
+  {
+   "id": 46999,
+   "name": "The Sharper Eye - a lightweight VR ReShade preset",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "2021-03-14",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 0,
+   "files": [
+    "The Sharper Eye-46999-1-0-1615729372.7z"
+   ],
+   "author": "fholger",
+   "leftover": true,
+   "key": "id:46999",
+   "theme": "body_face"
+  },
+  {
+   "id": 58224,
+   "name": "[серия «security overhaul», 7 модов] Security Overhaul SKSE - Lock Variations и др.",
+   "vr": 8,
+   "se": 16,
+   "score": 32,
+   "band": "A",
+   "newest": "2026-08-25",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Stormcrown VR",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 16,
+   "files": [
+    "Security Overhaul SKSE - Lock Variations 58224 4.1.0 2026-08-25T21-28Z kATsMWjm0.7z",
+    "Security Overhaul SKSE - Lock Variations-58224-3-1-1657345708.7z",
+    "Security Overhaul SKSE - Lock Variations-58224-3-2-0-1664066945.7z"
+   ],
+   "author": "kreiste-wSkeever-powerofthree",
+   "leftover": false,
+   "key": "id:58224",
+   "series": "security overhaul",
+   "members": [
+    {
+     "id": 58224,
+     "name": "Security Overhaul SKSE - Lock Variations",
+     "vr": 8,
+     "se": 16,
+     "newest": "2026-08-25",
+     "files": [
+      "Security Overhaul SKSE - Lock Variations 58224 4.1.0 2026-08-25T21-28Z kATsMWjm0.7z"
+     ]
+    },
+    {
+     "id": 59529,
+     "name": "Security Overhaul SKSE - Lock Add-ons",
+     "vr": 8,
+     "se": 15,
+     "newest": "2023-11-10",
+     "files": [
+      "1_Security Overhaul SKSE - Add-ons-59529-0-1-9-1-1699596506.7z"
+     ]
+    },
+    {
+     "id": 62781,
+     "name": "Security Overhaul SKSE - Regional Locks",
+     "vr": 5,
+     "se": 13,
+     "newest": "2022-02-01",
+     "files": [
+      "Security Overhaul SKSE - Regional Locks-62781-1-0-1-1643681140.7z"
+     ]
+    },
+    {
+     "id": 59961,
+     "name": "Security Overhaul SKSE - Some More Locks",
+     "vr": 4,
+     "se": 11,
+     "newest": "2026-02-28",
+     "files": [
+      "Security Overhaul SKSE - Some More Locks-59961-1-0-1-1641596307.zip"
+     ]
+    },
+    {
+     "id": 126119,
+     "name": "Security Overhaul SKSE - Extra Locks -  11 New Locks",
+     "vr": 2,
+     "se": 13,
+     "newest": "2024-08-20",
+     "files": [
+      "Security Overhaul SKSE - Extra Locks-126119-0-1-1724129863.7z"
+     ]
+    },
+    {
+     "id": 58298,
+     "name": "Security Overhaul SKSEVR - Lock Variations VR",
+     "vr": 8,
+     "se": 0,
+     "newest": "2024-08-26",
+     "files": [
+      "Security Overhaul SKSEVR - Lock Variations VR-58298-3-2-0-1669711630.7z"
+     ]
+    },
+    {
+     "id": 152269,
+     "name": "Security Overhaul SKSE PBR",
+     "vr": 2,
+     "se": 2,
+     "newest": "2025-08-18",
+     "files": [
+      "Security Overhaul SKSE PBR - 2K-152269-2-0-0-1755491765.7z"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 5442,
+   "name": "PELTAPALOOZA - Special Edition",
+   "vr": 7,
+   "se": 11,
+   "score": 25,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "PELTAPALOOZA  Special Edition - FULL-5442-1-0.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:5442",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 74689,
+   "name": "MergeMapper",
+   "vr": 8,
+   "se": 5,
+   "score": 21,
+   "band": "A",
+   "newest": "2026-09-17",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "MergeMapper 74689 1.6.2 2026-09-17T06-05Z JrECN2T8z.7z",
+    "MergeMapper-74689-1-2-1-1663647666.7z",
+    "MergeMapper-74689-1-5-0-1683883576.7z"
+   ],
+   "author": "alandtse",
+   "leftover": false,
+   "key": "id:74689",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 42614,
+   "name": "RUSTIC MAPS",
+   "vr": 4,
+   "se": 11,
+   "score": 19,
+   "band": "A",
+   "newest": "2020-11-26",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 11,
+   "files": [
+    "RUSTIC MAPS - 2K-42614-2-0-1606433716.7z",
+    "RUSTIC MAPS - 4K-2K-42614-2-0-1606434499.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:42614",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 33261,
+   "name": "Bug Fixes SSE",
+   "vr": 0,
+   "se": 18,
+   "score": 18,
+   "band": "A",
+   "newest": "2023-03-14",
+   "vr_lists": [],
+   "se_lists": 18,
+   "files": [
+    "Bug Fixes SSE (Anniversary Edition)-33261-8-1668788667.7z",
+    "Bug Fixes SSE (Special Edition)-33261-6-1646905367.7z",
+    "Bug Fixes SSE - Anniversary Edition (1.6.629.0 and later)-33261-10-1678780224.7z"
+   ],
+   "author": "meh321",
+   "leftover": false,
+   "key": "id:33261",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 114790,
+   "name": "ImGui Icons",
+   "vr": 2,
+   "se": 14,
+   "score": 18,
+   "band": "A",
+   "newest": "2025-11-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 14,
+   "files": [
+    "ImGui Icons-114790-1-0-1711168042.7z",
+    "imGui Icons-114790-1-2-0-1763843695.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:114790",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 80417,
+   "name": "Rally's Crates",
+   "vr": 5,
+   "se": 8,
+   "score": 18,
+   "band": "A",
+   "newest": "2024-07-04",
+   "vr_lists": [
+    "FUS",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Hotfix Loadscreen Mesh-80417-1-0-1720076818.7z",
+    "Rally's Crates 2K-80417-1-3-1708185220.7z",
+    "Rally's Crates-80417-1-2-1672051025.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:80417",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 32349,
+   "name": "Actor Limit Fix",
+   "vr": 0,
+   "se": 17,
+   "score": 17,
+   "band": "A",
+   "newest": "2023-03-14",
+   "vr_lists": [],
+   "se_lists": 17,
+   "files": [
+    "Actor Limit Fix (Special Edition)-32349-5-1646905082.7z",
+    "Actor Limit Fix - Anniversary Edition (1.6.629.0 and later)-32349-9-1678780488.7z",
+    "ActorLimitPlugin v2-32349-2-1581232495.zip"
+   ],
+   "author": "meh321",
+   "leftover": false,
+   "key": "id:32349",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 64016,
+   "name": "Neloth's Experimental Subject Quest (DLC2TTR4a) Fix",
+   "vr": 2,
+   "se": 13,
+   "score": 17,
+   "band": "A",
+   "newest": "2022-02-21",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 13,
+   "files": [
+    "Neloth's Experimental Subject Quest (DLC2TTR4a) Fix-64016-0-1-1645437312.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:64016",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 71567,
+   "name": "Sound Fix for Large Sector Drives",
+   "vr": 1,
+   "se": 15,
+   "score": 17,
+   "band": "A",
+   "newest": "2022-10-10",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 15,
+   "files": [
+    "Sound Fix for Large Sector Drives-71567-2-1658084797.7z",
+    "Sound Fix for Large Sector Drives-71567-4-1665362859.7z"
+   ],
+   "author": "Ian Patterson",
+   "leftover": false,
+   "key": "id:71567",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 93271,
+   "name": "Assorted Animation Fixes",
+   "vr": 1,
+   "se": 14,
+   "score": 16,
+   "band": "A",
+   "newest": "2023-08-12",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 14,
+   "files": [
+    "Assorted Animation Fixes-93271-1-02-1691850867.zip"
+   ],
+   "author": "Everglaid",
+   "leftover": false,
+   "key": "id:93271",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 43083,
+   "name": "Blackreach Tentacle Mesh Fix",
+   "vr": 3,
+   "se": 9,
+   "score": 15,
+   "band": "A",
+   "newest": "2020-12-05",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Blackreach Tentacle Mesh Fix-43083-0-1-1607186501.rar"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:43083",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 107334,
+   "name": "I4 Shout Icons Overhaul",
+   "vr": 3,
+   "se": 9,
+   "score": 15,
+   "band": "A",
+   "newest": "2024-02-03",
+   "vr_lists": [
+    "Librum VR",
+    "Stormcrown VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "I4 Shout Icons Overhaul - Thunderchild-107334-1-0-1702964828.zip",
+    "I4 Shout Icons Overhaul-107334-1-1-1706952346.zip"
+   ],
+   "author": "Genski Aka Komegaki",
+   "leftover": false,
+   "key": "id:107334",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 80061,
+   "name": "Rally's Barrels",
+   "vr": 4,
+   "se": 7,
+   "score": 15,
+   "band": "A",
+   "newest": "2025-06-17",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Rally's Barrels 2K-80061-1-3-1670758799.7z",
+    "Rally's Barrels 2K-80061-1-5-1750164416.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:80061",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 33041,
+   "name": "Vanilla Table Replacers",
+   "vr": 2,
+   "se": 11,
+   "score": 15,
+   "band": "A",
+   "newest": "2020-08-01",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "2k Common Table replacer optional (No Ropes)-33041-1-1-1596296967.zip",
+    "Vanilla Table Replacers 1k-33041-1-0-1582623108.zip",
+    "Vanilla Table Replacers 2k 1k-33041-1-0-1582624434.zip"
+   ],
+   "author": "SpotDisc",
+   "leftover": false,
+   "key": "id:33041",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 53406,
+   "name": "Curated Bosses for True HUD",
+   "vr": 0,
+   "se": 14,
+   "score": 14,
+   "band": "A",
+   "newest": "2022-11-13",
+   "vr_lists": [],
+   "se_lists": 14,
+   "files": [
+    "Curated Bosses for True HUD-53406-1-1-1643814226.zip",
+    "Curated Bosses for True HUD-53406-1-2-1668354774.zip"
+   ],
+   "author": "Catir",
+   "leftover": false,
+   "key": "id:53406",
+   "theme": "clutter_misc"
+  }
+ ]
+}

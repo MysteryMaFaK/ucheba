@@ -1,0 +1,740 @@
+{
+ "batch": "D18",
+ "band": "D",
+ "themes": {
+  "creatures": 30,
+  "land_nature": 5
+ },
+ "items": [
+  {
+   "id": 86161,
+   "name": "Kanjs - Atronachs - 1K up to 16K",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-12",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Atronachs 2k-86161-1-2-1678648402.zip",
+    "Kanjs - Atronachs SE Meshes-86161-1-2-1678648497.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:86161",
+   "theme": "creatures"
+  },
+  {
+   "id": 100288,
+   "name": "Kanjs - Mudcrab and Giant Crab",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-09-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Crabs 1K-100288-1-1-1694415959.zip",
+    "Kanjs - Crabs 2K-100288-1-1-1694416065.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:100288",
+   "theme": "creatures"
+  },
+  {
+   "id": 39218,
+   "name": "Kwama Creatures SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-08-15",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Fixed .ESP by soupdragon1234 V2-39218-1-1597500511.7z",
+    "Kwama Creatures SE-39218-newerthanold-1597075563.7z"
+   ],
+   "author": "8thUnknown",
+   "leftover": false,
+   "key": "id:39218",
+   "theme": "creatures"
+  },
+  {
+   "id": 104214,
+   "name": "Mihail's Draugr Cavalry - Remove Windward Ruins Horsemen",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-06",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Mihail's Draugr Cavalry - Remove Windward Ruins Ho-104214-1-1699310261.7z"
+   ],
+   "author": "MehrunesDagon47",
+   "leftover": false,
+   "key": "id:104214",
+   "theme": "creatures"
+  },
+  {
+   "id": 50435,
+   "name": "Morrowind Creatures SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-05-28",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1MorrowindCreaturesSE-50435-2-1622050589.7z",
+    "Fixes by Xtudo-50435-2-1622098190.7z",
+    "NixHoundCCPatch-50435-1-1622203121.7z"
+   ],
+   "author": "the lack of evolution",
+   "leftover": false,
+   "key": "id:50435",
+   "theme": "creatures"
+  },
+  {
+   "id": 72982,
+   "name": "New Hagraven and Glenmoril Witch Dressed",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-08-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "2-4k. New Hagraven and Glenmoril Witch Dressed-72982-1-0-0-1660037977.zip"
+   ],
+   "author": "PsBoss",
+   "leftover": false,
+   "key": "id:72982",
+   "theme": "creatures"
+  },
+  {
+   "id": 167190,
+   "name": "No Combat or Riding Save",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-15",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "No Combat or Riding Save-167190-1-01-1765834699.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:167190",
+   "theme": "creatures"
+  },
+  {
+   "id": 69513,
+   "name": "Oblivion - An Atronach Forge Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-05",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Oblivion - An Atronach Forge Overhaul-69513-1-0-2-1657049862.7z"
+   ],
+   "author": "Delta",
+   "leftover": false,
+   "key": "id:69513",
+   "theme": "creatures"
+  },
+  {
+   "id": 25783,
+   "name": "Path to Volkihar--Vampires Can Skip Fort Dawnguard",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-05-16",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "DGPlayerIsVapire64-1.01-25783-1-01-1558037016.7z"
+   ],
+   "author": "oracus0",
+   "leftover": false,
+   "key": "id:25783",
+   "theme": "creatures"
+  },
+  {
+   "id": 50060,
+   "name": "Phantasmagoria -Ghosts SFX Voice Rework-",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-05-19",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Phantasmagoria -Ghosts SFX Voice Rework-50060-1-0-1621293965.7z",
+    "Phantasmagoria -Update--50060-1-1-1621384131.7z"
+   ],
+   "author": "Satafinix",
+   "leftover": false,
+   "key": "id:50060",
+   "theme": "creatures"
+  },
+  {
+   "id": 97985,
+   "name": "Rabbit Thistle Replacer - Fluffy Mihail Rabbit",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-08-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Thistle Replacer - Mihail Fluffy Rabbit-97985-1-1-1-1691641748.rar"
+   ],
+   "author": "reik3tsu",
+   "leftover": false,
+   "key": "id:97985",
+   "theme": "creatures"
+  },
+  {
+   "id": 64743,
+   "name": "Rally's Battlemap Flags",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-03-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Rally's Battlemap Flags-64743-1-0-1648248100.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:64743",
+   "theme": "creatures"
+  },
+  {
+   "id": 85866,
+   "name": "Rally's Cathedral 3D Dragons Tongue",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-19",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Rally's Dragons Tongue-85866-1-0-1705667595.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:85866",
+   "theme": "creatures"
+  },
+  {
+   "id": 114878,
+   "name": "SRW0 Draugr Zombies",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "SRW0 Zombies 2K-114878-1-3-1713144218.zip"
+   ],
+   "author": "SRW0",
+   "leftover": false,
+   "key": "id:114878",
+   "theme": "creatures"
+  },
+  {
+   "id": 158007,
+   "name": "Sacrilege - Vampire Lord VR Fix",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Sacrilege VR Fix-158007-1-0-1756472872.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:158007",
+   "theme": "creatures"
+  },
+  {
+   "id": 69828,
+   "name": "Shroom Beetles (Creature Series pt.6) SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-06-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Shroom Beetles (Creature Series pt.6)-69828-1-0-1655498622.zip"
+   ],
+   "author": "BirbWalker21",
+   "leftover": false,
+   "key": "id:69828",
+   "theme": "creatures"
+  },
+  {
+   "id": 104569,
+   "name": "Simple Fishing Overhaul - FLM Addon",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-02",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Simple Fishing Overhaul - FLM Addon-104569-1-2-1701548973.7z"
+   ],
+   "author": "Mura",
+   "leftover": false,
+   "key": "id:104569",
+   "theme": "creatures"
+  },
+  {
+   "id": 131148,
+   "name": "SkyTactics - Dynamic Combat Styles",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-10-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "SkyTactics - Dynamic Combat Styles-131148-1-0-0-1728415605.zip"
+   ],
+   "author": "Zzyxzz",
+   "leftover": false,
+   "key": "id:131148",
+   "theme": "creatures"
+  },
+  {
+   "id": 12680,
+   "name": "Skyrim Immersive Creatures Special Edition",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-09-10",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1) Skyrim Immersive Creatures v7.0.2 (includes 1K Textures)-12680-v7-0-2-1631188254.7z",
+    "2a) 2K Texture Pack-12680-v7-0-2-1631187494.7z",
+    "2b) 4K Texture Pack-12680-v7-0-2-1631185062.7z"
+   ],
+   "author": "lifestorock and jackstarr",
+   "leftover": false,
+   "key": "id:12680",
+   "theme": "creatures"
+  },
+  {
+   "id": 19706,
+   "name": "Supreme Vampire Lords",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Supreme Vampire Lords XP32 SE-19706-1-1.7z"
+   ],
+   "author": "Rougeshot",
+   "leftover": false,
+   "key": "id:19706",
+   "theme": "creatures"
+  },
+  {
+   "id": 95082,
+   "name": "TGC Dragon Bridge - Northern Farmhouses Patch",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-05",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "TGC Dragon Bridge - Northern Farmhouses Patch-95082-1-0-1688552709.7z"
+   ],
+   "author": "Zelie",
+   "leftover": false,
+   "key": "id:95082",
+   "theme": "creatures"
+  },
+  {
+   "id": 135010,
+   "name": "The Dragonborn's Bestiary - Lively's Alchemy Addon",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-02-06",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "The Dragonborn's Bestiary - Lively's Alchemy Addon-135010-2-0-3-1734964239.7z",
+    "The Dragonborn's Bestiary - Lively's Alchemy Addon-135010-2-0-4-1738849754.7z"
+   ],
+   "author": "Lively",
+   "leftover": false,
+   "key": "id:135010",
+   "theme": "creatures"
+  },
+  {
+   "id": 45843,
+   "name": "Ustengrav Dragonstones Redone",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-02-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "2K Ustengrav Dragonstones-45843-1-0-1613586692.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:45843",
+   "theme": "creatures"
+  },
+  {
+   "id": 77132,
+   "name": "Vanilla Wolf Texture Upscaled (Works For Fluffworks)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Vanilla Wolf Texture Upscaled 2k-77132-1-1711586438.rar",
+    "Vanilla Wolf Texture Upscaled-77132-1-0-1665797776.rar"
+   ],
+   "author": "Tomatokillz",
+   "leftover": false,
+   "key": "id:77132",
+   "theme": "creatures"
+  },
+  {
+   "id": 88987,
+   "name": "Will-o-the-Wisps- Mihail Monsters and Animals (SE-AE version) (''fairy'')",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-11",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "will o the wisp (se)-88987-1-1681185242.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:88987",
+   "theme": "creatures"
+  },
+  {
+   "id": 43247,
+   "name": "Wolfskull Altar Redone",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "2K Version-43247-1-0-1607596299.7z",
+    "4K Version-43247-1-0-1607595935.7z",
+    "Fire Salts Alternative-43247-1-0-1607611939.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:43247",
+   "theme": "creatures"
+  },
+  {
+   "id": 68069,
+   "name": "Wolves of Skyrim - wolf texture and mesh replacer",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-11",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "GLOWING FLUFFY WOLVES FIX-68069-2-1-2-1768142444.zip",
+    "Wolf Pelts-68069-1-2-1671198584.rar",
+    "Wolves Of Skyrim  FOMOD-68069-2-1-1653209448.rar"
+   ],
+   "author": "Hornophobic",
+   "leftover": false,
+   "key": "id:68069",
+   "theme": "creatures"
+  },
+  {
+   "id": 24558,
+   "name": "Wraiths - Mihail Monsters and Animals (SE-AE version) (''undead'')",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-09-16",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "wraiths (se) 3.2-24558-3-2-1663296288.rar",
+    "wraiths 3.1 sse-24558-3-1-1628248487.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:24558",
+   "theme": "creatures"
+  },
+  {
+   "id": 42510,
+   "name": "[серия «rodryk's dragon», 3 модов] Rodryk's Dragon Bridge и др.",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-05-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "-Rodryk's Dragon Bridge (Parallax)--42510-1-04-1613276584.zip",
+    "Alternate Start Patch-42510-1-0-1605799335.zip",
+    "Embers XD Patch-42510-1-0-1621394280.7z"
+   ],
+   "author": "Alistair Rodryk",
+   "leftover": false,
+   "key": "id:42510",
+   "series": "rodryk's dragon",
+   "members": [
+    {
+     "id": 42510,
+     "name": "Rodryk's Dragon Bridge",
+     "vr": 0,
+     "se": 4,
+     "newest": "2021-05-19",
+     "files": [
+      "-Rodryk's Dragon Bridge (Parallax)--42510-1-04-1613276584.zip"
+     ]
+    },
+    {
+     "id": 50408,
+     "name": "Rodryk's Dragon Bridge - Patch Collection",
+     "vr": 0,
+     "se": 4,
+     "newest": "2022-01-24",
+     "files": [
+      "Rodryk's Dragon Bridge - Patch Collection-50408-1-7-3-1642859287.rar"
+     ]
+    },
+    {
+     "id": 53433,
+     "name": "Rodryk's Dragon Bridge Retexture",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-03-30",
+     "files": [
+      "Rodryk's Dragon Bridge Retexture 2K-53433-1-1-1628531121.zip"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 62491,
+   "name": "non-combat sneak idle",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-01-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "non-combat sneak idle-62491-1-2-1643121387.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:62491",
+   "theme": "creatures"
+  },
+  {
+   "id": 96865,
+   "name": "Alternate Perspective - Voiced Addon",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-07-16",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Alternate Perspective - Voiced Addon for 4.1.0 96865 1.20 2026-07-16T07-33Z Sx9oEwWne.zip",
+    "Alternate Perspective - Voiced Addon for 4.1.0-96865-1-13-1773492503.zip",
+    "Alternate Perspective - Voiced Addon-96865-1-11-1727908722.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:96865",
+   "theme": "land_nature"
+  },
+  {
+   "id": 145795,
+   "name": "Arch-Curate Vyrthur Revoiced",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-03-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Arch-Curate Vyrthur Revoiced-145795-1-0-1742953645.zip"
+   ],
+   "author": "LeoMaximus",
+   "leftover": false,
+   "key": "id:145795",
+   "theme": "land_nature"
+  },
+  {
+   "id": 154297,
+   "name": "Ash Hopper HD",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-07-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Ash Hopper 2K-154297-1-0-1751804366.7z"
+   ],
+   "author": "chilloucik",
+   "leftover": false,
+   "key": "id:154297",
+   "theme": "land_nature"
+  },
+  {
+   "id": 51135,
+   "name": "Aspens Ablaze Add-On - DynDOLOD 3",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-02-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "1_Aspens Ablaze Add-On - DynDOLOD 3 - FOMOD-51135-2-36-4-1738730291.7z",
+    "Aspens Ablaze - DynDOLOD 3 - FOMOD-51135-2-36-1661793469.7z",
+    "Aspens Ablaze Add-On - DynDOLOD 3 - FOMOD-51135-2-36-4-1738730291.7z"
+   ],
+   "author": "z929669 and DoubleYouC",
+   "leftover": false,
+   "key": "id:51135",
+   "theme": "land_nature"
+  },
+  {
+   "id": 85718,
+   "name": "Blood and Ash",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-03-19",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Blood and Ash - Ash-85718-final-1679245221.rar",
+    "Blood and Ash - Blood-85718-final-1679166230.rar"
+   ],
+   "author": "lilson",
+   "leftover": false,
+   "key": "id:85718",
+   "theme": "land_nature"
+  }
+ ]
+}

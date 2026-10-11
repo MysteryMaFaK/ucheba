@@ -1,0 +1,841 @@
+{
+ "batch": "B05",
+ "band": "B",
+ "themes": {
+  "body_face": 20,
+  "clutter_misc": 14
+ },
+ "items": [
+  {
+   "id": 78788,
+   "name": "Dovahnique's Diverse Dark Elf Lanterns (BOS - ENB Lights - High Poly)",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-01-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Dovahnique's Dark Elf Lanterns - 1K Textures-78788-1-1673239536.zip",
+    "Dovahnique's Diverse Dark Elf Lanterns - BOS - ESPFE-78788-1-1668459174.zip",
+    "Dovahnique's Diverse Dark Elf Lanterns - BOS - Nocturnal Moths-78788-1-1-1673239855.zip"
+   ],
+   "author": "dovahnique VanNuys22",
+   "leftover": false,
+   "key": "id:78788",
+   "theme": "body_face"
+  },
+  {
+   "id": 131210,
+   "name": "Eyes Nouveaux",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-10-31",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Daedra and Devotees - Good-131210-1-0-0-1730396415.7z",
+    "Eye Mods Nouveaux-131210-1-1-0-1729296297.7z",
+    "Good-131210-1-2-0-1729002956.7z"
+   ],
+   "author": "Novelyst",
+   "leftover": false,
+   "key": "id:131210",
+   "theme": "body_face"
+  },
+  {
+   "id": 66156,
+   "name": "FA ORCODONTIST - Orsimer Mouth and Teeth Fix",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-04-25",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "ORCODONTIST - Mouth and Teeth Fix V2-66156-2-0-1650912380.7z"
+   ],
+   "author": "Fireapple Gaming",
+   "leftover": false,
+   "key": "id:66156",
+   "theme": "body_face"
+  },
+  {
+   "id": 100314,
+   "name": "Fjord - ReShade Preset",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-09-10",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "A Tragedy In Black - Rainbow-100314-1-1-1574778847.7z",
+    "Fjord-100314-1-0-1694339637.rar"
+   ],
+   "author": "Michelansero",
+   "leftover": false,
+   "key": "id:100314",
+   "theme": "body_face"
+  },
+  {
+   "id": 94483,
+   "name": "Kala's Eyes - Improved",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2026-05-06",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Kala's Eyes - Improved 1k-94483-1-1-0-1698998790.7z",
+    "Kala's Eyes - Improved 2k-94483-1-1-0-1698998854.7z",
+    "Kala's Eyes - Improved 2k-94483-2-0-0-1778055753.7z"
+   ],
+   "author": "naChooey - Kalahira",
+   "leftover": false,
+   "key": "id:94483",
+   "theme": "body_face"
+  },
+  {
+   "id": 22025,
+   "name": "Metalsabers Beautiful Orcs of Skyrim",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2018-12-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Metalsabers Beautiful Orcs of Skyrim-22025-1-0-1545341006.7z"
+   ],
+   "author": "Metalsaber",
+   "leftover": false,
+   "key": "id:22025",
+   "theme": "body_face"
+  },
+  {
+   "id": 18780,
+   "name": "Mikan Eyes - SE",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "MikanEyes v2.5 SE-18780-2-5.7z"
+   ],
+   "author": "nerune",
+   "leftover": false,
+   "key": "id:18780",
+   "theme": "body_face"
+  },
+  {
+   "id": 20382,
+   "name": "Nordic Ruins of Skyrim SSE",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2019-07-22",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Nordic Ruins of Skyrim 2.0-20382-2-0-1563839342.rar"
+   ],
+   "author": "soldierofwar",
+   "leftover": false,
+   "key": "id:20382",
+   "theme": "body_face"
+  },
+  {
+   "id": 56872,
+   "name": "Pomona Amphora Bodyslide Preset for CBBE-3BA-3BBB and BHUNP",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-10-12",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Pomona Amphora Bodyslide Preset for CBBE-3BA-3BBB-56872-1-0-1634026099.rar"
+   ],
+   "author": "s4rMs",
+   "leftover": false,
+   "key": "id:56872",
+   "theme": "body_face"
+  },
+  {
+   "id": 111457,
+   "name": "Rally's Orc Furniture",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-03-24",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Rally's Orc Furniture 2K Desaturated-111457-1-0-1707747282.7z",
+    "Rally's Orc Furniture 2K Desaturated-111457-1-0-1711296186.7z",
+    "Rally's Orc Furniture 2K-111457-1-0-1707747224.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:111457",
+   "theme": "body_face"
+  },
+  {
+   "id": 160675,
+   "name": "Sassy Salt and Wind Hair Retexture - Vanilla and KS Hairdos",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2026-08-14",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "HOTFIX 1.02.1 - KS Hairdos HDT Missing Textures-160675-1-1760199472.7z",
+    "Sassy SnW - Beard Color Edits-160675-1-0-1779565571.7z",
+    "Sassy SnW - Hair Colors Tweaked-160675-1-0-1762450632.7z"
+   ],
+   "author": "SassiestAssassin",
+   "leftover": false,
+   "key": "id:160675",
+   "theme": "body_face"
+  },
+  {
+   "id": 76257,
+   "name": "Snowy Surfaces Sound Collision and Aesthetics",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-12-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Snowy Surfaces Sound Collision and Aesthetics-76257-1-6-3-1682391350.7z",
+    "Snowy Surfaces Sound Collision and Aesthetics-76257-2-5-1728221523.7z",
+    "Snowy Surfaces Sound Collision and Aesthetics-76257-2-6-1766299254.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:76257",
+   "theme": "body_face"
+  },
+  {
+   "id": 29345,
+   "name": "Song of the Green - Auri Lenka Replacer SE - Optional Sharp Teeth",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-12-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Auri Lenka Replacer - CBBE-29345-2-0-1734871975.7z",
+    "CRB Auri Lenka Replacer - Sharp Teeth Patch-29345-1-0-1571412186.zip",
+    "CRB Auri Lenka Replacer SE CBBE-29345-1-1-1571434811.zip"
+   ],
+   "author": "Corbaine and sorca97",
+   "leftover": false,
+   "key": "id:29345",
+   "theme": "body_face"
+  },
+  {
+   "id": 95212,
+   "name": "Sorcerer Patch Page",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-07-11",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Sorcerer - Apocalypse Patch-95212-1-0-2-1688756309.7z",
+    "Sorcerer - JK's COW Patch-95212-1-0-1-1689050271.7z",
+    "Sorcerer - OCW Patch-95212-1-0-0-1688742098.7z"
+   ],
+   "author": "SimonMagus",
+   "leftover": false,
+   "key": "id:95212",
+   "theme": "body_face"
+  },
+  {
+   "id": 22178,
+   "name": "Spice of Life - Orc Strongholds SE",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2018-12-31",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Spice of Life - Orc Longhouses-22178-1-2-1546231363.7z"
+   ],
+   "author": "steveowashere",
+   "leftover": false,
+   "key": "id:22178",
+   "theme": "body_face"
+  },
+  {
+   "id": 96970,
+   "name": "Stand still in RaceMenu (OAR)",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-07-31",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Stand still in RaceMenu OAR A-pose-96970-1-0-0-1690774922.zip",
+    "Stand still in RaceMenu OAR vanilla idle version-96970-1-0-0-1690612113.zip"
+   ],
+   "author": "CHIMgarden",
+   "leftover": false,
+   "key": "id:96970",
+   "theme": "body_face"
+  },
+  {
+   "id": 70263,
+   "name": "The Eyes of Beauty - Ai Remastered",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-11-12",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "1k - The Eyes of Beauty Ai - Standalone Textures-70263-v1-Final-1668263004.zip"
+   ],
+   "author": "wammy",
+   "leftover": false,
+   "key": "id:70263",
+   "theme": "body_face"
+  },
+  {
+   "id": 118892,
+   "name": "The Royal Seat - A Noble Bench Chair and Throne Replacer",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-05-04",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "TRS Pillow Edition JK's Winking Skeever patch-118892-1-0-1745946608.rar",
+    "The Royal Seat - AIO-118892-1-0-4-1726348873.rar",
+    "The Royal Seat - BOS Color Variance Pillow Edition-118892-1-0-6-1728139970.rar"
+   ],
+   "author": "sotha simp",
+   "leftover": false,
+   "key": "id:118892",
+   "theme": "body_face"
+  },
+  {
+   "id": 64259,
+   "name": "Valkyr HDT-SMP Hairstyles 02",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-02-26",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "HDT-SMP Hairpack 02-64259-1-0-1645893949.rar"
+   ],
+   "author": "Fuse00",
+   "leftover": false,
+   "key": "id:64259",
+   "theme": "body_face"
+  },
+  {
+   "id": 48481,
+   "name": "[серия «northbourne npcs», 7 модов] Northbourne NPCs of Haafingar и др.",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-01-04",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Northbourne NPCs of Haafingar - Males Only-48481-1-0-1618300490.7z",
+    "Northbourne NPCs of Haafingar-48481-1-0-1618299591.7z",
+    "Patch for Xander's Missing Hair Textures-48481-1-1-1641313870.7z"
+   ],
+   "author": "Southpawe",
+   "leftover": false,
+   "key": "id:48481",
+   "series": "northbourne npcs",
+   "members": [
+    {
+     "id": 48481,
+     "name": "Northbourne NPCs of Haafingar",
+     "vr": 1,
+     "se": 6,
+     "newest": "2022-01-04",
+     "files": [
+      "Northbourne NPCs of Haafingar - Males Only-48481-1-0-1618300490.7z"
+     ]
+    },
+    {
+     "id": 35404,
+     "name": "Northbourne NPCs of Whiterun Hold",
+     "vr": 1,
+     "se": 6,
+     "newest": "2024-02-07",
+     "files": [
+      "Northbourne NPCs of Whiterun Hold  -  Full Version-35404-1-2-1625034267.7z"
+     ]
+    },
+    {
+     "id": 42349,
+     "name": "Northbourne NPCs of the Rift",
+     "vr": 1,
+     "se": 6,
+     "newest": "2020-12-28",
+     "files": [
+      "Northbourne NPCs of The Rift - Full Version-42349-1-3-1609142673.7z"
+     ]
+    },
+    {
+     "id": 37528,
+     "name": "Northbourne NPCs of Falkreath Hold",
+     "vr": 1,
+     "se": 5,
+     "newest": "2021-05-22",
+     "files": [
+      "Northbourne NPCs of Falkreath Hold - Full Version-37528-1-3-1621659800.7z"
+     ]
+    },
+    {
+     "id": 43413,
+     "name": "Northbourne NPCs of Winterhold",
+     "vr": 1,
+     "se": 5,
+     "newest": "2020-12-17",
+     "files": [
+      "Northbourne NPCs of Winterhold Full Version-43413-1-1-1608230709.7z"
+     ]
+    },
+    {
+     "id": 62213,
+     "name": "Northbourne NPCs of Hjaalmarch",
+     "vr": 1,
+     "se": 3,
+     "newest": "2022-01-19",
+     "files": [
+      "Northbourne NPCs of Hjaalmarch-62213-1-0-1642588052.7z"
+     ]
+    },
+    {
+     "id": 101466,
+     "name": "Northbourne NPCs Resources",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-02-05",
+     "files": [
+      "Northbourne NPCs Resources-101466-1-3-1707118543.7z"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 22574,
+   "name": "ENB Light",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2019-12-23",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "1_ENB Light 0.98 Alpha 2-22574-0-98Alpha2-1577144667.7z",
+    "ENB Light - patch for Quick Light SE-22574-1-2-1554053499.7z",
+    "ENB Light 0.95 RC2 patch 1-22574-0-95RC2-patch1-1559603751.7z"
+   ],
+   "author": "4109",
+   "leftover": false,
+   "key": "id:22574",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 65849,
+   "name": "King Olaf's Fire Festival Not Ending Fix",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-04-02",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "King Olaf's Fire Festival Not Ending Fix-65849-0-1-1648899684.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:65849",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 27041,
+   "name": "Northern Shores SE - 8K",
+   "vr": 5,
+   "se": 1,
+   "score": 11,
+   "band": "B",
+   "newest": "2020-02-13",
+   "vr_lists": [
+    "FUS",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Northern Shores 2K-27041-1-4-1581623323.7z",
+    "Northern Shores 4K-27041-1-4-1581623365.7z"
+   ],
+   "author": "winedave",
+   "leftover": false,
+   "key": "id:27041",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 110370,
+   "name": "Rally's Common Furniture",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-02-11",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Rally's Common Furniture 2K-110370-1-6-1706986482.7z",
+    "Rally's Common Furniture 2K-110370-1-7-1707651470.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:110370",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 113326,
+   "name": "Rally's Noble Furniture",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-04-12",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Noble Furniture BOS Addon 2K-113326-1-0-1709974713.7z",
+    "Rally's Noble Furniture 2K-113326-1-5-1712904414.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:113326",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 112256,
+   "name": "Rally's Upper Furniture",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-08-16",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Rally's Jorrvaskr Carpetry 2K-112256-1-0-1708717569.7z",
+    "Rally's Upper Furniture 2K-112256-1-2-1711085301.7z",
+    "Rally's Upper Furniture 2K-112256-1-3-1723827821.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:112256",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 55852,
+   "name": "Rudification - Rudy Candles Expanded",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-10-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Rudification - Rudy Candles Expanded-55852-1-14-1634477483.7z"
+   ],
+   "author": "Daralima and InstanKor",
+   "leftover": false,
+   "key": "id:55852",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 90508,
+   "name": "The Handy Icon Collection Collective for I4",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2026-05-16",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "The Handy Icon Collection Collective-90508-1-5-0-1701578826.zip",
+    "The Handy Icon Collection Collective-90508-1-6-0-1708918929.zip",
+    "The Handy Icon Collection Collective-90508-1-7-0-1736494302.zip"
+   ],
+   "author": "GroundAura",
+   "leftover": false,
+   "key": "id:90508",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 68139,
+   "name": "Vanilla Scripting Enhancements",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-05-29",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "BSA Version-68139-3-0-1685378500.rar",
+    "Loose Version-68139-2-0-1653521521.rar",
+    "Loose Version-68139-3-0-1685378555.rar"
+   ],
+   "author": "Nightfallstorm and JR",
+   "leftover": false,
+   "key": "id:68139",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 31165,
+   "name": "[серия «first person», 3 модов] First Person Sneak Strafe-Walk Stutter Fix и др.",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2019-12-22",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "First Person Sneak Strafe-Walk Stutter Fix-31165-1-0-1577054070.7z"
+   ],
+   "author": "UrbanCMC",
+   "leftover": false,
+   "key": "id:31165",
+   "series": "first person",
+   "members": [
+    {
+     "id": 31165,
+     "name": "First Person Sneak Strafe-Walk Stutter Fix",
+     "vr": 1,
+     "se": 9,
+     "newest": "2019-12-22",
+     "files": [
+      "First Person Sneak Strafe-Walk Stutter Fix-31165-1-0-1577054070.7z"
+     ]
+    },
+    {
+     "id": 143650,
+     "name": "First Person Stagger Animation Remade",
+     "vr": 0,
+     "se": 6,
+     "newest": "2025-03-05",
+     "files": [
+      "1st Person Stagger Replacer-143650-1-0-1741193461.zip"
+     ]
+    },
+    {
+     "id": 123129,
+     "name": "First Person Interactions",
+     "vr": 0,
+     "se": 5,
+     "newest": "2026-02-24",
+     "files": [
+      "First Person Interactions-123129-1-6-1729281877.zip"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 92845,
+   "name": "Adoption Spouse and Moving Fixes",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-06-17",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Adoption Spouse and Moving Fixes v1.2.0-92845-1-2-0-1687026746.zip"
+   ],
+   "author": "Jake Alaimo",
+   "leftover": false,
+   "key": "id:92845",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 47608,
+   "name": "Boreal Boats SE - 8K - Parallax",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-03-28",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Boreal Boat 2K-47608-1-3-1616949937.7z",
+    "Boreal Boat 4K-47608-1-3-1616949935.7z",
+    "Boreal Boats Parallax Meshes SE-47608-1-3-1616950509.7z"
+   ],
+   "author": "winedave",
+   "leftover": false,
+   "key": "id:47608",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 123987,
+   "name": "Fixed Meshes for Rugnarok",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2025-11-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Fixed Meshes  for Rugnarok - Lux Patch-123987-1-4-1729015382.7z",
+    "Fixed Meshes  for Rugnarok - Lux Patch-123987-1-5-1749320404.7z",
+    "Fixed Meshes  for Rugnarok - Lux Patch-123987-1-6-1762017232.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:123987",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 104322,
+   "name": "JS Embalming Tools SE",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-11-08",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JS Embalming Tools SE - 1k Textures-104322-1-0-1699472450.7z",
+    "JS Embalming Tools SE - 2k Textures-104322-1-0-1699472419.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:104322",
+   "theme": "clutter_misc"
+  }
+ ]
+}

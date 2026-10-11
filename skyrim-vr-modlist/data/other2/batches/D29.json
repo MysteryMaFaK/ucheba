@@ -1,0 +1,735 @@
+{
+ "batch": "D29",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 134769,
+   "name": "Better Grabbing",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-01-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Better Grabbing-134769-1-17-1735821127.7z"
+   ],
+   "author": "Skyrim Thiago",
+   "leftover": false,
+   "key": "id:134769",
+   "theme": "other"
+  },
+  {
+   "id": 167462,
+   "name": "Better Storm Call",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Better Storm Call - Enemies Only-167462-1-0-0-1770853214.zip",
+    "Better Storm Call-167462-1-0-0-1770852238.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:167462",
+   "theme": "other"
+  },
+  {
+   "id": 643,
+   "name": "Better Tel Mithryn",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2018-10-19",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Better Tel Mithryn - Spongeman131 Update-643-1-00-1539976839.7z",
+    "Better Tel Mithryn-643-1-00.7z"
+   ],
+   "author": "YsCordelan",
+   "leftover": false,
+   "key": "id:643",
+   "theme": "other"
+  },
+  {
+   "id": 3008,
+   "name": "Beyond Reach",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-12",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Beyond Reach 4.8-3008-4-8-1747019788.zip",
+    "Beyond Reach 4_51 2021-3008-4-51-1624917982.7z",
+    "BeyondReach 4.61 2022-3008-4-61-1663480754.7z"
+   ],
+   "author": "razorkid1",
+   "leftover": false,
+   "key": "id:3008",
+   "theme": "other"
+  },
+  {
+   "id": 131057,
+   "name": "Bleak Falls Barrow Overhaul Version 2",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-10-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Bleak Falls Barrow Overhaul V2-131057-2-0-1728302708.7z",
+    "Bleak Falls Barrow Overhaul V2-131057-2-02-1759757695.7z",
+    "Dungeon Revisted AIO Patch-131057-1-02-1732471879.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:131057",
+   "theme": "other"
+  },
+  {
+   "id": 70344,
+   "name": "Blue Palace Frescoes Simplified",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Blue Palace Frescoes Simplified-70344-1-4-1-1746549605.rar",
+    "Blue Palace Frescoes Simplified-70344-1-4-1738396017.rar"
+   ],
+   "author": "Czasior and Arthadion",
+   "leftover": false,
+   "key": "id:70344",
+   "theme": "other"
+  },
+  {
+   "id": 22578,
+   "name": "Bristleback Boars",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-01-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Bristleback Boars-22578-1-0-1547364513.7z"
+   ],
+   "author": "Rougeshot",
+   "leftover": false,
+   "key": "id:22578",
+   "theme": "other"
+  },
+  {
+   "id": 83869,
+   "name": "Brittleshin",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-27",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Brittleshin - 3DNPC Patch-83869-1-0-1675120462.7z",
+    "Brittleshin - Lux Patch (ESL)-83869-1-01-1679907637.7z",
+    "Brittleshin Pass Overhaul-83869-1-01-1675260060.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:83869",
+   "theme": "other"
+  },
+  {
+   "id": 133337,
+   "name": "Broken Fang",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-11-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "AVFT - Broke Fang Patch-133337-1-0-1730990741.7z",
+    "Broken Fang-133337-1-01-1731261897.7z",
+    "Dungeon Revisted AIO Patch-133337-1-0-1730998268.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:133337",
+   "theme": "other"
+  },
+  {
+   "id": 95275,
+   "name": "Broken Picks",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-11",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "BrokenPicks-95275-1-2-1689074298.7z"
+   ],
+   "author": "Denny Freuder",
+   "leftover": false,
+   "key": "id:95275",
+   "theme": "other"
+  },
+  {
+   "id": 115830,
+   "name": "Burning Bodies Always Trigger Oil Traps",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-04",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Burning Bodies Always Trigger Oil Traps-115830-1-1-1712226351.7z"
+   ],
+   "author": "Excinerus",
+   "leftover": false,
+   "key": "id:115830",
+   "theme": "other"
+  },
+  {
+   "id": 73354,
+   "name": "CC's Camping Expansion",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-08-24",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Camping Expansion 1.3.0-73354-1-3-0-1661335447.rar"
+   ],
+   "author": "xGasilx",
+   "leftover": false,
+   "key": "id:73354",
+   "theme": "other"
+  },
+  {
+   "id": 80720,
+   "name": "Cabbage - A Cabbage Mod",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Cabbage-80720-1-0-1671173770.7z",
+    "Cabbage-80720-1-1-1718545864.7z"
+   ],
+   "author": "Kreiste feat wSkeever",
+   "leftover": false,
+   "key": "id:80720",
+   "theme": "other"
+  },
+  {
+   "id": 96711,
+   "name": "Calling the Watchmaker - Lovecraftian Inspired Quest",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-07-29",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Calling the Watchmaker - 1.0.4-96711-1-0-4-1753411237.zip",
+    "Calling the Watchmaker - 1.0.5 96711 1.0.5 2026-07-29T22-40Z qTl1Sx8lT.zip",
+    "Calling the Watchmaker - 1.0.5-96711-1-0-5-783043-1785364800.zip"
+   ],
+   "author": "nimwraith and BigMacHornet",
+   "leftover": false,
+   "key": "id:96711",
+   "theme": "other"
+  },
+  {
+   "id": 22353,
+   "name": "Campsite",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-01-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Campsite-22353-1-1-1546613900.7z"
+   ],
+   "author": "Kinaga",
+   "leftover": false,
+   "key": "id:22353",
+   "theme": "other"
+  },
+  {
+   "id": 51730,
+   "name": "Chainmail underwear for SOS",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-28",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Chainmail underwear for SOS-51730-1-0-1624849650.rar"
+   ],
+   "author": "Alerastheria",
+   "leftover": false,
+   "key": "id:51730",
+   "theme": "other"
+  },
+  {
+   "id": 155643,
+   "name": "Changelog Generator for Modlist Authors",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-07-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Changelog helper-155643-1-1-1753648714.zip"
+   ],
+   "author": "Bottle",
+   "leftover": false,
+   "key": "id:155643",
+   "theme": "other"
+  },
+  {
+   "id": 144854,
+   "name": "Character Suggestor",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-11-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Character Suggestor-144854-1-0-8-1762645310.zip",
+    "Untarnished UI Patch-144854-1-0-0-1762648123.rar"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:144854",
+   "theme": "other"
+  },
+  {
+   "id": 152453,
+   "name": "Charity",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-12",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Charity v1.0-152453-1-0-1749716666.zip"
+   ],
+   "author": "jiveh",
+   "leftover": false,
+   "key": "id:152453",
+   "theme": "other"
+  },
+  {
+   "id": 122336,
+   "name": "Children of Dawn's Beauty - A Resource for Certain Mods",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-06-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Children of Dawn's Beauty - Resource Mod-122336-2-3-1777238968.7z",
+    "Children of Dawn's Beauty - Resource Mod-122336-2-4-1780275210.7z",
+    "Children of Dawn's Beauty - Resource Mod-122336-2-4-2-0-763010.7z"
+   ],
+   "author": "SassiestAssassin",
+   "leftover": false,
+   "key": "id:122336",
+   "theme": "other"
+  },
+  {
+   "id": 78283,
+   "name": "Children of the North",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-15",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Children of the North-78283-final-1678848971.rar"
+   ],
+   "author": "lilson",
+   "leftover": false,
+   "key": "id:78283",
+   "theme": "other"
+  },
+  {
+   "id": 94999,
+   "name": "Civil War Champions - Reduced Cut",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Civil War Champions - Reduced Cut-94999-2-1688491081.7z"
+   ],
+   "author": "Kamikaze",
+   "leftover": false,
+   "key": "id:94999",
+   "theme": "other"
+  },
+  {
+   "id": 37082,
+   "name": "Clannfears SSE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-09-19",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Clannfears by 4th SSE-37082-1-1591726655.rar",
+    "Fixed .ESP by SarthesArai-37082-1-1596211165.7z",
+    "Fixed .ESP by SarthesArai-37082-2-1632084278.7z"
+   ],
+   "author": "4thUnknown",
+   "leftover": false,
+   "key": "id:37082",
+   "theme": "other"
+  },
+  {
+   "id": 68032,
+   "name": "ConsolePlusPlus VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-28",
+   "vr_lists": [
+    "Librum VR",
+    "Tahrovin"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ConsolePlusPlus VR-68032-1-3-0-1690527639.7z"
+   ],
+   "author": "alandtse",
+   "leftover": false,
+   "key": "id:68032",
+   "theme": "other"
+  },
+  {
+   "id": 24858,
+   "name": "ConsoleUtilSSE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-10-15",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "ConsoleUtilSSE-24858-1-2-0-1583021370.zip",
+    "ConsoleUtilSSE-24858-1-4-0-1665802090.zip"
+   ],
+   "author": "Ryan",
+   "leftover": false,
+   "key": "id:24858",
+   "theme": "other"
+  },
+  {
+   "id": 92104,
+   "name": "Constellation Magic",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-06",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Constellation Magic-92104-1-21-1686044315.zip"
+   ],
+   "author": "Kittytail",
+   "leftover": false,
+   "key": "id:92104",
+   "theme": "other"
+  },
+  {
+   "id": 116032,
+   "name": "Creation Club Home Requirements",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "CCHR - All In One-116032-2-01-1712843812.zip",
+    "CCHR - CC Hendraheim TnE Patch-116032-2-00-1712844173.zip"
+   ],
+   "author": "lacrotop",
+   "leftover": false,
+   "key": "id:116032",
+   "theme": "other"
+  },
+  {
+   "id": 276,
+   "name": "Cutting Room Floor - SSE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-05",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Cutting Room Floor-276-3-1-11-1638226201.7z",
+    "Cutting Room Floor-276-3-1-24-1772078312.7z",
+    "Cutting Room Floor-276-3-1-25-1778019951.7z"
+   ],
+   "author": "Arthmoor",
+   "leftover": false,
+   "key": "id:276",
+   "theme": "other"
+  },
+  {
+   "id": 5890,
+   "name": "D13 Faster GET UP STAND UP animation vanilla friendly SSE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "D13 Faster Get Up Stand Up SSE-5890-2-1.7z"
+   ],
+   "author": "DarkAngel13 Argonil",
+   "leftover": false,
+   "key": "id:5890",
+   "theme": "other"
+  },
+  {
+   "id": 34853,
+   "name": "DAR - Dynamic Swimming",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-04-20",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "DAR - Dynamic Swimming - Argonian Mastery-34853-1-1-Optional-1587367813.rar",
+    "DAR - Dynamic Swimming-34853-1-0-1587114447.rar"
+   ],
+   "author": "Rikushai",
+   "leftover": false,
+   "key": "id:34853",
+   "theme": "other"
+  },
+  {
+   "id": 157174,
+   "name": "DAc0da Lightsabers VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-19",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "DAc0da VR Lightsaber Fix-157174-1-1-1755633466.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:157174",
+   "theme": "other"
+  },
+  {
+   "id": 64057,
+   "name": "Dapper Deliveries - A Courier Overhaul",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dapper Deliveries - A Courier Overhaul-64057-1-0-1645677635.zip"
+   ],
+   "author": "Tragedian",
+   "leftover": false,
+   "key": "id:64057",
+   "theme": "other"
+  },
+  {
+   "id": 57463,
+   "name": "Darkend - Enemy Rebalance",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-02",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Darkend - Enemy Rebalance-57463-1-9-1-1701546909.zip",
+    "Darkend - Item Descriptions-57463-1-0-1701546977.zip"
+   ],
+   "author": "Decaroidea",
+   "leftover": false,
+   "key": "id:57463",
+   "theme": "other"
+  },
+  {
+   "id": 109676,
+   "name": "Defy the Gardener",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-11-07",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Defy the Gardener NFF Compatibility-58079-1-0-1636321839.7z"
+   ],
+   "author": "Khrada",
+   "leftover": false,
+   "key": "id:109676",
+   "theme": "other"
+  },
+  {
+   "id": 58079,
+   "name": "Defy the Gardener",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-11-07",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Defy the Gardener-58079-1-0-1636322117.7z"
+   ],
+   "author": "Khrada",
+   "leftover": false,
+   "key": "id:58079",
+   "theme": "other"
+  },
+  {
+   "id": 145580,
+   "name": "Destroy the Acolyte Priests",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Destroy the Acolyte Priests-145580-1-0-0-1742764858.zip"
+   ],
+   "author": "Enodoc",
+   "leftover": false,
+   "key": "id:145580",
+   "theme": "other"
+  }
+ ]
+}

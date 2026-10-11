@@ -1,0 +1,829 @@
+{
+ "batch": "B02",
+ "band": "B",
+ "themes": {
+  "arch_city": 28,
+  "armor": 7
+ },
+ "items": [
+  {
+   "id": 104980,
+   "name": "JS Solitude Sewer Cover SE",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-11-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "JS Solitude Sewer Cover SE - 1k Textures-104980-1-2-1700945790.7z",
+    "JS Solitude Sewer Cover SE - 2k Textures-104980-1-2-1700945820.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:104980",
+   "theme": "arch_city"
+  },
+  {
+   "id": 66418,
+   "name": "Overlooked Dungeon Objects Retextures",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-04-12",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Overlooked Dungeon Objects Retextures - 2K-66418-1-0-1649780354.zip",
+    "Overlooked Dungeon Objects Retextures - 2K-66418-1-6-1722786176.zip",
+    "Overlooked Dungeon Objects Retextures - 2K-66418-2-0-1744455722.zip"
+   ],
+   "author": "AgentW",
+   "leftover": false,
+   "key": "id:66418",
+   "theme": "arch_city"
+  },
+  {
+   "id": 70854,
+   "name": "Riften Architectural Details",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-12-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Riften Architectural Details-70854-1-4-1660579731.zip",
+    "Riften Architectural Details-70854-2-0-1672275501.zip"
+   ],
+   "author": "nicola89b",
+   "leftover": false,
+   "key": "id:70854",
+   "theme": "arch_city"
+  },
+  {
+   "id": 40021,
+   "name": "Riften Docks Overhaul",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-03-27",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Riften Docks Overhaul - Carriage and Ferry Travel Overhaul-40021-1-0-1599202753.zip",
+    "Riften Docks Overhaul - Carriage and Ferry Travel Overhaul-40021-2-0-1622712752.zip",
+    "Riften Docks Overhaul - Clockwork-40021-1-0-1599294348.zip"
+   ],
+   "author": "marxercise flintone zebra0 Urtho AgentW robertgk2017",
+   "leftover": false,
+   "key": "id:40021",
+   "theme": "arch_city"
+  },
+  {
+   "id": 29695,
+   "name": "Solitude and Temple Frescoes 2019",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2019-10-20",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Solitude Temple Frescoes - Complete (No Lanterns)-29695-1-3-1571603195.rar",
+    "Solitude Temple Frescoes - Complete ESL-29695-1-3-1571607200.rar",
+    "Solitude Temple Frescoes - Complete SSE-29695-1-3-1571054707.rar"
+   ],
+   "author": "Arduunos",
+   "leftover": false,
+   "key": "id:29695",
+   "theme": "arch_city"
+  },
+  {
+   "id": 23107,
+   "name": "Tavern AI fix",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-03-02",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "TavernAIFix-se-23107-1-1d-1592428108.7z",
+    "TavernAIFix-se-23107-1-2-1646241760.7z"
+   ],
+   "author": "Andrelo",
+   "leftover": false,
+   "key": "id:23107",
+   "theme": "arch_city"
+  },
+  {
+   "id": 48120,
+   "name": "Whiterun Mesh Fixes",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-02-01",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tahrovin"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Whiterun Mesh Fixes - Wizkid's Hall of the Dead patch-48120-1-0-1643553894.7z",
+    "Whiterun Mesh Fixes-48120-1-1-1620021631.7z",
+    "Whiterun Mesh Fixes-48120-1-2-5-1643679348.7z"
+   ],
+   "author": "NeverLost",
+   "leftover": false,
+   "key": "id:48120",
+   "theme": "arch_city"
+  },
+  {
+   "id": 72981,
+   "name": "[серия «environs the», 3 модов] Environs - The Ruined Tundra Farmhouse и др.",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-02-08",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Environs - The Ruined Tundra Farmhouse-72981-3-0-2-1723016430.7z",
+    "Environs - Tundra Farmhouse - Patch Collection-72981-3-0-3-1722930421.7z",
+    "Environs - Tundra Farmhouse - Patch Collection-72981-3-0-4-1739050162.7z"
+   ],
+   "author": "Siberpunk",
+   "leftover": false,
+   "key": "id:72981",
+   "series": "environs the",
+   "members": [
+    {
+     "id": 72981,
+     "name": "Environs - The Ruined Tundra Farmhouse",
+     "vr": 1,
+     "se": 7,
+     "newest": "2025-02-08",
+     "files": [
+      "Environs - The Ruined Tundra Farmhouse-72981-3-0-2-1723016430.7z"
+     ]
+    },
+    {
+     "id": 85141,
+     "name": "Environs - The Shrines of Talos",
+     "vr": 1,
+     "se": 7,
+     "newest": "2024-05-18",
+     "files": [
+      "Environs - The Shrines of Talos - Patch Collection-85141-3-01-1687319887.7z"
+     ]
+    },
+    {
+     "id": 73732,
+     "name": "Environs - The Greenwood Shack",
+     "vr": 1,
+     "se": 5,
+     "newest": "2024-08-07",
+     "files": [
+      "Environs - The Greenwood Shack-73732-3-0-1-1723013281.7z"
+     ]
+    }
+   ],
+   "theme": "arch_city"
+  },
+  {
+   "id": 56973,
+   "name": "3D Riften Trellis and Roofs",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-10-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "3D Riften Trellis and Roofs-56973-1-0-1634061868.7z"
+   ],
+   "author": "RedBag",
+   "leftover": false,
+   "key": "id:56973",
+   "theme": "arch_city"
+  },
+  {
+   "id": 42472,
+   "name": "3D Solitude Market Trellis",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-10-16",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "3D Solitude Market Trellis-42472-1-0-1605612541.7z",
+    "3D Solitude Trellis-42472-3-1-1665889512.7z"
+   ],
+   "author": "RedBag",
+   "leftover": false,
+   "key": "id:42472",
+   "theme": "arch_city"
+  },
+  {
+   "id": 64398,
+   "name": "Anga's Mill - Cities of the North Addon",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-05-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Anga's Mill - Cities of the North Addon-64398-1-0-4-1652041666.zip"
+   ],
+   "author": "Tate Taylor",
+   "leftover": false,
+   "key": "id:64398",
+   "theme": "arch_city"
+  },
+  {
+   "id": 97542,
+   "name": "Candlehearth - An Inn Overhaul",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-08-23",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Candlehearth - An Inn Overhaul-97542-1-1-1-1692799446.7z",
+    "Candlehearth - Tavern AI Fix Patch-97542-1-1-0-1691680299.7z",
+    "Candlehearth - USMP Patch-97542-1-1-0-1691695117.7z"
+   ],
+   "author": "SimonMagus",
+   "leftover": false,
+   "key": "id:97542",
+   "theme": "arch_city"
+  },
+  {
+   "id": 26103,
+   "name": "Cathedral - Mushrooms",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2019-05-27",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "1_Cathedral Mushrooms-26103-1-0-1558993625.7z",
+    "Cathedral Mushrooms-26103-1-0-1558993625.7z"
+   ],
+   "author": "The Community",
+   "leftover": false,
+   "key": "id:26103",
+   "theme": "arch_city"
+  },
+  {
+   "id": 86964,
+   "name": "FYX - The first Rampart and Watchtower of Solitude",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-03-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "FYX - (A) The first Rampart and Watchtower of Solitude - Parallax-86964-1-0-1-1678803030.7z",
+    "FYX - (A) The first Rampart and Watchtower of Solitude-86964-1-0-1-1678802999.7z",
+    "FYX - (B) The first Rampart and Watchtower of Solitude - Rampart access-86964-1-0-1-1678803077.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:86964",
+   "theme": "arch_city"
+  },
+  {
+   "id": 91613,
+   "name": "FYX - Vanilla Table Replacers - and Addon",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-05-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "FYX - VTR - LUX - Add-on-91613-1-0-3-1684849531.7z",
+    "FYX - VTR x AER - LUX-91613-1-0-3-1-1684943760.7z",
+    "FYX - Vanilla Table Replacer - LUX-91613-1-0-3-1-1684943704.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:91613",
+   "theme": "arch_city"
+  },
+  {
+   "id": 8766,
+   "name": "Farmhouse Chimneys SE",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2026-04-26",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Farmhouse Chimneys SE - USSEP Patch-8766-4-1-1-1637503578.7z",
+    "Farmhouse Chimneys SE v4.1.1-8766-4-1-1-1637458824.7z",
+    "Farmhouse Chimneys SE v4.2.1-8766-4-2-1-1693263868.7z"
+   ],
+   "author": "Scarla",
+   "leftover": false,
+   "key": "id:8766",
+   "theme": "arch_city"
+  },
+  {
+   "id": 22755,
+   "name": "Fortune's Tradehouse",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-06-11",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Fortune's Tradehouse-22755-2-0-1686506638.7z"
+   ],
+   "author": "Doubtsuspended",
+   "leftover": false,
+   "key": "id:22755",
+   "theme": "arch_city"
+  },
+  {
+   "id": 52672,
+   "name": "Improved Dwemer Glass - USSEP Patch",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-07-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Improved Dwemer Glass - ENB lights for Aetherium shards Patch-52672-1-0-1658355200.rar",
+    "Improved Dwemer Glass - USSEP Patch-52672-1-0-1626900815.rar"
+   ],
+   "author": "cunny1975 Unofficial Patch Project Team mnikjom",
+   "leftover": false,
+   "key": "id:52672",
+   "theme": "arch_city"
+  },
+  {
+   "id": 65676,
+   "name": "JK's College of Winterhold",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-05-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "JK's College of Winterhold-65676-1-0-2-1656298829.zip",
+    "JK's College of Winterhold-65676-1-1-1685005336.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:65676",
+   "theme": "arch_city"
+  },
+  {
+   "id": 128116,
+   "name": "JK's Nightingale Hall",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-10-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "JK's Nightingale Hall-128116-1-0-0-1727984346.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:128116",
+   "theme": "arch_city"
+  },
+  {
+   "id": 151512,
+   "name": "JK's Tel Mithryn",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-07-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "JK's Tel Mithryn-151512-1-0-2-1752976459.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:151512",
+   "theme": "arch_city"
+  },
+  {
+   "id": 22653,
+   "name": "Misc. College of Winterhold Tweaks",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-03-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Misc. College of Winterhold Tweaks-22653-1-5-1-1585328122.7z"
+   ],
+   "author": "SomethingObscure",
+   "leftover": false,
+   "key": "id:22653",
+   "theme": "arch_city"
+  },
+  {
+   "id": 48217,
+   "name": "Praedy's Fort Dawnguard - SE",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-04-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Immersive Fort Dawnguard Doors Patch-48217-1-0-1619002515.7z",
+    "Praedy's Fort Dawnguard - SE V3 2K-48217-3-2-1729444696.7z",
+    "Praedy's Fort Dawnguard - SE V3 2K-48217-3-3-1746022449.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:48217",
+   "theme": "arch_city"
+  },
+  {
+   "id": 114409,
+   "name": "Rally's Chests SMIM",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-03-21",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Handles Upper Chest-114409-1-0-1711014726.7z",
+    "Rally's Upper Chest SMIM 2K-114409-1-0-1710952627.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:114409",
+   "theme": "arch_city"
+  },
+  {
+   "id": 86055,
+   "name": "Real Dwemer Pipes",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-03-31",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Real Dwemer Pipes-86055-1-2-1680298448.rar",
+    "Real Dwemer Pipes.rar",
+    "Real_Dwemer_Pipes_1.51_izKcFp755.rar"
+   ],
+   "author": "Janissrim",
+   "leftover": false,
+   "key": "id:86055",
+   "theme": "arch_city"
+  },
+  {
+   "id": 72363,
+   "name": "Riften Canals rounded - by Pfuscher",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-07-31",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Lux Orbis patch-72363-1-0-1659262660.7z",
+    "Riften canals - Rounded by Pfuscher-72363-1-0-1659171605.7z"
+   ],
+   "author": "Pfuscher",
+   "leftover": false,
+   "key": "id:72363",
+   "theme": "arch_city"
+  },
+  {
+   "id": 76169,
+   "name": "Riften Temple Sconce Fix",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-09-27",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Riften Temple Sconce Fix-76169-0-1-1664252110.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:76169",
+   "theme": "arch_city"
+  },
+  {
+   "id": 92592,
+   "name": "Stairs of Safety - Farmhouses",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-11-13",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Lux version-92592-1-0-1699848833.7z",
+    "Vanilla version-92592-1-0-1699848742.7z"
+   ],
+   "author": "Skyfall515",
+   "leftover": false,
+   "key": "id:92592",
+   "theme": "arch_city"
+  },
+  {
+   "id": 39704,
+   "name": "Armor Mesh Fixes SE",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2020-08-28",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Armor Mesh Fixes-39704-1-0-1598119433.7z",
+    "Blades Helmet - aMidianBorn Patch-39704-1-0-1598119900.7z",
+    "Orcish Environment Map Fix-39704-1-1-1598632305.7z"
+   ],
+   "author": "RenaPG",
+   "leftover": false,
+   "key": "id:39704",
+   "theme": "armor"
+  },
+  {
+   "id": 19002,
+   "name": "Armor and Clothing Extension",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2026-05-20",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Armor and Clothing Extension - SPID Patch-19002-1-6-3-1-1779241911.7z",
+    "Armor and Clothing Extension - SPID Patch-19002-3-6-1-1738799464.7z",
+    "Armor and Clothing Extension-19002-1-2-1614531869.zip"
+   ],
+   "author": "kryptopyr and Gamwich",
+   "leftover": true,
+   "key": "id:19002",
+   "theme": "armor"
+  },
+  {
+   "id": 37737,
+   "name": "Believable weapons",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-01-30",
+   "vr_lists": [
+    "Librum VR",
+    "Tahrovin",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Believable weapons SE-37737-1-0-2-1593641428.7z",
+    "Believable weapons SE-37737-1-4-1642208062.7z",
+    "Believable weapons-37737-1-5-1643576065.7z"
+   ],
+   "author": "jg1",
+   "leftover": false,
+   "key": "id:37737",
+   "theme": "armor"
+  },
+  {
+   "id": 58862,
+   "name": "Mage Armor Script Fix",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-11-22",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "MageArmorScriptFix-58862-1-0-1637563565.7z"
+   ],
+   "author": "ReDragon2013",
+   "leftover": false,
+   "key": "id:58862",
+   "theme": "armor"
+  },
+  {
+   "id": 51082,
+   "name": "Praedy and Willow's elder scroll and elder council amulet replacers - SE",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2025-01-02",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Elder Council Amulet HIMBO - Updated-51082-2-1-1735856537.7z",
+    "ElderScrollHD-SE 2K-51082-1-3-1638883414.7z",
+    "Praedy and Willow's elder scroll and amulet 1K-51082-2-1-1684753989.7z"
+   ],
+   "author": "PraedythXVI - WillOhTheWisp",
+   "leftover": false,
+   "key": "id:51082",
+   "theme": "armor"
+  },
+  {
+   "id": 110655,
+   "name": "Robes Retexture SE",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-02-02",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Robes Retexture SE - Half Res-110655-1-0-1706836428.rar",
+    "Robes Retexture SE-110655-1-0-1706835866.rar"
+   ],
+   "author": "Xavbio",
+   "leftover": false,
+   "key": "id:110655",
+   "theme": "armor"
+  },
+  {
+   "id": 81046,
+   "name": "[серия «dwemer armor», 3 модов] Dwemer Armor SE - My patches and fixes и др.",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2025-05-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Dwemer - SE by Xtudo - Fixes ESL-81046-3-1-1732799566.7z",
+    "Dwemer - SE by Xtudo - Fixes ESL-81046-3-2-1747745390.7z",
+    "Dwemer - SE by Xtudo - Fixes ESP-81046-3-2-1747745409.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:81046",
+   "series": "dwemer armor",
+   "members": [
+    {
+     "id": 81046,
+     "name": "Dwemer Armor SE - My patches and fixes",
+     "vr": 2,
+     "se": 7,
+     "newest": "2025-05-20",
+     "files": [
+      "Dwemer - SE by Xtudo - Fixes ESL-81046-3-1-1732799566.7z"
+     ]
+    },
+    {
+     "id": 81602,
+     "name": "Dwemer Armor SE - CBBE 3BA",
+     "vr": 2,
+     "se": 5,
+     "newest": "2026-05-30",
+     "files": [
+      "Dwemer Armor SE - CBBE 3BA - Forgotten City-81602-1-0-1672502205.7z"
+     ]
+    },
+    {
+     "id": 81043,
+     "name": "Dwemer Armor SE",
+     "vr": 2,
+     "se": 4,
+     "newest": "2022-12-20",
+     "files": [
+      "1DwemerArmorSE-81043-1-1671541249.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  }
+ ]
+}

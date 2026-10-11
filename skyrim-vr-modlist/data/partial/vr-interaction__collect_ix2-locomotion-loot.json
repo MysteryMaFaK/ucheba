@@ -1,0 +1,194 @@
+{
+ "picks": [
+  {
+   "key": "id:154803",
+   "id": 154803,
+   "name": "DovaVR Locomotion",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/154803",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": "armswing",
+   "what": "Ходьба взмахом рук: каденция шага, плавание и верховая езда с отдельными переключателями, чистый SKSE, без внешних программ.",
+   "vr_status": "vr_native",
+   "in_lists": "В 27 популярных списках нет (whouses 154803 пуст). Ставит VR-сборка Mad God's Overhaul (по её гайду synergyvr.org, мод выключен по умолчанию); версия там не видна.",
+   "files": "Основной файл. Имя архива и актуальная версия не подтверждены: в changelog из сниппетов видны 1.1.0 и 1.4.2 (1.4.2 — последняя, что удалось прочитать).",
+   "requires": [
+    "SKSEVR (#30457)",
+    "SkyUI VR (#91535) — для MCM; по сниппету страницы это все требования",
+    "HIGGS (#43930) — не требование, но страница заявляет совместимость"
+   ],
+   "interplay": "Im Walkin' Here VR (Core opt) НЕ пересекается: он только отключает толчки NPC, а не двигает игрока; в round 1 это было написано неверно. Natural Locomotion (Other-1) делает то же другим путём (эмулирует стик из SteamVR): не запускать оба сразу, выбрать один. VR Climbing Aelove (Core opt): прямого конфликта в источниках нет, оба слушают хват; на странице DovaVR заявлена совместимость с HIGGS, Spell Wheel, факелом, луком и одной рукой. Spell Wheel VR, Sprint Jump VR и Auto Sneak and Jump VR (Core opt): в 1.1.0 есть импульс прыжка, при включении проверять только одну схему прыжка. Wade in Water VR и Sink Or Swim NG: меняют скорость в воде, а DovaVR отдельно ведёт плавание, тест по очереди. Известный конфликт: Sailable Ship VR ломался с DovaVR, автор позже поправил (стик имеет приоритет); этого мода в наших списках нет.",
+   "note": "Ставить как опциональную замену стику, только если нужен комфорт. Включать переключатели отдельно: ходьба, плавание, верховая езда. Активация: жест «руки за спиной» или кнопка в MCM (кнопка с 1.1.0). Не выбирать хват как кнопку активации вместе с HIGGS без нужды: в 1.4.2 исправлена ошибка, когда «Right Grip» читался как «Right Trigger» и защита от хвата не работала; нужна версия не ниже 1.4.2. Тест: пройти, схватить предмет HIGGS на ходу, прицелиться луком, поплавать, сесть на коня. Один пользователь Steam пишет, что распознавание иногда нестабильно. Страницу Nexus прочитать нельзя (DNS), всё из сниппетов поиска; возраст страницы в индексе около 455 дней, поэтому свежесть не подтверждена. Взрослых интеграций нет.",
+   "evidence": "WebSearch-сниппеты страницы Nexus 154803: «Pure SKSE - no external software», cadence detection, realistic swimming, теги «Skyrim VR Required», требования SKSEVR и SkyUI VR, MCM (наклон, калибровка кнопок), changelog 1.1.0 и 1.4.2, заявка совместимости с HIGGS/Spell Wheel. Гайд Mad God's Overhaul (synergyvr.org/mgo/how-to-play/movement, через сниппет). Steam-обсуждение 611670/599657858219399676 (отзыв пользователя). Сниппет Sailable Ship VR (#72070) о конфликте и исправлении. Автор с гарнитурой: не подтверждено."
+  },
+  {
+   "key": "id:188691",
+   "id": 188691,
+   "name": "Take All Lockpicks VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/188691",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фикс VR: отмычки из трупа, сундука или спутника берутся все сразу, а не по одной, когда их не больше пяти (как в SE/AE).",
+   "vr_status": "vr_native",
+   "in_lists": "В 27 популярных списках нет (whouses 188691 пуст).",
+   "files": "Основной файл, версия 1.0.0 по сниппету страницы. Имя архива не подтверждено.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101) — в Core уже есть"
+   ],
+   "interplay": "Конфликтов с HIGGS/PLANCK/VRIK/Physical Collision VR/True Wield VR/Gift by Hand VR/OAR-Pandora/Engine Fixes VR по описанию нет: плагин срабатывает, когда берёте одну отмычку, и просит у игры взять 30000. QuickLoot IE (Core): неизвестно, проходит ли его выдача через тот же путь; если QuickLoot сам забирает по одной, мод может не сработать, но и не сломает. Quickloot VR тоже не нужен. Interactive Door Actions VR (round 1): другой путь (взлом дверей), стыков нет.",
+   "note": "Мелкая правка на любителя: если после установки отмычки всё равно берутся по одной через QuickLoot IE, оставить и брать в обычном контейнере или убрать. На SE/AE плагин сам ничего не делает (проверяет VR и пишет в лог). Автор на странице подтверждает только VR; имя автора по поиску не подтверждено (в одном ответе звучало AirWolf359, второй поиск его не подтвердил). Страницу Nexus прочитать нельзя, оценка по сниппетам; в XMODhub есть пометка «alpha», к какому файлу она относится, непонятно. Тест: взять 1–5 отмычек у убитого бандита и из сундука, в том числе через QuickLoot IE.",
+   "evidence": "WebSearch-сниппеты страницы Nexus 188691 (два запроса): описание проблемы VR, «30000», требования SKSEVR и VR Address Library, проверка на VR, версия 1.0.0, 0 отметок. Независимых отзывов нет."
+  },
+  {
+   "key": "id:25072",
+   "id": 25072,
+   "name": "No Lockpick Activate VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/25072",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": "nolockpick",
+   "what": "Не открывает инвентарь контейнера автоматически после взлома, чтобы остался виден QuickLoot; по описанию двери тоже не открываются сами после взлома.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "В 27 популярных списках нет (whouses 25072 пуст); SE-списки ставят только плоскую #26790.",
+   "files": "Основной файл, 1.0.0.0 («initial version for VR 1.4.15»). Имя архива и INI не подтверждены.",
+   "requires": [
+    "SKSEVR 2.0.10 (по странице; проверено только заявлением, на 2.0.12 не видел отчётов)"
+   ],
+   "interplay": "QuickLoot IE (Core): мод создан «for use with Loot Menu», то есть для такого сценария; прямой совместимости с IE в источниках нет. У IE может быть собственная настройка на этот случай, но два поиска противоречат друг другу, не подтверждено. Quickloot VR вместе с IE не ставить в любом случае. Interactive Door Actions VR (round 1, try): оба трогают взлом дверей, поэтому после взлома дверь может остаться закрытой; в VR её можно толкнуть рукой. Если мешает, убрать этот мод. Остальные (HIGGS/PLANCK/VRIK/PCVR/True Wield/GbH/OAR/Engine Fixes VR) по описанию не пересекаются, но DLL-хуки Activate не проверялись.",
+   "note": "Нужен только если QuickLoot IE после взлома сундука открывает ванильное меню вместо окна лута; сначала проверить без мода. Порт сделан с разрешения lStewieAl; права как у оригинала #24698. Отчётов пользователей о VR-сборке не нашёл. Страницу Nexus прочитать нельзя, оценка по сниппетам. SKSEVR 2.0.12: DLL собрана под 2.0.10, обычно проходит, но не проверено; смотреть sksevr.log. Тест: взломать сундук и дверь. Не брать вместо него #26790 (см. отдельную запись).",
+   "evidence": "WebSearch-сниппеты страницы Nexus 25072 (два запроса): порт #24698 с разрешением, требование SKSE VR 2.0.10, changelog «1.0.0.0, initial version for VR 1.4.15», описание «for use with Loot Menu, also stops doors opening when picked». Комментариев пользователей не нашлось. GitHub Umgak/Skyrim-No-Lockpick-Activate: архив, пометка об устаревании от 2026-09-11, README без VR."
+  },
+  {
+   "key": "id:26790",
+   "id": 26790,
+   "name": "No Lockpick Activate (SKSE) - Updated (плоская)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/26790",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "nolockpick",
+   "what": "Плоская версия No Lockpick Activate (4.0.1) из SE-списков: в VR не ставить, брать только VR-порт #25072.",
+   "vr_status": "flat_only",
+   "in_lists": "Только SE-списки: Elysium Remastered и Apostasy (3.2, 7z), The Northern Experience (4.0.1, 2026-09-12).",
+   "files": "Не брать. Для справки: «No Lockpick Activate (SKSE) - Updated» 4.0.1 (Northern Experience), 3.2 (Elysium, Apostasy).",
+   "requires": [],
+   "interplay": "Дублирует #25072: одновременно не ставить. Релиз 4.0.0/4.0.1 (GitHub Umgak/NoLockpickActivate, 11–12 сентября 2026) заявляет совместимость «со всеми версиями Skyrim Special Edition, которые поддерживает SKSE»; VR в README и коммитах не упомянут, страница #26790 сама отсылает VR-игроков на отдельную версию.",
+   "note": "В INI у 4.0.1 по умолчанию двери и контейнеры настраиваются раздельно (CONT и DOOR), но README противоречит сам себе (пишет «только контейнеры», а в INI DOOR=true). Для VR этот файл не подтверждён, запуск возможен только как эксперимент без гарантий.",
+   "evidence": "WebFetch GitHub Umgak/NoLockpickActivate: README, releases v4.0.0 и v4.0.1, коммиты (ни одного упоминания VR). whouses 26790: три SE-архива. Сниппет страницы #26790: «VR Version available here»."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": null,
+   "name": "Natural Locomotion (Steam)",
+   "reason": "Уже в Other-1 (opt). Эмулирует стик через драйвер SteamVR, отдельных устройств не требует (в Other-1 это сказано неверно). Не запускать вместе с DovaVR, выбрать один."
+  },
+  {
+   "id": 39433,
+   "name": "Im Walkin' Here VR",
+   "reason": "В Core opt. Это отключение толчков NPC, а не перемещение игрока; с DovaVR не пересекается (замечание round 1 о пересечении неверно)."
+  },
+  {
+   "id": 170321,
+   "name": "VR Climbing - Aelove Ver",
+   "reason": "Уже в Core opt. Конфликта с DovaVR в источниках нет, оба используют хват и HIGGS; тест на практике нужен."
+  },
+  {
+   "id": 151637,
+   "name": "Wade in Water VR",
+   "reason": "Уже kept в round 1 (try); нового подтверждения нет (страница недоступна, только Reddit-пост). Стык с DovaVR: тест по очереди, скорость в воде."
+  },
+  {
+   "id": 78610,
+   "name": "Sink Or Swim NG",
+   "reason": "Core opt. Скорость в воде может совпасть с плаванием DovaVR, сравнить по очереди; отдельной записи не нужно."
+  },
+  {
+   "id": 129594,
+   "name": "Smooth Carriage Ride VR",
+   "reason": "Core opt. Касается камеры в карете, не движения игрока; с DovaVR прямых связей нет."
+  },
+  {
+   "id": 189346,
+   "name": "Treadmill Locomotion VR",
+   "reason": "Отклонён в round 1; новое подтверждает отказ: только RealityRunner V2, тестовый 0.1.0 (около 24.08.2026), помечен AI-generated, общий слой XInput с Head Directed Turning и Tiptoe To Jump VR."
+  },
+  {
+   "id": 189345,
+   "name": "Tiptoe To Jump VR",
+   "reason": "Отклонён в round 1; нового нет: ранний тест, общий XInput-слой, прыжок уже закрыт Sprint Jump VR и Auto Sneak and Jump VR."
+  },
+  {
+   "id": null,
+   "name": "Head Directed Turning",
+   "reason": "Отклонён в round 1; нового нет, узкая ниша и общий слой XInput."
+  },
+  {
+   "id": 72070,
+   "name": "Sailable Ship VR",
+   "reason": "Контентный мод про корабли; упомянут только как известный конфликт с DovaVR (исправлено автором)."
+  },
+  {
+   "id": 102094,
+   "name": "Quickloot VR",
+   "reason": "Round 1: alt, не вместе с QuickLoot IE (Core); нового нет."
+  },
+  {
+   "id": 184347,
+   "name": "Interactive Door Actions - VR",
+   "reason": "Уже kept в round 1 (try); не предлагаю заново, стык с No Lockpick Activate VR описан в interplay."
+  },
+  {
+   "id": 120075,
+   "name": "QuickLoot IE",
+   "reason": "Core rec. Поведение при взломе и собственная настройка IE не подтверждены: два поиска противоречат, README и релизы GitHub об этом молчат."
+  },
+  {
+   "id": 108832,
+   "name": "Amazing Lockpicks",
+   "reason": "SKSE-оверхол отмычек (модели, прочность): геймплей, не VR-взаимодействие; VR-файл отдельно не виден."
+  },
+  {
+   "id": 22160,
+   "name": "JS Lockpicking UI SE",
+   "reason": "Уже в Other-2 (round 1)."
+  },
+  {
+   "id": 193116,
+   "name": "Lockpick Reveal Bar",
+   "reason": "Round 1: на странице VR не поддерживается; нового нет."
+  },
+  {
+   "id": 58224,
+   "name": "Security Overhaul SKSEVR - Lock Variations VR",
+   "reason": "Только внешний вид замков, уже в Other-2; не про взаимодействие."
+  },
+  {
+   "id": 21297,
+   "name": "MageVR / MuKen's Active Gesture Extension (взлом жестом)",
+   "reason": "В ix_dont round 1; нового подтверждения нет, не возвращаю."
+  },
+  {
+   "id": null,
+   "name": "Immersive VR Actions (Alpha, взлом контроллером)",
+   "reason": "По Reddit-сниппету не выпущен; нет страницы, нет файлов."
+  },
+  {
+   "id": 71418,
+   "name": "Wade In Water Redone (+ Loki's #42854)",
+   "reason": "Плоские DLL, round 1 dont; нового нет."
+  },
+  {
+   "id": null,
+   "name": "Walkable Skyrim",
+   "reason": "Отклонён в round 1: правка скоростей, нет списков и проверки; нового нет."
+  },
+  {
+   "id": 107780,
+   "name": "Mad God's Overhaul (список)",
+   "reason": "Это сборка, а не мод; использована только как доказательство того, что DovaVR ставят в VR-список."
+  }
+ ],
+ "notes": "Все страницы Nexus недоступны (DNS), поэтому всё из сниппетов WebSearch и GitHub README. GAP 5 (DovaVR): функции и требования подтверждены сниппетами страницы (Skyrim VR Required, SKSEVR и SkyUI VR, MCM, жест рук или кнопка, переключатели ходьбы, плавания и езды, совместимость с HIGGS и Spell Wheel), плюс VR-список Mad God's Overhaul ставит его (выключен по умолчанию). Не подтверждено: имя архива, актуальная версия (последняя из прочитанного 1.4.2), наличие у автора гарнитуры, свежесть (страница по индексу около 455 дней). Метка try: один отзыв пользователя про нестабильность, нет записей в популярных списках. Исправление round 1: Im Walkin' Here VR к перемещению отношения не имеет (толчки NPC), а Natural Locomotion не требует железа. GAP 7: Take All Lockpicks VR VR-нативный (SKSEVR и VR Address Library, на SE/AE бездействует), No Lockpick Activate VR порт на SKSEVR 2.0.10 (changelog «VR 1.4.15»), на 2.0.12 прямых отчётов нет. Обе метки opt как мелкие правки, но с оговоркой, что страницы прочитаны только по сниппетам; если нужна строгость правила «страницу не прочитал, значит try», понизить обе до try. Плоскую #26790 в VR не ставить: её 4.0.x не заявляет VR, отдельный VR-порт #25072. Известные пробелы: как QuickLoot IE вёл бы себя после взлома (в источниках противоречие), берёт ли IE отмычки по одной, и обработка Activate вместе с Interactive Door Actions VR. Во всех трёх модах взрослых интеграций нет. Имя автора Take All Lockpicks VR не подтверждено."
+}

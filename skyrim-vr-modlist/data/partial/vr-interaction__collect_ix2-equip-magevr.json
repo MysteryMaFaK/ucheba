@@ -1,0 +1,161 @@
+{
+ "picks": [
+  {
+   "key": "id:186897",
+   "id": 186897,
+   "name": "Immersive Equip VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/186897",
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": "equip-by-hand",
+   "what": "Надеть/снять шлем, броню, перчатки, сапоги, амулет, кольца руками: поднести вещь к телу и отпустить хват; снять — держать хват ~1 с.",
+   "vr_status": "vr_native",
+   "in_lists": "Ни в одном из 27 списков (whouses 186897 пуст). Рядом стоит VR Equip #83092 (4+ VR-списка), это другой мод.",
+   "files": "Имя архива Nexus НЕ известно (страница не читается). По сниппету поиска на Nexus: v2.0.0, обновлено 12.08.2026. GitHub djhert/ImmersiveEquipVR: релизов нет, только исходники и ImmersiveEquipVR.ini (MIT).",
+   "requires": [
+    "SKSEVR (#30457)",
+    "HIGGS (#43930), жёстко: без него в логе ошибка и мод ничего не делает (README)",
+    "SKSE Menu Framework (#120352), необязательно: страница настроек в игре (в Core есть, rec)",
+    "VR Address Library (#58101): README не называет, но у Core он и так стоит; проверить по странице Nexus"
+   ],
+   "interplay": "Одно из двух с VR Equip #83092 (Core, opt): оба берут вещь HIGGS и надевают у тела, жест один, будет двойная обработка. VR Equip ещё кормит ртом (еда/зелья), у IEVR этого нет. Gift by Hand VR (Core opt): отдача предмета NPC рукой пересекается с экипировкой NPC в IEVR 2.0.0; в INI секция [NPC] отключается. Precision Physic Bodies (хват за одежду, кандидат другого раунда): включать только один набор жестов. Spell Wheel VR: авторы учли, снятие блокируется при зажатых курке и хвате. Instant Equip VR (Core rec): не конфликт, тот убирает анимации. PLANCK, Physical Collision VR, True Wield VR, OAR/Pandora, Engine Fixes VR: в README не упомянуты, конфликтов не видно, не проверено в игре.",
+   "note": "Метка try, не rec. (1) Автор пишет: гарнитуры для проверки нет, это «первый проход, нужна проверка в шлеме»; меню настроек тоже не проверено в шлеме. 0 звёзд, 5 коммитов (30.07 v1; 10.08 экипировка NPC; 12.08 универсальный слот, правки). (2) Nexus и репозиторий скорее всего один проект (даты 12.08, NPC-экипировка 2.0.0, перечень слотов и режим подмены совпадают со сниппетом), но README ссылку на Nexus не содержит, а автора на странице я не увидел: тождество не доказано. (3) Требования Nexus не прочитаны; сниппет упоминает VRIK, а в README про PLANCK и VRIK как требования ничего нет (в раунде 1 они были записаны по поиску). Позиции берутся от тела VRIK. (4) Предмет должен лежать в мире и быть схвачен HIGGS: сначала выбросить из инвентаря или достать из контейнера хватом. (5) Хват читается с физической кнопки, ремап хвата ломает жест. Кости заданы под стандартный скелет. (6) Настройки читаются только при запуске игры. Как тестировать: отдельный профиль MO2, отключить VR Equip, в INI поставить iOverrideMode=1 (подмена, по умолчанию), [NPC] выключить, проверить шлем/грудь/сапоги/кольцо, снятие хватом 1 с, подмену, ремень с оружием.",
+   "evidence": "README (github.com/djhert/ImmersiveEquipVR, чтение через WebFetch): слоты chest/gloves/head/boots/amulet/ring + generic у таза; требования только HIGGS; сборка пресетом build-relwithdebinfo-vr-only; «don't have a VR headset to test this against»; конфликт хвата со Spell Wheel VR учтён. ImmersiveEquipVR.ini: fUnequipHoldSeconds=1.0, iOverrideMode 0-3 (по умолчанию 1), секции Chest/Gloves/Head/Boots/Amulet/Ring/Generic/Haptics/NPC. История коммитов GitHub: 30.07.2026, 10.08, 12.08. Страница Nexus прочитана только через сниппеты поиска (v2.0.0, 12.08.2026, NPC-экипировка без снятия с NPC)."
+  },
+  {
+   "key": "id:184866",
+   "id": 184866,
+   "name": "MageVR Reborn (VR Backpack + VR SpellBook)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184866",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": "spell-select",
+   "what": "Один FOMOD, две части: VR SpellBook (заклинания жестом-глифом, двойной каст, двуручные крики) и VR Backpack (3D-инвентарь с плеча, лут, карманные кражи).",
+   "vr_status": "vr_native",
+   "in_lists": "Ни в одном из 27 списков (whouses 184866 пуст). Старый MageVR #21297 есть только в FUS (2.8, 2020).",
+   "files": "Имя архива Nexus НЕ известно. FOMOD: «Core» (обязателен, общий MCM и MageVR Reborn.esp) + «VR Backpack» и/или «VR SpellBook». GitHub-релиз V2.1.1 от 18.08.2026 (3 файла, имена не прочитались). По сниппету Nexus версия 2.1.3 (добавлен ключевое слово для Big Leather Backpack, глиф-каст отзывчивее); GitHub отстаёт от Nexus.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library (#58101), в Core",
+    "Skyrim VR ESL Support (#106712), в Core",
+    "VRIK (#23416), в Core",
+    "HIGGS (#43930), в Core",
+    "SkyUI VR (#91535), в Core",
+    "MCM Helper (#53000) 1.3+, в Core (там 1.6.x универсальный; README просит «VR main file», сверить на странице)",
+    "ElSopa HD Big Backpack (#36445), только для части Backpack; в VR-списках нет",
+    "Необязательно: Inventory Injector I4 (#85702) (в Core есть), Legacy of the Dragonborn"
+   ],
+   "interplay": "Reborn не заменяет Spell Wheel VR целиком и не дополняет его: SpellBook делает ту же работу выбора и каста заклинаний через зажатие кнопки, колесо же даёт ещё оружие и зелья. Spell Wheel VR остаётся: от него жёстко зависят Durability VR, Steeds of Ultima VR, Instant Equip VR, Immersive Smithing. Группа spell-select: по умолчанию Spell Wheel VR. Старый MageVR #21297 Reborn заменяет (отдельный ESP «MageVR Reborn.esp»), вместе не ставить; #21297 остаётся в ix_dont. Magic Improvements VR, Spell Auto-Aim VR: в README не упомянуты, прицел вроде бы остаётся за ними, но это не проверено. OpenComposite Unleashed (Core rec): кнопка A занята ACTIVATE и является кнопкой каста по умолчанию, зажатие настраивается в MCM или castholdms в SKSE/Plugins/vrsb_spike.txt (читается на лету); в V2.1 есть исправление. Часть Backpack пересекается с QuickLoot IE (Core rec) по окну лута контейнера и с Interactive Activators VR по активации. Токены считаются ножами: нужна кобура ножа на плече в VRIK. MCM Helper должен выигрывать у SkyUI VR по SKI_ConfigMenu.pex.",
+   "note": "Метка try: в основной список не добавлять. (1) В README нет раздела конфликтов и списка изменений; сведения о Spell Wheel VR и Magic Improvements тут вывод, а не факт автора. (2) Мод молодой: репозиторий 02.07.2026, релизы 19.07, 27.07, 17.08 (V2.1), 18.08, 18 отметок на Nexus, 0 обращений на GitHub. (3) Для SpellBook советуется отдельный тест-профиль со Spell Wheel VR, выключенным в MCM, или наоборот: смотреть двойной каст и удержание кнопки. (4) Часть VR Backpack на Core не заработает без вещи Big Leather Backpack (Wet and Cold или Legacy of the Dragonborn, ни того ни другого в Core нет) и ElSopa HD Big Backpack; ставить только если владелец решит добавить рюкзак. Пока ставить только VR SpellBook, если вообще. (5) Взрослые иконки: README советует пакеты иконок с вызывающими названиями (B.O.O.B.I.E.S., A.S.S., T.H.I.C.C., P.E.N.I.S., S.E.X.Y. и др.); безопасная настройка: не ставить ни один, оставить I4 и стандартные иконки SkyUI. (6) Текст в интерфейсе: только латиница, цифры, базовая пунктуация; кириллица покажется пустыми знаками, русские названия заклинаний и предметов в панелях не читаются. (7) Лок-пик в README не обещан (в плане: «VR QuestLog»); утверждение раунда 1 про лок-пик не подтверждено.",
+   "evidence": "README (github.com/Telord72612/MageVR-Reborn, WebFetch): «Skyrim VR only», FOMOD Core + два раздела, жёсткие требования списком, OCU-раздел (ACTIVATE на A совпадает с кнопкой каста, регулируется castholdms). Релизы GitHub: V2.1 (17.08.2026) «fixes ... casting-button conflict under OpenComposite/OCU», V1.2 «Back Pack overlay not appearing after removal from a VRIK holster» + патч OCU: такие правки видны только при игре в шлеме (прямого заявления «tested in VR» нет). В ноябре 2025 пост «telord» на странице старого MageVR про сломанный SteamVR (совпадение ника, личность не подтверждена). Сниппет Nexus: 2.1.3, «rebuild ... inspired by original MageVR»; README благодарит AWildMuKen как автора оригинала."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 21297,
+   "name": "MageVR (MuKen's Active Gesture Extension), оригинал",
+   "reason": "Остаётся в ix_dont: 2020 год, только FUS 2.8, Reborn его заменяет, вместе не ставить; новых доказательств в пользу оригинала нет."
+  },
+  {
+   "id": 83092,
+   "name": "VR Equip",
+   "reason": "Уже в Core (opt, 1.3.2); не новое, по умолчанию остаётся в группе equip-by-hand."
+  },
+  {
+   "id": 44571,
+   "name": "Instant Equip VR",
+   "reason": "Уже в Core (rec), убирает анимации, не жест экипировки."
+  },
+  {
+   "id": 99809,
+   "name": "Gift by Hand VR",
+   "reason": "Уже в Core (opt); пересечение с экипировкой NPC в Immersive Equip VR снимается выключением [NPC]."
+  },
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies",
+   "reason": "Предмет другой группы раунда, его экипировочные жесты конфликтуют с Immersive Equip VR; здесь не рассматривался."
+  },
+  {
+   "id": 147691,
+   "name": "VR Equip Potions And Ingredients",
+   "reason": "Уже в списке раунда 1 (try); расширение VR Equip, перезаписывает Vrequip.pex; с Immersive Equip VR не совместимо по логике."
+  },
+  {
+   "id": 62001,
+   "name": "Immersive Equipment Displays (IED)",
+   "reason": "SE/AE-плагин без сборки под VR 1.4.15, только отображение снаряжения, не руки; уже в OTHER_MODS как «не ставить»."
+  },
+  {
+   "id": 77187,
+   "name": "Immersive Equipping Animations",
+   "reason": "Только SE-анимации экипировки, не VR-жест, SE-списки."
+  },
+  {
+   "id": 16467,
+   "name": "Immersive VR Quickslots Tool",
+   "reason": "Старое приложение-оверлей (по описанию «proof of concept»), дублирует Spell Wheel VR и ломается с OpenComposite."
+  },
+  {
+   "id": 47630,
+   "name": "Spell Wheel VR",
+   "reason": "Core core, остаётся; от него зависят Durability VR, Steeds of Ultima, Instant Equip VR."
+  },
+  {
+   "id": 55751,
+   "name": "Magic Improvements for Skyrim VR (MISVR)",
+   "reason": "Уже в Core (rec); общего конфликта с Reborn в источниках нет, только не проверено."
+  },
+  {
+   "id": 119689,
+   "name": "Spell Auto-Aim VR",
+   "reason": "Уже в Core (opt); совместимость с SpellBook не проверена."
+  },
+  {
+   "id": 171182,
+   "name": "OpenComposite Unleashed for Skyrim VR",
+   "reason": "Уже в Core (rec); перекрытие кнопки A описано в README Reborn и решается настройкой."
+  },
+  {
+   "id": 36445,
+   "name": "ElSopa HD Big Backpack",
+   "reason": "Требование части Backpack; SE-контентный мод, в VR-списках нет, самостоятельной ценности для взаимодействия нет."
+  },
+  {
+   "id": 85702,
+   "name": "Inventory Interface Information Injector (I4)",
+   "reason": "Уже в Core (rec); нужен Reborn только для иконок."
+  },
+  {
+   "id": 120075,
+   "name": "QuickLoot IE",
+   "reason": "Уже в Core (rec); окно лута Reborn Backpack может дублировать его."
+  },
+  {
+   "id": 102094,
+   "name": "Quickloot VR",
+   "reason": "Решено в раунде 1 (alt, не ставить), не пересматривалось."
+  },
+  {
+   "id": 6534,
+   "name": "Mage Backpack SSE",
+   "reason": "Плоский SE-рюкзак, VR-сборки и руки не заявлены."
+  },
+  {
+   "id": null,
+   "name": "Пакеты иконок для MageVR Reborn (B.O.O.B.I.E.S., A.S.S., T.H.I.C.C., P.E.N.I.S., S.E.X.Y., O.C.F.)",
+   "reason": "Взрослая тематика названий, необязательны, не рекомендуются."
+  },
+  {
+   "id": null,
+   "name": "Swap Drop and Hold Redux",
+   "reason": "Уже в Core, только оружие."
+  },
+  {
+   "id": null,
+   "name": "Nexus VR Backpack (TheNexusAvenger)",
+   "reason": "Roblox-компонент, не Skyrim."
+  }
+ ],
+ "notes": "Итог по GAP 2 и 3. Immersive Equip VR: реальный VR-мод (сборка vr-only), версия Nexus 2.0.0 от 12.08.2026, связь Nexus и GitHub-репозитория djhert вероятна по совпадению дат и функций, но не доказана (README Nexus не упоминает, автора страницы я не видел). Автор прямо пишет, что гарнитуры нет, поэтому tag try, а не rec. Это ВЗАИМОИСКЛЮЧАЮЩАЯ пара с VR Equip #83092 (Core opt): оба надевают хватом у тела. Раунд 1 записал требования PLANCK/VRIK/Address Library по сниппетам; README требует только HIGGS (VRIK, судя по тексту, нужен по сути, так как позиции берутся от IK тела). Имя архива и FOMOD на Nexus неизвестны (страница недоступна), поэтому для манифеста файл подбирать вручную по Nexus. MageVR Reborn: заменяет старый MageVR #21297 (отдельный ESP, оригинал остаётся в ix_dont); со Spell Wheel VR это альтернатива, а не дополнение для выбора заклинаний, но заменить колесо в этой сборке нельзя из-за жёстких зависимостей Durability VR, Steeds of Ultima VR, Instant Equip VR; поэтому группа spell-select с рекомендацией оставить Spell Wheel VR. Часть VR Backpack без Big Leather Backpack (Wet and Cold или Legacy of the Dragonborn, их нет в Core) практически не работает. Подписки GitHub API (gh, коммиты через api.github.com) закрыты сессией, поэтому даты взяты из HTML-страниц коммитов и релизов; страницы Nexus не читались, всё про них из сниппетов WebSearch. Сниппет упоминал «A.S.S.» как требование Reborn, но по README это необязательный пакет иконок; я его в требования не включил. FOMOD-части Reborn рекомендованы раздельно (SpellBook: только в тест-профиль; Backpack: после решения про рюкзак); если нужно, оркестратор может разнести их на два пункта (ix_magic и ix_ui) с тем же ID. Рекомендованный порядок MO2: оба ниже HIGGS и VRIK; Reborn ниже SkyUI VR и MCM Helper (MCM Helper должен выигрывать у SkyUI VR по SKI_ConfigMenu.pex).\""
+}

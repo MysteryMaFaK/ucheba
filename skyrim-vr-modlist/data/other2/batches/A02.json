@@ -1,0 +1,1446 @@
+{
+ "batch": "A02",
+ "band": "A",
+ "themes": {
+  "armor": 21
+ },
+ "items": [
+  {
+   "id": 58023,
+   "name": "Conduit - Short-term Weapon Infusions",
+   "vr": 7,
+   "se": 3,
+   "score": 17,
+   "band": "A",
+   "newest": "2022-09-20",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Conduit - XPMSE Patch-58023-1-0-1643822861.7z",
+    "Conduit-58023-2-1-1639325318.7z",
+    "Conduit-58023-2-5-1660506949.7z"
+   ],
+   "author": "Arctal",
+   "leftover": false,
+   "key": "id:58023",
+   "theme": "armor"
+  },
+  {
+   "id": 66125,
+   "name": "NPCs Wear Amulets of Mara PLUS",
+   "vr": 3,
+   "se": 11,
+   "score": 17,
+   "band": "A",
+   "newest": "2023-02-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "NPCs Wear Amulets of Mara 2.0-66125-2-0-1652883921.zip",
+    "NPCs Wear Amulets of Mara-66125-2-03-1677535055.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:66125",
+   "theme": "armor"
+  },
+  {
+   "id": 101101,
+   "name": "Dragon Priests Retexture SE",
+   "vr": 2,
+   "se": 12,
+   "score": 16,
+   "band": "A",
+   "newest": "2024-05-31",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 12,
+   "files": [
+    "Dragon Priests Retexture SE - Half Res-101101-1-1-1717159764.7z",
+    "Dragon Priests Retexture SE-101101-1-1-1717159606.7z",
+    "Konahrik's Accoutrements Textures only (outdated)-101101-1-0-1717160013.7z"
+   ],
+   "author": "xavbio",
+   "leftover": false,
+   "key": "id:101101",
+   "theme": "armor"
+  },
+  {
+   "id": 41863,
+   "name": "[серия «high poly», 14 модов] High Poly Vanilla Hair и др.",
+   "vr": 3,
+   "se": 11,
+   "score": 16,
+   "band": "A",
+   "newest": "2021-02-02",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "High Poly Vanilla Hair-41863-3-0f-1612286321.7z"
+   ],
+   "author": "Macxhiin",
+   "leftover": true,
+   "key": "id:41863",
+   "series": "high poly",
+   "members": [
+    {
+     "id": 41863,
+     "name": "High Poly Vanilla Hair",
+     "vr": 3,
+     "se": 10,
+     "newest": "2021-02-02",
+     "files": [
+      "High Poly Vanilla Hair-41863-3-0f-1612286321.7z"
+     ]
+    },
+    {
+     "id": 40418,
+     "name": "High Poly Blackreach Mushrooms",
+     "vr": 2,
+     "se": 10,
+     "newest": "2021-04-06",
+     "files": [
+      "High Poly Blackreach Mushrooms-40418-1-1-1617711701.7z"
+     ]
+    },
+    {
+     "id": 12029,
+     "name": "High Poly Project",
+     "vr": 1,
+     "se": 11,
+     "newest": "2021-10-22",
+     "files": [
+      "High Poly Project-12029-v5-3-1634909383.zip"
+     ]
+    },
+    {
+     "id": 40278,
+     "name": "High Poly Gleamblossoms",
+     "vr": 1,
+     "se": 10,
+     "newest": "2021-07-16",
+     "files": [
+      "High Poly Gleamblossoms - ENB Light-40278-1-2-1626461597.7z"
+     ]
+    },
+    {
+     "id": 63991,
+     "name": "High Poly Head ENB Brow Fix",
+     "vr": 0,
+     "se": 10,
+     "newest": "2022-02-20",
+     "files": [
+      "DROPS v1-63991-1-0.7z"
+     ]
+    },
+    {
+     "id": 48292,
+     "name": "High Poly Female Presets vol.2",
+     "vr": 3,
+     "se": 0,
+     "newest": "2021-04-08",
+     "files": [
+      "HIgh Poly Female Presets vol.2-48292-1-1-1617909105.zip"
+     ]
+    },
+    {
+     "id": 79178,
+     "name": "High Poly Pretty Bosmer Boy Racemenu Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-11-21",
+     "files": [
+      "HPPPB-79178-1-0-1669057043.rar"
+     ]
+    },
+    {
+     "id": 79111,
+     "name": "High Poly Solstheim Mushroom Trees",
+     "vr": 1,
+     "se": 4,
+     "newest": "2026-05-25",
+     "files": [
+      "High Poly Solstheim Mushroom Trees-79111-1-0-1668963323.rar"
+     ]
+    },
+    {
+     "id": 82499,
+     "name": "High Poly Trama Roots",
+     "vr": 1,
+     "se": 4,
+     "newest": "2023-01-24",
+     "files": [
+      "High Poly Trama Roots-82499-1-2-1674542275.rar"
+     ]
+    },
+    {
+     "id": 71237,
+     "name": "High Poly Dragonborn Ingredients Retextured",
+     "vr": 0,
+     "se": 5,
+     "newest": "2022-07-14",
+     "files": [
+      "ELIF Patch-71237-1-0-1657796420.rar"
+     ]
+    },
+    {
+     "id": 69466,
+     "name": "High Poly Milk Jug",
+     "vr": 0,
+     "se": 5,
+     "newest": "2022-06-10",
+     "files": [
+      "High Poly Milk Jug - HD Textures-69466-1-0-1654889980.7z"
+     ]
+    },
+    {
+     "id": 47891,
+     "name": "High Poly Soul Husks",
+     "vr": 1,
+     "se": 2,
+     "newest": "2021-04-01",
+     "files": [
+      "High Poly Soul Husks for cunny1975's textures-47891-0-2-1617301553.7z"
+     ]
+    },
+    {
+     "id": 83313,
+     "name": "High Poly Windhelm Hawk Gate Bridge",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-11-14",
+     "files": [
+      "EVE - High Poly Windhelm Gate Bridge - WHgate03-83313-1-0-1674485969.7z"
+     ]
+    },
+    {
+     "id": 62967,
+     "name": "High poly Mudcrab n Retexture",
+     "vr": 1,
+     "se": 2,
+     "newest": "2022-02-02",
+     "files": [
+      "Mudcrabs by Pfuscher-62967-1-0-1643796630.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 91136,
+   "name": "[серия «weapons retexture se», 25 модов] Ancient Nord Armors and Weapons Retexture SE и др.",
+   "vr": 2,
+   "se": 12,
+   "score": 16,
+   "band": "A",
+   "newest": "2026-07-14",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 12,
+   "files": [
+    "Ancient Nord Armors and Weapons Retexture SE-91136-1-0-1683835861.rar",
+    "Ancient Nord Armors and Weapons Retexture SE-91136-1-1-1741638128.7z",
+    "Ancient Nord Armors and Weapons Retexture SE-91136-2-0-0-1764771260.7z"
+   ],
+   "author": "Xavbio",
+   "leftover": false,
+   "key": "id:91136",
+   "series": "weapons retexture se",
+   "members": [
+    {
+     "id": 91136,
+     "name": "Ancient Nord Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 12,
+     "newest": "2026-07-14",
+     "files": [
+      "Ancient Nord Armors and Weapons Retexture SE-91136-1-0-1683835861.rar"
+     ]
+    },
+    {
+     "id": 84151,
+     "name": "Daedric Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 12,
+     "newest": "2026-01-27",
+     "files": [
+      "Daedric Armors and Weapons Retexture SE - Half Res-84151-1-2-1686690015.rar"
+     ]
+    },
+    {
+     "id": 83654,
+     "name": "Ebony Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 12,
+     "newest": "2026-04-25",
+     "files": [
+      "1_Ebony Armors and Weapons Retexture SE-83654-2-0-2-1735050525.7z"
+     ]
+    },
+    {
+     "id": 84978,
+     "name": "Iron Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 12,
+     "newest": "2026-03-26",
+     "files": [
+      "Iron Armors and Weapons Retexture SE - Half res-84978-1-1-1686691221.rar"
+     ]
+    },
+    {
+     "id": 89109,
+     "name": "Silver Armor and Weapons Retexture SE",
+     "vr": 2,
+     "se": 12,
+     "newest": "2026-07-18",
+     "files": [
+      "Silver Armor and Weapons Retexture SE - Half Res 89109 2.1.1 2026-07-18T14-50Z PuQ2UKtzR.7z"
+     ]
+    },
+    {
+     "id": 87283,
+     "name": "Elven Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 11,
+     "newest": "2026-06-10",
+     "files": [
+      "CC Elven Crossbow - Mesh Fix-87283-1-0-1679231856.rar"
+     ]
+    },
+    {
+     "id": 84607,
+     "name": "Orcish Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 11,
+     "newest": "2026-01-27",
+     "files": [
+      "Orcish Armors and Weapons Retexture SE - Half Res-84607-1-1-1686690490.rar"
+     ]
+    },
+    {
+     "id": 83222,
+     "name": "Dragon Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2026-06-09",
+     "files": [
+      "B. Dragon Weapons and Armors Retexture SE 2K-1K-83222-1-2-1677116288.rar"
+     ]
+    },
+    {
+     "id": 93088,
+     "name": "Dwemer Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2026-06-05",
+     "files": [
+      "Dwemer Armors and Weapons Retexture SE - Half Res-93088-1-0-1686248797.rar"
+     ]
+    },
+    {
+     "id": 87580,
+     "name": "Glass Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2026-05-28",
+     "files": [
+      "Glass Armors and Weapons Retexture SE - Half res-87580-1-01-1686697069.rar"
+     ]
+    },
+    {
+     "id": 86097,
+     "name": "Imperial Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2026-06-24",
+     "files": [
+      "Imperial Armors and Weapons Retexture SE - HalfRes 86097 2.0.5 2026-06-24T05-28Z EwgfAeSLe.7z"
+     ]
+    },
+    {
+     "id": 96204,
+     "name": "Stalhrim Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2023-07-20",
+     "files": [
+      "Stalhrim Armors and Weapons Retexture SE - HalfRes-96204-1-1-1689866329.rar"
+     ]
+    },
+    {
+     "id": 105771,
+     "name": "Unique Armors and Weapons Retexture SE",
+     "vr": 1,
+     "se": 10,
+     "newest": "2026-01-14",
+     "files": [
+      "Saviors Hide - Vanilla Meshes - Cubemap Addon fix-105771-1-4-1768426101.7z"
+     ]
+    },
+    {
+     "id": 169281,
+     "name": "Faction Armors and Weapons Retexture SE",
+     "vr": 1,
+     "se": 8,
+     "newest": "2026-06-10",
+     "files": [
+      "Faction Armors and Weapons Retexture SE - Half Res-169281-1-1-0-1768597753.7z"
+     ]
+    },
+    {
+     "id": 90711,
+     "name": "Falmer Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 6,
+     "newest": "2023-05-05",
+     "files": [
+      "Falmer Armors and Weapons Retexture SE - Half Res-90711-1-0-1683300113.rar"
+     ]
+    },
+    {
+     "id": 94859,
+     "name": "Bonemold Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 5,
+     "newest": "2023-07-02",
+     "files": [
+      "Bonemold Armors and Weapons Retexture SE- Half Res-94859-1-0-1688311624.rar"
+     ]
+    },
+    {
+     "id": 87926,
+     "name": "Wolf Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 4,
+     "newest": "2025-03-09",
+     "files": [
+      "Wolf Armors and Weapons Retexture SE - Half Res-87926-1-01-1686697927.rar"
+     ]
+    },
+    {
+     "id": 91723,
+     "name": "Nightingale Armor and Weapons Retexture SE",
+     "vr": 2,
+     "se": 3,
+     "newest": "2023-05-20",
+     "files": [
+      "Nightingale Armor and Weapons Retexture SE-91723-1-0-1684545900.rar"
+     ]
+    },
+    {
+     "id": 96855,
+     "name": "Vampire Armors and Weapons Retexture SE",
+     "vr": 2,
+     "se": 3,
+     "newest": "2023-07-27",
+     "files": [
+      "Vampire Armors and Weapons Retexture SE - Half Res-96855-1-0-1690493055.rar"
+     ]
+    },
+    {
+     "id": 92161,
+     "name": "Dawnguard Armors and Weapons Retexture SE",
+     "vr": 1,
+     "se": 4,
+     "newest": "2023-05-25",
+     "files": [
+      "Dawnguard Armors and Weapons Retexture SE-92161-1-0-1685045655.rar"
+     ]
+    },
+    {
+     "id": 95292,
+     "name": "Ancient Falmer Armors and Weapons Retexture SE",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-07-07",
+     "files": [
+      "Ancient Falmer Armors and Weapons Retexture SE-95292-1-0-1688757038.rar"
+     ]
+    },
+    {
+     "id": 86568,
+     "name": "Blades Armors and Weapons Retexture SE",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-06-13",
+     "files": [
+      "Blades Armors and Weapons Retexture SE - Half res-86568-1-01-1686692768.rar"
+     ]
+    },
+    {
+     "id": 88116,
+     "name": "Carved Nordic Armors and Weapons Retexture SE",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-03-30",
+     "files": [
+      "Carved Nordic Armors and Weapons Retexture SE - Half res-88116-1-0-1680202730.rar"
+     ]
+    },
+    {
+     "id": 99610,
+     "name": "Forsworn Armors and Weapons Retexture SE",
+     "vr": 1,
+     "se": 3,
+     "newest": "2025-03-09",
+     "files": [
+      "Forsworn Armors and Weapons Retexture SE - HalfRes-99610-1-1-1741534399.7z"
+     ]
+    },
+    {
+     "id": 72784,
+     "name": "Glenmoril Armors and Weapons Retexture SE",
+     "vr": 1,
+     "se": 2,
+     "newest": "2022-08-06",
+     "files": [
+      "Glenmoril Armors and Weapons Retexture SE-72784-1-0-1659754211.rar"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 51507,
+   "name": "Conditional Armor Type Animations",
+   "vr": 2,
+   "se": 11,
+   "score": 15,
+   "band": "A",
+   "newest": "2023-06-25",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "Conditional Armor Type Animations - CATA-51507-1-1-1652481872.7z",
+    "Conditional Armor Type Animations-51507-1-3c-1687702364.7z"
+   ],
+   "author": "Verolevi",
+   "leftover": false,
+   "key": "id:51507",
+   "theme": "armor"
+  },
+  {
+   "id": 90153,
+   "name": "[серия «armors retexture se», 7 модов] Leather Armors Retexture SE и др.",
+   "vr": 2,
+   "se": 11,
+   "score": 15,
+   "band": "A",
+   "newest": "2026-06-10",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "Leather Armors Retexture SE - Half Res-90153-1-1-1741384620.7z",
+    "Leather Armors Retexture SE - Half Res-90153-2-0-0-1750949062.7z",
+    "Leather Armors Retexture SE - Half Res-90153-2-0-1-1781095668.7z"
+   ],
+   "author": "Xavbio",
+   "leftover": false,
+   "key": "id:90153",
+   "series": "armors retexture se",
+   "members": [
+    {
+     "id": 90153,
+     "name": "Leather Armors Retexture SE",
+     "vr": 2,
+     "se": 11,
+     "newest": "2026-06-10",
+     "files": [
+      "Leather Armors Retexture SE - Half Res-90153-1-1-1741384620.7z"
+     ]
+    },
+    {
+     "id": 94529,
+     "name": "Chitin Armors Retexture SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2026-03-25",
+     "files": [
+      "Chitin Armors Retexture SE - Half Res-94529-1-0-1687960188.rar"
+     ]
+    },
+    {
+     "id": 98115,
+     "name": "Guards and Stormcloaks Armors Retexture SE",
+     "vr": 2,
+     "se": 7,
+     "newest": "2026-06-10",
+     "files": [
+      "Guards and Stormcloaks Armors Retexture SE-98115-1-1-1-1781098195.7z"
+     ]
+    },
+    {
+     "id": 68526,
+     "name": "Unslaad Weapons and Armors Retexture SE",
+     "vr": 1,
+     "se": 8,
+     "newest": "2022-07-05",
+     "files": [
+      "Unslaad Weapons and Armors Retexture SE-68526-2-0-1656982354.rar"
+     ]
+    },
+    {
+     "id": 93890,
+     "name": "Dark Brotherhood Armors Retexture SE",
+     "vr": 2,
+     "se": 4,
+     "newest": "2025-03-02",
+     "files": [
+      "Dark Brotherhood Armors Retexture SE - Half Res-93890-1-0-1687267159.rar"
+     ]
+    },
+    {
+     "id": 98561,
+     "name": "Thieves Guild Armors Retexture SE",
+     "vr": 2,
+     "se": 2,
+     "newest": "2023-08-18",
+     "files": [
+      "Thieves Guild Armors Retexture SE - Half Res-98561-1-0-1692363044.rar"
+     ]
+    },
+    {
+     "id": 111518,
+     "name": "Spell Knight Armors Retexture SE",
+     "vr": 0,
+     "se": 5,
+     "newest": "2025-09-25",
+     "files": [
+      "Spell Knight Armors Retexture SE - Half Res-111518-1-2-0-1758821314.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 30055,
+   "name": "Basic Dining Set Replacer",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2019-10-29",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Basic Dining Set Replacer 1k-30055-1-0-1572349240.zip",
+    "Basic Dining Set Replacer 2k-30055-1-0-1572348970.zip"
+   ],
+   "author": "SpotDisk",
+   "leftover": false,
+   "key": "id:30055",
+   "theme": "armor"
+  },
+  {
+   "id": 42746,
+   "name": "Better Windhelm Ground Meshes - With Parallax Support",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2022-04-07",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Better Windhelm - Valunstrad-42746-1-3-1617635323.7z",
+    "Better Windhelm Ground Meshes - Icy Windhelm-42746-1-3-5-1649340833.7z",
+    "Better Windhelm Ground Meshes - Parallaxed-42746-1-3-5-1649337888.7z"
+   ],
+   "author": "cuyima",
+   "leftover": false,
+   "key": "id:42746",
+   "theme": "armor"
+  },
+  {
+   "id": 65921,
+   "name": "ElSopa - Quivers Redone SE",
+   "vr": 1,
+   "se": 12,
+   "score": 14,
+   "band": "A",
+   "newest": "2022-04-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 12,
+   "files": [
+    "ElSopa - Quivers Redone 1k SE-65921-1-0-1648964938.7z",
+    "ElSopa - Quivers Redone 2k SE-65921-1-0-1648964906.7z",
+    "ElSopa - Quivers Redone HOTFIX 2k-65921-1-1-1648969386.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:65921",
+   "theme": "armor"
+  },
+  {
+   "id": 60756,
+   "name": "[серия «base object swapper», 35 модов] Cathedral 3D Mountain Flowers - Base Object Swapper и др.",
+   "vr": 3,
+   "se": 9,
+   "score": 14,
+   "band": "A",
+   "newest": "2024-12-07",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Stormcrown VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Cathedral 3D Mountain Flowers - Base Object Swapper-60756-0-1-5-1656476241.7z",
+    "Cathedral 3D Mountain Flowers - Base Object Swapper-60756-0-1-9-1663566406.7z",
+    "Cathedral 3D Mountain Flowers -Base Object Swapper-60756-0-2-1718683161.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:60756",
+   "series": "base object swapper",
+   "members": [
+    {
+     "id": 60756,
+     "name": "Cathedral 3D Mountain Flowers - Base Object Swapper",
+     "vr": 3,
+     "se": 8,
+     "newest": "2024-12-07",
+     "files": [
+      "Cathedral 3D Mountain Flowers - Base Object Swapper-60756-0-1-5-1656476241.7z"
+     ]
+    },
+    {
+     "id": 62969,
+     "name": "Unique Markarth Doors - Security Overhaul SKSE - Base Object Swapper",
+     "vr": 0,
+     "se": 9,
+     "newest": "2024-12-31",
+     "files": [
+      "Unique Markarth Doors-62969-0-3-1-1649215699.7z"
+     ]
+    },
+    {
+     "id": 118210,
+     "name": "Sconces of Solitude - Unique Solitude Braziers - Base Object Swapper",
+     "vr": 1,
+     "se": 6,
+     "newest": "2026-01-18",
+     "files": [
+      "Sconces of Solitude - Unique Solitude Braziers-118210-0-6-1724492774.7z"
+     ]
+    },
+    {
+     "id": 157838,
+     "name": "Somewhat Okay Snowdrifts - Blended Windhelm Bridge Snowdrifts - Base Object Swapper",
+     "vr": 1,
+     "se": 6,
+     "newest": "2025-08-27",
+     "files": [
+      "Blended Windhelm Bridge Snowdrifts-157838-0-1-1756285766.7z"
+     ]
+    },
+    {
+     "id": 131032,
+     "name": "Blended Roads less bumpiness - Base Object Swapper",
+     "vr": 1,
+     "se": 4,
+     "newest": "2024-10-09",
+     "files": [
+      "Blended Roads less bumpiness - BoS-131032-2-0-1728504415.zip"
+     ]
+    },
+    {
+     "id": 61161,
+     "name": "Blowing in the Wind Lite (moveable lanterns with Base Object Swapper)",
+     "vr": 2,
+     "se": 2,
+     "newest": "2023-01-28",
+     "files": [
+      "Blowing in the Wind Lite (moveable lanterns with Base Object Swapper)-61161-1-7-1674937656.rar"
+     ]
+    },
+    {
+     "id": 103473,
+     "name": "Catch of the Day - Fish Hang in Inns too - Base Object Swapper.",
+     "vr": 1,
+     "se": 4,
+     "newest": "2023-11-02",
+     "files": [
+      "Catch of the Day - Fish Hang in Inns Too - BOS-103473-1-1-1698448820.rar"
+     ]
+    },
+    {
+     "id": 104990,
+     "name": "Diverse Farm Fences - Base Object Swapper",
+     "vr": 1,
+     "se": 4,
+     "newest": "2024-11-27",
+     "files": [
+      "Diverse Farm Fences - BOS 1.5b Fix-104990-1-5b-1709076371.rar"
+     ]
+    },
+    {
+     "id": 145870,
+     "name": "Diverse Grindstones Base Object Swapper",
+     "vr": 1,
+     "se": 4,
+     "newest": "2026-01-04",
+     "files": [
+      "Diverse Grindstones - Grindstone Variants Version-145870-1-3-1752029948.rar"
+     ]
+    },
+    {
+     "id": 111770,
+     "name": "Diverse Witcher Missives Boards - Base Object Swapper",
+     "vr": 1,
+     "se": 4,
+     "newest": "2025-03-06",
+     "files": [
+      "Diverse Witcher Missives Boards - ALT-111770-1-8-1741300616.rar"
+     ]
+    },
+    {
+     "id": 154085,
+     "name": "Handcarts - Base Object Swapper",
+     "vr": 1,
+     "se": 4,
+     "newest": "2026-01-04",
+     "files": [
+      "Handcarts - Model Swapper-154085-1-2-1767564497.rar"
+     ]
+    },
+    {
+     "id": 133264,
+     "name": "Mehrunes Dagon Unique Shrine - Shrine Objects Swapped - Base Object Swapper",
+     "vr": 0,
+     "se": 6,
+     "newest": "2024-11-06",
+     "files": [
+      "Mehrunes Dagon Unique Shrine-133264-0-1-2-1730856188.7z"
+     ]
+    },
+    {
+     "id": 87955,
+     "name": "Snowy Tree Swapper - Base Object Swapper",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-07-12",
+     "files": [
+      "Snowy Tree Swapper - FOMOD-87955-2-0-1689124210.rar"
+     ]
+    },
+    {
+     "id": 98142,
+     "name": "Diverse Archery Targets - Base Object Swapper",
+     "vr": 1,
+     "se": 3,
+     "newest": "2024-02-01",
+     "files": [
+      "Diverse Archery Targets - BOS - DTA-98142-1-0-1692071116.rar"
+     ]
+    },
+    {
+     "id": 111376,
+     "name": "Diverse Hearthfire Ovens - Base Object Swapper",
+     "vr": 1,
+     "se": 3,
+     "newest": "2024-02-12",
+     "files": [
+      "Diverse Hearthfire Ovens - BOS - Embers XD - ENB-111376-1-0-1707778164.rar"
+     ]
+    },
+    {
+     "id": 132495,
+     "name": "Icy Stalhrim Source - Base Object Swapper",
+     "vr": 0,
+     "se": 5,
+     "newest": "2024-10-27",
+     "files": [
+      "Icy Stalhrim Source-132495-1-0-1730068493.rar"
+     ]
+    },
+    {
+     "id": 147108,
+     "name": "Real Water for Volcanic Mineral Pools - Base Object Swapper",
+     "vr": 0,
+     "se": 5,
+     "newest": "2026-05-12",
+     "files": [
+      "Real Water for Volcanic Mineral Pools-147108-0-6-1744489365.7z"
+     ]
+    },
+    {
+     "id": 156264,
+     "name": "See Through Portals and Oblivion Gates - Myrwatch - The Cause - Base Object Swapper",
+     "vr": 0,
+     "se": 5,
+     "newest": "2025-08-07",
+     "files": [
+      "See Through Portals and Oblivion Gates-156264-0-1-1-1754532741.7z"
+     ]
+    },
+    {
+     "id": 140081,
+     "name": "Shores of Skyrim - Base Object Swapper",
+     "vr": 1,
+     "se": 3,
+     "newest": "2026-08-16",
+     "files": [
+      "a) Shores of Skyrim Part One-140081-1-4-1741220980.rar"
+     ]
+    },
+    {
+     "id": 135237,
+     "name": "Blacksmith Workbench Variants - Base Object Swapper",
+     "vr": 1,
+     "se": 2,
+     "newest": "2025-12-28",
+     "files": [
+      "BWV - Model Swapper Conversion-135237-1-0-1766927442.7z"
+     ]
+    },
+    {
+     "id": 126598,
+     "name": "Catches Cook on Campfires - Base Object Swapper",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-08-29",
+     "files": [
+      "Catches Cook on Campfires-126598-1-2-1724915084.rar"
+     ]
+    },
+    {
+     "id": 100251,
+     "name": "Diverse Bird's Nests - Base Object Swapper",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-09-13",
+     "files": [
+      "Diverse Bird's Nests - Base Object Swapper-100251-1-1-1694576857.rar"
+     ]
+    },
+    {
+     "id": 126513,
+     "name": "Diverse Cairn Banners - Base Object Swapper",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-08-11",
+     "files": [
+      "Diverse Cairn Banners-126513-1-0-1723370265.zip"
+     ]
+    },
+    {
+     "id": 134397,
+     "name": "Diverse Farmhouse Chimneys - Base Object Swapper",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-11-27",
+     "files": [
+      "Diverse Chimneys - No Ivy SWAP file-134397-1-0-1732184026.rar"
+     ]
+    },
+    {
+     "id": 100870,
+     "name": "Diverse Firewood - Base Object Swapper",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-02-14",
+     "files": [
+      "Really Lootable Diverse Firewood (BOS and DTA)-100870-1-2-1707871820.rar"
+     ]
+    },
+    {
+     "id": 164849,
+     "name": "Dwemer Gates Don't Reset - Base Object Swapper",
+     "vr": 1,
+     "se": 2,
+     "newest": "2025-12-27",
+     "files": [
+      "Dwemer Gates Don't Reset - BOS-164849-1-0-1763495343.zip"
+     ]
+    },
+    {
+     "id": 170631,
+     "name": "Food Size Scaling - Base Object Swapper",
+     "vr": 2,
+     "se": 0,
+     "newest": "2026-01-25",
+     "files": [
+      "Food Size Scaling - Diverse Foods Friendly-170631-1-0-1769342915.rar"
+     ]
+    },
+    {
+     "id": 139942,
+     "name": "Snazzy Common Cupboards Dressers and End Tables - Base Object Swapper",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-01-25",
+     "files": [
+      "Rally's Common Furniture - HQ Patch-139942-1-0-1737773812.7z"
+     ]
+    },
+    {
+     "id": 92809,
+     "name": "Snazzy Common Wardrobes - Base Object Swapper",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-02-21",
+     "files": [
+      "Rally's Common Furniture - HQ Patch-92809-1-21-1739592247.7z"
+     ]
+    },
+    {
+     "id": 112041,
+     "name": "Snazzy Diverse Carriages - Base Object Swapper",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-07-26",
+     "files": [
+      "Snazzy Diverse Carriages - Alt Vanilla Textures-112041-1-2-1721969108.7z"
+     ]
+    },
+    {
+     "id": 142019,
+     "name": "Snazzy Noble Chests - Base Object Swapper",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-02-16",
+     "files": [
+      "JS Patch-142019-1-00-1739724804.7z"
+     ]
+    },
+    {
+     "id": 139573,
+     "name": "Snazzy Noble Cupboards - Base Object Swapper",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-01-26",
+     "files": [
+      "HQ Patch-139573-1-2-1737906000.7z"
+     ]
+    },
+    {
+     "id": 139947,
+     "name": "Snazzy Orc Dressers and End Tables - Base Object Swapper",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-01-25",
+     "files": [
+      "Malacath's Chosen - HQ Patch-139947-1-0-1737775435.7z"
+     ]
+    },
+    {
+     "id": 142069,
+     "name": "Snazzy Snow Elf Chests - Base Object Swapper",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-02-17",
+     "files": [
+      "COIN Patch-142069-1-01-1739808377.7z"
+     ]
+    },
+    {
+     "id": 139946,
+     "name": "Snazzy Upper Cupboards Dressers and End Tables - Base Object Swapper",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-01-25",
+     "files": [
+      "Rally's Upper Furniture Patch-139946-1-0-1737774658.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 131813,
+   "name": "JS Vanilla Circlets SE",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2025-08-23",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JS Vanilla Circlets SE - 1k Textures-131813-1-16-1755835944.7z",
+    "JS Vanilla Circlets SE - 2k Textures-131813-1-01-1729724259.7z",
+    "JS Vanilla Circlets SE - 2k Textures-131813-1-12-1738370298.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:131813",
+   "theme": "armor"
+  },
+  {
+   "id": 65346,
+   "name": "Windhelm Fence 3D",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-01-23",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Windhelm Fence 3D - Fomod Installer-65346-0-3-3-1648584280.7z",
+    "Windhelm Fence 3D - Fomod Installer-65346-0-3-4-1674516295.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:65346",
+   "theme": "armor"
+  },
+  {
+   "id": 81463,
+   "name": "[серия «leviathan animations», 8 модов] Leviathan Animations II - Male Idle Walk And Run и др.",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-06-25",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "CATA Addon - Leviathan II Male Idle Walk Run-81463-2-3c-1687702355.7z"
+   ],
+   "author": "Verolevi",
+   "leftover": false,
+   "key": "id:81463",
+   "series": "leviathan animations",
+   "members": [
+    {
+     "id": 81463,
+     "name": "Leviathan Animations II - Male Idle Walk And Run",
+     "vr": 2,
+     "se": 9,
+     "newest": "2023-06-25",
+     "files": [
+      "CATA Addon - Leviathan II Male Idle Walk Run-81463-2-3c-1687702355.7z"
+     ]
+    },
+    {
+     "id": 80760,
+     "name": "Leviathan Animations II - Female Idle Walk And Run",
+     "vr": 2,
+     "se": 8,
+     "newest": "2023-06-25",
+     "files": [
+      "CATA Addon - Leviathan II Female Idle Walk Run-80760-2-3c-1687702353.7z"
+     ]
+    },
+    {
+     "id": 82603,
+     "name": "Leviathan Animations II - Sprint",
+     "vr": 1,
+     "se": 9,
+     "newest": "2023-06-25",
+     "files": [
+      "CATA Addon - Leviathan Animations II Sprint-82603-2-4c-1687702352.7z"
+     ]
+    },
+    {
+     "id": 99073,
+     "name": "Leviathan Animations II - Greatsword Sneak Locomotion And Attacks",
+     "vr": 1,
+     "se": 5,
+     "newest": "2023-08-24",
+     "files": [
+      "Leviathan animations II - Greatsword Sneak-99073-1-0-1692886637.7z"
+     ]
+    },
+    {
+     "id": 86183,
+     "name": "Leviathan Animations II - Greatsword Low Stance",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-03-03",
+     "files": [
+      "Leviathan Animations II - Greatsword Low Stance-86183-1-0-1677861203.7z"
+     ]
+    },
+    {
+     "id": 88171,
+     "name": "Leviathan Animations II - Greatsword Normal Attacks",
+     "vr": 1,
+     "se": 3,
+     "newest": "2026-08-31",
+     "files": [
+      "Leviathan Animations II - Greatsword Normal Attacks-88171-1-0-1680291218.7z"
+     ]
+    },
+    {
+     "id": 92266,
+     "name": "Leviathan Animations II - Greatsword Power And Sprint Attacks",
+     "vr": 1,
+     "se": 3,
+     "newest": "2026-08-31",
+     "files": [
+      "Leviathan Animations II - Greatsword Power Attacks-92266-1-1-1685388417.7z"
+     ]
+    },
+    {
+     "id": 84201,
+     "name": "Leviathan Animations II - Greatsword Non Combat Locomotion",
+     "vr": 1,
+     "se": 2,
+     "newest": "2026-08-31",
+     "files": [
+      "Leviathan Animations II - Greatsword Non Combat Locomotion - Simple Idle-84201-1-0-1675529023.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 87599,
+   "name": "[серия «my patches se», 5 модов] ElSopa - Potions Redone - My patches SE и др.",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2024-05-14",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 7,
+   "files": [
+    "1_ElSopa - Potions Redone - My patches SE by Xtudo - ELIF Inventory size patch-87599-2-6-1681326607.",
+    "1_ElSopa - Potions Redone - My patches SE by Xtudo - Falmer Blood Elixir-87599-1-5-1679952666.7z",
+    "1_ElSopa - Potions Redone - My patches SE by Xtudo - JK's Dragonsreach-87599-1-2-1679666685.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:87599",
+   "series": "my patches se",
+   "members": [
+    {
+     "id": 87599,
+     "name": "ElSopa - Potions Redone - My patches SE",
+     "vr": 3,
+     "se": 7,
+     "newest": "2024-05-14",
+     "files": [
+      "1_ElSopa - Potions Redone - My patches SE by Xtudo - ELIF Inventory size patch-87599-2-6-1681326607."
+     ]
+    },
+    {
+     "id": 86724,
+     "name": "Falmer Overhaul - My patches SE",
+     "vr": 1,
+     "se": 4,
+     "newest": "2025-04-19",
+     "files": [
+      "Falmer Overhaul - My patches SE by Xtudo - HD Falmer Armor - Weapons - Huts - Everything - Glow-8672"
+     ]
+    },
+    {
+     "id": 60893,
+     "name": "Wind Ruler Armor - My patches SE",
+     "vr": 1,
+     "se": 4,
+     "newest": "2025-01-22",
+     "files": [
+      "Wind Ruler Armor - 2K textures SE-60893-1-1640716890.7z"
+     ]
+    },
+    {
+     "id": 90535,
+     "name": "Birds of Prey and Felsaad Terns - My patches SE",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-05-02",
+     "files": [
+      "Birds of Prey and Felsaad Terns - My patches SE by Xtudo - 2K textures-90535-1-1683030350.7z"
+     ]
+    },
+    {
+     "id": 91576,
+     "name": "Maormer Seascale Set - My Patches SE",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-05-18",
+     "files": [
+      "Seascale - My Patches SE by Xtudo - 2K textures-91576-1-1684361828.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 142188,
+   "name": "Common Clothing Retexture SE",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2025-02-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Common Clothing Retexture SE - Half Res-142188-1-0-1739910412.7z",
+    "Common Clothing Retexture SE-142188-1-0-1739910119.7z"
+   ],
+   "author": "xavbio",
+   "leftover": false,
+   "key": "id:142188",
+   "theme": "armor"
+  },
+  {
+   "id": 106432,
+   "name": "I4 Weapon Icons Overhaul",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2024-08-19",
+   "vr_lists": [
+    "Librum VR",
+    "Stormcrown VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "I4 Weapon Icons Overhaul - Icon Color Var. Patches-106432-2-4-1724036538.zip",
+    "I4 Weapon Icons Overhaul-106432-1-1-1702859833.zip",
+    "I4 Weapon Icons Overhaul-106432-2-1-1706835903.zip"
+   ],
+   "author": "Genski AKA Komegaki",
+   "leftover": false,
+   "key": "id:106432",
+   "theme": "armor"
+  },
+  {
+   "id": 65394,
+   "name": "JS Unique Utopia SE - Daggers",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2025-09-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JS Unique Utopia SE - Daggers - 1k Textures-65394-1-2-1-1699874104.7z",
+    "JS Unique Utopia SE - Daggers - 2k Textures-65394-1-1-1649315369.7z",
+    "JS Unique Utopia SE - Daggers - 2k Textures-65394-1-2-1-1699874181.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:65394",
+   "theme": "armor"
+  },
+  {
+   "id": 70117,
+   "name": "Tools not weapons (pickaxe and woodcutter axe) DAR animations",
+   "vr": 4,
+   "se": 4,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-08-27",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Tools not weapons DAR animations-70117-1-4-1656859484.rar",
+    "Tools not weapons DAR animations-70117-1-5-1661621282.rar"
+   ],
+   "author": "samuelga24",
+   "leftover": false,
+   "key": "id:70117",
+   "theme": "armor"
+  },
+  {
+   "id": 100366,
+   "name": "Weapon switch animation Fix",
+   "vr": 0,
+   "se": 12,
+   "score": 12,
+   "band": "A",
+   "newest": "2024-12-30",
+   "vr_lists": [],
+   "se_lists": 12,
+   "files": [
+    "Weapon switch animation Fix 1.4-100366-1-4-1696728845.zip",
+    "Weapon switch animation Fix 1.5-100366-1-5-1735578753.zip"
+   ],
+   "author": "kirito",
+   "leftover": false,
+   "key": "id:100366",
+   "theme": "armor"
+  },
+  {
+   "id": 34100,
+   "name": "Armor Variants Expansion",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "A",
+   "newest": "2021-11-22",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "AVE-Hide normal fix-34100-2-1-1612912474.zip",
+    "Armor Variants Expansion - Atronach Forge Addon-34100-2-5-2-1637624371.7z",
+    "Armor Variants Expansion CCOR Patch-34100-2-0-1589724303.zip"
+   ],
+   "author": "Darkgondul",
+   "leftover": true,
+   "key": "id:34100",
+   "theme": "armor"
+  }
+ ]
+}

@@ -1,0 +1,718 @@
+{
+ "batch": "D33",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 34670,
+   "name": "Relationship Change Notifications",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-05-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Relationship Rank Change Notifications-34670-1-1-1-1587248163.zip",
+    "Relationship Rank Notification in Dialogue-34670-3-1-0d-1652128602.zip"
+   ],
+   "author": "comfortzone",
+   "leftover": false,
+   "key": "id:34670",
+   "theme": "other"
+  },
+  {
+   "id": 42999,
+   "name": "Remiros' Ebony Blade HD",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Remiros' Ebony Blade HD 2k-42999-1-1-1606994454.7z"
+   ],
+   "author": "Remiros",
+   "leftover": false,
+   "key": "id:42999",
+   "theme": "other"
+  },
+  {
+   "id": 50744,
+   "name": "Remiros' Statues HD",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Remiros' Statue of Azura HD-50744-1-0-1622676970.7z",
+    "Remiros' Statue of Boethiah HD-50744-1-0-1622677063.7z",
+    "Remiros' Statue of Clavicus Vile HD-50744-1-0-1622676871.7z"
+   ],
+   "author": "Remiros",
+   "leftover": false,
+   "key": "id:50744",
+   "theme": "other"
+  },
+  {
+   "id": 73181,
+   "name": "Remove Distracting Things",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Brazier and Chimney Smoke more transparent K747-73181-1.7z",
+    "Remove 3D Floating Dungeon Dust-73181-1.7z",
+    "Remove 3D Floating Interior Dust-73181-0-1.7z"
+   ],
+   "author": "kojak747",
+   "leftover": false,
+   "key": "id:73181",
+   "theme": "other"
+  },
+  {
+   "id": 38196,
+   "name": "Remove Dust Fog Smoke Mist Glow",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-01-27",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Remove Dust Fog Smoke Mist Glow-38196-1-3-1659034966.7z",
+    "Remove Dust Fog Smoke Mist Glow-38196-1-4-1737948260.7z",
+    "Remove Soulcairn Mist-38196-1-3B-1693047580.7z"
+   ],
+   "author": "Corsafire",
+   "leftover": false,
+   "key": "id:38196",
+   "theme": "other"
+  },
+  {
+   "id": 151075,
+   "name": "Remove Orphaned Hazards",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Remove Orphaned Hazards-151075-1-0-0-1748245090.7z"
+   ],
+   "author": "styyx",
+   "leftover": false,
+   "key": "id:151075",
+   "theme": "other"
+  },
+  {
+   "id": 23164,
+   "name": "Renthal's workbench",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Workbench 1.6.1-23164-1-6-1-1699566097.7z"
+   ],
+   "author": "Renthal",
+   "leftover": false,
+   "key": "id:23164",
+   "theme": "other"
+  },
+  {
+   "id": 23189,
+   "name": "Renthals's tanning  rack",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-02-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Tanningrack-23189-1-0-1549569384.7z"
+   ],
+   "author": "Renthal",
+   "leftover": false,
+   "key": "id:23189",
+   "theme": "other"
+  },
+  {
+   "id": 144251,
+   "name": "Rescue Missions",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Exterior Locations Pack-144251-1-0-2-1773472706.7z",
+    "Rescue Missions-144251-1-0-5-1777920160.7z"
+   ],
+   "author": "LeucisticDinosaur",
+   "leftover": false,
+   "key": "id:144251",
+   "theme": "other"
+  },
+  {
+   "id": 26052,
+   "name": "Respect for the Arch-Mage",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Respect for the Arch-Mage-26052-1-0-4-1651118518.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:26052",
+   "theme": "other"
+  },
+  {
+   "id": 56337,
+   "name": "Roos' Butter - 1K",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-09-30",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Roos' Butter - 1K-56337-1-0-1632988869.7z"
+   ],
+   "author": "vRoosy",
+   "leftover": false,
+   "key": "id:56337",
+   "theme": "other"
+  },
+  {
+   "id": 128137,
+   "name": "Root Weeds Redone",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-09-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Root Weeds Redone-128137-1-1-1725246217.7z"
+   ],
+   "author": "Clofas",
+   "leftover": false,
+   "key": "id:128137",
+   "theme": "other"
+  },
+  {
+   "id": 42211,
+   "name": "Ruddy88 ESLify",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-11-11",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "R88_ESLify-42211-0-2-1605073948 (1).rar",
+    "R88_ESLify-42211-0-2-1605073948.rar"
+   ],
+   "author": "Ruddy88",
+   "leftover": false,
+   "key": "id:42211",
+   "theme": "other"
+  },
+  {
+   "id": 84507,
+   "name": "Rumble",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Rumble-84507-1-0-1676473023.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:84507",
+   "theme": "other"
+  },
+  {
+   "id": 86149,
+   "name": "Ryn's Ustengrav",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ryn's Ustengrav-86149-1-0-1677805315.rar"
+   ],
+   "author": "Ryn",
+   "leftover": false,
+   "key": "id:86149",
+   "theme": "other"
+  },
+  {
+   "id": 51094,
+   "name": "SPID INI Reworked",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-11-06",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "SPID-51094-1-21-1642232884.7z",
+    "SPID-51094-1-22-1652107221.7z",
+    "SPID-51094-1-30-1667721575.7z"
+   ],
+   "author": "Mat1024",
+   "leftover": false,
+   "key": "id:51094",
+   "theme": "other"
+  },
+  {
+   "id": 23040,
+   "name": "STATUS",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-01-31",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "STATUS-23040-1-97-1548903155.7z"
+   ],
+   "author": "mannygt",
+   "leftover": false,
+   "key": "id:23040",
+   "theme": "other"
+  },
+  {
+   "id": 86659,
+   "name": "Safer Spikes",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Safer Spikes-86659-2-0-1679000179.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:86659",
+   "theme": "other"
+  },
+  {
+   "id": 69991,
+   "name": "Say No To Calcelmo",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-06-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Say No To Calcelmo-69991-0-1-1655756231.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:69991",
+   "theme": "other"
+  },
+  {
+   "id": 97909,
+   "name": "Scaffolding Over Sovngarde - Collision Overhaul - Corrective Kinetics",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-08-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Scaffolding Over Sovngarde - High Poly-97909-1-2-1691669896.rar",
+    "Scaffolding Over Sovngarde-97909-1-0-1691533748.rar"
+   ],
+   "author": "markuskarttunen1",
+   "leftover": false,
+   "key": "id:97909",
+   "theme": "other"
+  },
+  {
+   "id": 44505,
+   "name": "Scamps SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-28",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1ScampsSE-44505-0-1610972897.7z",
+    "English ESP by Xtudo-44505-1-1611808539.rar",
+    "Immersive College of Winterhold patch by Xtudo-44505-1-1611846461.rar"
+   ],
+   "author": "Creeper",
+   "leftover": false,
+   "key": "id:44505",
+   "theme": "other"
+  },
+  {
+   "id": 28483,
+   "name": "Scimitar Replacer SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Scimitar Replacer SE-28483-1-2-1567101852.rar",
+    "Scimitar Replacer V2 SE-28483-2-0-1750633122.rar"
+   ],
+   "author": "Ronnie Magnum and vpulse08",
+   "leftover": false,
+   "key": "id:28483",
+   "theme": "other"
+  },
+  {
+   "id": 80416,
+   "name": "Seeking Out Sneaks - Improved AI Search Behavior",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-12-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Seeking Out Sneaks - Initial Release-80416-1-0-0-1670711376.zip"
+   ],
+   "author": "Aix",
+   "leftover": false,
+   "key": "id:80416",
+   "theme": "other"
+  },
+  {
+   "id": 73133,
+   "name": "Shadow Boost",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Shadow Boost-73133-1-3-0-1674058869.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:73133",
+   "theme": "other"
+  },
+  {
+   "id": 46001,
+   "name": "Shalks SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-02-22",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Now Shalks can use fire spells .esp-46001-burneddown-1613992384.7z",
+    "ShalksSE-46001-0-1613915720.7z"
+   ],
+   "author": "6th",
+   "leftover": false,
+   "key": "id:46001",
+   "theme": "other"
+  },
+  {
+   "id": 113779,
+   "name": "Shiny Horker Variants - SPID distribution",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Shiny Horker Variants SPID-113779-1-1-1710601897.zip"
+   ],
+   "author": "Opethfeldt - Bectile",
+   "leftover": false,
+   "key": "id:113779",
+   "theme": "other"
+  },
+  {
+   "id": 113029,
+   "name": "Shiny Horkers",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Shiny horkers-113029-1-1-1709537675.zip"
+   ],
+   "author": "Opethfeldt",
+   "leftover": false,
+   "key": "id:113029",
+   "theme": "other"
+  },
+  {
+   "id": 21514,
+   "name": "Shout Cooldowns That Make Sense",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2018-11-28",
+   "vr_lists": [
+    "FUS",
+    "Tahrovin"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Shout Cooldowns That Make Sense-21514-1-0-1543381274.7z"
+   ],
+   "author": "Saecan",
+   "leftover": false,
+   "key": "id:21514",
+   "theme": "other"
+  },
+  {
+   "id": 188102,
+   "name": "Simonrim SKSE Addons",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Adamant Evasion Addon 188102 1.0.0 2026-08-15T17-37Z lNkz9LtL9.7z",
+    "Conjuration Limit Fix Addon 188102 1.0.1 2026-08-19T21-00Z Sx9oEw7WR.7z",
+    "Power Attack Speed Perks 188102 1 2026-08-11T21-42Z 2Bej58mow.7z"
+   ],
+   "author": "SimonMagus",
+   "leftover": false,
+   "key": "id:188102",
+   "theme": "other"
+  },
+  {
+   "id": 56767,
+   "name": "Simple Activate SKSE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-10-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "INI file-56767-1-3-1-1650573402.7z",
+    "Simple Activate SKSE-56767-1-3-1-1650573335.7z",
+    "Simple Activate SKSE-56767-1-4-2-1729077081.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:56767",
+   "theme": "other"
+  },
+  {
+   "id": 38946,
+   "name": "Simple Iron Sights for Sighted Crossbows VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-08-03",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Iron Sights for Sighted Crossbows VR-38946-1-1596420523.7z"
+   ],
+   "author": "dumbBumCrumb",
+   "leftover": false,
+   "key": "id:38946",
+   "theme": "other"
+  },
+  {
+   "id": 59633,
+   "name": "Smooth Random Jump Animation - Rework",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-11-01",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Smooth Random Jump Animation Rework-59633-1-4-1667280167.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:59633",
+   "theme": "other"
+  },
+  {
+   "id": 147670,
+   "name": "Snazzy Location Resources",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-05",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Snazzy Location Resources 147670 2.3 2026-06-16T11-58Z rvwm2BZBy.7z",
+    "Snazzy Location Resources-147670-2-2-1759155624.7z",
+    "Snazzy Location Resources-147670-2-40-785915-1785968880.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:147670",
+   "theme": "other"
+  },
+  {
+   "id": 147762,
+   "name": "Snazzy Misc Locations",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-05",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Snazzy Misc Locations 147762 2.40 2026-06-16T02-07Z L5WQbqPMP.7z",
+    "Snazzy Misc Locations-147762-2-3-4-1772110328.rar",
+    "Snazzy Misc Locations-147762-2-50-785934-1785971220.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:147762",
+   "theme": "other"
+  },
+  {
+   "id": 68025,
+   "name": "Soaking Wet - Character Wetness Effect",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-29",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Soaking Wet for 1.5.39 - 1.6.353-68025-1-2-1-1702210390.zip",
+    "Soaking Wet for 1.6.629 and newer-68025-1-2-1-1702210417.zip",
+    "Soaking Wet for 1.6.629 and newer-68025-1-2-2-797210-1788038100.zip"
+   ],
+   "author": "SlavicPotato",
+   "leftover": false,
+   "key": "id:68025",
+   "theme": "other"
+  },
+  {
+   "id": 82661,
+   "name": "Song of the Green Auri's fancy pod",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Optimized meshes-82661-1-2-1702736122.rar",
+    "Song of the Green Auri fancy pod-82661-1-2-1683697760.rar",
+    "Song of the Green Auri's fancy pod - Lux patch-82661-1-1-1673632894.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:82661",
+   "theme": "other"
+  }
+ ]
+}

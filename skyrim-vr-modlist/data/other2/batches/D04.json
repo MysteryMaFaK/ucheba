@@ -1,0 +1,732 @@
+{
+ "batch": "D04",
+ "band": "D",
+ "themes": {
+  "armor": 36
+ },
+ "items": [
+  {
+   "id": 79766,
+   "name": "Dremora Markynaz Armor - My patches and fixes SE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-12-12",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Dremora Markynaz Armor - My patches and fixes SE - Fixed ESL-79766-2-2-1670871561.7z",
+    "Dremora Markynaz Armor - My patches and fixes SE - Fixed ESP-79766-2-2-1670871602.7z",
+    "Dremora Markynaz Armor - My patches and fixes by Xtudo SE - 2K textures-79766-1-1669921804.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:79766",
+   "theme": "armor"
+  },
+  {
+   "id": 79753,
+   "name": "Dremora Markynaz Armor SE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-12-01",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "1Markynaz-79753-1-1669908636.7z"
+   ],
+   "author": "Mehrunes Dagon",
+   "leftover": false,
+   "key": "id:79753",
+   "theme": "armor"
+  },
+  {
+   "id": 54990,
+   "name": "East Empire Company Armor",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-02-15",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "East Empire Company Armor-54990-2-0-0-3-1677118013.zip",
+    "East Empire Company Armor-54990-3-0-0-1739630866.zip",
+    "East_Empire_Company_Armor_3.0.1_N2AYL5JQw.zip"
+   ],
+   "author": "Tate Taylor and Jelidity",
+   "leftover": false,
+   "key": "id:54990",
+   "theme": "armor"
+  },
+  {
+   "id": 166933,
+   "name": "ElSopa - Ysgramor Armory Redone",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-12-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "ElSopa - Ysgramor Armory Redone 2k-166933-1-1-1765671773.7z",
+    "ElSopa - Ysgramor Armory Redone 4k-166933-1-1-1765671738.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:166933",
+   "theme": "armor"
+  },
+  {
+   "id": 62314,
+   "name": "Enchanted Weapon Charge Fix",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-01-23",
+   "vr_lists": [
+    "FUS",
+    "Tahrovin"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Enchanted Weapon Charge Fix-62314-1-1-1642917800.7z"
+   ],
+   "author": "Tossapon",
+   "leftover": false,
+   "key": "id:62314",
+   "theme": "armor"
+  },
+  {
+   "id": 92231,
+   "name": "Ferrymen - New Clothing SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-10-16",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Ferrymen - Clothing SE by Xtudo - SPID CFTO-Fixes-92231-2-2-1697453675.7z",
+    "Ferrymen - Clothing SE by Xtudo - SPID Vanilla-92231-2-2-1697453731.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:92231",
+   "theme": "armor"
+  },
+  {
+   "id": 53957,
+   "name": "Flickering Meshes Fix",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-06-23",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Flickering Meshes Fix-53957-1-8-1641313691.zip",
+    "Flickering Meshes Fix-53957-1-9-1657139693.zip",
+    "Flickering Meshes Fix-53957-2-1-1673309165.zip"
+   ],
+   "author": "nicola89b",
+   "leftover": false,
+   "key": "id:53957",
+   "theme": "armor"
+  },
+  {
+   "id": 67291,
+   "name": "Glimmering Glow Dust",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-04-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Glimmering Glow Dust SE - Blue-67291-v1-0-1651277800.7z"
+   ],
+   "author": "Hanaisse",
+   "leftover": false,
+   "key": "id:67291",
+   "theme": "armor"
+  },
+  {
+   "id": 107437,
+   "name": "Gryphonknight Regalia - Breton Noble Armor (optional SMP)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-08-28",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Dynamic ENB cubemap-107437-1-1703104074.zip",
+    "Gryphonknight Regalia - 2k textures-107437-1-2-0-1703626997.7z",
+    "Gryphonknight Regalia - Breton Noble Armor-107437-1-2-5-1703715695.7z"
+   ],
+   "author": "Smiths of Evermore",
+   "leftover": false,
+   "key": "id:107437",
+   "theme": "armor"
+  },
+  {
+   "id": 89808,
+   "name": "Hammer and Whetstone - Portable Tempering",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Hammer and Whetstone - No Animations-89808-1-2-1770216338.zip",
+    "Hammer and Whetstone-89808-1-1-1717355732.zip",
+    "Hammer and Whetstone-89808-1-2-1770216310.zip"
+   ],
+   "author": "Edryu",
+   "leftover": false,
+   "key": "id:89808",
+   "theme": "armor"
+  },
+  {
+   "id": 166044,
+   "name": "Imperial Thalmor Stormcloak Patrols Fixes - Soldiers and Prisoners World Encounters",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-03-04",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Imperial Thalmor Stormcloak Patrols Fixes-166044-1-3-1772619408.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:166044",
+   "theme": "armor"
+  },
+  {
+   "id": 8936,
+   "name": "Improved Weapon Impact EFFECTS Correct Metal SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Sparkles-8936-1-3.zip"
+   ],
+   "author": "Lordaloa",
+   "leftover": false,
+   "key": "id:8936",
+   "theme": "armor"
+  },
+  {
+   "id": 824,
+   "name": "Improved closefaced helmets",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Improved Closefaced Helmets (Legendary Edition)-824-1-58.zip"
+   ],
+   "author": "navida1",
+   "leftover": false,
+   "key": "id:824",
+   "theme": "armor"
+  },
+  {
+   "id": 86975,
+   "name": "JK's Windhelm Outskirts",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-04-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "JK's Windhelm Outskirts-86975-1-1-3-1745722409.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:86975",
+   "theme": "armor"
+  },
+  {
+   "id": 29415,
+   "name": "JaySuS Swords SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-12-29",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Baskethilt straps fix-29415-1-0-1609201377.7z",
+    "JaySuS Swords SE - All in one-29415-1-8-1585954085.7z"
+   ],
+   "author": "JaySuS Zeknapain",
+   "leftover": false,
+   "key": "id:29415",
+   "theme": "armor"
+  },
+  {
+   "id": 56424,
+   "name": "Kanjs - Rework and Optimized Chaurus Egg and Staff - up to 4k -  ENB Particle Light",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-10-02",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Chaurus Egg and Staff SE 1k-56424-1-1633140016.zip",
+    "Chaurus Egg and Staff SE 2k-56424-1-1633140045.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:56424",
+   "theme": "armor"
+  },
+  {
+   "id": 51090,
+   "name": "Kanjs - Vanilla Staff - Glow Map and Particle Lights",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-06-12",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kanjs - Vanilla Staff - Glow Map and Particle Lights-51090-1-1623468122.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:51090",
+   "theme": "armor"
+  },
+  {
+   "id": 79226,
+   "name": "Kvetchi Mercenary Set",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-11-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kvetchi Mercenary Set ESL-79226-1-1-1669487796.rar"
+   ],
+   "author": "Pulcharmsolis",
+   "leftover": false,
+   "key": "id:79226",
+   "theme": "armor"
+  },
+  {
+   "id": 136837,
+   "name": "Lifesworn Vestiges -- Champion of Arkay armor (optional SMP)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-12-21",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "2k textures-136837-1-0-1734737812.zip",
+    "Lifesworn Vestige - Dynamic ENB cubemap-136837-1-1734820814.zip",
+    "Main file-136837-1-0-1-1734820625.zip"
+   ],
+   "author": "GVLT",
+   "leftover": false,
+   "key": "id:136837",
+   "theme": "armor"
+  },
+  {
+   "id": 126178,
+   "name": "Pig Iron Set",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-09-04",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Pig Iron Set ESL-126178-1-0-1725478971.rar"
+   ],
+   "author": "Pulcharm",
+   "leftover": false,
+   "key": "id:126178",
+   "theme": "armor"
+  },
+  {
+   "id": 28006,
+   "name": "PrivateEye's Royal Armory - Reforged",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-09-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Loadscreen Models Update-28006-1-2-1632040514.7z",
+    "Royal Armory - Reforged - Main Replacer 1.2-28006-1-2-1632040322.7z"
+   ],
+   "author": "Vilidran-PrivateEye-DigitalCabbage",
+   "leftover": false,
+   "key": "id:28006",
+   "theme": "armor"
+  },
+  {
+   "id": 68260,
+   "name": "Realistic Dark Brotherhood Kidnapping",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-07-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "RDBK - Time and Location-68260-1-1-1658348525.zip"
+   ],
+   "author": "Scrab",
+   "leftover": false,
+   "key": "id:68260",
+   "theme": "armor"
+  },
+  {
+   "id": 120576,
+   "name": "Rihad Swordsman Set",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-07-14",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "RihadSwordsmanSetESL-120576-1-2-1719235072.rar",
+    "RihadSwordsmanSetESL-120576-1-3-1720994749.rar"
+   ],
+   "author": "Pulcharm",
+   "leftover": false,
+   "key": "id:120576",
+   "theme": "armor"
+  },
+  {
+   "id": 3077,
+   "name": "Semi-Open Guard Helmets",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Semi-Open Guard Helmets SE v2-3077-2-00.7z"
+   ],
+   "author": "Brumbek",
+   "leftover": false,
+   "key": "id:3077",
+   "theme": "armor"
+  },
+  {
+   "id": 79088,
+   "name": "Silver Armor SE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-11-20",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "1SilverArmorSE-79088-1-1668940618.7z"
+   ],
+   "author": "authorname",
+   "leftover": false,
+   "key": "id:79088",
+   "theme": "armor"
+  },
+  {
+   "id": 32500,
+   "name": "Skyrim Weapons Expansion",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-10-21",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Skyrim Weapons Expansion - 2k BSA-32500-1-3-1603261629.7z",
+    "Skyrim Weapons Expansion - BSA-32500-1-3-1603260368.7z"
+   ],
+   "author": "Billyro - Drunkzealot - Zikoru",
+   "leftover": false,
+   "key": "id:32500",
+   "theme": "armor"
+  },
+  {
+   "id": 115848,
+   "name": "Sprites or Specters - Believable weapons - Patch",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-05-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Sprites or Specters - Believable weapons - Patch-115848-1-0-1712242230.rar",
+    "Sprites or Specters - Believable weapons - Patch-115848-1-1-1715012184.rar",
+    "Sprites or Specters - LeanWolf's - Patch-115848-1-0-1712489434.rar"
+   ],
+   "author": "Tridius",
+   "leftover": false,
+   "key": "id:115848",
+   "theme": "armor"
+  },
+  {
+   "id": 114114,
+   "name": "Subsurface Scattering",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-06",
+   "vr_lists": [
+    "FUS",
+    "Librum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Subsurface Scattering-114114-1-0-1-1713187685.7z",
+    "Subsurface Scattering-114114-3-0-1-1768813014.7z",
+    "Subsurface Scattering-114114-3-0-1-1770385535.7z"
+   ],
+   "author": "doodlez",
+   "leftover": false,
+   "key": "id:114114",
+   "theme": "armor"
+  },
+  {
+   "id": 88653,
+   "name": "The Citadel of Snow - The Windhelm Bridge Reforged",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-03-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Windhelm Bridge Reforged-88653-1-8C-1741455348.7z",
+    "Windhelm Bridge Reforged-88653-1-8d-1741862895.7z"
+   ],
+   "author": "nicola89b",
+   "leftover": false,
+   "key": "id:88653",
+   "theme": "armor"
+  },
+  {
+   "id": 76744,
+   "name": "The Smallest Windhelm Mesh Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-10-08",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "The Smallest Windhelm Mesh Fix - Parallax-76744-1-0-1665221385.rar",
+    "The Smallest Windhelm Mesh Fix-76744-1-0-1665221348.rar"
+   ],
+   "author": "markuskarttunen1",
+   "leftover": false,
+   "key": "id:76744",
+   "theme": "armor"
+  },
+  {
+   "id": 67518,
+   "name": "Unarmed Weapon Speed Scaling and Unlocked Movement",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-06-15",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Unarmed Weapon Speed Scaling plus Unlocked Power Attacks-67518-1-1-1655337028.7z",
+    "Unarmed Weapon Speed Scaling-67518-1-0-1651632157.7z"
+   ],
+   "author": "asrak",
+   "leftover": false,
+   "key": "id:67518",
+   "theme": "armor"
+  },
+  {
+   "id": 30051,
+   "name": "Unplayable Faction Armors SSE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-07-27",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Diverse Skyrim Patch-30051-1-01-1588087802.rar",
+    "Legacy of the Dragonborn Patch-30051-1-01-1592630272.rar",
+    "Unplayable Faction Armor - Standalone Edition-30051-1-01-1572711781.rar"
+   ],
+   "author": "NordWarUA",
+   "leftover": false,
+   "key": "id:30051",
+   "theme": "armor"
+  },
+  {
+   "id": 98671,
+   "name": "Vampire Armor Expansion",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-09-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "SPID distribution-98671-1-2-1692865972.zip",
+    "Temper hotfix-98671-1-4-1693596916.zip",
+    "Vampire Armor Expansion-98671-1-3-1692726035.zip"
+   ],
+   "author": "AdoresUnicorns123",
+   "leftover": false,
+   "key": "id:98671",
+   "theme": "armor"
+  },
+  {
+   "id": 97185,
+   "name": "Vampire Clothing Expansion",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-08-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "SPID distribution-97185-1-2-1692866269.zip",
+    "Vampire Clothing Expansion-97185-1-4-1691684722.zip"
+   ],
+   "author": "AdoresUnicorns123",
+   "leftover": false,
+   "key": "id:97185",
+   "theme": "armor"
+  },
+  {
+   "id": 84686,
+   "name": "Windhelm Bridge Revived",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-28",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Windhelm Bridge Revived - Main File-84686-1-6-1-1719429025.7z",
+    "Windhelm Bridge Revived - Main File-84686-1-7-1771769039.7z",
+    "Windhelm Bridge Revived - Patches and Addons-84686-1-6-1719419615.7z"
+   ],
+   "author": "miliyx and zohryu",
+   "leftover": false,
+   "key": "id:84686",
+   "theme": "armor"
+  },
+  {
+   "id": 144910,
+   "name": "Windhelm Objects SMIMed",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-24",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Windhelm Objects SMIMed-144910-2-0-1754832819.7z",
+    "Windhelm Objects SMIMed-144910-2-1-1771945351.7z"
+   ],
+   "author": "nicola89b",
+   "leftover": false,
+   "key": "id:144910",
+   "theme": "armor"
+  }
+ ]
+}

@@ -1,0 +1,728 @@
+{
+ "batch": "D21",
+ "band": "D",
+ "themes": {
+  "land_nature": 36
+ },
+ "items": [
+  {
+   "id": 136031,
+   "name": "DAC0DA - Delayed Start",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-09-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "DAC0DA - Delayed Start - Lvl 25 and Yngol's Barrow-136031-1-1-1757186923.zip",
+    "DAc0da - Delayed Start-136031-1-1-1743538308.zip"
+   ],
+   "author": "Aelarr",
+   "leftover": false,
+   "key": "id:136031",
+   "theme": "land_nature"
+  },
+  {
+   "id": 29877,
+   "name": "Dynamic snow For Map",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Type 1-29877-V8.rar",
+    "Type 2-29877-V8.rar"
+   ],
+   "author": "Hritik Vaishnav -SkyrimENB",
+   "leftover": false,
+   "key": "id:29877",
+   "theme": "land_nature"
+  },
+  {
+   "id": 13909,
+   "name": "EEKs Renthal Flora Collection",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "EEKS Renthal  Flora Collection Update v1 - v1.2-13909-1-2.rar",
+    "EEKs Renthal Flora Collection v1-13909-1.rar"
+   ],
+   "author": "Renthal311-Fading Signal-Discovery01-EvilEyedKyo - LucidAp - Mindflux",
+   "leftover": false,
+   "key": "id:13909",
+   "theme": "land_nature"
+  },
+  {
+   "id": 68550,
+   "name": "Ebonmere Moons Restoration - ENB Light",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-05-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ebonmere Moons Restoration - ENB Light-68550-1-1-1653440446.rar",
+    "JS Lockpicking UI SE - FIX - ENB Light-68550-1-1-1653440490.rar"
+   ],
+   "author": "RemmyKun",
+   "leftover": false,
+   "key": "id:68550",
+   "theme": "land_nature"
+  },
+  {
+   "id": 27367,
+   "name": "Enhanced Landscapes - Oaks Standalone SSE - Marsh Pines - Dilon Vul",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-18",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dilon Vul SSE-27367-1-9-1608317448.7z",
+    "ELOS OAKS Autumnal Colours-27367-1-1563404292.7z"
+   ],
+   "author": "Kojak747",
+   "leftover": false,
+   "key": "id:27367",
+   "theme": "land_nature"
+  },
+  {
+   "id": 124524,
+   "name": "Evolving Locations - Cliffside Retreat",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-07-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Evolving Locations - Cliffside Retreat-124524-1-0-1721185082.7z"
+   ],
+   "author": "Suinier",
+   "leftover": false,
+   "key": "id:124524",
+   "theme": "land_nature"
+  },
+  {
+   "id": 107513,
+   "name": "FISSES patch for Skyrim AE 1.6.1130 (or later)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "FISSES for Skyrim AE 1.6.1130 (or later)-107513-1-4-2-1703191369.zip"
+   ],
+   "author": "epinter",
+   "leftover": false,
+   "key": "id:107513",
+   "theme": "land_nature"
+  },
+  {
+   "id": 35843,
+   "name": "Flowers and plants mesh fix SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-23",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Flowers and plants mesh fix SE - Dragons tongue by Mari-35843-1-0-1592914256.rar",
+    "Flowers and plants mesh fix SE-35843-1-3-1592834758.rar"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:35843",
+   "theme": "land_nature"
+  },
+  {
+   "id": 44899,
+   "name": "Folkvangr - Grass and Landscape Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-04-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "1_Folkvangr - Grass and Landscape Overhaul-44899-1-3-1617905410.rar",
+    "Folkvangr - Grass and Landscape Overhaul-44899-1-3-1617905410.rar"
+   ],
+   "author": "Grumbledoook",
+   "leftover": false,
+   "key": "id:44899",
+   "theme": "land_nature"
+  },
+  {
+   "id": 151478,
+   "name": "For Honor in Skyrim",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "For Honor in Skyrim-151478-1-8-1768709955.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:151478",
+   "theme": "land_nature"
+  },
+  {
+   "id": 72351,
+   "name": "Forest Cat",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Forest Cat SMP-72351-1-1659139465.7z"
+   ],
+   "author": "jg1",
+   "leftover": false,
+   "key": "id:72351",
+   "theme": "land_nature"
+  },
+  {
+   "id": 64286,
+   "name": "Four Seasons - Faster Seasons of Skyrim",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-03-05",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Four Seasons - Faster Seasons of Skyrim-64286-1-1-1646470666.7z"
+   ],
+   "author": "Phoenix",
+   "leftover": false,
+   "key": "id:64286",
+   "theme": "land_nature"
+  },
+  {
+   "id": 150727,
+   "name": "Glorious Doors of Skyrim (GDOS) SE PBR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-18",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Glorious Doors of Skyrim (GDOS) SE PBR-150727-2-0-1755547573.rar"
+   ],
+   "author": "TyLuis",
+   "leftover": false,
+   "key": "id:150727",
+   "theme": "land_nature"
+  },
+  {
+   "id": 133572,
+   "name": "Gonzeh - Stonehills ReRe-imagined",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-06-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Gonz - Stonehills ReRe - AI Overhaul-133572-1-0-1731403750.rar",
+    "Gonz - Stonehills ReRe - Embers XD Patch-133572-1-0-1731265339.rar",
+    "Gonz - Stonehills ReRe - Jay College Patch-133572-1-0-1731576293.rar"
+   ],
+   "author": "Gonzeh84",
+   "leftover": false,
+   "key": "id:133572",
+   "theme": "land_nature"
+  },
+  {
+   "id": 10141,
+   "name": "Gray Cowl of Nocturnal Alikr Flora Overhaul SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-14",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Gray Cowl of Nocturnal - Alikr Flora Overhaul (LOOSE)-10141-1-7se-1649967656.7z",
+    "Gray Cowl of Nocturnal - Alikr Flora Overhaul (PACKED)-10141-1-7se-1649967611.7z",
+    "Gray Cowl of Nocturnal - Alikr Flora Overhaul-10141-1-6se.7z"
+   ],
+   "author": "sa547",
+   "leftover": false,
+   "key": "id:10141",
+   "theme": "land_nature"
+  },
+  {
+   "id": 35308,
+   "name": "HD Dead Trees and Driftwoods",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-05-02",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "HD Dead Trees and Driftwoods 2K-35308-1-1-1588394864.7z"
+   ],
+   "author": "FKPX3118 and Spooknik",
+   "leftover": false,
+   "key": "id:35308",
+   "theme": "land_nature"
+  },
+  {
+   "id": 64522,
+   "name": "Half-Moon Mill - Cities of the North Addon Patch Collection",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-07-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Half-Moon Mill - COTN Addon Patch Collection-64522-1-5-1752219927.rar",
+    "Half-Moon Mill - Cities of the North Addon Patch Collection-64522-1-1-1-1659223399.7z"
+   ],
+   "author": "Czasior",
+   "leftover": false,
+   "key": "id:64522",
+   "theme": "land_nature"
+  },
+  {
+   "id": 147721,
+   "name": "Hircine Revoiced",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Hircine Revoiced-147721-1-0-1744684813.zip"
+   ],
+   "author": "LeoMaximus",
+   "leftover": false,
+   "key": "id:147721",
+   "theme": "land_nature"
+  },
+  {
+   "id": 34393,
+   "name": "Honed Metal Revoiced",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-11-07",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Honed Metal Revoiced (for Honed Metal 1.23 AE_SE_VR)-34393-1-8-1674751884.rar",
+    "Honed Metal Revoiced-34393-2-0-1730946056.rar",
+    "Honed Metal Voiced 1.4-34393-1-4-1586655690.rar"
+   ],
+   "author": "Cer12",
+   "leftover": false,
+   "key": "id:34393",
+   "theme": "land_nature"
+  },
+  {
+   "id": 4577,
+   "name": "IMAGINATOR - Visual Control Device for Skyrim",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-12-27",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Imaginator - SSE Visual Control Device MCM-4577-0-91-1577480084.7z",
+    "Imaginator - SSE Visual Control Device-4577-0-91-1577479553.7z"
+   ],
+   "author": "MyGoodEye and Gopher",
+   "leftover": false,
+   "key": "id:4577",
+   "theme": "land_nature"
+  },
+  {
+   "id": 29254,
+   "name": "Ice Wraiths Retexture 2k",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-09-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ice Wraiths 2K-29254-1-0-1569416227.zip"
+   ],
+   "author": "HXP",
+   "leftover": false,
+   "key": "id:29254",
+   "theme": "land_nature"
+  },
+  {
+   "id": 44745,
+   "name": "Iconic's Azura's Star Dungeon Retexture",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Azura's Star Dungeon Retexture-44745-1-3-1611535632.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:44745",
+   "theme": "land_nature"
+  },
+  {
+   "id": 64064,
+   "name": "Immersive Kaidan Start",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-20",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Immersive Kaidan Start-64064-2-1-1-1650414408.7z"
+   ],
+   "author": "Wartortle",
+   "leftover": false,
+   "key": "id:64064",
+   "theme": "land_nature"
+  },
+  {
+   "id": 68864,
+   "name": "Immersive Tree Chopping VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-06-05",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Immersive Tree Chopping VR-68864-1-01-1654455262.7z"
+   ],
+   "author": "TheRetroCarrot",
+   "leftover": false,
+   "key": "id:68864",
+   "theme": "land_nature"
+  },
+  {
+   "id": 75805,
+   "name": "JKs Skyrim - Landscape and Water Fixes",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-09-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "JKs Skyrim - Landscape and Water Fixes-75805-1-00-1663672450.rar",
+    "JKs Skyrim COTN Falkreath - Landscape and Water Fixes-75805-1-00-1663672465.rar"
+   ],
+   "author": "Ixion XVII",
+   "leftover": false,
+   "key": "id:75805",
+   "theme": "land_nature"
+  },
+  {
+   "id": 9444,
+   "name": "Just Ice",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Just Ice 2k-9444-3-1.7z"
+   ],
+   "author": "CaptainCockerel",
+   "leftover": false,
+   "key": "id:9444",
+   "theme": "land_nature"
+  },
+  {
+   "id": 69851,
+   "name": "LOD Mesh Fixes for DynDOLOD",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-21",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "LOD Mesh Fixes for DynDOLOD - FOMOD-69851-1-1-1679431919.7z",
+    "LOD Mesh Fixes for DynDOLOD-69851-1-0-1655555459.7z"
+   ],
+   "author": "Blackread",
+   "leftover": false,
+   "key": "id:69851",
+   "theme": "land_nature"
+  },
+  {
+   "id": 86721,
+   "name": "LOD Unloading Bug Fix - Settings Loader",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "LOD Unloading Bug Fix - Settings Loader-86721-1-0-0-1678450199.zip"
+   ],
+   "author": "MaskdedRPGFan",
+   "leftover": false,
+   "key": "id:86721",
+   "theme": "land_nature"
+  },
+  {
+   "id": 156798,
+   "name": "Leveled Items Maximum Level - SkyPatcher",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-21",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Leveled Items Maximum Level - SkyPatcher-156798-1-1-1756993914.zip",
+    "Leveled Items Maximum Level - SkyPatcher-156798-1-2-1771702298.zip"
+   ],
+   "author": "GUNDAMmk2",
+   "leftover": false,
+   "key": "id:156798",
+   "theme": "land_nature"
+  },
+  {
+   "id": 156773,
+   "name": "LeveledList Crash Fix VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-13",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Leveled List Crash Fix VR-156773-1-1-1-1755068263.7z"
+   ],
+   "author": "alandtse",
+   "leftover": false,
+   "key": "id:156773",
+   "theme": "land_nature"
+  },
+  {
+   "id": 165491,
+   "name": "Lock Bashing",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Lock Bashing - Requiem-165491-1-0-1-1764322042.zip",
+    "Lock Bashing-165491-1-0-4-1765118507.zip",
+    "Lock Bashing-165491-1-0-5-1767878926.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:165491",
+   "theme": "land_nature"
+  },
+  {
+   "id": 92028,
+   "name": "Markarth - City of Stone",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Markarth - City of Stone-92028-1-3-3-1716321193.7z"
+   ],
+   "author": "Amasido",
+   "leftover": false,
+   "key": "id:92028",
+   "theme": "land_nature"
+  },
+  {
+   "id": 84375,
+   "name": "Markarth LOD Unlock",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-02-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Cidhna Mine Terrain Fix-84375-1-0-1681339271.rar",
+    "Markarth LOD Unlock-84375-1-11-1739780921.7z"
+   ],
+   "author": "markuskarttunen1",
+   "leftover": false,
+   "key": "id:84375",
+   "theme": "land_nature"
+  },
+  {
+   "id": 79422,
+   "name": "Markarth Road Finished",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Markarth Road Finished-79422-1-3-1675725484.zip"
+   ],
+   "author": "RubberSpaghetti",
+   "leftover": false,
+   "key": "id:79422",
+   "theme": "land_nature"
+  },
+  {
+   "id": 135051,
+   "name": "Misc Voice Consistency Fixes",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Misc Voice Consistency Fixes-135051-1-3-1733211255.rar"
+   ],
+   "author": "Exalderan",
+   "leftover": false,
+   "key": "id:135051",
+   "theme": "land_nature"
+  },
+  {
+   "id": 36455,
+   "name": "Missives - Dawn of Skyrim Patch",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Missives - Dawn of Skyrim 1.5-36455-1-0-1592516921.7z"
+   ],
+   "author": "IronDusk33 - BluePianoTwo - SynthetiXxX",
+   "leftover": false,
+   "key": "id:36455",
+   "theme": "land_nature"
+  }
+ ]
+}

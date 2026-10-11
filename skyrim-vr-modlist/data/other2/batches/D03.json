@@ -1,0 +1,723 @@
+{
+ "batch": "D03",
+ "band": "D",
+ "themes": {
+  "arch_city": 34,
+  "armor": 2
+ },
+ "items": [
+  {
+   "id": 139737,
+   "name": "Ivy - Ivarstead Well Addon",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-04-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ivy - Ivarstead Well Addon-139737-1-0-3-1776274423.7z"
+   ],
+   "author": "Ivy",
+   "leftover": false,
+   "key": "id:139737",
+   "theme": "arch_city"
+  },
+  {
+   "id": 125955,
+   "name": "Ivy - Whiterun Well Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ivy - Whiterun - Well Overhaul-125955-1-3-1742398095.zip",
+    "Ivy - Whiterun - Well Overhaul-125955-2-0-1773855077.7z",
+    "Ivy - Whiterun Well Overhaul-125955-1-1-1722787249.7z"
+   ],
+   "author": "Ivy",
+   "leftover": false,
+   "key": "id:125955",
+   "theme": "arch_city"
+  },
+  {
+   "id": 102273,
+   "name": "Kabu's Cathedral 3D Nightshade Redone",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-10-15",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1_Kabu's Cathedral 3D Nightshade Redone - Gold-102273-1-4-1697216154.rar",
+    "Gold - Snowy Patch-102273-1-0-1697338299.rar",
+    "Kabu's Cathedral 3D Nightshade Redone - Gold-102273-1-4-1697216154.rar"
+   ],
+   "author": "Kabu",
+   "leftover": false,
+   "key": "id:102273",
+   "theme": "arch_city"
+  },
+  {
+   "id": 130009,
+   "name": "Kanjs - Dunmer Plinths Shrine Animated",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-09-24",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Dunmer Plinths Shrine SE 2K-130009-1-1727165127.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:130009",
+   "theme": "arch_city"
+  },
+  {
+   "id": 1826,
+   "name": "Lower Sounding Thieves Guild Door",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "LowerVolume-1826-1.rar"
+   ],
+   "author": "John Kelly",
+   "leftover": false,
+   "key": "id:1826",
+   "theme": "arch_city"
+  },
+  {
+   "id": 43864,
+   "name": "Markarth - A Reflective Experience",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-19",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Markarth - A Reflective Experience-43864-1-3-1-1624065134.7z",
+    "Markarth - A Reflective Experience-43864-1-3-1609656913.7z"
+   ],
+   "author": "NeverLost",
+   "leftover": false,
+   "key": "id:43864",
+   "theme": "arch_city"
+  },
+  {
+   "id": 70213,
+   "name": "Markarth Outskirts",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Markarth Outskirts small update-70213-1-6-1-1698064975.rar",
+    "Markarth Outskirts-70213-1-6-1685459718.rar",
+    "Natural Waterfall patch small update-70213-1-6-1-1708235147.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:70213",
+   "theme": "arch_city"
+  },
+  {
+   "id": 121244,
+   "name": "Nightgate Inn Revived",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-14",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Nightgate Inn Revived - Main File-121244-1-3-1719679667.7z",
+    "Nightgate Inn Revived - Main File-121244-1-3-1719719366.7z",
+    "Nightgate Inn Revived - Patches and Addons-121244-1-3-1719681673.7z"
+   ],
+   "author": "miliyx",
+   "leftover": false,
+   "key": "id:121244",
+   "theme": "arch_city"
+  },
+  {
+   "id": 33364,
+   "name": "Palaces and Castles Enhanced Patch Collection",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-31",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Palaces and Castles Enhanced Patch Collection-33364-2-3-2-1628451770.7z",
+    "Palaces and Castles Enhanced Patch Collection-33364-4-2-1-1685508833.7z"
+   ],
+   "author": "Teabag86 Czasior Janquel",
+   "leftover": false,
+   "key": "id:33364",
+   "theme": "arch_city"
+  },
+  {
+   "id": 1819,
+   "name": "Palaces and Castles Enhanced SSE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-01-04",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Palaces and Castles Enhanced - Compatibility Patches (ESL)-1819-V2-3-1578125864.7z",
+    "Palaces and Castles Enhanced - SSE-1819-V2-3-1578125783.7z"
+   ],
+   "author": "Sette",
+   "leftover": false,
+   "key": "id:1819",
+   "theme": "arch_city"
+  },
+  {
+   "id": 56114,
+   "name": "RedBag's Rorikstead",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-10-24",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "RedBag's Rorikstead - Hearthfire patch-56114-1-0-1632607202.7z",
+    "RedBag's Rorikstead-56114-1-0-1632607145.7z",
+    "RedBag's Rorikstead-56114-1-1-1666613137.7z"
+   ],
+   "author": "RedBag",
+   "leftover": false,
+   "key": "id:56114",
+   "theme": "arch_city"
+  },
+  {
+   "id": 64187,
+   "name": "RedBag's Rorikstead - Some Useful Patches",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-10-09",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "A Cat's Life Patch-64187-1-0-1655764243.7z",
+    "RedBag's Rorikstead - FOMOD-64187-2-3-1726357991.7z",
+    "RedBag's Rorikstead - FOMOD-64187-2-6-1736486666.7z"
+   ],
+   "author": "monkeyangie",
+   "leftover": false,
+   "key": "id:64187",
+   "theme": "arch_city"
+  },
+  {
+   "id": 80236,
+   "name": "Rest for the Weary - Better Beds in Whiterun Temple",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-12-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Rest for the Weary-80236-1-0-1670452122.7z"
+   ],
+   "author": "TobesMods",
+   "leftover": false,
+   "key": "id:80236",
+   "theme": "arch_city"
+  },
+  {
+   "id": 43306,
+   "name": "Riekling Barrels SMIM",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-13",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Riekling Barrels SMIM-43306-0-1-1607862251.rar"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:43306",
+   "theme": "arch_city"
+  },
+  {
+   "id": 98390,
+   "name": "Riton Solitude",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Grass blend 2k-98390-1-0-1707564188.rar",
+    "Riton Solitude 2k-98390-1-2-1694010853.rar",
+    "Riton solitude alternative wood-98390-1-0-1692132864.rar"
+   ],
+   "author": "RiToN",
+   "leftover": false,
+   "key": "id:98390",
+   "theme": "arch_city"
+  },
+  {
+   "id": 146898,
+   "name": "Roastlawyer's Restored Whiterun Defences",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-07-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Roastlawyer's Restored Whiterun Defences 146898 1.10 2026-07-21T02-37Z JrECN2ZYC.7z",
+    "Roastlawyer's Restored Whiterun Defences 146898 1.11 2026-07-30T00-12Z cE8hkAS8R.7z",
+    "Roastlawyer's Restored Whiterun Defences-146898-1-9-6-1779725665.7z"
+   ],
+   "author": "Roastlawyer",
+   "leftover": false,
+   "key": "id:146898",
+   "theme": "arch_city"
+  },
+  {
+   "id": 102141,
+   "name": "Ryn's Broken Tower Redoubt",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-10-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ryn's Broken Tower Redoubt-102141-1-1-1696982583.rar"
+   ],
+   "author": "Ryn",
+   "leftover": false,
+   "key": "id:102141",
+   "theme": "arch_city"
+  },
+  {
+   "id": 89297,
+   "name": "Ryn's Hod and Gerdur's House",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ryn's Hod and Gerdur's House-89297-1-0-1681579822.rar",
+    "undead werewolves 2.2-89297-2-2-1588043604.rar"
+   ],
+   "author": "Ryn",
+   "leftover": false,
+   "key": "id:89297",
+   "theme": "arch_city"
+  },
+  {
+   "id": 88451,
+   "name": "Ryn's Mehrunes Dagon's Shrine",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ryn's Mehrunes Dagon's Shrine-88451-1-0-1680598287.rar"
+   ],
+   "author": "Ryn",
+   "leftover": false,
+   "key": "id:88451",
+   "theme": "arch_city"
+  },
+  {
+   "id": 138750,
+   "name": "Sawmill Activation Fix",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Sawmill Activation Fix-138750-2-0-1737898417.7z",
+    "Sawmill Activation Fix-138750-3-1-1767344622.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:138750",
+   "theme": "arch_city"
+  },
+  {
+   "id": 53733,
+   "name": "Skaal Village Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-08-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Skaal Village Overhaul 1.1-53733-1-1-0-1629091734.7z"
+   ],
+   "author": "Elianora",
+   "leftover": false,
+   "key": "id:53733",
+   "theme": "arch_city"
+  },
+  {
+   "id": 147624,
+   "name": "Snazzy Markarth AIO",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Snazzy Markarth AIO-147624-2-0-1749040066.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:147624",
+   "theme": "arch_city"
+  },
+  {
+   "id": 147618,
+   "name": "Snazzy Solitude AIO",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-06-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Snazzy Solitude AIO-147618-2-2-1-1759782066.rar",
+    "Snazzy Solitude AIO-147618-2-3-1780799835.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:147618",
+   "theme": "arch_city"
+  },
+  {
+   "id": 147761,
+   "name": "Snazzy Towns and Settlements",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-09-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Snazzy Towns and Settlements AIO-147761-2-1-1758818291.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:147761",
+   "theme": "arch_city"
+  },
+  {
+   "id": 147621,
+   "name": "Snazzy Whiterun AIO",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Snazzy Whiterun AIO-147621-2-0-1749040030.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:147621",
+   "theme": "arch_city"
+  },
+  {
+   "id": 20733,
+   "name": "The Falkreath Hauntings",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-08",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "JKs Skyrim patch-20733-2-0-1607408633.zip",
+    "Mask replacer - open face-20733-1-3-1599266571.zip",
+    "Moon and Star patch-20733-2-0-1607146855.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:20733",
+   "theme": "arch_city"
+  },
+  {
+   "id": 42069,
+   "name": "Thieves' Night On the Town -- Tnott",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-03",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Thieves Night On The Town-42069-1-0-3-1636791730.7z",
+    "Thieves Night On The Town-42069-1-0-8-1677809861.zip",
+    "Tnott - Cities of the North-Dawnstar patch-42069-1-0-1617253570.7z"
+   ],
+   "author": "Megapatato",
+   "leftover": false,
+   "key": "id:42069",
+   "theme": "arch_city"
+  },
+  {
+   "id": 114146,
+   "name": "Thistlefoot Is Totally Stable (Actual Auri Mount Fix)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-16",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "T.I.T.S. (Actual Auri Mount Fix)-114146-0-0-1-1710567906.7z"
+   ],
+   "author": "ZootAllures91 aka Akira1364",
+   "leftover": false,
+   "key": "id:114146",
+   "theme": "arch_city"
+  },
+  {
+   "id": 53625,
+   "name": "Triple Triad Card Redesign",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-08-11",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Triple Triad Card Redesign-53625-1-0-0-1628654067.rar"
+   ],
+   "author": "darkedgeblade",
+   "leftover": false,
+   "key": "id:53625",
+   "theme": "arch_city"
+  },
+  {
+   "id": 85419,
+   "name": "Versatile Item and Group Re-Assignment - C.O.C.K.S. Enhanced",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-06-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Versatile Item and Group Re-Assignment 85419 2.0.1 2026-06-26T05-30Z bqv3tSLvP.zip",
+    "Versatile Item and Group Re-Assignment-85419-1-0-1-1-1687909324.zip",
+    "Versatile_Item_and_Group_Re-Assignment_2.0.1_bqv3tSLvP.zip"
+   ],
+   "author": "Tate Taylor",
+   "leftover": false,
+   "key": "id:85419",
+   "theme": "arch_city"
+  },
+  {
+   "id": 106201,
+   "name": "Vittoria Vici's House rework",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Vittoria Vici's House rework - Parallax-106201-1-0-1701713507.7z",
+    "Vittoria Vici's House rework-106201-1-0-1701713487.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:106201",
+   "theme": "arch_city"
+  },
+  {
+   "id": 84726,
+   "name": "Whiterun Fence Walls Mesh Fix",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Whiterun Fence Walls Mesh Fix with Parallax-84726-1-2-1676329292.7z",
+    "Whiterun Fence Walls Mesh Fix-84726-1-2-1676329264.7z"
+   ],
+   "author": "Hein84",
+   "leftover": false,
+   "key": "id:84726",
+   "theme": "arch_city"
+  },
+  {
+   "id": 168840,
+   "name": "Whiterun Railings SMIMed",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Whiterun Railing Improved Meshes-168840-1-0-1767559481.zip"
+   ],
+   "author": "H Shirlock",
+   "leftover": false,
+   "key": "id:168840",
+   "theme": "arch_city"
+  },
+  {
+   "id": 136804,
+   "name": "eFPS - The Great Town of Ivarstead 1.3.3",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-20",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1_eFPS - The Great Town of Ivarstead 1.3.3 Patch-136804-1-0-1734696658.7z",
+    "eFPS - The Great Town of Ivarstead 1.3.3 Patch-136804-1-0-1734696658.7z"
+   ],
+   "author": "Firegtx nicola89b DagoC92",
+   "leftover": false,
+   "key": "id:136804",
+   "theme": "arch_city"
+  },
+  {
+   "id": 78927,
+   "name": "Arcane Blacksmith's Apron - Hood Fixes",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-08-09",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Arcane Blacksmith's Apron - Hood Fixes-78927-1-0-1668664043.7z",
+    "Arcane Blacksmith's Apron - Hood Fixes-78927-1-01-1723219708.7z"
+   ],
+   "author": "TheShiningAbsol",
+   "leftover": false,
+   "key": "id:78927",
+   "theme": "armor"
+  },
+  {
+   "id": 80648,
+   "name": "Deadeye - Bow and Crossbow SFX",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-06-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Deadeye - Bow and Crossbow SFX-80648-1-2-1686701035.zip",
+    "Deadeye - Bow and Crossbow SFX-80648-1-3-1748991813.zip"
+   ],
+   "author": "pentapox",
+   "leftover": false,
+   "key": "id:80648",
+   "theme": "armor"
+  }
+ ]
+}

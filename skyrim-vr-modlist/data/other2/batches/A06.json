@@ -1,0 +1,1209 @@
+{
+ "batch": "A06",
+ "band": "A",
+ "themes": {
+  "creatures": 22,
+  "land_nature": 6
+ },
+ "items": [
+  {
+   "id": 17740,
+   "name": "RUSTIC DEATH HOUND and GARGOYLE - Special Edition",
+   "vr": 5,
+   "se": 7,
+   "score": 17,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "RUSTIC DEATH HOUND AND GARGOYLE SSE - 2K-17740-1-1.7z",
+    "RUSTIC DEATH HOUND AND GARGOYLE SSE - 4K-2K-17740-1-1.7z",
+    "RUSTIC DEATH HOUND AND GARGOYLE SSE - DARK - 2K-17740-1-1.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:17740",
+   "theme": "creatures"
+  },
+  {
+   "id": 75610,
+   "name": "[серия «ancient dwemer», 4 модов] Ancient Dwemer Metal и др.",
+   "vr": 5,
+   "se": 7,
+   "score": 17,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Ancient Automatons 2-1K-75610-1-06.7z",
+    "Ancient Automatons 2K-75610-1-06.7z",
+    "Ancient Automatons 4K-75610-1-06.7z"
+   ],
+   "author": "SRW0",
+   "leftover": false,
+   "key": "id:75610",
+   "series": "ancient dwemer",
+   "members": [
+    {
+     "id": 75610,
+     "name": "Ancient Dwemer Metal",
+     "vr": 5,
+     "se": 7,
+     "newest": "",
+     "files": [
+      "Ancient Automatons 2-1K-75610-1-06.7z"
+     ]
+    },
+    {
+     "id": 38845,
+     "name": "Ancient Dwemer Metal - My patches for SMIM Dawnguard Dragonborn",
+     "vr": 4,
+     "se": 7,
+     "newest": "2025-03-19",
+     "files": [
+      "ADM - My patches by Xtudo - FINAL Update 7 - 2K-38845-Update-Final-v7-1734716033.7z"
+     ]
+    },
+    {
+     "id": 72640,
+     "name": "Ancient Dwemer Metal - Spider Gem Restored",
+     "vr": 0,
+     "se": 6,
+     "newest": "2022-08-04",
+     "files": [
+      "Ancient Dwemer Metal - Spider Gem Restored-72640-1-0-1659575092.7z"
+     ]
+    },
+    {
+     "id": 38216,
+     "name": "Ancient Dwemer Metal - Missing Forgemaster Fix",
+     "vr": 0,
+     "se": 4,
+     "newest": "2020-07-12",
+     "files": [
+      "Ancient Dwemer Metal - Missing Forgemaster Fix-38216-1-0-1594573112.rar"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 5303,
+   "name": "SABRECAT",
+   "vr": 3,
+   "se": 10,
+   "score": 16,
+   "band": "A",
+   "newest": "2022-03-11",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "1_Sabrecat.2k-5303-1-0.7z",
+    "Fluffworks - Sabercat Patch 2k - by SkySinclaire-5303-1-0-1647035036.7z",
+    "Sabrecat.1k-5303-1-0.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:5303",
+   "theme": "creatures"
+  },
+  {
+   "id": 48209,
+   "name": "[серия «elsopa hd», 10 модов] ElSopa - HD Keys Redone SE и др.",
+   "vr": 4,
+   "se": 9,
+   "score": 16,
+   "band": "A",
+   "newest": "2021-04-06",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 8,
+   "files": [
+    "ElSopa - HD Keys Redone 1k-48209-1-0-1617726011.7z",
+    "ElSopa - HD Keys Redone 2k-48209-1-0-1617725975.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:48209",
+   "series": "elsopa hd",
+   "members": [
+    {
+     "id": 48209,
+     "name": "ElSopa - HD Keys Redone SE",
+     "vr": 4,
+     "se": 8,
+     "newest": "2021-04-06",
+     "files": [
+      "ElSopa - HD Keys Redone 1k-48209-1-0-1617726011.7z"
+     ]
+    },
+    {
+     "id": 60495,
+     "name": "ElSopa - HD Iron Tools Redone SE",
+     "vr": 3,
+     "se": 9,
+     "newest": "2021-12-23",
+     "files": [
+      "ElSopa - HD Iron Tools Redone 1k SE-60495-1-0-1640135765.7z"
+     ]
+    },
+    {
+     "id": 48825,
+     "name": "ElSopa - HD Medieval Anvil SE",
+     "vr": 2,
+     "se": 9,
+     "newest": "2021-04-25",
+     "files": [
+      "ElSopa - HD Buckets 1k-48825-1-0-1618958616.7z"
+     ]
+    },
+    {
+     "id": 22238,
+     "name": "ElSopa HD - Strider And Netches SE",
+     "vr": 2,
+     "se": 7,
+     "newest": "2018-12-30",
+     "files": [
+      "2K ElSopa HD Strider And Netches-22238-1-0-1546145240.7z"
+     ]
+    },
+    {
+     "id": 22294,
+     "name": "ElSopa HD - Bristleback SE",
+     "vr": 1,
+     "se": 6,
+     "newest": "2019-01-01",
+     "files": [
+      "2K ElSopa HD - Bristleback-22294-1-0-1546380144.7z"
+     ]
+    },
+    {
+     "id": 79216,
+     "name": "ElSopa HD - Strider And Netches SE - FIX",
+     "vr": 1,
+     "se": 6,
+     "newest": "2022-11-22",
+     "files": [
+      "ElSopa HD - Strider And Netches SE - FIX-79216-1-0-1669092228.rar"
+     ]
+    },
+    {
+     "id": 49384,
+     "name": "ElSopa - HD Giant Mortars Redone SE",
+     "vr": 1,
+     "se": 5,
+     "newest": "2021-05-03",
+     "files": [
+      "ElSopa - HD Giant Mortars Redone 2k-49384-1-0-1620004519.7z"
+     ]
+    },
+    {
+     "id": 58149,
+     "name": "ElSopa - HD Grindstone Redone SE",
+     "vr": 1,
+     "se": 5,
+     "newest": "2023-12-11",
+     "files": [
+      "ElSopa - HD Grindstone Redone - Improved Sparks Vanilla-58149-1-0-1636899335.7z"
+     ]
+    },
+    {
+     "id": 22342,
+     "name": "ElSopa HD - Dirt Blast SE",
+     "vr": 1,
+     "se": 5,
+     "newest": "2019-01-04",
+     "files": [
+      "1K ElSopa HD - Dirt Blast-22342-1-0-1546570596.7z"
+     ]
+    },
+    {
+     "id": 22524,
+     "name": "ElSopa HD - The Smelter SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2019-01-11",
+     "files": [
+      "2K ElSopa HD - The Smelter-22524-1-0-1547182864.7z"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 7679,
+   "name": "HAGRAVEN",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Hagraven.1k-7679-1-0.7z",
+    "Hagraven.2k-7679-1-0.7z",
+    "Hagraven.4k-2k-7679-1-0.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:7679",
+   "theme": "creatures"
+  },
+  {
+   "id": 18107,
+   "name": "RUSTIC SPRIGGAN - Special Edition",
+   "vr": 5,
+   "se": 4,
+   "score": 14,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "RUSTIC SPRIGGAN - Special Edition - 2K-18107-1-0.7z",
+    "RUSTIC SPRIGGAN - Special Edition - 4K-18107-1-0.7z",
+    "RUSTIC SPRIGGAN EFFECTS-18107-1-0.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:18107",
+   "theme": "creatures"
+  },
+  {
+   "id": 29223,
+   "name": "Real Rabbits HD - Color Variants and High Poly Mesh with Fur",
+   "vr": 3,
+   "se": 8,
+   "score": 14,
+   "band": "A",
+   "newest": "2021-06-24",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Real Rabbits HD - Fluffy-29223-1-3-1624518359.rar",
+    "Real Rabbits HD - Standard (no fur shell)-29223-1-3-1624518508.rar"
+   ],
+   "author": "fadingsignal",
+   "leftover": false,
+   "key": "id:29223",
+   "theme": "creatures"
+  },
+  {
+   "id": 4682,
+   "name": "TROLL",
+   "vr": 3,
+   "se": 8,
+   "score": 14,
+   "band": "A",
+   "newest": "2022-04-05",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Fluffworks - ArmoredTrollPatch 2K  - by SkySinclaire-4682-1-0-1649128787.7z",
+    "Fluffworks - Troll Patch-4682-1-1647034704.7z",
+    "Troll.1k-4682-1-0.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:4682",
+   "theme": "creatures"
+  },
+  {
+   "id": 56361,
+   "name": "Fluffworks (Fluffy Animals)",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2022-03-02",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Fluffworks Medium-56361-1-1f-1646241315.7z",
+    "Fluffworks Quality-56361-1-1f-1646241621.7z"
+   ],
+   "author": "Macxhiin",
+   "leftover": false,
+   "key": "id:56361",
+   "theme": "creatures"
+  },
+  {
+   "id": 89960,
+   "name": "Iconic's Spiders of Skyrim Retexture",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2024-06-09",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Spiders 2K-89960-1-1-1682613559.7z",
+    "Spiders 2K-89960-1-2-1-1717963787.7z",
+    "Spiders 2K-89960-1-2-1691122539.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:89960",
+   "theme": "creatures"
+  },
+  {
+   "id": 18817,
+   "name": "RUSTIC FROSTBITE SPIDER - Special Edition",
+   "vr": 5,
+   "se": 3,
+   "score": 13,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "RUSTIC FROSTBITE SPIDER SSE - 2K-18817-1-0.7z",
+    "RUSTIC FROSTBITE SPIDER SSE - 4K-2K-18817-1-0.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:18817",
+   "theme": "creatures"
+  },
+  {
+   "id": 64463,
+   "name": "[серия «limit fix light», 5 модов] Apocrypha - ENB Light - Community Shader Light Limit Fix Light и др.",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2022-03-03",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "ENB Light for Apocrypha-64463-0-1-1646291981.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:64463",
+   "series": "limit fix light",
+   "members": [
+    {
+     "id": 64463,
+     "name": "Apocrypha - ENB Light - Community Shader Light Limit Fix Light",
+     "vr": 2,
+     "se": 9,
+     "newest": "2022-03-03",
+     "files": [
+      "ENB Light for Apocrypha-64463-0-1-1646291981.7z"
+     ]
+    },
+    {
+     "id": 64824,
+     "name": "Elytra and Bliss Bug - ENB Light - Community Shader Light Limit Fix Light",
+     "vr": 0,
+     "se": 8,
+     "newest": "2022-03-29",
+     "files": [
+      "Elytra and Bliss Bug ENB Light - Scrambled Bugs Version-64824-0-4-1648518498.7z"
+     ]
+    },
+    {
+     "id": 64948,
+     "name": "Sprites or Specters - ENB Light - Community Shader Light Limit Fix Light",
+     "vr": 0,
+     "se": 8,
+     "newest": "2022-03-28",
+     "files": [
+      "Sprites or Specters - ENB Light - Scrambled Bugs Version-64948-0-3-1648509852.7z"
+     ]
+    },
+    {
+     "id": 64818,
+     "name": "Spiders of Solstheim - ENB Light - Community Shader Light Limit Fix Light",
+     "vr": 1,
+     "se": 4,
+     "newest": "2022-04-05",
+     "files": [
+      "Spiders of Solstheim - ENB Light - Non-Scrambled Bugs Version-64818-0-4-1-1649147171.7z"
+     ]
+    },
+    {
+     "id": 65509,
+     "name": "Alchemy Ingredients - ENB Light - Community Shader Light Limit Fix Light",
+     "vr": 1,
+     "se": 3,
+     "newest": "2022-04-05",
+     "files": [
+      "Alchemy Ingredients ENB Light-65509-0-3-1-1649146884.7z"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 78267,
+   "name": "Animals Swim (Sort of)",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-11-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Animals Swim (Sort Of)-78267-1-0-1667836104.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:78267",
+   "theme": "creatures"
+  },
+  {
+   "id": 5848,
+   "name": "DRAUGR",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Draugr.2k-5848-1-1.7z",
+    "Draugr.4k-2k-5848-1-1.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:5848",
+   "theme": "creatures"
+  },
+  {
+   "id": 6127,
+   "name": "MAMMOTH",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Mammoth.2k-6127-1-0.7z",
+    "Mammoth.4k-2k-6127-1-0.7z",
+    "Mammoth.4k-2k-6127-1-1.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:6127",
+   "theme": "creatures"
+  },
+  {
+   "id": 70787,
+   "name": "Silver Objects SMIMed - Silver - Sovngarde - Thieves Guild - Vampire",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-11-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Silver Objects SMIMed-70787-0-4-1669391277.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:70787",
+   "theme": "creatures"
+  },
+  {
+   "id": 84053,
+   "name": "SpiderWIP",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-02-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "1_Spiderweb-84053-0-13-1675618606.7z",
+    "Spiderweb-84053-0-13-1675618606.7z"
+   ],
+   "author": "T4GTR34UM3R",
+   "leftover": false,
+   "key": "id:84053",
+   "theme": "creatures"
+  },
+  {
+   "id": 26955,
+   "name": "Talkative Dragons",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2019-06-27",
+   "vr_lists": [
+    "FUS",
+    "Librum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Talkative Dragons-26955-1-1-1561665154.7z"
+   ],
+   "author": "Voeille",
+   "leftover": false,
+   "key": "id:26955",
+   "theme": "creatures"
+  },
+  {
+   "id": 33845,
+   "name": "[серия «jk's the», 9 модов] JK's The Bannered Mare. и др.",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2024-03-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JK's The Bannered Mare-33845-1-0-2-1613968596.zip",
+    "JK's The Bannered Mare-33845-1-1-0-1635533254.rar",
+    "JK's The Bannered Mare-33845-1-1-1-1710284787.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:33845",
+   "series": "jk's the",
+   "members": [
+    {
+     "id": 33845,
+     "name": "JK's The Bannered Mare.",
+     "vr": 1,
+     "se": 10,
+     "newest": "2024-03-12",
+     "files": [
+      "JK's The Bannered Mare-33845-1-0-2-1613968596.zip"
+     ]
+    },
+    {
+     "id": 49516,
+     "name": "JK's The Bee and Barb",
+     "vr": 1,
+     "se": 10,
+     "newest": "2022-05-25",
+     "files": [
+      "JK's The Bee and Barb-49516-1-1-1-1653437477.zip"
+     ]
+    },
+    {
+     "id": 33783,
+     "name": "JK's The Drunken Huntsman.",
+     "vr": 1,
+     "se": 9,
+     "newest": "2025-01-08",
+     "files": [
+      "JK's The Drunken Huntsman-33783-1-0-0-1584680688.rar"
+     ]
+    },
+    {
+     "id": 50765,
+     "name": "JK's The Ragged Flagon",
+     "vr": 1,
+     "se": 9,
+     "newest": "2021-06-04",
+     "files": [
+      "JK's The Ragged Flagon-50765-1-0-0-1622811373.rar"
+     ]
+    },
+    {
+     "id": 52724,
+     "name": "JK's The Temple of Mara",
+     "vr": 1,
+     "se": 9,
+     "newest": "2022-10-25",
+     "files": [
+      "JK's The Temple of Mara-52724-1-0-0-1627037521.rar"
+     ]
+    },
+    {
+     "id": 43991,
+     "name": "JK's The Winking Skeever",
+     "vr": 1,
+     "se": 9,
+     "newest": "2025-07-20",
+     "files": [
+      "JK's The Winking Skeever-43991-1-5-0-1688666821.7z"
+     ]
+    },
+    {
+     "id": 54587,
+     "name": "JK's The Hag's Cure",
+     "vr": 1,
+     "se": 8,
+     "newest": "2021-08-27",
+     "files": [
+      "JK's The Hag's Cure-54587-1-0-0-1630035234.rar"
+     ]
+    },
+    {
+     "id": 50135,
+     "name": "JK's The Pawned Prawn",
+     "vr": 1,
+     "se": 8,
+     "newest": "2021-06-05",
+     "files": [
+      "JK's The Pawned Prawn-50135-1-0-1-1622932088.7z"
+     ]
+    },
+    {
+     "id": 71054,
+     "name": "JK's The Bards College",
+     "vr": 1,
+     "se": 6,
+     "newest": "2022-08-01",
+     "files": [
+      "JK's The Bards College-71054-1-0-3-1659371534.zip"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 14328,
+   "name": "[серия «restoration project se», 3 модов] Karstaag - The Frost King Reborn (Bloodmoon Creature Restoration Project) SE и др.",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Karstaag - The Frost King Reborn-14328-1-0.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:14328",
+   "series": "restoration project se",
+   "members": [
+    {
+     "id": 14328,
+     "name": "Karstaag - The Frost King Reborn (Bloodmoon Creature Restoration Project) SE",
+     "vr": 3,
+     "se": 6,
+     "newest": "",
+     "files": [
+      "Karstaag - The Frost King Reborn-14328-1-0.zip"
+     ]
+    },
+    {
+     "id": 13938,
+     "name": "The Blood Horker (Bloodmoon Creature Restoration Project) SE",
+     "vr": 2,
+     "se": 4,
+     "newest": "",
+     "files": [
+      "Blood Horker-13938-1-1.zip"
+     ]
+    },
+    {
+     "id": 9311,
+     "name": "GRAHL - The Ice Troll (Bloodmoon Creature Restoration Project) SE",
+     "vr": 1,
+     "se": 4,
+     "newest": "",
+     "files": [
+      "Grahl - The Ice Troll - 4K-9311-1-3-0.zip"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 85413,
+   "name": "[серия «simple snow», 4 модов] Simple Snow Improvements - Snow Forts (BOS) и др.",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-02-23",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Simple Snow Improvements - Snow Forts-85413-1-2-1677177286.rar"
+   ],
+   "author": "WeldingManDE",
+   "leftover": false,
+   "key": "id:85413",
+   "series": "simple snow",
+   "members": [
+    {
+     "id": 85413,
+     "name": "Simple Snow Improvements - Snow Forts (BOS)",
+     "vr": 1,
+     "se": 10,
+     "newest": "2023-02-23",
+     "files": [
+      "Simple Snow Improvements - Snow Forts-85413-1-2-1677177286.rar"
+     ]
+    },
+    {
+     "id": 75251,
+     "name": "Simple Snow Improvements - Giant Obelisks (BOS)",
+     "vr": 1,
+     "se": 9,
+     "newest": "2023-11-05",
+     "files": [
+      "Simple Snow Improvements - Giant Obelisk Fixes-75251-1-4-1-1699192493.rar"
+     ]
+    },
+    {
+     "id": 96532,
+     "name": "Simple Snow Improvements - Solstheim Ruins (BOS)",
+     "vr": 1,
+     "se": 9,
+     "newest": "2023-07-24",
+     "files": [
+      "Simple Snow Improvements - Solstheim Ruins-96532-1-0-1690194679.rar"
+     ]
+    },
+    {
+     "id": 74699,
+     "name": "Simple Snow Improvements - The Great City of Winterhold (BOS)",
+     "vr": 0,
+     "se": 5,
+     "newest": "2025-08-29",
+     "files": [
+      "Simple Snow Improvements - TGCOW V4-74699-1-6-1-1756483433.7z"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 16627,
+   "name": "Oculus Controller Remapping Tool for Skyrim VR",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "RemapSkyrimVR_Oculus__v1.2-16627-1-2.zip"
+   ],
+   "author": "Vince Trust",
+   "leftover": true,
+   "key": "id:16627",
+   "theme": "creatures"
+  },
+  {
+   "id": 75794,
+   "name": "FYX - RavenRock Docks and Fences Round Posts",
+   "vr": 5,
+   "se": 10,
+   "score": 20,
+   "band": "A",
+   "newest": "2022-09-22",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "FYX - RavenRock Docks and Fences Round Posts - Parallax-75794-1-0-3-1663820442.7z",
+    "FYX - RavenRock Docks and Fences Round Posts-75794-1-0-3-1663820397.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:75794",
+   "theme": "land_nature"
+  },
+  {
+   "id": 68048,
+   "name": "[серия «fyx 3d», 14 модов] FYX - 3D Solitude SighPost и др.",
+   "vr": 4,
+   "se": 12,
+   "score": 20,
+   "band": "A",
+   "newest": "2023-03-26",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 12,
+   "files": [
+    "FYX - 3D Solitude SighPost - DockRopes-68048-1-0-5-1679847566.7z",
+    "FYX - 3D Solitude SighPost - FarmRopes-68048-1-0-5-1679847594.7z",
+    "FYX - 3D Solitude SighPost - RiftenRopes-68048-1-0-4-1655813045.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:68048",
+   "series": "fyx 3d",
+   "members": [
+    {
+     "id": 68048,
+     "name": "FYX - 3D Solitude SighPost",
+     "vr": 4,
+     "se": 12,
+     "newest": "2023-03-26",
+     "files": [
+      "FYX - 3D Solitude SighPost - DockRopes-68048-1-0-5-1679847566.7z"
+     ]
+    },
+    {
+     "id": 64641,
+     "name": "FYX - 3D Whiterun Scaffold",
+     "vr": 4,
+     "se": 10,
+     "newest": "2022-05-30",
+     "files": [
+      "FYX - 3D Whiterun Scaffold - Gap Reduced-64641-1-0-4-1653923767.7z"
+     ]
+    },
+    {
+     "id": 67488,
+     "name": "FYX - 3D Shack Kit Roofs",
+     "vr": 3,
+     "se": 10,
+     "newest": "2024-06-09",
+     "files": [
+      "FYX - 3D Shack Kit Roofs - AltTexLink-67488-1-0-2-1652254682.7z"
+     ]
+    },
+    {
+     "id": 67123,
+     "name": "FYX - 3D Shack Kit Walls",
+     "vr": 3,
+     "se": 10,
+     "newest": "2023-08-17",
+     "files": [
+      "FYX - 3D Shack Kit Walls - AltTexLink-67123-1-0-2-2-1652254770.7z"
+     ]
+    },
+    {
+     "id": 69124,
+     "name": "FYX - 3D Whiterun Castle Bridge",
+     "vr": 4,
+     "se": 8,
+     "newest": "2022-09-22",
+     "files": [
+      "FYX - 3D Whiterun Castle Bridge - 3D Trellis - Parallax-69124-1-0-2-1663869982.7z"
+     ]
+    },
+    {
+     "id": 68572,
+     "name": "FYX - 3D Whiterun Guard Towers",
+     "vr": 4,
+     "se": 8,
+     "newest": "2024-09-21",
+     "files": [
+      "FYX - 3D Whiterun Guard Towers - Parallax-68572-1-0-1-1653547941.7z"
+     ]
+    },
+    {
+     "id": 64529,
+     "name": "FYX - 3D Dock Ramp",
+     "vr": 4,
+     "se": 5,
+     "newest": "2022-07-21",
+     "files": [
+      "FYX - 3D Dock Ramp - Parallax-64529-1-0-2-1658382530.7z"
+     ]
+    },
+    {
+     "id": 65104,
+     "name": "FYX - 3D Stockades",
+     "vr": 4,
+     "se": 5,
+     "newest": "2023-04-13",
+     "files": [
+      "FYX - 3D Stockades - SOS - Parallax - OPTI-65104-1-0-5-1681398607.7z"
+     ]
+    },
+    {
+     "id": 76422,
+     "name": "FYX - 3D Coal in the Shovel",
+     "vr": 1,
+     "se": 10,
+     "newest": "2022-10-03",
+     "files": [
+      "FYX - 3D Coal in the ElSopa Shovel - New Texture 1K-76422-1-0-1-1664814283.7z"
+     ]
+    },
+    {
+     "id": 64645,
+     "name": "FYX - 3D Whiterun Drawbridge Gate",
+     "vr": 1,
+     "se": 10,
+     "newest": "2022-05-07",
+     "files": [
+      "FYX - 3D Whiterun Drawbridge Gate - LUX Orbis meshe Parallax-64645-1-0-2-1-1651907556.7z"
+     ]
+    },
+    {
+     "id": 65352,
+     "name": "FYX - 3D Whiterun Tree Circle",
+     "vr": 4,
+     "se": 3,
+     "newest": "2022-03-23",
+     "files": [
+      "FYX - 3D Whiterun Tree Circle x 3D Whiterun Trellis x Lux Orbis-65352-1-0-1-1648054615.7z"
+     ]
+    },
+    {
+     "id": 64485,
+     "name": "FYX - 3D Honeyside Deck Floor",
+     "vr": 4,
+     "se": 2,
+     "newest": "2022-09-17",
+     "files": [
+      "FYX - 3D Honeyside Deck Floor - SMIM - Parallax-64485-1-0-3-2-1663437822.7z"
+     ]
+    },
+    {
+     "id": 83001,
+     "name": "FYX - 3D Ragged Flagon Sign Chains",
+     "vr": 1,
+     "se": 6,
+     "newest": "2023-01-19",
+     "files": [
+      "FYX - 3D Ragged Flagon Sign Chains - Opt01 - NT Rusty-83001-1-0-1674127500.7z"
+     ]
+    },
+    {
+     "id": 64809,
+     "name": "FYX - 3D Farmhouse Walkway",
+     "vr": 0,
+     "se": 6,
+     "newest": "2022-03-14",
+     "files": [
+      "FYX - 3D Farmhouse Walkway - Parallax-64809-1-0-2-1647274189.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 36893,
+   "name": "[серия «rally's solstheim», 4 модов] Rally's Solstheim AIO и др.",
+   "vr": 6,
+   "se": 7,
+   "score": 19,
+   "band": "A",
+   "newest": "2024-01-27",
+   "vr_lists": [
+    "FUS",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Rally's Solstheim AIO-36893-1-1-1617914523.7z",
+    "Rally's Solstheim AIO-36893-1-2-1706370026.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:36893",
+   "series": "rally's solstheim",
+   "members": [
+    {
+     "id": 36893,
+     "name": "Rally's Solstheim AIO",
+     "vr": 6,
+     "se": 7,
+     "newest": "2024-01-27",
+     "files": [
+      "Rally's Solstheim AIO-36893-1-1-1617914523.7z"
+     ]
+    },
+    {
+     "id": 82383,
+     "name": "Rally's Solstheim Landscapes Complex Terrain Parallax Edition",
+     "vr": 1,
+     "se": 4,
+     "newest": "2024-06-04",
+     "files": [
+      "1_Rally's Solstheim Landscapes Complex Terrain Parallax Edition 4k-82383-1-1-1673314251.7z"
+     ]
+    },
+    {
+     "id": 45867,
+     "name": "Rally's Solstheim Shrines",
+     "vr": 2,
+     "se": 2,
+     "newest": "2021-02-18",
+     "files": [
+      "Rally's Solstheim Shrines-45867-1-1-1613679602.7z"
+     ]
+    },
+    {
+     "id": 35081,
+     "name": "Rally's Solstheim Plants (High Poly)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-01-26",
+     "files": [
+      "Rally's Solstheim Plants-35081-1-1-1674569977.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 66038,
+   "name": "JS Bloodstone Chalice SE",
+   "vr": 3,
+   "se": 12,
+   "score": 18,
+   "band": "A",
+   "newest": "2022-05-10",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 12,
+   "files": [
+    "JS Bloodstone Chalice SE - 2k Textures-66038-1-02-1652143096.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:66038",
+   "theme": "land_nature"
+  },
+  {
+   "id": 53817,
+   "name": "College of Winterhold Quest Start Fixes",
+   "vr": 3,
+   "se": 11,
+   "score": 17,
+   "band": "A",
+   "newest": "2022-07-30",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 11,
+   "files": [
+    "College of Winterhold Quest Start Fixes-53817-0-4-1659219863.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:53817",
+   "theme": "land_nature"
+  },
+  {
+   "id": 3375,
+   "name": "Stunning Statues of Skyrim",
+   "vr": 6,
+   "se": 4,
+   "score": 16,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "SSoS - Installer Fix-3375-v1-5.7z"
+   ],
+   "author": "AnTiWoMaAgNoT",
+   "leftover": false,
+   "key": "id:3375",
+   "theme": "land_nature"
+  }
+ ]
+}

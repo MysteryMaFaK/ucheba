@@ -1,0 +1,953 @@
+{
+ "batch": "C06",
+ "band": "C",
+ "themes": {
+  "body_face": 7,
+  "clutter_misc": 24
+ },
+ "items": [
+  {
+   "id": 30255,
+   "name": "Wolfpaint - Face - Facepaint Collection for Racemenu Overlays",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-11-16",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Wolfpaint - Face - Racemenu Overlays - Male and Female-30255-1-0-MF-1573895529.7z",
+    "Wolfpaint - Face - Racemenu Overlays-30255-1-0-1573205535.7z"
+   ],
+   "author": "DomainWolf",
+   "leftover": false,
+   "key": "id:30255",
+   "theme": "body_face"
+  },
+  {
+   "id": 74986,
+   "name": "[серия «3ba bodyslide preset», 19 модов] A super incredible enticing title - 3BA BodySlide Preset и др.",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-09-10",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "A super incredible enticing title - 3BA BodySlide Preset-74986-1-4-1662801759.7z"
+   ],
+   "author": "mangos88",
+   "leftover": false,
+   "key": "id:74986",
+   "series": "3ba bodyslide preset",
+   "members": [
+    {
+     "id": 74986,
+     "name": "A super incredible enticing title - 3BA BodySlide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-09-10",
+     "files": [
+      "A super incredible enticing title - 3BA BodySlide Preset-74986-1-4-1662801759.7z"
+     ]
+    },
+    {
+     "id": 78479,
+     "name": "Ayame's Hourglass v2 - CBBE 3BA BodySlide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-11-09",
+     "files": [
+      "Ayame's Hourglass v2 - CBBE 3BA BodySlide Preset-78479-1-1668030491.7z"
+     ]
+    },
+    {
+     "id": 39645,
+     "name": "Belle Delphine Racemenu and 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2020-08-21",
+     "files": [
+      "Belle Delphine 3BA Bodyslide Preset-39645-1-0-1598010674.zip"
+     ]
+    },
+    {
+     "id": 80712,
+     "name": "Berry Mommy - Viper's 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-12-15",
+     "files": [
+      "Berry Mommy-80712-1-1671134169.rar"
+     ]
+    },
+    {
+     "id": 63354,
+     "name": "Calliope's Body - CBBE 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-02-10",
+     "files": [
+      "Calliope's Body - CBBE 3BA (3BBB) BodySlide Preset-63354-1-0-1644456170.rar"
+     ]
+    },
+    {
+     "id": 78598,
+     "name": "Jaylen Body - 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-11-11",
+     "files": [
+      "Jaylen Body - 3BA Bodyslide Preset-78598-1-1-1668206618.7z"
+     ]
+    },
+    {
+     "id": 78842,
+     "name": "Licorice Cello 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-11-15",
+     "files": [
+      "MVC Licorice Cello Bodyslide Preset-78842-1-0-1668534388.7z"
+     ]
+    },
+    {
+     "id": 78210,
+     "name": "My Lovely Body - Sexy Beauty - CBBE 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-11-09",
+     "files": [
+      "My Lovely Body - Sexy Beauty - CBBE 3BA Bodyslide Preset-78210-1-0-1667962525.zip"
+     ]
+    },
+    {
+     "id": 63698,
+     "name": "My Sensual Body - CBBE 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-02-17",
+     "files": [
+      "My Sensual Body - CBBE 3BA Bodyslide Preset-63698-1-0-1645077442.zip"
+     ]
+    },
+    {
+     "id": 67370,
+     "name": "My Tasteful Body - CBBE 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-05-05",
+     "files": [
+      "My Tasteful Body - CBBE 3BA Bodyslide Preset-67370-1-0-1651738699.zip"
+     ]
+    },
+    {
+     "id": 80555,
+     "name": "Perfection - Cassandra CBBE 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-12-14",
+     "files": [
+      "Cassandra CBBE 3BA Bodyslide Preset-80555-1-1-1670978090.rar"
+     ]
+    },
+    {
+     "id": 65012,
+     "name": "Rori Body Preset 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-03-21",
+     "files": [
+      "Rori Bodyslide preset-65012-2-1-1647885780.7z"
+     ]
+    },
+    {
+     "id": 89412,
+     "name": "Senka's Body - 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-04-17",
+     "files": [
+      "Senka's Body - 3BA Bodyslide Preset-89412-1-0-1681701619.rar"
+     ]
+    },
+    {
+     "id": 80714,
+     "name": "Skinny Berry - Viper's 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-12-15",
+     "files": [
+      "SkinnyBerry-80714-1-1671137939.rar"
+     ]
+    },
+    {
+     "id": 66986,
+     "name": "Skuh's Pinup Body - 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-04-23",
+     "files": [
+      "Skuh''s Pinup Body-66986-1-0-1650723508.7z"
+     ]
+    },
+    {
+     "id": 70256,
+     "name": "Strawberry Body - Viper's 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-06-25",
+     "files": [
+      "Strawberry Body - 3BA Bodyslide Preset-70256-1-1656193615.rar"
+     ]
+    },
+    {
+     "id": 60930,
+     "name": "The Elegance Beauty - CBBE 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2021-12-29",
+     "files": [
+      "The Elegance Beauty - CBBE 3BA Bodyslide Preset-60930-1-0-1640780793.zip"
+     ]
+    },
+    {
+     "id": 89335,
+     "name": "Thunder Thighs 3ba Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-04-16",
+     "files": [
+      "Thunder Thighs-89335-1-0-1681650703.zip"
+     ]
+    },
+    {
+     "id": 55037,
+     "name": "Umbrael's Umbrage - 3BA Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-11-13",
+     "files": [
+      "Umbrael's Umbrage - 3BA Bodyslide Preset-55037-1-5-1-1668380098.rar"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 64065,
+   "name": "[серия «cbbe bodyslide preset», 4 модов] Moderate Curvy - A Realistic-ish CBBE BodySlide Preset и др.",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-02-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Moderate Curvy Bodies-64065-1-0-1645522264.zip"
+   ],
+   "author": "CptnJTK",
+   "leftover": false,
+   "key": "id:64065",
+   "series": "cbbe bodyslide preset",
+   "members": [
+    {
+     "id": 64065,
+     "name": "Moderate Curvy - A Realistic-ish CBBE BodySlide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-02-22",
+     "files": [
+      "Moderate Curvy Bodies-64065-1-0-1645522264.zip"
+     ]
+    },
+    {
+     "id": 41906,
+     "name": "Natural Curves - A CBBE Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2020-11-10",
+     "files": [
+      "NaturalCurves - Bodyslide Preset-41906-1-1-1605006813.7z"
+     ]
+    },
+    {
+     "id": 21872,
+     "name": "Scarlet's EyeCandy Body - CBBE Bodyslide Preset",
+     "vr": 3,
+     "se": 0,
+     "newest": "2019-05-12",
+     "files": [
+      "Scarlet's EyeCandy Body-21872-3-1557641192.7z"
+     ]
+    },
+    {
+     "id": 16855,
+     "name": "The Simple Allure Body (CBBE Bodyslide Preset)",
+     "vr": 3,
+     "se": 0,
+     "newest": "",
+     "files": [
+      "Simple Allure Body - CBBE Bodyslide Preset-16855-1-0-2.7z"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 77086,
+   "name": "[серия «skyrim objects», 3 модов] Skyrim Objects SMIMed - Warmaiden's Holes и др.",
+   "vr": 3,
+   "se": 3,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-10-14",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Skyrim Objects SMIMed - Warmaiden's Holes-77086-0-1-1-1665771730.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:77086",
+   "series": "skyrim objects",
+   "members": [
+    {
+     "id": 77086,
+     "name": "Skyrim Objects SMIMed - Warmaiden's Holes",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-10-14",
+     "files": [
+      "Skyrim Objects SMIMed - Warmaiden's Holes-77086-0-1-1-1665771730.7z"
+     ]
+    },
+    {
+     "id": 77499,
+     "name": "Skyrim Objects SMIMed - Noble Furniture",
+     "vr": 1,
+     "se": 3,
+     "newest": "2024-04-24",
+     "files": [
+      "Skyrim Objects SMIMed - Noble Furniture-77499-0-4-1666527804.7z"
+     ]
+    },
+    {
+     "id": 69487,
+     "name": "Skyrim Objects SMIMed - Glazed and Nordic Pottery",
+     "vr": 1,
+     "se": 2,
+     "newest": "2022-06-11",
+     "files": [
+      "Skyrim Objects SMIMed - Glazed and Nordic Pottery-69487-0-2-1654941151.7z"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 54777,
+   "name": "alevixBody - A CBBE 3BB 3BA SE Bodyslide Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-08-30",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "alevixBody - A CBBE 3BB 3BA SE Bodyslide Preset-54777-1-1-1630362850.rar"
+   ],
+   "author": "alevix",
+   "leftover": false,
+   "key": "id:54777",
+   "theme": "body_face"
+  },
+  {
+   "id": 58290,
+   "name": "e-Ro-THICC Bodyslide Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-12",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Ro Bodyslide Preset 3BA-58290-1-1636720651.rar"
+   ],
+   "author": "s4rMs",
+   "leftover": false,
+   "key": "id:58290",
+   "theme": "body_face"
+  },
+  {
+   "id": 88707,
+   "name": "jBS2BG - BodySlide to BodyGen Converter and Generator",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-01-26",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "jBS2BG-88707-1-1-2-1548490743.7z"
+   ],
+   "author": "asdasfa",
+   "leftover": false,
+   "key": "id:88707",
+   "theme": "body_face"
+  },
+  {
+   "id": 2425,
+   "name": "3rd Person Dual Wield Animation Fix SSE",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "DWANIM-2425-1-00.zip"
+   ],
+   "author": "imeltfaces",
+   "leftover": false,
+   "key": "id:2425",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 5804,
+   "name": "A Quality World Map",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "9.0.1 A Quality World Map - Vivid with Stone Roads-5804-9-0-1.zip",
+    "A Quality World Map - Classic with All Roads-5804-8-4CA.zip",
+    "A Quality World Map - Clear Map Skies-5804-9-0-1CMS.zip"
+   ],
+   "author": "IcePenguin",
+   "leftover": false,
+   "key": "id:5804",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 35823,
+   "name": "AI Overhaul SSE - Official Patch Hub",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-09-17",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "AI Overhaul - Cutting Room Floor Patch-35823-1-0-3-1663420650.rar",
+    "AI Overhaul - Denizens of Morthal Patch.rar",
+    "AI Overhaul - RDO Updated Patch-35823-1-0-1663421712.rar"
+   ],
+   "author": "mnikjom SpiderAkiraC",
+   "leftover": false,
+   "key": "id:35823",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 81601,
+   "name": "Bucket Enrichment",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-12-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Bucket Enrichment-81601-1-0-1672322541.zip"
+   ],
+   "author": "gooball60",
+   "leftover": false,
+   "key": "id:81601",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 66157,
+   "name": "Cale's Patch Compendium",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-06-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Assorted Mesh Fixes - Improved Dwemer Glass Patch-66157-1-0-1686076752.zip",
+    "Dawnguard Arsenal - BUVARP SE RE Patch-66157-1-0-1675506098.zip",
+    "Dawnguard Arsenal - USMP Patch-66157-1-0-1675506115.zip"
+   ],
+   "author": "Cale",
+   "leftover": false,
+   "key": "id:66157",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 60974,
+   "name": "Carriage Ferry Travel Overhaul (CFTO) Bittercup Fix",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-01-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Carriage Ferry Travel Overhaul (CFTO) Bittercup Fix-60974-0-2-1641386559.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:60974",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 84875,
+   "name": "Cooking Categories Improvement (Constructible Object Custom Keyword System - Fixes)",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-06-14",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Cooking Categories Improvement (2.0.1)-84875-2-0-1-1686780839.zip"
+   ],
+   "author": "Dylan James - Parapets",
+   "leftover": false,
+   "key": "id:84875",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 46391,
+   "name": "Finding Derkeethus Duplicate FormID Fix",
+   "vr": 3,
+   "se": 1,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-03-01",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Finding Derkeethus Duplicate FormID Fix-46391-1-0-1614590409.7z"
+   ],
+   "author": "Tohuw - original by SomethingObscure",
+   "leftover": false,
+   "key": "id:46391",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 103502,
+   "name": "Fluffy Pelts",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-10-28",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Fur Pelts-103502-1-0-0-1698489496.rar"
+   ],
+   "author": "HLC",
+   "leftover": false,
+   "key": "id:103502",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 87626,
+   "name": "GG's High Hrothgar fixed stairs",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-06-26",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "GG's HH Fixed Stairs (split)-87626-1-1-1679591407.rar",
+    "GG's HH Fixed Stairs (split)-87626-1-2-1687801835.rar",
+    "GG's HH Fixed Stairs with Parallax (split)-87626-1-2-1687801891.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:87626",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 114607,
+   "name": "Ignoble Beds - A Noble and Upper Class Bed Replacer",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2025-09-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "BOS Color Variance Use Those Blankets patch-114607-1-0-2-1739995108.rar",
+    "BOS Color Variance-114607-1-0-7-1740258575.rar",
+    "C) Ignoble Beds - BOS Color Variance-114607-1-0-6-1729609519.rar"
+   ],
+   "author": "sotha simp",
+   "leftover": false,
+   "key": "id:114607",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 79026,
+   "name": "Kanjs Nests Egg Harvesting Fix",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-11-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Kanjs Nests Egg Harvesting Fix. Medium Eggs.-79026-1-1668858013.rar",
+    "Kanjs' Nests Eggs Patch-79026-1-1668840396.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:79026",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 99441,
+   "name": "Locked Empty Container Activate Text Fix",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-08-28",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Locked Empty Container Activate Text Fix-99441-1-0-0-1693201167.7z"
+   ],
+   "author": "ThirdEyeSqueegee",
+   "leftover": false,
+   "key": "id:99441",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 39011,
+   "name": "Nyghtfall - Dark Fantasy Music",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-12-20",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "1 Replacer - Nyghtfall-39011-2-0-1663195515.zip",
+    "Modular Version (FOMOD Installer)-39011-2-0-2-1685913445.zip",
+    "Replacer - Nyghtfall-39011-2-1-1703094507.zip"
+   ],
+   "author": "Nyghttones",
+   "leftover": false,
+   "key": "id:39011",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 49641,
+   "name": "Rally's Mead Barrels",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-08-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Rally's Mead Barrels-49641-1-1-1628343214.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:49641",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 70978,
+   "name": "SPID for Footprints fix",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-08-02",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "SPID for Footprints fix-70978-1-0-0-1657307800.zip",
+    "SPID for Footprints fix-70978-2-1-0-1673216518.zip",
+    "SPID for Footprints fix-70978-3-0-1-1690576515.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:70978",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 2414,
+   "name": "Snazzy Furniture and Clutter Overhaul (SFCO)",
+   "vr": 3,
+   "se": 1,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-04-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Snazzy Furniture and Clutter Overhaul SE-2414-2-1-2-1643909867.7z",
+    "Snazzy Furniture and Clutter Overhaul SE-2414-2-2-1681838802.7z"
+   ],
+   "author": "Gutmaw",
+   "leftover": false,
+   "key": "id:2414",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 37929,
+   "name": "The Elder Scrolls Legends - Loading Screens",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-06-08",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "2K textures-37929-2-1-0-1669308905.7z",
+    "4K textures-37929-2-0-0-1668861076.7z",
+    "TESL - Loading Screens - ESP and Meshes-37929-2-1-0-1669308429.7z"
+   ],
+   "author": "Jampion",
+   "leftover": false,
+   "key": "id:37929",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 57754,
+   "name": "Timing is Everything SE - Settings Loader",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-04-06",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Timing is Everything SE - Settings Loader-57754-1-0-1-1680803770.zip",
+    "Timing is Everything SE - Settings Loader-57754-1-0-1635713851.7z"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:57754",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 97385,
+   "name": "Vahloks Tomb Keyhole Retexture",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-08-01",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "2K x 1K Version.-97385-1-0-1690910682.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:97385",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 61520,
+   "name": "XNFRain's Civil War Map Flag Replacer SE",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-01-09",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "XNFRain's Civil War Map Flag Replacer - 50-61520-1-2-1641706893.zip",
+    "XNFRain's Civil War Map Flag Replacer-61520-1-2-1641706845.zip"
+   ],
+   "author": "XNFRain",
+   "leftover": false,
+   "key": "id:61520",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 82774,
+   "name": "[серия «optimised scripts», 3 модов] Optimised Scripts for XPMSSE и др.",
+   "vr": 1,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-02-07",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Optimised Scripts for XPMSSE (for Papyrus Stack Fix 4.8.3)-82774-1-2-0-1675784522.zip",
+    "Optimised Scripts for XPMSSE (for Papyrus Stack Fix 4.8.4)-82774-1-2-0-1675784553.zip"
+   ],
+   "author": "Borgut1337",
+   "leftover": false,
+   "key": "id:82774",
+   "series": "optimised scripts",
+   "members": [
+    {
+     "id": 82774,
+     "name": "Optimised Scripts for XPMSSE",
+     "vr": 0,
+     "se": 7,
+     "newest": "2023-02-07",
+     "files": [
+      "Optimised Scripts for XPMSSE (for Papyrus Stack Fix 4.8.3)-82774-1-2-0-1675784522.zip"
+     ]
+    },
+    {
+     "id": 76767,
+     "name": "Optimised Scripts for Enhanced Blood Textures",
+     "vr": 1,
+     "se": 2,
+     "newest": "2022-10-08",
+     "files": [
+      "Optimised Scripts for Enhanced Blood Textures - SPID version-76767-1-0-0-1665250639.zip"
+     ]
+    },
+    {
+     "id": 78781,
+     "name": "Optimised Scripts for Summermyst",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-06-30",
+     "files": [
+      "Optimised Scripts for Summermyst-78781-1-0-0-1668450426.zip"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 97221,
+   "name": "dMenu",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-08-23",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "dMenu-97221-1-2-1-1692833188.zip"
+   ],
+   "author": "dTry",
+   "leftover": false,
+   "key": "id:97221",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 41834,
+   "name": "3W's - More lights for ENB SE - Mania tileset",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-10-29",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "More lights for ENB SE - Mania tileset-41834-1-0-1604004148.rar"
+   ],
+   "author": "Wewewi",
+   "leftover": false,
+   "key": "id:41834",
+   "theme": "clutter_misc"
+  }
+ ]
+}

@@ -1,0 +1,894 @@
+{
+ "batch": "C03",
+ "band": "C",
+ "themes": {
+  "armor": 2,
+  "body_face": 31
+ },
+ "items": [
+  {
+   "id": 75349,
+   "name": "[серия «lunar guard», 3 модов] Lunar Guard Armor и др.",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-03-04",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Lunar Guard - 1k Textures-75349-1-1-1663231024.zip",
+    "Lunar Guard - 2k Textures-75349-1-3-1677929821.zip"
+   ],
+   "author": "Deydranos",
+   "leftover": false,
+   "key": "id:75349",
+   "series": "lunar guard",
+   "members": [
+    {
+     "id": 75349,
+     "name": "Lunar Guard Armor",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-03-04",
+     "files": [
+      "Lunar Guard - 1k Textures-75349-1-1-1663231024.zip"
+     ]
+    },
+    {
+     "id": 75415,
+     "name": "Lunar Guard Armor 3BA Bodyslide",
+     "vr": 0,
+     "se": 5,
+     "newest": "2022-09-17",
+     "files": [
+      "Lunar Guard 3BA-75415-0-2-1663386911.zip"
+     ]
+    },
+    {
+     "id": 79097,
+     "name": "Lunar Guard Arsenal - Battleaxe",
+     "vr": 0,
+     "se": 5,
+     "newest": "2023-03-04",
+     "files": [
+      "Lunar Guard Battleaxe - 1k textures-79097-1-1-1677930044.zip"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 52128,
+   "name": "[серия «weapon animation», 4 модов] Weapon Animation (Dawnbreaker) и др.",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-07-09",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Weapon Animation (Dawnbreaker)-52128-1-1-1625839015.zip"
+   ],
+   "author": "saltmaxwellpshk",
+   "leftover": false,
+   "key": "id:52128",
+   "series": "weapon animation",
+   "members": [
+    {
+     "id": 52128,
+     "name": "Weapon Animation (Dawnbreaker)",
+     "vr": 0,
+     "se": 6,
+     "newest": "2021-07-09",
+     "files": [
+      "Weapon Animation (Dawnbreaker)-52128-1-1-1625839015.zip"
+     ]
+    },
+    {
+     "id": 51908,
+     "name": "Weapon Animation (Volendrung)",
+     "vr": 0,
+     "se": 5,
+     "newest": "2021-07-03",
+     "files": [
+      "Weapon Animation (Volendrung)-51908-1-1-1625299133.zip"
+     ]
+    },
+    {
+     "id": 51700,
+     "name": "Weapon Animation (Mace of Molag Bal)",
+     "vr": 0,
+     "se": 4,
+     "newest": "2021-06-29",
+     "files": [
+      "Weapon Animation (Mace of Molag Bal)-51700-1-1-1624965943.zip"
+     ]
+    },
+    {
+     "id": 51702,
+     "name": "Weapon Animation (Nightingale Bow)",
+     "vr": 0,
+     "se": 4,
+     "newest": "2021-06-29",
+     "files": [
+      "Weapon Animation (Nightingale Bow)-51702-1-2-1624970921.zip"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 59123,
+   "name": "3BA 3BBB CBPC Realistic Firm Breasts Butt Belly and Thighs (3BA RFBBBT)",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-09-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "3BA 3BBB CBPC RFBBT v2.1-59123-2-1-1638483984.zip",
+    "3BA RFBBBT v3.0 - AutoGibbon Settings - Update 3.1-59123-3-0-1663861280.zip",
+    "3BA RFBBBT-59123-3-0-1654814640.zip"
+   ],
+   "author": "David Richard",
+   "leftover": false,
+   "key": "id:59123",
+   "theme": "body_face"
+  },
+  {
+   "id": 64405,
+   "name": "Blackmoon's Brows",
+   "vr": 3,
+   "se": 1,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-03-02",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "BM_Brows_HPH-64405-1-00-1646219368.7z"
+   ],
+   "author": "blackmoonx330",
+   "leftover": false,
+   "key": "id:64405",
+   "theme": "body_face"
+  },
+  {
+   "id": 84288,
+   "name": "BnP - Teeth Overhaul",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-10-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "BnP - Teeth Overhaul 2k-84288-2-0-1698683287.7z",
+    "BnP teeth RSV patch-84288-2-0-1698683554.7z"
+   ],
+   "author": "Fridam",
+   "leftover": false,
+   "key": "id:84288",
+   "theme": "body_face"
+  },
+  {
+   "id": 62642,
+   "name": "Bosmer NPCs have Antlers - Texture Patch",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2024-10-29",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Antler Patch 2.0-62642-2-0-1730229504.rar",
+    "AntlerPatch-62642-1-0-1643289254.zip"
+   ],
+   "author": "see credits",
+   "leftover": false,
+   "key": "id:62642",
+   "theme": "body_face"
+  },
+  {
+   "id": 40123,
+   "name": "Courageous Women of Skyrim - High Poly Head Female Presets",
+   "vr": 3,
+   "se": 1,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-09-05",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Courageous Women of Skyrim - All Presets-40123-1-0-1599324644.zip"
+   ],
+   "author": "PoeticAnt44",
+   "leftover": false,
+   "key": "id:40123",
+   "theme": "body_face"
+  },
+  {
+   "id": 25753,
+   "name": "Eyes AO Clipping Fix",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-04-09",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Eyes AO Clipping Fix - Ruhmastered No Glow-25753-1-3-1649479901.zip",
+    "Eyes AO Clipping Fix - Ruhmastered-25753-1-3-1577066722.7z",
+    "Eyes AO Clipping Fix-25753-1-3-1558284484.7z"
+   ],
+   "author": "Artsick",
+   "leftover": false,
+   "key": "id:25753",
+   "theme": "body_face"
+  },
+  {
+   "id": 68912,
+   "name": "Fia's Eyes - a replacer and addon",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-05-02",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Default eye retexture-68912-2-1-1683033043.7z",
+    "More Eyes-68912-2-1-1683033073.7z"
+   ],
+   "author": "Fialka",
+   "leftover": false,
+   "key": "id:68912",
+   "theme": "body_face"
+  },
+  {
+   "id": 2880,
+   "name": "Font Overhaul - Natural Typefaces for Skyrim -- FONTS",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2024-02-06",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Font Overhaul - All In One Installer-2880-2-1-1-1628140045.7z",
+    "Font Overhaul - All In One Installer-2880-2-1-3-1707201837.7z"
+   ],
+   "author": "mfcfbro",
+   "leftover": false,
+   "key": "id:2880",
+   "theme": "body_face"
+  },
+  {
+   "id": 49373,
+   "name": "HIMBO V3 Bodyhair Overlays for Racemenu",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-05-03",
+   "vr_lists": [
+    "Librum VR",
+    "Tahrovin"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Automation Tools r6c-49373-1-5c.zip",
+    "HIMBO Bodyhair Overlays-49373-1-1-1620072544.7z"
+   ],
+   "author": "Kreiste and Elwari",
+   "leftover": false,
+   "key": "id:49373",
+   "theme": "body_face"
+  },
+  {
+   "id": 101500,
+   "name": "Imperial Tents - Animated",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-09-28",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Imperial Tents - Animated-101500-1-0-1695914881.7z"
+   ],
+   "author": "StoneSpiralGaming",
+   "leftover": false,
+   "key": "id:101500",
+   "theme": "body_face"
+  },
+  {
+   "id": 57115,
+   "name": "Kalilies Brows for High Poly Head (and extras)",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2025-01-21",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Kalilies Brows - High Poly Head-57115-1-0-1634355490.zip",
+    "Kalilies Brows for High Poly Head - Males-57115-1-0-2-1689492405.7z",
+    "Kalilies Brows for High Poly Head-57115-2-1-0-1727055622.7z"
+   ],
+   "author": "naChooey",
+   "leftover": false,
+   "key": "id:57115",
+   "theme": "body_face"
+  },
+  {
+   "id": 62508,
+   "name": "Koralina's Freckles and Moles - 4k 2k",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-02-07",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Koralina's Freckles and Moles 2k ESL-62508-1-1-1644249524.zip",
+    "Slordar's Body Freckles 2k-62508-1-0-1643918004.zip"
+   ],
+   "author": "Koralina",
+   "leftover": false,
+   "key": "id:62508",
+   "theme": "body_face"
+  },
+  {
+   "id": 63024,
+   "name": "Koralina's Makeup Tweaks - 4k 2k",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-02-07",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Koralina's Makeup Tweaks 2k ESL-63024-1-12-1644271858.zip"
+   ],
+   "author": "Koralina",
+   "leftover": false,
+   "key": "id:63024",
+   "theme": "body_face"
+  },
+  {
+   "id": 69048,
+   "name": "Married NPCs Wear Wedding Bands (SPID - Left Hand Rings)",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-11-11",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Married NPCs Wear Wedding Bands (1.0.1)-69048-1-0-1-1654271605.7z",
+    "Married NPCs Wear Wedding Bands (1.1.0)-69048-1-1-0-1668197051.7z"
+   ],
+   "author": "Dylan James",
+   "leftover": false,
+   "key": "id:69048",
+   "theme": "body_face"
+  },
+  {
+   "id": 113064,
+   "name": "NPC Infinite Block Fix",
+   "vr": 3,
+   "se": 1,
+   "score": 7,
+   "band": "C",
+   "newest": "2024-10-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "GSO - NPC Infinite Block Fix - Recommened-113064-1-0-1-1729253750.zip",
+    "NPC Infinite Block Fix - Recommended-113064-1-0-0-1709551729.zip"
+   ],
+   "author": "Zzyxzz",
+   "leftover": false,
+   "key": "id:113064",
+   "theme": "body_face"
+  },
+  {
+   "id": 62438,
+   "name": "Pocky's Quirk Eyes (heterochromia-reptile-unnaturals)",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-01-23",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Pocky's Quirk Eyes-62438-0-1-1642948995.7z"
+   ],
+   "author": "PockyPunk",
+   "leftover": false,
+   "key": "id:62438",
+   "theme": "body_face"
+  },
+  {
+   "id": 56437,
+   "name": "RaceMenu Undress",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-10-03",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "RaceMenu Undress-56437-1-1-0-1633225200.zip"
+   ],
+   "author": "chuckseven1",
+   "leftover": false,
+   "key": "id:56437",
+   "theme": "body_face"
+  },
+  {
+   "id": 6580,
+   "name": "SkySight Skins - Ultra HD 4K 2K Male Textures and Real Feet Meshes",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2025-05-26",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "01 - Skysight Skins ULTRA - FOMOD Installer-6580-2-0-2-1748249727.rar",
+    "03 - Skysight Skins PERFORMANCE - FOMOD Installer-6580-2-0-2-1748220446.rar",
+    "PATCH - Shoe Fixes (Less Shine)-6580-1-0.rar"
+   ],
+   "author": "fadingsignal",
+   "leftover": false,
+   "key": "id:6580",
+   "theme": "body_face"
+  },
+  {
+   "id": 81498,
+   "name": "Small Nordic Tent Replacer",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-12-31",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Nordic Tent Replacer-81498-1-0-1672234831.7z",
+    "Rally's Version - Dark - 2K-81498-1-0-1672487021.7z"
+   ],
+   "author": "JPSteel2",
+   "leftover": false,
+   "key": "id:81498",
+   "theme": "body_face"
+  },
+  {
+   "id": 109265,
+   "name": "Unmasking Sybille",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2024-01-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Unmasking Sybille 1.2-109265-1-2-1705529700.rar"
+   ],
+   "author": "TheOscar0",
+   "leftover": false,
+   "key": "id:109265",
+   "theme": "body_face"
+  },
+  {
+   "id": 96646,
+   "name": "Whiterun Imperial Camp Fixes",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-07-25",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Whiterun Imperial Camp Fixes-96646-0-1-1690294118.7z"
+   ],
+   "author": "Blackread",
+   "leftover": false,
+   "key": "id:96646",
+   "theme": "body_face"
+  },
+  {
+   "id": 101044,
+   "name": "[серия «miggyluv's presets», 12 модов] Miggyluv's Presets - Aerolf (Nord) и др.",
+   "vr": 3,
+   "se": 1,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-09-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Meridia Statue 4K-101044-1-0-1579276803.7z",
+    "Miggyluv's Male Nord - Aerolf-101044-1-0-1-1695396574.zip"
+   ],
+   "author": "Miggyluv",
+   "leftover": false,
+   "key": "id:101044",
+   "series": "miggyluv's presets",
+   "members": [
+    {
+     "id": 101044,
+     "name": "Miggyluv's Presets - Aerolf (Nord)",
+     "vr": 3,
+     "se": 1,
+     "newest": "2023-09-22",
+     "files": [
+      "Meridia Statue 4K-101044-1-0-1579276803.7z"
+     ]
+    },
+    {
+     "id": 98383,
+     "name": "Miggyluv's Presets - Adord (Nord)",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-08-15",
+     "files": [
+      "Miggyluv's Male Nord - Adord-98383-1-0-1692094688.zip"
+     ]
+    },
+    {
+     "id": 105016,
+     "name": "Miggyluv's Presets - Avidas (Redguard)",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-11-18",
+     "files": [
+      "Miggyluv's Male Redguard - Avidas-105016-1-0-1700322659.zip"
+     ]
+    },
+    {
+     "id": 93607,
+     "name": "Miggyluv's Presets - Drog'ur (Orc) Nolvus",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-06-15",
+     "files": [
+      "Miggyluv's Male Orc - Drog'ur-93607-1-0-1686870295.zip"
+     ]
+    },
+    {
+     "id": 109616,
+     "name": "Miggyluv's Presets - Eylon (Nord)",
+     "vr": 3,
+     "se": 0,
+     "newest": "2024-01-25",
+     "files": [
+      "Miggyluv's Male Nord - Eylon-109616-1-1-1706214584.zip"
+     ]
+    },
+    {
+     "id": 86989,
+     "name": "Miggyluv's Presets - Ketu (Dunmer)",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-08-03",
+     "files": [
+      "Miggyluv's Male Dunmer - Ketu-86989-2-0-1691077018.zip"
+     ]
+    },
+    {
+     "id": 96951,
+     "name": "Miggyluv's Presets - Kris (Nord)",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-07-28",
+     "files": [
+      "Miggyluv's Male Nord - Kris-96951-1-0-1690588174.zip"
+     ]
+    },
+    {
+     "id": 98580,
+     "name": "Miggyluv's Presets - Llondryn (Dunmer)",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-08-18",
+     "files": [
+      "Miggyluv's Male Dunmer - Llondryn-98580-1-0-1692359072.zip"
+     ]
+    },
+    {
+     "id": 100196,
+     "name": "Miggyluv's Presets - Nudz (Redguard)",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-09-08",
+     "files": [
+      "Miggyluv's Male Redguard - Nudz-100196-1-0-1694178885.zip"
+     ]
+    },
+    {
+     "id": 105693,
+     "name": "Miggyluv's Presets - Skar (Nord) Nolvus",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-11-27",
+     "files": [
+      "Miggyluv's Male Nord - Skar-105693-1-0-1-1701102917.zip"
+     ]
+    },
+    {
+     "id": 80853,
+     "name": "Miggyluv's Presets - Urrik (Half-Orc)",
+     "vr": 3,
+     "se": 0,
+     "newest": "2023-07-24",
+     "files": [
+      "Miggyluv's Presets - Urrik - Orc-80853-2-1-1690213942.zip"
+     ]
+    },
+    {
+     "id": 126670,
+     "name": "Miggyluv's Presets - Redguard (AIO)",
+     "vr": 2,
+     "se": 0,
+     "newest": "2025-07-07",
+     "files": [
+      "Miggyluv's Karif - Redguard Preset-126670-2-0-1751913011.zip"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 16962,
+   "name": "4K Imperial Tents Retexture",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-07-01",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "4K Imperial Tents-16962-1-3-1625144046.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:16962",
+   "theme": "body_face"
+  },
+  {
+   "id": 58076,
+   "name": "Accurate BodySlide Series Jill Valentine - BHUNP - CBBE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-07",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ABS Jill Valentine CBBE 3BBB-58076-1-0-1636322659.zip"
+   ],
+   "author": "Schnozymandias",
+   "leftover": false,
+   "key": "id:58076",
+   "theme": "body_face"
+  },
+  {
+   "id": 41124,
+   "name": "Adrielle - A High Poly Bosmer Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-10-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Adrielle Preset Elf Ears Version-41124-1-0-1601849975.7z"
+   ],
+   "author": "Orimagen",
+   "leftover": false,
+   "key": "id:41124",
+   "theme": "body_face"
+  },
+  {
+   "id": 72582,
+   "name": "Allison Bodyslide Preset for CBBE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-08-02",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Allison Bodyslide Nude and Outfit Preset for CBBE-72582-1-1-1659461408.zip"
+   ],
+   "author": "Allison Wade",
+   "leftover": false,
+   "key": "id:72582",
+   "theme": "body_face"
+  },
+  {
+   "id": 60885,
+   "name": "Am Fit - Bodyslide Preset - 3BAv2",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-02-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "AmFit Slim Bodyslide Preset v1.69-60885-1-69-1643964692.7z"
+   ],
+   "author": "wammy",
+   "leftover": false,
+   "key": "id:60885",
+   "theme": "body_face"
+  },
+  {
+   "id": 58781,
+   "name": "Amy - Racemenu Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-25",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Amy Nord-58781-1-0-1637809268.7z"
+   ],
+   "author": "Seraevy",
+   "leftover": false,
+   "key": "id:58781",
+   "theme": "body_face"
+  },
+  {
+   "id": 48756,
+   "name": "Ancient Nord Stalhrim",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-07-02",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Ancient Nord Stalhrim-48756-1-1-6-1620958232.zip",
+    "Ancient Nord Stalhrim-48756-1-2-1-1654109915.zip",
+    "Ancient Nord Stalhrim-48756-1-2-3-1-1679717531.zip"
+   ],
+   "author": "Tate Taylor and opusGlass and jboyd4",
+   "leftover": false,
+   "key": "id:48756",
+   "theme": "body_face"
+  },
+  {
+   "id": 97363,
+   "name": "Aquatic Elegance - Argonian Koi Whisker Addons",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-10-03",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Aquatic Elegance - Argonian Koi Whiskers HDT-SMP-97363-1-3-HDT-1696358541.zip",
+    "Aquatic Elegance - Argonian Koi Whiskers-97363-1-3-1696358581.zip"
+   ],
+   "author": "RVX",
+   "leftover": false,
+   "key": "id:97363",
+   "theme": "body_face"
+  },
+  {
+   "id": 98741,
+   "name": "Argonian Naga Breeding Male Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-08-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Naga Breeding Male Preset-98741-1-0-1692509082.7z"
+   ],
+   "author": "katiexmongo",
+   "leftover": false,
+   "key": "id:98741",
+   "theme": "body_face"
+  }
+ ]
+}

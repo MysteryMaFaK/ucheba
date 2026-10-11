@@ -1,0 +1,745 @@
+{
+ "batch": "D16",
+ "band": "D",
+ "themes": {
+  "creatures": 36
+ },
+ "items": [
+  {
+   "id": 96817,
+   "name": "DVA - Dynamic Vampire Appearance",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-29",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Dynamic Vampire Appearance-96817-1-3-1740414479.rar",
+    "Dynamic Vampire Appearance-96817-1-4-1780061780.7z",
+    "Dynamic Vampire Apperance-96817-1-1-1690905598.zip"
+   ],
+   "author": "Aipex8 -TaikoDragon",
+   "leftover": false,
+   "key": "id:96817",
+   "theme": "creatures"
+  },
+  {
+   "id": 70803,
+   "name": "Diplomatic Dragons",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-07-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Diplomatic Dragons-70803-1-0-1-1657195909.7z"
+   ],
+   "author": "Delta",
+   "leftover": false,
+   "key": "id:70803",
+   "theme": "creatures"
+  },
+  {
+   "id": 98989,
+   "name": "Diverse Catches - Base Object Swapper Fish Racks",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Diverse Catches - ALT Salmon-98989-1-0-1693020720.rar",
+    "Diverse Catches - Base Object Swapper - INI update-98989-1-9-1723619675.rar",
+    "Diverse Catches - Base Object Swapper - INI update-98989-2-1-1769976485.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:98989",
+   "theme": "creatures"
+  },
+  {
+   "id": 2163,
+   "name": "Dragon Animation Replace in Special Edition",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "DARinSE_1_0_StandingBreathOption-2163-1-0.7z",
+    "DragonAnimationReplace_inSE_1_01-2163-1-01.7z"
+   ],
+   "author": "yousukeve",
+   "leftover": false,
+   "key": "id:2163",
+   "theme": "creatures"
+  },
+  {
+   "id": 56658,
+   "name": "Dragon Ragdoll Sounds",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-10-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Dragon Ragdoll Sounds ESP flagged as ESL-56658-1-1-1633615193.zip"
+   ],
+   "author": "ClarkWasHere",
+   "leftover": false,
+   "key": "id:56658",
+   "theme": "creatures"
+  },
+  {
+   "id": 154023,
+   "name": "Dragon Wing Flapping Animation Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-07-02",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Dragon Wing Flapping Animation Fix-154023-1-0-1751475550.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:154023",
+   "theme": "creatures"
+  },
+  {
+   "id": 27241,
+   "name": "Draugr Cavalry- Mihail Monsters and Animals (SE-AE version) (''undead'')",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-15",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "draugr cavalry (SE-AE) 2.1-27241-2-1-1673752399.rar",
+    "draugr cavalry (sse) 1.1-27241-1-1-1584288782.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:27241",
+   "theme": "creatures"
+  },
+  {
+   "id": 156018,
+   "name": "Fire And Blood - Legendary Dragon Combats",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-07-31",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "FAB No Health Boost Patch-156018-1-0-1762856856.zip",
+    "Fire a Blood Bug Fixes SSE Unrelenting disarm fix-156018-2-96-1779102537.zip",
+    "Fire and Blood - Paarthurnax Quest Expansion patch 156018 3.04 2026-07-06T06-27Z rvwm2BnLm.zip"
+   ],
+   "author": "Lucaoys",
+   "leftover": false,
+   "key": "id:156018",
+   "theme": "creatures"
+  },
+  {
+   "id": 67053,
+   "name": "Fishing - Voiced Narrative",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-09-23",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Fishing - Voiced Narrative-67053-1-6-1653583674.rar",
+    "Fishing - Voiced Narrative-67053-2-0c-1704945181.zip",
+    "Fishing - Voiced-67053-2-2a-1758616794.zip"
+   ],
+   "author": "G The Generous",
+   "leftover": false,
+   "key": "id:67053",
+   "theme": "creatures"
+  },
+  {
+   "id": 104355,
+   "name": "Forgotten Creatures",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-07-10",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Forgotten Creatures-104355-2-4-1657480679.7z"
+   ],
+   "author": "Phlunder",
+   "leftover": false,
+   "key": "id:104355",
+   "theme": "creatures"
+  },
+  {
+   "id": 67374,
+   "name": "Ghosts of the Tribunal - Voiced Narrative (Creation Club)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-09-19",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Ghosts of the Tribunal - Voiced Narrative-67374-2-0b-1704872686.zip",
+    "Ghosts of the Tribunal - Voiced Narrative-67374-2-1-1758292026.zip",
+    "Ghosts of the Tribunal-67374-1-1-1653196677.rar"
+   ],
+   "author": "G The Generous",
+   "leftover": false,
+   "key": "id:67374",
+   "theme": "creatures"
+  },
+  {
+   "id": 101952,
+   "name": "Hagraven Houses - Animated",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-12-15",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Hagraven Houses - Animated-101952-2-0-1-1702661904.7z"
+   ],
+   "author": "StoneSpiralGaming",
+   "leftover": false,
+   "key": "id:101952",
+   "theme": "creatures"
+  },
+  {
+   "id": 167064,
+   "name": "Hovels of Hagravens - A Forsworn Tent and Clutter Replacer(LessPoly)",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-12-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Hovels of Hagravens - Animated patch (LessPoly)-167064-1-0-1765703858.rar",
+    "HovelsofHagravensAForswornTentandClutter(LessPoly)-167064-1-0-1765703655.rar"
+   ],
+   "author": "W1ter",
+   "leftover": false,
+   "key": "id:167064",
+   "theme": "creatures"
+  },
+  {
+   "id": 848,
+   "name": "IHSS - Improved Horse Step Sounds",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-05-26",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Improved Horse Step Sounds - Special Edition-848-2-2-1541612556.7z",
+    "Improved Horse Step Sounds-848-3-2-1748301091.zip"
+   ],
+   "author": "Crystan",
+   "leftover": false,
+   "key": "id:848",
+   "theme": "creatures"
+  },
+  {
+   "id": 62277,
+   "name": "Kanjs -  Falmer Statue - Particle light ENB - up to 4k",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-01-20",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kanjs - Falmer 2k-62277-1-1642702736.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:62277",
+   "theme": "creatures"
+  },
+  {
+   "id": 111358,
+   "name": "Kanjs - Chaurus Eggs Animated and Motion",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-11",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kanjs - Chaurus Eggs Animated and Motion SE 1K-111358-1-1707589876.zip",
+    "Kanjs - Chaurus Eggs Blood decals fix SE-111358-1-1-1707663310.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:111358",
+   "theme": "creatures"
+  },
+  {
+   "id": 120239,
+   "name": "Majestic Dragons - Larger and immersive proportions",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-09-17",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Dragon Races of Skyrim - Resources-120239-1-0-1758104051.zip",
+    "Majestic Dragons - Beauty-120239-3-2-1757771664.zip",
+    "Majestic Dragons Glorious-120239-2-0-1718153918.zip"
+   ],
+   "author": "Lucaoys",
+   "leftover": false,
+   "key": "id:120239",
+   "theme": "creatures"
+  },
+  {
+   "id": 104704,
+   "name": "More realistic fur and antlers for Hagraven Clutter",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-15",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "MRFA More Complex Bone Totem - DTA patch-104704-1-0-1700197010.7z",
+    "MRFA for Hagraven Clutter - DTA patch by Mur4s4me-104704-1-0-1700196842.7z",
+    "MRFA for Hagraven Clutter-104704-1-4-1708030684.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:104704",
+   "theme": "creatures"
+  },
+  {
+   "id": 151793,
+   "name": "Non-Horse Mount Animation Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-06-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Non-Horse Mount Animation Fix-151793-0-4-1749214659.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:151793",
+   "theme": "creatures"
+  },
+  {
+   "id": 75632,
+   "name": "Real Rabbits HD - SPID Edition",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-09-18",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Real Rabbits HD - SPID-75632-1-1-1663499592.7z"
+   ],
+   "author": "fadingsignal - substill",
+   "leftover": false,
+   "key": "id:75632",
+   "theme": "creatures"
+  },
+  {
+   "id": 80134,
+   "name": "Revered Dragon Retexture",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-12-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "4K Version.-80134-1-2-1670444565.7z",
+    "8K Version.-80134-1-1-1670362719.7z",
+    "8K Version.-80134-1-2-1670444505.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:80134",
+   "theme": "creatures"
+  },
+  {
+   "id": 169554,
+   "name": "Sanguine Sundries - A Vampire Clutter Replacer",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Sanguine Sundries - A Vampire Clutter Replacer-169554-1-0-1768777587.rar",
+    "Sanguine Sundries - A Vampire Clutter Replacer-169554-2-1779739663.rar",
+    "Sanguine Sundries - Armless Edition-169554-2-1779739708.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:169554",
+   "theme": "creatures"
+  },
+  {
+   "id": 104814,
+   "name": "Scuttlers- Mihail Monsters and Animals (SE-AE version) (''eso'')",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-11-15",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 3,
+   "files": [
+    "scuttlers (se-ae)-104814-1-1700072365.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:104814",
+   "theme": "creatures"
+  },
+  {
+   "id": 123252,
+   "name": "Sirene Wispmother - A SIRENROOT Replacer",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-09-05",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Sirene Wispmother - A SIRENROOT Replacer-123252-1-0-1720015570.rar",
+    "Sirene Wispmother - A SIRENROOT Replacer-123252-1-0-1725538543.rar"
+   ],
+   "author": "meatmancy",
+   "leftover": false,
+   "key": "id:123252",
+   "theme": "creatures"
+  },
+  {
+   "id": 160837,
+   "name": "Storm Atronach SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-06",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "1StoneWaveCreatureSE-160837-1-1759758909.7z",
+    "1StormAtronach-160837-1-1759758880.7z",
+    "Lower resolution textures-160837-1-1759758978.7z"
+   ],
+   "author": "wavewavewave",
+   "leftover": false,
+   "key": "id:160837",
+   "theme": "creatures"
+  },
+  {
+   "id": 123389,
+   "name": "The Dragonborn's Bestiary - Addons",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-02",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "TDB - Mandragorasprouts Hagraven-123389-1-0-1759344152.7z",
+    "The Dragonborn's Bestiary - 4thUnknown Addons-123389-2-0-1759777120.7z",
+    "The Dragonborn's Bestiary - 4thUnknown Addons-123389-2-5-1770052165.7z"
+   ],
+   "author": "monkeyangie",
+   "leftover": false,
+   "key": "id:123389",
+   "theme": "creatures"
+  },
+  {
+   "id": 81617,
+   "name": "The Winking Skeever rework",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-11-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "The Winking Skeever rework - Parallax-81617-2-0-1681143152.7z",
+    "The Winking Skeever rework - Parallax-81617-3-0-1701007447.7z",
+    "The Winking Skeever rework-81617-3-0-1701007415.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:81617",
+   "theme": "creatures"
+  },
+  {
+   "id": 140941,
+   "name": "Thundertrot Horse Animations",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-02-12",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Thundertrot Directional Move-140941-1-0-1739372436.7z",
+    "Thundertrot Horse Animations-140941-2-1-1739379776.7z"
+   ],
+   "author": "b13nxx",
+   "leftover": false,
+   "key": "id:140941",
+   "theme": "creatures"
+  },
+  {
+   "id": 2458,
+   "name": "Transparent and Refracting Icicle and Frost Atronach",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-04-07",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Clear refracting icicle and FrostAtronach-2458-1-5-2-1590475911.7z",
+    "ENB Refract Icicle Patch-2458-0-488-1680909826.7z",
+    "Loose Clear refracting icicle and FrostAtronach-2458-1-5-1590015516.7z"
+   ],
+   "author": "Skysan4298",
+   "leftover": false,
+   "key": "id:2458",
+   "theme": "creatures"
+  },
+  {
+   "id": 89648,
+   "name": "USSEP Frost and Fire Dragon Correction",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-04-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "USSEP Frost and Fire Dragon Correction-89648-0-9-1682844935.rar"
+   ],
+   "author": "bientje",
+   "leftover": false,
+   "key": "id:89648",
+   "theme": "creatures"
+  },
+  {
+   "id": 60734,
+   "name": "Udefrykte. Uderfrykte. Udyrfrykte. (Bloodmoon Creature Restoration Project)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-12-31",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Udefrykte-60734-1-2-1640922981.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:60734",
+   "theme": "creatures"
+  },
+  {
+   "id": 33955,
+   "name": "Undead summons emerge from the ground",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-03-24",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Undead summons emerge from the ground-33955-1-0-1585092440.zip"
+   ],
+   "author": "Kurasa25",
+   "leftover": false,
+   "key": "id:33955",
+   "theme": "creatures"
+  },
+  {
+   "id": 64741,
+   "name": "Valhalla Combat",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-12-21",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Valhalla Combat-64741-1-01-1660953246.7z",
+    "Valhalla Combat-64741-1-3-3-1671663382.7z"
+   ],
+   "author": "dTry",
+   "leftover": false,
+   "key": "id:64741",
+   "theme": "creatures"
+  },
+  {
+   "id": 1368,
+   "name": "Wildcat - Combat of Skyrim",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-13",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Wildcat - Realistic Damage Plugin-1368-.zip",
+    "Wildcat 7.1.0-1368-7-1-0-1705146846.zip",
+    "Wildcat v700-1368-7-00SSE.zip"
+   ],
+   "author": "Enai Siaion",
+   "leftover": false,
+   "key": "id:1368",
+   "theme": "creatures"
+  },
+  {
+   "id": 43188,
+   "name": "WoW Dragon Mounds CTD Fix",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-07-24",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "WoW Dragon Mounds CTD Fix - Wyrmstooth Patch-43188-1-1-1627149776.7z",
+    "WoW Dragon Mounds CTD Fix-43188-1-2-1623169063.7z"
+   ],
+   "author": "Diego2891",
+   "leftover": false,
+   "key": "id:43188",
+   "theme": "creatures"
+  },
+  {
+   "id": 12128,
+   "name": "Zim's Dremora Improvements",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-08-17",
+   "vr_lists": [
+    "FUS",
+    "Librum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Zim's Dremora Improvements V2-12128-V2-1581878754.rar",
+    "Zim's Dremora Improvements V2.4-12128-V2-4-1692306245.rar"
+   ],
+   "author": "Zim",
+   "leftover": false,
+   "key": "id:12128",
+   "theme": "creatures"
+  }
+ ]
+}

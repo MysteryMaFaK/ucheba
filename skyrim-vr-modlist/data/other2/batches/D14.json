@@ -1,0 +1,730 @@
+{
+ "batch": "D14",
+ "band": "D",
+ "themes": {
+  "clutter_misc": 36
+ },
+ "items": [
+  {
+   "id": 73689,
+   "name": "Konahrik's Accoutrements - Fixed Esp",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-08-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Konahrik's Accoutrements - Fixed Esp-73689-1-0-1-1661475326.zip"
+   ],
+   "author": "Edhelsereg and MaskedRPGFan",
+   "leftover": false,
+   "key": "id:73689",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 157397,
+   "name": "Legendary Map",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Legendary Map-157397-1-0-2-1755902359.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:157397",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 68669,
+   "name": "Lepidoptera - More Butterflies and Moths",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-06-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Lepidoptera - More Butterflies and Moths-68669-1-1-1654388190.rar",
+    "Lepidoptera - More Butterflies and Moths-68669-1-11-1654580988.rar"
+   ],
+   "author": "Bidinha",
+   "leftover": false,
+   "key": "id:68669",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 74565,
+   "name": "Locked Chests Have Keys",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-12-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Locked Chests Have Keys-74565-1-02-1671359288.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:74565",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 138294,
+   "name": "Lore-Friendly Load Screen Compendium",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "0 Lore-Friendly Load Screen Compendium (16-9) (2K)-138294-2-1-1746799043.zip",
+    "Lore-Friendly Load Screen Compendium (16-9) (2K)-138294-2-0-1738258360.zip",
+    "Lore-Friendly Load Screen Compendium (16-9) (4K)-138294-2-1-1746748331.zip"
+   ],
+   "author": "ChildofDragons",
+   "leftover": false,
+   "key": "id:138294",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 156534,
+   "name": "LoreBox - Item and Spell Tooltips",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-07-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "LoreBox 156534 1.0.7 2026-07-06T00-01Z Ks18n02O0.zip",
+    "LoreBox-156534-1-0-6-1765084065.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:156534",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 136003,
+   "name": "MO2 Download Manager Plus",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-26",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 2,
+   "files": [
+    "MO2 Download Manager-136003-1-4-0-1740405038.zip",
+    "MO2 Download Manager-136003-1-8-0-1769463727.7z"
+   ],
+   "author": "aglowinthefield",
+   "leftover": false,
+   "key": "id:136003",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 4138,
+   "name": "Map Markers Complete with DLC and OCS",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Map Markers Complete-4138-1-2.7z"
+   ],
+   "author": "SarthesArai",
+   "leftover": false,
+   "key": "id:4138",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 117402,
+   "name": "Menu Zoom",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-31",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Menu Zoom-117402-1-0-2-1719850215.7z",
+    "Menu Zoom-117402-1-0-3-797901-1788136920.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:117402",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 83738,
+   "name": "Midwood Isle Black Book Fix",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Midwood Isle Black Book Fix-83738-0-1-1674961180.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:83738",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 97285,
+   "name": "Missile's Gourmet Patches",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-10",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Missile's Gourmet Patches FOMOD-97285-1-0-5-1717114701.zip",
+    "Missile's Gourmet Patches FOMOD-97285-1-0-6-1770692223.zip"
+   ],
+   "author": "Missile",
+   "leftover": false,
+   "key": "id:97285",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 112132,
+   "name": "Missives - Quickloot Patch",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Missives - Quickloot Patch-112132-1-0-1708435826.zip"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:112132",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 69617,
+   "name": "Missives - Settings Loader",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-06-13",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Missives - Settings Loader-69617-1-0-0-1655141187.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:69617",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 147353,
+   "name": "Mod Version Fixer for Mo2 (Mod Organizer 2)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-04-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Mod Version Fixer-147353-1-0-1744396932.zip",
+    "Mod Version Fixer-147353-1-2-1744578614.zip",
+    "Mod Version Fixer-147353-1-3-1775438558.zip"
+   ],
+   "author": "Bottle",
+   "leftover": false,
+   "key": "id:147353",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 36116,
+   "name": "Modular PatchXPress (MPxP)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-11-01",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "(0.0) SELUA - Solitude Exterior LOD Unlocker Advocate II-36116-1-1-1605036920.7z",
+    "(1.1) The Great City of Solitude PATCH - Solitude Skyway SE - Drengin's Blue Palace Terrace (STD)-36",
+    "(3.0) The Great City of Solitude Unofficial Patch-36116-1-1-1604960322.7z"
+   ],
+   "author": "KhrysINXS",
+   "leftover": false,
+   "key": "id:36116",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 89680,
+   "name": "More Realistic Antlers for Female Elk by FrankBlack",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "More Realistic Female Elk - Fluffworks-89680-1-1682035101.7z"
+   ],
+   "author": "WillOhTheWisp",
+   "leftover": false,
+   "key": "id:89680",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 3200,
+   "name": "Musical Lore (Soundtrack Mod By Nir Shor)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Musical Lore V1.2-3200-1-2.rar"
+   ],
+   "author": "Nir Shor",
+   "leftover": false,
+   "key": "id:3200",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 37498,
+   "name": "Mute The Music",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-20",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Mute The Music-37498-1-0-1592674240.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:37498",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 46997,
+   "name": "Mysticism - FleshFX Patch",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-09-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Mysticism FleshFX Patch-46997-1-2-1662163665.zip"
+   ],
+   "author": "obpluto",
+   "leftover": false,
+   "key": "id:46997",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 62497,
+   "name": "NL_CMD - A Console Command Framework",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "NL_CMD_SSE-62497-1-03-1674071896.zip"
+   ],
+   "author": "NeverLost",
+   "leftover": false,
+   "key": "id:62497",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 119899,
+   "name": "No Player Position on World Map (VR)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "No Player Position on World Map-119899-1-0-0-1716227942.zip"
+   ],
+   "author": "washyourpaws",
+   "leftover": false,
+   "key": "id:119899",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 2932,
+   "name": "OH GOD BEES SE - More Bees-More Hives-HD Textures",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "OH GOD BEES - HD Textures-2932-1-0.7z"
+   ],
+   "author": "lesi123",
+   "leftover": false,
+   "key": "id:2932",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 167273,
+   "name": "Olenveld - Tweaks and Fixes",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-17",
+   "vr_lists": [
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Olenveld - Tweaks and Fixes-167273-1-00-1765933994.rar"
+   ],
+   "author": "IxionXVII",
+   "leftover": false,
+   "key": "id:167273",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 157975,
+   "name": "Personal Music Framework - Personalized Music Patch",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "PMF - Personalized Music Patch-157975-1-0-1756431617.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:157975",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 87016,
+   "name": "Psychopatchist Purgatory",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-13",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Psychopatchist Purgatory-87016-0-11-1745919483.rar",
+    "Psychopatchist Purgatory-87016-0-15-1778706046.rar",
+    "Psychopatchist Purgatory-87016-0-9-1735589871.rar"
+   ],
+   "author": "Czasior the Madlad",
+   "leftover": false,
+   "key": "id:87016",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 63685,
+   "name": "Pulsating Beating Heart ENB Light",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Daedra Heart-63685-1-1-1645086934.rar"
+   ],
+   "author": "Bum Squad",
+   "leftover": false,
+   "key": "id:63685",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 36005,
+   "name": "Purchaseable Store-Display-Items",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-11-05",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Purchaseable Store-Display-Items 1.2.0-36005-1-2-0-1623405611.7z",
+    "Purchaseable Store-Display-Items-36005-1-2-2-1636154506.7z",
+    "SometimesPickUpBooks - PSDI - Patch-36005-1-0-0-1623405769.7z"
+   ],
+   "author": "Predator10",
+   "leftover": false,
+   "key": "id:36005",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 172991,
+   "name": "QTE VR Framework",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "QTE VR - Ordinator Perform Perks-172991-1-0-1771595767.7z",
+    "QTE VR Framework-172991-1-0-1771595674.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:172991",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 172992,
+   "name": "QTE VR Framework - Music Pack",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "QTE VR - Music Pack-172992-1-0-1771596123.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:172992",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 53335,
+   "name": "Quality CubeMaps - HD Cube Maps Optimized",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-08-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Quality CubeMaps - HD Cube Maps Optimized-53335-1-02-1628216214.7z"
+   ],
+   "author": "kartoffel and Soulmancer",
+   "leftover": false,
+   "key": "id:53335",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 63625,
+   "name": "RMB SPIDified - Core",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "RMB SPIDified - Core Framework-63625-6-2-1-1749738219.zip",
+    "RMB SPIDified - Core Framework-63625-6-3-0-1779405589.zip",
+    "RMB SPIDified - Core-63625-6-0-1-1740269037.zip"
+   ],
+   "author": "RowanMaBoot",
+   "leftover": false,
+   "key": "id:63625",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 93219,
+   "name": "Racial Abilities - I4 icons",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-22",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Racial Abilities - I4 icons FOMOD 1.4.1-93219-1-4-2-1687476096.7z"
+   ],
+   "author": "IAmNotSimon",
+   "leftover": false,
+   "key": "id:93219",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 22199,
+   "name": "Realistic HD Baskets Remastered",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2018-12-28",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Realistic HD Baskets Remastered-22199-1-0-1546026887.7z"
+   ],
+   "author": "Halk Hogan PL",
+   "leftover": false,
+   "key": "id:22199",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 110672,
+   "name": "Realistic Pirate Sounds",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Realistic Pirate Sounds-110672-1-0-1-1706933124.zip",
+    "Realistic Pirate Sounds.zip"
+   ],
+   "author": "Tate Taylor",
+   "leftover": false,
+   "key": "id:110672",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 132997,
+   "name": "Redoran Reverie - A Dunmer Bed Replacer",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-06-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Redoran Reverie - BOS Use Those Blankets patch-132997-1-1-1760570943.rar",
+    "Redoran Reverie - Beds BOS Distr Color Variance-132997-1-0-2-1731021213.rar",
+    "Redoran Reverie - Dunmeri Furniture in GQ patch-132997-1-0-1760571610.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:132997",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 74652,
+   "name": "Roggvir's Execution Scene Fixes",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-12-31",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Roggvir's Execution Scene Fixes-74652-2-0-1672476604.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:74652",
+   "theme": "clutter_misc"
+  }
+ ]
+}

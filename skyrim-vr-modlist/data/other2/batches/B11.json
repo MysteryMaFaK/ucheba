@@ -1,0 +1,758 @@
+{
+ "batch": "B11",
+ "band": "B",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 110869,
+   "name": "Rally's Celestial Canvas",
+   "vr": 3,
+   "se": 4,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-02-17",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Tahrovin"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Rally's Celestial Canvas VR - Fewer Stars-110869-1-0-1707466760.7z",
+    "Rally's Celestial Canvas VR-110869-1-0-1708153058.7z",
+    "Rally's Celestial Canvas-110869-1-0-1707414454.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:110869",
+   "theme": "other"
+  },
+  {
+   "id": 85565,
+   "name": "Save Unbaker",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-02-26",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "1_Save Unbaker-85565-1-0-4-1677453959.7z",
+    "Save Unbaker-85565-1-0-4-1677453959.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:85565",
+   "theme": "other"
+  },
+  {
+   "id": 48561,
+   "name": "The Business Ledger",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-11-03",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Business Ledger HD-48561-2-0-0-1635973675.7z",
+    "Business Ledger SD-48561-2-0-0-1635973702.7z"
+   ],
+   "author": "d34dun1t",
+   "leftover": false,
+   "key": "id:48561",
+   "theme": "other"
+  },
+  {
+   "id": 17540,
+   "name": "Unique Barbas Retexture",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Unique Barbas_SSE_1.0-17540-1-0.7z"
+   ],
+   "author": "FrankFamily aka Borx25",
+   "leftover": false,
+   "key": "id:17540",
+   "theme": "other"
+  },
+  {
+   "id": 131114,
+   "name": "Better Forgotten Vale Portal Textures",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2024-10-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Better Forgotten Vale Portal Textures-131114-0-1-1728373201.7z"
+   ],
+   "author": "wSkeever",
+   "leftover": false,
+   "key": "id:131114",
+   "theme": "other"
+  },
+  {
+   "id": 11247,
+   "name": "Bijin Wives SE",
+   "vr": 3,
+   "se": 3,
+   "score": 9,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Bijin Wives SE 1.1.2-11247-1-1-2.7z"
+   ],
+   "author": "rxkx22",
+   "leftover": false,
+   "key": "id:11247",
+   "theme": "other"
+  },
+  {
+   "id": 74526,
+   "name": "Deadly Spell Impacts 4K - Cleaned and Upscaled Textures",
+   "vr": 4,
+   "se": 1,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-09-02",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    ".Deadly Spell Impacts 4K-74526-1-0-1662133724.7z",
+    "Deadly Spell Impacts 2K-74526-1-1-1662133943.7z"
+   ],
+   "author": "Isoku - XilaMonstrr",
+   "leftover": false,
+   "key": "id:74526",
+   "theme": "other"
+  },
+  {
+   "id": 51125,
+   "name": "Forget Spell",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-12-11",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Forget Spell-51125-1-2-2-1628453072.zip",
+    "Forget Spell-51125-1-2-6-1702301931.7z"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:51125",
+   "theme": "other"
+  },
+  {
+   "id": 52423,
+   "name": "Hearthfire Crafting Retextures",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-07-15",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Hearthfire Crafting Retextures-52423-1-1-1626377631.7z",
+    "Optional Lock Retexture-52423-1-0-1626351806.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:52423",
+   "theme": "other"
+  },
+  {
+   "id": 36889,
+   "name": "Jump Behavior Overhaul",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-09-24",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Jump Behavior Overhaul SE - AIO-36889-1-4-1595787187.zip",
+    "Jump Behavior Overhaul SE-36889-1-5-1664007826.7z"
+   ],
+   "author": "Retrospect",
+   "leftover": false,
+   "key": "id:36889",
+   "theme": "other"
+  },
+  {
+   "id": 99090,
+   "name": "Kill Caps Lock NG",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-08-22",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Kill Caps Lock NG 99090 1.1.0 2026-08-22T11-19Z FpnkHZ2Kd.zip",
+    "Kill Caps Lock NG-99090-1-0-0-1-1692902904.zip"
+   ],
+   "author": "JollyGopher",
+   "leftover": false,
+   "key": "id:99090",
+   "theme": "other"
+  },
+  {
+   "id": 76889,
+   "name": "New praying animations (DAR)",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-12-10",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "idlegreybeardmeditateidlec.hkx F addition (OAR)-76889-1-1-0-1702201007.zip",
+    "idlepray.hkx replacer for all-76889-1-0-0-1665805268.zip",
+    "idlepray.hkx replacer for females (OAR)-76889-1-1-0-1702200890.zip"
+   ],
+   "author": "CHIMgarden",
+   "leftover": false,
+   "key": "id:76889",
+   "theme": "other"
+  },
+  {
+   "id": 33597,
+   "name": "No Spinning Death Animation LITE",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-03-22",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "No Spinning Death Animation LITE-33597-1-311-1584237216.7z",
+    "No Spinning Death Animation Merged-33597-1-311-1584913822.7z"
+   ],
+   "author": "dDefinder1",
+   "leftover": false,
+   "key": "id:33597",
+   "theme": "other"
+  },
+  {
+   "id": 33731,
+   "name": "Pandorable's Black-Briar Ladies - Maven Ingun",
+   "vr": 3,
+   "se": 3,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-03-19",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Pandorable's Black-Briar Ladies-33731-1-0-1584577285.rar"
+   ],
+   "author": "Pandorable",
+   "leftover": false,
+   "key": "id:33731",
+   "theme": "other"
+  },
+  {
+   "id": 127944,
+   "name": "Praedy's Apocrypha - SE",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-05-12",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "BCS spell tomes textures fix-127944-1-2-1746023087.7z",
+    "LOTD SUP patch - read file desc-127944-1-2-1725230309.7z",
+    "Praedy's Apocrypha 2K-127944-1-2-1725230339.7z"
+   ],
+   "author": "Praedyth",
+   "leftover": false,
+   "key": "id:127944",
+   "theme": "other"
+  },
+  {
+   "id": 65481,
+   "name": "Praedy's Staves AIO - SE",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-03-31",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Staves AIO 1K-65481-1-3-1648722689.7z",
+    "Staves AIO 2K-65481-1-3-1648722741.7z",
+    "Staves AIO 2k 1k-65481-1-3-1648722782.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:65481",
+   "theme": "other"
+  },
+  {
+   "id": 8354,
+   "name": "Prince and The Pauper SE",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2019-11-21",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Prince and the Pauper SE - RS Children Patch-8354-1-0-1574351214.rar",
+    "Prince and the Pauper SE 4.1-8354-4-1-1574351160.rar"
+   ],
+   "author": "JadeRoyale",
+   "leftover": false,
+   "key": "id:8354",
+   "theme": "other"
+  },
+  {
+   "id": 47637,
+   "name": "Rally's Civil War Document Tubes",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-04-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Rally's Civil War Document Tubes-47637-1-2-1617271419.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:47637",
+   "theme": "other"
+  },
+  {
+   "id": 33225,
+   "name": "Rally's Hanging Moss",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-04-03",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Rallys Hanging Moss - Desaturated-33225-1-0-1583135102.7z",
+    "Rallys Hanging Moss - Desaturated-33225-1-1-1585923886.7z",
+    "Rallys Hanging Moss-33225-1-1-1585903450.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:33225",
+   "theme": "other"
+  },
+  {
+   "id": 115859,
+   "name": "Rally's Thrones",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2024-04-05",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Rally's Enhanced Vanilla Thrones 2K-115859-1-0-1712306059.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:115859",
+   "theme": "other"
+  },
+  {
+   "id": 22789,
+   "name": "Simple Children",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2019-02-27",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Patches for Simple Children - AIO-22789-1-1-4a-1551294947.zip",
+    "Simple Children - Babette Glowing Eyes-22789-1-1-0-1549851996.zip",
+    "Simple Children - Kidmer Patch-22789-1-1-0-1550865620.zip"
+   ],
+   "author": "Tetchystar",
+   "leftover": false,
+   "key": "id:22789",
+   "theme": "other"
+  },
+  {
+   "id": 141047,
+   "name": "Sleepwalking Into A Nightmare - New Daedric Prince Quest",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-02-12",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Sleepwalking Into A Nightmare - ESM-141047-1-0-9-1739318597.7z"
+   ],
+   "author": "TheLootist",
+   "leftover": false,
+   "key": "id:141047",
+   "theme": "other"
+  },
+  {
+   "id": 41891,
+   "name": "Survival Control Panel",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-10-02",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Survival Control Panel-41891-1-0-3-1606221978.zip",
+    "Survival Control Panel-41891-1-1-2-1664687771.7z"
+   ],
+   "author": "Parapets and colinswrath",
+   "leftover": false,
+   "key": "id:41891",
+   "theme": "other"
+  },
+  {
+   "id": 80418,
+   "name": "TB's 3D Driftwood",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-12-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Skyrim 3D Driftwood 2K Optimised SSE Version-80418-1-6-1670933232.zip",
+    "Skyrim 3D Driftwood Optimised Meshes-80418-1-7-1671301683.rar"
+   ],
+   "author": "The Blender Animator",
+   "leftover": false,
+   "key": "id:80418",
+   "theme": "other"
+  },
+  {
+   "id": 5541,
+   "name": "Teldryn Serious - A Teldryn Sero Backstory Quest SSE",
+   "vr": 3,
+   "se": 3,
+   "score": 9,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Teldryn Serious Enhanced Edition-5541-7-0-0.7z"
+   ],
+   "author": "Undriel",
+   "leftover": false,
+   "key": "id:5541",
+   "theme": "other"
+  },
+  {
+   "id": 34028,
+   "name": "Thugs Not Assassins",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-03-30",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "1_Thugs Not Assassins - Timing Is Everything-34028-1-1-0-1585564458.zip",
+    "Thugs Not Assassins - Timing Is Everything-34028-1-1-0-1585564458.zip",
+    "Thugs Not Assassins-34028-1-1-1-1585564478.zip"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:34028",
+   "theme": "other"
+  },
+  {
+   "id": 156952,
+   "name": "Upscaling - Community Shaders",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-05-31",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Upscaling 156952 1.4.0 2026-05-31T10-27Z L5WQbqiov.7z",
+    "Upscaling-156952-1-1-2-1768814008.7z",
+    "Upscaling-156952-1-2-0-1770424570.7z"
+   ],
+   "author": "doodlum alandtse",
+   "leftover": false,
+   "key": "id:156952",
+   "theme": "other"
+  },
+  {
+   "id": 75481,
+   "name": "Use Those Blankets",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-08-14",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tahrovin"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Campfire Patch-75481-1-0-1663518790.zip",
+    "Noble Sheets Use Your Own Textures-75481-2-0-1670754201.zip",
+    "Use Those Blankets Campfire Patch-75481-2-0-1670754421.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:75481",
+   "theme": "other"
+  },
+  {
+   "id": 51529,
+   "name": "Amber Refossilised",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-12-30",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Amber Refossilized-51529-1-1-1-1640839644.7z"
+   ],
+   "author": "Jelidity",
+   "leftover": false,
+   "key": "id:51529",
+   "theme": "other"
+  },
+  {
+   "id": 41254,
+   "name": "ArteFakes - Unique Artifacts Replacer",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-09-09",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 6,
+   "files": [
+    "ArteFakes - Animation Replacer Patch-41254-1-1603003867.7z",
+    "ArteFakes Updated Plugin-41254-2-0-1-1631195398.7z",
+    "ArteFakes-41254-2-0-1617966810.7z"
+   ],
+   "author": "registrant",
+   "leftover": false,
+   "key": "id:41254",
+   "theme": "other"
+  },
+  {
+   "id": 112114,
+   "name": "Blackreach Eerie Ambience",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-08-14",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Blackreach Eerie Ambience-112114-1-1708435343.7z",
+    "Blackreach Eerie Ambience-112114-2-0-1723653558.7z"
+   ],
+   "author": "Clofas1",
+   "leftover": false,
+   "key": "id:112114",
+   "theme": "other"
+  },
+  {
+   "id": 9034,
+   "name": "Boiled Creme Treat Sweet Roll and Pies",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "MeatPie-9034-2.zip",
+    "Sweet Roll Boiled Creme Treat and Pie-9034-.zip"
+   ],
+   "author": "PandoraTremere",
+   "leftover": false,
+   "key": "id:9034",
+   "theme": "other"
+  },
+  {
+   "id": 80455,
+   "name": "Casting Bar",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-12-31",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Casting Bar-80455-3-0-0-1703987389.7z"
+   ],
+   "author": "zax",
+   "leftover": false,
+   "key": "id:80455",
+   "theme": "other"
+  },
+  {
+   "id": 69038,
+   "name": "Charcoal Stick and Coal",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-01-20",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "1K Version.-69038-1-2-1674205036.7z",
+    "2K Version.-69038-1-2-1674204998.7z",
+    "Charcoal Stick-69038-1-0-1654242709.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:69038",
+   "theme": "other"
+  },
+  {
+   "id": 80465,
+   "name": "Eldergleam Sap - High poly",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-12-13",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Eldergleam Sap-80465-1-01-1670964822.rar"
+   ],
+   "author": "markuskarttunen1",
+   "leftover": false,
+   "key": "id:80465",
+   "theme": "other"
+  },
+  {
+   "id": 79583,
+   "name": "Glorious Gradients",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-12-02",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Glorious Gradients-79583-0-0-4-1669951510.7z"
+   ],
+   "author": "Akira1364",
+   "leftover": false,
+   "key": "id:79583",
+   "theme": "other"
+  }
+ ]
+}

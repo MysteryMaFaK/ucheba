@@ -1,0 +1,891 @@
+{
+ "batch": "A07",
+ "band": "A",
+ "themes": {
+  "land_nature": 23,
+  "other": 11
+ },
+ "items": [
+  {
+   "id": 19421,
+   "name": "MystiriousDawn's HD Skyrim Overhaul",
+   "vr": 6,
+   "se": 2,
+   "score": 14,
+   "band": "A",
+   "newest": "2020-02-29",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Alternate Farmhouse Textures-19421-2-2-1544483873.rar",
+    "HD Skyrim Overhaul - Highest Quality Pack-19421-2-4-1580418993.rar",
+    "HD Skyrim Overhaul - Mid Quality Pack-19421-2-4-1580419368.rar"
+   ],
+   "author": "MystiriousDawn",
+   "leftover": false,
+   "key": "id:19421",
+   "theme": "land_nature"
+  },
+  {
+   "id": 463,
+   "name": "SkyHUD",
+   "vr": 0,
+   "se": 14,
+   "score": 14,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 14,
+   "files": [
+    "Patch - SkyHUD v090B-463-0-90-1.zip",
+    "SkyHUD v090B v4-463-0-90B.zip"
+   ],
+   "author": "SkyHUD Team",
+   "leftover": false,
+   "key": "id:463",
+   "theme": "land_nature"
+  },
+  {
+   "id": 18722,
+   "name": "Skyrim VR USSEP Dwarven Ballista missing texture fix",
+   "vr": 7,
+   "se": 0,
+   "score": 14,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Skyrim VR Dwarven Ballista Texture Fix-18722-1-0.7z"
+   ],
+   "author": "AshAuryn",
+   "leftover": false,
+   "key": "id:18722",
+   "theme": "land_nature"
+  },
+  {
+   "id": 23007,
+   "name": "[серия «skyrim 3d», 7 модов] Skyrim 3D Cooking и др.",
+   "vr": 5,
+   "se": 12,
+   "score": 14,
+   "band": "A",
+   "newest": "2019-04-07",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Skyrim 3D Cooking-23007-1-3-0-1554627535.7z"
+   ],
+   "author": "mathy79",
+   "leftover": false,
+   "key": "id:23007",
+   "series": "skyrim 3d",
+   "members": [
+    {
+     "id": 23007,
+     "name": "Skyrim 3D Cooking",
+     "vr": 2,
+     "se": 10,
+     "newest": "2019-04-07",
+     "files": [
+      "Skyrim 3D Cooking-23007-1-3-0-1554627535.7z"
+     ]
+    },
+    {
+     "id": 20829,
+     "name": "Skyrim 3D Misc",
+     "vr": 1,
+     "se": 12,
+     "newest": "2019-08-25",
+     "files": [
+      "Skyrim 3D Misc - Barrels-20829-1-0-2-1553340973.7z"
+     ]
+    },
+    {
+     "id": 21338,
+     "name": "Skyrim 3D Signs",
+     "vr": 5,
+     "se": 1,
+     "newest": "2019-07-26",
+     "files": [
+      "Skyrim 3D Signs-21338-1-2-2-1544228926.rar"
+     ]
+    },
+    {
+     "id": 28781,
+     "name": "Skyrim 3D Docks and Boardwalks",
+     "vr": 2,
+     "se": 5,
+     "newest": "2019-09-04",
+     "files": [
+      "Skyrim 3D Docks and BoardWalks Weathered Riften Textures-28781-1-0-0-1567638438.7z"
+     ]
+    },
+    {
+     "id": 23552,
+     "name": "Skyrim 3D Furniture",
+     "vr": 2,
+     "se": 5,
+     "newest": "2019-08-20",
+     "files": [
+      "Skyrim 3D Furniture SMIM patch-23552-1-3-0-1551301681.7z"
+     ]
+    },
+    {
+     "id": 28261,
+     "name": "Skyrim 3D Windmill",
+     "vr": 2,
+     "se": 4,
+     "newest": "2019-08-15",
+     "files": [
+      "Skyrim 3D Windmill-28261-1-0-0-1565874518.7z"
+     ]
+    },
+    {
+     "id": 145630,
+     "name": "Skyrim 3D Furniture - Upper Furniture Addon",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-11-13",
+     "files": [
+      "Skyrim 3D Furniture - Upper Furniture Addon-145630-1-1-1762999576.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 37891,
+   "name": "Cathedral - Improved Mountain LOD and Z Fight Patch (WIP)",
+   "vr": 6,
+   "se": 1,
+   "score": 13,
+   "band": "A",
+   "newest": "2021-08-01",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Mountain Z Fight Patch Compressed ESL-37891-1-2-1627789802.7z",
+    "Mountain Z Fight Patch-37891-1-1-1604766784.7z",
+    "Mountain Z Fight Patch-37891-1-2-1627789711.7z"
+   ],
+   "author": "The Community",
+   "leftover": false,
+   "key": "id:37891",
+   "theme": "land_nature"
+  },
+  {
+   "id": 69933,
+   "name": "Cathedral Snowberries - Inventory - Wreath - Hearthfires Planter",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2022-06-20",
+   "vr_lists": [
+    "FUS",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Cathedral Snowberries - Inventory - Wreath - Hearthfires Planter-69933-0-1-1-1655754390.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:69933",
+   "theme": "land_nature"
+  },
+  {
+   "id": 32561,
+   "name": "Fix Note icon for SkyUI (SKSE64 plugin)",
+   "vr": 1,
+   "se": 11,
+   "score": 13,
+   "band": "A",
+   "newest": "2022-09-22",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "FixNotesForSkyUI SKSE64 2.0.17-32561-1-2-1-1583205405.zip",
+    "FixNotesForSkyUI SKSEVR 2.0.10-32561-1-2-1-1583205751.zip",
+    "FixNotesForSkyUI Skyrim AE-32561-1-2-6-1663815583.zip"
+   ],
+   "author": "0xC0000005",
+   "leftover": false,
+   "key": "id:32561",
+   "theme": "land_nature"
+  },
+  {
+   "id": 51959,
+   "name": "JS Instruments of Skyrim SE",
+   "vr": 1,
+   "se": 11,
+   "score": 13,
+   "band": "A",
+   "newest": "2021-07-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 11,
+   "files": [
+    "JS Instruments of Skyrim SE - 2k-51959-1-1-1625601690.rar",
+    "JS Instruments of Skyrim SE - All Gud and Skyrim's Got Talent Patch-51959-1-2-1625672493.rar"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:51959",
+   "theme": "land_nature"
+  },
+  {
+   "id": 70595,
+   "name": "Lively cart driver animation replacer - SE or AE",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2024-08-29",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Lively Cart Driver Animations (OAR)-70595-2-0-1-1724892510.zip",
+    "Lively cart driver animation replacer - SE or AE-70595-1-0-0-1656732360.zip"
+   ],
+   "author": "CHIMgarden",
+   "leftover": false,
+   "key": "id:70595",
+   "theme": "land_nature"
+  },
+  {
+   "id": 114940,
+   "name": "Skyking Unique Signs",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2025-06-18",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Skyking - Unique Signs-114940-1-03-1711573298.7z",
+    "Skyking Unique Signs BOS-114940-1-032-1726238268.7z",
+    "Skyking Unique Signs-114940-1-1-1741556382.7z"
+   ],
+   "author": "Skyking2020",
+   "leftover": false,
+   "key": "id:114940",
+   "theme": "land_nature"
+  },
+  {
+   "id": 49305,
+   "name": "Whiterun Watchtower Doesn't Start Broken",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2025-07-16",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Whiterun Watchtower Doesn't Start Broken (Duh)-49305-1-02-1655982549.zip",
+    "Whiterun Watchtower Doesn't Start Broken-49305-1-04-1752645044.rar"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:49305",
+   "theme": "land_nature"
+  },
+  {
+   "id": 72011,
+   "name": "ElSopa - Azura's Star Redone SE",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-07-24",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "ElSopa - Azura's Star Redone - ENB Light by Mur4s4me-72011-1-1-1658677788.7z",
+    "ElSopa - Azura's Star Redone 2k-72011-1-0-1658629549.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:72011",
+   "theme": "land_nature"
+  },
+  {
+   "id": 46564,
+   "name": "My Road Signs are Beautiful - Multilingual HD Retexture",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-07-09",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "01 My Road Signs are Beautiful - English Version-46564-1-5EN-1656853597.7z",
+    "01 My Road Signs are Beautiful - English-46564-1-6-1EN-1688901539.7z",
+    "01 My Road Signs are Beautiful - English-46564-1-6EN-1688551151.7z"
+   ],
+   "author": "Nymphamie",
+   "leftover": false,
+   "key": "id:46564",
+   "theme": "land_nature"
+  },
+  {
+   "id": 72985,
+   "name": "Rudy fix for Splashes of Storms and ENB",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-11-09",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Rudy fix for Splashes of Storms and ENB-72985-1-2-1667959669.zip"
+   ],
+   "author": "Rudy102",
+   "leftover": false,
+   "key": "id:72985",
+   "theme": "land_nature"
+  },
+  {
+   "id": 34681,
+   "name": "Save the Icerunner - Lights Out Alternate Routes",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2020-04-25",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Save the Icerunner-34681-1-1-2-1587778158.zip"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:34681",
+   "theme": "land_nature"
+  },
+  {
+   "id": 76359,
+   "name": "Skyrim Landscape Overhaul - Stone Walls",
+   "vr": 4,
+   "se": 4,
+   "score": 12,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Skyrim Landscape Overhaul - Stone Walls (All-In-One FOMOD Installer)-76359-2-0.rar"
+   ],
+   "author": "Xenophobe3",
+   "leftover": false,
+   "key": "id:76359",
+   "theme": "land_nature"
+  },
+  {
+   "id": 41198,
+   "name": "Thrones of Skyrim",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2020-10-07",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Thrones of Skyrim SE-41198-1-0-1602101281.zip"
+   ],
+   "author": "Kelretu",
+   "leftover": false,
+   "key": "id:41198",
+   "theme": "land_nature"
+  },
+  {
+   "id": 115401,
+   "name": "Better Dynamic Snow - Complex Parallax -",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "A",
+   "newest": "2024-07-22",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Better Dynamic Snow - Complex Parallax Materials-115401-3-2-1721629346.rar"
+   ],
+   "author": "leostevano",
+   "leftover": true,
+   "key": "id:115401",
+   "theme": "land_nature"
+  },
+  {
+   "id": 3333,
+   "name": "HD LODs Textures SE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "A",
+   "newest": "2020-02-02",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "HD Lods Textures SE 1K V9.3 - DynDOLOD ONLY VERSION-3333-9-3-1580653849.zip"
+   ],
+   "author": "Abendaron",
+   "leftover": true,
+   "key": "id:3333",
+   "theme": "land_nature"
+  },
+  {
+   "id": 146350,
+   "name": "Mountain LOD Helper",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "A",
+   "newest": "2026-04-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Mountain LOD Helper-146350-1-4-0-1758931851.zip",
+    "Mountain LOD Helper-146350-1-4-6-1772658530.zip",
+    "Mountain LOD Helper-146350-2-0-1-1776718696.zip"
+   ],
+   "author": "Bottle Asedael DrJacopo",
+   "leftover": true,
+   "key": "id:146350",
+   "theme": "land_nature"
+  },
+  {
+   "id": 66903,
+   "name": "Seasonal Landscapes",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "A",
+   "newest": "2023-04-13",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Seasonal Landscapes-66903-1-18-1681416208.7z"
+   ],
+   "author": "Mefariah",
+   "leftover": true,
+   "key": "id:66903",
+   "theme": "land_nature"
+  },
+  {
+   "id": 152390,
+   "name": "Hank's Heavy Terrain Noise",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "2025-06-11",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Hank's Heavy Terrain Noise-152390-1-0-1749633922.zip"
+   ],
+   "author": "Heavyhank",
+   "leftover": true,
+   "key": "id:152390",
+   "theme": "land_nature"
+  },
+  {
+   "id": 192299,
+   "name": "Vanilla Tree Model Fixes and Improvements",
+   "vr": 0,
+   "se": 1,
+   "score": 1,
+   "band": "A",
+   "newest": "2026-09-20",
+   "vr_lists": [],
+   "se_lists": 1,
+   "files": [
+    "Vanilla Tree Model Fixes And Improvements 192299 1.1.0 2026-09-20T17-19Z gbrZ4tsWq.7z"
+   ],
+   "author": "z929669",
+   "leftover": true,
+   "key": "id:192299",
+   "theme": "land_nature"
+  },
+  {
+   "id": 5436,
+   "name": "RUGNAROK - Special Edition",
+   "vr": 8,
+   "se": 12,
+   "score": 28,
+   "band": "A",
+   "newest": "2024-10-16",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 12,
+   "files": [
+    "RUGNAROK - Special Edition - 1K-5436-1-1.7z",
+    "RUGNAROK - Special Edition - 2K-1K-5436-1-1.7z",
+    "RUGNAROK - Special Edition - 2K-5436-1-1-1-1729050633.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:5436",
+   "theme": "other"
+  },
+  {
+   "id": 19608,
+   "name": "Encounter Zones Unlocked SE",
+   "vr": 4,
+   "se": 11,
+   "score": 19,
+   "band": "A",
+   "newest": "2026-08-22",
+   "vr_lists": [
+    "Librum VR",
+    "Stormcrown VR",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "Encounter Zones Unlocked AE-19608-1-5-4-1663528547.zip",
+    "Encounter Zones Unlocked NG 19608 1.6.1 2026-08-22T01-54Z vlGiB9Ooh.zip",
+    "Encounter Zones Unlocked NG-19608-1-6-1-793058-1787363640.zip"
+   ],
+   "author": "underthesky and z65536",
+   "leftover": false,
+   "key": "id:19608",
+   "theme": "other"
+  },
+  {
+   "id": 68236,
+   "name": "JS Common Cages SE",
+   "vr": 3,
+   "se": 12,
+   "score": 18,
+   "band": "A",
+   "newest": "2022-06-04",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 12,
+   "files": [
+    "JS Common Cages SE - 2k Textures-68236-1-03-1654316421.7z",
+    "JS Common Cages SE - 4k Textures-68236-1-03-1654316504.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:68236",
+   "theme": "other"
+  },
+  {
+   "id": 17576,
+   "name": "Missives",
+   "vr": 4,
+   "se": 10,
+   "score": 18,
+   "band": "A",
+   "newest": "2019-07-03",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Missives 2.03 SSE-17576-2-03-1562185360.rar"
+   ],
+   "author": "IronDusk33",
+   "leftover": false,
+   "key": "id:17576",
+   "theme": "other"
+  },
+  {
+   "id": 43532,
+   "name": "Scrambled Bugs",
+   "vr": 0,
+   "se": 18,
+   "score": 18,
+   "band": "A",
+   "newest": "2023-03-14",
+   "vr_lists": [],
+   "se_lists": 18,
+   "files": [
+    "Scrambled Bugs (Special Edition)-43532-17-1646905605.7z",
+    "Scrambled Bugs - Anniversary Edition (1.6.629.0 and later)-43532-20-1671376122.7z",
+    "Scrambled Bugs - Anniversary Edition (1.6.629.0 and later)-43532-21-1678779028.7z"
+   ],
+   "author": "Magicockerel",
+   "leftover": false,
+   "key": "id:43532",
+   "theme": "other"
+  },
+  {
+   "id": 23581,
+   "name": "[серия «whose quest», 3 модов] Whose Quest Is It Anyway и др.",
+   "vr": 7,
+   "se": 9,
+   "score": 18,
+   "band": "A",
+   "newest": "2023-04-24",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Whose Quest Is It Anyway-23581-1-5-0-1682374361.zip",
+    "WhoseQuestIsItAnyway-23581-1-3-0-1583022223.zip"
+   ],
+   "author": "Ryan",
+   "leftover": false,
+   "key": "id:23581",
+   "series": "whose quest",
+   "members": [
+    {
+     "id": 23581,
+     "name": "Whose Quest Is It Anyway",
+     "vr": 7,
+     "se": 4,
+     "newest": "2023-04-24",
+     "files": [
+      "Whose Quest Is It Anyway-23581-1-5-0-1682374361.zip"
+     ]
+    },
+    {
+     "id": 60211,
+     "name": "Whose Quest Is It Anyway VR",
+     "vr": 7,
+     "se": 0,
+     "newest": "2021-12-17",
+     "files": [
+      "WhoseQuestIsItAnyway VR-60211-1-3-0-1639723153.7z"
+     ]
+    },
+    {
+     "id": 77360,
+     "name": "Whose Quest is it Anyway NG",
+     "vr": 0,
+     "se": 9,
+     "newest": "2026-08-27",
+     "files": [
+      "Whose Quest Is It Anyway-77360-1-5-1666211350.zip"
+     ]
+    }
+   ],
+   "theme": "other"
+  },
+  {
+   "id": 37306,
+   "name": "JS Purses and Septims SE",
+   "vr": 3,
+   "se": 11,
+   "score": 17,
+   "band": "A",
+   "newest": "2025-10-13",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "JS Purses and Septims SE - FOMOD-37306-1-1-1593063792.rar",
+    "JS Purses and Septims SE - FOMOD-37306-1-2-1626039809.rar",
+    "JS Purses and Septims SE - Wintersun Patch-37306-1-0-1760353585.zip"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:37306",
+   "theme": "other"
+  },
+  {
+   "id": 28456,
+   "name": "Dual Wield Block VR",
+   "vr": 8,
+   "se": 0,
+   "score": 16,
+   "band": "A",
+   "newest": "2022-09-21",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dual Wield Block VR 1.7.0-28456-1-7-0-1663724839.zip"
+   ],
+   "author": "FlyingParticle",
+   "leftover": false,
+   "key": "id:28456",
+   "theme": "other"
+  },
+  {
+   "id": 159,
+   "name": "Even Better Quest Objectives SE - EBQO SE",
+   "vr": 7,
+   "se": 2,
+   "score": 16,
+   "band": "A",
+   "newest": "2026-05-05",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Even Better Quest Objectives SE v1.11.1-159-1-11-1-1778002321.7z",
+    "Even Better Quest Objectives SE v1.8.4-159-1-8-4-1584285856.7z",
+    "Even Better Quest Objectives SE v1.9.2-159-1-9-2-1661841423.7z"
+   ],
+   "author": "whickus with fixes and expansions by WilliamImm and Techangel85",
+   "leftover": false,
+   "key": "id:159",
+   "theme": "other"
+  },
+  {
+   "id": 96876,
+   "name": "Gourmet - A Cooking Overhaul",
+   "vr": 4,
+   "se": 8,
+   "score": 16,
+   "band": "A",
+   "newest": "2026-06-23",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Stormcrown VR",
+    "Tahrovin"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Gourmet - A Cooking Overhaul 96876 1.2.0 2026-06-23T03-21Z eVtX7JwHC.7z",
+    "Gourmet - A Cooking Overhaul 96876 1.2.0 eVtX7JwHC.7z",
+    "Gourmet - A Cooking Overhaul-96876-1-1-12-1715039003.7z"
+   ],
+   "author": "SimonMagus",
+   "leftover": false,
+   "key": "id:96876",
+   "theme": "other"
+  },
+  {
+   "id": 75167,
+   "name": "AnimObject Swapper",
+   "vr": 1,
+   "se": 13,
+   "score": 15,
+   "band": "A",
+   "newest": "2022-10-22",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 13,
+   "files": [
+    "AnimObject Swapper-75167-1-0-1663096658.7z",
+    "AnimObject Swapper-75167-1-1-0-1666410165.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:75167",
+   "theme": "other"
+  }
+ ]
+}

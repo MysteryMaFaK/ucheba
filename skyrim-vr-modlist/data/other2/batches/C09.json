@@ -1,0 +1,724 @@
+{
+ "batch": "C09",
+ "band": "C",
+ "themes": {
+  "creatures": 35
+ },
+ "items": [
+  {
+   "id": 111330,
+   "name": "Arcs WispMother Redux",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-02-16",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Arcs WispMother Redux 2k-111330-1-1708108635.rar"
+   ],
+   "author": "ArchonShadow",
+   "leftover": false,
+   "key": "id:111330",
+   "theme": "creatures"
+  },
+  {
+   "id": 120532,
+   "name": "Assorted Vampire Fixes and Tweaks",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-06-01",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Assorted Vampire Tweaks and Fixes-120532-1-1-0-1717241320.7z"
+   ],
+   "author": "SeaSparrow",
+   "leftover": false,
+   "key": "id:120532",
+   "theme": "creatures"
+  },
+  {
+   "id": 6839,
+   "name": "Bellyaches Animal and Creature Pack SSE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Bellyaches Animal and Creature Pack SSE-6839-1-2.7z"
+   ],
+   "author": "Wrig675 modified by Kelsenellenelvian",
+   "leftover": false,
+   "key": "id:6839",
+   "theme": "creatures"
+  },
+  {
+   "id": 55619,
+   "name": "Bone Hawk Replacer- Mihail Monsters and Animals (SE-AE version) (''undead bird'')",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-09-15",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "bone hawks replacer sse-55619-1-1631677165.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:55619",
+   "theme": "creatures"
+  },
+  {
+   "id": 87339,
+   "name": "Bone Wolf Shutdown Fix",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-03-19",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Bone Wolf Shutdown Fix-87339-1-0-0-1679222195.7z"
+   ],
+   "author": "ferrari365",
+   "leftover": false,
+   "key": "id:87339",
+   "theme": "creatures"
+  },
+  {
+   "id": 49595,
+   "name": "Call Your Horse",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-06-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Call Your Horse 1.0.1-49595-1-0-1-1623270421.zip"
+   ],
+   "author": "Otellino",
+   "leftover": false,
+   "key": "id:49595",
+   "theme": "creatures"
+  },
+  {
+   "id": 123113,
+   "name": "DCA - Dragon Combat Animations",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-07-15",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "DAC - Dragon skeleton with smaller bumper-123113-1-0-1721007118.7z",
+    "DAC v1.0-123113-1-0-1719844728.7z"
+   ],
+   "author": "Cult",
+   "leftover": false,
+   "key": "id:123113",
+   "theme": "creatures"
+  },
+  {
+   "id": 695,
+   "name": "Diverse Dragons Collection SE (DDCse)",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Diverse Dragons Collection SE-695-1-2-0.zip",
+    "Diverse Dragons Collection SE-695-2-1-3.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:695",
+   "theme": "creatures"
+  },
+  {
+   "id": 47939,
+   "name": "Diverse Skyrim - Battle of Whiterun Fix",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-04-09",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Diverse Skyrim Battle of Whiterun Fix-47939-1-0-2-1618001621.7z",
+    "Diverse Skyrim Civil War Fix-47939-1-0-1-1617326632.7z"
+   ],
+   "author": "colinswrath",
+   "leftover": false,
+   "key": "id:47939",
+   "theme": "creatures"
+  },
+  {
+   "id": 155346,
+   "name": "Dragon Random Stagger Animation",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-07-23",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "1_Dragon Random Stagger Animation-155346-1-0-1753233569.zip",
+    "Dragon Random Stagger Animation-155346-1-0-1753233569.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:155346",
+   "theme": "creatures"
+  },
+  {
+   "id": 12408,
+   "name": "Dragon Soul Relinquishment SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dragon Soul Relinquishment v1_2-12408-1-2.zip"
+   ],
+   "author": "Alek",
+   "leftover": false,
+   "key": "id:12408",
+   "theme": "creatures"
+  },
+  {
+   "id": 2879,
+   "name": "Dragon Souls to Perk Points",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-01-22",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dragon Souls to Perk Points - 3.2-2879-3-2-1737515701.zip",
+    "Dragon Souls to Perk Points-2879-1-01.7z"
+   ],
+   "author": "Meatbagwammo",
+   "leftover": false,
+   "key": "id:2879",
+   "theme": "creatures"
+  },
+  {
+   "id": 51310,
+   "name": "Dragon War - A Dragon Overhaul",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-06-14",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Dragon War - A Dragon Overhaul-51310-4-1-5-1733991042.7z",
+    "Dragon War - A Dragon Overhaul-51310-4-1-6-1749894630.7z"
+   ],
+   "author": "Delta",
+   "leftover": false,
+   "key": "id:51310",
+   "theme": "creatures"
+  },
+  {
+   "id": 156824,
+   "name": "Dragons (Actually) Fall Down",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-10-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Dragons Actually Fall Down-156824-1-1-2-1756658636.7z",
+    "Dragons Actually Fall Down-156824-1-1-4-1758728702.7z",
+    "Dragons Actually Fall Down-156824-1-1-5-1760720188.7z"
+   ],
+   "author": "Apollodown - SeaSparrow - Me",
+   "leftover": false,
+   "key": "id:156824",
+   "theme": "creatures"
+  },
+  {
+   "id": 73876,
+   "name": "Draugr Magic Loop Casting Animation",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-08-02",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "(DAR)Draugr Magic Loop Casting Animation-73876-1-1-1673588520.rar",
+    "Draugr Magic Casting Animation-73876-1-1-1722577020.rar"
+   ],
+   "author": "Karunado",
+   "leftover": false,
+   "key": "id:73876",
+   "theme": "creatures"
+  },
+  {
+   "id": 74685,
+   "name": "Draugr One-handed Animation (DAR)",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-08-02",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Draugr One-handed (Precision Creatures Version)-74685-1-3-1753114428.rar",
+    "Draugr One-handed (Vanilla)-74685-1-3-1754139193.rar",
+    "Draugr One-handed Animation 1.2-74685-1-2-1716723084.rar"
+   ],
+   "author": "Karunado",
+   "leftover": false,
+   "key": "id:74685",
+   "theme": "creatures"
+  },
+  {
+   "id": 21775,
+   "name": "Draugr Upgrades and Improvements (Draugr and Skeleton Overhaul)",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-08-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "1_D.U.I. SE v2.4-21775-2-4-1627325308.7z",
+    "Cannibal Draugr Compatibility Patch SSE v1.5-21775-1-5-1563365022.7z",
+    "D.U.I. SE v2.4-21775-2-4-1627325308.7z"
+   ],
+   "author": "AlanovichRomanov",
+   "leftover": false,
+   "key": "id:21775",
+   "theme": "creatures"
+  },
+  {
+   "id": 17224,
+   "name": "FALMER",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Falmer.1k-17224-1-1.7z",
+    "Falmer.2k-17224-1-1.7z",
+    "Falmer.4k-2k-17224-1-1.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:17224",
+   "theme": "creatures"
+  },
+  {
+   "id": 19290,
+   "name": "Falmer Texture Overhaul",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "2K Falmer Overhaul-19290-1-2.7z",
+    "Falmer Hut 2K Red Cloth-19290-1-0.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:19290",
+   "theme": "creatures"
+  },
+  {
+   "id": 25099,
+   "name": "Frankly HD Dragon Bones",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-04-16",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Frankly HD Dragonbones 4k-2k-25099-1-0-1555458166.7z",
+    "Frankly HD Dragonbones 8k-4k-25099-1-0-1555458137.7z"
+   ],
+   "author": "FrankFamily aka Borx25",
+   "leftover": false,
+   "key": "id:25099",
+   "theme": "creatures"
+  },
+  {
+   "id": 86113,
+   "name": "Giant Hanging Bones Retexture",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-03-02",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "2K verson-86113-1-1-1677769673.7z",
+    "4K Version.-86113-1-1-1677769639.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:86113",
+   "theme": "creatures"
+  },
+  {
+   "id": 3838,
+   "name": "Horse Storage",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Horse Storage-3838-1-1.7z"
+   ],
+   "author": "Imp of the Perverse",
+   "leftover": false,
+   "key": "id:3838",
+   "theme": "creatures"
+  },
+  {
+   "id": 57790,
+   "name": "Horses Simply Turn Better",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-01",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "HorsesSimplyTurnBetter-57790-1-0-0-1635787436.rar"
+   ],
+   "author": "Loki",
+   "leftover": false,
+   "key": "id:57790",
+   "theme": "creatures"
+  },
+  {
+   "id": 90675,
+   "name": "Iconic's Werewolf and Werebear Retexture",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-09-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Werebeasts 2K-90675-1-0-1694996127.7z",
+    "Werebeasts 4K-90675-1-0-1694996290.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:90675",
+   "theme": "creatures"
+  },
+  {
+   "id": 86678,
+   "name": "Improved Dragonfly for TMD Jars of Skyrim",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-03-09",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "ENB Glass - Blue Dragonfly-86678-1-0-1678398887.rar",
+    "ENB Glass - Orange Dragonfly-86678-1-0-1678398929.rar"
+   ],
+   "author": "RemmyKun",
+   "leftover": false,
+   "key": "id:86678",
+   "theme": "creatures"
+  },
+  {
+   "id": 13501,
+   "name": "Mammoth Cheese Retexture - 4k and 2k",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-11-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Mammoth Cheese 2k V3-13501-1-1-1731802929.zip",
+    "Mammoth Cheese Retexture 2k-13501-1-0.zip"
+   ],
+   "author": "Haladoon",
+   "leftover": false,
+   "key": "id:13501",
+   "theme": "creatures"
+  },
+  {
+   "id": 66345,
+   "name": "New Draugr Unarmed Attack Animation",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-08-19",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Draugr Unarmed Attack Animation-66345-1-1-1717231742.rar",
+    "Draugr Unarmed Attack Animation-66345-1-2-1755610401.rar",
+    "Draugr Unarmed Attack Animation-DAR Random version-66345-1-0-1649667076.rar"
+   ],
+   "author": "Karunado",
+   "leftover": false,
+   "key": "id:66345",
+   "theme": "creatures"
+  },
+  {
+   "id": 27238,
+   "name": "Pigeons- Mihail Monsters and Animals (SE-AE version) (''bird'')",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-03-20",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "pigeons (se-ae) 1.2-27238-1-2-1679326778.rar",
+    "pigeons 1.1 (sse)-27238-1-1-1568354812.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:27238",
+   "theme": "creatures"
+  },
+  {
+   "id": 64684,
+   "name": "Simple Draugr Stagger Animation",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-12-20",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Simple Draugr Stagger Animation-64684-2-0-1671539930.7z"
+   ],
+   "author": "Karunado",
+   "leftover": false,
+   "key": "id:64684",
+   "theme": "creatures"
+  },
+  {
+   "id": 1104,
+   "name": "SkyTEST - Realistic Animals and Predators SE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-07-17",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Animation Fix for SkyrimSE Mute Wolves-1104-1.7z",
+    "SkyTEST - Realistic Animals and Predators 1_57_2-1104-1-57-2.rar",
+    "SkyTEST - Realistic Animals and Predators 1_65 NOSM (No SurvivalMode)-1104-1-65.7z"
+   ],
+   "author": "EtaYorius",
+   "leftover": false,
+   "key": "id:1104",
+   "theme": "creatures"
+  },
+  {
+   "id": 112525,
+   "name": "Slaughterfish RTX - Ported for SE",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-02-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Slaughterfish RTX - Ported for SE-112525-1-0-1708843635.zip"
+   ],
+   "author": "TheRagMan",
+   "leftover": false,
+   "key": "id:112525",
+   "theme": "creatures"
+  },
+  {
+   "id": 29872,
+   "name": "Spider Webs and Particles for ENB",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-10-21",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Spider Webs and Particles for ENB-29872-1-0-1571701405.rar"
+   ],
+   "author": "hectrol and luxor8071",
+   "leftover": false,
+   "key": "id:29872",
+   "theme": "creatures"
+  },
+  {
+   "id": 25628,
+   "name": "True Hunter - fewer animals per square meter",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-05-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "True Hunter-25628-5-0-1673287357.7z",
+    "True Hunter-25628-5-1-1729874486.7z",
+    "True Hunter-25628-6-2-1780045828.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:25628",
+   "theme": "creatures"
+  },
+  {
+   "id": 164095,
+   "name": "Unlocked 1st Person Combat",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-04-29",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Unlocked 1st Person Combat-164095-1-2-1764471746.zip",
+    "Unlocked 1st Person Combat-164095-1-3-1777425921.zip"
+   ],
+   "author": "Beefclot-COACHWICKWACK",
+   "leftover": false,
+   "key": "id:164095",
+   "theme": "creatures"
+  },
+  {
+   "id": 46107,
+   "name": "Vampires Cast No Shadow 2",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-27",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Vampires Cast No Shadow 2 46107 1.2.3 2026-08-27T22-19Z L5WQbqhhx.7z",
+    "Vampires Cast No Shadow 2-46107-1-2-1-1665255159.7z",
+    "Vampires Cast No Shadow 2-46107-1-2-2-1728456347.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:46107",
+   "theme": "creatures"
+  }
+ ]
+}

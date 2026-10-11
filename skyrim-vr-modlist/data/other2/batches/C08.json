@@ -1,0 +1,815 @@
+{
+ "batch": "C08",
+ "band": "C",
+ "themes": {
+  "clutter_misc": 13,
+  "creatures": 21
+ },
+ "items": [
+  {
+   "id": 117695,
+   "name": "Unclench - A Behavior Fix",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-04-26",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Unclench - A Behavior Fix-117695-1-0-1714089890.7z"
+   ],
+   "author": "Kars",
+   "leftover": false,
+   "key": "id:117695",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 65983,
+   "name": "Unique Barbas Retexture - Fluffworks and ENB Light Addon",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-04-04",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Unique Barbas Retexture - Fluffworks Addon with ENB Light-65983-1-0-1649093830.7z"
+   ],
+   "author": "FrankFamily - Macxhiin - Rudy102 - Van",
+   "leftover": false,
+   "key": "id:65983",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 59919,
+   "name": "Unique Map Weather",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-24",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Unique Map Weather 59919 1.1.2 2026-08-24T21-05Z tSBIcE0Ul.zip",
+    "Unique Map Weather-59919-1-1-1-1676049076.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:59919",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 128556,
+   "name": "Unique Shaders Sound FX",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-10-25",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Unique Shaders Sound FX-128556-1-0-1729874402.7z"
+   ],
+   "author": "Clofas",
+   "leftover": false,
+   "key": "id:128556",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 115796,
+   "name": "Unmarked Locations Pack- All In One - Patch Hub",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-07-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Unmarked Locations Pack - All In One - Patch Hub 115796 2.8 2026-07-21T22-24Z bqv3tSKlN.rar",
+    "Unmarked Locations Pack - All In One - Patch Hub-115796-2-6-1736431372.rar"
+   ],
+   "author": "Gerald",
+   "leftover": false,
+   "key": "id:115796",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 75188,
+   "name": "Untarnished UI",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-07-01",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Untarnished UI-75188-1-1-6-1688203436.zip"
+   ],
+   "author": "Vor",
+   "leftover": false,
+   "key": "id:75188",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 123805,
+   "name": "Vanilla Attack Annotation Fix (With FirstPerson Support)",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-09-16",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "1_Vanilla Attack Annotation Fix-123805-v0-61-1726469313.zip",
+    "Vanilla Attack Annotation Fix-123805-v0-61-1726469313.zip"
+   ],
+   "author": "Xing",
+   "leftover": false,
+   "key": "id:123805",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 120727,
+   "name": "Vanilla Eating Animation Fixes",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-05-31",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Vanilla Eating Animation Fixes-120727-1-2-1717196746.zip"
+   ],
+   "author": "Flip777",
+   "leftover": false,
+   "key": "id:120727",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 78025,
+   "name": "Wet Function Redux SE - Settings Loader",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-11-17",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Wet Function Redux SE - Settings Loader-78025-2-0-0-1668721931.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:78025",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 24228,
+   "name": "Wintersun - More Patches",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-09-27",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Wintersun - Book Covers Skyrim Patch-24228-1-01-1570176308.7z",
+    "Wintersun - Skyrim Immersive Creatures Special Edition Patch-24228-1-1-1632752177.7z",
+    "Wintersun - Zim's Immersive Artifacts Patch-24228-1-0-1552802582.7z"
+   ],
+   "author": "Dispensation",
+   "leftover": false,
+   "key": "id:24228",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 56144,
+   "name": "YASTM - Yet Another Soul Trap Manager",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-03-11",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "YASTM (FOMOD)-56144-3-0-0-1678503366.7z"
+   ],
+   "author": "Seally25",
+   "leftover": false,
+   "key": "id:56144",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 79641,
+   "name": "aljos Apothecary Patches",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-03-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Misc Apothecary Patches-79641-4-8-1725258730.7z",
+    "Misc Apothecary Patches-79641-4-9-1741924719.zip"
+   ],
+   "author": "aljoxo",
+   "leftover": false,
+   "key": "id:79641",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 59142,
+   "name": "moreHUD Inventory Edition VR",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-05-19",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "moreHUD Inventory Edition VR-59142-1-0-18-1652997855.7z"
+   ],
+   "author": "Ahzaab",
+   "leftover": false,
+   "key": "id:59142",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 47541,
+   "name": "Bears of the North",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-05-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Bears of the North-47541-1-1-1616859125.7z",
+    "COTN Winterhold Add-On-47541-1-1-1616865651.7z",
+    "Trophies HOTFIX-47541-1-1-1621455362.7z"
+   ],
+   "author": "JPSteel2",
+   "leftover": false,
+   "key": "id:47541",
+   "theme": "creatures"
+  },
+  {
+   "id": 22447,
+   "name": "Bogmort - Mud Monsters of Morthal Swamp",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-12-30",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "BOGMORT-22447-1-0-1546926690.zip",
+    "BOGMORT-22447-2-0-1640831885.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:22447",
+   "theme": "creatures"
+  },
+  {
+   "id": 57493,
+   "name": "Dragonborn Ingredients",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-10-25",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "2K Version-57493-1-0-1635187116.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:57493",
+   "theme": "creatures"
+  },
+  {
+   "id": 85504,
+   "name": "ElSopa - Skeleton Key Redone",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-02-21",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "ElSopa - Skeleton Key Redone 1k-85504-1-0-1676996919.7z",
+    "ElSopa - Skeleton Key Redone 2k-85504-1-0-1676996898.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:85504",
+   "theme": "creatures"
+  },
+  {
+   "id": 54144,
+   "name": "Fish Rack",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-10-05",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Fish Rack 2K-54144-2-0-0-1633427098.7z"
+   ],
+   "author": "d34dun1t",
+   "leftover": false,
+   "key": "id:54144",
+   "theme": "creatures"
+  },
+  {
+   "id": 26188,
+   "name": "Haugbui - A Draugr Overhaul",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-07-20",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Believable Weapons Patch-26188-4-0-1636327923.7z",
+    "Better Shaped Weapons Patch - No Refraction-26188-4-0-1636248240.7z",
+    "BriDO - Cannibal Draugr Patch-26188-3-0-CD-1618950681.zip"
+   ],
+   "author": "Briraka",
+   "leftover": false,
+   "key": "id:26188",
+   "theme": "creatures"
+  },
+  {
+   "id": 42547,
+   "name": "Horse Hide Retexture",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-11-19",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Alternative Colour-42547-1-0-1605794212.7z",
+    "Horse Hide Retexture-42547-1-0-1605794087.7z",
+    "With Dirt Overlay-42547-1-0-1605794476.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:42547",
+   "theme": "creatures"
+  },
+  {
+   "id": 166188,
+   "name": "Hovels of Hagravens - A Forsworn Tent and Clutter Replacer",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2025-12-08",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Hovels of Hagravens - 2k 4k mix-166188-1-0-2-1765212842.rar",
+    "Hovels of Hagravens - 2k max-166188-1-0-2-1765212891.rar",
+    "Hovels of Hagravens - Animated patch-166188-1-0-2-1765212917.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:166188",
+   "theme": "creatures"
+  },
+  {
+   "id": 88290,
+   "name": "Iconic's Spriggan Retexture",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-04-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Spriggans 2K-88290-1-1-1681008939.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:88290",
+   "theme": "creatures"
+  },
+  {
+   "id": 89905,
+   "name": "Iconic's Vampire Lord Retexture",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-04-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Vampire Lord 2K-89905-1-1-1682740901.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:89905",
+   "theme": "creatures"
+  },
+  {
+   "id": 34159,
+   "name": "Improved Dragonfly",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-03-29",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Improved Dragonfly-34159-1-0-1585504332.rar"
+   ],
+   "author": "aviform",
+   "leftover": false,
+   "key": "id:34159",
+   "theme": "creatures"
+  },
+  {
+   "id": 35806,
+   "name": "JK's Sleeping Giant Inn",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2025-05-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "JK's Sleeping Giant Inn-35806-1-1-0-1621125007.7z",
+    "JK's Sleeping Giant Inn-35806-1-1-1-1747108430.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:35806",
+   "theme": "creatures"
+  },
+  {
+   "id": 33248,
+   "name": "Rally's Fishing Poles",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-03-02",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Rallys Fishing Pole-33248-1-0-1583143183.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:33248",
+   "theme": "creatures"
+  },
+  {
+   "id": 17282,
+   "name": "SKELETON",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Skeleton.and.Human.Bones.2k-17282-1-2.7z",
+    "Skeleton.and.Human.Bones.4k-2k-17282-1-2.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:17282",
+   "theme": "creatures"
+  },
+  {
+   "id": 3928,
+   "name": "Sacrosanct - Vampires of Skyrim",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-07-20",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Sacrosanct 5.17.0-3928-5-17-0-1607468103.zip",
+    "Sacrosanct 6.0.0-3928-6-0-0-1689846876.zip"
+   ],
+   "author": "Enai Siaion",
+   "leftover": false,
+   "key": "id:3928",
+   "theme": "creatures"
+  },
+  {
+   "id": 68469,
+   "name": "Some Creature Behavior Bug Fixes",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-03-04",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Draugr Ragdoll Bug Fix-68469-1-1-0-1655574803.7z",
+    "Some Creature Behavior Bug Fixes-68469-2-0-4-1677967423.7z"
+   ],
+   "author": "illuke00",
+   "leftover": false,
+   "key": "id:68469",
+   "theme": "creatures"
+  },
+  {
+   "id": 69583,
+   "name": "XP32 Maximum Skeleton lite",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-09-06",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Xp32 Maximum Skeleton lite-69583-1-2-1662491144.zip"
+   ],
+   "author": "Groovtama",
+   "leftover": false,
+   "key": "id:69583",
+   "theme": "creatures"
+  },
+  {
+   "id": 17946,
+   "name": "[серия «for skyrim se», 3 модов] NARC Remade  - No Animals Report Crimes for Skyrim SE и др.",
+   "vr": 3,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-10-16",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "NARC Remade 1.1.0-17946-1-1-0-1665902073.zip"
+   ],
+   "author": "Pharros",
+   "leftover": false,
+   "key": "id:17946",
+   "series": "for skyrim se",
+   "members": [
+    {
+     "id": 17946,
+     "name": "NARC Remade  - No Animals Report Crimes for Skyrim SE",
+     "vr": 2,
+     "se": 3,
+     "newest": "2022-10-16",
+     "files": [
+      "NARC Remade 1.1.0-17946-1-1-0-1665902073.zip"
+     ]
+    },
+    {
+     "id": 11446,
+     "name": "Indistinguishable Billboards for Skyrim SE",
+     "vr": 3,
+     "se": 0,
+     "newest": "",
+     "files": [
+      "Indistinguishable VANILLA Medium-11446-1-0.zip"
+     ]
+    },
+    {
+     "id": 290,
+     "name": "better ropes for skyrim SE",
+     "vr": 2,
+     "se": 2,
+     "newest": "2019-09-26",
+     "files": [
+      "better ropes sse-290-2-1-1569474912.7z"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 41191,
+   "name": "[серия «hd reworked», 3 модов] HD Reworked Shellbug и др.",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-10-07",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "HD Reworked Shellbug-41191-1-0-1602089557.7z"
+   ],
+   "author": "Halk Hogan PL",
+   "leftover": false,
+   "key": "id:41191",
+   "series": "hd reworked",
+   "members": [
+    {
+     "id": 41191,
+     "name": "HD Reworked Shellbug",
+     "vr": 0,
+     "se": 7,
+     "newest": "2020-10-07",
+     "files": [
+      "HD Reworked Shellbug-41191-1-0-1602089557.7z"
+     ]
+    },
+    {
+     "id": 41028,
+     "name": "HD Reworked Bears 4K",
+     "vr": 0,
+     "se": 4,
+     "newest": "2020-10-01",
+     "files": [
+      "HD Reworked Bears 4K-41028-1-0-1601585411.7z"
+     ]
+    },
+    {
+     "id": 55479,
+     "name": "HD Reworked Mammoths 4K",
+     "vr": 0,
+     "se": 4,
+     "newest": "2021-09-12",
+     "files": [
+      "HD Reworked Mammoths 4K-55479-1-0-1631455635.7z"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 83317,
+   "name": "[серия «new creature», 5 модов] New Creature Animation - Giant и др.",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2026-07-02",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Giant Animation 2.0 Only Frost Giant Throw-83317-2-0-1743589621.zip",
+    "Giant Animation 2.01-83317-2-01-1743658507.zip",
+    "Giant Animation 2.531 83317 2.531 2026-07-02T06-12Z n0oTCm53S.zip"
+   ],
+   "author": "stst",
+   "leftover": false,
+   "key": "id:83317",
+   "series": "new creature",
+   "members": [
+    {
+     "id": 83317,
+     "name": "New Creature Animation - Giant",
+     "vr": 0,
+     "se": 7,
+     "newest": "2026-07-02",
+     "files": [
+      "Giant Animation 2.0 Only Frost Giant Throw-83317-2-0-1743589621.zip"
+     ]
+    },
+    {
+     "id": 84568,
+     "name": "New Creature Animation - Frost Atronach",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-02-15",
+     "files": [
+      "Frost Atronach Animation-84568-1-0-1676430096.7z"
+     ]
+    },
+    {
+     "id": 83105,
+     "name": "New Creature Animation - Lurker",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-01-28",
+     "files": [
+      "Lurker Animation-83105-1-0-1674881195.7z"
+     ]
+    },
+    {
+     "id": 84026,
+     "name": "New Creature Animation - Troll",
+     "vr": 0,
+     "se": 5,
+     "newest": "2023-02-15",
+     "files": [
+      "Troll Animation-84026-1-0-1676427888.7z"
+     ]
+    },
+    {
+     "id": 82974,
+     "name": "New Creature Attack Animation - Riekling and Goblin",
+     "vr": 0,
+     "se": 5,
+     "newest": "2023-01-19",
+     "files": [
+      "Riekling Animation-82974-1-0-1674114968.7z"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 37319,
+   "name": "Arachnophobia - Spiders are Wolves - Chaurus are Bears - No Cobwebs or Eggs",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-01-11",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Arachnophobia-37319-1-4-1641884640.7z"
+   ],
+   "author": "TwinCrows",
+   "leftover": false,
+   "key": "id:37319",
+   "theme": "creatures"
+  }
+ ]
+}

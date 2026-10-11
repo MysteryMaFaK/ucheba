@@ -1,0 +1,284 @@
+{
+ "verdicts": [
+  {
+   "key": "id:151637",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Замедляет игрока в воде по колено и глубже: бег по воде без сопротивления ломает присутствие в VR.",
+   "note": "VR-файл есть (Tempus VR, Wade In Water VR 1.0.1). Один лист: проверить в реке по колено. Плоские Wade In Water не брать. С Walkable Skyrim скорости перемножаются.",
+   "reason": "Подтверждён файлом VR-листа, VR-нативный; дубля в ядре нет (Sink Or Swim NG про другое). Один лист, поэтому try."
+  },
+  {
+   "key": "id:59817",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": "fast_travel",
+   "what": "Отключает быстрое перемещение по карте и чинит постановку своих маркеров; убирает неудобный клик по карте в VR.",
+   "note": "VR-порт SKSE-плагина (Librum VR, Disable Fast Travel VR 1.0.0, 2021). Выбрать одно с Journeyman VR (Other-2). Проверить, что карта открывается и свои маркеры ставятся.",
+   "reason": "VR-билд есть в VR-листе, плагин простой и не трогает HIGGS/PLANCK/VRIK; один старый лист, поэтому opt."
+  },
+  {
+   "key": "id:139443",
+   "keep": false,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": "fast_travel",
+   "what": "Journeyman VR: быстрое перемещение только с дорожным набором; вместе с Navigate VR заставляет ходить по миру.",
+   "note": "Уже предложен вторым проходом Other Mods (other-mods__collect_r2-A09: Journeyman VR 139443 + #92220). Это геймплейное ограничение, не VR-механика.",
+   "reason": "Дубль уже существующего предложения Other-2; повторно не предлагать."
+  },
+  {
+   "key": "id:8379",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Облегчённая переделка карет и паромов: ехать на транспорте вместо клика по карте; пара к Disable Fast Travel.",
+   "note": "CFTO 2.0 ставят 5 VR-листов, без DLL. Аддон CFTO Fixes and Winterhold (#40651) в r2-A01 уже есть, а база #8379 там не рассмотрена: ей он нужен. Smooth Carriage Ride VR из ядра совместим.",
+   "reason": "Не VR-мод, но работает как есть (5 VR-листов); не дубль, так как база в Other-2 не предложена. Контент, поэтому opt."
+  },
+  {
+   "key": "id:119899",
+   "keep": false,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Прячет маркер игрока на карте мира для хардкорной ориентации.",
+   "note": "Работает (Spirit of Grit, Tahrovin - Grit, файл 1.0.0), но к VR-взаимодействию не относится; конфликтует с Local Map Upgrade VR.",
+   "reason": "Чисто стилистическая сложность, не интерактивность; вне задачи отбора."
+  },
+  {
+   "key": "id:172783",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Инерция движения от переносимого веса: разгон, торможение и повороты зависят от нагрузки.",
+   "note": "Один VR-лист (Stormcrown, 1.2.0), VR-статус автор не заявлял. Не путать с Inertia (Floating Gear Fix) #148746 из ядра. Тест: ходьба, нагрузка у лимита; при укачивании убрать.",
+   "reason": "Файл реально ставит VR-лист, значит DLL запускается; но влияние на комфорт неизвестно, поэтому try."
+  },
+  {
+   "key": "id:137351",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Правит скорости ходьбы, спринта и ходьбы в присяде под VR; спринт дешевле по стамине, шаг лошади равен бегу.",
+   "note": "ESP от VR-игрока, в VR-листах нет. Конфликт по скорости лошади с Faster Horses; накладывается на Wade in Water VR и Inertia. Удаляется в любой момент.",
+   "reason": "Нет списочных доказательств, только описание автора; риск мал (значения игры), поэтому try."
+  },
+  {
+   "key": "id:69282",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Аддон VRIK: настройки VRIK меняются при потере управления, присяде, езде и сидении.",
+   "note": "Нужны VRIK и SkyUI VR (MCM), в VR-листах нет. Возможна борьба за настройки VRIK с Arctal's VRIK Tweaks; опция Register Always может отключить прыжок. Тест: присед и седло.",
+   "reason": "VR-нативный, дубля нет, но нет списков и совместимость с VRIK 0.8.4+ и Tweaks не подтверждена: try."
+  },
+  {
+   "key": "id:185070",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Полнотелый трекинг: трекеры на пояс и ноги двигают ноги и таз; физические удары ногой сбивают врагов.",
+   "note": "Нужны VRIK, HIGGS, PLANCK и трекеры (SlimeVR, Vive Tracker). Без трекеров отключается. Проверить совместимость с Physical Collision VR и CBPC. В VR-листах нет.",
+   "reason": "VR-нативная надстройка без замены VRIK; пригодна только при железе и без списковых доказательств: try."
+  },
+  {
+   "key": "id:187260",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Поворачивает тело по направлению взгляда, если голова отвёрнута за комфортный угол; для сидячей игры и treadmill.",
+   "note": "Новый (08.2026), в VR-листах нет. Занимает правый стик X: не сочетать с обычным поворотом стиком. Нужен только для особых режимов игры.",
+   "reason": "VR-нативный, но узкая ниша и ранний релиз: try."
+  },
+  {
+   "key": "id:189345",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": "jump_scheme",
+   "what": "Прыжок жестом: подъём на носки, сгиб колен или кивок вверх; для малого пространства и сидячей игры.",
+   "note": "Версия 0.1.0 (08.2026), в VR-листах нет. Работает через вход правого стика. Выбрать одну схему прыжка с Auto Sneak and Jump VR / Sprint Jump VR. Нужен только если физический прыжок неудобен.",
+   "reason": "VR-нативный, есть MCM, но ранний релиз без списков: try."
+  },
+  {
+   "key": "id:189346",
+   "keep": false,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Читает данные беговой дорожки RealityRunner V2 и превращает их в ввод ходьбы и бега.",
+   "note": "Только для одного устройства, версия 0.1.0, VR-листов нет; не сочетать с Natural Locomotion.",
+   "reason": "Для общего списка рекомендаций слишком узко (одна модель дорожки) и сыро."
+  },
+  {
+   "key": "id:165369",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": "horse_call",
+   "what": "VR-аддон к Convenient Horses: убирает парные анимации лошади и добавляет рог, который берётся рукой HIGGS.",
+   "note": "Нужен базовый Convenient Horses #9519, HIGGS, SKSEVR; помечен AI-generated; в VR-листах нет. Выбрать одно с Call Your Horse. Проверить после Pandora, нет ли телепорта.",
+   "reason": "VR-нативный и использует HIGGS, но без списков и с риском конфликта с анимациями Steeds of Ultima: try."
+  },
+  {
+   "key": "id:49595",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "alt",
+   "choose_one_group": "horse_call",
+   "what": "Лёгкий призыв лошади к игроку без привязок и ритуалов; проще рога Convenient Horses VR.",
+   "note": "Call Your Horse 1.0.1 ставят Tempus VR, Spirit of Grit, Tahrovin - Grit. Одно из пары с Convenient Horses VR. ix_world-ветка уже могла его предложить: слить при сведении.",
+   "reason": "Работает в трёх VR-листах, простой скриптовый мод; альтернатива аддону с рогом."
+  },
+  {
+   "key": "id:77303",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Держание факела всадником и мелкие улучшения посадки для игрока и NPC.",
+   "note": "Файл 1.3 (Tempus VR). Behavior-мод: нужен Pandora; после установки прогнать и проверить, что патч Steeds of Ultima не затёрт. Польза в VR в основном для NPC-всадников.",
+   "reason": "Подтверждён листом и рекомендован карточкой Steeds of Ultima VR в ядре; риск только в порядке Pandora, поэтому opt."
+  },
+  {
+   "key": "id:57790",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Лошадь лучше поворачивает: вялые развороты в седле раздражают в VR.",
+   "note": "Один VR-лист (Tempus VR, v1.0.0, 2021), VR не заявлен. Behavior-мод: возможен конфликт со Steeds of Ultima и Horsemen Torch Wield Fix. Тест: разворот на галопе, посадка.",
+   "reason": "Ставится Pandora-совместимым списком, но уверенности по конфликтам нет, один лист: try."
+  },
+  {
+   "key": "id:70181",
+   "keep": false,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Бесконечная выносливость лошади вне боя.",
+   "note": "Работает (Panda's, нужен SPID), но это упрощение, а не VR-взаимодействие.",
+   "reason": "Не относится к интерактивности в VR; читерское упрощение."
+  },
+  {
+   "key": "id:167190",
+   "keep": false,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Запрещает сохраняться в бою и верхом.",
+   "note": "Работает (оба Grit-листа), но это защита сейва и хардкор, не VR-взаимодействие; частично блокирует автосейвы.",
+   "reason": "Вне задачи: нет связи с физическим взаимодействием."
+  },
+  {
+   "key": "id:70134",
+   "keep": false,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Бесконечная выносливость вне боя.",
+   "note": "Бесскриптовый, работает (Panda's, Yggdrasil), но упрощение игры, не VR-механика.",
+   "reason": "Не относится к интерактивности в VR."
+  },
+  {
+   "key": "id:67028",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Быстрое плавание по кнопке спринта: через озёра и реки быстрее.",
+   "note": "Один VR-лист (Tempus VR, v2.1, 2022), VR не заявлен. Работает с Sink Or Swim NG; не сочетать с Underwater NG. Проверить, какая схема плавания включена: стик или руки.",
+   "reason": "Файл ставит VR-лист, но VR-статус и взаимодействие с плаванием руками неизвестны: try."
+  },
+  {
+   "key": "id:92795",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Чинит ваниль: запуск некоторых интерактивных анимаций от первого лица телепортирует в начало ячейки.",
+   "note": "Файл 1.0.0 ставят 3 VR-листа (Tempus, Librum, Yggdrasil). Behavior-патч: после установки прогнать Pandora. VR всегда от первого лица, баг достижим. Дополняет Paired Animation Improvements.",
+   "reason": "Подтверждён тремя VR-листами, не дублирует ядро; перенесён в ix_world, так как про интерактивные анимации, а не локомоцию."
+  },
+  {
+   "key": "id:110856",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Выравнивает контраст по двум глазам: в VR один глаз мог быть темнее другого, это бьёт по комфорту.",
+   "note": "VR-нативный, включается в MCM (нужен SkyUI VR); заменил скрытый #109397. В VR-листах нет. Может конфликтовать с погодными модами по imagespace: проверить.",
+   "reason": "Ставить по симптому (разная яркость глаз); комфорт, не взаимодействие, без списков: try."
+  },
+  {
+   "key": "id:44442",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "alt",
+   "choose_one_group": "dodge",
+   "what": "Уклон от ударов и стрел физическим приседанием плюс кувырок Silent Roll как уворот.",
+   "note": "CrouchToDodgeVR 1.0.2 ставят 3 VR-листа (Panda's, FUS, Yggdrasil). Вместо Physical Dodge VR из ядра, не вместе. Проще: без слоу-мо и Auto Sneak and Jump VR.",
+   "reason": "Подтверждён VR-файлом в трёх листах; это альтернатива, а не добавка к Physical Dodge VR."
+  },
+  {
+   "key": "id:159455",
+   "keep": true,
+   "section": "ix_hands",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Замена мешей брёвен VR Refit - Mine Chop and Drop: аккуратные дрова, удобнее хватать HIGGS.",
+   "note": "Файл «PBR Textures» 1.0 (Panda's): меши плюс PBR-текстуры, нужен этап PGPatcher. Ставится после VR Refit из ядра. Косметика, не обязательно.",
+   "reason": "Расширяет мод из ядра (VR Refit есть в MODLIST), работает как есть; но польза косметическая, поэтому opt."
+  },
+  {
+   "key": "id:184484",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Урон NPC от удара о стену и падения по скорости и высоте; для VR есть отдельный порт flobic19.",
+   "note": "Брать только VR-порт со страницы 184484; VR-файл на SE-странице #179433 не работает (SKSE Menu Framework тогда без VR). Возможен двойной урон при броске NPC через HIGGS и ударах PLANCK.",
+   "reason": "Единственный источник - сниппеты, VR-листов нет, прежние VR-сборки были сломаны: только try с тестом бросков."
+  },
+  {
+   "key": "id:71418",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоские Wade In Water: в VR по отзывам загружаются, но ничего не делают.",
+   "note": "DLL SSE/AE без VR; вместо них Wade in Water VR #151637. Loki's #42854 не брать: VR не заявлен.",
+   "reason": "Есть отзыв VR-игрока о бездействии и нет VR-билда: копировать из SE-списков не нужно."
+  },
+  {
+   "key": "id:187230",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Underwater NG и Sprint Swim Redux: SE/AE-плагины, релизы без VR; Redux - анимации третьего лица.",
+   "note": "Underwater NG: VR-порт только в раннем тесте. Конфликтуют по плаванию с Sink Or Swim NG и Sprint Swimming; ждать VR-релиза.",
+   "reason": "Нет VR-билда, ожидаемо не работают или бесполезны в первом лице."
+  },
+  {
+   "key": "id:38950",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоские пакеты движения игрока (Movement/Jump Behavior Overhaul, Vanargand/Leviathan/Goetia Walk-Run, Sprint): по умолчанию не ставить.",
+   "note": "Часть VR-листов их ставит (Yggdrasil, Librum, Panda's, Tempus), вред не доказан, но в VR тело ведёт VRIK, а старые Nemesis-AIO рискуют конфликтом с Pandora/OAR. Smooth Moveset ради grip-фиксов Tempus - отдельный случай.",
+   "reason": "Польза в VR не показана, риск конфликта анимаций реален; формулировка смягчена до не ставить без причины."
+  }
+ ]
+}

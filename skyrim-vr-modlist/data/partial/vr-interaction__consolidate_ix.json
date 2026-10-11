@@ -1,0 +1,521 @@
+{
+ "adjustments": [
+  {
+   "key": "id:128285",
+   "action": "keep",
+   "section": "ix_hands",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Дубль ix_hands/ix_combat: оставить запись ix_hands (физика предметов), боевую убрать. Единственный в наборе мод с эффектами для брошенных предметов, VR-native, 3 VR-списка, версия 2.0.1. Требования (HIGGS, PLANCK, Papyrus Extender VR, KID VR) уже в ядре. Weapon Throw VR не дублирует (оружие vs предметы). Нужен ли #125065, сверить на странице; Grab and Throw не ставить."
+  },
+  {
+   "key": "id:182364",
+   "action": "retag",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дубль ix_combat: свести в одну запись, try -> opt. Страх «двойного штрафа» с True Wield VR снят: по карточке ядра True Wield даёт физический провис и вес хвата, а Dead Weight режет урон на 50%. Это разные оси. Один список (Tahrovin, файл 2026-06-12): тест двуручным молотом."
+  },
+  {
+   "key": "id:65737",
+   "action": "keep",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "6 VR-списков, одна версия 1.6. Заявление о дубле со Spell Wheel VR не подтверждено, поэтому без группы. Занимает слоты колец/браслетов."
+  },
+  {
+   "key": "id:45586",
+   "action": "keep",
+   "section": "ix_hands",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Условный: только вместе с SunHelm Survival (ядро, opt). Без SunHelm не ставить. Нужен ли базовый iNeed, проверить на странице."
+  },
+  {
+   "key": "id:147691",
+   "action": "regroup",
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": "feed-npc",
+   "reason": "Частично повторяет Gift by Hand VR (ядро, opt). По умолчанию только Gift by Hand; этот мод ставить, лишь если нужны ингредиенты/произвольные NPC. Нужен VR Equip #83092 (в ядре opt), перезаписывает Vrequip.pex."
+  },
+  {
+   "key": "id:105789",
+   "action": "retag",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Дубль: свести в одну запись. Страница сама пишет «likely unnecessary since PLANCK 0.7.1», у нас PLANCK 0.8.1 + Stability Patch, значит ставить только по симптому (вылет с подопечными). opt -> try."
+  },
+  {
+   "key": "id:36132",
+   "action": "move_section",
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дубль ix_world/ix_feedback: оставить ix_world, запись ix_feedback убрать. ESL без DLL. Ставить по симптому (урон от костей/горшков). Проверить, что не гасит эффекты Throw Stuff VR."
+  },
+  {
+   "key": "id:144669",
+   "action": "keep",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Дубль ix_world: одна запись. Бета 1.0, один список. Требует HIGGS, Skyrim VR Tools (ядро), VRIK; проверить конфликт кнопок."
+  },
+  {
+   "key": "id:184347",
+   "action": "keep",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Дубль ix_world: одна запись. Ни один список не ставит, имя архива не подтверждено, автор в двух заметках назван по-разному (TheMachinaGod vs GitHub SamuelJohnBrown): сверить источник. По карточке ядра Interactive Activators VR делает рычаги, цепи и кнопки, не двери, дубля нет; пересечение только с Physical VR Knocking и ванильным взломом."
+  },
+  {
+   "key": "id:21297",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Дубль ix_dont: одна запись. Старый MageVR, только FUS; функции уже в ядре (Spell Wheel VR, Arctal's Tweaks, ISPVR); риск двойных обработчиков кнопок."
+  },
+  {
+   "key": "id:49425",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "6 VR-списков ставят старую версию, но Swap Drop and Hold Redux 3.0.0 (ядро) прямо исключает #49425 и #55983. Удалить Add Spells до перехода."
+  },
+  {
+   "key": "id:4668",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Дубль ix_dont: одна запись. Карточка Weapon Throw VR: «Не вместе с другими метателями оружия» (подтверждено). Оба Grit-списка ставят по инерции."
+  },
+  {
+   "key": "id:125734",
+   "action": "drop_duplicate",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Дубль Core: Blade and Blunt 3.8.3 уже тратит стамину за удар (карточка: «расходуется выносливость от удара», предупреждение про двойной расход), плюс Seamless Arrow Nocking имеет запрет стрельбы без стамины. В Grit мод нужен лишь потому, что там B&B 1.4.1 без DLL."
+  },
+  {
+   "key": "id:28948",
+   "action": "keep",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Прицел арбалета Dawnguard, меши+ESP, 3 VR-списка. Дополняет Immersive Crossbow Reload VR (ядро rec). По умолчанию базовый файл 1.2 (Panda's, Yggdrasil); Enhanced только Tempus, содержимое не проверено."
+  },
+  {
+   "key": "id:164902",
+   "action": "keep",
+   "section": "ix_magic",
+   "tag": "alt",
+   "choose_one_group": "spell-aim-assist",
+   "reason": "Карточка Spell Auto-Aim VR (ядро) называет оба взаимоисключающими по слову автора SpellBender; Tempus/Panda's ставят оба, но по умолчанию один. Спорный вопрос: MISVR 1.2.0 тоже пересекается по прицеливанию."
+  },
+  {
+   "key": "id:30558",
+   "action": "keep",
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Визуал рук, VR Edition 2.5 (2 VR-списка). Palm Edition Update только в Yggdrasil и только для ладонного каста (ISPVR); не читан, брать лишь с ISPVR. Плоский #19456 не брать."
+  },
+  {
+   "key": "id:72174",
+   "action": "retag",
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дубль: одна запись, try -> opt: 3 VR-списка, один файл 0.9. Ставить только с Vampire/Werewolf Body for VR (Other-1) и источником превращения. Механику (жест/голос) уточнить на странице."
+  },
+  {
+   "key": "id:87315",
+   "action": "move_section",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дубль ix_ui/ix_combat: оставить ix_ui. Группа vr-crosshair из одного члена (#17512 в набор не попал): снять. Заметки расходятся, для лука или заклинаний; по странице уточнить. Текстуры, 4 VR-списка."
+  },
+  {
+   "key": "id:97345",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Плоское радиальное меню, VR-списков нет. Дублирует Spell Wheel VR (ядро core). Патчи Wheeler тоже не ставить."
+  },
+  {
+   "key": "id:166987",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Плоские анимации каста 1-го лица, VR-списков нет, вразрез с VRIK и ISPVR."
+  },
+  {
+   "key": "id:164263",
+   "action": "keep",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Только Yggdrasil, файл «Papyrus Extender» 0.21. Нужен Simply Knock SE (#14098, ставить парой). Papyrus Extender VR уже в ядре. Тестировать отдельно от Interactive Door Actions."
+  },
+  {
+   "key": "id:14098",
+   "action": "regroup",
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Не альтернатива, а зависимость #164263: группа knock-base из одного члена снята. Ставить только вместе с #164263, иначе не нужен. Simpler Knock #31585 не смешивать."
+  },
+  {
+   "key": "id:1439",
+   "action": "keep",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Три VR-списка с PLANCK, версия 1.92. Силу рэгдолла крутить только в одном месте: этот плагин или правка ragdoll в Arctal's VRIK Tweaks. «Без DLL» не проверено."
+  },
+  {
+   "key": "id:67637",
+   "action": "keep",
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Один список (Yggdrasil), лёгкий, бросок кости через HIGGS. Не повод для рек."
+  },
+  {
+   "key": "id:107993",
+   "action": "regroup",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дубль ix_ui: одна запись. Группа dialogue-menu из одного члена снята. Только меши, 5 VR-списков; меш компаса может спорить с Palm Compass VR и Navigate VR, диалоговый меш с Immersive NPC Dialogue VR."
+  },
+  {
+   "key": "id:151637",
+   "action": "keep",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Дубль ix_locomotion: одна запись. Файл 1.0 (1748865168) только Tempus. Упоминание Walkable Skyrim убрать: такого мода в списках нет. Остальные Wade in Water не ставить."
+  },
+  {
+   "key": "id:24297",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Экспериментальный DLL 2019 под SKSEVR 2.0.10, лишний при #14098 + #164263."
+  },
+  {
+   "key": "id:102094",
+   "action": "regroup",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "quickloot",
+   "reason": "Дубль ix_dont/ix_ui: оставить как alt (запасной вариант, 5 VR-списков, 1.3 от 2026-06-12), запись dont убрать. Карточка QuickLoot IE (ядро) прямо запрещает вместе. Missives patch не нужен."
+  },
+  {
+   "key": "id:120460",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Плоский SKSE, только SE-списки; спорит с HIGGS/PLANCK."
+  },
+  {
+   "key": "id:44874",
+   "action": "keep",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "ui_theme",
+   "reason": "Одна тема на сборку. Лучше подтверждён (5 VR-списков), чем Norden UI VR (Tempus), но у Norden в ядре есть патчи под moreHUD VR, UIextensions, SkyUI Weapons Pack; по умолчанию остаётся Norden."
+  },
+  {
+   "key": "id:131015",
+   "action": "keep",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "subtitles",
+   "reason": "Вместо Floating Subtitles VR (ядро, opt), не вместе. Нужны оба архива (#113214 + #131015). По умолчанию ядро."
+  },
+  {
+   "key": "id:60211",
+   "action": "keep",
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Подмена строки сообщения, 7 VR-списков; не квестовый контент. Мелочь, но без риска."
+  },
+  {
+   "key": "id:118174",
+   "action": "keep",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "DLL без VR-заявления, брать 1.0.4 (Grit), не 1.0.6. Проверять sksevr.log и совместимость с Essential Favorites VR (ядро rec)."
+  },
+  {
+   "key": "n:skyrimvr-3dirp",
+   "action": "keep",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": "spell-menu",
+   "reason": "Релизов нет, файл Nexus не проверен: в установочный манифест не включать, пока нет файла. Spell Wheel VR (core) заменять нельзя: от него жёстко зависят Durability VR, Steeds of Ultima, Instant Equip. Только тестовый профиль."
+  },
+  {
+   "key": "id:69282",
+   "action": "keep",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Аддон VRIK, в списках нет. Правит те же настройки VRIK, что Arctal's Tweaks; «Register Always» может отключить прыжок, пересечение с Auto Sneak and Jump VR и Sprint Jump VR. Проверить версию на странице."
+  },
+  {
+   "key": "id:185070",
+   "action": "keep",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Основная запись FBT (дубль с n:-ключом). Нужны трекеры; без них отключается. Пересечение с Lethal Unarmed VR и Physical Collision VR по урону; отдельный профиль."
+  },
+  {
+   "key": "id:165369",
+   "action": "keep",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": "horse_call",
+   "reason": "Рог через HIGGS, но AI-generated, в списках нет, нужен базовый #9519 (VR-статус которого не проверен). По умолчанию Call Your Horse."
+  },
+  {
+   "key": "id:49595",
+   "action": "retag",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": "horse_call",
+   "reason": "Дефолт группы horse_call: 3 VR-списка, одна версия 1.0.1. Не конфликтует со Steeds of Ultima."
+  },
+  {
+   "key": "id:77303",
+   "action": "keep",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Поведенческий мод, нужен Pandora. Карточка Steeds of Omega его рекомендует; ставить только если стоят Steeds. После установки прогнать Pandora и проверить, что патч Steeds не затёрт."
+  },
+  {
+   "key": "id:92795",
+   "action": "keep",
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "3 VR-списка, версия 1.0.0. Поведенческий патч: после установки прогнать Pandora. Польза в VR заявлена, но не подтверждена тестом."
+  },
+  {
+   "key": "id:71418",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Плоские Wade in Water, вместо них #151637."
+  },
+  {
+   "key": "id:187230",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Нет VR-релиза, плавание конфликтует с Sink Or Swim NG (ядро)."
+  },
+  {
+   "key": "id:38950",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Плоские анимации перемещения: вред не доказан, но тело ведёт VRIK, а Nemesis-AIO 2020 рискуют конфликтом с Pandora/OAR. Исключение: Smooth Moveset ради grip-фиксов Tempus, отдельный случай."
+  },
+  {
+   "key": "id:103990",
+   "action": "regroup",
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Группа block_fx из одного члена снята (Block FX #93223 не в наборе). Работает от ванильных событий блока: при PLANCK/Physical Collision VR вспышка может не срабатывать. На Pseudo Physical Parry и Dual Wield Block VR не опираться."
+  },
+  {
+   "key": "id:174135",
+   "action": "regroup",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Группа vl_vr_fix из одного члена снята (Sacrilege VR Fix в наборе нет). Нужен только при игре за вампира; Tempus 2026, SKSEVR-требование и расшифровка «SAN» не подтверждены."
+  },
+  {
+   "key": "id:42550",
+   "action": "keep",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Поведенческий мод + #69298 парой. Риск двойной реакции на удар с Adamant (rec), Blade and Blunt, PLANCK-рэгдоллом. Только VR-файл 1.4 (Yggdrasil), после установки Pandora. Не сработало: убрать оба."
+  },
+  {
+   "key": "id:69298",
+   "action": "keep",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Зависимость Flinching for VR: брать только вместе с ним, один DLL для SE/AE/VR (1.0.2, Yggdrasil). Старый SSE-фреймворк #42574 не ставить."
+  },
+  {
+   "key": "n:skyrimvr fbt - full body tracking with physics",
+   "action": "drop_duplicate",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Тот же мод, что id:185070; оставить запись с id."
+  },
+  {
+   "key": "id:172783",
+   "action": "keep",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Один список (Stormcrown), VR-DLL не подтверждена, риск укачивания, перекрывается с Sprint Jump VR и Im Walkin' Here VR. Не путать с Inertia #148746 из ядра. Тестовый профиль."
+  },
+  {
+   "key": "id:84507",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Страница: «excluding VR»; вибрацию даёт Haptic Skyrim VR (ядро rec)."
+  },
+  {
+   "key": "id:86071",
+   "action": "keep",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Карточка Core Impact Framework (ядро, opt) запрещает другие моды эффектов попаданий. Допустим, только если CIF не ставится."
+  }
+ ],
+ "groups": [
+  {
+   "group": "spell-aim-assist",
+   "members": [
+    "Spell Auto-Aim VR #119689 (ядро, opt)",
+    "id:164902"
+   ],
+   "default_pick": "Spell Auto-Aim VR #119689 (ядро)",
+   "rule": "Ставить один. Карточка Spell Auto-Aim называет SpellBender взаимоисключающим, хотя Tempus/Panda's ставят оба. SpellBender только вместо, после замены проверять sksevr.log и дальние заклинания; MISVR 1.2.0 стоит в обоих вариантах."
+  },
+  {
+   "group": "quickloot",
+   "members": [
+    "QuickLoot IE #120075 (ядро, rec)",
+    "id:102094"
+   ],
+   "default_pick": "QuickLoot IE #120075 (ядро)",
+   "rule": "Ровно один. Quickloot VR 1.3 включать только если QuickLoot IE вылетает; тогда IE отключить, не держать оба. Порядок: ниже SkyUI VR."
+  },
+  {
+   "group": "ui_theme",
+   "members": [
+    "Norden UI VR #169537 (ядро, opt)",
+    "id:44874"
+   ],
+   "default_pick": "Norden UI VR #169537 (ядро)",
+   "rule": "Одна тема. По умолчанию Norden (в ядре есть патчи под moreHUD VR, UIextensions, SkyUI Weapons Pack). Dear Diary VR брать вместо, если Norden не нужен; Edge UI VR не ставить ни при каком варианте. Statsmenu.swf из ядра должен побеждать."
+  },
+  {
+   "group": "subtitles",
+   "members": [
+    "Floating Subtitles VR #183714 (ядро, opt)",
+    "id:131015"
+   ],
+   "default_pick": "Floating Subtitles VR #183714 (ядро)",
+   "rule": "Один набор субтитров. Subtitles VR (оба архива #113214 + #131015) только вместо Floating Subtitles."
+  },
+  {
+   "group": "horse_call",
+   "members": [
+    "id:49595",
+    "id:165369"
+   ],
+   "default_pick": "id:49595",
+   "rule": "Один призыв лошади. Convenient Horses VR (рог HIGGS) только если нужен рог и проверен VR-статус базового #9519."
+  },
+  {
+   "group": "feed-npc",
+   "members": [
+    "Gift by Hand VR #99809 (ядро, opt)",
+    "id:147691"
+   ],
+   "default_pick": "Gift by Hand VR #99809 (ядро)",
+   "rule": "Обработчики жестов «поднести предмет к NPC» не дублировать. VR Equip Potions And Ingredients ставить только ради ингредиентов и произвольных NPC, после проверки на гонку жестов."
+  },
+  {
+   "group": "spell-menu",
+   "members": [
+    "Spell Wheel VR #47630 (ядро, core)",
+    "n:skyrimvr-3dirp"
+   ],
+   "default_pick": "Spell Wheel VR #47630 (ядро)",
+   "rule": "Spell Wheel VR остаётся: от него зависят Durability VR, Steeds of Ultima VR, Instant Equip VR. 3DIRP без релиза, только тестовый профиль, не в манифест."
+  }
+ ],
+ "interplay_rules": [
+  "HIGGS: Throw Stuff VR, Interactive Door Actions VR, Bard VR, VR Equip Potions, Interactive AI Play Fetch и FBT берут HIGGS как жёсткую зависимость. Они только слушают его события хвата/броска, DLL HIGGS не заменяют. Порядок в MO2: все ниже HIGGS.",
+  "HIGGS: Grab And Throw (#120460) не ставить: второй хват и бросок для тел.",
+  "PLANCK: Realistic Ragdolls and Force и Flinching for VR работают поверх PLANCK-рэгдолла. При слишком сильных толчках или двойной реакции сначала выключить эти плагины, настройки PLANCK не трогать. Force в Arctal's VRIK Tweaks и RRF крутить только в одном месте.",
+  "PLANCK: PLANCK Ignore Followers ставить только при реальных вылетах с подопечными, после PLANCK и ниже PLANCK VR Stability Patch (activeragdoll.dll). После установки проверить в activeragdoll.log строку версии патча. Страница: «likely unnecessary since 0.7.1», у нас 0.8.1.",
+  "Physical Collision VR + True Wield VR: Dead Weight VR (-50% урона за одноручный хват двуручного) не дублирует True Wield (физический провис и вес). Порядок: ниже True Wield VR. Тест двуручным молотом одной рукой и двумя. Dead Weight не ставить вместе с другими модами, правящими урон двуручных.",
+  "Physical Collision VR: Pseudo Physical Weapon Collision and Parry (#100781), стоит в Other-1 как rec, прямо запрещён карточкой Physical Collision VR. Не опираться на Pseudo Physical Parry для Blocking and Flash VR; вспышку проверять именно с PCVR + PLANCK, при неработе убрать.",
+  "VRIK: VRIK Actions и Arctal's VRIK Tweaks правят настройки VRIK. Ставить VRIK Actions ниже Arctal's и не включать «Register Always» (может убрать прыжок). Не сочетать с Auto Sneak and Jump VR и Sprint Jump VR без теста. Физический приседание VRIK Actions не отключает.",
+  "VRIK/Physical Collision VR/CBPC (FBT): Without trackers плагин отключается сам. Пинок + Lethal Unarmed VR + PCVR могут складывать урон: ставить только на тестовом профиле, пинки в бою по умолчанию тратят стамину.",
+  "Blade and Blunt 3.8.3 (ядро): Attacks Cost Stamina VR не ставить, B&B сам тратит стамину за удар. Seamless Arrow Nocking в ядре уже имеет запрет стрельбы без стамины.",
+  "OAR/Pandora: Flinching for VR, Horsemen Torch Wield Fix, First Person Animation Teleport Bug Fix, Convenient Horses VR (если ставить) генерируют поведения. После установки или удаления любого из них запускать Pandora (v4.1.2-beta, как в ядре), не Nemesis, и проверять патч Steeds of Ultima.",
+  "Engine Fixes VR 7.x: у новых плагинов нет известных конфликтов; ничего сверх базы не требуется. Для DLL без VR-заявления (Persistent Favorites 1.0.4, Inertia 1.2.0, SkyrimVR FBT) проверять sksevr.log сразу после первого запуска.",
+  "Interactive Activators VR (ядро): Interactive Door Actions VR двери не дублирует (в ядре рычаги, цепи, кнопки), но подменяет взлом замков: включать по очереди с Physical VR Knocking, а при сбое убрать.",
+  "Immersive NPC Dialogue VR (ядро, try) + VR Smooth Dialogue Mesh: диалоговый и компасный меши могут перекрываться. Проверить, чьи файлы выигрывают; Palm Compass VR и Navigate VR ставить ниже VR Smooth Dialogue Mesh.",
+  "SkyUI VR: Quickloot VR, Dear Diary VR, Persistent Favorites, Whose Quest Is It Anyway VR ниже SkyUI VR. Если Dear Diary заменяет Norden, снять патчи Norden (moreHUD VR, UIextensions, SkyUI Weapons Pack) и сверить Essential Favorites VR.",
+  "Sink Or Swim NG (ядро) + Wade in Water VR: оба влияют на скорость в воде, тест по очереди. Подводные оверхолы (Underwater NG) не ставить.",
+  "Spell Wheel VR (core): остаётся единственным колесом. Wheeler, MageVR, SIGMA не ставить; 3DIRP не заменяет колесо.",
+  "VR Equip (#83092, ядро opt): VR Equip Potions And Ingredients перезаписывает Vrequip.pex, ставить ниже VR Equip. Gift by Hand VR остаётся по умолчанию; одинаковые жесты не включать в обоих.",
+  "Core Impact Framework (ядро, opt): Dynamic Impact - Slash Effects X не ставить, карточка CIF запрещает другие моды эффектов попаданий."
+ ],
+ "order_rules": [
+  "MO2 порядок (сверху вниз): SKSEVR/Address Library -> SkyUI VR -> VRIK -> Arctal's VRIK Tweaks -> VRIK Actions -> HIGGS -> PLANCK -> PLANCK VR Stability Patch -> PLANCK Ignore Followers -> Physical Collision VR -> True Wield VR -> Swap Drop and Hold Redux -> Dead Weight VR.",
+  "Ниже HIGGS и после Weapon Throw VR/Spell Wheel VR: Throw Stuff VR, Interactive Door Actions VR, Physical VR Knocking, Bard VR, Play Fetch, VR Equip Potions And Ingredients (ниже VR Equip), Convenient Horses VR.",
+  "Меши и текстуры (Sighted Crossbows VR, VR Smooth Dialogue Mesh, Eagle Eye Cursor, Strange Runes): ниже ядра и ниже UI-темы; визуал рук последним, после MISVR/ISPVR. Statsmenu.swf из ядра должен побеждать.",
+  "Блок «Сгенерированное»: Pandora Output в самом низу, как в ядре. Запускать Pandora после Flinching for VR, Horsemen Torch Wield Fix, First Person Animation Teleport Bug Fix, Steeds of Ultima/Omega.",
+  "Плагины: Flinching for VR после OnHit Animations Framework - NG; Physical VR Knocking после Simply Knock SE; Throw Stuff VR после Papyrus Extender и KID (оба в ядре). Остальное по LOOT, без ручных правил.",
+  "Quickloot VR (если вместо QuickLoot IE): ниже SkyUI VR; QuickLoot IE отключить."
+ ],
+ "conflicts": [
+  "Предсуществующий конфликт между списками: Pseudo Physical Weapon Collision and Parry (#100781, Other-1, rec) vs Physical Collision VR (ядро, rec): карточка PCVR запрещает вместе. Решить на стороне Other-1: либо убрать #100781, либо ослабить PCVR.",
+  "Spell Auto-Aim VR (ядро) vs SpellBender VR: взаимоисключающие по слову автора; групп spell-aim-assist.",
+  "QuickLoot IE (ядро) vs Quickloot VR: не вместе; группа quickloot.",
+  "Floating Subtitles VR (ядро) vs Subtitles VR: наложатся; группа subtitles.",
+  "Norden UI VR (ядро) vs Dear Diary VR: одна тема; группа ui_theme. Edge UI VR не ставить.",
+  "Swap Drop and Hold Redux 3.0.0 (ядро) vs Swap Drop and Hold #49425 и Add Spells #55983: не вместе.",
+  "Weapon Throw VR (ядро) vs Throwing Weapons Lite SE: не вместе по карточке ядра.",
+  "Convenient Horses VR vs Call Your Horse: оба призывают лошадь; группа horse_call.",
+  "Simply Knock SE (#14098) vs Simpler Knock #31585: не смешивать.",
+  "Blade and Blunt 3.8.3 (ядро) vs Attacks Cost Stamina VR: двойной расход стамины, мод снят.",
+  "Core Impact Framework (ядро) vs Dynamic Impact - Slash Effects X: запрещено карточкой CIF.",
+  "Wade in Water VR vs Wade in Water Redone/Redux/Remade/Loki's: только VR-версия.",
+  "Flinching for VR vs Adamant/Blade and Blunt/Combat Pathing Revolution/другие flinch-моды: возможна двойная реакция на удар (не доказано, проверить в бою)."
+ ],
+ "notes": "51 уникальный ключ из 65 записей: 14 записей это дубли с одним ключом (128285, 182364, 105789, 36132, 144669, 184347, 21297, 4668, 151637, 87315, 107993, 72174, 102094 и 185070 с n:-ключом). Для каждого ключа выдан ОДИН adjustment: в поле section указан раздел, который нужно оставить, запись из другого раздела удалить. Итог для 128285 ix_hands; 36132 ix_world; 87315 ix_ui; 102094 ix_ui (alt, не dont). n:skyrimvr fbt... отброшен как дубль id:185070. Снят drop_duplicate только с id:125734 (дубль Core по стамине B&B). Проверено по MODLIST/OTHER_MODS: Papyrus Extender VR и KID уже в ядре (требования Throw Stuff VR закрыты); ни один пик не пересекается с partial r2 Other-2; Weapon Throw VR запрещает другие метатели; True Wield VR даёт провис, а не штраф урона. Группы с одним членом (vr-crosshair, dialogue-menu, knock-base, block_fx, vl_vr_fix) сняты. rec остался только у Throw Stuff VR; везде, где VR-статус или файл не подтверждены (Interactive Door Actions, FBT, Inertia, 3DIRP, Convenient Horses VR), стоит try. Не подтверждено и осталось на проверке в игре: имя архива и автор Interactive Door Actions, Papyrus-требования Physical VR Knocking, для кого Eagle Eye (лук или заклинания), нужен ли оригинал Throwing Stuff #125065, VR-статус Convenient Horses #9519."
+}

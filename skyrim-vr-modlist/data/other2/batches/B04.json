@@ -1,0 +1,918 @@
+{
+ "batch": "B04",
+ "band": "B",
+ "themes": {
+  "body_face": 33
+ },
+ "items": [
+  {
+   "id": 186,
+   "name": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2026-08-01",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Grey Cat and Leopard Vanilla v1.0 - 2K Res Pack-186-1-0.rar",
+    "Masculine Grey Cat and Leopard (SOS-FULL) 2K 186 3.0 2026-08-01T05-04Z HZCMOypu5.7z",
+    "Masculine Grey Cat and Leopard (SOS-FULL) 2K-186-2-1-1658100976.7z"
+   ],
+   "author": "MONSTERaider",
+   "leftover": false,
+   "key": "id:186",
+   "theme": "body_face"
+  },
+  {
+   "id": 38544,
+   "name": "Venerable Nordic Temples (2K - 4K)",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2020-07-27",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "No Ridgestone Glpyhs-38544-0-1-1595873332.zip",
+    "Venerable Nordic Temples - Standard-38544-0-2-1595876247.zip"
+   ],
+   "author": "Spifferino",
+   "leftover": false,
+   "key": "id:38544",
+   "theme": "body_face"
+  },
+  {
+   "id": 25204,
+   "name": "Ziovdendian Bodypaint - Designs of the Lupine - RaceMenu Overlays - Special Edition",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2019-04-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Ziovendian Bodypaints - Female and Male (CBBE)-25204-1-1555774523.7z"
+   ],
+   "author": "DomainWolf",
+   "leftover": false,
+   "key": "id:25204",
+   "theme": "body_face"
+  },
+  {
+   "id": 54421,
+   "name": "[серия «modpocalypse npcs», 5 модов] Modpocalypse NPCs - Resources и др.",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-03-14",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Modpocalypse NPCs - Resources (Hair Physics Addon)-54421-1-03-1647301253.7z",
+    "Modpocalypse NPCs - Resources-54421-1--02-1635898875.7z",
+    "Modpocalypse NPCs - Resources-54421-1-03-1647300998.7z"
+   ],
+   "author": "ModpocalypseGaming",
+   "leftover": false,
+   "key": "id:54421",
+   "series": "modpocalypse npcs",
+   "members": [
+    {
+     "id": 54421,
+     "name": "Modpocalypse NPCs - Resources",
+     "vr": 3,
+     "se": 5,
+     "newest": "2022-03-14",
+     "files": [
+      "Modpocalypse NPCs - Resources (Hair Physics Addon)-54421-1-03-1647301253.7z"
+     ]
+    },
+    {
+     "id": 54422,
+     "name": "Modpocalypse NPCs - All Vanilla NPCs",
+     "vr": 3,
+     "se": 4,
+     "newest": "2021-08-24",
+     "files": [
+      "Modpocalypse NPCs (v3) SSE - Patch Collection FOMOD-54422-1-0-1629770959.7z"
+     ]
+    },
+    {
+     "id": 56845,
+     "name": "Modpocalypse NPCs - Dawn of Skyrim",
+     "vr": 3,
+     "se": 0,
+     "newest": "2021-10-10",
+     "files": [
+      "Modpocalypse NPCs (v3) Dawn of Skyrim-56845-1-0-1633825811.7z"
+     ]
+    },
+    {
+     "id": 56698,
+     "name": "Modpocalypse NPCs - The Great Village of Mixwater Mill",
+     "vr": 0,
+     "se": 4,
+     "newest": "2021-10-07",
+     "files": [
+      "Modpocalypse NPCs (v2) The Great Village of Mixwater Mill-56698-1-0-1633570237.7z"
+     ]
+    },
+    {
+     "id": 56700,
+     "name": "Modpocalypse NPCs - The Great Village of Old Hroldan",
+     "vr": 0,
+     "se": 4,
+     "newest": "2021-10-07",
+     "files": [
+      "Modpocalypse NPCs (v3) The Great Village of Old Hroldan-56700-1-0-1633570622.7z"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 63980,
+   "name": "Contextual Crosshair",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2026-01-07",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Contextual Crosshair-63980-1-2-2-1659561243.zip",
+    "Contextual Crosshair-63980-1-3-0-1668437056.zip",
+    "Contextual Crosshair-63980-1-3-1-1741784240.7z"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:63980",
+   "theme": "body_face"
+  },
+  {
+   "id": 34552,
+   "name": "Feral - Claw Unarmed Attacks for Beast Races - Vampires - Werewolves",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-10-14",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Feral - Go for the Throat SSE v2.0-34552-2-0-1588715001.7z",
+    "Feral SSE - The Beast Within v2.0-34552-2-0-1588715116.7z",
+    "Feral SSE FOMOD Installer v3.0-34552-3-0-1728928646.7z"
+   ],
+   "author": "AlanovichRomanov",
+   "leftover": false,
+   "key": "id:34552",
+   "theme": "body_face"
+  },
+  {
+   "id": 115210,
+   "name": "Nordic Stonewall Terraces",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2025-11-17",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Nordic Stonewall Terraces-115210-1-31-1730313714.zip",
+    "Nordic Stonewall Terraces-115210-2-10-1756994168.zip",
+    "Nordic Stonewall Terraces-115210-2-11-1763396585.zip"
+   ],
+   "author": "mindflux",
+   "leftover": false,
+   "key": "id:115210",
+   "theme": "body_face"
+  },
+  {
+   "id": 16185,
+   "name": "The Eyes Of Beauty SSE",
+   "vr": 3,
+   "se": 4,
+   "score": 10,
+   "band": "B",
+   "newest": "2020-08-24",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 4,
+   "files": [
+    "The Eyes Of Beauty - Player-16185-1-0.7z",
+    "The Eyes of Beauty - NPC-16185-1-0.7z",
+    "The Eyes of Beauty SE - Elves Edition-16185-1-2-1598069185.7z"
+   ],
+   "author": "LogRaam aka Gabriel Mailhot",
+   "leftover": false,
+   "key": "id:16185",
+   "theme": "body_face"
+  },
+  {
+   "id": 121203,
+   "name": "Utenlands Nordic Tents - Replacer and Campfire Addon",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2026-05-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Utenlands Nordic Tents - BOS Color Variance-121203-1-0-9-1739223778.rar",
+    "Utenlands Nordic Tents - BOS Color Variance-121203-1-2-2-1753212411.rar",
+    "Utenlands Nordic Tents - BOS Color Variance-121203-1-2-7-1763004911.rar"
+   ],
+   "author": "sotha simp",
+   "leftover": false,
+   "key": "id:121203",
+   "theme": "body_face"
+  },
+  {
+   "id": 63181,
+   "name": "Valkyr HDT-SMP Hairstyles",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-07-30",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 8,
+   "files": [
+    "HDT-SMP Hairpack 01-63181-1-1-1659166886.rar"
+   ],
+   "author": "Fuse00",
+   "leftover": false,
+   "key": "id:63181",
+   "theme": "body_face"
+  },
+  {
+   "id": 117861,
+   "name": "Vanilla Hair Remake - High Poly Head - EFM - compatibility patches",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2025-10-10",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Vanilla hair remake  - patches-117861-3-2-1729014404.zip",
+    "Vanilla hair remake unlocked addon - SMP (physics)-117861-3-3-1742857345.zip",
+    "Vanilla hair remake unlocked addon - SMP (physics)-117861-3-4-1760116238.zip"
+   ],
+   "author": "Mharlek1",
+   "leftover": false,
+   "key": "id:117861",
+   "theme": "body_face"
+  },
+  {
+   "id": 115201,
+   "name": "[серия «4k 2k 1k», 6 модов] Tomato's Wood - Stockades - Mines - Dungeons and ropes - 4k 2k 1k и др.",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-07-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Tomato's Wood - Grungier Dungeons 2K-115201-2-2-1720147144.rar",
+    "Tomato's Wood - Smim Support Beam Patch-115201-2-1-1717195766.rar",
+    "Tomato's Wood Overhaul 2K-115201-2-2-1719177163.rar"
+   ],
+   "author": "Tomatokillz",
+   "leftover": true,
+   "key": "id:115201",
+   "series": "4k 2k 1k",
+   "members": [
+    {
+     "id": 115201,
+     "name": "Tomato's Wood - Stockades - Mines - Dungeons and ropes - 4k 2k 1k",
+     "vr": 1,
+     "se": 8,
+     "newest": "2024-07-05",
+     "files": [
+      "Tomato's Wood - Grungier Dungeons 2K-115201-2-2-1720147144.rar"
+     ]
+    },
+    {
+     "id": 114714,
+     "name": "Tomato's Imperial Forts and Dungeons - 4K 2K 1K",
+     "vr": 1,
+     "se": 6,
+     "newest": "2024-11-01",
+     "files": [
+      "Tomato's Imperial Forts - 2.0 Complex Material 2k-114714-2-0-1730438032.7z"
+     ]
+    },
+    {
+     "id": 157281,
+     "name": "Totemic Tombstones - Clutter Re-mesh 4k 2k 1k",
+     "vr": 0,
+     "se": 5,
+     "newest": "2025-09-04",
+     "files": [
+      "Totemic Tombstones - 2k-157281-1-1-1756965229.zip"
+     ]
+    },
+    {
+     "id": 44971,
+     "name": "Iconic's Remastered Ash Piles Of Skyrim (4K-2K-1K)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2021-01-29",
+     "files": [
+      "Remastered Ash Piles Of Skyrim-44971-1-1-1611883469.7z"
+     ]
+    },
+    {
+     "id": 66546,
+     "name": "Real Hearts 4K - 2K - 1K",
+     "vr": 1,
+     "se": 2,
+     "newest": "2022-04-15",
+     "files": [
+      "Real Hearts - 1K-66546-1-0-1650006710.zip"
+     ]
+    },
+    {
+     "id": 112003,
+     "name": "Sovngarde Statue 8K-4K-2K-1K",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-02-19",
+     "files": [
+      "Sovngarde Statue 2K-112003-1-2-1708353659.zip"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 11287,
+   "name": "Bijin NPCs SE",
+   "vr": 3,
+   "se": 3,
+   "score": 9,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Bijin NPCs SE 1.2.1-11287-1-2-1.7z"
+   ],
+   "author": "rxkx22",
+   "leftover": false,
+   "key": "id:11287",
+   "theme": "body_face"
+  },
+  {
+   "id": 20078,
+   "name": "Bijin Skin UNP and CBBE SE",
+   "vr": 4,
+   "se": 1,
+   "score": 9,
+   "band": "B",
+   "newest": "2018-11-08",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Bijin Skin CBBE-20078-1-4-1541714925.7z"
+   ],
+   "author": "rxkx22 and Shiva182",
+   "leftover": false,
+   "key": "id:20078",
+   "theme": "body_face"
+  },
+  {
+   "id": 71067,
+   "name": "CoverKhajiits - Face Textures 4K SE",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-01-24",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "CoverKhajiits 2K-71067-1-3-1674574017.7z",
+    "CoverKhajiits 4K-71067-1-1-1657470783.7z",
+    "CoverKhajiits 4K-71067-1-3-1674574021.7z"
+   ],
+   "author": "mrLenski - XilaMonstrr",
+   "leftover": false,
+   "key": "id:71067",
+   "theme": "body_face"
+  },
+  {
+   "id": 131951,
+   "name": "Dunmer Dreams - A Dark Elf Bed Replacer",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-06-28",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "BOS Color Variance Use Those Blankets patch-131951-1-0-3-1739907481.rar",
+    "Dunmer Dreams - A Dark Elf Bed Replacer-131951-1-0-1729811413.rar",
+    "Dunmer Dreams - Auri Song of the Green patch-131951-1-0-2-1742932847.rar"
+   ],
+   "author": "sotha simp",
+   "leftover": false,
+   "key": "id:131951",
+   "theme": "body_face"
+  },
+  {
+   "id": 96891,
+   "name": "Dynamic Interface Patcher - DIP",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-02-08",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Dynamic Interface Patcher-96891-v1-0-3-1690909246.7z",
+    "Dynamic Interface Patcher-96891-v2-1-4-1734298812.7z",
+    "Dynamic Interface Patcher-96891-v2-1-5-1739022413.7z"
+   ],
+   "author": "Cutleast",
+   "leftover": false,
+   "key": "id:96891",
+   "theme": "body_face"
+  },
+  {
+   "id": 100295,
+   "name": "FYX - Nordic Doors and Traps Collisions",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-09-10",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "FYX - Nordic Doors and Traps Collisions - Parallax-100295-1-0-1694327124.7z",
+    "FYX - Nordic Doors and Traps Collisions-100295-1-0-1694293442.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:100295",
+   "theme": "body_face"
+  },
+  {
+   "id": 9252,
+   "name": "Immersive College NPCs",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-01-10",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Immersive College NPCs-9252-1-1-02-1578696450.7z"
+   ],
+   "author": "VorpalRunner and SomethingObscure",
+   "leftover": false,
+   "key": "id:9252",
+   "theme": "body_face"
+  },
+  {
+   "id": 42577,
+   "name": "Imperial Saddle Retexture",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-11-20",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "2K Imperial Saddle-42577-1-0-1605857677.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:42577",
+   "theme": "body_face"
+  },
+  {
+   "id": 133717,
+   "name": "Malacath's Chosen - An Orc Furniture Replacer",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-02-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Malacath's Chosen - An Orc Furniture Replacer-133717-1-0-1731459994.rar",
+    "Malacath's Chosen - An Orc Furniture Replacer-133717-1-0-2-1731526659.rar",
+    "Malacath's Chosen - Use Those Blankets patch-133717-1-0-1-1739905455.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:133717",
+   "theme": "body_face"
+  },
+  {
+   "id": 67770,
+   "name": "Missile's Immersive Equipment Display Presets",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-02-10",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "0) Missile's IED Presets AIO-67770-1-1-1652306024.zip",
+    "Missile's IED Preset-67770-3-0-3-1726708994.zip",
+    "Missile's IED Preset-67770-3-1-2-1743145053.zip"
+   ],
+   "author": "Missile",
+   "leftover": false,
+   "key": "id:67770",
+   "theme": "body_face"
+  },
+  {
+   "id": 157788,
+   "name": "Nordic Farmfield Stonewalls",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-01-26",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Nordic Farmfield Stonewalls-157788-1-1-3-1756996633.zip",
+    "Nordic Farmfield Stonewalls-157788-1-1-4-1769438991.zip"
+   ],
+   "author": "mindflux",
+   "leftover": false,
+   "key": "id:157788",
+   "theme": "body_face"
+  },
+  {
+   "id": 46872,
+   "name": "Rally's Nord War Horns (High Poly)",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-01-25",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Rally's Nord War Horns-46872-1-3-1674638381.7z",
+    "Rallys Nord War Horns-46872-1-2-1620029294.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:46872",
+   "theme": "body_face"
+  },
+  {
+   "id": 132811,
+   "name": "Reclusive Respite - A High Hrothgar Bed Chair and Bench Replacer",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-03-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "BOS Color Variance Use Those Blankets patch-132811-1-0-3-1739903774.rar",
+    "Reclusive Respite - BOS Color Variance-132811-1-0-2-1736289251.rar",
+    "Reclusive Respite - BOS Color Variance-132811-2-0-1764178716.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:132811",
+   "theme": "body_face"
+  },
+  {
+   "id": 45147,
+   "name": "Vanilla hair - Salt and Wind",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-02-01",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Vanilla hair - Salt and Wind-45147-1-0-1612188024.zip"
+   ],
+   "author": "mashanen jasperthegnome",
+   "leftover": false,
+   "key": "id:45147",
+   "theme": "body_face"
+  },
+  {
+   "id": 87642,
+   "name": "Vestal Body 3BA - Lazarus Bodyslide Presets",
+   "vr": 4,
+   "se": 1,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-03-23",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Lazarus Bodyslide Presets - Vestal Body 3BA-87642-1-0-1679603822.7z",
+    "Nemesis Unlimited Behavior Engine-60033-v0-84-beta-1639426722.rar"
+   ],
+   "author": "Lazarus",
+   "leftover": false,
+   "key": "id:87642",
+   "theme": "body_face"
+  },
+  {
+   "id": 20514,
+   "name": "[серия «obscure's college», 5 модов] Obscure's College of Winterhold и др.",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-04-16",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Obscure's College of Winterhold-20514-1-6-1-1587010675.7z"
+   ],
+   "author": "SomethingObscure",
+   "leftover": false,
+   "key": "id:20514",
+   "series": "obscure's college",
+   "members": [
+    {
+     "id": 20514,
+     "name": "Obscure's College of Winterhold",
+     "vr": 2,
+     "se": 5,
+     "newest": "2020-04-16",
+     "files": [
+      "Obscure's College of Winterhold-20514-1-6-1-1587010675.7z"
+     ]
+    },
+    {
+     "id": 62720,
+     "name": "Obscure's College of Winterhold - Script Fix - cwhcm_setchangeonquestprog_03",
+     "vr": 2,
+     "se": 2,
+     "newest": "2022-01-29",
+     "files": [
+      "Obscure's College of Winterhold - Script Fix - cwhcm_setchangeonquestprog_03-62720-1-0-1643420271.zi"
+     ]
+    },
+    {
+     "id": 31314,
+     "name": "Obscure's College of Winterhold Addons",
+     "vr": 2,
+     "se": 1,
+     "newest": "2020-05-13",
+     "files": [
+      "OCW Arcanaeum Flying Books-31314-2-0-1589331337.7z"
+     ]
+    },
+    {
+     "id": 139165,
+     "name": "Obscure's College of Winterhold Meshes Optimized and Merged for Community Shaders",
+     "vr": 1,
+     "se": 2,
+     "newest": "2025-06-28",
+     "files": [
+      "OCW Meshes For CS-139165-1-0-2-1751094148.7z"
+     ]
+    },
+    {
+     "id": 53713,
+     "name": "Obscure's College of Winterhold NPC Stuck in Staircase Fix",
+     "vr": 1,
+     "se": 2,
+     "newest": "2021-08-12",
+     "files": [
+      "Obscure's College of Winterhold NPC Stuck in Staircase Fix-53713-0-1-1628757244.7z"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 82312,
+   "name": "[серия «vampire lord», 3 модов] Vampire Lord and Lady Have Eyes и др.",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-01-08",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Vampire Lord and Lady Have Eyes - Vanilla-82312-1-0-1673147500.7z",
+    "Vampire Lord and Lady Have Eyes - Wings Remade-82312-1-1-1673156232.7z"
+   ],
+   "author": "Mura",
+   "leftover": false,
+   "key": "id:82312",
+   "series": "vampire lord",
+   "members": [
+    {
+     "id": 82312,
+     "name": "Vampire Lord and Lady Have Eyes",
+     "vr": 0,
+     "se": 9,
+     "newest": "2023-01-08",
+     "files": [
+      "Vampire Lord and Lady Have Eyes - Vanilla-82312-1-0-1673147500.7z"
+     ]
+    },
+    {
+     "id": 90244,
+     "name": "Vampire Lord Retexture - 8K",
+     "vr": 0,
+     "se": 5,
+     "newest": "2025-01-25",
+     "files": [
+      "Vampire Lord Demonic Retexture - 2K-90244-1-2-1683791369.rar"
+     ]
+    },
+    {
+     "id": 89538,
+     "name": "Vampire Lord Overhaul 1.4b",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-01-31",
+     "files": [
+      "Vampire Lord Overhaul-89538-1-4-3-1738347928.rar"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 107380,
+   "name": "AW True Warrior Bodyslide Preset for HIMBO",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-12-19",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Aw True Warrior HIMBO preset-107380-1-0-1703015885.zip"
+   ],
+   "author": "Allison Wade",
+   "leftover": false,
+   "key": "id:107380",
+   "theme": "body_face"
+  },
+  {
+   "id": 2014,
+   "name": "Apachii Sky Hair SSE",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-10-21",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "ApachiiSkyHairFemale_v_1_5_1-2014-1-5-1-1588887280.7z",
+    "ApachiiSkyHairMale_v_1_3-2014-1-3-1603302454.7z",
+    "ApachiiSkyHair_v_1_6_Full_optimized-2014-1-6-Full.7z"
+   ],
+   "author": "Apachii",
+   "leftover": false,
+   "key": "id:2014",
+   "theme": "body_face"
+  },
+  {
+   "id": 31826,
+   "name": "Barbarian Bodypaints - Racemenu Body and Head Overlays for UUNP CBBE and Males",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-01-16",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "(2)Barbarian Bodypaints - CBBE-31826-1-0-1579138592.7z",
+    "(3)Barbarian Bodypaints - Male-31826-1-0-1579138821.7z"
+   ],
+   "author": "DomainWolf",
+   "leftover": false,
+   "key": "id:31826",
+   "theme": "body_face"
+  },
+  {
+   "id": 103052,
+   "name": "DALC Fix KreatE Preset",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-11-15",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "DALC Fix Preset-103052-1-0-18-1753063046.7z",
+    "DALC Fix Preset-103052-1-0-33-1763196252.7z"
+   ],
+   "author": "leostevano",
+   "leftover": false,
+   "key": "id:103052",
+   "theme": "body_face"
+  }
+ ]
+}

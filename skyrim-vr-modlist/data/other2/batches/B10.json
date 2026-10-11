@@ -1,0 +1,798 @@
+{
+ "batch": "B10",
+ "band": "B",
+ "themes": {
+  "land_nature": 10,
+  "other": 24
+ },
+ "items": [
+  {
+   "id": 37330,
+   "name": "Hermaeus Mora - Water and tentacles - My HD version SE",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-06-19",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Hermaeus Mora - My HD version SE-37330-1-2-1592593678.rar"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:37330",
+   "theme": "land_nature"
+  },
+  {
+   "id": 29283,
+   "name": "Hyperborean Snow SE - 8K",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-10-28",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Hyperborean Snow 2K-29283-1-3-1575482378.7z",
+    "Hyperborean Snow 2K-29283-1-3-1635410829.7z",
+    "Hyperborean Snow 4K-29283-1-3-1575485254.7z"
+   ],
+   "author": "winedave",
+   "leftover": false,
+   "key": "id:29283",
+   "theme": "land_nature"
+  },
+  {
+   "id": 55959,
+   "name": "JK's Riverwood Trader",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-05-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "JK's Riverwood Trader-55959-1-1-1-1653437913.zip"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:55959",
+   "theme": "land_nature"
+  },
+  {
+   "id": 84042,
+   "name": "Majestic Mountains - Simplicity of Snow Patch",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-02-20",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Simplicity of MM Custom PD-84042-1-1a-1676916920.7z",
+    "Simplicity of MM Vanilla PD-84042-1-1-1676576282.7z"
+   ],
+   "author": "DarthBlender T4gtr34um3r wSkeever",
+   "leftover": false,
+   "key": "id:84042",
+   "theme": "land_nature"
+  },
+  {
+   "id": 47530,
+   "name": "Praedy's Sky AIO - SE",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-04-30",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "NightSky 8K HD SE-47530-1-1-1635557524.7z",
+    "Praedy's new masser and secunda moons 4K-47530-2-0-1738335731.7z",
+    "Praedys Sky AIO 2K-47530-2-0-1667049573.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:47530",
+   "theme": "land_nature"
+  },
+  {
+   "id": 67386,
+   "name": "Sconces of Skyrim - Markarth Braziers Improved",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-05-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Markarth Braziers Improved-67386-0-2-2-1654668052.7z",
+    "Markarth and Dwemer Braziers Improved-67386-0-3-1715259917.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:67386",
+   "theme": "land_nature"
+  },
+  {
+   "id": 62705,
+   "name": "Skyrim Paper Map by Caro Tuts for FWMF",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-11-06",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Skyrim Paper Map by Caro Tuts for FWMF FOMOD (BETA)-62705-1-72-1675272262.zip",
+    "Skyrim Paper Map by Caro Tuts for FWMF-62705-1-7-1643397464.zip",
+    "Skyrim Paper Map by Caro Tuts for FWMF-62705-1-8-1-1730882428.zip"
+   ],
+   "author": "Caro Tuts and Caites",
+   "leftover": false,
+   "key": "id:62705",
+   "theme": "land_nature"
+  },
+  {
+   "id": 36332,
+   "name": "Spiky grass by Mari",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-05-23",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Bright spiky grass-36332-1-0-1590222971.7z",
+    "Dark spiky grass-36332-1-0-1590222909.7z"
+   ],
+   "author": "ArtByMari",
+   "leftover": false,
+   "key": "id:36332",
+   "theme": "land_nature"
+  },
+  {
+   "id": 51788,
+   "name": "[серия «skyrim remastered», 4 модов] Skyrim Remastered - High Hrothgar v2 и др.",
+   "vr": 1,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-06-29",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Skyrim Remastered - High Hrothgar v2 LODs for DynDOLOD-51788-1-00-1625003698.7z",
+    "Skyrim Remastered - High Hrothgar v2 Performance Banners-51788-1-00-1625003612.7z",
+    "Skyrim Remastered - High Hrothgar v2 Performance Version-51788-1-00-1625003475.7z"
+   ],
+   "author": "Gravos8890",
+   "leftover": false,
+   "key": "id:51788",
+   "series": "skyrim remastered",
+   "members": [
+    {
+     "id": 51788,
+     "name": "Skyrim Remastered - High Hrothgar v2",
+     "vr": 0,
+     "se": 8,
+     "newest": "2021-06-29",
+     "files": [
+      "Skyrim Remastered - High Hrothgar v2 LODs for DynDOLOD-51788-1-00-1625003698.7z"
+     ]
+    },
+    {
+     "id": 38220,
+     "name": "Skyrim Remastered - Caves",
+     "vr": 1,
+     "se": 5,
+     "newest": "2021-06-09",
+     "files": [
+      "Skyrim Remastered - Caves 2K Non Parallax-38220-1-00-1594583676.7z"
+     ]
+    },
+    {
+     "id": 41432,
+     "name": "Skyrim Remastered - Glaciers and Ice",
+     "vr": 1,
+     "se": 3,
+     "newest": "2021-05-18",
+     "files": [
+      "Skyrim Remastered - Glaciers and Ice LODs for DynDOLOD-41432-1-00-1602779949.7z"
+     ]
+    },
+    {
+     "id": 38371,
+     "name": "Skyrim Remastered - Azura and Blackreach Crystals",
+     "vr": 0,
+     "se": 4,
+     "newest": "2020-07-16",
+     "files": [
+      "Skyrim Remastered - Azura and Blackreach Crystals 2K-38371-1-00-1594922133.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 103182,
+   "name": "[серия «sowables of», 3 модов] Sowables of Skyrim - Wheat и др.",
+   "vr": 2,
+   "se": 5,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-10-23",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Sowables of Skryim - Wheat-103182-1-0-1698024554.7z"
+   ],
+   "author": "ICFur",
+   "leftover": false,
+   "key": "id:103182",
+   "series": "sowables of",
+   "members": [
+    {
+     "id": 103182,
+     "name": "Sowables of Skyrim - Wheat",
+     "vr": 2,
+     "se": 4,
+     "newest": "2023-10-23",
+     "files": [
+      "Sowables of Skryim - Wheat-103182-1-0-1698024554.7z"
+     ]
+    },
+    {
+     "id": 80907,
+     "name": "Sowables of Skyrim - Leeks",
+     "vr": 1,
+     "se": 5,
+     "newest": "2023-10-26",
+     "files": [
+      "2k - Leek Textures-80907-1-02-0-1683461529.7z"
+     ]
+    },
+    {
+     "id": 80723,
+     "name": "Sowables of Skyrim - Scrumptious Cabbages",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-10-25",
+     "files": [
+      "Sowables of Skyrim - Scrumptious Cabbages-80723-2-0-1698198148.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 1825,
+   "name": "Bijin Warmaidens SE",
+   "vr": 4,
+   "se": 3,
+   "score": 11,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Bijin AIO SE for USSEP-1825-AIOSE.7z",
+    "Bijin Warmaidens SE v3.1.3-1825-3-1-3.7z"
+   ],
+   "author": "rxkx22",
+   "leftover": false,
+   "key": "id:1825",
+   "theme": "other"
+  },
+  {
+   "id": 134836,
+   "name": "Cozy Cots - A Cot Replacer",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2025-05-18",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Alternate Texture - Dirtier Fabric-134836-1-0-1732577032.rar",
+    "Cozy Cots - BOS Color Variance-134836-1-0-1-1732723637.rar",
+    "Cozy Cots - BOS Color Variance-134836-1-0-2-1747585424.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:134836",
+   "theme": "other"
+  },
+  {
+   "id": 10423,
+   "name": "Darkend",
+   "vr": 5,
+   "se": 1,
+   "score": 11,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "DarkenD 1.4 SSE-10423-1-4.rar",
+    "FaceGenData 1.4 Meshes and Textures.-10423-1-4.rar",
+    "Missing walls hotfix-10423-1-4.rar"
+   ],
+   "author": "JKrojmal",
+   "leftover": false,
+   "key": "id:10423",
+   "theme": "other"
+  },
+  {
+   "id": 91160,
+   "name": "Environs - Master Plugin",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-05-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Environs - Master Plugin-91160-2-00-1685411803.7z"
+   ],
+   "author": "Siberpunk",
+   "leftover": false,
+   "key": "id:91160",
+   "theme": "other"
+  },
+  {
+   "id": 78848,
+   "name": "Garlic - A Garlic Mod",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-11-16",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Garlic - A Garlic Mod-78848-0-2-1668628715.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:78848",
+   "theme": "other"
+  },
+  {
+   "id": 69409,
+   "name": "Goetia Animations - Sprint",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-06-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "CATA Addon - Goetia Animations Sprint-69409-1-0c-1687702347.7z"
+   ],
+   "author": "Verolevi",
+   "leftover": false,
+   "key": "id:69409",
+   "theme": "other"
+  },
+  {
+   "id": 39634,
+   "name": "Identity Crisis",
+   "vr": 4,
+   "se": 3,
+   "score": 11,
+   "band": "B",
+   "newest": "2026-04-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Better Dawnguard Entrance Patch-39634-1-0-1599627720.zip",
+    "Beyond Skyrim - Bruma Patch-39634-1-02-1598324632.zip",
+    "Identity Crisis-39634-1-04-1599012046.zip"
+   ],
+   "author": "SlimeSire",
+   "leftover": false,
+   "key": "id:39634",
+   "theme": "other"
+  },
+  {
+   "id": 37801,
+   "name": "Jarl Sitting Animation Replacer",
+   "vr": 4,
+   "se": 3,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-07-22",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Jarl Sitting Animation Replacer - NPC Animation Remix-37801-1-4-1-1651016623.7z",
+    "Jarl Sitting Animation Replacer - OAR-37801-2-0-1690055550.7z"
+   ],
+   "author": "Mura",
+   "leftover": false,
+   "key": "id:37801",
+   "theme": "other"
+  },
+  {
+   "id": 49259,
+   "name": "Major Cities Mesh Overhaul",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-07-09",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Major Cities Mesh Overhaul SE-49259-1-3a-1657348892.rar"
+   ],
+   "author": "raiserfx",
+   "leftover": false,
+   "key": "id:49259",
+   "theme": "other"
+  },
+  {
+   "id": 46201,
+   "name": "Missives - Notes Retexture",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-03-01",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Missives Notes Retexture-46201-1-0-1614289834.zip",
+    "Patch for Missives Worldspace Additions (Heartland)-46201-1-0-1614612804.zip",
+    "Patch for Missives Worldspace Additions (Solstheim)-46201-1-0-1614612884.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:46201",
+   "theme": "other"
+  },
+  {
+   "id": 47204,
+   "name": "Praedy's Chantry of Auriel AIO - SE",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-09-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Auriels bow and shield 4K-47204-2-0-1665872868.7z",
+    "Auriels chantry 2K-47204-2-0-1665926477.7z",
+    "Auriels chantry 4K-47204-2-1-1684753464.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:47204",
+   "theme": "other"
+  },
+  {
+   "id": 70917,
+   "name": "SIRENROOT - Deluge of Deceit",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2026-05-01",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "SIRENROOT - Deluge of Deceit 1.21-70917-1-21-1715501801.zip",
+    "SIRENROOT - Deluge of Deceit 1.30-70917-1-30-1777622316.zip",
+    "SIRENROOT - HD Texture Pack-70917-1-0-1683358261.zip"
+   ],
+   "author": "Everglaid",
+   "leftover": false,
+   "key": "id:70917",
+   "theme": "other"
+  },
+  {
+   "id": 1651,
+   "name": "SKSE64 ini pre-download for lazy users",
+   "vr": 0,
+   "se": 11,
+   "score": 11,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 11,
+   "files": [
+    "SKSE64 INI PRE DOWNLOAD v1.2-1651-1-2.7z"
+   ],
+   "author": "Sagittarius22",
+   "leftover": false,
+   "key": "id:1651",
+   "theme": "other"
+  },
+  {
+   "id": 41368,
+   "name": "Shadows Of Sunlight - In Small Exterior World Spaces",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-08-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Shadows Of Sunlight - In Small Exterior World Spaces-41368-0-5-1628816291.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:41368",
+   "theme": "other"
+  },
+  {
+   "id": 58742,
+   "name": "Stamina of Steeds",
+   "vr": 0,
+   "se": 11,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-11-20",
+   "vr_lists": [],
+   "se_lists": 11,
+   "files": [
+    "Stamina of Steeds-58742-1-0-1637372154.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:58742",
+   "theme": "other"
+  },
+  {
+   "id": 668,
+   "name": "VioLens - A Killmove Mod SE",
+   "vr": 0,
+   "se": 11,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-01-11",
+   "vr_lists": [],
+   "se_lists": 11,
+   "files": [
+    "VioLens - A Killmove Mod SE 2.30-668-2-30-1641929178.7z"
+   ],
+   "author": "Reko",
+   "leftover": false,
+   "key": "id:668",
+   "theme": "other"
+  },
+  {
+   "id": 67725,
+   "name": "Better Blended Mushrooms",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-06-05",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Better Blended Mushrooms-67725-1-1-1654410950.7z"
+   ],
+   "author": "aelix",
+   "leftover": false,
+   "key": "id:67725",
+   "theme": "other"
+  },
+  {
+   "id": 85734,
+   "name": "BiR's Remiel Replacer",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-06-06",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 6,
+   "files": [
+    "BiR Remiel Replacer-85734-1-2-0-1686038880.7z"
+   ],
+   "author": "belladonnaisrunning - megaman2k",
+   "leftover": false,
+   "key": "id:85734",
+   "theme": "other"
+  },
+  {
+   "id": 29434,
+   "name": "Butterflies Land True",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2019-10-14",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Butterflies Land True - ESPFE Alternate Version-29434-1-0-1570188310.7z",
+    "Butterflies Land True - ESPFE No Formlist Changes Alternate Version-29434-1-0-1571058918.7z"
+   ],
+   "author": "Wanderhall",
+   "leftover": false,
+   "key": "id:29434",
+   "theme": "other"
+  },
+  {
+   "id": 61553,
+   "name": "Dibella statue",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-01-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Dibella 2k-61553-1-04-1641745436.zip",
+    "Dibella 4k-61553-1-04-1641745289.zip",
+    "Patch for JK's Temple of Dibella by Mur4s4me-61553-1-02-1641719468.zip"
+   ],
+   "author": "Mandragorasprouts",
+   "leftover": false,
+   "key": "id:61553",
+   "theme": "other"
+  },
+  {
+   "id": 27456,
+   "name": "FleshFX",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2019-07-18",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "FleshFX-27456-1-1-1563474180.7z"
+   ],
+   "author": "Deserter X",
+   "leftover": false,
+   "key": "id:27456",
+   "theme": "other"
+  },
+  {
+   "id": 22152,
+   "name": "Freed Prisoner Uses Items",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2018-12-26",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Freed Prisoner Uses Items-22152-1-0-1545863442.zip"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:22152",
+   "theme": "other"
+  },
+  {
+   "id": 72166,
+   "name": "Lion's Mane",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-07-26",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Lion's mane SMP-72166-1-1658849757.7z"
+   ],
+   "author": "jg1",
+   "leftover": false,
+   "key": "id:72166",
+   "theme": "other"
+  },
+  {
+   "id": 68288,
+   "name": "Nocturnal Moths",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-01-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Nocturnal Moths-68288-2-2-1659020259.zip",
+    "Nocturnal Moths-68288-2-3-1674950989.zip"
+   ],
+   "author": "jple",
+   "leftover": false,
+   "key": "id:68288",
+   "theme": "other"
+  }
+ ]
+}

@@ -1,0 +1,781 @@
+{
+ "batch": "B01",
+ "band": "B",
+ "themes": {
+  "arch_city": 35
+ },
+ "items": [
+  {
+   "id": 27298,
+   "name": "Hearthfires Houses Building Fix",
+   "vr": 0,
+   "se": 11,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-06-13",
+   "vr_lists": [],
+   "se_lists": 11,
+   "files": [
+    "Hearthfires Houses Building Fix-27298-0-1-1562932629.7z",
+    "Hearthfires Houses Building Fix-27298-0-2-1718261006.rar"
+   ],
+   "author": "Ice885",
+   "leftover": false,
+   "key": "id:27298",
+   "theme": "arch_city"
+  },
+  {
+   "id": 44553,
+   "name": "Improved Dwemer Glass",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-09-02",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "ENB Lights For Aetherium Shards Patch-44553-1-1-1630558790.7z",
+    "Improved Dwemer Glass-44553-1-1-1614011690.7z",
+    "Unofficial Material Fix Patch-44553-1-0-1611088335.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:44553",
+   "theme": "arch_city"
+  },
+  {
+   "id": 44482,
+   "name": "JK's Angeline's Aromatics",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-01-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Jk's Angeline's Aromatics-44482-1-0-0-1610939190.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:44482",
+   "theme": "arch_city"
+  },
+  {
+   "id": 33565,
+   "name": "JK's Arcadia's Cauldron",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-06-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JK's Arcadia's Cauldron-33565-1-01-1654058766.zip"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:33565",
+   "theme": "arch_city"
+  },
+  {
+   "id": 54166,
+   "name": "JK's Arnleif and Sons Trading Company",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-06-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JK's Arnleif and Sons Trading Company-54166-1-0-1-1656370137.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:54166",
+   "theme": "arch_city"
+  },
+  {
+   "id": 49934,
+   "name": "JK's Elgrim's Elixirs",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-11-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JK's Elgrims Elixirs-49934-1-0-0-1621051376.rar",
+    "JK's Elgrims Elixirs-49934-1-1-1669545585.zip"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:49934",
+   "theme": "arch_city"
+  },
+  {
+   "id": 60085,
+   "name": "JK's Haelga's Bunkhouse",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-02-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JK's Haelga's Bunkhouse-60085-1-1-1-1645417321.zip"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:60085",
+   "theme": "arch_city"
+  },
+  {
+   "id": 44858,
+   "name": "JK's Radiant Raiment",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2025-05-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JK's Radiant Raiment-44858-1-0-1-1653438034.zip",
+    "JK's Radiant Raiment-44858-1-0-2-1724008908.7z",
+    "JK's Radiant Raiment-44858-1-0-4-1747525985.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:44858",
+   "theme": "arch_city"
+  },
+  {
+   "id": 24324,
+   "name": "Medieval Candlehorns and Sconces",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2019-06-27",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Medieval Candlehorns and Sconces-24324-2-0-0-1561629898.7z"
+   ],
+   "author": "mathy79",
+   "leftover": false,
+   "key": "id:24324",
+   "theme": "arch_city"
+  },
+  {
+   "id": 51493,
+   "name": "Praedy's Castle Volkihar - SE",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-10-20",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Castle Volkihar HD - SE 2K-51493-2-0-1665843236.7z",
+    "Castle Volkihar HD - SE 4K-51493-1-0-1624306993.7z",
+    "Castle Volkihar HD - SE 4K-51493-2-0-1665843340.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:51493",
+   "theme": "arch_city"
+  },
+  {
+   "id": 81282,
+   "name": "Rally's Market Stalls - Animated",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2025-05-30",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Animation Addon-81282-1-1-1695570253.7z",
+    "Hotfix-81282-1-3-1748580363.7z",
+    "Rally's Market Stalls 2K-81282-1-3-1706544887.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:81282",
+   "theme": "arch_city"
+  },
+  {
+   "id": 68815,
+   "name": "Stony AF Markarth and Dwemer Ruins - Retextures - 2K - 4K - Parallax",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-06-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Parallax Update 1K-68815-2-0-1-1673797873.zip",
+    "Stony AF Markarth - Addons - 2K-68815-2-2-1685893777.zip",
+    "Stony AF Markarth - Dwemer Pipework Reworked 2K-68815-2-2-1687099740.zip"
+   ],
+   "author": "AgentW",
+   "leftover": false,
+   "key": "id:68815",
+   "theme": "arch_city"
+  },
+  {
+   "id": 88936,
+   "name": "ALT - Markarth's Forge",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2026-06-09",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "ALT - (A) Markarth's Forge - Parallax-88936-1-0-2-1681377576.7z",
+    "ALT - (A) Markarth's Forge-88936-1-0-2-1681377547.7z",
+    "ALT - (C) Dwemer Metals Retexture-88936-1-0-2-1781025802.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:88936",
+   "theme": "arch_city"
+  },
+  {
+   "id": 24108,
+   "name": "ENB Particle Lights - Dwemer Lanterns",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2019-03-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "ENB-ParticleLights-DwemerLanterns-1-02-24108-1-02-1552437026.rar"
+   ],
+   "author": "fadingsignal",
+   "leftover": false,
+   "key": "id:24108",
+   "theme": "arch_city"
+  },
+  {
+   "id": 149128,
+   "name": "FYX - Alpha Blood Blending Bug - NG",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2026-09-02",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Alpha Blood Blending Bug (NG) - Latest Version 149128 1.0.1 2026-09-02T21-09Z 8gJHT4LBO.zip",
+    "Alpha Blood Blending Bug (NG) - Latest Version-149128-1-0-0-1746309313.zip",
+    "Alpha Blood Blending Bug (NG) - Latest Version-149128-1-0-1-799408-1788383340.zip"
+   ],
+   "author": "Yuril and Seb263",
+   "leftover": false,
+   "key": "id:149128",
+   "theme": "arch_city"
+  },
+  {
+   "id": 62219,
+   "name": "JK's High Hrothgar",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-08-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's High Hrothgar-62219-1-0-1-1645417650.zip",
+    "JK's High Hrothgar-62219-1-0-2-1724011515.7z",
+    "JK's High Hrothgar-62219-1-0-3-0-766995.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:62219",
+   "theme": "arch_city"
+  },
+  {
+   "id": 60738,
+   "name": "JK's Jorrvaskr",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-09-16",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's Jorrvaskr-60738-1-1-4-1663303892.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:60738",
+   "theme": "arch_city"
+  },
+  {
+   "id": 52462,
+   "name": "JK's Mistveil Keep",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-09-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's Mistveil Keep-52462-1-0-2-1632027714.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:52462",
+   "theme": "arch_city"
+  },
+  {
+   "id": 48293,
+   "name": "JK's New Gnisis Cornerclub",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-12-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's New Gnisis Cornerclub-48293-1-1-0-1638561666.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:48293",
+   "theme": "arch_city"
+  },
+  {
+   "id": 48902,
+   "name": "JK's Palace of the Kings",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-11-26",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's Palace of the Kings-48902-1-2-0-1637911630.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:48902",
+   "theme": "arch_city"
+  },
+  {
+   "id": 53554,
+   "name": "JK's Silver-Blood Inn",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2025-01-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's Silver-Blood Inn-53554-1-0-0-1628813882.rar",
+    "JK's Silver-Blood Inn-53554-1-0-2-1735730528.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:53554",
+   "theme": "arch_city"
+  },
+  {
+   "id": 33685,
+   "name": "JK's Warmaiden's",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-05-08",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's Warmaiden's Harvestable Statics Patch-33685-1-2-0-1622951217.7z",
+    "JK's Warmaiden's-33685-1-2-0-1622950993.7z",
+    "JK's Warmaiden's-33685-1-3-0-1683573536.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:33685",
+   "theme": "arch_city"
+  },
+  {
+   "id": 47713,
+   "name": "JK's White Phial",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-04-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's White Phial-47713-1-1-1-1617829339.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:47713",
+   "theme": "arch_city"
+  },
+  {
+   "id": 56371,
+   "name": "[серия «jk's temple», 4 модов] JK's Temple of Dibella и др.",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-10-04",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "JK's Temple of Dibella-56371-1-0-0-1633391770.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:56371",
+   "series": "jk's temple",
+   "members": [
+    {
+     "id": 56371,
+     "name": "JK's Temple of Dibella",
+     "vr": 1,
+     "se": 8,
+     "newest": "2021-10-04",
+     "files": [
+      "JK's Temple of Dibella-56371-1-0-0-1633391770.rar"
+     ]
+    },
+    {
+     "id": 56737,
+     "name": "JK's Temple of Kynareth",
+     "vr": 1,
+     "se": 8,
+     "newest": "2021-10-22",
+     "files": [
+      "JK's Temple of Kynareth-56737-1-0-0-1634924579.rar"
+     ]
+    },
+    {
+     "id": 56971,
+     "name": "JK's Temple of Talos",
+     "vr": 1,
+     "se": 8,
+     "newest": "2021-11-26",
+     "files": [
+      "JK's Temple of Talos-56971-1-0-0-1637322412.rar"
+     ]
+    },
+    {
+     "id": 57304,
+     "name": "JK's Temple of the Divines",
+     "vr": 1,
+     "se": 6,
+     "newest": "2022-07-12",
+     "files": [
+      "JK's Temple of the Divines-57304-1-2-0-1657588680.rar"
+     ]
+    }
+   ],
+   "theme": "arch_city"
+  },
+  {
+   "id": 69070,
+   "name": "Daedric Relic Rings SMIMed - ENB Light",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-06-07",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Daedric Relic Rings SMIMed-69070-1-0-1654297827.rar",
+    "ENB Light PATCH-69070-1-01-1654486479.rar",
+    "STANDALONE - ENB Light-69070-1-0-1654626941.rar"
+   ],
+   "author": "RemmyKun",
+   "leftover": false,
+   "key": "id:69070",
+   "theme": "arch_city"
+  },
+  {
+   "id": 131560,
+   "name": "Deep Slumber - A Dwemer Bed Replacer",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-05-28",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Deep Slumber - BOS Distributed UTB patch-131560-1-0-4-1748467812.rar",
+    "Deep Slumber - BOS Distributed-131560-1-0-4-1748467705.rar",
+    "Deep Slumber - BOS New and Timeworn Distributed-131560-1-0-2-1730305222.rar"
+   ],
+   "author": "sotha simp",
+   "leftover": false,
+   "key": "id:131560",
+   "theme": "arch_city"
+  },
+  {
+   "id": 83457,
+   "name": "Environs - Hroggar's House",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2024-08-11",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Environs - Hroggar's House - Patch Collection-83457-2-0-6-1723355750.7z",
+    "Environs - Hroggar's House - Patch Collection-83457-2-02-1700637732.7z",
+    "Environs - Hroggar's House-83457-2-0-3-1723196175.7z"
+   ],
+   "author": "Siberpunk",
+   "leftover": false,
+   "key": "id:83457",
+   "theme": "arch_city"
+  },
+  {
+   "id": 88024,
+   "name": "Environs - Riften Warehouse",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2024-03-08",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Environs - Riften Warehouse - Patch Collection-88024-1-01-1708767156.7z",
+    "Environs - Riften Warehouse - Patch Collection-88024-1-02-1709875634.7z",
+    "Environs - Riften Warehouse-88024-2-01-1708681769.zip"
+   ],
+   "author": "Siberpunk",
+   "leftover": false,
+   "key": "id:88024",
+   "theme": "arch_city"
+  },
+  {
+   "id": 76261,
+   "name": "Environs - Whiterun Watchtower Doesn't Stay Broken",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-05-29",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Environs - The Western Watchower - Lux Orbis-76261-1-00-1677574510.7z",
+    "Environs - The Western Watchower - Northern Roads-76261-1-00-1677574437.7z",
+    "Environs - The Western Watchtower-76261-3-00-1685320188.7z"
+   ],
+   "author": "Siberpunk",
+   "leftover": false,
+   "key": "id:76261",
+   "theme": "arch_city"
+  },
+  {
+   "id": 103807,
+   "name": "FYX - Campfire Reacts to the Wind - EmbersXD Edition",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2024-10-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "FYX - CRTTW - 1 EmbersXD Flames-103807-1-0-3-1729346581.7z",
+    "FYX - CRTTW - 4 Inferno Flames-103807-1-0-3-1729346679.7z"
+   ],
+   "author": "Yuril x mindfIux",
+   "leftover": false,
+   "key": "id:103807",
+   "theme": "arch_city"
+  },
+  {
+   "id": 105843,
+   "name": "FYX - Palace of The Kings",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-12-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "FYX - P o t Kings - SoS Parallax Fix - LightMods-105843-1-0-2-1701785311.7z",
+    "FYX - Palace of The Kings - LightMods-105843-1-0-2-1701785176.7z",
+    "FYX - Palace of The Kings - Parallax - LightMods-105843-1-0-2-1701785234.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:105843",
+   "theme": "arch_city"
+  },
+  {
+   "id": 45324,
+   "name": "JK's Blue Palace",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-05-02",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "JK's Blue Palace-45324-1-4-1-1656956571.7z",
+    "JK's Blue Palace-45324-2-0-1729188750.rar",
+    "JK's Blue Palace-45324-2-0-2-1746160267.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:45324",
+   "theme": "arch_city"
+  },
+  {
+   "id": 116314,
+   "name": "JK's Castle Volkihar",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2024-05-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "JK's Castle Volkihar-116314-1-1-2-1715478966.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:116314",
+   "theme": "arch_city"
+  },
+  {
+   "id": 110645,
+   "name": "JK's Fort Dawnguard",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-07-28",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "JK's Fort Dawnguard-110645-1-0-0-1706990786.rar",
+    "JK's Fort Dawnguard-110645-1-0-3-1753727561.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:110645",
+   "theme": "arch_city"
+  },
+  {
+   "id": 68154,
+   "name": "JK's Sinderion's Field Laboratory",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-07-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "JK's Sinderion's Field Laboratory-68154-1-1-1-1653445831.zip",
+    "JK's Sinderion's Field Laboratory-68154-1-1-2-1670644170.7z",
+    "JK's Sinderion's Field Laboratory-68154-1-1-3-1752535788.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:68154",
+   "theme": "arch_city"
+  }
+ ]
+}

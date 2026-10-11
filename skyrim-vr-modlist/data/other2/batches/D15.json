@@ -1,0 +1,762 @@
+{
+ "batch": "D15",
+ "band": "D",
+ "themes": {
+  "clutter_misc": 32,
+  "creatures": 3
+ },
+ "items": [
+  {
+   "id": 91675,
+   "name": "Rudy ENB for NAT 3",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-07-29",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Rudy ENB NAT ADDONS and REQUiRED Files FOMOD-91675-1-0-1684551235.zip",
+    "Rudy ENB NAT ADDONS and REQUiRED Files FOMOD-91675-2-01-1722245784.zip",
+    "Rudy ENB SE for NAT 3-91675-1-0-1684551430.zip"
+   ],
+   "author": "Rudy102",
+   "leftover": false,
+   "key": "id:91675",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 167570,
+   "name": "Rustic Repose - A Common Bed Replace(LessPoly)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "BOS Distributed Use Those Blankets patch(LessPoly)-167570-1-0-1766257824.rar",
+    "Rustic Repose - BOS Distributed(LessPoly)-167570-1-0-1766257774.rar"
+   ],
+   "author": "W1ter",
+   "leftover": false,
+   "key": "id:167570",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 54930,
+   "name": "SIC SE - Add-Ons and Patches",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-12-11",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1) High Level Enemies SIC SE-54930-v7-1630533011.7z",
+    "10) SIC Even Better Quest Objectives-54930-1-8-4-1631185216.7z",
+    "2) SIC - Immersive Sound Integration-54930-v7a-1630696538.7z"
+   ],
+   "author": "lifestorock",
+   "leftover": false,
+   "key": "id:54930",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 78957,
+   "name": "SPID for Footprints - Player Footprints Fix",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-10",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Footprints - Player Footprints Fix-78957-1-0-0-1668712420.zip",
+    "SPID for Footprints - Player Footprints Fix - notification fix-78957-1-2-0-1673372111.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:78957",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 137858,
+   "name": "STB Quick Hotkey Cast",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-09-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "STB Quick Hotkey Cast-137858-1-0-1736397733.7z",
+    "STB Quick Hotkey Cast-137858-1-2-799207-1788358500.7z"
+   ],
+   "author": "STB team",
+   "leftover": false,
+   "key": "id:137858",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 96447,
+   "name": "Select One Skip - Hold Key to Skip Quantity Menu",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-07-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Select One Skip - Hold Key to Skip Quantity Menu-96447-0-2-1722172349.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:96447",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 59278,
+   "name": "Shalidor's Maze Puzzle Sound Fix (Labyrinthian)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-11-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Shalidor's Maze Sound Fix-59278-1-0-1638251106.rar"
+   ],
+   "author": "fadingsignal",
+   "leftover": false,
+   "key": "id:59278",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 132196,
+   "name": "Simple Wearable Lanterns - Remastered",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-10-24",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1_ESL version-132196-v1-1729768667.rar",
+    "ESL version-132196-v1-1729768667.rar",
+    "Simple Wearable Lanterns - Remastered-132196-v1-1729768639.rar"
+   ],
+   "author": "Qwib",
+   "leftover": false,
+   "key": "id:132196",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 176275,
+   "name": "Smooth Arrow Trails and Fixes",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-04-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "LeanWolf's Better-Shaped Weapons - Patch-176275-LWBSW-01-1775605112.zip",
+    "Smooth Arrow Trails NG - Latest Version-176275-1-0-3-0-NG-799459.zip",
+    "Smooth Arrow Trails and Fixes - Latest Version-176275-1-0-2-1775822472.zip"
+   ],
+   "author": "Seb263",
+   "leftover": false,
+   "key": "id:176275",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 4412,
+   "name": "Snazzy Quill of Gemination",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-08-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Snazzy Quill of Gemination - Dark Version-4412-2-1-1596570321.7z"
+   ],
+   "author": "Gutmaw",
+   "leftover": false,
+   "key": "id:4412",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 119738,
+   "name": "Sonorum Arcana - The Magic Sound Compendium",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-03",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Sonorum Arcana - Magic SFX Compendium-119738-0-1-1716067390.zip",
+    "Sonorum Arcana - Magic SFX Compendium-119738-0-4-1743718439.zip"
+   ],
+   "author": "pentapox",
+   "leftover": false,
+   "key": "id:119738",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 61177,
+   "name": "Spell Research Patch Compendium Redux 357 patches",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-05-20",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Spell Research Patch Compendium Redux Loose Version-61177-0-973-1653058468.7z"
+   ],
+   "author": "IronDusk33-LordOfDragons01-ghorlist-Cecell",
+   "leftover": false,
+   "key": "id:61177",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 113071,
+   "name": "Stacks of Septims - 3d Coin Piles",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Stacks of Septims - 3d Coin Piles-113071-0-1-2-1709618096.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:113071",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 59083,
+   "name": "Sunder and Wraithguard - Editable Vault Cell (Cell Bug Workaround)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-11",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Sunder and Wraithguard - Vault Fix-59083-1-0-1637936330.7z",
+    "USCCCP Patch-59083-1-0-1678561884.7z"
+   ],
+   "author": "Jelidity",
+   "leftover": false,
+   "key": "id:59083",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 143434,
+   "name": "Swiftly Order Squad - Tween Menu Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "SOS - TMO-143434-1-0-1740991548.7z"
+   ],
+   "author": "Mini",
+   "leftover": false,
+   "key": "id:143434",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 40919,
+   "name": "TESL Loading Screens - Tweaks and Addons",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "TESL LS - Tweaks and Addons -VIGOROUS--40919-1-7-1-1672556648.zip",
+    "TESL LS - Tweaks and Addons -VIGOROUS--40919-1-7-1610598517.zip"
+   ],
+   "author": "Pash17V",
+   "leftover": false,
+   "key": "id:40919",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 23220,
+   "name": "Trade and Barter - Patches",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-02-15",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Trade and Barter - Patches 1.1-23220-1-1-1581735690.rar"
+   ],
+   "author": "mnikjom",
+   "leftover": false,
+   "key": "id:23220",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 20360,
+   "name": "Trainers Galore",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-30",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Trainers Galore-20360-1-6-0-1659215258.rar"
+   ],
+   "author": "tjhm4",
+   "leftover": false,
+   "key": "id:20360",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 103092,
+   "name": "Trainers Galore - Training Points",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-10-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Trainers Galore - Training Points-103092-1-0-1697940727.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:103092",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 111650,
+   "name": "UIExtensions - Untarnished UI Patch",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Untarnished UI - UIExtensions Patch-111650-v1-1-1713562254.7z"
+   ],
+   "author": "Wuerfelhusten",
+   "leftover": false,
+   "key": "id:111650",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 89168,
+   "name": "UNSLAAD Music Extended",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-13",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "UNSLAAD Music Extended-89168-1-0-1681404649.7z",
+    "UNSLAAD Music Remastered-89168-1-0-1681404823.7z"
+   ],
+   "author": "xPanchy",
+   "leftover": false,
+   "key": "id:89168",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 9762,
+   "name": "Undiscovered Means Unknown - Map Markers",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-02-18",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Undiscovered Means Unknown - Map Markers-9762-2-11-1613666143.7z"
+   ],
+   "author": "Brin_aSair",
+   "leftover": false,
+   "key": "id:9762",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 78586,
+   "name": "Unique Map Weather - Vanilla Additions",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-11-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "UMW - Vanilla Addition-78586-1-1-0-1668193073.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:78586",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 42145,
+   "name": "Unique Uniques SE - Fixes",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-11-08",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Unique Uniques SE - Fixes - Scoped Angis Bow-42145-1-0-1604844432.rar",
+    "Unique Uniques SE - Fixes-42145-1-0-1604842957.rar"
+   ],
+   "author": "mnikjom InsanitySorrow calthrop",
+   "leftover": false,
+   "key": "id:42145",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 62550,
+   "name": "Unofficial Lux Patches",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-11-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Unofficial Lux Patchhub-62550-1-1-1656010943.rar",
+    "Unofficial Lux Patchhub-62550-2-1-1668984962.zip"
+   ],
+   "author": "GGUNIT and Skurkbro Nexus Community",
+   "leftover": false,
+   "key": "id:62550",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 69403,
+   "name": "Vine Maple Redone",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-10-12",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Alternative Snowy 2K-69403-1-2-1665598161.7z",
+    "Vine Maple Redone 2K-69403-1-2-1665598005.7z"
+   ],
+   "author": "TheSithLord",
+   "leftover": false,
+   "key": "id:69403",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 85205,
+   "name": "Weathered Furniture - Common and Upper Class - 4K - 2K",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Weathered Common Furniture - 2K-85205-0-1-1676682320.7z",
+    "Weathered Furniture - Common and Upper Class - Environment Maps-85205-0-1env-1682174943.7z"
+   ],
+   "author": "Bas",
+   "leftover": false,
+   "key": "id:85205",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 161698,
+   "name": "Wheeler - Show in UI",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-11-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Wheeler - Show in UI-161698-1-0-5-1763782921.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:161698",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 23319,
+   "name": "Wintersun - Patches",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-07-02",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Auri - Wintersun Patch-23319-1-2-1593728782.rar",
+    "Wintersun - Balance Tweaks-23319-1-0-1593729228.rar",
+    "Wintersun - USSEP Patch-23319-1-0-1593728692.rar"
+   ],
+   "author": "mnikjom",
+   "leftover": false,
+   "key": "id:23319",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 45011,
+   "name": "[серия «gods and», 5 модов] Gods And Worship и др.",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-25",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Gods and Worship 2.7-45011-2-7-1769327850.zip"
+   ],
+   "author": "Steelfeathers",
+   "leftover": false,
+   "key": "id:45011",
+   "series": "gods and",
+   "members": [
+    {
+     "id": 45011,
+     "name": "Gods And Worship",
+     "vr": 2,
+     "se": 0,
+     "newest": "2026-01-25",
+     "files": [
+      "Gods and Worship 2.7-45011-2-7-1769327850.zip"
+     ]
+    },
+    {
+     "id": 58818,
+     "name": "Gods And Worship - Official Patch Hub",
+     "vr": 2,
+     "se": 0,
+     "newest": "2026-01-26",
+     "files": [
+      "Patch - Heart of Dibella Quest Expansion-58818-1-0-1768937986.zip"
+     ]
+    },
+    {
+     "id": 161381,
+     "name": "Gods and Worship - MCM Fix",
+     "vr": 2,
+     "se": 0,
+     "newest": "2025-10-12",
+     "files": [
+      "Gods and Worship - MCM Fix-161381-1-0-0-1760291777.7z"
+     ]
+    },
+    {
+     "id": 166351,
+     "name": "Gods and Worship - Unofficial Patches and Addons",
+     "vr": 2,
+     "se": 0,
+     "newest": "2025-12-06",
+     "files": [
+      "Gods and Worship - Unofficial Patches and Addons-166351-1-0-1-1764998365.7z"
+     ]
+    },
+    {
+     "id": 176990,
+     "name": "Gods and Worship - Unofficial Quest Patch Hub",
+     "vr": 2,
+     "se": 0,
+     "newest": "2026-08-07",
+     "files": [
+      "Caught Red Handed QE - GnW Patch-176990-1-0-1775808280.7z"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 32332,
+   "name": "elwaps' Patches and Fixes",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-05-23",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Blackthorn - A Buildable Town in The Rift - Unofficial Skyrim Special Edition Patch -PATCH--32332-0-",
+    "FORM44 ESL Rude Imperial Soldiers Escort Prisoner fix-32332-0-1-1586807084.7z"
+   ],
+   "author": "elwaps",
+   "leftover": false,
+   "key": "id:32332",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 138115,
+   "name": "xEdit script - Master's automatic records cleaner",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-01-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Master Automatic Records Cleaner v0.2-138115-0-2-1736603188.7z",
+    "Master Automatic Records Cleaner-138115-0-4-1737422879.zip"
+   ],
+   "author": "Tidloas",
+   "leftover": false,
+   "key": "id:138115",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 48148,
+   "name": "Bears of the North Patches",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-10",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Bears of the North Patches FOMOD Installer-48148-1-2-4-1720637197.7z",
+    "Bears of the North Patches FOMOD Installer-48148-1-3-0-1746626660.7z",
+    "Bears of the North Patches FOMOD Installer-48148-1-3-2-1778444606.7z"
+   ],
+   "author": "Kuplion",
+   "leftover": false,
+   "key": "id:48148",
+   "theme": "creatures"
+  },
+  {
+   "id": 45683,
+   "name": "Conditional Werewolf Howl",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-07-10",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Conditional Werewolf Howl - DAR-45683-2-0-1657469471.rar"
+   ],
+   "author": "Jawkins",
+   "leftover": false,
+   "key": "id:45683",
+   "theme": "creatures"
+  },
+  {
+   "id": 68402,
+   "name": "Creature Collision Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-04",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Creation Collision Fix-68402-1-0-3-1672826382.7z"
+   ],
+   "author": "zhongjiedong",
+   "leftover": false,
+   "key": "id:68402",
+   "theme": "creatures"
+  }
+ ]
+}

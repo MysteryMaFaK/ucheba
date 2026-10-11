@@ -1,0 +1,25 @@
+{
+ "A": {
+  "items": 253,
+  "mods": 475,
+  "batches": 9
+ },
+ "B": {
+  "items": 394,
+  "mods": 508,
+  "batches": 12
+ },
+ "C": {
+  "items": 541,
+  "mods": 642,
+  "batches": 16
+ },
+ "D": {
+  "items": 1208,
+  "mods": 1262,
+  "batches": 34
+ },
+ "auto_excluded": 270,
+ "below_threshold_not_taken": 9643,
+ "series_items": 101
+}

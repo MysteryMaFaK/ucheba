@@ -1,0 +1,759 @@
+{
+ "batch": "C14",
+ "band": "C",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 133451,
+   "name": "Chooey's Dint Ears Edit",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-01-21",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Chooey's Dint Ears Edit-133451-1-0-0-1731038941.7z",
+    "Chooey's Dint Ears Edit-133451-1-1-0-1737496099.7z"
+   ],
+   "author": "naChooey and Dint999",
+   "leftover": false,
+   "key": "id:133451",
+   "theme": "other"
+  },
+  {
+   "id": 71532,
+   "name": "Clockwork Re-Imagined",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-17",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Clockwork Re-Imagined-71532-1-1-1658027421.7z"
+   ],
+   "author": "OrneryOchreOcelotl",
+   "leftover": false,
+   "key": "id:71532",
+   "theme": "other"
+  },
+  {
+   "id": 72019,
+   "name": "Crafting Recipe Distributor VR",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-05-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Crafting Recipe Distributor VR-72019-2-0-0-1-1658644021.7z",
+    "Crafting Recipe Distributor VR-72019-4-1-0-1779866173.7z"
+   ],
+   "author": "alandtse",
+   "leftover": false,
+   "key": "id:72019",
+   "theme": "other"
+  },
+  {
+   "id": 44442,
+   "name": "Crouch To Dodge VR - Dodge Naturally",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-07-27",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "CrouchToDodgeVR-44442-1-0-2-1627414564.7z"
+   ],
+   "author": "Asaudan",
+   "leftover": false,
+   "key": "id:44442",
+   "theme": "other"
+  },
+  {
+   "id": 82606,
+   "name": "DIbella's Blessing",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-03-15",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "DIbella's Blessing-82606-final-1678845131.rar"
+   ],
+   "author": "lilson",
+   "leftover": false,
+   "key": "id:82606",
+   "theme": "other"
+  },
+  {
+   "id": 44816,
+   "name": "Daedroths SE",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-01-28",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "1DaedrothsSE-44816-v-1611579198.7z",
+    "English ESP by Xtudo-44816-2-1611723741.rar",
+    "Immersive College of Winterhold patch by Xtudo-44816-1-1611846302.rar"
+   ],
+   "author": "Molag Bal",
+   "leftover": false,
+   "key": "id:44816",
+   "theme": "other"
+  },
+  {
+   "id": 9030,
+   "name": "Detailed Rugs",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Detailed Rugs SE v1-5-9030-1-5.rar",
+    "Detailed Rugs clean SE v1-5-9030-1-5.rar"
+   ],
+   "author": "raiserfx",
+   "leftover": false,
+   "key": "id:9030",
+   "theme": "other"
+  },
+  {
+   "id": 84847,
+   "name": "Discord Rich Presence",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-02-18",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Discord Rich Presence-84847-1-2-0-1676737655.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:84847",
+   "theme": "other"
+  },
+  {
+   "id": 7009,
+   "name": "Diverse Werewolves Collection SE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2018-12-30",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "DWC Better Quest Objectives patch-7009-1-0.zip",
+    "Diverse Werewolves Collection-7009-1-3-2-1546134328.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:7009",
+   "theme": "other"
+  },
+  {
+   "id": 85505,
+   "name": "Dual Wield Parrying SKSE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-03-25",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Dual Wield Parrying SKSE 1.6.1130 and above-85505-2-0-1-1711382756.zip",
+    "Dual Wield Parrying SKSE-85505-1-7-0-1689508403.zip"
+   ],
+   "author": "Borgut1337",
+   "leftover": false,
+   "key": "id:85505",
+   "theme": "other"
+  },
+  {
+   "id": 2407,
+   "name": "Dust Effects by HHaleyy",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "FUS",
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "DustEffectsSSE-2407-1-0.rar"
+   ],
+   "author": "HHaley - Darkjesusmn",
+   "leftover": false,
+   "key": "id:2407",
+   "theme": "other"
+  },
+  {
+   "id": 77025,
+   "name": "Dynamic Random Spell Idle",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-08-27",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Dynamic Random Spell Idle - Player NPC All-77025-1-8-1724725205.zip",
+    "Dynamic Random Spell Idle - Player and teammate-77025-1-4-1685882984.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:77025",
+   "theme": "other"
+  },
+  {
+   "id": 61953,
+   "name": "Eerie Ectoplasm",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-01-15",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Eerie Ectoplasm SMIM-61953-v1-0-1642280744.7z",
+    "Eerie Ectoplasm-61953-v1-0-1642216372.7z"
+   ],
+   "author": "Hanaisse",
+   "leftover": false,
+   "key": "id:61953",
+   "theme": "other"
+  },
+  {
+   "id": 24511,
+   "name": "ElSopa - Campfire HD SE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-07-26",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "ElSopa - 2k Campfire Clean Waterskin-24511-1-0-1595786714.7z",
+    "ElSopa 2K Campfire-24511-1-0-1553662178.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:24511",
+   "theme": "other"
+  },
+  {
+   "id": 38942,
+   "name": "ElSopa - Talos HD SE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-08-02",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "ElSopa - Talos Statue HD Optimized SE-38942-1-0-1596401832.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:38942",
+   "theme": "other"
+  },
+  {
+   "id": 102948,
+   "name": "ElSopa - Training Dummies Redone",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-10-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "ElSopa - Training Dummies Redone 1k-102948-1-0-1697760448.7z",
+    "ElSopa - Training Dummies Redone 2k-102948-1-0-1697760422.7z",
+    "ElSopa - Training Dummies Redone FIX-102948-1-1-1697982037.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:102948",
+   "theme": "other"
+  },
+  {
+   "id": 157974,
+   "name": "Elemental Fury VR",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-08-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ElementalFuryVR-157974-1-0-1756430621.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:157974",
+   "theme": "other"
+  },
+  {
+   "id": 39201,
+   "name": "End Times",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-01-21",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "End Times SE-39201-1-5-1622924715.rar",
+    "End Times-39201-2-51-1768965238.rar"
+   ],
+   "author": "grasscid",
+   "leftover": false,
+   "key": "id:39201",
+   "theme": "other"
+  },
+  {
+   "id": 63889,
+   "name": "Enhanced Invisibility VR",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-07-31",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tahrovin",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "1_Enhanced Invisibility VR-63889-1-3-0-1753942607.7z",
+    "Enhanced Invisibility VR-63889-1-2-0-1645342397.7z"
+   ],
+   "author": "alandtse",
+   "leftover": false,
+   "key": "id:63889",
+   "theme": "other"
+  },
+  {
+   "id": 65880,
+   "name": "Experience - MCM",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-06-29",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Experience - MCM-65880-1-4-0-1719661135.7z"
+   ],
+   "author": "zax",
+   "leftover": false,
+   "key": "id:65880",
+   "theme": "other"
+  },
+  {
+   "id": 170776,
+   "name": "Faction Ranks",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Faction Ranks 170776 1.0.3 2026-06-26T18-57Z CmfxYjnUd.zip",
+    "Faction Ranks-170776-1-0-2-1770696210.zip",
+    "Faction Ranks-170776-1-0-4-796947-1788003180.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:170776",
+   "theme": "other"
+  },
+  {
+   "id": 85425,
+   "name": "Flames of Coldharbour",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-02-18",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Flames of Coldharbour-85425-1-3-2-1708253765.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:85425",
+   "theme": "other"
+  },
+  {
+   "id": 109711,
+   "name": "Foamimi's Orlando Visual Overhaul",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-08-26",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Foamimi's Orlando Visual Overhaul - GLENMORIL-109711-2-0-0-1756235850.7z",
+    "Foamimi's Orlando Visual Overhaul - UNSLAAD-109711-1-0-1-1717640023.7z",
+    "Foamimi's Orlando Visual Overhaul - UNSLAAD-109711-2-0-0-1756235881.7z"
+   ],
+   "author": "Foamimi",
+   "leftover": false,
+   "key": "id:109711",
+   "theme": "other"
+  },
+  {
+   "id": 90755,
+   "name": "Forgotten Herbs",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "1k Frost mirriam and Elves Ears-90755-1-1.zip"
+   ],
+   "author": "Massivemaster",
+   "leftover": false,
+   "key": "id:90755",
+   "theme": "other"
+  },
+  {
+   "id": 12711,
+   "name": "Forgotten Magic Redone SE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Forgotten Magic Redone SE-12711-1-65SE.rar"
+   ],
+   "author": "3jiou and  Sward66",
+   "leftover": false,
+   "key": "id:12711",
+   "theme": "other"
+  },
+  {
+   "id": 3621,
+   "name": "Fur Tent 4k Retexture",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Fur Tent Retexture 4k-3621-1-0.7z"
+   ],
+   "author": "Hannes821",
+   "leftover": false,
+   "key": "id:3621",
+   "theme": "other"
+  },
+  {
+   "id": 348,
+   "name": "Gildergreen Regrown",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-05-08",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Gildergreen Regrown-348-2-0-1-1557351574.7z"
+   ],
+   "author": "Arthmoor",
+   "leftover": false,
+   "key": "id:348",
+   "theme": "other"
+  },
+  {
+   "id": 142986,
+   "name": "Haunted Shipwrecks",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-03-01",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Haunted Shipwrecks-142986-1-0-1740810768.7z"
+   ],
+   "author": "Clofas",
+   "leftover": false,
+   "key": "id:142986",
+   "theme": "other"
+  },
+  {
+   "id": 3862,
+   "name": "Hearthfire multiple adoptions - Now with custom home support for kids and spouse",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-03",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Hearthfire Multiple Adoptions and Custom Home Support SE-3862-3-0-3.7z",
+    "Hearthfire Multiple Adoptions and Custom Home Support SE-3862-3-0-4-1656871468.7z"
+   ],
+   "author": "TMPhoenix",
+   "leftover": false,
+   "key": "id:3862",
+   "theme": "other"
+  },
+  {
+   "id": 62233,
+   "name": "Immersive Bend Will",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-03-26",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Immersive Bend Will-62233-1-5-1645219722.7z",
+    "Immersive Bend Will-62233-1-6-1679837008.7z"
+   ],
+   "author": "UserMingzi",
+   "leftover": false,
+   "key": "id:62233",
+   "theme": "other"
+  },
+  {
+   "id": 152547,
+   "name": "Immersive Dying Nurelion - The White Phial Quest",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-06-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Immersive Dying Nurelion-152547-0-2-1749814430.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:152547",
+   "theme": "other"
+  },
+  {
+   "id": 47670,
+   "name": "Immersive Interactions - Animated Actions",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-08-29",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Immersive Interactions - Animated Actions-47670-1-78-1724933859.zip",
+    "Immersive Interactions-47670-1-67-1665336214.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:47670",
+   "theme": "other"
+  },
+  {
+   "id": 18330,
+   "name": "Immersive World Encounters. FINAL SE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-12-14",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Immersive World Encounters SE-18330-V2-3-1563173240.7z",
+    "Immersive World Encounters SE-18330-V3-6-1-1639501058.7z"
+   ],
+   "author": "Sette",
+   "leftover": false,
+   "key": "id:18330",
+   "theme": "other"
+  },
+  {
+   "id": 64185,
+   "name": "Improved Jail Bars",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-08-07",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Improved Jail Bars SMIM-64185-2-0-1646016489.7z",
+    "Improved Jail Bars SMIM-64185-3-0-1723058562.7z"
+   ],
+   "author": "Korodic",
+   "leftover": false,
+   "key": "id:64185",
+   "theme": "other"
+  },
+  {
+   "id": 126492,
+   "name": "Improvement Names Customized VR",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-08-13",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Stormcrown VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Improvement Names Customized VR-126492-1-0-1-1723517980.7z"
+   ],
+   "author": "Rafear colinswrath and Fudgyduff",
+   "leftover": false,
+   "key": "id:126492",
+   "theme": "other"
+  },
+  {
+   "id": 34663,
+   "name": "Injured Animations Dynamic Replacer SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-03-09",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Injured Animations Dynamic Replacer SE-34663-1-1-1615302930.zip"
+   ],
+   "author": "igotnousername",
+   "leftover": false,
+   "key": "id:34663",
+   "theme": "other"
+  }
+ ]
+}

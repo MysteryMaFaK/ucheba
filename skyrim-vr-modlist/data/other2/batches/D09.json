@@ -1,0 +1,721 @@
+{
+ "batch": "D09",
+ "band": "D",
+ "themes": {
+  "body_face": 36
+ },
+ "items": [
+  {
+   "id": 122660,
+   "name": "Female Dark Elf voice added to Hearthfire",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-10-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Missing Voices in Hearthfire Added Back-122660-2-1728047764.zip",
+    "Missing Voices in Hearthfire Added Back-122660-3-1761205757.zip"
+   ],
+   "author": "Anbeegod",
+   "leftover": false,
+   "key": "id:122660",
+   "theme": "body_face"
+  },
+  {
+   "id": 36276,
+   "name": "Forceful Tongue - Shouts Overhaul",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-04",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Forceful Tongue - Dragon Wall Wisdom Patch-36276-1-0-1628464419.7z",
+    "Forceful Tongue - Shouts Overhaul-36276-3-0-9-1-1677895920.7z"
+   ],
+   "author": "Delta",
+   "leftover": false,
+   "key": "id:36276",
+   "theme": "body_face"
+  },
+  {
+   "id": 34900,
+   "name": "Forsworn Skinchangers",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-04-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Skinchangers v1-34900-1-0-1587221211.7z"
+   ],
+   "author": "Epic Crab",
+   "leftover": false,
+   "key": "id:34900",
+   "theme": "body_face"
+  },
+  {
+   "id": 116279,
+   "name": "Gryphonknight Regalia 3BA HDT-SMP",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Gryphonknight Regalia 3BA HDT-SMP-116279-0-1-1712651798.zip"
+   ],
+   "author": "pentapox",
+   "leftover": false,
+   "key": "id:116279",
+   "theme": "body_face"
+  },
+  {
+   "id": 62360,
+   "name": "Immersive Equipment Displays (IED) - Mura Presets",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-01-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Immersive Equipment Displays - Mura Presets-62360-1-1-1642883189.7z"
+   ],
+   "author": "Mura - SlavicPotato",
+   "leftover": false,
+   "key": "id:62360",
+   "theme": "body_face"
+  },
+  {
+   "id": 9119,
+   "name": "Imperial Metal Replacer - Love for Sconces",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Imperial Metal Replacer Texture - Blended Option-9119-1-1.7z",
+    "Imperial Metal Replacer Texture-9119-1-1.7z"
+   ],
+   "author": "Jasper",
+   "leftover": false,
+   "key": "id:9119",
+   "theme": "body_face"
+  },
+  {
+   "id": 99977,
+   "name": "Imperial Stable - Stonewall Replacer",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Nordic Imperial Stable Stonewall Replacer-99977-2-0-1710276195.7z"
+   ],
+   "author": "JJerem",
+   "leftover": false,
+   "key": "id:99977",
+   "theme": "body_face"
+  },
+  {
+   "id": 1315,
+   "name": "Imperious - Races of Skyrim",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-09-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Imperious 7.28.0-1315-7-28-0-1631877097.zip"
+   ],
+   "author": "Enai Siaion",
+   "leftover": false,
+   "key": "id:1315",
+   "theme": "body_face"
+  },
+  {
+   "id": 57436,
+   "name": "Intimate Refined - Smoothcam Preset",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-10-24",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Intimate Refined - SmoothCam Preset-57436-1-0-0-1635093644.zip"
+   ],
+   "author": "Chillanuggets",
+   "leftover": false,
+   "key": "id:57436",
+   "theme": "body_face"
+  },
+  {
+   "id": 141883,
+   "name": "Inventory Interface Information Injector - Alchemy Fix",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-02-15",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Inventory Interface Information Injector (AE)-141883-1-1-0-AF-1739614494.zip",
+    "Inventory Interface Information Injector (VR)-141883-1-1-0-AF-1739615575.zip"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:141883",
+   "theme": "body_face"
+  },
+  {
+   "id": 167510,
+   "name": "JellyFishFP TORCH (1st person animations series)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "JellyFishFP TORCH-167510-1-0-1766225904.7z"
+   ],
+   "author": "JellyFishInLoop",
+   "leftover": false,
+   "key": "id:167510",
+   "theme": "body_face"
+  },
+  {
+   "id": 71091,
+   "name": "Khajiit Brow Whiskers",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Khajiit Brow Whiskers-71091-1-1-1657467637.7z"
+   ],
+   "author": "allonsywisegirl",
+   "leftover": false,
+   "key": "id:71091",
+   "theme": "body_face"
+  },
+  {
+   "id": 18231,
+   "name": "Khajiits Steal Too - Caravan Fence Option",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Khajiits Steal Too - Caravan Fence Option-18231-1-0.zip"
+   ],
+   "author": "izzytheoreo",
+   "leftover": false,
+   "key": "id:18231",
+   "theme": "body_face"
+  },
+  {
+   "id": 83661,
+   "name": "Korvin - Imperial Racemenu Preset - HIMBO Body",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-28",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Korvin Racemenu Preset - HIMBO Body-83661-1-0-1674892881.7z"
+   ],
+   "author": "Ididerod37",
+   "leftover": false,
+   "key": "id:83661",
+   "theme": "body_face"
+  },
+  {
+   "id": 154997,
+   "name": "Lifesworn Vestiges - 3BA patch",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-07-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Lifesworn Vestiges - 3BA patch-154997-1-0-1752693029.rar"
+   ],
+   "author": "Neumeria",
+   "leftover": false,
+   "key": "id:154997",
+   "theme": "body_face"
+  },
+  {
+   "id": 94271,
+   "name": "Lovely Makeup - Racemenu Overlays",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Lovely Makeup 2K-94271-1-0-1687994578.zip"
+   ],
+   "author": "scarlettdays21",
+   "leftover": false,
+   "key": "id:94271",
+   "theme": "body_face"
+  },
+  {
+   "id": 152650,
+   "name": "Miggyluv's Bosmer (Wood Elf) Presets",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-14",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Miggyluv's Arden - Bosmer Preset-152650-2-0-1749901423.zip"
+   ],
+   "author": "Miggyluv",
+   "leftover": false,
+   "key": "id:152650",
+   "theme": "body_face"
+  },
+  {
+   "id": 153225,
+   "name": "Miggyluv's Breton Presets (Vol.1)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-21",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Miggyluv's Giselle - Breton Preset-153225-2-0-1750505772.zip",
+    "Miggyluv's Justas - Breton Preset-153225-2-0-1750505958.zip",
+    "Miggyluv's Seraphina - Breton Preset-153225-2-0-1750506097.zip"
+   ],
+   "author": "Miggyluv",
+   "leftover": false,
+   "key": "id:153225",
+   "theme": "body_face"
+  },
+  {
+   "id": 153763,
+   "name": "Miggyluv's Imperial Presets (Vol.1)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-28",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Miggyluv's Marco - Imperial Preset-153763-2-0-1751134761.zip",
+    "Miggyluv's Maxim - Imperial Preset-153763-2-0-1751134845.zip",
+    "Miggyluv's Ria - Imperial Preset-153763-2-0-1751134923.zip"
+   ],
+   "author": "Miggyluv",
+   "leftover": false,
+   "key": "id:153763",
+   "theme": "body_face"
+  },
+  {
+   "id": 153945,
+   "name": "Miggyluv's Nord Presets (Vol.2)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-07-01",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Miggyluv's Aela - Nord Preset-153945-2-0-1751358498.zip",
+    "Miggyluv's Iliria - Nord Preset-153945-2-0-1751360332.zip"
+   ],
+   "author": "Miggyluv",
+   "leftover": false,
+   "key": "id:153945",
+   "theme": "body_face"
+  },
+  {
+   "id": 86802,
+   "name": "Moon Monk 3BA Bodyslide",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Moon Monk's Robes 3BA-86802-0-1alpha-1678539722.zip"
+   ],
+   "author": "pentapox",
+   "leftover": false,
+   "key": "id:86802",
+   "theme": "body_face"
+  },
+  {
+   "id": 31375,
+   "name": "More NPC Pocket Money",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-12-30",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "More Pocket Money (Less Edition)-31375-1-0-1577715659.7z"
+   ],
+   "author": "Michiko",
+   "leftover": false,
+   "key": "id:31375",
+   "theme": "body_face"
+  },
+  {
+   "id": 54102,
+   "name": "NORDIC UI - Miscellaneous Patches",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "NORDIC UI - Miscellaneous Patches-54102-1-4-1629871877.zip",
+    "NORDIC UI - Miscellaneous Patches-54102-1-6-1643717019.zip",
+    "NORDIC UI - Miscellaneous Patches-54102-1-8-2-1675644147.zip"
+   ],
+   "author": "myztikrice",
+   "leftover": false,
+   "key": "id:54102",
+   "theme": "body_face"
+  },
+  {
+   "id": 134283,
+   "name": "NPC Spell Variance - Vanilla Spells",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "NPC Spell Variance - Vanilla Spells-134283-1-0-1-1747971122.zip",
+    "NPC Spell Variance - Vanilla Spells-134283-1-0-2-1756261717.zip"
+   ],
+   "author": "Dmigra",
+   "leftover": false,
+   "key": "id:134283",
+   "theme": "body_face"
+  },
+  {
+   "id": 17041,
+   "name": "NPC mage balance fix",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "NPC mage balance fix-17041-1-0.7z"
+   ],
+   "author": "cuddy",
+   "leftover": false,
+   "key": "id:17041",
+   "theme": "body_face"
+  },
+  {
+   "id": 66998,
+   "name": "NPCs don't follow through doors while talking",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "NPC's don't follow through doors while talking-66998-1-0-1650732990.zip"
+   ],
+   "author": "Zerahar",
+   "leftover": false,
+   "key": "id:66998",
+   "theme": "body_face"
+  },
+  {
+   "id": 99024,
+   "name": "Naked Dead NPC Fix",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-28",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Naked Dead NPC Fix-99024-1-0-8-1716935740.7z"
+   ],
+   "author": "ThirdEyeSqueegee - wSkeever",
+   "leftover": false,
+   "key": "id:99024",
+   "theme": "body_face"
+  },
+  {
+   "id": 69120,
+   "name": "Nordic Metalworks",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-06-18",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Nordic Metalworks 1K-69120-1-3-1655573116.7z",
+    "Nordic Metalworks 2K-69120-1-3-1655573368.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:69120",
+   "theme": "body_face"
+  },
+  {
+   "id": 79508,
+   "name": "Nordic Ruins Rubble Pile - Mesh Improvement",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Nordic Ruins Rubble Pile Mesh Improvement Parallax-79508-1-0-1684435452.rar",
+    "Nordic Ruins Rubble Pile Mesh Improvement SE V1_1-79508-1-1-1672087066.rar"
+   ],
+   "author": "Pieter82",
+   "leftover": false,
+   "key": "id:79508",
+   "theme": "body_face"
+  },
+  {
+   "id": 37079,
+   "name": "NordwarUA Improved Upscaled Textures",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-09",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "New Legion - NordWarUA Improved Upscaled Textures-37079-1-0-1591732391.7z",
+    "Thalmor (Race Armor Expansion) - NordWarUA Improved Upscaled Textures-37079-1-0-1591732488.7z",
+    "Vanilla Armor Expansion - NordWarUA Improved Upscaled Textures-37079-1-0-1591732149.7z"
+   ],
+   "author": "cthunsthrall - NordwarUA - CaBaL120",
+   "leftover": false,
+   "key": "id:37079",
+   "theme": "body_face"
+  },
+  {
+   "id": 105109,
+   "name": "Obi's Tattoos 3BA 4K",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Main file 3BA-105109-1-0-1700484204.zip"
+   ],
+   "author": "Obicnii",
+   "leftover": false,
+   "key": "id:105109",
+   "theme": "body_face"
+  },
+  {
+   "id": 104117,
+   "name": "Obi's Warpaints 2K",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-14",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Obi's Warpaints 2K Main-104117-1-1-1700001120.zip"
+   ],
+   "author": "Obicnii",
+   "leftover": false,
+   "key": "id:104117",
+   "theme": "body_face"
+  },
+  {
+   "id": 118859,
+   "name": "Oddments and Miscellanea - Assorted Mesh Replacers - Noble Lectern - Noble Rack - Mounted Antlers - Butterchurn - Small Nordic Tent - Winterhold Bookcase",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-07-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Butterchurn-118859-1-0-1716321867.rar",
+    "Ignoble Oddments - Noble Rack-118859-1-0-1715098424.rar",
+    "Knife and Fork-118859-1-0-1726352902.rar"
+   ],
+   "author": "sotha simp",
+   "leftover": false,
+   "key": "id:118859",
+   "theme": "body_face"
+  },
+  {
+   "id": 130169,
+   "name": "Orc Exiles - Bilegulch Stronghold",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Lux - Orc Exiles - Bilegulch-130169-1-0lux-1732050194.7z",
+    "Lux - Orc Exiles - Bilegulch-130169-1-1-1779142318.7z",
+    "Lux Orbis Patch ESL-130169-1-3B-1728159198.7z"
+   ],
+   "author": "JJerem",
+   "leftover": false,
+   "key": "id:130169",
+   "theme": "body_face"
+  },
+  {
+   "id": 130830,
+   "name": "Project Gap Close - NPC Sprint Attacks and Dynamic Combat Pathing Revolution.",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-09-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Project Gap Close - Disabled Dynamic CPR-130830-1-5-0-1729374712.7z",
+    "Project Gap Close 130830 1.8.1 2026-09-11T17-25Z kATsMWfFq.7z",
+    "Project Gap Close-130830-1-8-0-1768558971.7z"
+   ],
+   "author": "Kenny Leone",
+   "leftover": false,
+   "key": "id:130830",
+   "theme": "body_face"
+  },
+  {
+   "id": 97347,
+   "name": "RaceMenu - Untarnished UI - DIP Patch",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Untarnished UI - RaceMenu Patch-97347-v1-3-1713561432.7z"
+   ],
+   "author": "Wuerfelhusten",
+   "leftover": false,
+   "key": "id:97347",
+   "theme": "body_face"
+  }
+ ]
+}

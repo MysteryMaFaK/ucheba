@@ -1,0 +1,748 @@
+{
+ "batch": "D02",
+ "band": "D",
+ "themes": {
+  "arch_city": 35
+ },
+ "items": [
+  {
+   "id": 158918,
+   "name": "Window Emittance Consistency (WEC)",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-09",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Window Emittance Consistency (WEC)-158918-1-0-0-1759017632.7z",
+    "Window Emittance Consistency (WEC)-158918-1-3-0-1768098083.7z",
+    "Window Emittance Consistency (WEC)-158918-2-0-0-1770622910.7z"
+   ],
+   "author": "effervessence - Minizbot2012",
+   "leftover": false,
+   "key": "id:158918",
+   "theme": "arch_city"
+  },
+  {
+   "id": 29478,
+   "name": "Winterhold Statue - Animated with ENB Lights",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-01-02",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Winterhold Statue - Animated with ENB Lights-29478-1-2-1609622330.7z"
+   ],
+   "author": "NeverLost and AnTiWoMaAgNoT",
+   "leftover": false,
+   "key": "id:29478",
+   "theme": "arch_city"
+  },
+  {
+   "id": 69018,
+   "name": "Word Wall Suspended Stack Fix - Shearpoint",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-06-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Word Wall Trigger Fix - No Minor Optimization-69018-1-0-1654228989.7z"
+   ],
+   "author": "igotnousername",
+   "leftover": false,
+   "key": "id:69018",
+   "theme": "arch_city"
+  },
+  {
+   "id": 68939,
+   "name": "[серия «solitude objects», 3 модов] Solitude Objects SMIMed - Castle Dour Spire и др.",
+   "vr": 1,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-06-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Solitude Objects SMIMed - Castle Dour Spire-68939-0-1-1654074990.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:68939",
+   "series": "solitude objects",
+   "members": [
+    {
+     "id": 68939,
+     "name": "Solitude Objects SMIMed - Castle Dour Spire",
+     "vr": 1,
+     "se": 3,
+     "newest": "2022-06-01",
+     "files": [
+      "Solitude Objects SMIMed - Castle Dour Spire-68939-0-1-1654074990.7z"
+     ]
+    },
+    {
+     "id": 68115,
+     "name": "Solitude Objects SMIMed - festival ropes",
+     "vr": 0,
+     "se": 5,
+     "newest": "2022-05-19",
+     "files": [
+      "Solitude Objects SMIMed - festival ropes-68115-0-4-1652965952.7z"
+     ]
+    },
+    {
+     "id": 68896,
+     "name": "Solitude Objects SMIMed - Solitude well",
+     "vr": 0,
+     "se": 4,
+     "newest": "2022-05-31",
+     "files": [
+      "Solitude Objects SMIMed - Solitude well-68896-0-1-1653980467.7z"
+     ]
+    }
+   ],
+   "theme": "arch_city"
+  },
+  {
+   "id": 61417,
+   "name": "'No hole in the roof' opening scene FIX VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-01-21",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "No Hole In The Roof FIX-61417-1-01-1642783410.zip"
+   ],
+   "author": "ziher",
+   "leftover": false,
+   "key": "id:61417",
+   "theme": "arch_city"
+  },
+  {
+   "id": 121858,
+   "name": "3D Dwemer Sun - Subterranean Object SMIMed - Blackreach",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-07-13",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "3D Dwemer Sun - Subterranean Object SMIMed-121858-0-2-1-1718670314.7z",
+    "3D Dwemer Sun - Subterranean Object SMIMed-121858-0-3-1-1720838234.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:121858",
+   "theme": "arch_city"
+  },
+  {
+   "id": 32164,
+   "name": "4K SMIM Whiterun Bench",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-01-29",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "2K Dark Option-32164-1-1-1580312210.7z",
+    "2K Dirty Option-32164-1-1-1580312404.7z",
+    "2K SMIM Whiterun Bench-32164-1-1-1580311736.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:32164",
+   "theme": "arch_city"
+  },
+  {
+   "id": 45077,
+   "name": "Apoapse's Renamed Forgotten Dungeons",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-31",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Apoapse's Renamed Forgotten Dungeons-45077-v1-0-1612053222.7z"
+   ],
+   "author": "Apoapse",
+   "leftover": false,
+   "key": "id:45077",
+   "theme": "arch_city"
+  },
+  {
+   "id": 83802,
+   "name": "Ayleid Ruins Retexture",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-30",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Ayleid Ruins Retexture-83802-0-0-1-1675037988.zip"
+   ],
+   "author": "xXMoksXx",
+   "leftover": false,
+   "key": "id:83802",
+   "theme": "arch_city"
+  },
+  {
+   "id": 75262,
+   "name": "Bannermist",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-10-27",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Bannermist Tower Overhaul 2.0 (ESL)-75262-2-0-1706486406.7z",
+    "Bannermist Tower Overhaul 2.0-75262-2-01-1730067524.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:75262",
+   "theme": "arch_city"
+  },
+  {
+   "id": 83466,
+   "name": "Bleak Falls Tower",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Bleak Falls Tower Addon-83466-1-0-1674744703.7z",
+    "Bleak Falls Tower Overhaul 2.0-83466-2-01-1706383193.7z",
+    "Bleak Falls Tower Overhaul 2.0-83466-2-02-1771289838.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:83466",
+   "theme": "arch_city"
+  },
+  {
+   "id": 112212,
+   "name": "City Bag Checks",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "City Bag Checks-112212-1-0-4-1742116467.zip"
+   ],
+   "author": "Jonx0r",
+   "leftover": false,
+   "key": "id:112212",
+   "theme": "arch_city"
+  },
+  {
+   "id": 24749,
+   "name": "College of Winterhold Entry Requirements",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-05-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "College of Winterhold Entry Requirements-24749-3-2-1557379531.7z"
+   ],
+   "author": "TB",
+   "leftover": false,
+   "key": "id:24749",
+   "theme": "arch_city"
+  },
+  {
+   "id": 42850,
+   "name": "Cozy Taverns Visual Overhaul",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-11-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Cozy Taverns Visual Overhaul-42850-1-0-1606652707.7z"
+   ],
+   "author": "mocia",
+   "leftover": false,
+   "key": "id:42850",
+   "theme": "arch_city"
+  },
+  {
+   "id": 71202,
+   "name": "Creation Club - Gallows Hall - Daedric Shrines Vaermina",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Creation Club - Gallows Hall Vaermina Statue-71202-1-0-1657581347.7z"
+   ],
+   "author": "Mandragorasprouts - monkeyangie",
+   "leftover": false,
+   "key": "id:71202",
+   "theme": "arch_city"
+  },
+  {
+   "id": 165691,
+   "name": "Deep Slumber - A Dwemer Bed Replacer (Less Poly)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-04",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Deep Slumber - A Dwemer Bed Replacer(LessPoly)-165691-1-0-1764336629.rar",
+    "DeepSlumber-Replacer-TimewornDwemerBed(LessPoly)-165691-1-0-1764866170.rar"
+   ],
+   "author": "W1ter",
+   "leftover": false,
+   "key": "id:165691",
+   "theme": "arch_city"
+  },
+  {
+   "id": 51798,
+   "name": "Dungeons - Revisited",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-18",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dungeons - Revisited-51798-1-0-1625039482.7z",
+    "Dungeons - Revisited-51798-1-1-1-1674024658.zip"
+   ],
+   "author": "Cooleoj",
+   "leftover": false,
+   "key": "id:51798",
+   "theme": "arch_city"
+  },
+  {
+   "id": 149920,
+   "name": "Dynamic Interior Ambient Lighting (DIAL)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-09-03",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dynamic Interior Ambient Lighting (DIAL)-149920-3-7-1756875384.zip",
+    "Dynamic Interior Ambient Lighting-149920-2-2-1-1748795681.zip"
+   ],
+   "author": "isoprophlex",
+   "leftover": false,
+   "key": "id:149920",
+   "theme": "arch_city"
+  },
+  {
+   "id": 2218,
+   "name": "EasierRider's Dungeon Pack",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-05-30",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "EasierRider's Dunegon Pack v1.5-2218-v1-5-1590866643.zip"
+   ],
+   "author": "EasierRIder",
+   "leftover": false,
+   "key": "id:2218",
+   "theme": "arch_city"
+  },
+  {
+   "id": 82328,
+   "name": "Erikur's House rework",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Erikur's House rework - Parallax-82328-3-0-1700912651.7z",
+    "Erikur's House rework for LotD - Parallax-82328-2-0-1681141869.7z",
+    "Erikur's House rework for LotD-82328-3-0-1700912707.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:82328",
+   "theme": "arch_city"
+  },
+  {
+   "id": 67881,
+   "name": "FYX - Fortified Whiterun Consistency",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "FYX - Fortified Whiterun Consistency-67881-1-0-6-1653767207.7z",
+    "FYX - Fortified Whiterun Consistency-67881-1-0-8-3-1679834738.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:67881",
+   "theme": "arch_city"
+  },
+  {
+   "id": 137586,
+   "name": "FYX - Jarl Longhouse - Consistent interior",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "FYX - Jarl Longhouse - LightMods-137586-1-0-1-1735577780.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:137586",
+   "theme": "arch_city"
+  },
+  {
+   "id": 449,
+   "name": "Forgotten Dungeons (SSE)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-04-21",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Forgotten Dungeons SSE-449-11-03-1587467233.rar"
+   ],
+   "author": "Juhaantero68",
+   "leftover": false,
+   "key": "id:449",
+   "theme": "arch_city"
+  },
+  {
+   "id": 144471,
+   "name": "Fort Dunstad",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-13",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Fort Dunstad Landscape Patch-144471-1-0-1741789641.7z",
+    "Fort Dunstad-144471-1-0-1741789265.7z",
+    "Hand Placed Enemies (Light) Patch-144471-1-0-1741806102.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:144471",
+   "theme": "arch_city"
+  },
+  {
+   "id": 112771,
+   "name": "Fort Greymoor",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Fort Greymoor (ESL)-112771-1-02-1742307293.7z",
+    "Fort Greymoor Landscape Patch-112771-1-01-1709214911.7z",
+    "Fort Greymoor-112771-1-04-1767274759.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:112771",
+   "theme": "arch_city"
+  },
+  {
+   "id": 171105,
+   "name": "Fortify Attribute Refill Fix",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-29",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Fortify Attribute Refill Fix-171105-1-0-0-1769709656.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:171105",
+   "theme": "arch_city"
+  },
+  {
+   "id": 12186,
+   "name": "Hammet's Dungeon Pack 1 SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-14",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Hammet Dungeon Pack 1 SE esm version-12186-3-03-1773486540.7z",
+    "Hammet Dungeon Packs - ESM version-12186-2-03-1618016980.7z"
+   ],
+   "author": "venjhammet",
+   "leftover": false,
+   "key": "id:12186",
+   "theme": "arch_city"
+  },
+  {
+   "id": 59249,
+   "name": "Hand Placed Enemies - More populated spawns dungeons and POIs",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-24",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Hand placed Enemies ESPFE-59249-1-02-1684953581.7z"
+   ],
+   "author": "Tryvon",
+   "leftover": false,
+   "key": "id:59249",
+   "theme": "arch_city"
+  },
+  {
+   "id": 5673,
+   "name": "Helgen Reborn",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Helgen Reborn SSE Version 106 With bsa file-5673-V106SSEBSA.7z"
+   ],
+   "author": "Mike Hancho aka Balok",
+   "leftover": false,
+   "key": "id:5673",
+   "theme": "arch_city"
+  },
+  {
+   "id": 10609,
+   "name": "Holds The City Overhaul",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-10-10",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Holds SSE Complete - 0.0.9-10609-0-0-9-1570726139.rar",
+    "Holds SSE Complete Roads - 0.0.9-10609-0-0-9-1570726405.rar"
+   ],
+   "author": "Galandil",
+   "leftover": false,
+   "key": "id:10609",
+   "theme": "arch_city"
+  },
+  {
+   "id": 128275,
+   "name": "Housecarls Pre-Thaneship",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-28",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Housecarls Pre-Thaneship-128275-2-0-1-1735632481.7z",
+    "Housecarls Pre-Thaneship-128275-2-2-1751123649.7z"
+   ],
+   "author": "AndrealphusVIII",
+   "leftover": false,
+   "key": "id:128275",
+   "theme": "arch_city"
+  },
+  {
+   "id": 45437,
+   "name": "Iconic's Alduin's Wall Retexture (16K-8K-4K)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-02-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Alduin's Wall 16K-45437-1-0-1612734588.7z",
+    "Alduin's Wall 8K-45437-1-0-1612734455.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:45437",
+   "theme": "arch_city"
+  },
+  {
+   "id": 136080,
+   "name": "Icy Dungeons Pack",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-15",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Icy Dungeons Pack - Snow Veil Sanctum Add-on-136080-Add-on-1734190453.rar",
+    "Icy Dungeons Pack - Survival Mode Patch (Main)-136080-Patch-1734267267.rar",
+    "Icy Dungeons Pack-136080-1-0-1734190227.rar"
+   ],
+   "author": "Gerald",
+   "leftover": false,
+   "key": "id:136080",
+   "theme": "arch_city"
+  },
+  {
+   "id": 40436,
+   "name": "Immersive Fort Dawnguard",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-06",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Immersive Fort Dawnguard-40436-V1-2-1607297558.7z"
+   ],
+   "author": "Grantyboy050",
+   "leftover": false,
+   "key": "id:40436",
+   "theme": "arch_city"
+  },
+  {
+   "id": 100979,
+   "name": "Improved Solitude Arch",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-09-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Improved Solitude Arch-100979-1-31-1728836448.7z",
+    "Improved Solitude Arch-100979-1-33-1757117443.7z"
+   ],
+   "author": "RedBag",
+   "leftover": false,
+   "key": "id:100979",
+   "theme": "arch_city"
+  }
+ ]
+}

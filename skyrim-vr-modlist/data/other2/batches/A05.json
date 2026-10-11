@@ -1,0 +1,842 @@
+{
+ "batch": "A05",
+ "band": "A",
+ "themes": {
+  "clutter_misc": 32,
+  "creatures": 2
+ },
+ "items": [
+  {
+   "id": 80832,
+   "name": "ElSopa - Potions Redone",
+   "vr": 3,
+   "se": 8,
+   "score": 14,
+   "band": "A",
+   "newest": "2022-12-28",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 8,
+   "files": [
+    "ElSopa - Potions Redone  - No ENB Light Meshes-80832-1-0-1671324798.7z",
+    "ElSopa - Potions Redone 1k-80832-1-0-1671324767.7z",
+    "ElSopa - Potions Redone 2k-80832-1-0-1671324732.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:80832",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 69073,
+   "name": "JS Attunement Sphere and Lexicons SE",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2024-03-21",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JS Attunement - Improved Dwemer Glass GDPR Patch-69073-1-0-1711053756.7z",
+    "JS Attunement Sphere and Lexicons - GDPR Patch-69073-1-0-1711053639.7z",
+    "JS Attunement Sphere and Lexicons SE - 1k Textures-69073-1-01-1654312839.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:69073",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 84693,
+   "name": "JS Torture Tools SE",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-02-11",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JS Torture Tools SE - 1k Textures-84693-1-0-1676130668.7z",
+    "JS Torture Tools SE-84693-1-0-1676130604.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:84693",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 22622,
+   "name": "More to Say",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-02-14",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "More to Say (merged version)-22622-8-0-3-1625941410.7z",
+    "More to Say (merged version)-22622-9-0-2-1676333058.7z",
+    "More to Say-22622-8-0-3-1625941308.7z"
+   ],
+   "author": "abramcf",
+   "leftover": false,
+   "key": "id:22622",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 56130,
+   "name": "Quest Journal Limit Bug Fixer - Recover Disappeared Quests",
+   "vr": 0,
+   "se": 14,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-03-13",
+   "vr_lists": [],
+   "se_lists": 14,
+   "files": [
+    "Quest Journal Limit Bug Fixer-56130-0-2-1-1678735328.7z",
+    "Quest Journal Limit Bug Fixer-56130-0-2-1650504872.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:56130",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 5795,
+   "name": "RUSTIC CLUTTER COLLECTION - Special Edition",
+   "vr": 5,
+   "se": 4,
+   "score": 14,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "RUSTIC CLUTTER COLLECTION - Special Edition - 1K-5795-1-0.7z",
+    "RUSTIC CLUTTER COLLECTION - Special Edition - 2K-1K-5795-1-0.7z",
+    "RUSTIC CLUTTER COLLECTION - Special Edition - 2K-5795-1-0.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": true,
+   "key": "id:5795",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 38760,
+   "name": "SC - Cubemaps",
+   "vr": 4,
+   "se": 6,
+   "score": 14,
+   "band": "A",
+   "newest": "2020-07-28",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "SC - Cubemaps - 1024-38760-1-0-1595965641.7z",
+    "SC - Cubemaps - 128-38760-1-0-1595965472.7z",
+    "SC - Cubemaps - 256-38760-1-0-1595965571.7z"
+   ],
+   "author": "ShinglesCat",
+   "leftover": false,
+   "key": "id:38760",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 44448,
+   "name": "Texture fixes - Less is more",
+   "vr": 7,
+   "se": 0,
+   "score": 14,
+   "band": "A",
+   "newest": "2021-01-17",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Less is more-44448-1-1610872737.7z"
+   ],
+   "author": "Kvitekvist",
+   "leftover": false,
+   "key": "id:44448",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 14168,
+   "name": "The Tools of Kagrenac",
+   "vr": 4,
+   "se": 6,
+   "score": 14,
+   "band": "A",
+   "newest": "2024-01-04",
+   "vr_lists": [
+    "Librum VR",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "EVG Animated Traversal Add-On-14168-1-0-1658003081.7z",
+    "Immersive College of Winterhold Compatibility Patch SSE (Light Plugin)-14168-1-4-1575710673.7z",
+    "The Tools of Kagrenac V1.58 SSE-14168-1-58-1615274097.7z"
+   ],
+   "author": "Titansbane and PrivateEye",
+   "leftover": false,
+   "key": "id:14168",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 69944,
+   "name": "dTry's Key Utils",
+   "vr": 0,
+   "se": 14,
+   "score": 14,
+   "band": "A",
+   "newest": "2022-06-21",
+   "vr_lists": [],
+   "se_lists": 14,
+   "files": [
+    "dTry's Key Utils AE-69944-1-1-1655790332.7z",
+    "dTry's Key Utils SE-69944-1-1-1655790357.7z"
+   ],
+   "author": "dTry",
+   "leftover": false,
+   "key": "id:69944",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 24039,
+   "name": "Ancient Pottery",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2019-03-11",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Ancient Pottery-24039-1-1-0-1552347215.7z"
+   ],
+   "author": "mathy79",
+   "leftover": false,
+   "key": "id:24039",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 87277,
+   "name": "Better Pelts and Hides",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-04-11",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Better Pelts and Hides Fluffy by SkySinclaire-87277-1-0-1679616559.7z",
+    "Better Pelts and Hides Vale Deer Pelt Leather Bindings-87277-1-0-1681184953.rar",
+    "Better Pelts and Hides Vale Deer Pelt Rope Bindings-87277-1-0-1681185020.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:87277",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 56123,
+   "name": "CoMAP - Common Marker Addon Project",
+   "vr": 0,
+   "se": 13,
+   "score": 13,
+   "band": "A",
+   "newest": "2026-08-27",
+   "vr_lists": [],
+   "se_lists": 13,
+   "files": [
+    "CoMAP Local-56123-4-3-2-1776669231.zip",
+    "CoMAP-56123-3-4-2-1657465873.7z",
+    "CoMAP-56123-4-0-0-1683711591.zip"
+   ],
+   "author": "Jelidity and Parapets",
+   "leftover": false,
+   "key": "id:56123",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 58817,
+   "name": "Custom Cubemaps (and Metal Tutorial)",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2021-11-24",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Custom Cubemaps by fadingsignal v1.1-58817-1-1-1637746857.rar"
+   ],
+   "author": "fadingsignal",
+   "leftover": false,
+   "key": "id:58817",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 95740,
+   "name": "DPI Scaling Fix",
+   "vr": 0,
+   "se": 13,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-07-13",
+   "vr_lists": [],
+   "se_lists": 13,
+   "files": [
+    "DPI Scaling Fix-95740-1-0-1689242798.zip"
+   ],
+   "author": "Kaldaien",
+   "leftover": false,
+   "key": "id:95740",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 66411,
+   "name": "ENB Light Inventory Fix (ELIF)",
+   "vr": 0,
+   "se": 13,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-05-01",
+   "vr_lists": [],
+   "se_lists": 13,
+   "files": [
+    "ELIF - Legacy-66411-1-2-0-1682970302.7z",
+    "ELIF-66411-1-0-0-1649769260.7z",
+    "ELIF-66411-1-2-0-1682970268.7z"
+   ],
+   "author": "Kitsuune",
+   "leftover": false,
+   "key": "id:66411",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 16440,
+   "name": "GORECAP",
+   "vr": 1,
+   "se": 11,
+   "score": 13,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 11,
+   "files": [
+    "GORECAP-16440-2-2.rar"
+   ],
+   "author": "InwardScreams and MYTHiC",
+   "leftover": false,
+   "key": "id:16440",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 74722,
+   "name": "HD Local Map",
+   "vr": 0,
+   "se": 13,
+   "score": 13,
+   "band": "A",
+   "newest": "2026-08-24",
+   "vr_lists": [],
+   "se_lists": 13,
+   "files": [
+    "HD Local Map 74722 1.0.4 2026-08-24T21-04Z oPpNfUt8z.zip",
+    "HD Local Map-74722-1-0-1-1662418760.zip",
+    "HD Local Map-74722-1-0-2-1669499939.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:74722",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 46708,
+   "name": "Iconic Statues",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-05-28",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Iconic Statues 2K-46708-1-2-1615736980.7z",
+    "Iconic Statues 2K-46708-1-2-3-1685297504.7z",
+    "Iconic Statues 4K-46708-1-2-1615737006.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:46708",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 47097,
+   "name": "Missives - The Witcher Board HD (4K-2K-ENB Light)",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2022-10-29",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Missives - The Witcher Board HD-47097-2-0-1617875950.7z",
+    "Missives - The Witcher Board HD-47097-2-1-1667054573.7z"
+   ],
+   "author": "Oaristys",
+   "leftover": false,
+   "key": "id:47097",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 73849,
+   "name": "PAPER",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-07-19",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "PAPER-73849-2-2-3-1682245168.zip",
+    "PAPER-73849-2-2-4-1689759531.zip"
+   ],
+   "author": "Borgut1337",
+   "leftover": false,
+   "key": "id:73849",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 17757,
+   "name": "RUSTIC ELDERSCROLL - Special Edition",
+   "vr": 5,
+   "se": 3,
+   "score": 13,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "ELDERSCROLL SSE - FX - 1K-17757-1-0.7z",
+    "RUSTIC ELDERSCROLL - Special Edition - 2K-17757-1-0.7z",
+    "RUSTIC ELDERSCROLL - Special Edition - 4K-2K-17757-1-0.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:17757",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 89241,
+   "name": "B.O.O.B.I.E.S  (aka Immersive Icons)",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2025-04-07",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "B.O.O.B.I.E.S (Immsersive Icons) 2.1.3-89241-2-1-3-1730442940.zip",
+    "B.O.O.B.I.E.S (Immsersive Icons)-89241-1-4-0-1683261814.zip",
+    "B.O.O.B.I.E.S (Immsersive Icons)-89241-2-0-0-1692095455.zip"
+   ],
+   "author": "WhereDeadAngelsLie and Discrepancy",
+   "leftover": false,
+   "key": "id:89241",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 22160,
+   "name": "JS Lockpicking UI SE",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2018-12-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "2k Textures-22160-1-1-1545936016.rar",
+    "4k Textures-22160-1-1-1545936057.rar"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:22160",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 92529,
+   "name": "Keyword Patch Collection",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-07-15",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Keyword Patch Collection-92529-1-0-0-1689464095.zip"
+   ],
+   "author": "GroundAura",
+   "leftover": false,
+   "key": "id:92529",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 52239,
+   "name": "Labyrinthian Shalidor's Maze Fixes",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2021-07-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Labyrinthian Shalidor's Maze Fixes-52239-0-3-1626070810.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:52239",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 5785,
+   "name": "RUSTIC SOULGEMS - Special Edition",
+   "vr": 5,
+   "se": 2,
+   "score": 12,
+   "band": "A",
+   "newest": "2019-03-12",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "RUSTIC SOULGEMS SE - FOMOD - English Only-5785-1-0-1552411870.rar"
+   ],
+   "author": "Gamwich and Saerileth",
+   "leftover": false,
+   "key": "id:5785",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 19348,
+   "name": "Chesko's Wearable Lanterns - SE and VR Patch",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Wearable Lanterns - VR Patch-19348-1.7z"
+   ],
+   "author": "Chesko - Patched by BillyPilgrim",
+   "leftover": true,
+   "key": "id:19348",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 117413,
+   "name": "Emeratu - A Music Mod",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "A",
+   "newest": "2024-05-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Emeratu - Dungeons Hotfix-117413-1-0-0-1714279070.zip",
+    "Emeratu Expansion Pack-117413-1-0-0-1714546326.zip",
+    "Emeratu Hotfix 2-117413-1-0-0-1716967909.7z"
+   ],
+   "author": "Derpl YSS",
+   "leftover": true,
+   "key": "id:117413",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 5445,
+   "name": "Eye Normal Map Fix SSE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Eye Normal Map Fix SSE-5445-1SE.zip"
+   ],
+   "author": "Mr Dave",
+   "leftover": true,
+   "key": "id:5445",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 36348,
+   "name": "[серия «realm of», 4 модов] Realm of Lorkhan - No Shards in Tamriel Patch и др.",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "A",
+   "newest": "2021-09-25",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Realm of Lorkhan - No Shards Patch-36348-0-4-1604410586.7z",
+    "Realm of Lorkhan - No Shards-36348-3-6-1-1632573827.7z"
+   ],
+   "author": "benjapo",
+   "leftover": true,
+   "key": "id:36348",
+   "series": "realm of",
+   "members": [
+    {
+     "id": 36348,
+     "name": "Realm of Lorkhan - No Shards in Tamriel Patch",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-09-25",
+     "files": [
+      "Realm of Lorkhan - No Shards Patch-36348-0-4-1604410586.7z"
+     ]
+    },
+    {
+     "id": 60306,
+     "name": "Realm of Lorkhan - Unofficial Unofficial Alternate Cut Alternate Cut",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-12-18",
+     "files": [
+      "Realm of Lorkhan - Unofficial Unofficial Alternate Cut Alternate Cut-60306-1-0-1639852873.zip"
+     ]
+    },
+    {
+     "id": 69092,
+     "name": "Realm of Lorkhan - Enhanced",
+     "vr": 1,
+     "se": 0,
+     "newest": "2022-06-13",
+     "files": [
+      "Realm of Lorkhan - Enhanced-69092-1-1-0-1655129355.zip"
+     ]
+    },
+    {
+     "id": 44327,
+     "name": "Realm of Lorkhan - Unofficial Alternate Cut",
+     "vr": 1,
+     "se": 0,
+     "newest": "2021-01-24",
+     "files": [
+      "Realm of Lorkhan - Unofficial Alternate Cut-44327-1-0-1611390768.zip"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 166821,
+   "name": "Dynamic Translation Framework",
+   "vr": 0,
+   "se": 3,
+   "score": 3,
+   "band": "A",
+   "newest": "2025-12-11",
+   "vr_lists": [],
+   "se_lists": 3,
+   "files": [
+    "Dynamic Translation Framework-166821-1-0-0-1765459091.7z"
+   ],
+   "author": "Quantumyilmaz",
+   "leftover": true,
+   "key": "id:166821",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 57038,
+   "name": "[серия «js dragon», 3 модов] JS Dragon Claws AE (Anniversary Edition) и др.",
+   "vr": 4,
+   "se": 12,
+   "score": 20,
+   "band": "A",
+   "newest": "2024-07-18",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 12,
+   "files": [
+    "JS Dragon Claws AE - 2k Textures-57038-1-32-1721269172.7z",
+    "JS Dragon Claws AE - Animated Gem Claws-57038-1-0-1634757664.rar",
+    "JS Dragon Claws AE Anniversary Edition - 1k-57038-1-3-1650127178.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:57038",
+   "series": "js dragon",
+   "members": [
+    {
+     "id": 57038,
+     "name": "JS Dragon Claws AE (Anniversary Edition)",
+     "vr": 4,
+     "se": 12,
+     "newest": "2024-07-18",
+     "files": [
+      "JS Dragon Claws AE - 2k Textures-57038-1-32-1721269172.7z"
+     ]
+    },
+    {
+     "id": 1394,
+     "name": "JS Dragon Claws SE",
+     "vr": 2,
+     "se": 1,
+     "newest": "",
+     "files": [
+      "1k Textures-1394-1-0.rar"
+     ]
+    },
+    {
+     "id": 23833,
+     "name": "JS Dragon Claws - Patches",
+     "vr": 2,
+     "se": 0,
+     "newest": "2020-08-11",
+     "files": [
+      "JS Dragon Claws - Amethyst Patch-23833-2-1-1597174292.7z"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 6179,
+   "name": "GIANT",
+   "vr": 3,
+   "se": 11,
+   "score": 17,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "Giant.2k-6179-1-0.7z",
+    "Giant.4k-2k-6179-1-0.7z",
+    "Giant.4k-6179-.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:6179",
+   "theme": "creatures"
+  }
+ ]
+}

@@ -1,0 +1,928 @@
+{
+ "batch": "B03",
+ "band": "B",
+ "themes": {
+  "armor": 28,
+  "body_face": 5
+ },
+ "items": [
+  {
+   "id": 123225,
+   "name": "[серия «se by xtudo», 9 модов] Draugrs - My patches - SE by Xtudo и др.",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2025-11-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Draugrs - SE by Xtudo - Ancient Vampire parts - 1K-123225-3-7-1722630536.7z",
+    "Draugrs - SE by Xtudo - Animated Clutter-123225-1-1719964576.7z",
+    "Draugrs - SE by Xtudo - Armored Draugr Corpses 2K-123225-1-7-1720383849.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:123225",
+   "series": "se by xtudo",
+   "members": [
+    {
+     "id": 123225,
+     "name": "Draugrs - My patches - SE by Xtudo",
+     "vr": 1,
+     "se": 9,
+     "newest": "2025-11-07",
+     "files": [
+      "Draugrs - SE by Xtudo - Ancient Vampire parts - 1K-123225-3-7-1722630536.7z"
+     ]
+    },
+    {
+     "id": 109935,
+     "name": "Divines Prayer Animations - My DAR version SE by Xtudo",
+     "vr": 1,
+     "se": 4,
+     "newest": "2024-01-23",
+     "files": [
+      "DPA DAR SE by Xtudo - Default-109935-1-1706012150.7z"
+     ]
+    },
+    {
+     "id": 113152,
+     "name": "Stacks of Septims - 3D Coin Piles - My patches SE by Xtudo",
+     "vr": 1,
+     "se": 4,
+     "newest": "2026-07-07",
+     "files": [
+      "3D Coin Piles - SE by Xtudo - C.O.I.N.-113152-1-1709650835.7z"
+     ]
+    },
+    {
+     "id": 110632,
+     "name": "Kvetchi Mercenary Set - My patches and tweaks SE by Xtudo",
+     "vr": 0,
+     "se": 5,
+     "newest": "2024-12-19",
+     "files": [
+      "Kvetchi Set - SE by Xtudo - 2K textures patch-110632-1-1706797591.7z"
+     ]
+    },
+    {
+     "id": 122125,
+     "name": "Rihad Swordsman Set - My patches SE by Xtudo",
+     "vr": 0,
+     "se": 5,
+     "newest": "2024-06-19",
+     "files": [
+      "Rihad Swordsman - SE by Xtudo - CBBE feet patch-122125-1-1718657194.7z"
+     ]
+    },
+    {
+     "id": 110812,
+     "name": "Colovian Prince Set - My patches and tweaks SE by Xtudo",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-02-03",
+     "files": [
+      "Colovian Prince - SE by Xtudo - 2K textures patch-110812-1-1706995765.7z"
+     ]
+    },
+    {
+     "id": 109635,
+     "name": "Eastern Brassplate Set - My Patches SE by Xtudo",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-01-23",
+     "files": [
+      "Eastern Brassplate Set - SE by Xtudo - ADM patch-109635-1-1705675768.7z"
+     ]
+    },
+    {
+     "id": 119386,
+     "name": "Gorm Armor - My Patches SE by Xtudo",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-09-16",
+     "files": [
+      "Gorm Armor - SE by Xtudo - 2K Textures-119386-1-1715641369.7z"
+     ]
+    },
+    {
+     "id": 130775,
+     "name": "Subtleties of Skyrim - Red Mountain Lava - Distant Ships - My optimized textures SE by Xtudo",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-10-03",
+     "files": [
+      "Subtleties - SE by Xtudo - Optimized 2K textures-130775-1-1727964246.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 134772,
+   "name": "Bound Weapon Fix",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-11-24",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Bound Weapon Fix 1 5 97-134772-1-0-0-1732484630.7z",
+    "Bound Weapon Fix 1130-134772-1-0-0-1732472498.7z"
+   ],
+   "author": "SeaSparrow and Styxx",
+   "leftover": false,
+   "key": "id:134772",
+   "theme": "armor"
+  },
+  {
+   "id": 42558,
+   "name": "Cloaks Of Skyrim Retextured SE",
+   "vr": 3,
+   "se": 4,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-02-12",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Cloaks Of Skyrim Retextured 1k-42558-1-0-1605820742.7z",
+    "Cloaks Of Skyrim Retextured 2k-42558-1-0-1605820625.7z",
+    "Cloaks Of Skyrim Retextured Mesh Update 1.2-42558-1-2-1644689837.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:42558",
+   "theme": "armor"
+  },
+  {
+   "id": 76494,
+   "name": "Heart of the Reach - New Quest -  Dungeon - Weapons - 3 Creature Variants - Ring - Spell",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-04-27",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Heart of the Reach - Half Resolution Creatures-76494-1-0-7-1714179090.7z",
+    "Heart of the Reach - High Resolution Textures-76494-1-0-7-1714178948.7z",
+    "Heart of the Reach - Low Resolution Textures-76494-v1-0-6-1665261579.7z"
+   ],
+   "author": "TheLootist",
+   "leftover": false,
+   "key": "id:76494",
+   "theme": "armor"
+  },
+  {
+   "id": 82682,
+   "name": "Rally's Weapon Racks",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-06-28",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Hotfix for Staffs-82682-1-0-1719556769.7z",
+    "Rally's Weapon Racks 2K-1K-82682-1-1-1708723646.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:82682",
+   "theme": "armor"
+  },
+  {
+   "id": 6994,
+   "name": "Royal Armory - New Artifacts",
+   "vr": 3,
+   "se": 4,
+   "score": 10,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Royal Armory V2.2-6994-2-2.7z"
+   ],
+   "author": "PrivateEye",
+   "leftover": false,
+   "key": "id:6994",
+   "theme": "armor"
+  },
+  {
+   "id": 75237,
+   "name": "Sharpen Other Swords II - AnimObject Swapper",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2026-09-09",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Sharpen Other Swords II - AnimObject Swapper 75237 0.2.7 2026-09-09T08-42Z UK35XnBvI.7z",
+    "Sharpen Other Swords II - AnimObject Swapper-75237-0-2-1663558932.7z",
+    "Sharpen Other Swords II - AnimObject Swapper-75237-0-2-3-1693094363.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:75237",
+   "theme": "armor"
+  },
+  {
+   "id": 108315,
+   "name": "Snazzy Mesh Fixes - Windhelm Interiors",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2025-02-05",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Snazzy Mesh Fixes - Windhelm Interiors-108315-1-1-1704347461.7z",
+    "Windhelm Castle Hall Floor Fix-108315-1-0-1722782352.7z",
+    "Windhelm Exteriror Fixes-108315-1-0-1738791141.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:108315",
+   "theme": "armor"
+  },
+  {
+   "id": 78399,
+   "name": "Stairs of Skyrim - Windhelm Bridge Stairs",
+   "vr": 4,
+   "se": 2,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-08-03",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Windhelm Bridge Stairs-78399-0-5-1-1669057242.7z",
+    "Windhelm Bridge Stairs-78399-0-7-1722687366.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:78399",
+   "theme": "armor"
+  },
+  {
+   "id": 111430,
+   "name": "Vibrant Weapons EAE",
+   "vr": 3,
+   "se": 4,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-03-02",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Tahrovin"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Vibrant Weapons EAE-111430-1-2-0-1709413366.7z"
+   ],
+   "author": "jg1",
+   "leftover": false,
+   "key": "id:111430",
+   "theme": "armor"
+  },
+  {
+   "id": 120097,
+   "name": "Vigil Enforcer Retexture SE",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-05-23",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Vigil Enforcer Retexture SE - Half Res-120097-1-0-1716468645.7z",
+    "Vigil Enforcer Retexture SE-120097-1-0-1716468587.7z"
+   ],
+   "author": "Xavbio",
+   "leftover": false,
+   "key": "id:120097",
+   "theme": "armor"
+  },
+  {
+   "id": 55329,
+   "name": "Icy Windhelm",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-12-30",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "1_Icy Windhelm - Capital Windhelm Expansion patch-55329-1-6-1703949336.7z",
+    "Icy Windhelm - JK Skyrim patch-55329-1-1-1677419697.7z",
+    "Icy Windhelm-55329-2-2-1677207887.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:55329",
+   "theme": "armor"
+  },
+  {
+   "id": 121950,
+   "name": "JK's Dark Brotherhood Sanctuaries",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-06-10",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "JK's Dark Brotherhood Sanctuary-121950-1-1-0-1725306652.7z",
+    "JK's Dark Brotherhood Sanctuary-121950-1-1-1-1781076950.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:121950",
+   "theme": "armor"
+  },
+  {
+   "id": 92993,
+   "name": "Self-targeting Staff Animation Fix - Dynamic Animation Replacer - Open Animation Replacer",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-06-07",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Self-targeting Staff Animation Fix-92993-0-1-1686104012.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:92993",
+   "theme": "armor"
+  },
+  {
+   "id": 47184,
+   "name": "Simply Realistic Armor and Weapons (Custom NordwarUA Edition)",
+   "vr": 4,
+   "se": 1,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-05-13",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Tahrovin",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Alternate Leather Armor-47184-1-0-1616249686.7z",
+    "SRA - All-In-One Weapons Replacer Update Patch-47184-1-1-1619898738.7z",
+    "Simply Realistic Armor (NordwarUA Edition) - 1.3 Patch-47184-1-3-1620892193.7z"
+   ],
+   "author": "QuestionableKhajiit and NordWarUA et al",
+   "leftover": false,
+   "key": "id:47184",
+   "theme": "armor"
+  },
+  {
+   "id": 57539,
+   "name": "[серия «dark brotherhood», 3 модов] Dark Brotherhood Armor SE и др.",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-10-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Blade of Woe redesing SE-57539-1-1635271476.7z",
+    "DBArmorSE-57539-1-1635271446.7z",
+    "color variation by IconicDeath-57539-1-1635353371.7z"
+   ],
+   "author": "Sithis Personal Tailor",
+   "leftover": false,
+   "key": "id:57539",
+   "series": "dark brotherhood",
+   "members": [
+    {
+     "id": 57539,
+     "name": "Dark Brotherhood Armor SE",
+     "vr": 2,
+     "se": 5,
+     "newest": "2021-10-27",
+     "files": [
+      "Blade of Woe redesing SE-57539-1-1635271476.7z"
+     ]
+    },
+    {
+     "id": 57565,
+     "name": "Dark Brotherhood Sanctuary Decor - HD Custom Black Door Banners and Tenets",
+     "vr": 1,
+     "se": 4,
+     "newest": "2021-10-28",
+     "files": [
+      "1. Vanilla Door Remake - 2k-57565-1-0-1635441317.7z"
+     ]
+    },
+    {
+     "id": 163344,
+     "name": "Dark Brotherhood Kidnapping - Restricted",
+     "vr": 2,
+     "se": 0,
+     "newest": "2025-11-01",
+     "files": [
+      "Restricted DB Kidnapping USSEP-163344-1-0-0-1762028191.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 53878,
+   "name": "[серия «map for fwmf», 7 модов] Blackreach Paper Map for FWMF и др.",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2024-11-05",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Blackreach Paper Map for FWMF FOMOD-53878-1-75-1675250604.zip",
+    "Blackreach Paper Map for FWMF FOMOD-53878-1-8-1-1730794651.zip",
+    "Blackreach Paper Map for FWMF-53878-1-7-1643368462.zip"
+   ],
+   "author": "Caites",
+   "leftover": false,
+   "key": "id:53878",
+   "series": "map for fwmf",
+   "members": [
+    {
+     "id": 53878,
+     "name": "Blackreach Paper Map for FWMF",
+     "vr": 0,
+     "se": 9,
+     "newest": "2024-11-05",
+     "files": [
+      "Blackreach Paper Map for FWMF FOMOD-53878-1-75-1675250604.zip"
+     ]
+    },
+    {
+     "id": 54628,
+     "name": "Forgotten Vale Paper Map for FWMF",
+     "vr": 0,
+     "se": 9,
+     "newest": "2024-11-05",
+     "files": [
+      "Forgotten Vale Paper Map for FWMF-54628-1-8-1650639757.zip"
+     ]
+    },
+    {
+     "id": 55387,
+     "name": "Soul Cairn Paper Map for FWMF",
+     "vr": 0,
+     "se": 9,
+     "newest": "2024-11-05",
+     "files": [
+      "Soul Cairn Paper Map for FWMF AIO FOMOD-55387-1-8-1650474551.zip"
+     ]
+    },
+    {
+     "id": 54255,
+     "name": "Sovngarde Paper Map for FWMF",
+     "vr": 0,
+     "se": 9,
+     "newest": "2024-11-05",
+     "files": [
+      "Sovngarde Paper Map for FWMF-54255-1-7-1643368882.zip"
+     ]
+    },
+    {
+     "id": 92774,
+     "name": "Apocrypha Paper Map for FWMF",
+     "vr": 0,
+     "se": 8,
+     "newest": "2024-11-06",
+     "files": [
+      "Apocrypha Paper Map for FWMF-92774-1-1-1686312526.zip"
+     ]
+    },
+    {
+     "id": 61917,
+     "name": "Dayspring Canyon Paper Map for FWMF",
+     "vr": 0,
+     "se": 7,
+     "newest": "2024-11-05",
+     "files": [
+      "Dayspring Canyon Global Markers Enabler for FWMF-61917-1-01-1642279183.zip"
+     ]
+    },
+    {
+     "id": 75155,
+     "name": "Deepwood Vale Paper Map for FWMF",
+     "vr": 0,
+     "se": 5,
+     "newest": "2024-11-05",
+     "files": [
+      "Deepwood Vale Paper Map for FWMF-75155-1-71-1675275884.zip"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 63330,
+   "name": "Ancient AF Windhelm - Windhelm Retextured",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-03-23",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Ancient AF Windhelm 2K-63330-2-0-1648005938.zip"
+   ],
+   "author": "AgentW",
+   "leftover": false,
+   "key": "id:63330",
+   "theme": "armor"
+  },
+  {
+   "id": 35978,
+   "name": "Animated Armoury - DAR Version - New Weapons with animations",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-10-27",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Animated Armour - Heavy Armoury Compatibility Patch-35978-2-1622380774.7z",
+    "Animated Armoury - Immersive Weapons Patch-35978-2-3-1635332577.7z",
+    "Animated Armoury-35978-2-1-1622417961.7z"
+   ],
+   "author": "NickNak",
+   "leftover": false,
+   "key": "id:35978",
+   "theme": "armor"
+  },
+  {
+   "id": 6308,
+   "name": "Heavy Armory - New Weapons",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2026-08-22",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Heavy Armory FOMOD Installer V6.3 6308 6.3 2026-08-22T13-21Z FpnkHZ254.7z",
+    "Heavy Armory FOMOD Installer V6.3-6308-6-3-793318-1787404860.7z",
+    "Heavy Armory FOMOD Installer-6308-5-2-1665341169.7z"
+   ],
+   "author": "PrivateEye",
+   "leftover": false,
+   "key": "id:6308",
+   "theme": "armor"
+  },
+  {
+   "id": 119824,
+   "name": "I4 Armor Icons Overhaul",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-08-29",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "I4 Armor Icons Overhaul-119824-1-03-1724947334.zip"
+   ],
+   "author": "komegaki",
+   "leftover": false,
+   "key": "id:119824",
+   "theme": "armor"
+  },
+  {
+   "id": 51346,
+   "name": "JS Helm of Yngol SE",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-09-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "JS Helm of Yngol SE - 2k-51346-1-0-1624030566.rar",
+    "JS Helm of Yngol SE - 2k-51346-1-1-1726854278.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:51346",
+   "theme": "armor"
+  },
+  {
+   "id": 4752,
+   "name": "LeanWolf's Better-Shaped Talos Statue with Greatsword SE",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2019-11-13",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "LeanWolf's Better-Shaped Talos with Greatsword SSE-4752-1-3b.7z",
+    "LeanWolf's Snowelf Wayshrine - No Walls-4752-1-2-1573669722.7z"
+   ],
+   "author": "LeanWolf",
+   "leftover": false,
+   "key": "id:4752",
+   "theme": "armor"
+  },
+  {
+   "id": 85903,
+   "name": "Remiel - Default Outfit BodySlides - CBBE 3BA - BHUNP",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-02-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Remiel - Practical Pirate Outfit BodySlides - CBBE 3BA-85903-1-0-0-1677486749.7z"
+   ],
+   "author": "megaman2k - SunJeong",
+   "leftover": false,
+   "key": "id:85903",
+   "theme": "armor"
+  },
+  {
+   "id": 118327,
+   "name": "Travelling Priest Robes - Vanilla HIMBO CBBE -",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-06-06",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Travelling Priest Robes - ACE - Clothing Version-118327-2-1-1749220228.rar",
+    "Travelling Priest Robes - Vanilla HIMBO CBBE-118327-1-1-1714821905.rar",
+    "Travelling Priest Robes - Vanilla HIMBO CBBE-118327-2-1-1749220095.rar"
+   ],
+   "author": "Ghouls0Rules",
+   "leftover": false,
+   "key": "id:118327",
+   "theme": "armor"
+  },
+  {
+   "id": 59951,
+   "name": "Weapon Armor Attribute Tweaks",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-12-12",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Weapon Armor Attribute Tweaks-59951-1-0-1639296254.7z"
+   ],
+   "author": "deletepch",
+   "leftover": false,
+   "key": "id:59951",
+   "theme": "armor"
+  },
+  {
+   "id": 18994,
+   "name": "Weapons Armor Clothing and Clutter Fixes",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2026-05-28",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Weapons Armor Clothing and Clutter Fixes-18994-2-11-4-1779928314.7z",
+    "Weapons Armor Clothing and Clutter Fixes-18994-2-5-1626150186.zip",
+    "Weapons Armor Clothing and Clutter Fixes-18994-2-9-2-1671847102.7z"
+   ],
+   "author": "kryptopyr",
+   "leftover": true,
+   "key": "id:18994",
+   "theme": "armor"
+  },
+  {
+   "id": 104972,
+   "name": "Windhelm - Palace of King meshes fix",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-11-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Windhelm - Palace of King meshes fix-104972-1-0-1700260272.7z"
+   ],
+   "author": "Kenta",
+   "leftover": false,
+   "key": "id:104972",
+   "theme": "armor"
+  },
+  {
+   "id": 80232,
+   "name": "Beard Mask Fix - Beards Use Slot 44 SKSE Plugin",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2026-08-28",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Beard Mask Fix-80232-1-0-1-1671192147.7z",
+    "Beard Mask Fix-80232-1-0-2-796514-1787936100.7z"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:80232",
+   "theme": "body_face"
+  },
+  {
+   "id": 43389,
+   "name": "Flawn's Vanilla Argonians Redux - UNP CBBE SOS - 4k 2k",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-04-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "FVAR - CBBE Patch 2k Compressed-43389-0-3-1619067003.7z",
+    "FVAR - CBBE Patch 4k Compressed-43389-0-3-1619066817.7z",
+    "FVAR - Main 2k Compressed-43389-0-3-1619066397.7z"
+   ],
+   "author": "lordflawn",
+   "leftover": false,
+   "key": "id:43389",
+   "theme": "body_face"
+  },
+  {
+   "id": 30247,
+   "name": "Kalilies NPCs",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-02-16",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Kalilies NPCs-30247-2-31-1598889586.7z",
+    "Kalilies NPCs-30247-2-4-1613495939.7z"
+   ],
+   "author": "Kalilies",
+   "leftover": false,
+   "key": "id:30247",
+   "theme": "body_face"
+  },
+  {
+   "id": 35411,
+   "name": "Lamae's Gaze - vampire eyes",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-04-23",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Lamae's Gaze - Pandorable's vampires customization-35411-2-0-1-1713914444.rar",
+    "PAN_Lamae's Gaze - vanilla vampires-35411-1-0-1640443933.rar",
+    "PAN_Lamae's Gaze SE-35411-1-1-1640444734.rar"
+   ],
+   "author": "Pandorable",
+   "leftover": false,
+   "key": "id:35411",
+   "theme": "body_face"
+  },
+  {
+   "id": 26881,
+   "name": "Maevan2's Eye Brows SE",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "2019-06-23",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Maevan2's Eye Brows SE 1.1-26881-1-1-1561299421.7z"
+   ],
+   "author": "Maevan2",
+   "leftover": false,
+   "key": "id:26881",
+   "theme": "body_face"
+  }
+ ]
+}

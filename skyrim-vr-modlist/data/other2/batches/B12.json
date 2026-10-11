@@ -1,0 +1,520 @@
+{
+ "batch": "B12",
+ "band": "B",
+ "themes": {
+  "other": 24
+ },
+ "items": [
+  {
+   "id": 20758,
+   "name": "Highlandcow HD by Pfuscher",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-11-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Highland Cow HD 2.0-20758-2-0-1700520141.7z",
+    "Highlandcow HD-20758-1-0-1548091865.7z"
+   ],
+   "author": "Pfuscher",
+   "leftover": false,
+   "key": "id:20758",
+   "theme": "other"
+  },
+  {
+   "id": 90916,
+   "name": "Hot Lava - Heat Distortion",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-05-12",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Hot Lava - Heat Distortion - ENB Light-90916-1-0-1-1683571140.7z",
+    "Hot Lava - Heat Distortion - PraedyXVI - ENB Light-90916-1-0-1-1683571169.7z",
+    "Hot Lava - Heat Distortion - PraedythXVI-90916-1-0-2-1-1683916025.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:90916",
+   "theme": "other"
+  },
+  {
+   "id": 48160,
+   "name": "Improved Gourds",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-04-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Improved Gourds-48160-1-2-1618627742.rar"
+   ],
+   "author": "Merscil",
+   "leftover": false,
+   "key": "id:48160",
+   "theme": "other"
+  },
+  {
+   "id": 99691,
+   "name": "Improved Idle Laydown Animations",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-10-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Improved Idle Laydown Animations - OAR-99691-1-1-1696882770.zip"
+   ],
+   "author": "Sonderbain",
+   "leftover": false,
+   "key": "id:99691",
+   "theme": "other"
+  },
+  {
+   "id": 70534,
+   "name": "JS Rumpled Rugs SE",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-07-17",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "JS Rumpled Rugs SE - Rugnarok-70534-1-1-1656889526.7z",
+    "JS Rumpled Rugs SE-70534-1-41-1677327284.7z",
+    "JS Rumpled Rugs SE-70534-1-44-1721224726.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:70534",
+   "theme": "other"
+  },
+  {
+   "id": 57365,
+   "name": "Janquel's Arguably Needed Quixotically Unifying ESP Library",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-05-09",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Blackthorn Manor Replacer-57365-1-0-1637704308.7z",
+    "Janquel's Arguably Needed Quixotically UEL-57365-1-7-1-1683652523.7z",
+    "Janquel's Arguably Needed Quixotically Unifying ESP Library-57365-1-7-1658009113.7z"
+   ],
+   "author": "Janquel",
+   "leftover": false,
+   "key": "id:57365",
+   "theme": "other"
+  },
+  {
+   "id": 43480,
+   "name": "Jazbay by Mari",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-12-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Jazbay by Mari - Green-43480-1-1-1608472290.7z"
+   ],
+   "author": "ArtByMari",
+   "leftover": false,
+   "key": "id:43480",
+   "theme": "other"
+  },
+  {
+   "id": 22206,
+   "name": "Konahrik's Accoutrements",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2019-01-01",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Konarik's Accoutrements - Dragon Prist Armory-22206-5-5-3-1546371977.zip"
+   ],
+   "author": "Edhelsereg",
+   "leftover": false,
+   "key": "id:22206",
+   "theme": "other"
+  },
+  {
+   "id": 11342,
+   "name": "Lock Related Loot",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Lock Related Loot-11342-1-2.rar"
+   ],
+   "author": "Hackfield",
+   "leftover": false,
+   "key": "id:11342",
+   "theme": "other"
+  },
+  {
+   "id": 98579,
+   "name": "Madmen - A Forsworn Overhaul",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-11-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Madmen - Ryns Karthspire-98579-1-1692669903.rar",
+    "Madmen A Forsworn Overhaul-98579-1-1-0-1692669662.rar",
+    "Madmen A Forsworn Overhaul-98579-2-0-2-1700185295.rar"
+   ],
+   "author": "Oreo",
+   "leftover": false,
+   "key": "id:98579",
+   "theme": "other"
+  },
+  {
+   "id": 28113,
+   "name": "No Flat Rubble",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2019-08-14",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "No Flat Rubble-28113-1-1-1565800431.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:28113",
+   "theme": "other"
+  },
+  {
+   "id": 132172,
+   "name": "On The Mend - A Healing Altar Replacer",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-10-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "JK's Temple of Kynareth BOS patch-132172-1-0-1730062928.rar",
+    "On the Mend - A Healing Altar Replacer-132172-1-0-1729942332.rar",
+    "On the Mend - Performance Edition-132172-1-0-1730047422.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:132172",
+   "theme": "other"
+  },
+  {
+   "id": 30665,
+   "name": "Pandorable's Initiates",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-09-20",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "1 PAN_Initiates - vanilla SE-30665-1-1-1574989396.rar",
+    "PAN_Initiates - vanilla voices ESL-30665-1-1-1582897699.7z",
+    "PAN_Initiates SE - esl-30665-1-2-1-1726838293.rar"
+   ],
+   "author": "Pandorable",
+   "leftover": false,
+   "key": "id:30665",
+   "theme": "other"
+  },
+  {
+   "id": 41982,
+   "name": "Poison Bloom Retexture",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-11-03",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "2K Poison Bloom-41982-1-0-1604394482.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:41982",
+   "theme": "other"
+  },
+  {
+   "id": 12633,
+   "name": "Quick Light SE",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2019-12-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Quick Light SE-12633-2-2-1575553166.7z"
+   ],
+   "author": "tktk",
+   "leftover": false,
+   "key": "id:12633",
+   "theme": "other"
+  },
+  {
+   "id": 21996,
+   "name": "Realistic HD Mushrooms Remastered",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2018-12-21",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Realistic HD Mushrooms Remastered-21996-1-2-1545411038.7z"
+   ],
+   "author": "Halk Hogan PL",
+   "leftover": false,
+   "key": "id:21996",
+   "theme": "other"
+  },
+  {
+   "id": 113884,
+   "name": "Revenant Spirits of the Soul Cairn",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-06-12",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Revenant Spirits of the Soul Cairn-113884-1-2-1710798197.7z",
+    "Revenant Spirits of the Soul Cairn-113884-1-21-1718157588.7z"
+   ],
+   "author": "Clofas1",
+   "leftover": false,
+   "key": "id:113884",
+   "theme": "other"
+  },
+  {
+   "id": 42074,
+   "name": "Salmon Roe model replacer 3D",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-11-07",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Salmon Roe Replacer Lighter Textures (Addon)-42074-1-0-1604682291.7z",
+    "Salmon Roe Replacer with Translucence-42074-1-1-1604732768.7z",
+    "Salmon Roe Replacer-42074-1-1-1604732478.7z"
+   ],
+   "author": "Klamactus",
+   "leftover": false,
+   "key": "id:42074",
+   "theme": "other"
+  },
+  {
+   "id": 61478,
+   "name": "Seriously Improved Sparks",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-01-07",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Seriously Improved Sparks-61478-1-0-1641581927.7z"
+   ],
+   "author": "Bingle",
+   "leftover": false,
+   "key": "id:61478",
+   "theme": "other"
+  },
+  {
+   "id": 62554,
+   "name": "Stoppage of Staggerlock",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-08-14",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Stoppage of Staggerlock-62554-1-0-1643128142.7z",
+    "Stoppage of Staggerlock-62554-1-01-1660461236.7z"
+   ],
+   "author": "Ashen - Xanza",
+   "leftover": false,
+   "key": "id:62554",
+   "theme": "other"
+  },
+  {
+   "id": 70546,
+   "name": "TB's Better Bread",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-08-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Better Bread 1K Optimised SSE Version-70546-1-1-2-1659867315.zip",
+    "Better Bread 2K Optimised SSE Version-70546-1-1-2-1659867270.zip"
+   ],
+   "author": "The Blender Animator",
+   "leftover": false,
+   "key": "id:70546",
+   "theme": "other"
+  },
+  {
+   "id": 44969,
+   "name": "True Teacher Durnehviir",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-01-28",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "True Teacher Durnehviir-44969-1-0-1611862156.7z"
+   ],
+   "author": "Delta",
+   "leftover": false,
+   "key": "id:44969",
+   "theme": "other"
+  },
+  {
+   "id": 13816,
+   "name": "Zephyr Redone",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-11-13",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Scoped Bows Patch-13816-2-1-1605032043.7z",
+    "Zephyr Redone-13816-2-0-1605255651.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:13816",
+   "theme": "other"
+  },
+  {
+   "id": 58727,
+   "name": "eFPS - Anniversary Edition",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-12-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "eFPS - AnniversaryEdition-58727-1-1-1638904415.zip",
+    "eFPS - AnniversaryEditionFreeCC-58727-1-1-1638904431.zip"
+   ],
+   "author": "Firegtx - nicola89b",
+   "leftover": false,
+   "key": "id:58727",
+   "theme": "other"
+  }
+ ]
+}

@@ -1,0 +1,747 @@
+{
+ "batch": "C07",
+ "band": "C",
+ "themes": {
+  "clutter_misc": 36
+ },
+ "items": [
+  {
+   "id": 118746,
+   "name": "Alchemy XP Fix VR",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-05-07",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Alchemy XP Fix VR-118746-1-0-0-1-1715061881.7z"
+   ],
+   "author": "Rafear",
+   "leftover": false,
+   "key": "id:118746",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 131793,
+   "name": "Auri's Mount Thistlefoot Texture Fix",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-10-20",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Auri's Mount Thistlefoot Texture Fix-131793-0-1-1-1729420052.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:131793",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 147470,
+   "name": "Azura's Audio Array",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-04-17",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Azura's Audio Array-147470-1-0-1744911976.7z"
+   ],
+   "author": "Clofas",
+   "leftover": false,
+   "key": "id:147470",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 127701,
+   "name": "B612 - my little asteroid of useful UI components",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-28",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "B612 - little asteroid of useful UI components 127701 1.0.25 2026-06-30T02-26Z Dc5uGk4t5.zip",
+    "B612 - little asteroid of useful UI components 127701 1.0.27 2026-08-28T14-38Z gbrZ4tK8e.zip",
+    "B612 - little asteroid of useful UI components-127701-1-0-13-1740599639.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:127701",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 175385,
+   "name": "Bethesda Plugin Manager - Extended",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-09-17",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Bethesda Plugin Manager - Extended 2.5.2 175385 1.3.0 2026-07-06T12-44Z Ae46W7hCc.7z",
+    "Bethesda Plugin Manager - Extended 2.5.2 175385 1.4.0 2026-09-17T17-19Z GkqKVMBoj.7z",
+    "Bethesda Plugin Manager - Extended 2.5.2-175385-1-1-0-1774537851.7z"
+   ],
+   "author": "Alaxouche - Parapets",
+   "leftover": false,
+   "key": "id:175385",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 98909,
+   "name": "Bloodchill Manor Entrance Fix",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-08-22",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Bloodchill Manor Entrance Fix-98909-1-0-1692665975.7z"
+   ],
+   "author": "elgrumo",
+   "leftover": false,
+   "key": "id:98909",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 50202,
+   "name": "Convenient Reading UI - SE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-12-26",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Convenient Reading-50202-1-1-1622046204.zip",
+    "Font Overhaul Compatibility Patch-50202-1-1-1640504692.zip"
+   ],
+   "author": "uranreactor",
+   "leftover": false,
+   "key": "id:50202",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 55025,
+   "name": "Duncan's Paper Maps for FWMF",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-11-10",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Duncan's Paper Maps for FWMF-55025-1-8-2-1731238774.zip",
+    "Solstheim Paper Map by Duncan for FWMF-55025-1-7-1643373922.zip",
+    "Wyrmstooth Paper Map by Duncan for FWMF-55025-1-7-1643374008.zip"
+   ],
+   "author": "Duncan and Caites",
+   "leftover": false,
+   "key": "id:55025",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 60077,
+   "name": "Dunmeri Furniture in Gray Quarter",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-02-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Dunmeri Furniture in Gray Quarter-60077-2-1-2-1726975524.rar",
+    "Dunmeri Furniture in Grey Quarter-60077-2-2-1740252716.rar"
+   ],
+   "author": "Czasior",
+   "leftover": false,
+   "key": "id:60077",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 96430,
+   "name": "Dynamic Activation Key - Addons Collection",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-03-04",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Dynamic Activation Key - Addons Collection-96430-2-2-0-1716834746.zip",
+    "Dynamic Activation Key - Addons Collection-96430-2-2-1-1770645809.zip",
+    "Dynamic Activation Key - Addons Collection-96430-2-3-0-1772615622.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:96430",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 174136,
+   "name": "Dynamic Inventory Icon Injector",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-03-23",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "DynamicInventoryIconInjector-174136-1-0-7-1-1774277708.zip"
+   ],
+   "author": "JerryYOJ",
+   "leftover": false,
+   "key": "id:174136",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 144507,
+   "name": "ENB Frame Generation",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-03-17",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "ENB Frame Generation-144507-1-0-2-1742222638.7z"
+   ],
+   "author": "doodlez PureDark",
+   "leftover": false,
+   "key": "id:144507",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 62743,
+   "name": "ENB Helper Plus",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-10-30",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 4,
+   "files": [
+    "ENB Helper Plus-62743-1-0-1-1646400320.zip",
+    "ENB Helper Plus-62743-1-0-4-1667140855.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:62743",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 67077,
+   "name": "ENB Organizer",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ENB Organizer-67077-v2-1-1.zip"
+   ],
+   "author": "Breems",
+   "leftover": false,
+   "key": "id:67077",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 42550,
+   "name": "Flinching - Script Free Edition",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-20",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Flinching for VR-42550-1-2-1613311087.7z",
+    "Flinching for VR-42550-1-4-1637414669.zip",
+    "Script free Flinching-42550-1-4-1637414528.zip"
+   ],
+   "author": "NickNak Maxsu",
+   "leftover": false,
+   "key": "id:42550",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 107292,
+   "name": "Food and Drink Have Descriptions",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-03-21",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Food and Drink Have Descriptions-107292-2-4-1704272274.zip",
+    "Food and Drink Have Descriptions-107292-2-6-1708250045.7z",
+    "Food and Drink Have Descriptions-107292-2-8-1742569439.7z"
+   ],
+   "author": "kuroishitam",
+   "leftover": false,
+   "key": "id:107292",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 10897,
+   "name": "High Quality Food and Ingredients SE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "High Quality Food And Ingredients SE-10897-1-9.7z"
+   ],
+   "author": "Eraitico",
+   "leftover": false,
+   "key": "id:10897",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 113385,
+   "name": "Improved Imbuing Chamber - ENB Light",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-03-07",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "High Poly - ENB Light-113385-1-0-1709850476.rar"
+   ],
+   "author": "RemmyKun",
+   "leftover": false,
+   "key": "id:113385",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 98647,
+   "name": "Load Screen Shading Fix",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-08-16",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Load Screen Shading Fix-98647-0-1-1692446753.7z",
+    "Load Screen Shading Fix-98647-0-3-1703137591.7z",
+    "Load Screen Shading Fix-98647-0-4-1755354051.7z"
+   ],
+   "author": "wSkeever",
+   "leftover": false,
+   "key": "id:98647",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 153919,
+   "name": "Lux CS Patch",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-04",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Lux - CS Patch-153919-1-1-1751414911.zip",
+    "Lux CS 153919 2.6.0 2026-08-04T03-41Z hfH9s6ocx.zip",
+    "Lux CS-153919-2-3-5-1768491788.zip"
+   ],
+   "author": "Bottle GGUNIT",
+   "leftover": false,
+   "key": "id:153919",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 101872,
+   "name": "MO2 Audio Player Plugin",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-05-01",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "MO2AudioPlayer-101872-1-0-2-1712093694.zip",
+    "MO2AudioPlayer-101872-1-0-3-1746124282.zip"
+   ],
+   "author": "Souvik Hazra",
+   "leftover": false,
+   "key": "id:101872",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 138932,
+   "name": "Magical Potion Sounds",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-01-18",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Magical Potion Sounds-138932-1-1-1737167673.7z"
+   ],
+   "author": "Clofas",
+   "leftover": false,
+   "key": "id:138932",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 38221,
+   "name": "Mannequin Management",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-08-22",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Mannequin Management-38221-4-0-1681965874.7z",
+    "Mannequin Management-38221-4-1-1694792205.7z",
+    "Mannequin Management-38221-4-2-1724305447.7z"
+   ],
+   "author": "Icecreamassassin",
+   "leftover": false,
+   "key": "id:38221",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 128285,
+   "name": "More Interactive Objects - Throwing Things VR port",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-02-05",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Throw Stuff VR-128285-2-0-1-1738782930.7z",
+    "Throw Stuff VR-128285-2-0-1735275322.7z"
+   ],
+   "author": "Domek97",
+   "leftover": false,
+   "key": "id:128285",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 70148,
+   "name": "OSHA-Compliant Sovengarde Mesh Fixes",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-09-30",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "OSHA-Compliant Sovengarde Mesh Fixes - Parallax-70148-2-3-1727726920.7z",
+    "OSHA-Compliant Sovengarde Mesh Fixes-70148-2-0-1667989310.rar",
+    "OSHA-Compliant Sovengarde Mesh Fixes-70148-2-3-1727726900.7z"
+   ],
+   "author": "markuskarttunen1",
+   "leftover": false,
+   "key": "id:70148",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 138586,
+   "name": "OverlayFix",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-02-09",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 4,
+   "files": [
+    "OverlayFixAndOtherFixes-138586-1-45-prerelease-1761450205.zip",
+    "OverlayFixAndOtherFixes-138586-1-53-1770640311.zip",
+    "OverlayFixAndOtherFixes-138586-1-74-0-0-prerelease-767498.zip"
+   ],
+   "author": "Naitro2010",
+   "leftover": false,
+   "key": "id:138586",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 130488,
+   "name": "Peasant Dreams - A Common Bed Replacer",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-06-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Alternate BOS Selective - Inns and Taverns-130488-1-0-1728354352.rar",
+    "Peasant Dreams - A Common Bed Replacer-130488-1-0-4-1733167471.rar",
+    "Peasant Dreams - A Common Bed Replacer-130488-1-0-6-1740486627.rar"
+   ],
+   "author": "sotha simp",
+   "leftover": false,
+   "key": "id:130488",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 119235,
+   "name": "Player Name Randomizer - Show in UI",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-09-21",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Player Name Randomizer - Show in UI-119235-1-0-2-1730212832.zip",
+    "Player Name Randomizer - Show in UI-119235-1-0-5-1758447370.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:119235",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 22087,
+   "name": "Realistic HD Food Remastered",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2018-12-29",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Realistic HD Food Remastered-22087-1-3-1546092697.7z"
+   ],
+   "author": "Halk Hogan PL",
+   "leftover": false,
+   "key": "id:22087",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 44223,
+   "name": "Realistic Paper Parchment and Scroll Texture",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-01-16",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Realistic Paper Parchment-44223-1-0-1610301603.zip",
+    "Realistic Paper Scrolls-44223-1-0-1610840138.zip"
+   ],
+   "author": "Xyloritus",
+   "leftover": false,
+   "key": "id:44223",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 101696,
+   "name": "Silent Horizons 2 - Shader Core",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-09",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Silent Horizons 2 - Shader Core 101696 1.15 2026-08-09T17-22Z miUDjF4Hi.7z",
+    "Silent Horizons 2 - Shader Core for Vortex-101696-1-10-1756079032.7z",
+    "Silent Horizons 2 - Shader Core-101696-1-10-1756049324.7z"
+   ],
+   "author": "Kitsuune",
+   "leftover": false,
+   "key": "id:101696",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 143168,
+   "name": "Sleipnir Beds - An Upper Class Bed Replacer",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-03-25",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "BOS Color Variance Use Those Blankets patch-143168-1-0-2-1740832502.rar",
+    "Sleipnir Beds - BOS Color Variance - Upper Class-143168-1-1-2-1774472765.rar",
+    "Sleipnir Beds - BOS Color Variance-143168-1-0-1-1741118689.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:143168",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 150539,
+   "name": "Sovngarde Meshes - FIXES",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-10-11",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Sovngarde Meshes - Fixes-150539-1-3-1748352227.7z",
+    "Sovngarde Meshes - Fixes-150539-1-4-1760223181.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:150539",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 96117,
+   "name": "Spell Tomes - I4 icons",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-07-18",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Spell Tomes - I4 icons 1.1-96117-1-1-1689686405.7z"
+   ],
+   "author": "IAmNotSimon",
+   "leftover": false,
+   "key": "id:96117",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 112297,
+   "name": "Spellsiphon - Experience patch",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-02-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Spellsiphon - Experience Patch-112297-1-1-1708612045.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:112297",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 83864,
+   "name": "THE ENHANCER VR ENB",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-07-10",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "THE ENHANCER VR 1.1.4 - Cathedral Weathers-83864-1-1-4-1686119521.zip",
+    "THE ENHANCER VR 1.1.5 - Onyx VR Weathers-83864-1-1-5-1688970624.zip"
+   ],
+   "author": "L00 and The Riverwood Modder",
+   "leftover": false,
+   "key": "id:83864",
+   "theme": "clutter_misc"
+  }
+ ]
+}

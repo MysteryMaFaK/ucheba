@@ -1,0 +1,852 @@
+{
+ "batch": "A08",
+ "band": "A",
+ "themes": {
+  "other": 35
+ },
+ "items": [
+  {
+   "id": 29817,
+   "name": "Arctic - Frost Effects Redux",
+   "vr": 2,
+   "se": 11,
+   "score": 15,
+   "band": "A",
+   "newest": "2022-09-16",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "Arctic - Frost Effects Redux - AIO-29817-2-0-1574445188.zip",
+    "Arctic - Frost Effects Redux-29817-2-1-1591025469.zip",
+    "Arctic - Frost Effects Redux-29817-3-1-1663347430.7z"
+   ],
+   "author": "Retrospect",
+   "leftover": false,
+   "key": "id:29817",
+   "theme": "other"
+  },
+  {
+   "id": 19550,
+   "name": "Finding Derkeethus",
+   "vr": 5,
+   "se": 5,
+   "score": 15,
+   "band": "A",
+   "newest": "2019-01-10",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Finding Derkeethus-19550-1-1-1547126024.7z"
+   ],
+   "author": "SomethingObscure",
+   "leftover": false,
+   "key": "id:19550",
+   "theme": "other"
+  },
+  {
+   "id": 50197,
+   "name": "3D Casting FX - Fire and Frost Hand FX Replacer",
+   "vr": 7,
+   "se": 0,
+   "score": 14,
+   "band": "A",
+   "newest": "2021-05-21",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "3D Casting FX-50197-1-0-1621612410.7z"
+   ],
+   "author": "Arctal",
+   "leftover": false,
+   "key": "id:50197",
+   "theme": "other"
+  },
+  {
+   "id": 66770,
+   "name": "JS Dwarven Oil SE",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2024-06-18",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JS Dwarven Oil SE - 1k Textures-66770-1-1-1718342057.7z",
+    "JS Dwarven Oil SE - 2k Textures (Leaked Oil Version)-66770-1-0-1650388502.7z",
+    "JS Dwarven Oil SE - 2k Textures-66770-1-0-1650381079.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:66770",
+   "theme": "other"
+  },
+  {
+   "id": 66578,
+   "name": "JS Essence Extractor SE",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2024-10-05",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JS Essence Extractor SE - 2k Textures-66578-1-0-1650048676.7z",
+    "JS Essence Extractor SE - 2k Textures-66578-1-1-1655684963.7z",
+    "JS Essence Extractor SE - 2k Textures-66578-1-2-1719577449.rar"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:66578",
+   "theme": "other"
+  },
+  {
+   "id": 85447,
+   "name": "JS Knapsacks SE",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2025-08-02",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JS Knapsacks SE - 1k Textures-85447-1-21-1726130906.7z",
+    "JS Knapsacks SE - 1k-85447-1-2-1678015678.7z",
+    "JS Knapsacks SE - 2k Textures-85447-1-21-1726130995.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:85447",
+   "theme": "other"
+  },
+  {
+   "id": 83527,
+   "name": "Night Mother",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-01-26",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Night mother-83527-1-0-1674744620.zip"
+   ],
+   "author": "Mandragorasprouts",
+   "leftover": false,
+   "key": "id:83527",
+   "theme": "other"
+  },
+  {
+   "id": 65089,
+   "name": "Payload Interpreter",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-06-02",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Payload Interpreter - Special Edition (1.5.97)-65089-0-4-1651316213.7z",
+    "Payload Interpreter-65089-1-1-0-1685672813.zip"
+   ],
+   "author": "dTry alexsylex",
+   "leftover": false,
+   "key": "id:65089",
+   "theme": "other"
+  },
+  {
+   "id": 34684,
+   "name": "RUSTIC RELIEFS",
+   "vr": 5,
+   "se": 4,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-01-19",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "RUSTIC RELIEFS-34684-1-0-1586750725.7z",
+    "RUSTIC RELIFS - Parallax-34684-1-4-1674097970.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:34684",
+   "theme": "other"
+  },
+  {
+   "id": 4155,
+   "name": "Clockwork (SSE)",
+   "vr": 5,
+   "se": 3,
+   "score": 13,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Clockwork_SSE_v1-0-4155-1-0.7z"
+   ],
+   "author": "Antistar",
+   "leftover": false,
+   "key": "id:4155",
+   "theme": "other"
+  },
+  {
+   "id": 22990,
+   "name": "JS Barenziah SE",
+   "vr": 1,
+   "se": 11,
+   "score": 13,
+   "band": "A",
+   "newest": "2024-08-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 11,
+   "files": [
+    "JS Barenziah SE - 2K Textures-22990-1-2-1549268563.rar",
+    "JS Barenziah SE - 2K Textures-22990-1-3-1626118207.rar",
+    "JS Barenziah SE - 2k Textures-22990-1-4-1724931762.rar"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:22990",
+   "theme": "other"
+  },
+  {
+   "id": 66242,
+   "name": "JS Initiate's Ewer SE",
+   "vr": 1,
+   "se": 11,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-10-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 11,
+   "files": [
+    "JS Initiate's Ewer SE - 2k Textures-66242-1-1-1659200844.7z",
+    "JS Initiate's Ewer SE - Chantry of Auriel Patch-66242-1-0-1697304644.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:66242",
+   "theme": "other"
+  },
+  {
+   "id": 102226,
+   "name": "JS Unique Utopia SE - Rings",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2026-01-24",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JS Unique Utopia SE - Rings - 1k Textures-102226-1-21-1738435861.7z",
+    "JS Unique Utopia SE - Rings - 1k Textures-102226-1-22-1769250825.7z",
+    "JS Unique Utopia SE - Rings - 2k Textures-102226-1-2-1698475706.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:102226",
+   "theme": "other"
+  },
+  {
+   "id": 49845,
+   "name": "Lamenthia's Marks of Beauty",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2021-05-13",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Lamenthia's Marks of Beauty 2k-49845-1-0-1620935505.7z",
+    "Lamenthia's Marks of Beauty 4k-49845-1-0-1620935756.7z"
+   ],
+   "author": "Lamenthia",
+   "leftover": false,
+   "key": "id:49845",
+   "theme": "other"
+  },
+  {
+   "id": 26788,
+   "name": "Missives - Worldspace Additions",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2026-06-02",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Missives - Bruma Patch-26788-2-10-1745444411.7z",
+    "Missives - Falskaar Patch-26788-2-04b-1628861927.7z",
+    "Missives - Gray Cowl Patch-26788-2-11-1751149970.7z"
+   ],
+   "author": "AndrealphusVIII",
+   "leftover": false,
+   "key": "id:26788",
+   "theme": "other"
+  },
+  {
+   "id": 44644,
+   "name": "Praedy's repository - SE",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2025-04-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Chisel 2K-44644-2-0-1665876723.7z",
+    "Dragonstone 2K-44644-2-0-1665876854.7z",
+    "Grayfox Bust 1K-44644-2-0-1665877228.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:44644",
+   "theme": "other"
+  },
+  {
+   "id": 81764,
+   "name": "Rally's Display Cases",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2025-05-29",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Hotfix squeak sounds-81764-1-0-1678829887.7z",
+    "Rally's Display Cases-81764-1-1-1673347169.7z",
+    "Rally's Display Cases-81764-1-2-1677692910.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:81764",
+   "theme": "other"
+  },
+  {
+   "id": 80828,
+   "name": "Rally's Handcarts",
+   "vr": 3,
+   "se": 7,
+   "score": 13,
+   "band": "A",
+   "newest": "2024-02-26",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "BOS Handcarts 2K-80828-1-0-1708942325.7z",
+    "Rally's Handcarts-80828-1-0-1671397773.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:80828",
+   "theme": "other"
+  },
+  {
+   "id": 68177,
+   "name": "Unique Animations Reworked",
+   "vr": 1,
+   "se": 11,
+   "score": 13,
+   "band": "A",
+   "newest": "2022-05-16",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "Unique Animations Reworked-68177-1-0-1652735301.rar"
+   ],
+   "author": "raiserfx",
+   "leftover": false,
+   "key": "id:68177",
+   "theme": "other"
+  },
+  {
+   "id": 37302,
+   "name": "Butterfly Improved by zzjay - SE",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2022-06-05",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "01 - Saint and Seducers - Patch-37302-1-0-1-1654394928.7z",
+    "Butterflies-37302-1-0-1592165051.7z",
+    "Rudy HQ - Luna Moth ENB Light-37302-beta1-0-1592595058.7z"
+   ],
+   "author": "zzjay",
+   "leftover": false,
+   "key": "id:37302",
+   "theme": "other"
+  },
+  {
+   "id": 26173,
+   "name": "Cuyi's Bosmeri Antlers - SSE",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2021-05-02",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Cuyi's Bosmeri Antlers - ESL-26173-1-2-SSE-1619963503.7z"
+   ],
+   "author": "cuyima",
+   "leftover": false,
+   "key": "id:26173",
+   "theme": "other"
+  },
+  {
+   "id": 2357,
+   "name": "Enhanced Blood Textures",
+   "vr": 4,
+   "se": 4,
+   "score": 12,
+   "band": "A",
+   "newest": "2021-12-15",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Enhanced Blood Textures 4.0 beta-2357-3-99-1631184504.7z",
+    "Enhanced Blood Textures-2357-4-0-1639547261.7z",
+    "Main 3.8-2357-3-8.7z"
+   ],
+   "author": "dDefinder",
+   "leftover": false,
+   "key": "id:2357",
+   "theme": "other"
+  },
+  {
+   "id": 28973,
+   "name": "Finding Helgi... and Laelette - A Laid to Rest Overhaul",
+   "vr": 4,
+   "se": 4,
+   "score": 12,
+   "band": "A",
+   "newest": "2020-03-27",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Finding Helgi and Laelette-28973-1-1-1585338362.7z"
+   ],
+   "author": "SomethingObscure",
+   "leftover": false,
+   "key": "id:28973",
+   "theme": "other"
+  },
+  {
+   "id": 7849,
+   "name": "Forgotten Retex Project",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2024-05-10",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Forgotten Retex Project - Full Resolution-7849-8-4-1715370668.7z",
+    "Forgotten Retex Project - Half Res-7849-8-3-1675171828.7z",
+    "Forgotten Retex Project-7849-5-3-1559412759.7z"
+   ],
+   "author": "JDAnchor",
+   "leftover": false,
+   "key": "id:7849",
+   "theme": "other"
+  },
+  {
+   "id": 98308,
+   "name": "Open Animation Replacer - IED Conditions",
+   "vr": 0,
+   "se": 12,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-09-01",
+   "vr_lists": [],
+   "se_lists": 12,
+   "files": [
+    "Open Animation Replacer - IED conditions-98308-1-0-3-1693587943.zip"
+   ],
+   "author": "SlavicPotato",
+   "leftover": false,
+   "key": "id:98308",
+   "theme": "other"
+  },
+  {
+   "id": 21061,
+   "name": "Penitus Oculatus",
+   "vr": 2,
+   "se": 8,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-11-25",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Penitus Oculatus-21061-0-15-7-1652653260.7z",
+    "Penitus Oculatus-21061-0-18-4-1700930678.7z"
+   ],
+   "author": "TheRegisteredOne - ws - wankingSkeever",
+   "leftover": false,
+   "key": "id:21061",
+   "theme": "other"
+  },
+  {
+   "id": 66261,
+   "name": "Praedy's Soul Cairn - SE",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2025-05-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Praedy's Soul Cairn 2K-66261-2-0-1666904012.7z",
+    "Praedy's Soul Cairn 2K-66261-3-1-1729403212.7z",
+    "Praedy's Soul Cairn 2K-66261-3-2-1745173102.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:66261",
+   "theme": "other"
+  },
+  {
+   "id": 6142,
+   "name": "RUSTIC COOKING - Special Edition",
+   "vr": 4,
+   "se": 4,
+   "score": 12,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 4,
+   "files": [
+    "RUSTIC COOKING - Special Edition - 1K-6142-1-0.7z",
+    "RUSTIC COOKING - Special Edition - 2K-6142-1-0.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:6142",
+   "theme": "other"
+  },
+  {
+   "id": 114178,
+   "name": "Rally's Barsets",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2024-03-16",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Rally's Barsets 2K-114178-1-0-1710615908.7z",
+    "Rally's Barsets 4K-114178-1-0-1710615873.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:114178",
+   "theme": "other"
+  },
+  {
+   "id": 18147,
+   "name": "SUEMR SSE with Bijin AIO 2019 Support",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2019-12-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "SUEMR No Beast Race Glow SSE-18147-v3-0-1558361611.7z",
+    "SUEMR Optional No-Glow Vampire Eye Meshes SSE-18147-v3-0-1577160333.7z",
+    "SUEMR Optional Red Vampire Eye Meshes SSE-18147-v3-0-1577160518.7z"
+   ],
+   "author": "RAN46  bellwood2206  Borearis  HHaleyy  rxkx22  Ruhadre",
+   "leftover": false,
+   "key": "id:18147",
+   "theme": "other"
+  },
+  {
+   "id": 130200,
+   "name": "Sensible Oculory Solution - Logical Mzark Puzzle - Discerning The Transmundane - Main Quest",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2024-09-27",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Sensible Oculory Solution - Logical Mzark Puzzle-130200-0-1-1-1727447765.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:130200",
+   "theme": "other"
+  },
+  {
+   "id": 105697,
+   "name": "The Gift of Saturalia - A Quest for the Holidays",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2026-07-01",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 6,
+   "files": [
+    "The Gift of Saturalia 105697 1.05 2026-07-01T16-36Z izKcFpdmv.rar",
+    "The Gift of Saturalia 105697 1.05 izKcFpdmv.rar",
+    "The Gift of Saturalia-105697-1-0-1702893916.rar"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:105697",
+   "theme": "other"
+  },
+  {
+   "id": 52073,
+   "name": "Unique Skulls HD - SE",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2021-07-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Unique Skulls HD - SE 1K-52073-1-1-1626611858.7z",
+    "Unique Skulls HD - SE 2K-52073-1-1-1626611871.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:52073",
+   "theme": "other"
+  },
+  {
+   "id": 100000,
+   "name": "[серия «walk and run», 5 модов] Vanargand Animations II - Female Idle Walk And Run и др.",
+   "vr": 2,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-09-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "CATA Addon - Vanargand II Female Idle Walk Run-100000-1-1-1693937298.7z",
+    "Vanargand Animations II - Female Idle Walk and Run-100000-1-1-1693937227.7z"
+   ],
+   "author": "Verolevi",
+   "leftover": false,
+   "key": "id:100000",
+   "series": "walk and run",
+   "members": [
+    {
+     "id": 100000,
+     "name": "Vanargand Animations II - Female Idle Walk And Run",
+     "vr": 1,
+     "se": 10,
+     "newest": "2023-09-05",
+     "files": [
+      "CATA Addon - Vanargand II Female Idle Walk Run-100000-1-1-1693937298.7z"
+     ]
+    },
+    {
+     "id": 99999,
+     "name": "Vanargand Animations II - Male Idle Walk And Run",
+     "vr": 1,
+     "se": 9,
+     "newest": "2023-09-18",
+     "files": [
+      "CATA Addon - Vanargand II Male Idle Walk Run-99999-1-0-1695014799.7z"
+     ]
+    },
+    {
+     "id": 68005,
+     "name": "Goetia Animations - Female Idle Walk And Run",
+     "vr": 2,
+     "se": 6,
+     "newest": "2023-06-25",
+     "files": [
+      "CATA Addon - Goetia female idle Walk Run-68005-1-2c-1687702348.7z"
+     ]
+    },
+    {
+     "id": 68625,
+     "name": "Goetia Animations - Male Idle Walk And Run",
+     "vr": 1,
+     "se": 6,
+     "newest": "2023-06-25",
+     "files": [
+      "CATA Addon - Goetia male idle Walk Run-68625-1-3c-1687702350.7z"
+     ]
+    },
+    {
+     "id": 52488,
+     "name": "(Superseded) Vanargand Animations - Male Idle Walk and Run",
+     "vr": 2,
+     "se": 1,
+     "newest": "2023-06-25",
+     "files": [
+      "CATA Addon - Vanargand male idle walk run-52488-1-3-1-1628633321.7z"
+     ]
+    }
+   ],
+   "theme": "other"
+  },
+  {
+   "id": 135679,
+   "name": "Complex Material Hub",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "A",
+   "newest": "2024-12-15",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Daedric Shrines AIO Complex Material-135679-1-0-1733712296.rar",
+    "Dibella Statue Complex Material-135679-1-0-1733478052.rar",
+    "Skyking Riften Complex Material-135679-1-0-1733640473.rar"
+   ],
+   "author": "Leo",
+   "leftover": true,
+   "key": "id:135679",
+   "theme": "other"
+  }
+ ]
+}

@@ -1,0 +1,838 @@
+{
+ "batch": "D10",
+ "band": "D",
+ "themes": {
+  "body_face": 20,
+  "clutter_misc": 14
+ },
+ "items": [
+  {
+   "id": 70161,
+   "name": "RaceMenu 0.4.16 Memory Leak Hotfix (SE)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-06-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "RaceMenu 0.4.16 Memory Leak Hotfix (SE)-70161-1-0-0-1656002259.zip"
+   ],
+   "author": "SlavicPotato",
+   "leftover": false,
+   "key": "id:70161",
+   "theme": "body_face"
+  },
+  {
+   "id": 67532,
+   "name": "Redguard Elite Armaments - Voiced Narrative (Creation Club)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-09-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Redguard Elite Armaments - Voiced Narrative-67532-1-1-1653641121.rar",
+    "Redguard Elite Armaments - Voiced Narrative-67532-2-1-1758338082.zip"
+   ],
+   "author": "G The Generous",
+   "leftover": false,
+   "key": "id:67532",
+   "theme": "body_face"
+  },
+  {
+   "id": 28596,
+   "name": "Reduced Fire-Candle-Torch Glow",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-11-02",
+   "vr_lists": [
+    "FUS",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Reduced Fire_Candle_Torch Glow Effects-28596-1-2-1-1572715408.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:28596",
+   "theme": "body_face"
+  },
+  {
+   "id": 64314,
+   "name": "Reverie - Skin",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-09-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Reverie-64314-1-11-2-1727366169.7z",
+    "Reverie-64314-1-9-1-1663205435.7z"
+   ],
+   "author": "Novelyst",
+   "leftover": false,
+   "key": "id:64314",
+   "theme": "body_face"
+  },
+  {
+   "id": 40845,
+   "name": "Rugged Rogue_Wilderness Witch CBBE 3BA and 4-8k Textures upscale",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Rugged Rogue Outfits 8k Upscaled Textures and CBBE 3BA Bodyslide-40845-1-1-1601112590.rar",
+    "Rugged Rogue Outfits CBBE 3BA UniBoob v2  and Weathered Variants fix-40845-2-1610709342.rar",
+    "Wilderness Witch 8k Texture Upscale CBBE 3BA-40845-1-0-1601654869.rar"
+   ],
+   "author": "QuarantineCouture",
+   "leftover": false,
+   "key": "id:40845",
+   "theme": "body_face"
+  },
+  {
+   "id": 72451,
+   "name": "SCAR Stamina Limitation Patch",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "SCAR Stamina Limitation-72451-v1-2-1662349606.7z",
+    "SCAR Stamina Limitation-72451-v1-4-1716645240.7z"
+   ],
+   "author": "Maxsu",
+   "leftover": false,
+   "key": "id:72451",
+   "theme": "body_face"
+  },
+  {
+   "id": 89492,
+   "name": "SCAR VR - Skyrim Combos AI Revolution VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-18",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SCAR VR - Skyrim Combos AI Revolution VR-89492-1-0-7-1681804294.7z"
+   ],
+   "author": "alandtse",
+   "leftover": false,
+   "key": "id:89492",
+   "theme": "body_face"
+  },
+  {
+   "id": 16582,
+   "name": "Salt and Wind - Rough Hair for KS Hairdos SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-02-21",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Salt and Wind - KS Hairdo's Retexture-16582-3-1-1582317488.7z",
+    "Salt and Wind - KS Hairdo's SMP Retexture-16582-3-1-1582317856.7z"
+   ],
+   "author": "Jasper and Shiva182",
+   "leftover": false,
+   "key": "id:16582",
+   "theme": "body_face"
+  },
+  {
+   "id": 57131,
+   "name": "Sharkish Piercings - BHUNP and 3BA Body Piercings",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-10-17",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "(2) Sharkish Piercings - 3BA - Base-57131-1-01-1634464044.7z"
+   ],
+   "author": "DomainWolf",
+   "leftover": false,
+   "key": "id:57131",
+   "theme": "body_face"
+  },
+  {
+   "id": 117172,
+   "name": "Simple Beheading - NG",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-20",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Simple Beheading - Latest Version-117172-1-0-5-1736210829.zip",
+    "Simple Beheading - Latest Version-117172-1-0-6-1750409424.zip"
+   ],
+   "author": "Seb263",
+   "leftover": false,
+   "key": "id:117172",
+   "theme": "body_face"
+  },
+  {
+   "id": 14490,
+   "name": "Simple Drop Lit Torches SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Simple Drop Lit Torches SE-14490-1-0-8-1747767802.zip"
+   ],
+   "author": "Snotgurg",
+   "leftover": false,
+   "key": "id:14490",
+   "theme": "body_face"
+  },
+  {
+   "id": 28060,
+   "name": "Ultimate HD Torch",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Ultimate HD Torch 1_3-28060-.rar"
+   ],
+   "author": "BuzzDee84",
+   "leftover": false,
+   "key": "id:28060",
+   "theme": "body_face"
+  },
+  {
+   "id": 120738,
+   "name": "Ultimate NPC Dodging",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-10-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ultimate NPC dodging (8-way Dodging)-120738-2-4-8-1760079194.7z",
+    "Ultimate NPC dodging (Clean Install)-120738-2-4-2-1738398128.7z",
+    "Ultimate NPC dodging (Clean Install)-120738-2-4-3-1748828255.7z"
+   ],
+   "author": "Kenny Leone",
+   "leftover": false,
+   "key": "id:120738",
+   "theme": "body_face"
+  },
+  {
+   "id": 105792,
+   "name": "Vi - Female Nord CharGen",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-28",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Vi_RaceMenuPreset-105792-1-0-0-1701207929.zip"
+   ],
+   "author": "ldentity8",
+   "leftover": false,
+   "key": "id:105792",
+   "theme": "body_face"
+  },
+  {
+   "id": 99860,
+   "name": "Visual Equipment - IED Preset - Includes most NPCs",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-09-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Visual Equipment - IED Preset 1.3-99860-1-3-1694634484.zip",
+    "Visual Equipment - IED Preset 1.4-99860-1-4-1726972195.zip"
+   ],
+   "author": "ethantokes",
+   "leftover": false,
+   "key": "id:99860",
+   "theme": "body_face"
+  },
+  {
+   "id": 37384,
+   "name": "Yyvengar Bodypaint - Designs of the Lupine - RaceMenu Overlays",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Yyvengar Bodypaints - Female and Male (CBBE)-37384-1-0-1592375189.7z"
+   ],
+   "author": "DomainWolf",
+   "leftover": false,
+   "key": "id:37384",
+   "theme": "body_face"
+  },
+  {
+   "id": 79251,
+   "name": "[серия «nithi npc», 5 модов] NITHI NPC ENHANCEMENT - The Rift и др.",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "FOMOD - NITHI NPC Enhancement - The Rift-79251-1-2-1684248714.rar"
+   ],
+   "author": "nightmarezone",
+   "leftover": false,
+   "key": "id:79251",
+   "series": "nithi npc",
+   "members": [
+    {
+     "id": 79251,
+     "name": "NITHI NPC ENHANCEMENT - The Rift",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-05-16",
+     "files": [
+      "FOMOD - NITHI NPC Enhancement - The Rift-79251-1-2-1684248714.rar"
+     ]
+    },
+    {
+     "id": 79689,
+     "name": "NITHI NPC ENHANCEMENT - Whiterun",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-04-21",
+     "files": [
+      "FOMOD - NITHI NPC Enhancement - Whiterun-79689-2-3-1702522798.rar"
+     ]
+    },
+    {
+     "id": 87900,
+     "name": "NITHI NPC Enhancement - Dawnguard DLC",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-03-31",
+     "files": [
+      "FOMOD - NITHI NPC Enhancement - Dawnguard DLC-87900-1-0b-1680223861.rar"
+     ]
+    },
+    {
+     "id": 106705,
+     "name": "NITHI NPC Enhancement - Eastmarch",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-06-25",
+     "files": [
+      "FOMOD - NITHI NPC Enhancement - Eastmarch-106705-1-1-1708668398.rar"
+     ]
+    },
+    {
+     "id": 86150,
+     "name": "NITHI NPC Enhancement - The Reach",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-05-18",
+     "files": [
+      "FOMOD - NITHI NPC Enhancement - The Reach-86150-1-1b-1684405311.rar"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 51697,
+   "name": "[серия «tbd bhunp se», 4 модов] COCO Goddess Of War - CBBE-TBD-BHUNP SE и др.",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-29",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "COCO Goddess Of War -  CBBE SE-51697-1-0-1625007953.7z"
+   ],
+   "author": "COCO",
+   "leftover": false,
+   "key": "id:51697",
+   "series": "tbd bhunp se",
+   "members": [
+    {
+     "id": 51697,
+     "name": "COCO Goddess Of War - CBBE-TBD-BHUNP SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-06-29",
+     "files": [
+      "COCO Goddess Of War -  CBBE SE-51697-1-0-1625007953.7z"
+     ]
+    },
+    {
+     "id": 39132,
+     "name": "COCO Lingerie - CBBE-TBD-BHUNP SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-06-20",
+     "files": [
+      "COCO Lingerie - CBBE SE-39132-2-0-1624206306.7z"
+     ]
+    },
+    {
+     "id": 57213,
+     "name": "COCO Shadow Assassin - CBBE-TBD-BHUNP SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-10-23",
+     "files": [
+      "COCO Shadow Assassin - CBBE SE-57213-1-5-1634973690.7z"
+     ]
+    },
+    {
+     "id": 45107,
+     "name": "Nezzar's Ult Lingerie Collection 2.0 - CBBE-TBD-BHUNP SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-02-04",
+     "files": [
+      "Nezzar Ult Lingerie Collection 2.0 - CBBE SE-45107-1-1-1612444163.7z"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 64787,
+   "name": "[серия «tbd uunp se», 4 модов] COCO Battle Angels - CBBE-TBD-UUNP SE и др.",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-03-12",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "COCO Battle Angels - CBBE 3BA-64787-1-0-1647087376.7z"
+   ],
+   "author": "COCO",
+   "leftover": false,
+   "key": "id:64787",
+   "series": "tbd uunp se",
+   "members": [
+    {
+     "id": 64787,
+     "name": "COCO Battle Angels - CBBE-TBD-UUNP SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2022-03-12",
+     "files": [
+      "COCO Battle Angels - CBBE 3BA-64787-1-0-1647087376.7z"
+     ]
+    },
+    {
+     "id": 68006,
+     "name": "COCO Caress of Venus - CBBE-TBD-UUNP SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2022-05-15",
+     "files": [
+      "COCO Caress of Venus - CBBE 3BA-68006-1-0-1652595767.7z"
+     ]
+    },
+    {
+     "id": 78335,
+     "name": "COCO Goddess Of War V2 - CBBE-TBD-UUNP SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2022-11-07",
+     "files": [
+      "COCO Goddess Of War V2 - CBBE 3BA-78335-1-0-1667807546.7z"
+     ]
+    },
+    {
+     "id": 49772,
+     "name": "Melodic Olga Discordia - CBBE-TBD-UUNP SE",
+     "vr": 2,
+     "se": 0,
+     "newest": "2022-08-31",
+     "files": [
+      "Melodic Olga Discordia - CBBE SE-49772-2-0-1661922974.7z"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 19899,
+   "name": "monster race crash fix",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-07-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Monster race crash fix AE-19899-1-3-4-1663528382.zip",
+    "Monster race crash fix NG 19899 1.4.3 2026-07-25T03-33Z 8gJHT4fwt.zip"
+   ],
+   "author": "z65536",
+   "leftover": false,
+   "key": "id:19899",
+   "theme": "body_face"
+  },
+  {
+   "id": 80304,
+   "name": "A Nirnroot - Particle Light Patch",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-03-05",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "A Nirnroot - Animated Particle Light Patch-80304-1-1-1678027938.rar"
+   ],
+   "author": "DefinitelyNotNoah",
+   "leftover": false,
+   "key": "id:80304",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 107239,
+   "name": "All Books and Notes Descriptions",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-12-17",
+   "vr_lists": [
+    "Librum VR",
+    "Tahrovin"
+   ],
+   "se_lists": 1,
+   "files": [
+    "All Books EN v0.1-107239-0-1-1702850000.zip",
+    "All Books EN-107239-0-1-1702853921.zip"
+   ],
+   "author": "Sergg",
+   "leftover": false,
+   "key": "id:107239",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 107094,
+   "name": "All Keys Descriptions",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-12-16",
+   "vr_lists": [
+    "Librum VR",
+    "Tahrovin"
+   ],
+   "se_lists": 1,
+   "files": [
+    "All Keys Descriptions v2.1 En-107094-2-1-1702754244.zip"
+   ],
+   "author": "Sergg",
+   "leftover": false,
+   "key": "id:107094",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 153425,
+   "name": "Ambient Templates for Lighting Mods",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-04-30",
+   "vr_lists": [
+    "Stormcrown VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Ambient Templates For Lighting Mods-153425-3-2-1777555185.zip"
+   ],
+   "author": "Dlizzio - isoprophlex - DrJacopo",
+   "leftover": false,
+   "key": "id:153425",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 112174,
+   "name": "Amon - SK Fix All in One",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-21",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Amon - SK textures All in One-112174-1-1708477463.rar"
+   ],
+   "author": "zxamonxz",
+   "leftover": false,
+   "key": "id:112174",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 14398,
+   "name": "Animated Clutter SE",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Animated Clutter SSE-14398-1-9.rar"
+   ],
+   "author": "JackMorris",
+   "leftover": false,
+   "key": "id:14398",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 58655,
+   "name": "Apothecary and CACO Patches for Potion Remodels",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-12-14",
+   "vr_lists": [
+    "FUS",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Apothecary Patch-58655-1-2-1679276661.7z",
+    "Awesome Potions Simplified - CACO-58655-1-1-1637244656.7z",
+    "CACO Patch-58655-1-21-1702513839.7z"
+   ],
+   "author": "Zira",
+   "leftover": false,
+   "key": "id:58655",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 24104,
+   "name": "Atlas Map Markers SE - Updated with MCM",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-03-24",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Atlas Map Markers-24104-3-0-4-1742779005.7z"
+   ],
+   "author": "Kronixx and kryptopyr",
+   "leftover": false,
+   "key": "id:24104",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 57607,
+   "name": "Awesome Potions Simplified by Revoith",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-11-27",
+   "vr_lists": [
+    "FUS",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Awesome Potions Simplified - ZUPA Patch-57607-2-0-1637074380.rar",
+    "Awesome Potions Simplified-57607-2-1-1637408263.rar",
+    "No Drink Visual FX-57607-2-1-1637974346.rar"
+   ],
+   "author": "Revoith",
+   "leftover": false,
+   "key": "id:57607",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 117052,
+   "name": "BFCO - Attack Behavior Framework (SSE VR)",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-23",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "BFCO - Attack Behavior Framework 117052 3.100.7 2026-08-23T10-59Z 587RqTfnl.zip",
+    "BFCO - Attack Behavior Framework-117052-3-100-2-1777778638.zip",
+    "BFCO - Attack Behavior Framework-117052-3-3-10-1738840454.zip"
+   ],
+   "author": "BF001",
+   "leftover": false,
+   "key": "id:117052",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 90569,
+   "name": "Better tomboys (wide spread arms fix) DAR animations",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-05-15",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Better tomboys-90569-1-1-1-1684110696.zip"
+   ],
+   "author": "samuelga24",
+   "leftover": false,
+   "key": "id:90569",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 103042,
+   "name": "Cabbage ENB for NAT 3 Weather",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-12-17",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Cabbage ENB-103042-1-2-2-1731486995.7z",
+    "Cabbage ENB-103042-1-2-3-1732516825.zip",
+    "Cabbage ENB-103042-1-2-5-1734028165.7z"
+   ],
+   "author": "Cabbage",
+   "leftover": false,
+   "key": "id:103042",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 173074,
+   "name": "Character Menu SE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-09-16",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Character Menu SE 173074 1.3 2026-09-16T16-38Z Ae46W7Lot.zip",
+    "Character Menu SE-173074-1-2-1-1774724072.zip"
+   ],
+   "author": "JPSteel2",
+   "leftover": false,
+   "key": "id:173074",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 106790,
+   "name": "ChickenMike's Random Assortment of Patches (C.R.A.P.)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-06-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "CRAP FOMOD-106790-3-1-0-1721807005.zip",
+    "CRAP FOMOD-106790-3-13-0-1769964438.zip",
+    "CRAP FOMOD-106790-3-14-0-1780501045.zip"
+   ],
+   "author": "ChickenMike",
+   "leftover": false,
+   "key": "id:106790",
+   "theme": "clutter_misc"
+  }
+ ]
+}

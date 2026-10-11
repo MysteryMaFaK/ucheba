@@ -1,0 +1,244 @@
+{
+ "verdicts": [
+  {
+   "key": "id:164902",
+   "keep": true,
+   "section": "ix_magic",
+   "tag": "alt",
+   "choose_one_group": "spell-aim-assist",
+   "what": "SpellBender VR: SKSE-плагин, подгибает снаряды-заклинания к цели и увеличивает дальность полёта на уровне движка.",
+   "note": "Альтернатива Spell Auto-Aim VR (#119689, уже в Core, opt), а не добавка. MODLIST (стр. 1193, 1340) называет их взаимоисключающими по слову автора, а Tempus и Panda's ставят оба (SpellBender 1.0.2): ставить один, второй только после теста. Файл 1.0.2, нужны SKSEVR и VR Address Library. Проверить лог sksevr.log.",
+   "reason": "Свежий (2026-01) VR-native мод из двух VR-списков, реально меняет прицеливание рукой. Не дубль Core, но только как замена Spell Auto-Aim, не вместе."
+  },
+  {
+   "key": "id:30558",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "SkyrimVR Strange Runes: светящиеся руны на ладонях при касте; для ладонного каста есть Palm Edition.",
+   "note": "Файл «VR Edition» 2.5; Yggdrasil добавляет «Palm Edition Update» (содержимое по имени файла, описание не читано). Плоский #19456 не брать. Чисто визуал рук, с HIGGS/PLANCK/VRIK не конфликтует; ставить после MISVR. Без ENB.",
+   "reason": "Косметика, но VR-специфичная и стоит в двух VR-списках; даёт визуальный отклик каста. Конфликтов нет, оставить как необязательный."
+  },
+  {
+   "key": "id:157974",
+   "keep": false,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Elemental Fury VR: VR-вариант правки крика Elemental Fury.",
+   "note": "Содержимое не проверено.",
+   "reason": "Правка конкретного крика, не взаимодействие; описание не прочитано; крики и шаут-паки вне темы."
+  },
+  {
+   "key": "id:63889",
+   "keep": false,
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Enhanced Invisibility VR: визуал невидимости.",
+   "note": "Не в теме.",
+   "reason": "Визуальная косметика невидимости, не интерактивность; поведение NPC уже закрыто NPCs React To Invisibility в MODLIST."
+  },
+  {
+   "key": "id:116601",
+   "keep": false,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Enchantment Art Extender VR: фреймворк визуала зачарований.",
+   "note": "Только фреймворк.",
+   "reason": "Сам ничего не меняет, нужен лишь модам визуала зачарований; не интерактивность; риск несовпадения пар версий."
+  },
+  {
+   "key": "id:142757",
+   "keep": false,
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "First person magic hand light fix: правка света заклинаний в руке.",
+   "note": "Дубль по функции.",
+   "reason": "Статус VR неизвестен, содержимое не читано; пересекается с CS Light и Rally's Candlelight/Magelight Fix, которые уже в списках."
+  },
+  {
+   "key": "id:35687",
+   "keep": false,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "VR Bound Bow FX Restored: эффект призванного лука.",
+   "note": "Один список, 2020 год.",
+   "reason": "Узкая косметика для призванного лука, один список, описание не прочитано."
+  },
+  {
+   "key": "id:72174",
+   "keep": true,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Yelling At The Sky VR: VR-вариант иммерсивных превращений (оборотень, вампир-лорд), версия 0.9.",
+   "note": "Файл 0.9 (Panda's, FUS, Yggdrasil), SE-аналогов нет. Описание страницы не читано: механику (жест или голос в микрофон) уточнить до установки; если голос, не сочетать с DSN и ИИ-NPC (общий микрофон). Пара к Vampire/Werewolf Body for VR из Other. Проверить, что возврат из формы не ломает калибровку VRIK.",
+   "reason": "Три VR-списка и ни одного SE: реальный VR-native интерактивный мод. Оставляем как «try» из-за версии 0.9 и непрочитанного описания."
+  },
+  {
+   "key": "n:skyvoice-vr",
+   "keep": false,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": "voice-shouts",
+   "what": "SkyVoice: крик голосом через VoiceMacro/WSR.",
+   "note": "Файл и номер Nexus не подтверждены.",
+   "reason": "Нет в VR-списках, источники ~2018, сопоставление ID не проверено, лаг 1 с, конфликт микрофона с DSN/ИИ-NPC. Без подтверждённого файла нельзя."
+  },
+  {
+   "key": "n:skyrim-voice-control-module",
+   "keep": false,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": "voice-shouts",
+   "what": "SVCM: голосовой выбор заклинаний и сетов.",
+   "note": "Файл не подтверждён.",
+   "reason": "Нет в списках, дата неизвестна, не подтверждён файл; выбор заклинаний уже закрыт Spell Wheel VR, микрофон конфликтует с DSN."
+  },
+  {
+   "key": "n:skyrimvr-3dirp",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "3DIRP: 3D-меню заклинаний (GitHub, без релиза).",
+   "note": "Следить за появлением релиза.",
+   "reason": "Нет релиза, нет VR-подтверждения работы; пересекается со Spell Wheel VR. Без готовой сборки не ставить."
+  },
+  {
+   "key": "id:112297",
+   "keep": false,
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Spellsiphon Experience Patch: опыт навыков за Spellsiphon.",
+   "note": "Баланс, не интерактивность.",
+   "reason": "Патч прогрессии к opt-моду; к взаимодействию в VR отношения не имеет и пересекается с магическими оверхолами."
+  },
+  {
+   "key": "id:87315",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": "vr-crosshair",
+   "what": "Eagle Eye Cursor Replacer VR: замена прицела/курсора для VR, помогает целиться заклинаниями.",
+   "note": "Файл 0.1 (2023) стоит в четырёх VR-списках (Tempus, Stormcrown, Panda's, FUS). Описание страницы не читано. Брать один прицел из группы: Crosshairs different colours не ставить вместе. Дополняет MISVR/SpellBender/Auto-Aim, не заменяет.",
+   "reason": "Единственный прицел, который шипят 4 VR-списка, включая свежий Stormcrown. Победитель в группе vr-crosshair."
+  },
+  {
+   "key": "id:17512",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "vr-crosshair",
+   "what": "Crosshairs different colours VR: цветные прицелы.",
+   "note": "Проиграл Eagle Eye в группе.",
+   "reason": "Старый v0.9, два списка, тот же элемент HUD, что Eagle Eye; остаётся одно."
+  },
+  {
+   "key": "id:112605",
+   "keep": false,
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "StatFX: эффекты изображения при низких статах.",
+   "note": "Укачивание.",
+   "reason": "Full-screen imagespace в VR рискует укачиванием; дублирует Better Resource Warnings и полоски Spell Wheel VR из MODLIST."
+  },
+  {
+   "key": "id:32269",
+   "keep": false,
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "No More Swirl Effects from Absorb: убирает вихри Absorb.",
+   "note": "Мелочь.",
+   "reason": "Мелкая косметическая правка к opt-Spellsiphon, один VR-список, описание по названию."
+  },
+  {
+   "key": "id:3205",
+   "keep": false,
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "No Edge Glow: убирает свечение по краям экрана.",
+   "note": "VR-статус неизвестен.",
+   "reason": "Мод ~2013, один список, VR не подтверждён, эффект косметический."
+  },
+  {
+   "key": "id:21297",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "MageVR: старый жестовый каст глифами (2020). Не ставить поверх Spell Wheel VR/MISVR/ISPVR.",
+   "note": "Только FUS, версия 2.8, 2020 год. Делит кнопки и руки с жестами каста и Spell Wheel VR: риск двойного каста. Утверждение о замене «жестами VRIK» не подтверждено: VRIK сам заклинаний не рисует. Конфликт ожидаемый, не проверен.",
+   "reason": "Реальная ловушка (в списке FUS), устарел и перекрывается с Core по вводу."
+  },
+  {
+   "key": "id:58489",
+   "keep": false,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Real Virtual Magic: магия через ЭЭГ-повязку.",
+   "note": "Шум.",
+   "reason": "Нужно спецоборудование, никто не поставит случайно; предупреждение бесполезно."
+  },
+  {
+   "key": "id:61950",
+   "keep": false,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Enhanced Invisibility (плоская версия).",
+   "note": "Не в теме.",
+   "reason": "VR-версия #63889 отклонена как косметика, предупреждать не о чем."
+  },
+  {
+   "key": "id:97345",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Wheeler (плоское радиальное меню): в VR вместо него Spell Wheel VR из Core.",
+   "note": "Стоит в 7 SE-листах, VR-листов нет. Дублирует Spell Wheel VR (#47630); патчи Wheeler (#132074, #161698, #97434) тоже не нужны. Статус «flat_only» по whouses, не по странице мода.",
+   "reason": "Популярный SE-мод, который легко перенести в VR по привычке; прямой дубль Core."
+  },
+  {
+   "key": "id:166987",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "SIGMA и подобные анимации каста от первого лица: в VR руки ведёт VRIK, не ставить.",
+   "note": "4 SE-листа, VR-листов нет. Заодно не нужны Smooth Magic Casting (#45799), Smooth Staff Animation (#54883), Staff Blocking and Bashing (#106536). Конфликт с VRIK ожидаемый, не проверен тестом.",
+   "reason": "Типичная ловушка при переносе SE-сборки; анимации заменяют то, чем в VR управляют контроллеры."
+  },
+  {
+   "key": "id:63980",
+   "keep": false,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Contextual Crosshair (плоский прицел).",
+   "note": "Мелочь.",
+   "reason": "Мелкий плоский HUD-мод; вопрос уже закрыт выбором прицела для VR."
+  },
+  {
+   "key": "id:77843",
+   "keep": false,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "True Directional Movement и патчи.",
+   "note": "Уже учтено в MODLIST.",
+   "reason": "MODLIST (стр. 2369) уже перечисляет True Directional Movement среди несовместимых; дубль предупреждения."
+  }
+ ]
+}

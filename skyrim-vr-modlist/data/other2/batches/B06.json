@@ -1,0 +1,809 @@
+{
+ "batch": "B06",
+ "band": "B",
+ "themes": {
+  "clutter_misc": 35
+ },
+ "items": [
+  {
+   "id": 80676,
+   "name": "Magic Student (WIChangeLocation04) Quest Fix",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-12-15",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Magic Student (WIChangeLocation04) Quest Fix-80676-0-1-1671093954.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:80676",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 27141,
+   "name": "NAT.ENB III - Natural and Atmospheric Tamriel ENB 3.1.1C",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-06-04",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "NAT-ENB No Shout FX-27141-3-1-1C-1685779663.zip",
+    "NAT.ENB - ENB PRESET 3.0-27141-3-0-0-1636903770.zip",
+    "NAT.ENB - ENB PRESET v3.1.1C-27141-3-1-1C-1685129135.zip"
+   ],
+   "author": "L00",
+   "leftover": false,
+   "key": "id:27141",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 100515,
+   "name": "No Furniture Camera",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2026-08-31",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "No Furniture Camera-100515-1-0-0-1694638728.7z",
+    "No Furniture Camera-100515-1-0-1-798214-1788193140.7z"
+   ],
+   "author": "Ersh",
+   "leftover": false,
+   "key": "id:100515",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 85097,
+   "name": "Peltapalooza - Complex Parallax Occlusion",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-02-16",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Peltapalooza - Parallax Occlusion - FULL-85097-1-0-1676567792.7z"
+   ],
+   "author": "Hein84",
+   "leftover": false,
+   "key": "id:85097",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 2276,
+   "name": "RUSTIC ANIMATED POTIONS and POISONS",
+   "vr": 4,
+   "se": 2,
+   "score": 10,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "RUSTIC ANIMATED POTIONS and POISONS 2K-1K-2276-1-1.rar",
+    "RUSTIC ANIMATED POTIONS and POISONS 2K-2276-1-1.rar",
+    "SSE Meshes-2276-1-0.rar"
+   ],
+   "author": "dailyplanet and Gamwich",
+   "leftover": false,
+   "key": "id:2276",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 85322,
+   "name": "Rally's Bees And More (High Poly)",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-02-15",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Rally's Bees And More-85322-1-4-1677265060.7z",
+    "Rally's Bees And More-85322-1-5-1707983305.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:85322",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 32329,
+   "name": "Source of Stalhrim Quest Fix",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2020-02-03",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Source of Stalhrim Quest Fix-32329-1-0-0-1580742278.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:32329",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 80493,
+   "name": "WeldingMans Enchanting Table Variants with ENB Light (BOS)",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-03-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "WeldingMans Enchanting Tables - No ENB Light-80493-1-2-1-1671795296.rar",
+    "WeldingMans Enchanting Tables Variants (BOS) - Beta-80493-1-4beta5-1678721247.rar",
+    "WeldingMans Enchanting Tables-80493-1-3-1671806917.rar"
+   ],
+   "author": "WeldingManDE",
+   "leftover": false,
+   "key": "id:80493",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 74816,
+   "name": "WeldingMans Smelter with ENB Light",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-02-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "WeldingMans Smelter - EmbersXD Patch-74816-1-2-1663145808.rar",
+    "WeldingMans Smelter - EmbersXD Patch-74816-1-4-1675952227.rar",
+    "WeldingMans Smelter-74816-1-2-1663145756.rar"
+   ],
+   "author": "WeldingManDE",
+   "leftover": false,
+   "key": "id:74816",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 65238,
+   "name": "[серия «retexture for», 3 модов] Retexture for Soup и др.",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "For SMIM Mesh - Fancy Version-65238-1-3.7z",
+    "For SMIM Mesh - Non creamy Tomato soup-65238-1-3.7z",
+    "For SMIM Mesh - Poor Version-65238-1-3.7z"
+   ],
+   "author": "quilb",
+   "leftover": false,
+   "key": "id:65238",
+   "series": "retexture for",
+   "members": [
+    {
+     "id": 65238,
+     "name": "Retexture for Soup",
+     "vr": 1,
+     "se": 8,
+     "newest": "",
+     "files": [
+      "For SMIM Mesh - Fancy Version-65238-1-3.7z"
+     ]
+    },
+    {
+     "id": 46919,
+     "name": "Retexture for Bread - Hearthfire",
+     "vr": 0,
+     "se": 8,
+     "newest": "2021-03-13",
+     "files": [
+      "Retexture for Bread - Hearthfire-46919-1-0-0-1615640012.7z"
+     ]
+    },
+    {
+     "id": 46612,
+     "name": "Retexture for The Scroll SE",
+     "vr": 1,
+     "se": 4,
+     "newest": "2021-03-06",
+     "files": [
+      "Retexture for The Scroll FOMOD by -ren- SE-46612-2-5-3ren-1615034781.zip"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 35382,
+   "name": "aMidianBorn Book of Silence SE",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2020-06-30",
+   "vr_lists": [
+    "FUS",
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "aMidianBorn Book of Silence SE -- ARMORS-35382-1-9-1-1593478592.zip",
+    "aMidianBorn Book of Silence SE -- CCOR CONTENT ADDON-35382-1-9-1-1593527032.zip",
+    "aMidianBorn Book of Silence SE -- COMPLETE-35382-1-9-1-1593501570.zip"
+   ],
+   "author": "CaBaL - the AMB team",
+   "leftover": false,
+   "key": "id:35382",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 39260,
+   "name": "Dlizzio's Mesh Fixes",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-07-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Dlizzio's Mesh Fixes-39260-2-3-1625555228.zip",
+    "HD LODs Textures SE Mesh Fix-39260-1-0-1597452489.zip",
+    "Parallax Mesh Patch-39260-1-0-1625667965.zip"
+   ],
+   "author": "deleted93399393",
+   "leftover": false,
+   "key": "id:39260",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 29932,
+   "name": "Flat World Map Framework (FWMF)",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-08-23",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Flat World Map Framework All-in-One FOMOD-29932-1-7-1645445821.zip",
+    "Flat World Map Framework FOMOD Lite-29932-1-87-1690313092.zip",
+    "Flat World Map Framework FOMOD Lite-29932-1-9-5-1733500285.zip"
+   ],
+   "author": "Caites",
+   "leftover": false,
+   "key": "id:29932",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 65974,
+   "name": "Fluffworks - Better Photoreal Foxes",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-04-08",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Fluffworks - Better Photoreal Foxes-65974-1-0-1649394282.7z",
+    "Fluffworks Foxes - Alternate Photoreal Textures-65974-1-0-1649452542.7z"
+   ],
+   "author": "Fox_Tek",
+   "leftover": false,
+   "key": "id:65974",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 45734,
+   "name": "Iconic's Remastered Paragon Gems",
+   "vr": 3,
+   "se": 3,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-02-16",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Remastered Paragon Gems-45734-1-4-1613500289.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:45734",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 153176,
+   "name": "Lexicon SKSE",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-12-01",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "LEX Main File-153176-0-1-4-3-1764613685.7z"
+   ],
+   "author": "NoahBoddie",
+   "leftover": false,
+   "key": "id:153176",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 52743,
+   "name": "Oblivion Interaction Icons",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-02-06",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Interaction Icons Rework-52743-1-37-1644063388.7z",
+    "Interaction Icons Rework-52743-1-375-1644261272.7z",
+    "OII 3 Beta-52743-3-0-0-0-Beta-769328.7z"
+   ],
+   "author": "rbt",
+   "leftover": false,
+   "key": "id:52743",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 132695,
+   "name": "Redoran Reverie - A Dunmer Furniture Replacer",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-07-04",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Dunmeri Furniture in GQ BOS Color Variance patch-132695-1-0-1-1732500060.rar",
+    "Dunmeri Furniture in Gray Quarter BOS patch-132695-1-0-1-1732500095.rar",
+    "Redoran Reverie - BOS Distributed Color Variance 132695 1.2.1 2026-06-29T23-49Z N2AYL5JyW.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:132695",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 138889,
+   "name": "Rustic Repose - A Common Bed Replacer",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-02-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "BOS Color Variance Use Those Blankets patch-138889-1-0-3-1749163418.rar",
+    "BOS Distributed Use Those Blankets patch-138889-1-0-6-1740522817.rar",
+    "Hendraheim CC patch-138889-1-0-1-1739060470.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:138889",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 54061,
+   "name": "Vanilla Script (micro)Optimizations",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-10-09",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Vanilla Script MicroOptimizations-54061-1-17-1696891566.zip",
+    "Vanilla Script microOptimizations-54061-1-16a-1654031453.zip"
+   ],
+   "author": "Subhuman0100",
+   "leftover": false,
+   "key": "id:54061",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 91403,
+   "name": "World Encounter Hostility Fix",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-06-09",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "World Encounter Hostility Fix -Performance Version-91403-0-4-1686275909.7z",
+    "World Encounter Hostility Fix-91403-0-2-2-1684537436.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:91403",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 56956,
+   "name": "[серия «tk dodge», 3 модов] TK Dodge RE - Script Free и др.",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-07-01",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "TK Dodge RE-v0.48a-56956-v0-48a-1642263628.7z",
+    "TK Dodge RE-v0.55-rc3-56956-v0-55-rc3-1688194322.zip",
+    "TK dodge firstperson 8 ways dodge-56956-0-1687622547.zip"
+   ],
+   "author": "Maxsu and FBplus and Loop and Xing",
+   "leftover": false,
+   "key": "id:56956",
+   "series": "tk dodge",
+   "members": [
+    {
+     "id": 56956,
+     "name": "TK Dodge RE - Script Free",
+     "vr": 0,
+     "se": 9,
+     "newest": "2023-07-01",
+     "files": [
+      "TK Dodge RE-v0.48a-56956-v0-48a-1642263628.7z"
+     ]
+    },
+    {
+     "id": 15309,
+     "name": "TK Dodge SE",
+     "vr": 0,
+     "se": 8,
+     "newest": "2022-09-13",
+     "files": [
+      "TK Dodge AE-15309-3-18-1663095851.7z"
+     ]
+    },
+    {
+     "id": 125238,
+     "name": "TK Dodge RE Addon",
+     "vr": 0,
+     "se": 6,
+     "newest": "2026-08-24",
+     "files": [
+      "TK Dodge RE Addon 125238 3.2.1 2026-08-23T21-52Z zYsEpQvQk.7z"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 64524,
+   "name": "Bright Falling Leaves Fix",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-03-05",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Bright Falling Leaves Fix-64524-0-2-1646479989.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:64524",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 44249,
+   "name": "Chillwind Depths CTD Fix",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-06-07",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Chillwind Depths CTD Fix-44249-1-0-1-1623084432.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:44249",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 103077,
+   "name": "Cubemap Reflections",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-10-25",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Tahrovin",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Cubemap Reflections 1.1.0-103077-1-1-0-1698216614.zip"
+   ],
+   "author": "FlyingParticle",
+   "leftover": true,
+   "key": "id:103077",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 168016,
+   "name": "DrJacopo's - 3D Maple Sapling",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-12-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "DrJacopo's 3D Maple Sapling-168016-1-1766678405.7z"
+   ],
+   "author": "DrJacopo",
+   "leftover": false,
+   "key": "id:168016",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 61712,
+   "name": "Improved Loading Screen Colors",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-01-10",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Improved Loading Screen Colors-61712-1-0-1641844293.7z"
+   ],
+   "author": "Jampion",
+   "leftover": false,
+   "key": "id:61712",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 90996,
+   "name": "MQ104PlayerScript Fix",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-05-13",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "MQ104PlayerScript Fix - VSmO Edition-90996-1-0-2-1684013515.7z",
+    "MQ104PlayerScript Fix-90996-1-0-2-1684013496.7z"
+   ],
+   "author": "ThirdEyeSqueegee",
+   "leftover": false,
+   "key": "id:90996",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 44498,
+   "name": "Missives - Carriage and Ferry Travel Overhaul Patch",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-01-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Missives - Carriage and Ferry Travel Overhaul Patch-44498-1-0-1610956493.zip"
+   ],
+   "author": "V-Holder aka mistaabushido",
+   "leftover": false,
+   "key": "id:44498",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 64108,
+   "name": "Myrwatch - Editable Home Cells (Cell Bug Workaround)",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-07-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "MYrwatch - House Fix - USCCCP Patch-64108-1-0-0-1645592154.7z",
+    "Myrwatch - House Fix-64108-1-1-1-1658728465.7z"
+   ],
+   "author": "Jelidity",
+   "leftover": false,
+   "key": "id:64108",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 12372,
+   "name": "Photoreal Foxes 2K HD Retexture",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Fabulous Foxes-12372-3-0.7z"
+   ],
+   "author": "Sarcastic Bird",
+   "leftover": false,
+   "key": "id:12372",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 28108,
+   "name": "The Northerner Diaries - Immersive Edition (music by Jeremy Soule)",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-11-08",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "The Northerner Diaries - Immersive Edition ESL-28108-1-3e-1699470748.7z",
+    "The Northerner Diaries - Skyrim and Solstheim-28108-1-2-1573943146.7z"
+   ],
+   "author": "ak0d",
+   "leftover": false,
+   "key": "id:28108",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 47639,
+   "name": "Trattatello - Calligraphic Book Font",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-03-28",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Trattatello - Calligraphic Book Font-47639-1-1-1616934665.7z"
+   ],
+   "author": "Crithion",
+   "leftover": false,
+   "key": "id:47639",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 96086,
+   "name": "Ultimate fix - SPID for Footprints (and kids addon)",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-07-31",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "SPIDforFootprintUltimateFix_v1.03-96086-1-03-1690832296.7z"
+   ],
+   "author": "SiweX92",
+   "leftover": false,
+   "key": "id:96086",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 60363,
+   "name": "XPMSSE - Nemesis - Papyrus Stack Fix",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-02-25",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "XPMSSE - Nemesis - Script Fix - SE-60363-4-8-3-1644964405.7z",
+    "XPMSSE - Nemesis - Script Fix - SE-60363-4-8-4-1645765745.7z"
+   ],
+   "author": "Tommas666",
+   "leftover": false,
+   "key": "id:60363",
+   "theme": "clutter_misc"
+  }
+ ]
+}

@@ -1,0 +1,721 @@
+{
+ "batch": "D13",
+ "band": "D",
+ "themes": {
+  "clutter_misc": 36
+ },
+ "items": [
+  {
+   "id": 137381,
+   "name": "Candle Flame VFX Edit",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Candle Flame VFX Edit-137381-1-0-1735255444.zip"
+   ],
+   "author": "Kittytail",
+   "leftover": false,
+   "key": "id:137381",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 44783,
+   "name": "Clean Menu Plus",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-24",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Clean Menu Plus (60 FPS)-44783-1-0-1611518712.7z",
+    "Clean Menu Plus-44783-1-0-1611518724.7z"
+   ],
+   "author": "Wiro enzeinzen Aurora555 E10X11 giftigkeit",
+   "leftover": false,
+   "key": "id:44783",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 41284,
+   "name": "Deadly Spell Impacts Transparency Fix for ENB",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-09-08",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Deadly Spell Impacts Transparency Fix-41284-2-0-1611894046.7z",
+    "Deadly Spell Impacts Transparency Fix-41284-3-0-1631061617.zip"
+   ],
+   "author": "Korodic and Daralima",
+   "leftover": false,
+   "key": "id:41284",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 136456,
+   "name": "Debug Menu - In-Game Navmesh Viewer and More",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Debug Menu-136456-1-1-2-1737298330.zip",
+    "Debug Menu-136456-4-0-0-1780259045.zip",
+    "Debug Menu-136456-4-0-1-1780339609.zip"
+   ],
+   "author": "Sp0derm0n",
+   "leftover": false,
+   "key": "id:136456",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 94076,
+   "name": "Diseases - I4 icon",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Diseases - I4 icon 1.2-94076-1-2-1687710244.7z"
+   ],
+   "author": "IAmNotSimon",
+   "leftover": false,
+   "key": "id:94076",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 147478,
+   "name": "Draw Fix - Move Equip Animation Fix",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Draw Fix - Move Equip Animation Fix 1.1-147478-1-1-1745156834.zip",
+    "Draw Fix - Move Equip Animation Fix 1.2-147478-1-2-1747508951.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:147478",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 116472,
+   "name": "Dustman's Cairn Farkas Scene Fix",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Dustman's Cairn Farkas Scene Fix-116472-1-00-1712856111.rar"
+   ],
+   "author": "Ixion XVII",
+   "leftover": false,
+   "key": "id:116472",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 87706,
+   "name": "Dynamic Key Action Framework NG",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "DKAF-87706-v1-0-1679787928.7z"
+   ],
+   "author": "Bingle",
+   "leftover": false,
+   "key": "id:87706",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 60935,
+   "name": "Dynamic Things Alternative - Base Object Swapper - Settings Loader",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-05-12",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dynamic Things Alternative - Base Object Swapper - Settings Loader-60935-0-2-1-1652339454.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:60935",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 23174,
+   "name": "ENB Helper SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-10-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "ENB Helper SE 1.5 for SSE 1.5.97-23174-1-5-1574569443.7z",
+    "ENB Helper SE 2.2 for 1.6.629 and up-23174-2-2-0-1665131787.7z",
+    "Skyrim SE Shader Bundle - 1.5.73 and earlier-23174-1-5-73-1560635808.7z"
+   ],
+   "author": "aers",
+   "leftover": false,
+   "key": "id:23174",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 70635,
+   "name": "EVG Animated Traversal - Patch Collection",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-09-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "EVG Animated Traversal - Patch Collection-70635-1-1-2-1657759585.zip",
+    "EVG Animated Traversal - Patch Collection-70635-1-3-2-1662838865.zip",
+    "EVG Animated Traversal - Patch Collection-70635-1-3-4-1663772883.zip"
+   ],
+   "author": "mfvicli",
+   "leftover": false,
+   "key": "id:70635",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 57876,
+   "name": "EVG Conditional Idles - Settings Loader",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-02",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "EVG Conditional Idles - Settings Loader-57876-2-0-0-1646680948.zip",
+    "EVG Conditional Idles - Settings Loader-57876-3-0-0-1717298751.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:57876",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 63741,
+   "name": "Eating Animations - Patch Collection",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Eating Animations - Patch Collection-63741-2-10-1683906496.7z"
+   ],
+   "author": "Mefariah",
+   "leftover": false,
+   "key": "id:63741",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 143678,
+   "name": "Edge UI - Explorer Addon",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-30",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Edge UI - Explorer Addon - 16x10 Patch-143678-3-6-0-1760880506.7z",
+    "Edge UI - Explorer Addon - 16x9-143678-2-2-0-1745388814.7z",
+    "Edge UI - Explorer Addon - 21x9 Patch-143678-3-2-0-1749661334.7z"
+   ],
+   "author": "EugeneBober",
+   "leftover": false,
+   "key": "id:143678",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 47227,
+   "name": "ElSopa - High Quality Buckets SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-01-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "ElSopa - HD Buckets 2k-47227-1-1-1616190832.7z",
+    "HOTFIX 1.3 ElSopa - Buckets-47227-1-3-1642608176.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:47227",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 148417,
+   "name": "Enchantment Tomes - Thaumaturgy Patch",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Enchantment Tomes - Thaumaturgy Patch-148417-2-2-1745348705.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:148417",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 57176,
+   "name": "Enhanced Worldspace Maps",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-04-26",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Bruma LOD-57176-2-0-1649685434.7z",
+    "Enhanced Map - Beyond Skyrim Bruma-57176-3-0-1675322664.7z",
+    "Enhanced Map - Blackreach-57176-1-0-0-1679558193.7z"
+   ],
+   "author": "Jelidity",
+   "leftover": false,
+   "key": "id:57176",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 33084,
+   "name": "Enigma  Series Compatibility Patches (Official)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Dragons Use Thu'um 6.5 Patch-33084-1-4-9Patches-1740810737.7z",
+    "Dragons Use Thu'um 8.5 Patch-33084-1-5-3-1769359948.7z",
+    "House of Horrors - Quest Expansion 1.12-33084-1-12-1696312710.7z"
+   ],
+   "author": "Satafinix - Cora",
+   "leftover": false,
+   "key": "id:33084",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 57873,
+   "name": "Extended UI",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Extended UI-57873-1-2-0d.zip"
+   ],
+   "author": "MrJack",
+   "leftover": false,
+   "key": "id:57873",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 64979,
+   "name": "Extended UI - Settings Loader",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-03-14",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Extended UI - Settings Loader-64979-1-0-0-1647281145.zip",
+    "Extended UI ESP Fix-64979-1-0-0-1647281466.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:64979",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 24648,
+   "name": "Forgotten Magic Redone SE - Patch CTD",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-07-31",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Forgotten Magic Redone SE ver 1.6.5 - Fix CTD - install in MO2-24648-1-65SE-1596208507.7z"
+   ],
+   "author": "3JIou",
+   "leftover": false,
+   "key": "id:24648",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 94223,
+   "name": "GORE - Miscellaneous Patches",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-29",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "GORE - Fishing (CC) Patch-94223-1-5-2-1700408550.7z",
+    "Gore - Apothecary and Gourmet Patch-94223-1-0-0-1725755408.7z",
+    "Gore - Apothecary and Gourmet Patch-94223-1-0-1-1774815724.7z"
+   ],
+   "author": "Foamimi",
+   "leftover": false,
+   "key": "id:94223",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 91335,
+   "name": "Gonzeh - Patch Compendium",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-31",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Patch Compendium - FOMOD-91335-1-0-1700222804.7z",
+    "Ryn's Broken Tower - eFPS Patch-91335-1-0-1700218344.rar",
+    "TMD Winery - Gourmet Patch-91335-1-0-1711878301.rar"
+   ],
+   "author": "Gonzeh84",
+   "leftover": false,
+   "key": "id:91335",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 95466,
+   "name": "HD CubeMap Collection",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-02-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "HD Cubemaps Pack - Compressed (Contributed by DonProtein)-95466-V1-0-0-1549508721.zip",
+    "HD Cubemaps Pack-95466-V1-0-0-1546450885.zip"
+   ],
+   "author": "gUISTASSI",
+   "leftover": false,
+   "key": "id:95466",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 17285,
+   "name": "HORNCANDLES",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Horncandles.4k-2k-17285-1-1.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:17285",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 29149,
+   "name": "Halldir's Cairn CTD Fix",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-09-21",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Halldir's Cairn CTD Fix-29149-1-0-0-1569093012.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:29149",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 63530,
+   "name": "Hanaisse's Ingredients Bowl And ENB Light Patch",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Hanaisse's Bowl and ENB Light Ingredients Patch-63530-3-0-1683739240.zip"
+   ],
+   "author": "Hanaisse - mathy79 - Skurkbro",
+   "leftover": false,
+   "key": "id:63530",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 71546,
+   "name": "Hawk Patch - Base Object Swapper Remake",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Hawk Patch - Base Object Swapper Remake-71546-1-0-1658054360.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:71546",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 100481,
+   "name": "Hearthfire Oven ENB Light",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-09-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Hearthfire Oven ENB Light-100481-1-1-1696113600.zip"
+   ],
+   "author": "SauteedPanda",
+   "leftover": false,
+   "key": "id:100481",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 66955,
+   "name": "Honorhall Orphanage Bugfixes and Expansion",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-10-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Honorhall Orphanage Bugfixes and Expansion-66955-2-02-1652762182.zip",
+    "Honorhall Orphanage Bugfixes and Expansion-66955-2-03-1696828926.zip"
+   ],
+   "author": "subhuman0100",
+   "leftover": false,
+   "key": "id:66955",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 88283,
+   "name": "Iconic's Arvak Retexture",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-08",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Arvak 2K-88283-1-1-1680986883.7z",
+    "Arvak 4K-88283-1-1-1680986885.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:88283",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 45917,
+   "name": "Iconic's Blackreach Crystals Retexture",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-02-19",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Blackreach Ceiling Glow 4K-45917-1-0-1613752531.7z",
+    "Blackreach Crystals 2K-45917-1-0-1613752244.7z",
+    "Blackreach Crystals 4K-45917-1-0-1613752209.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:45917",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 41469,
+   "name": "Iconic's WOODFIRES - Redux",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "WOODFIRES - Redux-41469-1-4-1610846652.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:41469",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 127434,
+   "name": "Katariah Ship Stairs Fix",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-08-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Katariah Ship Stairs Fix-127434-1-0-1724364459.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:127434",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 79564,
+   "name": "Keyword Compatibility Framework",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-01",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Keyword Compatibility Framework-79564-3-1-1685599325.zip"
+   ],
+   "author": "V3kta",
+   "leftover": false,
+   "key": "id:79564",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 108654,
+   "name": "Kill Miraak Spell Fix - Fix for Unlootable and Unkillable Miraak",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kill Miraak Spell Fix-108654-1-0-0-1704634505.zip"
+   ],
+   "author": "Borgut1337",
+   "leftover": false,
+   "key": "id:108654",
+   "theme": "clutter_misc"
+  }
+ ]
+}

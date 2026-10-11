@@ -29,6 +29,7 @@ if mode == 'install-spec':
 elif mode == 'other-mods':
     picks, seen, leads = [], {}, []
     for f in sorted(glob.glob(f'{P}/other-mods__collect_*.json')):
+        if 'collect_r2-' in f: continue  # второй проход — tools/merge_other2.py
         d = ld(f); src = os.path.basename(f).split('collect_')[1][:-5]
         leads += [dict(l, src=src) for l in d.get('section_leads', [])]
         for p in d['picks']:
@@ -41,6 +42,7 @@ elif mode == 'other-mods':
     if os.path.exists(A) and os.path.exists(B):
         ma = {v['key']: v for v in ld(A)['verdicts']}; mb = {v['key']: v for v in ld(B)['verdicts']}
         ver = [dict(p, compat=ma.get(p['key']), value=mb.get(p['key']), keep=bool(ma.get(p['key']) and mb.get(p['key']) and ma[p['key']]['keep'] and mb[p['key']]['keep'])) for p in picks]
+        # внимание: перезаписывает other_result.json только первым проходом; после этого запустите tools/merge_other2.py
         json.dump({'result': {'leads': leads, 'verified': ver, 'notes': []}}, open(f'{DATA}/other_result.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         print('проверено:', len(ver), '; оставлено:', sum(v['keep'] for v in ver))
     else:

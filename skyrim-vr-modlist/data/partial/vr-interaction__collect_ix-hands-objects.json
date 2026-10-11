@@ -1,0 +1,684 @@
+{
+ "section_lead": "База (VRIK кобуры/жесты, HIGGS хват и два-руки, PLANCK, Physical Collision VR, True Wield VR, Swap Drop and Hold Redux, Weapon Throw VR, Gift by Hand VR, VR Equip, Closed Fist) уже закрывает 90% темы «руки и предметы». Реально недостающее — эффекты бросков, шум от бросков, штрафы за хват, носимые индикаторы и мелкие фиксы вокруг HIGGS/PLANCK. Новых «holster»-модов вне VRIK нет: IED/Simple Dual Sheath в VR не работают (Other-1), а рюкзак/плечо — встроенная функция HIGGS. Отдельных VR-кобур, рюкзаков и перчаток-модов ни один из 27 списков не ставит.",
+ "picks": [
+  {
+   "key": "id:128285",
+   "id": 128285,
+   "name": "More Interactive Objects - Throwing Things VR port (Throw Stuff VR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/128285",
+   "section": "ix_hands",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Брошенные/ударенные HIGGS-предметы срабатывают: зелья и яды бьют по NPC, мука слепит, масло горит, стекло бьётся, серебро жжёт нежить.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit",
+   "files": "Throw Stuff VR 2.0.1 (Throw Stuff VR-128285-2-0-1-1738782930.7z, Panda's). SoG и Tahrovin - Grit держат 2.0.0 (…-2-0-1735275322). Брать 2.0.1.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS"
+   ],
+   "interplay": "Дополняет HIGGS (использует его систему разрушения/броска). Не дублирует Weapon Throw VR из ядра: тот бросает оружие, этот даёт эффекты бытовым предметам. Grab and Throw ставить не нужно. Конфликтов с PLANCK/VRIK не замечено.",
+   "note": "Настройки в SKSE/Plugins/ThrowingStuffVR.ini; ключ preventHits решает, взрываются ли предметы только при броске или и при ударе. Страница заявляет безопасную установку/удаление посреди прохождения. Тест: бросить зелье в манекен/NPC. Формальный список требований страницы проверить локально.",
+   "evidence": "whouses 128285: Panda's Sovngarde — Throw Stuff VR-128285-2-0-1-1738782930.7z; SoG/Tahrovin-Grit — …2-0-1735275322.7z. Описание из архива: «Complete rebuild and VR Port of More Interactive Objects - Throwing things». Сниппет страницы: использует HIGGS, CommonLibSSE-NG, ThrowingStuffVR.ini."
+  },
+  {
+   "key": "id:155761",
+   "id": 155761,
+   "name": "Throwing Things Makes Noise - OIF",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/155761",
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Брошенный HIGGS горшок/предмет шумит: NPC реагируют, а не игнорируют летящий металл.",
+   "vr_status": "unknown",
+   "in_lists": "Panda's Sovngarde",
+   "files": "TTMN - OIF 1.1 (TTMN - OIF-155761-1-1753739587.zip), как в Panda's.",
+   "requires": [
+    "HIGGS"
+   ],
+   "interplay": "Логичная пара к Throw Stuff VR и ручному броску HIGGS; автор — Wildlander Team, мод не VR-специфичный. Дублирования с ядром нет.",
+   "note": "Не подтверждено: нужен ли отдельный фреймворк (аббревиатура OIF) и есть ли у него VR-DLL — читать страницу/требования до установки. Ставить после Throw Stuff VR и проверить: бросить кастрюлю рядом с NPC в режиме скрытности.",
+   "evidence": "whouses 155761: Panda's Sovngarde — TTMN - OIF-155761-1-1753739587.zip. Описание: «Every wondered why you can grab and throw a metal pot at a NPC while sneaking around and they just ignore it? This fixes that.» Страницу через поиск подтвердить не удалось."
+  },
+  {
+   "key": "id:182364",
+   "id": 182364,
+   "name": "Dead Weight VR - Penalty for one-handing 2H weapons",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/182364",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Если держать двуручное оружие одной рукой через HIGGS, урон падает на 50%: двуручный хват снова выгоден.",
+   "vr_status": "vr_native",
+   "in_lists": "Tahrovin",
+   "files": "Dead Weight VR (Dead Weight VR 182364 5 2026-06-12, .7z), как в Tahrovin.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS"
+   ],
+   "interplay": "Работает поверх HIGGS-хвата двумя руками. С True Wield VR (вес/хват, ядро) вместе даёт двойной штраф за одноручный хват — начать с настроек по умолчанию. Не заменяет True Wield, а дополняет.",
+   "note": "Описание страницы: «When wielding a two-handed weapon in one hand using HIGGS, your damage will be reduced by 50%». Метка автора Aelover (тот же, что у VRIK Closed Fist, Telekinesis Aim Fix VR). Тест: размахнуться двуручным молотом одной рукой, сравнить урон.",
+   "evidence": "whouses 182364: Tahrovin — Dead Weight VR 182364 5 2026-06-12T19-15Z Dc5uGk7vg.7z. Описание из архива Wabbajack."
+  },
+  {
+   "key": "id:170889",
+   "id": 170889,
+   "name": "Fake Edge VR - Pseudo Equipped weapon Collisions",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/170889",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": "weapon-collision (Fake Edge VR vs Physical Collision VR из ядра)",
+   "what": "Свои двуручно держимые клинки не проходят друг сквозь друга; оружие получает HIGGS-коллизию всегда, экипировка управляется отдельно.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde",
+   "files": "Fake Edge - VR 2.0.8 (Fake Edge - VR-170889-2-0-8-1770590705.zip, Panda's). На странице уже 2.1.0 (файл от 27.01.2026, по сниппету поиска).",
+   "requires": [
+    "SKSEVR",
+    "HIGGS"
+   ],
+   "interplay": "Пересекается с Physical Collision VR из ядра (оружие/щит звенят друг о друга) и с Swap Drop and Hold Redux 3.0.0 (тот требует Physical Collision VR). В описании исходников Redux сказано «for users who don't use fake edge VR» — значит Fake Edge сам ведёт экипировку. Выбирать одно: либо ядро (Physical Collision VR), либо Fake Edge; вместе без теста не ставить.",
+   "note": "Бета. Годится как запасной вариант, если Physical Collision VR вызывает проблемы с двумя клинками. Тест: два меча в обеих руках скрестить перед лицом и стукнуть о стену.",
+   "evidence": "whouses 170889: Panda's Sovngarde — Fake Edge - VR-170889-2-0-8-1770590705.zip. Сниппет Nexus-страницы: «Pseudo Equipped weapon Collisions», версия 2.1.0, файл 27.01.2026. GitHub SamuelJohnBrown/Swap-Drop-Hold-redux-VR (описание): «for users who don't use fake edge VR»."
+  },
+  {
+   "key": "id:65737",
+   "id": 65737,
+   "name": "Wearable Health bars - Soul Gauge",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/65737",
+   "section": "ix_hands",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Украшения на руках показывают здоровье, магию, запас сил, заряд и число стрел: HUD без HUD, светится в темноте.",
+   "vr_status": "works_as_is",
+   "in_lists": "FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR",
+   "files": "Wearable health bars - Soul Gauge 1.6 (Wearable health bars - Soul Gauge-65737-1-6-1673006831.zip) — одинаково во всех 6 списках.",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Заменяет экранные HUD-полосы: с Clear HUD VR (ядро) и moreHUD VR нормально. Частично дублирует Spell Wheel VR (ядро), который показывает полосы на запястье, — тогда один из двух отключить в MCM. Требования страницы и расход слотов колец проверить локально.",
+   "note": "Самый часто встречающийся мод темы: 6 из 9 VR-списков. Хорош для сборок с отключённым HUD. Проверка: надеть кольцо/браслет, получить урон и посмотреть на руку.",
+   "evidence": "whouses 65737: 6 VR-списков, файл Wearable health bars - Soul Gauge-65737-1-6-1673006831.zip. Описание: «Jewelry that displays Health, Magicka, Stamina, enchantment charge, or equipped ammo count on your hands. Glows in the dark!»"
+  },
+  {
+   "key": "id:45586",
+   "id": 45586,
+   "name": "iNeed Water - A VR Needs Management Adaption",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/45586",
+   "section": "ix_hands",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фляга в кобуре VRIK: пьёте, поднося ко рту, наполняете, присев у воды. Версия под SunHelm.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde",
+   "files": "iNeed Water V1.5 - SunHelm Support (iNeed Water V1.5 - SunHelm Support-45586-V1-5-1649978626.zip), как в Panda's.",
+   "requires": [
+    "SKSEVR",
+    "VRIK",
+    "SunHelm Survival"
+   ],
+   "interplay": "Имеет смысл только вместе с SunHelm Survival (в ядре как opt). Использует кобуры VRIK; с Gift by Hand VR и HIGGS не пересекается. Если SunHelm не ставите — пропустить.",
+   "note": "Описание: фляги Needs-совместимых модов работают с видимыми кобурами VRIK, пьются и наполняются в реальном времени. Нужную кобуру задать в MCM VRIK. Тест: экипировать флягу, присесть у реки.",
+   "evidence": "whouses 45586: Panda's Sovngarde — iNeed Water V1.5 - SunHelm Support-45586-V1-5-1649978626.zip. Описание из архива: «water skins which work with VRIKs visible holsters, can be virtually drank from and refilled in real time by crouching in water sources»."
+  },
+  {
+   "key": "id:147691",
+   "id": 147691,
+   "name": "VR Equip Potions And Ingredients",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/147691",
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Любое зелье, еда или ингредиент можно скормить NPC рукой; эффекты применяются к нему.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde",
+   "files": "VR Equip Potions And Ingredients (VR Equip Potions And Ingredients-147691-1-1744656826.zip), как в Panda's.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS"
+   ],
+   "interplay": "Пересекается с Gift by Hand VR из ядра (подносите предмет ко рту/руке подопечного). Новое — ингредиенты и произвольные NPC. Не путать с VR Equip (№83092, ядро): тот одевает броню. Возможна гонка обработчиков при одинаковых жестах — тестировать.",
+   "note": "Требования страницы подтвердить (HIGGS по смыслу). Если хватает Gift by Hand VR — пропустить. Тест: дать зелье яда бандиту.",
+   "evidence": "whouses 147691: Panda's Sovngarde — VR Equip Potions And Ingredients-147691-1-1744656826.zip. Описание: «Allows you to Feed any Potion/Food or Ingredients to NPCs. All affects will be applied to the NPC.»"
+  },
+  {
+   "key": "id:14490",
+   "id": 14490,
+   "name": "Simple Drop Lit Torches SE",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/14490",
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Простая работа с факелом: хоткей надеть/снять и бросить горящий факел на землю; автосброс при беге и т.п. по опциям.",
+   "vr_status": "works_as_is",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "Simple Drop Lit Torches SE 1.0.8 (Simple Drop Lit Torches SE-14490-1-0-8-1747767802.zip), как в обоих Grit-списках.",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Факел в VR уже выбирается Spell Wheel VR и бросается Weapon Throw VR (оба в ядре). Физическое зажигание — Physical Torch Lighting VR (Other-2). Этот мод даёт автоматику, а не жесты.",
+   "note": "Хоткеи в VR задавать на кнопки через клавиатурный биндинг/Skyrim VR Tools — иначе работают только автоопции. Для сборок без Physical Torch Lighting VR. Проверить, нет ли заметного влияния на время кадра у скриптов.",
+   "evidence": "whouses 14490: Spirit of Grit и Tahrovin - Grit — Simple Drop Lit Torches SE-14490-1-0-8-1747767802.zip. Описание из архива: «simple torch handling through two configurable hotkeys…»."
+  },
+  {
+   "key": "id:38539",
+   "id": 38539,
+   "name": "VR Arsenal",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/38539",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Набор оружия, сделанный под VR и броски Weapon Throw VR: метательные и необычные клинки для разнообразия боя.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "VR Arsenal V9.3 (No Guns) (VR Arsenal V9.3 (No Guns)-38539-V9-3-1655390742.rar), как в Tempus. Версию с огнестрелом не брать.",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Контентный пак оружия. Заточен под Weapon Throw VR (ядро); с HIGGS/Physical Collision VR совместим по смыслу, но коллизии мешей не проверены. Может требовать патчей под Requiem/другие оверхолы — у нас их нет.",
+   "note": "Только Tempus, последнее обновление 2022. Если нужны метательные клинки — взять; иначе пропустить. Проверка: бросить новое оружие и убедиться, что вернётся/воткнётся.",
+   "evidence": "whouses 38539: Tempus Maledictum VR — VR Arsenal V9.3 (No Guns)-38539-V9-3-1655390742.rar. Описание: «custom weapons built for Skyrim VR and enhanced combat mechanic mods like Weapon Throw VR»."
+  },
+  {
+   "key": "id:159682",
+   "id": 159682,
+   "name": "Better weapon collisions for VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/159682",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Коллекция мешей оружия модов с подогнанной под форму коллизией: меч в руке упирается в мир как настоящий.",
+   "vr_status": "vr_native",
+   "in_lists": "Yggdrasil VR",
+   "files": "В Yggdrasil — один файл «Rapier - Dawnbreaker» (Rapier - Dawnbreaker-159682-1-0-1758431969.zip). Брать только файлы для оружейных модов, которые стоят у вас.",
+   "requires": [
+    "Physical Collision VR"
+   ],
+   "interplay": "Только меши: усиливает HIGGS/Physical Collision VR (ядро), конфликтов нет. Полезно, если ставите оружейные паки (Rapier, Dawnbreaker и др.).",
+   "note": "Список охваченных оружейных модов на странице посмотреть локально — подтвердить нельзя. Без соответствующего оружейного мода бесполезно.",
+   "evidence": "whouses 159682: Yggdrasil VR — Rapier - Dawnbreaker-159682-1-0-1758431969.zip. Описание из архива (автор Relos): «A collection of weapon mod meshes with updated collisions to better match the shape of the weapon. Makes interacting with your environment with a weapon in hand more immersive.»"
+  },
+  {
+   "key": "id:105789",
+   "id": 105789,
+   "name": "PLANCK - Ignore Followers (Planck Follower Ragdoll Disable)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/105789",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "PLANCK перестаёт физически двигать подопечных: убирает вылет, связанный с ними. Платите отсутствием рэгдолл-реакций у спутников.",
+   "vr_status": "vr_native",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "Planck Follower Ragdoll Disable 1.1.1 (Planck Follower Ragdoll Disable-105789-1-1-1702844394.7z), как в обоих Grit-списках.",
+   "requires": [
+    "PLANCK"
+   ],
+   "interplay": "Дополнение к PLANCK 0.8.1 из ядра. Grit-списки ставят его вместе с PLANCK VR Stability Patch, значит они совместимы. Может быть лишним, если с подопечными вылетов нет: ставить только по симптому.",
+   "note": "Взять при вылетах/глюках с подопечными (в том числе при NPC Spell Variance — см. карточку PLANCK). Дата файла 2023, а PLANCK 0.8.1 — 2026; запускать после PLANCK. Описание: «Makes PLANCK ignore followers to fix a CTD bug.»",
+   "evidence": "whouses 105789: Spirit of Grit и Tahrovin - Grit — Planck Follower Ragdoll Disable-105789-1-1-1702844394.7z; те же Grit-списки держат PLANCK 0.8.1 и PLANCK VR Stability Patch 1.3.1 (fscan)."
+  },
+  {
+   "key": "id:142757",
+   "id": 142757,
+   "name": "First person magic hand light fix",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/142757",
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Чинит свет от магии в руке вида от первого лица: заклинание освещает окружение как должно.",
+   "vr_status": "works_as_is",
+   "in_lists": "Stormcrown VR, Tempus Maledictum VR",
+   "files": "First person magic hand light fix 1.0.0 (First person magic hand light fix-142757-1-0-0-1740412015.zip).",
+   "requires": [],
+   "interplay": "Лёгкий фикс света. В связке с Light Placer VR/Open Shaders из ядра безвреден; заодно ставят 3D Casting FX (Other-2) и 3D-эффекты магии в руках. Дублей нет.",
+   "note": "Не подтверждено, какой именно баг видят в VR (описание: «Fixes the first person hand light for magic effects»). Тест: зажечь Магесвет/огонь в руке в тёмной пещере и проверить подсветку руки.",
+   "evidence": "whouses 142757: Stormcrown VR и Tempus Maledictum VR — First person magic hand light fix-142757-1-0-0-1740412015.zip."
+  },
+  {
+   "key": "id:85776",
+   "id": 85776,
+   "name": "Navigate VR - Left handed fix (Leftie Fix)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/85776",
+   "section": "ix_hands",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Только для левшей: чинит кобуры и экипировку Navigate VR (компас и карты) при левой ведущей руке.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde",
+   "files": "Navigate VR Leftie Fix v1.51 (Navigate VR Leftie Fix-85776-v1-51-1677339089.zip), как в Panda's.",
+   "requires": [
+    "Navigate VR"
+   ],
+   "interplay": "Дополнение к Navigate VR (Other-1, rec). Нужно только при левостороннем режиме; с VRIK-кобурами не конфликтует.",
+   "note": "Ставить после основного Navigate VR. Если играете правой рукой — пропустить.",
+   "evidence": "whouses 85776: Panda's Sovngarde — Navigate VR Leftie Fix-85776-v1-51-1677339089.zip. Описание: «Left handed patch for Navigate VR which fixes holster / equip issues»."
+  },
+  {
+   "key": "id:36132",
+   "id": 36132,
+   "name": "No Silly Physics Damage - Carts Pots Bones etc",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/36132",
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Не терять здоровье, наступая на физические объекты: кости, горшки, телеги. Важно, когда HIGGS/PLANCK делают всё физическим.",
+   "vr_status": "works_as_is",
+   "in_lists": "Librum VR",
+   "files": "No Silly Physics Damage (esl) (No Silly Physics Damage (esl)-36132-2-1589820691.7z), как в Librum VR.",
+   "requires": [],
+   "interplay": "ESL-плагин без DLL: безопасен в VR. Подходит к HIGGS/Physical Collision VR (физические объекты на пути рук и тела). Конфликтов не ожидается; конфликт возможен только с другими правками урона от физики.",
+   "note": "Только Librum VR, мод 2020 года. Полезен, если после HIGGS заметили урон от случайно сбитых предметов. Проверка: наступить на кучу костей.",
+   "evidence": "whouses 36132: Librum VR — No Silly Physics Damage (esl)-36132-2-1589820691.7z. Описание: «You will no longer lose HP when walking on dynamic objects such as bones or when walking towards a cart.»"
+  },
+  {
+   "key": "id:28291",
+   "id": 28291,
+   "name": "Destructible Skyrim - Breakable Objects SE (Beta)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/28291",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Бьёте посуду и утварь оружием — предметы ломаются на физичные обломки. Для сборок с HIGGS и Physical Collision VR.",
+   "vr_status": "works_as_is",
+   "in_lists": "Yggdrasil VR",
+   "files": "Destructible Skyrim - Breakable Objects (Beta) 0.4 (Destructible Skyrim - Breakable Objects (Beta)-28291-0-4-1567010741.rar).",
+   "requires": [],
+   "interplay": "Работает через физику Havok, как и Throw Stuff VR (оба ломают предметы при ударе): совместно возможны двойные разрушения — тестировать. Стража реагирует на кражу/порчу в тавернах.",
+   "note": "Бета 2019 года, один VR-список. Ставить после тестов на производительность: обломки в Havok бьют по кадрам. Не пересекается с Interactive Activators VR.",
+   "evidence": "whouses 28291: Yggdrasil VR — Destructible Skyrim - Breakable Objects (Beta)-28291-0-4-1567010741.rar. Описание: «Smash objects to pieces and watch the physics enabled debris fly everywhere… guards won't take kindly»."
+  },
+  {
+   "key": "id:144669",
+   "id": 144669,
+   "name": "Bard VR (Beta)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/144669",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Игра на флейте, лютне и барабане настоящими жестами контроллеров: музыка руками, без меню.",
+   "vr_status": "vr_native",
+   "in_lists": "Librum VR",
+   "files": "Bard vr (beta) 1.0 (Bard vr (beta)-144669-1-0-1742383560.zip), как в Librum VR.",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Автономный VR-мод; не пересекается с HIGGS/PLANCK. Бета — возможны конфликты с кнопками VRIK-жестов; зависимости страницы проверить локально.",
+   "note": "Автор Machina и CylonSurfer (те же, что у Physical Torch Lighting, Interactive Waters). Нужны инструменты в инвентаре (лютня/флейта/барабан). Тест: достать инструмент и сыграть мелодию.",
+   "evidence": "whouses 144669: Librum VR — Bard vr (beta)-144669-1-0-1742383560.zip. Описание: «you can play the flute, lute and drum with realistic VR controls»."
+  },
+  {
+   "key": "id:184347",
+   "id": 184347,
+   "name": "Interactive Door Actions - VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184347",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Двери руками: толкать, взламывать настоящей отмычкой и шивом, открывать ключом, поднеся его к двери.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "Interactive Door Actions - VR 1.2.3 (версия со страницы; имя архива не подтверждено).",
+   "requires": [
+    "SKSEVR",
+    "HIGGS"
+   ],
+   "interplay": "Частично пересекается с Interactive Activators VR (замки/засовы, ядро) и с Interactive Doors (Physics Based Farmdoors, Tempus) и Physical VR Knocking (Yggdrasil). С Security Overhaul (Lock Variations VR) стыков нет. Тестировать отдельно от остальных дверных модов.",
+   "note": "Свежий мод, ни один список его не ставит. Автор TheMachinaGod (Machina) — тот же, что у Swap Drop and Hold Redux, Throat Slit VR. Тест: подойти к запертой двери и подобрать замок рукой.",
+   "evidence": "Сниппет поиска Nexus (мод 184347, v1.2.3): «push unlocked doors open by hand, pick locks with a lockpick and shiv…». GitHub SamuelJohnBrown/Interactive-Door-actions---Skyrim-VR-framework (описание то же, использует HIGGS). Требования: HIGGS и SKSE VR по сниппету."
+  },
+  {
+   "key": "id:21297",
+   "id": 21297,
+   "name": "MageVR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/21297",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Старый (2020) набор VR-действий «без меню»: заклинания, зелья, лук, отмычки жестами. Дублирует VRIK, Spell Wheel VR, HIGGS.",
+   "vr_status": "vr_native",
+   "in_lists": "FUS",
+   "files": "MageVR Mod 2.8 (MageVR Mod-21297-2-8-1598139579.zip) — единственный список FUS.",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Дублирует жесты VRIK, выбор в Spell Wheel VR, заряд/броски HIGGS, Simple Realistic Archery VR (стрелы), Immersive Crossbow Reload VR. Вероятен конфликт обработчиков кнопок. Не проверено, но в ядре все функции уже есть.",
+   "note": "Не ставить: слишком старый, один список. Если нужна именно «магия без меню», хватит Spell Wheel VR и ISPVR.",
+   "evidence": "whouses 21297: FUS — MageVR Mod-21297-2-8-1598139579.zip. Описание: «VR-ized actions that let you immersively use spells, weapons, potions, poisons, shouts, powers, realistic archery and soul gems and pick locks all without accessing a menu!»"
+  },
+  {
+   "key": "id:49425",
+   "id": 49425,
+   "name": "Swap Drop and Hold (+ Swap Drop and Hold Add Spells #55983)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/49425",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Старый скриптовый предшественник: хват/смена/бросок оружия заклинаниями на жестах VRIK. В ядре стоит Redux — старую версию не ставить.",
+   "vr_status": "vr_native",
+   "in_lists": "FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR",
+   "files": "Swap Drop and Hold-49425-0-0-1-1620085763.zip и Swap Drop and Hold Add Spells-55983-2-1632862272.7z — оба в 6 VR-списках.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS",
+    "VRIK"
+   ],
+   "interplay": "Заменён Swap Drop and Hold Redux 3.0.0 (ядро, требует Physical Collision VR и True Wield VR). В карточке ядра прямо указано: не вместе. Двойной обработчик одного и того же хвата.",
+   "note": "6 списков ставят старую версию, но с нашей базой (Physical Collision VR 5.x, True Wield VR 1.2) нужен только Redux. Если в сохранении остались заклинания Add Spells — удалить до перехода.",
+   "evidence": "whouses 49425 и 55983: по 6 VR-списков. MODLIST.md, карточка Swap Drop and Hold Redux — VR: «Не вместе с: Swap Drop and Hold (#49425) и … Add Spells (#55983) — старый скриптовый предшественник; Redux их заменяет»."
+  },
+  {
+   "key": "id:4668",
+   "id": 4668,
+   "name": "Throwing Weapons Lite SE",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/4668",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Скриптовое метание ножей через анимации DAR. В VR уже есть физический бросок руки (Weapon Throw VR) — второй метатель лишний.",
+   "vr_status": "works_as_is",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "Throwing Weapons Lite SE - Dynamic Animation Replacer (…-4668-DAR1-0-1584922042.zip) и Version G.04 (…-4668-G-04.zip) — только Grit-списки.",
+   "requires": [],
+   "interplay": "Карточка Weapon Throw VR (ядро): «Не вместе с … другие метатели оружия». Анимации DAR/OAR метания не вяжутся с руками VRIK, которые двигают контроллеры, а не клипы.",
+   "note": "Список-эталон Grit ставит, но вместе с HIGGS-броском это дубль. Брать только если нужны ножи как предмет без жеста (скрипт-метание).",
+   "evidence": "whouses 4668: Spirit of Grit, Tahrovin - Grit (файлы выше). MODLIST.md, карточка Weapon Throw VR: «Не вместе с: Throwable Weapons SKSE (#182872) и другие метатели оружия»."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 140404,
+   "name": "Physical Torch Lighting - VR",
+   "reason": "Уже в Other-2 (r2-A04, tag try); не предлагаю повторно. Panda's: Physical Torch Lighting VR-140404-1-2."
+  },
+  {
+   "id": 28456,
+   "name": "Dual Wield Block VR",
+   "reason": "Уже в Other-2 (r2-A07, rec); 8 VR-списков."
+  },
+  {
+   "id": 65921,
+   "name": "ElSopa - Quivers Redone SE",
+   "reason": "Уже в Other-2 (r2-A02, opt)."
+  },
+  {
+   "id": 50197,
+   "name": "3D Casting FX - Fire and Frost Hand FX Replacer",
+   "reason": "Уже в Other-2 (r2-A08, rec)."
+  },
+  {
+   "id": 7560,
+   "name": "Wearable Lanterns (+ VR Patch 19348)",
+   "reason": "Уже в Other-1 (Снаряжение на теле, opt)."
+  },
+  {
+   "id": 132196,
+   "name": "Simple Wearable Lanterns - Remastered",
+   "reason": "Уже в Other-1 как альтернатива Wearable Lanterns."
+  },
+  {
+   "id": 2417,
+   "name": "Bandolier - Bags and Pouches Classic (+ C.O.C.K.S 145134, патчи 38228)",
+   "reason": "Уже в Other-1."
+  },
+  {
+   "id": 125542,
+   "name": "Pseudo Physical Weapon Collision and Parry - Tweaked / grounded config 162758",
+   "reason": "Уже в Other-1 как часть Pseudo Physical Parry; в Other-2 помечены covered_elsewhere; дублирует Physical Collision VR из ядра."
+  },
+  {
+   "id": 83092,
+   "name": "VR Equip",
+   "reason": "Уже в ядре (opt)."
+  },
+  {
+   "id": 31374,
+   "name": "Weapon Throw VR",
+   "reason": "Уже в ядре (rec)."
+  },
+  {
+   "id": 191729,
+   "name": "Telekinesis Aim Fix VR",
+   "reason": "Уже в ядре."
+  },
+  {
+   "id": 182410,
+   "name": "VRIK Closed Fist",
+   "reason": "Уже в ядре (opt): закрытые кулаки; других моделей рук в списках нет."
+  },
+  {
+   "id": 79663,
+   "name": "VRIK - an optimized configuration file set",
+   "reason": "Уже в Other-1 (opt); списки: FUS, Tempus, Panda's (172/186 cm)."
+  },
+  {
+   "id": 16242,
+   "name": "Skyrim VR Configuration Tool",
+   "reason": "Уже в Other-1."
+  },
+  {
+   "id": 16692,
+   "name": "Realistic Mining for VR + VR Refit - Mine Chop and Drop (49205)",
+   "reason": "Уже в ядре (rec)."
+  },
+  {
+   "id": 159455,
+   "name": "VR Refit - Better Logs",
+   "reason": "Только меши дров к VR Refit (ядро); 1 список, внешний вид — отдельный этап."
+  },
+  {
+   "id": 49903,
+   "name": "VR Refit - ElSopa HD Keys Resized",
+   "reason": "Уже в Other-1."
+  },
+  {
+   "id": 49850,
+   "name": "VR Refit - JS Purses and Septims Resized",
+   "reason": "Уже в Other-1 вместе с JS Shrines."
+  },
+  {
+   "id": 99809,
+   "name": "Gift by Hand VR",
+   "reason": "Уже в ядре; VR Equip Potions And Ingredients (№147691) оставлен как расширение."
+  },
+  {
+   "id": 43930,
+   "name": "HIGGS / PLANCK / VRIK / Physical Collision VR / True Wield VR / Swap Drop and Hold Redux",
+   "reason": "База стека, уже в ядре."
+  },
+  {
+   "id": 107803,
+   "name": "Eld-beri II - particle light lantern",
+   "reason": "Третья лампа на пояс; в списках Grit лежит только файл Community Shaders (основной файл не найден через whouses по ModID); дублирует группу lanterns, плюс баг ADXP."
+  },
+  {
+   "id": 139652,
+   "name": "Handheld Lanterns Animations - OAR",
+   "reason": "Анимационный мод (Panda's): руки в VR ведёт VRIK/контроллеры, клип лампы не виден; ценности для VR нет."
+  },
+  {
+   "id": 103080,
+   "name": "Dynamic Torch Idle Animations - OAR",
+   "reason": "Анимация факела: в VR руки по контроллерам, толку нет; только Panda's среди VR."
+  },
+  {
+   "id": 88506,
+   "name": "Dynamic Female Hand Warming",
+   "reason": "Анимация согрева рук у костра: в VR руки двигает игрок; мода тянет Panda's, но смысла нет."
+  },
+  {
+   "id": 90713,
+   "name": "Female Hands Redone",
+   "reason": "Внешний вид рук (BodySlide); Librum VR берёт «Hands Redone F Vanilla». Относится к этапу тел/внешности."
+  },
+  {
+   "id": 5040,
+   "name": "Fighting Gloves of Skyrim",
+   "reason": "Контентные перчатки; в VR оружие/руки ведёт HIGGS, смысла для интерактивности нет."
+  },
+  {
+   "id": 70354,
+   "name": "Don't sheathe bound weapons DAR animations",
+   "reason": "DAR-анимации; в VR кобуры VRIK и Instant Equip VR пропускают ножны."
+  },
+  {
+   "id": 11304,
+   "name": "Sometimes Pick Up Books",
+   "reason": "Книги в VR берутся HIGGS-хватом без чтения; дубль."
+  },
+  {
+   "id": 134337,
+   "name": "Auto Grab Amulets of Skyrim From Standing Stones",
+   "reason": "Автоподбор из камней; в VR HIGGS и так хватает предметы; 1 список (Tempus)."
+  },
+  {
+   "id": 125636,
+   "name": "Campfire Dynamic Collisions",
+   "reason": "Имеет смысл только с Campfire; его нет ни в ядре, ни в Other-1/2."
+  },
+  {
+   "id": 17577,
+   "name": "Realistic Capacity",
+   "reason": "Механика вместимости, не жесты; 1 список."
+  },
+  {
+   "id": 27008,
+   "name": "iEquip",
+   "reason": "Хоткейная смена экипировки + HUD-виджет (Librum VR); дублирует Spell Wheel VR и кобуры VRIK; не VR-родной."
+  },
+  {
+   "id": 33767,
+   "name": "Combat Gameplay Overhaul SE",
+   "reason": "Yggdrasil ставит; смена хвата/позиции, 2H в двух руках пересекаются с HIGGS-хватом и True Wield VR, свои анимации конфликтуют с OAR/Pandora. Не рекомендую."
+  },
+  {
+   "id": 28833,
+   "name": "AllGUD (All Geared Up Derivative)",
+   "reason": "Показ оружия на теле — дублирует кобуры VRIK; VR-сборки нет; 1 список."
+  },
+  {
+   "id": 98883,
+   "name": "Drop On Death - VR",
+   "reason": "NPC роняют вещи физически; Tahrovin 0.9. Пересекается с Death Drop Overhaul из ядра; шум предметов."
+  },
+  {
+   "id": 48476,
+   "name": "Drink Eat Sleep Bathe",
+   "reason": "Мод потребностей (пить у лица по HIGGS заявлено на странице); дублирует SunHelm Survival из ядра; в списках не найден."
+  },
+  {
+   "id": 157174,
+   "name": "DAc0da Lightsabers VR",
+   "reason": "Контентное оружие; не про интерактивность."
+  },
+  {
+   "id": 133214,
+   "name": "Flintlock Pistols for Adventurers - VR Patch",
+   "reason": "Контентный патч: пистолеты по руке; нужен основной мод, которого нет в наших списках."
+  },
+  {
+   "id": 74611,
+   "name": "Bug Fix - Sprinting Spell Hand (Empty Spell Sprint Hand Fix)",
+   "reason": "Фикс анимации рук; в VR руки по VRIK — вероятно не нужен; 1 список (Tempus)."
+  },
+  {
+   "id": 5013,
+   "name": "Craftable Torches",
+   "reason": "Контент (рецепты), не жесты."
+  },
+  {
+   "id": 8607,
+   "name": "Smoking Torches and Candles",
+   "reason": "Визуальный эффект дыма; внешний вид, а не взаимодействие."
+  },
+  {
+   "id": 148145,
+   "name": "Interactive Doors (Physics Based Farmdoors)",
+   "reason": "Тема ix_world (другой сборщик); Tempus. Пересекается с Interactive Door Actions - VR."
+  },
+  {
+   "id": 164263,
+   "name": "Physical VR Knocking - Simply Knock",
+   "reason": "Тема ix_world (другой сборщик); Yggdrasil."
+  },
+  {
+   "id": 28948,
+   "name": "Sighted Crossbows VR / Simple Iron Sights 38946 / CC Crossbow Scopes 141084",
+   "reason": "Тема ix_combat (стрельба); оставлено другому сборщику."
+  },
+  {
+   "id": 44442,
+   "name": "Crouch To Dodge VR / Power Attack VR 58374 / Blocking and Flash VR Redux 103990",
+   "reason": "Тема ix_combat (уклонение/атаки); оставлено другому сборщику."
+  },
+  {
+   "id": 127697,
+   "name": "Hand to Hand - An Adamant Addon VR DLL (+ Tweaks 94179)",
+   "reason": "Перки кулачного боя на базе Adamant (ядро); FUS. Тема перков, а не жестов; Lethal Unarmed VR в ядре."
+  },
+  {
+   "id": 168553,
+   "name": "VR Climbing (Bellbound, 0.11.0)",
+   "reason": "В ядре уже есть форк VR Climbing - Aelove Ver (opt); Tempus/Panda's ставят оригинал — выбирать одно."
+  },
+  {
+   "id": 164902,
+   "name": "SpellBender VR / SkyrimVR Strange Runes 30558",
+   "reason": "Тема ix_magic; оставлено другому сборщику."
+  },
+  {
+   "id": 102094,
+   "name": "Quickloot VR",
+   "reason": "Тема ix_ui; в ядре QuickLoot IE."
+  },
+  {
+   "id": 37238,
+   "name": "Helps To Have A Map",
+   "reason": "Тема ix_ui/world (карта-предмет); Librum VR; оставлено другому сборщику, связан с Navigate VR."
+  },
+  {
+   "id": 129974,
+   "name": "Simple NPC Poser and Ragdoller for VR and SE",
+   "reason": "Утилита позирования/рэгдолла; не про жесты; Tahrovin."
+  },
+  {
+   "id": 72174,
+   "name": "Yelling At The Sky - Immersive VR Transformations",
+   "reason": "Тема ix_magic/shout (превращение жестом); оставлено другому сборщику."
+  },
+  {
+   "id": null,
+   "name": "Immersive VR Actions (alpha)",
+   "reason": "Заявлен в r/skyrimvr в феврале 2026 (предметы из контейнеров/трупов хватать призраками, стрелы с плеча, отмычки); релиза на Nexus не подтверждено, в комментарии 28.05.2026 спрашивают «ещё в работе?»."
+  },
+  {
+   "id": null,
+   "name": "Biting Axes & Swords (VR) — SamuelJohnBrown/GitHub",
+   "reason": "Только GitHub-исходники (HIGGS+PLANCK, топоры застревают в NPC); страницы Nexus не нашёл; пересекается с Immersive Weapon Penetration VR из ядра."
+  },
+  {
+   "id": null,
+   "name": "Neck Snap VR — SamuelJohnBrown/GitHub",
+   "reason": "Только GitHub, релиз не подтверждён; тема убийств/боя, пересекается с Throat Slit VR и Lethal Unarmed VR (ядро)."
+  },
+  {
+   "id": null,
+   "name": "Weapons & Shields Unlocked (VR) — SamuelJohnBrown/GitHub",
+   "reason": "Только GitHub (снимает привязку щита к левой, двуручного к правой руке); Nexus-страница не найдена, пересекается с HIGGS-двуручным хватом, Dead Weight VR, True Wield VR."
+  },
+  {
+   "id": null,
+   "name": "Interactive Pipe Smoking VR — SamuelJohnBrown/GitHub",
+   "reason": "Только GitHub, релиз не найден; нишевый контент."
+  },
+  {
+   "id": null,
+   "name": "SkyrimVR-Apply-Poison / True-Grip-SkyrimVR / skyrimvr-grip-tweaks / skyrimvr-backpack (xNicklaj, GabeAlvess, clayne, LXE97)",
+   "reason": "GitHub-проекты 2023–2026 без описаний и без Nexus-релизов; для установки нет данных о файлах и VR-статусе."
+  },
+  {
+   "id": null,
+   "name": "Grab and Throw / Throwable Weapons SKSE (плоские метатели)",
+   "reason": "Плоские SKSE-метатели: Throw Stuff VR прямо пишет, что Grab and Throw не нужен; Weapon Throw VR из ядра не совмещается с другими метателями."
+  }
+ ],
+ "notes": "Проверить локально на Nexus: 1) требования и VR-файлы у Throwing Things Makes Noise (155761), Wearable Health bars - Soul Gauge (65737), VR Equip Potions And Ingredients (147691), Simple Drop Lit Torches SE (14490), PLANCK Ignore Followers (105789) — страницы Nexus из окружения недоступны (прокси 403), опирался на описания архивов Wabbajack и сниппеты поиска. 2) Fake Edge VR: в Panda's файл 2.0.8, на странице 2.1.0 (27.01.2026) — брать 2.1.0 при тесте; сравнить с Physical Collision VR и не ставить оба без проверки. 3) Interactive Door Actions - VR (184347) подтверждён только сниппетом (v1.2.3, HIGGS + SKSE VR) и GitHub-описанием, в списках не встречается; имя архива не знаю. 4) Список «Physical Torch Lighting VR», «Dual Wield Block VR», «ElSopa Quivers» и «3D Casting FX» уже в Other-2 (второй проход, возможно неполный) — не дублировал. 5) Ни один из 27 списков не ставит отдельных VR-рюкзаков, VR-кобур сверх VRIK, перчаток или новых моделей рук для VR; VRIK + HIGGS закрывают тему. 6) Часть GitHub-проектов SamuelJohnBrown (Machina) — исходники известных VR-модов (Swap Drop and Hold Redux, Throat Slit VR, Physical Torch Lighting, SpellBender VR); неизвестные релизы могут появиться на Nexus позже — перепроверить через неделю."
+}

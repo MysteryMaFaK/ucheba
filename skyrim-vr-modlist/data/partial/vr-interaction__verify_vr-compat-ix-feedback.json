@@ -1,0 +1,224 @@
+{
+ "verdicts": [
+  {
+   "key": "id:20055",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": "vest_haptics",
+   "what": "Жилет Hardlight: удары, магия, стрельба и крик отдаются в 16 зон, при малом здоровье бьётся «сердце». SKSE-плагин под SkyrimVR.",
+   "note": "Нужен только при наличии жилета Hardlight. VR-статус по описанию («SKSE Plugin to support Hardlight VR Suit with SkyrimVR»), но файл и версию под 1.4.15 страница не подтвердила: открыть Nexus и сверить. Ни один из 27 списков его не ставит. Один жилет-мод из группы vest_haptics (bHaptics уже в Other-1, OWO, этот). Тест: получить удар, скастовать, выстрелить, проверить зоны.",
+   "reason": "Plausible: заявлен под SkyrimVR, с HIGGS/PLANCK/VRIK не пересекается (читает события урона). Доказательств из списков нет, поэтому try. Требования 'Skyrim VR Tools' взяты из сниппета, не подтверждены."
+  },
+  {
+   "key": "id:116496",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": "vest_haptics",
+   "what": "Порт мода bHaptics Tactsuit на жилеты OWO: вибрация от ударов и магии. Только для владельцев OWO.",
+   "note": "Только для жилета OWO. Версия и файл не подтверждены (Nexus не открылся, лишь сниппет). Автор тестировал только на FUS (VRIK, HIGGS, Spell Wheel VR, Weapon Throw VR); часть эффектов не реализована (нет множителя силы, нет дождя). Не ставить вместе с bHaptics из Other-1 и Hardlight. OWO-приложение запускать до игры, игру через SKSE-загрузчик.",
+   "reason": "Порт VR-мода, зависимость на Skyrim VR Tools правдоподобна; ни в одном списке нет, мало отзывов. Взаимоисключающий с bHaptics (#24486, Other-1)."
+  },
+  {
+   "key": "id:62372",
+   "keep": false,
+   "section": "ix_feedback",
+   "tag": "alt",
+   "choose_one_group": null,
+   "what": "Wash That Blood Off 2 VR: смывает кровь с тела, брони и оружия в воде и под дождём.",
+   "note": "VR-файл 2.0.0 подтверждён whouses (5 VR-списков). Но это внешний вид, не взаимодействие; Core уже ставит Dirt and Blood (#38886) с пометкой «не вместе с WTBO2 VR». Panda's ставит оба сразу, однако Core велит выбрать один.",
+   "reason": "Не по теме интерактивности и дублирует функцию Dirt and Blood из Core; Core уже упоминает этот мод как конфликтующий вариант. Если владелец захочет заменить Dirt and Blood, это отдельный выбор, не 'пропущенный' мод."
+  },
+  {
+   "key": "id:103990",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": "block_fx",
+   "what": "Вспышка при блоке в VR (правка Blocking and Flash VR): видно, что блок сработал, в том числе у блокирующих NPC.",
+   "note": "Файл «Blocking and Flash VR - Brawl Fix» 1.0 (103990-1-0-1699060625.zip) в Tahrovin, Tahrovin - Grit, Spirit of Grit. Тип мода (SKSE или ESP) не подтверждён, 'SKSEVR' в требованиях убрать до проверки. Работает рядом с Dual Wield Block VR и Pseudo Physical Parry; PLANCK/HIGGS не трогает, но если удар обработан раньше блока, вспышка может запаздывать. Тест: блок щитом и клинком, блок у NPC. С Block FX (93223) выбрать одно.",
+   "reason": "Три VR-списка ставят тот же файл, VR-название и назначение. Конфликтов с физикой нет (только эффект). Требования не подтверждены, поэтому try."
+  },
+  {
+   "key": "id:93223",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "alt",
+   "choose_one_group": "block_fx",
+   "what": "Block FX: пока актёр блокирует, на нём горит Oakflesh. Удобно подобрать угол блока и проверить Dual Wield Block VR.",
+   "note": "Block FX-93223-1-0-1686407143.zip, только Yggdrasil VR. Отладочный плагин без DLL и скриптов (по описанию), работает как есть. Эффект висит всё время блока, для постоянной игры раздражает: ставить на время настройки. Для обычного эффекта брать Blocking and Flash VR - Redux.",
+   "reason": "Подтверждён whouses и описанием («useful in VR for finetuning block angle»). Отладочный инструмент, поэтому только alt, не rec."
+  },
+  {
+   "key": "id:72174",
+   "keep": true,
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Превращение в оборотня или Повелителя-вампира своим жестом, а не кнопкой. VR-мод, стоит в 3 VR-списках.",
+   "note": "Yelling At the Sky VR-72174-0-9-1659060626.7z (0.9) во всех трёх: Yggdrasil, Panda's, FUS. Нужен источник превращения (оборотень, вампиризм). Пара к Vampire Body for VR и Werewolf Body for VR (Other-1). Версия 2022 года; тест: превратиться и вернуться, проверить, что калибровка рук VRIK не сбилась. Faster Transform с ним ставят, но он не нужен.",
+   "reason": "VR-файл подтверждён whouses, три VR-списка, по теме (жест вместо кнопки). Конфликтов с HIGGS/PLANCK не ожидается. Секцию сменил на ix_magic: это жест-активация, не обратная связь."
+  },
+  {
+   "key": "id:15254",
+   "keep": false,
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Faster Transform: ускоряет анимацию превращения в оборотня и Повелителя-вампира.",
+   "note": "Файл Faster Transform SE-15254-1-0.7z, только анимации; в VR его ставит один Yggdrasil. Меняет анимации превращения, возможен конфликт с Pandora/OAR и анимациями оборотня.",
+   "reason": "Это не интерактивность, а ускорение катсцены; только Yggdrasil. Не проходит планку 'curated extras for VR interaction'. Нужен лишь тем, кто всё равно ставит Yelling At The Sky."
+  },
+  {
+   "key": "id:174135",
+   "keep": true,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фикс VR для Повелителя-вампира: после первого превращения снова работают смена стойки, левитация и заклинания.",
+   "note": "VampireLordFixesVR(SAN)-174135-1-0-1772902363.7z (1.0), только Tempus Maledictum VR. Расшифровка «SAN» и требование SKSEVR не подтверждены, смотреть страницу. По описанию включает фиксы для Scion, Sacrosanct и Sacrilege, то есть заменяет Sacrilege VR Fix (158007). Нужен только вампирам. Тест: превратиться, левитация, заклинание крови, второе превращение за сессию.",
+   "reason": "Реальный VR-баг, VR-название, свежий файл (2026), но один список и неподтверждённая природа плагина, поэтому try. Не про руки напрямую: касается доступа к заклинаниям (колесо) в VR."
+  },
+  {
+   "key": "id:158007",
+   "keep": false,
+   "section": "ix_feedback",
+   "tag": "alt",
+   "choose_one_group": null,
+   "what": "Sacrilege - Vampire Lord VR Fix: чинит стойку и заклинания Повелителя-вампира, работает только с Sacrilege.",
+   "note": "Sacrilege VR Fix-158007-1-0-1756472872.7z в Spirit of Grit и Tahrovin - Grit. Автор называет фикс «kinda jank». Работает только с Sacrilege (#42408), которого в списках нет.",
+   "reason": "Требует вампирный мод, которого в Core и Other-1 нет, а 174135 по описанию уже покрывает Sacrilege. Лишняя запись."
+  },
+  {
+   "key": "id:75455",
+   "keep": false,
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "AnimObject Swapper VR: SKSEVR-фреймворк замены предметов в анимациях по конфигам.",
+   "note": "AnimObject Swapper VR-75455-1-1-0-1666425597.7z (1.1.0) в 5 VR-списках. Сам ничего не меняет: нужен только зависимым модам (Broom Animobject, Sharpen Other Swords II), которых в списках нет. SE-файл 75167 в VR не брать.",
+   "reason": "Чистый фреймворк без самостоятельного эффекта и не про интерактивность. Ставится по требованию конкретного мода, а не как рекомендация."
+  },
+  {
+   "key": "id:42550",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Вздрагивание NPC и игрока от попаданий (версия for VR на OnHit Framework). Добавляет анимацию реакции к ударам руками и оружием.",
+   "note": "VR-файл: Flinching for VR-42550-1-4-1637414669.zip (1.4, Yggdrasil VR) и 1.2 (Librum VR); у SE-списков другой файл «Script free Flinching». Нужен OnHit Animations Framework - NG (#69298). Анимации идут через behavior: после установки запустить Pandora и проверить, что реакция играет. Возможны наложения с рэгдоллом PLANCK и стаггером боевых модов (Adamant, CPR) и другими flinch-модами: два реакции на один удар. Тест: удар рукой и кинжалом по NPC; если нет эффекта или ломается поза, отключить.",
+   "reason": "VR-вариант файла подтверждён whouses в 2 VR-списках, но реакция через анимации может конфликтовать с PLANCK и боевыми модами, а совместимость с Pandora не подтверждена. Секцию сменил на ix_combat."
+  },
+  {
+   "key": "id:69298",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "OnHit Animations Framework NG: одна DLL для SE, AE и VR, зависимость Flinching for VR. Сам эффектов не даёт.",
+   "note": "OnHit Animations Framework - NG 69298 1.0.2 (Yggdrasil VR, 2026-08-24). По описанию DLL одна для SE/AE/VR. Брать только вместе с Flinching for VR. Старый SSE-фреймворк #42574 не ставить. Требует VR Address Library; проверить загрузку DLL в sksevr.log.",
+   "reason": "VR-поддержка заявлена автором («SE, AE, and VR in one DLL») и подтверждена списком Yggdrasil VR. Имеет смысл только в паре с 42550, поэтому try вместе с ним."
+  },
+  {
+   "key": "id:149484",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Object Impact Framework: JSON-эффекты, звуки и подмена предмета при активации или ударе по нему. Нужен для Throwing Things Makes Noise - OIF.",
+   "note": "Object Impact Framework - OIF-149484-1-6-8-1756392215.zip (Panda's Sovngarde) и опция «Cut Food Config». VR-статус DLL на странице не подтверждён, значит проверить загрузку в sksevr.log. Без конфигов не делает ничего. Ставить только вместе с Throwing Things Makes Noise - OIF (#155761, собирается в других секциях). Не дублирует Core Impact Framework: тот про удары по актёрам. Опция Cut Food Config режет еду: смотреть, что она делает.",
+   "reason": "Plausible: Panda's ставит его в VR-список, но заявленной VR-сборки нет. Самостоятельной ценности нет, только как зависимость. Секцию сменил на ix_world (предметы мира)."
+  },
+  {
+   "key": "id:138932",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Magical Potion Sounds: 25 вариантов звука питья зелий вместо одного. Приятно, когда подносишь пузырёк ко рту.",
+   "note": "Magical Potion Sounds-138932-1-1-1737167673.7z (1.1), Stormcrown VR; тот же файл в 4 SE-списках. Плагин без DLL, работает через Sound Record Distributor (в Core). Мелочь по звуку; возможно пересечение с AOS/ISC: проверить в xEdit двойные записи звука зелья.",
+   "reason": "Работает как есть (SRD через Core), один VR-список, конфликтов с HIGGS/PLANCK нет. Ценность малая, поэтому opt."
+  },
+  {
+   "key": "id:47437",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "A Bow's Whisper: подробная озвучка лука (натяжение, спуск, убирание). Слышно свою стрельбу руками, а не ванильный щелчок.",
+   "note": "A Bow's Whisper - Vanilla-47437-1-1-1616559350.rar + «Lowered sheathe volume» 1.1 (Yggdrasil VR). Плагин-звук без DLL, но пересекается с AOS/ISC и Immersive Draw Sheathe Sounds VR (Core) по записям звуков лука: проверить в xEdit, иначе двойной звук или тишина. Тест: натянуть, выпустить, убрать лук за спину.",
+   "reason": "Один VR-список (2021 файл) и риск SNDR-конфликтов с уже стоящими звуковыми модами. Работает в VR как не-SKSE ассет, но польза не доказана, поэтому try."
+  },
+  {
+   "key": "n:skyrimvr fbt - full body tracking with physics",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Полное отслеживание тела трекерами на бёдрах и ногах: удар ногой наносит урон по скорости и сбивает врага. Для владельцев трекеров.",
+   "note": "Мод GingasVR, июль 2026 (Digitec/Galaxus, Game*Spark 16.07.2026). Требует SKSEVR, VRIK, HIGGS, PLANCK и SteamVR-трекеры (SlimeVR, Vive). По умолчанию пинки только в бою, тратят выносливость, с кулдауном (правка INI снимает). Ссылка ведёт на статью, страница Nexus не открылась: имя файла и версии подтвердить там. Версии VRIK 0.8.7, HIGGS 1.10.10, PLANCK 0.8.1 в заметке выше не подтверждены, сверять по странице. Проверить дублирование урона с Lethal Unarmed VR и Physical Collision VR. Ставить на отдельном профиле.",
+   "reason": "VR-нативный (строится на VRIK, HIGGS, PLANCK, по трём источникам), но свежий, мало отзывов и ни в одном списке; полезен лишь с трекерами тела. Для обычной установки не нужен."
+  },
+  {
+   "key": "id:172783",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Инерция движения по весу: разгон, торможение и повороты зависят от переносимого груза. Только для тех, кого не укачивает.",
+   "note": "Inertia - Physical Movement Response System-172783-1-2-0-1771526633.zip (1.2.0, Stormcrown VR 2026). Автор пишет про Skyrim, про VR явно не сказано; VR-DLL не подтверждена, проверить в sksevr.log. Не путать с Inertia (#148746) из Core. Риск комфорта: плавный разгон при гладком перемещении. Может конфликтовать с Sprint Jump VR и другими модами движения. Начинать с малой силы; при дискомфорте убрать.",
+   "reason": "Единственное доказательство VR: список Stormcrown VR. Судя по поиску, мод правит движение на уровне движка, VR-поддержка не подтверждена, а для VR он потенциально вреден для комфорта. Поэтому только try."
+  },
+  {
+   "key": "id:84507",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Skyrim Rumble (doodlum): переработка вибрации геймпада. Страница прямо исключает VR; для вибрации контроллеров VR есть Haptic Skyrim VR.",
+   "note": "Страница 84507: «compatible with all game versions excluding VR» (подтверждено поиском). Ставят 4 SE-списка (Nordic Souls, LoreRim, Wunduniik), VR-списков нет. Для VR не ставить; вибрацию даёт Haptic Skyrim VR (Core) плюс HIGGS и PLANCK.",
+   "reason": "Подтверждено: автор исключил VR, VR-списки не ставят. Люди могут скопировать из SE-списков, поэтому dont."
+  },
+  {
+   "key": "n:tk hitstop se",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоские hitstop и camera-shake моды (например, TK Hitstop SE): пауза и тряска камеры при ударе. В VR не работают или вызывают укачивание.",
+   "note": "Обобщённая запись, ссылка на Steam-обсуждение приблизительна и не подтверждена. Тряска камеры в VR опасна для комфорта; пауза при ударе в VR уже есть у Pseudo Physical Weapon Collision and Parry (#100781, Other-1) и Physical Collision VR. Эти два мода (Physical Collision VR из Core и Pseudo Physical) между собой несовместимы: смотреть отдельную заметку Core. Отсылку на Spell Wheel VR не использовать: не подтверждена.",
+   "reason": "Класс плоских модов, VR-списков нет. Оставлен как dont-предупреждение, но конкретные утверждения про hitstop у Pseudo Physical и Spell Wheel VR не подтверждены, поэтому текст смягчён."
+  },
+  {
+   "key": "id:86071",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Dynamic Impact - Slash Effects X: частицы при ударе оружием. Дублирует эффекты попаданий Core Impact Framework и Sanguine Symphony.",
+   "note": "Dynamic Impact - Slash Effects X-86071-1-20b-1701505263.zip (Grit-списки), Tahrovin — 1.1. Работает в VR как есть (только частицы), но Core Impact Framework велит не ставить другие моды эффектов попаданий. Допустим только если CIF отключён; тогда проверить частицы на кадры.",
+   "reason": "Мод рабочий и стоит в 3 VR-списках, поэтому его скопируют; в этой сборке он лишний из-за CIF и Sanguine Symphony. Пометка dont условная (при установленных CIF)."
+  },
+  {
+   "key": "id:8936",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Improved Weapon Impact Effects Correct Metal SE («Sparkles»): старая замена искр и звуков удара по металлу. Лишняя при Core Impact Framework.",
+   "note": "Sparkles-8936-1-3.zip (1.3), Yggdrasil VR и 3 SE-списка. Порт Oldrim. Core Impact Framework исключает Improved Weapon Impact Effects; искры уже даёт Improved Sparks. Ставить только без CIF.",
+   "reason": "Дублирует CIF, Sanguine Symphony и Improved Sparks из Core: двойные искры и звуки. Мод работает в VR, но в этой сборке не нужен."
+  },
+  {
+   "key": "id:167883",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "FP Inertia - SKSE: инерция и «вес» рукам и оружию от первого лица. Плоский мод: в VR руки ведёт VRIK и HIGGS.",
+   "note": "FP Inertia - SKSE-167883-1-3-1780990222.rar, только SE-списки (Nordic Souls PBR, SUP, Wunduniik); VR-списков нет. Мод правит движение рук и оружия от первого лица, в VR оно идёт от контроллеров. Вес оружия в VR даёт True Wield VR. Не путать с Inertia от Zzyxzz (172783).",
+   "reason": "Подтверждено только SE-списками и описанием «first person movements». Для VR бессмысленен и может конфликтовать с VRIK; его скопируют по сходству названия с Inertia, поэтому dont."
+  }
+ ]
+}

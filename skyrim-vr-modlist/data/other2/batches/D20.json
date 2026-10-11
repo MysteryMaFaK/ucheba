@@ -1,0 +1,769 @@
+{
+ "batch": "D20",
+ "band": "D",
+ "themes": {
+  "land_nature": 35
+ },
+ "items": [
+  {
+   "id": 93944,
+   "name": "Skoglendi - A Grass Mod",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-07-04",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Skoglendi - A Grass Mod-93944-1-2-1688506385.7z"
+   ],
+   "author": "JPSteel2",
+   "leftover": false,
+   "key": "id:93944",
+   "theme": "land_nature"
+  },
+  {
+   "id": 143311,
+   "name": "SkyInteract",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-27",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "SkyInteract-143311-1-0-7-1761003163.zip",
+    "SkyInteract-143311-1-0-8-1761591314.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:143311",
+   "theme": "land_nature"
+  },
+  {
+   "id": 116792,
+   "name": "Skyfall's Sleeping Hist Tree Overhaul",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-01-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Dead and Winter Textures-116792-1-0-1713241246.7z",
+    "Embers XD Patch-116792-1-0-1713153589.7z",
+    "Grandiose Giants Patch-116792-1-0-1713153638.7z"
+   ],
+   "author": "Skyfall515 - ToosTruus - Clofas",
+   "leftover": false,
+   "key": "id:116792",
+   "theme": "land_nature"
+  },
+  {
+   "id": 144420,
+   "name": "Skyforge Immersion Addon",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-03-12",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Skyforge Immersion Addon - FOMOD-144420-1a-1741741094.7z"
+   ],
+   "author": "MadAborModding",
+   "leftover": false,
+   "key": "id:144420",
+   "theme": "land_nature"
+  },
+  {
+   "id": 143209,
+   "name": "Skyking Signs PBR",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-07-22",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Skyking Misc PBR-143209-1-1-1-1753156900.7z",
+    "Skyking Signs PBR-143209-1-0-1740808251.7z"
+   ],
+   "author": "Leo",
+   "leftover": false,
+   "key": "id:143209",
+   "theme": "land_nature"
+  },
+  {
+   "id": 142908,
+   "name": "Skyland Bits and Bobs PBR",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-07-20",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Skyland Bits and Bobs PBR-142908-1-0-1740553206.7z",
+    "Skyland Bits and Bobs PBR-142908-1-2-0-1753024520.7z"
+   ],
+   "author": "Leo",
+   "leftover": false,
+   "key": "id:142908",
+   "theme": "land_nature"
+  },
+  {
+   "id": 65502,
+   "name": "Skyland Sovngarde",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-09-24",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Skyland Sovngarde-65502-1-0-1648250504.7z",
+    "Skyland Sovngarde-65502-1-1-1695521567.7z"
+   ],
+   "author": "Skyking2020",
+   "leftover": false,
+   "key": "id:65502",
+   "theme": "land_nature"
+  },
+  {
+   "id": 29625,
+   "name": "Skyrim Posts Replacer",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-10-12",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Skyrim Posts Replace-29625-1-0-1570844182.zip"
+   ],
+   "author": "SDlutz",
+   "leftover": false,
+   "key": "id:29625",
+   "theme": "land_nature"
+  },
+  {
+   "id": 5261,
+   "name": "Skyrims Unique Treasures",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-12-23",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "SUT_OrcishScaled_Patch-5261-4-7-1703368104.rar",
+    "Skyrims Unique Treasures SE-5261-4-7-1703367806.7z"
+   ],
+   "author": "clintmich and icecreamassassin and sirjesto",
+   "leftover": false,
+   "key": "id:5261",
+   "theme": "land_nature"
+  },
+  {
+   "id": 70678,
+   "name": "Solitude Empty Landscape Fix",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-07-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Solitude Empty Landscape Fix-70678-0-2-1656871991.zip"
+   ],
+   "author": "Maar Malur",
+   "leftover": false,
+   "key": "id:70678",
+   "theme": "land_nature"
+  },
+  {
+   "id": 98963,
+   "name": "Southfringe Sanctum Crash Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-08-23",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Southfringe Crash Fix-98963-1-3-1692801266.7z"
+   ],
+   "author": "elgrumo",
+   "leftover": false,
+   "key": "id:98963",
+   "theme": "land_nature"
+  },
+  {
+   "id": 97536,
+   "name": "Starfrost - A Survival Overhaul",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-10",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Starfrost - A Survival Overhaul 97536 2.0.0 2026-08-10T21-24Z UK35Xn2DP.7z",
+    "Starfrost - A Survival Overhaul-97536-1-2-9-1715528593.7z"
+   ],
+   "author": "SimonMagus",
+   "leftover": false,
+   "key": "id:97536",
+   "theme": "land_nature"
+  },
+  {
+   "id": 135078,
+   "name": "Sunderstone",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-11-28",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Lux - Sunderstone Patch-135078-1-0-1732809027.7z",
+    "Lux Orbis - Sunderstone Patch (ESL)-135078-1-01-1732825733.7z",
+    "Sunderstone Landscape Patch-135078-1-0-1732811705.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:135078",
+   "theme": "land_nature"
+  },
+  {
+   "id": 44017,
+   "name": "Swamp fungal pod by Mari",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-01-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Swamp fungal pod by Mari-44017-1-0-1609861649.7z"
+   ],
+   "author": "ArtByMari",
+   "leftover": false,
+   "key": "id:44017",
+   "theme": "land_nature"
+  },
+  {
+   "id": 129279,
+   "name": "Temper and Recharge Services",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-06-30",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Temper Daedric Artifacts-129279-1-0-0-1728716585.rar",
+    "Temper and Recharge Services 129279 1.0.2 2026-06-30T02-27Z MWx0rvkAi.zip",
+    "Temper and Recharge Services-129279-1-0-1-1726478941.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:129279",
+   "theme": "land_nature"
+  },
+  {
+   "id": 59174,
+   "name": "True Wolves Of Skyrim",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-03-29",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Studded Elven Armor-59174-1-0-1638087846.7z",
+    "Studded Elven Armor-59174-1-3-1680114748.7z",
+    "True Wolves of Skyrim - SSE-59174-2-0-1555921653.7z"
+   ],
+   "author": "KrittaKitty and ShimoOkami",
+   "leftover": false,
+   "key": "id:59174",
+   "theme": "land_nature"
+  },
+  {
+   "id": 52633,
+   "name": "Vanguard - Bash Behaviors Overhaul",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-07-20",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Bash Behaviors Overhaul-52633-1-0-0-1626799841.7z"
+   ],
+   "author": "BOTuser999",
+   "leftover": false,
+   "key": "id:52633",
+   "theme": "land_nature"
+  },
+  {
+   "id": 53219,
+   "name": "Vyn Exports - Ice Claws",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-08-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Vyn Exports - Ice Claws-53219-1-01-1628073816.rar"
+   ],
+   "author": "Ixion XVII",
+   "leftover": false,
+   "key": "id:53219",
+   "theme": "land_nature"
+  },
+  {
+   "id": 71418,
+   "name": "Wade In Water Redone",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-24",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Wade In Water Redone 71418 1.1.3 2026-08-24T21-06Z Ks18n0wt0.zip",
+    "Wade In Water Redone-71418-1-1-2-1666745482.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:71418",
+   "theme": "land_nature"
+  },
+  {
+   "id": 132074,
+   "name": "Wheeler Crash-Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-10-24",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Wheeler ctd-fix-132074-1-0-1-1729806384.zip"
+   ],
+   "author": "zombiesyard",
+   "leftover": false,
+   "key": "id:132074",
+   "theme": "land_nature"
+  },
+  {
+   "id": 28197,
+   "name": "Wiseman303's Flora Fixes - Revamped",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-03-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "WM's Flora Fixes - Revamped (No Scripts)-28197-3-2-1617147694.7z",
+    "WM's Flora Fixes - Revamped-28197-3-2-1570824231.zip"
+   ],
+   "author": "Wiseman303 and NeverLost",
+   "leftover": false,
+   "key": "id:28197",
+   "theme": "land_nature"
+  },
+  {
+   "id": 36144,
+   "name": "[серия «fan made music», 3 модов] Around the Fire - Skyrim Fan-Made Music и др.",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-05-18",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Around the Fire-36144-1-0-1589817599.rar"
+   ],
+   "author": "OrganicView aka CaptainCreepy",
+   "leftover": false,
+   "key": "id:36144",
+   "series": "fan made music",
+   "members": [
+    {
+     "id": 36144,
+     "name": "Around the Fire - Skyrim Fan-Made Music",
+     "vr": 0,
+     "se": 5,
+     "newest": "2020-05-18",
+     "files": [
+      "Around the Fire-36144-1-0-1589817599.rar"
+     ]
+    },
+    {
+     "id": 48613,
+     "name": "Dawnguard Music Overhaul - Skyrim Fan-made Music",
+     "vr": 0,
+     "se": 5,
+     "newest": "2021-04-15",
+     "files": [
+      "Dawnguard Music Overhaul - Combat Module-48613-1-0-1618519206.7z"
+     ]
+    },
+    {
+     "id": 30014,
+     "name": "Melodies of Civilization - Skyrim Fan-Made Music",
+     "vr": 0,
+     "se": 5,
+     "newest": "2019-10-29",
+     "files": [
+      "Melodies of Civilization 1.01-30014-1-01-1572356289.rar"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 70764,
+   "name": "[серия «rob's bug», 3 модов] Rob's Bug Fixes - TGC Old Hroldan и др.",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-07-05",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Rob's Bug Fixes - TGC Old Hroldan-70764-1-0-1656986695.rar"
+   ],
+   "author": "robertgk2017",
+   "leftover": false,
+   "key": "id:70764",
+   "series": "rob's bug",
+   "members": [
+    {
+     "id": 70764,
+     "name": "Rob's Bug Fixes - TGC Old Hroldan",
+     "vr": 0,
+     "se": 5,
+     "newest": "2022-07-05",
+     "files": [
+      "Rob's Bug Fixes - TGC Old Hroldan-70764-1-0-1656986695.rar"
+     ]
+    },
+    {
+     "id": 70567,
+     "name": "Rob's Bug Fixes - TGC Mixwater Mill",
+     "vr": 0,
+     "se": 4,
+     "newest": "2022-07-01",
+     "files": [
+      "Rob's Bug Fixes - TGC Mixwater Mill-70567-1-0-1656700579.rar"
+     ]
+    },
+    {
+     "id": 70502,
+     "name": "Rob's Bug Fixes - TGC Shor's Stone",
+     "vr": 0,
+     "se": 4,
+     "newest": "2022-06-30",
+     "files": [
+      "Rob's Bug Fixes - TGC Shor's Stone-70502-1-0-1656585748.rar"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 145599,
+   "name": "Adventurer's Start - An Alternate Perspective Addon",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-07-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Adventurer's Start-145599-1-0-0-1743990824.zip",
+    "Adventurer's Start-145599-1-0-1-1751438227.zip",
+    "Bruma Adventurer's Start Addon-145599-1-0-0-1743990939.zip"
+   ],
+   "author": "Missile",
+   "leftover": false,
+   "key": "id:145599",
+   "theme": "land_nature"
+  },
+  {
+   "id": 34988,
+   "name": "All-Maker Stones HD Retexture",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-04-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "All-Maker Stones HD Retexture - Majestic Mountains - Darkside-34988-1-1587571294.rar",
+    "All-Maker Stones HD Retexture - Majestic Mountains - Northside-34988-1-1587505511.rar",
+    "All-Maker Stones HD Retexture-34988-1-1587399959.rar"
+   ],
+   "author": "TheEye2108",
+   "leftover": false,
+   "key": "id:34988",
+   "theme": "land_nature"
+  },
+  {
+   "id": 49198,
+   "name": "Ancient Trees Of Skyrim",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-08-28",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Ancient Trees of Skyrim 5.1.1 SE-49198-v5-1-1-1630117400.zip",
+    "Ancient Trees of Skyrim V SE-49198-5-1629922301.zip",
+    "Eldergleam roots texture fix-49198-V5-0-1-1629997371.zip"
+   ],
+   "author": "Yag1z",
+   "leftover": false,
+   "key": "id:49198",
+   "theme": "land_nature"
+  },
+  {
+   "id": 111752,
+   "name": "Apothecary Universal Ingredient SkyPatcher",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Apothecary Universal Ingredient SkyPatcher-111752-1-0-1708038838.7z"
+   ],
+   "author": "DeathByPewPew",
+   "leftover": false,
+   "key": "id:111752",
+   "theme": "land_nature"
+  },
+  {
+   "id": 105226,
+   "name": "Artificer - Unofficial Patches",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Artificer - Audio Overhaul for Skyrim-105226-0-0-1-1700531440.7z",
+    "Artificer - Guard Dialogue Overhaul-105226-0-0-1-1700533276.7z",
+    "Artificer - Immersive Sounds Compendium-105226-0-0-1-1700533448.7z"
+   ],
+   "author": "Charolas",
+   "leftover": false,
+   "key": "id:105226",
+   "theme": "land_nature"
+  },
+  {
+   "id": 120802,
+   "name": "Ascend - Hidden Peaks of Skyrim",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-08-29",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ascend - Hidden Peaks of Skyrim-120802-1-01-1724932479.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:120802",
+   "theme": "land_nature"
+  },
+  {
+   "id": 159249,
+   "name": "Babbling Brooks - A Water Audio Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-09-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Babbling Brooks-159249-1-1-1758488384.7z"
+   ],
+   "author": "Clofas",
+   "leftover": false,
+   "key": "id:159249",
+   "theme": "land_nature"
+  },
+  {
+   "id": 140677,
+   "name": "Better Big Boat LOD",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-02-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Better Big Boat LOD - Longboat Addon-140677-1-0-1738576744.7z",
+    "Better Big Boat LOD-140677-1-1-1738576668.7z",
+    "Better Big Boat LOD-140677-1-11-1739829863.7z"
+   ],
+   "author": "me",
+   "leftover": false,
+   "key": "id:140677",
+   "theme": "land_nature"
+  },
+  {
+   "id": 133745,
+   "name": "Better Optimized Skyrim Meshes - Markarth",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-06-05",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Better Optimized Skyrim Meshes - Markarth-133745-1-1-0-1734739532.7z",
+    "Better Optimized Skyrim Meshes - Markarth-133745-1-1-2-1780211631.7z",
+    "Better Optimized Skyrim Meshes - Markarth-133745-1-1-3-1780626518.7z"
+   ],
+   "author": "SaevaVeritas",
+   "leftover": false,
+   "key": "id:133745",
+   "theme": "land_nature"
+  },
+  {
+   "id": 95823,
+   "name": "Better Snowflakes - A falling snow improvement mod",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-14",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Better Snow FOMOD-95823-1-1689337401.7z"
+   ],
+   "author": "The Blender Animator",
+   "leftover": false,
+   "key": "id:95823",
+   "theme": "land_nature"
+  },
+  {
+   "id": 84304,
+   "name": "Bloodmoon",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Bloodmoon-84304-2-0-6-1708252698.7z",
+    "Scion Perks for Vampires-84304-1-00-1676738653.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:84304",
+   "theme": "land_nature"
+  },
+  {
+   "id": 6508,
+   "name": "Coin Purse - An Overhaul For Skyrim",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Coin Purse - An Overhaul For Skyrim-6508-1-00.zip",
+    "Coins of Tamriel Hardcore SSE Patch-6508-1-00.zip"
+   ],
+   "author": "TheWulfPanda",
+   "leftover": false,
+   "key": "id:6508",
+   "theme": "land_nature"
+  }
+ ]
+}

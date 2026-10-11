@@ -1,0 +1,714 @@
+{
+ "batch": "D34",
+ "band": "D",
+ "themes": {
+  "other": 35
+ },
+ "items": [
+  {
+   "id": 41987,
+   "name": "Soul Husk Retexture",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-04-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "2K Soul Husk for wSkeever High Poly Soul Husk-41987-1-1-1617307557.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:41987",
+   "theme": "other"
+  },
+  {
+   "id": 84735,
+   "name": "Spaghetti's Cities - AIO",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "AIO Optionals-84735-1-3-1679426200.zip",
+    "Spaghetti's Cities - AIO-84735-1-3-1679426173.zip"
+   ],
+   "author": "RubberSpaghetti",
+   "leftover": false,
+   "key": "id:84735",
+   "theme": "other"
+  },
+  {
+   "id": 20983,
+   "name": "Spell Research",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-03-08",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Spell Research 2.2.2 SSE-20983-2-2-2-1583709976.rar"
+   ],
+   "author": "IronDusk33",
+   "leftover": false,
+   "key": "id:20983",
+   "theme": "other"
+  },
+  {
+   "id": 28953,
+   "name": "Spell Research - Convenience Add-On",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-05-08",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Spell Research Add-On-28953-2-0-1588903601.7z"
+   ],
+   "author": "Voeille",
+   "leftover": false,
+   "key": "id:28953",
+   "theme": "other"
+  },
+  {
+   "id": 164902,
+   "name": "SpellBender VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-20",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SpellBender VR-164902-1-0-2-1768897338.zip"
+   ],
+   "author": "Machina",
+   "leftover": false,
+   "key": "id:164902",
+   "theme": "other"
+  },
+  {
+   "id": 104046,
+   "name": "Spellforge - Research",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Spellforge - Research-104046-1-0-1699128545.zip"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:104046",
+   "theme": "other"
+  },
+  {
+   "id": 63580,
+   "name": "Steaming Hot Soups and Stews",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-14",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Steaming Hot Soups and Stews SE-63580-v1-0-1644799388.7z"
+   ],
+   "author": "Hanaisse",
+   "leftover": false,
+   "key": "id:63580",
+   "theme": "other"
+  },
+  {
+   "id": 86833,
+   "name": "Stellaris",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Stellaris-86833-2-0-7-1708251803.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:86833",
+   "theme": "other"
+  },
+  {
+   "id": 175689,
+   "name": "StepUpOnto SKSE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-04-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "StepUpOnto SKSE-175689-1-5-1775124142.rar"
+   ],
+   "author": "TheShinyHaxorus",
+   "leftover": false,
+   "key": "id:175689",
+   "theme": "other"
+  },
+  {
+   "id": 142382,
+   "name": "Sunlight Dispels Night Eye",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-02-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Sun Dispels Night Eye - Main File-142382-1-1740076542.7z"
+   ],
+   "author": "MadAborModding",
+   "leftover": false,
+   "key": "id:142382",
+   "theme": "other"
+  },
+  {
+   "id": 110737,
+   "name": "Swindlers Den",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Lux - Swindler Den Patch (Esl)-110737-1-0-1706913898.7z",
+    "Swindlers Den (ESL)-110737-1-03-1741740862.7z",
+    "Swindlers Den-110737-1-4-784688-1785700500.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:110737",
+   "theme": "other"
+  },
+  {
+   "id": 103301,
+   "name": "Tahrovin Shadercache",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ShaderCache.7z"
+   ],
+   "author": "Neochiken",
+   "leftover": false,
+   "key": "id:103301",
+   "theme": "other"
+  },
+  {
+   "id": 27763,
+   "name": "Talisman of Treachery HD",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-08-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Talisman of Treachery HD - 1K textures-27763-1-1-1564329263.rar",
+    "Talisman of Treachery HD 1.1 - Regular-27763-1-1-1564313332.7z",
+    "Talisman of Treachery HD 1.2 - Regular-27763-1-2-1564853962.zip"
+   ],
+   "author": "TheKingofsAss",
+   "leftover": false,
+   "key": "id:27763",
+   "theme": "other"
+  },
+  {
+   "id": 29834,
+   "name": "The Dark Arts",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-09",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Practical Necromancy - CSF Patch-29834-1-8-4-1743195329.zip",
+    "Practical Necromancy - CSF Patch-29834-1-9-1-1765256249.zip",
+    "Practical Necromancy - KID Patch-29834-1-8-3-1732757502.zip"
+   ],
+   "author": "Mannenyuki",
+   "leftover": false,
+   "key": "id:29834",
+   "theme": "other"
+  },
+  {
+   "id": 4509,
+   "name": "The Gray Cowl of Nocturnal SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "The Gray Cowl of Nocturnal-4509-1-3.7z"
+   ],
+   "author": "MannyGT",
+   "leftover": false,
+   "key": "id:4509",
+   "theme": "other"
+  },
+  {
+   "id": 99201,
+   "name": "The Hinterland Ranger - HDT-SMP",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-08-27",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "The Hinterland Ranger - HDT-SMP-99201-1-01-1693163849.7z"
+   ],
+   "author": "Everglaid",
+   "leftover": false,
+   "key": "id:99201",
+   "theme": "other"
+  },
+  {
+   "id": 143823,
+   "name": "The New Gentleman SFW Edition",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "The New Gentleman SFW - Fur Shader Patch-143823-1-0-1743957818.zip",
+    "The New Gentleman SFW Edition-143823-1-0-1741339042.zip"
+   ],
+   "author": "Ivy",
+   "leftover": false,
+   "key": "id:143823",
+   "theme": "other"
+  },
+  {
+   "id": 105649,
+   "name": "The New Gentlewoman - Genitalia and Pubes for Females",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-03",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "The New Gentlewoman - Add-Ons for T.N.G.-105649-2-1-0-1706978464.zip"
+   ],
+   "author": "Miss Corruption",
+   "leftover": false,
+   "key": "id:105649",
+   "theme": "other"
+  },
+  {
+   "id": 38167,
+   "name": "The Shadow of Meresis",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-24",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "The Shadow of Meresis-38167-1-1-80-1677199686.7z"
+   ],
+   "author": "Hebrok Phantom and JeramyWillow",
+   "leftover": false,
+   "key": "id:38167",
+   "theme": "other"
+  },
+  {
+   "id": 12193,
+   "name": "True Meeko SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-01-12",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "True Meeko Plugin - ESL-12193-1-2-1642018502.rar",
+    "True Meeko SE-12193-1-2.rar"
+   ],
+   "author": "Tahira",
+   "leftover": false,
+   "key": "id:12193",
+   "theme": "other"
+  },
+  {
+   "id": 83487,
+   "name": "Truly Burned Astrid",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Burned Astrid HPH Blind-83487-1-0-1674682194.7z"
+   ],
+   "author": "DarthBlender",
+   "leftover": false,
+   "key": "id:83487",
+   "theme": "other"
+  },
+  {
+   "id": 51221,
+   "name": "Ulfric...Tullius...Give Me a Break",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-18",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Ulfric... Tullius... GMAB-51221-1-0-2-1624026508.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:51221",
+   "theme": "other"
+  },
+  {
+   "id": 20654,
+   "name": "Ultimate HD Fire Effects SSE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-10-16",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "2. Ultimate HD Fire Effects SSE - Medium Version-20654-1-2-1570361318.7z",
+    "3. Ultimate HD Fire Effects SSE - Low Version-20654-1-2-1570361371.7z",
+    "5. Ultimate HD Fire Effects SSE - Low Resolution 1.3-20654-1-3-1634412422.7z"
+   ],
+   "author": "BuzzDee84  - PhenomFazMFQ",
+   "leftover": false,
+   "key": "id:20654",
+   "theme": "other"
+  },
+  {
+   "id": 170830,
+   "name": "Unstack Stolen Items",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Unstack Stolen Items-170830-1-1-1769528039.zip",
+    "Unstack Stolen Items-170830-2-0-1-1772989875.zip"
+   ],
+   "author": "Elzar125",
+   "leftover": false,
+   "key": "id:170830",
+   "theme": "other"
+  },
+  {
+   "id": 1666,
+   "name": "Useful Dogs",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Useful Dogs-1666-1-0.7z"
+   ],
+   "author": "Sagittarius22",
+   "leftover": false,
+   "key": "id:1666",
+   "theme": "other"
+  },
+  {
+   "id": 67973,
+   "name": "VioLens Compatibility Extension",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-27",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "DUI Patch-67973-2-0-1652552823.zip",
+    "SIC patch-67973-2-0-1652552844.zip",
+    "Vigilant Patch-67973-2-0-1652552868.zip"
+   ],
+   "author": "Mokeine",
+   "leftover": false,
+   "key": "id:67973",
+   "theme": "other"
+  },
+  {
+   "id": 131341,
+   "name": "Virtual Reality General Enhancements",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-10-11",
+   "vr_lists": [
+    "FUS",
+    "Stormcrown VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Manbeast - VR Power Attack Fix-131341-1-0-0-1728678232.7z",
+    "Pilgrim - Prayer Animation Disabler-131341-1-0-0-1728677962.7z",
+    "Pilgrim - Sheogorath Blue Palace Shrine VR Fix-131341-1-0-0-1728678091.7z"
+   ],
+   "author": "Rafear",
+   "leftover": false,
+   "key": "id:131341",
+   "theme": "other"
+  },
+  {
+   "id": 64007,
+   "name": "Volatile Void Salts",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Volatile Void Salts SE-64007-v1-0-1645411121.7z"
+   ],
+   "author": "Hanaisse",
+   "leftover": false,
+   "key": "id:64007",
+   "theme": "other"
+  },
+  {
+   "id": 88689,
+   "name": "Vulcano",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Vulcano-88689-1-2-6-1708251740.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:88689",
+   "theme": "other"
+  },
+  {
+   "id": 34329,
+   "name": "Waking Nightmare",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-21",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Waking Nightmare-34329-2-0-1592713850.zip",
+    "Wintersun Patch-34329-1-01-1592715717.zip"
+   ],
+   "author": "Slime Sire",
+   "leftover": false,
+   "key": "id:34329",
+   "theme": "other"
+  },
+  {
+   "id": 93796,
+   "name": "Weightless NG",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-16",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Weightless NG-93796-1-3-1744796914.zip"
+   ],
+   "author": "VersuchDrei",
+   "leftover": false,
+   "key": "id:93796",
+   "theme": "other"
+  },
+  {
+   "id": 43259,
+   "name": "Welwas SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-10",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Welwas SE-43259--42-1607633303.7z"
+   ],
+   "author": "Nobody",
+   "leftover": false,
+   "key": "id:43259",
+   "theme": "other"
+  },
+  {
+   "id": 5250,
+   "name": "Wild Penguins",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Wild Penguins v2 SSE - PROTECTED - AlexZander40's Flavor-5250-.zip"
+   ],
+   "author": "Jokerine",
+   "leftover": false,
+   "key": "id:5250",
+   "theme": "other"
+  },
+  {
+   "id": 9138,
+   "name": "Zim's Immersive Artifacts",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-08-14",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Zim's Immersive Artifacts V1.6.2-9138-V1-6-2-1592990585.rar",
+    "Zim's Immersive Artifacts V1.7.4-9138-V1-7-4-1660487328.rar"
+   ],
+   "author": "Zim",
+   "leftover": false,
+   "key": "id:9138",
+   "theme": "other"
+  },
+  {
+   "id": 138128,
+   "name": "iLluminous Elementals",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-16",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "iLluminous Elementals-138128-1-0-7-1741799009.zip",
+    "iLluminous Elementals-138128-1-1-1-1755383233.zip"
+   ],
+   "author": "RogueUnicorn",
+   "leftover": false,
+   "key": "id:138128",
+   "theme": "other"
+  }
+ ]
+}

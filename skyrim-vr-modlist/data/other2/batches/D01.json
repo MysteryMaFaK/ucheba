@@ -1,0 +1,738 @@
+{
+ "batch": "D01",
+ "band": "D",
+ "themes": {
+  "arch_city": 36
+ },
+ "items": [
+  {
+   "id": 67818,
+   "name": "3D Solitude Market Trellis Expansion",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-05-14",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "3D Solitude Market Trellis Expansion-67818-3-1-1652548803.7z"
+   ],
+   "author": "Korodic",
+   "leftover": false,
+   "key": "id:67818",
+   "theme": "arch_city"
+  },
+  {
+   "id": 37612,
+   "name": "Avanchnzel Dwemer Piston Sound Hotfix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-06-24",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Dwemer Piston Hotfix-37612-1-0-0-1592958387.7z"
+   ],
+   "author": "Dylan James",
+   "leftover": false,
+   "key": "id:37612",
+   "theme": "arch_city"
+  },
+  {
+   "id": 27618,
+   "name": "Better Dwemer Exteriors SSE",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-07-24",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Better Dwemer Exteriors SSE - No snow under the roof Patch-27618-1-0-0-1563988999.7z",
+    "Better Dwemer Exteriors SSE-27618-1-0-0-1563913701.7z"
+   ],
+   "author": "Skillest",
+   "leftover": false,
+   "key": "id:27618",
+   "theme": "arch_city"
+  },
+  {
+   "id": 82330,
+   "name": "Bryling's House rework",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-11-25",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Bryling's House rework - Parallax-82330-2-0-1681138335.7z",
+    "Bryling's House rework - Parallax-82330-3-0-1700904336.7z",
+    "Bryling's House rework-82330-3-0-1700904306.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:82330",
+   "theme": "arch_city"
+  },
+  {
+   "id": 83945,
+   "name": "Custom Window",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-31",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Custom Window-83945-1-0-1675187197.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:83945",
+   "theme": "arch_city"
+  },
+  {
+   "id": 6130,
+   "name": "Distinct Interiors",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "All-In-One-6130-1-82.zip"
+   ],
+   "author": "Sokkvabekk",
+   "leftover": false,
+   "key": "id:6130",
+   "theme": "arch_city"
+  },
+  {
+   "id": 48724,
+   "name": "Dwemer Automatons Glowmapped",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-10-03",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Dwemer Automatons Glowmapped 3-48724-3-1633235968.rar",
+    "Optional weak blue glow for static automatons-48724-1-1619058369.rar"
+   ],
+   "author": "Caleb2 - a k a Anubis",
+   "leftover": false,
+   "key": "id:48724",
+   "theme": "arch_city"
+  },
+  {
+   "id": 8016,
+   "name": "Dwemer Spectres Special Edition",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-03-29",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Dwemer Spectres Special Edition-8016-3-7-1-1629137160.7z",
+    "Dwemer Spectres Special Edition-8016-4-1-1-1693597094.7z",
+    "Dwemer Spectres Special Edition-8016-4-1-2a-1711682779.7z"
+   ],
+   "author": "Trainwiz - DarthVitrial - TheMayor897",
+   "leftover": false,
+   "key": "id:8016",
+   "theme": "arch_city"
+  },
+  {
+   "id": 153797,
+   "name": "ElSopa - Misc Ruins Redone",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-06-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "ElSopa - Misc Ruins Redone 2k-153797-1-0-1751243747.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:153797",
+   "theme": "arch_city"
+  },
+  {
+   "id": 67277,
+   "name": "FYX - Smooth Wells - Texture Bug Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-08-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "FYX Smooth Wells Compatibility Tweaks - FOMOD-67277-1-4-4-1707348301.7z",
+    "FYX Smooth Wells Compatibility Tweaks - FOMOD-67277-1-5-0-1755120604.7z"
+   ],
+   "author": "Blackread",
+   "leftover": false,
+   "key": "id:67277",
+   "theme": "arch_city"
+  },
+  {
+   "id": 102099,
+   "name": "FYX - Sparks of Fire reacts to the Wind",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-10-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "FYX - Sparks fire reacts wind - Embers Less Sparks-102099-1-0-1696857892.7z",
+    "FYX - Sparks of fire reacts to the wind - Embers-102099-1-0-1696753603.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:102099",
+   "theme": "arch_city"
+  },
+  {
+   "id": 72213,
+   "name": "Farm Hat 01 Clipping Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-12-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Farm Hat 01 Clipping Fix-72213-1-1-1672045134.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:72213",
+   "theme": "arch_city"
+  },
+  {
+   "id": 161218,
+   "name": "JK's Nightgate Inn",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-11-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "JK's Nightgate Inn-161218-1-0-0-1762461071.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:161218",
+   "theme": "arch_city"
+  },
+  {
+   "id": 90864,
+   "name": "JK's Riften Outskirts",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-23",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "JK's Riften Outskirts-90864-1-1-1706043663.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:90864",
+   "theme": "arch_city"
+  },
+  {
+   "id": 103209,
+   "name": "JK's Solitude Outskirts",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-07-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "JK's Solitude Outskirts-103209-1-2-5-1752976636.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:103209",
+   "theme": "arch_city"
+  },
+  {
+   "id": 78351,
+   "name": "JK's Whiterun Outskirts",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-08-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "JK's Whiterun Outskirts-78351-1-6-2-1754255259.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:78351",
+   "theme": "arch_city"
+  },
+  {
+   "id": 64265,
+   "name": "Kolskeggr Mine - A Great Towns and Villages of the Reach Addon",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-02-26",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "The Great Settlement of Kolskeggr Mine-64265-1-0-0-1645904323.7z"
+   ],
+   "author": "Jelidity",
+   "leftover": false,
+   "key": "id:64265",
+   "theme": "arch_city"
+  },
+  {
+   "id": 72384,
+   "name": "Lux Via - Repaired Whiterun Bridge Add-on",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-04-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Lux Via - Repaired Whiterun Bridge Add-on-72384-1-0-1-1659242950.rar",
+    "Lux Via - Whiterun Repaired Bridge Addon-72384-1-0-2-1680893770.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:72384",
+   "theme": "arch_city"
+  },
+  {
+   "id": 55903,
+   "name": "Mrf's Solitude",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-03-14",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Mrf solitude Church windows-55903-1-4-1633685114.7z",
+    "Mrf's Solitude -No parallax-55903-1-3-1632769476.7z",
+    "Mrf's Solitude 2k-55903-1-3-1632767662.7z"
+   ],
+   "author": "mo ru feng",
+   "leftover": false,
+   "key": "id:55903",
+   "theme": "arch_city"
+  },
+  {
+   "id": 78256,
+   "name": "My Aching Back - Mattresses for Dwemer Beds",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-08-08",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Comfortable Dwemer Beds - 2k version-78256-1-0-1668222108.7z",
+    "Comfortable Dwemer Beds - BOS version-78256-1-0-1691466851.7z"
+   ],
+   "author": "skyfall515",
+   "leftover": false,
+   "key": "id:78256",
+   "theme": "arch_city"
+  },
+  {
+   "id": 60670,
+   "name": "RYFTEN  DOWN - A little addition to the Riften canal",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-05",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "RYFTEN DOWN - 1A FULL-60670-1-1-3-1642780579.7z",
+    "RYFTEN DOWN - 1A FULL-60670-1-1-4-1770195521.7z",
+    "RYFTEN DOWN - 1B Performence-60670-1-1-2-1642780630.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:60670",
+   "theme": "arch_city"
+  },
+  {
+   "id": 63340,
+   "name": "RYFTEN - Make Your Riften - Inner",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-05-10",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "RYFTEN - Make Your Riften - Inner-63340-1-0-4-1652206339.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:63340",
+   "theme": "arch_city"
+  },
+  {
+   "id": 23611,
+   "name": "Real 3D Walls",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-02-27",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Real 3D Walls alternative normal map-23611-1-0-1550767383.7z",
+    "Real 3D Walls-23611-1-5-1551295937.7z"
+   ],
+   "author": "SomeRandomGuy83",
+   "leftover": false,
+   "key": "id:23611",
+   "theme": "arch_city"
+  },
+  {
+   "id": 65596,
+   "name": "Riften of Reverie SE - 8K - Parallax",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-08-19",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Riften of Reverie - 2K-65596-0-95-1660885454.7z",
+    "Riften of Reverie - Parallax Meshes-65596-0-95-1660883717.7z",
+    "Riften of Reverie 2K-65596-0-9-1648406782.7z"
+   ],
+   "author": "winedave",
+   "leftover": false,
+   "key": "id:65596",
+   "theme": "arch_city"
+  },
+  {
+   "id": 89215,
+   "name": "Ruins Puzzle Pillars Redone",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-04-14",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Ruins Puzzle Pillars Redone-89215-1-0-1681482542.7z"
+   ],
+   "author": "StoneSpiralGaming",
+   "leftover": false,
+   "key": "id:89215",
+   "theme": "arch_city"
+  },
+  {
+   "id": 25600,
+   "name": "Solitude Towers Flags SSE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-08-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Solitude Towers Flags SSE-25600-1-2-1564695946.7z",
+    "Solitude Towers Flags SSE-25600-1-2-1564696132.7z"
+   ],
+   "author": "iLita and patriotic",
+   "leftover": false,
+   "key": "id:25600",
+   "theme": "arch_city"
+  },
+  {
+   "id": 74334,
+   "name": "Solitude farmhouses rework",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-29",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Solitude farmhouses rework - Parallax-74334-1-1-1675018308.7z",
+    "Solitude farmhouses rework-74334-1-1-1675018269.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:74334",
+   "theme": "arch_city"
+  },
+  {
+   "id": 81691,
+   "name": "Stony AF Markarth and Dwemer Ruins - Dwemer Ruins Recolor for Ancient Dwemer Metal",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-12-31",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Stony AF Markarth and Dwemer Ruins 2K Custom-81691-1-0-1672446679.7z"
+   ],
+   "author": "agentw",
+   "leftover": false,
+   "key": "id:81691",
+   "theme": "arch_city"
+  },
+  {
+   "id": 56196,
+   "name": "Store Entrance Doorbells",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-09-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Store Entrance Doorbells-56196-2-0-1633022060.zip"
+   ],
+   "author": "jple",
+   "leftover": false,
+   "key": "id:56196",
+   "theme": "arch_city"
+  },
+  {
+   "id": 122064,
+   "name": "Tomato's Whiterun - Parallax - 2K 4K",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-10-15",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Tomato's WR Alternate Stonefloor-122064-1-4-1729032494.7z",
+    "Tomato's Whiterun - 1.1 fixes-122064-1-1-1718753126.rar",
+    "Tomato's Whiterun - Complex Material 2K-122064-1-3-1724101011.rar"
+   ],
+   "author": "Tomatokillz",
+   "leftover": false,
+   "key": "id:122064",
+   "theme": "arch_city"
+  },
+  {
+   "id": 34950,
+   "name": "Unique Border Gates Fixes",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-02-02",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Better DG Entrance Patch-34950-1-2-1596507381.rar",
+    "Daedric Shrines AIO Patch-34950-1-0-1692724769.rar",
+    "Immersive Dawnguard Dayspring Pass Patch-34950-2-0-1692385322.rar"
+   ],
+   "author": "Duinnin with edits by Cer12",
+   "leftover": false,
+   "key": "id:34950",
+   "theme": "arch_city"
+  },
+  {
+   "id": 4819,
+   "name": "Unique Border Gates SE",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Unique Border Gates All - Better DG Entrance - Patch-4819-2-5.7z",
+    "Unique Border Gates All-4819-2-5.7z",
+    "UniqueBorderGates - No Pale Pass Gate-4819-2-5.7z"
+   ],
+   "author": "Kelsenellenelvian",
+   "leftover": false,
+   "key": "id:4819",
+   "theme": "arch_city"
+  },
+  {
+   "id": 78920,
+   "name": "Whiterun Exteriors Patch Collection (JK - Ryn's - Market - Capital)",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Whiterun Exteriors Patch Collection-78920-1-6-1-1767614678.rar",
+    "Whiterun Exteriors Patch Collection-78920-1-7-1779668318.rar"
+   ],
+   "author": "Janquel Czasior ra2phoenix robertgk2017",
+   "leftover": false,
+   "key": "id:78920",
+   "theme": "arch_city"
+  },
+  {
+   "id": 30066,
+   "name": "WiZkiD - Hall of the Dead Stained Glass Windows",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-08-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "WiZkiD - Hall of the Dead Stained Glass Windows-30066-1-5-1629911440.7z",
+    "WiZkiD - Hall of the Dead Stained Glass Windows-30066-v1-4-1588414001.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:30066",
+   "theme": "arch_city"
+  },
+  {
+   "id": 39185,
+   "name": "WiZkiD Parallax Farmhouses",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-02-14",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "WiZkiD Parallax Farmhouses - JK Skyrim (SoS version)-39185-1-0-1670847578.7z",
+    "WiZkiD Parallax Farmhouses weathered-desaturated wood textures 2K-39185-1-3-1599554402.7z",
+    "WiZkiD Parallax Farmhouses-39185-1-4-1618926750.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:39185",
+   "theme": "arch_city"
+  },
+  {
+   "id": 30481,
+   "name": "WiZkiD Signs",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-07-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "WiZkiD Signs-30481-2-3-1609391985.7z",
+    "WiZkiD Signs-30481-2-4-1648163514.7z",
+    "WiZkiD Signs-30481-2-6-1720029010.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:30481",
+   "theme": "arch_city"
+  }
+ ]
+}

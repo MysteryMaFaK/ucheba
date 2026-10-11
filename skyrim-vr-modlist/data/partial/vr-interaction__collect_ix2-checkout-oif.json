@@ -1,0 +1,188 @@
+{
+ "picks": [
+  {
+   "key": "id:190966",
+   "id": 190966,
+   "name": "Physical-Checkout-VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/190966",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Торговля руками: берёте товар HIGGS-рукой, несёте на прилавок, платите, отпустив предмет в зоне кассы. Цена видна при хвате, золото списывается только на кассе.",
+   "vr_status": "vr_native",
+   "in_lists": "нет ни в одном из 27 списков (whouses пуст)",
+   "files": "Имя и состав файла не видел: страница Nexus недоступна. По сниппету: версия 1, автор J0ta4p3, загружен 06.09.2026, обновлён 07.09.2026. Брать единственный Main.",
+   "requires": [
+    "HIGGS (#43930), в ядре 1.10.10",
+    "Open Container VR (#189537)",
+    "powerofthree's Papyrus Extender (#22854)",
+    "Papyrus Extender VR (#58296)"
+   ],
+   "interplay": "HIGGS: идёт поверх, на хвате и отпускании. Open Container VR: жёсткая зависимость, автор интегрировал его (по странице). Trade and Barter (Core opt, #23081, только ESP): в описании о нём ни слова; мод обходит меню торговли, а не правит его, но цену на кассе считает сам, поэтому цены и золото из Trade and Barter могут не совпасть. Не проверено. PLANCK, VRIK, Physical Collision VR, True Wield VR, Gift by Hand VR, OAR/Pandora, Engine Fixes VR: конфликтов не нашёл, но и сообщений об отсутствии конфликта нет. Порядок в MO2: ниже HIGGS и Open Container VR.",
+   "note": "Мод совсем свежий (5 недель), 6 отметок, ни одного VR-списка. Страница помечена тегами Skyrim VR и AI Media, то есть автор не скрывает ИИ-помощь. Не ставить в основной профиль без теста: отдельное сохранение, купить и продать вещь у торговца, сверить цену на кассе с меню торговли. Пока Trade and Barter не ставите, вопрос о конфликте снят. DLL это или скрипты, не знаю: смотреть sksevr.log и список файлов. Доступа к странице не было: описание взято из сниппета поиска, посты и комментарии не читал.",
+   "evidence": "WebSearch-сниппеты страницы nexusmods.com/skyrimspecialedition/mods/190966 (дважды): механика, требования HIGGS + Open Container VR + Papyrus Extender VR, v1, даты, 6 отметок, теги Skyrim VR и AI Media. whouses 190966: пусто. Это новое по сравнению с раундом 1: там в требованиях не было Open Container VR."
+  },
+  {
+   "key": "id:189537",
+   "id": 189537,
+   "name": "Open Container VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/189537",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Контейнер открывается жестом, перед вами всплывает панель с содержимым: предметы берутся и кладутся рукой. Есть сортировка и режимы взять/положить. Нужен для Physical-Checkout-VR.",
+   "vr_status": "vr_native",
+   "in_lists": "нет ни в одном из 27 списков (whouses пуст)",
+   "files": "Имя файла не видел. По сниппету: версия 1.5 (iomegadrive1), загружен 24.08.2026, обновлён 09.09.2026, в последнем обновлении кнопка закрытия и поворот панели к игроку.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "HIGGS 1.10.0 и новее (в ядре 1.10.10)",
+    "Skyrim VR 1.4.15"
+   ],
+   "interplay": "HIGGS: берёт его хват. QuickLoot IE (Core rec, #120075): оба меняют открытие контейнеров, про совместимость нигде не сказано, возможна двойная панель или гонка за активацию. Interactive Activators VR (Core): активация тоже на жесте, возможное пересечение. Ставить только вместе с Physical-Checkout-VR. Если Physical-Checkout-VR не нужен, то и этот мод пропустить.",
+   "note": "Не самостоятельная рекомендация: окно из сниппета, 11 отметок, на странице тег AI-Generated Content. Нужен только как зависимость кассы. Тест: открыть сундук, потом труп (QuickLoot IE), убедиться, что не открываются два окна сразу. Если QuickLoot IE страдает, откатить обе позиции.",
+   "evidence": "WebSearch-сниппет страницы Open Container VR: версия 1.5, требования Skyrim VR 1.4.15, SKSEVR, VR Address Library, HIGGS 1.10.0+; теги Skyrim VR, AI-Generated Content. Сниппет Physical-Checkout-VR называет его требованием и цитирует благодарность автору за право интеграции. whouses 189537: пусто."
+  },
+  {
+   "key": "n:oif-pack",
+   "id": 149484,
+   "name": "Object Impact Framework (OIF) + Break The Lock + Flammable Alcohol (пакет)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/149484",
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Предметы мира реагируют на удар и огонь по JSON-правилам: ударом ломается замок, бутылка с алкоголем взрывается. Каркас OIF без пакетов правил ничего не делает.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde: OIF 1.6.8, Cut Food Config, Break The Lock, Flammable Alcohol (плюс Cooking with Fire, Burn Those Books, Dynamic Fire Sconce). Tempus Maledictum VR: только Flammable Alcohol, основного OIF в архивах Tempus нет. SE-списки: CSVP (OIF 1.6.8, Hit to Switch)",
+   "files": "1) Object Impact Framework - OIF-149484-1-6-8-1756392215.zip (1.6.8, Panda's, CSVP); 2) Break The Lock - OIF-154901-1-3-1-1756491645.7z (1.3.1, #154901, нужен OIF 1.6.6+); 3) Flammable Alcohol - OIF-150895-1-1-1748172517.7z (1.1, #150895, Panda's + Tempus). Необязательно: Optional - Cut Food Config-149484-1-2-1746823991.zip (сыр и хлеб режутся острым оружием; ставить после основного OIF). Не брать: Unofficial Update #191138.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "interplay": "Core Impact Framework (opt): CIF отвечает за эффекты попаданий по актёрам, OIF за предметы; Panda's держит оба сразу (CIF 1.2.8 + OIF 1.6.8), конфликта в её списке нет. Заявление, что OIF идёт через CIF, ничем не подтверждено, README OIF про CIF молчит. Throw Stuff VR (kept #128285): тот реагирует на HIGGS-броски по своим данным (зелья, мука, масло, стекло), пакет OIF реагирует на удар и огонь. Бутылки алкоголя могут обрабатываться обоими, двойного эффекта не исключаю. Weapon Throw VR: не пересекается. HIGGS/PLANCK/VRIK/Physical Collision VR/True Wield VR/Gift by Hand VR: события Hit и Activate идут из движка, конфликта не ожидаю. Grab/Release/Throw у OIF в VR не рассчитывайте: см. заметку. Order: ниже HIGGS и CIF, зависимые ниже OIF.",
+   "note": "Что подтверждено: у OIF только DLL, правила лежат в Data/SKSE/Plugins/ObjectImpactFramework/*.json; сам по себе ничего не делает. Файл 1.6.8 на вкладке файлов Nexus помечен как для AE/SE/VR (сниппет поиска), Panda's ставит его в VR. Что НЕ подтверждено: отчёта 'работает на VR 1.4.15' не нашёл, GitHub README о VR и HIGGS молчит. События Grab/Release/Throw: Throw требует Grab And Throw (плоский SKSE, в VR не работает), а HIGGS отключает ванильный хват при старте, так что на HIGGS-хват и бросок OIF, судя по комментариям на Nexus (май 2026), не отзывается. Поэтому берём только то, что живёт на Hit/Activate: замок и бутылку. Известные ограничения: заклинания со снарядом не поддерживаются (Огненный шар как триггер ненадёжен, ближний бой и огненный поток надёжнее); правила OnUpdate стоят кадров, в комментариях жалуются на нагрузку, а сборка Wunduniik в SE убрала OIF со всеми зависимыми 'ради стабильности и загрузки'. Break The Lock не ставить, если нужен взлом отмычкой: он заменяет её (чем выше уровень замка, тем ниже шанс). Тест: сохранение, бить мечом запертый сундук низкого уровня, потом бутылку вина огненным потоком; в логе sksevr.log строки OIF, а в Documents\\My Games\\Skyrim VR\\SKSE\\ObjectImpactFramework.log нет ошибок. Если нет реакции или падают кадры, снять пакет целиком.",
+   "evidence": "whouses 149484/154901/150895 (точные имена архивов); GitHub arachnocid/ObjectImpactFramework README и релизы (1.6.8 от 28.08: OnUpdate раз в секунду; события; Throw требует Grab And Throw; ограничения по снарядам; про VR и HIGGS нет ничего); сниппеты Nexus: вкладка файлов OIF (AE/SE/VR), Break The Lock 1.3.1 (OIF 1.6.6+, kuroishitam), комментарии к странице TTMN (май 2026) и SIM (Throw не работает в VR); сниппет об уходе OIF из Wunduniik. Страницы Nexus не читались, всё из сниппетов."
+  },
+  {
+   "key": "id:153449",
+   "id": 153449,
+   "name": "Cooking with Fire - OIF",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/153449",
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Готовите еду огненным заклинанием: еда в мире запекается без печи. Без скриптов, ESPFE.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde",
+   "files": "Cooking with Fire - OIF-153449-1-1-1755369711.zip (1.1, Panda's)",
+   "requires": [
+    "Object Impact Framework (#149484)",
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "interplay": "Только как дополнение к пакету OIF, отдельно бессмысленно. Требует, чтобы правило срабатывало на ваше заклинание; заклинания со снарядом OIF не поддерживает, поэтому надёжно работает, скорее всего, только огненный поток (Flames), не Огненный шар. Не пересекается с Embers XD и крафтом ядра, если он не трогает те же предметы. Кроме HIGGS-руки, никакого VR-слоя нет: еду можно держать рукой и поджечь.",
+   "note": "Мелочь для атмосферы, на VR-страницу описание не привязано. Проверять так: взять с полки хлеб или мясо, поставить, пустить Flames. Если еда не меняется, удалить. Файл описан только по записи Panda's и по сниппету 'Cook food with fire spells. Scriptless, ESPFE'; страница не читалась.",
+   "evidence": "whouses 153449; описание из метаданных архива Panda's ('Cook food with fire spells. Scriptless, ESPFE.'); отдельной страницы или отзыва не нашёл (поиск по названию дал только сторонние моды)."
+  },
+  {
+   "key": "id:151000",
+   "id": 151000,
+   "name": "Burn Those Books - OIF",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/151000",
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Книги в мире можно сжечь, они превращаются в обрывки бумаги. Мелкая реакция предметов на огонь.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde",
+   "files": "Burn Those Books - OIF-151000-1-01-1755829768.7z (1.01, Panda's)",
+   "requires": [
+    "Object Impact Framework (#149484)",
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "interplay": "Только вместе с пакетом OIF. Не пересекается с Immersive Harvesting VR и HIGGS: книгу можно взять в руку и поджечь. Возможная двойная обработка с другим сжигателем книг я не искал. Конфликтов с Core не видел.",
+   "note": "Самая слабая позиция семейства: польза чисто атмосферная. Брать только если пакет OIF уже встал и работает. Источник описания только метаданные архива ('burn all books and turn them into scraps'), страницы не читал, отзывов не нашёл.",
+   "evidence": "whouses 151000; описание из метаданных архива Panda's. Поиск по названию вернул только сторонние моды (Destroy Books #28270 и др.), не саму страницу."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 155761,
+   "name": "Throwing Things Makes Noise - OIF (TTMN)",
+   "reason": "Раунд 1 отбросил верно, и теперь есть новые данные: Throw требует плоский Grab And Throw, комментарий на странице (май 2026) говорит, что в VR бросок не срабатывает, а в самом HIGGS 1.9.3 брошенные и упавшие предметы уже будят врагов (шум зависит от массы). Дубль и не работает."
+  },
+  {
+   "id": 160736,
+   "name": "Dynamic Fire Sconce - OIF",
+   "reason": "Бра включается и гаснет по времени суток: чистая атмосфера, не взаимодействие. Работает на правилах OnUpdate (раз в секунду), которые стоят кадров. Не стоит нагрузки."
+  },
+  {
+   "id": 151806,
+   "name": "Immersive Hanging Dead Animal Harvest - OIF",
+   "reason": "Повешенная рыба, фазан и кролик исчезают после взятия. Косметика на событии Activate; в VR взятие идёт HIGGS-хватом, как оно связано с Activate, не проверено. Ценности нет, в списках Panda's только."
+  },
+  {
+   "id": 191138,
+   "name": "Object Impact Framework (OIF) - Unofficial Update",
+   "reason": "Неофициальный форк 1.7.0.1 (20.09.2026), в комментариях сказано про сборки под 1.7.104 и 1.6.1170, про VR на странице ни слова, тег AI Assisted. Не ставить поверх 1.6.8."
+  },
+  {
+   "id": 184852,
+   "name": "Core - Object Impact Framework - CIF - Optimization patch",
+   "reason": "Страницу не прочитал (по сниппету: правит только конфиги, снижает стоимость правил, исполняемых слишком часто). В 1.6.8 OnUpdate уже раз в секунду, польза неясна; ни в одном списке. Вернуться, только если кадры упадут."
+  },
+  {
+   "id": 193981,
+   "name": "Actor Impact Framework (AIF)",
+   "reason": "Версия OIF для актёров, дублирует Core Impact Framework (opt в Core). Ни в одном списке, про VR нет данных."
+  },
+  {
+   "id": 151756,
+   "name": "SIM - Simply Immersive Materials (OIF)",
+   "reason": "Огромный набор правил на OIF (дерево горит, стекло бьётся, мука и т.д.): дубль Throw Stuff VR по смыслу и тяжёлый для кадров. Комментатор пишет, что бросок в VR в этой версии не работает."
+  },
+  {
+   "id": 153711,
+   "name": "Build A Campfire - OIF",
+   "reason": "Нужны OIF, Keyword Item Distributor, FormList Manipulator; выживание, не взаимодействие. Ни в одном списке, VR не проверен."
+  },
+  {
+   "id": 155492,
+   "name": "Dynamic Inn Fireplace - OIF",
+   "reason": "Очаги в трактирах по времени суток, OnUpdate-нагрузка, атмосфера. Нужен OIF 1.6.6+. Ни в одном VR-списке."
+  },
+  {
+   "id": 156058,
+   "name": "Hit to Switch - OIF",
+   "reason": "Только CSVP (SE), VR-списков нет, описание не читал. Для VR смысл сомнителен (рычаги и так тянутся рукой)."
+  },
+  {
+   "id": 155838,
+   "name": "Dynamic Torches NG - OIF",
+   "reason": "Только True North (SE), в VR-списках нет, атмосферный мод."
+  },
+  {
+   "id": 151606,
+   "name": "Cut The Wheat / Cut The Plant / Cast and Cook / Edible Roasted Ox Meat (OIF-аддоны)",
+   "reason": "Cut The Wheat #151606, Cut The Plant #166123, Cast and Cook #188330, Edible Roasted Ox Meat #152373: появились в сниппетах, в VR-списках их нет, VR-статус не проверялся. Cut The Plant вдобавок пересекается с Immersive Harvesting VR (Core opt)."
+  },
+  {
+   "id": 136048,
+   "name": "Cut This Food (or Any Other Object) (UNSUPPORTED)",
+   "reason": "Заменён OIF-конфигом Cut Food Config, который уже в пакете как необязательный файл."
+  },
+  {
+   "id": null,
+   "name": "Explosive Barrel - OIF",
+   "reason": "Необязательное дополнение Break The Lock по сниппету, ID и страницу не нашёл, в списках не вижу. Не проверялся."
+  },
+  {
+   "id": 189300,
+   "name": "VR Touch Events",
+   "reason": "Всплыл только в выдаче поиска, страница не открылась и описание не прочитано; вне моей группы. Можно проверить другим агентом."
+  }
+ ],
+ "notes": "Главное. 1) Physical-Checkout-VR (#190966) новый: требует ещё Open Container VR (#189537), чего раунд 1 не знал; оба мода свежие (авг-сен 2026), мало отметок, помечены как сделанные с ИИ; ни один не стоит в списках. Совместимость с Trade and Barter нигде не описана и не проверена, тест нужен. Страницы Nexus не читались, всё из сниппетов поиска. 2) OIF (#149484): DLL без правил ничего не делает; в Panda's Sovngarde ставят 1.6.8 и пять зависимых; Tempus держит только Flammable Alcohol без основного OIF. VR-подтверждение слабое: файл 1.6.8 помечен как для AE/SE/VR (сниппет вкладки файлов), прямого отчёта 'работает на VR 1.4.15' нет. 3) Бросок: события OIF Grab/Release/Throw опираются на ванильный хват или плоский Grab And Throw, HIGGS их, судя по комментариям, не запускает, поэтому всё, что зависит от броска (TTMN, часть SIM), в VR не берём. Рабочее ядро семейства: Break The Lock и Flammable Alcohol (удар и огонь). 4) Нагрузка и стабильность: OnUpdate-правила (бра, камины, SIM) стоят кадров, SE-сборка Wunduniik убрала OIF с зависимыми 'ради стабильности и загрузки'. Поэтому пакет помечен try, а не rec; ставить в отдельном сохранении и смотреть кадры. 5) Раунд 1 в формулировке про OIF и CIF прав в одном: CIF про актёров, OIF про предметы; Panda's держит оба. Утверждение 'OIF зависит от CIF' из одного ответа поиска не подтвердилось (README OIF молчит). 6) Версии в метаданных архивов (1.1, 1) ненадёжны, использовал версии из имён файлов.\""
+}

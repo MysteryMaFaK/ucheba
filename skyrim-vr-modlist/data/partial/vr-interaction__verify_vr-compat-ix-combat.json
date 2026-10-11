@@ -1,0 +1,384 @@
+{
+ "verdicts": [
+  {
+   "key": "id:26447",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "alt",
+   "choose_one_group": "locational_damage",
+   "what": "Урон зависит от зоны попадания (голова, тело, конечности). VR-порт lfrazer, один и тот же файл 0.7.2 во всех 7 VR-листах из 9.",
+   "note": "Файл «LocationalDamageSKSE VR 0.7.2» (2021) подтверждён whouses в 7 VR-листах. Дублирует по смыслу Accuracy + Core Impact Framework из ядра: ставить что-то одно. Нужен SkyUI VR для MCM (по оригиналу, не проверено). Проверка: удар по голове и по ноге даёт разный эффект.",
+   "reason": "VR-DLL подтверждена архивами 7 VR-листов; конфликтов с HIGGS/PLANCK не найдено, но функция пересекается с ядром."
+  },
+  {
+   "key": "id:125734",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Обычные удары тратят стамину (кинжал и кулак меньше, 2H больше всего). Сделан под VR: анимационные события при быстром взмахе в VR ненадёжны.",
+   "note": "Файлы «Attacks Cost Stamina VR» 1.21 и «...2H Requirement» 1.21 (Spirit of Grit, Tahrovin - Grit; в тех листах Blade and Blunt 1.4.1 без DLL). В ядре Blade and Blunt 3.8.3 уже тратит стамину за удар: сначала проверить его MCM, чтобы не удвоить. Проверка: серия ударов роняет стамину один раз.",
+   "reason": "VR-мод подтверждён, но ядро с B&B 3.8.3 может уже делать то же; из opt понижено до try."
+  },
+  {
+   "key": "id:90187",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Блок щитом или оружием тратит стамину вместо здоровья; при нехватке пошатывание. Ставится вместе с базовым Shield Of Stamina - Blocking redux.",
+   "note": "Только Tempus: «Shield Of Stamina - Blocking redux - AE» 1.1b (#62137) + «Shield of Stamina VR» 1.1b (#90187) поверх; Tempus держит их вместе с B&B 3.7.4. Нужны SKSEVR и VR Address Library. Не смешивать со Strike Obstruction без теста: ни один лист не ставит оба. Патч 91626 из Grit-листов без базы смысла не имеет.",
+   "reason": "VR-порт на CommonLibVR, оба архива подтверждены у Tempus, совместимость с B&B показана этим же листом."
+  },
+  {
+   "key": "id:53050",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Оверхол блока: блок смягчает урон от заклинаний, криков и ядов, блок вовремя сильнее и может отражать стрелы и заклинания. Настройка через MCM.",
+   "note": "Файл 1.05 (Panda's, Tahrovin, Yggdrasil 2026), FUS держит 1.03. Без DLL: SKSE, SPID и PapyrusUtil опциональны. Enderal VR Essentials убрали его как избыточный рядом с Blocking and Flash VR, при этом Tahrovin ставит оба: возможен частичный overlap. Проверка: блок щитом по NPC, нет двойной потери стамины с B&B и Shield of Stamina.",
+   "reason": "Описание подтверждено сниппетом Nexus, 4 VR-листа; Papyrus/ESP работает в VR. Из try повышено до opt."
+  },
+  {
+   "key": "id:103990",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Искры и звук при блоке в VR; вариант Brawl Fix чинит драки (блок не считается заклинанием) и работает с блокирующими NPC.",
+   "note": "Файл «Blocking and Flash VR - Brawl Fix» 1.0 в 3 VR-листах (Tahrovin, Tahrovin - Grit, Spirit of Grit). Страница: правка Blocking and Flash VR от AP05, hitmante, Aelover; оригинал в листах не ставится. Если эффект NPC не виден, по странице нужна способность «Setting». Визуал без DLL; конфликтов с HIGGS/PLANCK не найдено.",
+   "reason": "Назначение подтверждено сниппетом Nexus; перенесено в ix_feedback, группа с Block FX снята (тот оказался отладочным)."
+  },
+  {
+   "key": "id:93223",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Отладочный плагин: показывает эффект Oakflesh, пока актёр держит блок. Годится для настройки угла блока, но не как постоянный эффект.",
+   "note": "Исходный пункт был неверен: это не искры и вспышка. Yggdrasil VR ставит «Block FX» 1.0 без DLL, но Oakflesh светится весь блок и раздражает. Включать только на время настройки Dual Wield Block VR и убрать. Для искр взять Blocking and Flash VR - Redux (#103990).",
+   "reason": "Описание «Debug plugin to test block input detection» опровергает заявленный эффект; люди копируют из Yggdrasil."
+  },
+  {
+   "key": "id:184001",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Щит и двуручное оружие в любой руке: блок и удар щитом из доминантной руки при оружии или заклинании в другой. SKSE-плагин для VR, v1.2 (2026-07).",
+   "note": "Автор TheMachinaGod, метка AI-generated. Требует HIGGS, Instant Equip VR и VRIK (всё в ядре), рекомендует Spell Wheel VR. Ни один VR-лист не ставит. Swap Drop and Hold Redux с 1.3 заявляет совместимость. Тест: щит в доминантной руке, удар щитом, затем True Wield VR и Physical Collision VR без залипания экипировки.",
+   "reason": "VR-плагин и требования подтверждены поиском по странице; бета-уровень, пересечение с True Wield/экипировкой, поэтому try."
+  },
+  {
+   "key": "id:182364",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Двуручное оружие в одной руке через HIGGS бьёт на 50% слабее, поэтому двуручный хват снова выгоден.",
+   "note": "«Dead Weight VR» версия 5 (2026-06-12) в Tahrovin; страница: -50% урона, требует HIGGS. Вместе с True Wield VR (вес и хват, ядро) штрафы могут сложиться: начать с настроек по умолчанию. Тест: двуручный молот одной рукой против двух.",
+   "reason": "Эффект подтверждён описанием страницы и архивом Tahrovin; VR-мод без конфликтов с ядром."
+  },
+  {
+   "key": "id:118410",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Патч к Simple Realistic Archery VR: чинит перезарядку стрелы, когда включена стоимость атрибута за выстрел.",
+   "note": "«Simple Realistic Archery VR AttributeCost Patch» 1.26b в 5 VR-листах. Нужен только при включённой стоимости выстрела в SRA VR 1.26 (ядро). Не включать вместе с запретом выстрела при низкой стамине в Seamless Arrow Nocking. Иначе пропустить.",
+   "reason": "Файл и VR-статус подтверждены 5 листами, но добавляет ценность только при одной опции SRA VR."
+  },
+  {
+   "key": "id:30404",
+   "keep": false,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Класс арканного лучника: стрелы из магии, сигилы, гравировка заклинаний на стрелу.",
+   "note": "Это контентный пак заклинаний стрелам (исключён по условию), требует MageVR для instacast и мод Archery #10926 (в Grit/Tahrovin/FUS к нему ставят compatibility patch), а в ядре стоит Simple Realistic Archery VR. Взаимодействия в руках не добавляет.",
+   "reason": "Спелл-контент, не интерактивность; в ядре другой лучный мод."
+  },
+  {
+   "key": "id:28948",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Арбалеты Dawnguard с прицелом для VR: можно целиться вдоль арбалета.",
+   "note": "«Dawnguard Crossbows sighted for VR» 1.2 (Panda's, Yggdrasil), Tempus ставит «Enhanced Version» 1.2. Меши и ESP без DLL. Работает с Immersive Crossbow Reload VR из ядра; возможен конфликт с ретекстурами арбалетов.",
+   "reason": "VR-версия подтверждена названием файла и 3 листами."
+  },
+  {
+   "key": "id:38946",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Простые железные прицелы для арбалетов из Sighted Crossbows VR.",
+   "note": "«Iron Sights for Sighted Crossbows VR» 1.1 (Panda's, Yggdrasil). Только поверх #28948, ставить после него. Без него обе позиции пропустить.",
+   "reason": "VR в названии, 2 листа ставят вместе с #28948."
+  },
+  {
+   "key": "id:35687",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Возвращает эффекты призванного лука, которые в VR пропадают.",
+   "note": "«VR Bound Bow FX Restored» 1.0 (Librum VR; из SE-листов только LoreRim). Мелочь 2020 года для призывателей. С Simple Realistic Archery VR не конфликтует. Проверка: призванный лук светится.",
+   "reason": "VR в названии страницы, ставится VR-листом; риск минимален."
+  },
+  {
+   "key": "id:60323",
+   "keep": false,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Анимации стрельбы из лука и арбалета Vanargand для NPC-стрелков.",
+   "note": "Меняет только вид NPC, руки игрока ведёт VRIK. Файлы «Vanargand Animations - Archery» 1.0 (Panda's, Yggdrasil) и «Crossbows» (#66286, Tempus). Ядро уже держит 7 архивов Leviathan/Vanargand для NPC, добавка косметическая и рискует условиями OAR.",
+   "reason": "Визуал NPC, не взаимодействие игрока."
+  },
+  {
+   "key": "id:1763",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Враги перестают уклоняться от стрел и заклинаний «по чутью», поэтому честные выстрелы из лука по цели попадают.",
+   "note": "«No BS AI Projectile Dodge» 1.3 (.rar, ESP) в Panda's и Yggdrasil. Без DLL. С ИИ-модами (SCAR/CPR) возможна перекрытая правка уклонения: порядок проверить. Тест: выстрел по стоящему врагу попадает.",
+   "reason": "Работает без DLL, 2 VR-листа; эффект ИИ, поэтому только opt."
+  },
+  {
+   "key": "id:105622",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "NPC реагируют на нацеленный на них лук. В VR нет прицела на экране, поэтому реакция должна идти от натянутой тетивы.",
+   "note": "«Scared of Shootings» 0.4 только в Panda's из VR-листов (5 SE-листов тоже). Есть ли VR-DLL и как определяется прицеливание без перекрестия, не подтверждено: прочитать требования на странице #105622. Тест: натянуть лук рядом с NPC.",
+   "reason": "VR-работоспособность не подтверждена, но мод лёгкий и ставится VR-листом."
+  },
+  {
+   "key": "id:128285",
+   "keep": true,
+   "section": "ix_hands",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Брошенные HIGGS предметы действуют: зелья-бомбы, мука ослепляет, бутылки бьются. Полный VR-порт на HIGGS-разрушении.",
+   "note": "«Throw Stuff VR» 2.0 (Grit×2) / 2.0.1 (Panda's); все три листа ставят и «Throwing Stuff» 1.1.1 (#125065): нужен ли он, прочитать на странице #128285. Требует HIGGS и Spell Wheel VR (схватывание ядов). Не пересекается с Weapon Throw VR. Тест: бросить флакон об стену.",
+   "reason": "VR-порт подтверждён страницей и 3 листами, перенесён в ix_hands (бросок предметов)."
+  },
+  {
+   "key": "id:155761",
+   "keep": true,
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Брошенные предметы шумят: NPC в скрытности реагируют на летящий горшок, а не игнорируют. Аддон к Object Impact Framework.",
+   "note": "«TTMN - OIF» 1.0 (2025-07), только Panda's. Требует Object Impact Framework (#149484, Panda's ставит 1.6.8): VR-DLL фреймворка не подтверждена, но лист его ставит; в ядре OIF нет. Ставить после Throw Stuff VR. Тест: бросить кастрюлю рядом с NPC в скрытности.",
+   "reason": "Назначение подтверждено описанием, зависимость OIF найдена в листе; VR не проверен."
+  },
+  {
+   "key": "id:127697",
+   "keep": false,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Перки рукопашного боя и слияние взлома с карманными кражами для Adamant; нужен отдельный VR DLL.",
+   "note": "Перковый контент поверх Adamant, а не жесты; только FUS (1.5.8.1). Для VR-кулаков в ядре есть Lethal Unarmed VR и VRIK Closed Fist. Слияние взлома может конфликтовать с рабочими взломами.",
+   "reason": "Перки, не VR-интерактивность; один лист."
+  },
+  {
+   "key": "id:140813",
+   "keep": false,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Крюк-кошка Pull Mastery, переделанный в ESL: гномье снаряжение и заклинания.",
+   "note": "Страница: апдейт Pull Mastery от xzax, ESL, нужен SkyPatcher или CID (файл Tempus «Grapple - SkyPatcher» 1.0). Это контентное заклинание-предмет; как оно целится в VR, не подтверждено, один лист.",
+   "reason": "Спелл-контент и проверок VR-прицеливания нет."
+  },
+  {
+   "key": "id:170889",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": "weapon_collision",
+   "what": "Клинки в обеих руках сталкиваются друг с другом: HIGGS-коллизия оружия плюс скрытая перепривязка к той же руке. SKSE-плагин для VR, бета.",
+   "note": "«Fake Edge - VR» 2.0.8 (Panda's, 2026-02), автор Machina; требует HIGGS и SKSEVR. Тот же автор, что у Shields Unlocked. Перекрывается с Physical Collision VR из ядра и с Swap Drop and Hold Redux 3.0.0, поэтому это альтернатива, не добавка: выбрать одно. Тест: два меча скрестить и стукнуть о стену.",
+   "reason": "VR-DLL подтверждена, но перепривязка оружия конфликтует с экипировкой ядра."
+  },
+  {
+   "key": "id:172991",
+   "keep": false,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фреймворк быстрых событий (QTE) для VR; без вызывающего мода ничего не делает.",
+   "note": "«QTE VR Framework» 1.0 и музыка 1.0 в Grit-листах, единственный клиент там патч Ordinator, который исключён. В Adamant-стеке потребителя нет.",
+   "reason": "Без клиента пользы нет."
+  },
+  {
+   "key": "id:89492",
+   "keep": false,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "ИИ-комбо для NPC (SCAR VR 1.0.7). Нужны пропатченные movesets и пересборка Pandora.",
+   "note": "Tempus и Tahrovin ставят SCAR #72014 + SCAR VR #89492. Ядро держит пакеты Leviathan/Vanargand и называет MCO/BFCO/ADXP-стек бесполезным в VR. Это ИИ врагов, а не взаимодействие игрока.",
+   "reason": "Не про руки, конфликтует с анимационным ядром."
+  },
+  {
+   "key": "id:117052",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "BFCO - фреймворк атак NPC, база SCAR и movesets. В VR нужен только для ИИ врагов и ломает анимационный стек ядра.",
+   "note": "Tempus ставит BFCO 3.3.10 с VR Address Library. MODLIST.md: MCO/BFCO/ADXP не нужны в VR и не совместимы с пакетами Leviathan/Vanargand. Не ставить, даже если так сделано в Tempus.",
+   "reason": "Ядро прямо отвергает; люди копируют из Tempus."
+  },
+  {
+   "key": "n:combat equipment state fix (cesf)",
+   "keep": false,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Лечит бесконечное доставание и убирание оружия у NPC в бою (щиты, два оружия, SCAR/BFCO).",
+   "note": "GitHub README заявляет Skyrim VR и VR Address Library, но релизов нет, имя файла и работа на 1.4.15 не подтверждены. Нужен только вместе со SCAR/BFCO, которых в ядре нет.",
+   "reason": "Нет релиза и VR-подтверждения, лечит чужой стек."
+  },
+  {
+   "key": "id:62554",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Защита NPC от стаггер-лока: после пошатывания 5 секунд иммунитета, при этом рэгдолл и бэш остаются. Полезно при быстрых VR-сериях ударов.",
+   "note": "«Stoppage of Staggerlock» 1.01 (Tempus, Grit×2), Yggdrasil держит 1.0. ESL, раздаётся через SPID VR (ядро), без DLL. Не заменяет Stagger Effect Fix и No Stagger Mod из ядра (игрок). Тест: серия ударов не держит врага в стаггере вечно.",
+   "reason": "Механизм подтверждён описанием Nexus; работает без DLL."
+  },
+  {
+   "key": "id:176593",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Блок оружием с ядом не расходует яд (по названию). В VR физические блоки частые, поэтому может быть заметно.",
+   "note": "«Unpoisoned Blocking - Latest Version» 1.0.0 (2026-04) в Stormcrown VR; SE-листы 1.0.1. Описание не найдено поиском: прочитать страницу до установки. Нужен только при ядах в бою.",
+   "reason": "Свежий VR-лист, но эффект не подтверждён."
+  },
+  {
+   "key": "id:113227",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "alt",
+   "choose_one_group": "npc_block_fix",
+   "what": "Исправляет бесконечный блок NPC (враг стоит в блоке и не атакует), вариант на SkyPatcher.",
+   "note": "«NPC Infinite Block Fix - SkyPatched» 1.1.0 (Tempus) / 1.0.0 (Panda's). Нужен SkyPatcher (ядро). Альтернатива #113064; Tempus ставит оба, это, вероятно, излишне. Block Condition Freeze CTD Fix из ядра лечит другое (вылет).",
+   "reason": "Работает без DLL, 2 VR-листа; дубль соседнего варианта."
+  },
+  {
+   "key": "id:113064",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": "npc_block_fix",
+   "what": "Исправляет бесконечный блок NPC: враг не застревает в блоке. Вариант Recommended без SkyPatcher.",
+   "note": "«NPC Infinite Block Fix - Recommended» 1.0.0 в Tempus и обоих Grit-листах (3 VR-листа). Берётся как основной из трёх фиксов блока, остальные два не нужны без явной проблемы. Тест: NPC после блока возвращается к атаке.",
+   "reason": "Больше всего VR-листов в группе и меньше зависимостей."
+  },
+  {
+   "key": "id:151384",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": "npc_block_fix",
+   "what": "Фикс зацикленного блока NPC (2025), популярный в SE-листах 2026.",
+   "note": "«NPC Block Loop Fix» 1.0 (2025-05-30), в VR только у Tempus; описание не проверено. Возможно лечит другой случай, чем Infinite Block Fix: ставить только при зацикленном блоке после #113064.",
+   "reason": "VR подтверждён одним листом, SE-популярность высокая."
+  },
+  {
+   "key": "id:192167",
+   "keep": true,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Двуручное оружие получает эффект заклинания: дополнение к Conduit (уже в Other r2).",
+   "note": "«Conduit Two Handed» версия 1 (2026-09-17) только в Tahrovin - Grit. VR отдельно не заявлен, но базовый Conduit (#58023, r2: opt) работает в VR-листах. Без Conduit не ставить. Тест: заклинание на двуручнике вместе с True Wield VR.",
+   "reason": "Свежий релиз Grit, расширяет уже принятый Conduit."
+  },
+  {
+   "key": "id:105789",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Аддон к PLANCK: убирает физический рэгдолл у спутников, чтобы удары игрока не валили союзника.",
+   "note": "«Planck Follower Ragdoll Disable» 1.1 (2023-12) в Spirit of Grit и Tahrovin - Grit, где PLANCK 0.8.1, как в ядре. Нужен только при спутнике. Ставить ниже PLANCK; Tempus/Panda's с PLANCK 0.7.1 его не ставят.",
+   "reason": "Сочетание с PLANCK 0.8.1 подтверждено двумя листами."
+  },
+  {
+   "key": "id:58374",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Направление силовой атаки по взмаху контроллера: страница помечена OBSOLETE, направление теперь даёт PLANCK.",
+   "note": "«PowerAttackVR» 0.1.0 (2021) стоит в Yggdrasil VR. Страница Nexus начинается с «OBSOLETE»; PLANCK делает силовые атаки по направлению взмаха. Не ставить.",
+   "reason": "Подтверждено сниппетом: устарел и дублирует PLANCK."
+  },
+  {
+   "key": "id:74887",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Precision Creatures и Whips Patch: конфиги под плоский Precision, который в VR не работает.",
+   "note": "Tempus ставит «Precision Creatures» 2.3 и «Whips Patch 02» (#81429), самого Precision (#72347) в VR-листах нет. MODLIST.md: Precision не ставится, коллизии даёт PLANCK/Physical Collision VR.",
+   "reason": "Нет базового мода, аддоны без смысла; люди копируют из Tempus."
+  },
+  {
+   "key": "id:64741",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Valhalla Combat, Wildcat, MaxuBlockOverhaul, MCO/ADXP: оверхолы тайминга и блока для плоского режима, в VR бесполезны.",
+   "note": "whouses: Valhalla Combat стоит только в SE-листах, ни в одном VR; MaxuBlockOverhaul в архивах нет, VR на его GitHub не заявлен. MODLIST.md: «Wildcat, Valhalla Combat и т. п. не смешивать» с B&B/PLANCK.",
+   "reason": "Плоские фреймворки дублируют PLANCK и Blade and Blunt."
+  },
+  {
+   "key": "id:55420",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Пакеты анимаций игрока (Vanargand Sneak, Unarmed, Spear Mechanic, Side Kick Bash): руки в VR ведёт VRIK, эффекта нет.",
+   "note": "Tempus ставит «Vanargand Animations - Sneak Strike Attacks» 1.1 (#55420), другие листы другие пакеты. Конфликт с VRIK и Neutral VR Animations; пакеты NPC (7 архивов) уже в ядре. Не ставить для игрока.",
+   "reason": "Подтверждено ядром (Leviathan/Vanargand) и составом листов."
+  },
+  {
+   "key": "id:4668",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Throwing Weapons Lite SE: бросок оружия на анимациях DAR; в VR его заменяет физический бросок рукой.",
+   "note": "Spirit of Grit и Tahrovin - Grit ставят «Version G.04» и «Dynamic Animation Replacer 1.0», при этом и Weapon Throw VR. MODLIST.md: Weapon Throw VR не вместе с другими метателями. Метательные предметы из списков лута как контент возможны, но это не интерактивность.",
+   "reason": "Анимации игрока в VR не применяются, дубль Weapon Throw VR."
+  },
+  {
+   "key": "id:100781",
+   "keep": false,
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Pseudo Physical Weapon Collision and Parry VR: уже в Other как rec, не новое предложение.",
+   "note": "Конфликт ядра и Other: Physical Collision VR (#186335) запрещает его. Но Spirit of Grit и Tahrovin - Grit ставят одновременно PCVR 4.x и Pseudo Physical 1.0.2, а Yggdrasil с PCVR 5.2.0 Pseudo не берёт. Решать владельцу: с PCVR 5.x брать только PCVR.",
+   "reason": "Дубль Other rec; нужен только флаг конфликта для владельца."
+  }
+ ]
+}

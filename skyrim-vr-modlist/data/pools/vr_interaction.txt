@@ -1,0 +1,431 @@
+#36594 | Rally's Candlelight and Magelight Fix SE - VR | VR-lists:9 SE-lists:1 | newest 2022-04-24 | VR: FUS, Librum VR, Panda's Sovngarde, Spirit of Grit, Stormcrown VR, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Rally's Candlelight and Magelight Fix-36594-1-3-1650821634.7; Rallys Candlelight and Magelight Fix-36594-1-1-1613326741.7z | [уже в Other-1]
+#28456 | Dual Wield Block VR | VR-lists:8 SE-lists:0 | newest 2022-09-21 | VR: FUS, Librum VR, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Dual Wield Block VR 1.7.0-28456-1-7-0-1663724839.zip
+#58298 | Security Overhaul SKSEVR - Lock Variations VR | VR-lists:8 SE-lists:0 | newest 2024-08-26 | VR: Librum VR, Panda's Sovngarde, Spirit of Grit, Stormcrown VR, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Security Overhaul SKSEVR - Lock Variations VR-58298-3-2-0-16; Security Overhaul SKSEVR - Lock Variations VR-58298-4-0-0-17
+#50197 | 3D Casting FX - Fire and Frost Hand FX Replacer | VR-lists:7 SE-lists:0 | newest 2021-05-21 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | 3D Casting FX-50197-1-0-1621612410.7z
+#26447 | Locational Damage SKSE VR | VR-lists:7 SE-lists:0 | newest 2021-11-28 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | LocationalDamageSKSE VR 0.7.2-26447-0-7-2-1638129484.zip
+#18722 | Skyrim VR USSEP Dwarven Ballista missing texture fix | VR-lists:7 SE-lists:0 | newest  | VR: FUS, Librum VR, Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Skyrim VR Dwarven Ballista Texture Fix-18722-1-0.7z
+#57318 | Vampire Body for VR | VR-lists:7 SE-lists:0 | newest 2024-12-15 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Vampire Lord Body for VR-57318-1-0-1634847104.7z; Vampire Lord Body for VR-57318-1-1-1734304823.7z | [уже в Other-1]
+#56394 | Werewolf Body for VR | VR-lists:7 SE-lists:0 | newest 2024-12-15 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Werewolf Body for VR-56394-2-3-1635537803.7z; Werewolf Body for VR-56394-2-4-1734302487.7z | [уже в Other-1]
+#60211 | Whose Quest Is It Anyway VR | VR-lists:7 SE-lists:0 | newest 2021-12-17 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | WhoseQuestIsItAnyway VR-60211-1-3-0-1639723153.7z
+#1187 | Relationship Dialogue Overhaul - RDO SE | VR-lists:6 SE-lists:4 | newest  | VR: Librum VR, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR | RDO Patches Final-1187-Final.zip; Relationship Dialogue Overhaul - RDO Final-1187-Final.7z
+#123044 | Controller Fix VR | VR-lists:6 SE-lists:0 | newest 2024-08-05 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR | Controller Fix VR-123044-1-0-1-1722892075.rar; Controller Fix VR-123044-1-0-1719751236.rar | [уже в Other-1]
+#61434 | Glamur Reshade VR | VR-lists:6 SE-lists:0 | newest 2023-10-23 | VR: FUS, Librum VR, Spirit of Grit, Tahrovin, Tahrovin - Grit, Yggdrasil VR | Alternate Version for Scenery ENB-61434-2-2-1-scenery-165618; Glamur Reshade v2.0-61434-2-0-1645325253.zip | [уже в Other-1]
+#100781 | Pseudo Physical Weapon Collision and Parry AE SE VR | VR-lists:6 SE-lists:0 | newest 2024-01-25 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR | Pseudo Physical Weapon Collision and Parry VR-100781-1-0-2-1 | [уже в Other-1]
+#2017 | LeanWolf's Better-Shaped Weapons SE | VR-lists:5 SE-lists:10 | newest 2021-05-12 | VR: Librum VR, Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR | Ancient Nord Stalhrim Swords-2017-1-1-1620781896.7z; LWs BSW Orcish Greatsword inventory fix - sheath-2017-2-1-03 | [уже в Other-1]
+#28905 | More Dialogue Options | VR-lists:5 SE-lists:5 | newest 2024-05-01 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit, Yggdrasil VR | More Dialogue Options - Farengar hotfix-28905-1-4-1666628563; More Dialogue Options - for Misc Dialogue Edits-28905-1-3-1-
+#75455 | AnimObject Swapper VR | VR-lists:5 SE-lists:0 | newest 2022-10-22 | VR: Librum VR, Panda's Sovngarde, Stormcrown VR, Tahrovin, Tempus Maledictum VR | AnimObject Swapper VR-75455-1-1-0-1666425597.7z
+#10926 | Archery | VR-lists:5 SE-lists:0 | newest  | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit | Archery 2.5-10926-2-5.7z; Archery Campfire Patch for v2.5-10926-v-1-2.7z
+#44874 | Dear Diary VR - Paper SkyUI and Categorized Favorites | VR-lists:5 SE-lists:0 | newest 2021-04-02 | VR: FUS, Librum VR, Tahrovin, Tempus Maledictum VR, Yggdrasil VR | Dear Diary VR - Paper SkyUI and Categorized Favorites-44874-
+#60064 | Fixed Bound Sword and Dagger Collision | VR-lists:5 SE-lists:0 | newest 2021-12-14 | VR: FUS, Librum VR, Panda's Sovngarde, Tempus Maledictum VR, Yggdrasil VR | Improved Bound Sword and Dagger Collision-60064-1-0-0-163948 | [уже в Other-1]
+#30404 | MArc - Muken's Arcane Archery | VR-lists:5 SE-lists:0 | newest 2020-08-24 | VR: FUS, Spirit of Grit, Tahrovin, Tahrovin - Grit, Yggdrasil VR | Compatibility patch for Archery-30404-1-0-1598305456.zip; Marc - Base Arcane Bows-30404-1-1-1598305218.zip
+#19052 | Ordinator VR Patch | VR-lists:5 SE-lists:0 | newest 2022-02-17 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Ordinator - replace attack speed-19052-1-0-1609537122 (1).7z; Ordinator - replace attack speed-19052-1-0-1609537122.7z
+#102094 | Quickloot VR | VR-lists:5 SE-lists:0 | newest 2026-06-12 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit | Quickloot VR 102094 1.3 2026-06-12T21-46Z gbrZ4twsM.zip; Quickloot VR-102094-1-2-1705897601.zip
+#118410 | Simple Realistic Archery VR - Attribute Cost Reload fix | VR-lists:5 SE-lists:0 | newest 2024-05-02 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR | Simple Realistic Archery VR AttributeCost Patch-118410-1-26b
+#82179 | Skyrim Upscaler VR - DLSS FSR2 XeSS | VR-lists:5 SE-lists:0 | newest 2024-12-21 | VR: FUS, Spirit of Grit, Tahrovin, Tahrovin - Grit, Yggdrasil VR | SkyrimUpscalerVR-82179-1-0-1-1673023812.zip; SkyrimUpscalerVR-82179-1-0-3-1673294859.zip
+#31673 | Skyrim VR - USSEP 4.2.2 and SSE 1.5.97 Compatibility Patch | VR-lists:5 SE-lists:0 | newest 2020-01-10 | VR: FUS, Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Skyrim VR USSEP 4.2.1 and SSE 1.5.97 Compatibility Patch-316
+#85389 | Skyrim VR OpenComposite Fixes Custom Build | VR-lists:5 SE-lists:0 | newest 2024-01-24 | VR: FUS, Librum VR, Panda's Sovngarde, Tahrovin, Tempus Maledictum VR | OC_VRIK_Bindings_Holographic-85389-0-1-BETA-1681874132.zip; OC_VRIK_Bindings_ReverbG2-85389-1-2-1679040243.zip
+#46482 | Spellforge - Engaging and Convenient Spell Acquisition | VR-lists:5 SE-lists:0 | newest 2024-01-27 | VR: FUS, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR | Spellforge - Great Cities Patch-46482-for-2-0-and-up-1656882; Spellforge-46482-1-8-1620404704.7z
+#107993 | VR Smooth Dialogue Mesh | VR-lists:5 SE-lists:0 | newest 2023-12-30 | VR: FUS, Panda's Sovngarde, Stormcrown VR, Tahrovin, Tempus Maledictum VR | VR Smooth Dialogue Mesh-107993-1-0-0-1703910901.zip
+#62372 | Wash That Blood Off 2 VR | VR-lists:5 SE-lists:0 | newest 2022-08-11 | VR: Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Yggdrasil VR | Wash That Blood Off 2 VR-62372-2-0-0-1660203441.7z
+#46511 | Wyrmstooth VR Patch | VR-lists:5 SE-lists:0 | newest 2022-02-05 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR | Wyrmstooth VR Patch-46511-1-2-1644088062.7z
+#79297 | Carriages and Stables Dialogue Bundle | VR-lists:4 SE-lists:11 | newest 2022-12-09 | VR: FUS, Panda's Sovngarde, Tahrovin, Tempus Maledictum VR | Carriage and Ferry Travel Overhaul Patch-79297-1-0-167057800; Carriages and Stables Dialogue Bundle-79297-1-0-1669311428.z
+#21224 | CBPC - Physics with Collisions for SSE and VR | VR-lists:4 SE-lists:10 | newest 2026-08-30 | VR: Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit | CBPC - Fomod installer - MAIN FILE 21224 1.7.2 2026-08-30T23; CBPC - Fomod installer - MAIN FILE-21224-1-4-17-1642089686.r | [уже в Other-1]
+#96387 | Buy and Sell Torches - Bug Fix | VR-lists:4 SE-lists:9 | newest 2023-07-24 | VR: FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit | Buy and Sell Torches - bug fix-96387-0-3-1690234234.7z
+#89163 | Instantly Skip Dialogue NG | VR-lists:4 SE-lists:8 | newest 2023-08-30 | VR: FUS, Librum VR, Panda's Sovngarde, Tempus Maledictum VR | Instantly Skip Dialogue NG-89163-1-1-1-1693399775.zip
+#28904 | Misc Dialogue Edits | VR-lists:4 SE-lists:5 | newest 2024-10-31 | VR: FUS, Librum VR, Panda's Sovngarde, Yggdrasil VR | Misc Dialogue Edits-28904-1-7-1588525190.7z; Misc Dialogue Edits-28904-1-8-6-1680213149.zip
+#667 | Campfire - Complete Camping System (Supports Skyrim VR) | VR-lists:4 SE-lists:4 | newest  | VR: FUS, Librum VR, Panda's Sovngarde, Yggdrasil VR | Campfire 1.12.1SEVR Release-667-1-12-1SEVR.zip
+#88506 | Dynamic Female Hand Warming | VR-lists:4 SE-lists:4 | newest 2026-09-05 | VR: Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit | Dynamic Female Hand Warming 88506 1.7 2026-09-05T16-32Z PuQ2; Dynamic Female Hand Warming-88506-1-6-1688345968.zip
+#32161 | Serana Dialogue Add-On | VR-lists:4 SE-lists:4 | newest 2026-05-10 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit, Yggdrasil VR | SDA Relationship Dialogue Overhaul Patch-32161-4-0RDOPatch-1; SDA Wintersun Patch CACO Version-32161-5-0WintersunPatchCACO
+#37801 | Jarl Sitting Animation Replacer | VR-lists:4 SE-lists:3 | newest 2023-07-22 | VR: Librum VR, Spirit of Grit, Tahrovin, Tahrovin - Grit | Jarl Sitting Animation Replacer - NPC Animation Remix-37801-; Jarl Sitting Animation Replacer - OAR-37801-2-0-1690055550.7
+#37779 | Campfire - Mortar and Pestle VR CTD Fix | VR-lists:4 SE-lists:0 | newest 2020-06-28 | VR: FUS, Librum VR, Panda's Sovngarde, Yggdrasil VR | Campfire - Mortar and Pestle VR CTD Fix-37779-0-2-1593381397
+#25142 | ENB Helper VR | VR-lists:4 SE-lists:0 | newest 2019-04-18 | VR: Librum VR, Spirit of Grit, Tahrovin, Tahrovin - Grit | ENB Helper VR-25142-1-0-0-1555617161.7z
+#87315 | Eagle Eye Cursor Replacer for Skyrim VR | VR-lists:4 SE-lists:0 | newest 2023-03-21 | VR: FUS, Panda's Sovngarde, Stormcrown VR, Tempus Maledictum VR | Eagle Eye Cursor Replacer for Skyrim VR-87315-0-1-1679370970
+#35627 | Hi-Res VR Map Markers | VR-lists:4 SE-lists:0 | newest 2020-05-09 | VR: Spirit of Grit, Stormcrown VR, Tahrovin, Tahrovin - Grit | High Res VR Map Markers - Standard-35627-1-1-1589051239.7z; High-Res VR Map Markers - Outline-35627-1-0-1588685969.7z | [уже в Other-1]
+#47174 | Navigate VR - Equipable Dynamic Compass and Maps | VR-lists:4 SE-lists:0 | newest 2022-01-05 | VR: FUS, Librum VR, Panda's Sovngarde, Yggdrasil VR | Navigate VR - Equipable Dynamic Compass and Maps-47174-1-05-; Navigate VR - Equipable Dynamic Compass and Maps-47174-1-51- | [уже в Other-1]
+#16242 | Skyrim VR Configuration Tool | VR-lists:4 SE-lists:0 | newest  | VR: FUS, Panda's Sovngarde, Tempus Maledictum VR, Yggdrasil VR | SkyrimVR and Fallout4VR Configuration Tool-16242-1-3-0-20687 | [уже в Other-1]
+#118579 | Stable Hands - VR Mouse Stabilization mod | VR-lists:4 SE-lists:0 | newest 2025-03-15 | VR: Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit | Stable Hands-118579-1-1-1-1742063201.rar | [уже в Other-1]
+#53050 | Strike Obstruction Systems - Combat Blocking Overhaul | VR-lists:4 SE-lists:0 | newest 2022-01-31 | VR: FUS, Panda's Sovngarde, Tahrovin, Yggdrasil VR | Strike Obstruction Systems - Combat Blocking Overhaul-53050-; Strike Obstruction Systems - Combat Blocking Overhaul-53050-
+#52322 | Animated Forge Water | VR-lists:3 SE-lists:12 | newest 2024-10-09 | VR: FUS, Tempus Maledictum VR, Yggdrasil VR | Animated Forge Water-52322-0-4-1634441503.7z; Animated Forge Water-52322-0-5-1639536098.7z
+#92795 | First Person Animation Teleport Bug Fix | VR-lists:3 SE-lists:11 | newest 2023-06-04 | VR: Librum VR, Tempus Maledictum VR, Yggdrasil VR | 1st Person Interact Animation Teleport Bug Fix-92795-1-0-0-1
+#55420 | Vanargand Animations - Sneak Strike Attacks | VR-lists:3 SE-lists:9 | newest 2026-08-24 | VR: Panda's Sovngarde, Tempus Maledictum VR, Yggdrasil VR | Vanargand Animations - Sneak Strike Attacks-55420-1-1-163137; Vanargand Animations - Sneak Strike Attacks-55420-1-2-794534
+#161500 | Smart Talk (Dialogue Menu Enhancer) | VR-lists:3 SE-lists:8 | newest 2026-09-02 | VR: Spirit of Grit, Stormcrown VR, Tahrovin - Grit | Smart Talk - Latest Version 161500 1.0.6 2026-09-02T22-19Z 3; Smart Talk - Latest Version-161500-1-0-3-1762132141.zip
+#73293 | Dynamic Animation Casting - NG | VR-lists:3 SE-lists:7 | newest 2023-06-16 | VR: Librum VR, Tempus Maledictum VR, Yggdrasil VR | Dynamic Animation Casting NG Plus-73293-3-2-3-1672974126.zip; Dynamic Animation Casting NG Plus-73293-3-2-4-1686888583.zip
+#8607 | Smoking Torches and Candles | VR-lists:3 SE-lists:7 | newest 2021-03-20 | VR: Librum VR, Tempus Maledictum VR, Yggdrasil VR | Smoking Torches and Candles-8607-1-76-1616249774.zip
+#80882 | Alchemy Plus | VR-lists:3 SE-lists:5 | newest 2026-08-28 | VR: Librum VR, Spirit of Grit, Tahrovin - Grit | Alchemy Plus VR-80882-1-2-0-1702842132.7z; Alchemy Plus-80882-1-0-1-1671477515.7z
+#49681 | Open World Loot - Encounter Zone and Loot Overhaul | VR-lists:3 SE-lists:5 | newest 2026-04-20 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | OWL - Summermyst Patch-49681-1-3-1723913113.zip; OWL Experience Preset-49681-1-3-0-1632285799.7z
+#113214 | Subtitles | VR-lists:3 SE-lists:5 | newest 2025-01-20 | VR: FUS, Panda's Sovngarde, Tempus Maledictum VR | Subtitles-113214-0-6-1-1710663521.7z; Subtitles-113214-0-6-2-1737415550.7z
+#70782 | Serana Dialogue Add-On Patch Hub | VR-lists:3 SE-lists:4 | newest 2026-05-10 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | SDA Patch Hub SE-70782-2-9-8-1778399967.7z; SDA Patch Hub-70782-1-6-1661955029.7z
+#11342 | Lock Related Loot | VR-lists:3 SE-lists:2 | newest  | VR: Spirit of Grit, Tahrovin - Grit, Yggdrasil VR | Lock Related Loot-11342-1-2.rar
+#70354 | Don't sheathe bound weapons DAR animations | VR-lists:3 SE-lists:1 | newest 2022-07-01 | VR: Librum VR, Tempus Maledictum VR, Yggdrasil VR | Don't sheat bound weapons-70354-1-3-1656659233.rar
+#103278 | Main Menu Customizer | VR-lists:3 SE-lists:1 | newest 2023-12-27 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | Main Menu Customizer-103278-0-4-0-1703022295.zip; Main Menu Customizer-103278-0-4-1-1703651514.zip
+#113064 | NPC Infinite Block Fix | VR-lists:3 SE-lists:1 | newest 2024-10-18 | VR: Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR | GSO - NPC Infinite Block Fix - Recommened-113064-1-0-1-17292; NPC Infinite Block Fix - Recommended-113064-1-0-0-1709551729
+#49964 | Open World Loot Patches | VR-lists:3 SE-lists:1 | newest 2021-05-29 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | Open World Loot Patches-49964-1-4-1622252346.7z
+#42962 | Sink Or Swim | VR-lists:3 SE-lists:1 | newest 2022-05-01 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | Sink-Or-Swim-42962-1-8-1611534519.rar; SinkOrSwim_Update-42962-1-8-5-1651418864.rar
+#652 | Tentapalooza for Campfire | VR-lists:3 SE-lists:1 | newest 2022-06-04 | VR: Librum VR, Panda's Sovngarde, Yggdrasil VR | Tentapalooza SE 1.42-652-1-42-1607885047.7z; Tentapalooza SE-652-1-43-1654369362.zip
+#118746 | Alchemy XP Fix VR | VR-lists:3 SE-lists:0 | newest 2024-05-07 | VR: FUS, Panda's Sovngarde, Tempus Maledictum VR | Alchemy XP Fix VR-118746-1-0-0-1-1715061881.7z
+#49650 | Alternative VRIK Controller Bindings | VR-lists:3 SE-lists:0 | newest 2021-05-08 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | Alternative VRIK Controller Bindings-49650-1-0-0-1620483136. | [уже в Other-1]
+#103990 | Blocking and Flash VR - Redux | VR-lists:3 SE-lists:0 | newest 2023-11-04 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | Blocking and Flash VR - Brawl Fix-103990-1-0-1699060625.zip
+#72019 | Crafting Recipe Distributor VR | VR-lists:3 SE-lists:0 | newest 2026-05-27 | VR: Panda's Sovngarde, Tempus Maledictum VR, Yggdrasil VR | Crafting Recipe Distributor VR-72019-2-0-0-1-1658644021.7z; Crafting Recipe Distributor VR-72019-4-1-0-1779866173.7z
+#51551 | Creatures Resized for VR - SE | VR-lists:3 SE-lists:0 | newest 2021-06-23 | VR: FUS, Librum VR, Tempus Maledictum VR | Creatures Resized for VR - SE-51551-1-1624436825.7z; Smaller Insects-51551-1-1-1624448338.7z | [уже в Other-1]
+#44442 | Crouch To Dodge VR - Dodge Naturally | VR-lists:3 SE-lists:0 | newest 2021-07-27 | VR: FUS, Panda's Sovngarde, Yggdrasil VR | CrouchToDodgeVR-44442-1-0-2-1627414564.7z
+#80893 | Dynamic Animation Replacer VR Fix | VR-lists:3 SE-lists:0 | newest 2022-12-18 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | Dynamic Animation Replacer VR Fix 1.0.0-80893-1-0-0-16714017
+#157974 | Elemental Fury VR | VR-lists:3 SE-lists:0 | newest 2025-08-29 | VR: Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR | ElementalFuryVR-157974-1-0-1756430621.7z
+#63889 | Enhanced Invisibility VR | VR-lists:3 SE-lists:0 | newest 2025-07-31 | VR: Panda's Sovngarde, Tahrovin, Yggdrasil VR | 1_Enhanced Invisibility VR-63889-1-3-0-1753942607.7z; Enhanced Invisibility VR-63889-1-2-0-1645342397.7z
+#126492 | Improvement Names Customized VR | VR-lists:3 SE-lists:0 | newest 2024-08-13 | VR: FUS, Panda's Sovngarde, Stormcrown VR | Improvement Names Customized VR-126492-1-0-1-1723517980.7z
+#128285 | More Interactive Objects - Throwing Things VR port | VR-lists:3 SE-lists:0 | newest 2025-02-05 | VR: Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit | Throw Stuff VR-128285-2-0-1-1738782930.7z; Throw Stuff VR-128285-2-0-1735275322.7z
+#125542 | Pseudo Physical Weapon Collision and Parry - Tweaked | VR-lists:3 SE-lists:0 | newest 2025-09-22 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | Parry VR Tweaked With Spell-125542-1-02b-1758569916.7z; Pseudo Physical Weapon Collision and Parry VR Twea-125542-1-
+#71161 | Real VR Weathers | VR-lists:3 SE-lists:0 | newest 2022-07-11 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | Real VR Weathers - SkyVRaan Ready-71161-1-0-0-1657526959.zip
+#1439 | Realistic Ragdolls and Force SE | VR-lists:3 SE-lists:0 | newest  | VR: FUS, Librum VR, Panda's Sovngarde | Increased Fall Damage Player Only-1439-1.zip; Realistic Ragdolls and Force SE-1439-1-92.zip
+#28948 | Sighted Crossbows VR | VR-lists:3 SE-lists:0 | newest 2019-12-15 | VR: Panda's Sovngarde, Tempus Maledictum VR, Yggdrasil VR | Dawnguard Crossbows sighted for VR - Enhanced Version-28948-; Dawnguard Crossbows sighted for VR-28948-1-2-1576398861.7z
+#30571 | SkyVRaan - Shimmering VR Waters | VR-lists:3 SE-lists:0 | newest 2024-04-12 | VR: FUS, Tahrovin, Yggdrasil VR | SkyVRaan 1.0.1-30571-1-0-1-1614546430.7z; SkyVRaan 1.5.1-30571-1-5-1-1662493695.7z
+#84551 | Skyrim VR OpenComposite ENB fix | VR-lists:3 SE-lists:0 | newest 2023-02-10 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | SkyrimVR_WMR_ENB_Fix-84551-1-1-1676057533.zip
+#112605 | StatFX - ImageSpace Modifiers for Health Magicka Stamina | VR-lists:3 SE-lists:0 | newest 2024-03-07 | VR: Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR | StatFX - new default configs included-112605-1-1-0-170977511
+#131015 | Subtitles VR | VR-lists:3 SE-lists:0 | newest 2025-01-20 | VR: FUS, Panda's Sovngarde, Tempus Maledictum VR | Subtitles VR-131015-0-6-2-1737415695.zip
+#83864 | THE ENHANCER VR ENB | VR-lists:3 SE-lists:0 | newest 2023-07-10 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | THE ENHANCER VR 1.1.4 - Cathedral Weathers-83864-1-1-4-16861; THE ENHANCER VR 1.1.5 - Onyx VR Weathers-83864-1-1-5-1688970
+#49903 | VR Refit - Elsopa - HD Keys Resized | VR-lists:3 SE-lists:0 | newest 2021-05-14 | VR: Spirit of Grit, Tahrovin, Tahrovin - Grit | VR Refit - ElSopa - HD Keys Resized-49903-1-0-1620975495.zip | [уже в Other-1]
+#79663 | VRIK - an optimized configuration file set | VR-lists:3 SE-lists:0 | newest 2024-10-08 | VR: FUS, Panda's Sovngarde, Tempus Maledictum VR | Preset configuration files for VRIK-79663-1-0-1669752669.rar; VRIK - 172cm (5'8'')-79663-1-02-1728415280.rar | [уже в Other-1]
+#47989 | VrVision - Performance-friendly sharpening for VR | VR-lists:3 SE-lists:0 | newest 2021-12-21 | VR: FUS, Librum VR, Yggdrasil VR | VRVision-47989-3-0-1623406179.zip; VRVision-47989-4-0-1640045005.zip | [уже в Other-1]
+#72174 | Yelling At The Sky - Immersive VR Transformations | VR-lists:3 SE-lists:0 | newest 2022-07-29 | VR: FUS, Panda's Sovngarde, Yggdrasil VR | Yelling At the Sky VR-72174-0-9-1659060626.7z
+#59142 | moreHUD Inventory Edition VR | VR-lists:3 SE-lists:0 | newest 2022-05-19 | VR: Librum VR, Panda's Sovngarde, Tempus Maledictum VR | moreHUD Inventory Edition VR-59142-1-0-18-1652997855.7z
+#96273 | Dynamic Activation Key | VR-lists:2 SE-lists:11 | newest 2024-06-13 | VR: Tahrovin, Tempus Maledictum VR | Dynamic Activation Key - DLL NG Edition-96273-1-12-171831006; Dynamic Activation Key-96273-1-02-1693177288.zip
+#75482 | Goetia Animations - Sneak Magic | VR-lists:2 SE-lists:9 | newest 2026-08-24 | VR: Panda's Sovngarde, Tempus Maledictum VR | Goetia Animations - Sneak Magic-75482-1-1-1663713147.7z; Goetia Animations - Sneak Magic-75482-1-2-794557-1787597460.
+#64216 | Vanargand Animations - Dual Wield Sneak Strikes | VR-lists:2 SE-lists:9 | newest 2026-08-24 | VR: Panda's Sovngarde, Tempus Maledictum VR | Vanargand Animations - Dual Wield Sneak Strikes-64216-1-0-16; Vanargand Animations - Dual Wield Sneak Strikes-64216-1-1-79
+#64577 | Vanargand Animations - Dual Wield Sneak Thrusts | VR-lists:2 SE-lists:9 | newest 2026-08-24 | VR: Panda's Sovngarde, Tempus Maledictum VR | Vanargand Animations - Dual Wield Sneak Thrusts-64577-1-0-16; Vanargand Animations - Dual Wield Sneak Thrusts-64577-1-1-79
+#55031 | Vanargand Animations - Sneak Thrust Attacks | VR-lists:2 SE-lists:9 | newest 2026-08-24 | VR: Panda's Sovngarde, Tempus Maledictum VR | Vanargand Animations - Sneak Thrust Attacks 1.1b-55031-1-1b-; Vanargand Animations - Sneak Thrust Attacks-55031-1-2-794533
+#54351 | Vanargand Animations - Sneak idle walk and run | VR-lists:2 SE-lists:9 | newest 2026-08-24 | VR: Panda's Sovngarde, Tempus Maledictum VR | Vanargand Animations - Sneak Idle Walk and Run-54351-1-1-163; Vanargand Animations - Sneak Idle Walk and Run-54351-1-2-794
+#66286 | Vanargand Animations - Crossbows | VR-lists:2 SE-lists:8 | newest 2026-08-24 | VR: Panda's Sovngarde, Tempus Maledictum VR | Vanargand Animations - Crossbows-66286-1-0-1649585426.7z; Vanargand Animations - Crossbows-66286-1-1-794553-1787597220
+#56788 | Vanargand Animations - Sneak Archery | VR-lists:2 SE-lists:8 | newest 2026-08-24 | VR: Panda's Sovngarde, Yggdrasil VR | 2_Vanargand Animations - Sneak Archery-56788-1-4-1634237551.; Vanargand Animations - Sneak Archery-56788-1-4-1634237551.7z
+#22075 | Guard Dialogue Overhaul SE | VR-lists:2 SE-lists:7 | newest 2024-03-02 | VR: FUS, Panda's Sovngarde | Guard Dialogue Overhaul - ESL-22075-3-0-1709382418.7z; Guard Dialogue Overhaul SE - ESP-22075-2-19-1709382331.7z
+#60323 | Vanargand Animations - Archery | VR-lists:2 SE-lists:6 | newest 2026-08-31 | VR: Panda's Sovngarde, Yggdrasil VR | Vanargand Animations - Archery-60323-1-0-1639867022.7z; Vanargand Animations - Archery-60323-1-1-798359-1788214080.7
+#63566 | Vanargand Animations - Dual Wield Normal and Power Attacks | VR-lists:2 SE-lists:6 | newest 2026-08-31 | VR: Panda's Sovngarde, Tempus Maledictum VR | Vanargand Animations - Dual Wield Attacks-63566-1-0-16447861; Vanargand Animations - Dual Wield Attacks-63566-1-1-798362-1
+#51125 | Forget Spell | VR-lists:2 SE-lists:5 | newest 2023-12-11 | VR: FUS, Panda's Sovngarde | Forget Spell-51125-1-2-2-1628453072.zip; Forget Spell-51125-1-2-6-1702301931.7z
+#57544 | Vanargand Animations - One Handed Mid Stance | VR-lists:2 SE-lists:5 | newest 2026-09-01 | VR: Panda's Sovngarde, Tempus Maledictum VR | Vanargand Animations - One handed Mid Stance-57544-1-2-16370; Vanargand Animations - One handed Mid Stance-57544-1-4b-7988
+#67282 | Vanargand Animations - Sneak Crossbows | VR-lists:2 SE-lists:5 | newest 2026-08-24 | VR: Panda's Sovngarde, Tempus Maledictum VR | 2_Vanargand Animations - Sneak Crossbows-67282-1-0b-16561146; Vanargand Animations - Sneak Crossbows-67282-1-0b-1656114642
+#92768 | Alchemy Station Variants - Base Object Swapper | VR-lists:2 SE-lists:4 | newest 2026-01-08 | VR: Panda's Sovngarde, Tempus Maledictum VR | (0) Alchemy Station Variants - FOMOD-92768-1-4-4-1757833185.; (0) Alchemy Station Variants - FOMOD-92768-1-4-6-1767891639.
+#142757 | First person magic hand light fix | VR-lists:2 SE-lists:4 | newest 2025-02-24 | VR: Stormcrown VR, Tempus Maledictum VR | First person magic hand light fix-142757-1-0-0-1740412015.zi
+#69558 | Glowing Mushroom Collision Fixes | VR-lists:2 SE-lists:4 | newest 2025-10-17 | VR: FUS, Tempus Maledictum VR | Glowing Mushroom Collision Fixes - FOMOD Installer-69558-1-1; Glowing Mushroom Collision Fixes - FOMOD Installer-69558-1-2
+#67613 | Magic Sneak Attacks | VR-lists:2 SE-lists:4 | newest 2026-08-30 | VR: FUS, Tempus Maledictum VR | Magic Sneak Attacks-67613-1-2-0-1665341091.7z; Magic Sneak Attacks-67613-1-3-0-1705662156.7z
+#100985 | Sentinel - An Equipment Overhaul | VR-lists:2 SE-lists:4 | newest 2025-03-02 | VR: FUS, Panda's Sovngarde | Optional Aela Outfit Fix-100985-3-0-0-1740145848.7z; Sentinel - An Equipment Overhaul-100985-2-2-0-1713491832.7z
+#58326 | Vanargand Animations - One Handed Normal Attacks | VR-lists:2 SE-lists:4 | newest 2026-08-31 | VR: Panda's Sovngarde, Yggdrasil VR | Vanargand Animations - One handed Normal Attacks-58326-1-1-1; Vanargand Animations - One handed Normal Attacks-58326-1-2-7
+#58997 | Vanargand Animations - One Handed Power Attacks | VR-lists:2 SE-lists:4 | newest 2026-08-31 | VR: Panda's Sovngarde, Yggdrasil VR | Vanargand Animations - One Handed Power Attacks-58997-1-2-16; Vanargand Animations - One Handed Power Attacks-58997-1-3-79
+#48550 | Leviathan Animations - Two-Handed Normal Attacks | VR-lists:2 SE-lists:3 | newest 2026-08-31 | VR: Panda's Sovngarde, Tempus Maledictum VR | Leviathan Animations - Two-Handed Normal Attacks For High St; Leviathan Animations - Two-Handed Normal Attacks-48550-1-4-7
+#50545 | Leviathan Animations - Two-Handed Power Attacks | VR-lists:2 SE-lists:3 | newest 2026-08-31 | VR: Panda's Sovngarde, Tempus Maledictum VR | Leviathan Animations - Two-Handed Power Attacks For High Sta; Leviathan Animations - Two-Handed Power Attacks-50545-1-5-79
+#44601 | Relationship Dialogue Overhaul - Update and MCM | VR-lists:2 SE-lists:3 | newest 2021-10-27 | VR: Panda's Sovngarde, Tempus Maledictum VR | Relationship Dialogue Overhaul - UHDAP Patch-44601-1-0-16119; Relationship Dialogue Overhaul - Update and MCM 1.0.5-44601-
+#61161 | Blowing in the Wind Lite (moveable lanterns with Base Object Swapper) | VR-lists:2 SE-lists:2 | newest 2023-01-28 | VR: Stormcrown VR, Tempus Maledictum VR | Blowing in the Wind Lite (moveable lanterns with Base Object; Blowing in the Wind Lite__extension_SWAP-61161-1-7-167493896
+#30817 | Lanterns Of Skyrim II | VR-lists:2 SE-lists:2 | newest 2025-11-29 | VR: Tempus Maledictum VR, Yggdrasil VR | Lanterns Of Skyrim II - FOMOD-30817-v4-1-1649371319.7z; Lanterns Of Skyrim II - FOMOD-30817-v4-3-1764389544.7z
+#113227 | NPC Infinite Block Fix - SkyPatched | VR-lists:2 SE-lists:2 | newest 2024-09-02 | VR: Panda's Sovngarde, Tempus Maledictum VR | NPC Infinite Block Fix - SkyPatched-113227-1-0-0-1709733360.; NPC Infinite Block Fix - SkyPatched-113227-1-1-0-1725279661.
+#13838 | Pickpocket Reset | VR-lists:2 SE-lists:2 | newest 2021-04-15 | VR: Spirit of Grit, Tahrovin - Grit | Pickpocket Reset-13838-1-1-1-1618526480.7z
+#19924 | Complete Alchemy and Cooking Overhaul | VR-lists:2 SE-lists:1 | newest 2026-07-18 | VR: Librum VR, Yggdrasil VR | CACO SKSE VR 2.0.10 DLL Patch-19924-1-0-1539371937.7z; Complete Alchemy and Cooking Overhaul-19924-2-0-1.7z
+#5013 | Craftable Torches | VR-lists:2 SE-lists:1 | newest  | VR: Spirit of Grit, Tahrovin - Grit | Craftable Torches-5013-1-1.rar
+#107803 | Eld-beri II - The first full particle light lantern mod (including first person view) | VR-lists:2 SE-lists:1 | newest 2024-03-19 | VR: Spirit of Grit, Tahrovin - Grit | ADXP  MCO patch - Fix the flying lantern bug-107803-all-1710; Add support to Communuty Shader-107803-all-1704899868.7z
+#20791 | Guard Dialogue Overhaul Redux | VR-lists:2 SE-lists:1 | newest 2019-08-11 | VR: Librum VR, Tempus Maledictum VR | Guard Dialogue Overhaul (Form 44)-20791-1-8-1-1565514119.7z
+#1763 | No BS AI Projectile Dodge (Magic and Arrows) - Immersive Projectiles Nondetection of Enemies | VR-lists:2 SE-lists:1 | newest  | VR: Panda's Sovngarde, Yggdrasil VR | No BS AI Projectile Dodge-1763-1-3.rar
+#72014 | SCAR - Skyrim Combos AI Revolution | VR-lists:2 SE-lists:1 | newest 2023-01-23 | VR: Tahrovin, Tempus Maledictum VR | SCAR - Skyrim Combos AI Revolution-72014-v0-93-1660740665.7z; SCAR - Skyrim Combos AI Revolution-72014-v1-03-1662825758.7z
+#31585 | Simpler Knock | VR-lists:2 SE-lists:1 | newest 2025-10-04 | VR: Spirit of Grit, Tahrovin - Grit | SN_USSEP_Patch .esp flagged as .esl-31585-1-0-1721158514.zip; Simpler Knock .esp flagged as .esl-31585-3-1-1759593133.zip
+#14098 | Simply Knock SE | VR-lists:2 SE-lists:1 | newest  | VR: Librum VR, Yggdrasil VR | Simply Knock SE 1.0.3 Release-14098-1-0-3.zip
+#61417 | 'No hole in the roof' opening scene FIX VR | VR-lists:2 SE-lists:0 | newest 2022-01-21 | VR: Spirit of Grit, Tahrovin - Grit | No Hole In The Roof FIX-61417-1-01-1642783410.zip
+#94555 | Adamant Tweaks for ADXP and VR | VR-lists:2 SE-lists:0 | newest 2025-04-24 | VR: FUS, Panda's Sovngarde | Main-94555-1-2-1694185644.zip; Main-94555-1-3-1745531067.zip
+#5877 | Alchemy Potions and Food Adjustments | VR-lists:2 SE-lists:0 | newest 2019-10-28 | VR: Spirit of Grit, Tahrovin - Grit | Alchemy Potions and Food Adjustments V2.5 FOMOD Installer-58
+#54483 | Apoapse's Arcana (Spellforge for Spell Research) | VR-lists:2 SE-lists:0 | newest 2021-08-25 | VR: Librum VR, Yggdrasil VR | Apoapse's Arcana-54483-v1-0-1629871060.7z
+#125734 | Attacks Cost Stamina VR | VR-lists:2 SE-lists:0 | newest 2025-11-13 | VR: Spirit of Grit, Tahrovin - Grit | Attacks Cost Stamina VR - 2H Requirement-125734-1-21-1763025; Attacks Cost Stamina VR-125734-1-21-1763025780.7z
+#181459 | Auto Name Enchantments - Durability VR Patch | VR-lists:2 SE-lists:0 | newest 2026-06-01 | VR: Spirit of Grit, Tahrovin - Grit | Auto Name Enchantments - Durability VR Patch-181459-1-178035
+#61690 | AutoBody VR - Configurable Randomized Bodies | VR-lists:2 SE-lists:0 | newest 2023-12-23 | VR: Spirit of Grit, Tahrovin - Grit | Autobody NG-61690-1-5-3-1-1703366602.7z
+#19348 | Chesko's Wearable Lanterns - SE and VR Patch | VR-lists:2 SE-lists:0 | newest  | VR: Librum VR, Yggdrasil VR | Wearable Lanterns - VR Patch-19348-1.7z
+#68032 | ConsolePlusPlus VR | VR-lists:2 SE-lists:0 | newest 2023-07-28 | VR: Librum VR, Tahrovin | ConsolePlusPlus VR-68032-1-3-0-1690527639.7z
+#17512 | Crosshairs with different colours VR | VR-lists:2 SE-lists:0 | newest  | VR: Tempus Maledictum VR, Yggdrasil VR | Crosshairs different colours-17512-0-9.zip
+#157174 | DAc0da Lightsabers VR | VR-lists:2 SE-lists:0 | newest 2025-08-19 | VR: Spirit of Grit, Tahrovin - Grit | DAc0da VR Lightsaber Fix-157174-1-1-1755633466.7z
+#100170 | Dear Diary Light and Wood and Paper for C.O.C.K.S VR | VR-lists:2 SE-lists:0 | newest 2023-09-08 | VR: FUS, Librum VR | Dear Diary Light Skin for C.O.C.K.S VR-100170-1-0-0-16941336; Dear Diary Wood and Paper for C.O.C.K.S VR-100170-1-0-0-1694
+#65512 | Dynamic Animation Casting | VR-lists:2 SE-lists:0 | newest 2022-04-10 | VR: Librum VR, Yggdrasil VR | DynamicAnimationCasting-65512-1-5-1-1649625800.rar
+#99753 | ENB Lights For Effect Shaders VR | VR-lists:2 SE-lists:0 | newest 2024-10-12 | VR: FUS, Librum VR | ENB Lights For Effect Shaders VR-99753-2-2-0-1728717288.7z
+#116601 | Enchantment Art Extender VR | VR-lists:2 SE-lists:0 | newest 2024-04-13 | VR: FUS, Tahrovin | Enchantment Art Extender VR-116601-1-0-2-1712994147.7z
+#9816 | Gather Wilderness Resources - A plugin for Campfire | VR-lists:2 SE-lists:0 | newest  | VR: Panda's Sovngarde, Yggdrasil VR | Gather Wilderness Resources BSA-9816-1-0.rar
+#59249 | Hand Placed Enemies - More populated spawns dungeons and POIs | VR-lists:2 SE-lists:0 | newest 2023-05-24 | VR: Spirit of Grit, Tahrovin - Grit | Hand placed Enemies ESPFE-59249-1-02-1684953581.7z
+#158623 | Immersive Dialogue Expansion - Stormcloaks | VR-lists:2 SE-lists:0 | newest 2025-09-06 | VR: Spirit of Grit, Tahrovin - Grit | IDE Stormcloaks-158623-1-1757198876.zip
+#68864 | Immersive Tree Chopping VR | VR-lists:2 SE-lists:0 | newest 2022-06-05 | VR: FUS, Panda's Sovngarde | Immersive Tree Chopping VR-68864-1-01-1654455262.7z
+#70134 | Infinite Stamina Out of Combat | VR-lists:2 SE-lists:0 | newest 2022-07-02 | VR: Panda's Sovngarde, Yggdrasil VR | Infinite Sprinting Out of Combat-70134-1-0-1656800096.7z; Infinite Stamina Out of Combat-70134-1-1-1656001507.7z
+#139443 | Journeyman VR | VR-lists:2 SE-lists:0 | newest 2025-01-18 | VR: Panda's Sovngarde, Stormcrown VR | Journeyman VR-139443-1-1-4-1737211237.zip
+#156773 | LeveledList Crash Fix VR | VR-lists:2 SE-lists:0 | newest 2025-08-13 | VR: Librum VR, Tempus Maledictum VR | Leveled List Crash Fix VR-156773-1-1-1-1755068263.7z
+#134212 | Local Map Upgrade VR | VR-lists:2 SE-lists:0 | newest 2024-11-17 | VR: Panda's Sovngarde, Tahrovin | LocalMapUpgradeVR-134212-2-1-0-1731868930.rar | [уже в Other-1]
+#112132 | Missives - Quickloot Patch | VR-lists:2 SE-lists:0 | newest 2024-02-20 | VR: Spirit of Grit, Tahrovin - Grit | Missives - Quickloot Patch-112132-1-0-1708435826.zip
+#91626 | More Consistent Stamina Costs for Shield of Stamina | VR-lists:2 SE-lists:0 | newest 2023-05-19 | VR: Spirit of Grit, Tahrovin - Grit | More Consistent Stamina Costs Shield of Stamina-91626-1-2-2-
+#27503 | Natural Colored Map Markers 4K VR and SSE | VR-lists:2 SE-lists:0 | newest 2019-07-24 | VR: Librum VR, Yggdrasil VR | Natural Colored Map Markers 2K VR-27503-1-1-1564012359.7z | [уже в Other-1]
+#167190 | No Combat or Riding Save | VR-lists:2 SE-lists:0 | newest 2025-12-15 | VR: Spirit of Grit, Tahrovin - Grit | No Combat or Riding Save-167190-1-01-1765834699.7z
+#119899 | No Player Position on World Map (VR) | VR-lists:2 SE-lists:0 | newest 2024-05-20 | VR: Spirit of Grit, Tahrovin - Grit | No Player Position on World Map-119899-1-0-0-1716227942.zip
+#119892 | OStim Standalone VR | VR-lists:2 SE-lists:0 | newest 2026-05-15 | VR: Tahrovin, Tahrovin - Grit | OStim Standalone VR-119892-7-3-4e-1741382302.rar; OStim Standalone VR-119892-7-4c-1778882636.rar
+#105789 | PLANCK - Ignore Followers | VR-lists:2 SE-lists:0 | newest 2023-12-17 | VR: Spirit of Grit, Tahrovin - Grit | Planck Follower Ragdoll Disable-105789-1-1-1702844394.7z
+#174855 | Pickpocket Reset - VR | VR-lists:2 SE-lists:0 | newest 2026-03-16 | VR: Spirit of Grit, Tahrovin - Grit | Pickpocket Reset VR-174855-1-0-1773661934.7z
+#172991 | QTE VR Framework | VR-lists:2 SE-lists:0 | newest 2026-02-20 | VR: Spirit of Grit, Tahrovin - Grit | QTE VR - Ordinator Perform Perks-172991-1-0-1771595767.7z; QTE VR Framework-172991-1-0-1771595674.7z
+#172992 | QTE VR Framework - Music Pack | VR-lists:2 SE-lists:0 | newest 2026-02-20 | VR: Spirit of Grit, Tahrovin - Grit | QTE VR - Music Pack-172992-1-0-1771596123.7z
+#28596 | Reduced Fire-Candle-Torch Glow | VR-lists:2 SE-lists:0 | newest 2019-11-02 | VR: FUS, Yggdrasil VR | Reduced Fire_Candle_Torch Glow Effects-28596-1-2-1-157271540
+#89492 | SCAR VR - Skyrim Combos AI Revolution VR | VR-lists:2 SE-lists:0 | newest 2023-04-18 | VR: Tahrovin, Tempus Maledictum VR | SCAR VR - Skyrim Combos AI Revolution VR-89492-1-0-7-1681804
+#158007 | Sacrilege - Vampire Lord VR Fix | VR-lists:2 SE-lists:0 | newest 2025-08-29 | VR: Spirit of Grit, Tahrovin - Grit | Sacrilege VR Fix-158007-1-0-1756472872.7z
+#14490 | Simple Drop Lit Torches SE | VR-lists:2 SE-lists:0 | newest 2025-05-20 | VR: Spirit of Grit, Tahrovin - Grit | Simple Drop Lit Torches SE-14490-1-0-8-1747767802.zip
+#38946 | Simple Iron Sights for Sighted Crossbows VR | VR-lists:2 SE-lists:0 | newest 2020-08-03 | VR: Panda's Sovngarde, Yggdrasil VR | Iron Sights for Sighted Crossbows VR-38946-1-1596420523.7z
+#28701 | Skyrim Skill Uncapper for VR Edition | VR-lists:2 SE-lists:0 | newest 2019-09-02 | VR: Tempus Maledictum VR, Yggdrasil VR | Skyrim Skill Uncapper for VR Edition v1.01-28701-1-01-156743
+#118812 | Skyrim's Got Talent - VR Patch-ish | VR-lists:2 SE-lists:0 | newest 2024-05-06 | VR: Tahrovin, Tempus Maledictum VR | Skyrim's Got Talent - VR Patch 0.4-118812-0-4-1715031932.7z
+#30558 | SkyrimVR Strange Runes - Spellcasting Enhanced VR Edition | VR-lists:2 SE-lists:0 | newest 2021-12-02 | VR: Panda's Sovngarde, Yggdrasil VR | SkyrimVR Strange Runes - Spellcasting Enhanced VR Edition-30; SkyrimVR Strange Runes - Spellcasting Enhanced VR Palm Editi
+#164902 | SpellBender VR | VR-lists:2 SE-lists:0 | newest 2026-01-20 | VR: Panda's Sovngarde, Tempus Maledictum VR | SpellBender VR-164902-1-0-2-1768897338.zip
+#104046 | Spellforge - Research | VR-lists:2 SE-lists:0 | newest 2023-11-04 | VR: Spirit of Grit, Tahrovin - Grit | Spellforge - Research-104046-1-0-1699128545.zip
+#114146 | Thistlefoot Is Totally Stable (Actual Auri Mount Fix) | VR-lists:2 SE-lists:0 | newest 2024-03-16 | VR: Spirit of Grit, Tahrovin - Grit | T.I.T.S. (Actual Auri Mount Fix)-114146-0-0-1-1710567906.7z
+#4668 | Throwing Weapons Lite SE | VR-lists:2 SE-lists:0 | newest 2020-03-23 | VR: Spirit of Grit, Tahrovin - Grit | Throwing Weapons Lite SE - Dynamic Animation Replacer-4668-D; Throwing Weapons Lite SE - Version G.04-4668-G-04.zip
+#133449 | UnLock - Lockpicking Requirements Lock Smashing and Spells | VR-lists:2 SE-lists:0 | newest 2025-12-11 | VR: Spirit of Grit, Tahrovin - Grit | UnLock-133449-5-1-1765494447.zip
+#131341 | Virtual Reality General Enhancements | VR-lists:2 SE-lists:0 | newest 2024-10-11 | VR: FUS, Stormcrown VR | Manbeast - VR Power Attack Fix-131341-1-0-0-1728678232.7z; Pilgrim - Prayer Animation Disabler-131341-1-0-0-1728677962.
+#7560 | Wearable Lanterns | VR-lists:2 SE-lists:0 | newest  | VR: Librum VR, Yggdrasil VR | Wearable Lanterns 4.0.3 Release-7560-4-0-3.zip | [уже в Other-1]
+#24486 | bHaptics Tactsuit - SkyrimVR Integration | VR-lists:2 SE-lists:0 | newest 2024-07-28 | VR: FUS, Panda's Sovngarde | Tactsuit SkyrimVR-24486-2-0-1-1628347119.rar; Tactsuit SkyrimVR-24486-2-2-4-1722167693.zip | [уже в Other-1]
+#18619 | moreHUD Inventory Edition | VR-lists:1 SE-lists:15 | newest 2026-09-03 | VR: Librum VR | moreHUD Inventory Edition - AE-18619-2-1-2-0-1669839315.7z; moreHUD Inventory Edition - AE-18619-2-1-3-0-1709428444.7z
+#65921 | ElSopa - Quivers Redone SE | VR-lists:1 SE-lists:12 | newest 2022-04-03 | VR: Panda's Sovngarde | ElSopa - Quivers Redone 1k SE-65921-1-0-1648964938.7z; ElSopa - Quivers Redone 2k SE-65921-1-0-1648964906.7z
+#78267 | Animals Swim (Sort of) | VR-lists:1 SE-lists:10 | newest 2022-11-07 | VR: Panda's Sovngarde | Animals Swim (Sort Of)-78267-1-0-1667836104.zip
+#132887 | Better Atronach Forge Offering Box - No More Dwemer Dresser - High Polygon Summoning Circle | VR-lists:1 SE-lists:9 | newest 2024-11-06 | VR: Tempus Maledictum VR | Atronach Forge Offering Box-132887-0-2-1-1730853165.7z
+#31165 | First Person Sneak Strafe-Walk Stutter Fix | VR-lists:1 SE-lists:9 | newest 2019-12-22 | VR: Librum VR | First Person Sneak Strafe-Walk Stutter Fix-31165-1-0-1577054
+#150951 | World Encounter Noble Riding Horse Fix - WERoad02 | VR-lists:1 SE-lists:9 | newest 2025-05-25 | VR: Panda's Sovngarde | World Encounter Noble Riding Horse Fix - WERoad02-150951-0-1
+#121203 | Utenlands Nordic Tents - Replacer and Campfire Addon | VR-lists:1 SE-lists:8 | newest 2026-05-27 | VR: Panda's Sovngarde | Utenlands Nordic Tents - BOS Color Variance-121203-1-0-9-173; Utenlands Nordic Tents - BOS Color Variance-121203-1-2-2-175
+#60837 | Dear Diary Dark Mode - SkyUI Menus Replacer SE | VR-lists:1 SE-lists:7 | newest 2022-11-04 | VR: Tempus Maledictum VR | Dear Diary Dark Mode (texts - white color)-60837-1-1-1-16675
+#38510 | Mount Anthor Dragon Fix | VR-lists:1 SE-lists:7 | newest 2021-05-12 | VR: Yggdrasil VR | Mount Anthor Dragon Fix-38510-1-0-3-1620809169.7z
+#52743 | Oblivion Interaction Icons | VR-lists:1 SE-lists:7 | newest 2025-02-06 | VR: Yggdrasil VR | Interaction Icons Rework-52743-1-37-1644063388.7z; Interaction Icons Rework-52743-1-375-1644261272.7z
+#105376 | Vanargand Animations II - Unarmed Non Combat Locomotion | VR-lists:1 SE-lists:7 | newest 2023-11-23 | VR: Panda's Sovngarde | Vanargand Animations II - Unarmed Non Combat-105376-1-0-1700
+#139036 | Skyking Alchemy Ingredients | VR-lists:1 SE-lists:6 | newest 2025-04-20 | VR: Panda's Sovngarde | Skyking Alchemy Ingredients-139036-1-0-1736816578.7z; Skyking Alchemy Ingredients-139036-1-1-1745172841.7z
+#145336 | Stealth Detection Fixes | VR-lists:1 SE-lists:6 | newest 2025-07-12 | VR: Tempus Maledictum VR | MCM Settings Preset - Easy Mode-145336-easymode-1743237338.z; Stealth Detection Fixes - FOMOD-145336-1-1-1742589805.7z
+#2425 | 3rd Person Dual Wield Animation Fix SSE | VR-lists:1 SE-lists:5 | newest  | VR: Librum VR | DWANIM-2425-1-00.zip
+#99486 | Container Item Distributor | VR-lists:1 SE-lists:5 | newest 2024-12-08 | VR: Panda's Sovngarde | Container Item Distributor-99486-2-1-3-1733635860.7z
+#109731 | Diverse Campfires - Base Object Swapper | VR-lists:1 SE-lists:5 | newest 2025-06-17 | VR: Panda's Sovngarde | Diverse Campfires - Base Object Swapper-109731-1-1-170592188; Diverse Campfires - FLM patch-109731-1-2-1706873974.rar
+#113168 | Extended Bandit Dialogue | VR-lists:1 SE-lists:5 | newest 2025-03-14 | VR: FUS | Extended Bandit Dialogue-113168-1-0-1-1728698482.zip; Extended Bandit Dialogue-113168-1-0-2-1741949132.zip
+#106523 | Extended Guard Dialogue | VR-lists:1 SE-lists:5 | newest 2024-11-04 | VR: FUS | Dawnguard VA Fix-106523-1-0-0-1711868060.zip; Extended Guard Dialogue-106523-1-0-2-1709947111.zip
+#59790 | Hand to Hand - An Adamant Addon | VR-lists:1 SE-lists:5 | newest 2026-08-15 | VR: FUS | Hand to Hand - An Adamant Addon 59790 2.0.1 2026-08-15T01-03; Hand to Hand - An Adamant Addon-59790-1-5-8-1707850577.7z
+#77303 | Horsemen Torch Wield Fix and Mount Tweaks SE | VR-lists:1 SE-lists:5 | newest 2024-04-01 | VR: Tempus Maledictum VR | Horsemen Torch Wield Fix and Mount Tweaks SE-77303-1-2-16666; Horsemen Torch Wield Fix and Mount Tweaks SE-77303-1-3-17120
+#99073 | Leviathan Animations II - Greatsword Sneak Locomotion And Attacks | VR-lists:1 SE-lists:5 | newest 2023-08-24 | VR: Panda's Sovngarde | Leviathan animations II - Greatsword Sneak-99073-1-0-1692886
+#137877 | Modex - A Mod Explorer Menu (AddItemMenu) | VR-lists:1 SE-lists:5 | newest 2026-06-01 | VR: Tahrovin | Modex - A Mod Explorer Menu - v2.2.1-137877-v2-2-1-177472826; Modex - A Mod Explorer Menu - v3.0.0-137877-v3-0-0-178028317
+#90526 | Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.) | VR-lists:1 SE-lists:5 | newest 2023-09-15 | VR: Tempus Maledictum VR | P.E.N.I.S. for B.O.O.B.I.E.S.-90526-1--1694807732.zip
+#68557 | Aura's Inventory Tweaks (More SkyUI Icons Sorting Options and Columns) | VR-lists:1 SE-lists:4 | newest 2024-04-24 | VR: Librum VR | Aura's Inventory Tweaks-68557-4-3-0-1698307468.zip; Aura's Inventory Tweaks-68557-4-4-1-1709947090.zip
+#29758 | Blacksmith Forge Water xEdit-Synthesis Patch | VR-lists:1 SE-lists:4 | newest 2021-09-11 | VR: Librum VR | Water Trough Mesh-29758-1-4-1595447340.zip; xEdit Script-29758-1-4-1595447316.zip
+#90252 | Dynamic Female Ledge Sitting | VR-lists:1 SE-lists:4 | newest 2026-09-05 | VR: Panda's Sovngarde | Dynamic Female Ledge Sitting 90252 1.4 2026-09-05T16-39Z Fpn; Dynamic Female Ledge Sitting OAR-90252-1-3-1688343848.zip
+#93520 | Dynamic Female Rail Leaning | VR-lists:1 SE-lists:4 | newest 2026-09-05 | VR: Panda's Sovngarde | Dynamic Female Rail Leaning 93520 1.3 2026-09-05T16-45Z Dc5u; Dynamic Female Rail Leaning OAR-93520-1-1-1688159166.zip
+#87536 | Dynamic Female Wall Leaning | VR-lists:1 SE-lists:4 | newest 2026-09-05 | VR: Panda's Sovngarde | Dynamic Female Wall Leaning 87536 1.4 2026-09-05T16-23Z RHaV; Dynamic Female Wall Leaning OAR-87536-1-3-1688497099.zip
+#103080 | Dynamic Torch Idle Animations | VR-lists:1 SE-lists:4 | newest 2024-03-28 | VR: Panda's Sovngarde | Dynamic Torch Idle Animations - OAR-103080-1-3-1711669467.zi
+#114625 | Falmer 'Dialogue' Overhaul - Echolocation | VR-lists:1 SE-lists:4 | newest 2024-04-05 | VR: FUS | Falmer Dialogue Overhaul - Standalone Edition-114625-1-1-171; Falmer Dialogue Overhaul-114625-1-0-1711213485.7z
+#91290 | Hand placed enemies - Light (Populated spawns and dungeons) | VR-lists:1 SE-lists:4 | newest 2024-03-13 | VR: FUS | HPE for The dragon cult - no ambushes-91290-1-01-1710356049.; Hand Placed Enemies - Light No ambushes-91290-1-0-1684015212
+#27050 | Medieval Torch | VR-lists:1 SE-lists:4 | newest 2019-07-01 | VR: Yggdrasil VR | Medieval Torch-27050-1-0-2-1561975827.7z
+#90737 | Morthal Barrow | VR-lists:1 SE-lists:4 | newest 2025-01-08 | VR: Tempus Maledictum VR | Morthal Barrow 1.3.1-90737-1-3-1-1702380528.zip; Morthal Barrow-90737-1-4-1736296204.zip
+#151384 | NPC Block Loop Fix | VR-lists:1 SE-lists:4 | newest 2025-05-30 | VR: Tempus Maledictum VR | NPC Block Loop Fix-151384-1-0-1748582585.zip
+#117328 | Vanargand Animations II - Unarmed Normal And Power Attacks | VR-lists:1 SE-lists:4 | newest 2026-08-31 | VR: Panda's Sovngarde | Vanargand Animations II - Unarmed Attacks-117328-1-0-1713681; Vanargand Animations II - Unarmed Attacks-117328-1-1-798370-
+#117052 | BFCO - Attack Behavior Framework (SSE VR) | VR-lists:1 SE-lists:3 | newest 2026-08-23 | VR: Tempus Maledictum VR | BFCO - Attack Behavior Framework 117052 3.100.7 2026-08-23T1; BFCO - Attack Behavior Framework-117052-3-100-2-1777778638.z
+#98142 | Diverse Archery Targets - Base Object Swapper | VR-lists:1 SE-lists:3 | newest 2024-02-01 | VR: Panda's Sovngarde | Diverse Archery Targets - BOS - DTA-98142-1-0-1692071116.rar; Diverse Archery Targets - BOS - More targets.-98142-1-2-1699
+#56658 | Dragon Ragdoll Sounds | VR-lists:1 SE-lists:3 | newest 2021-10-07 | VR: Tempus Maledictum VR | Dragon Ragdoll Sounds ESP flagged as ESL-56658-1-1-163361519
+#151307 | Dynamic Female Table Leaning | VR-lists:1 SE-lists:3 | newest 2026-09-05 | VR: Panda's Sovngarde | Dynamic Female Table Leaning - OAR-151307-1-1-1749593766.zip; Dynamic Female Table Leaning-151307-1-2-800827-1788626880.zi
+#90713 | Female Hands Redone | VR-lists:1 SE-lists:3 | newest 2023-06-13 | VR: Librum VR | 3BA Patch for CBBE-90713-1-0-0-1686632524.zip; Hands Redone F CBBE-90713-1-0-0-1684666697.zip
+#36366 | Guard Dialogue Overhaul - UHDAP Patch | VR-lists:1 SE-lists:3 | newest 2026-09-16 | VR: Panda's Sovngarde | Guard Dialogue Overhaul - UHDAP Patch ESL 36366 1.0 2026-09-; Guard Dialogue Overhaul - UHDAP Patch-36366-1-0-1590279907.r
+#50853 | Guard Dialogue Overhaul MCM | VR-lists:1 SE-lists:3 | newest 2024-03-03 | VR: Panda's Sovngarde | GDO MCM patch-50853-1-3-1-1709464081.7z
+#21726 | Jankevdv's 2K Archery Targets | VR-lists:1 SE-lists:3 | newest 2018-12-10 | VR: Panda's Sovngarde | Archery Target Retexture-21726-1-0-1544401542.7z
+#73789 | Ordinator - No Timed Block | VR-lists:1 SE-lists:3 | newest 2022-08-21 | VR: Tempus Maledictum VR | Ordinator - No Timed Block-73789-0-1-1661112532.7z
+#144420 | Skyforge Immersion Addon | VR-lists:1 SE-lists:3 | newest 2025-03-12 | VR: Tempus Maledictum VR | Skyforge Immersion Addon - FOMOD-144420-1a-1741741094.7z
+#59239 | Smooth Random Blocking Animation 3.0 | VR-lists:1 SE-lists:3 | newest 2021-11-30 | VR: Yggdrasil VR | Smooth Random Blocking Animation 3.2-59239-3-2-1638279965.zi
+#176593 | Unpoisoned Blocking | VR-lists:1 SE-lists:3 | newest 2026-09-02 | VR: Stormcrown VR | Unpoisoned Blocking - Latest Version-176593-1-0-0-1775477161; Unpoisoned Blocking - Latest Version-176593-1-0-1-799460-178
+#149913 | Campfire - Script Optimization | VR-lists:1 SE-lists:2 | newest 2025-05-13 | VR: Librum VR | Campfire - Script Optimization-149913-1-1747076439.rar; Hotkey modded menu fix Patch-149913-1-1747135977.rar
+#126598 | Catches Cook on Campfires - Base Object Swapper | VR-lists:1 SE-lists:2 | newest 2024-08-29 | VR: Panda's Sovngarde | Catches Cook on Campfires-126598-1-2-1724915084.rar
+#44783 | Clean Menu Plus | VR-lists:1 SE-lists:2 | newest 2021-01-24 | VR: Librum VR | Clean Menu Plus (60 FPS)-44783-1-0-1611518712.7z; Clean Menu Plus-44783-1-0-1611518724.7z
+#34853 | DAR - Dynamic Swimming | VR-lists:1 SE-lists:2 | newest 2020-04-20 | VR: Tempus Maledictum VR | DAR - Dynamic Swimming - Argonian Mastery-34853-1-1-Optional; DAR - Dynamic Swimming-34853-1-0-1587114447.rar
+#128040 | Dynamic Female Swimming Idles | VR-lists:1 SE-lists:2 | newest 2026-09-05 | VR: Panda's Sovngarde | Dynamic Female Swimming Idles-128040-1-0-1725146942.zip; Dynamic Female Swimming Idles-128040-1-1-800829-1788627060.z
+#104029 | Giant Club Variety- Mihail Weapons and Shields (SE-AE version) | VR-lists:1 SE-lists:2 | newest 2023-11-04 | VR: Tempus Maledictum VR | giant club variety (se-ae)-104029-1-1699116137.rar
+#108923 | I Am Actually Poor - A Small Dialogue Tweak | VR-lists:1 SE-lists:2 | newest 2024-01-10 | VR: Panda's Sovngarde | I Am Actually Poor - Version 1.1-108923-1-1-1704904097.zip
+#42090 | Immersive Speech Dialogues | VR-lists:1 SE-lists:2 | newest 2024-03-28 | VR: Yggdrasil VR | Immersive Speech Dialogue-42090-1-1604688475.rar; Immersive Speech Dialogues-42090-2-0-1711640226.zip
+#116713 | Kome's Inventory Tweaks | VR-lists:1 SE-lists:2 | newest 2024-05-19 | VR: Stormcrown VR | Komegaki's Inventory Tweaks - Patches-116713-1-21-1716155557; Komegaki's Inventory Tweaks-116713-1-21-1716139747.zip
+#84201 | Leviathan Animations II - Greatsword Non Combat Locomotion | VR-lists:1 SE-lists:2 | newest 2026-08-31 | VR: Panda's Sovngarde | Leviathan Animations II - Greatsword Non Combat Locomotion -; Leviathan Animations II - Greatsword Non Combat Locomotion-8
+#85599 | Modern Female Sitting Animations Overhaul | VR-lists:1 SE-lists:2 | newest 2025-03-04 | VR: Panda's Sovngarde | Modern Female Sitting Overhaul OAR-85599-2-0-1741077172.zip
+#72780 | Remi Dialogue Improvements | VR-lists:1 SE-lists:2 | newest 2022-08-06 | VR: Tempus Maledictum VR | Remi Improved Dialogue-72780-1-0-1659748175.7z
+#72451 | SCAR Stamina Limitation Patch | VR-lists:1 SE-lists:2 | newest 2024-05-25 | VR: Tempus Maledictum VR | SCAR Stamina Limitation-72451-v1-2-1662349606.7z; SCAR Stamina Limitation-72451-v1-4-1716645240.7z
+#16222 | Serana Dialogue Edit - Skyrim Special Edition | VR-lists:1 SE-lists:2 | newest  | VR: Librum VR | SeranaDialogEdit v 102-16222-1-02.7z
+#132196 | Simple Wearable Lanterns - Remastered | VR-lists:1 SE-lists:2 | newest 2024-10-24 | VR: Tempus Maledictum VR | 1_ESL version-132196-v1-1729768667.rar; ESL version-132196-v1-1729768667.rar
+#135010 | The Dragonborn's Bestiary - Lively's Alchemy Addon | VR-lists:1 SE-lists:2 | newest 2025-02-06 | VR: Tempus Maledictum VR | The Dragonborn's Bestiary - Lively's Alchemy Addon-135010-2-; The Dragonborn's Bestiary - Lively's Alchemy Addon-135010-2-
+#73807 | Thieves Guild Dialogue Fix - USSEP Compatible | VR-lists:1 SE-lists:2 | newest 2023-04-02 | VR: Panda's Sovngarde | Thieves Guild Dialogue Fix - USSEP Compatible-73807-1-0-1-16
+#44053 | Alchemy Requires Bottles Redux | VR-lists:1 SE-lists:1 | newest 2021-05-12 | VR: Librum VR | Alchemy Requires Bottles Redux-44053-1-0-1-1620816737.zip
+#130235 | Auri Buys Bone Arrows Fix | VR-lists:1 SE-lists:1 | newest 2024-09-27 | VR: Tempus Maledictum VR | Auri Buys Bone Arrows Fix-130235-1-01-1727412720.7z
+#134337 | Auto Grab Amulets of Skyrim From Standing Stones | VR-lists:1 SE-lists:1 | newest 2024-11-19 | VR: Tempus Maledictum VR | Auto Grab Amulets of Skyrim From Standing Stones-134337-1-0-
+#136228 | Blacksmith Forge and Anvil Variants - Base Object Swapper | VR-lists:1 SE-lists:1 | newest 2025-12-28 | VR: Panda's Sovngarde | 3) Blacksmith Forge and Anvil Variants - Embers XD-136228-1-; 4) BF and AV - Embers XD - Parallax-136228-1-3-1739296095.ra
+#56444 | Bound Shield with FX - Redux | VR-lists:1 SE-lists:1 | newest 2021-10-02 | VR: Tempus Maledictum VR | Bound Shield with FX - Redux-56444-1-0-1633191833.rar
+#23419 | Bow Before The Dead - Draugr Sounds Legacy Edition - SSE PORT | VR-lists:1 SE-lists:1 | newest 2019-09-13 | VR: FUS | Bow Before The Dead - Draugr Sounds Lower Volume By sebbyost
+#74611 | Bug Fix - Sprinting Spell Hand | VR-lists:1 SE-lists:1 | newest 2022-09-04 | VR: Tempus Maledictum VR | Empty Spell Sprint Hand Fix-74611-1-01-1662256380.rar
+#106075 | CS' Campfire Item Descriptions | VR-lists:1 SE-lists:1 | newest 2023-12-02 | VR: Librum VR | Campfire Item Description - ini file-106075-1-1-1701554528.z
+#17925 | Campfire and Frostfall - Unofficial SSE Update | VR-lists:1 SE-lists:1 | newest 2021-01-01 | VR: Librum VR | Campfire 1.12.1 and Frostfall 3.4.1SE-17925-1-3-1609531266.7; Campfire only-17925-1-02.7z
+#58878 | Complete Alchemy and Cooking Overhaul - Settings Loader | VR-lists:1 SE-lists:1 | newest 2023-03-30 | VR: Yggdrasil VR | Complete Alchemy and Cooking Overhaul - Settings Loader-5887; Complete Alchemy and Cooking Overhaul - Settings Loader-5887
+#3385 | Craftable Lockpicks | VR-lists:1 SE-lists:1 | newest  | VR: Panda's Sovngarde | Craftable Lockpicks Option - 5-3385-1-0.rar
+#99387 | Female Equipment Scale Fix | VR-lists:1 SE-lists:1 | newest 2023-09-01 | VR: Librum VR | Female Equipment Scale Fix-99387-1-0-1-1693601584.7z
+#191417 | Frea - A Lightweight Dialogue Expansion | VR-lists:1 SE-lists:1 | newest 2026-09-11 | VR: Tahrovin - Grit | Frea Lightweight Dialogue Expansion 191417 1.0 2026-09-11T06
+#149164 | Guard Dialogue Overhaul - KID conversion - Keyword Item Distributor | VR-lists:1 SE-lists:1 | newest 2025-05-04 | VR: Panda's Sovngarde | Guard Dialogue Overhaul - KID-149164-2-0-0-1746397622.zip
+#139652 | Handheld Lanterns Animations | VR-lists:1 SE-lists:1 | newest 2025-01-22 | VR: Panda's Sovngarde | Handheld Lanterns Animations - OAR-139652-1-1-1737573200.zip
+#8273 | Legendary Skyrim Crossbows and Bows SSE | VR-lists:1 SE-lists:1 | newest 2020-09-07 | VR: Tempus Maledictum VR | LSCaB 3.6 version.-8273-3-6-1599514512.7z
+#725 | Main Menu Spinning Skyrim Emblem | VR-lists:1 SE-lists:1 | newest 2021-11-13 | VR: Librum VR | Main Menu Spinning Skyrim Emblem - Anniversary Edition-725-4
+#40040 | NPC Dialogue Audio Enhancer | VR-lists:1 SE-lists:1 | newest 2025-08-06 | VR: Tempus Maledictum VR | NPC Dialogue Audio Enhancer 1.01-40040-1-01-1754499485.zip; NPC Dialogue Audio Enhancer-40040-1-0-1599021767.zip
+#89173 | Obscure's College of Winterhold Loot Rebalancing | VR-lists:1 SE-lists:1 | newest 2023-04-13 | VR: Tempus Maledictum VR | OCW Loot Rebalance BCS Patch-89173-1-0-1681415253.rar; OCW Loot Rebalance-89173-1-0-1681415110.rar
+#76493 | PlayerPayCrimeGold Tweak (aka No Crime Teleport NG) | VR-lists:1 SE-lists:1 | newest 2026-05-16 | VR: Librum VR | PlayerPayCrimeGold Tweak-76493-1-0-6-1701860351.zip; PlayerPayCrimeGold Tweak-76493-1-0-7-1778965911.zip
+#17595 | Race Compatibility Dialogue SSE | VR-lists:1 SE-lists:1 | newest  | VR: Tempus Maledictum VR | Race Compatibility Dialogue SSE-17595-1-0.zip
+#34470 | Rent Room Dialogue Tweak | VR-lists:1 SE-lists:1 | newest 2020-04-07 | VR: Yggdrasil VR | Rent Room Dialogue Fix-34470-1-0-0-1586280063.7z
+#34961 | Reset Random Dialogue Scenes | VR-lists:1 SE-lists:1 | newest 2020-04-21 | VR: Yggdrasil VR | Reset Random Scenes-34961-1-0-2-1587492667.7z
+#149908 | Roleplaying In Skyrim - Immersive Activators | VR-lists:1 SE-lists:1 | newest 2025-08-02 | VR: Panda's Sovngarde | RoleRim - Activators-149908-1-1-0-1754173490.zip
+#83636 | Seasonal Alchemy Add-on - Critters and Fungi and Farm Crops | VR-lists:1 SE-lists:1 | newest 2023-10-01 | VR: Panda's Sovngarde | Seasonal Alchemy Add-on-83636-1-4-2-1696151930.7z
+#62137 | Shield Of Stamina - Blocking Redux | VR-lists:1 SE-lists:1 | newest 2022-02-20 | VR: Tempus Maledictum VR | Shield Of Stamina - Blocking redux - AE-62137-1-1b-164538976; Shield Of Stamina - Blocking redux-62137-1-1b-1642543295.7z
+#55333 | Simple Smithing Overhaul Simplified (No WACCF) | VR-lists:1 SE-lists:1 | newest 2022-02-15 | VR: Panda's Sovngarde | SSOS Armor Variants Expansion Patch-55333-1-1-p-1641926945.7; Simple Smithing Overhaul Simplified-55333-1-3-3a-1644906640.
+#24297 | Simply Knock SKSE64 DLL | VR-lists:1 SE-lists:1 | newest 2020-08-13 | VR: Librum VR | SimplyKnockSE SKSE64 2.0.19 DLL-24297-4-0-1597319138.7z; SimplyKnockSE SKSEVR 2.0.10 DLL EXPERIMENTAL-24297-1-0-15747
+#102269 | Stonefire Weaponry- Mihail Weapons and Shields (SE-AE version) | VR-lists:1 SE-lists:1 | newest 2023-10-10 | VR: Tempus Maledictum VR | Stonefire Weaponry (SE-AE)-102269-1-1696960762.rar
+#24406 | Taarie's Dialogue Fix | VR-lists:1 SE-lists:1 | newest 2019-03-23 | VR: Yggdrasil VR | Taarie's Dialogue Fix-24406-1-0-0-1553353200.7z
+#99668 | Torch Permanent Replacer | VR-lists:1 SE-lists:1 | newest 2023-10-11 | VR: Tempus Maledictum VR | 2) Torch Permanent Replacer _ Embers XD-99668-1-1-1697052127
+#35606 | Truly Hot Flame Atronach for Campfire and Frostfall | VR-lists:1 SE-lists:1 | newest 2020-05-04 | VR: Librum VR | Trully Hot Flame Atronach-35606-1-0-1588635099.7z
+#92405 | VIGILANT Voiced - English Addon Subtitle Patch | VR-lists:1 SE-lists:1 | newest 2023-08-10 | VR: Tempus Maledictum VR | Vigilant Subtitle Fix-92405-1-2-1685640706.zip; Vigilant Subtitle Fix-92405-1-4-1691704821.zip
+#35687 | VR Bound Bow FX Restored | VR-lists:1 SE-lists:1 | newest 2020-05-07 | VR: Librum VR | VR Bound Bow FX Restored-35687-1-0-1588852179.7z
+#121275 | Werewolf Power Attack Fix | VR-lists:1 SE-lists:1 | newest 2025-08-06 | VR: Tempus Maledictum VR | Werewolf Power Attack Fix-121275-1-0-1717724522.zip; Werewolf Power Attack Fix-121275-2-0-1754490444.zip
+#163348 | Whiterun City Walls - Collision Redone | VR-lists:1 SE-lists:1 | newest 2025-11-02 | VR: Panda's Sovngarde | WCW - FYX - 3D Whiterun Guard Tower Patch-163348-1-0-1762051; Whiterun City Walls - Collision Redone-163348-1-0-1762031445
+#19944 | (SJG) Complete Alchemy and Cooking Overhaul Patches - CACO | VR-lists:1 SE-lists:0 | newest  | VR: Librum VR | CACO Patches-19944-1-2.zip
+#47437 | A Bow's Whisper - Bow sound overhaul | VR-lists:1 SE-lists:0 | newest 2021-03-24 | VR: Yggdrasil VR | A Bow's Whisper - Lowered sheathe volume-47437-1-1-161655955; A Bow's Whisper - Vanilla-47437-1-1-1616559350.rar
+#4683 | ABT AE - Arrows and Bolts Tweaks Anniversary Edition | VR-lists:1 SE-lists:0 | newest 2021-12-09 | VR: Tempus Maledictum VR | ABT AE - Arrows and Bolts Tweaks AE v2-0-4683-2-1-1639086438
+#115594 | Activate Soul Gems for Recharging | VR-lists:1 SE-lists:0 | newest 2024-04-01 | VR: Tempus Maledictum VR | Activate Soul Gems for Recharging-115594-1-0-0-1711966771.zi
+#33653 | Actual Orichalcum Orcish Equipment | VR-lists:1 SE-lists:0 | newest 2020-03-16 | VR: FUS | Actual Malachite Orcish Equipment-33653-1-0-1584353328.7z
+#94179 | Adamant Hand to Hand Tweaks for ADXP and VR | VR-lists:1 SE-lists:0 | newest 2023-06-24 | VR: FUS | Adamant - Hand to Hand Tweaks for ADXP-94179-1-0-1687629435.
+#61016 | Alternate Oculus Vanilla Bindings - VR | VR-lists:1 SE-lists:0 | newest 2021-12-31 | VR: Panda's Sovngarde | Venoms Alternate Vanilla Bindings-61016-1-0-1640932291.rar
+#8059 | Animal Fat to Lantern Oil | VR-lists:1 SE-lists:0 | newest  | VR: Librum VR | Craftable Lantern Oil-8059-1-0.zip
+#40286 | Archery Quick Shot Perk Bug Fix | VR-lists:1 SE-lists:0 | newest 2020-09-29 | VR: Librum VR | Archery Quick Shot Perk Bug Fix-40286-1-0-3-1601415568.7z
+#30727 | Armor Rating Redux VR | VR-lists:1 SE-lists:0 | newest 2020-07-25 | VR: Yggdrasil VR | Armor Rating Redux VR Beta (No Version Check)-30727-1-0-1b2-; Armor Rating Redux VR-30727-1-0-1-1586282059.zip
+#29390 | Balanced Lockpicking | VR-lists:1 SE-lists:0 | newest 2019-10-01 | VR: Yggdrasil VR | Balanced Lockpicking-29390-1-1-1569963845.zip
+#144669 | Bard VR (Beta) | VR-lists:1 SE-lists:0 | newest 2025-03-19 | VR: Librum VR | Bard vr (beta)-144669-1-0-1742383560.zip
+#159682 | Better weapon collisions for VR | VR-lists:1 SE-lists:0 | newest 2025-09-21 | VR: Yggdrasil VR | Rapier - Dawnbreaker-159682-1-0-1758431969.zip | [уже в Other-1]
+#33251 | Bleak falls barrow - Revisited | VR-lists:1 SE-lists:0 | newest 2020-11-19 | VR: Librum VR | Bleak Falls Barrow - Revisited-33251-1-2-1-1605824605.7z
+#93223 | Block FX | VR-lists:1 SE-lists:0 | newest 2023-06-10 | VR: Yggdrasil VR | Block FX-93223-1-0-1686407143.zip
+#139376 | Bottled Lanterns LP | VR-lists:1 SE-lists:0 | newest 2025-01-17 | VR: Tempus Maledictum VR | Bottled Lanterns LP-139376-1-0-1737155376.zip
+#26522 | Bound Arrow Phase | VR-lists:1 SE-lists:0 | newest 2019-06-12 | VR: Yggdrasil VR | Bound Arrow Throu - ESL-26522-1-0-1560319570.zip
+#131036 | Bow Of Shadows - Whiterun Thane | VR-lists:1 SE-lists:0 | newest 2024-11-11 | VR: Tempus Maledictum VR | CC_BowOfShadows-WhiterunThaneRequired-131036-2-1731352186.zi
+#46654 | Bows and Arrows Rebalanced | VR-lists:1 SE-lists:0 | newest 2021-03-07 | VR: Librum VR | Bows and Arrows Rebalanced-46654-1-0-0-1615142127.7z
+#20780 | Bruma Lanterns | VR-lists:1 SE-lists:0 | newest 2018-10-25 | VR: Tempus Maledictum VR | Bruma Lanterns-20780-1-2-1540505386.7z
+#24569 | Bruma Lanterns - Lanterns of Skyrim Patch | VR-lists:1 SE-lists:0 | newest 2019-03-29 | VR: Tempus Maledictum VR | Bruma Lanterns LoS Patch-24569-1-0-1553843958.7z
+#64798 | Campfire - Complete Camping System | VR-lists:1 SE-lists:0 | newest  | VR: Librum VR | Campfire Dev Kit 1.7.1 Release-64798-1-7-1CDK.zip
+#40277 | Campfire - Medieval Torch Patch | VR-lists:1 SE-lists:0 | newest 2020-09-09 | VR: Yggdrasil VR | Campfire - Medieval Torch Patch-40277-1-0-1599671577.rar
+#125636 | Campfire Dynamic Collisions | VR-lists:1 SE-lists:0 | newest 2024-08-02 | VR: Panda's Sovngarde | Campfire Dynamic Collisions (normal collisions)-125636-1-2-1
+#60947 | Campfire Unleashed Re-leashed | VR-lists:1 SE-lists:0 | newest 2021-12-29 | VR: Yggdrasil VR | Campfire Unleashed Re-leashed-60947-1-0-1640809414.zip
+#81995 | Carved Brink VR Fix | VR-lists:1 SE-lists:0 | newest 2023-01-03 | VR: Tempus Maledictum VR | CarvedBrinkVRFix-81995-1-0-1672788512.zip
+#18033 | Cathedral Snow (SSE or VR) | VR-lists:1 SE-lists:0 | newest 2021-03-14 | VR: FUS | Cathedral - Snow and Glaciers (YALO T4R and RS)-18033-4-6-16
+#112430 | Caught Red Handed - Quest expansion patch for navigate VR or Even Better Quest Objectives | VR-lists:1 SE-lists:0 | newest 2024-02-24 | VR: Panda's Sovngarde | Caught Red Handed Navigate VR patch for USSEP-112430-1-0-170; Caught Red Handed Navigate VR patch-112430-1-0-1708752114.7z
+#70447 | Caught Red Handed - Sexlab Patch | VR-lists:1 SE-lists:0 | newest 2022-06-29 | VR: Tahrovin - Grit | Caught red handed - Sexlab Patch (Alternate version)-70447-A
+#17687 | Centered Messages Box VR | VR-lists:1 SE-lists:0 | newest  | VR: Librum VR | Centered Messages Box-17687-0-5.zip
+#150302 | Colorful Compass Markers VR | VR-lists:1 SE-lists:0 | newest 2025-05-29 | VR: Tempus Maledictum VR | 1_Colorful Compass Markers VR-150302-2-0-1748541421.7z
+#71681 | Colorful Map Markers VR | VR-lists:1 SE-lists:0 | newest 2022-07-19 | VR: Tempus Maledictum VR | Colorful Map Markers VR-71681-1-0-1658235754.zip
+#192167 | Conduit - Two-handed Addon | VR-lists:1 SE-lists:0 | newest 2026-09-17 | VR: Tahrovin - Grit | Conduit Two Handed 192167 1 2026-09-17T14-44Z zYsEpQod3.7z
+#141084 | Creation Club Crossbow Scopes | VR-lists:1 SE-lists:0 | newest 2025-02-07 | VR: Tempus Maledictum VR | Creation Club Crossbow Sights-141084-1-0-1738900792.zip
+#80138 | Creation Club backpacks - Crafting Overhaul | VR-lists:1 SE-lists:0 | newest 2022-12-06 | VR: Tempus Maledictum VR | Modified stats - ENG-80138-1-0-1670362996.rar
+#38756 | DMT's  Underforge SE | VR-lists:1 SE-lists:0 | newest 2020-07-28 | VR: Yggdrasil VR | PF_Underforge-38756-1-1-1595957302.7z
+#116985 | Dawnguard Arsenal - Immersive Sounds Compendium - Audio Overhaul - Combo Patch | VR-lists:1 SE-lists:0 | newest 2024-04-17 | VR: Panda's Sovngarde | Dawnguard Arsenal ISC AOS-116985-1-0-1713360361.zip
+#182364 | Dead Weight VR - Penalty for one-handing 2H weapons | VR-lists:1 SE-lists:0 | newest 2026-06-12 | VR: Tahrovin | Dead Weight VR 182364 5 2026-06-12T19-15Z Dc5uGk7vg.7z
+#23010 | Dear Diary - Paper SkyUI Menus Replacer SE | VR-lists:1 SE-lists:0 | newest 2021-06-20 | VR: Librum VR | Dear Diary-23010-3-0-5-1624174006.zip
+#59817 | Disable Fast Travel SKSEVR - No Janky Map UI for VR | VR-lists:1 SE-lists:0 | newest 2021-12-10 | VR: Librum VR | Disable Fast Travel VR-59817-1-0-0-1639117355.7z
+#174333 | Diverse Dark Elf Lanterns - PBR | VR-lists:1 SE-lists:0 | newest 2026-03-09 | VR: Panda's Sovngarde | Diverse Dark Elf Lanterns - PBR-174333-1-0-1773088540.7z
+#39180 | Don't Roll In That - NPC Loot Reduction | VR-lists:1 SE-lists:0 | newest 2022-04-06 | VR: Yggdrasil VR | Don't Roll In That - NPC Loot Reduction-39180-2-4-1649213672
+#98883 | Drop On Death - VR | VR-lists:1 SE-lists:0 | newest 2023-08-21 | VR: Tahrovin | Drop On Death 0.9-98883-0-9-1692642475.7z
+#57265 | DynDOLOD DLL VR | VR-lists:1 SE-lists:0 | newest 2024-04-27 | VR: Panda's Sovngarde | DynDOLOD DLL VR - SKSEVR Plugin - Skyrim VR 1.4.15-57265-2-4; DynDOLOD DLL VR - Scripts-57265-2-82-9-1714234094.7z
+#60452 | Dynamic Lockpick Limit | VR-lists:1 SE-lists:0 | newest 2022-04-01 | VR: Yggdrasil VR | Dynamic Lockpick Limit-60452-0-2-1648790965.7z
+#168702 | Edge UI - VR Edition | VR-lists:1 SE-lists:0 | newest 2026-01-08 | VR: Tempus Maledictum VR | PATCH - moreHUD VR-168702-1-1767888122.7z
+#142337 | Enchantment Art Extender VR 2 | VR-lists:1 SE-lists:0 | newest 2025-02-20 | VR: Panda's Sovngarde | Enchantment Art Extender VR-142337-2-0-0-4-1740031568.7z
+#49378 | Enemy Magelock - NPC Magic Casting Commitment | VR-lists:1 SE-lists:0 | newest 2021-05-02 | VR: Librum VR | Enemy Magelock-49378-1-0-0-1619990342.rar
+#170889 | Fake Edge VR (beta) | VR-lists:1 SE-lists:0 | newest 2026-02-08 | VR: Panda's Sovngarde | Fake Edge - VR-170889-2-0-8-1770590705.zip
+#20053 | Feminine Jarl Sitting  Animation SE | VR-lists:1 SE-lists:0 | newest  | VR: Yggdrasil VR | Feminine Jarl Sitting Animation_SE V1.0-20053-1-0.7z
+#20425 | Feminine Pickup Animation SE | VR-lists:1 SE-lists:0 | newest 2018-12-31 | VR: Yggdrasil VR | Feminine Pickup Animation SE-20425-2-0-1546242758.zip
+#133214 | Flintlock Pistols for Adventurers - VR Patch | VR-lists:1 SE-lists:0 | newest 2024-11-05 | VR: Tempus Maledictum VR | Flintlock Pistols for Adventurers - VR Patch-133214-1-173078
+#105672 | Forgotten Musings - Executioners Chopping Block | VR-lists:1 SE-lists:0 | newest 2024-07-12 | VR: Panda's Sovngarde | Forgotten Musings - Executioners Block - Stone 2k-105672-2-0
+#91644 | Fuz Ro D-oh for Skyrim VR | VR-lists:1 SE-lists:0 | newest 2023-05-18 | VR: Tempus Maledictum VR | Fuz Ro D'oh VR-91644-1-7-0-alpha3-1684435260.zip
+#140813 | GRAPPLE - Pull Mastery Re-Implementation (ESL and VR) | VR-lists:1 SE-lists:0 | newest 2025-02-05 | VR: Tempus Maledictum VR | Grapple - SkyPatcher-140813-1-0-1738718394.zip
+#44531 | Glass fix for Wearable lanterns SMIM patch | VR-lists:1 SE-lists:0 | newest 2021-01-22 | VR: Yggdrasil VR | Glass fix for Wearable lanterns SMIM Patch-44531-1-1-1611357
+#73017 | HS Dragon Bridge - Four Shields Tavern | VR-lists:1 SE-lists:0 | newest 2023-05-01 | VR: Tempus Maledictum VR | HSDragonBridge - Four Shields Tavern-73017-1-0-1-1682921353.
+#127697 | Hand to Hand - An Adamant Addon VR DLL | VR-lists:1 SE-lists:0 | newest 2024-08-26 | VR: FUS | Hand to Hand - An Adamant Addon VR DLL-127697-1-5--8-1-17246
+#37207 | Here We Go Again - World Interactions | VR-lists:1 SE-lists:0 | newest 2022-02-03 | VR: Yggdrasil VR | Here We Go Again-37207-1-1-0-1643881815.7z
+#21404 | Hidden location info and more VR | VR-lists:1 SE-lists:0 | newest 2018-12-04 | VR: Librum VR | NoHUDwNotifications-21404-1-0-1543950665.zip
+#98678 | High Definition Skyrim Menu Logo (Gold Variant included) | VR-lists:1 SE-lists:0 | newest 2023-09-10 | VR: Panda's Sovngarde | High Definition Skyrim Menu Logo-98678-1-10-1694338619.zip
+#71198 | Holds - Root Block Fix | VR-lists:1 SE-lists:0 | newest 2022-07-11 | VR: Yggdrasil VR | Holds - Root Block Fix-71198-1-0-1657579367.zip
+#64366 | Horses Ragdoll Humanoids SE | VR-lists:1 SE-lists:0 | newest 2022-03-01 | VR: Yggdrasil VR | horse ragdoll-64366-1-0-1646133644.7z
+#119108 | I4 Fossil Mining Icons | VR-lists:1 SE-lists:0 | newest 2024-05-10 | VR: Tempus Maledictum VR | I4 Fossil Mining Icons-119108-1-0-0-1715354895.zip
+#67637 | INTERACTIVE AI - PLAY FETCH | VR-lists:1 SE-lists:0 | newest 2022-06-07 | VR: Yggdrasil VR | Interactive Ai - Play Fetch -1.4 --67637-1-4-1654565345.7z
+#58638 | Immersive Player Dialogue SSE | VR-lists:1 SE-lists:0 | newest 2021-11-17 | VR: Yggdrasil VR | Immersive Player Dialogue SSE-58638-1-0-1637185153.7z
+#46535 | Increased Crossbow Reload Speed | VR-lists:1 SE-lists:0 | newest 2021-03-20 | VR: Yggdrasil VR | Increased Crossbow Reload Speed-46535-1-1-1616247965.7z
+#172783 | Inertia - Physical Movement Response System - SKSE | VR-lists:1 SE-lists:0 | newest 2026-02-19 | VR: Stormcrown VR | Inertia - Physical Movement Response System-172783-1-2-0-177
+#70181 | Infinite Horse Stamina Out of Combat | VR-lists:1 SE-lists:0 | newest 2022-06-24 | VR: Panda's Sovngarde | Infinite Horse Stamina Out of Combat-70181-1-0-1656036507.7z
+#148145 | Interactive Doors (Physics Based Farmdoors) | VR-lists:1 SE-lists:0 | newest 2025-04-19 | VR: Tempus Maledictum VR | Interactive Doors (Physics Based Farmdoors)-148145-1-0-17450
+#42240 | Kitties Speak Spanish | VR-lists:1 SE-lists:0 | newest 2020-11-11 | VR: Librum VR | Kitties Speak Spanish-42240-1-1605057768.7z
+#64170 | Knockback and Surrender hunch bug fix | VR-lists:1 SE-lists:0 | newest 2022-02-24 | VR: Yggdrasil VR | Knockback and Surrender hunch bug fix-64170-1-0-1645725701.z
+#40556 | Knockout and Surrender - Non-Lethal Pacifist yielding options | VR-lists:1 SE-lists:0 | newest 2020-09-25 | VR: Yggdrasil VR | knockout.zip-40556-1-25-1600994206.zip
+#11001 | L.V.X Magicks - Campfire Unleashed - WILD FIRES | VR-lists:1 SE-lists:0 | newest 2021-09-07 | VR: Yggdrasil VR | L.V.X Magick's - Campfire Unleashed - Wild Fires-11001-2-5-0
+#94005 | Legacy of the Dragonborn Parallax Fix VR | VR-lists:1 SE-lists:0 | newest 2024-03-09 | VR: Tahrovin | DBM Parallax Fix-94005-2-2-1-2-1710007793.7z
+#129639 | Less Block Without Shield | VR-lists:1 SE-lists:0 | newest 2024-09-19 | VR: Tempus Maledictum VR | LessBlockWithoutShield 1.0-129639-1-0-1726758521.7z
+#67720 | Leveling Menu Upscale up to 4k | VR-lists:1 SE-lists:0 | newest 2022-05-08 | VR: Yggdrasil VR | Leveling Menu Upscale-67720-1-1651972998.zip
+#21744 | Loot and Degradation SE | VR-lists:1 SE-lists:0 | newest 2018-12-16 | VR: Librum VR | Loot and Degradation SE-21744-1-32-1544955288.7z
+#63217 | Main Menu on Death SE | VR-lists:1 SE-lists:0 | newest 2022-02-09 | VR: FUS | Main Menu on Death SE-63217-1-0-1644367227.7z
+#43593 | MoreHUD Inventory Patch for SkyUI The Adventurer Theme Mod SE | VR-lists:1 SE-lists:0 | newest 2020-12-23 | VR: Librum VR | moreHUDInventoryPatch_AdventureTheme-43593-1-0-1608715889.zi
+#59825 | Name Those Ash Piles VR | VR-lists:1 SE-lists:0 | newest 2021-12-11 | VR: Yggdrasil VR | Name Those Ash Piles VR-59825-5-0-0-1639209018.7z
+#12812 | Narrative Loot | VR-lists:1 SE-lists:0 | newest 2020-01-24 | VR: Yggdrasil VR | Narrative Loot - 2020-12812-2-0-1579908095.zip
+#61282 | Narsil Bindings for VR | VR-lists:1 SE-lists:0 | newest 2022-01-04 | VR: Yggdrasil VR | Narsil Bindings-61282-1-0-1-1641330198.zip
+#85776 | Navigate VR - Left handed fix | VR-lists:1 SE-lists:0 | newest 2023-02-25 | VR: Panda's Sovngarde | Navigate VR Leftie Fix-85776-v1-51-1677339089.zip
+#42185 | Nords Speak Deutsch (Italian Imperials) (French Forsworn) (etc) | VR-lists:1 SE-lists:0 | newest 2022-06-10 | VR: Librum VR | Frenchsworn-42185-1-1605245472.7z; Hermaeous Mora speaks Japanese-42185-1-1654879226.7z
+#52270 | OComfort - OStim Lovers Comfort | VR-lists:1 SE-lists:0 | newest 2023-11-04 | VR: Tahrovin - Grit | oComfort-52270-1-2-2-1699100135.zip
+#115887 | Oblivionesque Lockpicking Redone - Minigame | VR-lists:1 SE-lists:0 | newest 2024-04-14 | VR: Tahrovin | Oblivionesque Lockpicking Redone-115887-1-0-1-1713065331.7z
+#16627 | Oculus Controller Remapping Tool for Skyrim VR | VR-lists:1 SE-lists:0 | newest  | VR: Yggdrasil VR | RemapSkyrimVR_Oculus__v1.2-16627-1-2.zip
+#145307 | Olenveld VR Boat Fix | VR-lists:1 SE-lists:0 | newest 2025-07-22 | VR: Tahrovin - Grit | Olenveld VR Fix-145307-1-2-1753228435.7z
+#63125 | Perfect Nature - a VR focused and realistic ENB for Cathedral Weathers | VR-lists:1 SE-lists:0 | newest 2024-04-29 | VR: Tahrovin | SkyrimVR_Perfect_Nature_ENB vers._2.10-63125-2-10-1714427171
+#140404 | Physical Torch Lighting - VR | VR-lists:1 SE-lists:0 | newest 2025-02-25 | VR: Panda's Sovngarde | Physical Torch Lighting VR-140404-1-2-1740485780.zip
+#164263 | Physical VR Knocking - Simply Knock | VR-lists:1 SE-lists:0 | newest 2025-11-13 | VR: Yggdrasil VR | Physical VR Knocking - Papyrus Extender-164263-0-21-17629982
+#58374 | Power Attack VR | VR-lists:1 SE-lists:0 | newest 2021-12-09 | VR: Yggdrasil VR | PowerAttackVR-58374-0-1-0-1639087902.7z
+#3762 | Pretty Sit Idles SE DAR | VR-lists:1 SE-lists:0 | newest 2022-04-06 | VR: Yggdrasil VR | Pretty Sit Idles 1.41F DAR - NPC AND Child - (SE)-3762-1-41F
+#162758 | Pseudo Physical Weapon Collision and Parry - a more grounded config file | VR-lists:1 SE-lists:0 | newest 2025-10-26 | VR: Panda's Sovngarde | Pseudo Physical Weapon Collision and Parry config-162758-1-0
+#36558 | Race Compatibility Dialogue SSE - Project AHO | VR-lists:1 SE-lists:0 | newest 2020-05-27 | VR: Tempus Maledictum VR | Race Compatibility Dialogue SSE - Project AHO-36558-1-0-1590
+#86776 | Race Compatibility Dialogue for Remiel | VR-lists:1 SE-lists:0 | newest 2023-03-11 | VR: Tempus Maledictum VR | Race Compatibility Dialogue - Remiel-86776-1-0-1678501408.zi
+#86773 | Race Compatibility Dialogue for Xelzaz | VR-lists:1 SE-lists:0 | newest 2023-03-16 | VR: Tempus Maledictum VR | Race Compatibility Dialogue - Xelzaz-86773-1-8-2-1678971032.
+#189774 | RaceMenu VR Layout Fix | VR-lists:1 SE-lists:0 | newest 2026-08-27 | VR: Tahrovin - Grit | RaceMenu VR Layout Fix 189774 1.0.0 2026-08-27T11-14Z MWx0rv
+#174652 | RaceMenu VR Position Tweaks | VR-lists:1 SE-lists:0 | newest 2026-03-13 | VR: Panda's Sovngarde | RaceMenu VR Position Tweaks-174652-1-0-1773437433.7z
+#44378 | Random Guard Dialogues | VR-lists:1 SE-lists:0 | newest 2021-01-24 | VR: Yggdrasil VR | guard-dialogues-44378-release-1-3-1611498834.zip
+#107195 | Realistic Mining for VR - Synthesis Patcher | VR-lists:1 SE-lists:0 | newest 2023-12-17 | VR: Librum VR | Realistic Mining for VR Patcher - .Synth File-107195-1-0-170
+#42068 | Relationship Dialogue Overhaul Lite | VR-lists:1 SE-lists:0 | newest 2021-12-16 | VR: Yggdrasil VR | Relationship Dialogue Overhaul Lite-42068-1-63SE-1639633148.
+#8736 | Remove Arrow Impact Smoke | VR-lists:1 SE-lists:0 | newest 2022-03-16 | VR: Librum VR | Remove Arrow Impact Smoke-8736-1-1-1647404722.7z
+#42534 | Remove Menu Blur | VR-lists:1 SE-lists:0 | newest 2020-11-19 | VR: Librum VR | Remove Menu Blur-42534--1-1605760243.rar
+#157259 | Roleplaying in Skyrim - Loot Overhaul | VR-lists:1 SE-lists:0 | newest 2025-10-02 | VR: Panda's Sovngarde | RoleRim - Loot-157259-1-0-4-1759437539.zip
+#73517 | Rudy Zangdar ENB for Cathedral Weathers - VR Tweaks | VR-lists:1 SE-lists:0 | newest 2023-03-31 | VR: Tahrovin | Rudy Zangdar ENB for Cathedral Weathers - VR Tweaks-73517-6-
+#116144 | SMP Collision for TRX's Male and Futanari Schlongs | VR-lists:1 SE-lists:0 | newest 2024-06-04 | VR: Tahrovin | TRX TNG Futa Addon SMP-116144-1-2-1717467746.7z; TRX TNG Male Addon SMP-116144-1-2-1717467973.7z
+#8647 | Scarcity SE - Less Loot Mod | VR-lists:1 SE-lists:0 | newest 2021-04-26 | VR: Librum VR | Scarcity SE - Less Loot Mod-8647-1-1.7z; Spell Research Compatibility Patch-8647-1-24-1619426517.zip
+#63969 | Seasonal Alchemy | VR-lists:1 SE-lists:0 | newest 2022-02-20 | VR: Panda's Sovngarde | Seasonal Alchemy-63969-1-0-0-1645363536.zip
+#50126 | Select Shield Replacers | VR-lists:1 SE-lists:0 | newest 2021-05-19 | VR: Yggdrasil VR | Shield Replacers All in One-50126-0-7-1621431509.zip
+#52442 | Sensorium Of Stereoscopy - A Versatile VR ENB | VR-lists:1 SE-lists:0 | newest 2021-09-30 | VR: Tahrovin | Sensorium-52442-1-4-1633041146.7z
+#138252 | Shield don't slow me down. For Ordinator and Vokrii | VR-lists:1 SE-lists:0 | newest 2025-01-06 | VR: Tempus Maledictum VR | Block runner cost change-138252-1-0-1736140482.zip
+#90187 | Shield of Stamina VR | VR-lists:1 SE-lists:0 | newest 2023-04-29 | VR: Tempus Maledictum VR | Shield of Stamina VR-90187-1-1b-1682738204.zip
+#12983 | Shieldmaiden Muscle Slider Beastmaiden Edition SE | VR-lists:1 SE-lists:0 | newest  | VR: Yggdrasil VR | Shieldmaiden Muscle Slider UNP-12983-2-1.zip
+#45499 | Silver Hand Improvements and Additions | VR-lists:1 SE-lists:0 | newest 2021-02-10 | VR: Yggdrasil VR | Silver Hand Improvements and Additions-45499-1-0-1612951674.
+#129974 | Simple NPC Poser and Ragdoller for VR and SE | VR-lists:1 SE-lists:0 | newest 2024-10-19 | VR: Tahrovin | Simple NPC Poser For VR and SE-129974-2-1-1729349482.zip
+#81678 | Simplicity ENB VR | VR-lists:1 SE-lists:0 | newest 2023-03-17 | VR: Tahrovin | Simplicity ENB VR-81678-1-2-1679052741.7z
+#16609 | Skyrim VR Visual Noise Reduction Mod | VR-lists:1 SE-lists:0 | newest  | VR: Tempus Maledictum VR | SkyrimVR Visual Noise Reduction 1.31-16609-1-31.zip
+#77677 | Small VR Fixes | VR-lists:1 SE-lists:0 | newest 2023-12-18 | VR: Panda's Sovngarde | Small VR Fixes-77677-1-1-0-1702940485.zip
+#1863 | Sneak Tools SE Edition | VR-lists:1 SE-lists:0 | newest 2023-09-18 | VR: Librum VR | Sneak Tools (SE)-1863-2-3-1604626533.rar; Sneak Tools (SE)-1863-2-4-5-1695012390.rar
+#38952 | Sofia  - Typo Grammar and Dialogue Fixes | VR-lists:1 SE-lists:0 | newest 2020-08-03 | VR: Panda's Sovngarde | Sofia - Typo - Grammar - Dialogue Fixes-38952-1-0-1596425955
+#11304 | Sometimes Pick Up Books | VR-lists:1 SE-lists:0 | newest  | VR: Librum VR | SometimesPickUpBooksV10-11304-1-0.7z
+#96512 | Spellbreaker Reforged (SE) | VR-lists:1 SE-lists:0 | newest 2023-07-24 | VR: Tempus Maledictum VR | Spellbreaker Reforged SE-96512-1-1-1690156953.zip
+#96592 | Spellforge Layout - World Forge in Alternate Start | VR-lists:1 SE-lists:0 | newest 2023-07-25 | VR: Tempus Maledictum VR | Spellforge Layout - World Forge in Alternate Start-96592-1-0
+#94243 | Spellforge libraries for some mods (KittyTail Darenii and More) | VR-lists:1 SE-lists:0 | newest 2024-07-29 | VR: Tahrovin | Spellforge Libraries - KittyTail-94243-1-7KT-1722233329.7z
+#67028 | Sprint Swimming | VR-lists:1 SE-lists:0 | newest 2022-04-30 | VR: Tempus Maledictum VR | Sprint Swimming-67028-2-1-1651359162.7z
+#85555 | Stalking Lanterns Fix - LotD Lux Orbis | VR-lists:1 SE-lists:0 | newest 2023-02-22 | VR: Tempus Maledictum VR | Stalking Lanterns Fix-85555-1-0-1677083256.zip
+#192119 | Start Menu Redesigned | VR-lists:1 SE-lists:0 | newest 2026-09-17 | VR: Stormcrown VR | Start Menu Redesigned 192119 1.2 2026-09-17T17-05Z n0oTCmHLA
+#118386 | Stealing Not Browsing - A Pickpocket Mod | VR-lists:1 SE-lists:0 | newest 2024-09-03 | VR: Tempus Maledictum VR | Stealing Not Browsing - A Pickpocket Mod-118386-1-6-0-172540
+#98144 | Swap all Campfires with Campfires from Campfire | VR-lists:1 SE-lists:0 | newest 2023-08-12 | VR: Yggdrasil VR | Campfire Campfire BOS-98144-1-0-1691813822.zip
+#22830 | TDF Equipment Restriction | VR-lists:1 SE-lists:0 | newest 2019-01-22 | VR: Librum VR | TDF Equipment Restriction v2_6_8 SE-22830-2-6-8-1548174798.7
+#74880 | Tempus Maledictum Main Menu Replacer | VR-lists:1 SE-lists:0 | newest 2023-07-14 | VR: Tempus Maledictum VR | Moltar Ball 2 The Reckoning-74880-2-0-1-1689317270.7z
+#60161 | The Lionstride - Main Menu Replacer | VR-lists:1 SE-lists:0 | newest 2021-12-16 | VR: Yggdrasil VR | Full Replacer-60161-1-0-1639676257.rar
+#46999 | The Sharper Eye - a lightweight VR ReShade preset | VR-lists:1 SE-lists:0 | newest 2021-03-14 | VR: FUS | The Sharper Eye-46999-1-0-1615729372.7z
+#33031 | Thematic Loot SSE | VR-lists:1 SE-lists:0 | newest 2020-07-23 | VR: Librum VR | Thematic Loot SSE - Dean's Version-33031-1-1-1595538572.zip
+#34225 | Thieves Guild Dialogue Fix 0.2 | VR-lists:1 SE-lists:0 | newest 2020-03-31 | VR: Yggdrasil VR | Thieves Guild Dialogue Fix 0.3-34225-0-3-1585686140.rar
+#155761 | Throwing Things Makes Noise - OIF | VR-lists:1 SE-lists:0 | newest 2025-07-28 | VR: Panda's Sovngarde | TTMN - OIF-155761-1-1753739587.zip
+#139945 | Time Format Changer VR | VR-lists:1 SE-lists:0 | newest 2025-01-24 | VR: Panda's Sovngarde | Time Format Changer VR-139945-1-2-1-1737758679.zip
+#23501 | Tinker's Forge - Patches | VR-lists:1 SE-lists:0 | newest 2019-02-17 | VR: Yggdrasil VR | Tinker's Forge - Patches 1.0-23501-1-0-1550409545.rar
+#22595 | Tinker's Forge - Smithing Overhaul | VR-lists:1 SE-lists:0 | newest 2019-01-14 | VR: Yggdrasil VR | TinkersForge_v1.0-22595-1-0-1547435277.zip
+#17897 | Transparent Dialogue VR | VR-lists:1 SE-lists:0 | newest  | VR: Librum VR | Transparent Dialogue VR without Separating Line-17897-0-5.zi
+#27208 | Ultra Realistic Bow Shoot Sounds | VR-lists:1 SE-lists:0 | newest  | VR: Panda's Sovngarde | Bow sound-27208-1.rar
+#26722 | Undiscovered Means Unknown - Map Markers for VR | VR-lists:1 SE-lists:0 | newest 2019-06-18 | VR: Librum VR | Undiscovered Means Unknown VR - Generic icons and no Cardina
+#38539 | VR Arsenal | VR-lists:1 SE-lists:0 | newest 2022-06-16 | VR: Tempus Maledictum VR | VR Arsenal V9.3 (No Guns)-38539-V9-3-1655390742.rar
+#147691 | VR Equip Potions And Ingredients | VR-lists:1 SE-lists:0 | newest 2025-04-14 | VR: Panda's Sovngarde | VR Equip Potions And Ingredients-147691-1-1744656826.zip
+#62090 | VR Parallax Shader Fix | VR-lists:1 SE-lists:0 | newest 2022-12-20 | VR: Tahrovin | VR Parallax Shader Fix-62090-1-0-3-1671508923.7z
+#159455 | VR Refit - Better Logs | VR-lists:1 SE-lists:0 | newest 2025-09-18 | VR: Panda's Sovngarde | VR Refit - Better Logs - PBR Textures-159455-1-0-1758155378.
+#49850 | VR Refit - JS Purses and Septims Resized | VR-lists:1 SE-lists:0 | newest 2021-05-13 | VR: Yggdrasil VR | VR Refit - JS Purses and Septims Resized-49850-1-0-1-1620888
+#95644 | Vipir Pickpocket Master Training trainer fix - Unofficial SSE Patch patched | VR-lists:1 SE-lists:0 | newest 2023-07-11 | VR: Tempus Maledictum VR | Vipir Pickpocket Training Fix-95644-1-1689113685.rar
+#151637 | Wade in Water VR | VR-lists:1 SE-lists:0 | newest 2025-06-02 | VR: Tempus Maledictum VR | Wade In Water VR-151637-1-0-1748865168.zip
+#14645 | Warm Drinks SSE - Simple Tea And Coffee Recipes - for Campfire | VR-lists:1 SE-lists:0 | newest  | VR: Yggdrasil VR | Warm Drinks-14645-1-1-1.7z
+#38137 | Wintersun - Simply Knock Patch | VR-lists:1 SE-lists:0 | newest 2020-07-10 | VR: Librum VR | Wintersun - Simply Knock Patch-38137-1-0-1594380389.7z
+#59772 | World map WJ VR lists | VR-lists:1 SE-lists:0 | newest 2021-12-14 | VR: FUS | World Map - FUS-59772-2-1639468565.7z
+#161240 | Yet Another Lydia Dialogue Expansion | VR-lists:1 SE-lists:0 | newest 2026-09-10 | VR: Tahrovin - Grit | Yet Another Lydia Dialogue Expansion 161240 2.0c 2026-09-10T
+#73867 | Yggdrasil VR - Wabbajack List | VR-lists:1 SE-lists:0 | newest 2023-10-05 | VR: Yggdrasil VR | Generated Files - DynDOLOD-73867-2-0-1-1696524672.7z; Generated Files - Synthesis-73867-2-1-1696524175.7z
+#45586 | iNeed Water - A VR Needs Management Adaption | VR-lists:1 SE-lists:0 | newest 2022-04-14 | VR: Panda's Sovngarde | iNeed Water V1.5 - SunHelm Support-45586-V1-5-1649978626.zip

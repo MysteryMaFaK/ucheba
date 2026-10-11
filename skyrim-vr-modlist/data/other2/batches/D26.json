@@ -1,0 +1,737 @@
+{
+ "batch": "D26",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 160495,
+   "name": "Meshes Optimization Project",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-24",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "COTN - Dawnstar-160495-1-0-1760810768.7z",
+    "COTN - Falkreath 160495 1.0 2026-08-09T16-55Z vlGiB9d61.7z",
+    "COTN - Falkreath Retexture and Consistency - Meshe-160495-1-0-1759431838.7z"
+   ],
+   "author": "Ivy",
+   "leftover": false,
+   "key": "id:160495",
+   "theme": "other"
+  },
+  {
+   "id": 149879,
+   "name": "Miasma",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-09-19",
+   "vr_lists": [
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Miasma 1.1.6.1-149879-1-1-6-1-1769870804.7z",
+    "Miasma 1.2.2 149879 1.2.2 2026-06-27T09-39Z 8gJHT4BmW.7z",
+    "Miasma 1.2.2-149879-1-2-2-0-768718.7z"
+   ],
+   "author": "Renacles",
+   "leftover": false,
+   "key": "id:149879",
+   "theme": "other"
+  },
+  {
+   "id": 92525,
+   "name": "Mihail Chicken Variant (Color - Weight - Hanging) - SPID-BOS",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-12-04",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Mihail's Chicken Variant-92525-2-1-0-1751554184.7z",
+    "Mihail's Chicken Variant-92525-3-0-0-1764843418.7z"
+   ],
+   "author": "Alaxouche",
+   "leftover": false,
+   "key": "id:92525",
+   "theme": "other"
+  },
+  {
+   "id": 121331,
+   "name": "Mihail Frogs - Optimized Low Poly",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-06-07",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Mihail Frogs - 512 px Textures-121331-512-1717784565.zip",
+    "Mihail Frogs - Optimized Low Poly Meshes-121331-1-0-1717784413.zip"
+   ],
+   "author": "j3w3ls - kojillama - riverbord",
+   "leftover": false,
+   "key": "id:121331",
+   "theme": "other"
+  },
+  {
+   "id": 4881,
+   "name": "Mortal Enemies SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Mortal Enemies SE - Rival Remix - No Run Walk Changes-4881-1-0.rar",
+    "Mortal Enemies SE-4881-1-05.rar"
+   ],
+   "author": "center05",
+   "leftover": false,
+   "key": "id:4881",
+   "theme": "other"
+  },
+  {
+   "id": 74498,
+   "name": "NVIDIA Reflex Support",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-27",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "NVIDIA Reflex Support-74498-1-1-0-1662241811.zip",
+    "NVIDIA Reflex Support-74498-1-1-2-1674832681.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:74498",
+   "theme": "other"
+  },
+  {
+   "id": 1763,
+   "name": "No BS AI Projectile Dodge (Magic and Arrows) - Immersive Projectiles Nondetection of Enemies",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "No BS AI Projectile Dodge-1763-1-3.rar"
+   ],
+   "author": "Reize",
+   "leftover": false,
+   "key": "id:1763",
+   "theme": "other"
+  },
+  {
+   "id": 71691,
+   "name": "No Crime Teleport RE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-07-19",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "No Crime Teleport AE-71691-1-0-1658271275.7z",
+    "No Crime Teleport SE-71691-1-0-1658271317.7z"
+   ],
+   "author": "dTry",
+   "leftover": false,
+   "key": "id:71691",
+   "theme": "other"
+  },
+  {
+   "id": 72245,
+   "name": "Northfire's Skidmarks 1K-2K",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-07-27",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "JS Dwemer Control Cube SE -  Glowmapped-72245-1-1658966135.rar",
+    "Northfire's Dragons Footprint 2K-72245-.rar",
+    "Northfire's Skidmarks-72245-1-0.rar"
+   ],
+   "author": "SgtPetterzon",
+   "leftover": false,
+   "key": "id:72245",
+   "theme": "other"
+  },
+  {
+   "id": 10644,
+   "name": "Oblivion Artifact Pack SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-09-18",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Cleaned and Upscaled Textures-10644-1-1-1631986699.rar",
+    "Oblivion Artifact Pack V3-10644-V3-1601811081.rar"
+   ],
+   "author": "Watcherzero",
+   "leftover": false,
+   "key": "id:10644",
+   "theme": "other"
+  },
+  {
+   "id": 92607,
+   "name": "Open Animation Replacer - Math Plugin",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Open Animation Replacer - Math Plugin-92607-1-0-3-1771721270.7z",
+    "Open Animation Replacer - Math Plugin-92607-1-0-4-1778187976.7z"
+   ],
+   "author": "Ersh",
+   "leftover": false,
+   "key": "id:92607",
+   "theme": "other"
+  },
+  {
+   "id": 99270,
+   "name": "Organic Player Animations (OAR)",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-09-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Organic Player Animations (OAR)-99270-2-0-0-1725159968.zip"
+   ],
+   "author": "CHIMgarden",
+   "leftover": false,
+   "key": "id:99270",
+   "theme": "other"
+  },
+  {
+   "id": 55877,
+   "name": "Pandorable's Heroes of Sovngarde",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-09-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "PAN_NPCs - Sovngarde 1k facetints-55877-1-0-1696061824.rar",
+    "PAN_NPCs - Sovngarde-55877-1-0-1632163033.rar"
+   ],
+   "author": "Pandorable",
+   "leftover": false,
+   "key": "id:55877",
+   "theme": "other"
+  },
+  {
+   "id": 174812,
+   "name": "Particle Wind - SKSE Plugin",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-09-25",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Particle Wind-174812-3-3-1-1774786263.7z",
+    "ParticleWind NG 174812 4.1.1 2026-09-25T08-56Z 2Bej58PJm.7z",
+    "ParticleWind NG-174812-3-5-1778839471.7z"
+   ],
+   "author": "RavenKZP",
+   "leftover": false,
+   "key": "id:174812",
+   "theme": "other"
+  },
+  {
+   "id": 135488,
+   "name": "Placed Light",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-07-20",
+   "vr_lists": [
+    "Stormcrown VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Embers XD Patched meshes for Light Placer-135488-1-0-1740153897.zip",
+    "Placed Light-135488-2-4-2-1743796894.zip",
+    "Placed Light-135488-2-4-3-1748186082.zip"
+   ],
+   "author": "Bottle",
+   "leftover": false,
+   "key": "id:135488",
+   "theme": "other"
+  },
+  {
+   "id": 352,
+   "name": "Point The Way",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-07-26",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Point The Way-352-2-0-6-1576451206.7z",
+    "Point The Way-352-2-0-9-1722033241.7z"
+   ],
+   "author": "Arthmoor",
+   "leftover": false,
+   "key": "id:352",
+   "theme": "other"
+  },
+  {
+   "id": 83544,
+   "name": "Precision Trail Replacer - Simple",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Precision Trail Replacer - Simple-83544-1-0-1674764694.zip"
+   ],
+   "author": "ap05",
+   "leftover": false,
+   "key": "id:83544",
+   "theme": "other"
+  },
+  {
+   "id": 120445,
+   "name": "Precision magic trails",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-05-27",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Precision magic trails-120445-0-20b-1716823310.7z"
+   ],
+   "author": "krembrule",
+   "leftover": false,
+   "key": "id:120445",
+   "theme": "other"
+  },
+  {
+   "id": 29179,
+   "name": "Rally's Blackreach Mushrooms",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-09-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Rallys Blackreach Mushroom - 2K-29179-1-0-1569173604.7z",
+    "Rallys Blackreach Mushroom - 4K-29179-1-0-1569173328.7z",
+    "Rallys Blackreach and Glowing Mushrooms - 2K-2K-29179-1-0-1569183036.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:29179",
+   "theme": "other"
+  },
+  {
+   "id": 39359,
+   "name": "Realistic RS Children Overhaul",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-09-15",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "-For those not using KS Hairdo's- hair and textures-39359-4-7-1600167856.7z",
+    "RRSC - AI Overhaul Patch-39359-4-4-1598872737.7z",
+    "RRSC - Cutting Room Floor Patch-39359-1-0-1600101590.7z"
+   ],
+   "author": "Muffloid",
+   "leftover": false,
+   "key": "id:39359",
+   "theme": "other"
+  },
+  {
+   "id": 50767,
+   "name": "Remiros' Dunmer Urns HD",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-06-03",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Remiros' Dunmer Urns HD-50767-1-0-1622755762.7z"
+   ],
+   "author": "Remiros",
+   "leftover": false,
+   "key": "id:50767",
+   "theme": "other"
+  },
+  {
+   "id": 43026,
+   "name": "Remiros' Hrothmund's Axe HD",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-12-03",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Remiros' Hrothmund's Axe HD 2k-43026-1-0-1607004135.7z"
+   ],
+   "author": "Remiros",
+   "leftover": false,
+   "key": "id:43026",
+   "theme": "other"
+  },
+  {
+   "id": 102881,
+   "name": "Riding Animation Overhaul - RAO (OAR - DAR)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-10",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Riding Animation Overhaul - RAO-102881-1-4-1743698129.zip",
+    "Riding Animation Overhaul - RAO-102881-2-0-1770740422.zip"
+   ],
+   "author": "Mxnedula",
+   "leftover": false,
+   "key": "id:102881",
+   "theme": "other"
+  },
+  {
+   "id": 63108,
+   "name": "Runic Dawnguard - Separated Lost Relic Questline",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-04-15",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Runic Dawnguard - USSEP Version-63108-1-1-1650045539.7z"
+   ],
+   "author": "Janquel",
+   "leftover": false,
+   "key": "id:63108",
+   "theme": "other"
+  },
+  {
+   "id": 77059,
+   "name": "Ryn's Karthspire",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-09-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Ryn's Karthspire-77059-1-6-1694061510.rar"
+   ],
+   "author": "Ryn",
+   "leftover": false,
+   "key": "id:77059",
+   "theme": "other"
+  },
+  {
+   "id": 102676,
+   "name": "Ryn's Lost Valley Redoubt",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-03-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Ryn's Lost Valley Redoubt-102676-2-0-1711780456.rar"
+   ],
+   "author": "Ryn",
+   "leftover": false,
+   "key": "id:102676",
+   "theme": "other"
+  },
+  {
+   "id": 133022,
+   "name": "SD's Seamless Sneak Transition and Idles OAR",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-11-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Optional Faster Transitions-133022-1-5B-1733005327.zip",
+    "SD's Seamless Sneak-133022-1-5-1731318240.zip"
+   ],
+   "author": "SarcasticDragon",
+   "leftover": false,
+   "key": "id:133022",
+   "theme": "other"
+  },
+  {
+   "id": 38438,
+   "name": "SSE FPS Stabilizer",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-16",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "SSE FPS Stabilizer - FOMOD Installer-38438-1-1-12-1708117999.rar",
+    "SSE FPS Stabilizer - FOMOD Installer-38438-1-1-9-1666020567.rar"
+   ],
+   "author": "Shizof",
+   "leftover": false,
+   "key": "id:38438",
+   "theme": "other"
+  },
+  {
+   "id": 4089,
+   "name": "SSE NIF Optimizer",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-10-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "SSE NIF Optimizer-4089-3-1-0-1639234441.7z",
+    "SSE NIF Optimizer-4089-3-2-1-1728213868.7z"
+   ],
+   "author": "ousnius",
+   "leftover": false,
+   "key": "id:4089",
+   "theme": "other"
+  },
+  {
+   "id": 11055,
+   "name": "Salmon Retex - Realistic Salmon",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Salmon Retex-11055-0-2.zip"
+   ],
+   "author": "Rx310",
+   "leftover": false,
+   "key": "id:11055",
+   "theme": "other"
+  },
+  {
+   "id": 129638,
+   "name": "Savior's Hide Replacer 2",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-12-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Replacer-129638-1-1-1727713298.7z",
+    "Savior's Hide Replacer - CBBE 3BA Conversion-129638-2-0-1764743452.7z",
+    "Savior's Hide Replacer-129638-2-0-1764747811.7z"
+   ],
+   "author": "furexarot",
+   "leftover": false,
+   "key": "id:129638",
+   "theme": "other"
+  },
+  {
+   "id": 93209,
+   "name": "Screen-Space Shadows",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-09-25",
+   "vr_lists": [
+    "FUS",
+    "Librum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Screen Space Shadows-93209-2-0-0-1758808941.7z",
+    "Screen-Space Shadows-93209-1-2-0-1710527065.zip"
+   ],
+   "author": "doodlez and Mathieu C",
+   "leftover": false,
+   "key": "id:93209",
+   "theme": "other"
+  },
+  {
+   "id": 132319,
+   "name": "Shavings of Sawdust",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-04-06",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Shavings of Sawdust - PBR-132319-1-0-1743965829.7z",
+    "Shavings of Sawdust 1k-132319-1-0-1729892112.7z",
+    "Shavings of Sawdust 2k-132319-1-0-1729892089.7z"
+   ],
+   "author": "me",
+   "leftover": false,
+   "key": "id:132319",
+   "theme": "other"
+  },
+  {
+   "id": 79034,
+   "name": "Ships On The Horizon",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Ships on the Horizon - Animated-79034-1-2-1708194056.rar"
+   ],
+   "author": "GeraldMods",
+   "leftover": false,
+   "key": "id:79034",
+   "theme": "other"
+  },
+  {
+   "id": 115457,
+   "name": "Shout Recovery Utilities",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-09-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Shout Recovery Utility-115457-1-1-1725590858.7z"
+   ],
+   "author": "Asrak",
+   "leftover": false,
+   "key": "id:115457",
+   "theme": "other"
+  },
+  {
+   "id": 31585,
+   "name": "Simpler Knock",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "SN_USSEP_Patch .esp flagged as .esl-31585-1-0-1721158514.zip",
+    "Simpler Knock .esp flagged as .esl-31585-3-1-1759593133.zip"
+   ],
+   "author": "Alaebasta",
+   "leftover": false,
+   "key": "id:31585",
+   "theme": "other"
+  }
+ ]
+}

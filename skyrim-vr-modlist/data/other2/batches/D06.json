@@ -1,0 +1,719 @@
+{
+ "batch": "D06",
+ "band": "D",
+ "themes": {
+  "armor": 36
+ },
+ "items": [
+  {
+   "id": 75891,
+   "name": "Immersive Armors Retexture and Mesh Fixes SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Immersive Armors Retexture and Mesh Fixes SE-75891-1-6-1679607226.rar",
+    "Immersive Armors Retexture and Mesh Fixes-Half Res-75891-1-61-1688153191.rar",
+    "Primitive Nord Armor Male Meshes Fix-75891-1-6-1689632953.rar"
+   ],
+   "author": "Xavbio",
+   "leftover": false,
+   "key": "id:75891",
+   "theme": "armor"
+  },
+  {
+   "id": 28268,
+   "name": "Improved weapons enchantments FX SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-08-15",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Improved weapons enchantments FX SE-28268-1-1-1565911554.7z"
+   ],
+   "author": "darkman24 and Soulmancer",
+   "leftover": false,
+   "key": "id:28268",
+   "theme": "armor"
+  },
+  {
+   "id": 158826,
+   "name": "JellyFishFP CROSSBOW (1st person animations series)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "JellyFishFP CROSSBOW-158826-1-1a-1766005984.7z"
+   ],
+   "author": "JellyFishInLoop",
+   "leftover": false,
+   "key": "id:158826",
+   "theme": "armor"
+  },
+  {
+   "id": 68199,
+   "name": "Kellan HDT-SMP Armor",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-05-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kellan Armor Non-HDT version-68199-1-02-1653765381.rar",
+    "Kellan Armor-68199-1-02-1653765312.rar",
+    "Kellan Texture Set 1-68199-1-0-1652791193.rar"
+   ],
+   "author": "Fuse00",
+   "leftover": false,
+   "key": "id:68199",
+   "theme": "armor"
+  },
+  {
+   "id": 15050,
+   "name": "Kthonia's Unique Weapon Pack - Dragonborn Weapons",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-09-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kthonia's Dragonborn Weapons SE-15050-1-2-1631365013.7z",
+    "Kthonia's Weapon Pack SE - Larger Textures (4K)-15050-1-0.7z"
+   ],
+   "author": "Kthonia",
+   "leftover": false,
+   "key": "id:15050",
+   "theme": "armor"
+  },
+  {
+   "id": 83171,
+   "name": "Kvetchi Mercenary Armour 3BA with HDT-SMP Cloth Physics",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "kvetchi mercenary 3ba-83171-0-1alpha-1674255803.zip"
+   ],
+   "author": "pentapox",
+   "leftover": false,
+   "key": "id:83171",
+   "theme": "armor"
+  },
+  {
+   "id": 117833,
+   "name": "Lollygaggin' - Vanilla Guard Armor Replacer",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-24",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Lollygaggin' - Vanilla Guard Armor Replacer-117833-1-1-1718324808.zip",
+    "Lollygaggin' - Vanilla Guard Armor Replacer-117833-1-12-1719270524.zip"
+   ],
+   "author": "AnnAccident NordwarUA",
+   "leftover": false,
+   "key": "id:117833",
+   "theme": "armor"
+  },
+  {
+   "id": 91506,
+   "name": "Maormer Seascale Set",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Seascale Set-91506-1-0-1684350408.zip"
+   ],
+   "author": "Pulcharm",
+   "leftover": false,
+   "key": "id:91506",
+   "theme": "armor"
+  },
+  {
+   "id": 141700,
+   "name": "Master Thief Armor 3BA-BHUNP-UNP-CBBE-HIMBO-Vanilla",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-02-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "FB - Master Thief 2k Textures-141700-1-0-1739704532.zip",
+    "FB - Master Thief 3BA-CBBE 4k-141700-1-2-1739909661.zip",
+    "FB - Master Thief HIMBO Files-141700-1-2-1739909834.zip"
+   ],
+   "author": "FafnyB aka Fafnesbane",
+   "leftover": false,
+   "key": "id:141700",
+   "theme": "armor"
+  },
+  {
+   "id": 153910,
+   "name": "Maybe Better Windhelm Valunstrad - Mesh Tweaks and Fixes",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Better Windhelm Valunstrad - Vanilla Texture Patch-153910-1-0-1751318924.7z",
+    "Maybe Better Windhelm Valunstrad-153910-1-0-1751311351.zip"
+   ],
+   "author": "trisave",
+   "leftover": false,
+   "key": "id:153910",
+   "theme": "armor"
+  },
+  {
+   "id": 91626,
+   "name": "More Consistent Stamina Costs for Shield of Stamina",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-19",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "More Consistent Stamina Costs Shield of Stamina-91626-1-2-2-1684502959.zip"
+   ],
+   "author": "dTry and Borgut1337 and  doodlum",
+   "leftover": false,
+   "key": "id:91626",
+   "theme": "armor"
+  },
+  {
+   "id": 84325,
+   "name": "Mythic Dawn Armor SE - My patches and fixes",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-18",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Mythic Dawn Armor SE by Xtudo - FIXES ESL-84325-2-1-1687120488.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:84325",
+   "theme": "armor"
+  },
+  {
+   "id": 84280,
+   "name": "Mythic Dawn armor SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1NDArmorSE-84280-2-1675621337.7z"
+   ],
+   "author": "Mankar Camoran",
+   "leftover": false,
+   "key": "id:84280",
+   "theme": "armor"
+  },
+  {
+   "id": 133857,
+   "name": "Nirn Necessities - My patches SE by Xtudo - Non-HDT Optimized Textures Backpack Satchel Scarf Cape Cloak Gaiter",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-11-13",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Nirn Necessities - SE by Xtudo - 2K textures-133857-1-1731529241.7z",
+    "Nirn Necessities - SE by Xtudo - Non-HDT patch-133857-1-1731529156.7z"
+   ],
+   "author": "Author Everglaid - My patches by Xtudo",
+   "leftover": false,
+   "key": "id:133857",
+   "theme": "armor"
+  },
+  {
+   "id": 64349,
+   "name": "Northern God Armor - My patches - SE-AE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-24",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "NGArmor - My patches - 2K textures - SE-AE-64349-1-1646077093.7z",
+    "NGArmor - My patches - Blue fabrics - Black Fur - SE-AE-64349-1-1-1646092061.7z",
+    "NGArmor - My patches - Female weight slider - SE-AE-64349-1-1646076906.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:64349",
+   "theme": "armor"
+  },
+  {
+   "id": 63772,
+   "name": "Northern God Armor SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "1NGarmorSE-63772-1-1645091465.7z",
+    "Fixes by Xtudo-63772-1-1645097187.7z"
+   ],
+   "author": "human",
+   "leftover": false,
+   "key": "id:63772",
+   "theme": "armor"
+  },
+  {
+   "id": 120726,
+   "name": "Pelts 'o' Plenty - Fur Pelt Cloaks",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-05",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "3BA Pelts 'o' Plenty-120726-4-3-1-1767381000.zip",
+    "Hotfix for female trimmed wolf cloak-120726-4-3-2-1767620573.zip",
+    "Pelts 'o' Plenty - Fur Pelt Gear-120726-4-1-1743777563.zip"
+   ],
+   "author": "qIp",
+   "leftover": false,
+   "key": "id:120726",
+   "theme": "armor"
+  },
+  {
+   "id": 128731,
+   "name": "Pig Iron Set - My patches SE by Xtudo - Borgakh Ogol SPID",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Pig Iron - SE by Xtudo - Fixes Non-HDT-128731-1-6-1754256854.7z",
+    "Pig Iron - SE by Xtudo - Fixes-128731-1-3-1725978380.7z",
+    "Pig Iron - SE by Xtudo - Fixes-128731-1-6-1754256723.7z"
+   ],
+   "author": "Author Pulcharmsolis - My version by Xtudo",
+   "leftover": false,
+   "key": "id:128731",
+   "theme": "armor"
+  },
+  {
+   "id": 106358,
+   "name": "Precision - Enchanted Weapon Trails",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-11-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Precision - Different Weapon Trails-106358-1-1701921726.zip",
+    "Precision - EWT Alt-106358-1-1-1764325290.zip"
+   ],
+   "author": "1597Enjoyer",
+   "leftover": false,
+   "key": "id:106358",
+   "theme": "armor"
+  },
+  {
+   "id": 22168,
+   "name": "Remodeled Armor SE - CBBE 3BA",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-19",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Remodeled Armor SE - CBBE 3BA-22168-2-5-2-1745029130.7z"
+   ],
+   "author": "ChronoTrigger77",
+   "leftover": false,
+   "key": "id:22168",
+   "theme": "armor"
+  },
+  {
+   "id": 84836,
+   "name": "Ring of Hircine Replacer",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-12",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ring of Hircine Replacer-84836-v1-1-1676243298.zip"
+   ],
+   "author": "SiRiUs1503 Ergyvzkaa",
+   "leftover": false,
+   "key": "id:84836",
+   "theme": "armor"
+  },
+  {
+   "id": 44392,
+   "name": "Royal Armory - New Artifacts Plugin Replacer",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-05-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Royal Armory - Plugin Replacer-44392-1-3-3-1620050904.7z"
+   ],
+   "author": "Delta",
+   "leftover": false,
+   "key": "id:44392",
+   "theme": "armor"
+  },
+  {
+   "id": 74875,
+   "name": "Sigils of Skyrim 4K-2K - Banner and Shield Retexture",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-09-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Banners 2K-74875-1-0-1662652575.7z",
+    "Shields 2K-74875-1-0-1662652301.7z"
+   ],
+   "author": "JDAnchor - XilaMonstrr",
+   "leftover": false,
+   "key": "id:74875",
+   "theme": "armor"
+  },
+  {
+   "id": 79090,
+   "name": "Silver Armor - My patches and fixes SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-11-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Silver Armor - My patches and fixes by Xtudo SE - 2K TEXTURES-79090-1-1668944332.7z",
+    "Silver Armor - My patches and fixes by Xtudo SE - ESL-79090-1-1668944269.7z",
+    "Silver Armor - My patches and fixes by Xtudo SE - ESP-79090-1-1668945817.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:79090",
+   "theme": "armor"
+  },
+  {
+   "id": 147620,
+   "name": "Snazzy Windhelm AIO",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Snazzy Windhelm AIO-147620-2-0-1749039996.7z"
+   ],
+   "author": "gutmaw",
+   "leftover": false,
+   "key": "id:147620",
+   "theme": "armor"
+  },
+  {
+   "id": 4668,
+   "name": "Throwing Weapons Lite SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-03-23",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Throwing Weapons Lite SE - Dynamic Animation Replacer-4668-DAR1-0-1584922042.zip",
+    "Throwing Weapons Lite SE - Version G.04-4668-G-04.zip"
+   ],
+   "author": "JZBai",
+   "leftover": false,
+   "key": "id:4668",
+   "theme": "armor"
+  },
+  {
+   "id": 14352,
+   "name": "Thundering Shouts",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-07-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Thundering Shouts (Normal pitch)-14352-1-1-1622974054.rar",
+    "Thundering Shouts Loose files (main file version)-14352-1-1-1625668646.rar",
+    "Thundering Shouts-14352-1-1-1622971951.rar"
+   ],
+   "author": "greentea101",
+   "leftover": false,
+   "key": "id:14352",
+   "theme": "armor"
+  },
+  {
+   "id": 128582,
+   "name": "Unequip Quiver NG",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-29",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Unequip Quiver NG 128582 1.3.0 2026-08-29T14-04Z UK35XnhA5.zip",
+    "Unequip Quiver NG-128582-1-2-1727272900.zip",
+    "Unequip Quiver NG-128582-1-2-2-1778971395.zip"
+   ],
+   "author": "imnotfamous",
+   "leftover": false,
+   "key": "id:128582",
+   "theme": "armor"
+  },
+  {
+   "id": 118202,
+   "name": "Vanilla Amulet textures Upscaled and added Env maps",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Vanilla Amulet textures Env maps only-118202-1-1-1714838428.rar",
+    "Vanilla Amulet textures Upscaled and added Env map-118202-1-1-1714735980.rar"
+   ],
+   "author": "kahvipannu84",
+   "leftover": false,
+   "key": "id:118202",
+   "theme": "armor"
+  },
+  {
+   "id": 136564,
+   "name": "Vibrant Weapons EAE - Enchantment Lights",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Vibrant Weapons EAE - Enchantment Lights-136564-1-0-0-1734429816.7z"
+   ],
+   "author": "SeaSparrow",
+   "leftover": false,
+   "key": "id:136564",
+   "theme": "armor"
+  },
+  {
+   "id": 17114,
+   "name": "VickusDickus' Khajiiti Apex Armory",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-27",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "VickusDickus' Apex Khajiit Armory CBBE and HIMBO-17114-2-1-6-1708546877.rar",
+    "VickusDickus' Apex Khajiit Armory Reforged 2K-17114-2-1-6-1708367751.rar",
+    "VickusDickus' Apex Khajiit Armory Reforged 2K-17114-2-2-2-1756268242.rar"
+   ],
+   "author": "VickusDickus",
+   "leftover": false,
+   "key": "id:17114",
+   "theme": "armor"
+  },
+  {
+   "id": 162491,
+   "name": "WAAT - Circlet or Hood",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-10-23",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "WAAT - Circlet or Hood-162491-1-0-1761222975.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:162491",
+   "theme": "armor"
+  },
+  {
+   "id": 125415,
+   "name": "Weapon Switch Animation Fix - Behavior Patch Version",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-08-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Weapon Switch Animation Fix - Behavior Patch Ver-125415-1-0-0-1722598417.zip"
+   ],
+   "author": "illuke00",
+   "leftover": false,
+   "key": "id:125415",
+   "theme": "armor"
+  },
+  {
+   "id": 110680,
+   "name": "Weapons Armor Clothing and Clutter Fixes - CBBE 3BA patch (WACCF and ACE 3BA)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "CBBE 3BA WACCF and ACE 110680 1.4.3 2026-08-20T16-42Z Sx9oEw7dV.7z",
+    "CBBE 3BA WACCF and ACE-110680-1-3-0-1757890193.7z",
+    "CBBE 3BA WACCF and ACE-110680-1-4-3-792412-1787244120.7z"
+   ],
+   "author": "brokkamuky",
+   "leftover": false,
+   "key": "id:110680",
+   "theme": "armor"
+  },
+  {
+   "id": 81085,
+   "name": "Wild Witch Outfit - CBBE 3BA UUNP BHUNP HIMBO Vanilla - HDT-SMP",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-11-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Wild Witch Outfit-81085-0-5-1-1715149013.7z",
+    "Wild Witch Outfit-81085-0-5-2-1744652400.7z",
+    "Wild Witch Outfit-81085-0-5-5b-1762007122.7z"
+   ],
+   "author": "Kreiste X wSkeever",
+   "leftover": false,
+   "key": "id:81085",
+   "theme": "armor"
+  },
+  {
+   "id": 40963,
+   "name": "Wilderness Witch Outfit",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-09-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "wilderness_witch-40963-1-0-1601427514.7z"
+   ],
+   "author": "QuarantineCouture",
+   "leftover": false,
+   "key": "id:40963",
+   "theme": "armor"
+  }
+ ]
+}

@@ -1,0 +1,913 @@
+{
+ "batch": "C02",
+ "band": "C",
+ "themes": {
+  "armor": 32
+ },
+ "items": [
+  {
+   "id": 38194,
+   "name": "ElSopa - Glorious HD Amulets SE",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-07-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "ElSopa Glorious HD Amulets Optimized-38194-1-0-1594519568.7z",
+    "ElSopa Glorious HD Amulets Quality-38194-1-0-1594519514.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:38194",
+   "theme": "armor"
+  },
+  {
+   "id": 99142,
+   "name": "ElSopa - Shields Redone - Part I",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-08-25",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "ElSopa - Shields Redone - Part I 2K-99142-1-0-1692936012.rar"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:99142",
+   "theme": "armor"
+  },
+  {
+   "id": 22671,
+   "name": "Guards Armor Replacer SSE",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-02-15",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Guards Armor Replacer-22671-5-5a-1551221031.7z",
+    "Minimal ESP-22671-5-5-1581767050.zip",
+    "Patches-22671-5-5a-1551466050.7z"
+   ],
+   "author": "NordwarUA",
+   "leftover": false,
+   "key": "id:22671",
+   "theme": "armor"
+  },
+  {
+   "id": 43103,
+   "name": "NordwarUAs Armor Replacers - Female (CBBE) and Male (SMMB) Bodyslide",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-12-17",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Guards Armor Repacer SE - Bodyslide Files-43103-1-0-1607214767.7z",
+    "New Legion - Tullius Mesh Fix-43103-1-0-1607415466.7z",
+    "New Legion SE - Bodyslide Files-43103-1-0-1607415296.7z"
+   ],
+   "author": "jap2112",
+   "leftover": false,
+   "key": "id:43103",
+   "theme": "armor"
+  },
+  {
+   "id": 70037,
+   "name": "Prince and The Pauper Refine (Fixes - Improvements - New Child Outfits - No NPC Edits)",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-06-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Prince and The Pauper Refine (2.1.0)-70037-2-1-0-1661604533.7z",
+    "Prince and The Pauper Refine (2.1.1)-70037-2-1-1-1665899136.7z",
+    "Prince and the Pauper Refine (2.2.0)-70037-2-2-0-1685965747.7z"
+   ],
+   "author": "JadeRoyale - Gamwich - Dylan James",
+   "leftover": false,
+   "key": "id:70037",
+   "theme": "armor"
+  },
+  {
+   "id": 19666,
+   "name": "RUSTIC ARMOR and WEAPONS SE",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2018-10-15",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "RAW SSE - 2K-19666-3-0-1539568066.7z",
+    "RAW SSE - 4K-2K-19666-3-0-1539568268.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:19666",
+   "theme": "armor"
+  },
+  {
+   "id": 73058,
+   "name": "SB - Fixed Windhelm Entrance",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-09-15",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "SB - Fixed Windhelm Entrance-73058-1-1-1663240263.7z"
+   ],
+   "author": "Asedael",
+   "leftover": false,
+   "key": "id:73058",
+   "theme": "armor"
+  },
+  {
+   "id": 68738,
+   "name": "The Black Door - 3D Dagger and Glow - ENB Light",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-06-09",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "3D Dagger and GLOW - ENB Light - 2k Door-68738-1-1-1653781874.rar",
+    "Dark Brotherhood Sanctuary Decor - PATCH - for MEDIUM BRIGHTNESS DOORS-68738-1-0-1654746001.rar"
+   ],
+   "author": "RemmyKun",
+   "leftover": false,
+   "key": "id:68738",
+   "theme": "armor"
+  },
+  {
+   "id": 60842,
+   "name": "Wind Ruler Armor SE",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2021-12-28",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 5,
+   "files": [
+    "1WRSE-60842-1-1640622692.7z",
+    "Fixes by Xtudo-60842-1-1640671195.7z"
+   ],
+   "author": "someone",
+   "leftover": false,
+   "key": "id:60842",
+   "theme": "armor"
+  },
+  {
+   "id": 66743,
+   "name": "[серия «for mod organizer», 3 модов] Crash Log Tools for Mod Organizer и др.",
+   "vr": 1,
+   "se": 6,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-04-19",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Crash Log Tools-66743-1-0-1-1650374513.7z"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:66743",
+   "series": "for mod organizer",
+   "members": [
+    {
+     "id": 66743,
+     "name": "Crash Log Tools for Mod Organizer",
+     "vr": 1,
+     "se": 5,
+     "newest": "2022-04-19",
+     "files": [
+      "Crash Log Tools-66743-1-0-1-1650374513.7z"
+     ]
+    },
+    {
+     "id": 94636,
+     "name": "Set CPU Affinity for Mod Organizer",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-06-30",
+     "files": [
+      "Set CPU Affinity-94636-1-2-0-1688135119.zip"
+     ]
+    },
+    {
+     "id": 59598,
+     "name": "Batch Plugin Cleaner for Mod Organizer",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-05-03",
+     "files": [
+      "BatchPluginCleaner-59598-5-1701932315.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 95121,
+   "name": "[серия «se ae version», 13 модов] Ring-necked Pheasants - Mihail Monsters and Animals (SE-AE version) и др.",
+   "vr": 2,
+   "se": 4,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-07-05",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "ring necked pheasants (se-ae)-95121-1-1688574825.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:95121",
+   "series": "se ae version",
+   "members": [
+    {
+     "id": 95121,
+     "name": "Ring-necked Pheasants - Mihail Monsters and Animals (SE-AE version)",
+     "vr": 2,
+     "se": 3,
+     "newest": "2023-07-05",
+     "files": [
+      "ring necked pheasants (se-ae)-95121-1-1688574825.rar"
+     ]
+    },
+    {
+     "id": 89917,
+     "name": "More Hircinic Aspects of Hircine- Mihail's Shards of Immersion (SE-AE version)",
+     "vr": 1,
+     "se": 4,
+     "newest": "2023-04-26",
+     "files": [
+      "More Hircinic Aspects of Hircine (se-ae)-89917-1-1682525009.rar"
+     ]
+    },
+    {
+     "id": 107758,
+     "name": "Cliff Racers Fly So High- Mihail Monsters and Animals (SE-AE version)",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-12-25",
+     "files": [
+      "Cliff Racers Fly So High (se-ae)-107758-1-1703546653.rar"
+     ]
+    },
+    {
+     "id": 98555,
+     "name": "Crows and Ravens- Mihail Monsters and Animals (SE-AE version)",
+     "vr": 2,
+     "se": 1,
+     "newest": "2023-08-17",
+     "files": [
+      "Crows and Ravens (SE-AE)-98555-1-1692315713.rar"
+     ]
+    },
+    {
+     "id": 98581,
+     "name": "Giants Overhaul- Mihail Monsters and Animals (SE-AE version)",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-08-18",
+     "files": [
+      "Giants Overhaul (se-ae)-98581-1-1692362791.rar"
+     ]
+    },
+    {
+     "id": 100853,
+     "name": "Reindeer Herds- Mihail Monsters and Animals (SE-AE version)",
+     "vr": 2,
+     "se": 1,
+     "newest": "2023-09-18",
+     "files": [
+      "reindeer herds (se-ae)-100853-1-1695009960.rar"
+     ]
+    },
+    {
+     "id": 100006,
+     "name": "Baby Mammoths - Mihail Monsters and Animals (SE-AE version)",
+     "vr": 2,
+     "se": 0,
+     "newest": "2023-09-05",
+     "files": [
+      "baby mammoths (se-ae)-100006-1-1693928794.rar"
+     ]
+    },
+    {
+     "id": 104029,
+     "name": "Giant Club Variety- Mihail Weapons and Shields (SE-AE version)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-11-04",
+     "files": [
+      "giant club variety (se-ae)-104029-1-1699116137.rar"
+     ]
+    },
+    {
+     "id": 95363,
+     "name": "Optimized Meshes - Chickens and Chicks- Mihail Monsters and Animals (SE-AE version)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-07-13",
+     "files": [
+      "Optimized Meshes - Chicks Fluffy-95363-1-0-1689159684.zip"
+     ]
+    },
+    {
+     "id": 43598,
+     "name": "Snow Whales- Mihail Monsters and Animals (SE-AE version)",
+     "vr": 2,
+     "se": 0,
+     "newest": "2023-03-21",
+     "files": [
+      "snow whales (se-ae) 1.1-43598-1-1-1679407702.rar"
+     ]
+    },
+    {
+     "id": 115760,
+     "name": "Talkative Falmers - Mihail Monsters and Animals (SE-AE version)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-04-03",
+     "files": [
+      "talkative falmers se-ae-115760-1-1712152578.rar"
+     ]
+    },
+    {
+     "id": 103488,
+     "name": "Talkative Hagravens - 2023 Halloween Special (SE-AE version)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-11-04",
+     "files": [
+      "talkative hagravens (se-ae) 1.1-103488-1-1-1699113074.rar"
+     ]
+    },
+    {
+     "id": 121492,
+     "name": "Troll Cubs- Mihail Monsters and Animals (SE-AE version)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-06-09",
+     "files": [
+      "Troll Cubs (se-ae)- 2k textures-121492-1-1717930711.rar"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 132706,
+   "name": "Ancient AF Windhelm Complex Material",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-03-10",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Ancient AF Windhelm Complex Material-132706-1-0-0-1741594426.rar",
+    "Ancient AF Windhelm PBR-132706-1-0-0-PBR-1741597943.7z"
+   ],
+   "author": "Leo",
+   "leftover": false,
+   "key": "id:132706",
+   "theme": "armor"
+  },
+  {
+   "id": 94244,
+   "name": "Armory of the Dragon Cult - Dragon Priest Armor",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-05-31",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Armory of the Dragon Cult - Dragon Priest Armor-94244-2-0-1717171562.7z",
+    "Armory of the Dragon Cult - Half Res-94244-2-0-1717171834.7z"
+   ],
+   "author": "ElectricSparx - Xavbio - Dareni",
+   "leftover": false,
+   "key": "id:94244",
+   "theme": "armor"
+  },
+  {
+   "id": 45191,
+   "name": "Bound Dagger CTD Fix",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-04-20",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Bound Dagger CTD Fix-45191-2-1-1713613764.zip"
+   ],
+   "author": "Kvitekvist",
+   "leftover": false,
+   "key": "id:45191",
+   "theme": "armor"
+  },
+  {
+   "id": 176365,
+   "name": "Bow Animation Fix - no more string on the wrong side",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-04-03",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Bow Animation Fix-176365-0-1-1775208641.7z"
+   ],
+   "author": "wSkeever",
+   "leftover": false,
+   "key": "id:176365",
+   "theme": "armor"
+  },
+  {
+   "id": 81787,
+   "name": "Constructible Object Custom Keyword System - Seperate Weapon and Armor",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-01-01",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Constructible Object Custom Keyword System - Seperate Weapon and Armor-81787-1-0-0-1672569780.7z"
+   ],
+   "author": "murrayj",
+   "leftover": false,
+   "key": "id:81787",
+   "theme": "armor"
+  },
+  {
+   "id": 58661,
+   "name": "Daedric Armor SE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-18",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "1DaedricArmorSE-58661-1-1637233753.7z",
+    "1DaedricBladesSE-58661-1-1637233806.7z",
+    "1_1DaedricArmorSE-58661-1-1637233753.7z"
+   ],
+   "author": "Dremora Blacksmith",
+   "leftover": false,
+   "key": "id:58661",
+   "theme": "armor"
+  },
+  {
+   "id": 19663,
+   "name": "Frankly HD Dawnguard Armor and Weapons",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2018-10-30",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Frankly HD Dawnguard Armor CBBE SE-19663-1-2.7z",
+    "FranklyHD Dawnguard Armor and Weapons-19663-1-3-1540912350.7z"
+   ],
+   "author": "FrankFamily aka Borx25",
+   "leftover": false,
+   "key": "id:19663",
+   "theme": "armor"
+  },
+  {
+   "id": 119758,
+   "name": "Ghosts of the Tribunal Retexture SE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-05-18",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Ghosts of the Tribunal Retexture SE - Half Res-119758-1-0-1716066460.7z",
+    "Ghosts of the Tribunal Retexture SE-119758-1-0-1716066180.7z"
+   ],
+   "author": "Xavbio",
+   "leftover": false,
+   "key": "id:119758",
+   "theme": "armor"
+  },
+  {
+   "id": 142807,
+   "name": "Hammering Animation and Sound Fixes",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-03-03",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Hammer Animation and Sound Fixes NEMESI or PANDORA-142807-1-00-1741039714.rar"
+   ],
+   "author": "Exalderan",
+   "leftover": false,
+   "key": "id:142807",
+   "theme": "armor"
+  },
+  {
+   "id": 85703,
+   "name": "I4 - SkyUI Weapons Pack",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-02-25",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "I4 - SkyUI Weapons Pack-85703-1-0-0-1677368495.7z"
+   ],
+   "author": "Ashingda and Parapets",
+   "leftover": false,
+   "key": "id:85703",
+   "theme": "armor"
+  },
+  {
+   "id": 105659,
+   "name": "Illusive Infiltrator Armor",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-11-30",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Illusive Infiltrator Armor-105659-1-0-1701337313.7z"
+   ],
+   "author": "Everglaid",
+   "leftover": false,
+   "key": "id:105659",
+   "theme": "armor"
+  },
+  {
+   "id": 172844,
+   "name": "Lingering Subtitles Fix",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-09-04",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Lingering Subtitles Fix (SKSE) 172844 1.2.5 2026-09-04T04-36Z Dc5uGkSvk.7z",
+    "Lingering Subtitles Fix (SKSE)-172844-1-2-3-ALPHA-1771780047.7z",
+    "Lingering Subtitles Fix (SKSE)-172844-1-2-5-800017-1788496560.7z"
+   ],
+   "author": "Rei",
+   "leftover": false,
+   "key": "id:172844",
+   "theme": "armor"
+  },
+  {
+   "id": 59659,
+   "name": "Listen - Dark Brotherhood Radiant Quests",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-02-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Listen-59659-1-0-1-1645298122.zip"
+   ],
+   "author": "agd25",
+   "leftover": false,
+   "key": "id:59659",
+   "theme": "armor"
+  },
+  {
+   "id": 55582,
+   "name": "More Lights for ENB - Blood Splatter and Inventory Centering Fix",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-07-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "More Lights for ENB - Blood Splatter Fix-55582-0-4-1653921302.7z",
+    "More Lights for ENB - Blood Splatter Fix-55582-0-6-1753445449.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:55582",
+   "theme": "armor"
+  },
+  {
+   "id": 41079,
+   "name": "Opulent Outfits Vanilla Texture Replacer SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-06-15",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Opulent Retexture 4K-41079-1-0-1-1655334451.7z"
+   ],
+   "author": "Grafenstein",
+   "leftover": false,
+   "key": "id:41079",
+   "theme": "armor"
+  },
+  {
+   "id": 55282,
+   "name": "Sanguine - Enhanced Blood Retexture SE",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-10-30",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Sanguine - Enhanced Blood Retexture 1K-55282-v1-4-2-1635621422.7z",
+    "Sanguine - Enhanced Blood Retexture 2K-55282-v1-4-2-1635621112.7z"
+   ],
+   "author": "Odin",
+   "leftover": false,
+   "key": "id:55282",
+   "theme": "armor"
+  },
+  {
+   "id": 30571,
+   "name": "SkyVRaan - Shimmering VR Waters",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-04-12",
+   "vr_lists": [
+    "FUS",
+    "Tahrovin",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SkyVRaan 1.0.1-30571-1-0-1-1614546430.7z",
+    "SkyVRaan 1.5.1-30571-1-5-1-1662493695.7z",
+    "SkyVRaan 1.9.0-beta-30571-1-9-0-beta-1712895034.7z"
+   ],
+   "author": "Wolfman5750",
+   "leftover": false,
+   "key": "id:30571",
+   "theme": "armor"
+  },
+  {
+   "id": 41335,
+   "name": "SunHelm Survival - Compatibility Patches",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-11-05",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SunHelm Survival - Compatibility Patches-41335-1-1-1604559189.7z"
+   ],
+   "author": "Deigue",
+   "leftover": false,
+   "key": "id:41335",
+   "theme": "armor"
+  },
+  {
+   "id": 67864,
+   "name": "Sunhelm Magical Heat Sources",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-05-11",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Sunhelm Magical Heat Sources-67864-0-1-1652233279.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:67864",
+   "theme": "armor"
+  },
+  {
+   "id": 54923,
+   "name": "Windhelm Fake Windows Fix",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-03-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Icy Windhelm Patch-54923-2-1-1631712447.zip",
+    "JK's Skyrim Patch-54923-2-0-1635077827.zip",
+    "Windhelm Fake Windows Fix - Capital Windhelm Expansion-54923-2-3-1647941203.zip"
+   ],
+   "author": "AgentW",
+   "leftover": false,
+   "key": "id:54923",
+   "theme": "armor"
+  },
+  {
+   "id": 24201,
+   "name": "[серия «cbbe 3ba 3bbb», 7 модов] Greek Goddess - Bodyslide and Racemenu Preset - CBBE-3BA-3BBB и др.",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-10-15",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Greek Goddess - All in One-24201-4-0-1602736952.7z"
+   ],
+   "author": "Vrayth",
+   "leftover": false,
+   "key": "id:24201",
+   "series": "cbbe 3ba 3bbb",
+   "members": [
+    {
+     "id": 24201,
+     "name": "Greek Goddess - Bodyslide and Racemenu Preset - CBBE-3BA-3BBB",
+     "vr": 3,
+     "se": 0,
+     "newest": "2020-10-15",
+     "files": [
+      "Greek Goddess - All in One-24201-4-0-1602736952.7z"
+     ]
+    },
+    {
+     "id": 61377,
+     "name": "Teraru's Diosa del Acero Bodyslide Preset CBBE 3BA 3BBB",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-03-09",
+     "files": [
+      "Teru Diosa del Acero 1.3 3BA-61377-1-3-1646866166.7z"
+     ]
+    },
+    {
+     "id": 50232,
+     "name": "Teraru's Fit n' Thick Bodyslide Preset CBBE 3BA 3BBB",
+     "vr": 3,
+     "se": 0,
+     "newest": "2021-06-14",
+     "files": [
+      "Teru Apex V2 CBBE 3BA 3BBB 2.0-50232-2-0-1623704887.7z"
+     ]
+    },
+    {
+     "id": 66997,
+     "name": "Teraru's Peach Bodyslide Preset CBBE 3BA 3BBB",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-04-23",
+     "files": [
+      "Teru Peach CBBE 3BA 3BBB-66997-1-0-1650733978.7z"
+     ]
+    },
+    {
+     "id": 54873,
+     "name": "Teraru's Scandalous Bodyslide Preset CBBE 3BA 3BBB",
+     "vr": 3,
+     "se": 0,
+     "newest": "2021-08-31",
+     "files": [
+      "Teru Scandalous 1.0-54873-1-0-1630435029.7z"
+     ]
+    },
+    {
+     "id": 56278,
+     "name": "Teraru's The Bulky Woman Bodyslide Preset CBBE 3BA 3BBB",
+     "vr": 3,
+     "se": 0,
+     "newest": "2021-10-25",
+     "files": [
+      "Teru Bulky Woman 2.0 3BA-56278-2-0-1635187207.7z"
+     ]
+    },
+    {
+     "id": 32518,
+     "name": "BD's Armor and Clothes Replacer - CBBE 3BA (3BBB)",
+     "vr": 2,
+     "se": 0,
+     "newest": "2021-06-12",
+     "files": [
+      "BD's Armor and clothes replacer CBBE 3BA - AIO-32518-1-41-1622832981.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  }
+ ]
+}

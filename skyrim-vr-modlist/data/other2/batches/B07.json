@@ -1,0 +1,1049 @@
+{
+ "batch": "B07",
+ "band": "B",
+ "themes": {
+  "clutter_misc": 3,
+  "creatures": 26
+ },
+ "items": [
+  {
+   "id": 33746,
+   "name": "[серия «dynamic animation», 3 модов] Dynamic Animation Replacer и др.",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-08-31",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "DynamicAnimationReplacer v1.1.0 for SkyrimSE-33746-1-1-0-1590317391.7z",
+    "DynamicAnimationReplacer v1.1.0a for Skyrim VR 1415-33746-1-1-0a-1598867513.7z"
+   ],
+   "author": "Felisky",
+   "leftover": false,
+   "key": "id:33746",
+   "series": "dynamic animation",
+   "members": [
+    {
+     "id": 33746,
+     "name": "Dynamic Animation Replacer",
+     "vr": 3,
+     "se": 2,
+     "newest": "2020-08-31",
+     "files": [
+      "DynamicAnimationReplacer v1.1.0 for SkyrimSE-33746-1-1-0-1590317391.7z"
+     ]
+    },
+    {
+     "id": 80893,
+     "name": "Dynamic Animation Replacer VR Fix",
+     "vr": 3,
+     "se": 0,
+     "newest": "2022-12-18",
+     "files": [
+      "Dynamic Animation Replacer VR Fix 1.0.0-80893-1-0-0-1671401721.zip"
+     ]
+    },
+    {
+     "id": 65512,
+     "name": "Dynamic Animation Casting",
+     "vr": 2,
+     "se": 0,
+     "newest": "2022-04-10",
+     "files": [
+      "DynamicAnimationCasting-65512-1-5-1-1649625800.rar"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 68843,
+   "name": "[серия «optimized meshes», 3 модов] Optimized meshes for ENB lights и др.",
+   "vr": 2,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-06-11",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "A - Vanilla and SMIM files-68843-1-3-1654480827.7z",
+    "JS Shrines of the Divines patch-68843-1-3-1654878237.7z",
+    "Lux - Lux Via - Lux Orbis patch-68843-1-3-1654481169.7z"
+   ],
+   "author": "Oz3",
+   "leftover": false,
+   "key": "id:68843",
+   "series": "optimized meshes",
+   "members": [
+    {
+     "id": 68843,
+     "name": "Optimized meshes for ENB lights",
+     "vr": 2,
+     "se": 4,
+     "newest": "2022-06-11",
+     "files": [
+      "A - Vanilla and SMIM files-68843-1-3-1654480827.7z"
+     ]
+    },
+    {
+     "id": 95554,
+     "name": "Optimized Meshes - Hanging Dead Pheasants Replacer- Mihail's Shards of Immersion (SE-AE)",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-07-16",
+     "files": [
+      "Optimized Meshes - hanging dead pheasant replacer-95554-1-0-1689516025.zip"
+     ]
+    },
+    {
+     "id": 95578,
+     "name": "Optimized Meshes - Hanging Dead Chickens - Mihail's Shards of Immersion (SE-AE)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-07-12",
+     "files": [
+      "Optimized Meshes - chicken Harvesting patch-95578-1-0-1689156359.zip"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 53757,
+   "name": "[серия «true directional», 4 модов] True Directional Movement - Tail Animation Fix и др.",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-08-13",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "TDM - Tail Behavior Fix-53757-1-0-1628824407.zip"
+   ],
+   "author": "supershanio64",
+   "leftover": false,
+   "key": "id:53757",
+   "series": "true directional",
+   "members": [
+    {
+     "id": 53757,
+     "name": "True Directional Movement - Tail Animation Fix",
+     "vr": 0,
+     "se": 8,
+     "newest": "2021-08-13",
+     "files": [
+      "TDM - Tail Behavior Fix-53757-1-0-1628824407.zip"
+     ]
+    },
+    {
+     "id": 77843,
+     "name": "True Directional Movement Lock-on Fixes",
+     "vr": 0,
+     "se": 7,
+     "newest": "2024-09-04",
+     "files": [
+      "TDM Target Fix - Bristleback-77843-1-3-1667174214.rar"
+     ]
+    },
+    {
+     "id": 53797,
+     "name": "True Directional Movement - Diagonal Sprinting Fix",
+     "vr": 0,
+     "se": 6,
+     "newest": "2025-10-07",
+     "files": [
+      "TDM Diagonal Sprinting Fix-53797-1-0-1628895377.7z"
+     ]
+    },
+    {
+     "id": 171762,
+     "name": "True Directional Movement Mounted Archery Fix",
+     "vr": 0,
+     "se": 5,
+     "newest": "2026-02-05",
+     "files": [
+      "TDM - 360 Horseback Archery Fix-171762-1-0-1-1770292677.zip"
+     ]
+    }
+   ],
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 18370,
+   "name": "HD Serpentine Dragon and Mesh Fix SE",
+   "vr": 3,
+   "se": 5,
+   "score": 11,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "HD Serpentine Dragon-18370-2-0.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:18370",
+   "theme": "creatures"
+  },
+  {
+   "id": 34000,
+   "name": "JK's Dragonsreach",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2025-01-04",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JK's Dragonsreach-34000-1-1-1-1657658847.7z",
+    "JK's Dragonsreach-34000-1-1-2-1690932559.7z",
+    "JK's Dragonsreach-34000-1-1-3-1736020134.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:34000",
+   "theme": "creatures"
+  },
+  {
+   "id": 89148,
+   "name": "SMIM hanging rabbits shell-textured.",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-08-16",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "SMIM rabbits shell textured - Real Rabbits HD and Wiseman303 Fixes version.-89148-1-0-1681560430.rar",
+    "SMIM rabbits shell textured - Real Rabbits HD version.-89148-1-0-1681448899.rar",
+    "SMIM rabbits shell textured-89148-1-1-1692186995.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:89148",
+   "theme": "creatures"
+  },
+  {
+   "id": 44252,
+   "name": "XP32 Maximum Skeleton Special Extended - Fixed Scripts",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-01-11",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "XP32 Maximum Skeleton Special Extended - Fixed Scripts-44252-1-0-1610391805.rar",
+    "XP32 Maximum Skeleton Special Extended - Fixed Scripts-44252-1-0-1610402131.rar"
+   ],
+   "author": "Team XPMSE - cskriffin - Umgak",
+   "leftover": false,
+   "key": "id:44252",
+   "theme": "creatures"
+  },
+  {
+   "id": 42639,
+   "name": "[серия «the great», 18 модов] The Great Village of Kynesgrove и др.",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-07-08",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "The Great Village of Kynesgrove 1.0-42639-1-0-1606161933.rar",
+    "The Great Village of Kynesgrove 1.1-42639-1-1-1625779275.zip"
+   ],
+   "author": "soldierofwar",
+   "leftover": false,
+   "key": "id:42639",
+   "series": "the great",
+   "members": [
+    {
+     "id": 42639,
+     "name": "The Great Village of Kynesgrove",
+     "vr": 2,
+     "se": 7,
+     "newest": "2021-07-08",
+     "files": [
+      "The Great Village of Kynesgrove 1.0-42639-1-0-1606161933.rar"
+     ]
+    },
+    {
+     "id": 42957,
+     "name": "The Great Village of Kynesgrove Patch Collection",
+     "vr": 2,
+     "se": 7,
+     "newest": "2026-07-19",
+     "files": [
+      "The Great Village of Kynesgrove Patch Collection 42957 1.11 2026-07-19T04-06Z pQ0AZ328q.7z"
+     ]
+    },
+    {
+     "id": 36350,
+     "name": "The Great Village of Mixwater Mill SSE",
+     "vr": 2,
+     "se": 6,
+     "newest": "2021-07-08",
+     "files": [
+      "3DNPC-TGCoMM Patch by WiZkiD-36350-1-0-1591299024.7z"
+     ]
+    },
+    {
+     "id": 33189,
+     "name": "The Great Village of Old Hroldan SSE",
+     "vr": 2,
+     "se": 6,
+     "newest": "2020-03-01",
+     "files": [
+      "The Great Village of Old Hroldan 1.03-33189-1-03-1583084144.rar"
+     ]
+    },
+    {
+     "id": 74560,
+     "name": "The Great City of Winterhold Patch Collection",
+     "vr": 1,
+     "se": 7,
+     "newest": "2025-10-23",
+     "files": [
+      "TGC Winterhold - Diverse Witcher Missives Boards p-74560-2-7-5-1733841264.rar"
+     ]
+    },
+    {
+     "id": 36380,
+     "name": "The Great Town of Ivarstead Patch Collection",
+     "vr": 2,
+     "se": 5,
+     "newest": "2026-02-25",
+     "files": [
+      "Great Town of Ivarstead Patch Collection-36380-2-1-2-1628452075.7z"
+     ]
+    },
+    {
+     "id": 34505,
+     "name": "The Great Town of Ivarstead SSE",
+     "vr": 2,
+     "se": 5,
+     "newest": "2025-08-12",
+     "files": [
+      "The Great Town of Ivarstead SSE 1.2-34505-1-2-1601933566.rar"
+     ]
+    },
+    {
+     "id": 37471,
+     "name": "The Great Town of Karthwasten Patch Collection",
+     "vr": 2,
+     "se": 5,
+     "newest": "2026-05-24",
+     "files": [
+      "The Great Town of Karthwasten Patch Collection-37471-2-0-2-1628461434.7z"
+     ]
+    },
+    {
+     "id": 33032,
+     "name": "The Great Town of Karthwasten SSE",
+     "vr": 2,
+     "se": 5,
+     "newest": "2026-02-09",
+     "files": [
+      "The Great Town of Karthwasten 1.2-33032-1-2-1625781153.zip"
+     ]
+    },
+    {
+     "id": 36462,
+     "name": "The Great Town of Shor's Stone Patch Collection",
+     "vr": 2,
+     "se": 5,
+     "newest": "2025-02-09",
+     "files": [
+      "Great Town of Shor's Stone Patch Collection-36462-2-0-2-1628461152.7z"
+     ]
+    },
+    {
+     "id": 35977,
+     "name": "The Great Town of Shor's Stone SSE",
+     "vr": 2,
+     "se": 5,
+     "newest": "2020-10-05",
+     "files": [
+      "The Great Town of Shor's Stone 1.04-35977-1-04-1601933835.rar"
+     ]
+    },
+    {
+     "id": 37414,
+     "name": "The Great Village of Mixwater Mill Patch Collection",
+     "vr": 1,
+     "se": 6,
+     "newest": "2022-05-20",
+     "files": [
+      "The Great Village of Mixwater Mill Patch Collection-37414-2-0-1-1628382737.7z"
+     ]
+    },
+    {
+     "id": 37650,
+     "name": "The Great Village of Old Hroldan Patch Collection",
+     "vr": 1,
+     "se": 6,
+     "newest": "2023-07-23",
+     "files": [
+      "The Great Village of Old Hroldan Patch Collection-37650-2-0-2-1616950818.7z"
+     ]
+    },
+    {
+     "id": 19962,
+     "name": "The Great City of Dragon Bridge SSE Edition",
+     "vr": 2,
+     "se": 3,
+     "newest": "2018-10-13",
+     "files": [
+      "The Great City of Dragon Bridge 1.12-19962-1-12-1539428884.rar"
+     ]
+    },
+    {
+     "id": 20272,
+     "name": "The Great Cities - Minor Cities and Towns SSE Edition",
+     "vr": 2,
+     "se": 2,
+     "newest": "2020-11-21",
+     "files": [
+      "The Great Cities - Resources V1.0-20272-1-0-1605980062.rar"
+     ]
+    },
+    {
+     "id": 22243,
+     "name": "The Great City of Solitude SSE",
+     "vr": 1,
+     "se": 3,
+     "newest": "2020-02-11",
+     "files": [
+      "The Great City of Solitude 2.02-22243-2-02-1581429037.rar"
+     ]
+    },
+    {
+     "id": 19709,
+     "name": "The Great City Of Falkreath SSE Edition",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-03-23",
+     "files": [
+      "The Great City of Falkreath - CFTO Patch-19709-1-0.rar"
+     ]
+    },
+    {
+     "id": 20151,
+     "name": "The Great City of Rorikstead SSE Edition",
+     "vr": 1,
+     "se": 2,
+     "newest": "2019-03-01",
+     "files": [
+      "TGCoR LOD-20151-1-11.rar"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 43936,
+   "name": "Better Combat Escape - SSE",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-01-04",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Better Combat Escape - SSE V0.83-43936-v0-83-1609760346.rar"
+   ],
+   "author": "Maxsu",
+   "leftover": false,
+   "key": "id:43936",
+   "theme": "creatures"
+  },
+  {
+   "id": 83274,
+   "name": "Cult of the World Eater - Dragon Priests Buff Alduin",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-01-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Cult of the World Eater (SPID) 1.3-83274-1-3-1674852111.zip"
+   ],
+   "author": "Maleficus",
+   "leftover": false,
+   "key": "id:83274",
+   "theme": "creatures"
+  },
+  {
+   "id": 86625,
+   "name": "Defeat the Dragon Cult",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-03-09",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Defeat the Dragon Cult-86625-1-0-0-1678335009.zip"
+   ],
+   "author": "agd25",
+   "leftover": false,
+   "key": "id:86625",
+   "theme": "creatures"
+  },
+  {
+   "id": 42514,
+   "name": "Horse Shoulder Harness Retexture",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2020-11-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "2K Horse Shoulder Harness-42514-1-1-1606204037.7z",
+    "Dirt Overlay-42514-1-1-1606204217.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:42514",
+   "theme": "creatures"
+  },
+  {
+   "id": 41972,
+   "name": "Remiros' Dragonborn Alcohol HD",
+   "vr": 3,
+   "se": 4,
+   "score": 10,
+   "band": "B",
+   "newest": "2020-11-02",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Remiros' Dragonborn Alcohol HD 2k-41972-1-0-1604359442.7z"
+   ],
+   "author": "Remiros",
+   "leftover": false,
+   "key": "id:41972",
+   "theme": "creatures"
+  },
+  {
+   "id": 85647,
+   "name": "Ryn's Dragon Mounds Collection",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-04-10",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Ryn's Dragon Mounds Collection ALL IN ONE-85647-1-1-1-1681164017.rar"
+   ],
+   "author": "Ryn",
+   "leftover": false,
+   "key": "id:85647",
+   "theme": "creatures"
+  },
+  {
+   "id": 54225,
+   "name": "Simplest Horses (and other mounts)",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-12-05",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Simplest Horses - Main File-54225-0-9-3-1663115550.7z",
+    "Simplest Horses - Main File-54225-0-9-5-1670202262.7z"
+   ],
+   "author": "Hackfield",
+   "leftover": false,
+   "key": "id:54225",
+   "theme": "creatures"
+  },
+  {
+   "id": 87746,
+   "name": "Vampires have Claws",
+   "vr": 4,
+   "se": 2,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-04-02",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Main File - FOMOD Installer-87746-1-1679745520.zip",
+    "Vampires Have Claws - FOMOD Installer-87746-1-2-1680446502.zip"
+   ],
+   "author": "AdoresUnicorns123",
+   "leftover": false,
+   "key": "id:87746",
+   "theme": "creatures"
+  },
+  {
+   "id": 49277,
+   "name": "WiZkiD Hagraven Clutter and Bones",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-09-22",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "WiZkiD Hagraven Clutter ad Bones-49277-1-1-1619891432.7z",
+    "WiZkiD Hagraven Clutter and Bones-49277-1-2-1727031207.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:49277",
+   "theme": "creatures"
+  },
+  {
+   "id": 41929,
+   "name": "[серия «mm real», 3 модов] MM - REAL ELKS и др.",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-03-16",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "MM REAL ELKS 2K-41929-1-0-1-1615885343.7z"
+   ],
+   "author": "MassiveMaster",
+   "leftover": false,
+   "key": "id:41929",
+   "series": "mm real",
+   "members": [
+    {
+     "id": 41929,
+     "name": "MM - REAL ELKS",
+     "vr": 1,
+     "se": 8,
+     "newest": "2021-03-16",
+     "files": [
+      "MM REAL ELKS 2K-41929-1-0-1-1615885343.7z"
+     ]
+    },
+    {
+     "id": 95106,
+     "name": "MM - Real Skeevers",
+     "vr": 0,
+     "se": 5,
+     "newest": "2018-12-24",
+     "files": [
+      "MM- REAL SKEEVER 2K NEW-95106-1-2-1545687245.zip"
+     ]
+    },
+    {
+     "id": 94924,
+     "name": "MM- Real Cows",
+     "vr": 0,
+     "se": 5,
+     "newest": "2018-11-28",
+     "files": [
+      "Cow 4k textures-94924-1-0-1543417839.zip"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 142315,
+   "name": "[серия «slightly better», 10 модов] slightly Better Bunting (aka those Solitude festival flags) и др.",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2025-02-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "slightly Better Bunting - FYX 3D Sighpost-142315-1-2-1740267775.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:142315",
+   "series": "slightly better",
+   "members": [
+    {
+     "id": 142315,
+     "name": "slightly Better Bunting (aka those Solitude festival flags)",
+     "vr": 1,
+     "se": 8,
+     "newest": "2025-02-22",
+     "files": [
+      "slightly Better Bunting - FYX 3D Sighpost-142315-1-2-1740267775.rar"
+     ]
+    },
+    {
+     "id": 97779,
+     "name": "slightly Better Scrolls",
+     "vr": 1,
+     "se": 7,
+     "newest": "2023-08-09",
+     "files": [
+      "slightly Better Occult Scrolls-97779-1-1-1691409554.rar"
+     ]
+    },
+    {
+     "id": 84994,
+     "name": "slightly Better EVIL Rock Cairns",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-02-15",
+     "files": [
+      "slightly Better EVIL Rock Cairns 2k-84994-1-1-1676425619.rar"
+     ]
+    },
+    {
+     "id": 104496,
+     "name": "slightly Better Honey in a Jar",
+     "vr": 1,
+     "se": 4,
+     "newest": "2023-12-26",
+     "files": [
+      "slightly Better Honey in a Jar (BOS)-104496-1-1-1703562097.rar"
+     ]
+    },
+    {
+     "id": 123482,
+     "name": "slightly Better Kettles - Base Object Swapper or Replacer",
+     "vr": 1,
+     "se": 3,
+     "newest": "2024-07-06",
+     "files": [
+      "slightly Better Kettles - BOS-123482-1-0-1720227994.rar"
+     ]
+    },
+    {
+     "id": 103590,
+     "name": "slightly Better Large Antlers",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-10-29",
+     "files": [
+      "slightly Better Large Antlers-103590-1-1-1698613026.rar"
+     ]
+    },
+    {
+     "id": 83672,
+     "name": "slightly Better Small Antlers and Deer Hide",
+     "vr": 1,
+     "se": 3,
+     "newest": "2023-02-26",
+     "files": [
+      "slightly Better Deer Pelt - Optimized-83672-1-0-1675851367.rar"
+     ]
+    },
+    {
+     "id": 117116,
+     "name": "slightly Better Hagraven Feathers",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-04-19",
+     "files": [
+      "slightly Better Hagraven Feathers 1K textures-117116-1-0-1713491507.rar"
+     ]
+    },
+    {
+     "id": 95356,
+     "name": "slightly Better Honey Nut Treat",
+     "vr": 1,
+     "se": 2,
+     "newest": "2025-06-14",
+     "files": [
+      "slightly Better Honey Nut Treat-95356-1-3-1749899050.rar"
+     ]
+    },
+    {
+     "id": 149446,
+     "name": "slightly Better Rope Bridges",
+     "vr": 0,
+     "se": 4,
+     "newest": "2025-05-21",
+     "files": [
+      "Rope Bridges Remastered - SMIM - Full Ropes-149446-1-4-1747806387.rar"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 33789,
+   "name": "Better Bats",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-03-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Dark Brown Texture-33789-1-0-1584710983.rar",
+    "Dark Grey Texture-33789-1-0-1584711043.rar",
+    "Optional ESP-33789-1-0-1584711207.rar"
+   ],
+   "author": "aviform",
+   "leftover": false,
+   "key": "id:33789",
+   "theme": "creatures"
+  },
+  {
+   "id": 4974,
+   "name": "DRAGON PRIEST",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Dragon.Priest.2k-4974-1-2.7z",
+    "Dragon.Priest.4k-2k-4974-1-2.7z"
+   ],
+   "author": "Kajuan",
+   "leftover": false,
+   "key": "id:4974",
+   "theme": "creatures"
+  },
+  {
+   "id": 144947,
+   "name": "Dragon-Voiced Word Walls",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-03-20",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Dragon Voiced Word Walls-144947-1-0-1742355483.7z",
+    "Dragon Voiced Word Walls-144947-1-1-1742503434.7z"
+   ],
+   "author": "Clofas",
+   "leftover": false,
+   "key": "id:144947",
+   "theme": "creatures"
+  },
+  {
+   "id": 62907,
+   "name": "Dusty Vampire Dust",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-02-02",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Dusty Vampire Dust SE 1k Textures-62907-v1-0-1643814835.7z",
+    "Dusty Vampire Dust SE SMIM version-62907-v1-0-1643682969.7z",
+    "Dusty Vampire Dust SE-62907-v1-0-1643682873.7z"
+   ],
+   "author": "Hanaisse",
+   "leftover": false,
+   "key": "id:62907",
+   "theme": "creatures"
+  },
+  {
+   "id": 58612,
+   "name": "EMPEROR - Giant Crab Overhaul",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-11-23",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "EMPEROR - Giant Crab Overhaul-58612-1-1-1637652768.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:58612",
+   "theme": "creatures"
+  },
+  {
+   "id": 89968,
+   "name": "Iconic's Gargoyle and Death Hound Retexture",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-04-24",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Gargoyles and Death Hound 2K-89968-1-0-1682369441.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:89968",
+   "theme": "creatures"
+  },
+  {
+   "id": 64905,
+   "name": "Kanjs - Bird Nests and Eggs - up to 4k",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-03-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Kanjs - Nests and Eggs 1k-64905-1-3-1647285525.zip",
+    "Kanjs - Nests and Eggs 2k-64905-1-3-1647285551.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:64905",
+   "theme": "creatures"
+  },
+  {
+   "id": 68097,
+   "name": "Less Shiny Bloody Bones - Skeleton Replacer HD",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-05-15",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Less Shiny Bloody Bones-68097-1-0-1652615431.zip",
+    "Sacrosanct Patch-68097-1-0-1652615529.zip"
+   ],
+   "author": "GroundAura - Praedyth",
+   "leftover": false,
+   "key": "id:68097",
+   "theme": "creatures"
+  },
+  {
+   "id": 38510,
+   "name": "Mount Anthor Dragon Fix",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-05-12",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Mount Anthor Dragon Fix-38510-1-0-3-1620809169.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:38510",
+   "theme": "creatures"
+  },
+  {
+   "id": 37700,
+   "name": "RUSTIC DRAGONS - Special Edition",
+   "vr": 3,
+   "se": 3,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-07-12",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "RUSTIC DRAGONS SE - Reduced-37700-2-0-1594578636.7z",
+    "RUSTIC DRAGONS SE-37700-2-0-1594578336.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:37700",
+   "theme": "creatures"
+  }
+ ]
+}

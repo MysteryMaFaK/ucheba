@@ -1,0 +1,113 @@
+{
+ "picks": [
+  {
+   "key": "id:186100",
+   "id": 186100,
+   "name": "Precision Physic Bodies (PPB)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/186100",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "NPC получают ~130 капсул вместо 19 шаров: касания пальцами/ладонью, толчки, шаг назад, спотыкание, нокдаун, свип по ногам. Только VR, бета 2.2.0.",
+   "vr_status": "vr_native",
+   "in_lists": "0 из 27 списков (whouses 186100 пуст). Мод 2026 года, на Nexus ~43 эндорсмента по сниппету поиска.",
+   "files": "Имена архивов Nexus и GitHub-релиза V2.2.0 не прочитаны (на странице релиза 'Assets 3', имена не отдаются). Известно: FOMOD-zip с 1.4.0, в info.xml версия 2.2.0, автор указан 'mad72'; на странице Nexus по сниппету 'telord'. Сниппет Nexus показывал версию 1.4.2 (29.07.2026), а GitHub V2.2.0 вышел 13.09.2026. Какая версия сейчас лежит на Nexus, не проверено; опции push/equip есть только в 2.x.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)",
+    "Skyrim VR ESL Support (#106712)",
+    "PLANCK (#66025), по README билд не старше 0.7.0, рекомендуется 0.8.1; старые билды мод отказывается подключать",
+    "HIGGS (#43930); вызовы HIGGS без проверки версии, на старых сборках слот 33 даёт CTD (в Core HIGGS 1.10.10)",
+    "XP32 Maximum Skeleton (#1988) + VR-фикс #34301, как в Core",
+    "тело на основе CBBE (в Other: CBBE 3BA + HIMBO)",
+    "VRIK (README не называет жёстко, но VRTouchEvents пишет, что PPB зависит от VRIK; в Core есть)"
+   ],
+   "interplay": "Физика NPC поверх HIGGS+PLANCK, не замена. Дубля в Core/Other нет: PLANCK даёт ragdoll, Physical Collision VR (PCVR) делает коллизию рук и оружия. PCVR: README говорит 'сосуществуют'; разбор бинарника в docs/11 (автор) подтверждает, что гарнитура/волосы/хвосты PPB не могут столкнуться с телами PCVR, фильтр-гонки нет, руки PPB могут касаться тел PCVR (мало точек). Открытый риск у автора: кинематическое оружие NPC из PCVR может задеть руку владельца, PCVR уничтожает его при убирании в ножны. Gift by Hand VR (opt): оба умеют экипировать, поэтому в FOMOD 'Equip gestures' = Off. Mu Joint Fix (Core rec #61479): КОНФЛИКТ по высоте каблуков (CHANGELOG 1.4.1), в MuJointFix.ini отключить [FixHeight]; в Core у Mu Joint Fix 'без настроек', это придётся поправить. Dismembering Framework (Core opt): был жёсткий фриз (дедлок очереди задач SKSE между воркерами DF и проходом скиннинга FSMP, на убийствах NPC от NPC, до PPB), в FOMOD есть патч, ставящий bDeferredHitProcess=0, взамен PPB сам подтверждает смерть через dgDeathCut. Next-Gen Decapitations: отрубленную голову поднять нельзя (известная проблема). Скелет: PPB кладёт свой skeleton_female.nif и по docs/11 выигрывает у XPMSSE; в MO2 проверить, что PPB не перезаписывает _1stperson\\skeleton.nif, где должен победить VR-фикс #34301 (содержимое архива не видел). FSMP (Core opt): волосы/хвосты ближайших 2 NPC; SMP Flex понимается, но SPS с Flex падает на загрузке (SPS не ставим). CBPC (Other rec): у CBPC нет реакции на боксы пальцев (Havok-тела ему невидимы). PLANCK VR Stability Patch (Core opt, неофициальная пересборка activeragdoll.dll 0.8.1): PPB читает номер билда PLANCK и выбирает раскладку vtable, совместимость с патчем в источниках не проверена, отмечено как риск. Engine Fixes VR, OAR/Pandora, True Wield VR, Instant Equip VR/Swap Drop and Hold, Weapon Throw: в документации автора не упомянуты, статус неизвестен.",
+   "note": "Тег try: бета, нужен тест на отдельном профиле/сейве. ЧТО РЕАЛЬНО ДАЁТ: NPC физически ощущаются руками, толчок/шаг назад/нокдаун, касания головы/плеч/ног. Пальцы НЕ улучшают хват (по docs/09 хват HIGGS не использует коллайдеры, он строится на сфере-касте), а PLANCK их не видит (нет урона, агро, хаптики попаданий): пальцы только толкают динамические тела NPC. VR-ТЕСТЫ автора: 1.4.0 (31.07.2026), 1.4.1 (головы), 1.4.2 (призрачное оружие), фриз DF 26-27.07 проверены в VR; порядок события снятия 'как наблюдалось в VR'; женский 'futa'-риг явно НЕ видели в VR. По 2.2.0 push/shove/equip нет явного 'протестировано в VR', по сути VR-только мод (Skyrim VR/SKSEVR/HIGGS VR), у автора есть гарнитура. Код в GitHub-коммитах помечен соавтором Claude. Issues на GitHub: 0. ФОМОД-ВЫБОР для безопасной сборки: 1) SMP hair and tail collision: 'Off - performance' (FSMP в Core только opt; при FSMP можно 'On', затем смотреть кадр в городе); 2) Push and shove: On; внутри Push walk On, Push stumble On, Shove knockdown (ragdoll) и Leg sweep knockdown на выбор (можно Off, если нокдауны мирных NPC не нужны); 3) Equip gestures: Off (дублирует Gift by Hand и целиком про одежду/устройства, включая снятие по хвату двумя руками); 4) Dismembering Framework - VR freeze fix: только если DF стоит, патч перезаписывает DismemberingFramework.ini (настроенный DF: скопировать одну строку вручную). Всё меняется потом в SKSE\\Plugins\\PPB.ini и PPB_tuning.txt без переустановки, активные ключи видны в PPB.log (строки 'PPB FEATURES:'). ВЗРОСЛЫЕ ЧАСТИ (рекомендую НЕ ставить): README включает коллизию гениталий, мужской/futa-риг (по умолчанию включён, но требует TNG и открытого слота 52, без TNG инертен), отверстия тела и рта (Penetration Physics, MFG Fix), поцелуй и шея (капсула для удушения), DD/ZaZ/Diary of Mine, сцены OStim/SexLab. Не ставить TNG, SPS, TRX-ERF, Penetration Physics, MFG Fix, Devious Devices, ZaZ, Diary of Mine, OStim, SexLab и все DD-AddOn. Касание головы, шеи и поцелуй как источники касаний FOMOD отключить не даёт: их можно только не использовать (без читающего мода событие никуда не идёт) или искать выключатели в PPB.ini, имена ключей не проверены. Дети и манекены исключены из всего (с 2.2.0). Heels Fix (#64442): в README 2.2.0 в списке необязательных, а в changelog 1.4 указан в требованиях; в Core его нет, у VR-листов Grit/Tahrovin есть 1.6.2; если у NPC каблуки, смотреть в игре, иначе пропустить. Производительность не измерена: у автора в changelog нет цифр, есть оговорка про падение кадров с HDT-SMP Flex; для проверки npcFollower 0 отключает риги волос/хвостов. Порядок в MO2: README 'выше других скелетных модов', стоять после XPMSSE и его VR-фикса. Сейв: ставить на новой игре или на копии (замена скелета и тел NPC).",
+   "evidence": "README GitHub Telord72612/Precision-Physic-Bodies (2.2.0, прочитан, Beta); fomod/ModuleConfig.xml и info.xml (прочитаны, имена опций точные); CHANGELOG.md 1.4.0-2.2.0 (прочитан); страница релизов V2.2.0/1.4.2/1.4.1/1.4.0; INTEGRATION.md; docs/09, 11, 14 (по описанию автора, часть docs не прочитана); репозиторий VRTouchEvents (требования). Страница Nexus недоступна (DNS), только сниппет поиска. Конфликты с Core сверены с MODLIST.md (Mu Joint Fix, DF, Gift by Hand VR, PCVR 5.2.0, PLANCK 0.8.1). 0 сообщений об ошибках на GitHub."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies: жесты экипировки (Equip gestures, часть PPB)",
+   "reason": "Не брать: дублирует Gift by Hand VR, заточено под устройства DD/ZaZ и снятие одежды двумя руками, в FOMOD ставить Off."
+  },
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies: коллизия гениталий, отверстия, поцелуй, шея, сцены OStim/SexLab",
+   "reason": "Взрослые интеграции, исключены по условию; без TNG/SPS/Penetration Physics/OStim/SexLab инертны, не ставить зависимости."
+  },
+  {
+   "id": 189300,
+   "name": "VR Touch Events (Telord72612/VRTouchEvents)",
+   "reason": "Только для LLM SkyrimNet (Beta 25+), реакции NPC на касания через LLM, много взрослого (поцелуй, грудь, удушение); без LLM смысла нет."
+  },
+  {
+   "id": null,
+   "name": "DD-AddOn-for-PPB-SN-and-VRTE / DD-s-gear-collision-s-box-remade-for-PPB",
+   "reason": "Devious Devices, взрослые аддоны, вне задачи."
+  },
+  {
+   "id": null,
+   "name": "SkyrimNet-Devious-Awareness-Base, SkyrimNet-Captive-Bridge-for-DoM-YtM, Bathing-in-Skyrim SN/SA plugins",
+   "reason": "LLM-плагины SkyrimNet и взрослый/плен-контент, не про VR-взаимодействие."
+  },
+  {
+   "id": null,
+   "name": "VR-Gift-by-Hand-SkuyrimNet-Integration (Telord72612)",
+   "reason": "Аддон к Gift by Hand только для SkyrimNet (LLM); без LLM не нужен."
+  },
+  {
+   "id": null,
+   "name": "Schlong-Physics-Swapper (Telord72612, форк)",
+   "reason": "Переключатель физики SOS-моделей (взрослое), не взаимодействие."
+  },
+  {
+   "id": null,
+   "name": "Standpoint (Telord72612)",
+   "reason": "SKSE-плагин подстановки игрока к цели для точного размещения, для сцен, описания VR-взаимодействия и VR-статуса нет."
+  },
+  {
+   "id": null,
+   "name": "SteamVR-s-wrist-overlay-for-PrismaUI (Telord72612)",
+   "reason": "Наручный оверлей для PrismaUI: прочитана только строка из списка репозиториев, UI-ветка другой группы, не проверялся."
+  },
+  {
+   "id": 184866,
+   "name": "MageVR Reborn / MageVR-SteamVR-2.13-Bridge (Telord72612)",
+   "reason": "Уже разобран в раунде 1 (critic, ix_magic/ix_dont), не входит в моё задание (GAP 1)."
+  },
+  {
+   "id": 72347,
+   "name": "Precision (Accurate Melee Collisions)",
+   "reason": "Плоский боевой фреймворк, в VR не работает; в проекте уже в dont (не путать с PPB)."
+  },
+  {
+   "id": 61479,
+   "name": "Mu Joint Fix (Core rec)",
+   "reason": "Не новый кандидат, а конфликт: с PPB отключить [FixHeight] в MuJointFix.ini (CHANGELOG PPB 1.4.1)."
+  },
+  {
+   "id": 186897,
+   "name": "Immersive Equip VR",
+   "reason": "Другой gap-группы (экипировка руками), не ставить вместе с жестами PPB; здесь не разбирался."
+  },
+  {
+   "id": 185070,
+   "name": "SkyrimVR FBT (GingasVR)",
+   "reason": "Уже в списке раунда 1 (try), к PPB отношения нет, только общая зависимость от VRIK/HIGGS/PLANCK."
+  },
+  {
+   "id": 64442,
+   "name": "Heels Fix",
+   "reason": "Не отдельный пик: в README PPB опционален, в changelog 1.4 назван требованием; в Core нет, решать по каблукам у NPC."
+  },
+  {
+   "id": null,
+   "name": "Next-Gen Decapitations (интеграция в PPB)",
+   "reason": "Не пик: голову, созданную движком, PPB исключает из обработки, поднять её нельзя (известная проблема), в Core opt как есть."
+  }
+ ],
+ "notes": "Итог по GAP 1: одна позиция, Precision Physic Bodies, тег try. Мод реально VR-only и свежий (бета 2.2.0, 13.09.2026), автор имеет гарнитуру и подробно документирует тесты в VR (1.4.x, фриз DF). Но нет ни одного VR-листа с ним, issues пусты (мало пользователей), страница Nexus недоступна и по сниппету могла отставать (1.4.2), поэтому версия 2.2.0 с FOMOD-опциями подтверждена только по GitHub. Не рекомендовать как 'rec'. Главные действия при установке: (1) FOMOD: Equip gestures Off, SMP Off (или On при FSMP), Push On; (2) отключить [FixHeight] в Mu Joint Fix (он rec в Core); (3) патч DF только если ставится DF, патч перезаписывает ini; (4) проверить в MO2 конфликты skeleton*.nif и _1stperson\\skeleton.nif; (5) не ставить никакие зависимости для взрослых функций (TNG, SPS, Penetration Physics, MFG Fix, DD, ZaZ, OStim, SexLab). Ограничения: список файлов релиза и точные имена архивов не прочитаны; значения ключей PPB.ini и выключателей касания головы/поцелуя не прочитаны; совместимость с PLANCK VR Stability Patch, Engine Fixes VR, OAR/Pandora, True Wield VR не подтверждена источниками (автор их не упоминает). Заявление 'пальцы улучшают HIGGS' из описания раунда 1 ослабляю: по документам автора хват HIGGS не использует коллайдеры, пальцы нужны для касаний и толчков NPC. Следы работы с ИИ: коммиты автора с соавтором Claude, на Nexus публикация под ником 'telord', в info.xml автор 'mad72'. Аддонов Telord72612 безопасных и полезных по теме не найдено: все остальные репозитории про LLM SkyrimNet, взрослые устройства или UI другой группы."
+}

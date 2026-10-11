@@ -1,0 +1,718 @@
+{
+ "batch": "D12",
+ "band": "D",
+ "themes": {
+  "clutter_misc": 36
+ },
+ "items": [
+  {
+   "id": 174141,
+   "name": "Quest Item Icon",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-03-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "QuestItemIcon-174141-1-0-0-1772898652.zip"
+   ],
+   "author": "JerryYOJ",
+   "leftover": false,
+   "key": "id:174141",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 83070,
+   "name": "Rally's Honey Pots (High Poly)",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Rally's Honey Pot HP-83070-1-0-1674344813.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:83070",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 49948,
+   "name": "Realistic Dog Sounds",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-05-15",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Realistic Dog Sounds-49948-1-0-0-1621094723.zip"
+   ],
+   "author": "Tate Taylor",
+   "leftover": false,
+   "key": "id:49948",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 110646,
+   "name": "Reasonably Round Dunmer Lanterns - ENB Light",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-11-16",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Reasonably Round Dunmer Lanterns - Lux Patch-110646-1-10-1707352336.7z",
+    "Reasonably Round Dunmer Lanterns-110646-1-20-1713898873.7z",
+    "Reasonably Round Dunmer Lanterns-110646-1-30-1731800444.7z"
+   ],
+   "author": "See Credits",
+   "leftover": false,
+   "key": "id:110646",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 149550,
+   "name": "Sanguine Symphony - More Subtle Sound FX (AOS - ISC - Improvement - Fixes)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-06-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "More Subtle Sound FX for Sanguine Symphony (1.0.1)-149550-1-0-1-1749789915.7z"
+   ],
+   "author": "Seb263 - Dylan James - lazygecko",
+   "leftover": false,
+   "key": "id:149550",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 84331,
+   "name": "Seamless Cubemaps",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-08-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Seamless Cubemaps-84331-1-2-1691105119.7z"
+   ],
+   "author": "Moizoos",
+   "leftover": false,
+   "key": "id:84331",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 154408,
+   "name": "Seamless Dynamic Cubemaps",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-07-16",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Seamless Dynamic Cubemaps 154408 1.4.0 2026-07-16T14-42Z lNkz9L444.7z",
+    "Seamless Dynamic Cubemaps-154408-1-0-0-1751948595.7z",
+    "Seamless Dynamic Cubemaps-154408-1-0-1-1752716251.7z"
+   ],
+   "author": "Leo",
+   "leftover": false,
+   "key": "id:154408",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 99465,
+   "name": "Shoeless Bandit Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-14",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Shoeless Bandit Fix - Skypatcher-99465-1-0-0-1705249521.zip",
+    "Shoeless Bandit Fix-99465-1-0-1693228240.zip"
+   ],
+   "author": "Admiral30",
+   "leftover": false,
+   "key": "id:99465",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 58927,
+   "name": "Simple Block Sparks- Script Free",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-01-29",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Simple Block Sparks - v0.31 AE-58927-v0-31-1643453628.7z",
+    "Simple Block Sparks - v0.31 SE-58927-v0-31-1643453449.7z"
+   ],
+   "author": "Maxsu",
+   "leftover": false,
+   "key": "id:58927",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 164546,
+   "name": "State Behavior Framework",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-08",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "State Behavior Framework 2.0 164546 2.0 2026-08-08T17-07Z 8gJHT4FCH.zip",
+    "State Behavior Framework-164546-1-6-1780263030.zip"
+   ],
+   "author": "Beefclot-COACHWICKWACK",
+   "leftover": false,
+   "key": "id:164546",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 57477,
+   "name": "Storm Lightning for SSE and VR (Minty Lightning 2019) - Settings Loader",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-11-15",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "1_Storm Lightning for SSE and VR (Minty Lightning 2019) - Settings Loader-57477-2-0-1636997956.7z",
+    "Storm Lightning for SSE and VR (Minty Lightning 2019) - Settings Loader-57477-2-0-1636997956.7z"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:57477",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 11999,
+   "name": "The Elder Scrolls V Rewritten - Arvak SE",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Dawnguard Rewritten Arvak 1.1.1-11999-1-1-1.zip"
+   ],
+   "author": "Oriius and Ph0rce",
+   "leftover": false,
+   "key": "id:11999",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 16338,
+   "name": "The Eloquent Reader - True Scholar SE Edition - Increase speech by reading book.",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-11-16",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "The Eloquent Reader - True Scholar SE Edition - Less XP-16338-1-0.7z",
+    "The Eloquent Reader - True Scholar SE Edition - Medium XP (Main File needed)-16338-1-0.7z",
+    "The Eloquent Reader - True Scholar SE Edition-16338-1-1-1573929801.7z"
+   ],
+   "author": "Daiyus updated by Sthaagg",
+   "leftover": false,
+   "key": "id:16338",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 54400,
+   "name": "TrueHUD - Unslaad Boss Bars ini",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-08-23",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "True Directional Movement - Unslaad Boss Bars ini-54400-V1-1629747797.zip"
+   ],
+   "author": "Xeno",
+   "leftover": false,
+   "key": "id:54400",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 64728,
+   "name": "Twitching Plates Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-03-09",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Twitching Plates Fix-64728-1-1-1646869593.7z"
+   ],
+   "author": "AndrealphusVIII",
+   "leftover": false,
+   "key": "id:64728",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 97674,
+   "name": "Ultimate Animated Potions NG",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-02-12",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Ultimate Animated Potions NG-97674-2-7-1729565652.7z",
+    "Ultimate Animated Potions NG-97674-2-8-1739367782.7z"
+   ],
+   "author": "Flip777",
+   "leftover": false,
+   "key": "id:97674",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 36916,
+   "name": "Unofficial Carved Brink Patch",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-06-12",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Unofficial Carved Brink Patch Harder Bosses Version-36916-1-3-1591989877.zip",
+    "Unofficial Carved Brink Patch-36916-1-3-1591653183.zip"
+   ],
+   "author": "LordMala",
+   "leftover": false,
+   "key": "id:36916",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 123984,
+   "name": "Wood Chopping Camera Glitch Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-07-11",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Wood Chopping Camera Glitch Fix-123984-1-0-1720702820.zip"
+   ],
+   "author": "GiraPomba",
+   "leftover": false,
+   "key": "id:123984",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 64421,
+   "name": "eFPS - Miscellaneous Patches",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-03-03",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "1_eFPS - Redbag's Rorikstead-64421-1-2-1646308615.7z",
+    "eFPS - Miscellaneous Patches-64421-1-2-1646265568.7z",
+    "eFPS - Redbag's Rorikstead-64421-1-2-1646308615.7z"
+   ],
+   "author": "StockholmsStolthet",
+   "leftover": false,
+   "key": "id:64421",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 151113,
+   "name": "invisible rune explosion fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-06-11",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "invisible rune explosion fix - 1.5.97-151113-1-0-4-1749620799.7z",
+    "invisible rune explosion fix-151113-1-0-4-1749620705.7z"
+   ],
+   "author": "styyx",
+   "leftover": false,
+   "key": "id:151113",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 179043,
+   "name": "1st Person Vertical Aim Fix",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "1st Person Vertical Aim Fix-179043-1-1777749632.zip"
+   ],
+   "author": "Beefclot",
+   "leftover": false,
+   "key": "id:179043",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 12937,
+   "name": "A Matter of Time - A HUD clock widget",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "AMatterOfTime_v3_0_0_alpha_4-12937-v3-0-0a4.7z"
+   ],
+   "author": "SkyAmigo",
+   "leftover": false,
+   "key": "id:12937",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 69150,
+   "name": "A collection of mesh patches by Andrias Bartlett",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "1-69150-1-0-1654449081.zip",
+    "Assorted mesh fixes - Major Cities Mesh Overhaul-69150-1-05-1667389424.zip",
+    "Assorted mesh fixes - Major Cities Mesh Overhaul-69150-1-16-1713370468.zip"
+   ],
+   "author": "AndriasBartlett",
+   "leftover": false,
+   "key": "id:69150",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 99786,
+   "name": "AMON ENB REBORN for NAT 3",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "AMON ENB for NAT III 2025-99786-1-1741540628.rar",
+    "AMON ENB for NAT III 2025-99786-7-1763512045.rar",
+    "AMON ENB for NAT III 2026-99786-1-1769208616.rar"
+   ],
+   "author": "zxamonxz",
+   "leftover": false,
+   "key": "id:99786",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 5877,
+   "name": "Alchemy Potions and Food Adjustments",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-10-28",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Alchemy Potions and Food Adjustments V2.5 FOMOD Installer-5877-2-5-1572294165.7z"
+   ],
+   "author": "Skepmanmods",
+   "leftover": false,
+   "key": "id:5877",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 111556,
+   "name": "Animated Ships  Patches",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-18",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Animated Ships Patches FMOD All in One-111556-4-2-1709673777.rar",
+    "Animated Ships Patches FMOD All in One-111556-4-3-1710765053.rar"
+   ],
+   "author": "RavenKZP",
+   "leftover": false,
+   "key": "id:111556",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 51517,
+   "name": "Arvak Burning Hooves Restored - Cut Content Restoration",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-08-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "EVE - Arvak Burning Hooves Restored - Compatibility Version-51517-1-0a-1634502213.7z",
+    "EVE - Arvak Burning Hooves Restored - ESL-51517-1-0-1-1661132022.7z"
+   ],
+   "author": "Exalderan",
+   "leftover": false,
+   "key": "id:51517",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 111560,
+   "name": "Auri - Meridia Order Patch",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-13",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Auri - Meridia Order Patch-111560-1-0-1707841447.zip"
+   ],
+   "author": "coco9515",
+   "leftover": false,
+   "key": "id:111560",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 134404,
+   "name": "Auto Audio Switch",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-11-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Auto Audio Switch-134404-1-0-3-1732152589.7z"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:134404",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 181459,
+   "name": "Auto Name Enchantments - Durability VR Patch",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-06-01",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Auto Name Enchantments - Durability VR Patch-181459-1-1780355096.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:181459",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 50109,
+   "name": "BURP - Book Unity and Revamp Project",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "BURP - Desatured Textures-50109-1-1-1622733710.7z",
+    "Hotfix - BS Bruma-50109-1-1-1-1624100543.7z"
+   ],
+   "author": "LegacyCloud",
+   "leftover": false,
+   "key": "id:50109",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 75936,
+   "name": "Better Ladder UV Mapping",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-10-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Better Ladder UV Mapping _ Animated Clutter Patch-75936-1-1-1665414831.rar",
+    "Better Ladder UV Mapping-75936-1-1-1665081093.rar",
+    "Better_Ladder_UV_Mapping_1.2_L5WQbqNT2.rar"
+   ],
+   "author": "Pieter82",
+   "leftover": false,
+   "key": "id:75936",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 172046,
+   "name": "Block Cancel Fix",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-09-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Block Cancel Fix 172046 1.1.1 8gJHT4jZf.zip",
+    "Block Cancel Fix 172046 2.1 2026-09-15T10-00Z hfH9s6zZK.zip",
+    "Block Cancel Fix-172046-1-0-1770713440.7z"
+   ],
+   "author": "VanCHz",
+   "leftover": false,
+   "key": "id:172046",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 58823,
+   "name": "CC Myrwatch Bug fix-Anniversary Edition",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-11-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "CC Myrwatch Bug fix-USSEP-58823-1-0-1637599802.zip"
+   ],
+   "author": "Firegtx",
+   "leftover": false,
+   "key": "id:58823",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 78659,
+   "name": "CC Staves - Mysticism Consistency Patch",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "CC Staves Mysticism Consistency Patch-78659-1-7-1688770085.rar"
+   ],
+   "author": "Ooreeoo",
+   "leftover": false,
+   "key": "id:78659",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 149913,
+   "name": "Campfire - Script Optimization",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-13",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Campfire - Script Optimization-149913-1-1747076439.rar",
+    "Hotkey modded menu fix Patch-149913-1-1747135977.rar"
+   ],
+   "author": "AlexGH91",
+   "leftover": false,
+   "key": "id:149913",
+   "theme": "clutter_misc"
+  }
+ ]
+}

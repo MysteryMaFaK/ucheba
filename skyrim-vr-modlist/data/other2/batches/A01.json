@@ -1,0 +1,1026 @@
+{
+ "batch": "A01",
+ "band": "A",
+ "themes": {
+  "arch_city": 27,
+  "armor": 4
+ },
+ "items": [
+  {
+   "id": 75431,
+   "name": "FYX - Riften Canal and Round Posts",
+   "vr": 5,
+   "se": 11,
+   "score": 21,
+   "band": "A",
+   "newest": "2024-11-23",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 11,
+   "files": [
+    "FYX - Riften Canal and Round Posts - Parallax-75431-1-0-2-1-1732347134.7z",
+    "FYX - Riften Canal and Round Posts - Parallax-75431-1-0-2-1663598284.7z",
+    "FYX - Riften Canal and Round Posts - RYFTEN M-Y-R - Parallax-75431-1-0-1663338559.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:75431",
+   "theme": "arch_city"
+  },
+  {
+   "id": 66715,
+   "name": "FYX - Smooth Wells",
+   "vr": 3,
+   "se": 13,
+   "score": 19,
+   "band": "A",
+   "newest": "2022-05-30",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 13,
+   "files": [
+    "FYX - Smooth Wells - CotN Falkreath-66715-1-0-1-1650518348.7z",
+    "FYX - Smooth Wells - Parallax-66715-1-0-5-1653925325.7z",
+    "FYX - Smooth Wells - Water in Wells - Imperial Well - Parallax-66715-1-0-1650269843.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:66715",
+   "theme": "arch_city"
+  },
+  {
+   "id": 65533,
+   "name": "FYX - Candlehearth Hall Chimney",
+   "vr": 4,
+   "se": 9,
+   "score": 17,
+   "band": "A",
+   "newest": "2024-04-17",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 9,
+   "files": [
+    "FYX - Candlehearth Hall Chimney - Icy Windhelm-65533-1-0-1648314944.7z",
+    "FYX - Candlehearth Hall Chimney - IcyWH - Parallax-65533-1-1-1713373520.7z",
+    "FYX - Candlehearth Hall Chimney - MCMO - Parallax-65533-1-1-1713373426.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:65533",
+   "theme": "arch_city"
+  },
+  {
+   "id": 77355,
+   "name": "FYX - Jorrvaskr",
+   "vr": 4,
+   "se": 8,
+   "score": 16,
+   "band": "A",
+   "newest": "2023-02-26",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 8,
+   "files": [
+    "A) FYX - Jorrvaskr - Parallax-77355-1-0-4-1677410395.7z",
+    "A) FYX - Jorrvaskr-77355-1-0-4-1677410367.7z",
+    "B) FYX - Jorrvaskr - NO Color Edit - Parallax-77355-1-0-3-1666521144.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:77355",
+   "theme": "arch_city"
+  },
+  {
+   "id": 4298,
+   "name": "Interior Floating Fog Remover",
+   "vr": 5,
+   "se": 6,
+   "score": 16,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "FUS",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "No Floating Fog-4298-1-1.7z"
+   ],
+   "author": "747823",
+   "leftover": false,
+   "key": "id:4298",
+   "theme": "arch_city"
+  },
+  {
+   "id": 86526,
+   "name": "FYX - Eastern Empire Company Building",
+   "vr": 1,
+   "se": 12,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-03-11",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 12,
+   "files": [
+    "FYX - (B) Eastern Empire Company Building - SMIM - Parallax-86526-1-0-2-1-1678531675.7z",
+    "FYX - (B) Eastern Empire Company Building - SMIM-86526-1-0-2-1-1678531647.7z",
+    "FYX - Eastern Empire Company Building - eFPS PATCH-86526-1-0-1678297690.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:86526",
+   "theme": "arch_city"
+  },
+  {
+   "id": 73063,
+   "name": "FYX - The Temple of Mara",
+   "vr": 1,
+   "se": 12,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-10-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 12,
+   "files": [
+    "FYX - Temple of Mara - Parallax NO Ornament-73063-1-0-3-1697693062.7z",
+    "FYX - Temple of Mara - W ENB Light Parallax NO Orn-73063-1-0-3-1697693222.7z",
+    "FYX - The Temple of Mara - ENB Light Windows - Parallax-73063-1-0-3b-1660584174.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:73063",
+   "theme": "arch_city"
+  },
+  {
+   "id": 53643,
+   "name": "High Gate Ruins Puzzle Reset Fix",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2023-05-26",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "High Gate Ruins Puzzle Reset Fix-53643-0-2-1628676419.7z",
+    "High Gate Ruins Puzzle Reset Fix-53643-0-3-1685145181.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:53643",
+   "theme": "arch_city"
+  },
+  {
+   "id": 82728,
+   "name": "Markarth Fixed AF",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2024-01-30",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "Markarth Fixed AF-82728-1-4-1-1675088847.7z",
+    "Markarth Fixed AF-82728-1-4-1-1706640280.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:82728",
+   "theme": "arch_city"
+  },
+  {
+   "id": 1937,
+   "name": "RUSTIC WINDOWS - Special Edition",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2020-04-11",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "RUSTIC WINDOWS - Special Edition - 2K-1937-2-0-1586569415.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": true,
+   "key": "id:1937",
+   "theme": "arch_city"
+  },
+  {
+   "id": 21031,
+   "name": "Ruins Clutter Improved - Fixes",
+   "vr": 5,
+   "se": 4,
+   "score": 14,
+   "band": "A",
+   "newest": "2022-01-18",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Ruins Clutter Improved - Fixes 1.1-21031-1-1-1549805990.rar",
+    "Ruins Clutter Improved - Fixes 1.2-21031-1-2-1642516628.rar"
+   ],
+   "author": "mnikjom raiserfx",
+   "leftover": false,
+   "key": "id:21031",
+   "theme": "arch_city"
+  },
+  {
+   "id": 38912,
+   "name": "SD's Farmhouse Fences SE",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2020-08-02",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "1k Farmhouse Fences SE Version 1-38912-1-0-1596336823.zip",
+    "1k Farmhouse Fences SE Version 2-38912-1-0-1596338861.zip",
+    "1k Slightly Desaturated Version 2 Deffuse-38912-1-0-1596339250.zip"
+   ],
+   "author": "SDlutz",
+   "leftover": false,
+   "key": "id:38912",
+   "theme": "arch_city"
+  },
+  {
+   "id": 67631,
+   "name": "[серия «js dwemer», 5 модов] JS Dwemer Artifacts SE и др.",
+   "vr": 2,
+   "se": 10,
+   "score": 14,
+   "band": "A",
+   "newest": "2024-03-21",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JS Dwemer Artifacts SE - 2k Textures-67631-1-0-1651850892.7z",
+    "JS Dwemer Artifacts SE - 2k Textures-67631-1-1-1652140631.7z",
+    "JS Dwemer Artifacts SE - GDPR Patch-67631-1-0-1711053958.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:67631",
+   "series": "js dwemer",
+   "members": [
+    {
+     "id": 67631,
+     "name": "JS Dwemer Artifacts SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2024-03-21",
+     "files": [
+      "JS Dwemer Artifacts SE - 2k Textures-67631-1-0-1651850892.7z"
+     ]
+    },
+    {
+     "id": 70257,
+     "name": "JS Dwemer Control Cube SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2024-03-21",
+     "files": [
+      "JS Dwemer Control Cube SE - 1k Textures-70257-1-0-1656176348.7z"
+     ]
+    },
+    {
+     "id": 67026,
+     "name": "JS Dwemer Kitchenware SE",
+     "vr": 2,
+     "se": 10,
+     "newest": "2025-05-12",
+     "files": [
+      "JS Dwemer Kitchenware SE - 2k Textures-67026-1-0-1650800588.7z"
+     ]
+    },
+    {
+     "id": 67162,
+     "name": "JS Dwemer Ichor Barrels SE",
+     "vr": 2,
+     "se": 9,
+     "newest": "2024-04-26",
+     "files": [
+      "JS Dwemer Ichor Barrels SE - 2k Textures-67162-1-01-1651062610.7z"
+     ]
+    },
+    {
+     "id": 68570,
+     "name": "JS Dwemer Puzzle Cube SE",
+     "vr": 2,
+     "se": 9,
+     "newest": "2024-03-21",
+     "files": [
+      "JS Dwemer Puzzle Cube SE - 1k Textures-68570-1-0-1653418333.7z"
+     ]
+    }
+   ],
+   "theme": "arch_city"
+  },
+  {
+   "id": 40651,
+   "name": "Carriage and Ferry Travel Overhaul - Fixes and Winterhold",
+   "vr": 4,
+   "se": 5,
+   "score": 13,
+   "band": "A",
+   "newest": "2021-09-29",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "1_CFTO - Fixes and Winterhold-40651-3-0-1632941181.7z",
+    "CFTO - Fixes and Winterhold-40651-3-0-1632941181.7z"
+   ],
+   "author": "ViktoriaLanders",
+   "leftover": false,
+   "key": "id:40651",
+   "theme": "arch_city"
+  },
+  {
+   "id": 24243,
+   "name": "Medieval Spirits",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2019-03-29",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Medieval Spirits-24243-1-0-2-1553889655.7z"
+   ],
+   "author": "mathy79",
+   "leftover": false,
+   "key": "id:24243",
+   "theme": "arch_city"
+  },
+  {
+   "id": 46334,
+   "name": "Praedy's College of Winterhold - SE",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2025-05-11",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Praedy's College of Winterhold 2K-46334-3-1-1738186589.7z",
+    "Praedy's College of Winterhold 2K-46334-3-2-1746971865.7z",
+    "Praedy's College of Winterhold 4K-46334-3-1-1738186795.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": true,
+   "key": "id:46334",
+   "theme": "arch_city"
+  },
+  {
+   "id": 61536,
+   "name": "RYFTEN - Consistency of windows in Riften",
+   "vr": 1,
+   "se": 11,
+   "score": 13,
+   "band": "A",
+   "newest": "2026-06-10",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 11,
+   "files": [
+    "RYFTEN - Consistency of windows in Riften - JK's Haelga's Bunkhouse PATCH-61536-1-1-1-1643130457.7z",
+    "RYFTEN - Consistency of windows in Riften - JK's The Bee and Barb PATCH-61536-1-1-1643114015.7z",
+    "RYFTEN - Consistency of windows in Riften JK's Mistveil Keep-61536-1-2-1-1645957267.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:61536",
+   "theme": "arch_city"
+  },
+  {
+   "id": 69125,
+   "name": "Whiterun Objects SMIMed (and fixes too)",
+   "vr": 4,
+   "se": 5,
+   "score": 13,
+   "band": "A",
+   "newest": "2025-05-17",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Whiterun Objects SMIMed-69125-0-3-1-1655474731.7z",
+    "Whiterun Objects SMIMed-69125-0-3-1654504783.7z",
+    "Whiterun Objects SMIMed-69125-0-6-0-1747443925.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:69125",
+   "theme": "arch_city"
+  },
+  {
+   "id": 41463,
+   "name": "Word Wall Transparency Fix for ENB",
+   "vr": 2,
+   "se": 9,
+   "score": 13,
+   "band": "A",
+   "newest": "2023-08-16",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Word Wall Transparency Fix for ENB-41463-0-2-1602937156.rar",
+    "Word Wall Transparency Fix for ENB-41463-0-3-1692153527.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:41463",
+   "theme": "arch_city"
+  },
+  {
+   "id": 35910,
+   "name": "[серия «interiors patch collection», 3 модов] JK's Interiors Patch Collection и др.",
+   "vr": 1,
+   "se": 11,
+   "score": 13,
+   "band": "A",
+   "newest": "2026-01-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 11,
+   "files": [
+    "JK's Interiors Patch Collection-35910-5-25-1738931483.rar",
+    "JK's Interiors Patch Collection-35910-5-26-1743842929.rar",
+    "JK's Interiors Patch Collection-35910-5-29-1-1767693949.rar"
+   ],
+   "author": "DarkMaster06 Timiku Czasior Monops blitzicestorm Shekhinaga Neko14789 Teabag86 TitansBane and Janquel",
+   "leftover": false,
+   "key": "id:35910",
+   "series": "interiors patch collection",
+   "members": [
+    {
+     "id": 35910,
+     "name": "JK's Interiors Patch Collection",
+     "vr": 1,
+     "se": 11,
+     "newest": "2026-01-06",
+     "files": [
+      "JK's Interiors Patch Collection-35910-5-25-1738931483.rar"
+     ]
+    },
+    {
+     "id": 61416,
+     "name": "JK's Guild HQ Interiors Patch Collection",
+     "vr": 1,
+     "se": 10,
+     "newest": "2026-04-25",
+     "files": [
+      "JK's Guild HQ Interiors Patch Collection-61416-1-27-1736622924.rar"
+     ]
+    },
+    {
+     "id": 91604,
+     "name": "Snazzy Interiors Patch Collection",
+     "vr": 0,
+     "se": 6,
+     "newest": "2026-08-07",
+     "files": [
+      "Riften Snow-Shod Manor - Lux Orbis Patch-91604-1-44-2-1740609520.rar"
+     ]
+    }
+   ],
+   "theme": "arch_city"
+  },
+  {
+   "id": 78566,
+   "name": "FYX - RowBoat",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-03-25",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 6,
+   "files": [
+    "FYX - RowBoat-78566-1-0-4-1679734418.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:78566",
+   "theme": "arch_city"
+  },
+  {
+   "id": 1737,
+   "name": "Hold Border Banners",
+   "vr": 4,
+   "se": 4,
+   "score": 12,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Hold Border Banners - No Text Version-1737-1-1.rar",
+    "Hold Border Banners-1737-1-1.rar"
+   ],
+   "author": "Thicketford",
+   "leftover": false,
+   "key": "id:1737",
+   "theme": "arch_city"
+  },
+  {
+   "id": 33636,
+   "name": "JK's Belethor's General Goods.",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2020-03-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JK's Belethor's General Goods.-33636-1-1-0-1584494034.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:33636",
+   "theme": "arch_city"
+  },
+  {
+   "id": 44642,
+   "name": "JK's Bits and Pieces",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2021-01-23",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JK's Bits and Pieces-44642-1-0-0-1611364361.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:44642",
+   "theme": "arch_city"
+  },
+  {
+   "id": 45617,
+   "name": "JK's Candlehearth Hall",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2021-02-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JK's Candlehearth Hall-45617-1-0-0-1613177179.rar"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:45617",
+   "theme": "arch_city"
+  },
+  {
+   "id": 47942,
+   "name": "JK's Sadri's Used Wares",
+   "vr": 1,
+   "se": 10,
+   "score": 12,
+   "band": "A",
+   "newest": "2021-10-23",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 10,
+   "files": [
+    "JK's Sadris Used Wares-47942-1-0-0-1617454919.rar",
+    "JK's Sadris Used Wares-47942-1-0-1-1635026346.zip"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:47942",
+   "theme": "arch_city"
+  },
+  {
+   "id": 44388,
+   "name": "Static Mesh improvement Mod - SMIM - Quality Addon",
+   "vr": 3,
+   "se": 6,
+   "score": 12,
+   "band": "A",
+   "newest": "2023-11-23",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "SMIM Quality Addon 1.5-44388-1-5-1700735143.7z",
+    "Smim - Quality Addon-44388-1-3-1610838572.7z"
+   ],
+   "author": "Pfuscher and Brumbek and Rudy",
+   "leftover": false,
+   "key": "id:44388",
+   "theme": "arch_city"
+  },
+  {
+   "id": 68793,
+   "name": "[серия «cathedral 3d», 17 модов] Cathedral - 3D Clover Plant и др.",
+   "vr": 8,
+   "se": 17,
+   "score": 29,
+   "band": "A",
+   "newest": "2024-12-09",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Stormcrown VR",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 13,
+   "files": [
+    "Cathedral - 3D Clovers - Full 3D PBR-68793-4-1733781193.zip",
+    "Cathedral - 3D Clovers - Full 3D-68793-3-0-1653807012.7z",
+    "Cathedral - 3D Clovers - Full 3D-68793-4-1706832772.zip"
+   ],
+   "author": "Dr Jacopo",
+   "leftover": false,
+   "key": "id:68793",
+   "series": "cathedral 3d",
+   "members": [
+    {
+     "id": 68793,
+     "name": "Cathedral - 3D Clover Plant",
+     "vr": 8,
+     "se": 13,
+     "newest": "2024-12-09",
+     "files": [
+      "Cathedral - 3D Clovers - Full 3D PBR-68793-4-1733781193.zip"
+     ]
+    },
+    {
+     "id": 69415,
+     "name": "Cathedral - 3D Snow Berries",
+     "vr": 5,
+     "se": 17,
+     "newest": "2022-06-19",
+     "files": [
+      "Cathedral - 3D Snow Berries - Green and Variegated-69415-1-0-1655653694.7z"
+     ]
+    },
+    {
+     "id": 68310,
+     "name": "Cathedral - 3D Lavender",
+     "vr": 5,
+     "se": 14,
+     "newest": "2024-12-11",
+     "files": [
+      "Cathedral - 3D Lavender - Desaturated Texture-68310-1-3-1654802880.7z"
+     ]
+    },
+    {
+     "id": 68068,
+     "name": "Cathedral - 3D Tundra Cotton",
+     "vr": 5,
+     "se": 14,
+     "newest": "2022-05-29",
+     "files": [
+      "1_Cathedral - 3D Tundra Cotton-68068-2-0-1653868046.7z"
+     ]
+    },
+    {
+     "id": 85694,
+     "name": "Cathedral - 3D Dragons Tongue",
+     "vr": 4,
+     "se": 15,
+     "newest": "2023-02-25",
+     "files": [
+      "1_Cathedral - 3D Dragons Tongue - Dark Orange-85694-1-2-1677328513.zip"
+     ]
+    },
+    {
+     "id": 76460,
+     "name": "Cathedral - 3D Deathbell",
+     "vr": 4,
+     "se": 13,
+     "newest": "2022-10-10",
+     "files": [
+      "1_Cathedral - 3D Deathbell-76460-1-1-1664789773.zip"
+     ]
+    },
+    {
+     "id": 67619,
+     "name": "Cathedral - 3D Thistle",
+     "vr": 5,
+     "se": 10,
+     "newest": "2023-01-19",
+     "files": [
+      "2_Cathedral - 3D Thistle-67619-2-1-1674168132.zip"
+     ]
+    },
+    {
+     "id": 81284,
+     "name": "Cathedral - 3D Nightshade",
+     "vr": 4,
+     "se": 11,
+     "newest": "2023-01-06",
+     "files": [
+      "2_Cathedral - 3D Nightshade-81284-2-4-1672997434.zip"
+     ]
+    },
+    {
+     "id": 82978,
+     "name": "Cathedral - 3D Sword Ferns",
+     "vr": 4,
+     "se": 11,
+     "newest": "2023-06-22",
+     "files": [
+      "1_Cathedral - 3D Sword Ferns-82978-4-1687418487.zip"
+     ]
+    },
+    {
+     "id": 110726,
+     "name": "Cathedral - 3D Stonecrop",
+     "vr": 3,
+     "se": 11,
+     "newest": "2024-02-09",
+     "files": [
+      "Cathedral - 3D Stone-110726-1-2-1707522429.zip"
+     ]
+    },
+    {
+     "id": 108747,
+     "name": "Cathedral - 3D Tundra Shrubs",
+     "vr": 3,
+     "se": 10,
+     "newest": "2024-01-09",
+     "files": [
+      "1_Cathedral - 3D Tundra Shrubs-108747-1-1-1704769901.zip"
+     ]
+    },
+    {
+     "id": 42032,
+     "name": "Cathedral - 3D Pine Grass",
+     "vr": 4,
+     "se": 4,
+     "newest": "2023-01-22",
+     "files": [
+      "Cathedral - 3D Pine Grass - Full 3D Coverage-42032-0-462-1607622295.7z"
+     ]
+    },
+    {
+     "id": 94791,
+     "name": "Cathedral - 3D Pine Shrubs",
+     "vr": 4,
+     "se": 4,
+     "newest": "2023-07-10",
+     "files": [
+      "1_Cathedral - 3D Pine Shrubs-94791-1-2-1688996056.zip"
+     ]
+    },
+    {
+     "id": 86392,
+     "name": "Cathedral - 3D Thicket and Dead Shrub",
+     "vr": 1,
+     "se": 9,
+     "newest": "2023-03-05",
+     "files": [
+      "Cathedral - 3D Thicket and Dead Shrub-86392-1-1678043151.zip"
+     ]
+    },
+    {
+     "id": 85786,
+     "name": "Cathedral - 3D Dragons Tongue with Glow Map and ENB Light",
+     "vr": 0,
+     "se": 6,
+     "newest": "2023-02-26",
+     "files": [
+      "Cathedral - 3D Dragons Tongue - Glow Map and ENB Light - Performance-85786-1-3-1677418403.rar"
+     ]
+    },
+    {
+     "id": 110898,
+     "name": "Cathedral 3D Plants - Darker and Desat",
+     "vr": 1,
+     "se": 4,
+     "newest": "2024-03-14",
+     "files": [
+      "Cathedral 3D Plants - Dark and Desat 1K - 2K-110898-1-0-1710414157.7z"
+     ]
+    },
+    {
+     "id": 112136,
+     "name": "Cathedral - 3D Stonecrop - 75 Percent Size",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-02-20",
+     "files": [
+      "Cathedral - 3D Stonecrop - 75 Percent Size-112136-1-1708440056.zip"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 66416,
+   "name": "[серия «fyx windhelm», 4 модов] FYX - Windhelm Stable Roof и др.",
+   "vr": 4,
+   "se": 11,
+   "score": 19,
+   "band": "A",
+   "newest": "2023-10-19",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 11,
+   "files": [
+    "FYX - Windhelm Stable Roof - Parallax-66416-1-0-2-1697694651.7z",
+    "FYX - Windhelm Stable Roof-66416-1-0-2-1650032035.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:66416",
+   "series": "fyx windhelm",
+   "members": [
+    {
+     "id": 66416,
+     "name": "FYX - Windhelm Stable Roof",
+     "vr": 4,
+     "se": 11,
+     "newest": "2023-10-19",
+     "files": [
+      "FYX - Windhelm Stable Roof - Parallax-66416-1-0-2-1697694651.7z"
+     ]
+    },
+    {
+     "id": 60973,
+     "name": "FYX - Windhelm Entrance",
+     "vr": 3,
+     "se": 3,
+     "newest": "2022-01-02",
+     "files": [
+      "Windhelm Entrance Fix - Windhelm Gate Fix ESL PATCH-60973-1-0-1-1641128612.7z"
+     ]
+    },
+    {
+     "id": 98260,
+     "name": "FYX - Windhelm Graveyard",
+     "vr": 1,
+     "se": 6,
+     "newest": "2026-06-27",
+     "files": [
+      "FYX - Windhelm Graveyard - JK's Patch - Parallax-98260-1-0-1-1692280407.7z"
+     ]
+    },
+    {
+     "id": 119282,
+     "name": "FYX - Windhelm Docks Entrance Consistency",
+     "vr": 1,
+     "se": 4,
+     "newest": "2024-05-27",
+     "files": [
+      "FYX - WH Docks Entrance - Lux Orbis - Parallax-119282-1-0-1-1-1716840867.7z"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 4294,
+   "name": "Gemling Queen Jewelry SE",
+   "vr": 4,
+   "se": 10,
+   "score": 18,
+   "band": "A",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 10,
+   "files": [
+    "1_Gemling Queen Jewelry SE-4294-4-1SE.7z",
+    "Gemling Queen Jewelry SE-4294-4-1SE.7z"
+   ],
+   "author": "Saerileth",
+   "leftover": true,
+   "key": "id:4294",
+   "theme": "armor"
+  },
+  {
+   "id": 35485,
+   "name": "RUSTIC AMULETS - Special Edition",
+   "vr": 5,
+   "se": 8,
+   "score": 18,
+   "band": "A",
+   "newest": "2020-06-08",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "RUSTIC AMULETS SE-35485-2-0-1591654748.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": true,
+   "key": "id:35485",
+   "theme": "armor"
+  }
+ ]
+}

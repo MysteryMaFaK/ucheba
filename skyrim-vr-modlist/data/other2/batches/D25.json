@@ -1,0 +1,731 @@
+{
+ "batch": "D25",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 19815,
+   "name": "Finding Velehk Sain",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-03-27",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Finding Velehk Sain-19815-1-0-15-1585314438.7z"
+   ],
+   "author": "SomethingObscure",
+   "leftover": false,
+   "key": "id:19815",
+   "theme": "other"
+  },
+  {
+   "id": 75663,
+   "name": "Foamimi's Salt and Wind Retexture Hub",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-05-31",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Children of the North - Salt and Wind-75663-1-0-0-1706718553.7z",
+    "Elevated NPCs - Salt and Wind-75663-1-0-1677208862.7z",
+    "Foamimi's Salt and Wind Retexture Hub-75663-3-0-0-1717138275.7z"
+   ],
+   "author": "Mashanen - Repzik - dovaya",
+   "leftover": false,
+   "key": "id:75663",
+   "theme": "other"
+  },
+  {
+   "id": 145403,
+   "name": "Fur Shaders for Xavbio Retextures Redux",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-04-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Fur Shaders for Xavbio Retextures Redux 3BA-145403-1-12-1745328608.zip",
+    "Fur Shaders for Xavbio Retextures Redux Full Res-145403-1-1-1744512528.zip",
+    "Fur Shaders for Xavbio Retextures Redux Half Res-145403-1-1-1744512592.zip"
+   ],
+   "author": "Mic",
+   "leftover": false,
+   "key": "id:145403",
+   "theme": "other"
+  },
+  {
+   "id": 121232,
+   "name": "GG's Complex Silverware",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-06-21",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Assorted Vampire Tweaks Copper addon-121232-1-4-1718695990.rar",
+    "GG's Complex Silverware (standalone CM cubemap)-121232-1-5-1718970018.7z",
+    "GG's Complex Silverware - STAC addon-121232-1-5-1718970112.7z"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:121232",
+   "theme": "other"
+  },
+  {
+   "id": 32998,
+   "name": "GLENMORIL SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-09",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "(FLM) WorldSpaces Patches for Glenmoril-32998-0-95-50-1694611244.rar",
+    "GLENMORIL SE v0.95.0.r1 Alpha-32998-0-95-0-1654957364.7z",
+    "GLENMORIL SE v0.96 Alpha-32998-0-96-0-1747301950.rar"
+   ],
+   "author": "Vicn",
+   "leftover": false,
+   "key": "id:32998",
+   "theme": "other"
+  },
+  {
+   "id": 80218,
+   "name": "Geirmund's Hall Pull Chain",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-12-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Geirmund's Hall Pull Chain-80218-1-0-1670436107.7z"
+   ],
+   "author": "Lively",
+   "leftover": false,
+   "key": "id:80218",
+   "theme": "other"
+  },
+  {
+   "id": 91221,
+   "name": "Golden Ship Model Replacer",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-05-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Golden Ship Model Replacer - 1K-91221-1-0-0-1683938270.7z",
+    "Golden Ship Model Replacer - 2K-91221-1-0-0-1683938402.7z"
+   ],
+   "author": "Sync67",
+   "leftover": false,
+   "key": "id:91221",
+   "theme": "other"
+  },
+  {
+   "id": 142422,
+   "name": "Grimoire - An Enchanting Addon for Sentinel",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-02-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Grimoire - An Enchanting Addon for Sentinel-142422-1-0-0-1740113124.7z"
+   ],
+   "author": "Thuldor",
+   "leftover": false,
+   "key": "id:142422",
+   "theme": "other"
+  },
+  {
+   "id": 28497,
+   "name": "HD Wheat 2K 4K",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-09-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "HD Wheat 1K 2K 2.0-28497-2-0-1567897059.zip",
+    "HD Wheat 2K 4K-28497-2-0-1567897157.zip"
+   ],
+   "author": "Abendaron",
+   "leftover": false,
+   "key": "id:28497",
+   "theme": "other"
+  },
+  {
+   "id": 131542,
+   "name": "HFs - Diverse (BOS) Satchel",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-03-28",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "HFs - Diverse (BOS) Satchel - 2K-131542-1-1728935570.zip",
+    "HFs - Diverse (BOS) Satchel - 4K-131542-1-1729060313.zip",
+    "HFs - Diverse Moddel Swapper - Satchel - 2K-131542-1-1-1743188581.zip"
+   ],
+   "author": "Halffaces",
+   "leftover": false,
+   "key": "id:131542",
+   "theme": "other"
+  },
+  {
+   "id": 123874,
+   "name": "HFs - Horker Meat",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-07-22",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "HFs - Horker Meat - 1K-123874-1-01-1721631195.zip"
+   ],
+   "author": "Halffaces",
+   "leftover": false,
+   "key": "id:123874",
+   "theme": "other"
+  },
+  {
+   "id": 91645,
+   "name": "Happier NAT III Weathers",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-05-27",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Happier NAT III Weathers for NAT 3.1.1C ESL Update-91645-3-1-1C-ESL-1685170661.zip"
+   ],
+   "author": "Kojillama",
+   "leftover": false,
+   "key": "id:91645",
+   "theme": "other"
+  },
+  {
+   "id": 74376,
+   "name": "HelpExtender",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-02",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "HelpExtender-74376-1-3-0-1704159967.7z"
+   ],
+   "author": "shad0wshayd3",
+   "leftover": false,
+   "key": "id:74376",
+   "theme": "other"
+  },
+  {
+   "id": 129934,
+   "name": "High Quality PBR Ivy",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "High Quality PBR Ivy-129934-1-1-1736380813.zip",
+    "High Quality PBR Ivy-129934-1-5-1761575391.zip"
+   ],
+   "author": "jepster",
+   "leftover": false,
+   "key": "id:129934",
+   "theme": "other"
+  },
+  {
+   "id": 151874,
+   "name": "Hit The Hay - A Hay Pile Replacer",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-12-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Hit The Hay - BOS Color Variance - Parallax Pelts-151874-1-01-1756223187.rar",
+    "Hit The Hay - BOS Color Variance-151874-1-0-2-1766154388.rar",
+    "Hit The Hay - BOS Use Those Blankets patch-151874-1-0-1-1756223268.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:151874",
+   "theme": "other"
+  },
+  {
+   "id": 77394,
+   "name": "I'm walkin' here NG",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-10-20",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "I'm walkin' here-77394-1-7-1666268388.zip"
+   ],
+   "author": "Ryan---VersuchDrei",
+   "leftover": false,
+   "key": "id:77394",
+   "theme": "other"
+  },
+  {
+   "id": 179132,
+   "name": "ISL Helper SKSE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-09-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "ISL Helper SKSE 179132 1.0.5 2026-07-11T01-51Z HZCMOyGHy.zip",
+    "ISL Helper SKSE 179132 1.0.6 2026-09-13T14-38Z N2AYL5xjr.zip",
+    "ISL Helper SKSE-179132-1-0-2-1778008495.zip"
+   ],
+   "author": "Bottle",
+   "leftover": false,
+   "key": "id:179132",
+   "theme": "other"
+  },
+  {
+   "id": 97048,
+   "name": "Immersive Death Cycle",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-12-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Immersive Death Cycle-97048-1-04-1703953947.rar"
+   ],
+   "author": "Naxmaardur - JaySerpa",
+   "leftover": false,
+   "key": "id:97048",
+   "theme": "other"
+  },
+  {
+   "id": 68210,
+   "name": "Improved Alternate Conversation Camera",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-19",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Improved Alternate Conversation Camera AE-68210-1-2-0-1705625705.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:68210",
+   "theme": "other"
+  },
+  {
+   "id": 17609,
+   "name": "Improved Shadowmarks",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-03-02",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Improved Shadowmarks (512)-17609-2-0.7z",
+    "Textures Only (512)-17609-2-0-1583190155.zip",
+    "Textures Only 256-17609-1-0-1583189922.zip"
+   ],
+   "author": "kryptopyr",
+   "leftover": false,
+   "key": "id:17609",
+   "theme": "other"
+  },
+  {
+   "id": 90934,
+   "name": "Improved Theater",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-05-08",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Improved Theater mesh - High version-90934-1-0-1683577676.7z",
+    "Patch for Jk's Bard Col-90934-1-0-1683577924.7z"
+   ],
+   "author": "RedBag",
+   "leftover": false,
+   "key": "id:90934",
+   "theme": "other"
+  },
+  {
+   "id": 17592,
+   "name": "Improved Traps",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-12-04",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Improved Traps (Dangerous Edition)-17592-2-5-1-1733355963.7z",
+    "Improved Traps (Dangerous Edition)-17592-2-5-1644445829.zip",
+    "Improved Traps (Slightly Dangerous Edition)-17592-2-5-1644445903.zip"
+   ],
+   "author": "kryptopyr and Wiseman303",
+   "leftover": false,
+   "key": "id:17592",
+   "theme": "other"
+  },
+  {
+   "id": 172423,
+   "name": "Intellightent",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Intellightent v2-172423-2-1771572083.zip",
+    "Intellightent v3 172423 3 2026-08-26T07-26Z gbrZ4tKYh.zip",
+    "Intellightent v3-172423-3-795280-1787729160.zip"
+   ],
+   "author": "meh321",
+   "leftover": false,
+   "key": "id:172423",
+   "theme": "other"
+  },
+  {
+   "id": 21726,
+   "name": "Jankevdv's 2K Archery Targets",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2018-12-10",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Archery Target Retexture-21726-1-0-1544401542.7z"
+   ],
+   "author": "Jankevdv",
+   "leftover": false,
+   "key": "id:21726",
+   "theme": "other"
+  },
+  {
+   "id": 81901,
+   "name": "KG's Frost Mirriam",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "KG's Frost Mirriam-81901-1-0-1672705588.7z"
+   ],
+   "author": "kiddgimmick",
+   "leftover": false,
+   "key": "id:81901",
+   "theme": "other"
+  },
+  {
+   "id": 19075,
+   "name": "Kaidan 2",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-10-25",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Kaidan 2.1.1-19075-2-1-1-1571995302.rar"
+   ],
+   "author": "LivTempleton",
+   "leftover": false,
+   "key": "id:19075",
+   "theme": "other"
+  },
+  {
+   "id": 113606,
+   "name": "Kanjs - Sanguine Rose Animated",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-03-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Kanjs - Sanguine Rose Animated SE 2K-113606-1-1-1710113511.zip",
+    "Kanjs - Sanguine Rose Animated SE 2K-113606-2-1741844322.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:113606",
+   "theme": "other"
+  },
+  {
+   "id": 91440,
+   "name": "Kynareth Replaces Talos - Civil War Consequence",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Kynareth Replaces Talos FOMOD 91440 2.1.1 2026-08-29T18-13Z MWx0rve7j.zip",
+    "Kynareth Replaces Talos FOMOD-91440-2-1-0-1726727837.zip"
+   ],
+   "author": "Missile",
+   "leftover": false,
+   "key": "id:91440",
+   "theme": "other"
+  },
+  {
+   "id": 65959,
+   "name": "LITTLE THINGS",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-14",
+   "vr_lists": [
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Ramccoid's AIO A.K.A. LITTLE THINGS-65959-1-0-7.7z",
+    "Unslaad 3.0.2-65959-1-0-0-1707935191.rar",
+    "Vicn Mods Voiced-65959-1-3-0-1693329514.rar"
+   ],
+   "author": "ramccoid and hishutup",
+   "leftover": false,
+   "key": "id:65959",
+   "theme": "other"
+  },
+  {
+   "id": 67880,
+   "name": "LITTLE THINGS by Ramccoid",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-06-04",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "LITTLE THINGS by Ramccoid-67880-1-01-1654379151.rar"
+   ],
+   "author": "Ramccoid",
+   "leftover": false,
+   "key": "id:67880",
+   "theme": "other"
+  },
+  {
+   "id": 172767,
+   "name": "LessPoly for various mods",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-03-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Dovahnique'sDiverseDarkElfLanterns_BOS (LessPoly)-172767-1-0-1771417631.rar",
+    "Gonzeh - Stonehills ReRe-imagined(LessPoly)-172767-1-0-1771327354.rar",
+    "Halffaces - Horse meat-LessPoly-172767-1-0-1771327386.rar"
+   ],
+   "author": "W1ter",
+   "leftover": false,
+   "key": "id:172767",
+   "theme": "other"
+  },
+  {
+   "id": 3860,
+   "name": "Lethal Traps",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Lethal Traps-3860-1-3.7z"
+   ],
+   "author": "Burnout6010",
+   "leftover": false,
+   "key": "id:3860",
+   "theme": "other"
+  },
+  {
+   "id": 116476,
+   "name": "Lulu's Xelzaz - Xelzaz Visual replacer",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-05-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Lulu's Xelzaz - Xelzaz Visual replacer-116476-1-2-1723922654.zip",
+    "Lulu's Xelzaz - Xelzaz Visual replacer-116476-2-0-1746548057.zip"
+   ],
+   "author": "DementedNed",
+   "leftover": false,
+   "key": "id:116476",
+   "theme": "other"
+  },
+  {
+   "id": 60524,
+   "name": "Lux - Variants",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-07-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Lux - Lightweight patch-60524-1-3-1-1688366909.rar",
+    "Lux - Variants-60524-1-0-1-1640325791.rar",
+    "Lux - Variants-60524-1-3-1667753168.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:60524",
+   "theme": "other"
+  },
+  {
+   "id": 70400,
+   "name": "Master Spells Runes",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-06-29",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Master Spells Runes Form44-70400-1-0-1656518583.rar",
+    "Master Spells Runes-70400-1-0-1656419079.rar"
+   ],
+   "author": "L3st4t",
+   "leftover": false,
+   "key": "id:70400",
+   "theme": "other"
+  },
+  {
+   "id": 102584,
+   "name": "Meridia's Order",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Meridia's Order v1.5-102584-1-5-1705611382.rar"
+   ],
+   "author": "TheOscar0",
+   "leftover": false,
+   "key": "id:102584",
+   "theme": "other"
+  }
+ ]
+}

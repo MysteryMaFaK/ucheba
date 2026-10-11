@@ -1,0 +1,769 @@
+{
+ "batch": "C11",
+ "band": "C",
+ "themes": {
+  "land_nature": 36
+ },
+ "items": [
+  {
+   "id": 52210,
+   "name": "Cave Brazier",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-10-18",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Cave Brazier-52210-2-0-0-1634551365.7z"
+   ],
+   "author": "d34dun1t",
+   "leftover": false,
+   "key": "id:52210",
+   "theme": "land_nature"
+  },
+  {
+   "id": 23054,
+   "name": "Colored And Animated Celtic Icons For SkyUI SE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-01-31",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Colored And Animated Celtic Icons For SkyUI-23054-1-0-1548949225.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:23054",
+   "theme": "land_nature"
+  },
+  {
+   "id": 71562,
+   "name": "Complementary Grass Fixes",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-04-27",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Complementary Grass Fixes-71562-1-1-1682610728.7z"
+   ],
+   "author": "Mefariah",
+   "leftover": false,
+   "key": "id:71562",
+   "theme": "land_nature"
+  },
+  {
+   "id": 121776,
+   "name": "Dawn of Skyrim - Whiterun Wolves Eye Fix",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-11-26",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dawn of Skyrim - Dawnwolves Fix (BlueYellow)-121776-1-2-1732588965.zip",
+    "Dawn of Skyrim - Whiterun Wolves Eye Fix-121776-1-2-1732587991.zip"
+   ],
+   "author": "Eramidas",
+   "leftover": false,
+   "key": "id:121776",
+   "theme": "land_nature"
+  },
+  {
+   "id": 26913,
+   "name": "Depths of Skyrim - An Underwater Overhaul SSE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-12-21",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Depths of Skyrim-26913-1-1-7-1608572556.rar"
+   ],
+   "author": "TheBlackpixel",
+   "leftover": false,
+   "key": "id:26913",
+   "theme": "land_nature"
+  },
+  {
+   "id": 95193,
+   "name": "DynDOLOD - Settings Loader",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-10-10",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "DynDOLOD NG - Settings Loader-95193-2-1-1-1728568229.zip"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:95193",
+   "theme": "land_nature"
+  },
+  {
+   "id": 77971,
+   "name": "FYX - Water Splash",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-12-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "FYX - Water Splash - RWT2 - WEBaRF-77971-1-0-1-1-1671907477.7z",
+    "FYX - Water Splash - Water for ENB - WEBaRF-77971-1-0-1-1670181543.7z",
+    "FYX - Water Splash - Water for ENB-77971-1-0-1-1670181516.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:77971",
+   "theme": "land_nature"
+  },
+  {
+   "id": 32512,
+   "name": "Finding Susanna Alive - A Blood on the Ice Trigger Revision",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-02-16",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Finding Susanna Alive-32512-1-0-1581844989.7z"
+   ],
+   "author": "SomethingObscure",
+   "leftover": false,
+   "key": "id:32512",
+   "theme": "land_nature"
+  },
+  {
+   "id": 3038,
+   "name": "Fores New Idles in Skyrim SE - FNIS SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-02-18",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "FNIS Behavior VR 7_6 XXL-3038-7-6-1582049179.7z",
+    "FNIS Creature Pack SE 7.6-3038-7-6-1582049490.7z"
+   ],
+   "author": "fore",
+   "leftover": false,
+   "key": "id:3038",
+   "theme": "land_nature"
+  },
+  {
+   "id": 103003,
+   "name": "GIST Azura's Star Restore",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-10-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "GIST - Azura's Star Restore-103003-1-0-1697842006.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:103003",
+   "theme": "land_nature"
+  },
+  {
+   "id": 58700,
+   "name": "Happy Little Trees  - Better Dynamic Ash Patch",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-20",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Happy Little Trees - Better Dynamic Ash Patch-58700-1-01-1637438185.7z"
+   ],
+   "author": "Blackread",
+   "leftover": false,
+   "key": "id:58700",
+   "theme": "land_nature"
+  },
+  {
+   "id": 45788,
+   "name": "Iconic's Moon Crest Retexture",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-02-20",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Moon Crest Retexture 2K-45788-1-0-1613456977.7z",
+    "Moon Crest Retexture-45788-1-2-1613859281.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:45788",
+   "theme": "land_nature"
+  },
+  {
+   "id": 139158,
+   "name": "Icy Cave Remaster - Ice Material Patch",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-05-12",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Icy Cave Remaster - Ice Material Patch - CM-139158-1-0-1736948700.7z",
+    "Icy Cave Remaster - Ice Material Patch-139158-1-0-1736948609.7z",
+    "Icy Cave Remaster - Ice Material Patch-139158-1-2-1778621671.7z"
+   ],
+   "author": "ToosTruus and Clemus33",
+   "leftover": false,
+   "key": "id:139158",
+   "theme": "land_nature"
+  },
+  {
+   "id": 8767,
+   "name": "Immersive Fallen Trees SSE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Immersive Fallen Trees SSE-8767-2-0-2.7z"
+   ],
+   "author": "Jurassic4LIFE and MPankey",
+   "leftover": false,
+   "key": "id:8767",
+   "theme": "land_nature"
+  },
+  {
+   "id": 29316,
+   "name": "Inferno - Fire Effects Redux",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-09-18",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Inferno - Fire Effects Redux-29316-5-1-1663530516.7z"
+   ],
+   "author": "Retrospect",
+   "leftover": false,
+   "key": "id:29316",
+   "theme": "land_nature"
+  },
+  {
+   "id": 143840,
+   "name": "JK's Raven Rock Patch Collection",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-04-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "JK's Raven Rock Patch Collection-143840-1-1-1-1742252840.rar",
+    "JK's Raven Rock Patch Collection-143840-1-3-2-1749122689.rar",
+    "JK's Raven Rock Patch Collection-143840-1-4-1767613968.rar"
+   ],
+   "author": "Czasior",
+   "leftover": false,
+   "key": "id:143840",
+   "theme": "land_nature"
+  },
+  {
+   "id": 55790,
+   "name": "Kanjs - Forgotten Vale Cave Worm - Up to 4k - High Poly Meshes",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-09-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Forgotten Vale Cave Worm 1k High Poly-55790-1-1-1632159966.zip",
+    "Kanjs - Forgotten Vale Cave Worm 2k High Poly-55790-1-1-1632160069.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:55790",
+   "theme": "land_nature"
+  },
+  {
+   "id": 99404,
+   "name": "KiLoader for Skyrim",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-04-17",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "KiLoader ENB Satellite-99404-1-2-ENB-1713391574.7z",
+    "KiLoader for Skyrim-99404-1-2-1713391803.7z"
+   ],
+   "author": "Kitsuune",
+   "leftover": false,
+   "key": "id:99404",
+   "theme": "land_nature"
+  },
+  {
+   "id": 30817,
+   "name": "Lanterns Of Skyrim II",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-11-29",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Lanterns Of Skyrim II - FOMOD-30817-v4-1-1649371319.7z",
+    "Lanterns Of Skyrim II - FOMOD-30817-v4-3-1764389544.7z"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:30817",
+   "theme": "land_nature"
+  },
+  {
+   "id": 27981,
+   "name": "Majestic Mountains - Northside",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-05-04",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Majestic Mountains - Northside-27981-2-0-1588623600.7z"
+   ],
+   "author": "THRAGFIRE",
+   "leftover": false,
+   "key": "id:27981",
+   "theme": "land_nature"
+  },
+  {
+   "id": 82753,
+   "name": "Missives are in Skyrim",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-01-15",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Missives are in Skyrim - Main Patch-82753-1-0-1673754475.zip"
+   ],
+   "author": "lordmentat",
+   "leftover": false,
+   "key": "id:82753",
+   "theme": "land_nature"
+  },
+  {
+   "id": 125065,
+   "name": "More Interactive Objects - Throwing things (potion bombs - fire salts explode - bottle breaking - more)",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-07-31",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Throwing Stuff-125065-1-1-1-1722403384.rar"
+   ],
+   "author": "Solus",
+   "leftover": false,
+   "key": "id:125065",
+   "theme": "land_nature"
+  },
+  {
+   "id": 60751,
+   "name": "Nightmare Night - Werebeasts Unleashed",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-06-17",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Nightmare Night - VR-60751-2-1-1-1-1718617180.zip",
+    "Nightmare Night-60751-1-1-1-1648979100.zip"
+   ],
+   "author": "Scrab",
+   "leftover": false,
+   "key": "id:60751",
+   "theme": "land_nature"
+  },
+  {
+   "id": 71189,
+   "name": "Obsidian Mountain Fogs Tweaked",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-12",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Obsidian Mountain Fogs Tweaked - Reduced 20 Percent-71189-1-01-1657643008.rar",
+    "Obsidian Mountain Fogs Tweaked-71189-1-01-1657573946.rar"
+   ],
+   "author": "Cathedral Team - Scott Clam",
+   "leftover": false,
+   "key": "id:71189",
+   "theme": "land_nature"
+  },
+  {
+   "id": 143279,
+   "name": "Olenveld Revoiced",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-12-01",
+   "vr_lists": [
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Community Voices - Olenveld Revoiced-143279-1-1-1-1764579536.7z",
+    "Olenveld Revoiced - Uncompressed-143279-1-1-1741265089.7z",
+    "Olenveld Revoiced-143279-1-1-1741001976.7z"
+   ],
+   "author": "FrostieCooky",
+   "leftover": false,
+   "key": "id:143279",
+   "theme": "land_nature"
+  },
+  {
+   "id": 2820,
+   "name": "Populated Dungeons Caves Ruins Legendary",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Populated Dungeons Caves Ruins Legendary Edition-2820-1-0.7z"
+   ],
+   "author": "presented by Sands of Time Team",
+   "leftover": false,
+   "key": "id:2820",
+   "theme": "land_nature"
+  },
+  {
+   "id": 123877,
+   "name": "Potema Revoiced",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-04-19",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Potema Revoiced - FUZ Format-123877-1-01-1745096291.zip",
+    "Potema Revoiced - WAV Format-123877-1-01-1745094274.zip",
+    "Potema Revoiced-123877-1-0-1720559876.zip"
+   ],
+   "author": "LeoMaximus",
+   "leftover": false,
+   "key": "id:123877",
+   "theme": "land_nature"
+  },
+  {
+   "id": 63150,
+   "name": "Project AHO - Security Overhaul Skyrim",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-02-06",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Project AHO Locks-63150-1-1-0-1644170780.zip"
+   ],
+   "author": "Milo49",
+   "leftover": false,
+   "key": "id:63150",
+   "theme": "land_nature"
+  },
+  {
+   "id": 20851,
+   "name": "Quaint Raven Rock - SE",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-12-13",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Patch - Clockwork - ESL-20851-1-2-1540912252.7z",
+    "Quaint Raven Rock-20851-1-7-1-1607843475.7z"
+   ],
+   "author": "Undriel",
+   "leftover": false,
+   "key": "id:20851",
+   "theme": "land_nature"
+  },
+  {
+   "id": 36588,
+   "name": "Realistic Grass Field",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-06-01",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "2k All green version-36588-1-0-1590679593.7z",
+    "Realistic Grass Field 2k-36588-1-1-1591015276.7z"
+   ],
+   "author": "ArtByMari",
+   "leftover": false,
+   "key": "id:36588",
+   "theme": "land_nature"
+  },
+  {
+   "id": 12253,
+   "name": "Relic Hunter- Guildmaster Start (Legacy and ASLAL addon)",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-28",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Relic Hunter- Guildmaster Start-12253-2-0-3-1576955397.7z",
+    "Relic Hunter- Guildmaster Start-12253-3-0-0-1719088637.7z",
+    "Relic Hunter- Guildmaster Start-12253-3-0-1-796535-1787939580.7z"
+   ],
+   "author": "Icecreamassassin",
+   "leftover": false,
+   "key": "id:12253",
+   "theme": "land_nature"
+  },
+  {
+   "id": 63631,
+   "name": "Riverwood Trader Is A Mess",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-10-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Riverwood Trader Is A Mess - JK Patch-63631-1-0-1646696261.7z",
+    "Riverwood Trader Is A Mess-63631-1-4-1-1748337463.7z",
+    "Riverwood Trader Is A Mess-63631-1-4-1693950000.7z"
+   ],
+   "author": "AndrealphusVIII",
+   "leftover": false,
+   "key": "id:63631",
+   "theme": "land_nature"
+  },
+  {
+   "id": 76913,
+   "name": "Ryn's Standing Stones Patch Collection",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-10-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Ryn's Standing Stones - USSEP Patch-76913-1-0-1728095822.7z",
+    "Ryn's Standing Stones Patch Collection-76913-1-0-1665466600.7z",
+    "Ryn's Standing Stones Patch Collection-76913-1-1-1728095696.7z"
+   ],
+   "author": "Janquel",
+   "leftover": false,
+   "key": "id:76913",
+   "theme": "land_nature"
+  },
+  {
+   "id": 8257,
+   "name": "Sands of Time Sleeping Encounters Standalone Module",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-05-12",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Sands of Time Sleeping Encounters-8257-18-7-1683861172.7z"
+   ],
+   "author": "The SOT Team",
+   "leftover": false,
+   "key": "id:8257",
+   "theme": "land_nature"
+  },
+  {
+   "id": 54108,
+   "name": "Sigils of Skyrim",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-05-10",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Sigils of Skyrim - Banners-54108-1-0-1629337038.7z",
+    "Sigils of Skyrim - Banners-54108-1-1-1715371097.7z",
+    "Sigils of Skyrim - Shields-54108-1-1-1715371173.7z"
+   ],
+   "author": "JDAnchor",
+   "leftover": false,
+   "key": "id:54108",
+   "theme": "land_nature"
+  },
+  {
+   "id": 132292,
+   "name": "SkyParkour - A SkyClimb Addon - 360 and Hold to Climb",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-09-03",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Additional Pandora Patch For CRC32 Cache-132292-3-4-0-1769981443.rar",
+    "Additional Pandora Patch For CRC32 Cache-132292-3-5-0-1777659026.7z",
+    "SkyParkour V3 - Pandora Patch-132292-3-0-0-1755214387.rar"
+   ],
+   "author": "sokco816-tsptds",
+   "leftover": false,
+   "key": "id:132292",
+   "theme": "land_nature"
+  }
+ ]
+}

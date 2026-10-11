@@ -1,0 +1,716 @@
+{
+ "batch": "D11",
+ "band": "D",
+ "themes": {
+  "clutter_misc": 36
+ },
+ "items": [
+  {
+   "id": 114826,
+   "name": "Conduit - Alternate Death Patch",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-03-23",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Conduit - Alternate Death Patch-114826-1-0-1711206399.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:114826",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 81731,
+   "name": "Constructible Object Custom Keyword System NG",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-21",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Constructible Object Custom Keyword System NG 81731 1.2.0 2026-08-21T20-38Z zYsEpQIND.zip",
+    "Constructible Object Custom Keyword System NG-81731-1-1-1-1713893656.zip"
+   ],
+   "author": "Parapets-Meridiano",
+   "leftover": false,
+   "key": "id:81731",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 178439,
+   "name": "Copy Paste In Menus",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-09-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Copy Paste In Menus-178439-1-0-3-1778187304.7z",
+    "Copy Paste In Menus-178439-1-0-4-799590-1788418140.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:178439",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 180956,
+   "name": "Critter Fixes",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-31",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Critter Fixes-180956-0-1-1-1780209809.7z"
+   ],
+   "author": "wSkeever",
+   "leftover": false,
+   "key": "id:180956",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 65735,
+   "name": "Durak Teleport Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-03-31",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Durak Teleport Fix-65735-1-0-1648697020.7z"
+   ],
+   "author": "Korodic",
+   "leftover": false,
+   "key": "id:65735",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 65530,
+   "name": "Dynamic Bloodskal Blade - Lag Fix",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-05-08",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Dynamic Bloodskal blade-65530-1-1-1651991435.7z"
+   ],
+   "author": "igotnousername",
+   "leftover": false,
+   "key": "id:65530",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 114119,
+   "name": "Dynamic Cubemaps - Metals",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-03-16",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Dynamic Cubemaps - Metals-114119-1-0-1-1710625932.zip"
+   ],
+   "author": "doodlez",
+   "leftover": false,
+   "key": "id:114119",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 42602,
+   "name": "Eating Animations and Sounds SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-11-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Eating Animations And Sounds SE V1.9.4-42602-1-9-4-1668786874.7z"
+   ],
+   "author": "NazeemUzeem",
+   "leftover": false,
+   "key": "id:42602",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 107803,
+   "name": "Eld-beri II - The first full particle light lantern mod (including first person view)",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-03-19",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "ADXP  MCO patch - Fix the flying lantern bug-107803-all-1710865491.7z",
+    "Add support to Communuty Shader-107803-all-1704899868.7z",
+    "Eld-beri II - Fire Bearer-107803-2-32-1710865224.7z"
+   ],
+   "author": "Sthaagg Memnochs",
+   "leftover": false,
+   "key": "id:107803",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 58402,
+   "name": "Extended Encounters - Settings Loader",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-11-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Extended Encounters - Settings Loader-58402-1-0-1636834671.7z"
+   ],
+   "author": "MaskedRPGFan",
+   "leftover": false,
+   "key": "id:58402",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 143532,
+   "name": "Favorites Menu Effects Description",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-05-29",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Favorites Menu Effects Description-143532-1-1-1748556075.zip"
+   ],
+   "author": "JPSteel2",
+   "leftover": false,
+   "key": "id:143532",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 61671,
+   "name": "Fix Toggle Walk Run (SKSE plugin)",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-08-22",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "FixToggleWalkRun-61671-3-1724360460.zip"
+   ],
+   "author": "Alex",
+   "leftover": false,
+   "key": "id:61671",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 93201,
+   "name": "Fluffy Beds and Bedrolls",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-08-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Fluffy Beds and Bedrolls-93201-1-5-1724716620.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:93201",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 51243,
+   "name": "Hide Quest Items in Container Menu",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-10-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Hide Quest Items in Container Menu-51243-0-9-1729968184.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:51243",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 45595,
+   "name": "Iconic's Bust Of The Gray Fox Retexture",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-02-11",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Gray Fox Bust 2K-45595-1-0-1613082229.7z"
+   ],
+   "author": "Iconic",
+   "leftover": false,
+   "key": "id:45595",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 114953,
+   "name": "ImGui Icons - Untarnished UI",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "ImGUI Icons - Untarnished UI Patch-114953-v1-1-1759795295.7z",
+    "ImGui Icons - Untarnished UI-114953-v1-0-1711309548.7z"
+   ],
+   "author": "Wuerfelhusten",
+   "leftover": false,
+   "key": "id:114953",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 80120,
+   "name": "Jorrvaskr Basement Seams Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-12-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Jorrvaskr Basement Seams Fix-80120-1-1-1670375424.7z"
+   ],
+   "author": "Korodic",
+   "leftover": false,
+   "key": "id:80120",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 132841,
+   "name": "Jump Slide Fix OAR",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-11-17",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Jump Slide Fix (Consistency)-132841-1-0-1731814847.zip",
+    "Jump Slide Fix (First Person)-132841-1-0-1730664102.zip",
+    "Jump Slide Fix (For Horses)-132841-1-0-1730461767.zip"
+   ],
+   "author": "fricticerkag",
+   "leftover": false,
+   "key": "id:132841",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 3620,
+   "name": "Keyboard Shortcuts Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-06-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Keyboard Shortcuts Fix SE-AE-3620-1-0-0-4-1686102749.zip",
+    "KeyboardShortcutsFix_SKSE64-3620-1-0-0-2.zip"
+   ],
+   "author": "xSHADOWMANx or Sumwunn at GitHub",
+   "leftover": false,
+   "key": "id:3620",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 105436,
+   "name": "Lil Patches",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-02-03",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Lil Patches-105436-2-1-1725555428.zip",
+    "Lil Patches-105436-2-3-4-1738600429.zip"
+   ],
+   "author": "SauteedPanda",
+   "leftover": false,
+   "key": "id:105436",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 160238,
+   "name": "Main Menu Video",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-03-26",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Main Menu Video-160238-1-2-1-1767444296.7z",
+    "Main Menu Video-160238-1-3-1-1774563372.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:160238",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 124223,
+   "name": "Metallurgy - Consistency Patches and Collision Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-07-14",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Metallurgy - Beyond Skyrim-124223-1-0-0e-1720891577.zip",
+    "Metallurgy - Complete Crafting Overhaul Remastered-124223-1-0-0c-1720890186.zip",
+    "Metallurgy - Ingot Collision Fix-124223-1-0-0a-1720889561.zip"
+   ],
+   "author": "EndlessAnnoyance",
+   "leftover": false,
+   "key": "id:124223",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 30738,
+   "name": "Metallurgy - Ingots Ore and Veins HD",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-07-18",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Metallurgy - Ingots Ore and Veins HD 1K (LOOSE)-30738-1-3-1595068495.rar",
+    "Metallurgy - Ingots Ore and Veins HD 2K (LOOSE)-30738-1-3-1595068703.rar"
+   ],
+   "author": "fadingsignal",
+   "leftover": false,
+   "key": "id:30738",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 65070,
+   "name": "Misc Effects ENB Light",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-09-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Misc Effects ENB Light - ElSopa Quivers Redone-65070-1-3BoundOptionals-1649080609.7z",
+    "Misc Effects ENB Light - Hotfix-65070-1-5-1-1651426778.7z",
+    "Misc Effects ENB Light - Leanwolf's Better-Shaped Weapons-65070-1-2-1-1647541757.7z"
+   ],
+   "author": "Mura",
+   "leftover": false,
+   "key": "id:65070",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 38621,
+   "name": "Modern Clap Bug Fix",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-07-25",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Modern Clap Bug Fix-38621-1-1-1595650689.7z"
+   ],
+   "author": "A Crow",
+   "leftover": false,
+   "key": "id:38621",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 25702,
+   "name": "More Painful Death Sounds SE",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-09-22",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 1,
+   "files": [
+    "More Painful Death Sounds ESL-25702-1-9l-1662294940.zip",
+    "More Painful NPC Death Sounds-25702-1-8-1587541324.zip",
+    "Update for Plugin-25702-1-91esl-1663862366.zip"
+   ],
+   "author": "XxTWDxX",
+   "leftover": false,
+   "key": "id:25702",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 110479,
+   "name": "More realistic fur and antlers for Hearthfire Elks",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "More Realistic Fur and Antlers for Hearthfire Elks-110479-1-0-1706616257.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:110479",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 105036,
+   "name": "NAT ENB Bizarre Shadow Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-11-18",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "NAT-ENB Bizarre Shadow Fix-105036-1-0-1700339962.7z"
+   ],
+   "author": "Ivanmand",
+   "leftover": false,
+   "key": "id:105036",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 36132,
+   "name": "No Silly Physics Damage - Carts Pots Bones etc",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-05-18",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "No Silly Physics Damage (esl)-36132-2-1589820691.7z"
+   ],
+   "author": "Corsafire",
+   "leftover": false,
+   "key": "id:36132",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 99726,
+   "name": "Object Categorization Framework - Some KID Patches",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-16",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "OCF - Some KID Patches FOMOD 99726 4.0 2026-08-16T22-16Z 2Bej58xMt.7z",
+    "OCF - Some KID Patches FOMOD-99726-3-4-1770225831.7z",
+    "OCF - Some KID Patches FOMOD-99726-4-0-791013-1786918560.7z"
+   ],
+   "author": "monkeyangie",
+   "leftover": false,
+   "key": "id:99726",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 69298,
+   "name": "OnHit Animations Framework - NG",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-24",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "OnHit Animations Framework - NG 69298 1.0.2 2026-08-24T20-59Z FpnkHZ21u.zip",
+    "OnHit Animations Framework - NG-69298-1-0-1-1675884208.zip"
+   ],
+   "author": "doodlum",
+   "leftover": false,
+   "key": "id:69298",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 72638,
+   "name": "Ore Vein Texture Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-08-04",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Ore Vein Texture Fix-72638-1-0-1659572217.7z"
+   ],
+   "author": "aelix",
+   "leftover": false,
+   "key": "id:72638",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 65660,
+   "name": "Praedy's Staves AIO Patch Hub",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-14",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Praedy's Staves AIO Patch Hub - FOMOD-65660-1-23-1707925218.7z"
+   ],
+   "author": "Blackread",
+   "leftover": false,
+   "key": "id:65660",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 177313,
+   "name": "Precision - Attack Collision Fixes",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-06-10",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Precision   Attack Collision Fixes FOMOD-177313-1-18-1781083122.7z",
+    "Precision - Attack Collision Fixes-177313-1-17-1777440773.7z"
+   ],
+   "author": "august",
+   "leftover": false,
+   "key": "id:177313",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 19990,
+   "name": "Pubes Forever SSE",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "1 Pubic hairstyles all in one CBBE-19990-1-0.7z"
+   ],
+   "author": "AncientKane",
+   "leftover": false,
+   "key": "id:19990",
+   "theme": "clutter_misc"
+  },
+  {
+   "id": 140181,
+   "name": "Quest Fixes",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-04-16",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Quest Fixes-140181-1-1-1738342432.7z",
+    "Quest Fixes-140181-1-7-1776364792.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:140181",
+   "theme": "clutter_misc"
+  }
+ ]
+}

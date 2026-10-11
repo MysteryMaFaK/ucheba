@@ -1,0 +1,154 @@
+{
+ "batch": "A09",
+ "band": "A",
+ "themes": {
+  "other": 7
+ },
+ "items": [
+  {
+   "id": 125527,
+   "name": "Parallax Textures For Vanilla Game and Various Mods",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "A",
+   "newest": "2025-01-29",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "1_Parallax Textures - Rustic Reliefs-125527-4-0-1726348792.zip",
+    "Parallax Textures - Base Game - AE-125527-4-0-1726342425.zip",
+    "Parallax Textures - Legacy of the Dragonborn-125527-4-8-5-1738109289.zip"
+   ],
+   "author": "ApricotCroissant",
+   "leftover": true,
+   "key": "id:125527",
+   "theme": "other"
+  },
+  {
+   "id": 140780,
+   "name": "Realistic PBR Footprints",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "A",
+   "newest": "2025-08-12",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Realistic PBR Footprints-140780-1-1-1740135101.zip",
+    "Realistic PBR Footprints-140780-1-2-1740915055.zip",
+    "Texture Patch for Vanaheimr PBR Landscapes-140780-0-1a-1755042898.zip"
+   ],
+   "author": "jepster",
+   "leftover": true,
+   "key": "id:140780",
+   "theme": "other"
+  },
+  {
+   "id": 139443,
+   "name": "Journeyman VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "A",
+   "newest": "2025-01-18",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Stormcrown VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Journeyman VR-139443-1-1-4-1737211237.zip"
+   ],
+   "author": "FlayaN Lythca Simon Magus and Colinswrath",
+   "leftover": true,
+   "key": "id:139443",
+   "theme": "other"
+  },
+  {
+   "id": 185666,
+   "name": "Emittance Removal Project (Dust Fog Smoke Mist FX Effect)",
+   "vr": 0,
+   "se": 3,
+   "score": 3,
+   "band": "A",
+   "newest": "2026-07-18",
+   "vr_lists": [],
+   "se_lists": 3,
+   "files": [
+    "Emittance Removal Project (1.0) 185666 1.0 2026-07-18T07-35Z kATsMW2pE.7z"
+   ],
+   "author": "Neutrall9",
+   "leftover": true,
+   "key": "id:185666",
+   "theme": "other"
+  },
+  {
+   "id": 61016,
+   "name": "Alternate Oculus Vanilla Bindings - VR",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "2021-12-31",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Venoms Alternate Vanilla Bindings-61016-1-0-1640932291.rar"
+   ],
+   "author": "TeH_Venom",
+   "leftover": true,
+   "key": "id:61016",
+   "theme": "other"
+  },
+  {
+   "id": 150302,
+   "name": "Colorful Compass Markers VR",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "2025-05-29",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "1_Colorful Compass Markers VR-150302-2-0-1748541421.7z"
+   ],
+   "author": "JackPunk701",
+   "leftover": true,
+   "key": "id:150302",
+   "theme": "other"
+  },
+  {
+   "id": 61282,
+   "name": "Narsil Bindings for VR",
+   "vr": 1,
+   "se": 0,
+   "score": 2,
+   "band": "A",
+   "newest": "2022-01-04",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Narsil Bindings-61282-1-0-1-1641330198.zip"
+   ],
+   "author": "Crithion",
+   "leftover": true,
+   "key": "id:61282",
+   "theme": "other"
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+{
+ "verdicts": [
+  {
+   "key": "id:102094",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "quickloot",
+   "what": "Быстрый лут как в Fallout 4, VR-порт QuickLoot EE. Запасной вариант, если QuickLoot IE из Core в VR вылетает или глючит.",
+   "note": "Файл 1.3 (Spirit of Grit, Tahrovin - Grit, 2026-06-12); 1.2 у Panda's, Tahrovin, FUS. Не вместе с QuickLoot IE из Core: одно из двух. Address Library VR и SkyUI VR проверить на странице. Порядок в MO2: ниже SkyUI VR.",
+   "reason": "whouses подтвердил 5 VR-листов с VR-файлом, DLL с VR-сборкой. Конфликт только с IE из Core."
+  },
+  {
+   "key": "id:59142",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Инвентарь показывает известные зачарования, прочитанные книги и крупную карточку предмета. Пара к moreHUD VR из Core.",
+   "note": "Файл 1.0.18 (Tempus, Panda's, Librum). AE-версию 2.x (#18619) не ставить. Нужна ли SE-база 18619, как у Librum, не проверено: пробовать без неё. С Norden UI VR нужна заплатка, с Dear Diary VR порядок сверять.",
+   "reason": "whouses: 3 VR-листа, файл с VR в названии. Подтверждено."
+  },
+  {
+   "key": "id:168702",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "ui_theme",
+   "what": "Упрощённая VR-версия темы Edge UI. Альтернатива Norden UI VR из Core: брать одну тему целиком.",
+   "note": "В whouses виден только «PATCH - moreHUD VR» (Tempus, 2026-01), основной файл страницы в данных не виден: открыть страницу и выбрать вручную. Не вместе с Norden UI VR, Dear Diary VR, Clear HUD VR. Плоский Edge UI не ставить.",
+   "reason": "VR-название и один свежий VR-лист, но состав файлов не подтверждён. Тема, а не физическое взаимодействие: держать как альтернативу."
+  },
+  {
+   "key": "id:143678",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": "ui_theme",
+   "what": "Перекраска и расстановка элементов к Edge UI. Чистая косметика поверх темы.",
+   "note": "Только Tempus (3.5.1 + 21x9 Patch). Сделан под плоский Edge UI, в VR не подтверждён.",
+   "reason": "Косметика (внешний вид отдельный этап), один VR-лист, к взаимодействию отношения не имеет."
+  },
+  {
+   "key": "id:44874",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "ui_theme",
+   "what": "Бумажная тема SkyUI с VR-меню и возвращённым Избранным по категориям. Альтернатива Norden UI VR из Core.",
+   "note": "Файл 1.06 (5 VR-листов), он же в Tempus, Tahrovin, Librum, FUS, Yggdrasil. Одна тема на сборку: не вместе с Norden UI VR и Edge UI VR. Совместим с VR Menu Mouse Fix по описанию страницы.",
+   "reason": "whouses: 5 VR-листов, один и тот же VR-архив. Подтверждено."
+  },
+  {
+   "key": "id:100170",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Скин меню кузницы COCKS VR в стиле Dear Diary. Только косметика, только с Dear Diary VR.",
+   "note": "Librum (Wood and Paper) и FUS (Light Skin), по одному файлу. С Norden UI VR из Core не использовать.",
+   "reason": "Косметический скин, зависит от выбора темы; для списка про взаимодействие лишний."
+  },
+  {
+   "key": "id:131015",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "subtitles",
+   "what": "Несколько субтитров одновременно, плагин CommonLib-NG. Проверенная альтернатива Floating Subtitles VR из Core.",
+   "note": "Нужны оба архива: Subtitles 0.6.2 (113214) и Subtitles VR 0.6.2 (131015). Не вместе с Floating Subtitles VR (#183714): общая группа subtitles. Tempus, Panda's, FUS.",
+   "reason": "whouses: 3 VR-листа, файл с VR в названии, одна версия. Подтверждено."
+  },
+  {
+   "key": "id:87315",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Заменяет почти невидимый крестик перка Орлиный глаз на заметный: 4 варианта, 2 размера. Помогает целиться из лука.",
+   "note": "Файл 0.1 (4 VR-листа), вариант прицела выбрать один. Текстуры без DLL, нужен перк Орлиный глаз. С Crosshairs different colours цели разные, по файлам не пересекаются.",
+   "reason": "whouses: 4 VR-листа, мод только для SkyrimVR, DLL нет. Подтверждено."
+  },
+  {
+   "key": "id:17512",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Красный и зелёный прицелы вместо серого: в VR видно, какой рукой целишься при двойном касте.",
+   "note": "Файл 0.9 (Tempus, Yggdrasil). Правит HUD-файлы: порядок с Clear HUD VR, Norden UI VR, Edge UI VR сверять. Colorful Compass Markers VR (#150302) уже содержит этот мод, вместе не ставить.",
+   "reason": "2 VR-листа, текстуры без DLL. Годится как есть."
+  },
+  {
+   "key": "id:17687",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Переносит всплывающие сообщения в центр поля зрения VR-HUD, чтобы не терять их на краю.",
+   "note": "Файл 0.5 (только Librum). Правит HUD-файлы: порядок с Clear HUD VR и темами сверять. Проверить в шлеме, не мешает ли сообщениям Notification Log.",
+   "reason": "VR-название, но один лист и старый файл; пробный."
+  },
+  {
+   "key": "id:17897",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Прозрачное окно сообщений и диалога для VR: мир виден сквозь панель. Файл без разделительной линии.",
+   "note": "Файл «without Separating Line» 0.5 (только Librum). Ставить после VR Smooth Dialogue Mesh. С Immersive NPC Dialogue VR из Core почти не нужен.",
+   "reason": "Один лист, файл 2019-2020, меш диалога пересекается со Smooth Dialogue Mesh: порядок надо проверять."
+  },
+  {
+   "key": "id:107993",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Сглаживает меш окна диалога SkyrimVR. В пакете также меши текстов навыков и компаса.",
+   "note": "Файл 1.0.0 (5 VR-листов). Только меши. При Palm Compass VR или Navigate VR проверить, чей меш компаса выигрывает. Пометка auto_excluded как 'контент' ошибочна.",
+   "reason": "whouses: 5 VR-листов, один архив, DLL нет. Подтверждено."
+  },
+  {
+   "key": "id:161500",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": "dialogue_skip",
+   "what": "Улучшает меню диалога: подсветка квестовых реплик, перестановка вариантов, паузы, пропуск и перебивание, поддержка контроллеров.",
+   "note": "VR-сборки нет, основной файл ставят 3 VR-листа: 1.0.6 (Stormcrown, 2026-09-02) или 1.0.3 (Spirit of Grit, Tahrovin - Grit). Брать 1.0.6. MCM-файл SE-листов для VR не ставить. С Instantly Skip Dialogue NG выбрать один. Следить за sksevr.log.",
+   "reason": "DLL без VR-заявления, но три VR-листа ставят основной файл, один свежий. Допустимо."
+  },
+  {
+   "key": "id:89163",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": "dialogue_skip",
+   "what": "Мгновенный пропуск реплик без задержки 750 мс, включая вынужденные диалоги Хермеуса Моры и Молаг Бала.",
+   "note": "Файл 1.1.1 (Tempus, Panda's, Librum, FUS). VR на странице не заявлен, но 4 VR-листа ставят. Дублирует пропуск Smart Talk: один из двух. Проверить, что пропуск не обрывает Immersive NPC Dialogue VR.",
+   "reason": "whouses: 4 VR-листа, один архив. Работает как есть."
+  },
+  {
+   "key": "id:60211",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Вместо 'Квестовые предметы нельзя убрать' сообщение называет квест. Пригодится в VR, где HIGGS легко роняет вещи.",
+   "note": "Файл «WhoseQuestIsItAnyway VR» 1.3.0 (7 из 9 VR-листов). Не квестовый контент, только строка сообщения. С HIGGS, PLANCK, VRIK не конфликтует.",
+   "reason": "whouses: 7 VR-листов, VR-порт от alandtse. Подтверждено."
+  },
+  {
+   "key": "id:118174",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Возвращает в Избранное брошенное или кончившееся оружие и зелья, когда они снова в инвентаре.",
+   "note": "Файл 1.0.4 (Spirit of Grit, Tahrovin - Grit, 2026-01). SE-листы ставят 1.0.6, в VR её никто не проверял: брать 1.0.4. DLL без VR-заявления: следить за sksevr.log. Дополняет Essential Favorites VR.",
+   "reason": "DLL без VR-сборки, но два VR-листа ставят основной архив. Годится с оговоркой о версии."
+  },
+  {
+   "key": "id:116713",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Большой оверхол сортировки и значков SkyUI. К VR-взаимодействию отношения не имеет.",
+   "note": "Только Stormcrown VR (1.21 + Patches, файл 2024). Правит swf SkyUI, конфликт с темами; часть про Wheeler в VR бесполезна.",
+   "reason": "Состав и конфликты не проверены, не про взаимодействие. Сомнительная польза при риске сломать меню."
+  },
+  {
+   "key": "id:106432",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Значки оружия для I4 в инвентаре. Косметика.",
+   "note": "Файл 2.41 (Tempus, Stormcrown), Librum ставит 1.1, 2.1, 2.3. Только ресурсы для I4.",
+   "reason": "Иконки отнесены к косметике (отдельный этап), к взаимодействию не относятся."
+  },
+  {
+   "key": "id:68032",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Вставка из буфера и память команд консоли между сессиями. В VR набирать команды на экранной клавиатуре мучительно.",
+   "note": "Файл «ConsolePlusPlus VR» 1.3.0 (Tahrovin, Librum). Дополняет, но не заменяет More Informative Console, ConsoleUtilVR и VR Console Selection Fix. Нужен в основном для отладки.",
+   "reason": "whouses: 2 VR-листа, файл с VR в названии. Подтверждено, польза узкая."
+  },
+  {
+   "key": "id:76947",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Сохраняет текст всплывших уведомлений, чтобы перечитать позже. В VR сообщения в углу легко пропустить.",
+   "note": "Файл NotificationLogSSE 1.4 (2022, Tempus). Версия NG: DLL один на все версии, VR не заявлен. Проверить: в sksevr.log нет ошибки загрузки, окно журнала открывается. Если нет, удалить.",
+   "reason": "Один VR-лист ставит, VR-сборки нет. Пробный."
+  },
+  {
+   "key": "id:169690",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Показывает урон оружия полностью, без обрезки до 3-4 цифр. Фикс отображения, а не взаимодействия.",
+   "note": "Файл 0.4 (Panda's, 2026-01). Нужен только при уроне 5+ цифр. Правит swf: конфликт с темами.",
+   "reason": "Не про взаимодействие, нужен лишь в модах с большим уроном. Один лист."
+  },
+  {
+   "key": "id:52743",
+   "keep": false,
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новые значки мировых действий (Talk, Harvest, Sleep). Косметика подсказок.",
+   "note": "Файл «Interaction Icons Rework» 1.375 (2022, Yggdrasil VR). SE-листы ставят новую версию на DSD, для VR её никто не проверял.",
+   "reason": "Косметика (значки), один старый VR-лист, вид в шлеме не подтверждён."
+  },
+  {
+   "key": "id:189774",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Правка раскладки RaceMenu в VR: панели ложатся читаемо. Свежий (2026-08) мод поверх RacemenuVR.",
+   "note": "Файл 1.0.0 (Tahrovin - Grit). ВАЖНО: Core пишет 'не вместе с Layout Fix', а Tahrovin - Grit ставит RacemenuVR 0.5 и Layout Fix вместе: запрет в Core, вероятно, ошибочен. С RaceMenu VR 2 не ставить. Description автора скудное.",
+   "reason": "VR-мод, один свежий VR-лист ставит вместе с RacemenuVR. Не про физическое взаимодействие, поэтому пробный."
+  },
+  {
+   "key": "id:59817",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Отключает быстрое перемещение в меню карты и чинит метки рядом с открытыми местами. Пара к карте в руках Navigate VR.",
+   "note": "Файл «Disable Fast Travel VR» 1.0.0 (Librum, 2021). Игровое правило: перевозчиков и лошадей не трогает. Один лист, DLL проверить по sksevr.log.",
+   "reason": "VR-порт в названии, один лист 2021; по смыслу сочетается с Navigate VR."
+  },
+  {
+   "key": "id:119899",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Прячет маркер игрока на карте мира: ориентироваться приходится по местности. Хорошо с картой в руках из Navigate VR.",
+   "note": "Файл 1.0.0 (Spirit of Grit, Tahrovin - Grit). В имени архива VR нет, 'VR' берётся из заголовка страницы: сверить на Nexus. Не вместе с модами, возвращающими маркер.",
+   "reason": "Два VR-листа ставят, DLL нет. Режим погружения."
+  },
+  {
+   "key": "id:71681",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "map_markers",
+   "what": "Цветные маркеры карты, VR-порт. Текстуры.",
+   "note": "Файл 1.0 (Tempus, 2022). Группа map_markers с Hi-Res VR Map Markers и Natural Colored Map Markers 4K VR (Other-1).",
+   "reason": "Косметические текстуры (отдельный этап), конкурирует с уже учтёнными наборами маркеров."
+  },
+  {
+   "key": "n:navigatevr-map-framework",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Каркас карт-паков к Navigate VR. Без паков смысла нет.",
+   "note": "Релизов нет, нужна самостоятельная сборка DLL. Эту карточку со страницы GitHub заново не проверял: доступ к репозиторию в этой сессии закрыт, опираюсь на прежнюю выдержку из README.",
+   "reason": "Нет ни релиза, ни карт-паков: ставить нечего. Держать на радаре."
+  },
+  {
+   "key": "n:skyrimvr-3dirp",
+   "keep": true,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "3D-замена меню заклинаний для Skyrim VR: объёмное меню, берётся рукой. Свежий проект автора Wearable Healthbars.",
+   "note": "Готового релиза не видно (GitHub, 2026-07, 72 коммита). Перед установкой найти файл на Nexus и проверить, что он VR. Требует SKSEVR, Skyrim VR Tools, Address Library VR v235+. Пересекается с Spell Wheel VR из Core: брать одно. Доступ к репозиторию заново проверить не удалось.",
+   "reason": "Единственный VR-native кандидат этой выборки про руки и магию, но без подтверждённого файла: только 'try'."
+  },
+  {
+   "key": "id:190084",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Оверлей PrismaUI на запястье через SteamVR. Бесполезен в этой сборке.",
+   "note": "Только сниппет поиска, 2026-09-22; работает лишь с PrismaUI 1.4.1.",
+   "reason": "Опровергнуто для сборки: OpenComposite Unleashed убирает оверлеи SteamVR, а модов на PrismaUI в Core нет."
+  },
+  {
+   "key": "id:61282",
+   "keep": false,
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": "bindings",
+   "what": "Раскладка кнопок под быстрые меню. Свободные грипы под HIGGS и VRIK не обещаны.",
+   "note": "Файл «Narsil Bindings» 1.0.1 (Yggdrasil VR, 2022): конфиг SteamVR, Oculus-ориентирован.",
+   "reason": "Нет данных о свободных грипах для HIGGS и VRIK, один лист 2022. Закрыто группой bindings."
+  },
+  {
+   "key": "id:61016",
+   "keep": true,
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": "bindings",
+   "what": "Oculus-раскладка освобождает аналоговые кнопки и грипы под VRIK и HIGGS. Кнопку Избранного отдаёт, поэтому нужен Spell Wheel VR.",
+   "note": "Файл «Venoms Alternate Vanilla Bindings» 1.0 (Panda's, 2021): биндинги для SteamVR, в MO2 не ставятся. Только Oculus, другие контроллеры сверять. Одна схема кнопок на сборку, вместо схем VRIK. Spell Wheel VR в Core есть.",
+   "reason": "Автор прямо пишет про свободные грипы для взаимодействия; один VR-лист. Тест: проверить хват HIGGS и колесо в игре."
+  },
+  {
+   "key": "id:130983",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоский Edge UI для SE/AE и его патчи. В VR брать только Edge UI - VR Edition.",
+   "note": "Edge UI 0.60 и патчи (131896, 142390, 140978, 156574): только SE-листы Tomes of Talos и Wunduniik. Конфликт по swf с Norden UI VR и Edge UI VR.",
+   "reason": "Подтверждено: ни один VR-лист не ставит, патчи под плоские QuickLoot IE 3.x и moreHUD."
+  },
+  {
+   "key": "n:untarnished-ui",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоская тема Untarnished UI и её патчи под Wheeler, Character Menu и др. VR-сборок нет.",
+   "note": "Untarnished UI 1.1.6 и патчи 114953, 97434, 101499, 118915, 149979: только SE-листы (Tomes of Talos, Nordic Souls, NGVO, LoreRim). Опирается на SkyUI SE и SKSE Menu Framework.",
+   "reason": "Ни одного VR-листа, конфликт по swf со всеми VR-темами."
+  },
+  {
+   "key": "id:12604",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоский SkyUI SE/AE и Complete Widescreen Fix: в VR не нужны. SkyUI VR из Core заменять нельзя.",
+   "note": "Complete Widescreen Fix (1778) ставят Tempus (3.9.0) и Librum (2560x1080 Alpha) по инерции. Что они ломают меню VR, не доказано, но польза нулевая: в VR нет 21:9. Брать только SkyUI - VR (#91535).",
+   "reason": "Формулировка 'ломает' в исходнике сильнее фактов: два VR-листа ставят, так что запрет по доказательствам мягче. Для списка остаётся 'не ставить'."
+  },
+  {
+   "key": "n:quickloot-flat",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоские QuickLoot EE/RE/IE 3.x. В VR только IE 4.1.3 из Core или Quickloot VR, не вместе.",
+   "note": "SE-листы ставят IE 3.4.1, VR-листы Stormcrown и Yggdrasil: IE 4.1.3 (2026-09-17). Дубль правила Core, оставлено ради полноты раздела.",
+   "reason": "Подтверждено whouses: 3.x только в SE-листах."
+  },
+  {
+   "key": "id:18619",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "moreHUD Inventory Edition AE/SE 2.x: DLL под 1.6.x, в VR не годится. Нужна VR-версия 1.0.18 (#59142).",
+   "note": "Только версии 2.x (AE 2.1.3.0, Loose 2.2.3.0) в SE-листах. Librum VR ставит старую Loose 1.0.18 (2020) рядом с VR-файлом: нужна ли она, не проверено. Не вместе с #59142 в версии 2.x.",
+   "reason": "Подтверждено: 15 SE-листов, в VR только старая 1.0.18 у Librum."
+  },
+  {
+   "key": "id:64339",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Better Third Person Selection правит выбор по прицелу для вида от третьего лица. В VR вида нет, выбор делает HIGGS.",
+   "note": "Версия 0.8.9 в SE-листах, Librum VR ставит 0.5.8 по инерции. Правит crosshair-подбор: риск столкнуться с HIGGS и Quickloot.",
+   "reason": "Смысла в VR нет, один VR-лист ставит."
+  },
+  {
+   "key": "n:flat-ui-2026",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Свежие плоские UI-плагины 2026 (Character Menu SE, Copy Paste In Menus, Favorite Wheel и др.): VR-сборок нет. Favorite Wheel прямо пишет, что VR не поддерживается.",
+   "note": "Явный отказ VR только у Favorite Wheel (GitHub BlackMesa79, 0.5.2). Остальные (173074, 178439, 174136, 172844, 173086): только SE-листы, что они не заработают, не доказано, но ставить их незачем. Lingering Subtitles Fix затрагивает субтитры.",
+   "reason": "Групповая карточка: единственное прямое доказательство у Favorite Wheel, для остальных вывод только по отсутствию в VR-листах."
+  }
+ ]
+}

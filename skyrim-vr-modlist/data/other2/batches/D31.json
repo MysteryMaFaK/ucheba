@@ -1,0 +1,725 @@
+{
+ "batch": "D31",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 93694,
+   "name": "I'm Talkin' Here",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "I'm Talkin Here-93694-2-0-1714884217.7z"
+   ],
+   "author": "AlmightySE",
+   "leftover": false,
+   "key": "id:93694",
+   "theme": "other"
+  },
+  {
+   "id": 122516,
+   "name": "I'm Walkin' Here NG with Pets",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "I'm Walkin' Here NG Expanded.7z",
+    "I'm Walkin' Here NG with Pets-122516-1-0-0-1719597198.zip",
+    "I'm_Walkin'_Here_NG_Expanded_1.8.0_xDLPwGWtE.7z"
+   ],
+   "author": "Ryan--VersuchDrei--golovatris",
+   "leftover": false,
+   "key": "id:122516",
+   "theme": "other"
+  },
+  {
+   "id": 144900,
+   "name": "Illuminous Dawnbreaker",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-16",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Illuminous Dawnbreaker-144900-1-1742136282.7z"
+   ],
+   "author": "kuroishitam",
+   "leftover": false,
+   "key": "id:144900",
+   "theme": "other"
+  },
+  {
+   "id": 68442,
+   "name": "Im Talking to You",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-06-30",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Im Talking to You-68442-2-1-1656557157.rar"
+   ],
+   "author": "Yeti",
+   "leftover": false,
+   "key": "id:68442",
+   "theme": "other"
+  },
+  {
+   "id": 99867,
+   "name": "Immersive Carcass Carrying",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-09-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "ICC - Simple Hunting Overhaul-99867-1-00-1693842216.rar"
+   ],
+   "author": "Elsawirr",
+   "leftover": false,
+   "key": "id:99867",
+   "theme": "other"
+  },
+  {
+   "id": 77187,
+   "name": "Immersive Equipping Animations",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Immersive Equipping Animations - Patches FOMOD-77187-2-01-1668142444.zip",
+    "Immersive Equipping Animations-77187-2-01-1667971764.zip",
+    "Immersive Equipping Animations-77187-2-02-1706587191.zip"
+   ],
+   "author": "TheCyclist",
+   "leftover": false,
+   "key": "id:77187",
+   "theme": "other"
+  },
+  {
+   "id": 96961,
+   "name": "Immersive Hunting Animations",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-10-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Immersive Hunting Animations-96961-2-3-1-1729893491.zip"
+   ],
+   "author": "Elsawirr and GiraPomba",
+   "leftover": false,
+   "key": "id:96961",
+   "theme": "other"
+  },
+  {
+   "id": 75664,
+   "name": "Immersive Spell Effects Emit Light",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-29",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Immersive Spell Effects Emit Light-75664-1-0-1663644603.zip",
+    "Immersive Spell Effects Emit Light-75664-1-01-1706550095.zip"
+   ],
+   "author": "Kwiat_W",
+   "leftover": false,
+   "key": "id:75664",
+   "theme": "other"
+  },
+  {
+   "id": 59435,
+   "name": "Improvement Names Customized AE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Improvement Names Customized AE 59435 1.5.1 2026-08-26T00-47Z N2AYL5IW5.7z",
+    "Improvement Names Customized AE-59435-1-5-0-1672234689.7z"
+   ],
+   "author": "colinswrath and Fudgyduff",
+   "leftover": false,
+   "key": "id:59435",
+   "theme": "other"
+  },
+  {
+   "id": 167127,
+   "name": "Ingredient Magnitudes",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-09-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ingredient Magnitudes-167127-1-0-1-1765837622.zip",
+    "Ingredient Magnitudes-167127-1-0-2-799268-1788367740.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:167127",
+   "theme": "other"
+  },
+  {
+   "id": 40777,
+   "name": "Ingredients",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-10-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ingredients-40777-6-0-1601558843.7z"
+   ],
+   "author": "Pfuscher and Mathy",
+   "leftover": false,
+   "key": "id:40777",
+   "theme": "other"
+  },
+  {
+   "id": 22956,
+   "name": "It Beats For Her SSE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-05-31",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "It Beats For Her SSE-22956-1-0-1622502986.7z"
+   ],
+   "author": "Veliremus",
+   "leftover": false,
+   "key": "id:22956",
+   "theme": "other"
+  },
+  {
+   "id": 37112,
+   "name": "Ivy by Mari",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ivy by Mari 2k - Green-37112-1-0-1591775736.7z",
+    "Ivy by Mari 4k - Green-37112-1-0-1591775466.7z"
+   ],
+   "author": "ArtByMari",
+   "leftover": false,
+   "key": "id:37112",
+   "theme": "other"
+  },
+  {
+   "id": 70979,
+   "name": "JS Immersive Tripwires SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-12-13",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "JS Immersive Tripwires SE-70979-1-0-1657309439.rar",
+    "JS Immersive Tripwires SE-70979-1-2-1670938327.rar"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:70979",
+   "theme": "other"
+  },
+  {
+   "id": 71993,
+   "name": "JS Misplaced Septims SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-26",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "JS Misplaced Septims SE-71993-1-1-1658865109.7z"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:71993",
+   "theme": "other"
+  },
+  {
+   "id": 80562,
+   "name": "Kabu's Frost Salts",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-12-13",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Kabu's Frost Salts 1k-80562-1-0-1670906432.zip",
+    "Kabu's Frost Salts 2k-80562-1-0-1670906383.zip"
+   ],
+   "author": "Kabunouveau",
+   "leftover": false,
+   "key": "id:80562",
+   "theme": "other"
+  },
+  {
+   "id": 85513,
+   "name": "Kabu's Void Salts",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-04-07",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Kabu's Void Salts - CACO Patch-85513-1-0-1680846833.zip",
+    "Kabu's Void Salts - Fancy Version - 2k1k-85513-1-0-1677094273.rar",
+    "Kabu's Void Salts - Simple Version - 2k1k-85513-1-0-1677094405.rar"
+   ],
+   "author": "Kabunouveau",
+   "leftover": false,
+   "key": "id:85513",
+   "theme": "other"
+  },
+  {
+   "id": 110913,
+   "name": "Kanjs - Draw Knife Animated",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-05",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Draw Knife Animated SE 1K-110913-1-1707098355.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:110913",
+   "theme": "other"
+  },
+  {
+   "id": 113969,
+   "name": "Kanjs - Focusing Crystal Animated",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-13",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Focusing Crystal Animated se 1k-113969-1-1710368994.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:113969",
+   "theme": "other"
+  },
+  {
+   "id": 86673,
+   "name": "Kanjs - Goldbrand",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Goldbrand 2k-86673-1-1678393459.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:86673",
+   "theme": "other"
+  },
+  {
+   "id": 106116,
+   "name": "Kanjs - Gray Fox Bust and Cowl Animated",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Gray Fox Bust and Cowl Animated 1k-106116-1-1-1701629067.zip",
+    "Kanjs - Gray Fox Bust and Cowl Animated 2k-106116-1-1-1701629044.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:106116",
+   "theme": "other"
+  },
+  {
+   "id": 91171,
+   "name": "Kanjs - Skull of Corruption",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-12",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Kanjs - Skull of Corruption SE 2k-91171-1-1683884839.zip"
+   ],
+   "author": "Kanjs",
+   "leftover": false,
+   "key": "id:91171",
+   "theme": "other"
+  },
+  {
+   "id": 116713,
+   "name": "Kome's Inventory Tweaks",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-19",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Komegaki's Inventory Tweaks - Patches-116713-1-21-1716155557.zip",
+    "Komegaki's Inventory Tweaks-116713-1-21-1716139747.zip"
+   ],
+   "author": "Komegaki",
+   "leftover": false,
+   "key": "id:116713",
+   "theme": "other"
+  },
+  {
+   "id": 99768,
+   "name": "LLF Particle Lights instead of Fake Glow",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-09-02",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "HateFakeGlow-99768-0-1-1693661439.zip"
+   ],
+   "author": "AlexKuczaja",
+   "leftover": false,
+   "key": "id:99768",
+   "theme": "other"
+  },
+  {
+   "id": 31472,
+   "name": "Land of Vominheim SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-10",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Land of Vominheim - ESP Version-31472-2-03-1626327985.7z",
+    "Land of Vominheim - SE esm-31472-3-11-1768058871.7z",
+    "New Vominheim - ESM version-31472-2-04-1-1641819132.7z"
+   ],
+   "author": "venjhammet",
+   "leftover": false,
+   "key": "id:31472",
+   "theme": "other"
+  },
+  {
+   "id": 68696,
+   "name": "Large Stagger Animation",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-05-31",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1_DAR Stagger NPC and Player-68696-1-2-1653964714.7z",
+    "DAR Stagger NPC and Player-68696-1-2-1653964714.7z",
+    "DAR stagger only for npcs-68696-1-2-1653964810.7z"
+   ],
+   "author": "RI AC",
+   "leftover": false,
+   "key": "id:68696",
+   "theme": "other"
+  },
+  {
+   "id": 56826,
+   "name": "Less Obtrusive Wards",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-10-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Less Obtrusive Wards-56826-1-0-1633794147.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:56826",
+   "theme": "other"
+  },
+  {
+   "id": 14927,
+   "name": "Lock Overhaul",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Lock Overhaul - Ordinator Version-14927-1-6.rar",
+    "Lock Overhaul-14927-1-6.rar"
+   ],
+   "author": "Quad2Core",
+   "leftover": false,
+   "key": "id:14927",
+   "theme": "other"
+  },
+  {
+   "id": 2388,
+   "name": "Low Resolution Particles",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "FPS Boost-2388-1-0-0.7z"
+   ],
+   "author": "Pevey",
+   "leftover": false,
+   "key": "id:2388",
+   "theme": "other"
+  },
+  {
+   "id": 80852,
+   "name": "Lunaris",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Lunaris-80852-1-3-6-1708253897.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:80852",
+   "theme": "other"
+  },
+  {
+   "id": 36830,
+   "name": "M'rissi Renewed",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-19",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "M'rissi Renewed-36830-1-10-1592549974.7z"
+   ],
+   "author": "AlbinoWalrus",
+   "leftover": false,
+   "key": "id:36830",
+   "theme": "other"
+  },
+  {
+   "id": 4406,
+   "name": "Magicka Sabers for SSE with Light Emission",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Magicka Sabers With light Effect-4406-1-4.rar"
+   ],
+   "author": "Grantious",
+   "leftover": false,
+   "key": "id:4406",
+   "theme": "other"
+  },
+  {
+   "id": 142109,
+   "name": "Masterwork - An Anniversary Edition Artifact Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Masterwork 142109 2.0 2026-08-11T11-00Z RHaV1OG9b.zip",
+    "Masterwork 142109 2.1 2026-08-17T04-31Z Ae46W79vy.zip"
+   ],
+   "author": "Slampire",
+   "leftover": false,
+   "key": "id:142109",
+   "theme": "other"
+  },
+  {
+   "id": 150004,
+   "name": "Mesh Glow Removal Project",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-04-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Mesh Glow Removal Project-150004-1-1-1750186525.zip",
+    "Mesh Glow Removal Project-150004-1-2-1-1776796697.zip"
+   ],
+   "author": "Bottle",
+   "leftover": false,
+   "key": "id:150004",
+   "theme": "other"
+  },
+  {
+   "id": 104826,
+   "name": "Mihail's CC Goblins Overhaul (SE's Creation Club- AE)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-19",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Mihail's CC Goblins Overhaul (SE-AE)-104826-1-1700368517.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:104826",
+   "theme": "other"
+  },
+  {
+   "id": 38348,
+   "name": "Miscellaneous Tweaks Collection",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-05",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Misc Tweaks - Better Ancient Knowledge Perk-38348-1-0-1596980500.zip",
+    "Misc Tweaks - Better Horses-38348-1-3-1616315484.7z",
+    "Misc Tweaks - More Expensive Inns-38348-1-0-1616005981.7z"
+   ],
+   "author": "see credits tab",
+   "leftover": false,
+   "key": "id:38348",
+   "theme": "other"
+  }
+ ]
+}

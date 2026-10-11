@@ -1,0 +1,804 @@
+{
+ "batch": "C01",
+ "band": "C",
+ "themes": {
+  "arch_city": 31,
+  "armor": 3
+ },
+ "items": [
+  {
+   "id": 80515,
+   "name": "FYX - Black-Briar and Riftweald Manors",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-12-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "A) FYX - Black-Briar and Riftweald Manors - Parallax-80515-1-0-4-1-1672381335.7z",
+    "A) FYX - Black-Briar and Riftweald Manors-80515-1-0-4-1-1671369704.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:80515",
+   "theme": "arch_city"
+  },
+  {
+   "id": 74309,
+   "name": "JK's Castle Dour",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2025-04-29",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "JK's Castle Dour-74309-1-1-0-1662924909.rar",
+    "JK's Castle Dour-74309-1-3-0-1725222717.rar",
+    "JK's Castle Dour-74309-1-3-1-1745938155.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:74309",
+   "theme": "arch_city"
+  },
+  {
+   "id": 154109,
+   "name": "JK's Tel Mithryn Patch Collection",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2026-04-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "JK's Tel Mithryn Patch Collection-154109-1-1-1755078746.rar",
+    "JK's Tel Mithryn Patch Collection-154109-1-2-1761384879.rar",
+    "JK's Tel Mithryn Patch Collection-154109-1-3-1776199002.rar"
+   ],
+   "author": "Czasior",
+   "leftover": false,
+   "key": "id:154109",
+   "theme": "arch_city"
+  },
+  {
+   "id": 133787,
+   "name": "JK's Thieves Guild HQ",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2025-07-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "JK's Thieves Guild-133787-1-0-1-1733834737.rar",
+    "JK's Thieves Guild-133787-1-0-2-1752976104.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:133787",
+   "theme": "arch_city"
+  },
+  {
+   "id": 23938,
+   "name": "Medieval Silverworks",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2019-03-06",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Medieval Silverworks STAC Patch-23938-1-0-0-1551836391.7z",
+    "Medieval Silverworks-23938-1-0-0-1551836270.7z"
+   ],
+   "author": "mathy79",
+   "leftover": false,
+   "key": "id:23938",
+   "theme": "arch_city"
+  },
+  {
+   "id": 82779,
+   "name": "Rally's Farming Tools (Higher Poly)",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-03-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Broom Animobject-82779-1-0-1678780181.7z",
+    "Rally's Farming Tools HP-82779-1-0-1673903030.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:82779",
+   "theme": "arch_city"
+  },
+  {
+   "id": 78761,
+   "name": "Solitude Interiors Meshes Fixes",
+   "vr": 1,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2023-11-13",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Solitude Interiors Meshes FIXES (Parallax)-78761-2-5-1678110485.7z",
+    "Solitude Interiors Meshes FIXES - ExInt-78761-2-4-1699863590.7z",
+    "Solitude Interiors Meshes FIXES - Extravagant Interiors - Solitude (Blue Palace only) patch-78761-2-"
+   ],
+   "author": "WiZkiD",
+   "leftover": false,
+   "key": "id:78761",
+   "theme": "arch_city"
+  },
+  {
+   "id": 127561,
+   "name": "The Sounds of Towns and Cities",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2024-09-01",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "The Sounds of Towns and Cities-127561-1-1-1725149932.7z"
+   ],
+   "author": "Clofas",
+   "leftover": false,
+   "key": "id:127561",
+   "theme": "arch_city"
+  },
+  {
+   "id": 153681,
+   "name": "[серия «3d whiterun», 3 модов] 3D Whiterun Trellis - Complex Material and PBR и др.",
+   "vr": 2,
+   "se": 5,
+   "score": 7,
+   "band": "C",
+   "newest": "2026-03-16",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "3D Whiterun Trellis - Complex Material and PBR-153681-1-0-0-1750996910.7z",
+    "3D Whiterun Trellis - Complex Material and PBR-153681-1-0-1-1754543954.7z",
+    "3D Whiterun Trellis - Complex Material and PBR-153681-1-1-0-1773640000.7z"
+   ],
+   "author": "CaptainCockerel and Leo",
+   "leftover": false,
+   "key": "id:153681",
+   "series": "3d whiterun",
+   "members": [
+    {
+     "id": 153681,
+     "name": "3D Whiterun Trellis - Complex Material and PBR",
+     "vr": 2,
+     "se": 3,
+     "newest": "2026-03-16",
+     "files": [
+      "3D Whiterun Trellis - Complex Material and PBR-153681-1-0-0-1750996910.7z"
+     ]
+    },
+    {
+     "id": 41801,
+     "name": "3D Whiterun Trellis",
+     "vr": 1,
+     "se": 4,
+     "newest": "2020-11-15",
+     "files": [
+      "3D Whiterun Trellis - Wood Textures v1.1-41801-1-1-1605406789.7z"
+     ]
+    },
+    {
+     "id": 67700,
+     "name": "3D Whiterun Trellis Expansion",
+     "vr": 0,
+     "se": 5,
+     "newest": "2022-06-01",
+     "files": [
+      "3D Whiterun Trellis Expansion - Metal Trellis-67700-1-3-1-1654119565.7z"
+     ]
+    }
+   ],
+   "theme": "arch_city"
+  },
+  {
+   "id": 324,
+   "name": "Castle Volkihar Rebuilt - SSE",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-07-22",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Castle Volkihar Rebuilt-324-2-0-6-1617993463.7z",
+    "Castle Volkihar Rebuilt-324-2-0-8-1721681114.7z"
+   ],
+   "author": "Arthmoor",
+   "leftover": false,
+   "key": "id:324",
+   "theme": "arch_city"
+  },
+  {
+   "id": 47802,
+   "name": "Dwemer Tech Glowmapped",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-04-12",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dwemer Tech Glowmapped 2.2-47802-2-2-1618240357.rar"
+   ],
+   "author": "Caleb2 - a k a Anubis",
+   "leftover": false,
+   "key": "id:47802",
+   "theme": "arch_city"
+  },
+  {
+   "id": 100088,
+   "name": "FYX - Hrothgar Steps Collisions",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-09-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "FYX - High Hrothgar Collisions - Parallax - Soft-100088-1-0-1694490960.7z",
+    "FYX - High Hrothgar Collisions - Parallax-100088-1-0-1694023245.7z",
+    "FYX - High Hrothgar Collisions-100088-1-0-1694023215.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:100088",
+   "theme": "arch_city"
+  },
+  {
+   "id": 40094,
+   "name": "Fortified Whiterun",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-08-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Fewer Exterior Gate Guards for Fortified Whiterun-40094-1-0-1641038512.7z",
+    "Fortified Whiterun-40094-1-5-1613451344.7z",
+    "Fortified Whiterun-40094-1-6-1691464187.7z"
+   ],
+   "author": "skyfall515",
+   "leftover": false,
+   "key": "id:40094",
+   "theme": "arch_city"
+  },
+  {
+   "id": 130429,
+   "name": "Glorious Grainmills",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-09-29",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Glorious Grainmills - Parallax-130429-1-1-1727625394.rar",
+    "Glorious Grainmills-130429-1-1-1727625253.rar"
+   ],
+   "author": "me",
+   "leftover": false,
+   "key": "id:130429",
+   "theme": "arch_city"
+  },
+  {
+   "id": 130679,
+   "name": "Grain Mill Animation Fix",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-10-03",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Grain Mill Animation Fix-130679-0-2-1727938080.7z"
+   ],
+   "author": "wSkeever",
+   "leftover": false,
+   "key": "id:130679",
+   "theme": "arch_city"
+  },
+  {
+   "id": 56341,
+   "name": "HD Textures for Solitude and Temple Frescoes (with Shrine Base)",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-02",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Solitude and Temple Frescoes HD-56341-1-3-1635838514.7z"
+   ],
+   "author": "MoonMods",
+   "leftover": false,
+   "key": "id:56341",
+   "theme": "arch_city"
+  },
+  {
+   "id": 91290,
+   "name": "Hand placed enemies - Light (Populated spawns and dungeons)",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-03-13",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 4,
+   "files": [
+    "HPE for The dragon cult - no ambushes-91290-1-01-1710356049.7z",
+    "Hand Placed Enemies - Light No ambushes-91290-1-0-1684015212.7z",
+    "Hand Placed Enemies - Light-91290-1-0-1684015129.7z"
+   ],
+   "author": "Tryvon",
+   "leftover": false,
+   "key": "id:91290",
+   "theme": "arch_city"
+  },
+  {
+   "id": 93758,
+   "name": "Improved Solitude Windmill",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-03-07",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Improved Solitude Windmill-93758-1-4-1709772804.7z"
+   ],
+   "author": "RedBag",
+   "leftover": false,
+   "key": "id:93758",
+   "theme": "arch_city"
+  },
+  {
+   "id": 114270,
+   "name": "Meridia Shrine Dungeon ENB PARTICLE LIGHTS",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-03-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Meridia Shrine Dungeon ENB PARTICLE LIGHTS-114270-1-1710643457.zip"
+   ],
+   "author": "BlackKnight3k",
+   "leftover": false,
+   "key": "id:114270",
+   "theme": "arch_city"
+  },
+  {
+   "id": 90737,
+   "name": "Morthal Barrow",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-01-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Morthal Barrow 1.3.1-90737-1-3-1-1702380528.zip",
+    "Morthal Barrow-90737-1-4-1736296204.zip"
+   ],
+   "author": "Penrutet",
+   "leftover": false,
+   "key": "id:90737",
+   "theme": "arch_city"
+  },
+  {
+   "id": 70197,
+   "name": "Neutral Whiterun Guards",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-02-16",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Neutral Whiterun Guards-70197-4-2-1732972503.7z",
+    "Neutral Whiterun Guards-70197-4-6-1771261726.7z",
+    "Neutral Whiterun Guards-70197-4-7-0-0-762312.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:70197",
+   "theme": "arch_city"
+  },
+  {
+   "id": 9107,
+   "name": "Northern Marsh Bridges",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-04-17",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Northern Marsh Bridges SE-9107-1-3-1555482999.7z"
+   ],
+   "author": "Urtho",
+   "leftover": false,
+   "key": "id:9107",
+   "theme": "arch_city"
+  },
+  {
+   "id": 91311,
+   "name": "Northern Vanilla Farmhouses",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-10-25",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "NVFH - BDS 3 Patch-91311-2-1-1698238309.rar",
+    "NVFH - Patches FOMOD-91311-2-1-2-1-1688327613.rar",
+    "NVFH LOD Files-91311-2-1-1685998451.rar"
+   ],
+   "author": "JPSteel2 - 6Four9 - archlyde123",
+   "leftover": false,
+   "key": "id:91311",
+   "theme": "arch_city"
+  },
+  {
+   "id": 67676,
+   "name": "SMIM Barrel Expansion - Mead Barrel - Oil Barrel - Butter Churn",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-07-13",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "SMIM Barrel Expansion - Mead Barrel - Oil Barrel - Butter Churn-67676-0-1-1-1651945618.7z",
+    "SMIM Barrel Expansion Mead Oil Barrel Butter Churn 67676 0.1.2 2026-07-13T05-10Z 4t2yDcVca.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:67676",
+   "theme": "arch_city"
+  },
+  {
+   "id": 169989,
+   "name": "Simplicity of Splatter - High-Res Blood Textures",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-03-16",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Simplicity of Splatter - High-Res Blood Textures-169989-0-1-1-1773705401.7z",
+    "Simplicity of Splatter - High-Res Blood Textures-169989-0-1-1768664932.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:169989",
+   "theme": "arch_city"
+  },
+  {
+   "id": 33514,
+   "name": "Solitude and Temple Frescoes - mesh fix and cubemap patch",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-03-12",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Solitude Temple Frescoes 2019 - eye cubemap patch-33514-1-1-1584028874.7z"
+   ],
+   "author": "Arduunos",
+   "leftover": false,
+   "key": "id:33514",
+   "theme": "arch_city"
+  },
+  {
+   "id": 179088,
+   "name": "Stuck on Screen Auto Load Door Fix SKSE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-23",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Auto Load Door Stuck On Screen Fix SKSE 179088 0.3.1 2026-08-23T23-46Z IoFlhf49c.7z",
+    "Auto Load Door Stuck On Screen Fix SKSE-179088-0-2-1777949728.7z",
+    "Auto Load Door Stuck On Screen Fix SKSE-179088-0-3-1-794152-1787528760.7z"
+   ],
+   "author": "wSkeever",
+   "leftover": false,
+   "key": "id:179088",
+   "theme": "arch_city"
+  },
+  {
+   "id": 96531,
+   "name": "Stuck on Screen Load Door Prompt Fix",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-06-10",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Stuck on Screen Load Door Prompt Fix-96531-0-1-1-1690218125.rar",
+    "Stuck on Screen Load Door Prompt Fix-96531-0-2-1749552209.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:96531",
+   "theme": "arch_city"
+  },
+  {
+   "id": 127371,
+   "name": "Temples of the Ancients Complex Material",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-12-09",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Temples of the Ancients Complex Material-127371-1-0-0-1741673639.rar",
+    "Temples of the Ancients Complex Material-127371-1-1-0-1754792773.7z",
+    "Temples of the Ancients Complex Material-127371-2-4-1737962905.rar"
+   ],
+   "author": "Leo",
+   "leftover": false,
+   "key": "id:127371",
+   "theme": "arch_city"
+  },
+  {
+   "id": 78686,
+   "name": "Wood Wall Trap Mesh and UV Fix",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-11-13",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Wood Wall Trap _ Mesh and UV Fix-78686-1-0-1668331833.rar"
+   ],
+   "author": "Pieter82",
+   "leftover": false,
+   "key": "id:78686",
+   "theme": "arch_city"
+  },
+  {
+   "id": 90252,
+   "name": "[серия «dynamic female», 6 модов] Dynamic Female Ledge Sitting и др.",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-09-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Dynamic Female Ledge Sitting 90252 1.4 2026-09-05T16-39Z FpnkHZEQd.zip",
+    "Dynamic Female Ledge Sitting OAR-90252-1-3-1688343848.zip",
+    "Dynamic Female Ledge Sitting-90252-1-4-800820-1788626340.zip"
+   ],
+   "author": "Sonderbain",
+   "leftover": false,
+   "key": "id:90252",
+   "series": "dynamic female",
+   "members": [
+    {
+     "id": 90252,
+     "name": "Dynamic Female Ledge Sitting",
+     "vr": 1,
+     "se": 4,
+     "newest": "2026-09-05",
+     "files": [
+      "Dynamic Female Ledge Sitting 90252 1.4 2026-09-05T16-39Z FpnkHZEQd.zip"
+     ]
+    },
+    {
+     "id": 93520,
+     "name": "Dynamic Female Rail Leaning",
+     "vr": 1,
+     "se": 4,
+     "newest": "2026-09-05",
+     "files": [
+      "Dynamic Female Rail Leaning 93520 1.3 2026-09-05T16-45Z Dc5uGkIEX.zip"
+     ]
+    },
+    {
+     "id": 87536,
+     "name": "Dynamic Female Wall Leaning",
+     "vr": 1,
+     "se": 4,
+     "newest": "2026-09-05",
+     "files": [
+      "Dynamic Female Wall Leaning 87536 1.4 2026-09-05T16-23Z RHaV1OkZy.zip"
+     ]
+    },
+    {
+     "id": 151307,
+     "name": "Dynamic Female Table Leaning",
+     "vr": 1,
+     "se": 3,
+     "newest": "2026-09-05",
+     "files": [
+      "Dynamic Female Table Leaning - OAR-151307-1-1-1749593766.zip"
+     ]
+    },
+    {
+     "id": 98493,
+     "name": "Dynamic Female Weather Idles",
+     "vr": 1,
+     "se": 3,
+     "newest": "2025-06-20",
+     "files": [
+      "Dynamic Female Weather Idles - OAR-98493-1-5-1737177780.zip"
+     ]
+    },
+    {
+     "id": 128040,
+     "name": "Dynamic Female Swimming Idles",
+     "vr": 1,
+     "se": 2,
+     "newest": "2026-09-05",
+     "files": [
+      "Dynamic Female Swimming Idles-128040-1-0-1725146942.zip"
+     ]
+    }
+   ],
+   "theme": "arch_city"
+  },
+  {
+   "id": 71437,
+   "name": "Actually flat flat snow drifts - fix hovering snow drift shadow with ENB",
+   "vr": 0,
+   "se": 7,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-07-15",
+   "vr_lists": [],
+   "se_lists": 7,
+   "files": [
+    "Actually Flat Flat Snow Drifts-71437-1-1657925121.rar"
+   ],
+   "author": "CarpeNihil",
+   "leftover": false,
+   "key": "id:71437",
+   "theme": "armor"
+  },
+  {
+   "id": 35576,
+   "name": "Circlet USSEP Fixes",
+   "vr": 2,
+   "se": 3,
+   "score": 7,
+   "band": "C",
+   "newest": "2020-05-04",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Gemling Queen Jewelry SE USSEP Circlet Fix-35576-1-0-1588574614.zip",
+    "JS Circlet Replacer USSEP Fix-35576-1-0-1588585810.zip"
+   ],
+   "author": "obpluto",
+   "leftover": false,
+   "key": "id:35576",
+   "theme": "armor"
+  },
+  {
+   "id": 70354,
+   "name": "Don't sheathe bound weapons DAR animations",
+   "vr": 3,
+   "se": 1,
+   "score": 7,
+   "band": "C",
+   "newest": "2022-07-01",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Don't sheat bound weapons-70354-1-3-1656659233.rar"
+   ],
+   "author": "samuelga24",
+   "leftover": false,
+   "key": "id:70354",
+   "theme": "armor"
+  }
+ ]
+}

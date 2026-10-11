@@ -1,0 +1,790 @@
+{
+ "batch": "C04",
+ "band": "C",
+ "themes": {
+  "body_face": 36
+ },
+ "items": [
+  {
+   "id": 61321,
+   "name": "AutoBody AE - Configurable Randomized Bodies",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-06-12",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "AutoBody AE 1.5.1-61321-1-5-1-1655067794.zip"
+   ],
+   "author": "RocketBun",
+   "leftover": false,
+   "key": "id:61321",
+   "theme": "body_face"
+  },
+  {
+   "id": 110421,
+   "name": "BONOBODY 3BA PRESET",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-01-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "BONOBODY SE 7-110421-7-0-1706520721.7z"
+   ],
+   "author": "SEXYBONO",
+   "leftover": false,
+   "key": "id:110421",
+   "theme": "body_face"
+  },
+  {
+   "id": 42809,
+   "name": "Beard stubble",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-11-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Beard stubbles light-42809-1-0-1606500659.7z",
+    "Beard stubbles-42809-1-0-1606487103.7z"
+   ],
+   "author": "Pfuscher",
+   "leftover": false,
+   "key": "id:42809",
+   "theme": "body_face"
+  },
+  {
+   "id": 35832,
+   "name": "Bijin - Use CBBE Meshes and Textures",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-06-08",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Bijin - Use CBBE Meshes and Textures-35832-4-1-1654729499.7z"
+   ],
+   "author": "Amki45",
+   "leftover": false,
+   "key": "id:35832",
+   "theme": "body_face"
+  },
+  {
+   "id": 33315,
+   "name": "Bijin Family - CBBE 3BA (3BBB) Bodyslides",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-08-25",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Bijin Family - CBBE 3BBB (3BA) Bodyslides-33315-1-1-1598334872.7z"
+   ],
+   "author": "Kalessin42",
+   "leftover": false,
+   "key": "id:33315",
+   "theme": "body_face"
+  },
+  {
+   "id": 20126,
+   "name": "Bijin Skin for Bijin Family SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-05-05",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Bijin Skin for Bijin Family - CBBE-20126-1-3-1557091010.7z"
+   ],
+   "author": "Shiva182",
+   "leftover": false,
+   "key": "id:20126",
+   "theme": "body_face"
+  },
+  {
+   "id": 26916,
+   "name": "Binaural 3D Surround Sound for Headphones - HRTF",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-02-19",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Binaural 3D Surround Sound for SKYRIM VR-26916-2-4-1645308060.7z"
+   ],
+   "author": "kosumosu",
+   "leftover": false,
+   "key": "id:26916",
+   "theme": "body_face"
+  },
+  {
+   "id": 78536,
+   "name": "BnP - Child Skin",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-10-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "BnP child skin (RS children) 2k-78536-2-0-1698273728.7z"
+   ],
+   "author": "Fridam",
+   "leftover": false,
+   "key": "id:78536",
+   "theme": "body_face"
+  },
+  {
+   "id": 30411,
+   "name": "Brows",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-03-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Hvergelmir's Aesthetics - Brows 4.0.1-30411-4-0-1-1552949053.rar"
+   ],
+   "author": "Hvergelmir",
+   "leftover": false,
+   "key": "id:30411",
+   "theme": "body_face"
+  },
+  {
+   "id": 66494,
+   "name": "Ceres Deluge BodySlide Preset for 3BA BHUNP CBBE COCO 3BBB",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-04-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "s4rMs - Ceres Deluge -3BA--66494-1-0-1650290783.rar"
+   ],
+   "author": "s4rMs",
+   "leftover": false,
+   "key": "id:66494",
+   "theme": "body_face"
+  },
+  {
+   "id": 91438,
+   "name": "Conditional Expressions Extended",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-05-09",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Conditional Expressions Extended-91438-1-4-3-1684871569.zip",
+    "Conditional Expressions Extended-91438-2-0-5-1717845648.zip",
+    "Conditional Expressions Extended-91438-2-0-6-1729511720.zip"
+   ],
+   "author": "crajj",
+   "leftover": false,
+   "key": "id:91438",
+   "theme": "body_face"
+  },
+  {
+   "id": 26818,
+   "name": "Danyca - RaceMenu and Bodyslide presets (CBBE) for a female Nord",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-12-10",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Danyca_Nord_Bodyslide_Preset-26818-1-1-1575989188.rar"
+   ],
+   "author": "Taurelin",
+   "leftover": false,
+   "key": "id:26818",
+   "theme": "body_face"
+  },
+  {
+   "id": 15360,
+   "name": "Dream Angels CBBE SSE BodySlide Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dream Angels Body Preset - All-In-One-15360-1-4.7z"
+   ],
+   "author": "docteure",
+   "leftover": false,
+   "key": "id:15360",
+   "theme": "body_face"
+  },
+  {
+   "id": 22143,
+   "name": "Drunk Sinking Head Idle Fix SE",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2018-12-26",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Drunk Sinking Head Idle Fix SE-22143-1-1545833484.7z"
+   ],
+   "author": "KnightRangersGuild",
+   "leftover": false,
+   "key": "id:22143",
+   "theme": "body_face"
+  },
+  {
+   "id": 103080,
+   "name": "Dynamic Torch Idle Animations",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-03-28",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Dynamic Torch Idle Animations - OAR-103080-1-3-1711669467.zip"
+   ],
+   "author": "Sonderbain",
+   "leftover": false,
+   "key": "id:103080",
+   "theme": "body_face"
+  },
+  {
+   "id": 62643,
+   "name": "EAR CBBE 3BA Body Preset (Ultimate body)",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-01-27",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "EAR CBBE 3BA Body Preset (ultimate version)-62643-1-0-1643293210.rar"
+   ],
+   "author": "EAR",
+   "leftover": false,
+   "key": "id:62643",
+   "theme": "body_face"
+  },
+  {
+   "id": 15257,
+   "name": "EBD SSE - EveryBodys Different Redone for SSE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-02-24",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "EBD SSE - EveryBodys Different for SSE - Skyproc Patcher-15257-3-45-1614199936.7z"
+   ],
+   "author": "MongoMonk",
+   "leftover": false,
+   "key": "id:15257",
+   "theme": "body_face"
+  },
+  {
+   "id": 52313,
+   "name": "EasyNPC",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-11-13",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "EasyNPC-52313-0-9-5-1634521270(1).7z",
+    "EasyNPC-52313-0-9-6-1668365284.7z"
+   ],
+   "author": "focustense",
+   "leftover": false,
+   "key": "id:52313",
+   "theme": "body_face"
+  },
+  {
+   "id": 40868,
+   "name": "Elena - A High Poly Nord Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-09-26",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Elena Preset High-Poly-40868-1-0-1601153216.7z"
+   ],
+   "author": "Orimagen",
+   "leftover": false,
+   "key": "id:40868",
+   "theme": "body_face"
+  },
+  {
+   "id": 67065,
+   "name": "Elevated NPCs",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-08-03",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Elevated NPCs cleaned master-67065-2-0-1a-1730222224.7z",
+    "Elevated NPCs main file hotfix 1.3.2-67065-1-3-2-1654542607.zip",
+    "Elevated NPCs-67065-1-3-1652186327.7z"
+   ],
+   "author": "eeekie",
+   "leftover": false,
+   "key": "id:67065",
+   "theme": "body_face"
+  },
+  {
+   "id": 37897,
+   "name": "Evelyn  - a High Poly Racemenu preset SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-06-25",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "1.Evelyn preset 2022 - Nord race-37897-1-3-1624660399.zip"
+   ],
+   "author": "GLAM BAZOONGA",
+   "leftover": false,
+   "key": "id:37897",
+   "theme": "body_face"
+  },
+  {
+   "id": 78879,
+   "name": "FANTASY CREATURE  HDT SMP TAILS  - maching body texture -CBBE 3BA",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-11-16",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "FANTASY CREATURE HDT SMP TAILS-78879-1-0-1668584979.zip"
+   ],
+   "author": "sandant25",
+   "leftover": false,
+   "key": "id:78879",
+   "theme": "body_face"
+  },
+  {
+   "id": 78866,
+   "name": "FANTASY CREATURE OVERLAY - RACEMENU OVERLAY - CBBE 3BA- SSE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-11-16",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "FANTASY CREATURE OVERLAY-78866-1-0-1668571444.zip"
+   ],
+   "author": "sandant25",
+   "leftover": false,
+   "key": "id:78866",
+   "theme": "body_face"
+  },
+  {
+   "id": 100821,
+   "name": "FYX - Imperial Doors Collisions",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-09-18",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "FYX - Imperial Doors Collisions - RCI Patch-100821-1-0-1-1695018474.7z",
+    "FYX - Imperial Doors Collisions - SMIM - Parallax-100821-1-0-1-1695018555.7z",
+    "FYX - Imperial Doors Collisions - SMIM-100821-1-0-1-1695018435.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:100821",
+   "theme": "body_face"
+  },
+  {
+   "id": 78467,
+   "name": "FitGirl Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-11-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "FitGirl Preset-78467-1-0-1668011740.7z"
+   ],
+   "author": "ryrx",
+   "leftover": false,
+   "key": "id:78467",
+   "theme": "body_face"
+  },
+  {
+   "id": 33883,
+   "name": "Flawn's Argonian Overlays",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-07-08",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Flawn's Argonian Overlays-33883-1-0-1594187862.7z"
+   ],
+   "author": "lordflawn",
+   "leftover": false,
+   "key": "id:33883",
+   "theme": "body_face"
+  },
+  {
+   "id": 62668,
+   "name": "Goid's Body - A CBBE 3BA Personal BodySlide",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-01-31",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Goid-Personal-Body-62668-1-2-1643590084.rar"
+   ],
+   "author": "Goid",
+   "leftover": false,
+   "key": "id:62668",
+   "theme": "body_face"
+  },
+  {
+   "id": 74989,
+   "name": "Helen - Female Breton High Poly Head RaceMenu preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-09-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "helen(breton)-74989-1-0-1662767541.7z"
+   ],
+   "author": "GhostInTheRuins",
+   "leftover": false,
+   "key": "id:74989",
+   "theme": "body_face"
+  },
+  {
+   "id": 1139,
+   "name": "Horns Are Forever (Persistent Argonian Horns)",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Horns Are Forever SE-1139-1-1.rar"
+   ],
+   "author": "Chilean Wolf",
+   "leftover": false,
+   "key": "id:1139",
+   "theme": "body_face"
+  },
+  {
+   "id": 129327,
+   "name": "Imperial Castles of Skyrim",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-03-23",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Imperial Castles of Skyrim FOMOD-129327-2-3-1774294879.7z",
+    "NF - Imperial Castles of Skyrim FOMOD-129327-2-2-1730740845.zip"
+   ],
+   "author": "H Shirlock",
+   "leftover": false,
+   "key": "id:129327",
+   "theme": "body_face"
+  },
+  {
+   "id": 94484,
+   "name": "Kala's Elven Eyes - Improved",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-05-06",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Kala's Elven Eyes - Improved 1k-94484-1-1-0-1694219430.7z",
+    "Kala's Elven Eyes - Improved 1k-94484-2-0-0-1778055965.7z",
+    "Kala's Elven Eyes - Improved 2k-94484-2-0-0-1778056007.7z"
+   ],
+   "author": "naChooey - Kalahira",
+   "leftover": false,
+   "key": "id:94484",
+   "theme": "body_face"
+  },
+  {
+   "id": 22027,
+   "name": "Khinara Jade 2 - RaceMenu Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2018-12-21",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Khinara Jade SE - RaceMenu Preset-22027-1-0-1545410028.zip"
+   ],
+   "author": "Kyndra72",
+   "leftover": false,
+   "key": "id:22027",
+   "theme": "body_face"
+  },
+  {
+   "id": 82587,
+   "name": "LOVERBOY BROWS - HD Eyebrows for Men",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-01-12",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Loverboy Brows-82587-1-1673525105.rar"
+   ],
+   "author": "AdoresUnicorns123",
+   "leftover": false,
+   "key": "id:82587",
+   "theme": "body_face"
+  },
+  {
+   "id": 103635,
+   "name": "Lae'zel A Githyanki Preset (Custom Overlays Included) by Swagmeister",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-11-11",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ASSETS- Schlong Compatibility by Swagmeister-103635-1-0-1731349988.7z",
+    "Lae'zel A Githyanki Preset - by Swagmeister-103635-1-3-1698835871.7z",
+    "Lae'zel A Githyanki Preset ASSETS- by Swagmeiste-103635-1-2-1718358466.7z"
+   ],
+   "author": "Swagmeister",
+   "leftover": false,
+   "key": "id:103635",
+   "theme": "body_face"
+  },
+  {
+   "id": 62679,
+   "name": "Lust of the Gods - CBBE 3BA-BHUNP 3BBB Bodyslide Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-14",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "VKs Lust of the Gods - CBBE 3BA Bodyslide Preset-62679-1-1-1657765620.rar"
+   ],
+   "author": "VNDKTR",
+   "leftover": false,
+   "key": "id:62679",
+   "theme": "body_face"
+  },
+  {
+   "id": 105112,
+   "name": "M'rissi's Tails of Troubles SE CBBE 3BA Patch",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-11-25",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "M'rissi's Tails of Troubles SE CBBE 3BA Patch-105112-1-2-1700930890.rar"
+   ],
+   "author": "me",
+   "leftover": false,
+   "key": "id:105112",
+   "theme": "body_face"
+  }
+ ]
+}

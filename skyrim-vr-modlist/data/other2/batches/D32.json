@@ -1,0 +1,726 @@
+{
+ "batch": "D32",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 136461,
+   "name": "Model Swapper",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Model Swapper 1.3-136461-1-3-1734437860.7z"
+   ],
+   "author": "SkyrimThiago",
+   "leftover": false,
+   "key": "id:136461",
+   "theme": "other"
+  },
+  {
+   "id": 85599,
+   "name": "Modern Female Sitting Animations Overhaul",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-04",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Modern Female Sitting Overhaul OAR-85599-2-0-1741077172.zip"
+   ],
+   "author": "Mod by Sonderbain - Legacy Script by Meridiano",
+   "leftover": false,
+   "key": "id:85599",
+   "theme": "other"
+  },
+  {
+   "id": 7935,
+   "name": "Modest Elderly",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Modest Elderly-7935-1-0.7z"
+   ],
+   "author": "JohnnyCabb",
+   "leftover": false,
+   "key": "id:7935",
+   "theme": "other"
+  },
+  {
+   "id": 98464,
+   "name": "Modlist Update Checker",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-26",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "1_Modlist Update Checker-98464-1-0-4-1706292810.7z",
+    "Modlist Update Checker-98464-1-0-4-1706292810.7z"
+   ],
+   "author": "ThirdEyeSqueegee",
+   "leftover": false,
+   "key": "id:98464",
+   "theme": "other"
+  },
+  {
+   "id": 27094,
+   "name": "Morrowloot Miscellania",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Morrowloot Miscellania - Dremora Bound Weapons-27094-1-0-1588800962.rar",
+    "Morrowloot Miscellania - Item Districution-27094-1-4-1608144649.rar",
+    "Morrowloot Miscellania - No Fortify Crafting-27094-1-1-1608142332.rar"
+   ],
+   "author": "see credits",
+   "leftover": false,
+   "key": "id:27094",
+   "theme": "other"
+  },
+  {
+   "id": 33408,
+   "name": "Morskom Estate",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-05-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Morskom Estate-33408-3-0-1651604431.7z"
+   ],
+   "author": "Darkfox127",
+   "leftover": false,
+   "key": "id:33408",
+   "theme": "other"
+  },
+  {
+   "id": 41175,
+   "name": "Much Better Night Mother",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-10-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "SavrenX Night Mother-41175-1-00-1602040746.7z"
+   ],
+   "author": "SavrenX",
+   "leftover": false,
+   "key": "id:41175",
+   "theme": "other"
+  },
+  {
+   "id": 118342,
+   "name": "Mysterious Mementos - Assorted Artifact Rebalances",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Mementos - Destroy the Dark Brotherhood QE-118342-1-0-1718702820.7z",
+    "Mementos - Morthal Barrow-118342-1-0-1714625622.7z",
+    "Mementos - Sirenroot-118342-1-0-1714602446.7z"
+   ],
+   "author": "aljo",
+   "leftover": false,
+   "key": "id:118342",
+   "theme": "other"
+  },
+  {
+   "id": 10176,
+   "name": "Mystic Condenser SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-02-24",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Mystic Condenser 2.3 AIO-10176-2-3-1582555008.7z",
+    "Mystic Condenser 2.3 UCE-10176-2-3-1582555074.7z"
+   ],
+   "author": "Dave0523",
+   "leftover": false,
+   "key": "id:10176",
+   "theme": "other"
+  },
+  {
+   "id": 168585,
+   "name": "Nature of the Wild Lands - Dawnguard Additions",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "NOTWL - Forgotten Vale-168585-0-2-1767867546.7z",
+    "NOTWL - Soul Cairn-168585-0-3-1769762261.7z"
+   ],
+   "author": "Lens",
+   "leftover": false,
+   "key": "id:168585",
+   "theme": "other"
+  },
+  {
+   "id": 86292,
+   "name": "Necrom",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Necrom-86292-2-0-6-1708252223.7z",
+    "SimonRim - Black Book Companions Patch-86292-1-00-1678630583.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:86292",
+   "theme": "other"
+  },
+  {
+   "id": 101898,
+   "name": "Necrotic",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Necrotic-101898-1-0-3-1708250815.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:101898",
+   "theme": "other"
+  },
+  {
+   "id": 30468,
+   "name": "New Legion",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-11-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Base-30468-1-0-1574192977.7z",
+    "Textures HD-30468-1-0-1574193010.7z",
+    "Textures Medium-30468-1-0-1574193036.7z"
+   ],
+   "author": "NordwarUA",
+   "leftover": false,
+   "key": "id:30468",
+   "theme": "other"
+  },
+  {
+   "id": 128488,
+   "name": "New Madness 2.0",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-09-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Mind of Madness Overhaul-128488-1-01-1726585002.rar",
+    "Shivering Sky-128488-1-1725572005.rar",
+    "Shivering Trees-128488-1-01-1726085032.rar"
+   ],
+   "author": "zukunft15 and olivierbest",
+   "leftover": false,
+   "key": "id:128488",
+   "theme": "other"
+  },
+  {
+   "id": 97584,
+   "name": "Northern Scenery - Ysgramor's Tomb",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Northern Scenery - Ysgramor's Tomb-97584-1-0-1-1698853051.rar"
+   ],
+   "author": "Heilinger Krest",
+   "leftover": false,
+   "key": "id:97584",
+   "theme": "other"
+  },
+  {
+   "id": 2475,
+   "name": "Not So Fast - Main Quest",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "NotSoFast-MainQuestV16-2475-1-6.7z"
+   ],
+   "author": "CDCooley",
+   "leftover": false,
+   "key": "id:2475",
+   "theme": "other"
+  },
+  {
+   "id": 29323,
+   "name": "Notorious Netches",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-09-28",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Notorious Netches-29323-1-1-1569666498.7z"
+   ],
+   "author": "ROUGESHOT",
+   "leftover": false,
+   "key": "id:29323",
+   "theme": "other"
+  },
+  {
+   "id": 135776,
+   "name": "PBR for Rudy HQ Silverware",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-10",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "PBR for Rudy HQ Silverware-135776-1-1-1733858240.7z"
+   ],
+   "author": "Rudy102 and Jiaye",
+   "leftover": false,
+   "key": "id:135776",
+   "theme": "other"
+  },
+  {
+   "id": 45128,
+   "name": "Pandorable's Brelyna and Nevri",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-02-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "PAN_Brelyna-45128-1-0-1612143281.rar"
+   ],
+   "author": "Pandorable",
+   "leftover": false,
+   "key": "id:45128",
+   "theme": "other"
+  },
+  {
+   "id": 31273,
+   "name": "Pandorable's Frea",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "PAN_Frea SE-31273-2-0-1708484449.rar",
+    "PAN_Frida SE-31273-1-0-1708484582.rar",
+    "Pandorable's Frea - USSEP-31273-1-0-1577414405.rar"
+   ],
+   "author": "Pandorable",
+   "leftover": false,
+   "key": "id:31273",
+   "theme": "other"
+  },
+  {
+   "id": 75742,
+   "name": "Paraphernalia - Magicka",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-12-08",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Paraphernalia - Magicka-75742-v6-1-1-1670507948.7z"
+   ],
+   "author": "gavwhittaker and Machina",
+   "leftover": false,
+   "key": "id:75742",
+   "theme": "other"
+  },
+  {
+   "id": 7559,
+   "name": "Perception",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Perception.7z"
+   ],
+   "author": "Elioplasma",
+   "leftover": false,
+   "key": "id:7559",
+   "theme": "other"
+  },
+  {
+   "id": 93235,
+   "name": "Pfuscher's mods - AIO",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "1K textures-93235-1-32-1754273419.rar",
+    "1a) Parallax meshes-93235-1-26-1728146565.rar",
+    "2K textures-93235-1-32-1754273421.rar"
+   ],
+   "author": "Pfuscher - Wartom94",
+   "leftover": false,
+   "key": "id:93235",
+   "theme": "other"
+  },
+  {
+   "id": 174855,
+   "name": "Pickpocket Reset - VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-16",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Pickpocket Reset VR-174855-1-0-1773661934.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:174855",
+   "theme": "other"
+  },
+  {
+   "id": 13571,
+   "name": "Pierced Ears - Earrings SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Pierced Ears - Earrings SE-13571-1-0SE.7z"
+   ],
+   "author": "Mossa",
+   "leftover": false,
+   "key": "id:13571",
+   "theme": "other"
+  },
+  {
+   "id": 79305,
+   "name": "Powdery Bone Meal",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-11-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Powdery Bone Meal SE-79305-v1-0-1669245531.7z"
+   ],
+   "author": "Hanaisse",
+   "leftover": false,
+   "key": "id:79305",
+   "theme": "other"
+  },
+  {
+   "id": 170979,
+   "name": "Pray to Kynareth - Eldergleam Sapling",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-05",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Pray To Kynareth - Gods and Worship Patch-170979-1-0-1770289955.7z",
+    "Pray to Kynareth-170979-1-2-1769755656.7z"
+   ],
+   "author": "igotnousername",
+   "leftover": false,
+   "key": "id:170979",
+   "theme": "other"
+  },
+  {
+   "id": 105498,
+   "name": "Proudspire Manor rework",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-24",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Proudspire Manor rework - Parallax-105498-1-0-1700856432.7z",
+    "Proudspire Manor rework-105498-1-0-1700856405.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:105498",
+   "theme": "other"
+  },
+  {
+   "id": 35134,
+   "name": "Pull Mastery Hookshot or Grappling hook(SE)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-05-01",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "PullMastery2_03_Se-35134-2-03-1588322769.7z"
+   ],
+   "author": "xzax",
+   "leftover": false,
+   "key": "id:35134",
+   "theme": "other"
+  },
+  {
+   "id": 106123,
+   "name": "Radiant Raiment rework",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-03",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Radiant Raiment rework - Parallax-106123-1-0-1701601821.7z",
+    "Radiant Raiment rework-106123-1-0-1701601793.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:106123",
+   "theme": "other"
+  },
+  {
+   "id": 39903,
+   "name": "Rare Curios - Bolts Expanded",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Rare Curios - Bolts Expanded 39903 2.1.4 PuQ2UKOrU.zip",
+    "Rare Curios - Bolts Expanded-39903-1-5-0-1672676800.7z",
+    "Rare Curios - Bolts Expanded-39903-2-1-4-0-769940.zip"
+   ],
+   "author": "Jelidity",
+   "leftover": false,
+   "key": "id:39903",
+   "theme": "other"
+  },
+  {
+   "id": 73312,
+   "name": "Reachmen Tribes Names",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Forsworn Matriarchs-73312-1-2-0-1685311541.zip",
+    "Reachmen Tribes Names-73312-1-2-0-1685311494.zip"
+   ],
+   "author": "sasnikol",
+   "leftover": false,
+   "key": "id:73312",
+   "theme": "other"
+  },
+  {
+   "id": 3144,
+   "name": "Real Bows for SSE (originally made by DecimusMaximus)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Real Bows - Alternate Textures-3144-1-05.zip",
+    "Real Bows-3144-1-05.zip"
+   ],
+   "author": "DecimusMaximus",
+   "leftover": false,
+   "key": "id:3144",
+   "theme": "other"
+  },
+  {
+   "id": 86100,
+   "name": "Realms of Oblivion - Survival Mode Consistency",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-10-26",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Realms of Oblivion - CC Survival Patch-86100-2-0-1761507624.7z",
+    "RoO - Saints and Seducers-86100-1-1-1677730844.7z",
+    "RoO - Vigilant-86100-1-1-1677730878.7z"
+   ],
+   "author": "aljoxo",
+   "leftover": false,
+   "key": "id:86100",
+   "theme": "other"
+  },
+  {
+   "id": 136788,
+   "name": "Redeeming Fultheim - A Blades Quest Addon",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Redeeming Fultheim - A Blades Quest Addon-136788-1-2-1734802785.7z"
+   ],
+   "author": "MadAborModding",
+   "leftover": false,
+   "key": "id:136788",
+   "theme": "other"
+  },
+  {
+   "id": 80226,
+   "name": "Redoran's Retreat",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-14",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Locked Chests Have Keys Patch-80226-1-0-1670536745.7z",
+    "Lux - Redorans Retreat Patch-80226-2-0-1744666028.7z",
+    "Redoran's Retreat Overhaul-80226-1-12-1672770975.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:80226",
+   "theme": "other"
+  }
+ ]
+}

@@ -1,0 +1,900 @@
+{
+ "batch": "B09",
+ "band": "B",
+ "themes": {
+  "land_nature": 33
+ },
+ "items": [
+  {
+   "id": 79197,
+   "name": "Far Object LOD Improvement Project SSE",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-01-08",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Far Object LOD Improvement Project SSE-79197-1-1-1673145921.zip"
+   ],
+   "author": "DoubleYou",
+   "leftover": false,
+   "key": "id:79197",
+   "theme": "land_nature"
+  },
+  {
+   "id": 36198,
+   "name": "Less Distracting Blowing Snow Effects for ENB Particle Patch",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2020-05-20",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Less Distracting Blowing Snow Effects 1.0 - 50 Percent-36198-1-0-1589964020.7z",
+    "Less Distracting Blowing Snow Effects 1.0-36198-1-0-1589943324.7z"
+   ],
+   "author": "XCJ",
+   "leftover": false,
+   "key": "id:36198",
+   "theme": "land_nature"
+  },
+  {
+   "id": 58263,
+   "name": "Picta Series - Improved Sky Meshes",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-11-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Picta Series - Improved Sky Meshes-58263-1-0-2-1636718744.zip"
+   ],
+   "author": "WeatherPainterAshley",
+   "leftover": false,
+   "key": "id:58263",
+   "theme": "land_nature"
+  },
+  {
+   "id": 18416,
+   "name": "Quests Are In Skyrim",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-03-13",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "QuestsAreInSkyrim_USSEP_1_2_reupload-18416-1-2-1567347964.zip",
+    "QuestsAreInSkyrim_USSEP_1_3-18416-1-3-1647194854.zip"
+   ],
+   "author": "SarthesArai",
+   "leftover": false,
+   "key": "id:18416",
+   "theme": "land_nature"
+  },
+  {
+   "id": 116289,
+   "name": "Rally's Banners of Skyrim",
+   "vr": 2,
+   "se": 6,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-06-28",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Banners of Skyrim 2K-116289-1-1-1714025624.7z",
+    "Helgen Reborn Patch 2K-116289-1-1-1715067043.7z",
+    "JK Castle Volkihar Patch 2K-116289-1-0-1716127482.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:116289",
+   "theme": "land_nature"
+  },
+  {
+   "id": 82179,
+   "name": "Skyrim Upscaler VR - DLSS FSR2 XeSS",
+   "vr": 5,
+   "se": 0,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-12-21",
+   "vr_lists": [
+    "FUS",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SkyrimUpscalerVR-82179-1-0-1-1673023812.zip",
+    "SkyrimUpscalerVR-82179-1-0-3-1673294859.zip",
+    "SkyrimUpscalerVR-82179-1-2-1-1734760160.zip"
+   ],
+   "author": "PureDark",
+   "leftover": false,
+   "key": "id:82179",
+   "theme": "land_nature"
+  },
+  {
+   "id": 84235,
+   "name": "TMD Jars of Skyrim",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2023-02-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 8,
+   "files": [
+    "TMD Jars of Skyrim for ENB-84235-1-01-1675568759.7z"
+   ],
+   "author": "TheMilkDrinker",
+   "leftover": false,
+   "key": "id:84235",
+   "theme": "land_nature"
+  },
+  {
+   "id": 66598,
+   "name": "[серия «8k 4k 2k», 4 модов] Beautiful Sigils of Shalidor - 8k 4k 2k и др.",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-04-17",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "Beautiful Sigils of Shalidor 2k-66598-1-1-1650214702.rar",
+    "Beautiful Sigils of Shalidor 4k-66598-1-1-1650214663.rar"
+   ],
+   "author": "RemmyKun",
+   "leftover": false,
+   "key": "id:66598",
+   "series": "8k 4k 2k",
+   "members": [
+    {
+     "id": 66598,
+     "name": "Beautiful Sigils of Shalidor - 8k 4k 2k",
+     "vr": 1,
+     "se": 8,
+     "newest": "2022-04-17",
+     "files": [
+      "Beautiful Sigils of Shalidor 2k-66598-1-1-1650214702.rar"
+     ]
+    },
+    {
+     "id": 70040,
+     "name": "Resolutioned - Mudcrab and Chitin and Leg - 8k 4k 2k",
+     "vr": 1,
+     "se": 3,
+     "newest": "2022-06-23",
+     "files": [
+      "Mudcrab 4k - Normal Edition-70040-1-0-1655814670.7z"
+     ]
+    },
+    {
+     "id": 81822,
+     "name": "HD Remastered Tree Bark - Happy Little Trees - 16k 8k 4k 2k",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-04-13",
+     "files": [
+      "HD Reworked Tree Bark - Happy Little Trees 1k-81822-3-0-1-1681381215.7z"
+     ]
+    },
+    {
+     "id": 18181,
+     "name": "Riekling Spears Revamped Texture 8k - 4k - 2k",
+     "vr": 0,
+     "se": 4,
+     "newest": "",
+     "files": [
+      "Riekling Spears Brown Leather 2K-18181-1-2.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 78772,
+   "name": "[серия «daedric shrines», 4 модов] Daedric Shrines - All in One и др.",
+   "vr": 0,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2024-08-28",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "Daedric Shrines - All in One  - 2K-78772-1-02-1724805261.zip",
+    "Daedric Shrines - All in One  - 4K-78772-1-02-1724805197.zip",
+    "Daedric Shrines - No map markers (ESP)-78772-1-02-1724805708.zip"
+   ],
+   "author": "Mandragorasprouts",
+   "leftover": false,
+   "key": "id:78772",
+   "series": "daedric shrines",
+   "members": [
+    {
+     "id": 78772,
+     "name": "Daedric Shrines - All in One",
+     "vr": 0,
+     "se": 10,
+     "newest": "2024-08-28",
+     "files": [
+      "Daedric Shrines - All in One  - 2K-78772-1-02-1724805261.zip"
+     ]
+    },
+    {
+     "id": 78809,
+     "name": "Daedric Shrines - All in One - My Patches by Xtudo",
+     "vr": 0,
+     "se": 10,
+     "newest": "2026-03-19",
+     "files": [
+      "1_Daedric Shrines - All in One - My Patches by Xtudo - FIXES-78809-1-1668478418.7z"
+     ]
+    },
+    {
+     "id": 76942,
+     "name": "Daedric Shrines - Mehrunes Dagon - FIXES - Majestic Mountains - Northfires Photoreal Mountains - Vanilla color palette patch",
+     "vr": 0,
+     "se": 5,
+     "newest": "2024-06-15",
+     "files": [
+      "Daedric Shrines - Mehrunes Dagon - Atlantean 4K-76942-2-8-1704656229.7z"
+     ]
+    },
+    {
+     "id": 80679,
+     "name": "Daedric Shrines  - Jyggalag",
+     "vr": 0,
+     "se": 4,
+     "newest": "2022-12-15",
+     "files": [
+      "Shine of Jyggalag 2k-80679-1-0-1671101506.zip"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 44874,
+   "name": "[серия «dear diary», 3 модов] Dear Diary VR - Paper SkyUI and Categorized Favorites и др.",
+   "vr": 5,
+   "se": 7,
+   "score": 10,
+   "band": "B",
+   "newest": "2021-04-02",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Tahrovin",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dear Diary VR - Paper SkyUI and Categorized Favorites-44874-1-06-1617397007.7z"
+   ],
+   "author": "TheRetroCarrot",
+   "leftover": false,
+   "key": "id:44874",
+   "series": "dear diary",
+   "members": [
+    {
+     "id": 44874,
+     "name": "Dear Diary VR - Paper SkyUI and Categorized Favorites",
+     "vr": 5,
+     "se": 0,
+     "newest": "2021-04-02",
+     "files": [
+      "Dear Diary VR - Paper SkyUI and Categorized Favorites-44874-1-06-1617397007.7z"
+     ]
+    },
+    {
+     "id": 60837,
+     "name": "Dear Diary Dark Mode - SkyUI Menus Replacer SE",
+     "vr": 1,
+     "se": 7,
+     "newest": "2022-11-04",
+     "files": [
+      "Dear Diary Dark Mode (texts - white color)-60837-1-1-1-1667594519.7z"
+     ]
+    },
+    {
+     "id": 100170,
+     "name": "Dear Diary Light and Wood and Paper for C.O.C.K.S VR",
+     "vr": 2,
+     "se": 0,
+     "newest": "2023-09-08",
+     "files": [
+      "Dear Diary Light Skin for C.O.C.K.S VR-100170-1-0-0-1694133602.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 73421,
+   "name": "[серия «no more», 6 модов] No More Swimming In Air - Fixed Floating SwimIdle и др.",
+   "vr": 4,
+   "se": 10,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-08-15",
+   "vr_lists": [],
+   "se_lists": 10,
+   "files": [
+    "EVE - No More Swimming In Air - Fixed SwimIdle Floating-73421-1-0-1660577633.7z"
+   ],
+   "author": "Exalderan",
+   "leftover": false,
+   "key": "id:73421",
+   "series": "no more",
+   "members": [
+    {
+     "id": 73421,
+     "name": "No More Swimming In Air - Fixed Floating SwimIdle",
+     "vr": 0,
+     "se": 10,
+     "newest": "2022-08-15",
+     "files": [
+      "EVE - No More Swimming In Air - Fixed SwimIdle Floating-73421-1-0-1660577633.7z"
+     ]
+    },
+    {
+     "id": 462,
+     "name": "No More Laser-Printed Book",
+     "vr": 4,
+     "se": 1,
+     "newest": "",
+     "files": [
+      "No More Laser-Printed Book-462-1-0.zip"
+     ]
+    },
+    {
+     "id": 87342,
+     "name": "No More Blinding Fog - SSE Port",
+     "vr": 0,
+     "se": 7,
+     "newest": "2023-03-19",
+     "files": [
+      "No More Blinding Fog-87342-0-1-1679219937.7z"
+     ]
+    },
+    {
+     "id": 22871,
+     "name": "No More Dead Shrub",
+     "vr": 2,
+     "se": 1,
+     "newest": "2019-01-24",
+     "files": [
+      "No More Dead Shrubs and Thickets-22871-1-0-1548371545.7z"
+     ]
+    },
+    {
+     "id": 153174,
+     "name": "No More Glowy Effects",
+     "vr": 0,
+     "se": 4,
+     "newest": "2026-03-25",
+     "files": [
+      "NMGE - Embers XD Patch-153174-1-0-0-1754114973.7z"
+     ]
+    },
+    {
+     "id": 96785,
+     "name": "No More Ugly Branches (Vanilla Branch Remover for - Reach Tree - Tundra Tree - Gildergreen - Swamp Tree)",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-07-26",
+     "files": [
+      "No More Ugly Branches-96785-1-00-1690402737.zip"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 62925,
+   "name": "dunPOISoldiersRaidOnStart Script Tweak",
+   "vr": 1,
+   "se": 8,
+   "score": 10,
+   "band": "B",
+   "newest": "2022-02-01",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 8,
+   "files": [
+    "dunPOISoldiersRaidOnStart Script Tweak-62925-1-0-0-1643724953.7z"
+   ],
+   "author": "tarlazo",
+   "leftover": false,
+   "key": "id:62925",
+   "theme": "land_nature"
+  },
+  {
+   "id": 59282,
+   "name": "Blended Roads - Simplicity of Snow Patch",
+   "vr": 3,
+   "se": 3,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-11-30",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Simplicity of Snow - Blended Roads Patch-59282-1-0-1638262673.7z"
+   ],
+   "author": "Titansbane",
+   "leftover": false,
+   "key": "id:59282",
+   "theme": "land_nature"
+  },
+  {
+   "id": 21954,
+   "name": "Cathedral Landscapes",
+   "vr": 3,
+   "se": 3,
+   "score": 9,
+   "band": "B",
+   "newest": "2024-02-18",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Landscapes - Cathedral Concept-21954-3-0-1-1578207117.7z",
+    "Landscapes - Cathedral Concept-21954-3-0-3-1708230043.7z"
+   ],
+   "author": "The Community",
+   "leftover": false,
+   "key": "id:21954",
+   "theme": "land_nature"
+  },
+  {
+   "id": 83470,
+   "name": "Desktop Splash Screen",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-03-15",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "Splash Screen-83470-1-0-0-1674651019.7z",
+    "Splash Screen-83470-1-0-1-1678902363.7z"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:83470",
+   "theme": "land_nature"
+  },
+  {
+   "id": 52909,
+   "name": "Evil Dead Trees - Dying Trees in Evil Places",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-12-19",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Evil Dead Trees - Base Object Swapper-52909-1-2BoS-1671433437.zip",
+    "Evil Dead Trees-52909-1-1-1628077855.zip"
+   ],
+   "author": "AgentW",
+   "leftover": false,
+   "key": "id:52909",
+   "theme": "land_nature"
+  },
+  {
+   "id": 90697,
+   "name": "Forgotten plants textured",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "1k Gleamblossom and Glowing ground plants 1.1-90697-1-1.zip",
+    "2k GleamBlossom and glowing groun plants-90697-1-1.zip"
+   ],
+   "author": "Massivemaster",
+   "leftover": false,
+   "key": "id:90697",
+   "theme": "land_nature"
+  },
+  {
+   "id": 55417,
+   "name": "Ice skating fixed for real - No more attack sliding movement (NEMESIS compatible)",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-11-12",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "EVE - Ice skating fixed for real - No more attack skating movement-55417-1-3-1632307596.7z",
+    "EVE - Ice skating fixed for real 1.4-55417-1-4-1699812483.7z"
+   ],
+   "author": "Exalderan",
+   "leftover": false,
+   "key": "id:55417",
+   "theme": "land_nature"
+  },
+  {
+   "id": 90476,
+   "name": "Icy Cave Remaster",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-05-08",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "ICR quick fixes for icepillars-90476-HF-1684960841.zip",
+    "ICR updated meshes-90476-2-1-5-1685391316.zip",
+    "Icy Cave Remaster Performance-90476-2-1-1-1684275281.zip"
+   ],
+   "author": "Bionic",
+   "leftover": false,
+   "key": "id:90476",
+   "theme": "land_nature"
+  },
+  {
+   "id": 55571,
+   "name": "JK's Understone Keep",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-02-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "JK's Understone Keep-55571-1-1-2-1645417899.zip"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:55571",
+   "theme": "land_nature"
+  },
+  {
+   "id": 11052,
+   "name": "Majestic Mountains",
+   "vr": 4,
+   "se": 1,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-10-16",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "1. Majestic Mountains Main File-11052-3-2-1604048751.7z",
+    "1. Majestic Mountains Main File-11052-4-02-1665910537.7z",
+    "2. Majestic Mountains Darkside-11052-4-02-1665911124.7z"
+   ],
+   "author": "T4GTR34UM3R",
+   "leftover": false,
+   "key": "id:11052",
+   "theme": "land_nature"
+  },
+  {
+   "id": 87111,
+   "name": "Motionless Rocks Killing People Fix",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-08-14",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Motionless Rocks Killing People Fix - Player Too 87111 1.3 2026-08-14T17-30Z L5WQbqE6a.7z",
+    "Motionless Rocks Killing People Fix - Player Version-87111-1-2-1679681215.7z",
+    "Motionless Rocks Killing People Fix-87111-1-3-789842-1786728600.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:87111",
+   "theme": "land_nature"
+  },
+  {
+   "id": 77530,
+   "name": "Northern Roads",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-05-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Grass Patch-77530-1-0-1666529104.7z",
+    "Northern Roads-77530-1-3-1-1685042487.7z"
+   ],
+   "author": "JPSteel2",
+   "leftover": false,
+   "key": "id:77530",
+   "theme": "land_nature"
+  },
+  {
+   "id": 67968,
+   "name": "OnMagicEffectApply Replacer",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2026-06-10",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 5,
+   "files": [
+    "OMEAR Addition - CoW Quest Expansion-67968-1-8-2-1719485443.zip",
+    "OMEAR Addition - Immersive College of Winterhold 6.2-67968-1-8-1-1659074819.zip",
+    "OMEAR Addition - Ordinator Perks-67968-1-8-2-1709032755.zip"
+   ],
+   "author": "Meridiano",
+   "leftover": false,
+   "key": "id:67968",
+   "theme": "land_nature"
+  },
+  {
+   "id": 18345,
+   "name": "RUSTIC AZURA'S STAR - Special Edition",
+   "vr": 4,
+   "se": 1,
+   "score": 9,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "RUSTIC AZURA'S STAR - SSE - 2K-18345-1-0.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:18345",
+   "theme": "land_nature"
+  },
+  {
+   "id": 53962,
+   "name": "Raven Rock Building Tweaks",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-08-16",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Raven Rock Building Tweaks - Fixes Only-53962-1-0-1629151669.zip",
+    "Raven Rock Building Tweaks-53962-1-0-1629146842.zip"
+   ],
+   "author": "Catir",
+   "leftover": false,
+   "key": "id:53962",
+   "theme": "land_nature"
+  },
+  {
+   "id": 94428,
+   "name": "Simplicity of Seeding - Better Hearthfires and Farming CC Planter Scripts",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2025-06-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Simplicity of Seeding-94428-0-4-1688153118.7z",
+    "Simplicity of Seeding-94428-0-6-3-1733846911.7z",
+    "Simplicity of Seeding-94428-0-7-1-1749407522.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:94428",
+   "theme": "land_nature"
+  },
+  {
+   "id": 13972,
+   "name": "Artifacts - The Ice Blade of the Monarch",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Ice Blade of the Monarch 2.6-13972-2-6.7z"
+   ],
+   "author": "FrankFamily",
+   "leftover": false,
+   "key": "id:13972",
+   "theme": "land_nature"
+  },
+  {
+   "id": 26270,
+   "name": "Blended Roads Redone SE - 8K",
+   "vr": 3,
+   "se": 2,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-03-07",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Blended Roads Meshes-26270-1-6-1617992984.7z",
+    "Blended Roads Redone 2K-26270-1-5-1-1614714055.7z",
+    "Blended Roads Redone 2K-26270-2-1-1709812507.7z"
+   ],
+   "author": "winedave",
+   "leftover": false,
+   "key": "id:26270",
+   "theme": "land_nature"
+  },
+  {
+   "id": 901,
+   "name": "Book Covers Skyrim",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Book Covers Skyrim SE - Desaturated.7z-901-4-2.7z",
+    "Book Covers Skyrim SE - Original.7z-901-4-2.7z"
+   ],
+   "author": "DanielCoffey",
+   "leftover": false,
+   "key": "id:901",
+   "theme": "land_nature"
+  },
+  {
+   "id": 38775,
+   "name": "Cleaned Skyrim SE Textures",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-05-03",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Kart_CSSET_Overwrite-38775-1-2-3-2-1623895015.7z",
+    "Kart_CSSET_Overwrite_LATEST-38775-1-2-3-2-1639242215.7z",
+    "Kart_CSSET_POST_1.6.1130-38775-1-2-3-4-1714757549.7z"
+   ],
+   "author": "kartoffel",
+   "leftover": false,
+   "key": "id:38775",
+   "theme": "land_nature"
+  },
+  {
+   "id": 87315,
+   "name": "Eagle Eye Cursor Replacer for Skyrim VR",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-03-21",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Stormcrown VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Eagle Eye Cursor Replacer for Skyrim VR-87315-0-1-1679370970.zip"
+   ],
+   "author": "butterenough",
+   "leftover": false,
+   "key": "id:87315",
+   "theme": "land_nature"
+  },
+  {
+   "id": 95678,
+   "name": "Green Water Cubemap Fix",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-07-12",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Green Water Cubemap Fix-95678-0-1-1689163716.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:95678",
+   "theme": "land_nature"
+  }
+ ]
+}

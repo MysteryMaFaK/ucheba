@@ -1,0 +1,745 @@
+{
+ "batch": "D22",
+ "band": "D",
+ "themes": {
+  "land_nature": 36
+ },
+ "items": [
+  {
+   "id": 4524,
+   "name": "Multiple Floors Sandboxing",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Multiple Floors Sandboxing-4524-.zip"
+   ],
+   "author": "Dovahklon CollinMacleod",
+   "leftover": false,
+   "key": "id:4524",
+   "theme": "land_nature"
+  },
+  {
+   "id": 129512,
+   "name": "New Moon Cottage - A COTN Morthal Addon",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-09-19",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Lux Patch-129512-1-0-1726763163.7z",
+    "New Moon Cottage - A COTN Morthal Addon-129512-1-0-1726606783.7z"
+   ],
+   "author": "LucioArtorio",
+   "leftover": false,
+   "key": "id:129512",
+   "theme": "land_nature"
+  },
+  {
+   "id": 35639,
+   "name": "No Grassias - A Universal Grass Fix For Grass Mods",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-10",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "NoGrassias Ultimate-35639-1-1-1607633607.7z",
+    "NoGrassias-35639-1-1-1607633526.7z"
+   ],
+   "author": "Knight Life",
+   "leftover": false,
+   "key": "id:35639",
+   "theme": "land_nature"
+  },
+  {
+   "id": 38944,
+   "name": "Paper UI Sounds for Skyrim",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-09-11",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Paper UI Sounds-38944-6-1-1599820078.7z"
+   ],
+   "author": "Muffloid",
+   "leftover": false,
+   "key": "id:38944",
+   "theme": "land_nature"
+  },
+  {
+   "id": 85285,
+   "name": "Parallax Bridges and Roads 4k-2k",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Bridges 2k - No Parallax-85285-1-0-1676828673.7z",
+    "Parallax Bridges - 2k-85285-1-0-1676828801.7z",
+    "SMIM Invisible Road Dirt-85285-1-0-1676845819.7z"
+   ],
+   "author": "MystiriousDawn",
+   "leftover": false,
+   "key": "id:85285",
+   "theme": "land_nature"
+  },
+  {
+   "id": 35290,
+   "name": "Quaint Raven Rock Patch Collection",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-05-09",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Quaint Raven Rock Patch Collection-35290-2-2-1-1628382027.7z",
+    "Quaint Raven Rock Patch Collection-35290-2-4-1652377018.7z",
+    "Quaint Raven Rock Patch Collection-35290-2-6-2-1683592533.7z"
+   ],
+   "author": "Janquel kulharin ra2phoenix Titansbane",
+   "leftover": false,
+   "key": "id:35290",
+   "theme": "land_nature"
+  },
+  {
+   "id": 34292,
+   "name": "Rally's Raven Rock",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-04-14",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Rally's Raven Rock 2K-34292-1-0-1585865828.7z",
+    "Rally's Raven Rock 4K-34292-1-0-1585865628.7z",
+    "Rally's Raven Rock-34292-1-1-1618406425.7z"
+   ],
+   "author": "Rallyeator",
+   "leftover": false,
+   "key": "id:34292",
+   "theme": "land_nature"
+  },
+  {
+   "id": 47742,
+   "name": "Rally's Shaggy Cows of Skyrim",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-04-12",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Rallys Shaggycows of Skyrim-47742-1-2-1618211502.7z"
+   ],
+   "author": "Rallyeator - TheRetroCarrot",
+   "leftover": false,
+   "key": "id:47742",
+   "theme": "land_nature"
+  },
+  {
+   "id": 66048,
+   "name": "Red Mountain Plume Visible from Skyrim",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Red Mountain Visible Plume-66048-1-1-1649205890.7z"
+   ],
+   "author": "HedyL",
+   "leftover": false,
+   "key": "id:66048",
+   "theme": "land_nature"
+  },
+  {
+   "id": 97460,
+   "name": "Relic of Dawnstar - TESLORE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-16",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Relic of Dawnstar - COTN - Parallax-97460-1-0-1-1-1702727852.7z",
+    "Relic of Dawnstar - No Weapon-97460-1-0-1-1691071253.7z",
+    "Relic of Dawnstar-97460-1-0-1-1690988756.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:97460",
+   "theme": "land_nature"
+  },
+  {
+   "id": 55927,
+   "name": "Renthal's Waterwheel Remastered",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-06-12",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Renthal's Waterwheel Remastered-55927-1-3-1-1674008043.zip",
+    "Renthal's Waterwheel Remastered-55927-1-4-1749692410.zip"
+   ],
+   "author": "Pfuscher and Daroo",
+   "leftover": false,
+   "key": "id:55927",
+   "theme": "land_nature"
+  },
+  {
+   "id": 122371,
+   "name": "Rise in the East - Immersive Start - Don't Miss Japhet's Folly",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-23",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Rise in the East - Fix Typo-122371-1-0-1719004166.7z",
+    "Rise in the East - Immersive Start-122371-1-1-1719176157.7z"
+   ],
+   "author": "Lummox JR",
+   "leftover": false,
+   "key": "id:122371",
+   "theme": "land_nature"
+  },
+  {
+   "id": 149830,
+   "name": "Roleplaying in Skyrim - Evolving Economy",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-11-25",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "RoleRim - Economy-149830-3-0-1-1764096429.zip"
+   ],
+   "author": "DrPharmDawg",
+   "leftover": false,
+   "key": "id:149830",
+   "theme": "land_nature"
+  },
+  {
+   "id": 25718,
+   "name": "Rorikstead Basalt Cliffs",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-12-02",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Rorikstead Basalt Cliffs-25718-1-1-1558448848.7z",
+    "Rorikstead Basalt Cliffs-25718-1-2-1638472168.7z"
+   ],
+   "author": "JPSteel2",
+   "leftover": false,
+   "key": "id:25718",
+   "theme": "land_nature"
+  },
+  {
+   "id": 14180,
+   "name": "SPERG - Skyrim Perk Enhancements and Rebalanced Gameplay SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-03-16",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "SPERG-14180-1-8-1552737057.zip"
+   ],
+   "author": "seorin",
+   "leftover": false,
+   "key": "id:14180",
+   "theme": "land_nature"
+  },
+  {
+   "id": 37768,
+   "name": "Savage Skyrim",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-12",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Savage Skyrim-37768-3-96-1626016240.7z",
+    "Savage Skyrim-37768-4-00-1649729545.7z"
+   ],
+   "author": "ROUGESHOT",
+   "leftover": false,
+   "key": "id:37768",
+   "theme": "land_nature"
+  },
+  {
+   "id": 53205,
+   "name": "Scallions of Skyrim - High Polygon Leeks",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Leek-53205-0-1-1628508913.7z",
+    "Leek-53205-0-2-1716939839.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:53205",
+   "theme": "land_nature"
+  },
+  {
+   "id": 114386,
+   "name": "Script Fix - MagicAttachAshPileOnDeath",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "MagicAttachAshPileOnDeath - Forced Disintegrate-114386-1-0-0-1710766320.7z"
+   ],
+   "author": "Vicn",
+   "leftover": false,
+   "key": "id:114386",
+   "theme": "land_nature"
+  },
+  {
+   "id": 62165,
+   "name": "Severin Manor Has A price",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-01-18",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Severin Manor Has A Price-62165-1-0-1642516196.7z"
+   ],
+   "author": "AndrealphusVIII",
+   "leftover": false,
+   "key": "id:62165",
+   "theme": "land_nature"
+  },
+  {
+   "id": 73090,
+   "name": "Shooting Stars SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-12",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Shooting Stars SE-73090-1-1-1665358092.7z",
+    "Shooting Stars SE-73090-1-3-1733969417.7z"
+   ],
+   "author": "Isoku",
+   "leftover": false,
+   "key": "id:73090",
+   "theme": "land_nature"
+  },
+  {
+   "id": 35629,
+   "name": "SkyTEST - Better sheep SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-05-05",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "SkyTEST - Better sheeps SE-35629-1-0-1588687143.rar"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:35629",
+   "theme": "land_nature"
+  },
+  {
+   "id": 35565,
+   "name": "SkyTEST - Mihail's gray farm goose SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-05-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "SkyTEST's gooses lower idle sound-35565-1-0-1588637004.rar",
+    "SkyTEST's gooses replaced with the Mihail's gray farm version.-35565-1-1-1588761036.rar",
+    "SkyTEST's gooses with the Mihial idle sound-35565-1-0-1588641494.rar"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:35565",
+   "theme": "land_nature"
+  },
+  {
+   "id": 67166,
+   "name": "SkyUI 5.2 SE Plugin with Master Added",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-27",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "SkyUI_SE.esp Plugin with Skyrim.esm Master ESPFE-67166-5-2a-1651085623.7z"
+   ],
+   "author": "SkyUI Team",
+   "leftover": false,
+   "key": "id:67166",
+   "theme": "land_nature"
+  },
+  {
+   "id": 110303,
+   "name": "Skyking Soul Gems",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Skyking Soul Gems - No ENB Glow-110303-2-5-1707618484.7z",
+    "Skyking Soul Gems-110303-2-5-1707618449.7z",
+    "Skyking Soul Gems-110303-3-1-1771391642.7z"
+   ],
+   "author": "Skyking2020",
+   "leftover": false,
+   "key": "id:110303",
+   "theme": "land_nature"
+  },
+  {
+   "id": 56069,
+   "name": "Skyrim Character Sheet",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "SkyrimCharacterSheet-56069-1-1-4-1708629465.zip"
+   ],
+   "author": "mlthelama",
+   "leftover": false,
+   "key": "id:56069",
+   "theme": "land_nature"
+  },
+  {
+   "id": 110935,
+   "name": "Skyrim Food Expansion",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Skyrim Food Expansion - 1K-110935-3-0-0-1766343831.7z",
+    "Skyrim Food Expansion - EAS Patch Collection-110935-3-0-0-1766343821.7z",
+    "Skyrim Food Expansion - Eating Animations Sounds-110935-3-0-0-1766343826.7z"
+   ],
+   "author": "Alaxouche",
+   "leftover": false,
+   "key": "id:110935",
+   "theme": "land_nature"
+  },
+  {
+   "id": 27201,
+   "name": "Skyrim Revamped Rebalanced and Releveled",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-19",
+   "vr_lists": [
+    "FUS",
+    "Librum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SRCEO Armor and Clothing Extension Patch-27201-1-0-1594358788.7z",
+    "SRCEO Cutting Room Floor Patch-27201-1-0-1594358892.7z",
+    "SRCEO Weapon Armor Clothing and Clutter Fixes Patch-27201-1-0-1594358739.7z"
+   ],
+   "author": "Soulmancer",
+   "leftover": false,
+   "key": "id:27201",
+   "theme": "land_nature"
+  },
+  {
+   "id": 163710,
+   "name": "Skyrim Revoiced",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-17",
+   "vr_lists": [
+    "Stormcrown VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Skyrim Revoiced Patch Collection-163710-1-3-1766476748.rar",
+    "Skyrim Revoiced Patch Collection-163710-2-0-2-1779018971.rar",
+    "Skyrim Revoiced-163710-1-3-1766476722.rar"
+   ],
+   "author": "spdude",
+   "leftover": false,
+   "key": "id:163710",
+   "theme": "land_nature"
+  },
+  {
+   "id": 1462,
+   "name": "Skyrim SE Improved Puddles",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2018-10-16",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Skyrim SE Improved Puddles FOMOD v1-4 for ENB users-1462-1-4-1539661325.7z"
+   ],
+   "author": "PCG4m3r",
+   "leftover": false,
+   "key": "id:1462",
+   "theme": "land_nature"
+  },
+  {
+   "id": 28701,
+   "name": "Skyrim Skill Uncapper for VR Edition",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-09-02",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Skyrim Skill Uncapper for VR Edition v1.01-28701-1-01-1567436190.zip"
+   ],
+   "author": "RollingRock",
+   "leftover": false,
+   "key": "id:28701",
+   "theme": "land_nature"
+  },
+  {
+   "id": 25146,
+   "name": "Skyrim Spear Mechanic SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-14",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Skyrim Spear Mechanic SE 3.0 DAR-25146-3-0-1592152122.zip"
+   ],
+   "author": "Ashingda",
+   "leftover": false,
+   "key": "id:25146",
+   "theme": "land_nature"
+  },
+  {
+   "id": 54860,
+   "name": "Skyrim Terrain Parallax",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-12-06",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Mesh fixes-54860-2-0-1641798243.7z",
+    "Terrain Parallax 1.5 - 4K2K-54860-1-5-1670317926.7z"
+   ],
+   "author": "Pfuscher",
+   "leftover": false,
+   "key": "id:54860",
+   "theme": "land_nature"
+  },
+  {
+   "id": 78629,
+   "name": "Skyrim's Got Talent - Player Reactions Addon",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Skyrim's Got Talent - Bards Reborn Patch - Player Reactions Addon-78629-1-0-1679296498.zip",
+    "Skyrim's Got Talent - Player Reactions Addon (OMA)-78629-1-07-1719313344.zip",
+    "Skyrim's Got Talent - Player Reactions Addon-78629-1-02-1681012276.zip"
+   ],
+   "author": "TheCyclist",
+   "leftover": false,
+   "key": "id:78629",
+   "theme": "land_nature"
+  },
+  {
+   "id": 118812,
+   "name": "Skyrim's Got Talent - VR Patch-ish",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-06",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Skyrim's Got Talent - VR Patch 0.4-118812-0-4-1715031932.7z"
+   ],
+   "author": "Januarysnow",
+   "leftover": false,
+   "key": "id:118812",
+   "theme": "land_nature"
+  },
+  {
+   "id": 71123,
+   "name": "Skyrim's Paraglider Anniversary Edition Update",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Skyrim's Paraglider Anniversary Edition-71123-1-11-0-1704159999.7z"
+   ],
+   "author": "shad0wshayd3",
+   "leftover": false,
+   "key": "id:71123",
+   "theme": "land_nature"
+  },
+  {
+   "id": 30558,
+   "name": "SkyrimVR Strange Runes - Spellcasting Enhanced VR Edition",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-12-02",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SkyrimVR Strange Runes - Spellcasting Enhanced VR Edition-30558-2-5-1574612725.rar",
+    "SkyrimVR Strange Runes - Spellcasting Enhanced VR Palm Edition Update-30558-2-5-1638459910.rar"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:30558",
+   "theme": "land_nature"
+  }
+ ]
+}

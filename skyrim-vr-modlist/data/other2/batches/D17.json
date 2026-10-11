@@ -1,0 +1,748 @@
+{
+ "batch": "D17",
+ "band": "D",
+ "themes": {
+  "creatures": 35
+ },
+ "items": [
+  {
+   "id": 73731,
+   "name": "[серия «subdivide and», 4 модов] Subdivide and Smooth - Bandit Poles и др.",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-10-01",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Subdivide and Smooth - Bandit Poles-73731-1-1-1661106400.rar",
+    "Subdivide and Smooth - Bandit Poles-73731-2-0-1727761379.7z"
+   ],
+   "author": "markuskarttunen1",
+   "leftover": false,
+   "key": "id:73731",
+   "series": "subdivide and",
+   "members": [
+    {
+     "id": 73731,
+     "name": "Subdivide and Smooth - Bandit Poles",
+     "vr": 0,
+     "se": 5,
+     "newest": "2024-10-01",
+     "files": [
+      "Subdivide and Smooth - Bandit Poles-73731-1-1-1661106400.rar"
+     ]
+    },
+    {
+     "id": 155290,
+     "name": "Subdivide and Smooth - Canis Root",
+     "vr": 0,
+     "se": 5,
+     "newest": "2025-07-22",
+     "files": [
+      "Subdivide and Smooth - Canis Root - 1k-155290-1-0-1753171482.zip"
+     ]
+    },
+    {
+     "id": 77912,
+     "name": "Subdivide and Smooth with complementary mesh fixes  - Hagraven",
+     "vr": 0,
+     "se": 5,
+     "newest": "2023-09-16",
+     "files": [
+      "Alchemy Ingredients ENB Light patch-77912-1-0-1667153739.rar"
+     ]
+    },
+    {
+     "id": 101926,
+     "name": "Subdivide and Smooth - Vines",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-09-05",
+     "files": [
+      "Subdivide and Smooth - Vines FOMOD-101926-1-2-1725551642.rar"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 63640,
+   "name": "zzjay's Horse Overhaul",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-05-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "00 - Skyrim Horse Overhaul SE - by zzjay-63640-1-5-2-1652115555.7z"
+   ],
+   "author": "zzjay",
+   "leftover": false,
+   "key": "id:63640",
+   "theme": "creatures"
+  },
+  {
+   "id": 170163,
+   "name": "Addi's Atronachs - PBR",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Addi's Atronachs-170163-1-0-1768798070.7z"
+   ],
+   "author": "Addi",
+   "leftover": false,
+   "key": "id:170163",
+   "theme": "creatures"
+  },
+  {
+   "id": 95955,
+   "name": "Ambient Bird Sounds Expanded (SRD)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-08-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Ambient Bird Sounds Expanded-95955-1-03-1692633151.7z"
+   ],
+   "author": "TheShiningAbsol",
+   "leftover": false,
+   "key": "id:95955",
+   "theme": "creatures"
+  },
+  {
+   "id": 114438,
+   "name": "Aptrgangr - Draugr Voice Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Aptrgangr - Draugr Voices-114438-1-1-1710938570.zip"
+   ],
+   "author": "pentapox",
+   "leftover": false,
+   "key": "id:114438",
+   "theme": "creatures"
+  },
+  {
+   "id": 121210,
+   "name": "Better Dragon Breath - AOE ground walls and FX",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-07-08",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Better Dragon Breath 2.4 Beta ESL-121210-2-4-1720438179.zip",
+    "Better Dragon Breath Main ESL-121210-2-1-1718701926.zip"
+   ],
+   "author": "Lucaoys",
+   "leftover": false,
+   "key": "id:121210",
+   "theme": "creatures"
+  },
+  {
+   "id": 52397,
+   "name": "Canis Hysteria - The Werewolf Disease",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-28",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Canis Hysteria-52397-1-0-3-1628809824.zip",
+    "Canis Hysteria-52397-1-0-5-1677553259.zip",
+    "Canis Hysteria.zip"
+   ],
+   "author": "Tate Taylor and VictorF",
+   "leftover": false,
+   "key": "id:52397",
+   "theme": "creatures"
+  },
+  {
+   "id": 157985,
+   "name": "Combat Music Fix NG - Unique Battle Music Patch",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-29",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Combat Music Fix - UBM Patch-157985-1-0-1756440604.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:157985",
+   "theme": "creatures"
+  },
+  {
+   "id": 146965,
+   "name": "Combat Pathing Revolution AE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-04-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Combat Pathing Revolution AE-146965-0-30-1-1744103037.7z"
+   ],
+   "author": "SkyHorizon",
+   "leftover": false,
+   "key": "id:146965",
+   "theme": "creatures"
+  },
+  {
+   "id": 23723,
+   "name": "Deadly Dragons",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Deadly Dragons SE Patches-23723-6-5-6-1639507938.7z",
+    "Deadly Dragons SE-23723-6-5-7-1655531443.7z",
+    "Deadly Dragons SE-23723-6-6-1-1706624758.7z"
+   ],
+   "author": "3JIou and Redshift and I2edShift",
+   "leftover": false,
+   "key": "id:23723",
+   "theme": "creatures"
+  },
+  {
+   "id": 45510,
+   "name": "Deer Skull and Antlers Retexture",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-03-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "2K Deer Skull and Antlers-45510-1-2-1614342611.7z",
+    "2K Mounted Antlers-45510-1-1-1613130573.7z",
+    "2K Vanilla Color Big Antlers-45510-1-1-1615468901.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:45510",
+   "theme": "creatures"
+  },
+  {
+   "id": 26301,
+   "name": "Delphine's Map Reveals Dragon Mounds",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Delphine's Map Reveals Dragon Mounds SE-26301-1-1-1654018711.7z",
+    "Delphine's Map Reveals Dragon Mounds SE-26301-1-2-1685872877.7z"
+   ],
+   "author": "AndrealphusVIII",
+   "leftover": false,
+   "key": "id:26301",
+   "theme": "creatures"
+  },
+  {
+   "id": 112185,
+   "name": "Distant Dragon Roars",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Distant Dragon Roars-112185-1-1-1715471736.7z"
+   ],
+   "author": "Clofas1",
+   "leftover": false,
+   "key": "id:112185",
+   "theme": "creatures"
+  },
+  {
+   "id": 87235,
+   "name": "Diverse Dragons Collection SE (DDCS) Soul Absorb Animation Fixed",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-03-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Diverse Dragons Collection SE Soul Absorb Animaiton Fixed-87235-1-0-1679071562.zip"
+   ],
+   "author": "underskinch0",
+   "leftover": false,
+   "key": "id:87235",
+   "theme": "creatures"
+  },
+  {
+   "id": 51582,
+   "name": "Dragon Bones and Scales",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "2K Version-51582-1-1-1624699099.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:51582",
+   "theme": "creatures"
+  },
+  {
+   "id": 112062,
+   "name": "Dragon Mounds - Better Collision and Mesh Fixes",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Dragon mounds - Better Collision-112062-1-05-1709921891.rar"
+   ],
+   "author": "Gonzeh84",
+   "leftover": false,
+   "key": "id:112062",
+   "theme": "creatures"
+  },
+  {
+   "id": 51608,
+   "name": "Dragon Priest Fix - Behaviour Overhaul",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-29",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dragon Priest Fix - Behaviour Overhaul-51608-1-6-1-1651223283.zip"
+   ],
+   "author": "Nerudious",
+   "leftover": false,
+   "key": "id:51608",
+   "theme": "creatures"
+  },
+  {
+   "id": 14060,
+   "name": "Dragon Stalking Fix",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-11-20",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dragon Stalking Fix-14060-1-3.7z",
+    "Dragon Stalking Fix-14060-2-0-0-1732067584.7z"
+   ],
+   "author": "sevencardz",
+   "leftover": false,
+   "key": "id:14060",
+   "theme": "creatures"
+  },
+  {
+   "id": 156008,
+   "name": "Dragon War - Rebalanced",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-08-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Dragon War - Rebalanced-156008-1-0-0-1754060432.7z"
+   ],
+   "author": "Delta AizenV",
+   "leftover": false,
+   "key": "id:156008",
+   "theme": "creatures"
+  },
+  {
+   "id": 56317,
+   "name": "Dragons Fall Down - Immersive Airborne Death",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dragons Fall Down - Immersive Airborne Death-56317-1-0-1-1633172156.7z",
+    "Dragons Fall Down-56317-1-0-3-1718740254.7z"
+   ],
+   "author": "SeaSparrow",
+   "leftover": false,
+   "key": "id:56317",
+   "theme": "creatures"
+  },
+  {
+   "id": 86584,
+   "name": "Draugr Battleaxe and Warhammer Attack Animation",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-02-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Draugr 2HW Attack Animation-86584-1-0-1678283072.rar",
+    "Draugr 2hw Attack Animation-86584-1-1-1740141082.rar"
+   ],
+   "author": "Karunado",
+   "leftover": false,
+   "key": "id:86584",
+   "theme": "creatures"
+  },
+  {
+   "id": 114792,
+   "name": "Draugr One-Handed Movement",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-03-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Draugr One-Handed Movement-114792-1-0-1711173301.rar"
+   ],
+   "author": "Karunado",
+   "leftover": false,
+   "key": "id:114792",
+   "theme": "creatures"
+  },
+  {
+   "id": 27354,
+   "name": "Dwarven Colossus - Mihail Monsters and Animals (SE-AE version) (''dwemer'')",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-25",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dwarven Colossus (SSE) v1.1-27354-1-1-1600147415.rar",
+    "dwarven colossus 1.3 sse-27354-1-3-1650846068.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:27354",
+   "theme": "creatures"
+  },
+  {
+   "id": 74792,
+   "name": "Falmer Ear and Hagraven Claw",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Falmer Ear 1K-74792-1-0.rar",
+    "Falmer Ear 512-74792-1-0.rar",
+    "Hagraven Claw-74792-1-0.rar"
+   ],
+   "author": "Achronos",
+   "leftover": false,
+   "key": "id:74792",
+   "theme": "creatures"
+  },
+  {
+   "id": 46989,
+   "name": "Falmer Sounds -The Betrayed Remaster-",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-03-14",
+   "vr_lists": [
+    "FUS",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Falmer Sounds -The Betrayed Remaster--46989-3-0-1615700194.7z"
+   ],
+   "author": "Satafinix",
+   "leftover": false,
+   "key": "id:46989",
+   "theme": "creatures"
+  },
+  {
+   "id": 15254,
+   "name": "Faster Transform - To Werewolf and VampireLord",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Faster Transform SE-15254-1-0.7z"
+   ],
+   "author": "tktk",
+   "leftover": false,
+   "key": "id:15254",
+   "theme": "creatures"
+  },
+  {
+   "id": 60915,
+   "name": "Fish Anywhere With Water",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-04-03",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Fish Anywhere With Water-60915-0-5-1648946832.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:60915",
+   "theme": "creatures"
+  },
+  {
+   "id": 83755,
+   "name": "Flame Atronach SE - My optimized textures",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-29",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Flame Atronach SE - Optimized textures by Xtudo - 2K-83755-1-1674993436.7z",
+    "Flame Atronach SE - Optimized textures by Xtudo - MY VERSION-83755-1-1674993411.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:83755",
+   "theme": "creatures"
+  },
+  {
+   "id": 5514,
+   "name": "FusaFusa Project - Fluffy Animals SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Fusa-Fusa Project v14.2 SE-5514-14-2.7z"
+   ],
+   "author": "Vicn",
+   "leftover": false,
+   "key": "id:5514",
+   "theme": "creatures"
+  },
+  {
+   "id": 140122,
+   "name": "Horse Animation Overhaul (WIP - OAR)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-03-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Horse Animation Overhaul - HAO-140122-1-0-1743798721.zip",
+    "Horse Animation Overhaul - HAO-140122-2-0-1752247438.zip",
+    "Horse Animation Overhaul - HAO-140122-2-1-1773089115.zip"
+   ],
+   "author": "mxnedula",
+   "leftover": false,
+   "key": "id:140122",
+   "theme": "creatures"
+  },
+  {
+   "id": 122320,
+   "name": "Humanoid Dragon Priests",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-02-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Humanoid Dragon Priests - SMP-122320-1-1-1719072892.zip",
+    "Humanoid Dragon Priests - Xavbio - SMP-122320-1-1-1719073018.zip",
+    "Humanoid Dragon Priests - Xavbio Unique DP-122320-1-1-1718950384.zip"
+   ],
+   "author": "Magink",
+   "leftover": false,
+   "key": "id:122320",
+   "theme": "creatures"
+  },
+  {
+   "id": 17324,
+   "name": "Improved Fish SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Improved Fish SE-17324-1-0.zip"
+   ],
+   "author": "Blitz54",
+   "leftover": false,
+   "key": "id:17324",
+   "theme": "creatures"
+  },
+  {
+   "id": 33759,
+   "name": "Imps - Mihail Monsters and Animals (SE-AE version) (''oblivion'')",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-09-26",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "imps (se-ae) 3.1-33759-3-1-1695733915.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:33759",
+   "theme": "creatures"
+  },
+  {
+   "id": 70134,
+   "name": "Infinite Stamina Out of Combat",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-02",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Infinite Sprinting Out of Combat-70134-1-0-1656800096.7z",
+    "Infinite Stamina Out of Combat-70134-1-1-1656001507.7z"
+   ],
+   "author": "Jahmon808",
+   "leftover": false,
+   "key": "id:70134",
+   "theme": "creatures"
+  },
+  {
+   "id": 166972,
+   "name": "JellyFishFP Movement Remake",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-12-17",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "JellyFishFP Movement Remake-166972-1-1-1765654609.7z",
+    "JellyFishFP Movement Remake-166972-1-1b-1765995397.7z",
+    "Shield patch-166972-1-0b-1765995262.7z"
+   ],
+   "author": "JellyFishInLoop",
+   "leftover": false,
+   "key": "id:166972",
+   "theme": "creatures"
+  }
+ ]
+}

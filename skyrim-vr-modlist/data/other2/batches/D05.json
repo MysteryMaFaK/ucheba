@@ -1,0 +1,784 @@
+{
+ "batch": "D05",
+ "band": "D",
+ "themes": {
+  "armor": 34
+ },
+ "items": [
+  {
+   "id": 4933,
+   "name": "Winter Is Coming SSE - Cloaks",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "WIC Cloaks SSE 2_4-4933-2-4.7z"
+   ],
+   "author": "Nivea",
+   "leftover": false,
+   "key": "id:4933",
+   "theme": "armor"
+  },
+  {
+   "id": 94852,
+   "name": "[серия «hanging dead», 3 модов] Hanging Dead Pheasants Replacer - Ring-necked Pheasants - My optimized textures SE и др.",
+   "vr": 1,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-07-02",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Hanging Dead Pheasants - SE Textures by Xtudo - 1K-94852-1-1688300055.7z",
+    "Hanging Dead Pheasants - SE Textures by Xtudo - 2K-94852-1-1688300067.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:94852",
+   "series": "hanging dead",
+   "members": [
+    {
+     "id": 94852,
+     "name": "Hanging Dead Pheasants Replacer - Ring-necked Pheasants - My optimized textures SE",
+     "vr": 0,
+     "se": 5,
+     "newest": "2023-07-02",
+     "files": [
+      "Hanging Dead Pheasants - SE Textures by Xtudo - 1K-94852-1-1688300055.7z"
+     ]
+    },
+    {
+     "id": 94936,
+     "name": "Hanging Dead Chickens - My optimized textures SE",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-07-03",
+     "files": [
+      "Hanging Dead Chickens - SE Textures by Xtudo - 2K-94936-1-1688396379.7z"
+     ]
+    },
+    {
+     "id": 82340,
+     "name": "Hanging Dead Chickens- Mihail's Shards of Immersion (SE-AE)",
+     "vr": 1,
+     "se": 2,
+     "newest": "2023-01-08",
+     "files": [
+      "hanging dead chickens (se-ae)-82340-1-1673192916.rar"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 99822,
+   "name": "[серия «icy windhelm», 3 модов] Icy Windhelm - Universal Brazier Patch и др.",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-09-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "1_Universal Brazier Patch - Snow Version-99822-1-0-1693724543.7z",
+    "Universal Brazier Patch - Snow Version-99822-1-0-1693724543.7z"
+   ],
+   "author": "ToosTruus",
+   "leftover": false,
+   "key": "id:99822",
+   "series": "icy windhelm",
+   "members": [
+    {
+     "id": 99822,
+     "name": "Icy Windhelm - Universal Brazier Patch",
+     "vr": 0,
+     "se": 5,
+     "newest": "2023-09-03",
+     "files": [
+      "1_Universal Brazier Patch - Snow Version-99822-1-0-1693724543.7z"
+     ]
+    },
+    {
+     "id": 121025,
+     "name": "Icy Windhelm - Lux Orbis Patch",
+     "vr": 0,
+     "se": 4,
+     "newest": "2024-08-07",
+     "files": [
+      "Icy Windhelm - Lux Orbis Capital Windhelm patch-121025-1-0-1723059465.7z"
+     ]
+    },
+    {
+     "id": 96367,
+     "name": "Icy Windhelm - Throne Fix",
+     "vr": 0,
+     "se": 4,
+     "newest": "2023-07-22",
+     "files": [
+      "Icy Windhelm - Throne Fix-96367-1-0-1690002064.zip"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 91642,
+   "name": "[серия «outskirts patch collection», 3 модов] JK's Riften Outskirts Patch Collection и др.",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "JK's Riften Outskirts Patch Collection-91642-1-7-1-1761330705.rar",
+    "JK's Riften Outskirts Patch Collection-91642-1-7-1732651418.rar"
+   ],
+   "author": "Czasior",
+   "leftover": false,
+   "key": "id:91642",
+   "series": "outskirts patch collection",
+   "members": [
+    {
+     "id": 91642,
+     "name": "JK's Riften Outskirts Patch Collection",
+     "vr": 1,
+     "se": 3,
+     "newest": "2025-10-24",
+     "files": [
+      "JK's Riften Outskirts Patch Collection-91642-1-7-1-1761330705.rar"
+     ]
+    },
+    {
+     "id": 103927,
+     "name": "JK's Solitude Outskirts Patch Collection",
+     "vr": 1,
+     "se": 3,
+     "newest": "2026-04-14",
+     "files": [
+      "JK's Solitude Outskirts Patch Collection-103927-1-11-1757759691.rar"
+     ]
+    },
+    {
+     "id": 87964,
+     "name": "JK's Windhelm Outskirts Patch Collection",
+     "vr": 1,
+     "se": 3,
+     "newest": "2026-04-14",
+     "files": [
+      "JK's Windhelm Outskirts Patch Collection-87964-1-5-3-1745046072.rar"
+     ]
+    }
+   ],
+   "theme": "armor"
+  },
+  {
+   "id": 118674,
+   "name": "ALT - Windhelm Entrance - Defensive Towers",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "ALT - Windhelm Entrance - CWE - D-Towers -Parallax-118674-1-2-1-1715317831.7z",
+    "ALT - Windhelm Entrance - D-Towers - Parallax-118674-1-1-1714922898.7z",
+    "ALT - Windhelm Entrance - D-Towers - Parallax-118674-1-2-1-1715317758.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:118674",
+   "theme": "armor"
+  },
+  {
+   "id": 2687,
+   "name": "Aetherium Armor and Weapons Compilation by lautasantenni",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-15",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "AetheriumArmornWeaponsSSE with BSA-2687-1-1-0-1614217512.7z",
+    "AetheriumArmornWeaponsSSE with BSA-2687-1-1-1-1689449793.7z"
+   ],
+   "author": "lautasantenni - Darkjesusmn - InsaneGizzardSauce",
+   "leftover": false,
+   "key": "id:2687",
+   "theme": "armor"
+  },
+  {
+   "id": 487,
+   "name": "Amulets of Skyrim SSE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Amulets of Skyrim SSE-487-4-061.7z"
+   ],
+   "author": "uni_SL",
+   "leftover": false,
+   "key": "id:487",
+   "theme": "armor"
+  },
+  {
+   "id": 142655,
+   "name": "Ancient Imperial Armor SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "1AncientImparisalArmorSE-142655-4-1746702476.7z",
+    "1AncientImperialArmorSE-142655-2-1740490979.7z",
+    "ESP flagged as ESL-142655-2-1746774960.7z"
+   ],
+   "author": "ancient imperial dude",
+   "leftover": false,
+   "key": "id:142655",
+   "theme": "armor"
+  },
+  {
+   "id": 47213,
+   "name": "Animated Armoury - Fixes and Enchantments",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-10",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Animated Armoury - CCOR Patch-47213-3-0-1623046000.zip",
+    "Animated Armoury - Enchantments-47213-3-0-1623045978.zip",
+    "Animated Armoury - Fixes-47213-3-0-1-1623312818.zip"
+   ],
+   "author": "me",
+   "leftover": false,
+   "key": "id:47213",
+   "theme": "armor"
+  },
+  {
+   "id": 35176,
+   "name": "Armor Variants Expansion - Patch Collection",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-26",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "AVE - Mesh and Consistency Fixes-35176-2-6-1-1735172048.7z",
+    "Armor Variants Expansion - Patch Collection-35176-2-5-1619199849.7z",
+    "Armor Variants Expansion - Patch Collection-35176-2-6-1723330050.7z"
+   ],
+   "author": "TheHessiJames",
+   "leftover": false,
+   "key": "id:35176",
+   "theme": "armor"
+  },
+  {
+   "id": 62752,
+   "name": "Armors of the Velothi Pt. I",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-07",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Armors of the Velothi Pt. I 2k (1.3)-62752-1-3-1-1746608181.rar",
+    "Armors of the Velothi Pt. I 4K-62752-1-2-3-1644179190.7z"
+   ],
+   "author": "Pulcharmsolis - VishVadeva50",
+   "leftover": false,
+   "key": "id:62752",
+   "theme": "armor"
+  },
+  {
+   "id": 111224,
+   "name": "Bone Cultist Armor",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Bone Cultist Armor-111224-1-0-1707499470.7z"
+   ],
+   "author": "furexarot",
+   "leftover": false,
+   "key": "id:111224",
+   "theme": "armor"
+  },
+  {
+   "id": 42990,
+   "name": "Capital Windhelm Expansion",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-05-06",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "1_Capital Windhelm - Embers XD ESP-FE Patch for 2.2.3 and later-42990-1-1620323559.zip",
+    "AI OVERHAUL PATCH-42990-1-1-1614387908.zip",
+    "Capital Windhelm Expansion - CRF-42990-1-3-1614324249.zip"
+   ],
+   "author": "Surjamte",
+   "leftover": false,
+   "key": "id:42990",
+   "theme": "armor"
+  },
+  {
+   "id": 89508,
+   "name": "Carriage Drivers - New Clothing SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-06-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Carriage Drivers - New Clothing SE by Xtudo - Vanilla-89508-1-2-1681989333.7z",
+    "Carriage Drivers SE by Xtudo - CFTO SPID-89508-1-4-1694175503.7z",
+    "Carriage Drivers SE by Xtudo - CFTO SPID-89508-1-8-1717764433.7z"
+   ],
+   "author": "Xtudo",
+   "leftover": false,
+   "key": "id:89508",
+   "theme": "armor"
+  },
+  {
+   "id": 79894,
+   "name": "Colovian Prince Set",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Colovian Prince Set-79894-1-1-1675886763.rar"
+   ],
+   "author": "Pulcharmsolis",
+   "leftover": false,
+   "key": "id:79894",
+   "theme": "armor"
+  },
+  {
+   "id": 21305,
+   "name": "Common Clothes and Armors",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Common Clothes and Armors - 1k Textures-21305-1-0-0-1542481342.7z",
+    "Common Clothes and Armors - 2k Textures-21305-2-0-0-1645471761.7z",
+    "Common Clothes and Armors-21305-1-1-0-1542489288.7z"
+   ],
+   "author": "Franklin Zunge and thetrader",
+   "leftover": false,
+   "key": "id:21305",
+   "theme": "armor"
+  },
+  {
+   "id": 134088,
+   "name": "Common Clothing Expansion",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-21",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Common Clothing Expansion-134088-1-6-1733579800.zip",
+    "Common Clothing Expansion-134088-1-7-1734795059.zip",
+    "Crafting recipes-134088-1-2-1732305443.7z"
+   ],
+   "author": "Hornophobic aka Hornclonic",
+   "leftover": false,
+   "key": "id:134088",
+   "theme": "armor"
+  },
+  {
+   "id": 71116,
+   "name": "Countess Armor",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-07-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Countess Armor HDT-SMP Body Physics-71116-1-1-1657491913.rar",
+    "Countess Armor-71116-1-2-1657865145.rar"
+   ],
+   "author": "Fuse00",
+   "leftover": false,
+   "key": "id:71116",
+   "theme": "armor"
+  },
+  {
+   "id": 114751,
+   "name": "Crown Plate Set",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "CrownPlateESL-114751-1-2-1712583280.rar"
+   ],
+   "author": "Pulcharm",
+   "leftover": false,
+   "key": "id:114751",
+   "theme": "armor"
+  },
+  {
+   "id": 123738,
+   "name": "Divine Crusader Retexture SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-06-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Divine Crusader Retexture SE - Half Res 123738 2.0.0 2026-06-15T01-32Z N2AYL5O9c.7z",
+    "Divine Crusader Retexture SE - Half Res-123738-1-0-1720446401.7z",
+    "Divine Crusader Retexture SE-123738-1-0-1720446270.7z"
+   ],
+   "author": "Xavbio",
+   "leftover": false,
+   "key": "id:123738",
+   "theme": "armor"
+  },
+  {
+   "id": 133428,
+   "name": "Dwarven Engineering - Craftable Controllable Automata",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dwarven Engineering-133428-5-1-1741547113.zip"
+   ],
+   "author": "Destructor36",
+   "leftover": false,
+   "key": "id:133428",
+   "theme": "armor"
+  },
+  {
+   "id": 184868,
+   "name": "Dwarven Engineering - Tweaks",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-07-09",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dwarven Engineering Tweaks 184868 1 2026-07-09T23-52Z N2AYL5aI1.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:184868",
+   "theme": "armor"
+  },
+  {
+   "id": 65963,
+   "name": "Dynamic Armor Variants",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-10-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Dynamic Armor Variants-65963-1-0-5-1665251802.7z"
+   ],
+   "author": "Parapets",
+   "leftover": false,
+   "key": "id:65963",
+   "theme": "armor"
+  },
+  {
+   "id": 89048,
+   "name": "Dynamic Bow Animation",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-20",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Dynamic Bow Animation-89048-1-5-1705724545.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:89048",
+   "theme": "armor"
+  },
+  {
+   "id": 109000,
+   "name": "Eastern Brassplate Set",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-01-18",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Eastern Brassplate ESL-109000-1-0-1705601855.rar"
+   ],
+   "author": "Pulcharm",
+   "leftover": false,
+   "key": "id:109000",
+   "theme": "armor"
+  },
+  {
+   "id": 105930,
+   "name": "Elmlock Armor and Blade (CBBE - HIMBO)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-24",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Elmlock Armor and Blade - ESP Update-105930-1-2-2-1703380305.7z",
+    "Elmlock Armor and Blade - Main File - 2K Textures-105930-1-2-1-1702481970.7z"
+   ],
+   "author": "Kreiste x Mura",
+   "leftover": false,
+   "key": "id:105930",
+   "theme": "armor"
+  },
+  {
+   "id": 27994,
+   "name": "Elven Weapons for Silence SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-08-05",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Elven Weapon for Silence SE (Dark Obsidian) 2K-27994-1-0-1564932334.zip",
+    "Leanwolf Elven - Dark Obsidian-27994-1-0-1565022318.zip",
+    "Leanwolf Elven - Default Silver-27994-1-0-1565022135.zip"
+   ],
+   "author": "Erlioniel",
+   "leftover": false,
+   "key": "id:27994",
+   "theme": "armor"
+  },
+  {
+   "id": 106381,
+   "name": "Fluted Armor SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-12-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "1FlutedArmorSE-106381-2-1702016021.7z"
+   ],
+   "author": "Umbasa",
+   "leftover": false,
+   "key": "id:106381",
+   "theme": "armor"
+  },
+  {
+   "id": 74118,
+   "name": "Fur Shader Armors",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Fur Shader Armors - Hands Redone Bodyslides-74118-1-13-1731780998.rar",
+    "Fur Shader Armors-74118-1-12-1725461193.rar",
+    "Fur Shader Armors-74118-1-2-1744821207.rar"
+   ],
+   "author": "bosn",
+   "leftover": false,
+   "key": "id:74118",
+   "theme": "armor"
+  },
+  {
+   "id": 119257,
+   "name": "Gorm HDT-SMP Armor",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-05-12",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Gorm Armor-119257-1-2-1715512364.rar"
+   ],
+   "author": "Fuse00",
+   "leftover": false,
+   "key": "id:119257",
+   "theme": "armor"
+  },
+  {
+   "id": 58657,
+   "name": "Guild Armor Enchantments",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-11-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Guild Armor Enchantments-58657-1-0-1637230739.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:58657",
+   "theme": "armor"
+  },
+  {
+   "id": 100617,
+   "name": "Helmet Toggle 2",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Helmet Toggle 2 100617 3.6.1 2026-06-25T14-05Z zYsEpQaKs.zip",
+    "Helmet Toggle 2-100617-3-4-1-1737741420.zip",
+    "Helmet Toggle 2-100617-3-6-0-1773627585.zip"
+   ],
+   "author": "GiraPomba",
+   "leftover": false,
+   "key": "id:100617",
+   "theme": "armor"
+  },
+  {
+   "id": 98772,
+   "name": "Hornophobic-Vampire Clothing and Armor Expansion-3BA Conversion",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-17",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Vampire Armor Expansion-3BA BodySlide-Remake v1-98772-2-1779046927.rar",
+    "Vampire Armor Expansion-3BA BodySlide-v7-98772-v7-1723202545.rar",
+    "Vampire Clothing Expansion-3BA BodySlide-v3-98772-v3-1723202481.rar"
+   ],
+   "author": "Black Cat",
+   "leftover": false,
+   "key": "id:98772",
+   "theme": "armor"
+  },
+  {
+   "id": 2025,
+   "name": "IPM - Insane Armory - Bows Crossbows Axes Hammers Maces Shields",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "IPM - Insane Armory-2025-1-1.7z"
+   ],
+   "author": "InsanePlumber",
+   "leftover": false,
+   "key": "id:2025",
+   "theme": "armor"
+  }
+ ]
+}

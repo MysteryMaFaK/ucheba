@@ -1,0 +1,344 @@
+{
+ "verdicts": [
+  {
+   "key": "id:164263",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Стук в запертую дверь рукой: жестовая надстройка к Simply Knock для VR, без меню.",
+   "note": "Только Yggdrasil VR, файл «Papyrus Extender» (…-164263-0-21-1762998290.7z). Нужен Simply Knock SE 1.0.3 (#14098). Состав требований (Papyrus Extender VR) сверить на странице. С Interactive Activators VR не пересекается (тот про рычаги, цепи, кнопки). Тест: постучать в запертый дом.",
+   "reason": "Единственный настоящий VR-жест для двери, в ядре и Other аналога нет; один список и неподтверждённые требования, поэтому try."
+  },
+  {
+   "key": "id:14098",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Стук в запертые двери домов с ответом жителей; база для Physical VR Knocking, сам по себе работает через меню.",
+   "note": "Simply Knock SE 1.0.3 Release (…-14098-1-0-3.zip; Librum VR, Yggdrasil VR). Ставить только в паре с #164263. DLL EXPERIMENTAL (#24297) не брать. Simpler Knock (#31585) не смешивать.",
+   "reason": "Нужен как зависимость жестового стука; два VR-списка. Сам по себе мало интерактива, поэтому opt."
+  },
+  {
+   "key": "id:31585",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "alt",
+   "choose_one_group": null,
+   "what": "Упрощённый стук в дверь без жеста.",
+   "note": "Spirit of Grit и Tahrovin - Grit. Для связки с Physical VR Knocking основа неизвестна, берём Simply Knock.",
+   "reason": "Дубль Simply Knock по функции, без VR-жеста; не нужен рядом с выбранной связкой."
+  },
+  {
+   "key": "id:184347",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Двери руками: толкнуть незапертую, взломать настоящей отмычкой и шивом, открыть ключом, приложив его к двери.",
+   "note": "GitHub SamuelJohnBrown, VR-native, июль 2026, версия 1.2.3 по сниппету. Списков нет, имя архива не подтверждено. Требует SKSEVR и HIGGS. Interactive Activators VR из ядра закрывает рычаги, цепи и кнопки, не двери, так что дубля нет. Ставить отдельным тестом: подменяет взлом дверей. С Physical VR Knocking стыков по описанию нет.",
+   "reason": "Реальная VR-механика, которой нет в ядре; свежий и без списков, поэтому только try и после теста."
+  },
+  {
+   "key": "id:148145",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Физические двери ферм.",
+   "note": "Tempus Maledictum VR, апрель 2025. Охватывает только фермерские двери, возможен конфликт мешей с GDOS.",
+   "reason": "Узкий (одни фермерские двери), один список, функция проверена только по названию, пересекается с Interactive Door Actions."
+  },
+  {
+   "key": "id:174855",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Сброс карманов NPC для повторной кражи.",
+   "note": "Spirit of Grit, Tahrovin - Grit. Геймплейная правка, жестов нет.",
+   "reason": "Не интерактивность, а баланс воровства."
+  },
+  {
+   "key": "id:115887",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Мини-игра взлома в стиле Oblivion.",
+   "note": "Tahrovin, 2024. VR-статус не подтверждён.",
+   "reason": "Меню-минигра без физики, VR не подтверждён, конфликтует по смыслу с физическим взломом."
+  },
+  {
+   "key": "id:129974",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Поза и рэгдолл NPC для скриншотов.",
+   "note": "Tahrovin, версия для VR и SE.",
+   "reason": "Утилита для съёмки, не игровая интерактивность; PLANCK уже даёт активный рэгдолл."
+  },
+  {
+   "key": "id:1439",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Сильнее и реалистичнее рэгдолл от ударов: тела и предметы летят физически убедительнее.",
+   "note": "Realistic Ragdolls and Force SE 1.92 (…-1439-1-92.zip), без DLL; Panda's, Librum VR, FUS ставят вместе с PLANCK. В Arctal's Tweaks (ядро) есть своя правка ragdoll: не крутить силу в обоих. Если толчки слишком сильные или NPC улетают, выключить плагин. Тест: удар мечом и толчок рукой по NPC.",
+   "reason": "Три VR-списка рядом с PLANCK дают реальное свидетельство совместной работы; ценность субъективна, поэтому try."
+  },
+  {
+   "key": "id:667",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Система лагеря Campfire.",
+   "note": "VR-релиз 1.12.1SEVR есть, 4 VR-списка. SunHelm в ядре использует его по желанию.",
+   "reason": "Выживание и контент, а не физическое взаимодействие; нужен только тем, кто хочет Frostfall или палатки."
+  },
+  {
+   "key": "id:37779",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фикс вылета ступки в Campfire для VR.",
+   "note": "Нужен только вместе с Campfire.",
+   "reason": "Зависимость отброшенного Campfire."
+  },
+  {
+   "key": "id:149913",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Оптимизация скриптов Campfire.",
+   "note": "Один VR-список.",
+   "reason": "Зависимость отброшенного Campfire."
+  },
+  {
+   "key": "id:125636",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Коллизия предметов лагеря Campfire.",
+   "note": "Panda's Sovngarde, один список.",
+   "reason": "Надстройка к отброшенному Campfire, один список."
+  },
+  {
+   "key": "id:652",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Палатки для Campfire.",
+   "note": "Panda's, Librum, Yggdrasil.",
+   "reason": "Контент и оформление, не интерактивность."
+  },
+  {
+   "key": "id:68864",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Рубка деревьев в VR.",
+   "note": "Panda's и FUS ставят вместе с Realistic Mining and Chopping for VR.",
+   "reason": "Realistic Mining and Chopping for VR + VR Refit из ядра уже даёт рубку дерева настоящими ударами; различие не подтверждено."
+  },
+  {
+   "key": "id:144669",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Игра на флейте, лютне и барабане жестами контроллеров, без меню.",
+   "note": "Bard vr (beta) 1.0 (…-144669-1-0-1742383560.zip), Librum VR, бета 2025. Автономный SKSEVR-мод, с HIGGS/PLANCK не пересекается; бинды проверить на конфликт с VRIK. Не путать с Bard Instrumentals (Other). Тест: достать инструмент и сыграть.",
+   "reason": "Настоящая VR-механика руками, аналогов в списках нет; бета и один список, поэтому try."
+  },
+  {
+   "key": "id:67637",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Игра в «принеси» с собакой: бросаете кость рукой, собака приносит. Мясо кормит собаку.",
+   "note": "Interactive Ai - Play Fetch 1.4.1 (…-67637-1-4-1654565345.7z), Yggdrasil VR, 2022. Сниппет: работает в VR и плоском режиме, сильнее с HIGGS. Меню нет. Тест: бросить кость рядом с собакой.",
+   "reason": "Лёгкая и реально физическая надстройка к HIGGS, ничего не дублирует; один список, поэтому opt."
+  },
+  {
+   "key": "n:interactive pipe smoking vr",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Курение трубок руками в VR.",
+   "note": "Только GitHub, релизный файл не подтверждён.",
+   "reason": "Нет списков, нет подтверждённого релиза, атмосферная мелочь с неясным риском для крафта."
+  },
+  {
+   "key": "id:36132",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Убирает урон от хождения по костям, горшкам и телегам, ставшим физическими из-за HIGGS и Physical Collision VR.",
+   "note": "No Silly Physics Damage (esl) (…-36132-2-1589820691.7z), Librum VR. ESL без DLL, откат отключением. Тест: пройти по куче костей без потери здоровья.",
+   "reason": "Закрывает реальный побочный эффект физического стека, безопасен и не конфликтует; один список, поэтому opt."
+  },
+  {
+   "key": "id:28291",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Разбиваемая посуда и утварь.",
+   "note": "Yggdrasil VR, бета 2019.",
+   "reason": "Старая бета, нагрузка Havok на кадры в VR, реакция стражи; ценность мала."
+  },
+  {
+   "key": "id:3838",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Хранилище на лошади.",
+   "note": "Tempus, Spirit of Grit, Tahrovin - Grit.",
+   "reason": "Инвентарная функция, не VR-интерактивность."
+  },
+  {
+   "key": "id:96273",
+   "keep": false,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Меню действий по удержанию активации.",
+   "note": "Tempus (1.02), Tahrovin (DLL NG 1.12).",
+   "reason": "VR-статус версии 1.02 неизвестен, перехватывает кнопку активации у HIGGS и Interactive Activators VR; риск конфликта без выгоды."
+  },
+  {
+   "key": "n:alchemy recipe view mode vr",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Вид рецептов алхимии для VR.",
+   "note": "Только GitHub, релиз не подтверждён, в списках нет.",
+   "reason": "Косметика меню без доказательств релиза; риск конфликта с I4 и COCKS."
+  },
+  {
+   "key": "id:107993",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Сглаженная сетка окна диалога для VR; стоит в 5 VR-списках, включая Stormcrown.",
+   "note": "VR Smooth Dialogue Mesh 1.0.0 (…-107993-1-0-0-1703910901.zip), единственный файл. Что именно сглаживает, проверить на странице. Не вместе с Transparent Dialogue VR. При Immersive NPC Dialogue - VR (ядро, варианты на запястье) может не понадобиться.",
+   "reason": "Самое частое в теме диалога, VR-native, в 2026 ставится; но функция подтверждена лишь по названию, поэтому opt."
+  },
+  {
+   "key": "id:17897",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": null,
+   "what": "Прозрачный фон диалога для VR.",
+   "note": "Librum VR, 2018.",
+   "reason": "Старая замена Smooth Dialogue Mesh, один список, косметика."
+  },
+  {
+   "key": "id:161500",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенное меню диалога.",
+   "note": "Stormcrown (1.0.6), Spirit of Grit, Tahrovin - Grit.",
+   "reason": "Косметика плоского UI без VR-метки; бесполезна при Immersive NPC Dialogue - VR из ядра."
+  },
+  {
+   "key": "id:89163",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Пропуск реплик NPC.",
+   "note": "4 VR-списка, DLL NG.",
+   "reason": "Удобство, а не интерактивность; в VR мало свободных кнопок, возможна путаница с Dialogue Movement Enabler VR."
+  },
+  {
+   "key": "id:44874",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Бумажный скин SkyUI VR.",
+   "note": "5 VR-списков.",
+   "reason": "Внешний вид меню (отдельный этап), конкурирует с Norden UI VR из ядра, Categorized Favorites дублирует Essential Favorites VR."
+  },
+  {
+   "key": "id:100170",
+   "keep": false,
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Патч Dear Diary VR под COCKS.",
+   "note": "Librum, FUS.",
+   "reason": "Зависимость отброшенного скина."
+  },
+  {
+   "key": "id:151637",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Замедление ходьбы по воде, сделанное под VR; прежние Wade in Water в VR работали с проблемами.",
+   "note": "Wade In Water VR 1.0 (…-151637-1-0-1748865168.zip), Tempus Maledictum VR, июнь 2025. Не ставить Wade in Water Redone, Redux, Remade. С Interactive Waters - VR (ядро) не пересекается; с Sink Or Swim NG (ядро) тест по очереди: скорость в воде.",
+   "reason": "Единственный VR-native вариант, не дубль ядра; один список и мелкий эффект, поэтому try."
+  },
+  {
+   "key": "id:49595",
+   "keep": false,
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Вызов коня.",
+   "note": "Tempus, Spirit of Grit, Tahrovin - Grit. Утверждение про свист в Gift by Hand VR ничем не подтверждено.",
+   "reason": "Бытовое удобство без VR-жеста."
+  },
+  {
+   "key": "id:24297",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Не ставить DLL Simply Knock «SKSEVR 2.0.10 EXPERIMENTAL» из Librum: у нас SKSEVR 2.0.12, а стук жестом даёт Physical VR Knocking.",
+   "note": "Файл SimplyKnockSE SKSEVR 2.0.10 DLL EXPERIMENTAL (…-24297-1-0-1574703916.7z, 2019). Несовместимость с 2.0.12 не доказана, но файл экспериментальный и избыточный. Брать только Simply Knock SE 1.0.3 (#14098).",
+   "reason": "Люди скопируют файл из Librum; предупреждение полезно."
+  },
+  {
+   "key": "id:102094",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Quickloot VR не ставить: в ядре QuickLoot IE, оба вместе дают конфликт DLL и меню.",
+   "note": "Quickloot VR 1.2 и 1.3 (Grit, 2026-06-12) рабочие, но ядро выбрало QuickLoot IE 4.1.3 (#120075). Missives - Quickloot Patch тоже не нужен.",
+   "reason": "В 5 VR-списках, высок риск, что поставят по привычке; конфликт указан в карточке ядра."
+  },
+  {
+   "key": "id:120460",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Grab And Throw (плоский SKSE) не ставить: хват и бросок в VR делают HIGGS и PLANCK.",
+   "note": "Только SE-списки (CSVP, LoreRim, True North, Apostasy); ни один из 9 VR-списков его не ставит. Show in UI (#158977) тоже не нужен. Throwing Stuff VR (в Other-2) работает без него.",
+   "reason": "Плоский мод спорит с HIGGS и PLANCK за активацию и физику; VR-версии нет."
+  }
+ ]
+}

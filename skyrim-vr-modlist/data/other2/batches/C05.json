@@ -1,0 +1,754 @@
+{
+ "batch": "C05",
+ "band": "C",
+ "themes": {
+  "body_face": 36
+ },
+ "items": [
+  {
+   "id": 65484,
+   "name": "Mana Vault Bodyslide Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-03-25",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "MVC Mana Vault 3BA Bodyslide Preset-65484-1-0-1648217161.7z"
+   ],
+   "author": "TheManaVault",
+   "leftover": false,
+   "key": "id:65484",
+   "theme": "body_face"
+  },
+  {
+   "id": 27050,
+   "name": "Medieval Torch",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-07-01",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Medieval Torch-27050-1-0-2-1561975827.7z"
+   ],
+   "author": "mathy79",
+   "leftover": false,
+   "key": "id:27050",
+   "theme": "body_face"
+  },
+  {
+   "id": 49881,
+   "name": "NORDIC UI - Interface Overhaul",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-08-14",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "NORDIC UI (Final Design)-49881-2-4-1-1628977374.zip"
+   ],
+   "author": "outobugi",
+   "leftover": false,
+   "key": "id:49881",
+   "theme": "body_face"
+  },
+  {
+   "id": 151384,
+   "name": "NPC Block Loop Fix",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-05-30",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "NPC Block Loop Fix-151384-1-0-1748582585.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:151384",
+   "theme": "body_face"
+  },
+  {
+   "id": 113227,
+   "name": "NPC Infinite Block Fix - SkyPatched",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-09-02",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "NPC Infinite Block Fix - SkyPatched-113227-1-0-0-1709733360.zip",
+    "NPC Infinite Block Fix - SkyPatched-113227-1-1-0-1725279661.zip"
+   ],
+   "author": "Zzyxzz",
+   "leftover": false,
+   "key": "id:113227",
+   "theme": "body_face"
+  },
+  {
+   "id": 81618,
+   "name": "NPCs Ain't Hachikos",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-12-30",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "NPCs Ain't Hachikos-81618-1-0-1672392042.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:81618",
+   "theme": "body_face"
+  },
+  {
+   "id": 117908,
+   "name": "NPCs Learn to Aim (Skill-Based Aiming)",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-06-07",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "NPCs Learn to Aim-117908-1-1-0-1717797901.zip"
+   ],
+   "author": "sasnikol",
+   "leftover": false,
+   "key": "id:117908",
+   "theme": "body_face"
+  },
+  {
+   "id": 64277,
+   "name": "Niohoggr Warpaints",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-09-06",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Niohoggr Warpaints - All in one-64277-2-0-1662503577.zip",
+    "Niohoggr Warpaints and Facepaints-64277-1-2-1646175862.zip"
+   ],
+   "author": "Collygon",
+   "leftover": false,
+   "key": "id:64277",
+   "theme": "body_face"
+  },
+  {
+   "id": 138362,
+   "name": "No Ugly Skinny Offset for Males (and small edit for muscular offset)",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-01-07",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Skinny AND muscular offset fix-138362-1-0-1736273844.7z"
+   ],
+   "author": "JellyFishInLoop",
+   "leftover": false,
+   "key": "id:138362",
+   "theme": "body_face"
+  },
+  {
+   "id": 80780,
+   "name": "Nyr Luxury 3BA Body Preset - BodySlide - CBBE 3BA",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-01-02",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Nyr Luxury - 3BA Body Preset - BodySlide - CBBE 3BA-80780-1-1-1672672411.7z"
+   ],
+   "author": "TheFaceSculptor",
+   "leftover": false,
+   "key": "id:80780",
+   "theme": "body_face"
+  },
+  {
+   "id": 56395,
+   "name": "Omikami Hips -CBBE-3BA-3BBB- Bodyslide Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-10-02",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Omikami Handles CBBE Bodyslide Preset-56395-1-1633151762.rar"
+   ],
+   "author": "s4rMs",
+   "leftover": false,
+   "key": "id:56395",
+   "theme": "body_face"
+  },
+  {
+   "id": 69773,
+   "name": "Orc Brow Horn Tweaks",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-07-02",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Orc Brow Horns Don't Change Color - HPH-69773-1-1-1751422326.7z",
+    "Orc Brow Horns Don't Change Color - for High Poly Heads-69773-1-0-1655428833.7z",
+    "Orc Brow Horns Texture Replacement - 1k-69773-1-0-1669085475.7z"
+   ],
+   "author": "allonsywisegirl",
+   "leftover": false,
+   "key": "id:69773",
+   "theme": "body_face"
+  },
+  {
+   "id": 67147,
+   "name": "PAINTERLY - a High Res Vanilla Warpaint Retexture",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Painterly_HighResVanillaWarpaint-67147-1-0.7z"
+   ],
+   "author": "gobbldygook",
+   "leftover": false,
+   "key": "id:67147",
+   "theme": "body_face"
+  },
+  {
+   "id": 80634,
+   "name": "PB's 0-100 Muscular 3ba preset with normalmaps",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-12-14",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "PB01 Muscular 0-100-80634-1-0-1671029017.zip"
+   ],
+   "author": "PB",
+   "leftover": false,
+   "key": "id:80634",
+   "theme": "body_face"
+  },
+  {
+   "id": 91146,
+   "name": "Race Menu Player Rotation",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-12-06",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Race Menu Player Rotation-91146-1-2-1-1701856691.zip",
+    "Race Menu Player Rotation-91146-1-2-1684451323.zip"
+   ],
+   "author": "Meridiano",
+   "leftover": false,
+   "key": "id:91146",
+   "theme": "body_face"
+  },
+  {
+   "id": 71642,
+   "name": "RaceMenu Preset - Crocodilian Argonian (male and female)",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-18",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Argonian Crocodilian Male Preset for RaceMenu V1-71642-1-1658173984.zip"
+   ],
+   "author": "abborre",
+   "leftover": false,
+   "key": "id:71642",
+   "theme": "body_face"
+  },
+  {
+   "id": 173617,
+   "name": "Racemenu(SKEE) cosave Load Crash Fix",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-04-27",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Racemenu(SKEE) cosave Load Crash Fix-173617-1-1-0-1772461105.zip",
+    "Racemenu(SKEE) cosave Load Crash Fix-173617-1-1-1-1777300595.zip"
+   ],
+   "author": "Acro",
+   "leftover": false,
+   "key": "id:173617",
+   "theme": "body_face"
+  },
+  {
+   "id": 1439,
+   "name": "Realistic Ragdolls and Force SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "FUS",
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Increased Fall Damage Player Only-1439-1.zip",
+    "Realistic Ragdolls and Force SE-1439-1-92.zip"
+   ],
+   "author": "dDefinder",
+   "leftover": false,
+   "key": "id:1439",
+   "theme": "body_face"
+  },
+  {
+   "id": 15511,
+   "name": "Realistic Skin And Hair Shaders - Giants",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Realistic Skin and Hair Shaders - Giants-15511-v1-1.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:15511",
+   "theme": "body_face"
+  },
+  {
+   "id": 16310,
+   "name": "Realistic Skin Shaders - Falmer and Hagravens",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-08-19",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Realistic Skin Shaders - Falmer and Hagravens-16310-v1-03.7z",
+    "Realistic Skin Shaders- Falmer and Hagraven-16310-1-05-1629413744.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:16310",
+   "theme": "body_face"
+  },
+  {
+   "id": 105622,
+   "name": "Scared of Shootings - NPCs react to aiming bows",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-12-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Scared of Shootings - NPCs react to aiming bows-105622-0-4-1734483123.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:105622",
+   "theme": "body_face"
+  },
+  {
+   "id": 58944,
+   "name": "ShiniSniper SE 3BA Body and Face preset V2",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-11-27",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ShiniSniper Body V2-58944-v2-1669511782.rar"
+   ],
+   "author": "Shinisniper",
+   "leftover": false,
+   "key": "id:58944",
+   "theme": "body_face"
+  },
+  {
+   "id": 119849,
+   "name": "Skeuomorphism of Skyrim - Immersive Plaque Reading Interface",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-06-12",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Immersive Plaque Reading Interface-119849-0-7-2-1718187112.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:119849",
+   "theme": "body_face"
+  },
+  {
+   "id": 98353,
+   "name": "Skyward - Reshade Preset for Community Shaders",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-09-14",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Skyward Reshade-98353-3-0-1-1694662898.zip"
+   ],
+   "author": "nerefoof",
+   "leftover": false,
+   "key": "id:98353",
+   "theme": "body_face"
+  },
+  {
+   "id": 101359,
+   "name": "Small Nordic Tent - Animated",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-09-26",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Small Nordic Tent Replacer - Animated-101359-1-0-1-1695735937.7z"
+   ],
+   "author": "JPSteel2-Rallyeator-StoneSpiralGaming",
+   "leftover": false,
+   "key": "id:101359",
+   "theme": "body_face"
+  },
+  {
+   "id": 63678,
+   "name": "SmoothCam - Hellblade Preset",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-02-18",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "SmoothCam - Hellblade Preset-63678-1-0-2-1645021989.rar",
+    "SmoothCam - Hellblade Senua Preset-63678-1-0-0-1645159529.rar"
+   ],
+   "author": "hsoju",
+   "leftover": false,
+   "key": "id:63678",
+   "theme": "body_face"
+  },
+  {
+   "id": 53779,
+   "name": "Solstheim Objects SMIMed - High Poly Dark Elf Furniture",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-10-30",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Solstheim Objects SMIMed - Dark Elf Furniture-53779-0-2-1761811699.7z",
+    "Solstheim Objects SMIMed - High Poly Dark Elf Furniture-53779-0-1-1-1629079840.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:53779",
+   "theme": "body_face"
+  },
+  {
+   "id": 72778,
+   "name": "Sonderbain's Waifu Bodyslide - Kaisel 3BA",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-08-06",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "SB Waify Bodyslide - Kaisel 3BA - Low to High-72778-1-1659745225.7z"
+   ],
+   "author": "Sonderbain",
+   "leftover": false,
+   "key": "id:72778",
+   "theme": "body_face"
+  },
+  {
+   "id": 51588,
+   "name": "Soriel - a male Altmer preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-06-24",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Soriel-51588-1-0-1624560645.7z"
+   ],
+   "author": "literallywhyidkman",
+   "leftover": false,
+   "key": "id:51588",
+   "theme": "body_face"
+  },
+  {
+   "id": 95926,
+   "name": "Spaghetti's Orc Strongholds - AIO",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-07-24",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Spaghetti's Orc Strongholds - AIO-95926-1-3-1690210047.zip"
+   ],
+   "author": "RubberSpaghetti",
+   "leftover": false,
+   "key": "id:95926",
+   "theme": "body_face"
+  },
+  {
+   "id": 76568,
+   "name": "Terre's 4K Fur Textures for CoverKhajiits - Vanilla CBBE UNP BHUNP SoS HIMBO",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-02-15",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Terre's Body Fur Textures AIO - 2K-76568-1-1-1669754374.7z",
+    "Terre's Body Fur Textures AIO - 4K-76568-2-0-1739647352.7z",
+    "Vanilla 4K-76568-2-0-1739587996.7z"
+   ],
+   "author": "JazzJr - Terreflare",
+   "leftover": false,
+   "key": "id:76568",
+   "theme": "body_face"
+  },
+  {
+   "id": 48347,
+   "name": "Umbrael - High Poly Dark Elf Racemenu Preset",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-08",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Umbrael - High Poly Racemenu Preset-48347-1-2-1657305635.rar"
+   ],
+   "author": "M66rten",
+   "leftover": false,
+   "key": "id:48347",
+   "theme": "body_face"
+  },
+  {
+   "id": 56076,
+   "name": "Unslaad CBBE (3BA) Bodyslide",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-08-23",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Unslaad 3BA Bodyslide-56076-3-0-1692776891.7z",
+    "Unslaad 3BA Bodyslide-56076-Guacamole-1633137752.7z"
+   ],
+   "author": "Vicn and Myself",
+   "leftover": false,
+   "key": "id:56076",
+   "theme": "body_face"
+  },
+  {
+   "id": 56920,
+   "name": "Vaeri's Body - A CBBE 3BBB 3BA Bodyslide Preset for SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-10-11",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Vaeri's Body - A CBBE 3BB 3BA Bodyslide Preset for SE-56920-1-0-1633949677.rar"
+   ],
+   "author": "gerdzofficial",
+   "leftover": false,
+   "key": "id:56920",
+   "theme": "body_face"
+  },
+  {
+   "id": 91147,
+   "name": "Valandor (Altmer High Elf Male High Poly Preset)",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-05-12",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Valandor Preset-91147-1-0-1683851037.zip"
+   ],
+   "author": "ArkaiyisAngel",
+   "leftover": false,
+   "key": "id:91147",
+   "theme": "body_face"
+  },
+  {
+   "id": 74287,
+   "name": "Wait I know You - Forcegreet Tweak",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-03-11",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "W8INoU - Bruma-74287-1-3-1709137214.7z",
+    "W8INoU - Wait I know You - Forcegreet Tweak-74287-1-3-1-1710115444.7z"
+   ],
+   "author": "AndrealphusVIII",
+   "leftover": false,
+   "key": "id:74287",
+   "theme": "body_face"
+  }
+ ]
+}

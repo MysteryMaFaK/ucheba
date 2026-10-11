@@ -1,0 +1,1139 @@
+{
+ "section_lead": "В VR ближний бой уже держат HIGGS + PLANCK + VRIK + Physical Collision VR + True Wield (удары, хват, парирование, лук/арбалет, стамина B&B/Adamant у ядра), поэтому здесь только добавки: блок и стамина, зоны попадания, арбалетные прицелы, броски, ИИ врагов и фиксы NPC-блока. Плоские боевые фреймворки (Precision, MCO/ADXP, Valhalla и т.п.) и анимации игрока в VR бесполезны. Описания страниц Nexus недоступны, поэтому у многих пунктов статус try, а в evidence указаны имена архивов из листов.",
+ "picks": [
+  {
+   "key": "id:26447",
+   "id": 26447,
+   "name": "Locational Damage SKSE VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/26447",
+   "section": "ix_combat",
+   "tag": "alt",
+   "choose_one_group": "locational_damage",
+   "what": "Урон и эффекты зависят от зоны попадания (голова, тело, конечности). SKSE-порт Locational Damage под VR от lfrazer.",
+   "vr_status": "vr_native",
+   "in_lists": "FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR (7 из 9 VR)",
+   "files": "«LocationalDamageSKSE VR 0.7.2» (26447-0-7-2), один файл во всех 7 листах",
+   "requires": [
+    "SKSEVR",
+    "SkyUI VR (MCM, по описанию оригинала)"
+   ],
+   "interplay": "По смыслу дублирует Accuracy + Core Impact Framework из ядра (opt): ставить ОДИН из двух. С HIGGS/PLANCK прямого конфликта не найдено, но PLANCK меняет попадания по рэгдоллу, зону проверить в игре.",
+   "note": "Старый мод (2021), но самый частый VR-вариант локационного урона. Проверка: удар по голове и по ноге даёт разный эффект. Если в ядре уже стоит Accuracy, этот мод не нужен.",
+   "evidence": "whouses 26447: 7 VR-листов, файл LocationalDamageSKSE VR 0.7.2. GitHub lfrazer/LocationalDamageSKSEVR: «x64 SKSE port of Locational Damage for Skyrim SE/VR», обновлён 2021-11-25. MODLIST.md: Accuracy #187578 уже в ядре."
+  },
+  {
+   "key": "id:125734",
+   "id": 125734,
+   "name": "Attacks Cost Stamina VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/125734",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Обычные удары тратят стамину (кинжал и кулак меньше, 2H больше всего). Написан под VR: анимационные события при быстром взмахе в VR ненадёжны.",
+   "vr_status": "vr_native",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "«Attacks Cost Stamina VR» 1.21 + «Attacks Cost Stamina VR - 2H Requirement» 1.21 (оба в Grit); опционально «Blade and Blunt Harsher Penalty for No Stamina» 1.0 с той же страницы",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Автор рекомендует пару с Blade and Blunt (ядро). Grit держит B&B 1.4.1, ядро ставит 3.8.3 + B&B VR: сверить, не тратит ли B&B 3.x стамину за удар сам, чтобы не удвоить. С HIGGS/PLANCK не конфликтует: счёт идёт не по анимационным событиям.",
+   "note": "Включает смысл физического боя: размахивать клинком без остановки нельзя. Проверка: серия ударов роняет стамину, силовая атака не списывает лишнего.",
+   "evidence": "whouses 125734: Spirit of Grit, Tahrovin - Grit (1-21, 2025-11-13). Сниппет страницы Nexus 125734: автор Aelover, «animation events ... not reliable in VR when the player is swinging too fast»; B&B нужен только для опционального файла."
+  },
+  {
+   "key": "id:90187",
+   "id": 90187,
+   "name": "Shield of Stamina VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/90187",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Блок щитом/оружием списывает стамину вместо здоровья; при нехватке пошатывание, пока держите блок стамина не восстанавливается.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "«Shield Of Stamina - Blocking redux - AE» 1.1b (#62137) + поверх «Shield of Stamina VR» 1.1b (#90187), как у Tempus",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR",
+    "Shield Of Stamina - Blocking redux (#62137, основа)"
+   ],
+   "interplay": "Хорошо сочетается с Pseudo Physical Parry и Dual Wield Block VR (физический блок щитом/клинком). Пересекается с блоковыми правилами Blade and Blunt, Strike Obstruction Systems: блок-оверхол брать один.",
+   "note": "Только один VR-лист (Tempus), версия 2023. Grit-листы берут патч 91626 «More Consistent Stamina Costs», но базы SoS в их архивах нет: проверить, к чему он.",
+   "evidence": "whouses 90187/62137: Tempus ставит оба архива. GitHub jc43081/ShieldOfStaminaVR: «VR version», CommonLibVR, нужна VR Address Library, на Nexus VR-страница 90187, SE-версия 62137."
+  },
+  {
+   "key": "id:53050",
+   "id": 53050,
+   "name": "Strike Obstruction Systems - Combat Blocking Overhaul",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/53050",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": "block_overhaul",
+   "what": "Оверхол блокирования. Содержание страницы не подтверждено, по названию правила блока меняются. 4 VR-листа, в том числе Yggdrasil 2026.",
+   "vr_status": "unknown",
+   "in_lists": "Panda's Sovngarde, Tahrovin, FUS, Yggdrasil VR",
+   "files": "«Strike Obstruction Systems - Combat Blocking Overhaul» 1.05 (53050-1-05; Panda's, Tahrovin, Yggdrasil); FUS держит 1.03",
+   "requires": [],
+   "interplay": "Трогает правила блока, как Shield of Stamina VR и Blade and Blunt: не накладывать друг на друга без теста. С физическим парированием (Pseudo Physical) логика блока щитом может дублироваться.",
+   "note": "Описания нет, поэтому try. Перед установкой открыть страницу #53050 и прочитать требования. Проверка: блок щитом по NPC, нет ли двойного снятия стамины.",
+   "evidence": "whouses 53050: Panda's, Tahrovin, Yggdrasil (1-05), FUS (1-03). Описание в веб-поиске не нашлось."
+  },
+  {
+   "key": "id:103990",
+   "id": 103990,
+   "name": "Blocking and Flash VR - Redux",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/103990",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": "block_fx",
+   "what": "VR-версия блока со вспышкой (по названию), у Grit-листов стоит файл «Brawl Fix». Содержание не подтверждено.",
+   "vr_status": "vr_native",
+   "in_lists": "Spirit of Grit, Tahrovin, Tahrovin - Grit",
+   "files": "«Blocking and Flash VR - Brawl Fix» 1.0 (103990-1-0)",
+   "requires": [],
+   "interplay": "Пересекается с Block FX (#93223): взять что-то одно. Возможна связка с блоком Dual Wield Block VR. Конфликты с HIGGS/PLANCK не проверены.",
+   "note": "Вопрос: что именно делает файл Brawl Fix (драки без оружия?). Прочитать страницу до установки.",
+   "evidence": "whouses 103990: 3 VR-листа, файл Blocking and Flash VR - Brawl Fix 1.0. Название страницы содержит VR. Описание не найдено."
+  },
+  {
+   "key": "id:93223",
+   "id": 93223,
+   "name": "Block FX",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/93223",
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": "block_fx",
+   "what": "Искры и вспышка света при заблокированном ударе или столкновении клинков (при парри-моде). Без SKSE.",
+   "vr_status": "works_as_is",
+   "in_lists": "Yggdrasil VR",
+   "files": "«Block FX» 1.0 (93223-1-0)",
+   "requires": [],
+   "interplay": "Визуальная обратная связь для Pseudo Physical Parry / Dual Wield Block VR (Other). Никак не конфликтует с HIGGS/PLANCK, это только эффекты.",
+   "note": "Соответствие страницы сниппету неточно проверено. Лёгкий эффект, свет в VR стоит проверить на FPS.",
+   "evidence": "whouses 93223: Yggdrasil VR. Сниппет похожей страницы Block FX: «light effect when hits are blocked or weapons clash (if using a parry mod)», без SKSE и ENB, тестирован в VR."
+  },
+  {
+   "key": "id:184001",
+   "id": 184001,
+   "name": "Shields and 2H Weapons Unlocked - VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184001",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Блок и удар щитом из доминантной руки при оружии или заклинании в другой; урон щитового удара берётся из материала щита.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "Версию и имя файла проверить на странице #184001 (список файлов не получен)",
+   "requires": [],
+   "interplay": "Касается тех же рук, что True Wield VR, HIGGS two-handing и Physical Collision VR: сверить поведение щита с ними. Не дублирует Shield of Stamina VR (другое: стамина).",
+   "note": "Свежая страница (id рядом с модами 2026). Ни один список её не ставит, описание только из сниппета. Без тест-прогона не включать в основной профиль.",
+   "evidence": "Сниппет поиска страницы nexusmods.com/skyrimspecialedition/mods/184001: «block and bash with a shield in your dominant hand while keeping a weapon or spell in your off hand», прокси-предмет, VR в названии."
+  },
+  {
+   "key": "id:182364",
+   "id": 182364,
+   "name": "Dead Weight VR - Penalty for one-handing 2H weapons",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/182364",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Штраф за удержание двуручного оружия одной рукой (по названию страницы). Делает двуручный хват HIGGS/True Wield осмысленной механикой.",
+   "vr_status": "vr_native",
+   "in_lists": "Tahrovin",
+   "files": "«Dead Weight VR» 182364 версия 5 (2026-06-12)",
+   "requires": [],
+   "interplay": "Логичная пара к True Wield VR и HIGGS two-handing из ядра. Возможен конфликт с массой оружия True Wield: сверить, чтобы штрафы не складывались дважды.",
+   "note": "Один лист (Tahrovin), 2026. Подробности штрафа не подтверждены: читать страницу. Проверка: двуручник одной рукой слабее, двумя нормально.",
+   "evidence": "whouses 182364: Tahrovin. Название страницы «Dead Weight VR - Penalty for one-handing 2H weapons» из пула. Веб-поиск страницу не нашёл."
+  },
+  {
+   "key": "id:118410",
+   "id": 118410,
+   "name": "Simple Realistic Archery VR - Attribute Cost Reload fix",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/118410",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Патч к Simple Realistic Archery VR: чинит перезарядку стрелы при включённой стоимости атрибута за выстрел.",
+   "vr_status": "vr_native",
+   "in_lists": "FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR",
+   "files": "«Simple Realistic Archery VR AttributeCost Patch» 1.26b (118410-1-26b)",
+   "requires": [
+    "Simple Realistic Archery VR (ядро, 1.26)"
+   ],
+   "interplay": "Расширяет SRA VR из ядра, в ядре его нет. Нужен только если включена опция стоимости атрибута в SRA VR. В Seamless Arrow Nocking есть похожая опция запрета выстрела при низкой стамине: не включать обе.",
+   "note": "Если стоимость выстрела не нужна, пропустить. Ставить поверх SRA VR 1.26.",
+   "evidence": "whouses 118410: 5 VR-листов, один и тот же файл 1.26b. Сниппет страницы SRA 28524: опции attribute costs. MODLIST.md: SRA VR 1.26 и Seamless Arrow Nocking в ядре."
+  },
+  {
+   "key": "id:30404",
+   "id": 30404,
+   "name": "MArc - Muken's Arcane Archery",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/30404",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Класс арканного лучника: стрелы пяти стихий из магии, 16 «сигил»-эффектов, гравировка заклинаний на стрелу. Не пак заклинаний, а надстройка над луком.",
+   "vr_status": "works_as_is",
+   "in_lists": "FUS, Spirit of Grit, Tahrovin, Tahrovin - Grit, Yggdrasil VR",
+   "files": "«Marc - Main» 2.3 (30404-2-3); Grit/Tahrovin/FUS ещё «Compatibility patch for Archery» 1.0 к моду Archery #10926; Yggdrasil «Marc - Base Arcane Bows» 1.1",
+   "requires": [
+    "Archery (#10926, если берёте compatibility patch)"
+   ],
+   "interplay": "Идёт на SRA VR: стрелы из магии надо проверить с механикой экипировки стрел за плечом. HIGGS/PLANCK не затрагивает. Граница с исключёнными паками заклинаний: берите только как лучницкий класс.",
+   "note": "Контентный мод, не интерактивный по сути. DLL нет, 5 VR-листов работают без отдельного VR-файла. Проверка: сигилы и призванные стрелы выпускаются из лука в VR.",
+   "evidence": "whouses 30404: FUS, Grit×2, Tahrovin, Yggdrasil. Сниппеты PCGamesN и Nexus 30404 про arcane archer, sigils, engraving."
+  },
+  {
+   "key": "id:28948",
+   "id": 28948,
+   "name": "Sighted Crossbows VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/28948",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Арбалеты Dawnguard с прицелом для VR: видно куда стреляете, когда смотрите вдоль арбалета.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde, Tempus Maledictum VR, Yggdrasil VR",
+   "files": "«Dawnguard Crossbows sighted for VR» 1.2 (28948-1-2; Panda's, Yggdrasil); Tempus ставит «... - Enhanced Version» 1.2",
+   "requires": [],
+   "interplay": "Работает с Immersive Crossbow Reload VR из ядра. Меняет меши арбалетов Dawnguard: проверить конфликты с ретекстурами/мешами оружия.",
+   "note": "Меши и ESP без DLL. Для прицельной стрельбы дополнить Simple Iron Sights (#38946).",
+   "evidence": "whouses 28948: Panda's, Yggdrasil, Tempus (Enhanced). VR в названии страницы."
+  },
+  {
+   "key": "id:38946",
+   "id": 38946,
+   "name": "Simple Iron Sights for Sighted Crossbows VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/38946",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Простые железные прицелы для арбалетов из Sighted Crossbows VR.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde, Yggdrasil VR",
+   "files": "«Iron Sights for Sighted Crossbows VR» 1.1 (38946-1-1)",
+   "requires": [
+    "Sighted Crossbows VR (#28948)"
+   ],
+   "interplay": "Только поверх Sighted Crossbows VR; с ICR VR из ядра не конфликтует.",
+   "note": "Если прицелы не нужны, пропустить обе позиции арбалетов. Порядок: после #28948.",
+   "evidence": "whouses 38946: Panda's, Yggdrasil VR, рядом с #28948. VR в названии."
+  },
+  {
+   "key": "id:35687",
+   "id": 35687,
+   "name": "VR Bound Bow FX Restored",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/35687",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Возвращает эффекты призванного лука в VR, где они пропадают.",
+   "vr_status": "vr_native",
+   "in_lists": "Librum VR (и LoreRim SE)",
+   "files": "«VR Bound Bow FX Restored» 1.0 (35687-1-0)",
+   "requires": [],
+   "interplay": "Лук с SRA VR не затрагивает. Для призванного оружия есть ещё Fixed Bound Sword and Dagger Collision (Other).",
+   "note": "Мелочь для призывателей. Один лист, 2020. Проверка: призванный лук светится.",
+   "evidence": "whouses 35687: Librum VR, LoreRim. VR в названии страницы."
+  },
+  {
+   "key": "id:60323",
+   "id": 60323,
+   "name": "Vanargand Animations - Archery + Crossbows (NPC)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/60323",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Анимации стрельбы из лука и арбалета Vanargand для NPC-стрелков. Игрок в VR их не видит: рука идёт от VRIK.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde (оба), Yggdrasil VR (Archery), Tempus Maledictum VR (Crossbows)",
+   "files": "«Vanargand Animations - Archery» 1.0 (60323-1-0); «Vanargand Animations - Crossbows» 1.0 (66286-1-0)",
+   "requires": [
+    "Open Animation Replacer (ядро)"
+   ],
+   "interplay": "Дополняет семь архивов Leviathan/Vanargand из ядра (их Archery/Crossbows там нет). Может заменить и анимации игрока: проверить, что Seamless Arrow Nocking и SRA VR не ломаются.",
+   "note": "Нужна проверка условий OAR: только NPC. Пакеты Sneak не брать (ядро).",
+   "evidence": "whouses 60323 и 66286: Panda's, Yggdrasil, Tempus. MODLIST.md: в карточке Leviathan/Vanargand 7 архивов без archery/crossbows."
+  },
+  {
+   "key": "id:1763",
+   "id": 1763,
+   "name": "No BS AI Projectile Dodge (Magic and Arrows)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1763",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Враги перестают уклоняться от стрел и заклинаний «по чутью». Честное прицеливание из лука и параметры Pseudo Physical Parry работают лучше.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde, Yggdrasil VR",
+   "files": "«No BS AI Projectile Dodge» 1.3 (1763-1-3, .rar)",
+   "requires": [],
+   "interplay": "Не касается HIGGS/PLANCK. С SCAR VR / Combat Pathing Revolution из ядра ИИ совместимо, но менять уклонение могут и другие ИИ-моды: порядок проверить.",
+   "note": "Дёшево, без DLL (рар с ESP). Проверка: выстрел из лука по стоящему врагу попадает.",
+   "evidence": "whouses 1763: Panda's, Yggdrasil, SE Elysium. Название страницы: Immersive Projectiles Nondetection of Enemies."
+  },
+  {
+   "key": "id:105622",
+   "id": 105622,
+   "name": "Scared of Shootings - NPCs react to aiming bows",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/105622",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "NPC реагируют на нацеленный на них лук. В VR прицеливание лука видно физически.",
+   "vr_status": "unknown",
+   "in_lists": "Panda's Sovngarde",
+   "files": "«Scared of Shootings - NPCs react to aiming bows» 0.4 (105622-0-4)",
+   "requires": [],
+   "interplay": "Не касается HIGGS/PLANCK. Пересечение с RAID/AI Overhaul ядра возможно: проверить порядок.",
+   "note": "Один VR-лист, мод также в 5 SE-листах. Требования проверить на странице. Работает ли DLL в VR, не подтверждено.",
+   "evidence": "whouses 105622: Panda's Sovngarde (VR) + SE LoreRim, CSVP, Wunduniik, The Northern Experience."
+  },
+  {
+   "key": "id:128285",
+   "id": 128285,
+   "name": "Throw Stuff VR (More Interactive Objects - Throwing Things, VR port)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/128285",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Брошенные предметы взрываются и действуют: зелья-бомбы, соли, мешки муки ослепляют, бутылки бьются. Использует разрушение HIGGS.",
+   "vr_status": "vr_native",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit, Panda's Sovngarde",
+   "files": "«Throw Stuff VR» 2.0 (128285-2-0; Grit) / 2.0.1 (Panda's); те же листы ставят и «Throwing Stuff» 1.1.1 (125065-1-1-1)",
+   "requires": [
+    "SKSEVR",
+    "HIGGS (ядро)",
+    "Spell Wheel VR (ядро, чтобы схватывать яды)"
+   ],
+   "interplay": "Поверх HIGGS и Weapon Throw VR: бросок оружия и бросок предметов не пересекаются. Не нужен Grab and Throw. Ставить и #125065, как в списках, или только #128285, проверить на странице.",
+   "note": "Страница #128285 описывает полный VR-порт на CommonLibSSE-NG. Яды: в Spell Wheel VR включить схватывание ядов HIGGS. Проверка: бросить флакон зелья о стену.",
+   "evidence": "Сниппет Nexus 128285: «complete rebuild and VR Port of More Interactive Objects - Throwing things», HIGGS destruction system, ThrowingStuffVR.ini. whouses 128285 и 125065: Grit×2, Panda's."
+  },
+  {
+   "key": "id:155761",
+   "id": 155761,
+   "name": "Throwing Things Makes Noise - OIF",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/155761",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "По названию дополнение к Throwing Stuff: брошенные предметы шумят. Состав и требования не подтверждены.",
+   "vr_status": "unknown",
+   "in_lists": "Panda's Sovngarde",
+   "files": "«TTMN - OIF» 1.0 (155761-1-1753739587.zip, 2025-07)",
+   "requires": [
+    "Throwing Stuff / Throw Stuff VR (по названию)"
+   ],
+   "interplay": "Работает только вместе с Throwing Stuff (#125065/#128285). Это поведение NPC, а не руки: конфликтов с HIGGS нет по смыслу.",
+   "note": "Один лист, описание не найдено. Брать только если ставите Throw Stuff VR и прочитали страницу.",
+   "evidence": "whouses 155761: Panda's Sovngarde. Веб-поиск страницу не нашёл."
+  },
+  {
+   "key": "id:127697",
+   "id": 127697,
+   "name": "Hand to Hand - An Adamant Addon VR DLL",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/127697",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Дерево перков рукопашного боя к Adamant и слияние взлома с карманными кражами. Для VR нужен отдельный DLL.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "FUS",
+   "files": "«Hand to Hand - An Adamant Addon VR DLL» 1.5.8.1 (127697) + основа «Hand to Hand - An Adamant Addon» 1.5.8 (59790) + «Trainers and Skill Books Addon» 1.0.5; FUS добавляет «Adamant - Hand to Hand Tweaks for ADXP» (94179)",
+   "requires": [
+    "Adamant (ядро, 5.9.2)",
+    "SPID VR (ядро)",
+    "KID VR (ядро)",
+    "Poached Bugs VR (ядро)"
+   ],
+   "interplay": "Расширяет Adamant из ядра. Лёгкая пара к Lethal Unarmed VR (физические захваты): H2H даёт перки на кулаки. Версия 2.0.1 основы (SE-списки 2026) для VR не подтверждена, брать 1.5.8. Слияние взлома может конфликтовать с Security Overhaul SKSEVR у world-секции.",
+   "note": "Только один VR-лист (FUS). Если не нужны перки на кулаки и перестройка взлома, пропустить.",
+   "evidence": "whouses 127697: FUS (1-5-8-1). whouses 59790: FUS 1.5.8; SE-листы 2.0.1. Сниппет страницы 59790: addon для Adamant, SPIDKID, Address Library."
+  },
+  {
+   "key": "id:140813",
+   "id": 140813,
+   "name": "GRAPPLE - Pull Mastery Re-Implementation (ESL and VR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/140813",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Реализация механики «Pull Mastery» (рывок и подтягивание) в ESL-плагине; по названию страницы есть VR-версия. Подробности не подтверждены.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "«Grapple - SkyPatcher» 1.0 (140813-1-0, 2025-02)",
+   "requires": [
+    "SkyPatcher (ядро)"
+   ],
+   "interplay": "Хватание руками и телекинез в ядре устроены иначе (HIGGS, Telekinesis Aim Fix VR). Совпадения нет, но с HIGGS-захватом тросов-крюков проверить.",
+   "note": "Только Tempus. Смотреть страницу: что именно тянется и чем управляется. Возможно, это скорее перемещение (ix_locomotion).",
+   "evidence": "whouses 140813: Tempus Maledictum VR, файл Grapple - SkyPatcher 1.0. Название страницы из пула содержит VR."
+  },
+  {
+   "key": "id:170889",
+   "id": 170889,
+   "name": "Fake Edge - VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/170889",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "VR-бета для работы с кромкой оружия при ударе. Описание не подтверждено. 2026 год, свежий релиз.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde",
+   "files": "«Fake Edge - VR» 2.0.8 (170889-2-0-8, 2026-02)",
+   "requires": [],
+   "interplay": "Работает в зоне PLANCK/Physical Collision VR (коллизии оружия): конфликт вероятен, сверить обязательно.",
+   "note": "Бета, один лист. Только после прочтения страницы и теста отдельно. Если Physical Collision VR из ядра даёт нужные удары, пропустить.",
+   "evidence": "whouses 170889: Panda's Sovngarde, файл Fake Edge - VR 2.0.8. Веб-поиск описания не дал."
+  },
+  {
+   "key": "id:172991",
+   "id": 172991,
+   "name": "QTE VR Framework (+ QTE VR - Music Pack)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/172991",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фреймворк QTE (быстрые события) для VR. Из потребителей в листах только Ordinator-патч, поэтому без клиента пользы нет.",
+   "vr_status": "vr_native",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "«QTE VR Framework» 1.0 (172991-1-0); «QTE VR - Music Pack» 1.0 (172992); «QTE VR - Ordinator Perform Perks» 1.0 (не нужен: Ordinator исключён)",
+   "requires": [],
+   "interplay": "Использовать только если есть мод, который вызывает QTE. В основном стеке (Adamant) потребителя нет. С HIGGS/PLANCK не пересекается.",
+   "note": "Низкая ценность без клиента, 2026-02. Музыкальный пакет опционален.",
+   "evidence": "whouses 172991 и 172992: Spirit of Grit, Tahrovin - Grit. Название страницы содержит VR."
+  },
+  {
+   "key": "id:89492",
+   "id": 89492,
+   "name": "SCAR VR - Skyrim Combos AI Revolution VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/89492",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": "npc_combat_ai",
+   "what": "NPC атакуют комбо (ИИ-слой для боевых анимаций). VR-DLL к SCAR. Нужны movesets, пропатченные под SCAR.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Tahrovin",
+   "files": "основа «SCAR - Skyrim Combos AI Revolution» v1.06b (#72014) + поверх «SCAR VR» 1.0.7 (#89492); Tempus ещё «SCAR Stamina Limitation» 1.4 (#72451)",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR",
+    "SCAR #72014",
+    "Nemesis/Pandora (патч поведения)"
+   ],
+   "interplay": "Ядро говорит: MCO/BFCO/ADXP/Precision и пакеты анимаций NPC с теми же условиями не мешать с Leviathan/Vanargand. Значит SCAR VR и пакет Leviathan/Vanargand из ядра: один из двух.",
+   "note": "Только Tempus и Tahrovin. Нужна пересборка Pandora. Проверка: NPC делают серии ударов, нет залипания. Ядро считает такие вещи ненужными в VR: брать только ради ИИ врагов.",
+   "evidence": "whouses 89492: Tempus, Tahrovin (SCAR VR 1.0.7); 72014: те же + SE. GitHub max-su-2019/SCAR: «SKSE/VR plugin ... combos attack AI», VR Address Library, ссылка на VR-страницу 89492."
+  },
+  {
+   "key": "id:117052",
+   "id": 117052,
+   "name": "BFCO - Attack Behavior Framework (SSE VR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/117052",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": "npc_combat_ai",
+   "what": "Фреймворк атак и анимаций для NPC, база для SCAR и movesets. В VR пользы только через ИИ врагов.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "«BFCO - Attack Behavior Framework» 3.3.10 (117052-3-3-10, Tempus)",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR"
+   ],
+   "interplay": "Только в связке с SCAR VR / movesets. Ядро (Leviathan/Vanargand card) называет BFCO/MCO/ADXP ненужными в VR и несовместимыми по условиям: не ставить вместе с пакетом из ядра.",
+   "note": "Только один лист. Если SCAR VR не берёте, BFCO не нужен.",
+   "evidence": "whouses 117052: Tempus (3-3-10); SE-листы 3.6.1 и 3.100.x. Пул-имя «(SSE VR)». MODLIST.md, карточки Leviathan/Vanargand и Blade and Blunt."
+  },
+  {
+   "key": "n:combat equipment state fix (cesf)",
+   "id": null,
+   "name": "Combat Equipment State Fix (CESF)",
+   "url": "https://github.com/arifkulpu/Combat-Equipment-State-Fix-CESF-",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Лечит бесконечное убирание и доставание оружия NPC в бою (щиты, два оружия, SCAR/BFCO). Страница заявляет Skyrim VR.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "none",
+   "files": "GitHub, версия 1.2.0; релизы не опубликованы, файл взять со страницы автора (имя не подтверждено)",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR"
+   ],
+   "interplay": "Нужен главным образом при SCAR/BFCO и щит/два оружия у NPC. С HIGGS/PLANCK не пересекается.",
+   "note": "Установка и работа на 1.4.15 не подтверждены, страница не называет VR DLL. Не ставить без реальной проблемы с цикличным доставанием.",
+   "evidence": "WebFetch GitHub README: support Skyrim VR, requirements SKSEVR and VR Address Library, changelog v1.2.0, Releases пуст."
+  },
+  {
+   "key": "id:62554",
+   "id": 62554,
+   "name": "Stoppage of Staggerlock",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/62554",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Защита от стаггер-лока (бесконечное пошатывание от серии быстрых ударов). В VR быстрые взмахи его провоцируют. Описание по названию.",
+   "vr_status": "unknown",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR, Yggdrasil VR",
+   "files": "«Stoppage of Staggerlock» 1.01 (62554-1-01; Tempus, Grit×2); Yggdrasil держит 1.0 (62554-1-0)",
+   "requires": [],
+   "interplay": "В ядре есть Stagger Effect Fix и No Stagger Mod (игрок): мод про NPC. С PLANCK (физическая реакция) может пересечься: проверить на быстрых сериях.",
+   "note": "Описание не подтверждено поиском (название похоже на AntiStaggerLock, но это другой мод). Проверка: быстрые удары не удерживают врага в стагере вечно.",
+   "evidence": "whouses 62554: Tempus, Grit×2, Yggdrasil. Описание не найдено."
+  },
+  {
+   "key": "id:176593",
+   "id": 176593,
+   "name": "Unpoisoned Blocking",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/176593",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Блокирование оружием с ядом не расходует яд (по названию). Подробности не подтверждены.",
+   "vr_status": "unknown",
+   "in_lists": "Stormcrown VR",
+   "files": "«Unpoisoned Blocking - Latest Version» 1.0.0 (176593-1-0-0, 2026-04); в SE-листах 1.0.1",
+   "requires": [],
+   "interplay": "Касается физических блоков (Dual Wield Block VR, Pseudo Physical Parry): при парировании можно потерять яд на клинке. Это про яды, а не про HIGGS/PLANCK.",
+   "note": "Свежий (2026), в Stormcrown VR. Описание не проверено. Нужен только с ядами в бою.",
+   "evidence": "whouses 176593: Stormcrown VR (1-0-0), SE LoreRim, SUP, Wunduniik."
+  },
+  {
+   "key": "id:113227",
+   "id": 113227,
+   "name": "NPC Infinite Block Fix - SkyPatched",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/113227",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": "npc_block_fix",
+   "what": "Исправляет бесконечный блок NPC (враг стоит в блоке и не атакует). В VR с физическими ударами это заметно чаще.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR, Panda's Sovngarde",
+   "files": "«NPC Infinite Block Fix - SkyPatched» 1.1.0 (113227-1-1-0; Tempus) / 1.0.0 (Panda's)",
+   "requires": [
+    "SkyPatcher (ядро)"
+   ],
+   "interplay": "Вариант на SkyPatcher из ядра. В ядре есть Block Condition Freeze CTD Fix (другое: вылет). Один из трёх фиксов NPC-блока (113227 / 113064 / 151384).",
+   "note": "Описание по названию. Проверка: NPC после блока возвращается к атаке.",
+   "evidence": "whouses 113227: Tempus, Panda's, SE Tomes of Talos, Skyrim25."
+  },
+  {
+   "key": "id:113064",
+   "id": 113064,
+   "name": "NPC Infinite Block Fix - Recommended",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/113064",
+   "section": "ix_combat",
+   "tag": "alt",
+   "choose_one_group": "npc_block_fix",
+   "what": "Тот же фикс бесконечного блока NPC, вариант Recommended (без SkyPatcher).",
+   "vr_status": "works_as_is",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit, Tempus Maledictum VR",
+   "files": "«NPC Infinite Block Fix - Recommended» 1.0.0 (113064-1-0-0)",
+   "requires": [],
+   "interplay": "Альтернатива варианту SkyPatched (#113227): один из двух.",
+   "note": "Tempus ставит оба варианта 113064 и 113227, это, вероятно, избыточно.",
+   "evidence": "whouses 113064: Tempus, Grit×2, SE Skyrim25."
+  },
+  {
+   "key": "id:151384",
+   "id": 151384,
+   "name": "NPC Block Loop Fix",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/151384",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": "npc_block_fix",
+   "what": "Фикс зацикленного блока NPC (2025). В основном ставится SE-листами 2026, VR есть только у Tempus.",
+   "vr_status": "unknown",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "«NPC Block Loop Fix» 1.0 (151384-1-0, 2025-05-30)",
+   "requires": [],
+   "interplay": "Пересекается с Infinite Block Fix, возможно лечит другой случай: не ставить все три без нужды.",
+   "note": "Работа в VR не подтверждена кроме списка Tempus. Описание не проверено.",
+   "evidence": "whouses 151384: Tempus (VR), SE CSVP, SUP, TNE, Wunduniik."
+  },
+  {
+   "key": "id:192167",
+   "id": 192167,
+   "name": "Conduit - Two-handed Addon",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/192167",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Дополнение к Conduit (оружие получает эффект заклинания) для двуручного оружия. 2026-09, свежий выпуск.",
+   "vr_status": "unknown",
+   "in_lists": "Tahrovin - Grit",
+   "files": "«Conduit Two Handed» 192167 версия 1 (2026-09-17)",
+   "requires": [
+    "Conduit - Short-term Weapon Infusions (#58023, уже в Other r2)"
+   ],
+   "interplay": "Расширяет Conduit из Other (r2, keep opt). Добавляет ценность только при двуручниках и True Wield/HIGGS two-handing.",
+   "note": "Один лист. VR не подтверждён отдельно (базовый Conduit работает в 7 VR-листах). Без Conduit не ставить.",
+   "evidence": "whouses 192167: Tahrovin - Grit. other-mods__collect_r2-A02.json: Conduit 58023 keep opt."
+  },
+  {
+   "key": "id:105789",
+   "id": 105789,
+   "name": "PLANCK - Ignore Followers (Planck Follower Ragdoll Disable)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/105789",
+   "section": "ix_combat",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Аддон к PLANCK: убирает физический рэгдолл у последователей, чтобы удары игрока не валили спутника.",
+   "vr_status": "vr_native",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "«Planck Follower Ragdoll Disable» 1.1 (105789-1-1)",
+   "requires": [
+    "PLANCK (ядро)"
+   ],
+   "interplay": "Прямой аддон к PLANCK из ядра (0.8.1). В ядре отдельной настройки для фолловеров не записано. Хорошо с Nether's Follower Framework.",
+   "note": "Версия 2023-12, у Grit PLANCK 0.8.1, сопряжение подтверждено только фактом этих листов. Нужен если играете со спутником.",
+   "evidence": "whouses 105789: Spirit of Grit, Tahrovin - Grit. Название страницы «PLANCK - Ignore Followers»; MODLIST.md: PLANCK 0.8.1 в Grit."
+  },
+  {
+   "key": "id:58374",
+   "id": 58374,
+   "name": "Power Attack VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/58374",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Направление силовой атаки по взмаху контроллера. Страница помечена OBSOLETE, зависит от направленных анимаций.",
+   "vr_status": "vr_native",
+   "in_lists": "Yggdrasil VR",
+   "files": "«PowerAttackVR» 0.1.0 (58374-0-1-0)",
+   "requires": [],
+   "interplay": "Выбор направления силовой атаки нужен только при directional-анимациях игрока; в VR руки ведёт VRIK. Физический бой даёт PLANCK/HIGGS.",
+   "note": "Автор сам ставит OBSOLETE. Не ставить.",
+   "evidence": "Сниппет Nexus 58374: «OBSOLETE», тракинг взмаха, известные проблемы с unarmed решаются PLANCK. whouses: Yggdrasil VR (2021 файл)."
+  },
+  {
+   "key": "id:74887",
+   "id": 74887,
+   "name": "Precision (+ Precision Creatures, Whips patch)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/74887",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоская хитбокс-система Precision и её аддоны. В VR-режиме не ставится, физику даёт PLANCK/Physical Collision VR.",
+   "vr_status": "flat_only",
+   "in_lists": "Tempus Maledictum VR (только аддоны Precision Creatures 2.3 и Whips Patch)",
+   "files": "не брать",
+   "requires": [],
+   "interplay": "MODLIST.md: Precision не ставится (плоский режим), в Physical Collision VR и в Leviathan/Vanargand как несовместимый. Дублирует PLANCK.",
+   "note": "Сам Precision ни в одном VR-листе не стоит, остались только аддоны в Tempus.",
+   "evidence": "MODLIST.md (карточки Physical Collision VR, Leviathan/Vanargand, 2422). whouses 'Precision': VR только Precision Creatures 74887 и Whips Patch 81429 у Tempus."
+  },
+  {
+   "key": "id:64741",
+   "id": 64741,
+   "name": "Плоские боевые фреймворки: Valhalla Combat, Wildcat, MaxuBlockOverhaul, MCO/ADXP",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/64741",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Оверхолы тайминга/блока/стаггера для плоского режима. В VR взмах делает рука, поэтому они бесполезны и ломают физику.",
+   "vr_status": "flat_only",
+   "in_lists": "none",
+   "files": "не брать",
+   "requires": [],
+   "interplay": "MODLIST.md прямо: «MCO / BFCO / ADXP / Precision не нужны и в VR бесполезны», «Wildcat, Valhalla Combat и т.п. не смешивать». Дублируют блок/стаггер PLANCK, Blade and Blunt, Adamant.",
+   "note": "MaxuBlockOverhaul: релиз v0.24a, VR на странице не упомянут. Valhalla Combat описан как тайминг/парирование/стамина.",
+   "evidence": "MODLIST.md 2314, 2369. Сниппеты: Valhalla Combat (Nexus 64741), GitHub MaxuBlockOverhaul releases (v0.24a)."
+  },
+  {
+   "key": "id:55420",
+   "id": 55420,
+   "name": "Анимации ИГРОКА: Vanargand Sneak/Dual Wield/Unarmed, Skyrim Spear Mechanic DAR, Side Kick Bash",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/55420",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Пакеты анимаций атаки и стойки игрока (OAR/DAR). В VR руки ведёт VRIK, анимации не видны и могут ломать события.",
+   "vr_status": "flat_only",
+   "in_lists": "Panda's Sovngarde, Yggdrasil VR, Tempus VR (разные пакеты)",
+   "files": "не брать (Vanargand Sneak Strike/Thrust/Dual Wield Sneak, Vanargand II Unarmed, Skyrim Spear Mechanic SE DAR, Side Kick Bash Replacer, Skill Based Dynamic Animations AIO)",
+   "requires": [],
+   "interplay": "Конфликт с VRIK и Neutral VR Animations. Ядро: «Sneak-пакеты Vanargand для игрока не брать». Пакеты NPC (7 архивов Leviathan/Vanargand) уже в ядре.",
+   "note": "Это именно варианты, которые стоят в части VR-листов, но не дают эффекта у игрока.",
+   "evidence": "MODLIST.md (карточка Leviathan/Vanargand). other-mods__collect_r2-A02.json 100366: «в VR рука через VRIK/HIGGS». whouses 55420/52022/25146/99842."
+  },
+  {
+   "key": "id:4668",
+   "id": 4668,
+   "name": "Throwing Weapons Lite SE (DAR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/4668",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Бросок оружия на анимациях. В VR заменён физическим броском.",
+   "vr_status": "flat_only",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "не брать («Throwing Weapons Lite SE - Version G.04» + «Dynamic Animation Replacer 1.0»)",
+   "requires": [],
+   "interplay": "Дублирует Weapon Throw VR из ядра (бросок рукой, HIGGS). Анимации игрока в VR не применяются.",
+   "note": "Weapon Throw VR уже в ядре с Pull Arrows VR.",
+   "evidence": "whouses 4668: Grit×2. MODLIST.md: Weapon Throw VR rec."
+  },
+  {
+   "key": "id:100781",
+   "id": 100781,
+   "name": "Pseudo Physical Weapon Collision and Parry (совместно с Physical Collision VR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/100781",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Уже в Other как rec. Карточка Physical Collision VR в ядре запрещает ставить вместе: оба делают коллизии оружия. Решение за владельцем.",
+   "vr_status": "vr_native",
+   "in_lists": "FUS, Panda's Sovngarde, Spirit of Grit, Tahrovin, Tahrovin - Grit, Tempus Maledictum VR",
+   "files": "«Pseudo Physical Weapon Collision and Parry VR» 1.0.2 (100781-1-0-2); варианты 125542 (Tweaked) и 162758 (config)",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR"
+   ],
+   "interplay": "MODLIST.md (Physical Collision VR): «Не совмещать с Pseudo Physical Weapon Collision and Parry — они делают одно и то же». OTHER_MODS.md ставит его rec. Нужно выбрать один из двух.",
+   "note": "Не новая рекомендация, а конфликт между двумя уже готовыми списками. Yggdrasil VR (2026-10) ставит Physical Collision VR и не ставит Pseudo Physical.",
+   "evidence": "MODLIST.md 1059, 1063; OTHER_MODS.md 224; whouses 100781: нет в Yggdrasil VR и Stormcrown VR."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 28456,
+   "name": "Dual Wield Block VR",
+   "reason": "Уже в Other r2 (A07: keep, rec); во всех 8 VR-листах, файл 1.7.0. Дубль не предлагаю."
+  },
+  {
+   "id": 125542,
+   "name": "Pseudo Physical Weapon Collision and Parry - Tweaked",
+   "reason": "Вариант 100781, в Other-1 и r2 (drop covered_elsewhere)."
+  },
+  {
+   "id": 162758,
+   "name": "Pseudo Physical Parry - a more grounded config",
+   "reason": "Конфиг к 100781, уже в записи Other-1."
+  },
+  {
+   "id": 60064,
+   "name": "Fixed Bound Sword and Dagger Collision",
+   "reason": "Уже в Other-1 (rec)."
+  },
+  {
+   "id": 159682,
+   "name": "Better weapon collisions for VR (Rapier - Dawnbreaker)",
+   "reason": "Уже в Other (chars-armor); это контент оружия."
+  },
+  {
+   "id": 21224,
+   "name": "CBPC",
+   "reason": "Уже в Other-1 (rec)."
+  },
+  {
+   "id": 44442,
+   "name": "Crouch To Dodge VR - Dodge Naturally",
+   "reason": "Дублирует Physical Dodge VR из ядра: у того уже есть триггер «пригнуться», плюс шаг и финт. Ценности не добавляет."
+  },
+  {
+   "id": 58605,
+   "name": "Physical Dodge VR",
+   "reason": "В ядре."
+  },
+  {
+   "id": 28524,
+   "name": "Simple Realistic Archery VR",
+   "reason": "В ядре (rec)."
+  },
+  {
+   "id": 117254,
+   "name": "Seamless Arrow Nocking VR",
+   "reason": "В ядре (rec)."
+  },
+  {
+   "id": 139152,
+   "name": "Immersive Crossbow Reload VR",
+   "reason": "В ядре (с Seamless Arrow Nocking)."
+  },
+  {
+   "id": 169833,
+   "name": "Pull Arrows VR",
+   "reason": "В ядре."
+  },
+  {
+   "id": 31374,
+   "name": "Weapon Throw VR",
+   "reason": "В ядре."
+  },
+  {
+   "id": 20364,
+   "name": "Haptic Skyrim VR",
+   "reason": "В ядре."
+  },
+  {
+   "id": 191124,
+   "name": "Lethal Unarmed VR",
+   "reason": "В ядре (opt); близкая тема H2H закрыта пометкой у 127697."
+  },
+  {
+   "id": 184223,
+   "name": "Immersive Weapon Penetration VR",
+   "reason": "В ядре."
+  },
+  {
+   "id": 68028,
+   "name": "Magic Sneak Attacks VR",
+   "reason": "В ядре."
+  },
+  {
+   "id": 184140,
+   "name": "Throat Slit - VR",
+   "reason": "В ядре."
+  },
+  {
+   "id": 50483,
+   "name": "Enemy Friendly Fire VR",
+   "reason": "В ядре."
+  },
+  {
+   "id": 187578,
+   "name": "Accuracy - Localized Combat Damage",
+   "reason": "В ядре (opt), альтернатива Locational Damage SKSE VR."
+  },
+  {
+   "id": 146873,
+   "name": "Core Impact Framework",
+   "reason": "В ядре."
+  },
+  {
+   "id": 160603,
+   "name": "Ricochet - Arrow Physics Framework",
+   "reason": "В ядре."
+  },
+  {
+   "id": 58023,
+   "name": "Conduit - Short-term Weapon Infusions",
+   "reason": "Уже в Other r2 (A02: keep, opt)."
+  },
+  {
+   "id": 65921,
+   "name": "ElSopa - Quivers Redone SE",
+   "reason": "Уже в Other r2 (A02/колчан): keep opt."
+  },
+  {
+   "id": 50197,
+   "name": "3D Casting FX",
+   "reason": "Уже в Other r2 (A08)."
+  },
+  {
+   "id": 72014,
+   "name": "SCAR - Skyrim Combos AI Revolution (основа)",
+   "reason": "Не отдельная позиция: входит в пик SCAR VR (89492) как обязательная основа."
+  },
+  {
+   "id": 72451,
+   "name": "SCAR Stamina Limitation",
+   "reason": "Узкий патч к SCAR, только Tempus; упомянут в файлах SCAR VR."
+  },
+  {
+   "id": 94555,
+   "name": "Adamant Tweaks for ADXP and VR",
+   "reason": "Старый твик Adamant (Panda 1.3, FUS 1.2). В ядре уже Adamant - VR Tweaks #190589 (1.2, 2026-09); состав 94555 не подтверждён."
+  },
+  {
+   "id": 94179,
+   "name": "Adamant - Hand to Hand Tweaks for ADXP",
+   "reason": "Твик под плоский ADXP; упомянут в файлах FUS у 127697, отдельно не нужен."
+  },
+  {
+   "id": 59790,
+   "name": "Hand to Hand - An Adamant Addon (SE-основа)",
+   "reason": "Основа входит в пик 127697 (VR DLL); версию 2.0.1 SE-листов для VR не подтверждено."
+  },
+  {
+   "id": 10926,
+   "name": "Archery (2.5)",
+   "reason": "Описание страницы не подтверждено; 5 VR-листов; нужен лишь как база для compatibility patch MArc, отдельно не пикаю."
+  },
+  {
+   "id": 91626,
+   "name": "More Consistent Stamina Costs for Shield of Stamina",
+   "reason": "Grit-листы ставят патч, но базы Shield of Stamina у них нет; состав не подтверждён."
+  },
+  {
+   "id": 62137,
+   "name": "Shield Of Stamina - Blocking redux - AE",
+   "reason": "Основа SE, входит в файлы пика Shield of Stamina VR."
+  },
+  {
+   "id": 138252,
+   "name": "Shield don't slow me down (Ordinator and Vokrii)",
+   "reason": "Заточен под Ordinator/Vokrii: исключённые оверхолы."
+  },
+  {
+   "id": 73789,
+   "name": "Ordinator - No Timed Block",
+   "reason": "Патч под Ordinator, исключено."
+  },
+  {
+   "id": 172992,
+   "name": "QTE VR - Music Pack",
+   "reason": "Опциональное дополнение, учтено в файлах пика QTE VR Framework."
+  },
+  {
+   "id": 129639,
+   "name": "Less Block Without Shield",
+   "reason": "Баланс блока без щита, один лист (Tempus), описание не найдено; с Dual Wield Block VR нужны данные."
+  },
+  {
+   "id": 71198,
+   "name": "Holds - Root Block Fix",
+   "reason": "Фикс специфичного мода Holds (Yggdrasil), не про VR-взаимодействие."
+  },
+  {
+   "id": 59239,
+   "name": "Smooth Random Blocking Animation",
+   "reason": "Анимации блока: игрока в VR не касаются, NPC-эффект минимален."
+  },
+  {
+   "id": 176593,
+   "name": "Unpoisoned Blocking (SE-варианты)",
+   "reason": "Пикнут по VR-листу Stormcrown."
+  },
+  {
+   "id": 56444,
+   "name": "Bound Shield with FX - Redux",
+   "reason": "Косметика призванного щита (Tempus, Wunduniik)."
+  },
+  {
+   "id": 4683,
+   "name": "ABT AE - Arrows and Bolts Tweaks",
+   "reason": "Балансные правки стрел; контент, один лист (Tempus)."
+  },
+  {
+   "id": 46654,
+   "name": "Bows and Arrows Rebalanced",
+   "reason": "Баланс лука, Librum VR; не про взаимодействие."
+  },
+  {
+   "id": 40286,
+   "name": "Archery Quick Shot Perk Bug Fix",
+   "reason": "Фикс перка, при Adamant перки пересобраны; Librum."
+  },
+  {
+   "id": 26522,
+   "name": "Bound Arrow Through ESL",
+   "reason": "Мелочь призванных стрел (Yggdrasil), без VR-ценности."
+  },
+  {
+   "id": 8736,
+   "name": "Remove Arrow Impact Smoke",
+   "reason": "Визуальная мелочь (Librum)."
+  },
+  {
+   "id": 47437,
+   "name": "A Bow's Whisper - bow sound overhaul",
+   "reason": "Звук лука: аудио-этап, в ядре Audio Overhaul for Skyrim."
+  },
+  {
+   "id": 27208,
+   "name": "Ultra Realistic Bow Shoot Sounds",
+   "reason": "Звук: аудио-этап."
+  },
+  {
+   "id": 141084,
+   "name": "Creation Club Crossbow Sights",
+   "reason": "Требует файлы CC; в VR CC нет (Other)."
+  },
+  {
+   "id": 8273,
+   "name": "Legendary Skyrim Crossbows and Bows",
+   "reason": "Контент оружия."
+  },
+  {
+   "id": 131036,
+   "name": "Bow of Shadows - Whiterun Thane",
+   "reason": "CC-контент."
+  },
+  {
+   "id": 38539,
+   "name": "VR Arsenal V9.3 (No Guns)",
+   "reason": "Контентный пак оружия."
+  },
+  {
+   "id": 46535,
+   "name": "Increased Crossbow Reload Speed",
+   "reason": "Ускоряет перезарядку, а Immersive Crossbow Reload VR делает её ручной жестом: конфликт по смыслу."
+  },
+  {
+   "id": 70354,
+   "name": "Don't sheathe bound weapons DAR animations",
+   "reason": "DAR-анимация игрока, в VR не действует; ножны решают STUF/Instant Equip."
+  },
+  {
+   "id": 100366,
+   "name": "Weapon switch animation Fix",
+   "reason": "Анимация смены оружия игроком; в VR руками (r2 A02: drop)."
+  },
+  {
+   "id": 2425,
+   "name": "3rd Person Dual Wield Animation Fix SSE",
+   "reason": "Только вид от третьего лица."
+  },
+  {
+   "id": 25146,
+   "name": "Skyrim Spear Mechanic SE DAR (+ Grip position fix 70531)",
+   "reason": "Анимации игрока, включено в предупреждение (id 55420)."
+  },
+  {
+   "id": 52633,
+   "name": "Bash Behaviors Overhaul",
+   "reason": "Поведенческие файлы удара щитом (Nemesis/Pandora): описание не подтверждено, игрок в VR бьёт рукой."
+  },
+  {
+   "id": 99842,
+   "name": "Skill Based Dynamic Animations AIO",
+   "reason": "Анимации игрока по навыкам, в VR не применимы (id 55420)."
+  },
+  {
+   "id": 109684,
+   "name": "Vanargand Animations II - Unarmed Pugilism / Unarmed Attacks",
+   "reason": "Анимации игрока без оружия; Lethal Unarmed VR + VRIK уже в ядре."
+  },
+  {
+   "id": 55031,
+   "name": "Vanargand Sneak Strike/Thrust/Dual Wield Sneak/Sneak Archery/Sneak Crossbows (+ Goetia Sneak Magic)",
+   "reason": "Sneak-пакеты игрока: ядро запрещает брать."
+  },
+  {
+   "id": 99073,
+   "name": "Leviathan Animations II - Greatsword (sneak/non-combat/power)",
+   "reason": "Анимации игрока; пакет NPC из ядра уже есть."
+  },
+  {
+   "id": 1439,
+   "name": "Realistic Ragdolls and Force SE",
+   "reason": "Скриптовый рэгдолл-импульс (Panda, Librum, FUS); дублирует физическую реакцию PLANCK, пользы не подтверждено."
+  },
+  {
+   "id": 123113,
+   "name": "DCA - Dragon Combat Animations",
+   "reason": "Анимации драконов NPC; контент, не взаимодействие."
+  },
+  {
+   "id": 34552,
+   "name": "Feral - Claw Unarmed Attacks for Beast Races",
+   "reason": "Анимации расовых когтей; в VR для игрока бессмысленны."
+  },
+  {
+   "id": 121275,
+   "name": "Werewolf Power Attack Fix",
+   "reason": "Звериные формы; Werewolf Body for VR в Other."
+  },
+  {
+   "id": 169690,
+   "name": "Weapon Damage Display Fix",
+   "reason": "Интерфейс/число урона, не бой."
+  },
+  {
+   "id": 87111,
+   "name": "Motionless Rocks Killing People Fix",
+   "reason": "Баг-фикс, к бою игрока не относится."
+  },
+  {
+   "id": 28268,
+   "name": "Improved weapons enchantments FX SE",
+   "reason": "Визуал чар, не интерактив."
+  },
+  {
+   "id": 86071,
+   "name": "Dynamic Impact - Slash Effects X",
+   "reason": "Эффекты ударов (Grit, Tahrovin), суть не подтверждена; графика."
+  },
+  {
+   "id": 70134,
+   "name": "Infinite Stamina Out of Combat (+ Infinite Horse Stamina 70181)",
+   "reason": "Комфорт стамины вне боя, не про бой; один-два листа."
+  },
+  {
+   "id": 40642,
+   "name": "Critical Hits Make Sense",
+   "reason": "Баланс критов (Librum), не VR-специфично."
+  },
+  {
+   "id": 26876,
+   "name": "Retimed Hit Frames",
+   "reason": "Тайминг анимаций ударов игрока (FUS 2019), в VR не работает."
+  },
+  {
+   "id": 47103,
+   "name": "Role-Playing Perks - Melee",
+   "reason": "Оверхол перков, у ядра Adamant."
+  },
+  {
+   "id": 40284,
+   "name": "Elemental Fist - Brawler weapons",
+   "reason": "Контент (Yggdrasil)."
+  },
+  {
+   "id": 81429,
+   "name": "Animated Armoury - Precision Whips Patch",
+   "reason": "Патч под Precision: в списке dont."
+  },
+  {
+   "id": 164902,
+   "name": "SpellBender VR",
+   "reason": "Магия (ix_magic); взаимоисключающий с Spell Auto-Aim VR из ядра."
+  },
+  {
+   "id": 157974,
+   "name": "Elemental Fury VR",
+   "reason": "Магия, другой раздел."
+  },
+  {
+   "id": 55983,
+   "name": "Swap Drop and Hold (+ Add Spells 49425)",
+   "reason": "В ядре Redux 3.0.0; старый мод — руки/ix_hands."
+  },
+  {
+   "id": 164263,
+   "name": "Physical VR Knocking - Simply Knock",
+   "reason": "Мир/двери, не бой."
+  },
+  {
+   "id": 148145,
+   "name": "Interactive Doors (Physics Based Farmdoors)",
+   "reason": "Мир/двери."
+  },
+  {
+   "id": 172783,
+   "name": "Inertia - Physical Movement Response System",
+   "reason": "Передвижение/тело (ix_locomotion), не бой."
+  },
+  {
+   "id": 98883,
+   "name": "Drop On Death - VR",
+   "reason": "Физика предметов/руки, не бой."
+  },
+  {
+   "id": 140404,
+   "name": "Physical Torch Lighting - VR",
+   "reason": "Уже в Other r2 (keep, try)."
+  },
+  {
+   "id": 183892,
+   "name": "Variadic Collision Dynamics",
+   "reason": "Уже в ядре (try)."
+  },
+  {
+   "id": 30727,
+   "name": "Armor Rating Redux VR",
+   "reason": "Баланс брони, не бой руками."
+  },
+  {
+   "id": 100985,
+   "name": "Sentinel - An Equipment Overhaul",
+   "reason": "Контент экипировки."
+  }
+ ],
+ "notes": "1) Описания страниц Nexus недоступны (DNS), поэтому полно подтверждены только: Locational Damage SKSE VR (GitHub lfrazer), Shield of Stamina VR (GitHub jc43081), SCAR/SCAR VR (GitHub max-su-2019), CESF (GitHub), Attacks Cost Stamina VR, Throw Stuff VR, Dual Wield Block VR, Power Attack VR, Hand to Hand (по сниппетам). У Strike Obstruction Systems, Blocking and Flash VR, Fake Edge - VR, Dead Weight VR, GRAPPLE, QTE VR Framework, Unpoisoned Blocking, Stoppage of Staggerlock, TTMN - OIF и NPC Block Loop Fix описания нет вообще, только имена архивов. Все они tag try/opt: перед установкой прочитать страницу локально. 2) Конфликт между готовыми списками: карточка Physical Collision VR в MODLIST.md запрещает Pseudo Physical Weapon Collision and Parry (#100781), а OTHER_MODS.md ставит его rec. Yggdrasil VR (2026-10) берёт только Physical Collision VR. Нужно выбрать один и убрать другой (я пометил как dont для #100781). 3) Dual Wield Block VR и Conduit уже в Other r2 (A07/A02); если r2 при финальной сборке их отбросит, вернуть. 4) Throw Stuff VR: три листа ставят одновременно «Throwing Stuff» (125065, 1.1.1) и «Throw Stuff VR» (128285, 2.0/2.0.1): проверить на странице, нужен ли второй и порядок. 5) Shields and 2H Weapons Unlocked - VR (#184001) и Combat Equipment State Fix найдены только веб-поиском, ни один из 27 листов их не ставит. 6) Новых VR-native боевых модов 2025-2026 из GitHub-поиска больше найти не удалось: поиск GitHub по API закрыт, Nexus не открывается, Reddit-зеркала дали только старые темы. Если нужно, проверить на Nexus категорию VR вручную по запросам parry, shield bash, stagger, locational. 7) Эффект физики HIGGS/PLANCK: все «try»-DLL ставить по одному, после каждого смотреть sksevr.log и тест удара/блока по манекену."
+}

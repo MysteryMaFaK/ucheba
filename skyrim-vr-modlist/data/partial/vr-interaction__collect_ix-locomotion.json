@@ -1,0 +1,824 @@
+{
+ "section_lead": "База в ядре уже закрывает основное: VRIK (поза, присед, холстеры), VR Climbing Aelove, Sprint Jump VR, Auto Sneak and Jump VR, Physical Dodge VR, Smooth Carriage Ride и Im Walkin' Here, Be Seated, Take a Seat, Sink or Swim NG, Steeds of Ultima/Omega, Dialogue Movement Enabler, Horizon Fix. Комфорт (виньетка, угловой/плавный поворот, скорость, рост, Physical Sneaking, Realistic Swimming) — встроенные настройки Skyrim VR/Playroom, отдельный мод не нужен. Natural Locomotion, Skyrim VR Configuration Tool, Creatures Resized, Food Resized и VR Refit уже в Other-1. Реально недостающее: мод замедления в воде, управление картой и быстрым перемещением, блок про лошадей (призыв, повороты, выносливость), скорость ходьбы под VR, полнотелый трекинг и гаджеты для treadmill или сидячей игры (новинки 2026). VR-списки почти ничего из этого не ставят, поэтому большинство пунктов с меткой try.",
+ "notes": "Проверить локально на Nexus (страницы для fetch закрыты, часть данных — сниппеты поиска): 1) Walkable Skyrim #137351, VRIK Actions #69282, SkyrimVR FBT #185070, Convenient Horses VR #165369, Tiptoe/Treadmill/Head Directed Turning, True Collision Damage VR #184484, Eye Adaptation Fix #110856: точные версии, файлы, требования и FOMOD не подтверждены, в списках их нет. 2) Конфликт внутри ядра: Physical Dodge VR (карточка ядра) по странице мода требует Auto Sneak and Jump VR, а карточка Sprint Jump VR велит выбрать одну из схем прыжка. Решить: Auto Sneak and Jump + Physical Dodge или Sprint Jump без Auto Sneak (тогда Physical Dodge не работает). 3) Wade in Water VR, Horses Simply Turn Better, Sprint Swimming, Inertia #172783 стоят каждый максимум в одном VR-листе: тест в игре обязателен. Inertia #172783 не путать с «Inertia (Floating Gear Fix)» #148746 из ядра. 4) Horses Simply Turn Better и Horsemen Torch Wield Fix правят поведение лошади: после установки перегенерировать Pandora и сверить с патчем Steeds of Ultima. 5) Small VR Fixes #77677 (doodlum, только Panda's): содержимое не удалось подтвердить, в подборку не включён. 6) «Precision Physic Bodies» #186100 всплыл в поиске без описания, не оценён. 7) Immersive Winds VR и внешний SteamVR-оверлей OVR Locomotion Effect (виньетка/ветер) упоминались только в поиске, без проверки: не включены. 8) Convenient Horses VR требует базовый Convenient Horses #9519 (SE-страница): его VR-совместимость без аддона не заявлена, ставить только вместе с VR-аддоном.",
+ "picks": [
+  {
+   "key": "id:151637",
+   "id": 151637,
+   "name": "Wade in Water VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/151637",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Замедляет игрока в воде по колено и глубже: бег по воде без сопротивления ломает ощущение присутствия в VR.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "Wade In Water VR-151637-1-0-1748865168.zip (v1.0, Tempus Maledictum VR)",
+   "requires": [
+    "SKSEVR (проверить на странице)"
+   ],
+   "interplay": "Не дублирует Sink Or Swim NG из ядра (тот про тонущую броню). С Walkable Skyrim скорости перемножаются. Плоские Wade In Water (Redone, Loki's) вместо него не брать.",
+   "note": "Автор (jepster) анонсировал на r/skyrimvr: другие Wade in Water в VR работали плохо. Один лист, проверить в реке по колено и у берега.",
+   "evidence": "whouses 151637: Tempus VR, файл выше. Описание архива: «Slows the player down when walking through water», автор jepster. Сниппет поиска: пост r/skyrimvr со ссылкой на страницу 151637."
+  },
+  {
+   "key": "id:59817",
+   "id": 59817,
+   "name": "Disable Fast Travel SKSEVR - No Janky Map UI for VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/59817",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": "fast_travel",
+   "what": "Отключает быстрое перемещение через карту и чинит баг с постановкой своих маркеров рядом с открытыми локациями; убирает неудобный клик по карте в VR.",
+   "vr_status": "vr_native",
+   "in_lists": "Librum VR",
+   "files": "Disable Fast Travel VR-59817-1-0-0-1639117355.7z (v1.0.0, Librum VR)",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Выбрать одно: либо он, либо Journeyman VR (тот не запрещает, а ограничивает путевым набором). С CFTO (карета/паром) и Navigate VR (Other-1) сочетается логично.",
+   "note": "Это VR-порт SKSE-плагина по MIT-исходникам Parapet (автор alandtse). Один лист и старый (2021): проверить, что карта открывается и свои маркеры ставятся.",
+   "evidence": "whouses 59817: Librum VR, файл выше. Описание архива: «Disables fast travel in the map menu, and fixes the bug where you would no longer be able to place custom markers near discovered locations. This is a VR port built of Parapets MIT source code»."
+  },
+  {
+   "key": "id:139443",
+   "id": 139443,
+   "name": "Journeyman VR (+ Journeyman - A Fast Travel Overhaul #92220)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/139443",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": "fast_travel",
+   "what": "Быстрое перемещение только с дорожным набором, который надо собрать; вместе с Navigate VR заставляет реально ходить по миру.",
+   "vr_status": "vr_native",
+   "in_lists": "Stormcrown VR, Panda's Sovngarde",
+   "files": "Panda's: Journeyman - A Fast Travel Overhaul-92220-1-1-5-1740448300.7z + Journeyman VR-139443-1-1-4-1737211237.zip. Stormcrown: Journeyman 92220 1.2.0 (2026-07-03, Ks18n026Q.7z) + Journeyman VR-139443-1-1-4-1737211237.zip. Ставить оба архива, VR поверх базы.",
+   "requires": [
+    "Journeyman - A Fast Travel Overhaul (#92220)",
+    "SKSEVR"
+   ],
+   "interplay": "Взаимоисключающе с Disable Fast Travel SKSEVR. С CFTO сочетать можно (карета и паром остаются), но совместимость в списках не подтверждена. Геймплейное ограничение, не VR-механика.",
+   "note": "Порт на VR сделали FlayaN Lythca, Simon Magus и Colinswrath. Порядок установки VR-файла после базы — проверить на странице.",
+   "evidence": "whouses 139443: Stormcrown VR, Panda's (Journeyman VR 1.1.4, описание «Ported to VR»). whouses 92220: те же два VR-листа + 5 SE-листов (Nordic Souls, Winds of the North и др.)."
+  },
+  {
+   "key": "id:8379",
+   "id": 8379,
+   "name": "Carriage and Ferry Travel Overhaul (CFTO)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/8379",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Облегчённая переделка карет и паромов: по-настоящему ехать на транспорте вместо клика по карте; хороший спутник Disable Fast Travel/Journeyman.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR, Spirit of Grit, Tahrovin - Grit, Panda's Sovngarde, Librum VR (+7 SE-листов)",
+   "files": "Carriage and Ferry Travel Overhaul-8379-2-0.7z (все 5). Дополнения: CFTO - Fixes and Winterhold 3.0 (#40651; Tempus, Grit, Tahrovin-Grit, Panda's), CFTO - Lanterns add-on (Tempus, Panda's), CFTO - JK's Skyrim Patch (только Panda's, если JK's Skyrim). Патчи Missives (#44498), Bittercup (#60974) и CR04 (#52353) только при соответствующих модах.",
+   "requires": [],
+   "interplay": "С Smooth Carriage Ride VR из ядра комбинируется: тот сглаживает тряску камеры в карете. Без ESP-зависимостей от VR. Контент, а не VR-механика: опционально.",
+   "note": "Не VR-мод, но пять VR-листов его ставят: езда на карете в VR терпима благодаря VRIK 0.8.4+ и Smooth Carriage Ride.",
+   "evidence": "whouses 8379: 5 VR-листов, файлы выше. Описание: «lightweight overhaul of both the vanilla Skyrim carriage system and Dawnguard's ferry system». Ядро: Smooth Carriage Ride VR."
+  },
+  {
+   "key": "id:119899",
+   "id": 119899,
+   "name": "No Player Position on World Map (VR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/119899",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Прячет маркер игрока на карте мира: ориентироваться приходится по местности и компасу Navigate VR.",
+   "vr_status": "vr_native",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "No Player Position on World Map-119899-1-0-0-1716227942.zip (v1.0.0)",
+   "requires": [
+    "SKSEVR (проверить на странице)"
+   ],
+   "interplay": "Связка с Navigate VR (Other-1) и Journeyman/Disable Fast Travel. Мешает, если на карте нужен маркер игрока для Local Map Upgrade VR (Other-1).",
+   "note": "Чисто стилистический выбор для hardcore-ориентирования.",
+   "evidence": "whouses 119899: Spirit of Grit, Tahrovin - Grit. Описание архива (автор washyourpaws): «hides the player's position on the world map, which results in you having to navigate using your surroundings»."
+  },
+  {
+   "key": "id:172783",
+   "id": 172783,
+   "name": "Inertia - Physical Movement Response System",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/172783",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Инерция движения от переносимого веса: разгон, торможение и резкие повороты зависят от нагрузки.",
+   "vr_status": "unknown",
+   "in_lists": "Stormcrown VR",
+   "files": "Inertia - Physical Movement Response System-172783-1-2-0-1771526633.zip (Stormcrown VR; в метаданных версия 1.1.0)",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library (проверить на странице)"
+   ],
+   "interplay": "НЕ тот Inertia из ядра: там «Inertia (Floating Gear Fix)» #148746. С Walkable Skyrim, Sprint Jump VR и Im Walkin' Here VR возможны наложения по скорости. Плавный разгон виртуальной ходьбы может как помочь, так и усилить укачивание.",
+   "note": "Один VR-лист и свежий мод (2026-02): VR-статус автор не заявлял. Тест: ходьба, разворот, нагрузка около лимита веса. Если укачивает или дёргается камера — убрать.",
+   "evidence": "whouses 172783: только Stormcrown VR, файл выше. Описание (автор Zzyxzz): «weight based movement inertia ... Acceleration, deceleration and sharp turns now scale with your carry weight». Поиск: страница-двойник по имени (148746) — это другой мод."
+  },
+  {
+   "key": "id:137351",
+   "id": 137351,
+   "name": "Walkable Skyrim",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/137351",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Правит скорости ходьбы, спринта и ходьбы в присяде под VR; спринт дешевле по выносливости, шаг лошади равен её бегу.",
+   "vr_status": "works_as_is",
+   "in_lists": "none",
+   "files": "ESP со страницы мода (LaoziVR); версия не проверена",
+   "requires": [
+    "SKSEVR (по описанию: установка для SkyrimVR)"
+   ],
+   "interplay": "Дополняет Auto Sneak and Jump VR и Im Walkin' Here VR. Конфликтует по скорости лошади с Faster Horses (не рекомендован здесь) и накладывается на Wade in Water VR и Inertia #172783. Только значения игры (ESP), удаляется в любой момент.",
+   "note": "Автор — VR-игрок, прошёл ~100 ч. Известные оговорки: спринт в Skyrim VR «дёрганый» и прерывается при взгляде влево-вправо; квестовые сцены вроде Хелгена описаны на странице; ходьба переключается голосом через Dragonborn Speaks Naturally (Other-1).",
+   "evidence": "Сниппеты поиска по странице 137351: «changes the values for walk, sprint, and walking sneak», «Horse walking speed is set to their running speed», установка для SkyrimVR, ESP в Data. В VR-листах не найден."
+  },
+  {
+   "key": "id:69282",
+   "id": 69282,
+   "name": "VRIK Actions",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/69282",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Аддон VRIK: настройки VRIK меняются при потере управления, присяде, езде и сидении (например, меньше качки и другое положение тела).",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "основной файл со страницы (автор Plater); версия не проверена",
+   "requires": [
+    "VRIK Player Avatar",
+    "SKSEVR",
+    "SkyUI VR (MCM)"
+   ],
+   "interplay": "Ложится поверх VRIK и Arctal's VRIK Tweaks из ядра, дубля нет. Поддерживает событие «присед» (Register Sneak) и посадку/езду. Опция «Register Always» может отключить прыжок.",
+   "note": "На странице автора предупреждение для чувствительных к укачиванию. Настройки через MCM. Использовать, только если хочется тонко управлять телом VRIK в приседе/седле.",
+   "evidence": "Сниппет поиска по странице 69282 (VRIK Actions, автор Plater): control loss (total/partial), поддержка death, unconsciousness, sneaking, mounting, sitting; MCM «Register Sneak»/«Register Always»; предупреждение об укачивании. В VR-листах не найден."
+  },
+  {
+   "key": "id:185070",
+   "id": 185070,
+   "name": "SkyrimVR FBT - Full Body Tracking with Physics",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/185070",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Полнотелый трекинг: трекеры на пояс и ноги двигают ноги и таз; физические удары ногой сбивают врагов.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "версия 1.0.3 по ченджлогу (поиск); точные файлы со страницы",
+   "requires": [
+    "VRIK Player Avatar",
+    "HIGGS",
+    "PLANCK",
+    "SKSEVR",
+    "SteamVR-трекеры пояса и ног"
+   ],
+   "interplay": "Надстройка над VRIK/HIGGS/PLANCK, не замена VRIK. Заявлена совместимость с кастомными скелетами (XP32). Без трекеров сам отключается и оставляет обычный VRIK. Пинки по умолчанию только в бою, со стаминой и перезарядкой.",
+   "note": "Нужно железо (SlimeVR, Vive Tracker и др.). Без трекеров смысла нет. Проверить с Physical Collision VR из ядра и CBPC.",
+   "evidence": "Поиск: страница 185070 (GingasVR), ченджлог 1.0.3 (фикс коленей и VRIK selfie), «you will need VRIK, Higgs, PLANCK and full body VR trackers»; обзор Digitec/Game*Spark (июль 2026): «kick dragons with your real feet». В VR-листах не найден."
+  },
+  {
+   "key": "id:187260",
+   "id": 187260,
+   "name": "Head Directed Turning",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/187260",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Поворачивает тело по направлению взгляда, когда голова отвёрнута за комфортный угол; предназначен для treadmill и сидячей игры.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "основной файл со страницы (DemosDrax, загрузка 23.08.2026); версия не проверена",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Делит с Tiptoe To Jump VR и Treadmill Locomotion VR общий слой XInput (правый стик X занят поворотом). Не сочетать с обычным стик-поворотом. Только для особых режимов игры.",
+   "note": "Учитывает только yaw шлема. Нужен, только если играете на treadmill или без поворотов стиком.",
+   "evidence": "Сниппет поиска по странице 187260: «Looking past a configurable comfort angle makes the mod turn your in-game body toward your headset direction», совместим с Treadmill Locomotion VR и Tiptoe To Jump VR. В VR-листах не найден."
+  },
+  {
+   "key": "id:189345",
+   "id": 189345,
+   "name": "Tiptoe To Jump VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/189345",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": "jump_scheme",
+   "what": "Прыжок жестом: подъём на носки, лёгкое сгибание колен или кивок вверх вместо настоящего прыжка; для малого игрового пространства и сидячей игры.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "Tiptoe To Jump VR 0.1.0 (DemosDrax, август 2026)",
+   "requires": [
+    "SKSEVR"
+   ],
+   "interplay": "Альтернатива физическому прыжку Auto Sneak and Jump VR; с Sprint Jump VR из ядра не конфликтует по назначению, но схему прыжка выбирать одну. Есть MCM. Работает через вход правого стика.",
+   "note": "Ранний релиз 0.1.0. Нужен только тем, кому физически прыгать неудобно или небезопасно.",
+   "evidence": "Сниппеты поиска по странице 189345: SKSE-плагин, версия 0.1.0, август 2026, жесты tiptoe/knee-bend/nose-up, MCM, протестирован с Head Directed Turning и Treadmill Locomotion VR. В VR-листах не найден."
+  },
+  {
+   "key": "id:189346",
+   "id": 189346,
+   "name": "Treadmill Locomotion VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/189346",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Читает данные беговой дорожки RealityRunner V2 и превращает их в ровный ввод ходьбы и бега, три пресета.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "Treadmill Locomotion VR 0.1.0 (начальный тестовый релиз, DemosDrax)",
+   "requires": [
+    "SKSEVR",
+    "беговая дорожка RealityRunner V2"
+   ],
+   "interplay": "Работает сам по себе и вместе с Head Directed Turning и Tiptoe To Jump VR (общий XInput mux). Не сочетать с Natural Locomotion (Other-1) на одном вводе.",
+   "note": "Экспериментальный. Только при наличии устройства. Перед запуском закрыть приложение RealityRunner (кроме Bluetooth-режима).",
+   "evidence": "Сниппеты поиска по странице 189346: «reads RealityRunner V2 treadmill data directly and maps it to stable walk/run input», пресеты Gentle/Balanced/Fast, версия 0.1.0. В VR-листах не найден."
+  },
+  {
+   "key": "id:165369",
+   "id": 165369,
+   "name": "Convenient Horses VR (+ Convenient Horses #9519)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/165369",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": "horse_call",
+   "what": "VR-аддон к Convenient Horses: убирает парные анимации (ломающие игрока в VR) и добавляет рог, который берётся рукой HIGGS и призывает лошадь.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "VR-аддон со страницы 165369 + базовый Convenient Horses (#9519); конкретные файлы со страницы",
+   "requires": [
+    "Convenient Horses (#9519)",
+    "HIGGS",
+    "SKSEVR",
+    "VRIK Player Avatar",
+    "Spell Wheel VR (желательно)"
+   ],
+   "interplay": "Выбрать одно с Call Your Horse (оба призывают лошадь). Конфликтов со Steeds of Ultima/Omega не заявлено, но менять поведение лошади они могут оба: проверить после Pandora. Помечен как AI-generated.",
+   "note": "Рог: поднести ко рту и держать около 2 секунд. Тест: призыв рога, посадка/спешивание, нет телепорта игрока.",
+   "evidence": "Сниппеты поиска по странице 165369: «removes forced player-horse paired animations that cause unwanted teleporting in VR», «VR warhorn you grab with HIGGS», требования Convenient Horses, HIGGS, SKSEVR, Spell Wheel VR (опционально). В VR-листах не найден."
+  },
+  {
+   "key": "id:49595",
+   "id": 49595,
+   "name": "Call Your Horse",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/49595",
+   "section": "ix_locomotion",
+   "tag": "alt",
+   "choose_one_group": "horse_call",
+   "what": "Лёгкий призыв лошади к игроку без привязок к кнопкам и ритуалам.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR, Spirit of Grit, Tahrovin - Grit",
+   "files": "Call Your Horse 1.0.1-49595-1-0-1-1623270421.zip (v1.0.1, все 3 VR-листа)",
+   "requires": [
+    "SKSEVR (проверить на странице)"
+   ],
+   "interplay": "Вместо Convenient Horses VR (одно из). Не конфликтует с Steeds of Ultima/Saving on Steed.",
+   "note": "В Tempus VR ставится вместе со Steeds of Ultima и Horses Simply Turn Better. Мод уже предложен ix_world-веткой; здесь как альтернатива рогу.",
+   "evidence": "whouses 49595: Tempus VR, Spirit of Grit, Tahrovin - Grit. Описание (автор Otellino): «A simple and lightweight way to Call Your Horse to your location»."
+  },
+  {
+   "key": "id:77303",
+   "id": 77303,
+   "name": "Horsemen Torch Wield Fix and Mount Tweaks SE",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/77303",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Правильное держание факела всадником и мелкие улучшения посадки для игрока и NPC.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR (+5 SE-листов)",
+   "files": "Horsemen Torch Wield Fix and Mount Tweaks SE-77303-1-3-1712010600.rar (v1.3, Tempus Maledictum VR)",
+   "requires": [
+    "Pandora Behaviour Engine+ (или Nemesis)"
+   ],
+   "interplay": "Карточка Steeds of Ultima VR в ядре рекомендует его, но не включает; для него нужен Pandora. Не дублирует Steeds of Ultima: тот про бой и магию из седла.",
+   "note": "Поведенческий мод: после установки прогнать Pandora и проверить, что аниматоры лошади не затёрты патчем Steeds of Ultima.",
+   "evidence": "whouses 77303: Tempus VR (1.3) и SE-листы. Описание (KhrysINXS, NickNak): «Horse behavioral customization promoting proper torch wield as a rider with extra mount benefits for Player and NPCs». Ядро (Steeds of Ultima): «Рекомендуются ... Horsemen Torch Wield Fix»."
+  },
+  {
+   "key": "id:57790",
+   "id": 57790,
+   "name": "Horses Simply Turn Better",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/57790",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Лошадь заметно лучше поворачивает: в VR верхом руль идёт взглядом/стиком, а вялые развороты раздражают.",
+   "vr_status": "unknown",
+   "in_lists": "Tempus Maledictum VR (+4 SE-листов)",
+   "files": "HorsesSimplyTurnBetter-57790-1-0-0-1635787436.rar (v1.0.0, Tempus Maledictum VR)",
+   "requires": [],
+   "interplay": "Правит поведение лошади; возможен конфликт с патчем Steeds of Ultima и Horsemen Torch Wield Fix — порядок и Pandora проверить. В Tempus VR ставится рядом со Steeds of Ultima.",
+   "note": "Один VR-лист. Тест: разворот на галопе, нет проблем с посадкой.",
+   "evidence": "whouses 57790: Tempus VR, файл выше (+Nordic Souls, Tomes of Talos, Aldrnari). Описание (Loki): «Makes horses turn much better»."
+  },
+  {
+   "key": "id:70181",
+   "id": 70181,
+   "name": "Infinite Horse Stamina Out of Combat",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/70181",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Бесконечная выносливость лошади вне боя: можно скакать галопом без остановок.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde",
+   "files": "Infinite Horse Stamina Out of Combat-70181-1-0-1656036507.7z (v1.0, Panda's Sovngarde)",
+   "requires": [
+    "Spell Perk Item Distributor VR (в ядре)"
+   ],
+   "interplay": "Дополняет Steeds of Ultima VR. Не конфликтует с Walkable Skyrim.",
+   "note": "Требует SPID по описанию. Контент-упрощение, а не VR-механика.",
+   "evidence": "whouses 70181: Panda's Sovngarde. Описание (Jahmon808): «infinite stamina for your horse when not in combat ... Requires SPID»."
+  },
+  {
+   "key": "id:167190",
+   "id": 167190,
+   "name": "No Combat or Riding Save",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/167190",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Запрещает сохраняться в бою и верхом (защита от бага сейва в седле).",
+   "vr_status": "works_as_is",
+   "in_lists": "Spirit of Grit, Tahrovin - Grit",
+   "files": "No Combat or Riding Save-167190-1-01-1765834699.7z (v1.0, оба Grit-листа)",
+   "requires": [],
+   "interplay": "Дополняет Saving on Steed (ядро, try): тот чинит загрузку сейва верхом, этот не даёт сохраниться на лошади. Seamless Saving VR/авто-сейвы верхом блокируются — учитывать.",
+   "note": "Описание: работает на всех версиях игры и легче аналогов. Проверить, что ручное сохранение возвращается после спешивания.",
+   "evidence": "whouses 167190: Spirit of Grit, Tahrovin - Grit. Описание (автор Aelover): «Saving in combat or while riding a horse is pretty bad for your playthrough. This prevents it»."
+  },
+  {
+   "key": "id:70134",
+   "id": 70134,
+   "name": "Infinite Stamina Out of Combat",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/70134",
+   "section": "ix_locomotion",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Бесконечная выносливость вне боя: спринт между локациями без остановок.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde, Yggdrasil VR",
+   "files": "Panda's: Infinite Stamina Out of Combat-70134-1-1-1656001507.7z. Yggdrasil: Infinite Sprinting Out of Combat-70134-1-0-1656800096.7z (v1.1)",
+   "requires": [],
+   "interplay": "Полезно с Walkable Skyrim и Sprint Jump VR. Бесскриптовый, «совместим со всем» по описанию. Не сочетать с модами, привязывающими стамину к атакам/блоку вне боя.",
+   "note": "Упрощает игру. С Attacks Cost Stamina VR и Shield of Stamina VR (combat-ветка) взаимодействия нет, они действуют в бою.",
+   "evidence": "whouses 70134: Panda's, Yggdrasil VR. Описание (Jahmon808): «infinite stamina when not in combat ... Scriptless. Compatible with everything»."
+  },
+  {
+   "key": "id:67028",
+   "id": 67028,
+   "name": "Sprint Swimming",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/67028",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Быстрое плавание по кнопке спринта; плыть через озёра и реки быстрее.",
+   "vr_status": "unknown",
+   "in_lists": "Tempus Maledictum VR",
+   "files": "Sprint Swimming-67028-2-1-1651359162.7z (v2.1, Tempus Maledictum VR)",
+   "requires": [],
+   "interplay": "Работает совместно с Sink Or Swim NG из ядра (оба правят плавание). Если включён встроенный Realistic Swimming (взмахи рук) в настройках VR, кнопка спринта в воде может не использоваться.",
+   "note": "Один VR-лист. Проверить, какая у вас схема плавания: стик или руки.",
+   "evidence": "whouses 67028: Tempus VR. Описание (AndrealphusVIII): «allows you to swim faster by pressing the Sprint button while swimming». Realistic Swimming в списке встроенных настроек Skyrim VR (сниппет поиска)."
+  },
+  {
+   "key": "id:92795",
+   "id": 92795,
+   "name": "First Person Animation Teleport Bug Fix",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/92795",
+   "section": "ix_locomotion",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Чинит ваниль: запуск некоторых интерактивных анимаций от первого лица телепортировал игрока в начало ячейки.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR, Librum VR, Yggdrasil VR (+11 SE-листов)",
+   "files": "1st Person Interact Animation Teleport Bug Fix-92795-1-0-0-1685907012.zip (v1.0.0, все 3 VR-листа)",
+   "requires": [
+    "Pandora Behaviour Engine+ (или Nemesis), если патч поведения"
+   ],
+   "interplay": "Дополняет Paired Animation Improvements (ядро): тот про парные анимации, этот про телепорт. Аддон Convenient Horses VR чинит похожую телепортацию для лошадей.",
+   "note": "В описании «Behavior patch»: после установки прогнать Pandora. VR всегда от первого лица, баг достижим.",
+   "evidence": "whouses 92795: Tempus VR, Librum VR, Yggdrasil VR + 11 SE. Описание (Monitor144hz): «Behavior patch that fixes a vanilla bug where starting certain interaction animations in first person teleports you to the start of the cell»."
+  },
+  {
+   "key": "id:110856",
+   "id": 110856,
+   "name": "Eye Adaptation Fix for SE and VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/110856",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Выравнивает контраст по двум глазам: в VR один глаз мог быть темнее другого из-за адаптации глаза, это бьёт по комфорту.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "Eye Adaptation Fix for SE and VR (автор SaltyMeatBoy); заменил скрытый VR Eye Adaptation Fix #109397",
+   "requires": [
+    "SKSEVR",
+    "SkyUI VR (MCM)"
+   ],
+   "interplay": "Накладывается на погодные моды (Azurite/Lux) и шейдеры: они могут менять imagespace — проверить пару в игре. Не дубль Open Shaders. Обычные «remove eye adaptation» моды проблему в VR не решают по словам автора.",
+   "note": "Включается в MCM. Ставить, если замечаете разную яркость глаз.",
+   "evidence": "Сниппет поиска по странице 110856: «adds an MCM option that eliminates eye adaptation by applying an imagespace modifier that locks the contrast HDR parameter to 1.0»; старый VR Eye Adaptation Fix (#109397) скрыт 05.02.2024 как устаревший. В VR-листах не найден."
+  },
+  {
+   "key": "id:44442",
+   "id": 44442,
+   "name": "Crouch To Dodge VR - Dodge Naturally",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/44442",
+   "section": "ix_combat",
+   "tag": "alt",
+   "choose_one_group": "dodge",
+   "what": "Уклон от ударов и стрел физическим приседанием, плюс кувырок от перка Silent Roll как уворот.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde, FUS, Yggdrasil VR",
+   "files": "CrouchToDodgeVR-44442-1-0-2-1627414564.7z (v1.0.2, все 3 VR-листа)",
+   "requires": [
+    "SKSEVR (проверить на странице)"
+   ],
+   "interplay": "Дублирует Physical Dodge VR из ядра: ставить вместо, не вместе. Physical Dodge VR замедляет время и требует Auto Sneak and Jump VR; этот мод проще.",
+   "note": "Взять, если не нужен слоу-мо-уворот и не хочется Auto Sneak and Jump VR.",
+   "evidence": "whouses 44442: Panda's, FUS, Yggdrasil VR. Описание (Asaudan): «spot dodge attacks and missiles, as well as use the roll from the Silent Roll perk as a dodge roll». Страница Physical Dodge VR (#58605): требует Auto Sneak and Jump VR (сниппет)."
+  },
+  {
+   "key": "id:159455",
+   "id": 159455,
+   "name": "VR Refit - Better Logs",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/159455",
+   "section": "ix_hands",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Замена мешей брёвен в VR Refit - Mine Chop and Drop: аккуратные низкополигональные дрова, которые удобно хватать HIGGS.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde",
+   "files": "VR Refit - Better Logs - PBR Textures-159455-1-0-1758155378.7z (v1.0, Panda's Sovngarde)",
+   "requires": [
+    "Realistic Mining and Chopping for VR + VR Refit (#16692, в ядре)"
+   ],
+   "interplay": "Расширяет VR Refit из ядра, ставится после него. Мешает только другим заменам тех же бревён. PBR-текстуры: проверить на этапе PGPatcher.",
+   "note": "Косметика ради удобства хвата. Меши от Exist's Lowpoly Firewood.",
+   "evidence": "whouses 159455: Panda's Sovngarde. Описание (Virtual Panda): «mesh replacer for the logs included in VR Refit - Mine Chop and Drop using modified meshes from Exist's Lowpoly Firewood»."
+  },
+  {
+   "key": "id:184484",
+   "id": 184484,
+   "name": "True Collision Damage and True Fall Damage (VR port by flobic19)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184484",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Урон NPC при ударе о стену и падении по скорости и высоте; для VR есть отдельный порт, на SE-странице эксперимент сломан.",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "VR-порт со страницы 184484; на SE-странице (#179433) VR-файл убран как нерабочий",
+   "requires": [
+    "SKSE Menu Framework (в ядре)",
+    "SKSEVR"
+   ],
+   "interplay": "Работает рядом с PLANCK и HIGGS (бросок, ragdoll): возможен двойной урон при броске NPC. Ваниль-урон падения не отключается и срабатывает с задержкой.",
+   "note": "Не ставить SE-страницу #179433 в VR. Проверить урон при бросках через HIGGS и ударах PLANCK.",
+   "evidence": "Сниппеты поиска по странице 179433: «recommends the flobic19 VR port at mod 184484», экспериментальный VR-билд по комментариям не работает, причина — SKSE Menu Framework тогда не поддерживал VR. В VR-листах не найден."
+  },
+  {
+   "key": "id:71418",
+   "id": 71418,
+   "name": "Wade In Water Redone (+ Loki's Wade In Water #42854)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/71418",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоские Wade In Water: в VR по отзывам загружаются, но ничего не делают.",
+   "vr_status": "flat_only",
+   "in_lists": "none",
+   "files": "—",
+   "requires": [],
+   "interplay": "Вместо них — Wade in Water VR (#151637). Старый скриптовый «(beta) Wade In Water Animations» в ядре тоже отклонён.",
+   "note": "Loki's Wade In Water (#42854): VR-поддержка нигде не заявлена, ставить нет оснований.",
+   "evidence": "Сниппет поиска по Wade In Water Redone: «seems to load OK, no crashing, but doesn't seem to do anything» (комментарий VR-игрока); пост r/skyrimvr: другие Wade in Water в VR работали плохо. Описание Redone: «SKSE plugin which slows actors in water at an engine level, SSE and AE in one DLL» — без VR."
+  },
+  {
+   "key": "id:187230",
+   "id": 187230,
+   "name": "Underwater NG (+ Sprint Swim Redux SKSE #156417)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/187230",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Подводные оверхолы SE/AE: у Underwater NG VR-порт в раннем тесте, Sprint Swim Redux — анимации для третьего лица.",
+   "vr_status": "flat_only",
+   "in_lists": "none",
+   "files": "—",
+   "requires": [],
+   "interplay": "Конфликтуют по плаванию с Sink Or Swim NG и Sprint Swimming. В VR от первого лица смысла не имеют.",
+   "note": "Underwater NG: на странице VR-порт «in early testing», текущий релиз VR не поддерживает. Sprint Swim Redux: «3rd-person sprint swimming», VR не заявлен.",
+   "evidence": "Сниппеты поиска: страница Underwater NG (187230) — релиз не поддерживает Skyrim VR; страница Sprint Swim Redux (156417) — «3rd-person sprint swimming while underwater», пометка SE."
+  },
+  {
+   "key": "id:38950",
+   "id": 38950,
+   "name": "Плоские анимации перемещения игрока: Movement Behavior Overhaul, Jump Behavior Overhaul, Smooth Moveset, Vanargand II/Leviathan II/Goetia Idle Walk-Run и Sprint",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/38950",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Третье лицо: в VR тело игрока ведёт VRIK, эти пакеты ничего не дают, а Nemesis-сборки рискуют конфликтом с Pandora/OAR.",
+   "vr_status": "flat_only",
+   "in_lists": "Movement Behavior Overhaul: Yggdrasil VR; Jump Behavior Overhaul: Librum VR, Yggdrasil VR; Smooth Moveset: Tempus VR (лишь grip-фиксы); Vanargand/Leviathan/Goetia Walk-Run и Sprint: Panda's, Tempus VR",
+   "files": "Movement Behavior Overhaul SE - AIO-38950-1-1-1596994445.zip; Jump Behavior Overhaul SE - AIO-36889-1-4-1595787187.zip (Librum, Yggdrasil); Vanargand/Leviathan/Goetia — OAR-пакеты Panda's и Tempus",
+   "requires": [],
+   "interplay": "Для NPC походка уже даёт Pristine Vanilla Movement + NPC Animation Remix из ядра (там оговорено: не вместе с Animation Motion Revolution). Ядро берёт Vanargand/Leviathan только как стойки и атаки NPC, sneak-пакеты игрока не берёт.",
+   "note": "Не вред доказанный, а лишний груз и риск: Nemesis-AIO (2020) рядом с Pandora. Если нужна походка NPC — достаточно Pristine Vanilla Movement.",
+   "evidence": "whouses 38950 (Yggdrasil VR), 36889 (Librum, Yggdrasil), 70531 (Tempus, grip-фиксы), 105376/84201/81463/54351/53381 (Panda's, Tempus). Описания: «Experience realistic movement ... direction transitions, momentum stop» (Movement Behavior Overhaul), «brand new animations, improved behavior» (Jump). Ядро: карточка Pristine Vanilla Movement и заметка про sneak-пакеты."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 16242,
+   "name": "Skyrim VR Configuration Tool",
+   "reason": "Уже в Other-1 (opt); 4 VR-листа, добавлять нечего"
+  },
+  {
+   "id": null,
+   "name": "Natural Locomotion (Steam)",
+   "reason": "Уже в Other-1 (opt, внешний инструмент); интеграция с Treadmill/Head Directed Turning описана в пикax"
+  },
+  {
+   "id": 131341,
+   "name": "Virtual Reality General Enhancements",
+   "reason": "В списках только патчи SimonRim (Manbeast, Pilgrim): исключённая тема, локомоции в архивах нет"
+  },
+  {
+   "id": 77677,
+   "name": "Small VR Fixes",
+   "reason": "Автор doodlum, один лист (Panda's), описание «Some small VR fixes»: содержимое не подтверждено, проверить локально"
+  },
+  {
+   "id": 51551,
+   "name": "Creatures Resized for VR - SE",
+   "reason": "Уже в Other-1 (rec)"
+  },
+  {
+   "id": 44776,
+   "name": "Food Resized",
+   "reason": "Уже в Other-1 (rec)"
+  },
+  {
+   "id": 49903,
+   "name": "VR Refit - ElSopa - HD Keys Resized",
+   "reason": "Уже в Other-1 (rec); как и VR Refit - JS Purses (#49850) внутри JS Shrines"
+  },
+  {
+   "id": 49205,
+   "name": "VR Refit - Mine Chop and Drop",
+   "reason": "Уже в ядре (Realistic Mining and Chopping for VR + VR Refit)"
+  },
+  {
+   "id": 170321,
+   "name": "VR Climbing - Aelove Ver",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 168553,
+   "name": "VR Climbing (оригинал, Bellbound)",
+   "reason": "Ядро велит ставить форк Aelove, не оригинал"
+  },
+  {
+   "id": 28354,
+   "name": "Sprint Jump VR",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 23649,
+   "name": "Auto Sneak and Jump VR",
+   "reason": "Уже в ядре (opt); нужен Physical Dodge VR, учтено в notes"
+  },
+  {
+   "id": 58605,
+   "name": "Physical Dodge VR",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 129594,
+   "name": "Smooth Carriage Ride VR + Im Walkin' Here VR",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 81220,
+   "name": "Steeds of Ultima - VR Mounted Combat",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 169221,
+   "name": "Steeds of Omega VR - NPC Mounted Combat",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 16613,
+   "name": "Be Seated - Skyrim VR Edition",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 54193,
+   "name": "Take a Seat + Improved Table Transitions",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 78610,
+   "name": "Sink Or Swim NG (и старый #42962)",
+   "reason": "Уже в ядре (opt), старую страницу ядро не берёт"
+  },
+  {
+   "id": 66635,
+   "name": "Pristine Vanilla Movement",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 186081,
+   "name": "Bobbing Framework",
+   "reason": "Уже в ядре (try)"
+  },
+  {
+   "id": 184607,
+   "name": "Horizon Fix",
+   "reason": "Уже в ядре (opt)"
+  },
+  {
+   "id": 173629,
+   "name": "Saving on Steed - Horse Save Load Fix",
+   "reason": "Уже в ядре (try)"
+  },
+  {
+   "id": 148746,
+   "name": "Inertia (Floating Gear Fix)",
+   "reason": "Уже в ядре; это другой мод, не путать с Inertia #172783"
+  },
+  {
+   "id": 16335,
+   "name": "No Stagger Mod",
+   "reason": "Уже в ядре (rec)"
+  },
+  {
+   "id": 42550,
+   "name": "Flinching for VR",
+   "reason": "Librum VR и Yggdrasil ставят его, но дёргание игрока при ударе противоречит смыслу No Stagger Mod (ядро: стаггер укачивает); ценности для интерактивности нет"
+  },
+  {
+   "id": 18967,
+   "name": "Better Jumping SE (NG)",
+   "reason": "По поиску NG-сборка поддерживает VR, но дублирует Sprint Jump VR из ядра; двойной прыжок не нужен; 0 VR-листов"
+  },
+  {
+   "id": 12220,
+   "name": "Hold to Sprint",
+   "reason": "Старый скриптовый мод, 0 VR-листов, управление уже закрывают биндинги Other-1"
+  },
+  {
+   "id": 29881,
+   "name": "Walk - Run - Sprint for Improved Oculus Touch Controls",
+   "reason": "Только Oculus-раскладка, 0 VR-листов; биндинги в Other-1"
+  },
+  {
+   "id": 16609,
+   "name": "Skyrim VR Visual Noise Reduction Mod",
+   "reason": "Графика (z-fighting гор и воды), пересекается с ERM, Landscape and Water Fixes и DynDOLOD; отдельная стадия, не локомоция"
+  },
+  {
+   "id": 42534,
+   "name": "Remove Menu Blur",
+   "reason": "Один лист (Librum), эффект в VR-меню не доказан; меню закрывает UI-ветка"
+  },
+  {
+   "id": 31165,
+   "name": "First Person Sneak Strafe-Walk Stutter Fix",
+   "reason": "Лечит рывок камеры при диагональном крадении (клавиатура W+D); в VR камера следует шлему, польза не доказана; один лист"
+  },
+  {
+   "id": 1863,
+   "name": "Sneak Tools SE Edition",
+   "reason": "Геймплейный контент (водяные стрелы, дубинка), не интерактивность; один лист"
+  },
+  {
+   "id": 34853,
+   "name": "DAR - Dynamic Swimming",
+   "reason": "Анимации плавания третьего лица под DAR; в VR игрока ведёт VRIK, ядро использует OAR"
+  },
+  {
+   "id": 78267,
+   "name": "Animals Swim (Sort of)",
+   "reason": "Фикс животных под водой, не взаимодействие игрока"
+  },
+  {
+   "id": 128040,
+   "name": "Dynamic Female Swimming Idles / Ledge Sitting #90252 / Rail Leaning #93520 / Wall Leaning #87536 / Table Leaning #151307 / Hand Warming #88506",
+   "reason": "Декоративные анимации NPC/третьего лица, в VR для игрока бесполезны"
+  },
+  {
+   "id": 2003,
+   "name": "Faster Horses",
+   "reason": "Один лист, пересекается по скорости лошади с Walkable Skyrim; низкая ценность"
+  },
+  {
+   "id": 53102,
+   "name": "Animations from Skyrim Horse Renewal (Horse and Rider)",
+   "reason": "Анимации всадника третьего лица, VRIK ведёт руки сам; один лист"
+  },
+  {
+   "id": 63640,
+   "name": "zzjay's Horse Overhaul",
+   "reason": "Текстуры/сёдла: внешний вид, другая стадия"
+  },
+  {
+   "id": 64366,
+   "name": "Horses Ragdoll Humanoids SE",
+   "reason": "Реакция при ударе лошади, низкая ценность, один лист"
+  },
+  {
+   "id": 3838,
+   "name": "Horse Storage",
+   "reason": "Контейнер на лошади, уже предложен ix_world-веткой"
+  },
+  {
+   "id": 114146,
+   "name": "Thistlefoot Is Totally Stable (Auri Mount Fix)",
+   "reason": "Фикс маунта спутницы Auri: спутники исключены"
+  },
+  {
+   "id": 62868,
+   "name": "Inigo Riding Patch",
+   "reason": "Патч спутника, исключён"
+  },
+  {
+   "id": 150951,
+   "name": "World Encounter Noble Riding Horse Fix - WERoad02",
+   "reason": "Фикс NPC-энкаунтера, не взаимодействие игрока"
+  },
+  {
+   "id": 38510,
+   "name": "Mount Anthor Dragon Fix",
+   "reason": "Квестовый фикс дракона"
+  },
+  {
+   "id": 145307,
+   "name": "Olenveld VR Boat Fix",
+   "reason": "Фикс лодки в новой земле: исключено (контент)"
+  },
+  {
+   "id": 72070,
+   "name": "Sailable Ship VR and SE",
+   "reason": "Плавание кораблей между мирами: контент/новая земля, исключено"
+  },
+  {
+   "id": 110260,
+   "name": "Animated Ships",
+   "reason": "Внешний вид кораблей, не локомоция игрока"
+  },
+  {
+   "id": 180614,
+   "name": "Reins of Rest",
+   "reason": "Освобождение лошади перед фаст-тревелом; VR не заявлен"
+  },
+  {
+   "id": 102881,
+   "name": "Riding Animation Overhaul (RAO)",
+   "reason": "Анимации всадника третьего лица, 0 VR-листов, VR не заявлен"
+  },
+  {
+   "id": 79297,
+   "name": "Carriages and Stables Dialogue Bundle",
+   "reason": "Диалоговый пакет, не интерактивность"
+  },
+  {
+   "id": 74611,
+   "name": "Bug Fix - Sprinting Spell Hand (Empty Spell Sprint Hand Fix)",
+   "reason": "Один лист (Tempus); руки в VR ведёт VRIK, эффект фикса не доказан"
+  },
+  {
+   "id": 145046,
+   "name": "Sneak Vignette",
+   "reason": "Плоский экранный эффект, VR не заявлен; комфорт-виньетка уже встроена в Skyrim VR"
+  },
+  {
+   "id": 172476,
+   "name": "VR HUD UI Reworked for Skyrim VR",
+   "reason": "UI-ветка, вне локомоции, не оценивался"
+  },
+  {
+   "id": 4784,
+   "name": "No More Standing Too Close SSE",
+   "reason": "Личное пространство NPC, VR-польза не доказана, один лист"
+  },
+  {
+   "id": 164631,
+   "name": "Lots of Ladders and Trapdoors too",
+   "reason": "Меши лестниц (контент), не VR-лазание"
+  },
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies",
+   "reason": "Всплыл в поиске без описания, подтвердить нечем"
+  }
+ ]
+}

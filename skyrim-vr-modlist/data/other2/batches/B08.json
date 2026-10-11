@@ -1,0 +1,854 @@
+{
+ "batch": "B08",
+ "band": "B",
+ "themes": {
+  "creatures": 20,
+  "land_nature": 13
+ },
+ "items": [
+  {
+   "id": 69570,
+   "name": "SSS-CT - Slaughterfish Stay Submerged - Collision Tweak",
+   "vr": 0,
+   "se": 9,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-06-15",
+   "vr_lists": [],
+   "se_lists": 9,
+   "files": [
+    "SSS-CT - Slaughterfish Stay Submerged - Collision Tweak-69570-1-0-1655053005.7z",
+    "SSS-CT for Savage Skyrim-69570-1-0-1655307560.7z"
+   ],
+   "author": "Reyvyn Nightveil",
+   "leftover": false,
+   "key": "id:69570",
+   "theme": "creatures"
+  },
+  {
+   "id": 39356,
+   "name": "Unreal 4K-8K Mammoth Skeleton ReTexture",
+   "vr": 2,
+   "se": 5,
+   "score": 9,
+   "band": "B",
+   "newest": "2020-08-13",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 5,
+   "files": [
+    "Unreal 2K Mammoth Skeleton ReTexture-39356-1-0-1597342421.7z",
+    "Unreal 4K Mammoth Skeleton ReTexture-39356-1-0-1597342395.7z"
+   ],
+   "author": "lorenloren",
+   "leftover": false,
+   "key": "id:39356",
+   "theme": "creatures"
+  },
+  {
+   "id": 58511,
+   "name": "Wall mounted dead animals fixes",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2021-11-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Wall mounted dead animals - Bears of the North-58511-1-1-1637240115.rar",
+    "Wall mounted dead animals fixes-58511-1-0-1636998454.rar"
+   ],
+   "author": "GGUNIT",
+   "leftover": false,
+   "key": "id:58511",
+   "theme": "creatures"
+  },
+  {
+   "id": 42508,
+   "name": "Yee Haaaa Horse Saddle Retexture",
+   "vr": 1,
+   "se": 7,
+   "score": 9,
+   "band": "B",
+   "newest": "2022-05-24",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "2K Fancy Saddle-42508-1-3-1653393478.7z",
+    "2K Horse Saddle-42508-1-3-1606158889.7z",
+    "2K Horse Saddle-42508-1-3-1653393763.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:42508",
+   "theme": "creatures"
+  },
+  {
+   "id": 105376,
+   "name": "[серия «vanargand animations», 3 модов] Vanargand Animations II - Unarmed Non Combat Locomotion и др.",
+   "vr": 1,
+   "se": 8,
+   "score": 9,
+   "band": "B",
+   "newest": "2023-11-23",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Vanargand Animations II - Unarmed Non Combat-105376-1-0-1700731715.7z"
+   ],
+   "author": "Verolevi",
+   "leftover": false,
+   "key": "id:105376",
+   "series": "vanargand animations",
+   "members": [
+    {
+     "id": 105376,
+     "name": "Vanargand Animations II - Unarmed Non Combat Locomotion",
+     "vr": 1,
+     "se": 7,
+     "newest": "2023-11-23",
+     "files": [
+      "Vanargand Animations II - Unarmed Non Combat-105376-1-0-1700731715.7z"
+     ]
+    },
+    {
+     "id": 101688,
+     "name": "Vanargand Animations II - Sprint",
+     "vr": 0,
+     "se": 8,
+     "newest": "2023-10-01",
+     "files": [
+      "CATA Addon - Vanargand Animations II Sprint-101688-1-0-1696181320.7z"
+     ]
+    },
+    {
+     "id": 117328,
+     "name": "Vanargand Animations II - Unarmed Normal And Power Attacks",
+     "vr": 1,
+     "se": 4,
+     "newest": "2026-08-31",
+     "files": [
+      "Vanargand Animations II - Unarmed Attacks-117328-1-0-1713681436.7z"
+     ]
+    }
+   ],
+   "theme": "creatures"
+  },
+  {
+   "id": 140627,
+   "name": "Addons For Dragons SE - Including Broken Horn for Paarthurnax",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2025-02-01",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Broken Horn for Paarthurnax-140627-1-0-1738443341.7z",
+    "Serpentine Dragon Replacer Full Rez-140627-1-0-1738443750.7z",
+    "Serpentine Dragon Replacer Half Rez-140627-1-0-1738443884.7z"
+   ],
+   "author": "Wolflady500",
+   "leftover": false,
+   "key": "id:140627",
+   "theme": "creatures"
+  },
+  {
+   "id": 21238,
+   "name": "Cannibal Draugr on Solstheim (Bloodmoon Creature Restoration Project)",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-06-07",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Cannibal Draugr on Solstheim-21238-2-2-1623042542.zip"
+   ],
+   "author": "opusGlass",
+   "leftover": false,
+   "key": "id:21238",
+   "theme": "creatures"
+  },
+  {
+   "id": 83458,
+   "name": "Cult of the True Dragonborn - Immersive Miraak Difficulty",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-01-27",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Immersive Miraak Difficulty 1.0.1-83458-1-0-1-1674807477.zip"
+   ],
+   "author": "Zamio",
+   "leftover": false,
+   "key": "id:83458",
+   "theme": "creatures"
+  },
+  {
+   "id": 6359,
+   "name": "Daedra-tastic Rune Spells",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-06-23",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Daedra-tastic Rune Spells-6359-1-4-0-1592894441.7z",
+    "Daedra-tastic Rune Spells-6359-1-4-0-1592894511.7z"
+   ],
+   "author": "Kailithnir",
+   "leftover": false,
+   "key": "id:6359",
+   "theme": "creatures"
+  },
+  {
+   "id": 72978,
+   "name": "Dynamic Animal Variants SPID (Updated Textures - Fixes - Improvements - And More)",
+   "vr": 2,
+   "se": 4,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-04-19",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Addon for 4K Mammoths (RELZ)-72978-RELZ-1660847294.7z",
+    "Addon for Original Texture Chance-72978-RELZ-1660872077.7z",
+    "Compatibility Patch - Fluffworks (Fluffy Animals)-72978-1-2-1-1676688425.7z"
+   ],
+   "author": "Bellyache - Dylan James - fadingsignal",
+   "leftover": false,
+   "key": "id:72978",
+   "theme": "creatures"
+  },
+  {
+   "id": 33791,
+   "name": "HD Meshes and Textures for Animal and Creature Drops",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2020-03-20",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "SSE HD Animal and Creature Drops-33791-1-0-1584709054.rar"
+   ],
+   "author": "aviform",
+   "leftover": false,
+   "key": "id:33791",
+   "theme": "creatures"
+  },
+  {
+   "id": 73802,
+   "name": "Immersive Vampire Clutter - Base Object Swapper (BOS)",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-08-30",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Immersive Vampire Clutter - Base Object Swapper-73802-1-3-1661869101.rar",
+    "Immersive Vampire Clutter - LITE-73802-1-3-1661869072.rar"
+   ],
+   "author": "MelwenMods",
+   "leftover": false,
+   "key": "id:73802",
+   "theme": "creatures"
+  },
+  {
+   "id": 82995,
+   "name": "Nocturnal's Birds Replacer- Mihail's Shards of Immersion (SE-AE) (''crow'')",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2023-01-18",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Nocturnal's Birds Replacer (se-ae)-82995-1-1674056300.rar"
+   ],
+   "author": "Mihail",
+   "leftover": false,
+   "key": "id:82995",
+   "theme": "creatures"
+  },
+  {
+   "id": 17639,
+   "name": "RUSTIC DRAGON CORPSE - Special Edition",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "RUSTIC DRAGON CORPSE SSE - 2K-17639-1-0.7z"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:17639",
+   "theme": "creatures"
+  },
+  {
+   "id": 81417,
+   "name": "Simpler Dragon Targeting - True Directional Movement",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-12-26",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "Simpler Dragon Targeting - True Directional Movement-81417-1-01-1672094447.7z"
+   ],
+   "author": "Mura",
+   "leftover": false,
+   "key": "id:81417",
+   "theme": "creatures"
+  },
+  {
+   "id": 49106,
+   "name": "SkyUI - Ghost Item Bug Fix",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2021-10-02",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "SkyUI - Ghost Item Bug Fix-49106-1-0-0-1633192591.zip"
+   ],
+   "author": "SkyUI Team and EdmanSA",
+   "leftover": false,
+   "key": "id:49106",
+   "theme": "creatures"
+  },
+  {
+   "id": 90547,
+   "name": "Spriggans SE",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2024-06-01",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 6,
+   "files": [
+    "1SpriggansSE-90547-2-1683051920.7z",
+    "1SpriggansSE-90547-3-1717235202.7z"
+   ],
+   "author": "Kyne",
+   "leftover": false,
+   "key": "id:90547",
+   "theme": "creatures"
+  },
+  {
+   "id": 53050,
+   "name": "Strike Obstruction Systems - Combat Blocking Overhaul",
+   "vr": 4,
+   "se": 0,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-01-31",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde",
+    "Tahrovin",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Strike Obstruction Systems - Combat Blocking Overhaul-53050-1-03-1628897987.7z",
+    "Strike Obstruction Systems - Combat Blocking Overhaul-53050-1-05-1643664052.7z"
+   ],
+   "author": "Ashen",
+   "leftover": false,
+   "key": "id:53050",
+   "theme": "creatures"
+  },
+  {
+   "id": 63153,
+   "name": "Surreal Spriggan Sap",
+   "vr": 1,
+   "se": 6,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-02-06",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 6,
+   "files": [
+    "Surreal Spriggan Sap SE 1k Textures-63153-v1-0-1644114879.7z",
+    "Surreal Spriggan Sap SE SMIM-63153-v1-0-1644114953.7z",
+    "Surreal Spriggan Sap SE-63153-v1-0-1644114815.7z"
+   ],
+   "author": "Hanaisse",
+   "leftover": false,
+   "key": "id:63153",
+   "theme": "creatures"
+  },
+  {
+   "id": 75830,
+   "name": "XPMSSE Spazzing Skeleton and Corpse Fix",
+   "vr": 0,
+   "se": 8,
+   "score": 8,
+   "band": "B",
+   "newest": "2022-09-20",
+   "vr_lists": [],
+   "se_lists": 8,
+   "files": [
+    "XPMSSE Spazzing Skeleton Fix-75830-1-0-1663695956.zip"
+   ],
+   "author": "Zipzopdippidybop",
+   "leftover": false,
+   "key": "id:75830",
+   "theme": "creatures"
+  },
+  {
+   "id": 89057,
+   "name": "Berrybog's Blackreach Bush",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-07-12",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Blackreach Bush - FOMOD-89057-2-0-1689124453.rar",
+    "Blackreach Bush ENB Light-89057-1-1-1681397811.rar",
+    "Darker Stalks Variant with Smaller Bulbs 2K-89057-1-0-1681369242.rar"
+   ],
+   "author": "BerryBog",
+   "leftover": false,
+   "key": "id:89057",
+   "theme": "land_nature"
+  },
+  {
+   "id": 97713,
+   "name": "FYX - Water Mesh Optimization",
+   "vr": 0,
+   "se": 11,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-08-11",
+   "vr_lists": [],
+   "se_lists": 11,
+   "files": [
+    "FYX - Water Mesh Optimization A 32-97713-1-0-2-1691765502.7z",
+    "FYX - Water Mesh Optimization B 72-97713-1-0-2-1691765522.7z",
+    "FYX - Water Mesh Optimization C 128-97713-1-0-2-1691765541.7z"
+   ],
+   "author": "Yuril",
+   "leftover": false,
+   "key": "id:97713",
+   "theme": "land_nature"
+  },
+  {
+   "id": 46531,
+   "name": "Gemstones Replacers HD SE",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-03-18",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "FalmerEyeGemstone 2K-46531-1-2-1616070810.7z",
+    "Gemstones Replacers HD SE Main Version-46531-1-2-1614949576.7z",
+    "kagrumez gems 1K-46531-1-2-1616070717.7z"
+   ],
+   "author": "PraedythXVI",
+   "leftover": false,
+   "key": "id:46531",
+   "theme": "land_nature"
+  },
+  {
+   "id": 63039,
+   "name": "JK's Sky Haven Temple",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2024-08-18",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "JK's Sky Haven Temple-63039-1-0-0-1644576562.rar",
+    "JK's Sky Haven Temple-63039-1-0-1-1724012643.7z"
+   ],
+   "author": "Jkrojmal",
+   "leftover": false,
+   "key": "id:63039",
+   "theme": "land_nature"
+  },
+  {
+   "id": 45952,
+   "name": "Mari's flora",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-04-12",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Mari's flora - High-45952-1-2-1618220726.7z",
+    "Mari's flora - Medium-45952-1-2-1618220800.7z"
+   ],
+   "author": "ArtByMari",
+   "leftover": false,
+   "key": "id:45952",
+   "theme": "land_nature"
+  },
+  {
+   "id": 18384,
+   "name": "Refracting Ice Form Debris",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2020-09-26",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Refracting Ice Form Debris - 2.0-18384-2-0-1601115163.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:18384",
+   "theme": "land_nature"
+  },
+  {
+   "id": 29842,
+   "name": "Septentrional Landscapes SE - 8K",
+   "vr": 5,
+   "se": 1,
+   "score": 11,
+   "band": "B",
+   "newest": "2020-04-29",
+   "vr_lists": [
+    "FUS",
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Septentrional Landscapes 2K-29842-1-3-2-1588173223.7z",
+    "Septentrional Landscapes 4K SE-29842-1-3-2-1584615630.7z"
+   ],
+   "author": "winedave",
+   "leftover": false,
+   "key": "id:29842",
+   "theme": "land_nature"
+  },
+  {
+   "id": 34179,
+   "name": "Skyland AIO",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-11-18",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Skyland AIO 1k-34179-4-32-1700282181.7z",
+    "Skyland AIO-34179-3-0-1649567546.7z",
+    "Skyland AIO-34179-3-12-1653450110.7z"
+   ],
+   "author": "Skyking2020",
+   "leftover": false,
+   "key": "id:34179",
+   "theme": "land_nature"
+  },
+  {
+   "id": 3850,
+   "name": "The Choice is Yours",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-06-14",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 7,
+   "files": [
+    "The Choice is Yours-3850-2-7-1674622720.7z",
+    "The Choice is Yours-3850-2-7-1686717377.7z"
+   ],
+   "author": "kryptopyr",
+   "leftover": false,
+   "key": "id:3850",
+   "theme": "land_nature"
+  },
+  {
+   "id": 11896,
+   "name": "UNSLAAD Voiced - English Addon",
+   "vr": 1,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2026-03-10",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Unslaad Voiced - English Addon SE 11896 3.0.6 Ae46W7YWI.zip",
+    "Unslaad Voiced - English Addon SE-11896-3-0-1-1692885402.zip",
+    "Unslaad Voiced - English Addon SE-11896-3-0-3-1737289693.zip"
+   ],
+   "author": "The Skyrim Voice Alliance",
+   "leftover": false,
+   "key": "id:11896",
+   "theme": "land_nature"
+  },
+  {
+   "id": 22506,
+   "name": "Wintersun - Faiths of Skyrim",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2021-06-17",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Wintersun - VR Patch-22506-3-1-6-1601751685.zip",
+    "Wintersun 3.2.0-22506-3-2-0-1623934121.zip"
+   ],
+   "author": "Enai Siaion",
+   "leftover": false,
+   "key": "id:22506",
+   "theme": "land_nature"
+  },
+  {
+   "id": 28952,
+   "name": "[серия «cities of», 8 модов] Cities of the North - Dawnstar и др.",
+   "vr": 2,
+   "se": 7,
+   "score": 11,
+   "band": "B",
+   "newest": "2023-11-20",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 7,
+   "files": [
+    "Cities of the North - Dawnstar-28952-1-2-1580945907.7z",
+    "Cities of the North - Dawnstar-28952-1-3-1671573615.7z",
+    "Cities of the North - Dawnstar-28952-1-4-1700479671.7z"
+   ],
+   "author": "JPSteel2",
+   "leftover": false,
+   "key": "id:28952",
+   "series": "cities of",
+   "members": [
+    {
+     "id": 28952,
+     "name": "Cities of the North - Dawnstar",
+     "vr": 2,
+     "se": 7,
+     "newest": "2023-11-20",
+     "files": [
+      "Cities of the North - Dawnstar-28952-1-2-1580945907.7z"
+     ]
+    },
+    {
+     "id": 30885,
+     "name": "Cities of the North - Dawnstar Patch Collection",
+     "vr": 2,
+     "se": 7,
+     "newest": "2026-02-24",
+     "files": [
+      "COTN Dawnstar Patch Collection-30885-2-4-2-1628401109.7z"
+     ]
+    },
+    {
+     "id": 40088,
+     "name": "Cities of the North - Winterhold",
+     "vr": 2,
+     "se": 6,
+     "newest": "2020-10-11",
+     "files": [
+      "Cities of the North - Winterhold-40088-1-1-1602459318.7z"
+     ]
+    },
+    {
+     "id": 56731,
+     "name": "Cities of the North - Falkreath",
+     "vr": 1,
+     "se": 7,
+     "newest": "2024-04-22",
+     "files": [
+      "Cities of the North - Falkreath Patch-56731-1-3-1681414570.7z"
+     ]
+    },
+    {
+     "id": 56734,
+     "name": "Cities of the North - Falkreath Patch Collection",
+     "vr": 1,
+     "se": 7,
+     "newest": "2026-01-12",
+     "files": [
+      "COTN Falkreath Patch Collection-56734-1-19-2-1682147846.7z"
+     ]
+    },
+    {
+     "id": 34168,
+     "name": "Cities of the North - Morthal",
+     "vr": 2,
+     "se": 4,
+     "newest": "2023-11-20",
+     "files": [
+      "Cities of the North - Morthal-34168-1-1-1587756250.7z"
+     ]
+    },
+    {
+     "id": 34228,
+     "name": "Cities of the North - Morthal Patch Collection",
+     "vr": 2,
+     "se": 4,
+     "newest": "2025-06-06",
+     "files": [
+      "COTN Morthal Patch Collection-34228-2-13-1679289993.7z"
+     ]
+    },
+    {
+     "id": 40181,
+     "name": "Cities of the North - Winterhold Patch Collection",
+     "vr": 2,
+     "se": 1,
+     "newest": "2025-05-21",
+     "files": [
+      "COTN Winterhold Patch Collection-40181-2-11-1644639148.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  },
+  {
+   "id": 59741,
+   "name": "[серия «soul cairn», 3 модов] Soul-Cairn Objects Secured и др.",
+   "vr": 3,
+   "se": 9,
+   "score": 11,
+   "band": "B",
+   "newest": "2022-05-03",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 9,
+   "files": [
+    "Soul-Cairn Objects Secured-59741-1-0-1639005871.7z",
+    "Soul-Cairn Objects Secured-59741-1-1-1651563988.7z"
+   ],
+   "author": "Fuzzles",
+   "leftover": true,
+   "key": "id:59741",
+   "series": "soul cairn",
+   "members": [
+    {
+     "id": 59741,
+     "name": "Soul-Cairn Objects Secured",
+     "vr": 1,
+     "se": 9,
+     "newest": "2022-05-03",
+     "files": [
+      "Soul-Cairn Objects Secured-59741-1-0-1639005871.7z"
+     ]
+    },
+    {
+     "id": 15481,
+     "name": "Soul Cairn HD",
+     "vr": 3,
+     "se": 2,
+     "newest": "2024-10-11",
+     "files": [
+      "Soul Cairn 2K -  Parallax-15481-5-0-1-1728656444.7z"
+     ]
+    },
+    {
+     "id": 79923,
+     "name": "Soul Cairn Trees and Shrubs Improved Textures",
+     "vr": 1,
+     "se": 2,
+     "newest": "2022-12-04",
+     "files": [
+      "Soul Cairn Trees and Shrubs Improved Textures-79923-1-0-1670091104.7z"
+     ]
+    }
+   ],
+   "theme": "land_nature"
+  }
+ ]
+}

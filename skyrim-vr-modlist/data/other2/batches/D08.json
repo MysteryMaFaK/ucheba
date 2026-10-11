@@ -1,0 +1,758 @@
+{
+ "batch": "D08",
+ "band": "D",
+ "themes": {
+  "body_face": 35
+ },
+ "items": [
+  {
+   "id": 150246,
+   "name": "Orc Strongholds - All In One",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-06-09",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Lux Orbis - Orc Strongholds AIO Patch-150246-1-2Orbis-1749463183.7z",
+    "Orc Strogholds - AIO - Lux Via Patch-150246-1-1LuxVia-1747475162.7z",
+    "Orc Strongholds - AIO - EFPS Patch-150246-1-0EFPS-1747472931.7z"
+   ],
+   "author": "JJerem",
+   "leftover": false,
+   "key": "id:150246",
+   "theme": "body_face"
+  },
+  {
+   "id": 21713,
+   "name": "Player Eyes Blink Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-09-23",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Blinking Player Eyes-21713-1-4-AE-1663947214.zip"
+   ],
+   "author": "NasiGorengSpesial",
+   "leftover": false,
+   "key": "id:21713",
+   "theme": "body_face"
+  },
+  {
+   "id": 18369,
+   "name": "QUASIPC - Qwinn's Unified Automated Self Installing Patch Compendium",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-05-10",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "QUASIPC - Unified Patch Compendium v2_5_0-18369-2-5-0-1557483615.7z"
+   ],
+   "author": "Qwinn",
+   "leftover": false,
+   "key": "id:18369",
+   "theme": "body_face"
+  },
+  {
+   "id": 2853,
+   "name": "RaceCompatibility for Skyrim Special Edition",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-10-08",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "BETA - Scion compatibility patch - graciously provided by MischiefBrew0-2853-2-13-1642945220.7z",
+    "RC_SacroSanct_Patch_By_GroundAura_For_5_17_And_6_0-2853-GA1-1696774329.7z",
+    "RaceCompatibility All-In-One Scripted Installer-2853-2-13-1632062457.7z"
+   ],
+   "author": "TMPhoenix",
+   "leftover": false,
+   "key": "id:2853",
+   "theme": "body_face"
+  },
+  {
+   "id": 38820,
+   "name": "SC - KS Hairdos Retextured",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-03-08",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "SC - KS Hairdos Retextured - Grayscale-38820-1-9-1646753176.7z",
+    "SC - KS Hairdos Retextured - Meghan fix-38820-1-8-1-1621960354.7z",
+    "SC - KS Hairdos Retextured - Physics-38820-1-4-2-1596293936.7z"
+   ],
+   "author": "ShinglesCat",
+   "leftover": false,
+   "key": "id:38820",
+   "theme": "body_face"
+  },
+  {
+   "id": 112273,
+   "name": "SC - Vanilla Hair Retex",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-02-22",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "SC - Vanilla Hair Retex - Dremora Horns-112273-1-0-1708564155.7z"
+   ],
+   "author": "ShinglesCat",
+   "leftover": false,
+   "key": "id:112273",
+   "theme": "body_face"
+  },
+  {
+   "id": 72014,
+   "name": "SCAR - Skyrim Combos AI Revolution",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-01-23",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "SCAR - Skyrim Combos AI Revolution-72014-v0-93-1660740665.7z",
+    "SCAR - Skyrim Combos AI Revolution-72014-v1-03-1662825758.7z",
+    "SCAR - Skyrim Combos AI Revolution-72014-v1-06b-1674447816.7z"
+   ],
+   "author": "Maxsu and Monitor144hz",
+   "leftover": false,
+   "key": "id:72014",
+   "theme": "body_face"
+  },
+  {
+   "id": 173086,
+   "name": "ShowRaceMenu - NG",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-04-18",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "ShowRaceMenu NG - Latest Version-173086-1-0-4-1776530436.zip"
+   ],
+   "author": "Seb263",
+   "leftover": false,
+   "key": "id:173086",
+   "theme": "body_face"
+  },
+  {
+   "id": 57002,
+   "name": "Skyland Imperial and Nordic Tents",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-09-24",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Skyland Imperial and Nordic Tents - Performance Ve-57002-1-7-1695518520.7z",
+    "Skyland Imperial and Nordic Tents 4K-57002-1-7-1695518414.7z",
+    "Skyland Imperial and Nordic Tents-57002-1-2-1634491602.7z"
+   ],
+   "author": "Skyking2020",
+   "leftover": false,
+   "key": "id:57002",
+   "theme": "body_face"
+  },
+  {
+   "id": 113255,
+   "name": "Take a Nap - Sleep on Chairs",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-08-18",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Take a Nap-113255-1-02-1723980562.zip"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:113255",
+   "theme": "body_face"
+  },
+  {
+   "id": 25574,
+   "name": "VHR - Vanilla Hair Replacer",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-01-27",
+   "vr_lists": [
+    "Tahrovin",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "VHR - Vanilla Hair Replacer-25574-2-0-1580140608.rar"
+   ],
+   "author": "preeum",
+   "leftover": false,
+   "key": "id:25574",
+   "theme": "body_face"
+  },
+  {
+   "id": 116624,
+   "name": "Venerable Nordic Temples Parallax Support",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-05-27",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Nordic Ruin Parallax Meshes-116624-1-1-1716844911.7z",
+    "Venerable Nordic Temples Parallax Support-116624-1-0-1713012993.7z"
+   ],
+   "author": "103Sakamoto",
+   "leftover": false,
+   "key": "id:116624",
+   "theme": "body_face"
+  },
+  {
+   "id": 135417,
+   "name": "Vicn - HIMBO Refit Hub",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-01-30",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "DAc0da - HIMBO Refits-135417-2-1-2-1738215518.7z",
+    "Unslaad - HIMBO Refits-135417-2-1-1-1736720594.7z",
+    "VIGILANT - HIMBO V5 Refits-135417-2-0-1735088972.7z"
+   ],
+   "author": "Hishigami",
+   "leftover": false,
+   "key": "id:135417",
+   "theme": "body_face"
+  },
+  {
+   "id": 161949,
+   "name": "Weight adjustment for Vanilla Hair Remake SMP",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-18",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "1_Weight adjustment for Vanilla hair remake SMP-161949-0-8-1760800390.zip",
+    "Weight adjustment for Vanilla hair remake SMP-161949-0-8-1760800390.zip"
+   ],
+   "author": "NiyahXB",
+   "leftover": false,
+   "key": "id:161949",
+   "theme": "body_face"
+  },
+  {
+   "id": 38547,
+   "name": "Wounds Overlays For RaceMenu",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-08-03",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Wounds Overlays For RaceMenu-38547-1-0-1595408884.rar",
+    "Wounds Overlays For RaceMenu-38547-1-1-1754234173.rar"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:38547",
+   "theme": "body_face"
+  },
+  {
+   "id": 54296,
+   "name": "[серия «himbo bodyslide preset», 3 модов] Norse God -- HIMBO Bodyslide Preset и др.",
+   "vr": 2,
+   "se": 2,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-08-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Norsegod preset-54296-1-0-1629602158.rar"
+   ],
+   "author": "M4ruko",
+   "leftover": false,
+   "key": "id:54296",
+   "series": "himbo bodyslide preset",
+   "members": [
+    {
+     "id": 54296,
+     "name": "Norse God -- HIMBO Bodyslide Preset",
+     "vr": 2,
+     "se": 1,
+     "newest": "2021-08-22",
+     "files": [
+      "Norsegod preset-54296-1-0-1629602158.rar"
+     ]
+    },
+    {
+     "id": 54349,
+     "name": "Greek God -- HIMBO Bodyslide Preset",
+     "vr": 1,
+     "se": 2,
+     "newest": "2021-08-22",
+     "files": [
+      "(1K) Skygazer Moons - Masser and Secunda HD Moons by fadingsignal-54349-1-0.rar"
+     ]
+    },
+    {
+     "id": 111807,
+     "name": "The Common Guy - SerketHetyt's HIMBO Bodyslide Preset",
+     "vr": 1,
+     "se": 2,
+     "newest": "2024-02-25",
+     "files": [
+      "The Common Guy - SerketHetyt's HIMBO Preset-111807-1-0-1708882425.rar"
+     ]
+    }
+   ],
+   "theme": "body_face"
+  },
+  {
+   "id": 128734,
+   "name": "A Good Death - Old Orc Overhaul",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-15",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "A Good Death - Default Face NPCs Fixed-128734-1-0-1725904898.zip",
+    "A Good Death - ESL - Pig Iron Req-128734-1-0-3-1768441586.zip",
+    "A Good Death - Old Orc Overhaul-128734-1-0-2-1753411913.zip"
+   ],
+   "author": "nimwraith",
+   "leftover": false,
+   "key": "id:128734",
+   "theme": "body_face"
+  },
+  {
+   "id": 72220,
+   "name": "ADXP I MCO elden rim moveset collection  (SCAR)",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-08-01",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "ER Moveset Collection NPC (CPR)-72220-1-1-1722517843.7z",
+    "ER moveset collection  (MCO)-72220-1-0-1658928197.rar",
+    "ER moveset collection (OAR)-72220-1-1-1686482090.zip"
+   ],
+   "author": "black",
+   "leftover": false,
+   "key": "id:72220",
+   "theme": "body_face"
+  },
+  {
+   "id": 7292,
+   "name": "Arri's Snow Elf Ruins Retexture Special Edition",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "SSE 2K Textures-7292-1-0.zip"
+   ],
+   "author": "arrioch",
+   "leftover": false,
+   "key": "id:7292",
+   "theme": "body_face"
+  },
+  {
+   "id": 9773,
+   "name": "BAT - Bigger Argonian Tails SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "BAT - Bigger Argonian Tails SE-9773-1-0-3.rar"
+   ],
+   "author": "Fearil",
+   "leftover": false,
+   "key": "id:9773",
+   "theme": "body_face"
+  },
+  {
+   "id": 43293,
+   "name": "Beards of Power - Sons of Skyrim - Male npc replacer",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-11",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Beards of Power - Sons of Skyrim-43293-2-0-1632594093.zip",
+    "Beards of Power - Sons of Skyrim-43293-3-3-7-1660502340.zip",
+    "Beards of Power - Sons of Skyrim-43293-3-5-1-1707666874.zip"
+   ],
+   "author": "Mharlek1",
+   "leftover": false,
+   "key": "id:43293",
+   "theme": "body_face"
+  },
+  {
+   "id": 96143,
+   "name": "COCO Demon Shade - CBBE-UUNP SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-07-20",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "COCO Demon Shade - CBBE 3BA-96143-1-0-1689871833.7z"
+   ],
+   "author": "COCO",
+   "leftover": false,
+   "key": "id:96143",
+   "theme": "body_face"
+  },
+  {
+   "id": 97906,
+   "name": "COCO Mysterious Mage - CBBE-UUNP SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-08-21",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "COCO Mysterious Mage - CBBE 3BA-97906-1-1-1692579780.7z"
+   ],
+   "author": "COCO",
+   "leftover": false,
+   "key": "id:97906",
+   "theme": "body_face"
+  },
+  {
+   "id": 33582,
+   "name": "COCO SINoALICE Snow - CBBE-TBD SE",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-04-02",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "COCO SINoALICE Snow - CBBE SE-33582-1-0-1585839545.7z",
+    "COCO SINoALICE Snow - No Heel Sounds SE-33582-1-0-1585839786.7z"
+   ],
+   "author": "COCO",
+   "leftover": false,
+   "key": "id:33582",
+   "theme": "body_face"
+  },
+  {
+   "id": 17512,
+   "name": "Crosshairs with different colours VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Crosshairs different colours-17512-0-9.zip"
+   ],
+   "author": "Vince Trust",
+   "leftover": false,
+   "key": "id:17512",
+   "theme": "body_face"
+  },
+  {
+   "id": 91712,
+   "name": "Custom Races - Patch Collection",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-11",
+   "vr_lists": [
+    "Tahrovin"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Custom Races - Patch Collection-91712-1-5-1686514121.zip"
+   ],
+   "author": "Moonlilia",
+   "leftover": false,
+   "key": "id:91712",
+   "theme": "body_face"
+  },
+  {
+   "id": 63176,
+   "name": "Dark Elf Lantern - ENB Light - Community Shader Light Limit Fix Light - Animated Glow",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-02-06",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dark Elf Lantern ENB Light-63176-0-2-1644165968.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:63176",
+   "theme": "body_face"
+  },
+  {
+   "id": 54515,
+   "name": "Default Face NPCs Fixed",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-04",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "DFNF - CC Seperate-54515-1-19-6-1714402957.7z",
+    "DFNF - Default Face NPCs Fixed-54515-1-20-1-1743198100.7z",
+    "DFNF - MAIN FOMOD 54515 1.25 2026-08-04T10-17Z oPpNfUOvM.7z"
+   ],
+   "author": "AndrealphusVIII and UnknownG12",
+   "leftover": false,
+   "key": "id:54515",
+   "theme": "body_face"
+  },
+  {
+   "id": 35180,
+   "name": "Drengin's Blue Palace Terrace",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-24",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "BluePalaceTerrace - Renewed-35180-2-1-1731947248.7z",
+    "BluePalaceTerrace SE-35180-1-0-1596056914.7z",
+    "BluePalaceTerrace-Renewed-35180-2-2-1756416692.7z"
+   ],
+   "author": "Drengin",
+   "leftover": false,
+   "key": "id:35180",
+   "theme": "body_face"
+  },
+  {
+   "id": 53071,
+   "name": "EASIER LOCKPICKING - Without Cheating - Nordic Retexture",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Easier Lockpicking 1_2 - Nordic Locks-53071-1-2.zip"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:53071",
+   "theme": "body_face"
+  },
+  {
+   "id": 122625,
+   "name": "ED Horns by Eria - Proper RaceMenu Integration",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-12-27",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "ED Horns - ESL Flagged-122625-1-0-0-1719280125.7z",
+    "ED Horns - Proper RaceMenu Integration-122625-1-2-0-1735285853.7z"
+   ],
+   "author": "naChooey and Eria",
+   "leftover": false,
+   "key": "id:122625",
+   "theme": "body_face"
+  },
+  {
+   "id": 104241,
+   "name": "ELLE - Abyss 3BA-BHUNP",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-07",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Abyss 3BA-104241-1-1699348969.rar"
+   ],
+   "author": "Ellxe",
+   "leftover": false,
+   "key": "id:104241",
+   "theme": "body_face"
+  },
+  {
+   "id": 1704,
+   "name": "FAR - Forgotten Argonian Roots",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-11-30",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "FAR - Forgotten Argonian Roots 4k-1704-2-0-1669845014.7z"
+   ],
+   "author": "FafnyB - formerly redtox",
+   "leftover": false,
+   "key": "id:1704",
+   "theme": "body_face"
+  },
+  {
+   "id": 51774,
+   "name": "FLAWN'S REDUX CBBE FUTA PATCH 2K-4k",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-06-29",
+   "vr_lists": [
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "FLAWNS REDUX CBBE FUTA PATCH 4K-51774-1-0-1625001849.rar"
+   ],
+   "author": "MW675",
+   "leftover": false,
+   "key": "id:51774",
+   "theme": "body_face"
+  },
+  {
+   "id": 122879,
+   "name": "Facial Hair by Khisartin - Standalone",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-03-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Khisartin Beards - Standalone-122879-1-0-0-1719626383.7z",
+    "Khisartin Beards - Standalone-122879-1-1-0-1741497182.7z",
+    "Khisartin Brows - Standalone-122879-1-0-0-1719626353.7z"
+   ],
+   "author": "Khisartin and naChooey",
+   "leftover": false,
+   "key": "id:122879",
+   "theme": "body_face"
+  }
+ ]
+}

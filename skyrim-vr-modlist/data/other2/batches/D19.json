@@ -1,0 +1,739 @@
+{
+ "batch": "D19",
+ "band": "D",
+ "themes": {
+  "land_nature": 36
+ },
+ "items": [
+  {
+   "id": 128956,
+   "name": "COTN Falkreath Center Tree Replacer",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-01-06",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "COTN Falkreath Center Tree Replacer - Lux Orbis-128956-1-1726070332.zip",
+    "COTN Falkreath Center Tree Replacer-128956-2-1-1736184370.zip",
+    "COTN Falkreath Center Tree Replacer-128956-2-1726233052.zip"
+   ],
+   "author": "ThunderCls",
+   "leftover": false,
+   "key": "id:128956",
+   "theme": "land_nature"
+  },
+  {
+   "id": 120229,
+   "name": "Cave Rocks Improved",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-05-27",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Cave Rocks Improved - Parallax-120229-1-1-1716819548.rar",
+    "Cave Rocks Improved-120229-1-1-1716819524.rar",
+    "Icy Cave Remaster Patch-120229-1-1-1716819595.rar"
+   ],
+   "author": "Janissrim",
+   "leftover": false,
+   "key": "id:120229",
+   "theme": "land_nature"
+  },
+  {
+   "id": 41956,
+   "name": "Caveworm Plant Retexture",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-06-13",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "2K Caveworm-41956-1-0-1604317541.7z",
+    "ENB Light Patch-41956-1-3-1677444982.7z",
+    "ENB Light Patch-41956-1-4-1686649719.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:41956",
+   "theme": "land_nature"
+  },
+  {
+   "id": 155703,
+   "name": "Cisterns of Skyrim - A Rain Barrel and Blood Barrel Replacer",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-06-07",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Cisterns Of Skyrim-155703-1-4-10-1780852647.rar",
+    "Cisterns Of Skyrim-155703-1-4-9-1778168582.rar",
+    "Cisterns of Skyrim - Brewery Cask Replacer-155703-1-0-1763519203.rar"
+   ],
+   "author": "sothasimp",
+   "leftover": false,
+   "key": "id:155703",
+   "theme": "land_nature"
+  },
+  {
+   "id": 64382,
+   "name": "Darkwater Crossing - A Great Towns and Villages of Eastmarch Addon Patch Collection",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-05-12",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Darkwater Crossing - TGV Addon Patch Collection-64382-1-0-1-1646171614.7z",
+    "Darkwater Crossing - TGV Addon Patch Collection-64382-1-2-1648585112.7z",
+    "Darkwater Crossing - TGV Addon Patch Collection-64382-1-3-1683869859.7z"
+   ],
+   "author": "MissileMann bkwrmgrl1 and Janquel",
+   "leftover": false,
+   "key": "id:64382",
+   "theme": "land_nature"
+  },
+  {
+   "id": 72751,
+   "name": "Delayed Quest Starts",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-06-29",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "A Daedra's Best Friend - Delayed - Bring Meeko To Lod Patch-72751-1-1-1671487722.7z",
+    "A Daedra's Best Friend - Delayed-72751-1-1-1671487676.7z",
+    "Blood On The Ice - Delayed Start-72751-1-4-1686863833.7z"
+   ],
+   "author": "AndrealphusVIII",
+   "leftover": false,
+   "key": "id:72751",
+   "theme": "land_nature"
+  },
+  {
+   "id": 100595,
+   "name": "Delphine Skyhaven Bugfix MQ203",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-09-14",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Delphine Skyhaven Fix-100595-1-00-1694686193.rar"
+   ],
+   "author": "leostevano",
+   "leftover": false,
+   "key": "id:100595",
+   "theme": "land_nature"
+  },
+  {
+   "id": 85196,
+   "name": "ERM - Enhanced Rocks and Mountains",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-07-06",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 3,
+   "files": [
+    "ERM - Enhanced Rocks and Mountains-85196-1-11-1680892495.7z",
+    "ERM - Optional Rock Texture Replacer (4K)-85196-1-23-1692661251.7z",
+    "Enhanced Rocks and Mountains -  Parallax-85196-1-2-1720181051.7z"
+   ],
+   "author": "CaptainCockerel",
+   "leftover": false,
+   "key": "id:85196",
+   "theme": "land_nature"
+  },
+  {
+   "id": 62144,
+   "name": "Enchantments Price Formula Fix",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-08-06",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Enchanting Cost Formula Fix-62144-2-0-0-1754519784.zip",
+    "Enchantments Price Formula Fix - Reversed Formula-62144-1-0-1-1642891733.zip"
+   ],
+   "author": "sasnikol",
+   "leftover": false,
+   "key": "id:62144",
+   "theme": "land_nature"
+  },
+  {
+   "id": 37228,
+   "name": "Enemy (R)Evolution of Skyrim - EEOS - Spell Perk Item Distributor Addon",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-01-18",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "EEOS - Enemy Revolution of Skyrim-37228-2-00-0-1659188362.7z",
+    "EEOS - Enemy Revolution of Skyrim-37228-2-01-1670610559.7z",
+    "EEOS - Enemy Revolution of Skyrim-37228-2-02-1705594315.7z"
+   ],
+   "author": "Mangekyoumadara1987",
+   "leftover": false,
+   "key": "id:37228",
+   "theme": "land_nature"
+  },
+  {
+   "id": 57816,
+   "name": "FUS RO DON'T - PushActorAway Crash Prevention Script Tweak",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-11-02",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "FUS RO DON'T - PushActorAway Crash Prevention Script Tweak-57816-1-0-0-1635832892.7z"
+   ],
+   "author": "celadoneiron",
+   "leftover": false,
+   "key": "id:57816",
+   "theme": "land_nature"
+  },
+  {
+   "id": 57963,
+   "name": "GLENMORIL - Delayed Start",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-06-04",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Glenmoril - Delayed Start-57963-2-0-0-1644848519.zip",
+    "Glenmoril - Delayed Start-57963-2-1-1749073011.zip"
+   ],
+   "author": "Aelarr",
+   "leftover": false,
+   "key": "id:57963",
+   "theme": "land_nature"
+  },
+  {
+   "id": 107975,
+   "name": "HD Remastered Northern Roads - Complex Parallax",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-07-15",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Northern Concept - Northern Roads 1K-107975-3-2-2-1721018197.7z",
+    "Northern Concept - Northern Roads 2K-107975-3-2-2-1721018146.7z",
+    "Northern Concept - Northern Roads-107975-3-2-2-1721018506.7z"
+   ],
+   "author": "JPDreamer",
+   "leftover": false,
+   "key": "id:107975",
+   "theme": "land_nature"
+  },
+  {
+   "id": 37985,
+   "name": "HD Stone Quarry and Clay Deposit SE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-11-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "HD Stone Quarry - Majestic Mountains Patch-37985-1-0-1594088505.7z",
+    "HD Stone Quarry and Clay Deposit SE - 2K v1.0.1-37985-1-0-1-1594335481.7z",
+    "HD Stone Quarry and Clay Deposit SE 2K v1.1-37985-1-1-0-1636210275.7z"
+   ],
+   "author": "skyrimaguas-TechAngel85",
+   "leftover": false,
+   "key": "id:37985",
+   "theme": "land_nature"
+  },
+  {
+   "id": 64360,
+   "name": "Half-Moon Mill - Cities of the North Addon",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-03-08",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "HMM - Custom Door Patch-64360-1-1646112983.zip",
+    "Half-Moon Mill - COTN Addon-64360-1-4-1646428993.zip",
+    "Half-Moon Mill - COTN Addon-64360-1-5-1646722947.zip"
+   ],
+   "author": "Missile",
+   "leftover": false,
+   "key": "id:64360",
+   "theme": "land_nature"
+  },
+  {
+   "id": 88869,
+   "name": "ICFur's Improved Reach Fern",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-05-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "2k Textures - Improved Reach Fern-88869-1-0-1681062203.7z",
+    "ICFurs Improved Reach Fern - FOMOD-88869-1-1-1780146110.7z"
+   ],
+   "author": "ICFur",
+   "leftover": false,
+   "key": "id:88869",
+   "theme": "land_nature"
+  },
+  {
+   "id": 27834,
+   "name": "Immersive Fallen Trees Patch",
+   "vr": 2,
+   "se": 1,
+   "score": 5,
+   "band": "D",
+   "newest": "2019-07-31",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 1,
+   "files": [
+    "Immersive Fallen Trees Patch-27834-1-2-1564610193.7z"
+   ],
+   "author": "Umgak",
+   "leftover": false,
+   "key": "id:27834",
+   "theme": "land_nature"
+  },
+  {
+   "id": 128579,
+   "name": "JS Badges of Office SE",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-01-28",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "JS Badges of Office SE - 1k Textures-128579-1-0-1726063538.rar",
+    "JS Badges of Office SE - Bodyslide HIMBO 3BA-128579-1-1-1769584629.zip"
+   ],
+   "author": "johnskyrim",
+   "leftover": false,
+   "key": "id:128579",
+   "theme": "land_nature"
+  },
+  {
+   "id": 90824,
+   "name": "Kabu's Really Gourd Plant Replacer",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2023-05-24",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Kabu's Really Gourd Plant Replacer 2k-1k-90824-1-4a-1684805689.rar",
+    "Kabu's Really Gourd Plant Replacer 2k-1k-90824-1-4c-1684949663.rar",
+    "Kabu's Really Gourd Plant Replacer 2k-1k-90824-1-4d-1684966000.rar"
+   ],
+   "author": "Kabu",
+   "leftover": false,
+   "key": "id:90824",
+   "theme": "land_nature"
+  },
+  {
+   "id": 187070,
+   "name": "LOD Refresh Bug Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-08-07",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "LOD Refresh Bug Fix 187070 1.0.0 2026-08-01T16-11Z yIjvuh3eR.zip",
+    "LOD Refresh Bug Fix 187070 1.0.1 2026-08-07T16-58Z pQ0AZ3Eqh.zip"
+   ],
+   "author": "Bottle",
+   "leftover": false,
+   "key": "id:187070",
+   "theme": "land_nature"
+  },
+  {
+   "id": 42854,
+   "name": "Loki's Wade In Water",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2020-11-28",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Loki_WadeInWater-42854-v1-1606602483.rar"
+   ],
+   "author": "Loki",
+   "leftover": false,
+   "key": "id:42854",
+   "theme": "land_nature"
+  },
+  {
+   "id": 68881,
+   "name": "Mari's Flora Texture Tweaks",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-05-30",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Mari's Flora Texture Tweaks-68881-1-0-1653951002.7z"
+   ],
+   "author": "Blackread",
+   "leftover": false,
+   "key": "id:68881",
+   "theme": "land_nature"
+  },
+  {
+   "id": 59927,
+   "name": "Menhir - Standing Stones of Skyrim",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-11-25",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Menhir - Standing Stones of Skyrim - Rebalanced-59927-V2-0-1-1718745249.7z",
+    "Menhir - Standing Stones of Skyrim-59927-V1-0-3-1683316208.7z",
+    "Menhir - Standing Stones of Skyrim-59927-V2-1-1732524571.7z"
+   ],
+   "author": "Magus80",
+   "leftover": false,
+   "key": "id:59927",
+   "theme": "land_nature"
+  },
+  {
+   "id": 4301,
+   "name": "Moon and Star",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Immersion Patch-4301-2-0.zip",
+    "Moon and Star-4301-3-2.zip"
+   ],
+   "author": "Gan Xingba",
+   "leftover": false,
+   "key": "id:4301",
+   "theme": "land_nature"
+  },
+  {
+   "id": 60655,
+   "name": "Mostly Treeless Tundra",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-08-31",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Mostly Treeless Tundra-60655-2-1-1725082941.zip"
+   ],
+   "author": "AgentW",
+   "leftover": false,
+   "key": "id:60655",
+   "theme": "land_nature"
+  },
+  {
+   "id": 24701,
+   "name": "Name Those Ash Piles",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-12-18",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Name Those Ash Piles-24701-5-0-0-1754323903.7z",
+    "Name Those Ash Piles-24701-5-0-1-1766063057.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:24701",
+   "theme": "land_nature"
+  },
+  {
+   "id": 70336,
+   "name": "No Crime Teleport - Voice Consistency Fix",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2022-06-28",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "No Crime Teleport - Voice Consistency Fix-70336-2-1-1656425799.7z"
+   ],
+   "author": "Korodic",
+   "leftover": false,
+   "key": "id:70336",
+   "theme": "land_nature"
+  },
+  {
+   "id": 63953,
+   "name": "Optional Quick Start - SE",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2026-02-21",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Optional Quick Start - SE-63953-1-2-0-1737213947.7z",
+    "Optional Quick Start - SE-63953-1-2-2-1771715657.7z"
+   ],
+   "author": "Arvyn",
+   "leftover": false,
+   "key": "id:63953",
+   "theme": "land_nature"
+  },
+  {
+   "id": 146986,
+   "name": "Peryite Revoiced",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-04-06",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Peryite Revoiced - The Only Cure Patch-146986-1-0-1743979069.zip",
+    "Peryite Revoiced-146986-1-0-1743978994.zip"
+   ],
+   "author": "LeoMaximus",
+   "leftover": false,
+   "key": "id:146986",
+   "theme": "land_nature"
+  },
+  {
+   "id": 131791,
+   "name": "Praedy's Azura's star and realm",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-10-20",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Praedy's Azura's star and realm 2K-131791-1-1-1729398755.7z"
+   ],
+   "author": "Praedyth",
+   "leftover": false,
+   "key": "id:131791",
+   "theme": "land_nature"
+  },
+  {
+   "id": 88579,
+   "name": "Rally's Mods - Shibui Skyrim Recolor",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-06-11",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Rally's Mods - Shibui Skyrim Recolor 2K FOMOD-88579-2-0-1696820026.7z",
+    "Rally's Mods - Shibui Skyrim Recolor 2K FOMOD-88579-2-2-1717772873.7z",
+    "Rally's Mods - Shibui Skyrim Recolor 2K FOMOD-88579-2-3-1718092401.7z"
+   ],
+   "author": "Bingus - Rallyeator",
+   "leftover": false,
+   "key": "id:88579",
+   "theme": "land_nature"
+  },
+  {
+   "id": 67209,
+   "name": "Remove Rock Moss and Tree Lichen",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2024-09-25",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Remove Rock Moss and Tree Lichen-67209-1-1-1727241315.7z"
+   ],
+   "author": "Corsafire",
+   "leftover": false,
+   "key": "id:67209",
+   "theme": "land_nature"
+  },
+  {
+   "id": 75380,
+   "name": "Revamped Assets Skyrim",
+   "vr": 0,
+   "se": 5,
+   "score": 5,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [],
+   "se_lists": 5,
+   "files": [
+    "Revamped Assets Skyrim - High-75380-0-31.7z"
+   ],
+   "author": "jiffy",
+   "leftover": false,
+   "key": "id:75380",
+   "theme": "land_nature"
+  },
+  {
+   "id": 147305,
+   "name": "Riverwood Log Pile FIX - Base Object Swapper and HLT",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2025-10-21",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Log Pile FIX - SWAP file update-147305-1-4-1761016362.rar",
+    "a) Log Pile FIX - No Supports - HLT-147305-1-3-1745464810.rar",
+    "b) Log Pile FIX - with supports - HLT-147305-1-3-1745464877.rar"
+   ],
+   "author": "FrankBlack",
+   "leftover": false,
+   "key": "id:147305",
+   "theme": "land_nature"
+  },
+  {
+   "id": 52153,
+   "name": "Seagulls of Skyrim",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2021-07-18",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Seagulls of Skyrim - ESL-52153-1-4-1626631394.rar",
+    "Seagulls of Skyrim - Riften Version - ESL-52153-1-4-1626631556.rar"
+   ],
+   "author": "Preeum",
+   "leftover": false,
+   "key": "id:52153",
+   "theme": "land_nature"
+  },
+  {
+   "id": 94135,
+   "name": "Shibui Skyrim",
+   "vr": 1,
+   "se": 3,
+   "score": 5,
+   "band": "D",
+   "newest": "2018-10-28",
+   "vr_lists": [
+    "FUS"
+   ],
+   "se_lists": 3,
+   "files": [
+    "Shibui Skyrim-94135-1-1-0-1540726585.7z"
+   ],
+   "author": "ciathyza",
+   "leftover": false,
+   "key": "id:94135",
+   "theme": "land_nature"
+  }
+ ]
+}

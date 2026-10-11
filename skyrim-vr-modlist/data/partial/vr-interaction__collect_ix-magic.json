@@ -1,0 +1,795 @@
+{
+ "section_lead": "Основа ручной магии в Core уже есть: VRIK (жесты и Open Hand Casting), ISPVR, Magic Improvements VR, Spell Wheel VR, Spellsiphon, Dual Casting Fix VR, Spell Auto-Aim VR, Telekinesis Aim Fix, Haptic Skyrim VR. Новых «столпов» в VR почти нет (поиск не нашёл свежих релизов 2026), поэтому подборка небольшая: прицеливание (SpellBender VR), визуал и свет рук (Strange Runes VR, First person magic hand light fix, VR Bound Bow FX), аддон к Spellsiphon, невидимость, голосовые крики и комфортные правки эффектов. Оговорки: Nexus закрыт, описания части модов взяты из имён архивов, GitHub и сниппетов поиска.",
+ "picks": [
+  {
+   "key": "id:164902",
+   "id": 164902,
+   "name": "SpellBender VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/164902",
+   "section": "ix_magic",
+   "tag": "alt",
+   "choose_one_group": "spell-aim-assist",
+   "what": "SKSE-плагин: «подгибает» снаряды-заклинания к цели и увеличивает дальность полёта проектильных заклинаний на уровне движка.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde, Tempus Maledictum VR",
+   "files": "SpellBender VR-164902-1-0-2-1768897338.zip (1.0.2, оба списка)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "interplay": "В MODLIST упомянут только как несовместимый со Spell Auto-Aim VR (#119689) и пересекающийся с MISVR (#55751). Но Tempus и Panda's кладут SpellBender, Spell Auto-Aim и MISVR вместе, так что жёсткого конфликта, видимо, нет. Это альтернатива Spell Auto-Aim, а не добавка к нему. Модов с руками HIGGS/PLANCK/VRIK не затрагивает.",
+   "note": "Брать вместо Spell Auto-Aim VR или тестировать вместе, начиная с одного. Проверить огненные шары и льдины на дальней дистанции, лог sksevr.log. По заявлению автора (по MODLIST) с Spell Auto-Aim несовместим, но два списка ставят оба: проверить самому.",
+   "evidence": "GitHub SamuelJohnBrown/SpellBender-VR---Release-source-file: «skse mod that bends missile type projectiles for skyrim VR and extends the distance of projectile spells at game engine level» (обновлён 2026-01-21). whouses 164902: Tempus, Panda's — файл 1.0.2. whouses 119689: Spell Auto Aim VR 1.0.1 стоит в тех же Tempus и Panda's."
+  },
+  {
+   "key": "id:30558",
+   "id": 30558,
+   "name": "SkyrimVR Strange Runes — Spellcasting Enhanced (VR Edition / Palm Edition)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/30558",
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Светящиеся руны на ладонях при касте (стиль Doctor Strange). Есть отдельное обновление «Palm Edition» для каста ладонью.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde, Yggdrasil VR",
+   "files": "SkyrimVR Strange Runes - Spellcasting Enhanced VR Edition-30558-2-5-1574612725.rar (оба списка); Yggdrasil дополнительно «... VR Palm Edition Update-30558-2-5-1638459910.rar»",
+   "requires": [],
+   "interplay": "Чисто визуальный мод на кисти, не конфликтует с HIGGS/PLANCK. «Palm Edition» подходит к ладонному прицеливанию MISVR и ISPVR (каст раскрытой ладонью): если ставите ISPVR/Open Hand Casting, брать Palm. С 3D Casting FX и KittyVFX (эффекты рук) не пересекается по данным, но визуал рук лучше ставить последним. Плоский «Strange Runes» (#19456, FUS) для VR не берите.",
+   "note": "Без ENB. Порядок: после MISVR/ISPVR. Если выше всё-таки накладываются два эффекта на ладонях, отключить один. Содержимое Palm-обновления — по имени файла, описание не прочитано.",
+   "evidence": "whouses 30558: Panda's (VR Edition 2.5), Yggdrasil (VR Edition + Palm Edition Update). Сторонний обзор (поиск): флэт-мод «places glowing rune effects on the player's palms during spellcasting»."
+  },
+  {
+   "key": "id:157974",
+   "id": 157974,
+   "name": "Elemental Fury VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/157974",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "VR-вариант правки крика/эффекта Elemental Fury. Что именно правит — страница недоступна, судя по имени архива, это VR-порт, версия 1.0 (2025-08).",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Spirit of Grit, Tahrovin - Grit",
+   "files": "ElementalFuryVR-157974-1-0-1756430621.7z (1.0)",
+   "requires": [],
+   "interplay": "С HIGGS/PLANCK/VRIK не связан (магия крика). Не путать с «Better Elemental Fury (And Battle Fury)» #127294 (Tempus, ESP-FE) — это отдельный мод. Если в сборке нет Thunderchild/Stormcrown Shouts (исключены), конфликтов по крикам нет.",
+   "note": "Содержимое не проверено: открыть страницу мода и прочитать описание перед установкой. Ставить только если используется крик Elemental Fury.",
+   "evidence": "whouses 157974: три VR-листа, один и тот же файл. Описание страницы получить не удалось (Nexus закрыт, поиск пуст)."
+  },
+  {
+   "key": "id:63889",
+   "id": 63889,
+   "name": "Enhanced Invisibility VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63889",
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "VR-версия Enhanced Invisibility (powerofthree): улучшенный вид невидимости игрока и NPC. Плоскую версию в VR не ставить.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "Panda's Sovngarde, Tahrovin, Yggdrasil VR",
+   "files": "Yggdrasil VR: «1_Enhanced Invisibility VR-63889-1-3-0-1753942607.7z» (1.3.0, 2025-07, самая свежая); Panda's и Tahrovin: «Enhanced Invisibility VR-63889-1-2-0-1645342397.7z» (1.2.0)",
+   "requires": [],
+   "interplay": "Дополняет «NPCs React To Invisibility» из MODLIST (там поведение NPC, тут визуал). Плоская версия #61950 стоит в 14 SE-листах, в VR — нет. Не затрагивает HIGGS/PLANCK/VRIK.",
+   "note": "Брать 1.3.0 (Yggdrasil). Проверить в шлеме, что мерцание/шимер невидимости не слепит у глаз. Плоскую #61950 не ставить.",
+   "evidence": "whouses 63889: три VR-листа; whouses 61950: 14 SE-листов, 0 VR. Step wiki: «Enhanced Invisibility by powerofthree» (плоская). Описание VR-страницы не получено."
+  },
+  {
+   "key": "id:116601",
+   "id": 116601,
+   "name": "Enchantment Art Extender VR (+ EAE #105492; VR 2 #142337)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/116601",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фреймворк, который позволяет наборам зачарований менять «арт» эффекта на оружии; сам по себе внешне ничего не меняет, нужен паре модов-визуалов.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "FUS, Tahrovin (EAE 1.0.3 + VR 1.0.2); Panda's Sovngarde (EAE 2.0.4 + «EAE VR 2» 2.0.0.4 + Vibrant Weapons EAE)",
+   "files": "Старая пара: «Enchantment Art Extender-105492-1-0-3-1707840820.7z» + «Enchantment Art Extender VR-116601-1-0-2-1712994147.7z» (FUS, Tahrovin). Новая пара: «Enchantment Art Extender-105492-2-0-4-1734444623.7z» + «Enchantment Art Extender VR-142337-2-0-0-4-1740031568.7z» (Panda's)",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "interplay": "Версии EAE и EAE VR нужно брать парой: 1.0.x с VR 1.0.2 или 2.0.4 с VR 2. Ставить только если есть мод, использующий EAE (например Vibrant Weapons EAE — Enchantment Lights #136564). Не пересекается с HIGGS/PLANCK.",
+   "note": "Проверить пару версий и лог sksevr.log. Вид зачарований — внешний слой, не обязателен.",
+   "evidence": "whouses 105492, 116601, 142337 (см. файлы). Step wiki: «SkyrimSE: Enchantment Art Extender» (плоская). Описание VR-страниц не получено."
+  },
+  {
+   "key": "id:142757",
+   "id": 142757,
+   "name": "First person magic hand light fix",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/142757",
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Правка света от заклинаний в руке в виде от первого лица (по имени мода). Содержимое по странице не проверено.",
+   "vr_status": "unknown",
+   "in_lists": "Stormcrown VR, Tempus Maledictum VR (плюс 4 SE-листа)",
+   "files": "First person magic hand light fix-142757-1-0-0-1740412015.zip (1.0.0)",
+   "requires": [],
+   "interplay": "В Core уже есть CS Light (ISL для магии в руках и снарядов) и Rally's Candlelight/Magelight Fix: фикс может пересечься с ними по свету руки. Ставить ниже CS Light и проверить, нет ли удвоения света. С HIGGS/PLANCK/VRIK не связан.",
+   "note": "Помечен в ix_magic ещё одним сборщиком (hands-objects): дубль ключа. Проверить свет заклинания в шлеме: не слепит ли и не пропадает ли при касте.",
+   "evidence": "whouses 142757: Stormcrown VR и Tempus (VR), Nordic Souls/Nordic Souls PBR/Tomes of Talos/Wunduniik (SE). Архив 1.0.0 (2025-02)."
+  },
+  {
+   "key": "id:35687",
+   "id": 35687,
+   "name": "VR Bound Bow FX Restored",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/35687",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Возвращает эффект призванного лука в VR (в названии «restored»). Описание страницы недоступно.",
+   "vr_status": "vr_native",
+   "in_lists": "Librum VR (плюс LoreRim из SE)",
+   "files": "VR Bound Bow FX Restored-35687-1-0-1588852179.7z (1.0)",
+   "requires": [],
+   "interplay": "Работает с Simple Realistic Archery VR из Core и Seamless Arrow Nocking: меняет только эффект лука. С HIGGS/PLANCK не конфликтует. В Other-2 уже есть «Fixed Bound Sword and Dagger Collision» (#60064) — это про меч и кинжал, не про лук.",
+   "note": "Нужен только если играете за мага-лучника с призывным луком. Один список, 2020 год: ожидайте мелкую правку, не обязательную.",
+   "evidence": "whouses 35687: Librum VR (VR), LoreRim (SE). Список «только VR» нет, а «VR» стоит в названии мода."
+  },
+  {
+   "key": "id:72174",
+   "id": 72174,
+   "name": "Yelling At The Sky — Immersive VR Transformations",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/72174",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "VR-вариант превращений (оборотень, Повелитель-вампир) через жест/крик. Описание страницы недоступно, содержимое по названию.",
+   "vr_status": "vr_native",
+   "in_lists": "Panda's Sovngarde, FUS, Yggdrasil VR",
+   "files": "Yelling At the Sky VR-72174-0-9-1659060626.7z (0.9, во всех трёх)",
+   "requires": [],
+   "interplay": "Идёт в паре с Vampire Body for VR и Werewolf Body for VR (Other-1, rec): тела в превращении. Конфликтов с HIGGS/PLANCK/VRIK не выявлено, но во время превращения VRIK не рисует руки, это нормально. Сначала не ставить вместе с мод-превращениями, которые меняют те же способности.",
+   "note": "Версия 0.9, 2022. Проверить: превращение срабатывает и возврат в обычное тело не ломает руки VRIK (калибровка роста).",
+   "evidence": "whouses 72174: три VR-листа (Panda's, FUS, Yggdrasil), SE-листов нет. Hands-сборщик оставил этот мод для магии."
+  },
+  {
+   "key": "n:skyvoice-vr",
+   "id": null,
+   "name": "SkyVoice (VR) — Thu'um by voice",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/17840",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": "voice-shouts",
+   "what": "Крик голосом: вы говорите слова крика («Fus Ro Dah»), и персонаж кричит. Работает через VoiceMacro, WSR Macros, VoiceAttack или DSN.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "none",
+   "files": "Файл не подтверждён: страница Nexus недоступна, номер 17840 — из выдачи поиска, сопоставление с названием проверить.",
+   "requires": [
+    "SKSE (VR)",
+    "VoiceMacro или Windows Speech Recognition Macros или VoiceAttack или Dragonborn Speaks Naturally"
+   ],
+   "interplay": "DSN из Other-1 (#16514) уже стоит и слушает микрофон: SkyVoice может использовать его как распознаватель. Конфликт с ИИ-NPC (Mantella, CHIM, SkyrimNet): тот же микрофон; пока что держите включённым одно. Лаг голоса ≈1–1.2 с. Не пересекается с HIGGS/PLANCK/VRIK.",
+   "note": "Это скорее «для ролёвки». Если используете ИИ-NPC, не ставьте. Нужна тренировка Windows Speech Recognition.",
+   "evidence": "Результаты поиска: «SkyVoice: modified VR compatible version ... works with VoiceMacro or WSR Macros or VoiceAttack or Dragonborn Speaks Naturally; lag 1.2 s (WSR) / 1 s (VoiceMacro)». Страница Nexus не читалась. Свежесть не проверена (источники ~2018)."
+  },
+  {
+   "key": "n:skyrim-voice-control-module",
+   "id": null,
+   "name": "Skyrim Voice Control Module (SVCM) for SkyrimVR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/17320",
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": "voice-shouts",
+   "what": "Голосом выбираются заклинание, сила, крик и 5 наборов экипировки правой/левой руки. Только выбирает; применить нужно кнопкой.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "none",
+   "files": "Файл не подтверждён: Nexus недоступен, номер 17320 — из выдачи поиска, сопоставление с названием проверить.",
+   "requires": [
+    "SKSE (VR)",
+    "Windows Speech Recognition + Windows Speech Recognition Macros"
+   ],
+   "interplay": "Spell Wheel VR (Core) уже выбирает заклинания рукой; SVCM нужен только если хотите именно голос. Микрофон тот же, что у DSN и ИИ-NPC: конфликтует. Лучше не сочетать с Spell Wheel для одних и тех же слотов. HIGGS/PLANCK/VRIK не затрагивает.",
+   "note": "Поддержка до 800 заклинаний и 100 криков (по описанию в поиске). Для большинства сборок избыточно.",
+   "evidence": "Результаты поиска: «SVCM enables voice control for spell/power/shout selection as well as 5 right and left hand equip sets ... relies on Windows Speech Recognition (Macros) ... loads but does not fire the loaded ability». Дата и последняя версия не проверены."
+  },
+  {
+   "key": "n:skyrimvr-3dirp",
+   "id": null,
+   "name": "skyrimvr-3DIRP — 3D UI Replacement for the spell menu (LXE97, GitHub)",
+   "url": "https://github.com/LXE97/skyrimvr-3DIRP",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "3D-замена меню заклинаний для Skyrim VR от автора Wearable Health Bars и Seamless Arrow Nocking. Пока только GitHub-проект (создан 2026-07-02).",
+   "vr_status": "vr_native",
+   "in_lists": "none",
+   "files": "Релиз на Nexus или в GitHub Releases не подтверждён; брать только после выхода собранного релиза.",
+   "requires": [
+    "SKSEVR (#30457)",
+    "VR Address Library for SKSEVR (#58101)"
+   ],
+   "interplay": "Пересекается со Spell Wheel VR (#47630) и меню SkyUI VR: не ставить вместе, пока автор не опишет совместимость. С HIGGS/PLANCK/VRIK автор обычно совместим (его Wearable Health Bars, Arrow Nocking работают рядом).",
+   "note": "Сырой проект: в список не включать без готового релиза и логов. Следить за страницей автора. 1 открытый issue.",
+   "evidence": "GitHub-поиск: LXE97/skyrimvr-3DIRP, описание «3D UI Replacement for skyrim spell menu», C++, обновлён 2026-09-19. Его же Wearable Health Bars (#65737) стоит в 6 VR-листах."
+  },
+  {
+   "key": "id:112297",
+   "id": 112297,
+   "name": "Spellsiphon — Experience Patch",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/112297",
+   "section": "ix_magic",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Аддон к Spellsiphon (Core, opt): патч опыта навыков за заклинания Spellsiphon.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR, Spirit of Grit, Tahrovin - Grit",
+   "files": "Spellsiphon - Experience Patch-112297-1-1-1708612045.7z (1.1, во всех трёх)",
+   "requires": [
+    "Spellsiphon (#26627), Complete Edition 5.27–5.28"
+   ],
+   "interplay": "Добавляет ценность ТОЛЬКО если Spellsiphon уже стоит. Не нужен при Mysticism — A Magic Overhaul, если он правит те же записи опыта: проверить порядок (Mysticism выше, патч ниже). С HIGGS/PLANCK/VRIK не связан.",
+   "note": "Содержание патча по названию и числу списков (не прочитан). Тестировать: опыт растёт за каст Spellsiphon.",
+   "evidence": "whouses 112297: три VR-листа. whouses 26627: Spellsiphon — Complete Edition во всех этих же списках."
+  },
+  {
+   "key": "id:87315",
+   "id": 87315,
+   "name": "Eagle Eye Cursor Replacer for Skyrim VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/87315",
+   "section": "ix_ui",
+   "tag": "opt",
+   "choose_one_group": "vr-crosshair",
+   "what": "Замена прицела/курсора для VR (по названию). Нужна, чтобы лучше видеть цель при стрельбе заклинаниями.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Stormcrown VR, Panda's Sovngarde, FUS",
+   "files": "Eagle Eye Cursor Replacer for Skyrim VR-87315-0-1-1679370970.zip (0.1, во всех четырёх)",
+   "requires": [],
+   "interplay": "Это прицел-ориентир: действует вместе с MISVR/Spell Auto-Aim/SpellBender, но не заменяет их. Крайне вероятно конфликтует с «Crosshairs with different colours VR» (#17512): брать одно (группа vr-crosshair). HIGGS/PLANCK/VRIK не затрагивает.",
+   "note": "Версия 0.1, 2023. Описание страницы не получено.",
+   "evidence": "whouses 87315: четыре VR-листа (Stormcrown 2026). Страница недоступна."
+  },
+  {
+   "key": "id:17512",
+   "id": 17512,
+   "name": "Crosshairs with different colours VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/17512",
+   "section": "ix_ui",
+   "tag": "alt",
+   "choose_one_group": "vr-crosshair",
+   "what": "Цветные прицелы для VR (по названию). Альтернатива Eagle Eye Cursor Replacer.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus Maledictum VR, Yggdrasil VR",
+   "files": "Crosshairs different colours-17512-0-9.zip (0.9)",
+   "requires": [],
+   "interplay": "Заменяет тот же элемент HUD, что и Eagle Eye (#87315): ставить один. HIGGS/PLANCK/VRIK не затрагивает.",
+   "note": "Старый мод (v0.9). Берите только если не подошёл Eagle Eye.",
+   "evidence": "whouses 17512: два VR-листа, один и тот же файл."
+  },
+  {
+   "key": "id:112605",
+   "id": 112605,
+   "name": "StatFX — ImageSpace Modifiers for Health, Magicka, Stamina",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/112605",
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Эффекты изображения (imagespace) при низком здоровье, магике и выносливости, как обратная связь вместо полосок на HUD.",
+   "vr_status": "works_as_is",
+   "in_lists": "Tempus Maledictum VR, Spirit of Grit, Tahrovin - Grit",
+   "files": "StatFX - new default configs included-112605-1-1-0-1709775119.7z (1.1.0, во всех трёх)",
+   "requires": [],
+   "interplay": "Частично дублирует Better Resource Warnings (сердцебиение, звук) и полоски на запястье Spell Wheel VR. Сильные full-screen эффекты в VR могут укачивать: выставить мягкие значения. HIGGS/PLANCK/VRIK не затрагивает.",
+   "note": "Если укачивает — отключить эффект для выносливости. Файл «new default configs included» — взять именно его.",
+   "evidence": "whouses 112605: три VR-листа (Tempus, Grit-пара), SE-листов нет. Название описывает эффекты."
+  },
+  {
+   "key": "id:32269",
+   "id": 32269,
+   "name": "No More Swirl Effects from Absorb (+ NIF-версия #77848)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/32269",
+   "section": "ix_feedback",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Убирает «вихри» вокруг камеры/цели от Absorb (поглощение магии): в шлеме они закрывают обзор. Комфорт для Spellsiphon.",
+   "vr_status": "works_as_is",
+   "in_lists": "Panda's Sovngarde (#32269); Librum VR (NIF-версия #77848)",
+   "files": "No More Swirl Effects from Absorb-32269-1-0-1580589297.7z (Panda's); No More Swirl Effects from Absorb - nif-77848-1-0.7z (Librum VR, запасной вариант)",
+   "requires": [],
+   "interplay": "Касается эффектов Absorb: подходит к Spellsiphon (Core, поглощение заклинаний). Не пересекается с KittyVFX (там огонь/лёд/молния, не Absorb). HIGGS/PLANCK/VRIK не затрагивает.",
+   "note": "Брать #32269; #77848 — запасной, если эффект не пропал. Без DLL.",
+   "evidence": "whouses 32269: Panda's (VR), Wunduniik (SE); whouses 77848: Librum VR. Описания обоих — только по названию."
+  },
+  {
+   "key": "id:3205",
+   "id": 3205,
+   "name": "No Edge Glow — Magic and Transformations",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/3205",
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Убирает свечение по краю экрана при магии и превращениях (по названию мода) — меньше слепящих вспышек в шлеме.",
+   "vr_status": "unknown",
+   "in_lists": "Librum VR",
+   "files": "No Edge Glow - Magic and Transformations-3205-1-2.zip (1.2)",
+   "requires": [],
+   "interplay": "Дополняет Yelling At The Sky и Vampire/Werewolf Body for VR (превращения). Не конфликтует с HIGGS/PLANCK/VRIK. Мод старый (≈2013), проверить визуально.",
+   "note": "Один список. Тестировать на свету и в превращении.",
+   "evidence": "whouses 3205: только Librum VR. Описание страницы не получено."
+  },
+  {
+   "key": "id:21297",
+   "id": 21297,
+   "name": "MageVR (MuKen's Active Gesture Extension)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/21297",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Старый жестовый кастинг рисованием глифов руками (2020). Заменён жестами VRIK, ISPVR, Spell Wheel VR.",
+   "vr_status": "vr_native",
+   "in_lists": "FUS",
+   "files": "MageVR Mod-21297-2-8-1598139579.zip (2.8, только FUS)",
+   "requires": [],
+   "interplay": "Дублирует жесты VRIK, Open Hand Casting/ISPVR и выбор Spell Wheel VR; делит кнопки и руки с ними. Риск двойных заклинаний, конфликтов контроллеров. Автор MArc рекомендует его как инструмент для instacast.",
+   "note": "Не ставить с VRIK+ISPVR+Spell Wheel. Hands-сборщик тоже пометил dont (ключ совпадает).",
+   "evidence": "whouses 21297: только FUS, 2020. Поиск: «MuKen's Active Gesture Extension ... began as a mage-oriented tool for spell casting by drawing glyphs ... saves hand spells similarly to handposes»."
+  },
+  {
+   "key": "id:58489",
+   "id": 58489,
+   "name": "Real Virtual Magic",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/58489",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Магия через ЭЭГ-повязку Muse 2/S: урон зависит от вашей концентрации, магика заменена шкалой фокуса. Без оборудования бесполезен.",
+   "vr_status": "vr_native",
+   "in_lists": "FUS",
+   "files": "Real Virtual Magic-58489-0-2-0-1642456886.7z (FUS; также 0.1.1)",
+   "requires": [
+    "Muse 2/Muse S + BLED112 донгл"
+   ],
+   "interplay": "Подменяет магию/регенерацию магики: конфликтует с Spell Wheel VR, Spellsiphon и любым магическим оверхолом (Mysticism).",
+   "note": "Не ставить без Muse-повязки. Альфа-версия, по словам автора.",
+   "evidence": "whouses 58489: FUS (0.1.1, 0.2.0). Поиск: THEGAMER/80.lv/ggrecon: «requires Muse 2 or Muse S ... Magicka bar replaced with a focus bar»."
+  },
+  {
+   "key": "id:61950",
+   "id": 61950,
+   "name": "Enhanced Invisibility (плоская SE/AE-версия)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/61950",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоская версия Enhanced Invisibility: в VR берите только VR-версию #63889.",
+   "vr_status": "flat_only",
+   "in_lists": "none (14 SE-листов)",
+   "files": "Enhanced Invisibility-61950-1-4-1-1760577690.7z (SE)",
+   "requires": [],
+   "interplay": "Дубль VR-версии #63889: одновременно не ставить. SE-DLL не загрузится в SKSEVR 2.0.12.",
+   "note": "Ставить #63889.",
+   "evidence": "whouses 61950: 14 SE-листов (Nordic Souls, CSVP, Elysium Remastered…), 0 VR."
+  },
+  {
+   "key": "id:97345",
+   "id": 97345,
+   "name": "Wheeler — Quick Action Wheel of Skyrim (+ Show in UI, Crash-Fix, Untarnished UI Edit)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/97345",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоское радиальное меню заклинаний/предметов для SE/AE. В VR его заменяет Spell Wheel VR.",
+   "vr_status": "flat_only",
+   "in_lists": "none (7 SE-листов)",
+   "files": "Wheeler-97345-1-2-1692836360.zip",
+   "requires": [],
+   "interplay": "Дублирует Spell Wheel VR (#47630): оба вешаются на кнопки и меню. Плоский UI с мышью/клавиатурой.",
+   "note": "Не ставить; патчи Wheeler (#132074, #161698, #97434) тоже не нужны.",
+   "evidence": "whouses 97345: 7 SE-листов, 0 VR; Wheeler Crash-Fix 5 SE, Show in UI 4 SE, Untarnished UI Edit 3 SE."
+  },
+  {
+   "key": "id:166987",
+   "id": 166987,
+   "name": "SIGMA — Magic animations 1st person",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/166987",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Анимации каста от первого лица для плоского режима. В VR руки ведёт VRIK, замена анимаций только ломает.",
+   "vr_status": "flat_only",
+   "in_lists": "none (4 SE-листа)",
+   "files": "Sigma - magic-166987-1-0-2-1777213050.7z (1.0.2)",
+   "requires": [],
+   "interplay": "Конфликт с VRIK: руки в VR следуют контроллерам, а не анимации. Анимации также могут сломать позы ладоней у Open Hand Casting/ISPVR.",
+   "note": "Не ставить. Так же не нужны Smooth Magic Casting Animation (#45799), Smooth Staff Animation (#54883), Staff Blocking and Bashing (#106536) — 3 SE-листа каждый, 0 VR.",
+   "evidence": "whouses 166987: NGVO, LoreRim, Skyrim Unification Project (SE), 0 VR."
+  },
+  {
+   "key": "id:63980",
+   "id": 63980,
+   "name": "Contextual Crosshair",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63980",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоский контекстный прицел для SE/AE. В VR есть свои мода прицела и VR-указка.",
+   "vr_status": "flat_only",
+   "in_lists": "none (10 SE-листов)",
+   "files": "Contextual Crosshair-63980-1-3-2-1767829770.zip",
+   "requires": [],
+   "interplay": "Заменяет прицел HUD; в VR перекрывает Eagle Eye/Crosshairs VR и не учитывает руки. Наличие VR-сборки не подтверждено.",
+   "note": "Не ставить; в VR берите Eagle Eye Cursor Replacer или ничего.",
+   "evidence": "whouses 63980: CSVO, Elysium Remastered, Nordic Souls и др. (10 SE), 0 VR."
+  },
+  {
+   "key": "id:77843",
+   "id": 77843,
+   "name": "True Directional Movement и lock-on-патчи (TDM Target Fix, #77843)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/77843",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Lock-on и направленное движение — только плоский режим. В VR захват цели и движение — это руки и контроллеры.",
+   "vr_status": "flat_only",
+   "in_lists": "none (7 SE-листов)",
+   "files": "True Directional Movement Lock-On Fixes-77843-1-1-1-1725475525.rar; TDM Target Fix - Bristleback/Ice Wraith/Mammoth",
+   "requires": [],
+   "interplay": "Конфликтует с VRIK/HIGGS/PLANCK и комнатным движением. VR-сборки TDM нет (по моим сведениям; не проверено, Nexus закрыт).",
+   "note": "Не ставить TDM и его патчи.",
+   "evidence": "whouses 77843: 7 SE-листов (CSVP, NGVO, LoreRim…), 0 VR."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 50197,
+   "name": "3D Casting FX — Fire and Frost Hand FX Replacer",
+   "reason": "Уже в Other-2 (r2-A08, keep rec); 7 VR-листов. Не предлагаю повторно."
+  },
+  {
+   "id": 154958,
+   "name": "3D Casting FX — ENB Light Patch",
+   "reason": "ENB-свет, ENB в сборке нет (Tempus)."
+  },
+  {
+   "id": 16514,
+   "name": "Dragonborn Speaks Naturally",
+   "reason": "Уже в Other-1 (opt). Замечание про микрофон: делите с SkyVoice/SVCM и ИИ-NPC (Mantella, CHIM): включено одно."
+  },
+  {
+   "id": 36594,
+   "name": "Rally's Candlelight and Magelight Fix SE - VR",
+   "reason": "Уже в Other-1 (rec), 9 VR-листов."
+  },
+  {
+   "id": 5954,
+   "name": "A Better Magelight — Enhanced",
+   "reason": "Дубль Rally's Candlelight/Magelight Fix (Other-1) и CS Light (Core); один FUS."
+  },
+  {
+   "id": 75664,
+   "name": "Immersive Spell Effects Emit Light",
+   "reason": "Дубль CS Light (Core: ISL для магии в руках и снарядов); FUS, Tempus."
+  },
+  {
+   "id": 164183,
+   "name": "ISPVR — Immersive Spellcasting VR",
+   "reason": "Уже в Core (opt)."
+  },
+  {
+   "id": 55751,
+   "name": "Magic Improvements for Skyrim VR (MISVR)",
+   "reason": "Уже в Core (rec)."
+  },
+  {
+   "id": 119689,
+   "name": "Spell Auto-Aim VR",
+   "reason": "Уже в Core (opt); SpellBender VR предложен как альтернатива."
+  },
+  {
+   "id": 92804,
+   "name": "Dual Casting Fix VR (и плоский #92454)",
+   "reason": "VR-версия в Core (rec); плоская в MODLIST уже помечена как «не ставить»."
+  },
+  {
+   "id": 47630,
+   "name": "Spell Wheel VR",
+   "reason": "Уже в Core."
+  },
+  {
+   "id": 20364,
+   "name": "Haptic Skyrim VR",
+   "reason": "Уже в Core (rec): вибрации каста и посоха."
+  },
+  {
+   "id": 26627,
+   "name": "Spellsiphon",
+   "reason": "Уже в Core (opt); предложен только Experience Patch."
+  },
+  {
+   "id": 191729,
+   "name": "Telekinesis Aim Fix VR",
+   "reason": "Уже в Core (rec)."
+  },
+  {
+   "id": 68028,
+   "name": "Magic Sneak Attacks VR (+ плоский #67613)",
+   "reason": "VR-версия в Core; плоская #67613 помечена как не ставить."
+  },
+  {
+   "id": 112509,
+   "name": "KittyVFX (Frost/Fire/Lightning/…)",
+   "reason": "Уже в Core (opt)."
+  },
+  {
+   "id": 70204,
+   "name": "Goetia Animations — Spell Casting / Conditional Shouts",
+   "reason": "Уже в Core (opt); видны только у NPC. Sneak Magic (#75482, Tempus, Panda's) — то же, НПС-анимация."
+  },
+  {
+   "id": 73293,
+   "name": "Dynamic Animation Casting NG Plus (+ DAC #65512)",
+   "reason": "Каст-анимации для NPC (3 + 2 VR-листа); у игрока в VR каст ведёт VRIK. Каркас под Goetia не нужен (Goetia требует OAR)."
+  },
+  {
+   "id": 74611,
+   "name": "Bug Fix — Sprinting Spell Hand",
+   "reason": "Фикс анимации пустой руки при спринте; в VR руки по VRIK, 1 VR-лист (Tempus). Hands-сборщик тоже отбросил."
+  },
+  {
+   "id": 56444,
+   "name": "Bound Shield with FX — Redux",
+   "reason": "Лишь эффект призванного щита; 1 VR-лист, малоценно."
+  },
+  {
+   "id": 60064,
+   "name": "Fixed Bound Sword and Dagger Collision",
+   "reason": "Уже в Other-1 (rec)."
+  },
+  {
+   "id": 70354,
+   "name": "Don't sheathe bound weapons DAR animations",
+   "reason": "DAR-анимация; в VR кобуры VRIK и Instant Equip VR; 3 VR-листа."
+  },
+  {
+   "id": 26522,
+   "name": "Bound Arrow Phase",
+   "reason": "Узкая правка призванных стрел, 1 VR-лист (Yggdrasil), эффект не подтверждён."
+  },
+  {
+   "id": 30404,
+   "name": "MArc — Muken's Arcane Archery",
+   "reason": "Класс «чародей-лучник» с новыми заклинаниями и стрелами (спелл-пак, исключено). Требует MageVR для instacast и «Archery» #10926 (не наш Simple Realistic Archery VR)."
+  },
+  {
+   "id": 10926,
+   "name": "Archery (2.5)",
+   "reason": "Лучная механика в 5 VR-листах, но у нас Simple Realistic Archery VR (Core): конфликт, тема ix_combat."
+  },
+  {
+   "id": 72174,
+   "name": "(см. picks)",
+   "reason": "Не дроп: перенесён в picks как try."
+  },
+  {
+   "id": 100781,
+   "name": "Pseudo Physical Weapon Collision and Parry (+ Tweaked #125542, «Parry VR Tweaked With Spell» у Grit-листов)",
+   "reason": "Уже в Other-1 (#100781). Tweaked/«With Spell» — тема ix_combat; hands-сборщик отнёс к Other-1."
+  },
+  {
+   "id": 46482,
+   "name": "Spellforge — Engaging and Convenient Spell Acquisition (+ Research, Layout, Libraries, Apoapse's Arcana)",
+   "reason": "Новые заклинания/исследование заклинаний — спелл-контент, не интерактивность."
+  },
+  {
+   "id": 15755,
+   "name": "GIST — Genuinely Intelligent Soul Trap",
+   "reason": "Баланс ловушки душ, не про взаимодействие; 7 VR-листов."
+  },
+  {
+   "id": 49045,
+   "name": "Noticeable Soul Trap",
+   "reason": "Визуальная пометка душ, 1 VR-лист (Panda's); малоценно."
+  },
+  {
+   "id": 115594,
+   "name": "Activate Soul Gems for Recharging",
+   "reason": "Один список (Tempus), эффект не подтверждён."
+  },
+  {
+   "id": 140813,
+   "name": "GRAPPLE — Pull Mastery Re-Implementation",
+   "reason": "Один список (Tempus), механика не подтверждена, вероятно перковый/спелловый контент."
+  },
+  {
+   "id": 96512,
+   "name": "Spellbreaker Reforged (SE)",
+   "reason": "Контентная замена щита; 1 список."
+  },
+  {
+   "id": 51125,
+   "name": "Forget Spell",
+   "reason": "Меню забвения заклинаний (SE+VR), не про жесты; Spell Wheel VR и SkyUI уже есть."
+  },
+  {
+   "id": 1763,
+   "name": "No BS AI Projectile Dodge",
+   "reason": "Поведение ИИ NPC, не интерактивность игрока."
+  },
+  {
+   "id": 49378,
+   "name": "Enemy Magelock — NPC Magic Casting Commitment",
+   "reason": "Поведение ИИ магов (Librum), не для игрока."
+  },
+  {
+   "id": 127294,
+   "name": "Better Elemental Fury (And Battle Fury)",
+   "reason": "Геймплейный твик крика (Tempus), не VR-интерактивность."
+  },
+  {
+   "id": 135344,
+   "name": "Elemental Dash",
+   "reason": "Контент способности (Tempus), не интерактивность."
+  },
+  {
+   "id": 18664,
+   "name": "Wards Functionalities Extended",
+   "reason": "Правка защит из Odin-экосистемы (Tempus); спелл-контент."
+  },
+  {
+   "id": 70400,
+   "name": "Master Spells Runes",
+   "reason": "Ретекстур рун заклинаний; внешний вид — отдельный этап."
+  },
+  {
+   "id": 19456,
+   "name": "Strange Runes (плоская SE-версия)",
+   "reason": "Плоская копия стоит в FUS; для VR брать #30558 VR Edition. Работоспособность плоской в VR не проверена."
+  },
+  {
+   "id": 136564,
+   "name": "Vibrant Weapons EAE — Enchantment Lights",
+   "reason": "Внешний вид оружия, зависит от EAE; отдельный этап «Внешность»."
+  },
+  {
+   "id": 28268,
+   "name": "Improved weapons enchantments FX SE",
+   "reason": "Визуал зачарований (Panda's, Yggdrasil), не интерактивность."
+  },
+  {
+   "id": 7037,
+   "name": "Visual Animated Enchants (VAE) / QRVAE",
+   "reason": "Визуал зачарований, 1 VR-лист каждый; внешний вид."
+  },
+  {
+   "id": 27709,
+   "name": "Enchantment Effect Replacer SE",
+   "reason": "Визуал зачарований, Librum VR."
+  },
+  {
+   "id": 49332,
+   "name": "Remove Weapon Enchantment Sounds",
+   "reason": "Звук, один список (Tempus); не про VR-взаимодействие."
+  },
+  {
+   "id": 62314,
+   "name": "Enchanted Weapon Charge Fix",
+   "reason": "Баг-фикс зарядов (Tahrovin, FUS), не интерактивность."
+  },
+  {
+   "id": 119738,
+   "name": "Sonorum Arcana — Magic SFX Compendium",
+   "reason": "Звуковой мод (Tahrovin), аудио — отдельный этап."
+  },
+  {
+   "id": 67968,
+   "name": "OnMagicEffectApply Replacer (OMEAR)",
+   "reason": "Фреймворк для NPC-способностей (Grit), для игрока интерактивности не даёт."
+  },
+  {
+   "id": 87085,
+   "name": "Dragons Use Thu'um",
+   "reason": "Поведение драконов (4 VR-листа), не про игрока."
+  },
+  {
+   "id": 21514,
+   "name": "Shout Cooldowns That Make Sense / Custom Shout Cooldown Notifications #50870",
+   "reason": "Баланс/HUD криков (FUS, Tahrovin, Yggdrasil); не VR-специфика."
+  },
+  {
+   "id": 90659,
+   "name": "Stormcrown — A Shout Overhaul / Forceful Tongue / Thunderchild",
+   "reason": "Шаут-оверхолы — исключённая категория (спелл/шаут-паки)."
+  },
+  {
+   "id": 119039,
+   "name": "Read The Dragon Shout",
+   "reason": "Субтитры/текст стен; не интерактивность (Panda's)."
+  },
+  {
+   "id": 112297,
+   "name": "(см. picks)",
+   "reason": "Не дроп: вынесен в picks."
+  },
+  {
+   "id": 77025,
+   "name": "Dynamic Random Spell Idle",
+   "reason": "Анимации случайных идлов, у игрока в VR не видны."
+  },
+  {
+   "id": 64420,
+   "name": "Gesture Animation Remix (OAR/DAR)",
+   "reason": "Уже в Core (NPC Animation Remix + Gesture Animation Remix), NPC-анимации."
+  },
+  {
+   "id": 62849,
+   "name": "Immersive folded hands / Arm Movement Animations",
+   "reason": "Уже в Core (Arm Movement Animations, opt)."
+  },
+  {
+   "id": 120445,
+   "name": "Precision magic trails",
+   "reason": "SE-визуал следов магии (5 SE-листов), VR-статус не подтверждён."
+  },
+  {
+   "id": 80455,
+   "name": "Casting Bar (+ Untarnished UI patch)",
+   "reason": "Плоский HUD-бар каста (8 SE-листов, 0 VR); в VR HUD в шлеме неудобен."
+  },
+  {
+   "id": 137858,
+   "name": "STB Quick Hotkey Cast",
+   "reason": "Хоткей-каст для клавиатуры (4 SE-листа, 0 VR)."
+  },
+  {
+   "id": 107741,
+   "name": "Magic Casting Utilities (aTweaks)",
+   "reason": "SE-утилита (7 SE, 0 VR), VR-сборки не видно."
+  },
+  {
+   "id": 115457,
+   "name": "Shout Recovery Utilities",
+   "reason": "5 SE-листов, 0 VR; DLL без VR-подтверждения."
+  },
+  {
+   "id": 148647,
+   "name": "Magic Fixes and Tweaks SKSE",
+   "reason": "SKSE-DLL, 3 SE-листа, 0 VR; VR-сборка не подтверждена."
+  },
+  {
+   "id": 99957,
+   "name": "Vokriinator — Staff Dual Casting",
+   "reason": "Плоский, связан с Vokrii (оверхол исключён)."
+  },
+  {
+   "id": 92993,
+   "name": "Self-targeting Staff Animation Fix",
+   "reason": "Уже отброшен в Other-2 (r2-B03): анимация посоха NPC."
+  },
+  {
+   "id": null,
+   "name": "Illuminated — Spell Lighting NG (izzybinbizzy/Illuminated, GitHub)",
+   "reason": "Свет заклинаний игрока; в Core уже CS Light, дубль. Проект свежий (2026-09), релиз не подтверждён."
+  },
+  {
+   "id": null,
+   "name": "SpellOrganizerVR (ZerothBear, GitHub)",
+   "reason": "Фикс кнопки Spell Organizer (ActionScript); основной мод плоский, GitHub-only, релиз неясен."
+  },
+  {
+   "id": null,
+   "name": "Way of the Voice (VoiceMacro)",
+   "reason": "Ручная настройка VoiceMacro, лаг, тот же микрофон, что у DSN/SkyVoice; в списках нет."
+  },
+  {
+   "id": 140404,
+   "name": "Physical Torch Lighting — VR (SamuelJohnBrown)",
+   "reason": "Уже в Other-2 (r2-A04, try): поджиг факела огненным заклинанием."
+  },
+  {
+   "id": 182364,
+   "name": "Dead Weight VR — Penalty for one-handing 2H weapons",
+   "reason": "Тема ix_combat (hands-сборщик)."
+  },
+  {
+   "id": 88506,
+   "name": "Dynamic Female Hand Warming",
+   "reason": "Анимации; руки в VR ведёт игрок."
+  },
+  {
+   "id": 65737,
+   "name": "Wearable Health bars — Soul Gauge",
+   "reason": "Уже у hands-сборщика (6 VR-листов); тема ix_ui."
+  }
+ ],
+ "notes": "Проверить локально (Nexus был закрыт, прочитать страницы не удалось): (1) содержимое Elemental Fury VR (#157974), First person magic hand light fix (#142757), Yelling At The Sky (#72174), Eagle Eye Cursor Replacer (#87315), No Edge Glow (#3205): описания только по имени архива. (2) SkyVoice и SVCM: номера 17840/17320 взяты из выдачи поиска, сопоставление названию и свежесть не проверены (сведения ~2018). Микрофон делите с DSN и ИИ-NPC (Mantella/CHIM/SkyrimNet). (3) SpellBender VR и Spell Auto-Aim VR: MODLIST пишет «взаимоисключаются», но Tempus и Panda's кладут оба вместе с MISVR; тест в игре. (4) EAE: пары версий 1.0.x+VR 1.0.2 или 2.0.4+VR 2 (#142337). (5) Из GitHub: skyrimvr-3DIRP (LXE97) без релиза; SpellBender-VR — только исходники, репозиторий недоступен для чтения (запрещён доступ), описание взято из метаданных поиска. (6) В considered_dropped две строки «см. picks» (id 72174 и 112297) — служебные, при слиянии игнорировать. (7) Свежих VR-модов магии 2026 года (кроме SpellBender, ElementalFury, 3DIRP) найти не удалось: веб-поиск почти не индексирует Nexus."
+}

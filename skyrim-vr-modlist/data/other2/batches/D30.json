@@ -1,0 +1,734 @@
+{
+ "batch": "D30",
+ "band": "D",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 37995,
+   "name": "Durzogs SSE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-07-31",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Durzogs SE-37995-tjbf3g-1594021368.rar",
+    "Fixed .ESP by SarthesArai-37995-1-1596211108.7z"
+   ],
+   "author": "4thunknown",
+   "leftover": false,
+   "key": "id:37995",
+   "theme": "other"
+  },
+  {
+   "id": 83037,
+   "name": "Dynamic Whirlwind Sprint",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-01-19",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Dynamic Whirlwind Sprint-83037-2-0-1674106966.zip"
+   ],
+   "author": "Smooth",
+   "leftover": false,
+   "key": "id:83037",
+   "theme": "other"
+  },
+  {
+   "id": 39670,
+   "name": "ESO Cursor",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-08-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "ESO Style Cursor-39670-1-0-1598059614.zip"
+   ],
+   "author": "jple",
+   "leftover": false,
+   "key": "id:39670",
+   "theme": "other"
+  },
+  {
+   "id": 122895,
+   "name": "Easy Console Commands",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-07-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Easy Console Commands 122895 1.0.26 2026-07-02T06-22Z vlGiB90x9.zip",
+    "Easy Console Commands-122895-1-0-19-1764650490.zip",
+    "Easy Console Commands-122895-1-0-23-1776379636.zip"
+   ],
+   "author": "shazdeh2",
+   "leftover": false,
+   "key": "id:122895",
+   "theme": "other"
+  },
+  {
+   "id": 12086,
+   "name": "Edmond's Durnehviir God of Death (OUTDATED - NEW MOD AVAILABLE)",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-06",
+   "vr_lists": [
+    "Librum VR",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Durnehviir God of Death v1.4-12086-1-4-1607292696.rar"
+   ],
+   "author": "Edmond Noir",
+   "leftover": false,
+   "key": "id:12086",
+   "theme": "other"
+  },
+  {
+   "id": 139953,
+   "name": "Elemental Mastery Magic",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-09-23",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Elemental Mastery Magic-139953-1-32-1738238134.zip",
+    "Elemental Mastery Magic-139953-1-35-1740007387.zip",
+    "Elemental Mastery Magic-139953-1-36-1758656538.zip"
+   ],
+   "author": "Kittytail",
+   "leftover": false,
+   "key": "id:139953",
+   "theme": "other"
+  },
+  {
+   "id": 36445,
+   "name": "Elsopa - Big Backpack HD",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-05-25",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "ElSopa - HD Big Backpack-36445-1-1-1590429335.7z"
+   ],
+   "author": "ElSopa",
+   "leftover": false,
+   "key": "id:36445",
+   "theme": "other"
+  },
+  {
+   "id": 14368,
+   "name": "Embers HD",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2022-05-01",
+   "vr_lists": [
+    "FUS",
+    "Librum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Embers HD-14368-1-4-2-1651421150.zip",
+    "Embers HD-14368-1-41-1599751061.zip"
+   ],
+   "author": "mindflux",
+   "leftover": false,
+   "key": "id:14368",
+   "theme": "other"
+  },
+  {
+   "id": 164369,
+   "name": "Embers XD(Less Poly)",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-05-09",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Embers XD(Less Poly)-164369-1-0-1763046536.rar",
+    "Embers XD(Less Poly)-164369-1-1-1778333593.rar"
+   ],
+   "author": "W1ter",
+   "leftover": false,
+   "key": "id:164369",
+   "theme": "other"
+  },
+  {
+   "id": 116601,
+   "name": "Enchantment Art Extender VR",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-04-13",
+   "vr_lists": [
+    "FUS",
+    "Tahrovin"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Enchantment Art Extender VR-116601-1-0-2-1712994147.7z"
+   ],
+   "author": "alandtse",
+   "leftover": false,
+   "key": "id:116601",
+   "theme": "other"
+  },
+  {
+   "id": 27709,
+   "name": "Enchantment Effect Replacer SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-07-26",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "EnchFXReplacerSE1.0-27709-1-0-1564185373.zip",
+    "Letters (Orderly)-27709-1-0-1564109433.zip"
+   ],
+   "author": "Myopic",
+   "leftover": false,
+   "key": "id:27709",
+   "theme": "other"
+  },
+  {
+   "id": 22477,
+   "name": "Enchantment Tomes - Don't destroy perfectly good items",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-02-10",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Enchantment Tomes v2.2-22477-2-2-1549766869.7z"
+   ],
+   "author": "Dthen and Battousai124",
+   "leftover": false,
+   "key": "id:22477",
+   "theme": "other"
+  },
+  {
+   "id": 110304,
+   "name": "End Times - Tweaks",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-22",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "End Times - Tweaks-110304-1-2-1769080549.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:110304",
+   "theme": "other"
+  },
+  {
+   "id": 2424,
+   "name": "Enhanced Lights and FX",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Librum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Enhanced Lights and FX-2424-3-06.7z"
+   ],
+   "author": "anamorfus",
+   "leftover": false,
+   "key": "id:2424",
+   "theme": "other"
+  },
+  {
+   "id": 37804,
+   "name": "Extra Drawing Animations",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-06-29",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Extra Drawing Animations Animated Armoury Add on-37804-1-1593456509.7z",
+    "Extra Drawing Animations-37804-1-1593456472.7z"
+   ],
+   "author": "NickNak",
+   "leftover": false,
+   "key": "id:37804",
+   "theme": "other"
+  },
+  {
+   "id": 2656,
+   "name": "Faster Mining Plus SE",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2019-05-19",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Faster Mining Plus SE 3-3 v.2-2656-v2-0-1558296134.zip",
+    "Stalhrim (Vanilla Speed)-2656-v2-0-1558296768.zip"
+   ],
+   "author": "Arndas",
+   "leftover": false,
+   "key": "id:2656",
+   "theme": "other"
+  },
+  {
+   "id": 40145,
+   "name": "Favor Jobs Overhaul",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-01-30",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Favor Jobs Overhaul-40145-2-4-0-1680711343.7z",
+    "Favor Jobs Overhaul-40145-2-9-1-1738221798.7z"
+   ],
+   "author": "lilebonymace",
+   "leftover": false,
+   "key": "id:40145",
+   "theme": "other"
+  },
+  {
+   "id": 150895,
+   "name": "Flammable Alcohol - OIF",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-25",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Flammable Alcohol - OIF-150895-1-1-1748172517.7z"
+   ],
+   "author": "kuroishitam",
+   "leftover": false,
+   "key": "id:150895",
+   "theme": "other"
+  },
+  {
+   "id": 137944,
+   "name": "Flayan's Tweaks",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-01-02",
+   "vr_lists": [
+    "FUS",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Flayan's Tweaks-137944-1-0-0-1735838834.7z"
+   ],
+   "author": "FlayaN",
+   "leftover": false,
+   "key": "id:137944",
+   "theme": "other"
+  },
+  {
+   "id": 49270,
+   "name": "Flying Crows SSE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-08-31",
+   "vr_lists": [
+    "Yggdrasil VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Flying Crows SSE 2.02-49270-2-02-1725063604.7z",
+    "Flying Crows SSE ESPFE-49270-1-2-1631818862.7z",
+    "FlyingCrowsSSE - ESP-49270-1-1-1620000399.7z"
+   ],
+   "author": "Mod created on LE by Kongemeir and Ghiles7",
+   "leftover": false,
+   "key": "id:49270",
+   "theme": "other"
+  },
+  {
+   "id": 88484,
+   "name": "Folded Rag Diversification",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-08-02",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Folded Rag Diversification - AnimObj Addon-88484-1-3-1-1726511093.zip",
+    "Folded Rag Diversification 88484 1.3.2 2026-08-02T19-40Z 9LMpgbNDf.zip",
+    "Folded Rag Diversification-88484-1-3-1-1688457984.zip"
+   ],
+   "author": "PRieST47",
+   "leftover": false,
+   "key": "id:88484",
+   "theme": "other"
+  },
+  {
+   "id": 26879,
+   "name": "Forgiving Friends",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-01-06",
+   "vr_lists": [
+    "FUS",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Forgiving Friends-26879-1-0-1609936829.7z"
+   ],
+   "author": "Arctal",
+   "leftover": false,
+   "key": "id:26879",
+   "theme": "other"
+  },
+  {
+   "id": 71126,
+   "name": "GKB Waves Reborn",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-09-30",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "GKB Waves Reborn-71126-3-1-1-1735906915.7z",
+    "GKB Waves Reborn-71126-3-1-2-1759233930.7z"
+   ],
+   "author": "GaKnomboe - kuroishitam",
+   "leftover": false,
+   "key": "id:71126",
+   "theme": "other"
+  },
+  {
+   "id": 27007,
+   "name": "Gamepad Plus Plus",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-03-28",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Gamepad Plus Plus-27007-1-2-1-1616967745.7z"
+   ],
+   "author": "dunc001 MrNeverLost",
+   "leftover": false,
+   "key": "id:27007",
+   "theme": "other"
+  },
+  {
+   "id": 9816,
+   "name": "Gather Wilderness Resources - A plugin for Campfire",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Gather Wilderness Resources BSA-9816-1-0.rar"
+   ],
+   "author": "ZunaSW",
+   "leftover": false,
+   "key": "id:9816",
+   "theme": "other"
+  },
+  {
+   "id": 43477,
+   "name": "Glamoril - The Maze of Labyrinthian",
+   "vr": 2,
+   "se": 0,
+   "score": 4,
+   "band": "D",
+   "newest": "2021-02-20",
+   "vr_lists": [
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Glamoril - The Maze of Labyrinthian-43477-1-3-4-1613824444.zip"
+   ],
+   "author": "KataPUMB",
+   "leftover": false,
+   "key": "id:43477",
+   "theme": "other"
+  },
+  {
+   "id": 120460,
+   "name": "Grab And Throw",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2026-01-05",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Grab And Throw-120460-2-0-0-1720581191.7z",
+    "Grab And Throw-120460-2-1-1-1767604040.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:120460",
+   "theme": "other"
+  },
+  {
+   "id": 83152,
+   "name": "Graywinter",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-02-08",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Graywinter - 3DNPC Patch-83152-1-0-1689374257.7z",
+    "Graywinter-83152-1-0-1674243389.7z",
+    "Lost Passages - Graywinter Patch (ESL)-83152-1-0-1707421234.7z"
+   ],
+   "author": "snozz2004",
+   "leftover": false,
+   "key": "id:83152",
+   "theme": "other"
+  },
+  {
+   "id": 72307,
+   "name": "HS Resources",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-05-27",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "HS Resources-72307-5-0-0-1720301136.7z",
+    "HS Resources-72307-5-1-1-1748371884.7z"
+   ],
+   "author": "Hylios Sykes",
+   "leftover": false,
+   "key": "id:72307",
+   "theme": "other"
+  },
+  {
+   "id": 76142,
+   "name": "Happy Little Logs",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-06-09",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Aspen Logs Pruned SE V1_1-76142-1-1-1674382390.rar",
+    "Happy Little Logs  V1_7 SE-76142-1-7-1686319056.rar"
+   ],
+   "author": "Pieter82",
+   "leftover": false,
+   "key": "id:76142",
+   "theme": "other"
+  },
+  {
+   "id": 69861,
+   "name": "Harvest Your Blood for Septimus",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2024-10-22",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Harvest Your Blood for Septimus-69861-1-1-1-1-1659069240.zip",
+    "Harvest Your Blood-69861-1-1-3-1729566994.zip"
+   ],
+   "author": "Tate Taylor",
+   "leftover": false,
+   "key": "id:69861",
+   "theme": "other"
+  },
+  {
+   "id": 85182,
+   "name": "Higher Quality Shadowmarks",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-02-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Shadowmarks-85182-1-0-1676658653.7z"
+   ],
+   "author": "MystiriousDawn",
+   "leftover": false,
+   "key": "id:85182",
+   "theme": "other"
+  },
+  {
+   "id": 113360,
+   "name": "Holy Templar Magic",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2025-11-11",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Holy Templar Magic-113360-1-42-1742628761.zip",
+    "Holy Templar Magic-113360-1-5-1762883973.zip"
+   ],
+   "author": "Kittytail",
+   "leftover": false,
+   "key": "id:113360",
+   "theme": "other"
+  },
+  {
+   "id": 18535,
+   "name": "Holy Wards - spell retexture",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Holy Wards - a retexture-18535-1-2.7z"
+   ],
+   "author": "BanjoBunny",
+   "leftover": false,
+   "key": "id:18535",
+   "theme": "other"
+  },
+  {
+   "id": 28452,
+   "name": "Horker by Pfuscher",
+   "vr": 0,
+   "se": 4,
+   "score": 4,
+   "band": "D",
+   "newest": "2023-11-26",
+   "vr_lists": [],
+   "se_lists": 4,
+   "files": [
+    "Horker HD 3.0-28452-3-0-1701008816.7z",
+    "Horker-28452-2-0-1566470384.7z"
+   ],
+   "author": "Pfuscher",
+   "leftover": false,
+   "key": "id:28452",
+   "theme": "other"
+  },
+  {
+   "id": 43400,
+   "name": "Hungers SE",
+   "vr": 1,
+   "se": 2,
+   "score": 4,
+   "band": "D",
+   "newest": "2020-12-16",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "HungersSE-43400-1-2-3equal-to5-6-1608153202.7z"
+   ],
+   "author": "ydobon",
+   "leftover": false,
+   "key": "id:43400",
+   "theme": "other"
+  }
+ ]
+}

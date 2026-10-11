@@ -1,0 +1,754 @@
+{
+ "batch": "C15",
+ "band": "C",
+ "themes": {
+  "other": 36
+ },
+ "items": [
+  {
+   "id": 69622,
+   "name": "Katana - Journey in the Shadows",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-04-22",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Katana - Journey in the Shadows-69622-1-0-1661967070.7z",
+    "Katana - Journey in the Shadows-69622-3-0-5-1745351776.7z",
+    "Katana - Raven Replacer - No Rifle-69622-1-1NR-1745155217.7z"
+   ],
+   "author": "Anna Garcia",
+   "leftover": false,
+   "key": "id:69622",
+   "theme": "other"
+  },
+  {
+   "id": 64772,
+   "name": "Linked Crafting Storage",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-17",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Linked Crafting Storage-64772-2-2-1658038409.7z"
+   ],
+   "author": "Arctal",
+   "leftover": false,
+   "key": "id:64772",
+   "theme": "other"
+  },
+  {
+   "id": 73713,
+   "name": "M'rissi's Quest Tweaks (ESL)",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-04-05",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "M'rissi's Quest Tweaks (ESL)-73713-1-0-7-1712330380.zip",
+    "M'rissi's Quest Tweaks - ESL-73713-1-0-4-1694222912.zip"
+   ],
+   "author": "szaumoor - based on KreaQ mod",
+   "leftover": false,
+   "key": "id:73713",
+   "theme": "other"
+  },
+  {
+   "id": 34782,
+   "name": "Meridia's Luxon Beacon Replacer",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-02-20",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Alternative Hands Pose-34782-1-0-1587126275.7z",
+    "Grey Beacon-34782-1-0-1613806080.7z",
+    "Meridia's Luxon Beacon-34782-1-0-1586972035.7z"
+   ],
+   "author": "Artsick",
+   "leftover": false,
+   "key": "id:34782",
+   "theme": "other"
+  },
+  {
+   "id": 13578,
+   "name": "Misc Retexture Project",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-10-06",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "2K Textures-13578-2-7-1665048937.7z",
+    "Misc Retexture Project-13578-2-6-1628839759.7z",
+    "Misc Retexture Project-13578-2-7-1665048767.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:13578",
+   "theme": "other"
+  },
+  {
+   "id": 78703,
+   "name": "Mists of Tamriel",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-05-17",
+   "vr_lists": [
+    "Librum VR",
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Animated distant mist texture THIN-78703-1-1668355660.7z",
+    "Mists of Tamriel-78703-1-3-1668706572.7z",
+    "Mists of Tamriel-78703-1-6-1715985821.7z"
+   ],
+   "author": "Kojak747",
+   "leftover": false,
+   "key": "id:78703",
+   "theme": "other"
+  },
+  {
+   "id": 155815,
+   "name": "Modern Hay - PBR and CM",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-03-31",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Hay Bale Fix CM-155815-1-1754340773.7z",
+    "Hay Bale Fix PBR-155815-1-1754340387.7z",
+    "Modern Hay CM 2k-155815-2-1753823708.7z"
+   ],
+   "author": "Exist",
+   "leftover": false,
+   "key": "id:155815",
+   "theme": "other"
+  },
+  {
+   "id": 74094,
+   "name": "My Lovely Lydia",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-09-21",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "My Lovely Lydia - Complete Edition-74094-2-0-1663800179.zip",
+    "My Lovely Lydia - Complete Edition-74094-2-0-1663800179_0ad0b9e71f594916e44febc8a18133a4756e5b16ba2a"
+   ],
+   "author": "scarlettdays21",
+   "leftover": false,
+   "key": "id:74094",
+   "theme": "other"
+  },
+  {
+   "id": 77826,
+   "name": "Natura",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-03-08",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Natura - Hive Staff-77826-1-0-0-1709930121.7z",
+    "Natura-77826-4-0-5-1696964402.7z"
+   ],
+   "author": "Darenii",
+   "leftover": false,
+   "key": "id:77826",
+   "theme": "other"
+  },
+  {
+   "id": 70963,
+   "name": "New Vominheim - SE",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-06-07",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "New Vominheim - AE - esm version (1.6.640)-70963-2-15-1686124616.7z"
+   ],
+   "author": "venjhammet",
+   "leftover": false,
+   "key": "id:70963",
+   "theme": "other"
+  },
+  {
+   "id": 134937,
+   "name": "No Me Molestes Updated",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2024-11-26",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "No Me Molestes Updated-134937-5-0-6-1732656043.7z"
+   ],
+   "author": "Aelover",
+   "leftover": false,
+   "key": "id:134937",
+   "theme": "other"
+  },
+  {
+   "id": 10433,
+   "name": "No to Nocturnal",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "No To Nocturnal-10433-1-0.rar"
+   ],
+   "author": "Soupdragon",
+   "leftover": false,
+   "key": "id:10433",
+   "theme": "other"
+  },
+  {
+   "id": 152047,
+   "name": "Obscure Animations Overhaul",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-06-11",
+   "vr_lists": [
+    "Panda's Sovngarde"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Obscure Animations Overhaul-152047-1-1-1749626737.zip"
+   ],
+   "author": "krzp",
+   "leftover": false,
+   "key": "id:152047",
+   "theme": "other"
+  },
+  {
+   "id": 12125,
+   "name": "Obsidian Weathers and Seasons",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-05-09",
+   "vr_lists": [
+    "Librum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Obsidian Weathers - 1.07a-12125-1-07a-1620568126.zip"
+   ],
+   "author": "Dr Mega Arindel",
+   "leftover": false,
+   "key": "id:12125",
+   "theme": "other"
+  },
+  {
+   "id": 70416,
+   "name": "Occult texture pack",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-06-28",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Lockpicks-70416-2-1656452291.rar",
+    "SCROLLZ-70416-1-1656443873.rar"
+   ],
+   "author": "evilcannibal",
+   "leftover": false,
+   "key": "id:70416",
+   "theme": "other"
+  },
+  {
+   "id": 69346,
+   "name": "Optimized USSEP Valdr Quest",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-06-17",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Optimized USSEP Valdr Quest-69346-2-0-1655443568.7z"
+   ],
+   "author": "igotnousername",
+   "leftover": false,
+   "key": "id:69346",
+   "theme": "other"
+  },
+  {
+   "id": 55221,
+   "name": "Phoenix Compendium",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-05-11",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Phoenix Compendium v2.2.1-55221-2-2-1-1657858888.7z",
+    "Phoenix Compendium-55221-2-5-1-1739032203.7z",
+    "Phoenix Compendium-55221-2-5-2-1743875245.7z"
+   ],
+   "author": "Satafinix",
+   "leftover": false,
+   "key": "id:55221",
+   "theme": "other"
+  },
+  {
+   "id": 13838,
+   "name": "Pickpocket Reset",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-04-15",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Pickpocket Reset-13838-1-1-1-1618526480.7z"
+   ],
+   "author": "TheRegisteredOne",
+   "leftover": false,
+   "key": "id:13838",
+   "theme": "other"
+  },
+  {
+   "id": 92438,
+   "name": "Player Name Randomizer",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-06-10",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Player Name Randomizer-92438-1-1-1-1686414775.zip"
+   ],
+   "author": "sasnikol",
+   "leftover": false,
+   "key": "id:92438",
+   "theme": "other"
+  },
+  {
+   "id": 63353,
+   "name": "RUSTIC CHILDREN",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "RUSTIC CHILDREN - BODY - 2K-1K-63353-1A.7z",
+    "RUSTIC CHILDREN - BODY - 2K-63353-1A.7z",
+    "RUSTIC CHILDREN 2K-1K-63353-1-0.zip"
+   ],
+   "author": "Gamwich",
+   "leftover": false,
+   "key": "id:63353",
+   "theme": "other"
+  },
+  {
+   "id": 88161,
+   "name": "Rainbows Remade",
+   "vr": 1,
+   "se": 4,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-04-29",
+   "vr_lists": [
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 4,
+   "files": [
+    "Hotfix Patch-88161-1-2-1-1682766720.zip",
+    "No Initialization Notification Patch-88161-1-2-0-1680594637.zip",
+    "Rainbows Remade - 2K Version-88161-1-2-0-1680442991.zip"
+   ],
+   "author": "Ricardo Evans",
+   "leftover": false,
+   "key": "id:88161",
+   "theme": "other"
+  },
+  {
+   "id": 72693,
+   "name": "Rayek's End Revisited (Mazz's End) - SSE Port",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-09-13",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Rayek's End Revisited - English-72693-1-1e-1663065197.zip"
+   ],
+   "author": "Miro2311",
+   "leftover": false,
+   "key": "id:72693",
+   "theme": "other"
+  },
+  {
+   "id": 69588,
+   "name": "Read Or Take SKSE",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-08-31",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Read or Take SKSE-69588-1-4-0-1716187218.7z",
+    "Read or Take SKSE-69588-1-5-1-798039-1788168780.7z",
+    "Read or Take SKSE.7z"
+   ],
+   "author": "powerofthree",
+   "leftover": false,
+   "key": "id:69588",
+   "theme": "other"
+  },
+  {
+   "id": 71161,
+   "name": "Real VR Weathers",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-07-11",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Real VR Weathers - SkyVRaan Ready-71161-1-0-0-1657526959.zip"
+   ],
+   "author": "Khena123",
+   "leftover": false,
+   "key": "id:71161",
+   "theme": "other"
+  },
+  {
+   "id": 143950,
+   "name": "Respectful Ravyn",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-03-08",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Respectful Ravyn-143950-1-0-1741447103.zip"
+   ],
+   "author": "TheOscar0",
+   "leftover": false,
+   "key": "id:143950",
+   "theme": "other"
+  },
+  {
+   "id": 74785,
+   "name": "Ryn's Saarthal",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2022-09-12",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Ryn's Saarthal-74785-1-1-1662608263.rar",
+    "Ryn's Saarthal-74785-1-1-1662968008.rar"
+   ],
+   "author": "Ryn",
+   "leftover": false,
+   "key": "id:74785",
+   "theme": "other"
+  },
+  {
+   "id": 76385,
+   "name": "Ryn's Snazzy Last Vigil - An Ebony Warrior Overhaul",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-08-27",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Armor Weapon And Ebony Warrior Changes-76385-1-1-1688569600.7z",
+    "Ryn's Snazzy Last Vigil - An Ebony Warrior Overhaul LUX PATCH-76385-1-0-1664682894.rar",
+    "Ryn's Snazzy Last Vigil - Keep Tesxture Replacer-76385-1-0-1665537738.7z"
+   ],
+   "author": "Ryn and Gutmaw",
+   "leftover": false,
+   "key": "id:76385",
+   "theme": "other"
+  },
+  {
+   "id": 136148,
+   "name": "STB Widgets",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-09-02",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "STB Widgets 136148 2.5 zYsEpQaoP.7z",
+    "STB Widgets 136148 2.7 2026-07-09T17-46Z pQ0AZ3chQ.7z",
+    "STB Widgets 136148 2.8 2026-08-02T11-06Z hfH9s6oS4.7z"
+   ],
+   "author": "STB team",
+   "leftover": false,
+   "key": "id:136148",
+   "theme": "other"
+  },
+  {
+   "id": 22169,
+   "name": "Sakora's Make Over Kit - SKSE64",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2021-11-02",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Sakora's Make Over Kit ESL - SKSE64-22169-1-4-1635895162.rar"
+   ],
+   "author": "Sakora",
+   "leftover": false,
+   "key": "id:22169",
+   "theme": "other"
+  },
+  {
+   "id": 42594,
+   "name": "Shadowmere Saddle Retexture",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2020-11-20",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "2K Black Diffuse.-42594-1-0-1605870043.7z",
+    "2K Shadowmere Saddle-42594-1-0-1605868482.7z"
+   ],
+   "author": "IWantATardis",
+   "leftover": false,
+   "key": "id:42594",
+   "theme": "other"
+  },
+  {
+   "id": 108442,
+   "name": "Shrubbery Symphony - Enhanced Greenery",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2026-05-23",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Shrubbery Symphony - Enhanced Greenery - 2K-108442-4-0-0-1760897241.7z",
+    "Shrubbery Symphony - Enhanced Greenery - 2K-108442-4-1-0-1773601105.7z",
+    "Shrubbery Symphony - Enhanced Greenery - 2K-108442-4-1-1-1779571404.7z"
+   ],
+   "author": "Alaxouche",
+   "leftover": false,
+   "key": "id:108442",
+   "theme": "other"
+  },
+  {
+   "id": 28948,
+   "name": "Sighted Crossbows VR",
+   "vr": 3,
+   "se": 0,
+   "score": 6,
+   "band": "C",
+   "newest": "2019-12-15",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR",
+    "Yggdrasil VR"
+   ],
+   "se_lists": 0,
+   "files": [
+    "Dawnguard Crossbows sighted for VR - Enhanced Version-28948-1-2-1576398942.7z",
+    "Dawnguard Crossbows sighted for VR-28948-1-2-1576398861.7z"
+   ],
+   "author": "MikeNZ666",
+   "leftover": false,
+   "key": "id:28948",
+   "theme": "other"
+  },
+  {
+   "id": 52007,
+   "name": "Sil Gahrot - Improved Shouts Learning",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2023-06-25",
+   "vr_lists": [
+    "Spirit of Grit",
+    "Tahrovin - Grit"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Sil Gahrot - Improved Shout Learning-52007-1-2-1-1687722101.7z"
+   ],
+   "author": "Delta",
+   "leftover": false,
+   "key": "id:52007",
+   "theme": "other"
+  },
+  {
+   "id": 66919,
+   "name": "Simply Order Summons",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-04-15",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Simply Order Summons-66919-0-12-1-1744747057.7z",
+    "Simply Order Summons-66919-0-12-1692691355.7z"
+   ],
+   "author": "wankingSkeever",
+   "leftover": false,
+   "key": "id:66919",
+   "theme": "other"
+  },
+  {
+   "id": 99842,
+   "name": "Skill Based Dynamic Animations",
+   "vr": 2,
+   "se": 2,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-02-15",
+   "vr_lists": [
+    "Panda's Sovngarde",
+    "Tempus Maledictum VR"
+   ],
+   "se_lists": 2,
+   "files": [
+    "Skill Based Dynamic Animations AIO-99842-1-11-1719052422.rar",
+    "Skill Based Dynamic Animations AIO-99842-1-12-1739643156.rar"
+   ],
+   "author": "JaySerpa",
+   "leftover": false,
+   "key": "id:99842",
+   "theme": "other"
+  },
+  {
+   "id": 144366,
+   "name": "Smarter Conjuration Minions",
+   "vr": 0,
+   "se": 6,
+   "score": 6,
+   "band": "C",
+   "newest": "2025-03-12",
+   "vr_lists": [],
+   "se_lists": 6,
+   "files": [
+    "Smarter Conjuration Minions-144366-1-01-1741781616.7z"
+   ],
+   "author": "august",
+   "leftover": false,
+   "key": "id:144366",
+   "theme": "other"
+  }
+ ]
+}
