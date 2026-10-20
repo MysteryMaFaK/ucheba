@@ -1,0 +1,224 @@
+{
+ "verdicts": [
+  {
+   "key": "id:190156",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Guard Helmet Variety: разнообразие шлемов стражи.",
+   "note": "",
+   "reason": "Содержимое не подтверждено (поиск не нашёл мод), один VR-лист, косметика низкой ценности; у шлемов стражи есть конкурирующие замены."
+  },
+  {
+   "key": "id:198",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "База женского тела CBBE: без неё CBBE 3BA и BodySlide-патчи не работают. Берём v2.0.3 как в Panda's и Tempus.",
+   "note": "Нужна v2.0.3 (198-2-0-3) под CBBE 3BA 2.48; Grit/Tahrovin на 1.7.1 - не брать. 'CBBE AE-CC Outfits' только при CC-плагинах. Ставить до CBBE 3BA, затем BodySlide.",
+   "reason": "Обязательная зависимость CBBE 3BA (30174), отдельной записи в первом проходе не было; VR-файл v2.0.3 подтверждён в двух VR-листах."
+  },
+  {
+   "key": "id:13956",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "FISSES: библиотека файлового доступа для скриптов.",
+   "note": "",
+   "reason": "Чистая зависимость без потребителей: ни ядро, ни список Other её не требуют. Ставить только если выбранный мод прямо указывает FISSES (VR: FISSES 1.3.7 + DLL for VR 1.3.5)."
+  },
+  {
+   "key": "id:720",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-шрамы для лиц игрока и NPC, только текстуры. Стоят в 6 из 9 VR-листов, включая Panda's и Librum.",
+   "note": "Файл Northborn Scars 1.3, не High Poly Head. Ставить после Nordic Faces, иначе лица перекроются; пересечение по шрамам с Skin Feature Overlays допустимо.",
+   "reason": "Сильное независимое подтверждение в VR (Panda's, Librum, Tempus), нулевая нагрузка на CPU, не дублирует ядро и первый проход."
+  },
+  {
+   "key": "id:20751",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-боевая раскраска вместо ванильной для всех рас; текстуры, без скриптов. 5 VR-листов, в том числе Yggdrasil VR.",
+   "note": "FOMOD All Inclusive 1.4: выбирать 2K, 4K на лицо лишний для VRAM. Ставить после ретекстуров лиц.",
+   "reason": "Хорошо подтверждён в VR, заменяет ванильные маски без конфликтов с ядром; пересечение с Community Overlays снято тем, что оверлеи не берём."
+  },
+  {
+   "key": "id:6817",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Большой набор новых причёсок для RaceMenu, дополнение к Vanilla hair remake. Нагрузка только при выборе причёски.",
+   "note": "Только база KS Hairdos SSE 1.9 (как в 4 VR-листах), без SMP-вариантов (31300) и Salt and Wind (52336): физика волос NPC дорога для CPU в VR.",
+   "reason": "Единственный пакет причёсок в батче, в первом проходе выбор причёсок скуден; без SMP стоит дёшево."
+  },
+  {
+   "key": "id:1062",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Набор бровей для RaceMenu от автора Beards 1067. Выбор Panda's, Librum и Tempus.",
+   "note": "Hvergelmir's Brows 4.1 - пара к Beards (1067). Версия для High Poly Head не нужна. Kalilies Brows (40595) не ставить.",
+   "reason": "Побеждает Kalilies Brows: стоит в трёх независимых VR-листах и в паре с Beards из первого прохода."
+  },
+  {
+   "key": "id:110116",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Face Sculptor Expanded: расширение лепки лица.",
+   "note": "",
+   "reason": "Функция не подтверждена (поиск дал только название, автор jayserpa) и, вероятно, пересекается с Expressive Facegen Morphs из первого прохода. Нужен только при создании героя."
+  },
+  {
+   "key": "id:24482",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-макияж и расовые цвета вместо ванильных масок, только текстуры. Лицо в VR видно вплотную.",
+   "note": "Брать 2K: VMHD All Races 2K + FemaleLowerEyeSocketFix 2K. Пара к Vanilla Warpaints Absolution (20751). Ставить после ретекстуров лиц.",
+   "reason": "Покрывает макияж по ванильным слотам, поэтому Female Makeup Suite (24495) избыточен; нулевая нагрузка на CPU."
+  },
+  {
+   "key": "id:40595",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Kalilies Brows: альтернативные брови.",
+   "note": "",
+   "reason": "Дубль Hvergelmir's Brows (1062); подтверждён только семейством Grit/Tahrovin."
+  },
+  {
+   "key": "id:22487",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Community Overlays 1: раскраска и татуировки.",
+   "note": "",
+   "reason": "Только семейство Grit/Tahrovin; боевая раскраска уже покрыта Vanilla Warpaints Absolution, татуировки узкая ниша; лишний пакет занимает слоты оверлеев RaceMenu."
+  },
+  {
+   "key": "id:20183",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Оверлеи RaceMenu: веснушки, шрамы, родинки для лица и тела. Грузятся только при выборе.",
+   "note": "Файл SkFO 2K (20183-1-6); VR-листы ставят 4K, для VRAM хватает 2K. Работает поверх любой кожи (BnP). Один пакет оверлеев вместо трёх.",
+   "reason": "Лучший из трёх оверлейных пакетов батча: уникальные веснушки и родинки, лицо в VR близко; остальные пересекаются с Warpaints/VMHD."
+  },
+  {
+   "key": "id:7902",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Tempered Skins for Males: текстуры кожи мужчин.",
+   "note": "",
+   "reason": "Устарел (2020): первый проход ориентирует на BnP Male Skin (65402, Panda's); HIMBO уже даёт мужское тело с текстурами."
+  },
+  {
+   "key": "id:62413",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фикс редкого вылета при сохранении из-за скрипта уборки тел мёртвых NPC. Только для NPC, умерших после установки.",
+   "note": "Брать 0.4 (62413-0-4, Librum VR) рядом с ConsoleUtilVR из ядра; страница называет требованием ConsoleUtilSSE NG, версия 0.5.2 только в SE-листах и в VR не проверена. Ставить на чистое сохранение.",
+   "reason": "Три VR-листа (0.3/0.4) подтверждают работу с ConsoleUtilVR; статус VR формально unknown, поэтому try."
+  },
+  {
+   "key": "id:89103",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Rudy HQ Red Mountain Plume: шлейф дыма Красной горы.",
+   "note": "",
+   "reason": "Один дальний объект на Солстхейме, мелкая правка без ясной VR-ценности. Остальные моды серии Rudy HQ тоже не брать (клаттер-ретекстуры спорят с ядром, Lights for ENB бесполезны)."
+  },
+  {
+   "key": "id:97946",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые лица дремор для разнообразия, мелкий мод без скриптов. Дремор видно вплотную: призыв, Обливион-врата.",
+   "note": "Файл Additional Dremora Faces 1.3.12 (Tempus, 2025-08). Патчи (CC The Cause, Mysticism) только при этих модах; патч Apocalypse не нужен.",
+   "reason": "В ядре и первом проходе дремор нет; мод дешёвый, но ценность умеренная, поэтому opt."
+  },
+  {
+   "key": "id:38480",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделка хаджитов и аргониан: головы, рога, брови; игрок и NPC. Свежая в Yggdrasil VR (2026-10).",
+   "note": "Файлы BeastHHBB 3.7.1 + Patches and Addons 2.1 (Yggdrasil) или 3.8 (FUS); требует CBBE 3BA. Рога уже внутри, Better Argonian Horns (80568) не ставить. Adoptable Beast Children не нужны.",
+   "reason": "Один широкий реплейсер зверорас вместо набора мелких; подтверждён двумя VR-листами."
+  },
+  {
+   "key": "id:80568",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Better Argonian Horns: рога аргониан в RaceMenu.",
+   "note": "",
+   "reason": "Ниша только для игры за аргонианина, один VR-лист; рога покрывает BeastHHBB (38480) - оставлен он."
+  },
+  {
+   "key": "id:24495",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Female Makeup Suite - Face: оверлеи макияжа.",
+   "note": "",
+   "reason": "Только семейство Grit/Tahrovin; дублирует Vanilla Makeup HD (24482) и занимает слоты оверлеев."
+  },
+  {
+   "key": "id:63649",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Sky Haven Temple Head Door Improved: меш головы-двери.",
+   "note": "",
+   "reason": "Тривиальная правка одного объекта, нет значимой VR-ценности."
+  },
+  {
+   "key": "id:1523",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур созвездий, линий и звёзд перков в меню навыков. Текстуры, нагрузки нет.",
+   "note": "Файл SSIRT SE v4.1, FOMOD; SWF из архива не брать. statsmenu.swf у SKSEVR Perk Extender, SkyUI VR и Norden UI должен остаться победителем - только текстуры.",
+   "reason": "Не дублирует ядро (там нет ретекстура созвездий), подтверждён Panda's и Librum; ценность умеренная, поэтому opt."
+  },
+  {
+   "key": "id:42635",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Beards of Power: дополнительные бороды.",
+   "note": "",
+   "reason": "Избыточен при Beards (1067) из первого прохода; второй пакет бород без ясной добавленной ценности."
+  }
+ ]
+}

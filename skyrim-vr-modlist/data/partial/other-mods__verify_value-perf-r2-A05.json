@@ -1,0 +1,214 @@
+{
+ "verdicts": [
+  {
+   "key": "id:80832",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-меши и текстуры зелий и ядов: флакон подносишь к лицу, в VR это видно вплотную.",
+   "note": "Без DLL. Файлы как в Spirit of Grit/Tahrovin: «2k» + «No ENB Light Meshes» + «Update-Patches» 1.1; при нехватке VRAM берите «1k». ENB в VR нет, поэтому только «No ENB Light Meshes». Бутылки Skyland Bits and Bobs (#95032) могут перекрывать часть зелий: порядок проверьте глазами.",
+   "reason": "Своя ниша (зелья), не дублирует ничего из Core и первого прохода, 3 VR-листа, цена мала."
+  },
+  {
+   "key": "id:56130",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Фикс лимита журнала квестов: SE/AE-плагин, VR-сборки нет.",
+   "note": "Не ставить: 14 SE-листов, 0 из 9 VR-листов, один файл 0.2.1 под SE/AE, VR-сборка не подтверждена. Лимит журнала упирается только в большое число квестовых модов, а они в этой сборке исключены.",
+   "reason": "Популярный в SE, но для VR не подтверждён и не нужен без квестовых модов; остаётся в списке «не ставить»."
+  },
+  {
+   "key": "id:5795",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "alt",
+   "choose_one_group": "clutter_style",
+   "what": "Классический ретекстур мелкого клаттера (посуда, утварь) в стиле Rustic, в паре с Rustic Furniture.",
+   "note": "Только текстуры, без DLL. Файлы: Yggdrasil VR «2K-1K»; Spirit of Grit/Tahrovin/Tahrovin - Grit «2K»; Librum VR «1K». Для VR берите 2K-1K или 1K. Это альтернатива Skyland Bits and Bobs (#95032) и Rally (#33669): выберите один стиль клаттера, не все сразу.",
+   "reason": "Дублирует по назначению Skyland/Rally из первого прохода, поэтому только как альтернатива в choose_one; оставлен ради единого Rustic-стиля с Rustic Furniture (#17228)."
+  },
+  {
+   "key": "id:38760",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Замена кубемап-текстур отражений (металл, стекло, вода): лёгкий мод без DLL.",
+   "note": "Берите «SC - Cubemaps - 512» (так в Yggdrasil VR на Open Shaders 2.17, Spirit of Grit, Tahrovin). 1024 в VR лишний. Динамические кубемапы Open Shaders частично перекрывают эффект: польза скромная, вреда нет. Не ставить вместе с Custom Cubemaps (#58817): оба пишут в textures/cubemaps.",
+   "reason": "Дёшево по VRAM, подтверждено 4 VR-листами включая Yggdrasil на нашем шейдерном стеке; конкурентов в списках нет."
+  },
+  {
+   "key": "id:44448",
+   "keep": false,
+   "section": "none",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фиксы текстур Kvitekvist; состав не подтверждён.",
+   "note": "",
+   "reason": "low_value/unverified: страница Nexus недоступна, веб-поиск пуст, состав не подтвердить, а Stormcrown VR и Panda's его не берут (вероятно вытеснен). Рекомендовать мод без понятного содержимого нельзя."
+  },
+  {
+   "key": "id:69944",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Утилиты ключей dTry: сборки только SE и AE, под VR нет.",
+   "note": "Не ставить: файлы «SE» и «AE», VR-сборки нет, 0 из 9 VR-листов. Ключи для руки в VR закрывает VR Refit - ElSopa - HD Keys Resized (#49903), он уже в списке.",
+   "reason": "Популярен в SE (14 листов), но без VR-билда; нужен пункт «не ставить» с указателем на #49903."
+  },
+  {
+   "key": "id:24039",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меши древней нордской керамики в гробницах.",
+   "note": "",
+   "reason": "redundant: горшки и утварь руин и гробниц уже закрывает Ruins Clutter Improved (#5870, rec) плюс Skyland (#95032); узкая добавка, перекрытие по тем же объектам, 3 VR-листа."
+  },
+  {
+   "key": "id:87277",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные меши и текстуры шкур и пелтов: ковры, трофеи, лагеря, видно вблизи.",
+   "note": "Без DLL. Основной файл «Better Pelts and Hides» 1.0 (Tempus, Panda's). Поверх у Panda's «Fluffy by SkySinclaire»: Fluffy и Vale Deer - альтернативные облики, не больше одного. Привязки Vale Deer не нужны.",
+   "reason": "Своя ниша, ничего из списков не дублирует, подтверждён 2 VR-листами и 9 SE."
+  },
+  {
+   "key": "id:56123",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "CoMAP: SKSE-фреймворк иконок маркеров, VR-сборки нет.",
+   "note": "Не ставить: MapMarkerFramework (Exit-9B) без VR-сборки, 0 из 9 VR-листов. Маркеры в VR дают Hi-Res VR Map Markers (#35627) и Navigate VR (#47174), они уже в списке.",
+   "reason": "Популярен в SE (13 листов), для VR не подходит; нужен пункт «не ставить» с указателем на #35627 и #47174."
+  },
+  {
+   "key": "id:74722",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD Local Map: SKSE-плагин под SE/AE, VR-сборки нет.",
+   "note": "Не ставить: 0 из 9 VR-листов. Локальную карту в VR делает Local Map Upgrade VR (#134212), он уже в списке.",
+   "reason": "Популярен в SE (13 листов), без VR-билда; указатель на #134212."
+  },
+  {
+   "key": "id:46708",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-ретекстур статуй богов и крупных статуй: в VR их видно вплотную.",
+   "note": "Только текстуры. Берите «Iconic Statues 2K» 1.2.3 (Panda's) или 2K 1.2 (Librum VR); 4K из Tempus VR не брать: VRAM. Возможно перекрытие со статуями JS Shrines of the Divines (#33394): смотрите результат у алтарей.",
+   "reason": "Крупные объекты с реальной пользой в VR при 2K, 3 VR-листа; перекрытие с JS Shrines частичное."
+  },
+  {
+   "key": "id:73849",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-ретекстур бумаги и пергамента: записки, свитки, письма читаешь в руках.",
+   "note": "Только текстуры. «PAPER» 2.2.4 как в Librum VR и Tempus VR, в установщике брать 2K (выбор в архивах не виден, подтвердите на странице). Не ставьте рядом с другим паком бумаги и книг.",
+   "reason": "Предметы в руках, нет конфликтов с Core и первым проходом, 2 VR-листа и 9 SE."
+  },
+  {
+   "key": "id:17757",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур Свитка Старейшин в стиле Rustic.",
+   "note": "",
+   "reason": "trivial: один квестовый предмет, виден в считанных моментах; не стоит места в кураторском списке, Rustic-стиль и так закрыт Rustic Furniture и Rustic Clutter."
+  },
+  {
+   "key": "id:89241",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Иконки предметов инвентаря SkyUI (Immersive Icons): единообразнее и информативнее ванильных.",
+   "note": "Нужен SkyUI VR (#91535), ставить ниже него. Файл 2.1.3 (Tempus VR); у Librum старее, 2.1.2. Заменяет SWF инвентаря; в оверлеях вроде QuickLoot не работает. Не смешивать с SkyUI Colored Category Icons без проверки.",
+   "reason": "Единственный пак иконок инвентаря в списке, подтверждён 2 VR-листами; риск с SWF отмечен, поэтому opt."
+  },
+  {
+   "key": "id:22160",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-текстуры замка и отмычек в мини-игре взлома: деталей вблизи много.",
+   "note": "Только текстуры, интерфейс взлома не трогает. Берите «2k Textures» (Panda's и 7 SE-листов); «4k» из Yggdrasil VR в VR лишнее.",
+   "reason": "Мелкий, но частый в игре объект у лица; 2K дёшев по VRAM."
+  },
+  {
+   "key": "id:92529",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Keyword Patch Collection: набор патчей с ключевыми словами; ставят вместе с B.O.O.B.I.E.S.",
+   "note": "Только вместе с B.O.O.B.I.E.S (#89241): так в Tempus VR и Librum VR. Требует Keyword Item Distributor (ядро). Состав патчей не подтверждён (страницу найти не удалось): после установки проверьте плагины в LOOT. Без B.O.O.B.I.E.S не нужен.",
+   "reason": "Зависимая добавка к B.O.O.B.I.E.S с VR-подтверждением, но содержимое не проверено, поэтому try."
+  },
+  {
+   "key": "id:52239",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мелкий фикс лабиринта Шалидора в Лабиринтиане.",
+   "note": "",
+   "reason": "trivial: исправление одного ванильного данжа, один VR-лист, нужно только тем, кто идёт за посохом."
+  },
+  {
+   "key": "id:5785",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур и новые меши камней душ: камень берёшь в руку при зачаровании.",
+   "note": "Меши и текстуры без DLL. «RUSTIC SOULGEMS SE - FOMOD - English Only», в установщике 2K, как во всех 5 VR-листах. Не ставьте вместе с другим паком камней душ.",
+   "reason": "Предмет в руках, подтверждён 5 VR-листами, ничего из списков не дублирует."
+  },
+  {
+   "key": "id:117413",
+   "keep": true,
+   "section": "music",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Музыкальная добавка к ванильному саундтреку; ставят оба Grit-листа через Music Type Distributor.",
+   "note": "Требует Music Type Distributor (#119571): SKSE DLL, VR-сборка не подтверждена, проверьте sksevr.log. Файлы как в Spirit of Grit и Tahrovin - Grit: «Emeratu» 1.1.1, затем «Expansion Pack» 1.0.0, затем «Dungeons Hotfix» и «Hotfix 2». Дополняет Soulmancer's Merged Soundtrack (#22551).",
+   "reason": "Не дублирует остальные музыкальные пункты (упомянут лишь в заметке Soulmancer's), но зависит от MTD с неподтверждённым VR-статусом, поэтому try."
+  },
+  {
+   "key": "id:5445",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправление нормалей ванильных глаз.",
+   "note": "",
+   "reason": "redundant: перекрывается с Authentic Eyes (#36063), который уже в списке и заменяет глаза целиком; два мода для одних файлов не нужны."
+  },
+  {
+   "key": "id:57038",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-меши и текстуры драконьих когтей: ключ к дверям, в VR держишь в руках.",
+   "note": "Только меши и текстуры, без DLL. Берём только AE-версию #57038: «JS Dragon Claws AE - 2k Textures» 1.32 (Panda's) + основной файл AE; Spirit of Grit/Tahrovin ставят «Anniversary Edition - 2k» 1.3. SE-версия #1394 устарела, Amethyst Patch #23833 и анимированные «Gem Claws» не нужны.",
+   "reason": "Ключевой предмет в руках, 4 VR-листа и 12 SE; из серии берём одну актуальную версию."
+  }
+ ]
+}

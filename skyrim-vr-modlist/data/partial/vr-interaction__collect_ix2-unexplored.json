@@ -1,0 +1,375 @@
+{
+ "picks": [
+  {
+   "key": "id:184623",
+   "id": 184623,
+   "name": "Neck Snap VR (Skyrim VR framework, SamuelJohnBrown)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184623",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Скрытное убийство руками: подкрасться сзади, взять голову NPC двумя руками HIGGS и свернуть шею. Свидетели дают розыск. Новый, один автор.",
+   "vr_status": "vr_native",
+   "in_lists": "нет (ни один из 9 VR-списков, whouses пуст)",
+   "files": "Файл на Nexus не прочитан (nexusmods не открывается). Имя архива и версия неизвестны. На GitHub в Releases пусто, 3 коммита, репозиторий создан 07.07.2026, обновлён 09.07.2026.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS",
+    "VR Address Library for SKSEVR (не подтверждено)",
+    "VRIK Player Avatar (не подтверждено)"
+   ],
+   "interplay": "Закрывает загадку #184623. Не дубль Throat Slit VR (клинок) и Lethal Unarmed VR (кулаки) из Core: это захват головы двумя руками. Работает через HIGGS-хват, поэтому с PLANCK, Precision Physic Bodies и Gift by Hand VR возможны споры за руку у NPC: проверять отдельно. С PCVR, True Wield VR, OAR-Pandora и Engine Fixes VR конфликтов не найдено, но и проверок нет.",
+   "note": "Решение владельца: убийство без оружия, не оверхол сложности. Проверка: в sksevr.log DLL без ошибки, затем подкрасться к спокойному гуманоиду и взять голову обеими руками. Версию DLL и обязательность VRIK/Address Library сверить на странице. Начать только после того, как автор выложит релиз с версией; пока метка try.",
+   "evidence": "Сниппеты поиска Nexus mods/184623: «SKSE plugin... sneak up behind humanoid NPCs, grab their head with both hands, snap their neck - unarmed, physics-driven, fully VR; witnessed kills apply murder bounty; Requires HIGGS». GitHub SamuelJohnBrown/Neck-Snap-VR---Skyrim-VR-framework: то же описание, в исходниках higgsinterface001, vrikinterface001, SkyrimVRESLAPI, CrimeBounty, NeckSnapDetection. README целиком прочитать не удалось (WebFetch отдаёт только описание). Новое против раунда 1: найдена страница Nexus, раньше был только GitHub без релиза. Автор тот же, что у Throat Slit VR, Interactive Door Actions VR и Swap Drop and Hold Redux; гарнитура у автора не подтверждена."
+  },
+  {
+   "key": "id:173931",
+   "id": 173931,
+   "name": "Immersive Reading (iamwh0iam)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/173931",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Книги и записки читаются в руках: схватил книгу, вошёл в режим чтения, страницы листаются курками. Обычное меню чтения остаётся как запасное.",
+   "vr_status": "vr_native",
+   "in_lists": "нет (не ставит ни один из 9 VR-списков)",
+   "files": "Основной файл версии 1.07 по сниппету страницы; точное имя архива не видно.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS",
+    "Skyrim VR Tools",
+    "VR Address Library for SKSEVR",
+    "VRIK Player Avatar",
+    "Book Covers Skyrim (DanielCoffey), указан в таблице требований; обязательность и вариант SE/VR страница в сниппете не раскрыла"
+   ],
+   "interplay": "HIGGS: режим чтения включается по курку, хват HIGGS остаётся на Grip, так что с OpenComposite Unleashed (grip-touch) следить за биндами. Skyrim VR Tools, Address Library и VRIK уже в Core. Не дубль Librum VR (это список модов) и не дубль встроенного в HIGGS «книгу поднести к глазам»: тот открывает обычное меню. С PLANCK, PCVR, True Wield VR, Gift by Hand VR конфликтов не найдено. Read The Spell Incantation (опция) не брать: заклинательный контент.",
+   "note": "Закрывает «физические книги». Карты в руке уже решает Navigate VR из Other-1. Проверка: подобрать книгу HIGGS-рукой, взять курком, читать; сверить настройки правой и левой руки и BookTall в MCM. Книги в мире уменьшены на 20% по описанию. Нужен лог версии 1.07; страница свежая (около 139 дней по метке на странице, не 2026-10).",
+   "evidence": "Сниппеты поиска Nexus mods/173931 (автор iamwh0iam): «interactive real-time book reading system for SkyrimVR»; в таблице требований HIGGS, Skyrim VR Tools, VR Address Library for SKSEVR, VRIK Player Avatar как hard, Book Covers Skyrim; «does not replace original UI reading»; v1.07 добавил AutoReadDroppedBooks (включено по умолчанию); есть настройки позиции в правой и левой руке. Метка Skyrim VR на странице. Наличие у автора гарнитуры, видео и отзывов игроков не найдено. whouses 173931 пуст."
+  },
+  {
+   "key": "id:188121",
+   "id": 188121,
+   "name": "Interactive Animal Skinning VR (djhert)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/188121",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Снятие шкур и сбор мяса с туш руками в VR вместо кнопки Activate. Предметы падают на землю (INI: в инвентарь или стопками). Новая страница, v1.",
+   "vr_status": "vr_native",
+   "in_lists": "нет (ни один из 9 VR-списков)",
+   "files": "Версия 1 от 12.08.2026 по сниппету; имя архива не видно. Страница Nexus недоступна для fetch.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS",
+    "VR Address Library for SKSEVR",
+    "VRIK Player Avatar",
+    "PLANCK (в описании, в таблице требований нет)"
+   ],
+   "interplay": "Скрывает ванильный Activate на мёртвых животных и закрывает доступ к их инвентарю через меню: конфликтует по смыслу с QuickLoot IE (Core) на тушах и с Immersive Animal Looting VR. Для людей-трупов QuickLoot IE остаётся. Не пересекается с Immersive Harvesting VR (растения и рыба). С PLANCK ожидается нормальная работа с рэгдоллом туши; с PCVR, True Wield VR, Gift by Hand VR, OAR-Pandora, Engine Fixes VR конфликтов не найдено.",
+   "note": "Страница помечена AI-Generated («написано целиком Claude»), 5 отметок, проверок игроков нет. Тест: убить оленя или волка, дотронуться ножом, убедиться, что QuickLoot IE не открывает окно туши. Если гарнитуры у автора нет, он об этом пишет в README другого своего мода (Immersive Equip VR); здесь не проверялось. Метка try.",
+   "evidence": "Сниппеты поиска Nexus mods/188121: автор djhert, v1 12.08.2026, 5 отметок; в таблице требований HIGGS, Address Library for SKSEVR, VRIK Player Avatar; в описании ещё PLANCK; «Harvest» мёртвого животного даёт шкуру, мясо и вещи; скрывает Activate; поддерживает всех животных с ключевым словом ActorTypeAnimal. GitHub djhert/InteractiveAnimalSkinningVR: обновлён 12.08.2026. Новое против раунда 1: появилась страница Nexus с таблицей требований (раньше только GitHub без релиза)."
+  },
+  {
+   "key": "id:139676",
+   "id": 139676,
+   "name": "Interactive Herb Smoking - VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/139676",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Трубки и самокрутки руками: набить травой, зажечь настоящим огнём, вдохнуть у рта (эффекты и вибрация). Атмосферная мелочь, без взрослого контента.",
+   "vr_status": "vr_native",
+   "in_lists": "нет (ни один из 9 VR-списков)",
+   "files": "Файл не прочитан, версия неизвестна. Страница Nexus недоступна для fetch.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS (последний билд)",
+    "Instant Equip VR",
+    "VRIK Player Avatar",
+    "Base Object Swapper VR (необязательно, шанс замены чернильниц)"
+   ],
+   "interplay": "Instant Equip VR и Base Object Swapper VR уже в Core, остальное тоже. С PLANCK, PCVR, True Wield VR, Gift by Hand VR, OAR-Pandora, Engine Fixes VR конфликтов не найдено. Мод использует HIGGS для детекции схваченных трав, размера и рта: проверять вместе с Interactive Harvesting VR (трава в руке).",
+   "note": "Раунд 1 отверг GitHub-версию «Interactive Pipe Smoking» за отсутствие релиза. Теперь есть страница Nexus с таблицей требований; совпадение с репозиторием SamuelJohnBrown не доказано (функции те же, автор страницы не прочитан). Страница по метке старая (около 637 дней), версия HIGGS на момент выхода могла быть ниже текущей. Про взрослые интеграции на странице ничего не сказано.",
+   "evidence": "Сниппеты поиска Nexus mods/139676: «pack herbs into pipes or roll smokes, light them with real fire sources and inhale near your in-game mouth»; в таблице требований HIGGS (latest), Instant Equip VR, VRIK Player Avatar; метки Skyrim VR и SKSE. GitHub SamuelJohnBrown/Interactive-Pipe-Smoking-framework---Skyrim-VR: «SKSE mod for crafting, smoking, and filling pipes and smokes», обновлён 04.02.2026. whouses 139676 пуст."
+  },
+  {
+   "key": "id:103385",
+   "id": 103385,
+   "name": "Interactive Skyrim VR (LucienLachance)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/103385",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Статичные предметы мира становятся физическими (HIGGS-хват), у контейнеров скрипт открывает замок, когда рука рядом. Бета 0.8.1 от 2023 года.",
+   "vr_status": "vr_native",
+   "in_lists": "нет (ни один из 9 VR-списков)",
+   "files": "Версия 0.8.1 от 26.10.2023 по сниппету; имя архива не видно. Содержит ESP и три скрипта по описанию.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS 1.7.2+",
+    "PapyrusUtil SE",
+    "powerofthree's Tweaks и Tweaks VR",
+    "Skyrim VR Tools",
+    "VR Address Library for SKSEVR",
+    "VRIK Player Avatar"
+   ],
+   "interplay": "Все требования уже есть в Core. Не дубль Interactive Activators VR (рычаги, цепи, кнопки) и Base Object Swapper VR (замены объектов). Даёт физику самим предметам, возможны споры с BOS-заменами и с Immersive Harvesting VR на одних и тех же формах: проверять в игре. С PLANCK, PCVR, True Wield VR, Gift by Hand VR, OAR-Pandora, Engine Fixes VR конфликтов не найдено.",
+   "note": "Бета, три года без обновлений, ESP занимает слот плагина (ESL не подтверждён). Какие именно предметы изменены, страница в сниппете не раскрыла: сначала посмотреть список на Nexus, затем ставить на тестовый профиль. Метка try.",
+   "evidence": "Сниппеты поиска Nexus mods/103385: автор LucienLachance, v0.8.1 (26.10.2023); «converting static objects to physics-based»; коллизионный слой static→clutter, центр тяжести; три скрипта (радиус руки у контейнера, reset position, разблокировка по activate); в таблице требований HIGGS 1.7.2+, PapyrusUtil SE, po3 Tweaks и Tweaks VR, Skyrim VR Tools, Address Library, VRIK. Отзывов игроков и участия в VR-списках нет."
+  },
+  {
+   "key": "id:171743",
+   "id": 171743,
+   "name": "Wayfinder Journal VR (iamwh0iam)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/171743",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Надеваемый интерактивный дневник в руке: записывает указания NPC по пути, жесты, очистка записей. Только вместе с базовым Wayfinder (без маркеров на карте).",
+   "vr_status": "vr_native",
+   "in_lists": "нет (ни один из 9 VR-списков)",
+   "files": "Версия 1.02 по сниппету (первая загрузка 02.2026, обновление 06.2026); имя архива не видно. Страница отмечена AI-Generated.",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR",
+    "Skyrim VR ESL Support",
+    "VRIK Player Avatar",
+    "PapyrusUtil SE",
+    "Wayfinder - Follow Directions Not Map Markers (#121765), версия 2.0.15 по странице"
+   ],
+   "interplay": "База Wayfinder заменяет маркеры квестов письменными указаниями: это выбор владельца, не просто интерфейс. Противоречит Quest Markers for NavigateVR (Other-1, opt): маркеры на ручной карте против записей в дневнике, ставить только одно из двух. VR ESL Support, Address Library, VRIK, PapyrusUtil в Core. PLANCK, HIGGS, PCVR здесь не затрагиваются.",
+   "note": "Закрывает «книги/карты в руке» только отчасти: карта в руке уже есть у Navigate VR. Если владелец не хочет терять маркеры квестов, не ставить. Для безопасной конфигурации достаточно не ставить Wayfinder и этот аддон. Метка try, проверять версию базы.",
+   "evidence": "Сниппеты поиска Nexus mods/171743: «equipable, interactive journal that updates as you ask NPCs for directions»; v1.02 добавил жесты, новую модель дневника, быстрое стирание; требования PapyrusUtil SE, VR Address Library, Skyrim VR ESL Support, VRIK, база Wayfinder 2.0.15; страница «AI-Generated», virus scan safe. Автор тот же, что у Immersive Reading (iamwh0iam). Отзывов игроков не найдено."
+  },
+  {
+   "key": "id:100781",
+   "id": 100781,
+   "name": "Pseudo Physical Weapon Collision and Parry (AE SE VR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/100781",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "vr-parry",
+   "what": "Рекомендация по Other-1: убрать #100781. Physical Collision VR 5.x уже парирует и отбивает стрелы и заклинания сам, а при наличии #100781 отключает своё парирование.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus VR, Spirit of Grit, Tahrovin - Grit, Panda's Sovngarde, Tahrovin, FUS (6 из 9). Вместе с Physical Collision VR только Spirit of Grit (PCVR 4.0.0) и Tahrovin - Grit (PCVR 4.1.0). Yggdrasil VR (2026-10-03): PCVR 5.2.0 и True Wield VR, без #100781.",
+   "files": "«Pseudo Physical Weapon Collision and Parry VR» 1.0.2 (Pseudo Physical Weapon Collision and Parry VR-100781-1-0-2-1706163658.zip, архив от января 2024); варианты Tweaked 125542 (1-02b) и config 162758. Новых файлов в списках нет.",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR"
+   ],
+   "interplay": "НОВОЕ против карточки Core («не вместе с»): по описанию PCVR парирование отключается автоматически, если стоит #100781, то есть жёсткого конфликта нет, но ставить смысла нет: вы теряете переработанное парирование PCVR 5.0.0 (быстрее и стабильнее) и отражение стрел и заклинаний из 3.0.0. True Wield VR и Swap Drop and Hold Redux 3.0.0 требуют PCVR 5.0+, а не #100781. С HIGGS и PLANCK #100781 раньше совместим по комментариям; с VRIK, OAR-Pandora, Engine Fixes VR проблем не отмечено, но и свежих проверок нет.",
+   "note": "Что делать: убрать #100781 (и 125542, 162758) из Other-1, оставить парирование PCVR. Если после теста PCVR парирование окажется слабым, вернуть #100781, но тогда это уже парирование #100781, а не PCVR; не ставить обе подсистемы параллельно и не опираться на Blocking and Flash VR при таком сочетании. Что не проверено: актуальность фразы про автоотключение для PCVR 5.2 (сниппет описания времён 2.0). По комментарию, обновление игры 1.6.1130 однажды ломало #100781.",
+   "evidence": "Сниппеты поиска: страница PCVR (186335): «If Pseudo Physical Weapon Collisions and Parry is installed, the parry is disabled to ensure compatibility»; файл 3.0.0 от 04.08.2026: «Added deflection of arrows and spells»; файл 5.0.0: «reworked the parrying system... True Wield VR can work»; описание: «move your weapon into an incoming attack... counts as a parry, cancels the blow and staggers». GitHub ijwzac/WeaponCollisionVR: исходники #100781 (идея Parrying RPG). whouses 100781/186335 по архивам. Прочесть страницы Nexus целиком нельзя (DNS)."
+  },
+  {
+   "key": "id:133437",
+   "id": 133437,
+   "name": "Parry - Simple Weapon Parrying (Destructor36)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/133437",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "vr-parry",
+   "what": "Не ставить: парирование по таймингу одновременных ударов для плоской игры, в VR дублирует парирование PCVR и не знает физику рук.",
+   "vr_status": "unknown",
+   "in_lists": "нет (ни один из 9 VR-списков, whouses пуст)",
+   "files": "Версия 5.2 (последнее обновление 06.2026) по сниппету; имя архива не видно.",
+   "requires": [
+    "SKSE64 / SKSEVR",
+    "SkyUI VR (рекомендуется)",
+    "Spell Perk Item Distributor (необязательно, парирование между NPC)",
+    "Engine Fixes VR (рекомендуется для расчёта урона блока)"
+   ],
+   "interplay": "VR-статус: страница, по сниппету, помечена Skyrim VR и пишет «SKSE or SKSE VR»; Address Library нужна только для SPID, значит сам мод, вероятно, без DLL, но тип страница не раскрывает. Парирует при одновременном ударе (окно 1/3 секунды), то есть по анимации, не по физике. Пересекается с парированием PCVR и с #100781; в VR отдача оружия видна только у врага, у вас нужен HIGGS. Это не заменяет и не усиливает связку HIGGS/PLANCK/PCVR.",
+   "note": "Закрывает вопрос критика: функция уже есть в PCVR 5.x, поэтому #133437 не нужен. Ни один из 9 VR-списков его не ставит, ни одного отзыва игроков в VR не найдено. Если очень нужно парирование между NPC (SPID): только на тестовом профиле и с выключенным парированием PCVR.",
+   "evidence": "Сниппеты поиска Nexus mods/133437: автор Destructor36, v5.2; «When 2 characters attack at the same time, their blows will be parried (1/3 s window)»; v5.1 добавил разоружение при парировании, v5.2 раздельные переключатели; «You will see the enemy's weapon recoil, but yours won't unless you use a mod like HIGGS»; рекомендации SkyUI VR и Engine Fixes VR; метка Skyrim VR. Сам DLL-статус и описание файла не прочитаны."
+  },
+  {
+   "key": "id:26447",
+   "id": 26447,
+   "name": "Locational Damage SKSE VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/26447",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "locational-damage",
+   "what": "Рекомендация: выбрать Accuracy (Core, opt) + Core Impact Framework и не ставить Locational Damage VR 0.7.2 (бета 2021) рядом. Fallback, если CIF не нужен.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus VR, Spirit of Grit, Tahrovin - Grit, Panda's Sovngarde, Tahrovin, FUS, Yggdrasil VR (7 из 9). Не ставят Stormcrown VR (Accuracy 1.0.0 + CIF 2.0.5, 2026-08) и Librum VR. Ни один список не ставит оба.",
+   "files": "«LocationalDamageSKSE VR» 0.7.2 (LocationalDamageSKSE VR 0.7.2-26447-0-7-2-1638129484.zip, ноябрь 2021), один и тот же архив во всех 7 списках.",
+   "requires": [
+    "SKSEVR",
+    "Skyrim VR Tools (для точного урона заклинаний, по changelog)"
+   ],
+   "interplay": "Дублирует Accuracy (#187578, Core opt), который опирается на Core Impact Framework: тот определяет точную часть тела по биped, у Accuracy отдельные множители физ., дальнего и магического урона, классы оружия и учёт брони; страница помечена Skyrim VR. Два мода по зонам одновременно ставить нельзя. У Locational Damage: бета, множители голова/тело/ноги/руки в INI, декапитация при попадании в голову, зависимость от Skyrim VR Tools. С Dismembering Framework (Core opt) пересечение по расчленению: не включать декапитацию в обоих. С HIGGS, PLANCK, PCVR конфликтов не найдено, но он ничего не знает про физические удары PLANCK.",
+   "note": "Чёткий ответ: ставить Accuracy + CIF (уже в Core), Locational Damage не ставить. Причины: Accuracy новее (2026 против 2021), у CIF уже стоят зависимые Sanguine Symphony и конфиги, один список (Stormcrown) ставит именно эту пару в 2026-08. Единственный довод за Locational Damage: 7 из 9 списков, включая Yggdrasil (2026-10-03), и он работает без CIF. Что не доказано: у Accuracy в VR есть лишь страница с меткой Skyrim VR и один список; как оба мода определяют зону при физическом ударе PLANCK, неизвестно, тестировать: удар по голове и по ноге.",
+   "evidence": "whouses 26447/187578/146873 и сверка 9 VR-списков по data/rep. Сниппеты Nexus mods/26447: BETA, версии 0.4-0.7.2, множители в INI, декапитация, Skyrim VR Tools нужен для отслеживания заклинаний; страница старая (около 7 лет). Сниппеты Nexus mods/187578: «built on Core Impact Framework... biped mapping determines the body part struck», множители по классам оружия и броне, метка Skyrim VR, v1.0.1. По камеровому методу у VR-версии подтверждения нет, поэтому довод про камеру не использован."
+  }
+ ],
+ "considered_dropped": [
+  {
+   "id": 85776,
+   "name": "Navigate VR - Left handed fix",
+   "reason": "Уже в Other-1; чинит кобуры и экипировку Navigate VR для левши, но спелл-вилл на другой руке не исправляет (захардкожено)."
+  },
+  {
+   "id": 47174,
+   "name": "Navigate VR - Equipable Dynamic Compass and Maps",
+   "reason": "Уже в Other-1 (rec): компас и бумажные карты в руке закрывают «физические карты»; отдельного физического мода карт найдено не было."
+  },
+  {
+   "id": 184001,
+   "name": "Shields and 2H Weapons Unlocked - VR",
+   "reason": "Тема GAP 6 (левша); страница, по сниппету, требует HIGGS, Instant Equip VR, VRIK и советует Spell Wheel VR, но раунд 1 отверг его из-за конфликта с True Wield VR, нового доказательства здесь нет."
+  },
+  {
+   "id": 171764,
+   "name": "Spell_Swapper",
+   "reason": "Перекладывание заклинаний между руками по жесту, есть MCM для левши; дубль по смыслу Spell Wheel VR и Magic Improvements for VR из Core, отдельного пробела не закрывает."
+  },
+  {
+   "id": 155283,
+   "name": "SSSO3 - VRIK and Spell Wheel VR Integration",
+   "reason": "Страницу не читал, только заголовок в выдаче; относится к магии и Spell Wheel VR, не к моей группе."
+  },
+  {
+   "id": 16304,
+   "name": "VR Mirror",
+   "reason": "Старый временный мод для просмотра и правки внешности; зеркало в VR уже даёт VRIK Selfie Mode (MCM VRIK: поднять руку, выбор руки и запрет в бою по changelog)."
+  },
+  {
+   "id": 190704,
+   "name": "Inventory Selfie VR - Redux",
+   "reason": "Уже в Core (rec); показывает тело VRIK в меню."
+  },
+  {
+   "id": 193004,
+   "name": "Mirrors of Skyrim",
+   "reason": "Ручное и стоячие зеркала; в сниппетах про VR ни слова, требует Realistic Reflections - Mirrors, экранные эффекты в VR проблемны; VR-статус не подтверждён."
+  },
+  {
+   "id": 191282,
+   "name": "Realistic Reflections - Mirrors",
+   "reason": "Рендер зеркал в реальном времени; VR-статус не подтверждён, нагрузка и риск артефактов в VR."
+  },
+  {
+   "id": 52464,
+   "name": "Immersive Animal Looting VR",
+   "reason": "HIGGS в требованиях не указан (SKSE64 и SPID), страницу не читал; конфликтует по смыслу с Interactive Animal Skinning VR."
+  },
+  {
+   "id": 140404,
+   "name": "Physical Torch Lighting / Interactive Torches NG - VR",
+   "reason": "Уже в Other-2 (r2-A04, try). Требует только Skyrim VR Tools, HIGGS не обязателен."
+  },
+  {
+   "id": 186754,
+   "name": "Immersive Harvesting VR",
+   "reason": "Уже в Core (opt); растения и рыба."
+  },
+  {
+   "id": 136560,
+   "name": "Immersive Harvesting - Cabbages",
+   "reason": "Узкий мод про капусту, требования и VR-статус не прочитаны, HIGGS-комментарий лишь упоминает его."
+  },
+  {
+   "id": 29710,
+   "name": "Immersive Gathering (Woodchopping and Mining) SE - VR FRIENDLY",
+   "reason": "Версия 1.9a от 2019, контент рубки и добычи; доказательств взаимодействия с HIGGS нет."
+  },
+  {
+   "id": 184804,
+   "name": "Immersive NPC Dialogue - VR",
+   "reason": "Уже в MODLIST (try)."
+  },
+  {
+   "id": 190966,
+   "name": "Physical-Checkout-VR",
+   "reason": "Уже назван критиком раунда 1 и отдан другой группе (ix_world, торговля)."
+  },
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies",
+   "reason": "Назван критиком, отдан другой группе; вне моей темы."
+  },
+  {
+   "id": 186897,
+   "name": "Immersive Equip VR",
+   "reason": "Назван критиком, отдан другой группе (ix_hands)."
+  },
+  {
+   "id": 184866,
+   "name": "MageVR Reborn",
+   "reason": "Назван критиком, отдан группе магии."
+  },
+  {
+   "id": 149484,
+   "name": "Object Impact Framework и зависимые",
+   "reason": "Назван критиком, отдан группе ix_feedback."
+  },
+  {
+   "id": 154803,
+   "name": "DovaVR Locomotion",
+   "reason": "Назван критиком, отдан группе передвижения."
+  },
+  {
+   "id": null,
+   "name": "Biting Axes & Swords VR (GitHub SamuelJohnBrown)",
+   "reason": "Нет релиза и страницы Nexus; Swap Drop and Hold Redux 1.2.2 упоминает совместимость с ним, но он пересекается с Immersive Weapon Penetration VR 1.8.0 из Core."
+  },
+  {
+   "id": null,
+   "name": "Equipped-weapon-collision-framework (GitHub SamuelJohnBrown)",
+   "reason": "Описания нет, README не читал; по смыслу дубль Physical Collision VR."
+  },
+  {
+   "id": null,
+   "name": "NPC-mounted-combat-framework (GitHub SamuelJohnBrown)",
+   "reason": "Описания нет, не читал; конный бой NPC закрыт Steeds of Ultima/Omega."
+  },
+  {
+   "id": null,
+   "name": "Water-interactions-VR (GitHub SamuelJohnBrown)",
+   "reason": "Описание «tbc», релиза нет; в Core уже Interactive Waters VR."
+  },
+  {
+   "id": null,
+   "name": "djhert/CookingVR",
+   "reason": "Релиза нет, сборка из исходников, страницы Nexus не нашёл."
+  },
+  {
+   "id": 133432,
+   "name": "Knockout - Health and Stealth-Based KOs (Destructor36)",
+   "reason": "Плоский геймплейный мод, VR-статус не подтверждён, не про жесты."
+  },
+  {
+   "id": 81356,
+   "name": "Parrying RPG",
+   "reason": "Парирование по статам и анимации, не физика; дублирует PCVR и #100781."
+  },
+  {
+   "id": 74326,
+   "name": "Simple Weapon Swing Parry - NG",
+   "reason": "Парирование по окну анимации замаха; плоский, VR не подтверждён."
+  },
+  {
+   "id": 85505,
+   "name": "Dual Wield Parrying SKSE",
+   "reason": "Парирование двумя клинками; в VR одна рука держит щит или клинок по HIGGS, вызывает спор с PCVR."
+  },
+  {
+   "id": 22443,
+   "name": "Locational Damage Stability Patch / Locational Damage SKSE AE (#161250, #46932)",
+   "reason": "Версии для SE/AE без VR; в VR ставить только VR-сборку #26447 или Accuracy."
+  },
+  {
+   "id": 186015,
+   "name": "3D Interface Replacement Project (Journal) и VR Quest Journal (#66359)",
+   "reason": "Журнал уже закрыт 3DIRP из раунда 1; Wayfinder Journal VR взят как отдельный случай."
+  },
+  {
+   "id": 121765,
+   "name": "Wayfinder - Follow Directions Not Map Markers",
+   "reason": "База для Wayfinder Journal VR: меняет навигацию по квестам, а не взаимодействие; отдельно не предлагаю."
+  }
+ ],
+ "notes": "Что подтверждено, что нет. Страницы nexusmods недоступны для WebFetch (DNS), данные взяты из сниппетов поиска и из GitHub, поэтому у большинства picks указано «имя архива не видно»; версий и файлов не придумывал. GitHub MCP открыт только для mysterymafak/ucheba, add_repo не вызывал (владелец не просил); профили авторов прочитал через WebFetch страницы github.com.\n\n1) Nexus #184623 это Neck Snap VR (автор SamuelJohnBrown): убийство шеи двумя руками HIGGS. Страница на Nexus теперь есть, релизов на GitHub нет. Метка try.\n2) #100781: рекомендую убрать из Other-1. Новое доказательство: описание PCVR говорит, что его парирование выключается само, если стоит #100781, то есть вместе они не ломаются, но #100781 глушит переработанное парирование PCVR 5.x (и отражение стрел/заклинаний с 3.0.0). Два списка (Spirit of Grit, Tahrovin - Grit) ставят оба, свежий Yggdrasil VR (2026-10-03) ставит только PCVR 5.2.0 с True Wield VR. Оговорка: фраза про автоотключение взята из сниппета и могла устареть к 5.2.\n3) #133437 (Destructor36, 5.2): VR-метка на странице есть, тип файла не раскрыт (Address Library только для SPID, значит, возможно без DLL), список VR-сборок его не ставит. Не ставить: дублирует парирование PCVR.\n4) #26447 против Accuracy: чёткий выбор Accuracy (#187578, Core opt) + Core Impact Framework. Locational Damage VR 0.7.2 это бета 2021 года; его ставят 7 из 9 VR-списков (включая Yggdrasil 2026-10), но ни один не ставит вместе с Accuracy. Fallback только если CIF не нужен. Оба одновременно нельзя.\n5) Новые добавки: Immersive Reading (физические книги, #173931), Interactive Animal Skinning VR (#188121, AI-Generated, v1 от 12.08.2026), Interactive Herb Smoking VR (#139676, раньше GitHub-версия была отвергнута из-за отсутствия релиза), Interactive Skyrim VR (#103385, бета 2023), Wayfinder Journal VR (#171743, только с базой Wayfinder). Всё помечено try; ни один из них не ставит ни один из 9 VR-списков. Отзывов игроков и заявлений «тестировано в VR» не найдено; по Immersive Reading и Wayfinder Journal VR автор один (iamwh0iam).\n6) Остальное по GAP 8: физические карты как мода нет, пробел закрывает Navigate VR из Other-1. Зеркало в VR даёт VRIK Selfie Mode (MCM VRIK) и Inventory Selfie VR - Redux из Core; отдельный зеркальный мод не нужен, Mirrors of Skyrim без VR-подтверждения. Левша: отдельного мода не найдено; Spell Wheel VR, Weapon Throw VR и Haptic Skyrim VR определяют режим левши сами (по описаниям), Swap Drop and Hold Redux учитывает его в коде, Navigate VR Leftie Fix уже в Other-1.\n7) Свежий поиск 2026 новых HIGGS/PLANCK-аддонов других неназванных релизов не дал: найденное либо уже в Core/Other (Physical Collision VR, True Wield VR, Immersive Weapon Penetration VR, Interactive Door Actions VR, Immersive Harvesting VR, SkyrimVR FBT, OpenComposite Unleashed), либо отдано другим группам критика (PPB, Immersive Equip VR, MageVR Reborn, Physical-Checkout-VR, OIF, DovaVR). Адалт-интеграций у моих picks не найдено; про Interactive Herb Smoking страница на них не указывает."
+}

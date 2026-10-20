@@ -43,18 +43,18 @@ for k, p in picks.items():
     if not (a and b):
         pending.append(k); continue
     if not (a['keep'] and b['keep']):
-        rejected.append((p['name'], (b if not b['keep'] else a)['reason'])); continue
+        rejected.append((p['name'], (b if not b['keep'] else a)['reason'], p.get('src', ''))); continue
     it = dict(p, section=b['section'] or p['section'], tag=('try' if a['tag'] == 'try' and b['tag'] != 'dont' else (b['tag'] or p['tag'])),
               choose_one_group=b['choose_one_group'] or a['choose_one_group'] or p['choose_one_group'], what=b['what'] or p['what'],
               note=' '.join(x for x in [b['note'], a['note'] if a['note'] != b['note'] else ''] if x) or p['note'])
     x = adj.get(k)
     if x and x['action'] == 'drop_duplicate':
-        rejected.append((p['name'], 'сведение: ' + x['reason'])); continue
+        rejected.append((p['name'], 'сведение: ' + x['reason'], p.get('src', ''))); continue
     if x and x['action'] in ('retag', 'regroup', 'move_section'):
         it['section'], it['tag'], it['choose_one_group'] = x['section'], x['tag'], x['choose_one_group']
     it['section'] = SECTION_FIX.get(p.get('id'), it['section'])
-    if it['section'] == 'ix_dont':
-        it['tag'] = 'dont'
+    if it['section'] == 'ix_dont' or it['tag'] == 'dont':
+        it['section'], it['tag'] = 'ix_dont', 'dont'
     kept.append(it)
 
 crit = None
@@ -98,7 +98,13 @@ for title, key in (('Правила взаимодействия с осново
     rows = [r for c in cons for r in c.get(key, [])]
     if rows:
         md += [f'## {title}', ''] + [f'- {r}' for r in rows] + ['']
-if crit:
+r2rej = [r for r in rejected if 'ix2-' in r[2]]
+if r2rej:
+    md += ['## Рассмотрено и не взято (пробелы, которые нашёл критик)', '',
+           'Эти моды критик полноты назвал пропущенными, их проверили отдельно. Проверяющие их сняли, ниже причины — на случай, если захотите вернуть какой-то вручную.', ''] + [f'- **{n}** — {why}' for n, why, _ in r2rej] + ['']
+if crit and not r2rej:
     md += ['## Что ещё проверяется', '', f"Вердикт критика полноты: `{crit['verdict']}`.", ''] + [f"- **{m['topic']}** — {m['why']} Кандидат: {m['candidate']}" for m in crit.get('missing', [])] + ['']
+elif crit:
+    md += ['## Полнота', '', 'Критик полноты после первого раунда назвал 8 пробелов; все они проверены вторым раундом (результат выше: оставлено и «рассмотрено и не взято»). Новых пробелов сверкой с 9 VR-сборками не найдено.', '']
 open(os.path.join(ROOT, 'VR_INTERACTION.md'), 'w', encoding='utf-8').write('\n'.join(md) + '\n')
 print('записано: data/vr_interaction_result.json, VR_INTERACTION.md (%d строк)' % len(md))

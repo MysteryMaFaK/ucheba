@@ -1,6 +1,27 @@
 {
  "kept": [
   {
+   "key": "id:26447",
+   "id": 26447,
+   "name": "Locational Damage SKSE VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/26447",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "locational-damage",
+   "what": "Locational Damage SKSE VR 0.7.2 (бета 2021): не ставить, в Core Accuracy + Core Impact Framework.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus VR, Spirit of Grit, Tahrovin - Grit, Panda's Sovngarde, Tahrovin, FUS, Yggdrasil VR (7 из 9). Не ставят Stormcrown VR (Accuracy 1.0.0 + CIF 2.0.5, 2026-08) и Librum VR. Ни один список не ставит оба.",
+   "files": "«LocationalDamageSKSE VR» 0.7.2 (LocationalDamageSKSE VR 0.7.2-26447-0-7-2-1638129484.zip, ноябрь 2021), один и тот же архив во всех 7 списках.",
+   "requires": [
+    "SKSEVR",
+    "Skyrim VR Tools (для точного урона заклинаний, по changelog)"
+   ],
+   "interplay": "Дублирует Accuracy (#187578, Core opt), который опирается на Core Impact Framework: тот определяет точную часть тела по биped, у Accuracy отдельные множители физ., дальнего и магического урона, классы оружия и учёт брони; страница помечена Skyrim VR. Два мода по зонам одновременно ставить нельзя. У Locational Damage: бета, множители голова/тело/ноги/руки в INI, декапитация при попадании в голову, зависимость от Skyrim VR Tools. С Dismembering Framework (Core opt) пересечение по расчленению: не включать декапитацию в обоих. С HIGGS, PLANCK, PCVR конфликтов не найдено, но он ничего не знает про физические удары PLANCK.",
+   "note": "Ставят 7 из 9 VR-списков, но ни один вместе с Accuracy. Не включать оба. Accuracy в VR подтверждён лишь меткой страницы и Stormcrown VR, как оба определяют зону при ударе PLANCK, неизвестно: проверить удар по голове и ноге. Если CIF не нужен, это запасной вариант. whouses: один архив LocationalDamageSKSE VR 0.7.2-26447-0-7-2-1638129484.zip в 7 VR-списках, включая Yggdrasil (2026-10-03). Accuracy (Core opt) в VR подтверждён лишь тегом страницы и одним списком. Выбрать один из двух; если CIF и Accuracy не нужны, это проверенный вариант. Не включать декапитацию вместе с Dismembering Framework.",
+   "evidence": "whouses 26447/187578/146873 и сверка 9 VR-списков по data/rep. Сниппеты Nexus mods/26447: BETA, версии 0.4-0.7.2, множители в INI, декапитация, Skyrim VR Tools нужен для отслеживания заклинаний; страница старая (около 7 лет). Сниппеты Nexus mods/187578: «built on Core Impact Framework... biped mapping determines the body part struck», множители по классам оружия и броне, метка Skyrim VR, v1.0.1. По камеровому методу у VR-версии подтверждения нет, поэтому довод про камеру не использован.",
+   "src": "vr-interaction__collect_ix2-unexplored.json"
+  },
+  {
    "key": "id:103990",
    "id": 103990,
    "name": "Blocking and Flash VR - Redux",
@@ -135,6 +156,27 @@
    "note": "Только Grit-списки. MODLIST, карточка Weapon Throw VR: не вместе с другими метателями оружия. DAR-анимации не вяжутся с руками VRIK. Оба Grit-списка ставят DAR-версию (1584922042) и G.04. MODLIST.md, карточка Weapon Throw VR: «Не вместе с … другие метатели оружия». Утверждение про несовместимость анимаций DAR/OAR с руками VRIK логично, но не проверено. Ножи как предмет без жеста — только если очень нужны.",
    "evidence": "whouses 4668: Spirit of Grit, Tahrovin - Grit (файлы выше). MODLIST.md, карточка Weapon Throw VR: «Не вместе с: Throwable Weapons SKSE (#182872) и другие метатели оружия».",
    "src": "vr-interaction__collect_ix-hands-objects.json"
+  },
+  {
+   "key": "id:100781",
+   "id": 100781,
+   "name": "Pseudo Physical Weapon Collision and Parry (AE SE VR)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/100781",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "vr-parry",
+   "what": "Pseudo Physical Weapon Collision and Parry (#100781): убрать из Other-1, парирует Physical Collision VR 5.x.",
+   "vr_status": "vr_native",
+   "in_lists": "Tempus VR, Spirit of Grit, Tahrovin - Grit, Panda's Sovngarde, Tahrovin, FUS (6 из 9). Вместе с Physical Collision VR только Spirit of Grit (PCVR 4.0.0) и Tahrovin - Grit (PCVR 4.1.0). Yggdrasil VR (2026-10-03): PCVR 5.2.0 и True Wield VR, без #100781.",
+   "files": "«Pseudo Physical Weapon Collision and Parry VR» 1.0.2 (Pseudo Physical Weapon Collision and Parry VR-100781-1-0-2-1706163658.zip, архив от января 2024); варианты Tweaked 125542 (1-02b) и config 162758. Новых файлов в списках нет.",
+   "requires": [
+    "SKSEVR",
+    "VR Address Library for SKSEVR"
+   ],
+   "interplay": "НОВОЕ против карточки Core («не вместе с»): по описанию PCVR парирование отключается автоматически, если стоит #100781, то есть жёсткого конфликта нет, но ставить смысла нет: вы теряете переработанное парирование PCVR 5.0.0 (быстрее и стабильнее) и отражение стрел и заклинаний из 3.0.0. True Wield VR и Swap Drop and Hold Redux 3.0.0 требуют PCVR 5.0+, а не #100781. С HIGGS и PLANCK #100781 раньше совместим по комментариям; с VRIK, OAR-Pandora, Engine Fixes VR проблем не отмечено, но и свежих проверок нет.",
+   "note": "PCVR отключает своё парирование при наличии #100781, жёсткого конфликта нет, но вы теряете парирование PCVR 5.x. Core-карточка PCVR уже запрещает совместное использование. Вернуть, только если парирование PCVR после теста слабое. Сообщение про автоотключение взято из описания времён 2.0, для 5.2 не проверено. whouses подтвердил архив 1.0.2 (Tempus, Spirit of Grit, Tahrovin-Grit, Panda's, Tahrovin, FUS). По описанию PCVR при наличии #100781 отключает своё парирование (фраза из времён 2.0, для 5.2 не проверена). True Wield VR требует PCVR 5.0+. Если парирование PCVR окажется слабым, вернуть #100781 осознанно.",
+   "evidence": "Сниппеты поиска: страница PCVR (186335): «If Pseudo Physical Weapon Collisions and Parry is installed, the parry is disabled to ensure compatibility»; файл 3.0.0 от 04.08.2026: «Added deflection of arrows and spells»; файл 5.0.0: «reworked the parrying system... True Wield VR can work»; описание: «move your weapon into an incoming attack... counts as a parry, cancels the blow and staggers». GitHub ijwzac/WeaponCollisionVR: исходники #100781 (идея Parrying RPG). whouses 100781/186335 по архивам. Прочесть страницы Nexus целиком нельзя (DNS).",
+   "src": "vr-interaction__collect_ix2-unexplored.json"
   },
   {
    "key": "id:72174",
@@ -276,7 +318,7 @@
    "id": 45586,
    "name": "iNeed Water - A VR Needs Management Adaption",
    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/45586",
-   "section": "ix_hands",
+   "section": "ix_world",
    "tag": "opt",
    "choose_one_group": null,
    "what": "Фляга в кобуре VRIK: пьёте, поднося ко рту, наполняете, присев у воды. Только вместе с SunHelm.",
@@ -772,7 +814,7 @@
    "id": 60211,
    "name": "Whose Quest Is It Anyway VR",
    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/60211",
-   "section": "ix_feedback",
+   "section": "ix_ui",
    "tag": "opt",
    "choose_one_group": null,
    "what": "Вместо «Квестовые предметы нельзя убрать» сообщение называет квест. Понятная обратная связь, когда предмет в руке не получается выбросить.",
@@ -921,512 +963,825 @@
    "note": "Только SE-списки (CSVP, LoreRim, True North, Apostasy); ни один из 9 VR-списков его не ставит. Show in UI (#158977) тоже не нужен. Throwing Stuff VR (в Other-2) работает без него. Файл 2.1.1 стоит только в SE-списках (CSVP, LoreRim, True North, Apostasy); ни один из 9 VR-списков его не ставит. Забирает активацию и физику и спорит с HIGGS/PLANCK.",
    "evidence": "whouses 120460: [SE] CSVP, LoreRim, True North, Apostasy (и Show in UI 158977 True North); VR-списков нет.",
    "src": "vr-interaction__collect_ix-world-npc.json"
+  },
+  {
+   "key": "id:154803",
+   "id": 154803,
+   "name": "DovaVR Locomotion",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/154803",
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": "armswing",
+   "what": "DovaVR Locomotion: ходьба взмахом рук, плавание и верховая езда, чистый SKSE без внешних программ.",
+   "vr_status": "vr_native",
+   "in_lists": "В 27 популярных списках нет (whouses 154803 пуст). Ставит VR-сборка Mad God's Overhaul (по её гайду synergyvr.org, мод выключен по умолчанию); версия там не видна.",
+   "files": "Основной файл. Имя архива и актуальная версия не подтверждены: в changelog из сниппетов видны 1.1.0 и 1.4.2 (1.4.2 — последняя, что удалось прочитать).",
+   "requires": [
+    "SKSEVR (#30457)",
+    "SkyUI VR (#91535) — для MCM; по сниппету страницы это все требования",
+    "HIGGS (#43930) — не требование, но страница заявляет совместимость"
+   ],
+   "interplay": "Im Walkin' Here VR (Core opt) НЕ пересекается: он только отключает толчки NPC, а не двигает игрока; в round 1 это было написано неверно. Natural Locomotion (Other-1) делает то же другим путём (эмулирует стик из SteamVR): не запускать оба сразу, выбрать один. VR Climbing Aelove (Core opt): прямого конфликта в источниках нет, оба слушают хват; на странице DovaVR заявлена совместимость с HIGGS, Spell Wheel, факелом, луком и одной рукой. Spell Wheel VR, Sprint Jump VR и Auto Sneak and Jump VR (Core opt): в 1.1.0 есть импульс прыжка, при включении проверять только одну схему прыжка. Wade in Water VR и Sink Or Swim NG: меняют скорость в воде, а DovaVR отдельно ведёт плавание, тест по очереди. Известный конфликт: Sailable Ship VR ломался с DovaVR, автор позже поправил (стик имеет приоритет); этого мода в наших списках нет.",
+   "note": "Только по желанию и как замена стику. Брать версию не ниже 1.4.2 (иначе защита от хвата не работает). Включать ходьбу, плавание, верхом по одному. Не ставить вместе с Natural Locomotion, прыжок оставить только в одной схеме. Evidence: сниппеты поиска (страница Nexus не читалась), VR-сборка Mad God's Overhaul ставит его. Свежесть версии не подтверждена. Только сниппеты: тег Skyrim VR Required, SKSEVR + SkyUI VR; страница старая; Mad God's Overhaul ставит мод (по гайду). Нужна версия не ниже 1.4.2 (исправлен Right Grip). Не вместе с Natural Locomotion. Im Walkin' Here VR не пересекается. Включать ходьбу, плавание, езду по отдельности; тест с HIGGS-хватом, луком, конём.",
+   "evidence": "WebSearch-сниппеты страницы Nexus 154803: «Pure SKSE - no external software», cadence detection, realistic swimming, теги «Skyrim VR Required», требования SKSEVR и SkyUI VR, MCM (наклон, калибровка кнопок), changelog 1.1.0 и 1.4.2, заявка совместимости с HIGGS/Spell Wheel. Гайд Mad God's Overhaul (synergyvr.org/mgo/how-to-play/movement, через сниппет). Steam-обсуждение 611670/599657858219399676 (отзыв пользователя). Сниппет Sailable Ship VR (#72070) о конфликте и исправлении. Автор с гарнитурой: не подтверждено.",
+   "src": "vr-interaction__collect_ix2-locomotion-loot.json"
+  },
+  {
+   "key": "id:25072",
+   "id": 25072,
+   "name": "No Lockpick Activate VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/25072",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": "nolockpick",
+   "what": "No Lockpick Activate VR: после взлома контейнер не открывается сам, видно окно QuickLoot.",
+   "vr_status": "vr_version_exists",
+   "in_lists": "В 27 популярных списках нет (whouses 25072 пуст); SE-списки ставят только плоскую #26790.",
+   "files": "Основной файл, 1.0.0.0 («initial version for VR 1.4.15»). Имя архива и INI не подтверждены.",
+   "requires": [
+    "SKSEVR 2.0.10 (по странице; проверено только заявлением, на 2.0.12 не видел отчётов)"
+   ],
+   "interplay": "QuickLoot IE (Core): мод создан «for use with Loot Menu», то есть для такого сценария; прямой совместимости с IE в источниках нет. У IE может быть собственная настройка на этот случай, но два поиска противоречат друг другу, не подтверждено. Quickloot VR вместе с IE не ставить в любом случае. Interactive Door Actions VR (round 1, try): оба трогают взлом дверей, поэтому после взлома дверь может остаться закрытой; в VR её можно толкнуть рукой. Если мешает, убрать этот мод. Остальные (HIGGS/PLANCK/VRIK/PCVR/True Wield/GbH/OAR/Engine Fixes VR) по описанию не пересекаются, но DLL-хуки Activate не проверялись.",
+   "note": "Ставить только если после взлома сундука QuickLoot IE показывает ванильное меню, сначала проверить без мода. DLL собрана под SKSEVR 2.0.10, на 2.0.12 отчётов нет, смотреть sksevr.log. С Interactive Door Actions VR возможен спор по дверям. Единственный VR-порт, плоскую #26790 не брать. Нужен, только если QuickLoot IE после взлома открывает ванильное меню: сначала проверить без мода. DLL под SKSEVR 2.0.10 (у вас 2.0.12), смотреть sksevr.log. Пересечение с Interactive Door Actions VR: дверь может остаться закрытой. Ставить вместо плоской #26790, не вместе.",
+   "evidence": "WebSearch-сниппеты страницы Nexus 25072 (два запроса): порт #24698 с разрешением, требование SKSE VR 2.0.10, changelog «1.0.0.0, initial version for VR 1.4.15», описание «for use with Loot Menu, also stops doors opening when picked». Комментариев пользователей не нашлось. GitHub Umgak/Skyrim-No-Lockpick-Activate: архив, пометка об устаревании от 2026-09-11, README без VR.",
+   "src": "vr-interaction__collect_ix2-locomotion-loot.json"
+  },
+  {
+   "key": "id:26790",
+   "id": 26790,
+   "name": "No Lockpick Activate (SKSE) - Updated (плоская)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/26790",
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "nolockpick",
+   "what": "No Lockpick Activate (SKSE) 4.0.1 (плоская): в VR не ставить, брать порт #25072.",
+   "vr_status": "flat_only",
+   "in_lists": "Только SE-списки: Elysium Remastered и Apostasy (3.2, 7z), The Northern Experience (4.0.1, 2026-09-12).",
+   "files": "Не брать. Для справки: «No Lockpick Activate (SKSE) - Updated» 4.0.1 (Northern Experience), 3.2 (Elysium, Apostasy).",
+   "requires": [],
+   "interplay": "Дублирует #25072: одновременно не ставить. Релиз 4.0.0/4.0.1 (GitHub Umgak/NoLockpickActivate, 11–12 сентября 2026) заявляет совместимость «со всеми версиями Skyrim Special Edition, которые поддерживает SKSE»; VR в README и коммитах не упомянут, страница #26790 сама отсылает VR-игроков на отдельную версию.",
+   "note": "SE-версия, VR в README не упомянут, страница сама отсылает на VR-порт. Не ставить обе одновременно. Ставят только SE-списки (Elysium, Apostasy, Northern Experience). В README и коммитах VR не упомянут, страница #26790 сама отсылает VR-игроков на отдельную версию.",
+   "evidence": "WebFetch GitHub Umgak/NoLockpickActivate: README, releases v4.0.0 и v4.0.1, коммиты (ни одного упоминания VR). whouses 26790: три SE-архива. Сниппет страницы #26790: «VR Version available here».",
+   "src": "vr-interaction__collect_ix2-locomotion-loot.json"
+  },
+  {
+   "key": "id:184623",
+   "id": 184623,
+   "name": "Neck Snap VR (Skyrim VR framework, SamuelJohnBrown)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184623",
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Neck Snap VR: скрытное убийство руками, голову берут двумя руками HIGGS, шея ломается.",
+   "vr_status": "vr_native",
+   "in_lists": "нет (ни один из 9 VR-списков, whouses пуст)",
+   "files": "Файл на Nexus не прочитан (nexusmods не открывается). Имя архива и версия неизвестны. На GitHub в Releases пусто, 3 коммита, репозиторий создан 07.07.2026, обновлён 09.07.2026.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS",
+    "VR Address Library for SKSEVR (не подтверждено)",
+    "VRIK Player Avatar (не подтверждено)"
+   ],
+   "interplay": "Закрывает загадку #184623. Не дубль Throat Slit VR (клинок) и Lethal Unarmed VR (кулаки) из Core: это захват головы двумя руками. Работает через HIGGS-хват, поэтому с PLANCK, Precision Physic Bodies и Gift by Hand VR возможны споры за руку у NPC: проверять отдельно. С PCVR, True Wield VR, OAR-Pandora и Engine Fixes VR конфликтов не найдено, но и проверок нет.",
+   "note": "Только на тестовом профиле. Файл и версию Nexus не читал, релизов на GitHub нет, 3 коммита, гарнитура у автора не подтверждена. Автор тот же, что у Throat Slit VR и Interactive Door Actions VR из раунда 1. Свидетели дают розыск. Проверить спор за руку NPC с Gift by Hand VR. README читается лишь частично: «fully VR», «Requires HIGGS», VRIK и Address Library не названы, релизов и версии нет. Исходники используют HIGGS и VRIK интерфейсы. Файл Nexus не прочитан, гарнитура у автора не подтверждена. Тест: DLL без ошибки в sksevr.log, затем подкрасться к спокойному NPC. Спор за руку возможен с PLANCK, PPB, Gift by Hand VR.",
+   "evidence": "Сниппеты поиска Nexus mods/184623: «SKSE plugin... sneak up behind humanoid NPCs, grab their head with both hands, snap their neck - unarmed, physics-driven, fully VR; witnessed kills apply murder bounty; Requires HIGGS». GitHub SamuelJohnBrown/Neck-Snap-VR---Skyrim-VR-framework: то же описание, в исходниках higgsinterface001, vrikinterface001, SkyrimVRESLAPI, CrimeBounty, NeckSnapDetection. README целиком прочитать не удалось (WebFetch отдаёт только описание). Новое против раунда 1: найдена страница Nexus, раньше был только GitHub без релиза. Автор тот же, что у Throat Slit VR, Interactive Door Actions VR и Swap Drop and Hold Redux; гарнитура у автора не подтверждена.",
+   "src": "vr-interaction__collect_ix2-unexplored.json"
+  },
+  {
+   "key": "id:173931",
+   "id": 173931,
+   "name": "Immersive Reading (iamwh0iam)",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/173931",
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Immersive Reading: чтение книг в руках, листание курками, обычное меню остаётся запасным.",
+   "vr_status": "vr_native",
+   "in_lists": "нет (не ставит ни один из 9 VR-списков)",
+   "files": "Основной файл версии 1.07 по сниппету страницы; точное имя архива не видно.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS",
+    "Skyrim VR Tools",
+    "VR Address Library for SKSEVR",
+    "VRIK Player Avatar",
+    "Book Covers Skyrim (DanielCoffey), указан в таблице требований; обязательность и вариант SE/VR страница в сниппете не раскрыла"
+   ],
+   "interplay": "HIGGS: режим чтения включается по курку, хват HIGGS остаётся на Grip, так что с OpenComposite Unleashed (grip-touch) следить за биндами. Skyrim VR Tools, Address Library и VRIK уже в Core. Не дубль Librum VR (это список модов) и не дубль встроенного в HIGGS «книгу поднести к глазам»: тот открывает обычное меню. С PLANCK, PCVR, True Wield VR, Gift by Hand VR конфликтов не найдено. Read The Spell Incantation (опция) не брать: заклинательный контент.",
+   "note": "Взять книгу HIGGS и читать курком. Нужен v1.07. Book Covers Skyrim указан в требованиях, обязательность не раскрыта: сверить на странице. С OpenComposite Unleashed следить за привязкой хвата. Read The Spell Incantation не брать. Evidence: сниппеты, отзывов игроков нет. Только сниппеты Nexus: v1.07, требует HIGGS, Skyrim VR Tools, Address Library, VRIK, Book Covers Skyrim (обязательность не раскрыта). Хват HIGGS остаётся на Grip, при OCU следить за биндами. Read The Spell Incantation не брать. Тест: подобрать книгу HIGGS и взять курком.",
+   "evidence": "Сниппеты поиска Nexus mods/173931 (автор iamwh0iam): «interactive real-time book reading system for SkyrimVR»; в таблице требований HIGGS, Skyrim VR Tools, VR Address Library for SKSEVR, VRIK Player Avatar как hard, Book Covers Skyrim; «does not replace original UI reading»; v1.07 добавил AutoReadDroppedBooks (включено по умолчанию); есть настройки позиции в правой и левой руке. Метка Skyrim VR на странице. Наличие у автора гарнитуры, видео и отзывов игроков не найдено. whouses 173931 пуст.",
+   "src": "vr-interaction__collect_ix2-unexplored.json"
+  },
+  {
+   "key": "id:139676",
+   "id": 139676,
+   "name": "Interactive Herb Smoking - VR",
+   "url": "https://www.nexusmods.com/skyrimspecialedition/mods/139676",
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Interactive Herb Smoking VR: трубки и самокрутки руками, зажечь огнём, вдохнуть у рта.",
+   "vr_status": "vr_native",
+   "in_lists": "нет (ни один из 9 VR-списков)",
+   "files": "Файл не прочитан, версия неизвестна. Страница Nexus недоступна для fetch.",
+   "requires": [
+    "SKSEVR",
+    "HIGGS (последний билд)",
+    "Instant Equip VR",
+    "VRIK Player Avatar",
+    "Base Object Swapper VR (необязательно, шанс замены чернильниц)"
+   ],
+   "interplay": "Instant Equip VR и Base Object Swapper VR уже в Core, остальное тоже. С PLANCK, PCVR, True Wield VR, Gift by Hand VR, OAR-Pandora, Engine Fixes VR конфликтов не найдено. Мод использует HIGGS для детекции схваченных трав, размера и рта: проверять вместе с Interactive Harvesting VR (трава в руке).",
+   "note": "Атмосферная мелочь, без взрослого контента. Файл и версию не читал, страница старая (около 637 дней). Совпадение с репозиторием SamuelJohnBrown не доказано. Проверить траву в руке вместе с Immersive Harvesting VR и Instant Equip VR. Только сниппеты: требует HIGGS, Instant Equip VR, VRIK; страница старая (~637 дней), совпадение с репозиторием SamuelJohnBrown не доказано. Взрослого контента на странице нет. Проверить вместе с Immersive Harvesting VR.",
+   "evidence": "Сниппеты поиска Nexus mods/139676: «pack herbs into pipes or roll smokes, light them with real fire sources and inhale near your in-game mouth»; в таблице требований HIGGS (latest), Instant Equip VR, VRIK Player Avatar; метки Skyrim VR и SKSE. GitHub SamuelJohnBrown/Interactive-Pipe-Smoking-framework---Skyrim-VR: «SKSE mod for crafting, smoking, and filling pipes and smokes», обновлён 04.02.2026. whouses 139676 пуст.",
+   "src": "vr-interaction__collect_ix2-unexplored.json"
   }
  ],
  "rejected": [
   [
-   "Locational Damage SKSE VR",
-   "Дублирует Accuracy из ядра, который новее. Ставить оба нельзя, один из них лишний."
-  ],
-  [
    "Attacks Cost Stamina VR",
-   "сведение: Дубль Core: Blade and Blunt 3.8.3 уже тратит стамину за удар (карточка: «расходуется выносливость от удара», предупреждение про двойной расход), плюс Seamless Arrow Nocking имеет запрет стрельбы без стамины. В Grit мод нужен лишь потому, что там B&B 1.4.1 без DLL."
+   "сведение: Дубль Core: Blade and Blunt 3.8.3 уже тратит стамину за удар (карточка: «расходуется выносливость от удара», предупреждение про двойной расход), плюс Seamless Arrow Nocking имеет запрет стрельбы без стамины. В Grit мод нужен лишь потому, что там B&B 1.4.1 без DLL.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Shield of Stamina VR",
-   "Пересекается с блоком B&B и физическим блоком PLANCK, один лист, старая версия."
+   "Пересекается с блоком B&B и физическим блоком PLANCK, один лист, старая версия.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Strike Obstruction Systems - Combat Blocking Overhaul",
-   "Нет доказательств содержания и пересечение с B&B."
+   "Нет доказательств содержания и пересечение с B&B.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Block FX (отладочный индикатор блока)",
-   "Отладочный инструмент, а не игровая функция. Постоянный эффект блока даёт Blocking and Flash VR, группа block_fx решена в его пользу."
+   "Отладочный инструмент, а не игровая функция. Постоянный эффект блока даёт Blocking and Flash VR, группа block_fx решена в его пользу.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Shields and 2H Weapons Unlocked - VR",
-   "Нет user evidence, высокий риск конфликта с True Wield VR."
+   "Нет user evidence, высокий риск конфликта с True Wield VR.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Simple Realistic Archery VR - Attribute Cost Reload fix",
-   "Узкий багфикс необязательной опции, не интерактивность."
+   "Узкий багфикс необязательной опции, не интерактивность.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "MArc - Muken's Arcane Archery",
-   "Исключённая категория (магический контент), не VR-взаимодействие."
+   "Исключённая категория (магический контент), не VR-взаимодействие.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Simple Iron Sights for Sighted Crossbows VR",
-   "Мелкий довесок, не стоит отдельной позиции."
+   "Мелкий довесок, не стоит отдельной позиции.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "VR Bound Bow FX Restored",
-   "Узкая косметика для призванного лука, один список, описание не прочитано."
+   "Узкая косметика для призванного лука, один список, описание не прочитано.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Vanargand Animations - Archery + Crossbows (NPC)",
-   "Не взаимодействие игрока, анимации NPC, риск конфликта."
+   "Не взаимодействие игрока, анимации NPC, риск конфликта.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "No BS AI Projectile Dodge (Magic and Arrows)",
-   "Нет надёжной идентификации страницы, это ИИ-твик."
+   "Нет надёжной идентификации страницы, это ИИ-твик.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Scared of Shootings - NPCs react to aiming bows",
-   "Нет подтверждения работы в VR, ИИ-твик."
+   "Нет подтверждения работы в VR, ИИ-твик.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Throwing Things Makes Noise - OIF",
-   "Нет доказательств VR-совместимости и требований, один список, узкая мелочь; в строгий список не проходит."
+   "Нет доказательств VR-совместимости и требований, один список, узкая мелочь; в строгий список не проходит.",
+   "vr-interaction__collect_ix-hands-objects.json"
   ],
   [
    "Hand to Hand - An Adamant Addon VR DLL",
-   "Перковый оверхол, не физическое взаимодействие."
+   "Перковый оверхол, не физическое взаимодействие.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "GRAPPLE - Pull Mastery Re-Implementation (ESL and VR)",
-   "Нет описания и доказательств."
+   "Нет описания и доказательств.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Fake Edge VR - Pseudo Equipped weapon Collisions",
-   "Дубль Physical Collision VR (ядро), конфликт с Swap Drop and Hold Redux 3.0.0 по логике экипировки; риск выше пользы."
+   "Дубль Physical Collision VR (ядро), конфликт с Swap Drop and Hold Redux 3.0.0 по логике экипировки; риск выше пользы.",
+   "vr-interaction__collect_ix-hands-objects.json"
   ],
   [
    "QTE VR Framework (+ QTE VR - Music Pack)",
-   "Без клиента пользы нет."
+   "Без клиента пользы нет.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "SCAR VR - Skyrim Combos AI Revolution VR",
-   "ИИ врагов, конфликтует с пакетом анимаций NPC из ядра."
+   "ИИ врагов, конфликтует с пакетом анимаций NPC из ядра.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "BFCO - Attack Behavior Framework (SSE VR)",
-   "Бесполезен без SCAR, конфликтует с ядром."
+   "Бесполезен без SCAR, конфликтует с ядром.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Combat Equipment State Fix (CESF)",
-   "Нечего скачать, нет клиента."
+   "Нечего скачать, нет клиента.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Stoppage of Staggerlock",
-   "Не подтверждено и пересекается с фиксами ядра."
+   "Не подтверждено и пересекается с фиксами ядра.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Unpoisoned Blocking",
-   "Нет доказательств, узкая мелочь."
+   "Нет доказательств, узкая мелочь.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "NPC Infinite Block Fix - SkyPatched",
-   "Не тема взаимодействия, описание по названию."
+   "Не тема взаимодействия, описание по названию.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "NPC Infinite Block Fix - Recommended",
-   "Багфикс ИИ вне темы, описание по названию."
+   "Багфикс ИИ вне темы, описание по названию.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "NPC Block Loop Fix",
-   "Не подтверждён, дублирует другие фиксы."
+   "Не подтверждён, дублирует другие фиксы.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Conduit - Two-handed Addon",
-   "Надстройка над необязательным модом без доказательств."
+   "Надстройка над необязательным модом без доказательств.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Precision (+ Precision Creatures, Whips patch)",
-   "Предупреждение уже есть в ядре."
+   "Предупреждение уже есть в ядре.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Плоские боевые фреймворки: Valhalla Combat, Wildcat, MaxuBlockOverhaul, MCO/ADXP",
-   "Уже есть в ядре, смешанный ключ."
+   "Уже есть в ядре, смешанный ключ.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Анимации ИГРОКА: Vanargand Sneak/Dual Wield/Unarmed, Skyrim Spear Mechanic DAR, Side Kick Bash",
-   "Покрыто карточкой Leviathan/Vanargand."
-  ],
-  [
-   "Pseudo Physical Weapon Collision and Parry (совместно с Physical Collision VR)",
-   "Уже в списках, не новая позиция, но конфликт стоит показать владельцу."
+   "Покрыто карточкой Leviathan/Vanargand.",
+   "vr-interaction__collect_ix-combat.json"
   ],
   [
    "Hardlight VR Suit plugin (SkyrimVR)",
-   "Узкая аппаратная ниша, ни в одном из 27 списков нет, страница не открылась. Жилет bHaptics уже в Other-1; ещё два жилетных порта без доказательств не нужны."
+   "Узкая аппаратная ниша, ни в одном из 27 списков нет, страница не открылась. Жилет bHaptics уже в Other-1; ещё два жилетных порта без доказательств не нужны.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "bHaptics Tactsuit SkyrimVR Integration — порт под OWO",
-   "Ниша железа, нет ни в одном списке, нет файла. Группа vest_haptics уже закрыта bHaptics из Other-1. Для владельца OWO можно вернуть отдельной строкой в выжимке."
+   "Ниша железа, нет ни в одном списке, нет файла. Группа vest_haptics уже закрыта bHaptics из Other-1. Для владельца OWO можно вернуть отдельной строкой в выжимке.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Wash That Blood Off 2 VR",
-   "Не про интерактивность, а про внешний вид. Дублирует смыв Dirt and Blood из Core, карточка Core сама велит взять что-то одно. Добавочной ценности нет."
+   "Не про интерактивность, а про внешний вид. Дублирует смыв Dirt and Blood из Core, карточка Core сама велит взять что-то одно. Добавочной ценности нет.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Faster Transform - To Werewolf and VampireLord",
-   "Косметическая правка скорости анимации, один список. Подмена анимаций превращения может конфликтовать с Pandora и OAR; выгода не оправдывает риск."
+   "Косметическая правка скорости анимации, один список. Подмена анимаций превращения может конфликтовать с Pandora и OAR; выгода не оправдывает риск.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Sacrilege - Vampire Lord VR Fix",
-   "Проигрывает 174135 в группе vl_vr_fix: узкая привязка к Sacrilege, автор называет фикс «kinda jank»."
+   "Проигрывает 174135 в группе vl_vr_fix: узкая привязка к Sacrilege, автор называет фикс «kinda jank».",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "AnimObject Swapper VR",
-   "Фреймворк без самостоятельного эффекта. Тот же мод для SE второй проход уже отбросил как low_value, зависимый Sharpen Other Swords II тоже отброшен."
+   "Фреймворк без самостоятельного эффекта. Тот же мод для SE второй проход уже отбросил как low_value, зависимый Sharpen Other Swords II тоже отброшен.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Object Impact Framework (OIF)",
-   "Фреймворк без конфигов ничего не делает, VR не подтверждён, зависимый Throwing Things Makes Noise - OIF в списках не закреплён. Вернуть, только если этот мод пройдёт отбор."
+   "Фреймворк без конфигов ничего не делает, VR не подтверждён, зависимый Throwing Things Makes Noise - OIF в списках не закреплён. Вернуть, только если этот мод пройдёт отбор.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Magical Potion Sounds",
-   "Мелкая правка звука, риск двойных записей с AOS и ISC. Не про интерактивность."
+   "Мелкая правка звука, риск двойных записей с AOS и ISC. Не про интерактивность.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "A Bow's Whisper - Bow sound overhaul",
-   "Звуковой оверхол, не интерактивность. Конфликтует по SNDR с уже стоящим аудио Core, один список."
+   "Звуковой оверхол, не интерактивность. Конфликтует по SNDR с уже стоящим аудио Core, один список.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "SkyrimVR FBT - Full Body Tracking with Physics (GingasVR)",
-   "сведение: Тот же мод, что id:185070; оставить запись с id."
+   "сведение: Тот же мод, что id:185070; оставить запись с id.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Inertia - Physical Movement Response System",
-   "Статус VR неизвестен, один лист; инерция в стик-ходьбе может усилить укачивание; пересечение с Im Walkin' Here VR; путаница имён с модом ядра."
+   "Статус VR неизвестен, один лист; инерция в стик-ходьбе может усилить укачивание; пересечение с Im Walkin' Here VR; путаница имён с модом ядра.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "TK Hitstop SE и подобные hitstop/camera-shake моды (плоские)",
-   "Нет подтверждённого источника: общая ссылка на обсуждения, утверждения про VR не подкреплены. Общий совет не ставить тряску камеры уместен в тексте, не отдельной карточкой."
+   "Нет подтверждённого источника: общая ссылка на обсуждения, утверждения про VR не подкреплены. Общий совет не ставить тряску камеры уместен в тексте, не отдельной карточкой.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Improved Weapon Impact Effects Correct Metal SE",
-   "Избыточно: Core Impact Framework прямо исключает Improved Weapon Impact Effects, отдельная карточка dont ничего не добавляет."
+   "Избыточно: Core Impact Framework прямо исключает Improved Weapon Impact Effects, отдельная карточка dont ничего не добавляет.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "FP Inertia - SKSE (инерция рук и оружия)",
-   "Ни в одном VR-списке, никто не станет ставить плоский мод вида от первого лица в VR. Карточка dont только шумит."
+   "Ни в одном VR-списке, никто не станет ставить плоский мод вида от первого лица в VR. Карточка dont только шумит.",
+   "vr-interaction__collect_ix-feedback.json"
   ],
   [
    "Simple Drop Lit Torches SE",
-   "Дубль уже имеющегося по смыслу, не VR-интерактивность, скриптовая автоматика."
+   "Дубль уже имеющегося по смыслу, не VR-интерактивность, скриптовая автоматика.",
+   "vr-interaction__collect_ix-hands-objects.json"
   ],
   [
    "VR Arsenal",
-   "Контентный пак оружия, а не механика взаимодействия; устарел, один список."
+   "Контентный пак оружия, а не механика взаимодействия; устарел, один список.",
+   "vr-interaction__collect_ix-hands-objects.json"
   ],
   [
    "Better weapon collisions for VR",
-   "Бесполезен без конкретных оружейных модов, уже рассматривался в Other, не самостоятельная ценность."
+   "Бесполезен без конкретных оружейных модов, уже рассматривался в Other, не самостоятельная ценность.",
+   "vr-interaction__collect_ix-hands-objects.json"
   ],
   [
    "First person magic hand light fix",
-   "Статус VR неизвестен, содержимое не читано; пересекается с CS Light и Rally's Candlelight/Magelight Fix, которые уже в списках."
+   "Статус VR неизвестен, содержимое не читано; пересекается с CS Light и Rally's Candlelight/Magelight Fix, которые уже в списках.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Navigate VR - Left handed fix (Leftie Fix)",
-   "Дубль: мод уже в списке Other Mods."
+   "Дубль: мод уже в списке Other Mods.",
+   "vr-interaction__collect_ix-hands-objects.json"
   ],
   [
    "Destructible Skyrim - Breakable Objects SE (Beta)",
-   "Старая бета, нагрузка Havok на кадры в VR, реакция стражи; ценность мала."
+   "Старая бета, нагрузка Havok на кадры в VR, реакция стражи; ценность мала.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Disable Fast Travel SKSEVR - No Janky Map UI for VR",
-   "Это геймплейное ограничение сложности, а не взаимодействие; один лист."
+   "Это геймплейное ограничение сложности, а не взаимодействие; один лист.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Journeyman VR (+ Journeyman - A Fast Travel Overhaul #92220)",
-   "Геймплейная переделка быстрых путешествий, вне темы интерактивности; близко к исключённым сложностным оверхолам."
+   "Геймплейная переделка быстрых путешествий, вне темы интерактивности; близко к исключённым сложностным оверхолам.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Carriage and Ferry Travel Overhaul (CFTO)",
-   "Сам отчёт называет его контентом; Smooth Carriage Ride VR из ядра уже закрывает VR-часть езды в карете."
+   "Сам отчёт называет его контентом; Smooth Carriage Ride VR из ядра уже закрывает VR-часть езды в карете.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "No Player Position on World Map (VR)",
-   "Ограничение сложности и погружения, а не VR-взаимодействие."
+   "Ограничение сложности и погружения, а не VR-взаимодействие.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Walkable Skyrim",
-   "Подстройка значений скорости, тривиально и спорно (дёрганый спринт, пересечение с Im Walkin' Here VR); нет списков и проверки."
+   "Подстройка значений скорости, тривиально и спорно (дёрганый спринт, пересечение с Im Walkin' Here VR); нет списков и проверки.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Head Directed Turning",
-   "Узкая ниша (treadmill/без стикового поворота), общий слой XInput с другими ранними модами автора, нет доказательств работы."
+   "Узкая ниша (treadmill/без стикового поворота), общий слой XInput с другими ранними модами автора, нет доказательств работы.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Tiptoe To Jump VR",
-   "Ранний 0.1.0 для узкой группы игроков; прыжок и так закрыт Sprint Jump VR и Auto Sneak and Jump VR; общий XInput-слой с другими модами автора."
+   "Ранний 0.1.0 для узкой группы игроков; прыжок и так закрыт Sprint Jump VR и Auto Sneak and Jump VR; общий XInput-слой с другими модами автора.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Treadmill Locomotion VR",
-   "Только для одной модели дорожки, тестовый релиз; для общего списка бесполезно."
+   "Только для одной модели дорожки, тестовый релиз; для общего списка бесполезно.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Call Your Horse",
-   "Бытовое удобство без VR-жеста."
+   "Бытовое удобство без VR-жеста.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Horses Simply Turn Better",
-   "Мелкая правка поведения лошади без VR-эффекта, возможен конфликт с патчами Steeds и Horsemen; польза для VR не доказана."
+   "Мелкая правка поведения лошади без VR-эффекта, возможен конфликт с патчами Steeds и Horsemen; польза для VR не доказана.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Infinite Horse Stamina Out of Combat",
-   "Упрощение игры, не VR-взаимодействие."
+   "Упрощение игры, не VR-взаимодействие.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "No Combat or Riding Save",
-   "Правило сохранений, не взаимодействие; блокирует авто-сейвы верхом; Saving on Steed из ядра уже чинит проблему."
+   "Правило сохранений, не взаимодействие; блокирует авто-сейвы верхом; Saving on Steed из ядра уже чинит проблему.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Infinite Stamina Out of Combat",
-   "Облегчение игры, к VR-взаимодействию отношения нет."
+   "Облегчение игры, к VR-взаимодействию отношения нет.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Sprint Swimming",
-   "Мелкая скоростная правка, пересекается с Sink Or Swim NG и встроенным плаванием VR; VR-польза не доказана."
+   "Мелкая скоростная правка, пересекается с Sink Or Swim NG и встроенным плаванием VR; VR-польза не доказана.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Eye Adaptation Fix for SE and VR",
-   "Вне темы (визуальный комфорт, графический этап), в списках нет, imagespace-правка конфликтует с погодными модами."
+   "Вне темы (визуальный комфорт, графический этап), в списках нет, imagespace-правка конфликтует с погодными модами.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Crouch To Dodge VR - Dodge Naturally",
-   "Дублирует Physical Dodge VR из ядра (шесть VR-листов); преимущество одно (без слоу-мо), но Auto Sneak and Jump VR и так в сборке; ставить вместе нельзя."
+   "Дублирует Physical Dodge VR из ядра (шесть VR-листов); преимущество одно (без слоу-мо), но Auto Sneak and Jump VR и так в сборке; ставить вместе нельзя.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "VR Refit - Better Logs",
-   "Косметика и текстурный этап; польза для хвата HIGGS не доказана."
+   "Косметика и текстурный этап; польза для хвата HIGGS не доказана.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "True Collision Damage and True Fall Damage (VR port by flobic19)",
-   "Нет списков и подтверждений порта; эксперимент в VR ломался из-за SKSE Menu Framework; риск двойного урона вместе с HIGGS/PLANCK."
+   "Нет списков и подтверждений порта; эксперимент в VR ломался из-за SKSE Menu Framework; риск двойного урона вместе с HIGGS/PLANCK.",
+   "vr-interaction__collect_ix-locomotion.json"
   ],
   [
    "Elemental Fury VR",
-   "Правка конкретного крика, не взаимодействие; описание не прочитано; крики и шаут-паки вне темы."
+   "Правка конкретного крика, не взаимодействие; описание не прочитано; крики и шаут-паки вне темы.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Enhanced Invisibility VR",
-   "Визуальная косметика невидимости, не интерактивность; поведение NPC уже закрыто NPCs React To Invisibility в MODLIST."
+   "Визуальная косметика невидимости, не интерактивность; поведение NPC уже закрыто NPCs React To Invisibility в MODLIST.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Enchantment Art Extender VR (+ EAE #105492; VR 2 #142337)",
-   "Сам ничего не меняет, нужен лишь модам визуала зачарований; не интерактивность; риск несовпадения пар версий."
+   "Сам ничего не меняет, нужен лишь модам визуала зачарований; не интерактивность; риск несовпадения пар версий.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "SkyVoice (VR) — Thu'um by voice",
-   "Нет в VR-списках, источники ~2018, сопоставление ID не проверено, лаг 1 с, конфликт микрофона с DSN/ИИ-NPC. Без подтверждённого файла нельзя."
+   "Нет в VR-списках, источники ~2018, сопоставление ID не проверено, лаг 1 с, конфликт микрофона с DSN/ИИ-NPC. Без подтверждённого файла нельзя.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Skyrim Voice Control Module (SVCM) for SkyrimVR",
-   "Нет в списках, дата неизвестна, не подтверждён файл; выбор заклинаний уже закрыт Spell Wheel VR, микрофон конфликтует с DSN."
+   "Нет в списках, дата неизвестна, не подтверждён файл; выбор заклинаний уже закрыт Spell Wheel VR, микрофон конфликтует с DSN.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Spellsiphon — Experience Patch",
-   "Патч прогрессии к opt-моду; к взаимодействию в VR отношения не имеет и пересекается с магическими оверхолами."
+   "Патч прогрессии к opt-моду; к взаимодействию в VR отношения не имеет и пересекается с магическими оверхолами.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Crosshairs with different colours VR",
-   "Дубль: уже включён в Colorful Compass Markers VR из Other-2. Цветовая косметика."
+   "Дубль: уже включён в Colorful Compass Markers VR из Other-2. Цветовая косметика.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "StatFX — ImageSpace Modifiers for Health, Magicka, Stamina",
-   "Full-screen imagespace в VR рискует укачиванием; дублирует Better Resource Warnings и полоски Spell Wheel VR из MODLIST."
+   "Full-screen imagespace в VR рискует укачиванием; дублирует Better Resource Warnings и полоски Spell Wheel VR из MODLIST.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "No More Swirl Effects from Absorb (+ NIF-версия #77848)",
-   "Мелкая косметическая правка к opt-Spellsiphon, один VR-список, описание по названию."
+   "Мелкая косметическая правка к opt-Spellsiphon, один VR-список, описание по названию.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "No Edge Glow — Magic and Transformations",
-   "Мод ~2013, один список, VR не подтверждён, эффект косметический."
+   "Мод ~2013, один список, VR не подтверждён, эффект косметический.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Real Virtual Magic",
-   "Нужно спецоборудование, никто не поставит случайно; предупреждение бесполезно."
+   "Нужно спецоборудование, никто не поставит случайно; предупреждение бесполезно.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Enhanced Invisibility (плоская SE/AE-версия)",
-   "VR-версия #63889 отклонена как косметика, предупреждать не о чем."
+   "VR-версия #63889 отклонена как косметика, предупреждать не о чем.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "Contextual Crosshair",
-   "Мелкий плоский HUD-мод; вопрос уже закрыт выбором прицела для VR."
+   "Мелкий плоский HUD-мод; вопрос уже закрыт выбором прицела для VR.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "True Directional Movement и lock-on-патчи (TDM Target Fix, #77843)",
-   "MODLIST (стр. 2369) уже перечисляет True Directional Movement среди несовместимых; дубль предупреждения."
+   "MODLIST (стр. 2369) уже перечисляет True Directional Movement среди несовместимых; дубль предупреждения.",
+   "vr-interaction__collect_ix-magic.json"
   ],
   [
    "moreHUD Inventory Edition VR",
-   "Уже упомянут в Core; это информация в инвентаре, а не физическое взаимодействие. Отдельная карточка ценности не добавляет."
+   "Уже упомянут в Core; это информация в инвентаре, а не физическое взаимодействие. Отдельная карточка ценности не добавляет.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Edge UI - VR Edition",
-   "Косметика темы, один лист, основной файл не виден. Тема уже закрыта Norden в Core и Dear Diary VR (5 листов)."
+   "Косметика темы, один лист, основной файл не виден. Тема уже закрыта Norden в Core и Dear Diary VR (5 листов).",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Edge UI - Explorer Addon",
-   "Косметика поверх отброшенной темы, VR-статус unknown."
+   "Косметика поверх отброшенной темы, VR-статус unknown.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Dear Diary VR - Paper SkyUI and Categorized Favorites",
-   "Внешний вид меню (отдельный этап), конкурирует с Norden UI VR из ядра, Categorized Favorites дублирует Essential Favorites VR."
+   "Внешний вид меню (отдельный этап), конкурирует с Norden UI VR из ядра, Categorized Favorites дублирует Essential Favorites VR.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Dear Diary Light and Wood and Paper for C.O.C.K.S VR",
-   "Зависимость отброшенного скина."
+   "Зависимость отброшенного скина.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Centered Messages Box VR",
-   "Тривиальная HUD-косметика, один старый лист, возможен конфликт с Clear HUD VR и темами."
+   "Тривиальная HUD-косметика, один старый лист, возможен конфликт с Clear HUD VR и темами.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Transparent Dialogue VR",
-   "Старая замена Smooth Dialogue Mesh, один список, косметика."
+   "Старая замена Smooth Dialogue Mesh, один список, косметика.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Smart Talk (Dialogue Menu Enhancer)",
-   "Косметика плоского UI без VR-метки; бесполезна при Immersive NPC Dialogue - VR из ядра."
+   "Косметика плоского UI без VR-метки; бесполезна при Immersive NPC Dialogue - VR из ядра.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Instantly Skip Dialogue NG",
-   "Удобство, а не интерактивность; в VR мало свободных кнопок, возможна путаница с Dialogue Movement Enabler VR."
+   "Удобство, а не интерактивность; в VR мало свободных кнопок, возможна путаница с Dialogue Movement Enabler VR.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Kome's Inventory Tweaks",
-   "Большой swf-оверхол с риском конфликта с темой, VR-статус unknown, польза не про взаимодействие."
+   "Большой swf-оверхол с риском конфликта с темой, VR-статус unknown, польза не про взаимодействие.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "I4 Weapon Icons Overhaul",
-   "Косметика иконок, отнесена к внешнему виду."
+   "Косметика иконок, отнесена к внешнему виду.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "ConsolePlusPlus VR",
-   "Не про взаимодействие в игре; консоль уже закрыта ConsoleUtilVR, More Informative Console и VR Console Selection Fix."
+   "Не про взаимодействие в игре; консоль уже закрыта ConsoleUtilVR, More Informative Console и VR Console Selection Fix.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Notification Log SSE NG",
-   "VR-статус unknown, один лист, мелкое удобство."
+   "VR-статус unknown, один лист, мелкое удобство.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Weapon Damage Display Fix",
-   "Узкая правка под большие числа урона, один лист, правит swf поверх темы."
+   "Узкая правка под большие числа урона, один лист, правит swf поверх темы.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Oblivion Interaction Icons (Interaction Icons Rework)",
-   "Косметика подсказок, VR-вид unknown, физические подсказки в VR дают HIGGS и Interactive Activators VR."
+   "Косметика подсказок, VR-вид unknown, физические подсказки в VR дают HIGGS и Interactive Activators VR.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "RaceMenu VR Layout Fix",
-   "Создание персонажа, не взаимодействие; пересекается с Position Tweaks из Other-2; скудная документация."
+   "Создание персонажа, не взаимодействие; пересекается с Position Tweaks из Other-2; скудная документация.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Colorful Map Markers VR",
-   "Текстуры и внешний вид: отдельный этап. Набор маркеров уже закрыт в Other-1."
+   "Текстуры и внешний вид: отдельный этап. Набор маркеров уже закрыт в Other-1.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "NavigateVR Map Framework (LivSterling, GitHub)",
-   "Каркас без установочного файла и без паков: ставить нечего."
+   "Каркас без установочного файла и без паков: ставить нечего.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "SteamVR's wrist overlay for PrismaUI",
-   "Работать не будет в связке Core, применимых PrismaUI-модов нет, данные только из сниппета."
+   "Работать не будет в связке Core, применимых PrismaUI-модов нет, данные только из сниппета.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Narsil Bindings for VR",
-   "В Other-1 уже три схемы кнопок (VRIK Bindings, Alternative VRIK, FUS). Другая раскладка не гарантирует свободные грипы под HIGGS."
+   "В Other-1 уже три схемы кнопок (VRIK Bindings, Alternative VRIK, FUS). Другая раскладка не гарантирует свободные грипы под HIGGS.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Alternate Oculus Vanilla Bindings - VR",
-   "Закрыто схемами кнопок из Other-1; узкая, только Oculus, один лист."
+   "Закрыто схемами кнопок из Other-1; узкая, только Oculus, один лист.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Edge UI - Modern Skyrim Interface (плоская SE/AE) и её патчи",
-   "Предупреждение излишне: Edge UI в итоговый список не входит, а VR-листы плоскую версию не ставят."
+   "Предупреждение излишне: Edge UI в итоговый список не входит, а VR-листы плоскую версию не ставят.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Untarnished UI и патчи (Wheeler, Character Menu, Loading Menu)",
-   "Никто не предлагает её для VR; предупреждение не нужно."
+   "Никто не предлагает её для VR; предупреждение не нужно.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "SkyUI SE/AE 5.2 и Complete Widescreen Fix",
-   "Вывод о поломке спекулятивен, а два VR-листа его ставят. Не выдумываем конфликт."
+   "Вывод о поломке спекулятивен, а два VR-листа его ставят. Не выдумываем конфликт.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "QuickLoot EE / QuickLoot RE / QuickLoot IE 3.x (плоские версии)",
-   "Дубль уже записанного правила Core."
+   "Дубль уже записанного правила Core.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "moreHUD Inventory Edition (плоская SE/AE 2.x)",
-   "Предупреждение не нужно без самой пары moreHUD IE VR; Core уже упоминает VR-версию."
+   "Предупреждение не нужно без самой пары moreHUD IE VR; Core уже упоминает VR-версию.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Better Third Person Selection (BTPS)",
-   "Утверждение о конфликте с HIGGS не подтверждено, а один VR-лист мод ставит."
+   "Утверждение о конфликте с HIGGS не подтверждено, а один VR-лист мод ставит.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Плоские UI-плагины 2026: Character Menu SE, Copy Paste In Menus, Dynamic Inventory Icon Injector, Lingering Subtitles Fix, ShowRaceMenu NG, Favorite Wheel",
-   "Смешанная свалка без VR-доказательств, ставить в VR никто не предлагает."
+   "Смешанная свалка без VR-доказательств, ставить в VR никто не предлагает.",
+   "vr-interaction__collect_ix-vr-ui.json"
   ],
   [
    "Simpler Knock",
-   "Дубль Simply Knock по функции, без VR-жеста; не нужен рядом с выбранной связкой."
+   "Дубль Simply Knock по функции, без VR-жеста; не нужен рядом с выбранной связкой.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Interactive Doors (Physics Based Farmdoors)",
-   "Узкий (одни фермерские двери), один список, функция проверена только по названию, пересекается с Interactive Door Actions."
+   "Узкий (одни фермерские двери), один список, функция проверена только по названию, пересекается с Interactive Door Actions.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Pickpocket Reset - VR",
-   "Не интерактивность, а баланс воровства."
+   "Не интерактивность, а баланс воровства.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Oblivionesque Lockpicking Redone - Minigame",
-   "Меню-минигра без физики, VR не подтверждён, конфликтует по смыслу с физическим взломом."
+   "Меню-минигра без физики, VR не подтверждён, конфликтует по смыслу с физическим взломом.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Simple NPC Poser and Ragdoller for VR and SE",
-   "Утилита для съёмки, не игровая интерактивность; PLANCK уже даёт активный рэгдолл."
+   "Утилита для съёмки, не игровая интерактивность; PLANCK уже даёт активный рэгдолл.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Campfire - Complete Camping System (VR-релиз 1.12.1SEVR)",
-   "Выживание и контент, а не физическое взаимодействие; нужен только тем, кто хочет Frostfall или палатки."
+   "Выживание и контент, а не физическое взаимодействие; нужен только тем, кто хочет Frostfall или палатки.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Campfire - Mortar and Pestle VR CTD Fix",
-   "Зависимость отброшенного Campfire."
+   "Зависимость отброшенного Campfire.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Campfire - Script Optimization",
-   "Зависимость отброшенного Campfire."
+   "Зависимость отброшенного Campfire.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Campfire Dynamic Collisions",
-   "Надстройка к отброшенному Campfire, один список."
+   "Надстройка к отброшенному Campfire, один список.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Tentapalooza for Campfire",
-   "Контент и оформление, не интерактивность."
+   "Контент и оформление, не интерактивность.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Immersive Tree Chopping VR",
-   "Realistic Mining and Chopping for VR + VR Refit из ядра уже даёт рубку дерева настоящими ударами; различие не подтверждено."
+   "Realistic Mining and Chopping for VR + VR Refit из ядра уже даёт рубку дерева настоящими ударами; различие не подтверждено.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Interactive Pipe Smoking - Skyrim VR (SamuelJohnBrown)",
-   "Нет списков, нет подтверждённого релиза, атмосферная мелочь с неясным риском для крафта."
+   "Нет списков, нет подтверждённого релиза, атмосферная мелочь с неясным риском для крафта.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Horse Storage",
-   "Инвентарная функция, не VR-интерактивность."
+   "Инвентарная функция, не VR-интерактивность.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Dynamic Activation Key",
-   "VR-статус версии 1.02 неизвестен, перехватывает кнопку активации у HIGGS и Interactive Activators VR; риск конфликта без выгоды."
+   "VR-статус версии 1.02 неизвестен, перехватывает кнопку активации у HIGGS и Interactive Activators VR; риск конфликта без выгоды.",
+   "vr-interaction__collect_ix-world-npc.json"
   ],
   [
    "Alchemy Recipe View Mode VR (ZerothBear)",
-   "Косметика меню без доказательств релиза; риск конфликта с I4 и COCKS."
+   "Косметика меню без доказательств релиза; риск конфликта с I4 и COCKS.",
+   "vr-interaction__collect_ix-world-npc.json"
+  ],
+  [
+   "Physical-Checkout-VR",
+   "Хрупкая цепочка двух свежих ИИ-модов, правка экономики, нет проверки, польза нишевая.",
+   "vr-interaction__collect_ix2-checkout-oif.json"
+  ],
+  [
+   "Open Container VR",
+   "Дубль QuickLoot IE, самостоятельной ценности нет, зависимость отвергнутого мода.",
+   "vr-interaction__collect_ix2-checkout-oif.json"
+  ],
+  [
+   "Object Impact Framework (OIF) + Break The Lock + Flammable Alcohol (пакет)",
+   "Нет VR-подтверждения, ограниченные события, нагрузка, мелкий выигрыш, замена взлома.",
+   "vr-interaction__collect_ix2-checkout-oif.json"
+  ],
+  [
+   "Cooking with Fire - OIF",
+   "Зависит от OIF, атмосферная мелочь, эффект непроверен.",
+   "vr-interaction__collect_ix2-checkout-oif.json"
+  ],
+  [
+   "Burn Those Books - OIF",
+   "Зависит от отвергнутого OIF, самая слабая позиция семейства.",
+   "vr-interaction__collect_ix2-checkout-oif.json"
+  ],
+  [
+   "Immersive Equip VR",
+   "Дубль VR Equip из Core, непроверенный в шлеме, группа equip-by-hand остаётся за VR Equip.",
+   "vr-interaction__collect_ix2-equip-magevr.json"
+  ],
+  [
+   "MageVR Reborn (VR Backpack + VR SpellBook)",
+   "Дубль Spell Wheel VR, второй пласт (рюкзак) без нужных зависимостей, мало истории, кириллица не читается.",
+   "vr-interaction__collect_ix2-equip-magevr.json"
+  ],
+  [
+   "Take All Lockpicks VR",
+   "Мелочь, вероятно дублируется QuickLoot IE, нет отзывов.",
+   "vr-interaction__collect_ix2-locomotion-loot.json"
+  ],
+  [
+   "Precision Physic Bodies (PPB)",
+   "Малая польза при высокой цене: бета, конфликт с Mu Joint Fix из Core, замена скелета и тел, взрослые части, страница Nexus не читалась. Дубль по смыслу с PLANCK и Physical Collision VR.",
+   "vr-interaction__collect_ix2-ppb.json"
+  ],
+  [
+   "Interactive Animal Skinning VR (djhert)",
+   "Малая польза, конфликт с QuickLoot IE, непроверенный мод без гарнитуры у автора.",
+   "vr-interaction__collect_ix2-unexplored.json"
+  ],
+  [
+   "Interactive Skyrim VR (LucienLachance)",
+   "Старая бета с правкой коллизий мира, риск для сохранений и производительности.",
+   "vr-interaction__collect_ix2-unexplored.json"
+  ],
+  [
+   "Wayfinder Journal VR (iamwh0iam)",
+   "Зависит от смены системы квестов, спор с Navigate VR, вне объёма.",
+   "vr-interaction__collect_ix2-unexplored.json"
+  ],
+  [
+   "Parry - Simple Weapon Parrying (Destructor36)",
+   "Нет кандидатуры, которую нужно останавливать, шум в списке запретов.",
+   "vr-interaction__collect_ix2-unexplored.json"
   ]
  ],
  "dropped_by_collectors": [
@@ -3764,6 +4119,611 @@
    "id": 21297,
    "name": "MageVR (взлом, зелья и заклинания жестами)",
    "reason": "Другая тема (ix_magic): отнесён в dont другим сборщиком."
+  },
+  {
+   "id": 155761,
+   "name": "Throwing Things Makes Noise - OIF (TTMN)",
+   "reason": "Раунд 1 отбросил верно, и теперь есть новые данные: Throw требует плоский Grab And Throw, комментарий на странице (май 2026) говорит, что в VR бросок не срабатывает, а в самом HIGGS 1.9.3 брошенные и упавшие предметы уже будят врагов (шум зависит от массы). Дубль и не работает."
+  },
+  {
+   "id": 160736,
+   "name": "Dynamic Fire Sconce - OIF",
+   "reason": "Бра включается и гаснет по времени суток: чистая атмосфера, не взаимодействие. Работает на правилах OnUpdate (раз в секунду), которые стоят кадров. Не стоит нагрузки."
+  },
+  {
+   "id": 151806,
+   "name": "Immersive Hanging Dead Animal Harvest - OIF",
+   "reason": "Повешенная рыба, фазан и кролик исчезают после взятия. Косметика на событии Activate; в VR взятие идёт HIGGS-хватом, как оно связано с Activate, не проверено. Ценности нет, в списках Panda's только."
+  },
+  {
+   "id": 191138,
+   "name": "Object Impact Framework (OIF) - Unofficial Update",
+   "reason": "Неофициальный форк 1.7.0.1 (20.09.2026), в комментариях сказано про сборки под 1.7.104 и 1.6.1170, про VR на странице ни слова, тег AI Assisted. Не ставить поверх 1.6.8."
+  },
+  {
+   "id": 184852,
+   "name": "Core - Object Impact Framework - CIF - Optimization patch",
+   "reason": "Страницу не прочитал (по сниппету: правит только конфиги, снижает стоимость правил, исполняемых слишком часто). В 1.6.8 OnUpdate уже раз в секунду, польза неясна; ни в одном списке. Вернуться, только если кадры упадут."
+  },
+  {
+   "id": 193981,
+   "name": "Actor Impact Framework (AIF)",
+   "reason": "Версия OIF для актёров, дублирует Core Impact Framework (opt в Core). Ни в одном списке, про VR нет данных."
+  },
+  {
+   "id": 151756,
+   "name": "SIM - Simply Immersive Materials (OIF)",
+   "reason": "Огромный набор правил на OIF (дерево горит, стекло бьётся, мука и т.д.): дубль Throw Stuff VR по смыслу и тяжёлый для кадров. Комментатор пишет, что бросок в VR в этой версии не работает."
+  },
+  {
+   "id": 153711,
+   "name": "Build A Campfire - OIF",
+   "reason": "Нужны OIF, Keyword Item Distributor, FormList Manipulator; выживание, не взаимодействие. Ни в одном списке, VR не проверен."
+  },
+  {
+   "id": 155492,
+   "name": "Dynamic Inn Fireplace - OIF",
+   "reason": "Очаги в трактирах по времени суток, OnUpdate-нагрузка, атмосфера. Нужен OIF 1.6.6+. Ни в одном VR-списке."
+  },
+  {
+   "id": 156058,
+   "name": "Hit to Switch - OIF",
+   "reason": "Только CSVP (SE), VR-списков нет, описание не читал. Для VR смысл сомнителен (рычаги и так тянутся рукой)."
+  },
+  {
+   "id": 155838,
+   "name": "Dynamic Torches NG - OIF",
+   "reason": "Только True North (SE), в VR-списках нет, атмосферный мод."
+  },
+  {
+   "id": 151606,
+   "name": "Cut The Wheat / Cut The Plant / Cast and Cook / Edible Roasted Ox Meat (OIF-аддоны)",
+   "reason": "Cut The Wheat #151606, Cut The Plant #166123, Cast and Cook #188330, Edible Roasted Ox Meat #152373: появились в сниппетах, в VR-списках их нет, VR-статус не проверялся. Cut The Plant вдобавок пересекается с Immersive Harvesting VR (Core opt)."
+  },
+  {
+   "id": 136048,
+   "name": "Cut This Food (or Any Other Object) (UNSUPPORTED)",
+   "reason": "Заменён OIF-конфигом Cut Food Config, который уже в пакете как необязательный файл."
+  },
+  {
+   "id": null,
+   "name": "Explosive Barrel - OIF",
+   "reason": "Необязательное дополнение Break The Lock по сниппету, ID и страницу не нашёл, в списках не вижу. Не проверялся."
+  },
+  {
+   "id": 189300,
+   "name": "VR Touch Events",
+   "reason": "Всплыл только в выдаче поиска, страница не открылась и описание не прочитано; вне моей группы. Можно проверить другим агентом."
+  },
+  {
+   "id": 21297,
+   "name": "MageVR (MuKen's Active Gesture Extension), оригинал",
+   "reason": "Остаётся в ix_dont: 2020 год, только FUS 2.8, Reborn его заменяет, вместе не ставить; новых доказательств в пользу оригинала нет."
+  },
+  {
+   "id": 83092,
+   "name": "VR Equip",
+   "reason": "Уже в Core (opt, 1.3.2); не новое, по умолчанию остаётся в группе equip-by-hand."
+  },
+  {
+   "id": 44571,
+   "name": "Instant Equip VR",
+   "reason": "Уже в Core (rec), убирает анимации, не жест экипировки."
+  },
+  {
+   "id": 99809,
+   "name": "Gift by Hand VR",
+   "reason": "Уже в Core (opt); пересечение с экипировкой NPC в Immersive Equip VR снимается выключением [NPC]."
+  },
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies",
+   "reason": "Предмет другой группы раунда, его экипировочные жесты конфликтуют с Immersive Equip VR; здесь не рассматривался."
+  },
+  {
+   "id": 147691,
+   "name": "VR Equip Potions And Ingredients",
+   "reason": "Уже в списке раунда 1 (try); расширение VR Equip, перезаписывает Vrequip.pex; с Immersive Equip VR не совместимо по логике."
+  },
+  {
+   "id": 62001,
+   "name": "Immersive Equipment Displays (IED)",
+   "reason": "SE/AE-плагин без сборки под VR 1.4.15, только отображение снаряжения, не руки; уже в OTHER_MODS как «не ставить»."
+  },
+  {
+   "id": 77187,
+   "name": "Immersive Equipping Animations",
+   "reason": "Только SE-анимации экипировки, не VR-жест, SE-списки."
+  },
+  {
+   "id": 16467,
+   "name": "Immersive VR Quickslots Tool",
+   "reason": "Старое приложение-оверлей (по описанию «proof of concept»), дублирует Spell Wheel VR и ломается с OpenComposite."
+  },
+  {
+   "id": 47630,
+   "name": "Spell Wheel VR",
+   "reason": "Core core, остаётся; от него зависят Durability VR, Steeds of Ultima, Instant Equip VR."
+  },
+  {
+   "id": 55751,
+   "name": "Magic Improvements for Skyrim VR (MISVR)",
+   "reason": "Уже в Core (rec); общего конфликта с Reborn в источниках нет, только не проверено."
+  },
+  {
+   "id": 119689,
+   "name": "Spell Auto-Aim VR",
+   "reason": "Уже в Core (opt); совместимость с SpellBook не проверена."
+  },
+  {
+   "id": 171182,
+   "name": "OpenComposite Unleashed for Skyrim VR",
+   "reason": "Уже в Core (rec); перекрытие кнопки A описано в README Reborn и решается настройкой."
+  },
+  {
+   "id": 36445,
+   "name": "ElSopa HD Big Backpack",
+   "reason": "Требование части Backpack; SE-контентный мод, в VR-списках нет, самостоятельной ценности для взаимодействия нет."
+  },
+  {
+   "id": 85702,
+   "name": "Inventory Interface Information Injector (I4)",
+   "reason": "Уже в Core (rec); нужен Reborn только для иконок."
+  },
+  {
+   "id": 120075,
+   "name": "QuickLoot IE",
+   "reason": "Уже в Core (rec); окно лута Reborn Backpack может дублировать его."
+  },
+  {
+   "id": 102094,
+   "name": "Quickloot VR",
+   "reason": "Решено в раунде 1 (alt, не ставить), не пересматривалось."
+  },
+  {
+   "id": 6534,
+   "name": "Mage Backpack SSE",
+   "reason": "Плоский SE-рюкзак, VR-сборки и руки не заявлены."
+  },
+  {
+   "id": null,
+   "name": "Пакеты иконок для MageVR Reborn (B.O.O.B.I.E.S., A.S.S., T.H.I.C.C., P.E.N.I.S., S.E.X.Y., O.C.F.)",
+   "reason": "Взрослая тематика названий, необязательны, не рекомендуются."
+  },
+  {
+   "id": null,
+   "name": "Swap Drop and Hold Redux",
+   "reason": "Уже в Core, только оружие."
+  },
+  {
+   "id": null,
+   "name": "Nexus VR Backpack (TheNexusAvenger)",
+   "reason": "Roblox-компонент, не Skyrim."
+  },
+  {
+   "id": null,
+   "name": "Natural Locomotion (Steam)",
+   "reason": "Уже в Other-1 (opt). Эмулирует стик через драйвер SteamVR, отдельных устройств не требует (в Other-1 это сказано неверно). Не запускать вместе с DovaVR, выбрать один."
+  },
+  {
+   "id": 39433,
+   "name": "Im Walkin' Here VR",
+   "reason": "В Core opt. Это отключение толчков NPC, а не перемещение игрока; с DovaVR не пересекается (замечание round 1 о пересечении неверно)."
+  },
+  {
+   "id": 170321,
+   "name": "VR Climbing - Aelove Ver",
+   "reason": "Уже в Core opt. Конфликта с DovaVR в источниках нет, оба используют хват и HIGGS; тест на практике нужен."
+  },
+  {
+   "id": 151637,
+   "name": "Wade in Water VR",
+   "reason": "Уже kept в round 1 (try); нового подтверждения нет (страница недоступна, только Reddit-пост). Стык с DovaVR: тест по очереди, скорость в воде."
+  },
+  {
+   "id": 78610,
+   "name": "Sink Or Swim NG",
+   "reason": "Core opt. Скорость в воде может совпасть с плаванием DovaVR, сравнить по очереди; отдельной записи не нужно."
+  },
+  {
+   "id": 129594,
+   "name": "Smooth Carriage Ride VR",
+   "reason": "Core opt. Касается камеры в карете, не движения игрока; с DovaVR прямых связей нет."
+  },
+  {
+   "id": 189346,
+   "name": "Treadmill Locomotion VR",
+   "reason": "Отклонён в round 1; новое подтверждает отказ: только RealityRunner V2, тестовый 0.1.0 (около 24.08.2026), помечен AI-generated, общий слой XInput с Head Directed Turning и Tiptoe To Jump VR."
+  },
+  {
+   "id": 189345,
+   "name": "Tiptoe To Jump VR",
+   "reason": "Отклонён в round 1; нового нет: ранний тест, общий XInput-слой, прыжок уже закрыт Sprint Jump VR и Auto Sneak and Jump VR."
+  },
+  {
+   "id": null,
+   "name": "Head Directed Turning",
+   "reason": "Отклонён в round 1; нового нет, узкая ниша и общий слой XInput."
+  },
+  {
+   "id": 72070,
+   "name": "Sailable Ship VR",
+   "reason": "Контентный мод про корабли; упомянут только как известный конфликт с DovaVR (исправлено автором)."
+  },
+  {
+   "id": 102094,
+   "name": "Quickloot VR",
+   "reason": "Round 1: alt, не вместе с QuickLoot IE (Core); нового нет."
+  },
+  {
+   "id": 184347,
+   "name": "Interactive Door Actions - VR",
+   "reason": "Уже kept в round 1 (try); не предлагаю заново, стык с No Lockpick Activate VR описан в interplay."
+  },
+  {
+   "id": 120075,
+   "name": "QuickLoot IE",
+   "reason": "Core rec. Поведение при взломе и собственная настройка IE не подтверждены: два поиска противоречат, README и релизы GitHub об этом молчат."
+  },
+  {
+   "id": 108832,
+   "name": "Amazing Lockpicks",
+   "reason": "SKSE-оверхол отмычек (модели, прочность): геймплей, не VR-взаимодействие; VR-файл отдельно не виден."
+  },
+  {
+   "id": 22160,
+   "name": "JS Lockpicking UI SE",
+   "reason": "Уже в Other-2 (round 1)."
+  },
+  {
+   "id": 193116,
+   "name": "Lockpick Reveal Bar",
+   "reason": "Round 1: на странице VR не поддерживается; нового нет."
+  },
+  {
+   "id": 58224,
+   "name": "Security Overhaul SKSEVR - Lock Variations VR",
+   "reason": "Только внешний вид замков, уже в Other-2; не про взаимодействие."
+  },
+  {
+   "id": 21297,
+   "name": "MageVR / MuKen's Active Gesture Extension (взлом жестом)",
+   "reason": "В ix_dont round 1; нового подтверждения нет, не возвращаю."
+  },
+  {
+   "id": null,
+   "name": "Immersive VR Actions (Alpha, взлом контроллером)",
+   "reason": "По Reddit-сниппету не выпущен; нет страницы, нет файлов."
+  },
+  {
+   "id": 71418,
+   "name": "Wade In Water Redone (+ Loki's #42854)",
+   "reason": "Плоские DLL, round 1 dont; нового нет."
+  },
+  {
+   "id": null,
+   "name": "Walkable Skyrim",
+   "reason": "Отклонён в round 1: правка скоростей, нет списков и проверки; нового нет."
+  },
+  {
+   "id": 107780,
+   "name": "Mad God's Overhaul (список)",
+   "reason": "Это сборка, а не мод; использована только как доказательство того, что DovaVR ставят в VR-список."
+  },
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies: жесты экипировки (Equip gestures, часть PPB)",
+   "reason": "Не брать: дублирует Gift by Hand VR, заточено под устройства DD/ZaZ и снятие одежды двумя руками, в FOMOD ставить Off."
+  },
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies: коллизия гениталий, отверстия, поцелуй, шея, сцены OStim/SexLab",
+   "reason": "Взрослые интеграции, исключены по условию; без TNG/SPS/Penetration Physics/OStim/SexLab инертны, не ставить зависимости."
+  },
+  {
+   "id": 189300,
+   "name": "VR Touch Events (Telord72612/VRTouchEvents)",
+   "reason": "Только для LLM SkyrimNet (Beta 25+), реакции NPC на касания через LLM, много взрослого (поцелуй, грудь, удушение); без LLM смысла нет."
+  },
+  {
+   "id": null,
+   "name": "DD-AddOn-for-PPB-SN-and-VRTE / DD-s-gear-collision-s-box-remade-for-PPB",
+   "reason": "Devious Devices, взрослые аддоны, вне задачи."
+  },
+  {
+   "id": null,
+   "name": "SkyrimNet-Devious-Awareness-Base, SkyrimNet-Captive-Bridge-for-DoM-YtM, Bathing-in-Skyrim SN/SA plugins",
+   "reason": "LLM-плагины SkyrimNet и взрослый/плен-контент, не про VR-взаимодействие."
+  },
+  {
+   "id": null,
+   "name": "VR-Gift-by-Hand-SkuyrimNet-Integration (Telord72612)",
+   "reason": "Аддон к Gift by Hand только для SkyrimNet (LLM); без LLM не нужен."
+  },
+  {
+   "id": null,
+   "name": "Schlong-Physics-Swapper (Telord72612, форк)",
+   "reason": "Переключатель физики SOS-моделей (взрослое), не взаимодействие."
+  },
+  {
+   "id": null,
+   "name": "Standpoint (Telord72612)",
+   "reason": "SKSE-плагин подстановки игрока к цели для точного размещения, для сцен, описания VR-взаимодействия и VR-статуса нет."
+  },
+  {
+   "id": null,
+   "name": "SteamVR-s-wrist-overlay-for-PrismaUI (Telord72612)",
+   "reason": "Наручный оверлей для PrismaUI: прочитана только строка из списка репозиториев, UI-ветка другой группы, не проверялся."
+  },
+  {
+   "id": 184866,
+   "name": "MageVR Reborn / MageVR-SteamVR-2.13-Bridge (Telord72612)",
+   "reason": "Уже разобран в раунде 1 (critic, ix_magic/ix_dont), не входит в моё задание (GAP 1)."
+  },
+  {
+   "id": 72347,
+   "name": "Precision (Accurate Melee Collisions)",
+   "reason": "Плоский боевой фреймворк, в VR не работает; в проекте уже в dont (не путать с PPB)."
+  },
+  {
+   "id": 61479,
+   "name": "Mu Joint Fix (Core rec)",
+   "reason": "Не новый кандидат, а конфликт: с PPB отключить [FixHeight] в MuJointFix.ini (CHANGELOG PPB 1.4.1)."
+  },
+  {
+   "id": 186897,
+   "name": "Immersive Equip VR",
+   "reason": "Другой gap-группы (экипировка руками), не ставить вместе с жестами PPB; здесь не разбирался."
+  },
+  {
+   "id": 185070,
+   "name": "SkyrimVR FBT (GingasVR)",
+   "reason": "Уже в списке раунда 1 (try), к PPB отношения нет, только общая зависимость от VRIK/HIGGS/PLANCK."
+  },
+  {
+   "id": 64442,
+   "name": "Heels Fix",
+   "reason": "Не отдельный пик: в README PPB опционален, в changelog 1.4 назван требованием; в Core нет, решать по каблукам у NPC."
+  },
+  {
+   "id": null,
+   "name": "Next-Gen Decapitations (интеграция в PPB)",
+   "reason": "Не пик: голову, созданную движком, PPB исключает из обработки, поднять её нельзя (известная проблема), в Core opt как есть."
+  },
+  {
+   "id": 85776,
+   "name": "Navigate VR - Left handed fix",
+   "reason": "Уже в Other-1; чинит кобуры и экипировку Navigate VR для левши, но спелл-вилл на другой руке не исправляет (захардкожено)."
+  },
+  {
+   "id": 47174,
+   "name": "Navigate VR - Equipable Dynamic Compass and Maps",
+   "reason": "Уже в Other-1 (rec): компас и бумажные карты в руке закрывают «физические карты»; отдельного физического мода карт найдено не было."
+  },
+  {
+   "id": 184001,
+   "name": "Shields and 2H Weapons Unlocked - VR",
+   "reason": "Тема GAP 6 (левша); страница, по сниппету, требует HIGGS, Instant Equip VR, VRIK и советует Spell Wheel VR, но раунд 1 отверг его из-за конфликта с True Wield VR, нового доказательства здесь нет."
+  },
+  {
+   "id": 171764,
+   "name": "Spell_Swapper",
+   "reason": "Перекладывание заклинаний между руками по жесту, есть MCM для левши; дубль по смыслу Spell Wheel VR и Magic Improvements for VR из Core, отдельного пробела не закрывает."
+  },
+  {
+   "id": 155283,
+   "name": "SSSO3 - VRIK and Spell Wheel VR Integration",
+   "reason": "Страницу не читал, только заголовок в выдаче; относится к магии и Spell Wheel VR, не к моей группе."
+  },
+  {
+   "id": 16304,
+   "name": "VR Mirror",
+   "reason": "Старый временный мод для просмотра и правки внешности; зеркало в VR уже даёт VRIK Selfie Mode (MCM VRIK: поднять руку, выбор руки и запрет в бою по changelog)."
+  },
+  {
+   "id": 190704,
+   "name": "Inventory Selfie VR - Redux",
+   "reason": "Уже в Core (rec); показывает тело VRIK в меню."
+  },
+  {
+   "id": 193004,
+   "name": "Mirrors of Skyrim",
+   "reason": "Ручное и стоячие зеркала; в сниппетах про VR ни слова, требует Realistic Reflections - Mirrors, экранные эффекты в VR проблемны; VR-статус не подтверждён."
+  },
+  {
+   "id": 191282,
+   "name": "Realistic Reflections - Mirrors",
+   "reason": "Рендер зеркал в реальном времени; VR-статус не подтверждён, нагрузка и риск артефактов в VR."
+  },
+  {
+   "id": 52464,
+   "name": "Immersive Animal Looting VR",
+   "reason": "HIGGS в требованиях не указан (SKSE64 и SPID), страницу не читал; конфликтует по смыслу с Interactive Animal Skinning VR."
+  },
+  {
+   "id": 140404,
+   "name": "Physical Torch Lighting / Interactive Torches NG - VR",
+   "reason": "Уже в Other-2 (r2-A04, try). Требует только Skyrim VR Tools, HIGGS не обязателен."
+  },
+  {
+   "id": 186754,
+   "name": "Immersive Harvesting VR",
+   "reason": "Уже в Core (opt); растения и рыба."
+  },
+  {
+   "id": 136560,
+   "name": "Immersive Harvesting - Cabbages",
+   "reason": "Узкий мод про капусту, требования и VR-статус не прочитаны, HIGGS-комментарий лишь упоминает его."
+  },
+  {
+   "id": 29710,
+   "name": "Immersive Gathering (Woodchopping and Mining) SE - VR FRIENDLY",
+   "reason": "Версия 1.9a от 2019, контент рубки и добычи; доказательств взаимодействия с HIGGS нет."
+  },
+  {
+   "id": 184804,
+   "name": "Immersive NPC Dialogue - VR",
+   "reason": "Уже в MODLIST (try)."
+  },
+  {
+   "id": 190966,
+   "name": "Physical-Checkout-VR",
+   "reason": "Уже назван критиком раунда 1 и отдан другой группе (ix_world, торговля)."
+  },
+  {
+   "id": 186100,
+   "name": "Precision Physic Bodies",
+   "reason": "Назван критиком, отдан другой группе; вне моей темы."
+  },
+  {
+   "id": 186897,
+   "name": "Immersive Equip VR",
+   "reason": "Назван критиком, отдан другой группе (ix_hands)."
+  },
+  {
+   "id": 184866,
+   "name": "MageVR Reborn",
+   "reason": "Назван критиком, отдан группе магии."
+  },
+  {
+   "id": 149484,
+   "name": "Object Impact Framework и зависимые",
+   "reason": "Назван критиком, отдан группе ix_feedback."
+  },
+  {
+   "id": 154803,
+   "name": "DovaVR Locomotion",
+   "reason": "Назван критиком, отдан группе передвижения."
+  },
+  {
+   "id": null,
+   "name": "Biting Axes & Swords VR (GitHub SamuelJohnBrown)",
+   "reason": "Нет релиза и страницы Nexus; Swap Drop and Hold Redux 1.2.2 упоминает совместимость с ним, но он пересекается с Immersive Weapon Penetration VR 1.8.0 из Core."
+  },
+  {
+   "id": null,
+   "name": "Equipped-weapon-collision-framework (GitHub SamuelJohnBrown)",
+   "reason": "Описания нет, README не читал; по смыслу дубль Physical Collision VR."
+  },
+  {
+   "id": null,
+   "name": "NPC-mounted-combat-framework (GitHub SamuelJohnBrown)",
+   "reason": "Описания нет, не читал; конный бой NPC закрыт Steeds of Ultima/Omega."
+  },
+  {
+   "id": null,
+   "name": "Water-interactions-VR (GitHub SamuelJohnBrown)",
+   "reason": "Описание «tbc», релиза нет; в Core уже Interactive Waters VR."
+  },
+  {
+   "id": null,
+   "name": "djhert/CookingVR",
+   "reason": "Релиза нет, сборка из исходников, страницы Nexus не нашёл."
+  },
+  {
+   "id": 133432,
+   "name": "Knockout - Health and Stealth-Based KOs (Destructor36)",
+   "reason": "Плоский геймплейный мод, VR-статус не подтверждён, не про жесты."
+  },
+  {
+   "id": 81356,
+   "name": "Parrying RPG",
+   "reason": "Парирование по статам и анимации, не физика; дублирует PCVR и #100781."
+  },
+  {
+   "id": 74326,
+   "name": "Simple Weapon Swing Parry - NG",
+   "reason": "Парирование по окну анимации замаха; плоский, VR не подтверждён."
+  },
+  {
+   "id": 85505,
+   "name": "Dual Wield Parrying SKSE",
+   "reason": "Парирование двумя клинками; в VR одна рука держит щит или клинок по HIGGS, вызывает спор с PCVR."
+  },
+  {
+   "id": 22443,
+   "name": "Locational Damage Stability Patch / Locational Damage SKSE AE (#161250, #46932)",
+   "reason": "Версии для SE/AE без VR; в VR ставить только VR-сборку #26447 или Accuracy."
+  },
+  {
+   "id": 186015,
+   "name": "3D Interface Replacement Project (Journal) и VR Quest Journal (#66359)",
+   "reason": "Журнал уже закрыт 3DIRP из раунда 1; Wayfinder Journal VR взят как отдельный случай."
+  },
+  {
+   "id": 121765,
+   "name": "Wayfinder - Follow Directions Not Map Markers",
+   "reason": "База для Wayfinder Journal VR: меняет навигацию по квестам, а не взаимодействие; отдельно не предлагаю."
+  },
+  {
+   "id": null,
+   "name": "djhert/CookingVR",
+   "reason": "список наблюдения: нет релиза. Страница Releases пуста («There aren't any releases here»), 1 коммит, страницы Nexus не нашёл. README читается: готовка у котла (колесо 3DUI, ингредиенты хватом HIGGS, помешивание); HIGGS/VRIK/PLANCK и 3DUI - мягкие зависимости; установка только сборкой из исходников (VS2022, vcpkg). Проверялось 2026-10-11; новое с раунда 1 - только это подтверждение."
+  },
+  {
+   "id": null,
+   "name": "djhert/InteractiveAnimalSkinningVR",
+   "reason": "список наблюдения: нет релиза. Описание репозитория: «harvesting items from an animal via VR interactions». Релизов нет, 2 коммита, README по прямой ссылке не открылся (404), требований и функций не знаю, Nexus нет."
+  },
+  {
+   "id": null,
+   "name": "GabeAlvess/True-Grip-SkyrimVR",
+   "reason": "список наблюдения: нет релиза. README: постоянная подстройка позиции и поворота руки на двуручном оружии (мечи, секиры, молоты), требует SKSEVR и HIGGS, GPL-3.0, сборка xmake, 2 коммита, релизов и Nexus нет. Пересекается с True Wield VR из Core (хват двуручного оружия), поэтому и с релизом вряд ли нужен."
+  },
+  {
+   "id": null,
+   "name": "SamuelJohnBrown/Neck-Snap-VR (Neck Snap VR)",
+   "reason": "список наблюдения: нет релиза. Описание: скрадывание сзади, хват головы двумя руками HIGGS, свёрнутая шея, свидетели дают розыск; требует HIGGS (PLANCK не указан, в исходниках есть vrikinterface). 3 коммита, обновлён 2026-07-09, Releases пуста, страницу Nexus поиск не нашёл. Пересечение с Throat Slit VR и Lethal Unarmed VR из ядра."
+  },
+  {
+   "id": null,
+   "name": "SamuelJohnBrown/Biting-Axes-swords (Biting Axes & Swords VR)",
+   "reason": "список наблюдения: нет релиза. Описание: топоры и мечи вгрызаются в NPC при сильном ударе, застревают, локационное кровотечение; «HIGGS + PLANCK required». 5 коммитов, MIT, обновлён 2026-07-25, Releases пуста, Nexus не найден. Прямо пересекается с Immersive Weapon Penetration VR (#184223, 1.8.0) из Core: ставить обе нельзя без проверки."
+  },
+  {
+   "id": null,
+   "name": "SamuelJohnBrown/Weapons-shields-unlocked (Weapons & Shields Unlocked)",
+   "reason": "список наблюдения: нет релиза. Снимает привязку щита к левой и двуручного оружия к правой руке; в исходниках есть интерфейсы HIGGS и VRIK, требований в README нет, установки нет, 5 коммитов, Releases пуста, Nexus не найден. Конфликт по теме с True Wield VR (#191123) и Swap Drop and Hold Redux из Core."
+  },
+  {
+   "id": null,
+   "name": "Treatid2/DynamicHavokVR",
+   "reason": "список наблюдения: нет релиза. Это SKSEVR-плагин под Skyrim VR 1.4.15: берёт частоту дисплея шлема и выставляет fMaxTime/fMaxTimeComplex (и опционально uMaxNumPhysicsStepsPerUpdate) в HAVOK. README описывает ручную установку DLL+INI, но готовой сборки нет (Releases пуста, 1 коммит, обновлён 2026-07-15), Nexus не нашёл. Может влиять на физику HIGGS/PLANCK, без теста не ставить."
+  },
+  {
+   "id": null,
+   "name": "Treatid2/BlockingStateRepairVR",
+   "reason": "список наблюдения: нет релиза. Чинит залипшее состояние блока (IsBlocking true при wantBlocking false), которое глушит каст правой рукой; требует SKSEVR 2.0.12 и Skyrim VR 1.4.15, HIGGS/PLANCK не упомянуты, установка только сборкой из исходников (CommonLibVR ng). Releases пуста, 1 коммит, обновлён 2026-07-24, Nexus нет. Дополняет Dual Casting Fix VR, но не заменяет его."
+  },
+  {
+   "id": null,
+   "name": "xNicklaj/SkyrimVR-Apply-Poison",
+   "reason": "список наблюдения: нет релиза. Без описания и README, 4 коммита, обновлён 2026-08-11, xmake; что делает - только догадка по имени, VR-статуса и требований нет, Nexus нет."
+  },
+  {
+   "id": null,
+   "name": "xNicklaj/SkyrimVR-AimAssist",
+   "reason": "список наблюдения: нет релиза. Без описания и README, 5 коммитов, обновлён 2026-07-25, в extern лежит SKSE Menu Framework; функции и требований нет, Nexus нет. Помощь прицела в VR к тому же сомнительна рядом с Accuracy из ядра."
+  },
+  {
+   "id": null,
+   "name": "Immersive VR Actions (r/skyrimvr, 2026-02-26)",
+   "reason": "список наблюдения: нет релиза. Альфа «Coming Soon»: стрелы из-за плеча, отмычка с вращением контроллера и вибрацией, предметы из контейнеров, предпросмотр содержимого. Поиск не нашёл страницы Nexus или релиза; в комментариях в конце мая спрашивали «ещё в работе?». Страницу Reddit открыть не удалось (зеркало не резолвится), опираюсь на сниппет поиска. Функции частично закрывают MageVR Reborn, Interactive Door actions и Take All Lockpicks VR."
+  },
+  {
+   "id": null,
+   "name": "Telord72612/VRTouchEvents",
+   "reason": "НЕ рекомендовать (адулт-уклон): релиз теперь есть (v3.4, FOMOD только на странице Releases), но мод передаёт касания NPC в LLM SkyrimNet Beta 25+, включает интимные контакты и опциональные адулт-интеграции (OSL/SLA Aroused, патчи под SexLab/OStim); нужны PPB, PLANCK, HIGGS, VRIK. Автор пишет, что код сделан через Claude Code и за безопасность не ручается. Для безопасной конфигурации без SkyrimNet смысла нет."
+  },
+  {
+   "id": null,
+   "name": "SamuelJohnBrown: Water-interactions-VR, Physical-Torch-Lighting-VR, Equipped-weapon-collision, SpellBender-VR, NPC-mounted-combat, Interactive-Pipe-Smoking",
+   "reason": "вне моей группы и не из списка; нашёл в профиле автора (обновлены 2026-01..08, README не читал, Releases не проверял). Передаю как наводку другому проходу: у автора есть и Nexus-релизы (Throat Slit VR #184140 в Yggdrasil VR), так что страницы для этих может появиться. Не проверено."
+  },
+  {
+   "id": null,
+   "name": "Treatid2/Throwing-Stuff-VR, dual_wield_block_vr, SkyrimVR-Havok-Material-Guard (форки и вспомогательные репозитории)",
+   "reason": "в профиле Treatid2; форки существующих модов (Throw Stuff VR, блок при двух руках) или внутренние гарды без релиза; не по этой группе, не проверял."
   }
  ],
  "leads": {

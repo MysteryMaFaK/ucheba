@@ -1,0 +1,274 @@
+{
+ "verdicts": [
+  {
+   "key": "id:20446",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Племенная раскраска тела и лица для каджитов и аргониан: оверлеи RaceMenu, выбираются в редакторе персонажа.",
+   "note": "Файл: BRB SE - BeastRaceBodypaints 2K (20446-3-2), его ставят все 3 VR-листа. 4K не брать. Нужен RaceMenu со Skee/NiOverride. Только текстуры, DLL нет. Полезно, если играете за зверорасу.",
+   "reason": "Три VR-листа ставят один и тот же файл, DLL нет, с ядром не конфликтует. Опровергнуть VR-совместимость нечем."
+  },
+  {
+   "key": "id:45148",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Тонкая мимика NPC по ситуации: страх, гнев, боль, радость. В VR лица видны вплотную, разговоры выглядят живее.",
+   "note": "Файл: Conditional Expressions 1.27 (Tempus VR, Tahrovin) или 1.26 (Yggdrasil). Версию 1.29 (SE-листы, 2025-08) в VR никто не проверял, не брать. Искать OAR-вариант не нужно: OAR из ядра сам читает DAR-папки. Нужен MFG Fix NG. Tempus и Tahrovin ставят его вместе с Expressive Facial Animation.",
+   "reason": "Три VR-листа, DLL нет. Опасение про DAR/OAR снято: OAR читает DAR-архивы."
+  },
+  {
+   "key": "id:183",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур женщин-каджитов подвидов Grey Cat и Leopard под тело CBBE. Лица зверорас в VR видны вплотную.",
+   "note": "Файл: Feminine Grey Cat and Leopard (CBBE) 2K, 3.2 (183-3-2). VR-листы берут 4K 3.2, нам хватит 2K. Версия 4.0 (2026-07) есть только в SE-листах, под VR не проверена. Затрагивает только два подвида. Может пересекаться с Racial Skin Variance (81668): ставить ниже него.",
+   "reason": "Три VR-листа ставят, DLL нет. Выбираем 2K ради VRAM, значит файл другой, чем у листов."
+  },
+  {
+   "key": "id:80079",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Маленькая правка меша металлической решётки в нордских руинах. Без текстур и DLL.",
+   "note": "Файл: Fixed Nordic metal grate 1.0 (80079-1-0). VR-лист один (Tempus), SE-листов 10, файл везде один. Описание страницы подтвердить не удалось. Ставить ниже Assorted Mesh Fixes и SMIM, конфликты мешей смотреть в MO2.",
+   "reason": "Мелкая правка меша, VR-риска нет, польза маленькая, но вреда тоже нет."
+  },
+  {
+   "key": "id:79958",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "NPC оглядываются и ищут вас после потери цели. Анимации под OAR, без DLL.",
+   "note": "Файл: Look Around - Searching Animations for NPC - OAR 1.1 (79958-1-1), как у Tempus VR и Panda's. DAR-версию 1.0 не брать. Приоритет в OAR ниже NPC Animation Remix из ядра, чтобы не затирал.",
+   "reason": "Два VR-листа, DLL нет, OAR есть в ядре."
+  },
+  {
+   "key": "id:112042",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмная тёмно-эльфийская мебель (Солстхейм, Телваннис, Рейвен-Рок) с 2K-текстурами.",
+   "note": "Файл: Rally's Dark Elf Furniture 2K 1.1 (112042-1-1) без ENB Light, как у Panda's. Вариант ENB Light не брать: ENB-свет при Open Shaders не работает. Нужен SMIM. Ставить после Rally's All The Things. Мебель только в нескольких интерьерах, нагрузка на CPU небольшая.",
+   "reason": "Panda's ставит обычный файл. Часть листов берёт ENB-вариант, поэтому файл выбран явно."
+  },
+  {
+   "key": "id:84046",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанные жуки-светлячки (torchbugs): объёмные меши и свечение, видны вблизи.",
+   "note": "Файл: Rally's Torchbugs 1.3 (84046-1-3), как у Panda's. Вариант Sparkling/ENB Light (FUS и SE-листы) не брать: его частицы работают только с ENB. Нужен SMIM. DLL нет, меши мелкие.",
+   "reason": "Основной файл ставит VR-лист Panda's. Sparkling без ENB бесполезен."
+  },
+  {
+   "key": "id:67602",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Большой набор макияжа лица для редактора персонажа: оверлеи RaceMenu, плагин ESL.",
+   "note": "Файл: Even More Makeup 2k (67602-1-0), три VR-листа. ESL: нужен Skyrim VR ESL Support из ядра. Even More Brows (87305) и Even More Eyes (80477) не брать: ни одного VR-листа, дублируют Hvergelmir's Brows и Authentic Eyes.",
+   "reason": "Три VR-листа, DLL нет. Остальные члены серии избыточны."
+  },
+  {
+   "key": "id:64313",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "ENB-частицы для пауков, орбов, ловушек и камней. Работают только с ENB Light и CSX.",
+   "note": "Не ставить: серия рассчитана на ENB Light. С Open Shaders 2.17 частицы не работают, в VR-листе Panda's лежит только Dwarven Spiders. Свет даёт Light Placer и CS Light из ядра. Рядом в списке уже есть ECPLW.",
+   "reason": "ENB-аддон бесполезен на нашем шейдерном стеке, но 11 листов его ставят, поэтому в список запретов."
+  },
+  {
+   "key": "id:65402",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Текстуры кожи мужского тела HIMBO в паре с BnP - Female Skin: единый стиль кожи у мужчин и женщин.",
+   "note": "Файл: BnP male skin 2k (SOS full Player Replacer) 2.1 (65402-2-1), как у Panda's. 4K не брать. Ставить только вместе с HIMBO и BnP Female Skin (65274) из списка. Файл «Schlong and elder body normal fix» не нужен без SOS.",
+   "reason": "Panda's ставит этот файл вместе с HIMBO V5, DLL нет."
+  },
+  {
+   "key": "id:61690",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Раздача разных тел NPC по пресетам BodySlide. Запасной путь, если OBody NG в VR не заводится.",
+   "note": "Файл: Autobody NG 1.5.3.1 (61690-1-5-3-1). Ставят только Spirit of Grit и Tahrovin - Grit, причём вместе с OBody NG 4.2.0, так что «либо-либо» не подтверждено. Не гонять оба распределителя тел: ставить один, проверить в игре. Нужны BodySlide, CBBE 3BA, RaceMenu VR.",
+   "reason": "Два VR-листа, но их связка с OBody неясна. Заменой OBody не доказан, поэтому try, а не alt."
+  },
+  {
+   "key": "id:140404",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "VR-мод света факела в руке. Только Panda's, описание страницы не подтверждено поиском.",
+   "note": "Файл: Physical Torch Lighting VR 1.2 (140404-1-2, 2025-02). Один VR-лист (Panda's), в SE-листах нет. Проверка: поднести факел в тёмном подземелье, нет ли двойного света с CS Light, Light Placer и Lux. Если свет факела уже нормальный, пропустить.",
+   "reason": "Имя VR есть, но один лист и нет описания. Конфликт со светом ядра не исключён."
+  },
+  {
+   "key": "id:174652",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Правка положения окна RaceMenu в VR: меню ближе и удобнее для рук. Надстройка к RaceMenu VR.",
+   "note": "Файл: RaceMenu VR Position Tweaks 1.0 (174652-1-0, 2026-03). Единственный лист с ним, Panda's, стоит на старом RaceMenu VR 0.4.14, а не на RacemenuVR 0.5 (#156898). Лист с RacemenuVR 0.5 его не ставит. Ядро пишет «требует RacemenuVR», но на нашей связке не проверено. Не вместе с RaceMenu VR 2 (#192158). Ставить ниже RaceMenu VR.",
+   "reason": "Подтверждена только с другим RaceMenu VR, чем в ядре, поэтому try."
+  },
+  {
+   "key": "id:81668",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Разные оттенки кожи по расам у NPC через SPID: толпа выглядит разнообразнее вблизи.",
+   "note": "Файл: Racial Skin Variance - SPID 2K 2.5.2 (81668-2-5-2). По желанию «Additional Dremora Faces Patch» и «Teeth Variance (Standalone)» 2.2.0. Нужен SPID VR из ядра. Один VR-лист (Panda's) вместе с Nordic Faces и BnP, с другими скинами не проверено. Может пересекаться с Feminine Khajiit Textures.",
+   "reason": "Панда ставит, DLL нет, SPID в ядре. Совместимость подтверждена на одном наборе."
+  },
+  {
+   "key": "id:58224",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Разнообразные модели замков на дверях и сундуках: нордские, айлейдские, подводные и другие. Замок виден вплотную при взломе.",
+   "note": "Ставить ПАРОЙ, как все 8 VR-листов: основной SE-файл 58224 «Lock Variations» 4.0.0 (ассеты и плагин) + поверх него VR-DLL со страницы 58298 «Lock Variations VR» 4.0.0. Версию 4.1.0 (SE, 2026-08) не брать: под VR её нет. Grit, Tahrovin и Librum на паре 3.2.0. Дополнения: Add-ons 59529 (0.1.9.1), Regional Locks 62781, Some More Locks 59961, Extra Locks 126119 по желанию. Нужны SKSEVR, VR Address Library и po3 Tweaks (VR). PBR-версию (152269) только на PBR-пути.",
+   "reason": "Исправлено: утверждение «58224 не нужен» опровергнуто whouses, все 8 VR-листов ставят и 58224, и 58298. DLL с VR-сборкой есть."
+  },
+  {
+   "key": "id:5442",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур шкур, мехов и охотничьих трофеев. Лежат в домах и лагерях, видны вплотную.",
+   "note": "Файл: PELTAPALOOZA Special Edition - FULL (5442-1-0), как у 7 из 9 VR-листов. Другого файла в листах нет, облегчённый вариант не подтверждён. Ставить после Rustic Furniture и SMIM. Это не PBR-текстуры.",
+   "reason": "Семь VR-листов, DLL нет. Влияние умеренное, поэтому opt."
+  },
+  {
+   "key": "id:74689",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Утилита alandtse для объединённых плагинов: сама ничего не меняет в игре.",
+   "note": "Не в список: ни один мод ядра и Other Mods её не требует. Ставить только если страница мода прямо её указывает (1.5.0 у VR-листов, 1.6.2 у Yggdrasil).",
+   "reason": "Нет ни одного мода в наборе, которому она нужна: польза нулевая, в куратированный список не входит."
+  },
+  {
+   "key": "id:42614",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур бумажных карт и свитков-карт в стиле Rustic, 2K.",
+   "note": "Файл: RUSTIC MAPS - 2K (42614-2-0). Вариант 4K-2K у Panda's не нужен. Это не карта мира (её даёт A Clear Map of Skyrim) и не карты Navigate VR. Берите вместе с Rustic Furniture и Rustic Clothing.",
+   "reason": "Три VR-листа берут 2K, DLL нет. Предметов мало, нагрузка ничтожна."
+  },
+  {
+   "key": "id:33261",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "SKSE-плагин meh321 с десятками правок движка для SE/AE.",
+   "note": "Не ставить: DLL под SE/AE (1.5.97 и 1.6.x), сборки под VR 1.4.15 нет, ни один VR-лист его не берёт (0 из 9, SE 18). Правки движка в VR дают Engine Fixes VR и NG-фиксы из ядра.",
+   "reason": "DLL без VR-сборки. SE-листы ставят массово, поэтому в запреты."
+  },
+  {
+   "key": "id:114790",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ресурс иконок powerofthree для ImGui-модов, в том числе SKSE Menu Framework. Собственных функций нет.",
+   "note": "Файл: imGui Icons 1.2.0 (114790-1-2-0). В VR только Spirit of Grit; Stormcrown с SKSE Menu Framework 3.18 его не ставит. Ставить, если страница SMF или другого ImGui-мода его требует. Только файлы иконок, DLL нет.",
+   "reason": "Ресурс без DLL и нагрузки, нужен только по требованию. В ядре уже есть упоминание у Floating Subtitles VR."
+  },
+  {
+   "key": "id:32349",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "SKSE-плагин meh321, снимающий лимит actor в SE/AE.",
+   "note": "Не ставить: DLL под SE/AE, в VR не работает (0 из 9 VR-листов, SE 17). Для VR есть Increase Actor Limit for VR (37440) из ядра, ядро запрещает ставить вместе с этим.",
+   "reason": "DLL без VR-сборки, а SE-листы ставят массово."
+  },
+  {
+   "key": "id:64016",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправляет зависающий побочный квест Нелота (Dragonborn): чистый баг-фикс, не квестовый контент.",
+   "note": "Файл: Neloth's Experimental Subject Quest (DLC2TTR4a) Fix 0.1 (64016-0-1). VR: Librum VR, Yggdrasil VR; SE 13 листов, файл один. Нужен Dragonborn. DLL нет. Если USSEP 4.3 уже правит этот квест, можно пропустить: совпадение не проверено.",
+   "reason": "Чистый плагин, два VR-листа. Не исключённая категория: фикс, а не контент."
+  },
+  {
+   "key": "id:93271",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Правки ванильных анимаций Everglaid, в том числе женская ходьба по диагонали. Только hkx, без DLL.",
+   "note": "Файл: Assorted Animation Fixes 1.02 (93271-1-02). В VR только Librum VR, SE 14 листов. Заменяет ванильные hkx: ставить ниже OAR-паков и Pandora-вывода, после установки прогнать Pandora, проверить, что нет T-позы и что VRIK-тело ходит нормально.",
+   "reason": "VR-подтверждение одно, а анимации могут конфликтовать с Pandora и OAR. Ставить отдельно и проверять."
+  },
+  {
+   "key": "id:43083",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Правка меша щупалец и грибов в Чёрном Рич (Blackreach). Мелкая правка без DLL.",
+   "note": "Файл: Blackreach Tentacle Mesh Fix 0.1 (43083-0-1). VR: Librum, Panda's, Tempus. Ставить ниже Assorted Mesh Fixes и ретекстур-паков, возможен конфликт мешей, смотреть в MO2. Нагрузки нет.",
+   "reason": "Три VR-листа, DLL нет, вред исключён."
+  },
+  {
+   "key": "id:107334",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Иконки криков в меню: надстройка к I4. Чистый визуал меню, без DLL.",
+   "note": "Файл: I4 Shout Icons Overhaul 1.1 (107334-1-1), как у Tempus VR, Stormcrown и Librum. Вариант Thunderchild не брать: мод заклинаний исключён. Нужны I4 VR (85702) и SkyUI VR. Ставить ниже I4. С I5 (192976) не проверено.",
+   "reason": "Три VR-листа на I4, DLL нет."
+  },
+  {
+   "key": "id:33041",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмные столы вместо плоских ванильных: новые меши и 2K-текстуры в стиле оригинала.",
+   "note": "Файлы: Vanilla Table Replacers 2k 1k (33041-1-0) + «2k Common Table replacer optional (No Ropes)» (33041-1-1), как у Panda's и Yggdrasil. Только 2K. Нужен SMIM. Ставить после Rustic Furniture, не с другими заменителями столов. Текстуры не PBR: на PBR-пути ниже PBR-паков.",
+   "reason": "Два VR-листа, DLL нет, меши лёгкие, столы видны вплотную."
+  },
+  {
+   "key": "id:53406",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Список боссов для полосок здоровья True HUD.",
+   "note": "Не ставить: работает только вместе с True HUD, а у того нет VR-сборки (ни одного VR-листа ни с ним, ни с этим модом, SE 14). Для VR есть moreHUD VR и Clear HUD VR из ядра.",
+   "reason": "Зависит от SE-DLL без VR-версии, SE-листы ставят массово."
+  }
+ ]
+}

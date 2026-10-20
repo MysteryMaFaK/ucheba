@@ -1,0 +1,214 @@
+{
+ "verdicts": [
+  {
+   "key": "id:186100",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Precision Physic Bodies: ~130 капсул на NPC, касания руками, толчок, шаг назад, нокдаун. Только VR, бета 2.2.0.",
+   "note": "Ставить на отдельный профиль/копию сейва. FOMOD: SMP hair/tail = Off, Push and shove = On, Equip gestures = Off (дубль Gift by Hand VR), DF-патч только при DF. Mu Joint Fix: отключить [FixHeight] в MuJointFix.ini (конфликт по каблукам, из CHANGELOG, в README не повторён). Взрослые части не ставить: TNG, SPS, Penetration Physics, MFG Fix, DD/ZaZ, OStim/SexLab. Пальцы хват не улучшают. Скелет: PPB не должен перезаписать _1stperson\\skeleton.nif из VR-фикса #34301. Версию на Nexus сверить (сниппет 1.4.2, GitHub 2.2.0).",
+   "reason": "Перепроверил README: Beta, SKSEVR/HIGGS/PLANCK в требованиях, FOMOD-страницы Performance/Optional/Push and Shove/Compatibility, Equip gestures есть. Глубокий хук движка, 0 VR-списков, страница Nexus не читалась: только try."
+  },
+  {
+   "key": "id:186897",
+   "keep": true,
+   "section": "ix_hands",
+   "tag": "try",
+   "choose_one_group": "equip-by-hand",
+   "what": "Immersive Equip VR: надеть/снять шлем, броню, кольца руками (поднести HIGGS-предмет к телу, снятие хватом ~1 с).",
+   "note": "Автор в README: «I don't have a VR headset to test this against» - в шлеме не проверено. Жёстко нужен HIGGS; VRIK и PLANCK в README не требуются (в round 1 были записаны неверно). Одно из двух с VR Equip #83092, не ставить оба. [NPC] в INI выключить из-за Gift by Hand VR. Хват не ремапить (читается сырая кнопка). Тест: отдельный профиль, iOverrideMode=1.",
+   "reason": "README прочитан: VR-статус только по исходникам, без тестов. Правдоподобно, но не доказано. Идентичность Nexus-страницы и репозитория не подтверждена."
+  },
+  {
+   "key": "id:184866",
+   "keep": true,
+   "section": "ix_magic",
+   "tag": "try",
+   "choose_one_group": "spell-select",
+   "what": "MageVR Reborn: VR SpellBook (глиф-каст, двойной каст) и VR Backpack. Ставить только SpellBook, если вообще.",
+   "note": "README: только Skyrim VR 1.4.15; требует VR Address Library, VR ESL Support, HIGGS не ниже 1.10.4 (в Core 1.10.10 подходит), VRIK для Backpack. Spell Wheel VR в README не упомянут: конфликт/дубль - вывод, не факт автора; по умолчанию остаётся Spell Wheel VR. Backpack требует поддерживаемый рюкзак (Big Leather Backpack или Campfire), в Core их нет. OCU: кнопка A = ACTIVATE и каст, настроить castholdms. Иконки с вызывающими названиями не ставить, оставить I4 и стандартные. Кириллица в панелях не читается. Старый MageVR #21297 не ставить.",
+   "reason": "README перепроверен. VR-статус нативный, но молодой мод (18 эндорсментов), «tested in VR» прямо не заявлено, пересечение со Spell Wheel не проверено."
+  },
+  {
+   "key": "id:190966",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Physical-Checkout-VR: торговля руками, оплата отпусканием товара в зоне кассы.",
+   "note": "Только по сниппетам поиска: v1, 6 эндорсментов, теги Skyrim VR и AI Media. Требует HIGGS, Open Container VR, Papyrus Extender и Papyrus Extender VR. DLL или скрипты - неизвестно. Trade and Barter (opt) может дать расхождение цен: либо не ставить его, либо сверить цену на кассе. Тест на отдельном сохранении: купить и продать вещь.",
+   "reason": "Страница не читалась, ни одного VR-списка, ни отзывов. Правдоподобно по заявленным требованиям, поэтому try."
+  },
+  {
+   "key": "id:189537",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Open Container VR: панель содержимого контейнера перед игроком, предметы берутся рукой. Нужен только как зависимость кассы.",
+   "note": "Только сниппет: v1.5, Skyrim VR 1.4.15, SKSEVR, Address Library, HIGGS 1.10.0+, тег AI-Generated, 11 эндорсментов. Пересекается с QuickLoot IE (Core rec) и Interactive Activators VR, совместимость нигде не заявлена. Без Physical-Checkout-VR не ставить. Тест: сундук, потом труп, не должно открываться два окна.",
+   "reason": "Не самостоятельная рекомендация и есть риск двойного окна с QuickLoot IE, но жёсткого конфликта нет. try только как пара к кассе."
+  },
+  {
+   "key": "n:oif-pack",
+   "keep": true,
+   "section": "ix_feedback",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Object Impact Framework 1.6.8 + Break The Lock 1.3.1 + Flammable Alcohol 1.1: предметы реагируют на удар и огонь по JSON-правилам.",
+   "note": "whouses подтвердил архивы: OIF-149484-1-6-8-1756392215.zip (Panda's VR и CSVP), Optional - Cut Food Config-149484-1-2-1746823991.zip (Panda's). Panda's ставит OIF в VR, но отчёта о работе на 1.4.15 нет. Grab/Release/Throw в VR не рассчитывать (HIGGS отключает ванильный хват). Break The Lock заменяет взлом отмычкой: ставить только если это желательно. OnUpdate-правила стоят кадров. Снять пакет целиком при просадке.",
+   "reason": "VR-список ставит DLL, это лучшее доказательство среди OIF-позиций, но функционал в VR не подтверждён. try."
+  },
+  {
+   "key": "id:153449",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Cooking with Fire - OIF: еда в мире запекается огненным заклинанием без печи.",
+   "note": "Только с пакетом OIF. Снарядные заклинания OIF не поддерживает, надёжен, вероятно, только огненный поток. Архив: Cooking with Fire - OIF-153449-1-1-1755369711.zip (Panda's). Описание только из метаданных архива.",
+   "reason": "Нет данных о работе в VR, лишь факт поставки в Panda's. Понижено с opt до try."
+  },
+  {
+   "key": "id:151000",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Burn Those Books - OIF: книги в мире можно сжечь в обрывки бумаги.",
+   "note": "Чисто атмосферная мелочь, только вместе с OIF. Архив: Burn Those Books - OIF-151000-1-01-1755829768.7z (Panda's). Страницу и отзывы не видел.",
+   "reason": "Самая слабая позиция семейства, VR-эффект не проверен. Безвредна при уже работающем OIF."
+  },
+  {
+   "key": "id:154803",
+   "keep": true,
+   "section": "ix_locomotion",
+   "tag": "try",
+   "choose_one_group": "armswing",
+   "what": "DovaVR Locomotion: ходьба взмахом рук, плавание и верховая езда, чистый SKSE.",
+   "note": "Только сниппеты: тег Skyrim VR Required, SKSEVR + SkyUI VR; страница старая; Mad God's Overhaul ставит мод (по гайду). Нужна версия не ниже 1.4.2 (исправлен Right Grip). Не вместе с Natural Locomotion. Im Walkin' Here VR не пересекается. Включать ходьбу, плавание, езду по отдельности; тест с HIGGS-хватом, луком, конём.",
+   "reason": "Нативный VR, но актуальная версия и имя файла не подтверждены, страница Nexus не читалась; есть Steam-отзыв о нестабильном распознавании."
+  },
+  {
+   "key": "id:188691",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Take All Lockpicks VR: все отмычки берутся разом (до пяти), как в SE/AE.",
+   "note": "Только сниппеты: v1.0.0, 0 эндорсментов, у XMODhub пометка alpha. Автор и актуальность не подтверждены. Может не сработать через QuickLoot IE. Безвредный DLL-фикс с проверкой на VR; убрать при странностях.",
+   "reason": "Нет независимых отзывов и нет списков. Понижено с opt до try."
+  },
+  {
+   "key": "id:25072",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": "nolockpick",
+   "what": "No Lockpick Activate VR: после взлома не открывает контейнер/дверь автоматически, чтобы был виден QuickLoot.",
+   "note": "Нужен, только если QuickLoot IE после взлома открывает ванильное меню: сначала проверить без мода. DLL под SKSEVR 2.0.10 (у вас 2.0.12), смотреть sksevr.log. Пересечение с Interactive Door Actions VR: дверь может остаться закрытой. Ставить вместо плоской #26790, не вместе.",
+   "reason": "Порт для VR 1.4.15 заявлен страницей, но отчётов на 2.0.12 нет. try."
+  },
+  {
+   "key": "id:26790",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "nolockpick",
+   "what": "No Lockpick Activate (SKSE) - Updated 4.0.1: плоская версия, в VR не ставить, брать порт #25072.",
+   "note": "Ставят только SE-списки (Elysium, Apostasy, Northern Experience). В README и коммитах VR не упомянут, страница #26790 сама отсылает VR-игроков на отдельную версию.",
+   "reason": "DLL без VR-доказательств. Верно в ix_dont."
+  },
+  {
+   "key": "id:184623",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Neck Snap VR: свернуть шею NPC, взяв голову двумя руками HIGGS при скрытном подходе.",
+   "note": "README читается лишь частично: «fully VR», «Requires HIGGS», VRIK и Address Library не названы, релизов и версии нет. Исходники используют HIGGS и VRIK интерфейсы. Файл Nexus не прочитан, гарнитура у автора не подтверждена. Тест: DLL без ошибки в sksevr.log, затем подкрасться к спокойному NPC. Спор за руку возможен с PLANCK, PPB, Gift by Hand VR.",
+   "reason": "Правдоподобно, но релиза нет и VR-тестов не заявлено. try."
+  },
+  {
+   "key": "id:173931",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Immersive Reading: книги и записки читаются в руках, страницы листаются курками.",
+   "note": "Только сниппеты Nexus: v1.07, требует HIGGS, Skyrim VR Tools, Address Library, VRIK, Book Covers Skyrim (обязательность не раскрыта). Хват HIGGS остаётся на Grip, при OCU следить за биндами. Read The Spell Incantation не брать. Тест: подобрать книгу HIGGS и взять курком.",
+   "reason": "Нативный VR, но нет отзывов и тестов автора."
+  },
+  {
+   "key": "id:188121",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Interactive Animal Skinning VR: шкуры и мясо с туш руками вместо Activate.",
+   "note": "Страница AI-Generated, 5 эндорсментов. Автор djhert, тот же, что у Immersive Equip VR, где в README написано, что гарнитуры нет, так что вероятно не проверено в шлеме. Скрывает Activate на мёртвых животных, спорит с QuickLoot IE и Immersive Animal Looting VR. Тест: убить оленя, QuickLoot не должен открывать окно туши. Если мешает, убрать.",
+   "reason": "Хук на Activate и нет доказательств VR-тестов, но функция правдоподобна. try."
+  },
+  {
+   "key": "id:139676",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Interactive Herb Smoking VR: трубки и самокрутки руками, поджечь, вдохнуть у рта.",
+   "note": "Только сниппеты: требует HIGGS, Instant Equip VR, VRIK; страница старая (~637 дней), совпадение с репозиторием SamuelJohnBrown не доказано. Взрослого контента на странице нет. Проверить вместе с Immersive Harvesting VR.",
+   "reason": "Нативный VR по тегам страницы, но свежих тестов нет. try."
+  },
+  {
+   "key": "id:103385",
+   "keep": true,
+   "section": "ix_world",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Interactive Skyrim VR: статичные предметы становятся физическими, контейнеры открываются у руки. Бета 0.8.1 (2023).",
+   "note": "Только сниппеты. Меняет коллизионный слой static на clutter: риск спора с PLANCK/Physical Collision VR и просадок. ESP занимает слот, ESL не подтверждён, список изменённых предметов не раскрыт. Только на тестовом профиле.",
+   "reason": "Три года без обновлений, бета, влияние на физику неясно."
+  },
+  {
+   "key": "id:171743",
+   "keep": true,
+   "section": "ix_ui",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Wayfinder Journal VR: дневник в руке, записывает указания NPC.",
+   "note": "Работает только с базой Wayfinder #121765, которая убирает маркеры квестов: это выбор владельца. Не вместе с Quest Markers for NavigateVR. Страница AI-Generated, v1.02. Безопасная конфигурация: не ставить ни базу, ни аддон.",
+   "reason": "Правдоподобно, но требует смены правил игры и не проверено игроками."
+  },
+  {
+   "key": "id:100781",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "vr-parry",
+   "what": "Pseudo Physical Weapon Collision and Parry VR: убрать из Other-1, парирование даёт Physical Collision VR 5.x.",
+   "note": "whouses подтвердил архив 1.0.2 (Tempus, Spirit of Grit, Tahrovin-Grit, Panda's, Tahrovin, FUS). По описанию PCVR при наличии #100781 отключает своё парирование (фраза из времён 2.0, для 5.2 не проверена). True Wield VR требует PCVR 5.0+. Если парирование PCVR окажется слабым, вернуть #100781 осознанно.",
+   "reason": "Жёсткого конфликта нет, довод в потере парирования PCVR; фраза про автоотключение не перепроверена. Оставлено как dont."
+  },
+  {
+   "key": "id:133437",
+   "keep": true,
+   "section": "ix_dont",
+   "tag": "dont",
+   "choose_one_group": "vr-parry",
+   "what": "Parry - Simple Weapon Parrying: парирование по тайминга для плоской игры, в VR не ставить.",
+   "note": "VR-статус unknown: страница с тегом Skyrim VR, DLL-тип не раскрыт, VR-списков нет. Дублирует парирование PCVR 5.x, не знает физики рук. Только как эксперимент на тестовом профиле.",
+   "reason": "Нет VR-доказательств и дубль PCVR, поэтому в ix_dont."
+  },
+  {
+   "key": "id:26447",
+   "keep": true,
+   "section": "ix_combat",
+   "tag": "alt",
+   "choose_one_group": "locational-damage",
+   "what": "Locational Damage SKSE VR 0.7.2: альтернатива Accuracy + Core Impact Framework, не вместе с ними.",
+   "note": "whouses: один архив LocationalDamageSKSE VR 0.7.2-26447-0-7-2-1638129484.zip в 7 VR-списках, включая Yggdrasil (2026-10-03). Accuracy (Core opt) в VR подтверждён лишь тегом страницы и одним списком. Выбрать один из двух; если CIF и Accuracy не нужны, это проверенный вариант. Не включать декапитацию вместе с Dismembering Framework.",
+   "reason": "Запрет в ix_dont не обоснован: нет доказательств вреда, только дубль, а VR-доказательств у этого мода больше, чем у Accuracy. Переведено из dont в alt."
+  }
+ ]
+}

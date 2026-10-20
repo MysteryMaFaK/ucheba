@@ -1,0 +1,184 @@
+{
+ "verdicts": [
+  {
+   "key": "id:58023",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Сила «Conduit»: оружие в одной руке, заклинание в другой — оружие на время получает эффект заклинания. Это механика, не пак заклинаний.",
+   "note": "Работает в VR по странице мода; файл 2.7 одинаков в 5 VR-списках, VR-файла нет. Метание срабатывает только через Weapon Throw VR (#31374, rec в ядре, нужен Skyrim VR Tools), а не само по себе. Патч «Conduit - XPMSE Patch» 1.0.1 только для XPMSSE-конфигов (Tempus, Yggdrasil). Требования SKSE на странице не подтверждены: после установки смотреть sksevr.log.",
+   "reason": "Это не пак заклинаний, а одна сила с книгой. VR подтверждён страницей и 7 VR-списками. Цитата про «VR version» в evidence неточна: бросок идёт через Weapon Throw VR."
+  },
+  {
+   "key": "id:66125",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Женатые NPC носят амулет Мары. Мелкая деталь иммерсии, в VR вблизи заметна. Плагин, нагрузки нет.",
+   "note": "Файл 2.03 (Tempus, Panda's); Yggdrasil — 2.0. Требований SKSE по странице подтвердить не удалось (поиск пуст): проверить локально. Если стоит мод, меняющий экипировку NPC или супругов, смотреть конфликт в MO2.",
+   "reason": "VR-списков 3, SE-списков 11, мод мелкий и безопасный. Наличие DLL не доказано, но три VR-списка его ставят."
+  },
+  {
+   "key": "id:101101",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур масок и одеяний жрецов драконов (в том числе Конарик) от Xavbio. Маски видны вплотную в курганах.",
+   "note": "Брать Half Res (Tempus и большинство SE-списков); полный файл ставит Panda's. «Konahrik's Accoutrements Textures only (outdated)» не брать. Не-PBR текстуры: рядом с PBR-бронью (Faultier's PBR Armors) не смешивать. Одного стиля с серией Xavbio, но от группы armor_gear не зависит.",
+   "reason": "Не-PBR, без DLL, в 2 VR-списках и 12 SE. Конфликтов с ядром нет."
+  },
+  {
+   "key": "id:41863",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меши грибов Чёрного предела с большим числом полигонов (мод 40418). Из серии «High Poly» берём только его: объектов мало, вблизи заметно.",
+   "note": "Файл 1.1 (FUS, Librum VR), DLL нет. Чёрный предел и так тяжёл для VR: после установки проверить кадр в пещере. Поправка к предыдущей записи: High Poly Vanilla Hair (#41863) стоит в 3 VR-списках (Tempus, Panda's, Librum), и Panda's ставит её вместе с Vanilla hair remake SMP, то есть это не дубль. Решение по причёскам принимать отдельно, а не по «закрыто remake». Пресеты RaceMenu и ENB-аддоны серии не брать.",
+   "reason": "Мод проверен по whouses: 2 VR-списка. Утверждение «Vanilla Hair закрыт remake» не подтверждается списками, помечено в заметке."
+  },
+  {
+   "key": "id:91136",
+   "keep": true,
+   "section": "armor",
+   "tag": "alt",
+   "choose_one_group": "armor_gear",
+   "what": "Серия ретекстуров оружия и брони Xavbio (13 материалов): единый не-PBR стиль. Классическая альтернатива Faultier's PBR, Half Res для VR.",
+   "note": "Оба VR-списка берут все материалы: Tempus — Half Res, Panda's — полные 2.x. Dragon: у Tempus «2K-1K», у Panda's версия 2.2 (не 2.2.1). Unique (105771) только у Panda's. Cathedral Armory у Tempus стоит вместе с Xavbio (Xavbio поверх), у Panda's его нет: слои совместимы, а PBR (Faultier's) не смешивать. BodySlide нужен только для патчей (Iron Bodyslide Patches, Steel patch у Vanilla Outfits Redone). Фалмеры — Falmer Overhaul #86338.",
+   "reason": "Исправлено: утверждение «Tempus и Panda's без Cathedral Armory» неверно, Tempus ставит оба. Выбор «один путь» остаётся рекомендацией против PBR, а не против Cathedral."
+  },
+  {
+   "key": "id:51507",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Каркас для Open Animation Replacer: ходьба и бег NPC зависят от типа брони. Без DLL, сам по себе ничего не меняет без аддона Leviathan II.",
+   "note": "Файл 1.3c (Tempus, Panda's), версию 1.1 не брать. Только NPC: игрок в VR двигается через VRIK. NPC Animation Remix (#63471) уже rec в ядре: CATA и Leviathan II ставить ниже Remix, проверить приоритет в OAR. Если Remix перекрывает всю ходьбу NPC, CATA бесполезен.",
+   "reason": "Работает на OAR 3.x из ядра, 2 VR-списка. Ценность узкая и зависит от аддона и приоритетов."
+  },
+  {
+   "key": "id:90153",
+   "keep": true,
+   "section": "armor",
+   "tag": "alt",
+   "choose_one_group": "armor_gear",
+   "what": "Серия ретекстуров Xavbio: кожа, хитин, стража и Братья Бури, Тёмное Братство, Гильдия воров. Продолжение единого стиля брони.",
+   "note": "Все 5 членов есть в обоих VR-списках (Tempus Half Res, Panda's полные). Leather: Tempus 1.0 Half, Panda's 2.0.0. Берём Half Res. Часть группы armor_gear вместе с 91136; с PBR-бронью не смешивать. Unslaad и Spell Knight не берём. BodySlide здесь нужен не для ретекстуров.",
+   "reason": "Подтверждено whouses: 5 членов × 2 VR-списка. Не-PBR, без DLL."
+  },
+  {
+   "key": "id:42746",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меши земли Виндхельма: мостовая объёмная, есть вариант Parallaxed. В VR разница видна под ногами.",
+   "note": "Parallaxed 1.3.5 у Panda's и Yggdrasil VR. Это обычный parallax по _p-картам старого типа, Complex Parallax не нужен: поправка к предыдущей записи. С PBR-текстурами Виндхельма (Tomato's #174492) брать основной файл без Parallax: так поступает Nordic Souls PBR. В VR parallax проверить глазами на швах мостовой.",
+   "reason": "VR работает по 2 спискам, но параллакс вместе с PBR не проверен. Утверждение про требование Complex Parallax неверно."
+  },
+  {
+   "key": "id:65921",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-колчаны и стрелы ElSopa. Колчан на спине виден вплотную, у NPC-лучников тоже. Дёшево по VRAM.",
+   "note": "Брать «Quivers Redone 1k SE» (Panda's, LoreRim). 2K и HOTFIX не нужны. Меши и текстуры без DLL. Утверждения про «двойной колчан от VRIK» в данных нет: если стоит VR-мод колчана или стрел (рядом с Simple Realistic Archery VR), проверить конфликт мешей в MO2.",
+   "reason": "1 VR-список, 12 SE. Безопасный ретекстур без DLL. Проблема с VRIK в evidence выдумана, заменена проверкой."
+  },
+  {
+   "key": "id:60756",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Два лёгких свопа через Base Object Swapper VR: подвижные фонари (Blowing in the Wind Lite) и более плавные дороги (Blended Roads less bumpiness).",
+   "note": "Blowing in the Wind Lite 1.7 (Tempus, Stormcrown VR); Blended Roads less bumpiness - BoS 2.0 (Panda's) — нужен Blended Roads #8834 (стоит в 8 VR-списках). BOS VR #61734 в ядре. Ставить по одному и мерить кадр: фонари на Havok грузят CPU, в VR это узкое место. Mountain Flowers BOS входит в #41312. Остальные члены серии не брать; Food Size Scaling дублирует Food Resized.",
+   "reason": "Работает у VR-списков, но каждый мод только в 1-2 списках и физика ложится на CPU. Поэтому try, а не opt."
+  },
+  {
+   "key": "id:131813",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ванильные диадемы и обручи в улучшенных мешах и текстурах (johnskyrim). Мелкие предметы у лица игрока и NPC.",
+   "note": "«1k Textures» 1.16 + «USSEP Patch» 1.11 (Panda's); «Artificer Patch» только при Artificer. Tempus берёт 2K 1.01: для таких предметов 2K не нужен. Без DLL.",
+   "reason": "2 VR-списка, 9 SE, мелкий безопасный мод."
+  },
+  {
+   "key": "id:65346",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Заборы Виндхельма как настоящие 3D-меши вместо плоских текстур. Дёшево по ресурсам, вблизи в VR заметно.",
+   "note": "«Windhelm Fence 3D - Fomod Installer» 0.3.4 (Tempus, Panda's), у Yggdrasil 0.3.3. В FOMOD выбрать вариант под установленные текстуры Виндхельма (PBR или обычные). Проверить пересечение с FYX 3D (#66037) и Tomato's Windhelm в MO2.",
+   "reason": "3 VR-списка, меши без DLL. Единственный риск — перекрытие с текстурными паками Виндхельма."
+  },
+  {
+   "key": "id:81463",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Аддон CATA: походка и стойки NPC в тяжёлой броне из набора Leviathan II (мужские и женские). Без DLL.",
+   "note": "Брать только Male (81463) и Female (80760) Idle Walk Run 2.3c, оба в Tempus и Panda's. Sprint и Greatsword-паки не нужны. Требует CATA #51507 и OAR; ставить ниже NPC Animation Remix. Эффект только на NPC, игрок в VR идёт через VRIK.",
+   "reason": "Подтверждено whouses (2 VR-списка, 10-11 SE). Ценность небольшая, поэтому opt и зависит от CATA."
+  },
+  {
+   "key": "id:87599",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Патчи к ElSopa Potions Redone: исправление размера предметов в инвентаре и недостающие ванильные зелья.",
+   "note": "Нужен базовый ElSopa Potions Redone (#80832, рассматривается в партии A05; стоит в тех же 3 VR-списках). Без базового не ставить. «Inventory Size Fix» 1.1 и «Missing Vanilla Potions patch» 2.5 (Spirit of Grit, Tahrovin, Tahrovin-Grit); версию «- ENB» не брать. ELIF, Falmer Blood, Dragonsreach — только при этих модах.",
+   "reason": "Три VR-списка ставят базу и патчи вместе, но решение зависит от базового мода из A05. Поэтому try. Часть серии (Falmer и др.) не нужна."
+  },
+  {
+   "key": "id:106432",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Иконки оружия для Inventory Interface Information Injector: в инвентаре SkyUI VR у каждого типа оружия своя иконка. DLL у самого мода нет.",
+   "note": "«I4 Weapon Icons Overhaul» 2.4.1 (Tempus, Stormcrown VR); Librum берёт 2.3. «Icon Color Var. Patches» необязателен. Работает только с I4 #85702 (rec в ядре, VR-файл 1.1.0); ставить ниже I4. С I5 (#192976) совместимость не проверена. Нужен ли OCF #81469, проверить на странице.",
+   "reason": "3 VR-списка, плагин без DLL, зависимость I4 уже в ядре. Требования OCF не подтверждены, оставлены на проверку."
+  },
+  {
+   "key": "id:65394",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Уникальные кинжалы (Бритва Мерунеса, Клык Кавозейна и др.) в улучшенных мешах и текстурах johnskyrim. Кинжал в руке виден вплотную.",
+   "note": "«Daggers - 2k Textures» 1.2.1 (Panda's) + «Artificer Patch» только при Artificer; для экономии VRAM годится 1K (LoreRim). Перекрывает меши Cathedral Armory и Xavbio для тех же предметов: в MO2 поставить поверх. LOTD-патч только при Legacy of the Dragonborn. Состав кинжалов уточнён по описанию родственной версии, не по странице SE.",
+   "reason": "1 VR-список, меши и текстуры без DLL. В evidence были неподтверждённые названия кинжалов, заменены на проверенные."
+  },
+  {
+   "key": "id:70117",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Кирка и топор дровосека в руках NPC (шахтёры, лесорубы) держатся как инструмент, а не как боевое оружие. Анимации без DLL.",
+   "note": "«Tools not weapons DAR animations» 1.5 (Tempus, Panda's, Librum VR); Yggdrasil — 1.4. Формат DAR, Open Animation Replacer его читает. Архив .rar: нужен 7-Zip-движок MO2. Только NPC: руки игрока ведёт VRIK. Это не «Draugr-анимации DAR» из списка «не ставить».",
+   "reason": "4 VR-списка, формат DAR поддержан OAR из ядра, нагрузки нет."
+  },
+  {
+   "key": "id:34100",
+   "keep": true,
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новые варианты ванильной брони (железо, сталь, дворф, кожа, шкура): NPC носят их через списки добычи. Разнообразие экипировки вблизи.",
+   "note": "Основной 2.0 + «CBBE BodySlide» 2.1 (Tempus) или + «AVE-Hide normal fix» 2.1 (Panda's). CCOR-патч не брать. Пресеты 2021 года сделаны под обычный CBBE: под 3BA собираются в BodySlide без 3BA-физики на броне, проверить сборку. Правит leveled lists: сверить с Synthesis или Bashed Patch и ставить до новой игры. Свои текстуры не совпадают со стилем Xavbio и Cathedral.",
+   "reason": "Работает в 2 VR-списках (Tempus, Panda's), но 2 SE-списка, возраст мода, конфликты левел-листов и неподтверждённая сборка под 3BA. Поэтому try, а не opt."
+  }
+ ]
+}
