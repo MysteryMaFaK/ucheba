@@ -1,0 +1,164 @@
+{
+ "verdicts": [
+  {
+   "key": "id:77355",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Йорвасгр (зал Соратников) с настоящей 3D-геометрией вместо плоских элементов; вблизи в VR объём виден, нагрузка мала.",
+   "note": "Файл «A) FYX - Jorrvaskr» 1.0.4 без Parallax (так у Grit и Tahrovin); вариант Parallax только при PGPatcher. Меши и текстуры, без DLL. Не вместе с JK's Skyrim. Ставить ниже Whiterun Objects SMIMed, чтобы FYX победил.",
+   "reason": "Дубля в Core и первом проходе нет, 4 VR-листа, дёшево. Содержательный фикс одной крупной локации."
+  },
+  {
+   "key": "id:4298",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Убирает плавающие туманные спрайты и дымку в интерьерах и подземельях: меньше плоских облаков перед глазами и чуть выше FPS.",
+   "note": "Файл «No Floating Fog» 1.1, один и тот же у всех 5 VR-листов. Только меши, без DLL. Убирает атмосферную дымку в руинах и склепах, это вкус. Ставить выше модов, меняющих те же меши подземелий. Obsidian Mountain Fogs (#13539) не конфликтует: тот про экстерьер.",
+   "reason": "Дубля нет, 5 из 5 VR-листов, плюс к FPS. Но это вкусовая правка атмосферы, поэтому opt, а не rec."
+  },
+  {
+   "key": "id:53643",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фикс сброса головоломки в Хай-Гейт.",
+   "note": "Узкий фикс одной головоломки (0.3), 2 VR-листа, ESL-статус не проверен. Не ставить.",
+   "reason": "trivial: узкий низкоценный фикс, не оправдывает место в урезанном списке."
+  },
+  {
+   "key": "id:82728",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Исправленные меши Маркарта: свечение на рассвете, альфа мха, UV и нормали, стыки с SMIM. Мешевая основа для Stony AF Markarth.",
+   "note": "Файл «Markarth Fixed AF» 1.4.1 (Tempus, Panda's). Требует SMIM #659. Ставить ПЕРЕД Stony AF Markarth и его PBR (#127407, rec): для него это мягкое требование. Не вместе с другими ретекстурами Маркарта и дварфских руин.",
+   "reason": "Не дубль: даёт меши под уже рекомендованный Stony AF Markarth PBR. rec оправдан этой связкой, сам по себе мод без Stony AF был бы opt."
+  },
+  {
+   "key": "id:1937",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Классический ретекстур окон 2K (стекло, рамы) для не-PBR пути на Open Shaders; лёгкие текстуры.",
+   "note": "Файл «RUSTIC WINDOWS - Special Edition - 2K» (Librum, Yggdrasil VR). Только классический путь. С Faultier's PBR Skyrim (#125308, окна) и Faultier's PBR Windows выбрать одно. 4K не брать.",
+   "reason": "Есть PBR-аналог в Faultier's, но PBR в VR на Open Shaders не подтверждён, а Yggdrasil VR 2026-10 на классике ставит именно этот мод. Остаётся как opt для классического пути, в паре с Rustic Furniture и Rustic Clothing."
+  },
+  {
+   "key": "id:38912",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Текстуры заборов ферм 2K.",
+   "note": "Мелочь, только текстуры; перекрывается с Nordic Stonewalls (#57686) и Vanaheimr Farmhouses (#158524). Не ставить.",
+   "reason": "redundant: заборы закрывает Nordic Stonewalls; мод тривиален."
+  },
+  {
+   "key": "id:67631",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переработанные дварфские предметы: артефакты, посуда, бочки с ихором, пазл-кубы. Меши и текстуры 2K, мелкие и дешёвые.",
+   "note": "Серия из 5 модов (67631, 70257, 67026, 67162, 68570), везде файлы «2k Textures»; Artifacts - GDPR Patch только если нужен. Ставят оба свежих VR-листа (Tempus, Yggdrasil). Не вместе с PBR-дварфскими предметами Faultier's по тем же путям.",
+   "reason": "Предметы берут в руки, в VR это видно; стоимость мизерная; в Core и первом проходе не покрыто."
+  },
+  {
+   "key": "id:40651",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Аддон CFTO: карета в Винтерхолд и фикс лошадей.",
+   "note": "Зависит от основного CFTO (#8379), которого нет ни в Core, ни в первом проходе. В Core уже есть Smooth Carriage Ride VR. Вернуться только если CFTO будет принят в другом батче.",
+   "reason": "Зависимость от непринятого мода, геймплейный аддон вне фокуса списка."
+  },
+  {
+   "key": "id:24243",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мелкие 3D-предметы (бутылки и напитки) от mathy79.",
+   "note": "Содержимое не подтверждено поиском; перекрывается с Skyland Bits and Bobs (#95032, rec), который берёт бутылки и посуду с Performance-версией. Не ставить.",
+   "reason": "redundant: Skyland Bits and Bobs закрывает ту же нишу; evidence слабый."
+  },
+  {
+   "key": "id:46334",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделка Коллегии Винтерхолда: меши и текстуры интерьера и фасада. Основа для PBR-слоя Praedy's из PBR Hub.",
+   "note": "Файл «Praedy's College of Winterhold 2K» 3.2 (Panda's). 4K версии Tempus не брать, VRAM. Не вместе с другими ретекстурами Коллегии. Lux и CS Light переопределяют свет интерьера, проверить плагины. PBR-слой (PBR Hub #139889) требует этот мод.",
+   "reason": "Не дубль, актуальная версия 2025-05, 2K, место частого посещения; нужен как база для файла из PBR Hub."
+  },
+  {
+   "key": "id:69125",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меши Вайтрана переведены на SMIM-объекты и исправлены: ровнее предметы и стыки, больше 3D вблизи.",
+   "note": "VR-листы берут 0.3.1; версия 0.6.0 (2025-05) в VR не проверена, ставить одну. Требует SMIM #659. Пересекается с Illustrious Whiterun (#28950) и Tomato's Whiterun Remake PBR (#173747): текстуры оставлять от выбранного пака. Не вместе с JK's Whiterun. Вайтран тяжёлый для CPU: смотреть FPS.",
+   "reason": "4 VR-листа включая Yggdrasil 2026-10, дубля нет; но старая версия и пересечения, поэтому только opt."
+  },
+  {
+   "key": "id:1737",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Знамёна на границах владений.",
+   "note": "Лор-декор с плагином размещения объектов, версия под SE не подтверждена, возможны конфликты с модами про вывески и камни. Не ставить.",
+   "reason": "trivial: мелкий декор без VR-ценности."
+  },
+  {
+   "key": "id:68793",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "3D-кусты и цветы Cathedral: папоротники, сосновые и тундровые кусты, лаванда, драконий язык, смертельный колокол, стонкроп. Объём вблизи, дёшево.",
+   "note": "Ключ id:68793 в записи ошибочный (это Clover, он уже в #41312); реальная серия — страницы 82978, 110726, 108747, 94791, 68310, 85694, 76460. Брать классические файлы: Sword Ferns 4, Pine Shrubs 1.2, Tundra Shrubs 1.1, Lavender Vanilla Size, Dragons Tongue Dark Orange 1.2, Deathbell 1.1 без ENB-lights, Stonecrop 1.2. Это не-PBR аналог Cathedral PBR Plants (#135836): на одном пути ставить что-то одно. Требуют DrJacopo's 3D Grass Library Meshes (#80687); для BOS-версий Base Object Swapper VR. ENB-варианты и Pine Grass не брать. Ставить после Merethic.",
+   "reason": "Не дублирует #41312 (другие виды растений), безопасный не-PBR путь для Open Shaders. Много вариантов, поэтому opt; при PBR-пути заменяется #135836."
+  },
+  {
+   "key": "id:66416",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "FYX Windhelm: крыша конюшни и фикс входа.",
+   "note": "Две мелкие правки, ESL-патч требует VR ESL Support. Текстуры Виндхельма закрывает Tomato's Windhelm PBR (#174492). Не ставить.",
+   "reason": "trivial: мелочь, не оправдывает установку и ESL-доп. требование."
+  },
+  {
+   "key": "id:4294",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые модели и текстуры ювелирки: кольца, амулеты, венцы. В VR украшения рассматриваются в руке.",
+   "note": "Файл «Gemling Queen Jewelry SE» 4.1, один у всех 4 VR-листов. Меняет меши ювелирки. Rustic Amulets (#35485) в список не берём: Gemling уже даёт и модели, и текстуры. Не вместе с PBR-ретекстурами украшений Faultier's без проверки порядка в MO2.",
+   "reason": "Лучший из двух конкурирующих модов по ювелирке: меняет меши и текстуры, 10 SE и 4 VR-листа."
+  },
+  {
+   "key": "id:35485",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур амулетов Rustic 2K.",
+   "note": "Перекрывает Gemling Queen Jewelry (#4294), который берём вместо него. Если нужен деревенский вид, Rustic Clothing (#4703) уже в списке.",
+   "reason": "redundant: те же амулеты, что у Gemling; оставляем более сильный мод."
+  }
+ ]
+}
