@@ -1,0 +1,154 @@
+{
+ "verdicts": [
+  {
+   "key": "id:153681",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "3D-решётка шпалеры на рынке Вайтрана вместо плоской текстуры, вариант Complex Material/PBR.",
+   "note": "Только файл Complex Material and PBR, ставить после Tomato's Whiterun PBR (#173747). PBR на Open Shaders в VR не подтверждён: проверить, что шпалера не выглядит плоской или чёрной, иначе пропустить. Без DLL.",
+   "reason": "2 VR-списка (Panda's Sovnga, Tempus Maledic), меш без DLL; зависит от неподтверждённого PBR-пути, поэтому try, а не opt."
+  },
+  {
+   "key": "id:100088",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправляет коллизии ступеней к Хай Хротгару: в VR при подъёме пешком меньше застреваний.",
+   "note": "Файл Parallax - Soft (PGPatcher из ядра подхватит). Если Parallax в VR не заработает, взять обычный файл со страницы. Без DLL.",
+   "reason": "Мелкая правка меша, реальная польза при ходьбе в VR; не пересекается со списком core (Assorted Mesh Fixes не трогает эти ступени, по знанию)."
+  },
+  {
+   "key": "id:90252",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Женские NPC присаживаются на уступы, облокачиваются на стены и перила: живее города вблизи.",
+   "note": "Брать только Ledge Sitting, Rail Leaning, Wall Leaning. Weather Idles, Table Leaning и Swimming не брать: конфликтуют по приоритету OAR с NPC Animation Remix и EVG Conditional Idles. По страницам серии это DAR-папки без ESP и без DLL, OAR их читает; проверить, что игрока (VRIK) анимации не трогают, при необходимости убрать условие игрока.",
+   "reason": "Рабочая в VR схема (DAR/OAR, без DLL), но 1 VR-список и риск перекрытия с анимациями NPC из core; оставлено урезанным набором и с тестом."
+  },
+  {
+   "key": "id:8016",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новая модель и текстуры двемерских призраков (Spectres): лучше вблизи в Блэкрич и руинах.",
+   "note": "Основной файл 3.7.1, замена меша без DLL, не-PBR. Редкий враг, цена по VRAM малая. После установки проверить хит-боксы вместе с Precision Creatures.",
+   "reason": "2 VR-списка (Librum VR, Tempus Maledic); в inventory двемерских призраков нет, конкурентов нет."
+  },
+  {
+   "key": "id:89215",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанные столбы-головоломки в нордских руинах: вблизи видна каждая деталь.",
+   "note": "Ставить после Rudy HQ - Nordic Ruins (#19365). Не-PBR: если Faultier's PBR Skyrim или Vanilla PBR AIO перекроют эти текстуры, поставить столбы ниже них или пропустить. Без DLL.",
+   "reason": "Маленькая площадь текстур, дёшево по VRAM; столбы вращаешь руками, поэтому видны вблизи. Риск только порядка с PBR-паками."
+  },
+  {
+   "key": "id:34950",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Патч Better DG Entrance к Unique Border Gates.",
+   "note": "",
+   "reason": "redundant: основной файл #4819 v2.5 уже называется 'All - Better DG Entrance - Patch', то есть патч входа Dawnguard входит в него; отдельный патч 2020 года (v1.2) дублирует. Только 1 VR-список."
+  },
+  {
+   "key": "id:4819",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Разные модели пограничных ворот вместо одинаковых: узнаваемые въезды в холды, мало полигонов.",
+   "note": "Файл Unique Border Gates All - Better DG Entrance - Patch (2.5). Меши и текстуры без DLL, не-PBR, 2K. После DynDOLOD пересобрать LOD, если ворота видны на дальнем плане.",
+   "reason": "2 VR-списка (Librum VR, Yggdrasil VR), без DLL, дёшево по отрисовке; в inventory аналога нет."
+  },
+  {
+   "key": "id:158918",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Согласование свечения окон между ретекстурами.",
+   "note": "",
+   "reason": "low_value: назначение подтверждено только по названию (поиск ничего не дал), 1 VR-список; ночной свет окон в стеке закрывают Lux, Light Placer и CS Light, а ECPLW (#85416) для ENB уже в списке. Риск дубля или ENB-ориентированной правки."
+  },
+  {
+   "key": "id:61417",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "VR-фикс вступительной сцены: убирает дыру в крыше в начале игры.",
+   "note": "Нужен только при ванильном старте или Ralof or Hadvar; при Realm of Lorkhan или Live Another Life с обходом интро можно пропустить. Без DLL.",
+   "reason": "VR-мод (vr 2, se 0: Spirit of Grit, Tahrovin - Gri), ESP/ассеты без DLL; польза зависит от выбранного старта."
+  },
+  {
+   "key": "id:83802",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур айлейдских руин.",
+   "note": "",
+   "reason": "excluded_category: в ваниле Скайрима айлейдских руин нет; поиск находит только наборы для Bruma/Cyrodiil и Skyblivion. Сам мод (se 0, только 2 VR-списка) почти наверняка зависит от контента новых земель, а карты PBR/не-PBR не подтверждены. Заявка про Каирн Душ не подтверждена."
+  },
+  {
+   "key": "id:149920",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Окружающий свет интерьеров по погоде и времени суток (DIAL).",
+   "note": "",
+   "reason": "covered_elsewhere: DIAL заменён преемником Helios, а #181533 Helios + MMSF, Luma Utility, XEMI Utility уже в ядре. Ставить оба нельзя: дублируют ambient интерьеров."
+  },
+  {
+   "key": "id:38194",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-амулеты ElSopa: чёткие украшения на шее у NPC и игрока, видно в зеркале и вблизи.",
+   "note": "Файл Optimized (экономия VRAM), без DLL, не-PBR. Если Faultier's PBR Armors and Clothes (#175319) затрагивает амулеты, поставить выше него.",
+   "reason": "Мелкий, но дешёвый апгрейд; прямых конкурентов в inventory нет. Единственный VR-список, поэтому не rec."
+  },
+  {
+   "key": "id:22671",
+   "keep": true,
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новая броня городских стражников (NordwarUA): стражи постоянно на виду, ваниль у них бедная.",
+   "note": "Требует сборки в BodySlide под 3BA и обновления пресетов OBody. Мужские стражи рассчитаны на SMMB, а в списке HIMBO: проверить посадку, при клиппинге оставить только женских. Проверить порядок с Faultier's PBR Armors (#175319): не-PBR текстуры рядом с PBR могут выбиваться. Без DLL.",
+   "reason": "2 VR-списка, мод 2020 года без DLL; пайплайн BodySlide и возможный конфликт с PBR-бронёй не проверены, поэтому try."
+  },
+  {
+   "key": "id:43103",
+   "keep": true,
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "BodySlide-файлы к броне стражников NordwarUA (CBBE и SMMB), чтобы броня села на тело.",
+   "note": "Только вместе с #22671. Файлы под CBBE и SMMB, а не под 3BA и HIMBO: проверить в BodySlide, что пресеты собираются на 3BA, иначе искать 3BA-конверсию на странице #22671.",
+   "reason": "Нужен только как пара к #22671, 2 VR-списка; совместимость файлов с 3BA/HIMBO по карточке не подтверждена."
+  },
+  {
+   "key": "id:70037",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Детская одежда по сословиям, версия Refine.",
+   "note": "",
+   "reason": "low_value: по странице мода требует оригинальный Prince and The Pauper (JadeRoyale), которого нет в inventory, плюс Rustic Clothing и SPID, то есть тянет лишний мод; в карточке requires пусто, это ошибка. Одежда детей в VR почти не влияет на картинку, 1 VR-список."
+  }
+ ]
+}
