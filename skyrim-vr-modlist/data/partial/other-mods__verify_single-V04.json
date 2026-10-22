@@ -1,0 +1,514 @@
+{
+ "verdicts": [
+  {
+   "key": "id:143209",
+   "keep": false,
+   "section": "tex_clutter",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "PBR-версия вывесок Skyking; тот же мод, что #112902 из первого прохода, в другой версии.",
+   "note": "Дубль #112902, который уже в сборке. PBR на Open Shaders в VR не подтверждён. Если понадобится PBR, заменять #112902, а не ставить рядом.",
+   "reason": "дубль #112902, PBR в VR не подтверждён"
+  },
+  {
+   "key": "id:142908",
+   "keep": false,
+   "section": "tex_clutter",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "PBR-версия клаттера Skyland Bits and Bobs (бочки, ящики); тот же мод, что #95032 из первого прохода.",
+   "note": "Дубль #95032 из первого прохода. PBR в VR не подтверждён.",
+   "reason": "дубль #95032, PBR в VR не подтверждён"
+  },
+  {
+   "key": "id:48561",
+   "keep": false,
+   "section": "tex_clutter",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD-ретекстур бухгалтерской книги на прилавках; мелкий предмет без заметной пользы для VR.",
+   "note": "Смысла в VR мало, предмет почти не виден на расстоянии.",
+   "reason": "мелочь, низкая ценность"
+  },
+  {
+   "key": "id:75481",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур кроватей и спальников с одеялами: видно вплотную в домах и трактирах; без DLL, два VR-листа.",
+   "note": "Не ставить вместе с другим ретекстуром кроватей и постельного белья; проверить конфликты в MO2.",
+   "reason": "видно вплотную, есть VR-листы, нет DLL"
+  },
+  {
+   "key": "id:39640",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "2K-ретекстур и улучшение карет; повозки видно вблизи, хорошо в паре со Smooth Carriage Ride VR из ядра.",
+   "note": "Брать 2K, не 4K. Без DLL.",
+   "reason": "есть VR-листы, 2K, видно вблизи"
+  },
+  {
+   "key": "id:113558",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и 2K-текстуры лагерей охотников: палатки и шкуры вблизи заметно лучше ванили.",
+   "note": "Только 2K. Ставить после других паков клаттера, проверить текстурные конфликты в MO2.",
+   "reason": "есть VR-листы, заметно вблизи"
+  },
+  {
+   "key": "id:131114",
+   "keep": false,
+   "section": "tex_dungeons",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Текстуры портала Забытой долины: один файл ранней версии 0.1, портал виден в одном месте.",
+   "note": "Узкая локация. Можно вернуться, если понадобится портал.",
+   "reason": "узкая локация, ранняя версия, низкая ценность"
+  },
+  {
+   "key": "id:120229",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Улучшенные скалы в пещерах, вариант Parallax; Parallax в VR на Open Shaders не подтверждён.",
+   "note": "При проблемах взять обычные текстуры без Parallax. Не ENB-мод. Один VR-лист.",
+   "reason": "Parallax в VR не подтверждён, один VR-лист"
+  },
+  {
+   "key": "id:90476",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новый лёд в ледяных пещерах: меши сосулек и столбов, облегчённый вариант Performance; дополняет Icy Mesh Remaster.",
+   "note": "Ставить ниже Icy Mesh Remaster (#73381), чтобы выиграть в пещерах. Нужен DynDOLOD 3. Проверить рефракцию льда.",
+   "reason": "дополняет #73381, есть VR-листы, свежий 2026-05"
+  },
+  {
+   "key": "id:44553",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новое стекло в дворфских объектах: линзы, трубки, сферы. Меши и текстуры, дёшево, заметно вблизи в руинах.",
+   "note": "Без DLL, работает в VR. Ставить ниже Dwemer Pipework Reworked и Stony AF, если они трогают те же объекты.",
+   "reason": "есть VR-листы, дёшево, заметно вблизи"
+  },
+  {
+   "key": "id:66418",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур мелких забытых объектов подземелий, не трогающий общие паки; классический не-PBR путь.",
+   "note": "Не ставить поверх PBR-версий тех же объектов. Дополняет Underground и Ruins Clutter Improved из первого прохода.",
+   "reason": "дополняет первый проход, нужен выбор PBR или не-PBR"
+  },
+  {
+   "key": "id:127944",
+   "keep": false,
+   "section": "tex_dungeons",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ретекстур Апокрифа и чёрных книг; ни один из девяти VR-списков его не берёт.",
+   "note": "Узкая локация, VR-подтверждения нет. Complex Parallax не ставить без Open Shaders.",
+   "reason": "нет VR-подтверждения, узкая локация"
+  },
+  {
+   "key": "id:47204",
+   "keep": false,
+   "section": "tex_dungeons",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Часовня Ауриэля (Dawnguard): HD-текстуры и меши одного интерьера, лук и щит.",
+   "note": "Нужен Dawnguard, одна небольшая локация, VRAM почти не растёт, но и выигрыш мал.",
+   "reason": "один интерьер, нужен Dawnguard, низкая ценность"
+  },
+  {
+   "key": "id:48217",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и 2K-текстуры форта Даунгард: заметный апгрейд вблизи, DLL нет.",
+   "note": "Только для тех, кто проходит Dawnguard. Проверить перекрытие с Tomato's Imperial Forts (#134372).",
+   "reason": "есть VR-листы, заметный апгрейд вблизи"
+  },
+  {
+   "key": "id:66261",
+   "keep": false,
+   "section": "tex_dungeons",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ретекстур 2K Каирна душ; той же локации касается Soul Cairn HD (серия 59741) с тремя VR-листами.",
+   "note": "Оставить Soul Cairn HD из серии 59741: лучше подтверждён в VR.",
+   "reason": "дубль Soul Cairn HD (серия 59741)"
+  },
+  {
+   "key": "id:34684",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "2K-ретекстур рельефов: монументы, нордские фрески, 13 Стоячих камней, Стены слов; основной файл в VR-листах.",
+   "note": "Если стоит PBR-пак нордских руин, на пересечениях фресок выбрать один. Пять VR-списков, сильный кандидат.",
+   "reason": "пять VR-списков, узнаваемые места"
+  },
+  {
+   "key": "id:115201",
+   "keep": false,
+   "section": "tex_dungeons",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Текстуры дерева для частоколов, шахт и подземелий; PBR или Complex не ясно.",
+   "note": "Пересекается с Vanaheimr Mines (#137033) и FYX Stockades (#66037) из сборки. Без теста не ставить.",
+   "reason": "перекрытие с уже взятыми паками, тип неясен"
+  },
+  {
+   "key": "id:38544",
+   "keep": false,
+   "section": "tex_dungeons",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Тайлсет нордских храмов 2K-4K: стены, колонны, плиты, тот же общий тайлсет, что у Rudy HQ.",
+   "note": "Конфликт с Rudy HQ Nordic Ruins (#19365) и Vanaheimr; на PBR-пути не нужен.",
+   "reason": "конфликт с Rudy HQ (#19365), общий тайлсет"
+  },
+  {
+   "key": "id:43852",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмные кусты можжевельника с ягодами: в VR 3D-растения заметно лучше плоских.",
+   "note": "Проверить конфликт с Happy Little Trees (ядро) и Cathedral 3D-цветами.",
+   "reason": "есть VR-лист, объёмные растения"
+  },
+  {
+   "key": "id:165354",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новое дерево Ancestor Glade: заметный ориентир, выглядит лучше вблизи.",
+   "note": "Брать обычный вариант, не PBR: PBR в Open Shaders VR не подтверждён.",
+   "reason": "есть VR-лист, ориентир"
+  },
+  {
+   "key": "id:89057",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и 2K-текстуры кустов Чёрного предела; светящиеся грибные кусты видны на всём пути.",
+   "note": "Опции FOMOD не проверены. Не ставить вместе с другими заменами кустов Blackreach.",
+   "reason": "есть VR-лист, виден на всём пути"
+  },
+  {
+   "key": "id:67725",
+   "keep": false,
+   "section": "tex_flora",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Грибы со смешиванием с землёй; VR-листов нет, набор грибов перекрывается с другими паками.",
+   "note": "Мешевая замена, но пересекается с Realistic HD Mushrooms и Cathedral PBR Plants.",
+   "reason": "нет VR-подтверждения, дублирует грибные паки"
+  },
+  {
+   "key": "id:26103",
+   "keep": false,
+   "section": "tex_flora",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Классический набор грибов Cathedral; грибы уже есть в Cathedral PBR Plants (#135836) из первого прохода.",
+   "note": "Дубль. Берётся один набор грибов, PBR-путь уже закрыт.",
+   "reason": "дубль Cathedral PBR Plants (#135836)"
+  },
+  {
+   "key": "id:69933",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Аддон к Cathedral Snowberries: инвентарные ягоды, венок и горшок Hearthfires; мелкий, два VR-листа.",
+   "note": "Ставить только вместе с Snow Berries из Cathedral 3D-цветов (#41312).",
+   "reason": "аддон к #41312, есть VR-листы"
+  },
+  {
+   "key": "id:35546",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Деревья в городах (Вайтран, Солитьюд и др.) в новых моделях; активно обновляется, апрель 2026.",
+   "note": "В городах растёт нагрузка на draw calls: следить за FPS, ставить после Tomato-городов и проверить патчи.",
+   "reason": "есть VR-лист, свежий, но нагрузка в городах"
+  },
+  {
+   "key": "id:168016",
+   "keep": false,
+   "section": "tex_flora",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Объёмный клён-саженец из одного небольшого меша.",
+   "note": "Мелочь: деревья уже закрывает Happy Little Trees из ядра.",
+   "reason": "мелочь, низкая ценность"
+  },
+  {
+   "key": "id:52909",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мёртвые деревья на злых местах (святилища, проклятые места) через Base Object Swapper; в VR проверен файл 1.1.",
+   "note": "Нужен Base Object Swapper VR из ядра. Новые деревья - после установки пересоздать DynDOLOD. Версию 1.2 в VR не проверяли.",
+   "reason": "есть VR-лист, нужен BoS VR из ядра"
+  },
+  {
+   "key": "id:90697",
+   "keep": false,
+   "section": "tex_flora",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Текстуры светящихся растений Забытой долины; узкая DLC-зона, эффект мал.",
+   "note": "Требует Dawnguard. Мелкий мод, но выигрыш минимальный.",
+   "reason": "узкая зона DLC, низкая ценность"
+  },
+  {
+   "key": "id:45952",
+   "keep": false,
+   "section": "tex_flora",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Классический не-PBR HD-ретекстур растений; те же растения красит Cathedral PBR Plants (#135836) из первого прохода.",
+   "note": "Дубль Cathedral PBR Plants, который уже в сборке.",
+   "reason": "дубль Cathedral PBR Plants (#135836)"
+  },
+  {
+   "key": "id:33225",
+   "keep": false,
+   "section": "tex_flora",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Свисающий мох на деревьях; ни один VR-лист его не берёт, плоский мод без VR-подтверждения.",
+   "note": "Мало пользы для VR, мох почти незаметен на расстоянии.",
+   "reason": "нет VR-подтверждения, низкая ценность"
+  },
+  {
+   "key": "id:21996",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-грибы: меши и текстуры ингредиентов и пещерных грибов; видны в руке и в пещерах вплотную.",
+   "note": "Не вместе с Cathedral PBR Plants и Vanilla PBR AIO без проверки перекрытия. Размер текстур проверить через VRAMr.",
+   "reason": "есть VR-листы, видно в руке, старше 2025"
+  },
+  {
+   "key": "id:103182",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Грядки: пшеница, порей, капуста с нормальными моделями и текстурами; хорошо с Immersive Harvesting VR.",
+   "note": "Меши и текстуры без DLL, нагрузка на фермы небольшая.",
+   "reason": "есть VR-листы, работает с Immersive Harvesting"
+  },
+  {
+   "key": "id:3333",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "1K-текстуры дальних LOD под DynDOLOD: чётче горы и постройки вдали; два свежих VR-листа.",
+   "note": "Только версия DynDOLOD ONLY, 1K. Ставить до TexGen и DynDOLOD; TexGen_Output должен побеждать в конфликтах.",
+   "reason": "есть VR-листы, нужен DynDOLOD 3"
+  },
+  {
+   "key": "id:152390",
+   "keep": false,
+   "section": "tex_land",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Более выраженная шумовая текстура рельефа; альтернатива HD Terrain Noise Texture SE (#47057).",
+   "note": "Дубль HD Terrain Noise (#47057) из первого прохода. Оставить один.",
+   "reason": "дубль HD Terrain Noise (#47057)"
+  },
+  {
+   "key": "id:42643",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мелкие исправления дорог к Blended Roads: убирает швы и неподходящие участки.",
+   "note": "Ставить после Blended Roads (#8834) и ландшафтов.",
+   "reason": "правка к #8834, есть VR-лист"
+  },
+  {
+   "key": "id:146350",
+   "keep": false,
+   "section": "tex_land",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Вспомогательный мод LOD гор под ERM и DynDOLOD; назначение и состав файлов на странице не подтверждены.",
+   "note": "Без точного описания не ставить. Вернуться, если подтвердится назначение.",
+   "reason": "назначение не подтверждено"
+  },
+  {
+   "key": "id:19421",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "alt",
+   "choose_one_group": "land_classic",
+   "what": "Классический не-PBR ретекстур ландшафта и дорог в 2K-стиле; безопасный путь без PBR, в шести VR-списках.",
+   "note": "Один пак ландшафта на весь мир: вместо Sloppy, Vanaheimr или TomatoRim из первого прохода, не вместе. Старый, брать Mid, не Highest.",
+   "reason": "больше всего VR-списков среди ландшафтов"
+  },
+  {
+   "key": "id:27041",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Береговые текстуры севера (пляжи, дно): 2K-вариант проверен в пяти VR-списках; классический не-PBR.",
+   "note": "Ставить ниже основного ландшафта, иначе перебьёт его. Не вместе с другими ландшафтами winedave.",
+   "reason": "есть VR-списки, узкий охват: берег"
+  },
+  {
+   "key": "id:44644",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Только Lava Replacer из репозитория Praedy: лава 2K в Лабиринтиане, Вулканической тундре и Солстхейме.",
+   "note": "Брать один файл из репозитория, остальное не ставить. Без DLL.",
+   "reason": "есть VR-листы, лава видна на всю локацию"
+  },
+  {
+   "key": "id:140780",
+   "keep": false,
+   "section": "tex_land",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "PBR-текстуры следов; группа следов уже закрыта Dynamic Footprints SKSE (#175254) и Footprints (#3808).",
+   "note": "Дубль группы следов из ядра и первого прохода. Вернуться, если Dynamic Footprints SKSE не заведётся.",
+   "reason": "дубль группы следов в сборке"
+  },
+  {
+   "key": "id:66903",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Сезонные текстуры ландшафта для Seasons of Skyrim VR; земля меняется по сезонам, заменяет текстуры земли.",
+   "note": "Только при Seasons of Skyrim VR (уже в ядре). Не сочетать с PBR-ландшафтом без проверки; ставить отдельно.",
+   "reason": "нужен Seasons, конфликт с PBR-ландшафтом не проверен"
+  },
+  {
+   "key": "id:29842",
+   "keep": false,
+   "section": "tex_land",
+   "tag": "dont",
+   "choose_one_group": "land_classic",
+   "what": "Классический ландшафт 2K из той же группы, что MystiriousDawn; оставляем один пак.",
+   "note": "Меньше VR-списков (пять против шести). Не ставить вместе с MystiriousDawn, швы.",
+   "reason": "проигрывает MystiriousDawn по VR-спискам"
+  },
+  {
+   "key": "id:80418",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмные коряги и брёвна на пляжах вместо плоских ванильных; 2K, оптимизированные меши.",
+   "note": "Коряг на побережье много: при падении FPS на севере поставить Optimised Meshes 1.7 или убрать мод.",
+   "reason": "есть VR-лист, без DLL"
+  },
+  {
+   "key": "id:59741",
+   "keep": true,
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Soul Cairn HD: 2K-ретекстур Каирна душ и правка объектов Soul-Cairn Objects Secured; три VR-листа.",
+   "note": "Parallax-вариант не брать: на Open Shaders ставить без parallax. Заменяет Praedy's Soul Cairn (#66261).",
+   "reason": "три VR-листа, лучший вариант Каирна"
+  },
+  {
+   "key": "id:38775",
+   "keep": true,
+   "section": "tex_strategy",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Очищенные ванильные текстуры без артефактов сжатия того же размера; нижний слой под другие паки.",
+   "note": "Ставить в самый низ списка текстур. Версия старая (POST_1.6.1130), VR-подтверждение только в Librum VR.",
+   "reason": "один старый VR-лист, размер не растёт"
+  },
+  {
+   "key": "id:97713",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Оптимизация мешей воды: упрощённая сетка, три варианта A/B/C; без DLL, одиннадцать SE-листов.",
+   "note": "VR-листов нет. Сначала снять кадр на воде с Simplicity of Sea и Open Shaders, затем решить, нужен ли вариант.",
+   "reason": "нет VR-подтверждения, меши без DLL"
+  },
+  {
+   "key": "id:71189",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Туман в горах ослаблен на 20%: меньше молока над ландшафтом в VR; правка Obsidian Mountain Fogs.",
+   "note": "Поверх #13539 из первого прохода. Подходит к плотному туману Azurite.",
+   "reason": "правка к #13539, есть VR-листы"
+  },
+  {
+   "key": "id:58263",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные меши неба и облаков: убирает шов у горизонта и растяжение купола; в VR небо видно вокруг.",
+   "note": "Только меши. Panda's Sovngarde ставит его с Azurite Weathers III и Realistic Galaxy: пара проверена. По описанию часть ванильных объектов неба нужно скрыть.",
+   "reason": "есть VR-лист, пара с Azurite проверена"
+  },
+  {
+   "key": "id:22780",
+   "keep": false,
+   "section": "tex_water_sky",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Текстуры дождя, пепла и снега для шейдеров осадков; перекрывается с Azurite и Splashes of Storms.",
+   "note": "Конфликт с погодой из первого прохода, VR не подтверждён.",
+   "reason": "перекрытие с погодой, VR не подтверждён"
+  },
+  {
+   "key": "id:110869",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ночное небо Rally: перерисованные звёзды и небесная картина; у автора есть VR-файлы, включая Fewer Stars.",
+   "note": "Ставить вместе с Realistic Galaxy (#111458) и Moons and Stars (ядро); порядок сверить в конфликтах.",
+   "reason": "есть VR-версия, три мода одного списка"
+  },
+  {
+   "key": "id:73090",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Падающие звёзды на ночном небе; плагин и эффекты без DLL, хорошо смотрится рядом с Moons and Stars.",
+   "note": "Проверить совместимость с Moons and Stars (#73336) и Realistic Galaxy (#111458).",
+   "reason": "дёшево, есть VR-лист"
+  }
+ ]
+}

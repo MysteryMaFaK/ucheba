@@ -1,0 +1,1004 @@
+{
+ "verdicts": [
+  {
+   "key": "id:79197",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меши дальнего LOD для DynDOLOD 3: далёкие дороги и объекты выглядят как вблизи. Без DLL, только меши и правила генерации.",
+   "note": "Ставить до генерации TexGen/DynDOLOD, плагин-пустышку держать включённым. Один VR-лист (Stormcrown), проверить в игре.",
+   "reason": "Полезно для дальнего вида; один VR-лист, но без DLL."
+  },
+  {
+   "key": "id:34552",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Когти как безоружная атака у каджитов, аргониан, вампиров и оборотней (NPC) через OAR. Два VR-листа, OAR уже в ядре.",
+   "note": "FOMOD v3.0 с OAR из ядра, DAR и Nemesis не нужны. Выбрать расы в FOMOD. Эффект у игрока в VR проверить самому.",
+   "reason": "Два VR-листа, уникальный пак поведения NPC без DLL."
+  },
+  {
+   "key": "id:32561",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Исправление иконки записок и писем в инвентаре SkyUI через SKSE-DLL.",
+   "note": "Билд 2.0.10 старше SKSEVR 2.0.12, подтверждён один VR-лист Librum.",
+   "reason": "Мелкая косметика; DLL со старой сборкой и одним VR-листом."
+  },
+  {
+   "key": "id:27456",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Анимированные эффекты «каменной плоти» и Изменения вместо зелёного свечения заклинаний. На собственных руках в VR заметно.",
+   "note": "Текстуры без DLL. Проверить конфликты с KittyVFX из ядра и магическими паками по вкладке конфликтов MO2.",
+   "reason": "Два VR-листа, без DLL; эффект виден от первого лица."
+  },
+  {
+   "key": "id:51125",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Заклинание «Забыть заклинание» убирает ненужные заклинания из списка магии.",
+   "note": "Плагин и скрипты без DLL; геймплейная правка меню магии.",
+   "reason": "Геймплейная утилита вне текстур, внешнего вида и мира."
+  },
+  {
+   "key": "id:26879",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Союзники не звереют от случайного удара оружием.",
+   "note": "Перекрывает Enemy Friendly Fire (#50483) из ядра.",
+   "reason": "Дублирует функцию Enemy Friendly Fire из ядра."
+  },
+  {
+   "key": "id:79583",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Правка градиентных текстур эффектов по данным, которые сборщик не смог проверить.",
+   "note": "Описание не проверено, VR-листов нет.",
+   "reason": "Нет VR-подтверждения и проверенного описания."
+  },
+  {
+   "key": "id:96876",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Лёгкая переделка готовки: новые рецепты и баланс еды без сложного оверхола. Четыре VR-листа.",
+   "note": "Без DLL. Патч SimonRim нужен при SimonRim из ядра; патчи Fishing и ECSS только при этих модах.",
+   "reason": "Четыре VR-листа, плоская правка без DLL."
+  },
+  {
+   "key": "id:29149",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправляет вылет в Halldir's Cairn, фикс эпохи Dawnguard.",
+   "note": "Малый плагин без DLL; проверить в xEdit пересечение с USSEP.",
+   "reason": "Фикс вылета с одним VR-листом; малый риск."
+  },
+  {
+   "key": "id:89808",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Портативная заточка и закалка молотом и точилом.",
+   "note": "Геймплейная добавка, пересекается с Durability VR из ядра.",
+   "reason": "Геймплей вне текстур и внешнего вида; пересечение с ядром."
+  },
+  {
+   "key": "id:3838",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Доступ к инвентарю лошади для переноса припасов в дальних походах.",
+   "note": "Скрипты без DLL, VR-статус не подтверждён, дополняет Convenient Horses VR.",
+   "reason": "Геймплейное удобство с низкой ценностью для набора."
+  },
+  {
+   "key": "id:85703",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Иконки видов оружия для I4 в меню инвентаря.",
+   "note": "Ресурсы интерфейса без DLL.",
+   "reason": "Дубль уже принятого I4 Weapon Icons Overhaul."
+  },
+  {
+   "key": "id:55417",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Исправляет скольжение NPC в атаках по льду и снегу.",
+   "note": "Анимации без DLL, но Pandora и OAR в сборке, мод Nemesis-совместим: ставить одним из последних, проверить бой NPC на льду.",
+   "reason": "Полезная анимационная правка, но пересекается с механизмом Pandora."
+  },
+  {
+   "key": "id:75664",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Заклинания освещают окружение, огонь и магия в тёмных местах выглядят убедительнее.",
+   "note": "Динамические источники света стоят FPS в VR.",
+   "reason": "Цена в FPS в VR не оправдана эффектом."
+  },
+  {
+   "key": "id:29316",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переработанные эффекты огня: костры, факелы, очаги.",
+   "note": "Перекрывается Embers XD и KittyVFX из ядра.",
+   "reason": "Дубль огненных эффектов ядра, VR не подтверждён."
+  },
+  {
+   "key": "id:37801",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ярлы сидят на тронах естественной позой. OAR-пакет без DLL, четыре VR-листа.",
+   "note": "Приоритет в OAR выше, чем у NPC Animation Remix; проверить двойные позы в меню OAR.",
+   "reason": "Четыре VR-листа, заметно при разговоре с ярлом."
+  },
+  {
+   "key": "id:139443",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Быстрое перемещение только с дорожным набором, правка fast travel.",
+   "note": "Геймплейная настройка, не ставить вместе с модами, правящими быстрое перемещение.",
+   "reason": "Геймплейная правка вне цели списка."
+  },
+  {
+   "key": "id:65849",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Квест праздника «Огонь короля Олафа» в Солитьюде не зависает.",
+   "note": "Квестовый фикс без DLL; USSEP может уже исправлять.",
+   "reason": "Квестовый фикс малой ценности, вероятно уже закрыт USSEP."
+  },
+  {
+   "key": "id:99768",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Заменяет fake glow на настоящие частицы света.",
+   "note": "Ориентирован на ENB, на Open Shaders не доказано; конфликт с ECPLW.",
+   "reason": "ENB-ориентированный и не подтверждён на Open Shaders."
+  },
+  {
+   "key": "id:70595",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Возница у карет анимирован живее: жесты вместо статичного сидения.",
+   "note": "OAR-пакет без DLL, мелкая атмосфера.",
+   "reason": "Малая ценность, видна только вплотную."
+  },
+  {
+   "key": "id:90996",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Исправляет ошибку в скрипте игрока квеста Dragon Rising.",
+   "note": "VR-листов нет, SCROTE или USSEP могут закрывать ту же ошибку.",
+   "reason": "Квестовый фикс без VR-подтверждения, вероятная избыточность."
+  },
+  {
+   "key": "id:138932",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новые звуки питья зелий.",
+   "note": "VR-статус не подтверждён, нужна проверка DLL в архиве.",
+   "reason": "Низкая ценность и неподтверждённая VR-сборка."
+  },
+  {
+   "key": "id:87111",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Исправляет гибель NPC и игрока от неподвижных камней при столкновении.",
+   "note": "Брать вариант Player Version: он стоит в обоих VR-листах. Без DLL.",
+   "reason": "Баг-фикс с двумя VR-листами и простой установкой."
+  },
+  {
+   "key": "id:38510",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Фикс дракона у горы Антор: не появляется, маркер квеста указывает не туда.",
+   "note": "Содержимое фикса не проверено, один VR-лист.",
+   "reason": "Квестовый фикс с низкой проверкой."
+  },
+  {
+   "key": "id:4524",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Правит sandbox-пакеты NPC в многоэтажных интерьерах.",
+   "note": "Возможен конфликт с AI Overhaul из ядра.",
+   "reason": "Низкая ценность и конфликт с AI Overhaul."
+  },
+  {
+   "key": "id:151384",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "NPC не зацикливаются в блоке; полезно в боях с PLANCK и физикой оружия.",
+   "note": "Скорее SKSE DLL, искать VR-сборку. Не путать с Block Condition Freeze CTD Fix из ядра.",
+   "reason": "Полезный фикс боя, но DLL требует проверки VR-сборки."
+  },
+  {
+   "key": "id:33597",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Убирает крутящуюся анимацию смерти NPC; в VR враги падают перед глазами.",
+   "note": "Замена hkx без DLL. Если ставите Pandora или OAR-пакеты смертей, победитель должен быть один. Только LITE.",
+   "reason": "Заметно в VR, один VR-лист, без DLL."
+  },
+  {
+   "key": "id:68288",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ночные мотыльки у фонарей со звуком и реакцией на удар по фонарю.",
+   "note": "Нагрузка на CPU рядом с CritterSpawn Congestion Fix из ядра.",
+   "reason": "Атмосфера не оправдывает CPU-нагрузку в VR."
+  },
+  {
+   "key": "id:77530",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Дороги и мосты на севере Скайрима с правкой рельефа; между городами и фермами.",
+   "note": "Нужен Blended Roads; проверить Smooth Terrain и Sloppy Landscapes; пересоздать xLODGen, DynDOLOD и кэш травы.",
+   "reason": "Мир-ассет, но много рисков по ландшафту; один VR-лист."
+  },
+  {
+   "key": "id:52743",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Иконки в стиле Oblivion вместо текста подсказок «Говорить», «Собрать», «Спать».",
+   "note": "Влияние на подсказки HIGGS не проверено; один VR-лист.",
+   "reason": "Неподтверждённый VR-эффект, HIGGS-подсказки важнее."
+  },
+  {
+   "key": "id:67968",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Облегчённый путь OnMagicEffectApply для Papyrus при частых магических эффектах.",
+   "note": "Дополнения нужны к модам, которых в сборке нет; выгода зависит от числа магических модов.",
+   "reason": "Выгода привязана к модам, которых в сборке нет."
+  },
+  {
+   "key": "id:174855",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "VR-версия сброса залипшей карманной кражи у NPC.",
+   "note": "Нативный VR-билд с DLL, нужен SKSEVR. Ставить только при игре с воровством.",
+   "reason": "Нативный VR-билд, мелкий баг-фикс воровства."
+  },
+  {
+   "key": "id:18384",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Преломляющие осколки льда при Ice Form и заморозке.",
+   "note": "Преломление в стерео не подтверждено, один VR-лист.",
+   "reason": "Риск двоения в VR, малая ценность эффекта."
+  },
+  {
+   "key": "id:73181",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Делает дым жаровен и труб прозрачнее: плотный дым перед лицом в VR раздражает.",
+   "note": "Один файл без DLL; грузить после Embers XD, если пересекаются.",
+   "reason": "Практичный VR-фикс без DLL, один VR-лист."
+  },
+  {
+   "key": "id:147305",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправляет поленницы в Ривервуде при HLT через Base Object Swapper.",
+   "note": "Ставить после HLT. Малая правка без DLL, BOS VR уже в ядре.",
+   "reason": "Точная мелкая правка, безопасна."
+  },
+  {
+   "key": "id:42211",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Скрипт xEdit для перевода плагинов в ESL.",
+   "note": "Инструмент, не ассет; смена FormID ломает старые сохранения.",
+   "reason": "Инструмент, а не ассет; риск для сейвов."
+  },
+  {
+   "key": "id:41368",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Солнечный свет и тени в небольших внешних мирах.",
+   "note": "Маленький ESP без DLL.",
+   "reason": "Узкая польза."
+  },
+  {
+   "key": "id:14490",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Брошенный горящий факел остаётся гореть на земле.",
+   "note": "VR-статус неясен, нужна проверка с Light Placer и Swap Drop and Hold.",
+   "reason": "Мелкая деталь с неподтверждённым эффектом."
+  },
+  {
+   "key": "id:94428",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Облегчённые скрипты грядок Hearthfire и CC Farming.",
+   "note": "В VR проверена только старая 0.4, свежая 0.7.1 нет.",
+   "reason": "Непроверенная свежая версия, низкая VR-ценность."
+  },
+  {
+   "key": "id:76257",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Снежные меши со звуком снега вместо камня и заплатками на голых местах. Полезно при ходьбе в VR.",
+   "note": "Конфликты с ERM, Icy Mesh Remaster и Simple Snow Improvements из ядра; решить порядок через xEdit.",
+   "reason": "Звук и коллизия снега полезны в VR; конфликты решаемы."
+  },
+  {
+   "key": "id:32329",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Запускает застрявший квест «A New Source of Stalhrim» без консоли.",
+   "note": "VR-листов нет; квестовая правка.",
+   "reason": "Квест-фикс без VR-подтверждения."
+  },
+  {
+   "key": "id:96970",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "OAR-пак: персонаж в RaceMenu стоит смирно.",
+   "note": "VR-листов нет; нужен только при создании персонажа.",
+   "reason": "Без VR-подтверждения; разовое удобство."
+  },
+  {
+   "key": "id:62554",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Защита от цепочек оглушений подряд; заметна в VR-боевке.",
+   "note": "Отличается от No Stagger Mod и Stagger Effect Fix из ядра: те убирают оглушение, этот лечит цепь.",
+   "reason": "Четыре VR-листа; не дублирует ядро."
+  },
+  {
+   "key": "id:53050",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Блок снижает урон от магии, криков и ядов; тайминг-блок даёт устойчивость к оглушению.",
+   "note": "Не вместе с другими оверхолами блока; пересекается с Blocking and Flash VR.",
+   "reason": "Оверхол блока, пересекается с уже выбранным Blocking and Flash VR."
+  },
+  {
+   "key": "id:23107",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Правит поведение трактирщиков и посетителей.",
+   "note": "VR-листов нет.",
+   "reason": "Без VR-подтверждения; низкая ценность."
+  },
+  {
+   "key": "id:3850",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Квесты не стартуют сами; убраны случайные встречи и сплетни.",
+   "note": "Правит много квестовых скриптов, конфликт со SCROTE и USSEP.",
+   "reason": "Квестовая и диалоговая правка вне цели."
+  },
+  {
+   "key": "id:90508",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Пак иконок категорий предметов для I4: значки видны в инвентаре SkyUI VR.",
+   "note": "Ставить ниже I4. Желателен Object Categorization Framework из ядра.",
+   "reason": "Два VR-листа; не дублирует принятый I4 Weapon Icons."
+  },
+  {
+   "key": "id:47639",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Каллиграфический шрифт для книг; в руках читают вблизи. Четыре VR-листа.",
+   "note": "Кириллица не подтверждена: при квадратах в книгах не ставить.",
+   "reason": "Хорошо для VR-книг, но кириллица под вопросом."
+  },
+  {
+   "key": "id:33955",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Призванные мертвецы вылезают из земли.",
+   "note": "VR-статус неясен, конфликт с Enhanced Reanimation из ядра.",
+   "reason": "Эффект заклинания вне текстур и мира."
+  },
+  {
+   "key": "id:87746",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Когти у вампиров видны от первого лица; у вампира-игрока видны постоянно.",
+   "note": "Четыре VR-листа, требует RaceMenu VR; проверить от первого лица самому. Пересекается с Feral по теме.",
+   "reason": "Внешний вид подтверждён списками, но от первого лица не проверено."
+  },
+  {
+   "key": "id:49305",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Дозорная башня Вайтрана целая с начала игры, ломается только после нападения дракона.",
+   "note": "Плагин без DLL; после правок Вайтрана перегенерировать DynDOLOD.",
+   "reason": "Два VR-листа, мелкий мировой фикс."
+  },
+  {
+   "key": "id:22506",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Система религии: поклонение богам, обряды, благословения.",
+   "note": "Геймплейная система с квестами и силами богов.",
+   "reason": "Геймплей и квестовая система вне цели списка."
+  },
+  {
+   "key": "id:91403",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Мирные NPC случайных встреч не становятся враждебными от нейтральных заклинаний.",
+   "note": "VR-листов нет.",
+   "reason": "Без VR-подтверждения; поведенческая правка."
+  },
+  {
+   "key": "id:105376",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "OAR-анимации безоружной ходьбы и бега NPC вне боя; продолжение Vanargand Animations.",
+   "note": "Один VR-лист Panda's; ставить после OAR и других NPC-пакетов.",
+   "reason": "Вне боя NPC; один VR-лист, работает на OAR из ядра."
+  },
+  {
+   "key": "id:62925",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Правка скрипта налёта солдат на точки интереса.",
+   "note": "Мелкая скриптовая правка рядом с SCROTE и Papyrus Tweaks NG.",
+   "reason": "Мелкая скриптовая правка с низкой ценностью."
+  },
+  {
+   "key": "id:112114",
+   "keep": true,
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Жуткая звуковая атмосфера Блэкрича: только аудио, без ассетов и DLL.",
+   "note": "Звук в VR работает как в плоской игре. Проверить, не дублирует ли мод музыки подземелий.",
+   "reason": "Лёгкая атмосфера без нагрузки на VRAM."
+  },
+  {
+   "key": "id:37498",
+   "keep": false,
+   "section": "music",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переключатель фоновой музыки, оставляя звуки мира.",
+   "note": "Способ вызова в VR не проверен; может конфликтовать с Music Type Distributor.",
+   "reason": "Неподтверждённый VR-способ, конфликт с музыкальным стеком."
+  },
+  {
+   "key": "id:113884",
+   "keep": true,
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Звуки Чёрного Предела: 30+ звуков, призрачные голоса и ветер через Sound Record Distributor.",
+   "note": "Только DLC Dawnguard; при желании отключить молнию и музыку в FOMOD.",
+   "reason": "Звук без ассетов, один VR-лист."
+  },
+  {
+   "key": "id:28108",
+   "keep": true,
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Треки Джереми Соула в плейлистах исследования Скайрима и Солстхейма; дополняет LORKHAN, не заменяет.",
+   "note": "ESL-версия требует ESL Support из ядра; версия 1.2 проверена в Librum VR.",
+   "reason": "Добавка к музыке ядра, VR-лист проверен."
+  },
+  {
+   "key": "id:150302",
+   "keep": false,
+   "section": "navigation",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Цветные значки компаса в VR: категории мест и цели квестов.",
+   "note": "Конфликтует с Palm Compass VR и Navigate VR из ядра; состав не подтверждён.",
+   "reason": "Конфликт с ядром и неподтверждённый состав."
+  },
+  {
+   "key": "id:352",
+   "keep": true,
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Указатели на дорогах показывают верные направления; в VR опираешься на мир, а не на маркеры.",
+   "note": "ESP без DLL; проверить конфликты с модами, правящими указатели, в xEdit.",
+   "reason": "Мир-ассет с одним VR-листом, без DLL."
+  },
+  {
+   "key": "id:59123",
+   "keep": true,
+   "section": "physics",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Конфиг CBPC для тел 3BA: сдержанная физика, дешевле по CPU.",
+   "note": "Только конфиги CBPC; один VR-лист, сравнить с настройками по умолчанию.",
+   "reason": "Экономит CPU; нужна проверка на одном VR-листе."
+  },
+  {
+   "key": "id:63330",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "alt",
+   "choose_one_group": "windhelm_tex",
+   "what": "Классический не-PBR 2K-ретекстур Виндхельма: безопасный путь, если PBR на Open Shaders в VR не подтвердился.",
+   "note": "Вместо Tomato's Windhelm PBR (#174492), не вместе. После DynDOLOD пересоздать LOD.",
+   "reason": "Безопасный не-PBR вариант, один из группы выбора."
+  },
+  {
+   "key": "id:66598",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Текстуры сигил Шалидора в колледже Винтерхолда и Саартале; узор на полу виден вблизи.",
+   "note": "Из серии оставлен только мод 66598.",
+   "reason": "Видно вблизи в VR, один VR-лист, умеренный VRAM."
+  },
+  {
+   "key": "id:47608",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур лодок и кораблей в Виндхельме, Данстаре и Рифтене. Классика для Open Shaders.",
+   "note": "Название 8K, но берите 2K. Не ставить вместе с PBR-паком архитектуры, который правит те же ассеты.",
+   "reason": "Классический не-PBR пак, один VR-лист."
+  },
+  {
+   "key": "id:61553",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Детальная статуя Дибеллы в храмах: меши и текстуры, видна вплотную в VR.",
+   "note": "Один объект, VRAM почти не растёт. PBR-версия в PBR Hub при PGPatcher.",
+   "reason": "Фокусный объект интерьера, минимальная цена по VRAM."
+  },
+  {
+   "key": "id:150727",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "alt",
+   "choose_one_group": "gdos",
+   "what": "PBR-версия новых дверей GDOS для PBR-сборки; вариант к обычному GDOS.",
+   "note": "Ставить по инструкции мода вместе с базой #32376, не дублировать. PBR в VR не подтверждён.",
+   "reason": "Альтернатива PBR-варианту, VR-статус не подтверждён."
+  },
+  {
+   "key": "id:46564",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-ретекстур дорожных указателей на нескольких языках; надписи читаются вблизи.",
+   "note": "Вывески Skyking не заменяет; не смешивать с другими паками указателей.",
+   "reason": "Два VR-листа, надписи видны вблизи."
+  },
+  {
+   "key": "id:157788",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Каменные ограды ферм и полей в 3D из семейства Nordic Stonewalls.",
+   "note": "Согласовать с Nordic Stonewalls (#57686) из сборки; стили не смешивать.",
+   "reason": "Статичные меши семейства, цена мала."
+  },
+  {
+   "key": "id:115210",
+   "keep": false,
+   "section": "tex_arch",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "3D-террасные каменные стены нордских построек.",
+   "note": "VR-листов нет; в плотных деревнях геометрия требует проверки кадра.",
+   "reason": "Без VR-подтверждения; риск по геометрии."
+  },
+  {
+   "key": "id:85285",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Текстуры мостов, файл 2K без parallax.",
+   "note": "Дороги не брать (есть Blended Roads); parallax пускать через PGPatcher.",
+   "reason": "Мосты видны вблизи; VRAM умеренна."
+  },
+  {
+   "key": "id:125527",
+   "keep": false,
+   "section": "tex_arch",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ванильные текстуры с complex parallax без смены стиля.",
+   "note": "Конфликт с Faultier's PBR Skyrim и Vanilla PBR AIO, которые уже в сборке.",
+   "reason": "Дублирует уже выбранную базу arch_base."
+  },
+  {
+   "key": "id:51493",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-текстуры замка Волкихар: стены, пол, мебель; классика, не PBR.",
+   "note": "Замок большой, 2K ради VRAM. Порядок с JK's Castle Volkihar проверить.",
+   "reason": "Классика, хорошо на Open Shaders, один VR-лист."
+  },
+  {
+   "key": "id:34179",
+   "keep": false,
+   "section": "tex_arch",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Классический ретекстур всей архитектуры и ландшафта по 4K-сканам.",
+   "note": "Около 6 ГБ; группа arch_base уже занята PBR-базой сборки.",
+   "reason": "Тяжёлый по VRAM и конфликтует с уже выбранной базой."
+  },
+  {
+   "key": "id:76359",
+   "keep": false,
+   "section": "tex_arch",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Классический ретекстур каменных стен и оград.",
+   "note": "Из пары с Nordic Stonewalls из сборки брать один; Nordic уже в сборке.",
+   "reason": "Дубль Nordic Stonewalls, уже принятого."
+  },
+  {
+   "key": "id:51788",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Высокий Хротгар: новые меши и текстуры одной из главных локаций; брать Performance.",
+   "note": "В VR-листах нет; Quality тяжела. Нужен DynDOLOD для LOD-файла.",
+   "reason": "Главная локация, Performance-вариант лёгкий."
+  },
+  {
+   "key": "id:29695",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Фрески и росписи в храмах Солитьюда и других храмах Божеств; видны вблизи в VR.",
+   "note": "Перекрываются с Tomato's Solitude Remastered и Faultier's PBR: ставить ниже PBR-паков.",
+   "reason": "Два VR-листа, заметно вблизи."
+  },
+  {
+   "key": "id:22178",
+   "keep": false,
+   "section": "tex_arch",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Свои текстуры орочьих крепостей и длинных домов.",
+   "note": "Дублирует уже принятый Spaghetti's Orc Strongholds AIO.",
+   "reason": "Дубль уже принятой позиции орочьих крепостей."
+  },
+  {
+   "key": "id:51191",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Лорные текстуры камней Мундуса в открытом мире; версия без ESP.",
+   "note": "Обычные не-PBR текстуры, безопасны с Open Shaders.",
+   "reason": "Два VR-листа, без ESP и DLL."
+  },
+  {
+   "key": "id:71680",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Сундуки с новыми мешами и текстурами; в VR их открываешь рукой, разница видна вблизи.",
+   "note": "Файл 4K Optimised сжать до 2K или взять облегчённый вариант; проверить Ruins Clutter Improved.",
+   "reason": "Предмет в руках, один VR-лист."
+  },
+  {
+   "key": "id:901",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые обложки книг: книги берут в руку и читают у лица.",
+   "note": "Брать Desaturated; текстуры крупные, при нехватке VRAM пропустить.",
+   "reason": "Книги видны вплотную; без DLL."
+  },
+  {
+   "key": "id:9030",
+   "keep": false,
+   "section": "tex_clutter",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Детальные ковры и шкуры в домах.",
+   "note": "Дубль RUGNAROK, уже принятого; не-PBR конфликтует с PBR-паками.",
+   "reason": "Дубль уже принятого RUGNAROK."
+  },
+  {
+   "key": "id:48209",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-текстуры кузнечных инструментов и наковальни с вёдрами; предметы в руке.",
+   "note": "База HD Keys уже в сборке как VR Refit (#49903), отдельно не дублировать.",
+   "reason": "Четыре VR-листа, предметы видны вплотную."
+  },
+  {
+   "key": "id:9264",
+   "keep": false,
+   "section": "tex_clutter",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ретекстур теневых меток Гильдии воров, 1K.",
+   "note": "Мелкая деталь городов.",
+   "reason": "Мелкая деталь с малой ценностью в VR."
+  },
+  {
+   "key": "id:123987",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправленные меши ковров Rugnarok: без чёрных швов и с правильными краями, плюс Lux-патч.",
+   "note": "Ставить только вместе с Rugnarok, уже принятым; Lux-патч нужен.",
+   "reason": "Заплатка к принятому Rugnarok."
+  },
+  {
+   "key": "id:7849",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур забытых мелочей: крюки, молоток, кирка, корона, книга; дополняет крупные паки.",
+   "note": "Файлы Бареньи и коронные скрыть при пересечении с другими модами.",
+   "reason": "Два VR-листа, мелочи в руках."
+  },
+  {
+   "key": "id:52423",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстуры станков крафта Hearthfire в ванильном стиле: стол, мельница, кузня.",
+   "note": "Конфликт с PBR-паком мебели тех же объектов: выбрать одно.",
+   "reason": "Станки трогаешь руками; один VR-лист."
+  },
+  {
+   "key": "id:64905",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Птичьи гнёзда и яйца; яйца берут в руки и видно вплотную.",
+   "note": "Для VR хватает 1K, 2K при запасе VRAM.",
+   "reason": "Один VR-лист, низкая цена по VRAM."
+  },
+  {
+   "key": "id:155815",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Современные тюки сена в варианте Complex Material; на фермах и в конюшнях у ног.",
+   "note": "Брать CM, не PBR: PBR в VR не подтверждён. При сбое поставить обычные текстуры.",
+   "reason": "Два VR-листа; CM вместо непроверенного PBR."
+  },
+  {
+   "key": "id:73421",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Убирает лазерную печать книг: текст выглядит рукописным, книги в руках живее.",
+   "note": "Оставлена только книжная часть серии; четыре VR-листа.",
+   "reason": "Четыре VR-листа, заметно в руках."
+  },
+  {
+   "key": "id:85097",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Complex Parallax для шкур, ковров и мехов Peltapalooza: объёмный мех вблизи.",
+   "note": "Аддон поверх Peltapalooza; на Open Shaders в VR не подтверждён; без эффекта останется обычная текстура.",
+   "reason": "Объём меха вблизи, но VR и затраты не подтверждены."
+  },
+  {
+   "key": "id:2276",
+   "keep": false,
+   "section": "tex_clutter",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Едва заметная цветная анимация жидкости в зельях Rustic.",
+   "note": "Аддон к Rustic Potions; пересекается со Skyland Bits and Bobs.",
+   "reason": "Слишком мелкий эффект."
+  },
+  {
+   "key": "id:6142",
+   "keep": false,
+   "section": "tex_clutter",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Классический ретекстур кухонной утвари и еды Rustic.",
+   "note": "Пересекается со Skyland Bits and Bobs из сборки.",
+   "reason": "Дубль Skyland Bits and Bobs, уже в сборке."
+  },
+  {
+   "key": "id:110370",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Простая мебель домов и таверн: новые меши и 2K-текстуры столов, стульев, кроватей.",
+   "note": "Ставить после Rustic Furniture или вместо неё, иначе Rally перекроет общую мебель.",
+   "reason": "Самый частый пак серии Rally, 2K."
+  },
+  {
+   "key": "id:113326",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мебель знати: кресла, столы и скамьи домов и дворцов, 2K.",
+   "note": "BOS-аддон нужен для вариаций цвета; The Royal Seat выше по приоритету.",
+   "reason": "Один VR-лист, 2K."
+  },
+  {
+   "key": "id:111457",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и 2K-текстуры мебели орочьих крепостей.",
+   "note": "Дополняет Spaghetti's Orc Strongholds; может перекрывать общую мебель Rustic.",
+   "reason": "Один VR-лист, мебель в интерьере."
+  },
+  {
+   "key": "id:80069",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур книг заклинаний; версия 1K, книги в VR рассматривают вблизи.",
+   "note": "1K ради VRAM; не ставить с другими ретекстурами книг заклинаний.",
+   "reason": "Один VR-лист, книги видны вблизи."
+  },
+  {
+   "key": "id:112256",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мебель верхнего сословия с 2K-текстурами, включая ковры Йорваскра.",
+   "note": "Ковры Йорваскра отдельным файлом, можно пропустить при Rugnarok.",
+   "reason": "Один VR-лист, 2K."
+  },
+  {
+   "key": "id:41972",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "HD-бутылки и напитки Dragonborn на Солстхейме; бутылку берёшь в руку.",
+   "note": "Только 2K-файл; нужен Dragonborn.esm.",
+   "reason": "Три VR-листа, предмет в руке."
+  },
+  {
+   "key": "id:65238",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Лёгкие ретекстуры супа, хлеба Hearthfire и магических свитков.",
+   "note": "Поверх мешей SMIM. Если выбраны Skyland Bits and Bobs или Rally's All The Things, их меши еды перекроют эти текстуры: тогда ставить только свитки.",
+   "reason": "Лёгкие текстуры, один VR-лист."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "mods_in_27_lists": 13733,
+ "rows": 13822,
+ "by_status": {
+  "core": 287,
+  "interaction_keep": 38,
+  "interaction_dont": 16,
+  "other_keep": 438,
+  "other_dont": 40,
+  "core_research_keep": 26,
+  "core_research_dont": 44,
+  "se_twin_of_core": 20,
+  "rejected": 379,
+  "dropped": 1137,
+  "auto_excluded": 262,
+  "prefilter_skipped": 799,
+  "core_pool_considered": 342,
+  "not_evaluated": 9994
+ },
+ "flat_hint": {
+  "se_popular_unreviewed": 1344,
+  "flat_candidate": 556,
+  "flat_base": 20,
+  "vr_only": 283
+ },
+ "flat_candidates_file": 1920
+}

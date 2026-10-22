@@ -1,0 +1,1004 @@
+{
+ "verdicts": [
+  {
+   "key": "id:39704",
+   "keep": true,
+   "section": "armor",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Исправления мешей ванильной брони: швы, нормали, подёргивания. Заметны вблизи на руках и теле.",
+   "note": "Меши без DLL. Ставить ниже Cathedral Armory / Faultier's PBR Armors, чтобы фиксы не затёрлись ретекстур-мешами.",
+   "reason": "Дешёвый фикс, заметен вблизи, VR-сборка подтверждена."
+  },
+  {
+   "key": "id:41254",
+   "keep": true,
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры уникальных артефактов; оружие артефактов в руке видно вплотную.",
+   "note": "Плагин и меши без DLL, один VR-список. Ставить пробно, проверить конфликты с Cathedral Armory и LeanWolf. Нужен USSEP patch.",
+   "reason": "Полезен для уникальных предметов, но VR-подтверждение одно."
+  },
+  {
+   "key": "id:13972",
+   "keep": false,
+   "section": "armor",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новая модель одного артефакта: Ледяной клинок Монарха.",
+   "note": "",
+   "reason": "Одно оружие, низкая ценность; покрывается ArteFakes."
+  },
+  {
+   "key": "id:37737",
+   "keep": false,
+   "section": "armor",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Правдоподобные формы ванильного оружия.",
+   "note": "",
+   "reason": "Дубль LeanWolf's Better-Shaped Weapons SE, уже взятого в inventory (#2017)."
+  },
+  {
+   "key": "id:96143",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новый комплект брони COCO Demon Shade под CBBE 3BA, собирается в BodySlide.",
+   "note": "Только меши и текстуры, без DLL. Текстуры 2K при нехватке VRAM. Нужны CBBE 3BA и BodySlide.",
+   "reason": "Цельный комплект брони с двумя VR-списками, приемлемая цена."
+  },
+  {
+   "key": "id:97906",
+   "keep": false,
+   "section": "armor",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Мантии мага COCO Mysterious Mage под CBBE 3BA.",
+   "note": "",
+   "reason": "Второй набор того же автора; ценность ниже Demon Shade."
+  },
+  {
+   "key": "id:81046",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Дварфская броня Dwemer Armor SE с 3BA-конверсией и фиксами Xtudo: юбка, сапоги, шлем, слайдер веса.",
+   "note": "Порядок: XPMSSE, CBBE, основа, Xtudo fixes, затем 3BA. ESL-версия fixes с Skyrim VR ESL Support. Собрать в BodySlide.",
+   "reason": "Полный дварфский комплект, два VR-списка, требует BodySlide."
+  },
+  {
+   "key": "id:6308",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые типы оружия (рапиры, катаны, алебарды и др.) с моделями, видны вплотную в руке.",
+   "note": "Меши и ESP без DLL. Правит много leveled lists: нужен патч/Bashed/Synthesis. Проверить длину и хват в руке.",
+   "reason": "Расширяет арсенал, два VR-списка, но тяжело для списков."
+  },
+  {
+   "key": "id:144900",
+   "keep": false,
+   "section": "armor",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Визуальная доработка меча Рассветная Заря со светом.",
+   "note": "",
+   "reason": "Один предмет, VR не подтверждён, низкая ценность."
+  },
+  {
+   "key": "id:98579",
+   "keep": true,
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Обновление внешнего вида Форсворнов: меши и текстуры брони и оружия.",
+   "note": "Один VR-список, содержание не подтверждено страницей. Ставить отдельно, смотреть Рифтен и лог. Пересекается с ретекстурами брони.",
+   "reason": "Заметные враги вблизи, но VR-подтверждение слабое."
+  },
+  {
+   "key": "id:51082",
+   "keep": false,
+   "section": "armor",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD-замена Свитка Древних и Амулета Совета старейшин.",
+   "note": "",
+   "reason": "Два единичных предмета, низкая ценность."
+  },
+  {
+   "key": "id:65481",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры всех ванильных посохов; посох в руке виден вплотную, 2K оправдан.",
+   "note": "Меши и текстуры без DLL. VR-списки не берут, но риск низкий. Не конфликтует с Cathedral Armory.",
+   "reason": "Посох всё время в руке, ассеты без DLL."
+  },
+  {
+   "key": "id:70037",
+   "keep": false,
+   "section": "armor",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Исправления и новая детская одежда без правок NPC.",
+   "note": "",
+   "reason": "Вариант семейства Prince and the Pauper; детский блок уже представлен одной записью."
+  },
+  {
+   "key": "id:110655",
+   "keep": false,
+   "section": "armor",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ретекстур роб магов и некромантов в Xavbio-стиле.",
+   "note": "",
+   "reason": "Конфликтует с Faultier's PBR Armors and Clothes из inventory на тех же вещах."
+  },
+  {
+   "key": "id:18994",
+   "keep": true,
+   "section": "armor",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Исправления мешей, текстур и записей оружия, брони, одежды и клаттера (WACCF).",
+   "note": "ESP и ассеты без DLL. Ставить после USSEP и Assorted Mesh Fixes (#32117). Проверить пересечения с Heavy Armory.",
+   "reason": "Широкие исправления, заметны вблизи, VR-список есть."
+  },
+  {
+   "key": "id:35382",
+   "keep": false,
+   "section": "armor",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Большой ретекстур ванильной брони и оружия в высоком разрешении.",
+   "note": "",
+   "reason": "Тот же путь брони, что Cathedral Armory и Faultier's PBR, уже в inventory; тяжёлые текстуры."
+  },
+  {
+   "key": "id:58727",
+   "keep": false,
+   "section": "cc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плоскости окклюзии eFPS для построек Anniversary Edition.",
+   "note": "",
+   "reason": "Нужны платные AE-файлы, описание только из вторичного источника."
+  },
+  {
+   "key": "id:107380",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мужской пресет BodySlide «True Warrior» для HIMBO: готовая форма мужского тела.",
+   "note": "Один мужской пресет на сборку. Собрать в BodySlide вместе с бронёй под HIMBO.",
+   "reason": "Три VR-списка, один пресет."
+  },
+  {
+   "key": "id:56872",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": "female_body",
+   "what": "Пресет формы женского тела для BodySlide (CBBE 3BA): реалистичная фигура вместо дефолтной.",
+   "note": "Выбрать в BodySlide и собрать тело/броню до патчей брони. Один женский пресет на сборку; для NPC нужен OBody NG.",
+   "reason": "Четыре VR-списка; группа с Vestal, брать один."
+  },
+  {
+   "key": "id:87642",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "alt",
+   "choose_one_group": "female_body",
+   "what": "Пресет BodySlide «Vestal Body» (Lazarus) для CBBE 3BA: женское тело для игрока и NPC.",
+   "note": "Альтернатива Pomona в той же группе: один женский пресет. Собирать в BodySlide.",
+   "reason": "Четыре VR-списка, но тот же слот, что Pomona."
+  },
+  {
+   "key": "id:2014",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Большой пакет причёсок для RaceMenu: выбор при создании персонажа, дополняет Vanilla hair remake.",
+   "note": "На NPC почти не влияет. Физику SMP не включать (CPU). Ставится рядом с Vanilla hair remake.",
+   "reason": "Выбор причёски игрока заметен в VR, три VR-списка."
+  },
+  {
+   "key": "id:80232",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Борода не торчит сквозь закрытые шлемы-маски: переводит бороду на слот 44.",
+   "note": "SKSE-плагин, VR-список Tempus Maledictum есть; ставить версию 1.0.1. Требует Hvergelmir's Beards (#1067).",
+   "reason": "Один VR-список подтверждает работу, узкий, но полезный фикс."
+  },
+  {
+   "key": "id:78536",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Кожа детей в стиле BnP, 2K.",
+   "note": "",
+   "reason": "Косметика для единообразия, низкая ценность."
+  },
+  {
+   "key": "id:40123",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Женские пресеты RaceMenu для High Poly Head.",
+   "note": "",
+   "reason": "Пресеты на вкус, без влияния на игру."
+  },
+  {
+   "key": "id:71067",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Лицевые текстуры каджитов 4K.",
+   "note": "",
+   "reason": "Тяжёлые 4K-лица; Masculine Khajiit покрывает тот же слот лучше и с большим VR-подтверждением."
+  },
+  {
+   "key": "id:131210",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ретекстур глаз с новыми ресницами.",
+   "note": "",
+   "reason": "Вне VR-списков, глазной слот уже занят Authentic Eyes из inventory."
+  },
+  {
+   "key": "id:66156",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Исправление рта, зубов и клыков орков.",
+   "note": "",
+   "reason": "Узкая правка без VR-подтверждения."
+  },
+  {
+   "key": "id:43389",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые текстуры и меши аргониан: детальная чешуя и лица; нужны при игре аргонианином.",
+   "note": "Текстуры без DLL, три Grit-списка. Даёт 4K и старый год: при нехватке VRAM понизить. Требует CBBE 3BA.",
+   "reason": "Три VR-списка; полезно только для аргонианина."
+  },
+  {
+   "key": "id:94483",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Улучшенные глаза Kala's 1K/2K.",
+   "note": "",
+   "reason": "Глаза уже покрыты Authentic Eyes (#36063) из inventory."
+  },
+  {
+   "key": "id:82587",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD-брови для мужчин.",
+   "note": "",
+   "reason": "Брови уже взяты (Hvergelmir's, Blackmoon's) в round2."
+  },
+  {
+   "key": "id:186",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мужские текстуры каджитов (серый кот и леопард): тело и лицо, видны у караванов и в Рифтене.",
+   "note": "Только текстуры, DLL нет. Мужчины только; для женщин ничего не меняет.",
+   "reason": "Три VR-списка, закрывает мужской слот каджитов."
+  },
+  {
+   "key": "id:8354",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "children",
+   "what": "Переделка детей: новая одежда и модели вместо ванильных; дети стоят на уровне глаз.",
+   "note": "Выбрать одно из детского блока: здесь Prince and the Pauper SE. Проверять с Lively Children Animations.",
+   "reason": "Два VR-списка, заметные дети вблизи."
+  },
+  {
+   "key": "id:39359",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Реалистичные лица и волосы детей.",
+   "note": "",
+   "reason": "Пересекается с Prince and the Pauper SE по детям."
+  },
+  {
+   "key": "id:18147",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меши глаз SUEMR с поддержкой Bijin и правки вампирских глаз.",
+   "note": "Без DLL, один VR-список. Ставить после Authentic Eyes и проверить глаза после установки.",
+   "reason": "Глаза видны вплотную; мешы без DLL."
+  },
+  {
+   "key": "id:22789",
+   "keep": false,
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Аккуратные лица и тела ванильных детей.",
+   "note": "",
+   "reason": "В детской группе уже выбран Prince and the Pauper SE."
+  },
+  {
+   "key": "id:25204",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Боевая раскраска RaceMenu (оверлеи) для мужчин и женщин: рисунки на теле и лице.",
+   "note": "Оверлеи: VRAM только у применённых слотов. Требует RaceMenu VR и CBBE 3BA.",
+   "reason": "Три VR-списка, заметна на руках игрока."
+  },
+  {
+   "key": "id:56973",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Решётки и крыши Рифтена в 3D вместо плоских текстур.",
+   "note": "Меши без DLL, нагрузка мала. Конфликты мешей Рифтена проверять в MO2.",
+   "reason": "Дёшево и заметно вблизи, VR-список есть."
+  },
+  {
+   "key": "id:42472",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Решётки рынка Солитьюда в 3D. Лёгкая надбавка объёма на главной площади.",
+   "note": "Меши без DLL. Брать версию 3.1, более поздний релиз.",
+   "reason": "Лёгкая нагрузка, два VR-списка."
+  },
+  {
+   "key": "id:88936",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Кузня Маркарта в дворфской архитектуре.",
+   "note": "",
+   "reason": "Требует Stony AF Markarth (#6881), которого нет в inventory; VR-списков нет."
+  },
+  {
+   "key": "id:97542",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделка интерьера таверны Candlehearth.",
+   "note": "",
+   "reason": "Тяжёлая интерьерная переделка; тавернами уже покрыто несколько интерьеров."
+  },
+  {
+   "key": "id:78772",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры статуй и святилищ даэдрических принцев, 2K.",
+   "note": "Нет VR-списков, но 10 SE-списков. Меши без DLL. Пересоздать LOD через DynDOLOD. Ставить пробно.",
+   "reason": "Статуи видны вблизи, VR не подтверждено."
+  },
+  {
+   "key": "id:68048",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Плоские доски, леса, мосты и хижины Солитьюда заменены 3D-мешами серии FYX 3D.",
+   "note": "Мелкая геометрия, нагрузка мала. Whiterun-меши правят те же ячейки, что Lux Orbis: проверить порядок в MO2.",
+   "reason": "Четыре VR-списка, дешёвая объёмная геометрия."
+  },
+  {
+   "key": "id:86964",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Первый вал и сторожевая башня Солитьюда в 3D вместо плоских объектов.",
+   "note": "Меши без DLL. Брать обычный вариант, parallax в VR не подтверждён.",
+   "reason": "Дёшево, один VR-список, не дублирует серию 68048."
+  },
+  {
+   "key": "id:8766",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Высокие объёмные дымоходы фермерских домов.",
+   "note": "",
+   "reason": "Мелкая, почти не заметная деталь."
+  },
+  {
+   "key": "id:33565",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанный интерьер лавки алхимика Аркадии в Вайтране: полки, зелья, декор.",
+   "note": "Плагин без DLL. Хаб-интерьер, ставить по одному и мерить кадр (CPU). Требует USSEP.",
+   "reason": "Место, куда игрок возвращается часто; один VR-список."
+  },
+  {
+   "key": "id:116314",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделанный интерьер замка Волкихар.",
+   "note": "",
+   "reason": "Квестовая локация, крупная ячейка; низкая ценность для CPU в VR."
+  },
+  {
+   "key": "id:65676",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделка Коллегии Винтерхолда JK's.",
+   "note": "",
+   "reason": "Конфликт с Praedy's College of Winterhold, уже взятым в round2; крупная ячейка."
+  },
+  {
+   "key": "id:34000",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Переделка тронного зала Драконьего Предела: меши, свет и мебель, видны вплотную.",
+   "note": "Один VR-список. Много света и клаттера, нагрузка на CPU; ставить отдельно, DynDOLOD после установки.",
+   "reason": "Центральный хаб, но тяжёлый интерьер."
+  },
+  {
+   "key": "id:62219",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделанный интерьер Хай-Хротгара.",
+   "note": "",
+   "reason": "Квестовая локация, посещается редко."
+  },
+  {
+   "key": "id:48293",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанный интерьер таверны Виндхельма: деревянный зал с деталями.",
+   "note": "Плагин без DLL. Ставить по одному и мерить кадр. Требует USSEP.",
+   "reason": "Таверна, где игрок часто сидит; VR-список есть."
+  },
+  {
+   "key": "id:128116",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделка Зала Соловья.",
+   "note": "",
+   "reason": "Редко посещаемая крупная ячейка."
+  },
+  {
+   "key": "id:55959",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Лавка Ривервуда: переработанный дом и интерьер торговца в стиле JK.",
+   "note": "Малая ячейка, без DLL. Сверить в xEdit с другими правками Ривервуда и USSEP.",
+   "reason": "Лёгкая, часто посещаемая лавка."
+  },
+  {
+   "key": "id:53554",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанная таверна «Серебряная кровь» в Маркарте: больше деталей и уюта.",
+   "note": "Плагин без DLL. Ставить по одному и мерить кадр. Интерьерные текстуры от Stony AF остаются.",
+   "reason": "Таверна, куда игрок возвращается; VR-список есть."
+  },
+  {
+   "key": "id:63039",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделка интерьера Скайхейвенского храма.",
+   "note": "",
+   "reason": "Конфликт с Faultier's PBR из inventory; редко посещаемый интерьер."
+  },
+  {
+   "key": "id:151512",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделка Тель-Митрина на Солстхейме.",
+   "note": "",
+   "reason": "Крупная ячейка, Солстхейм посещается реже; CPU-нагрузка."
+  },
+  {
+   "key": "id:33845",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Переработанные интерьеры трактиров JK: Bannered Mare, Winking Skeever, Bee and Barb.",
+   "note": "Только у Panda's Sovngarde в VR, поэтому try. Много света и клаттера: ставить по одному и мерить кадр.",
+   "reason": "Таверны часто посещаются, но CPU-нагрузка высокая."
+  },
+  {
+   "key": "id:55571",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделанный интерьер Понимающей Твердыни.",
+   "note": "",
+   "reason": "Тяжёлый по вызовам отрисовки квестовый интерьер."
+  },
+  {
+   "key": "id:33685",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанная кузница и лавка Воительницы в Вайтране: оружие, броня, инструмент.",
+   "note": "Плагин без DLL. Ставить по одному и мерить кадр. Требует USSEP.",
+   "reason": "Лавка, где игрок кует и торгует чаще всего."
+  },
+  {
+   "key": "id:49259",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Исправленные меши построек больших городов.",
+   "note": "",
+   "reason": "Города — самое дорогое место для VR по CPU; пересекается с SMIM и Tomato."
+  },
+  {
+   "key": "id:22653",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Мелкие правки Коллегии Винтерхолда.",
+   "note": "",
+   "reason": "Зависит от JK's College, который не берём."
+  },
+  {
+   "key": "id:20382",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Лорный ремонт экстерьеров нордских руин: подходы и окружение руин.",
+   "note": "Правит плагин и меши, после установки перегенерировать DynDOLOD. Не ставить с другими ремешами руин.",
+   "reason": "Три VR-списка, видно в открытом мире."
+  },
+  {
+   "key": "id:20514",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделка здания Коллегии Винтерхолда, серия из 5 модов.",
+   "note": "",
+   "reason": "Конфликт с Praedy's College; тяжёлая для CPU."
+  },
+  {
+   "key": "id:116289",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмные меши и 2K-текстуры знамён и флагов городов и крепостей.",
+   "note": "Знамёна на уровне глаз. Брать 2K. Патч Northern Roads только при Northern Roads.",
+   "reason": "Заметны вблизи, два VR-списка."
+  },
+  {
+   "key": "id:81282",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые рыночные прилавки и навесы с анимацией ткани в Вайтране, Солитьюде, Виндхельме.",
+   "note": "Меши без DLL, 2K. Не ставить рядом с Lux Orbis Medieval Markets без проверки перекрытия. Требует SMIM.",
+   "reason": "Стоят прямо перед глазами, VR-список есть."
+  },
+  {
+   "key": "id:53962",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Правки зданий Рейвен-Рока на Солстхейме.",
+   "note": "",
+   "reason": "Солстхейм, один VR-список; низкая ценность."
+  },
+  {
+   "key": "id:70854",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Дополнительные 3D-детали архитектуры Рифтена: балки, декор, карнизы.",
+   "note": "Правит меши Рифтена: проверить конфликты с Riften Temple Sconce Fix и FYX Riften Canal.",
+   "reason": "Лёгкая надстройка, VR-список есть."
+  },
+  {
+   "key": "id:40021",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделка доков Рифтена: новые причалы и постройки, больше жизни у воды.",
+   "note": "Меши и ESP без DLL. Проверить дублирующий свет доков в Lights Conflict Resolver. Порядок ниже FYX Riften Canal.",
+   "reason": "Заметна у воды, VR-список есть."
+  },
+  {
+   "key": "id:76169",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Исправляет парящие бра у храма Мары в Рифтене: крошечный меш-фикс.",
+   "note": "Правит rttempleplaza01.nif: для Lux Orbis нужен отдельный патч мешей.",
+   "reason": "Дёшево, заметный фикс, три VR-списка."
+  },
+  {
+   "key": "id:67386",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Жаровни Маркарта и двемерские жаровни: объёмные меши вместо плоских.",
+   "note": "Меши и текстуры без DLL. Проверить, что пламя не двоится со светом Light Placer или CS Light.",
+   "reason": "Видны вплотную, VR-список есть."
+  },
+  {
+   "key": "id:79034",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Анимированные корабли на горизонте у побережья.",
+   "note": "",
+   "reason": "Анимация в VR и LOD не проверены; низкая ценность против нагрузки."
+  },
+  {
+   "key": "id:108315",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправления мешей интерьеров и экстерьеров Виндхельма: дыры, зазоры, пол зала замка.",
+   "note": "Без DLL, VR-списка нет. Ставить парой с Windhelm Palace meshes fix (#104972).",
+   "reason": "Швы видны вблизи; меш-фикс работает как обычный ассет."
+  },
+  {
+   "key": "id:92592",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Замена лестниц-стремянок в фермах на ступени и перила.",
+   "note": "",
+   "reason": "Нишевая замена, VR-списков нет."
+  },
+  {
+   "key": "id:78399",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Лестницы у моста Виндхельма: не надо прыгать и обходить ради спуска.",
+   "note": "Малый мод правки ячейки без DLL. Проверить конфликты с Windhelm Exterior Fixes (#108315).",
+   "reason": "Полезно при ходьбе в VR, четыре VR-списка."
+  },
+  {
+   "key": "id:3375",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Все статуи Скайрима переделаны в HD: статуи Девятерых, Маркарта, Вайтрана и др.",
+   "note": "Без DLL. Разрешение в FOMOD: 2K, 4K в VR лишний. Проверить конфликты с PBR-текстурами Маркарта и Вайтрана.",
+   "reason": "Шесть VR-списков, статуи видны вблизи."
+  },
+  {
+   "key": "id:42639",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Малые города и деревни серии soldierofwar: новые здания, ограды, детали.",
+   "note": "Берутся только 7 малых поселений, которые ставят оба VR-списка. Крупные города и Винтерхолд не брать. Ставить по одному.",
+   "reason": "Два VR-списка, но много модов в серии."
+  },
+  {
+   "key": "id:41198",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры тронов в залах ярлов.",
+   "note": "",
+   "reason": "Конфликт с Spaghetti's Palaces из inventory по тронам."
+  },
+  {
+   "key": "id:34950",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Патч-фиксы Unique Border Gates: ворота без дыр и клиппинга.",
+   "note": "Только после Unique Border Gates SE (#4819) и без DLL.",
+   "reason": "Простой фикс, один VR-список."
+  },
+  {
+   "key": "id:121203",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Нордские палатки и лагеря вместо плоских ванильных, с цветами через BOS и кострами.",
+   "note": "Файл No Khajiit Caravans по вкусу. Требует Base Object Swapper VR (ядро). Меши лёгкие.",
+   "reason": "Дёшево, заметны в мире, VR-список есть."
+  },
+  {
+   "key": "id:104972",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Фикс мешей дворца Королей в Виндхельме: дыры и стыки.",
+   "note": "Меши без DLL. Ставить парой со Snazzy Mesh Fixes (#108315) и сверять порядок в MO2.",
+   "reason": "Большой замок видно в VR, VR-список есть."
+  },
+  {
+   "key": "id:28952",
+   "keep": false,
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переделка четырёх малых столиц: Данстар, Винтерхолд, Фолкрит, Мортал.",
+   "note": "",
+   "reason": "Переделки городов грузят CPU; конфликт с Winterhold-модами."
+  },
+  {
+   "key": "id:56371",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанные храмы Кинарет (Вайтран) и Божеств (Солитьюд): алтари, свет и декор.",
+   "note": "Плагины без DLL. Храмы Дибеллы и Талоса не брать. Ставить по одному и мерить кадр. Требует USSEP.",
+   "reason": "Храмы часто посещаются, VR-список есть."
+  },
+  {
+   "key": "id:9034",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новые меши сладкого рулета и пирогов.",
+   "note": "",
+   "reason": "Мелкая еда, VR-списков нет."
+  },
+  {
+   "key": "id:69038",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Древесный уголь и угольная палочка.",
+   "note": "",
+   "reason": "Очень мелкий предмет."
+  },
+  {
+   "key": "id:155703",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Бочки с дождевой водой и кровью.",
+   "note": "",
+   "reason": "Мелкий клаттер, может пересекаться с Rally's Barrels."
+  },
+  {
+   "key": "id:134836",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые койки в тавернах и лачугах: меши с вариациями цвета через BOS.",
+   "note": "Меши без DLL, требует Base Object Swapper VR из ядра. Имя основного файла сверить на странице.",
+   "reason": "Койки в тавернах видны вплотную, два VR-списка; общий слот кроватей."
+  },
+  {
+   "key": "id:131560",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Дворфские кровати, два варианта.",
+   "note": "",
+   "reason": "Нишевая замена; Cozy Cots покрывает кровати."
+  },
+  {
+   "key": "id:131951",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Кровати и мебель тёмных эльфов в 3D.",
+   "note": "",
+   "reason": "Нишевая мебель данмеров, не покрывает основной мир."
+  },
+  {
+   "key": "id:72011",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новый меш и 2K-текстуры Звезды Азуры.",
+   "note": "",
+   "reason": "Один квестовый предмет, низкая ценность."
+  },
+  {
+   "key": "id:91613",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Замена ванильных столов FYX (Lux-вариант).",
+   "note": "",
+   "reason": "Дубль Vanilla Table Replacers, уже взятого в round2."
+  },
+  {
+   "key": "id:78848",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новая модель и растение чеснока.",
+   "note": "",
+   "reason": "Мелочь, низкая ценность."
+  },
+  {
+   "key": "id:46531",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-замена мешей и текстур драгоценных камней: камни берут и рассматривают в руке.",
+   "note": "Меши и текстуры без DLL. При нехватке VRAM брать kagrumez gems 1K. Перекрытия с Skyland и Rally проверить.",
+   "reason": "Предмет в руке, эффект виден сразу, VR-список есть."
+  },
+  {
+   "key": "id:33791",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD-меши и текстуры шкур, когтей и костей животных.",
+   "note": "",
+   "reason": "Текстуры дороги по VRAM, предметы мелкие, VR-списков нет."
+  },
+  {
+   "key": "id:131542",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Разнообразные сумки-сатчели через BOS.",
+   "note": "",
+   "reason": "Низкая ценность; сумки уже покрыты Bandolier из inventory."
+  },
+  {
+   "key": "id:123874",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Мясо хоркера в новом виде, 1K.",
+   "note": "",
+   "reason": "Мелкий предмет, низкая ценность."
+  },
+  {
+   "key": "id:151874",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Замена куч сена с вариациями цвета через BOS: сено на каждой ферме.",
+   "note": "Брать вариант без Parallax, если есть в FOMOD: параллакс в VR на Open Shaders не подтверждён. Требует BOS VR.",
+   "reason": "Дёшево, сено на каждой ферме, VR-список есть."
+  },
+  {
+   "key": "id:45734",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Переработанные парагоновые самоцветы Забытой долины.",
+   "note": "",
+   "reason": "Нишевая локация Dawnguard."
+  },
+  {
+   "key": "id:114607",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Кровати знати через BOS.",
+   "note": "",
+   "reason": "Нишевая замена; Cozy Cots покрывает кровати."
+  },
+  {
+   "key": "id:73802",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Клатер и обстановка в логовах вампиров через BOS, LITE-версия.",
+   "note": "",
+   "reason": "Нагрузка на CPU от клаттера в VR, нишевые ячейки."
+  },
+  {
+   "key": "id:48160",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Улучшенные тыквы и гарды.",
+   "note": "",
+   "reason": "Мелкая еда, низкая ценность."
+  },
+  {
+   "key": "id:68236",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры клеток в подземельях и лагерях.",
+   "note": "",
+   "reason": "Мелкий клаттер, низкая ценность против VRAM."
+  }
+ ]
+}

@@ -1,0 +1,752 @@
+{
+ "adjustments": [
+  {
+   "key": "id:1937",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Окна только для не-PBR пути; в PBR-пути окна уже даёт Faultier's."
+  },
+  {
+   "key": "id:68793",
+   "action": "keep",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Серия Cathedral 3D, включает Dragons Tongue."
+  },
+  {
+   "key": "id:5442",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:5795",
+   "action": "regroup",
+   "section": "tex_clutter",
+   "tag": "alt",
+   "choose_one_group": "clutter-style",
+   "reason": "Альтернатива Skyland Bits and Bobs; группа переименована."
+  },
+  {
+   "key": "id:38760",
+   "action": "keep",
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дополняет Cubemap Reflections, не дубль."
+  },
+  {
+   "key": "id:46708",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ставить ниже Dibella statue."
+  },
+  {
+   "key": "id:73849",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:22160",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:5785",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:75610",
+   "action": "retag",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пересекается с Stony AF и дворфской частью Faultier's PBR; не явный победитель."
+  },
+  {
+   "key": "id:48209",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:19421",
+   "action": "regroup",
+   "section": "tex_land",
+   "tag": "alt",
+   "choose_one_group": "landscape",
+   "reason": "Классический вариант в общей группе ландшафта вместе с PBR-паками."
+  },
+  {
+   "key": "id:69933",
+   "action": "keep",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Аддон к Cathedral Snowberries из #41312."
+  },
+  {
+   "key": "id:46564",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:3333",
+   "action": "keep",
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ставить до генерации DynDOLOD; цвет LOD может не совпасть с PBR-текстурами."
+  },
+  {
+   "key": "id:66903",
+   "action": "keep",
+   "section": "tex_land",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Нужен Seasons of Skyrim и совместимость с выбранным паком ландшафта."
+  },
+  {
+   "key": "id:5436",
+   "action": "move_section",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "RUGNAROK — ретекстур ковров, а не скал (скалы даёт ERM); описание ошибочно. В клаттер, opt."
+  },
+  {
+   "key": "id:34684",
+   "action": "retag",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Хорошее дополнение, но не основа."
+  },
+  {
+   "key": "id:44644",
+   "action": "keep",
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:7849",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ставить ниже крупных паков клаттера."
+  },
+  {
+   "key": "id:44553",
+   "action": "keep",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:51493",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:68815",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Обязательная база для Stony AF Markarth PBR (#127407)."
+  },
+  {
+   "key": "id:66418",
+   "action": "keep",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:29695",
+   "action": "retag",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Мелкое дополнение; проверить пересечение с Tomato's Solitude и Faultier's."
+  },
+  {
+   "key": "id:48217",
+   "action": "keep",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:63330",
+   "action": "regroup",
+   "section": "tex_arch",
+   "tag": "alt",
+   "choose_one_group": "windhelm",
+   "reason": "Альтернатива Tomato's Windhelm (#174492)."
+  },
+  {
+   "key": "id:157788",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дополняет Nordic Stonewalls (#57686)."
+  },
+  {
+   "key": "id:111457",
+   "action": "regroup",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": "furniture-style",
+   "reason": "Часть серии Rally's мебели; против Rustic Furniture."
+  },
+  {
+   "key": "id:27041",
+   "action": "keep",
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Классика; с PBR-ландшафтом может не совпасть по стилю. Брать 2K."
+  },
+  {
+   "key": "id:110370",
+   "action": "regroup",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": "furniture-style",
+   "reason": "Основа серии Rally's мебели, выбор по умолчанию в группе."
+  },
+  {
+   "key": "id:113326",
+   "action": "regroup",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": "furniture-style",
+   "reason": "Серия Rally's; пересекается с мебелью Noble Skyrim."
+  },
+  {
+   "key": "id:112256",
+   "action": "regroup",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": "furniture-style",
+   "reason": "Серия Rally's мебели."
+  },
+  {
+   "key": "id:47608",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "В PBR-пути пересекается с кораблями Faultier's."
+  },
+  {
+   "key": "id:123987",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только вместе с RUGNAROK, ниже него."
+  },
+  {
+   "key": "id:85097",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Complex Parallax в VR на Open Shaders не подтверждён."
+  },
+  {
+   "key": "id:65238",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Хлеб пересекается с Realistic HD Food; ставить выше."
+  },
+  {
+   "key": "id:103077",
+   "action": "keep",
+   "section": "tex_water_sky",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "VR-специфичный, дешёвый, явный выигрыш."
+  },
+  {
+   "key": "id:41972",
+   "action": "retag",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Узкий пак Солстхейма — не ключевой."
+  },
+  {
+   "key": "id:64905",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:89057",
+   "action": "keep",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:97713",
+   "action": "keep",
+   "section": "tex_water_sky",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Меши воды могут конфликтовать с водными модами ядра."
+  },
+  {
+   "key": "id:59741",
+   "action": "keep",
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Лишний, если выбран Vanaheimr Landscapes AIO (там есть Soul Cairn)."
+  },
+  {
+   "key": "id:58263",
+   "action": "keep",
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:66598",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:73421",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дополняет Book Covers, не дубль."
+  },
+  {
+   "key": "id:52909",
+   "action": "keep",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:90476",
+   "action": "keep",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ниже Icy Mesh Remaster (#73381)."
+  },
+  {
+   "key": "id:901",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:38775",
+   "action": "keep",
+   "section": "tex_strategy",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Самый нижний слой текстур."
+  },
+  {
+   "key": "id:51788",
+   "action": "retag",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Одна локация, тяжёлые меши — не явный победитель."
+  },
+  {
+   "key": "id:103182",
+   "action": "keep",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:61553",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ставить выше Iconic Statues, если та трогает Дибеллу."
+  },
+  {
+   "key": "id:110869",
+   "action": "regroup",
+   "section": "tex_water_sky",
+   "tag": "alt",
+   "choose_one_group": "night-sky",
+   "reason": "Тоже заменяет ночное небо; альтернатива Realistic Galaxy (#111458)."
+  },
+  {
+   "key": "id:52423",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:80418",
+   "action": "keep",
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:75481",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Кровати пересекаются с Rally's Common Furniture — проверить порядок."
+  },
+  {
+   "key": "id:21996",
+   "action": "retag",
+   "section": "tex_flora",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Грибы пересекаются с Cathedral PBR Plants (#135836)."
+  },
+  {
+   "key": "id:89215",
+   "action": "keep",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:22087",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:45917",
+   "action": "keep",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:85866",
+   "action": "drop_duplicate",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Dragons Tongue уже входит в серию Cathedral 3D plants (#68793)."
+  },
+  {
+   "key": "id:43852",
+   "action": "keep",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:35546",
+   "action": "keep",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:42643",
+   "action": "keep",
+   "section": "tex_land",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только с Blended Roads (#8834), ниже него."
+  },
+  {
+   "key": "id:165354",
+   "action": "keep",
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:71189",
+   "action": "keep",
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Правка Obsidian Mountain Fogs (#13539), ниже него."
+  },
+  {
+   "key": "id:120229",
+   "action": "keep",
+   "section": "tex_dungeons",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Parallax в VR не подтверждён; пересекается с текстурами пещер."
+  },
+  {
+   "key": "id:150727",
+   "action": "regroup",
+   "section": "tex_arch",
+   "tag": "alt",
+   "choose_one_group": "doors-gdos",
+   "reason": "PBR-вариант GDOS (#32376); группа переименована."
+  },
+  {
+   "key": "id:85285",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Мосты пересекаются с Blended Roads — ставить ниже."
+  },
+  {
+   "key": "id:73090",
+   "action": "keep",
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:80069",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ниже Book Covers Skyrim."
+  },
+  {
+   "key": "id:155815",
+   "action": "retag",
+   "section": "tex_clutter",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Complex Material/PBR в VR на Open Shaders не подтверждён."
+  },
+  {
+   "key": "id:51191",
+   "action": "keep",
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:15891",
+   "action": "keep",
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:39640",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:113558",
+   "action": "keep",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Шкуры в лагерях: ставить выше Peltapalooza."
+  },
+  {
+   "key": "id:71680",
+   "action": "retag",
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Сундуки пересекаются со SMIM и Rudy HQ Nordic Ruins; не явный победитель."
+  }
+ ],
+ "groups": [
+  {
+   "group": "landscape",
+   "members": [
+    "Sloppy Vanilla Landscapes - Parallax and PBR (#143767)",
+    "Vanaheimr - Landscapes - AIO (#145439)",
+    "TomatoRim PBR - Landscapes AIO (#177621)",
+    "MystiriousDawn's HD Skyrim Overhaul (#19421)"
+   ],
+   "default_pick": "Sloppy Vanilla Landscapes - Parallax and PBR (#143767)",
+   "rule": "Один основной пак ландшафта; MystiriousDawn's — если PBR в VR не заработал."
+  },
+  {
+   "group": "arch-base",
+   "members": [
+    "Faultier's PBR Skyrim (#125308)",
+    "Vanilla PBR AIO (#174091)",
+    "Noble Skyrim Mod HD-2K (#21423)"
+   ],
+   "default_pick": "Faultier's PBR Skyrim (#125308)",
+   "rule": "Одна база архитектуры; Noble — классический путь."
+  },
+  {
+   "group": "whiterun",
+   "members": [
+    "Tomato's Whiterun Remake - PBR (#173747)",
+    "Illustrious Whiterun SE (#28950)"
+   ],
+   "default_pick": "Tomato's Whiterun Remake - PBR (#173747)",
+   "rule": "Один пак Вайтрана."
+  },
+  {
+   "group": "windhelm",
+   "members": [
+    "Tomato's Windhelm - PBR or Complex Material (#174492)",
+    "Ancient AF Windhelm - Windhelm Retextured (#63330)"
+   ],
+   "default_pick": "Tomato's Windhelm - PBR or Complex Material (#174492)",
+   "rule": "Один пак Виндхельма; Ancient AF — без PBR."
+  },
+  {
+   "group": "doors-gdos",
+   "members": [
+    "Glorious Doors of Skyrim (GDOS) SE (#32376)",
+    "Glorious Doors of Skyrim (GDOS) SE PBR (#150727)"
+   ],
+   "default_pick": "Glorious Doors of Skyrim (GDOS) SE (#32376)",
+   "rule": "Один вариант GDOS по выбранному пути (PBR или классика)."
+  },
+  {
+   "group": "clutter-style",
+   "members": [
+    "Skyland Bits and Bobs - A Clutter Overhaul (#95032)",
+    "RUSTIC CLUTTER COLLECTION - Special Edition (#5795)"
+   ],
+   "default_pick": "Skyland Bits and Bobs - A Clutter Overhaul (#95032)",
+   "rule": "Один стиль мелкого клаттера."
+  },
+  {
+   "group": "furniture-style",
+   "members": [
+    "Rally's Common Furniture (#110370)",
+    "Rally's Noble Furniture (#113326)",
+    "Rally's Upper Furniture (#112256)",
+    "Rally's Orc Furniture (#111457)",
+    "RUSTIC FURNITURE - SPECIAL EDITION (#17228)"
+   ],
+   "default_pick": "Rally's Common Furniture (#110370)",
+   "rule": "Либо серия Rally's (всеми частями), либо Rustic Furniture."
+  },
+  {
+   "group": "dungeon-style",
+   "members": [
+    "Vanaheimr - Mines and Caves (#137033)",
+    "Underground - a dungeon texture overhaul (#14365)"
+   ],
+   "default_pick": "Vanaheimr - Mines and Caves (#137033)",
+   "rule": "Один пак пещер и подземелий."
+  },
+  {
+   "group": "trees-pbr",
+   "members": [
+    "Tomato's Vanilla Trees PBR (#139375)",
+    "Happy Little Trees - PBR (#159171)"
+   ],
+   "default_pick": "Tomato's Vanilla Trees PBR (#139375)",
+   "rule": "Один PBR-слой деревьев поверх HLT."
+  },
+  {
+   "group": "night-sky",
+   "members": [
+    "Realistic Galaxy (#111458)",
+    "Rally's Celestial Canvas (#110869)"
+   ],
+   "default_pick": "Realistic Galaxy (#111458)",
+   "rule": "Одна текстура ночного неба."
+  }
+ ],
+ "order_rules": [
+  "Cleaned Skyrim SE Textures — в самом низу, под всеми текстурами.",
+  "Меши ниже текстур: SMIM → Rally's мебель / Better Chests / Use Those Blankets → паки текстур → PBR-конверсии (SMIM PBR, Ruins Clutter PBR, PBR Hub) сразу над своей базой.",
+  "Ландшафт: основной пак (Sloppy) → Northern Shores / Seasonal Landscapes → Blended Roads → Misc. Blended Road Fixes → Parallax Bridges and Roads.",
+  "Скалы: ERM → ERM Fix and Addon → ERM DynDOLOD Add-On.",
+  "Архитектура: Faultier's (база) ниже городских паков Tomato's; Stony AF Markarth → Ancient Dwemer Metal → Stony AF Markarth PBR.",
+  "RUGNAROK → Fixed Meshes for Rugnarok; Peltapalooza → WiZkiD Hunter's Camp → Peltapalooza CPO.",
+  "Icy Mesh Remaster → Icy Cave Remaster; Obsidian Mountain Fogs → Obsidian Mountain Fogs Tweaked.",
+  "Cathedral 3D plants / 3D-цветы → Snowberries-аддон → Cathedral PBR Plants (только если PBR-файлы под эти меши).",
+  "Iconic Statues → Dibella statue; Book Covers Skyrim → Rally's Spell Tomes; Realistic HD Food → Retexture Soup/Bread.",
+  "HD LODs Textures и все паки текстур ставить до генерации DynDOLOD; после смены текстур пересобрать LOD.",
+  "Paraphernalia VRAMr — последним по всему набору, его вывод в самом верху."
+ ],
+ "conflicts": [
+  "RUGNAROK (#5436): в описании скалы и горы, на деле это ретекстур ковров — перенесён в клаттер; скалы покрывает ERM.",
+  "Rustic Furniture (#17228) в первом проходе стоит в группе clutter_style, но это мебель — её реальный конкурент серия Rally's, а не Skyland.",
+  "Realistic HD Mushrooms (#21996) и Cathedral PBR Plants (#135836) заменяют одни и те же грибы.",
+  "Rally's Noble Furniture (#113326) пересекается с мебелью Noble Skyrim (#21423), если выбран классический путь.",
+  "Rustic Windows (#1937) и Boreal Boats (#47608) пересекаются с окнами и кораблями Faultier's PBR (#125308).",
+  "Soul Cairn HD (#59741) лишний при Vanaheimr Landscapes AIO (#145439).",
+  "Cave Rocks Improved (#120229) пересекается с Vanaheimr Mines and Caves / Underground.",
+  "Better Chests (#71680) пересекается с сундуками SMIM и Rudy HQ Nordic Ruins (#19365).",
+  "Northern Shores (#27041) и Seasonal Landscapes (#66903) — классические текстуры земли поверх PBR-ландшафта, возможен разнобой по стилю.",
+  "Cathedral 3D plants (#68793) может пересекаться с кустами Diverse PBR shrubs (#154489)."
+ ],
+ "notes": "Дубль убран один: Rally's Cathedral 3D Dragons Tongue (входит в серию #68793). rec оставлены только за Stony AF Markarth (база для #127407) и Cubemap Reflections (VR-специфичный). Complex Material/Parallax без подтверждения в VR — try. Группы из одного мода (vram_tool, terrain_noise, solitude, imperial_forts) убраны как ненужные. Порядок тел/брони к этой части не относится."
+}

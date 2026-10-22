@@ -1345,7 +1345,7 @@
   "key": "id:89960",
   "id": 89960,
   "name": "Iconic's Spiders of Skyrim Retexture",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1354,7 +1354,7 @@
   "key": "id:18817",
   "id": 18817,
   "name": "RUSTIC FROSTBITE SPIDER - Special Edition",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1372,7 +1372,7 @@
   "key": "id:78267",
   "id": 78267,
   "name": "Animals Swim (Sort of)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1399,7 +1399,7 @@
   "key": "id:70787",
   "id": 70787,
   "name": "Silver Objects SMIMed - Silver - Sovngarde - Thieves Guild - Vampire",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1408,7 +1408,7 @@
   "key": "id:84053",
   "id": 84053,
   "name": "SpiderWIP (Spiderweb)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1426,7 +1426,7 @@
   "key": "id:33845",
   "id": 33845,
   "name": "JK's The Bannered Mare (серия «JK's The...», 9 модов)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1435,7 +1435,7 @@
   "key": "id:14328",
   "id": 14328,
   "name": "Karstaag - The Frost King Reborn (Bloodmoon Creature Restoration Project) SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1471,7 +1471,7 @@
   "key": "id:68048",
   "id": 68048,
   "name": "FYX - 3D Solitude SighPost (серия «FYX 3D», 14 модов)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1498,7 +1498,7 @@
   "key": "id:53817",
   "id": 53817,
   "name": "College of Winterhold Quest Start Fixes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1507,7 +1507,7 @@
   "key": "id:3375",
   "id": 3375,
   "name": "Stunning Statues of Skyrim",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1543,7 +1543,7 @@
   "key": "id:48209",
   "id": 60495,
   "name": "ElSopa HD: Iron Tools Redone + Medieval Anvil (серия ElSopa HD)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1561,7 +1561,7 @@
   "key": "id:18107",
   "id": 18107,
   "name": "RUSTIC SPRIGGAN - Special Edition",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1570,7 +1570,7 @@
   "key": "id:29223",
   "id": 29223,
   "name": "Real Rabbits HD - Color Variants and High Poly Mesh with Fur",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1588,7 +1588,7 @@
   "key": "id:56361",
   "id": 56361,
   "name": "Fluffworks (Fluffy Animals)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1606,7 +1606,7 @@
   "key": "id:19421",
   "id": 19421,
   "name": "MystiriousDawn's HD Skyrim Overhaul",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1633,7 +1633,7 @@
   "key": "id:23007",
   "id": 23007,
   "name": "[серия «skyrim 3D», 7 модов] Skyrim 3D Cooking и др.",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1651,7 +1651,7 @@
   "key": "id:69933",
   "id": 69933,
   "name": "Cathedral Snowberries - Inventory - Wreath - Hearthfires Planter",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1660,7 +1660,7 @@
   "key": "id:32561",
   "id": 32561,
   "name": "Fix Note icon for SkyUI (SKSE64 plugin)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1669,7 +1669,7 @@
   "key": "id:51959",
   "id": 51959,
   "name": "JS Instruments of Skyrim SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1678,7 +1678,7 @@
   "key": "id:70595",
   "id": 70595,
   "name": "Lively cart driver animation replacer - SE or AE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1696,7 +1696,7 @@
   "key": "id:49305",
   "id": 49305,
   "name": "Whiterun Watchtower Doesn't Start Broken",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1705,7 +1705,7 @@
   "key": "id:72011",
   "id": 72011,
   "name": "ElSopa - Azura's Star Redone SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1714,7 +1714,7 @@
   "key": "id:46564",
   "id": 46564,
   "name": "My Road Signs are Beautiful - Multilingual HD Retexture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1741,7 +1741,7 @@
   "key": "id:76359",
   "id": 76359,
   "name": "Skyrim Landscape Overhaul - Stone Walls",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1750,7 +1750,7 @@
   "key": "id:41198",
   "id": 41198,
   "name": "Thrones of Skyrim",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1768,7 +1768,7 @@
   "key": "id:3333",
   "id": 3333,
   "name": "HD LODs Textures SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1777,7 +1777,7 @@
   "key": "id:146350",
   "id": 146350,
   "name": "Mountain LOD Helper",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1786,7 +1786,7 @@
   "key": "id:66903",
   "id": 66903,
   "name": "Seasonal Landscapes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1795,7 +1795,7 @@
   "key": "id:152390",
   "id": 152390,
   "name": "Hank's Heavy Terrain Noise",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1822,7 +1822,7 @@
   "key": "id:19608",
   "id": 19608,
   "name": "Encounter Zones Unlocked SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1831,7 +1831,7 @@
   "key": "id:68236",
   "id": 68236,
   "name": "JS Common Cages SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -1894,7 +1894,7 @@
   "key": "id:96876",
   "id": 96876,
   "name": "Gourmet - A Cooking Overhaul",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1939,7 +1939,7 @@
   "key": "id:66770",
   "id": 66770,
   "name": "JS Dwarven Oil SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1948,7 +1948,7 @@
   "key": "id:66578",
   "id": 66578,
   "name": "JS Essence Extractor SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1957,7 +1957,7 @@
   "key": "id:85447",
   "id": 85447,
   "name": "JS Knapsacks SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -1984,7 +1984,7 @@
   "key": "id:34684",
   "id": 34684,
   "name": "RUSTIC RELIEFS",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2047,7 +2047,7 @@
   "key": "id:44644",
   "id": 44644,
   "name": "Praedy's repository - SE (Lava Replacer)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2056,7 +2056,7 @@
   "key": "id:81764",
   "id": 81764,
   "name": "Rally's Display Cases",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2065,7 +2065,7 @@
   "key": "id:80828",
   "id": 80828,
   "name": "Rally's Handcarts",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2083,7 +2083,7 @@
   "key": "id:37302",
   "id": 37302,
   "name": "Butterfly Improved by zzjay - SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2101,7 +2101,7 @@
   "key": "id:2357",
   "id": 2357,
   "name": "Enhanced Blood Textures",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2119,7 +2119,7 @@
   "key": "id:7849",
   "id": 7849,
   "name": "Forgotten Retex Project",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2146,7 +2146,7 @@
   "key": "id:66261",
   "id": 66261,
   "name": "Praedy's Soul Cairn - SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2155,7 +2155,7 @@
   "key": "id:6142",
   "id": 6142,
   "name": "RUSTIC COOKING - Special Edition",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2164,7 +2164,7 @@
   "key": "id:114178",
   "id": 114178,
   "name": "Rally's Barsets",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2173,7 +2173,7 @@
   "key": "id:18147",
   "id": 18147,
   "name": "SUEMR SSE with Bijin AIO 2019 Support",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2227,7 +2227,7 @@
   "key": "id:125527",
   "id": 125527,
   "name": "Parallax Textures For Vanilla Game and Various Mods",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2236,7 +2236,7 @@
   "key": "id:140780",
   "id": 140780,
   "name": "Realistic PBR Footprints",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2245,7 +2245,7 @@
   "key": "id:139443",
   "id": 139443,
   "name": "Journeyman VR",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2272,7 +2272,7 @@
   "key": "id:150302",
   "id": 150302,
   "name": "Colorful Compass Markers VR",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2299,7 +2299,7 @@
   "key": "id:44553",
   "id": 44553,
   "name": "Improved Dwemer Glass",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2317,7 +2317,7 @@
   "key": "id:33565",
   "id": 33565,
   "name": "JK's Arcadia's Cauldron",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2362,7 +2362,7 @@
   "key": "id:24324",
   "id": 24324,
   "name": "Medieval Candlehorns and Sconces",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2371,7 +2371,7 @@
   "key": "id:51493",
   "id": 51493,
   "name": "Praedy's Castle Volkihar - SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2380,7 +2380,7 @@
   "key": "id:81282",
   "id": 81282,
   "name": "Rally's Market Stalls - Animated",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2398,7 +2398,7 @@
   "key": "id:88936",
   "id": 88936,
   "name": "ALT - Markarth's Forge",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2425,7 +2425,7 @@
   "key": "id:62219",
   "id": 62219,
   "name": "JK's High Hrothgar",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2452,7 +2452,7 @@
   "key": "id:48293",
   "id": 48293,
   "name": "JK's New Gnisis Cornerclub",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2470,7 +2470,7 @@
   "key": "id:53554",
   "id": 53554,
   "name": "JK's Silver-Blood Inn",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2479,7 +2479,7 @@
   "key": "id:33685",
   "id": 33685,
   "name": "JK's Warmaiden's",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2497,7 +2497,7 @@
   "key": "id:56371",
   "id": 56371,
   "name": "[серия «jk's temple», 4 модов] JK's Temple of Dibella и др.",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2515,7 +2515,7 @@
   "key": "id:131560",
   "id": 131560,
   "name": "Deep Slumber - A Dwemer Bed Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2551,7 +2551,7 @@
   "key": "id:103807",
   "id": 103807,
   "name": "FYX - Campfire Reacts to the Wind - EmbersXD Edition",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2578,7 +2578,7 @@
   "key": "id:116314",
   "id": 116314,
   "name": "JK's Castle Volkihar",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2605,7 +2605,7 @@
   "key": "id:104980",
   "id": 104980,
   "name": "JS Solitude Sewer Cover SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2614,7 +2614,7 @@
   "key": "id:66418",
   "id": 66418,
   "name": "Overlooked Dungeon Objects Retextures",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2623,7 +2623,7 @@
   "key": "id:70854",
   "id": 70854,
   "name": "Riften Architectural Details",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2632,7 +2632,7 @@
   "key": "id:40021",
   "id": 40021,
   "name": "Riften Docks Overhaul",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2641,7 +2641,7 @@
   "key": "id:29695",
   "id": 29695,
   "name": "Solitude and Temple Frescoes 2019",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2650,7 +2650,7 @@
   "key": "id:23107",
   "id": 23107,
   "name": "Tavern AI fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2677,7 +2677,7 @@
   "key": "id:56973",
   "id": 56973,
   "name": "3D Riften Trellis and Roofs",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2686,7 +2686,7 @@
   "key": "id:42472",
   "id": 42472,
   "name": "3D Solitude Market Trellis",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2704,7 +2704,7 @@
   "key": "id:97542",
   "id": 97542,
   "name": "Candlehearth - An Inn Overhaul",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2713,7 +2713,7 @@
   "key": "id:26103",
   "id": 26103,
   "name": "Cathedral - Mushrooms",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2722,7 +2722,7 @@
   "key": "id:86964",
   "id": 86964,
   "name": "FYX - The first Rampart and Watchtower of Solitude",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2731,7 +2731,7 @@
   "key": "id:91613",
   "id": 91613,
   "name": "FYX - Vanilla Table Replacers - and Addon",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2740,7 +2740,7 @@
   "key": "id:8766",
   "id": 8766,
   "name": "Farmhouse Chimneys SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2767,7 +2767,7 @@
   "key": "id:65676",
   "id": 65676,
   "name": "JK's College of Winterhold",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2776,7 +2776,7 @@
   "key": "id:128116",
   "id": 128116,
   "name": "JK's Nightingale Hall",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2785,7 +2785,7 @@
   "key": "id:151512",
   "id": 151512,
   "name": "JK's Tel Mithryn",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2794,7 +2794,7 @@
   "key": "id:22653",
   "id": 22653,
   "name": "Misc. College of Winterhold Tweaks",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2803,7 +2803,7 @@
   "key": "id:48217",
   "id": 48217,
   "name": "Praedy's Fort Dawnguard - SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2812,7 +2812,7 @@
   "key": "id:114409",
   "id": 114409,
   "name": "Rally's Chests SMIM",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2839,7 +2839,7 @@
   "key": "id:76169",
   "id": 76169,
   "name": "Riften Temple Sconce Fix",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2848,7 +2848,7 @@
   "key": "id:92592",
   "id": 92592,
   "name": "Stairs of Safety - Farmhouses",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2857,7 +2857,7 @@
   "key": "id:39704",
   "id": 39704,
   "name": "Armor Mesh Fixes SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2866,7 +2866,7 @@
   "key": "id:19002",
   "id": 19002,
   "name": "Armor and Clothing Extension",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2875,7 +2875,7 @@
   "key": "id:37737",
   "id": 37737,
   "name": "Believable weapons",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2893,7 +2893,7 @@
   "key": "id:51082",
   "id": 51082,
   "name": "Praedy and Willow's elder scroll and elder council amulet replacers - SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2902,7 +2902,7 @@
   "key": "id:110655",
   "id": 110655,
   "name": "Robes Retexture SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -2911,7 +2911,7 @@
   "key": "id:81046",
   "id": 81046,
   "name": "Dwemer Armor SE (серия: основа + 3BA + Xtudo fixes)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2956,7 +2956,7 @@
   "key": "id:82682",
   "id": 82682,
   "name": "Rally's Weapon Racks",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2983,7 +2983,7 @@
   "key": "id:108315",
   "id": 108315,
   "name": "Snazzy Mesh Fixes - Windhelm Interiors",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -2992,7 +2992,7 @@
   "key": "id:78399",
   "id": 78399,
   "name": "Stairs of Skyrim - Windhelm Bridge Stairs",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3073,7 +3073,7 @@
   "key": "id:63330",
   "id": 63330,
   "name": "Ancient AF Windhelm - Windhelm Retextured",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3091,7 +3091,7 @@
   "key": "id:6308",
   "id": 6308,
   "name": "Heavy Armory - New Weapons",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3154,7 +3154,7 @@
   "key": "id:18994",
   "id": 18994,
   "name": "Weapons Armor Clothing and Clutter Fixes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3163,7 +3163,7 @@
   "key": "id:104972",
   "id": 104972,
   "name": "Windhelm - Palace of King meshes fix",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3172,7 +3172,7 @@
   "key": "id:80232",
   "id": 80232,
   "name": "Beard Mask Fix - Beards Use Slot 44 SKSE Plugin",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3181,7 +3181,7 @@
   "key": "id:43389",
   "id": 43389,
   "name": "Flawn's Vanilla Argonians Redux - UNP CBBE SOS",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3217,7 +3217,7 @@
   "key": "id:186",
   "id": 186,
   "name": "Masculine Khajiit Textures (Grey Cat and Leopard)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3226,7 +3226,7 @@
   "key": "id:38544",
   "id": 38544,
   "name": "Venerable Nordic Temples (2K - 4K)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3235,7 +3235,7 @@
   "key": "id:25204",
   "id": 25204,
   "name": "Ziovendian Bodypaint - Designs of the Lupine - RaceMenu Overlays",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3262,7 +3262,7 @@
   "key": "id:34552",
   "id": 34552,
   "name": "Feral - Claw Unarmed Attacks for Beast Races - Vampires - Werewolves",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3271,7 +3271,7 @@
   "key": "id:115210",
   "id": 115210,
   "name": "Nordic Stonewall Terraces",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3289,7 +3289,7 @@
   "key": "id:121203",
   "id": 121203,
   "name": "Utenlands Nordic Tents - Replacer and Campfire Addon",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3316,7 +3316,7 @@
   "key": "id:115201",
   "id": 115201,
   "name": "Tomato's Wood - Stockades - Mines - Dungeons and ropes (серия 4k 2k 1k)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3343,7 +3343,7 @@
   "key": "id:71067",
   "id": 71067,
   "name": "CoverKhajiits - Face Textures 4K SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3352,7 +3352,7 @@
   "key": "id:131951",
   "id": 131951,
   "name": "Dunmer Dreams - A Dark Elf Bed Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3388,7 +3388,7 @@
   "key": "id:42577",
   "id": 42577,
   "name": "Imperial Saddle Retexture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3397,7 +3397,7 @@
   "key": "id:133717",
   "id": 133717,
   "name": "Malacath's Chosen - An Orc Furniture Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3415,7 +3415,7 @@
   "key": "id:157788",
   "id": 157788,
   "name": "Nordic Farmfield Stonewalls",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3424,7 +3424,7 @@
   "key": "id:46872",
   "id": 46872,
   "name": "Rally's Nord War Horns (High Poly)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3433,7 +3433,7 @@
   "key": "id:132811",
   "id": 132811,
   "name": "Reclusive Respite - A High Hrothgar Bed Chair and Bench Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3451,7 +3451,7 @@
   "key": "id:87642",
   "id": 87642,
   "name": "Vestal Body 3BA - Lazarus Bodyslide Presets",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3460,7 +3460,7 @@
   "key": "id:20514",
   "id": 20514,
   "name": "Obscure's College of Winterhold (серия из 5 модов)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3478,7 +3478,7 @@
   "key": "id:107380",
   "id": 107380,
   "name": "AW True Warrior Bodyslide Preset for HIMBO",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3487,7 +3487,7 @@
   "key": "id:2014",
   "id": 2014,
   "name": "Apachii Sky Hair SSE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3523,7 +3523,7 @@
   "key": "id:131210",
   "id": 131210,
   "name": "Eyes Nouveaux",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3532,7 +3532,7 @@
   "key": "id:66156",
   "id": 66156,
   "name": "FA ORCODONTIST - Orsimer Mouth and Teeth Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3550,7 +3550,7 @@
   "key": "id:94483",
   "id": 94483,
   "name": "Kala's Eyes - Improved",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3577,7 +3577,7 @@
   "key": "id:20382",
   "id": 20382,
   "name": "Nordic Ruins of Skyrim SSE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3586,7 +3586,7 @@
   "key": "id:56872",
   "id": 56872,
   "name": "Pomona Amphora Bodyslide Preset for CBBE-3BA-3BBB and BHUNP",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3595,7 +3595,7 @@
   "key": "id:111457",
   "id": 111457,
   "name": "Rally's Orc Furniture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3613,7 +3613,7 @@
   "key": "id:76257",
   "id": 76257,
   "name": "Snowy Surfaces Sound Collision and Aesthetics",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3640,7 +3640,7 @@
   "key": "id:22178",
   "id": 22178,
   "name": "Spice of Life - Orc Strongholds SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3649,7 +3649,7 @@
   "key": "id:96970",
   "id": 96970,
   "name": "Stand still in RaceMenu (OAR)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3667,7 +3667,7 @@
   "key": "id:118892",
   "id": 118892,
   "name": "The Royal Seat - A Noble Bench Chair and Throne Replacer",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3703,7 +3703,7 @@
   "key": "id:65849",
   "id": 65849,
   "name": "King Olaf's Fire Festival Not Ending Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3712,7 +3712,7 @@
   "key": "id:27041",
   "id": 27041,
   "name": "Northern Shores SE - 8K",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3721,7 +3721,7 @@
   "key": "id:110370",
   "id": 110370,
   "name": "Rally's Common Furniture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3730,7 +3730,7 @@
   "key": "id:113326",
   "id": 113326,
   "name": "Rally's Noble Furniture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3739,7 +3739,7 @@
   "key": "id:112256",
   "id": 112256,
   "name": "Rally's Upper Furniture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3748,7 +3748,7 @@
   "key": "id:55852",
   "id": 55852,
   "name": "Rudification - Rudy Candles Expanded",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3757,7 +3757,7 @@
   "key": "id:90508",
   "id": 90508,
   "name": "The Handy Icon Collection Collective for I4",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3784,7 +3784,7 @@
   "key": "id:92845",
   "id": 92845,
   "name": "Adoption Spouse and Moving Fixes",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3793,7 +3793,7 @@
   "key": "id:47608",
   "id": 47608,
   "name": "Boreal Boats SE - 8K - Parallax",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3802,7 +3802,7 @@
   "key": "id:123987",
   "id": 123987,
   "name": "Fixed Meshes for Rugnarok",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3811,7 +3811,7 @@
   "key": "id:104322",
   "id": 104322,
   "name": "JS Embalming Tools SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3847,7 +3847,7 @@
   "key": "id:85097",
   "id": 85097,
   "name": "Peltapalooza - Complex Parallax Occlusion",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3856,7 +3856,7 @@
   "key": "id:2276",
   "id": 2276,
   "name": "RUSTIC ANIMATED POTIONS and POISONS",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3865,7 +3865,7 @@
   "key": "id:85322",
   "id": 85322,
   "name": "Rally's Bees And More (High Poly)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3874,7 +3874,7 @@
   "key": "id:32329",
   "id": 32329,
   "name": "Source of Stalhrim Quest Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3883,7 +3883,7 @@
   "key": "id:80493",
   "id": 80493,
   "name": "WeldingMans Enchanting Table Variants (BOS)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3892,7 +3892,7 @@
   "key": "id:74816",
   "id": 74816,
   "name": "WeldingMans Smelter with ENB Light",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3901,7 +3901,7 @@
   "key": "id:65238",
   "id": 65238,
   "name": "Retexture for Soup, Bread и The Scroll (quilb)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3910,7 +3910,7 @@
   "key": "id:35382",
   "id": 35382,
   "name": "aMidianBorn Book of Silence SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3919,7 +3919,7 @@
   "key": "id:39260",
   "id": 39260,
   "name": "Dlizzio's Mesh Fixes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3937,7 +3937,7 @@
   "key": "id:65974",
   "id": 65974,
   "name": "Fluffworks - Better Photoreal Foxes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -3946,7 +3946,7 @@
   "key": "id:45734",
   "id": 45734,
   "name": "Iconic's Remastered Paragon Gems",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3964,7 +3964,7 @@
   "key": "id:52743",
   "id": 52743,
   "name": "Oblivion Interaction Icons",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3973,7 +3973,7 @@
   "key": "id:132695",
   "id": 132695,
   "name": "Redoran Reverie - A Dunmer Furniture Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -3982,7 +3982,7 @@
   "key": "id:138889",
   "id": 138889,
   "name": "Rustic Repose - A Common Bed Replacer",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4000,7 +4000,7 @@
   "key": "id:91403",
   "id": 91403,
   "name": "World Encounter Hostility Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4018,7 +4018,7 @@
   "key": "id:64524",
   "id": 64524,
   "name": "Bright Falling Leaves Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4027,7 +4027,7 @@
   "key": "id:44249",
   "id": 44249,
   "name": "Chillwind Depths CTD Fix",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4045,7 +4045,7 @@
   "key": "id:168016",
   "id": 168016,
   "name": "DrJacopo's - 3D Maple Sapling",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4063,7 +4063,7 @@
   "key": "id:90996",
   "id": 90996,
   "name": "MQ104PlayerScript Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4099,7 +4099,7 @@
   "key": "id:28108",
   "id": 28108,
   "name": "The Northerner Diaries - Immersive Edition (music by Jeremy Soule)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4108,7 +4108,7 @@
   "key": "id:47639",
   "id": 47639,
   "name": "Trattatello - Calligraphic Book Font",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4171,7 +4171,7 @@
   "key": "id:34000",
   "id": 34000,
   "name": "JK's Dragonsreach",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4180,7 +4180,7 @@
   "key": "id:89148",
   "id": 89148,
   "name": "SMIM hanging rabbits shell-textured",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4198,7 +4198,7 @@
   "key": "id:42639",
   "id": 42639,
   "name": "The Great Villages/Towns (Kynesgrove, Mixwater Mill, Old Hroldan, Ivarstead, Karthwasten, Shor's Stone, Dragon Bridge) + Patch Collections",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4234,7 +4234,7 @@
   "key": "id:42514",
   "id": 42514,
   "name": "Horse Shoulder Harness Retexture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4243,7 +4243,7 @@
   "key": "id:41972",
   "id": 41972,
   "name": "Remiros' Dragonborn Alcohol HD",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4252,7 +4252,7 @@
   "key": "id:85647",
   "id": 85647,
   "name": "Ryn's Dragon Mounds Collection",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4270,7 +4270,7 @@
   "key": "id:87746",
   "id": 87746,
   "name": "Vampires have Claws",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4288,7 +4288,7 @@
   "key": "id:41929",
   "id": 41929,
   "name": "MM - Real Elks (+ Real Skeevers 95106)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4297,7 +4297,7 @@
   "key": "id:142315",
   "id": 142315,
   "name": "slightly Better Bunting (+ slightly Better Scrolls)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4306,7 +4306,7 @@
   "key": "id:33789",
   "id": 33789,
   "name": "Better Bats",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4315,7 +4315,7 @@
   "key": "id:4974",
   "id": 4974,
   "name": "DRAGON PRIEST",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4342,7 +4342,7 @@
   "key": "id:58612",
   "id": 58612,
   "name": "EMPEROR - Giant Crab Overhaul",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4360,7 +4360,7 @@
   "key": "id:64905",
   "id": 64905,
   "name": "Kanjs - Bird Nests and Eggs",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4378,7 +4378,7 @@
   "key": "id:38510",
   "id": 38510,
   "name": "Mount Anthor Dragon Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4396,7 +4396,7 @@
   "key": "id:69570",
   "id": 69570,
   "name": "SSS-CT - Slaughterfish Stay Submerged - Collision Tweak",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4405,7 +4405,7 @@
   "key": "id:39356",
   "id": 39356,
   "name": "Unreal 4K-8K Mammoth Skeleton ReTexture",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4414,7 +4414,7 @@
   "key": "id:58511",
   "id": 58511,
   "name": "Wall mounted dead animals fixes",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4423,7 +4423,7 @@
   "key": "id:42508",
   "id": 42508,
   "name": "Yee Haaaa Horse Saddle Retexture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4432,7 +4432,7 @@
   "key": "id:105376",
   "id": 105376,
   "name": "[серия «vanargand animations», 3 модов] Vanargand Animations II - Unarmed Non Combat Locomotion и др.",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4441,7 +4441,7 @@
   "key": "id:140627",
   "id": 140627,
   "name": "Addons For Dragons SE - Including Broken Horn for Paarthurnax",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4477,7 +4477,7 @@
   "key": "id:72978",
   "id": 72978,
   "name": "Dynamic Animal Variants SPID (Updated Textures - Fixes - Improvements - And More)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4486,7 +4486,7 @@
   "key": "id:33791",
   "id": 33791,
   "name": "HD Meshes and Textures for Animal and Creature Drops",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4495,7 +4495,7 @@
   "key": "id:73802",
   "id": 73802,
   "name": "Immersive Vampire Clutter - Base Object Swapper (BOS)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4540,7 +4540,7 @@
   "key": "id:90547",
   "id": 90547,
   "name": "Spriggans SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4549,7 +4549,7 @@
   "key": "id:53050",
   "id": 53050,
   "name": "Strike Obstruction Systems - Combat Blocking Overhaul",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4558,7 +4558,7 @@
   "key": "id:63153",
   "id": 63153,
   "name": "Surreal Spriggan Sap",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4576,7 +4576,7 @@
   "key": "id:89057",
   "id": 89057,
   "name": "Berrybog's Blackreach Bush",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4585,7 +4585,7 @@
   "key": "id:97713",
   "id": 97713,
   "name": "FYX - Water Mesh Optimization",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4594,7 +4594,7 @@
   "key": "id:46531",
   "id": 46531,
   "name": "Gemstones Replacers HD SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4603,7 +4603,7 @@
   "key": "id:63039",
   "id": 63039,
   "name": "JK's Sky Haven Temple",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4612,7 +4612,7 @@
   "key": "id:45952",
   "id": 45952,
   "name": "Mari's flora",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4621,7 +4621,7 @@
   "key": "id:18384",
   "id": 18384,
   "name": "Refracting Ice Form Debris",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4630,7 +4630,7 @@
   "key": "id:29842",
   "id": 29842,
   "name": "Septentrional Landscapes SE - 8K",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4639,7 +4639,7 @@
   "key": "id:34179",
   "id": 34179,
   "name": "Skyland AIO",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4648,7 +4648,7 @@
   "key": "id:3850",
   "id": 3850,
   "name": "The Choice is Yours",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4666,7 +4666,7 @@
   "key": "id:22506",
   "id": 22506,
   "name": "Wintersun - Faiths of Skyrim",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4675,7 +4675,7 @@
   "key": "id:28952",
   "id": 28952,
   "name": "[серия «cities of», 8 модов] Cities of the North - Dawnstar и др.",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4684,7 +4684,7 @@
   "key": "id:59741",
   "id": 59741,
   "name": "[серия «soul cairn», 3 модов] Soul-Cairn Objects Secured и др.",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4693,7 +4693,7 @@
   "key": "id:79197",
   "id": 79197,
   "name": "Far Object LOD Improvement Project SSE (FOLIP)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4711,7 +4711,7 @@
   "key": "id:58263",
   "id": 58263,
   "name": "Picta Series - Improved Sky Meshes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4729,7 +4729,7 @@
   "key": "id:116289",
   "id": 116289,
   "name": "Rally's Banners of Skyrim",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4747,7 +4747,7 @@
   "key": "id:84235",
   "id": 84235,
   "name": "TMD Jars of Skyrim",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4756,7 +4756,7 @@
   "key": "id:66598",
   "id": 66598,
   "name": "Beautiful Sigils of Shalidor",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4765,7 +4765,7 @@
   "key": "id:78772",
   "id": 78772,
   "name": "Daedric Shrines - All in One",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4774,7 +4774,7 @@
   "key": "id:44874",
   "id": 44874,
   "name": "Dear Diary VR - Paper SkyUI + Light Skin for COCKS VR",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4783,7 +4783,7 @@
   "key": "id:73421",
   "id": 462,
   "name": "No More Laser-Printed Book",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4792,7 +4792,7 @@
   "key": "id:62925",
   "id": 62925,
   "name": "dunPOISoldiersRaidOnStart Script Tweak",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4828,7 +4828,7 @@
   "key": "id:52909",
   "id": 52909,
   "name": "Evil Dead Trees - Dying Trees in Evil Places",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4837,7 +4837,7 @@
   "key": "id:90697",
   "id": 90697,
   "name": "Forgotten plants textured (Gleamblossom and glowing ground plants)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4846,7 +4846,7 @@
   "key": "id:55417",
   "id": 55417,
   "name": "Ice skating fixed for real - No more attack sliding movement",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4855,7 +4855,7 @@
   "key": "id:90476",
   "id": 90476,
   "name": "Icy Cave Remaster",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4864,7 +4864,7 @@
   "key": "id:55571",
   "id": 55571,
   "name": "JK's Understone Keep",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4882,7 +4882,7 @@
   "key": "id:87111",
   "id": 87111,
   "name": "Motionless Rocks Killing People Fix",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4891,7 +4891,7 @@
   "key": "id:77530",
   "id": 77530,
   "name": "Northern Roads",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4900,7 +4900,7 @@
   "key": "id:67968",
   "id": 67968,
   "name": "OnMagicEffectApply Replacer (OMEAR)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4909,7 +4909,7 @@
   "key": "id:18345",
   "id": 18345,
   "name": "Rustic Azura's Star - Special Edition",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4918,7 +4918,7 @@
   "key": "id:53962",
   "id": 53962,
   "name": "Raven Rock Building Tweaks",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4927,7 +4927,7 @@
   "key": "id:94428",
   "id": 94428,
   "name": "Simplicity of Seeding - Better Hearthfires and Farming CC Planter Scripts",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4936,7 +4936,7 @@
   "key": "id:13972",
   "id": 13972,
   "name": "Artifacts - The Ice Blade of the Monarch",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -4954,7 +4954,7 @@
   "key": "id:901",
   "id": 901,
   "name": "Book Covers Skyrim",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4963,7 +4963,7 @@
   "key": "id:38775",
   "id": 38775,
   "name": "Cleaned Skyrim SE Textures",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -4972,7 +4972,7 @@
   "key": "id:87315",
   "id": 87315,
   "name": "Eagle Eye Cursor Replacer for Skyrim VR",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5008,7 +5008,7 @@
   "key": "id:55959",
   "id": 55959,
   "name": "JK's Riverwood Trader",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5035,7 +5035,7 @@
   "key": "id:67386",
   "id": 67386,
   "name": "Sconces of Skyrim - Markarth Braziers Improved",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5062,7 +5062,7 @@
   "key": "id:51788",
   "id": 51788,
   "name": "Skyrim Remastered - High Hrothgar v2 (серия: оставить только High Hrothgar)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5071,7 +5071,7 @@
   "key": "id:103182",
   "id": 103182,
   "name": "Sowables of Skyrim (Wheat, Leeks, Cabbages)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5089,7 +5089,7 @@
   "key": "id:134836",
   "id": 134836,
   "name": "Cozy Cots - A Cot Replacer",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5116,7 +5116,7 @@
   "key": "id:78848",
   "id": 78848,
   "name": "Garlic - A Garlic Mod",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5143,7 +5143,7 @@
   "key": "id:37801",
   "id": 37801,
   "name": "Jarl Sitting Animation Replacer",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5152,7 +5152,7 @@
   "key": "id:49259",
   "id": 49259,
   "name": "Major Cities Mesh Overhaul",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5170,7 +5170,7 @@
   "key": "id:47204",
   "id": 47204,
   "name": "Praedy's Chantry of Auriel AIO - SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5197,7 +5197,7 @@
   "key": "id:41368",
   "id": 41368,
   "name": "Shadows Of Sunlight - In Small Exterior World Spaces",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5224,7 +5224,7 @@
   "key": "id:67725",
   "id": 67725,
   "name": "Better Blended Mushrooms",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5242,7 +5242,7 @@
   "key": "id:29434",
   "id": 29434,
   "name": "Butterflies Land True",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5251,7 +5251,7 @@
   "key": "id:61553",
   "id": 61553,
   "name": "Dibella statue",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5260,7 +5260,7 @@
   "key": "id:27456",
   "id": 27456,
   "name": "FleshFX",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5287,7 +5287,7 @@
   "key": "id:68288",
   "id": 68288,
   "name": "Nocturnal Moths",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5296,7 +5296,7 @@
   "key": "id:110869",
   "id": 110869,
   "name": "Rally's Celestial Canvas",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5314,7 +5314,7 @@
   "key": "id:48561",
   "id": 48561,
   "name": "The Business Ledger",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5323,7 +5323,7 @@
   "key": "id:17540",
   "id": 17540,
   "name": "Unique Barbas Retexture",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5332,7 +5332,7 @@
   "key": "id:131114",
   "id": 131114,
   "name": "Better Forgotten Vale Portal Textures",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5359,7 +5359,7 @@
   "key": "id:51125",
   "id": 51125,
   "name": "Forget Spell",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5368,7 +5368,7 @@
   "key": "id:52423",
   "id": 52423,
   "name": "Hearthfire Crafting Retextures",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5404,7 +5404,7 @@
   "key": "id:33597",
   "id": 33597,
   "name": "No Spinning Death Animation LITE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5422,7 +5422,7 @@
   "key": "id:127944",
   "id": 127944,
   "name": "Praedy's Apocrypha - SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5431,7 +5431,7 @@
   "key": "id:65481",
   "id": 65481,
   "name": "Praedy's Staves AIO - SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5440,7 +5440,7 @@
   "key": "id:8354",
   "id": 8354,
   "name": "Prince and The Pauper SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5449,7 +5449,7 @@
   "key": "id:47637",
   "id": 47637,
   "name": "Rally's Civil War Document Tubes",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5458,7 +5458,7 @@
   "key": "id:33225",
   "id": 33225,
   "name": "Rally's Hanging Moss",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5467,7 +5467,7 @@
   "key": "id:115859",
   "id": 115859,
   "name": "Rally's Thrones",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5476,7 +5476,7 @@
   "key": "id:22789",
   "id": 22789,
   "name": "Simple Children",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5503,7 +5503,7 @@
   "key": "id:80418",
   "id": 80418,
   "name": "TB's 3D Driftwood",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5539,7 +5539,7 @@
   "key": "id:75481",
   "id": 75481,
   "name": "Use Those Blankets",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5557,7 +5557,7 @@
   "key": "id:41254",
   "id": 41254,
   "name": "ArteFakes - Unique Artifacts Replacer",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5566,7 +5566,7 @@
   "key": "id:112114",
   "id": 112114,
   "name": "Blackreach Eerie Ambience",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5575,7 +5575,7 @@
   "key": "id:9034",
   "id": 9034,
   "name": "Boiled Creme Treat Sweet Roll and Pies",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5593,7 +5593,7 @@
   "key": "id:69038",
   "id": 69038,
   "name": "Charcoal Stick and Coal",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5611,7 +5611,7 @@
   "key": "id:79583",
   "id": 79583,
   "name": "Glorious Gradients",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5638,7 +5638,7 @@
   "key": "id:48160",
   "id": 48160,
   "name": "Improved Gourds",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5656,7 +5656,7 @@
   "key": "id:70534",
   "id": 70534,
   "name": "JS Rumpled Rugs SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5701,7 +5701,7 @@
   "key": "id:98579",
   "id": 98579,
   "name": "Madmen - A Forsworn Overhaul",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5710,7 +5710,7 @@
   "key": "id:28113",
   "id": 28113,
   "name": "No Flat Rubble",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5719,7 +5719,7 @@
   "key": "id:132172",
   "id": 132172,
   "name": "On The Mend - A Healing Altar Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5755,7 +5755,7 @@
   "key": "id:21996",
   "id": 21996,
   "name": "Realistic HD Mushrooms Remastered",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5764,7 +5764,7 @@
   "key": "id:113884",
   "id": 113884,
   "name": "Revenant Spirits of the Soul Cairn",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5773,7 +5773,7 @@
   "key": "id:42074",
   "id": 42074,
   "name": "Salmon Roe model replacer 3D",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5791,7 +5791,7 @@
   "key": "id:62554",
   "id": 62554,
   "name": "Stoppage of Staggerlock",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -5800,7 +5800,7 @@
   "key": "id:70546",
   "id": 70546,
   "name": "TB's Better Bread",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5827,7 +5827,7 @@
   "key": "id:58727",
   "id": 58727,
   "name": "eFPS - Anniversary Edition",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -5989,7 +5989,7 @@
   "key": "id:90252",
   "id": 90252,
   "name": "Dynamic Female Ledge Sitting и др. (серия)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -6142,7 +6142,7 @@
   "key": "id:34950",
   "id": 34950,
   "name": "Unique Border Gates Fixes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -6529,7 +6529,7 @@
   "key": "id:70037",
   "id": 70037,
   "name": "Prince and The Pauper Refine",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -6628,7 +6628,7 @@
   "key": "id:85703",
   "id": 85703,
   "name": "I4 - SkyUI Weapons Pack",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -6745,7 +6745,7 @@
   "key": "id:89808",
   "id": 89808,
   "name": "Hammer and Whetstone - Portable Tempering",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -7069,7 +7069,7 @@
   "key": "id:59123",
   "id": 59123,
   "name": "3BA 3BBB CBPC Realistic Firm Breasts Butt Belly and Thighs",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -7096,7 +7096,7 @@
   "key": "id:40123",
   "id": 40123,
   "name": "Courageous Women of Skyrim - High Poly Head Female Presets",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -7321,7 +7321,7 @@
   "key": "id:78536",
   "id": 78536,
   "name": "BnP - Child Skin",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -7528,7 +7528,7 @@
   "key": "id:82587",
   "id": 82587,
   "name": "LOVERBOY BROWS - HD Eyebrows for Men",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -7582,7 +7582,7 @@
   "key": "id:151384",
   "id": 151384,
   "name": "NPC Block Loop Fix",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -8005,7 +8005,7 @@
   "key": "id:96143",
   "id": 96143,
   "name": "COCO Demon Shade - CBBE-UUNP SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -8014,7 +8014,7 @@
   "key": "id:97906",
   "id": 97906,
   "name": "COCO Mysterious Mage - CBBE-UUNP SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -8275,7 +8275,7 @@
   "key": "id:14490",
   "id": 14490,
   "name": "Simple Drop Lit Torches SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -8392,7 +8392,7 @@
   "key": "id:114607",
   "id": 114607,
   "name": "Ignoble Beds - A Noble and Upper Class Bed Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -8536,7 +8536,7 @@
   "key": "id:138932",
   "id": 138932,
   "name": "Magical Potion Sounds",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -8563,7 +8563,7 @@
   "key": "id:130488",
   "id": 130488,
   "name": "Peasant Dreams - A Common Bed Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -8635,7 +8635,7 @@
   "key": "id:107239",
   "id": 107239,
   "name": "All Books and Notes Descriptions",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -8644,7 +8644,7 @@
   "key": "id:107094",
   "id": 107094,
   "name": "All Keys Descriptions",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -8653,7 +8653,7 @@
   "key": "id:153425",
   "id": 153425,
   "name": "Ambient Templates for Lighting Mods",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -8716,7 +8716,7 @@
   "key": "id:65530",
   "id": 65530,
   "name": "Dynamic Bloodskal Blade - Lag Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -8941,7 +8941,7 @@
   "key": "id:29149",
   "id": 29149,
   "name": "Halldir's Cairn CTD Fix",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -9031,7 +9031,7 @@
   "key": "id:37498",
   "id": 37498,
   "name": "Mute The Music",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -9112,7 +9112,7 @@
   "key": "id:22199",
   "id": 22199,
   "name": "Realistic HD Baskets Remastered",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -9274,7 +9274,7 @@
   "key": "id:88290",
   "id": 88290,
   "name": "Iconic's Spriggan Retexture",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -9346,7 +9346,7 @@
   "key": "id:37319",
   "id": 37319,
   "name": "Arachnophobia - Spiders are Wolves",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -9472,7 +9472,7 @@
   "key": "id:3838",
   "id": 3838,
   "name": "Horse Storage",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -9490,7 +9490,7 @@
   "key": "id:90675",
   "id": 90675,
   "name": "Iconic's Werewolf and Werebear Retexture",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -9526,7 +9526,7 @@
   "key": "id:112525",
   "id": 112525,
   "name": "Slaughterfish RTX - Ported for SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -9697,7 +9697,7 @@
   "key": "id:169554",
   "id": 169554,
   "name": "Sanguine Sundries - A Vampire Clutter Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -9733,7 +9733,7 @@
   "key": "id:33955",
   "id": 33955,
   "name": "Undead summons emerge from the ground",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -9760,7 +9760,7 @@
   "key": "id:12128",
   "id": 12128,
   "name": "Zim's Dremora Improvements",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -9841,7 +9841,7 @@
   "key": "id:56317",
   "id": 56317,
   "name": "Dragons Fall Down - Immersive Airborne Death",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -10084,7 +10084,7 @@
   "key": "id:43852",
   "id": 43852,
   "name": "3D Junipers - Trees and Berries",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -10102,7 +10102,7 @@
   "key": "id:35546",
   "id": 35546,
   "name": "City Trees",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -10156,7 +10156,7 @@
   "key": "id:42643",
   "id": 42643,
   "name": "Misc. Blended Road Fixes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -10174,7 +10174,7 @@
   "key": "id:22780",
   "id": 22780,
   "name": "R.A.S.S. Rain Ash And Snow Shaders",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -10228,7 +10228,7 @@
   "key": "id:165354",
   "id": 165354,
   "name": "Ancestor Glade Tree - PBR and Vanilla",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -10336,7 +10336,7 @@
   "key": "id:29316",
   "id": 29316,
   "name": "Inferno - Fire Effects Redux",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -10399,7 +10399,7 @@
   "key": "id:71189",
   "id": 71189,
   "name": "Obsidian Mountain Fogs Tweaked",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -10570,7 +10570,7 @@
   "key": "id:120229",
   "id": 120229,
   "name": "Cave Rocks Improved",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -10579,7 +10579,7 @@
   "key": "id:155703",
   "id": 155703,
   "name": "Cisterns of Skyrim - Rain Barrel and Blood Barrel Replacer",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -10606,7 +10606,7 @@
   "key": "id:62144",
   "id": 62144,
   "name": "Enchantments Price Formula Fix",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -10696,7 +10696,7 @@
   "key": "id:147305",
   "id": 147305,
   "name": "Riverwood Log Pile FIX - Base Object Swapper and HLT",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -10750,7 +10750,7 @@
   "key": "id:143209",
   "id": 143209,
   "name": "Skyking Signs PBR",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -10759,7 +10759,7 @@
   "key": "id:142908",
   "id": 142908,
   "name": "Skyland Bits and Bobs PBR",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -10885,7 +10885,7 @@
   "key": "id:150727",
   "id": 150727,
   "name": "Glorious Doors of Skyrim (GDOS) SE PBR",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -11020,7 +11020,7 @@
   "key": "id:4524",
   "id": 4524,
   "name": "Multiple Floors Sandboxing",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -11047,7 +11047,7 @@
   "key": "id:85285",
   "id": 85285,
   "name": "Parallax Bridges and Roads 4k-2k",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -11128,7 +11128,7 @@
   "key": "id:73090",
   "id": 73090,
   "name": "Shooting Stars SE",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -11155,7 +11155,7 @@
   "key": "id:110935",
   "id": 110935,
   "name": "Skyrim Food Expansion",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -11371,7 +11371,7 @@
   "key": "id:9264",
   "id": 9264,
   "name": "Ennead Shadowmarks",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -11452,7 +11452,7 @@
   "key": "id:107609",
   "id": 107609,
   "name": "Rally's Feather and Ink",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -11461,7 +11461,7 @@
   "key": "id:80069",
   "id": 80069,
   "name": "Rally's Spell Tomes",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -11641,7 +11641,7 @@
   "key": "id:72019",
   "id": 72019,
   "name": "Crafting Recipe Distributor VR",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -11668,7 +11668,7 @@
   "key": "id:9030",
   "id": 9030,
   "name": "Detailed Rugs",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -11884,7 +11884,7 @@
   "key": "id:155815",
   "id": 155815,
   "name": "Modern Hay - PBR and CM",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -12037,7 +12037,7 @@
   "key": "id:4411",
   "id": 4411,
   "name": "Snazzy Model Ship",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12046,7 +12046,7 @@
   "key": "id:107905",
   "id": 107905,
   "name": "Snazzy Silver Inkwells - Base Object Swapper (BOS)",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12172,7 +12172,7 @@
   "key": "id:51191",
   "id": 51191,
   "name": "s6o6t Lore - Mundus Stones",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -12226,7 +12226,7 @@
   "key": "id:5990",
   "id": 5990,
   "name": "Ask Innkeepers To Show Room SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12424,7 +12424,7 @@
   "key": "id:131542",
   "id": 131542,
   "name": "HFs - Diverse (BOS) Satchel",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12433,7 +12433,7 @@
   "key": "id:123874",
   "id": 123874,
   "name": "HFs - Horker Meat",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12451,7 +12451,7 @@
   "key": "id:151874",
   "id": 151874,
   "name": "Hit The Hay - A Hay Pile Replacer",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -12550,7 +12550,7 @@
   "key": "id:92525",
   "id": 92525,
   "name": "Mihail Chicken Variant (Color - Weight - Hanging) - SPID-BOS",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12559,7 +12559,7 @@
   "key": "id:121331",
   "id": 121331,
   "name": "Mihail Frogs - Optimized Low Poly",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12622,7 +12622,7 @@
   "key": "id:352",
   "id": 352,
   "name": "Point The Way",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -12640,7 +12640,7 @@
   "key": "id:39359",
   "id": 39359,
   "name": "Realistic RS Children Overhaul",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12703,7 +12703,7 @@
   "key": "id:79034",
   "id": 79034,
   "name": "Ships On The Horizon",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -12892,7 +12892,7 @@
   "key": "id:39640",
   "id": 39640,
   "name": "WiZkiD Carriages",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -12901,7 +12901,7 @@
   "key": "id:113558",
   "id": 113558,
   "name": "WiZkiD Hunter's Camp Overhaul",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -13099,7 +13099,7 @@
   "key": "id:113023",
   "id": 113023,
   "name": "Base Object Swapper - Master Occlusion",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -13126,7 +13126,7 @@
   "key": "id:71680",
   "id": 71680,
   "name": "Better Chests",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -13369,7 +13369,7 @@
   "key": "id:164369",
   "id": 164369,
   "name": "Embers XD (Less Poly)",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -13378,7 +13378,7 @@
   "key": "id:116601",
   "id": 116601,
   "name": "Enchantment Art Extender VR",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -13459,7 +13459,7 @@
   "key": "id:26879",
   "id": 26879,
   "name": "Forgiving Friends",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -13531,7 +13531,7 @@
   "key": "id:144900",
   "id": 144900,
   "name": "Illuminous Dawnbreaker",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -13549,7 +13549,7 @@
   "key": "id:75664",
   "id": 75664,
   "name": "Immersive Spell Effects Emit Light",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -13567,7 +13567,7 @@
   "key": "id:70979",
   "id": 70979,
   "name": "JS Immersive Tripwires SE",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -13612,7 +13612,7 @@
   "key": "id:99768",
   "id": 99768,
   "name": "LLF Particle Lights instead of Fake Glow",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },
@@ -13792,7 +13792,7 @@
   "key": "id:174855",
   "id": 174855,
   "name": "Pickpocket Reset - VR",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -13855,7 +13855,7 @@
   "key": "id:73181",
   "id": 73181,
   "name": "Remove Distracting Things",
-  "decision": "pending_verify",
+  "decision": "keep",
   "drop_code": "none",
   "note": ""
  },
@@ -13900,7 +13900,7 @@
   "key": "id:42211",
   "id": 42211,
   "name": "Ruddy88 ESLify",
-  "decision": "pending_verify",
+  "decision": "rejected_by_verifier",
   "drop_code": "none",
   "note": ""
  },

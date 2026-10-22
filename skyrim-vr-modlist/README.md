@@ -22,6 +22,8 @@
 | `CONTEXT_FOR_NEW_CHAT.md` | Контекст проекта: цель, хронология, решения, ошибки, открытые вопросы |
 | `FILES.md` | Индекс всех файлов пакета |
 | `HANDOFF.md` | Состояние работы и команды продолжения (для локального Claude) |
+| `FOR_FLAT_VERSION.md` | Как использовать собранное для плоской Skyrim SE/AE; сводная таблица всех модов — `data/export/mods_all.csv` |
+| `VR_INTERACTION.md` | Моды взаимодействия и интерактивности в VR |
 | `tools/windows_setup.ps1` | Скачать пакет на Windows: `E:\Modding\ucheba\skyrim-vr-modlist` |
 | `data/`, `tools/`, `workflows/`, `site/` | Исходные данные проверки, скрипты сборки, сценарии воркфлоу и исходник опубликованной страницы |
 

@@ -1,0 +1,789 @@
+{
+ "adjustments": [
+  {
+   "key": "id:4298",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Безопасная чистка тумана в интерьерах."
+  },
+  {
+   "key": "id:58023",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Отдельная механика, дублей нет."
+  },
+  {
+   "key": "id:66125",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Мелкая иммерсия."
+  },
+  {
+   "key": "id:51507",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Каркас OAR, только в паре с аддоном #81463."
+  },
+  {
+   "key": "id:81463",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Без CATA #51507 бесполезен; ставить после него."
+  },
+  {
+   "key": "id:106432",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пакет иконок I4; проверить, что I4 работает в VR."
+  },
+  {
+   "key": "id:70117",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "DAR-анимации читаются через OAR."
+  },
+  {
+   "key": "id:62413",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Редкий вылет, польза не доказана."
+  },
+  {
+   "key": "id:1523",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только текстуры меню навыков."
+  },
+  {
+   "key": "id:20446",
+   "action": "keep",
+   "section": "niche",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Нужно только для зверорас."
+  },
+  {
+   "key": "id:79958",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "OAR-анимации поиска, дублей нет."
+  },
+  {
+   "key": "id:114790",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ресурс; ставить только если есть ImGui-моды."
+  },
+  {
+   "key": "id:89241",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "База иконок; ставить до пакетов I4 и KPC."
+  },
+  {
+   "key": "id:92529",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Только в паре с B.O.O.B.I.E.S #89241."
+  },
+  {
+   "key": "id:117413",
+   "action": "keep",
+   "section": "music",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Добавка через MTD, не заменяет LORKHAN."
+  },
+  {
+   "key": "id:53817",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Фикс квестов, дублей нет."
+  },
+  {
+   "key": "id:18722",
+   "action": "keep",
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Явный VR-фикс, 7 из 9 листов."
+  },
+  {
+   "key": "id:49305",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Мелкая правка мира."
+  },
+  {
+   "key": "id:19608",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Меняет баланс; убедиться, что это ESP, а не SE-DLL."
+  },
+  {
+   "key": "id:23581",
+   "action": "keep",
+   "section": "navigation",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Явный выбор, 7 из 9 листов; VR-файл поверх базы."
+  },
+  {
+   "key": "id:28456",
+   "action": "keep",
+   "section": "controls",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Во всех VR-листах."
+  },
+  {
+   "key": "id:159",
+   "action": "keep",
+   "section": "navigation",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Явный выбор; грузить до Whose Quest."
+  },
+  {
+   "key": "id:96876",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Лёгкая переделка готовки."
+  },
+  {
+   "key": "id:50197",
+   "action": "keep",
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Сделан под VR, явный выбор."
+  },
+  {
+   "key": "id:2357",
+   "action": "retag",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Классика, но это вкусовщина, а не явный победитель."
+  },
+  {
+   "key": "id:103807",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Нужен Embers XD; ставить после него."
+  },
+  {
+   "key": "id:19002",
+   "action": "keep",
+   "section": "equipment",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Броня ставится после тела, потом сборка BodySlide."
+  },
+  {
+   "key": "id:58862",
+   "action": "keep",
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Фикс скрипта, снижает нагрузку на Papyrus."
+  },
+  {
+   "key": "id:34552",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пересекается с #87746 только по теме вампиров; совместимы."
+  },
+  {
+   "key": "id:76257",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Меши снега; ставить после пакетов исправления мешей."
+  },
+  {
+   "key": "id:90508",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пакет иконок I4."
+  },
+  {
+   "key": "id:39260",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Исправления мешей; ставить рано, чтобы перекрывалось."
+  },
+  {
+   "key": "id:44249",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Точечный фикс вылета."
+  },
+  {
+   "key": "id:28108",
+   "action": "keep",
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Добавка к плейлистам, не заменяет."
+  },
+  {
+   "key": "id:47639",
+   "action": "move_section",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Шрифт книг, скорее всего без кириллицы; спорит с Sovngarde #386 за fontconfig."
+  },
+  {
+   "key": "id:87746",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Только визуал когтей вампира."
+  },
+  {
+   "key": "id:105376",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "OAR-анимации ходьбы, не доказано."
+  },
+  {
+   "key": "id:79197",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Нужно только для генерации DynDOLOD."
+  },
+  {
+   "key": "id:44874",
+   "action": "keep",
+   "section": "misc",
+   "tag": "alt",
+   "choose_one_group": "skyui-theme",
+   "reason": "Альтернатива ванильной теме SkyUI VR."
+  },
+  {
+   "key": "id:55417",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Польза не доказана."
+  },
+  {
+   "key": "id:87111",
+   "action": "keep",
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Явный багфикс."
+  },
+  {
+   "key": "id:77530",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Правит рельеф: нужны патчи и пересборка LOD."
+  },
+  {
+   "key": "id:37801",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "OAR-поза, дублей нет."
+  },
+  {
+   "key": "id:29434",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Мелкий фикс."
+  },
+  {
+   "key": "id:27456",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Визуал магии, дублей нет."
+  },
+  {
+   "key": "id:33597",
+   "action": "keep",
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Явный выбор для VR."
+  },
+  {
+   "key": "id:112114",
+   "action": "keep",
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только звук."
+  },
+  {
+   "key": "id:113884",
+   "action": "keep",
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только звук через SRD."
+  },
+  {
+   "key": "id:62554",
+   "action": "retag",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Меняет баланс боя: дополнение, а не обязательный фикс."
+  },
+  {
+   "key": "id:90252",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Серия анимаций, не доказано."
+  },
+  {
+   "key": "id:45191",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Точечный фикс."
+  },
+  {
+   "key": "id:41335",
+   "action": "retag",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Нужно только при SunHelm."
+  },
+  {
+   "key": "id:62314",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Мелкий багфикс."
+  },
+  {
+   "key": "id:113064",
+   "action": "drop_duplicate",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Та же задача, что у NPC Block Loop Fix #151384; два фикса блока не ставить."
+  },
+  {
+   "key": "id:151384",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Оставлен единственным фиксом блока NPC."
+  },
+  {
+   "key": "id:173617",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Проверить, есть ли сборка для SKEE VR."
+  },
+  {
+   "key": "id:99024",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Нишевый фикс."
+  },
+  {
+   "key": "id:118746",
+   "action": "keep",
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "VR-специфичный фикс."
+  },
+  {
+   "key": "id:107292",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Нужен Description Framework в версии для VR."
+  },
+  {
+   "key": "id:138586",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Проверить совместимость с RaceMenu VR."
+  },
+  {
+   "key": "id:96117",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пакет иконок I4."
+  },
+  {
+   "key": "id:112297",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только при Spellsiphon и Experience."
+  },
+  {
+   "key": "id:59142",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "VR-сборка, польза не проверена."
+  },
+  {
+   "key": "id:107239",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Нужен Description Framework в версии для VR."
+  },
+  {
+   "key": "id:107094",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Нужен Description Framework в версии для VR."
+  },
+  {
+   "key": "id:29149",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Точечный фикс."
+  },
+  {
+   "key": "id:119899",
+   "action": "retag",
+   "section": "navigation",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Вкусовщина: под игру по компасу Navigate VR."
+  },
+  {
+   "key": "id:17946",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только NARC из серии."
+  },
+  {
+   "key": "id:157985",
+   "action": "retag",
+   "section": "music",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Патч нужен только при Combat Music Fix NG и UBM #91231 (UBM там opt)."
+  },
+  {
+   "key": "id:14060",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Фикс ИИ."
+  },
+  {
+   "key": "id:103003",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только при GIST."
+  },
+  {
+   "key": "id:147305",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Нужны HLT и BOS VR; ставить после HLT."
+  },
+  {
+   "key": "id:156773",
+   "action": "keep",
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Нативный VR-фикс вылетов."
+  },
+  {
+   "key": "id:94436",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Объёмный, польза не проверена."
+  },
+  {
+   "key": "id:3564",
+   "action": "keep",
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дополняет Navigate VR."
+  },
+  {
+   "key": "id:157413",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Удобство, не проверено в VR."
+  },
+  {
+   "key": "id:72019",
+   "action": "retag",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Фреймворк: ставить только под моды, которым он нужен."
+  },
+  {
+   "key": "id:63889",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "VR-порт, дополняет реакцию на невидимость."
+  },
+  {
+   "key": "id:65880",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "MCM к Experience."
+  },
+  {
+   "key": "id:352",
+   "action": "keep",
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Дополняет навигацию по миру."
+  },
+  {
+   "key": "id:176593",
+   "action": "keep",
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Мелкая механика."
+  },
+  {
+   "key": "id:164369",
+   "action": "keep",
+   "section": "misc",
+   "tag": "alt",
+   "choose_one_group": "embers-xd",
+   "reason": "Облегчённая версия Embers XD: в VR она по умолчанию."
+  },
+  {
+   "key": "id:116601",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Нативный VR-порт."
+  },
+  {
+   "key": "id:174855",
+   "action": "keep",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "VR-фикс кражи."
+  },
+  {
+   "key": "id:73181",
+   "action": "retag",
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Вкусовая правка дыма, не явный победитель."
+  }
+ ],
+ "groups": [
+  {
+   "group": "alt-start",
+   "members": [
+    "Ralof or Hadvar (#14553)",
+    "Realm of Lorkhan — Freeform Alternate Start (#18223)",
+    "Alternate Start — Live Another Life (#272)"
+   ],
+   "default_pick": "Ralof or Hadvar (#14553)",
+   "rule": "Ровно один альтернативный старт."
+  },
+  {
+   "group": "map-markers",
+   "members": [
+    "Hi-Res VR Map Markers (#35627)",
+    "Natural Colored Map Markers 4K VR and SSE (#27503)"
+   ],
+   "default_pick": "Hi-Res VR Map Markers (#35627)",
+   "rule": "Одни текстуры маркеров карты."
+  },
+  {
+   "group": "controller-bindings",
+   "members": [
+    "VRIK Rift-Index-WMR Controller Bindings (#23416)",
+    "Alternative VRIK Controller Bindings (#49650)",
+    "FUS Patch Compendium — Controller Bindings (#53186)"
+   ],
+   "default_pick": "VRIK Rift-Index-WMR Controller Bindings (#23416)",
+   "rule": "Одна схема раскладки VRIK."
+  },
+  {
+   "group": "soundtrack",
+   "members": [
+    "LORKHAN — Soundtrack Replacer (#115096)",
+    "Chapter II — Jeremy Soule Inspired Music (#37792)"
+   ],
+   "default_pick": "LORKHAN — Soundtrack Replacer (#115096)",
+   "rule": "Одна основная музыкальная линия; добавки (Northerner Diaries #28108, Emeratu #117413, Soulmancer #22551) идут через MTD."
+  },
+  {
+   "group": "bard-songs",
+   "members": [
+    "Bard Instrumentals Mostly — Sing Rarely (#10927)",
+    "ванильные барды"
+   ],
+   "default_pick": "Bard Instrumentals Mostly — Sing Rarely (#10927)",
+   "rule": "Одна правка репертуара бардов."
+  },
+  {
+   "group": "lanterns",
+   "members": [
+    "Wearable Lanterns + VR Patch (#7560)",
+    "без носимых фонарей"
+   ],
+   "default_pick": "Wearable Lanterns + VR Patch (#7560)",
+   "rule": "Один мод носимых фонарей."
+  },
+  {
+   "group": "skyui-theme",
+   "members": [
+    "ванильная тема SkyUI VR",
+    "Dear Diary VR - Paper SkyUI (#44874)"
+   ],
+   "default_pick": "ванильная тема SkyUI VR",
+   "rule": "Одна тема SkyUI VR; Dear Diary со своим скином COCKS."
+  },
+  {
+   "group": "embers-xd",
+   "members": [
+    "Embers XD (Less Poly) (#164369)",
+    "Embers XD (полная версия)"
+   ],
+   "default_pick": "Embers XD (Less Poly) (#164369)",
+   "rule": "Одна версия мешей огня; FYX Campfire #103807 ставить поверх."
+  }
+ ],
+ "order_rules": [
+  "Сначала тело (реплейсер и BodySlide-пресеты), потом броня (Armor and Clothing Extension #19002), потом выход BodySlide последним модом.",
+  "Рельеф: ландшафтные и травяные моды (Merethic Grasslands) → Northern Roads #77530 и его патчи → FOLIP #79197 → выход DynDOLOD/xLODGen в самом низу; после Northern Roads LOD пересобрать.",
+  "HLT → Riverwood Log Pile FIX #147305 (BOS-ini поверх HLT).",
+  "Embers XD #164369 → FYX Campfire Reacts to the Wind #103807.",
+  "Меши: Dlizzio's Mesh Fixes #39260 выше, частные меши (Snowy Surfaces #76257, огонь, FOLIP) ниже, чтобы перекрывали.",
+  "Иконки: B.O.O.B.I.E.S #89241 → Keyword Patch Collection #92529 → пакеты I4 (#106432, #90508, #96117).",
+  "Квесты: EBQO #159 выше, Whose Quest Is It Anyway с VR-файлом ниже; VR-файл серии поверх базового.",
+  "CATA #51507 → аддон Leviathan II #81463.",
+  "Combat Music Fix NG и Unique Battle Music #91231 → патч #157985 ниже обоих.",
+  "Experience → Experience - MCM #65880 → Spellsiphon - Experience patch #112297; GIST → Azura's Star Restore #103003; SunHelm → патчи #41335.",
+  "Description Framework VR → #107292, #107239, #107094.",
+  "Текстуры (Enhanced Blood #2357, Skill Interface #1523) — свободные файлы, ставить ниже общих текстурных паков."
+ ],
+ "conflicts": [
+  "NPC Infinite Block Fix #113064 и NPC Block Loop Fix #151384 правят одно и то же: оставлен только #151384.",
+  "Trattatello #47639: правит fontconfig.txt, как и Sovngarde #386, и, по всей видимости, без кириллицы. В книгах будут квадраты: исключён.",
+  "Northern Roads #77530 меняет рельеф: конфликтует с ландшафтом и травой без патчей, требует пересборки DynDOLOD.",
+  "Патч Combat Music Fix NG #157985 без UBM #91231 и Combat Music Fix NG не нужен.",
+  "Dear Diary VR #44874 заменяет SWF SkyUI VR: несовместим с другой темой SkyUI.",
+  "Пакеты иконок I4 (#106432, #90508, #96117) работают, только если I4 запускается в VR; без B.O.O.B.I.E.S бесполезны.",
+  "Описания #107292, #107239, #107094 требуют Description Framework в VR-сборке; если её нет, не ставить.",
+  "OverlayFix #138586 и SKEE cosave crash fix #173617 — DLL: брать только сборку для RaceMenu VR.",
+  "Feral #34552 и Vampires have Claws #87746 оба трогают вампиров: проверить руки вампира от первого лица.",
+  "Armor and Clothing Extension #19002 требует сборки в BodySlide под выбранное тело.",
+  "FYX Campfire #103807 рассчитан на Embers XD: без него огонь будет выглядеть ванильно или сломанно.",
+  "Encounter Zones Unlocked #19608 конфликтует с модами, правящими зоны столкновений: проверить, что это ESP, а не DLL для SE."
+ ],
+ "notes": "Убран 1 дубль (#113064), 1 мод перенесён в «не ставить» (Trattatello, кириллица). Понижены: Enhanced Blood, Staggerlock, Remove Distracting Things, патч боевой музыки — до opt; SunHelm-патчи, CRD VR, No Player Position — до try. Группы переименованы в формат с дефисами, добавлены skyui-theme и embers-xd. Конфликтов с фиксированными модами первого прохода нет."
+}

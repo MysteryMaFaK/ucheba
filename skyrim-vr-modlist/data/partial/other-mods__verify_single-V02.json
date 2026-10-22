@@ -1,0 +1,1004 @@
+{
+ "verdicts": [
+  {
+   "key": "id:66770",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новая модель и текстуры дварфского масла. Мелкий предмет, который в VR берут в руку и рассматривают вблизи.",
+   "note": "Лёгкие меши, без DLL, vr=2. Вариант Leaked Oil брать только по вкусу.",
+   "reason": "Лёгкий предмет с двумя VR-сборками"
+  },
+  {
+   "key": "id:104322",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры инструментов бальзамировщика в стиле JS-паков.",
+   "note": "Тривиальный клаттер, одна VR-сборка. Не нужен в ядре.",
+   "reason": "Тривиально, слабое VR-подтверждение"
+  },
+  {
+   "key": "id:66578",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новая модель и текстуры дварфского экстрактора эссенции. Предмет хорошо рассматривать в руке в VR.",
+   "note": "Лёгкий меш без DLL, vr=2. Ставить в одной группе с Dwarven Oil и Knapsacks.",
+   "reason": "Лёгкий предмет с двумя VR-сборками"
+  },
+  {
+   "key": "id:70979",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Видимые растяжки у ловушек вместо невидимых триггеров.",
+   "note": "Одна VR-сборка, ценность небольшая, геймплейно спорно.",
+   "reason": "Низкая ценность, одна VR-сборка"
+  },
+  {
+   "key": "id:51959",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Меши и 2K-текстуры музыкальных инструментов: лютня, барабан, флейта.",
+   "note": "Мелочь; уже есть Bard Instrumentals в первом проходе.",
+   "reason": "Мелочь, перекрывает Bard Instrumentals"
+  },
+  {
+   "key": "id:85447",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры рюкзаков и котомок в мире; рюкзак — крупный предмет, видный вблизи.",
+   "note": "Без DLL. Патч Journeyman из Panda's брать только при установленном Journeyman.",
+   "reason": "Крупный видимый клаттер, две VR-сборки"
+  },
+  {
+   "key": "id:70534",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мятые, неровные ковры вместо плоских мешей. Объём на полу виден вблизи, меши почти бесплатны.",
+   "note": "Без DLL. Сверить пересечения мешей с SMIM и Rally's в MO2. Текстуры с Detailed Rugs PBR.",
+   "reason": "Дёшево, видно вблизи, две VR-сборки"
+  },
+  {
+   "key": "id:104980",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Люк стока в Солитьюде: объёмный меш вместо плоского.",
+   "note": "Мелкая деталь, одна VR-сборка.",
+   "reason": "Мелочь, одна VR-сборка"
+  },
+  {
+   "key": "id:133717",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Мебель орочьих крепостей в 3D: кровати, столы, стулья.",
+   "note": "Узкая локация, мелочь по цене; одна VR-сборка.",
+   "reason": "Узкая локация"
+  },
+  {
+   "key": "id:24324",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры рогов-подсвечников и настенных светильников, видных вплотную в тавернах и домах.",
+   "note": "Меши лёгкие. Свет дают Light Placer/CS Light/Lux по путям: проверить, что свечи по-прежнему светят. Нужен SMIM (желательно).",
+   "reason": "Видно вплотную, лёгкие меши"
+  },
+  {
+   "key": "id:28113",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Плоские кучи щебня заменены на объёмные меши. В VR плоскость заметна стереоэффектом в руинах и подземельях.",
+   "note": "Дешёвый меш-мод без DLL. Сверить пересечения с Ruins Clutter Improved и Stones of Solitude во вкладке конфликтов.",
+   "reason": "Заметный в стерео дефект, дёшево"
+  },
+  {
+   "key": "id:132172",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новая модель алтаря исцеления в храмах.",
+   "note": "Мелкий объект, одна VR-сборка, спорная польза.",
+   "reason": "Низкая ценность"
+  },
+  {
+   "key": "id:130488",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Простые кровати для таверн и бедных домов через Base Object Swapper.",
+   "note": "Дублирует Rustic Repose по той же роли (простые кровати); берём один.",
+   "reason": "Дубль Rustic Repose"
+  },
+  {
+   "key": "id:114178",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Барные стойки и наборы бара в тавернах: новые меши и текстуры. В VR стойка у самых рук.",
+   "note": "Три VR-сборки, лёгкие меши.",
+   "reason": "Три VR-сборки, видно у рук"
+  },
+  {
+   "key": "id:85322",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Полигональные пчёлы, ульи, соты и пасеки.",
+   "note": "Ингредиенты мелкие, одна VR-сборка, требует SMIM.",
+   "reason": "Мелочь, одна VR-сборка"
+  },
+  {
+   "key": "id:114409",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Улучшенные меши сундуков в стиле SMIM (верхний сундук).",
+   "note": "Лёгкая правка, одна VR-сборка, только 2K.",
+   "reason": "Мелкая правка"
+  },
+  {
+   "key": "id:47637",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры тубусов с документами Гражданской войны.",
+   "note": "Мелочь, одна VR-сборка.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:81764",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Витрины с исправленными мешами, новым замком и текстурами 2K/4K; в магазинах стоят у самых рук.",
+   "note": "Три VR-сборки. Вариант (дерево/стекло, BOS) выбрать по FOMOD. Текстуры брать 2K.",
+   "reason": "Три VR-сборки, видно у рук"
+  },
+  {
+   "key": "id:107609",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новые перья и чернильницы: меши и текстуры мелочей.",
+   "note": "Мелочь, одна VR-сборка; пересекается с Rally's All The Things.",
+   "reason": "Мелочь, перекрывает Rally's"
+  },
+  {
+   "key": "id:80828",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Тележки и повозки торговцев: новые меши и текстуры с навесами четырёх цветов через Base Object Swapper.",
+   "note": "Три VR-сборки. BOS уже в ядре. Текстуры 2K.",
+   "reason": "Три VR-сборки, BOS уже в ядре"
+  },
+  {
+   "key": "id:46872",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Нордские боевые рога в высокополигональных мешах серии Rally.",
+   "note": "Мелочь, одна VR-сборка.",
+   "reason": "Мелочь, одна VR-сборка"
+  },
+  {
+   "key": "id:115859",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные ванильные троны (Rally's Enhanced Vanilla Thrones), 2K; троны стоят в залах ярлов на виду.",
+   "note": "Меши и текстуры, без DLL. Возможен конфликт текстур с PBR-архитектурой: смотреть вкладку конфликтов.",
+   "reason": "Крупный видимый объект"
+  },
+  {
+   "key": "id:82682",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры стоек для оружия и посохов в лавках и казармах; вблизи видно, что оружие стоит ровно.",
+   "note": "Две VR-сборки, без DLL. Ставить один набор Rally, не поверх других Rally-стоек.",
+   "reason": "Видно вплотную, две VR-сборки"
+  },
+  {
+   "key": "id:22199",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD-корзины, мелкий объект.",
+   "note": "Старый мод 2018 года, одна VR-сборка; возможны пересечения с Rally's.",
+   "reason": "Старый мелкий мод"
+  },
+  {
+   "key": "id:132811",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Кровати, кресла и скамьи Высокого Хротгара в 3D.",
+   "note": "Узкая локация (основной квест), одна VR-сборка.",
+   "reason": "Узкая локация"
+  },
+  {
+   "key": "id:132695",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Мебель дунмеров среднего и высокого полигонажа с 2K-текстурами.",
+   "note": "VR подтверждён одним списком и облегчённым вариантом; тяжёлые текстуры и не обкатано в VR.",
+   "reason": "Тяжёлая, VR не обкатана"
+  },
+  {
+   "key": "id:55852",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Расширенные HQ-свечи (Rudy): новые меши и текстуры свечей и подсвечников, стоящих перед лицом.",
+   "note": "Свет по-прежнему от Light Placer/Lux. Пересечения с Ruins Clutter Improved и Skyland Bits: Rudy ставить ниже, проверить свечи.",
+   "reason": "Видно перед лицом"
+  },
+  {
+   "key": "id:18345",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Новая потёртая модель и 2K-текстура Звезды Азуры: артефакт держат в руках, в VR виден вблизи.",
+   "note": "Четыре VR-сборки, мелкий предмет, 2K достаточно. Ставить один ретекстур Звезды.",
+   "reason": "Четыре VR-сборки, держат в руках"
+  },
+  {
+   "key": "id:138889",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Простые деревенские кровати для шахт, лачуг и ферм; раздача цветов через BOS. Видны постоянно в жилых интерьерах.",
+   "note": "Совместим с BOS из ядра. Пересечения с Rustic Furniture: побеждает нижний в MO2. Одна VR-сборка плюс Panda's.",
+   "reason": "Видно в интерьерах, BOS в ядре"
+  },
+  {
+   "key": "id:89148",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Развешенные кролики (трактиры, охотничьи лагеря) с нормальной тушкой. Копеечные меши, видно вблизи.",
+   "note": "Без DLL, две VR-сборки. Ставить основной файл, без вариантов под Real Rabbits HD.",
+   "reason": "Дёшево, видно вблизи, две VR-сборки"
+  },
+  {
+   "key": "id:42074",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Объёмная икра лосося вместо плоской модели.",
+   "note": "Мелкий еда-объект; набор еды уже покрыт Realistic HD Food Remastered.",
+   "reason": "Мелочь, дубль набора еды"
+  },
+  {
+   "key": "id:169554",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Замена клаттера вампирских локаций (Фолкрит, Вольхихар), работа 2026.",
+   "note": "Полигонаж не проверен, одна VR-сборка, требует Dawnguard.",
+   "reason": "Непроверенный полигонаж, одна VR-сборка"
+  },
+  {
+   "key": "id:70787",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Серебряная посуда и квестовые вещи Гильдии воров, Совнгарда и вампиров сглажены.",
+   "note": "Мелочь, одна VR-сборка.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:110935",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Расширенные модели еды на столах и в таверне; файл 1K, легко для VR.",
+   "note": "Ставить после Food Resized, возможны пересечения мешей. Обновлён в 2025-12.",
+   "reason": "Свежий, 1K, еда в руках"
+  },
+  {
+   "key": "id:4411",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD-модель корабля в интерьерах.",
+   "note": "Мелочь, одна VR-сборка.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:107905",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Серебряные чернильницы через Base Object Swapper.",
+   "note": "Мелочь, одна VR-сборка, дублирует Feather and Ink.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:84053",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Замена паутины в пещерах и руинах; страницу не прочитали.",
+   "note": "Что именно меняет, не проверено; паутина в VR даёт двойной оверлей.",
+   "reason": "Состав не проверен"
+  },
+  {
+   "key": "id:63153",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новый внешний вид сока сприггана (ингредиент).",
+   "note": "Мелочь, одна VR-сборка; Panda's ставит оба варианта.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:70546",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Объёмный хлеб вместо плоской модели; оптимизированная версия.",
+   "note": "Мелочь; набор еды уже покрыт Realistic HD Food Remastered.",
+   "reason": "Мелочь, дубль набора еды"
+  },
+  {
+   "key": "id:84235",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Новая модель и текстуры банок и склянок с реалистичным стеклом.",
+   "note": "Мелочь, одна VR-сборка; стекло может мутнеть с Open Shaders.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:118892",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Благородные скамьи, кресла и троны (Вайтран, Солитьюд и др.) с вариациями цвета через BOS. Видны близко в VR.",
+   "note": "Совместим с Rally's Noble Furniture по LoreRim: The Royal Seat ставить выше. BOS в ядре.",
+   "reason": "Видно близко, BOS в ядре"
+  },
+  {
+   "key": "id:58511",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Исправление мешей настенных туш и трофеев.",
+   "note": "Содержание не подтверждено, одна VR-сборка.",
+   "reason": "Содержание не подтверждено"
+  },
+  {
+   "key": "id:80493",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Столы зачарования в деревенском стиле с вариантами через BOS.",
+   "note": "Beta-файл, страница с ENB Light, одна VR-сборка.",
+   "reason": "Beta, одна VR-сборка"
+  },
+  {
+   "key": "id:74816",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Плавильня в деревенском стиле с ENB Light.",
+   "note": "ENB Light в VR не работает, одна VR-сборка.",
+   "reason": "ENB Light в VR не работает"
+  },
+  {
+   "key": "id:23007",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Плоские текстуры мебели, мельницы, бочек, кухни и причалов заменены на 3D-меши. Вблизи объёмно, VR-листы берут их по частям.",
+   "note": "Пять VR-сборок. Не брать Skyrim 3D Signs и Upper Furniture Addon. Rocks пересекаются с ERM.",
+   "reason": "Пять VR-сборок, объёмный вид"
+  },
+  {
+   "key": "id:142315",
+   "keep": false,
+   "section": "clutter_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Флажки Солитьюда как 3D-меши и оккультные свитки.",
+   "note": "Копеечные мелочи, одна VR-сборка.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:140627",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Аддон к Dragons SE: Паартурнакс со сломанным рогом.",
+   "note": "Персонаж-NPC, узкий эффект; Dragons SE в VR-проверке отдельно.",
+   "reason": "Персонаж, узкий аддон"
+  },
+  {
+   "key": "id:78267",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Звери плывут по поверхности воды.",
+   "note": "Меняет поведение и скорость зверей, в бою проваливаются под воду.",
+   "reason": "Меняет геймплей, багует"
+  },
+  {
+   "key": "id:37319",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Пауки становятся волками, хаурусы медведями.",
+   "note": "Личное предпочтение, не для общей сборки.",
+   "reason": "Личный вариант, не для сборки"
+  },
+  {
+   "key": "id:33789",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Летучие мыши с нормальными текстурами.",
+   "note": "Мелочь, одна VR-сборка.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:37302",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные бабочки: меши и текстуры, видны вблизи, когда садятся на руку или цветок.",
+   "note": "Без DLL, две VR-сборки. Не ставить вместе с другими заменами бабочек.",
+   "reason": "Видно на руке, две VR-сборки"
+  },
+  {
+   "key": "id:4974",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD-ретекстур драконьих жрецов и масок Kajuan.",
+   "note": "Дубль уже взятого Dragon Priests Retexture SE.",
+   "reason": "Дубль Dragon Priests Retexture SE"
+  },
+  {
+   "key": "id:56317",
+   "keep": true,
+   "section": "creatures",
+   "tag": "alt",
+   "choose_one_group": "dragon_fall",
+   "what": "Дракон, убитый в воздухе, падает на землю. Скриптовый вариант без DLL.",
+   "note": "Одно из двух с Dragons (Actually) Fall Down. Брать одно. Старый, но без SKSE-риска.",
+   "reason": "Альтернатива, одна из двух"
+  },
+  {
+   "key": "id:72978",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Случайные вариации текстур животных через SPID.",
+   "note": "Перекрывается с Rustic creature textures (#19272) по мамонтам и волкам.",
+   "reason": "Перекрывает Rustic creature textures"
+  },
+  {
+   "key": "id:58612",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новая модель и текстуры крабов. Грязекрабы на побережье встречаются вплотную.",
+   "note": "Один VR-список, 8 SE. Ужать текстуры при нехватке VRAM; масштаб Creatures Resized применять после.",
+   "reason": "Встречаются вплотную, мешы лёгкие"
+  },
+  {
+   "key": "id:56361",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Пушистые звери: меховые шеллы на ванильных животных.",
+   "note": "Fur-шеллы удваивают нагрузку на GPU в VR, дорого по кадрам.",
+   "reason": "Дорого по GPU в VR"
+  },
+  {
+   "key": "id:65974",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Лисы: объединение Better Foxes и Photoreal Foxes с меховым шейдером. Лучший из двух лисьих ретекстуров.",
+   "note": "Вместо Photoreal Foxes 2K. Мех оболочками дороже, но лисы редки.",
+   "reason": "Редкие звери, лучший из лисьих"
+  },
+  {
+   "key": "id:42514",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "2K-ретекстур нагрудного ремня лошади; в седле упряжь постоянно перед глазами.",
+   "note": "Только текстуры, без DLL. Проверить, что HD Reworked Horses не перекрывает упряжь.",
+   "reason": "В седле перед глазами"
+  },
+  {
+   "key": "id:89960",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "2K-ретекстур пауков (фростбайт и родственные) от Iconic.",
+   "note": "Дубль Rustic Frostbite Spider, который надёжнее по VR-сборкам.",
+   "reason": "Дубль Rustic Frostbite Spider"
+  },
+  {
+   "key": "id:88290",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "2K-ретекстур спригганов.",
+   "note": "Дубль Rustic Spriggan, который проверен в пяти VR-сборках.",
+   "reason": "Дубль Rustic Spriggan"
+  },
+  {
+   "key": "id:90675",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур оборотня и медведя-оборотня в 2K. Хорошо смотрится при трансформации от первого лица.",
+   "note": "Брать 2K. Требует Werewolf Body for VR (уже в списке). Проверить UV.",
+   "reason": "Видно при трансформации"
+  },
+  {
+   "key": "id:42577",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": "saddle",
+   "what": "2K-ретекстур имперского седла: седло постоянно перед глазами, пока вы верхом.",
+   "note": "Одна маленькая текстура. Одно из двух седел: с Yee Haaaa брать только один.",
+   "reason": "Седло перед глазами, одна из двух"
+  },
+  {
+   "key": "id:14328",
+   "keep": true,
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Возвращает существ из Bloodmoon (Карстааг, Кровавый хоркер) на Солстхейм с новыми моделями.",
+   "note": "Возможны правки спавна и ESP на странице. Меши без DLL. Не совмещать с другими заменами тех же существ.",
+   "reason": "Три VR-сборки, спавн требует проверки"
+  },
+  {
+   "key": "id:41929",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "2K-текстуры лосей и скиверов. Скиверы часто встречаются вплотную в подземельях.",
+   "note": "Лоси в Panda's (VR). Скиверы только SE, чистые текстуры. Коров 4K не брать.",
+   "reason": "Встречаются вплотную, 2K"
+  },
+  {
+   "key": "id:92525",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Варианты кур по цвету и весу.",
+   "note": "Мелочь, копеечная ценность.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:121331",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Лягушки с малополигональной моделью и текстурами 512 px.",
+   "note": "Мелочь, одна VR-сборка.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:18817",
+   "keep": true,
+   "section": "creatures",
+   "tag": "rec",
+   "choose_one_group": "frostbite_spider_tex",
+   "what": "Ретекстур фростбайт-паука (база 2K) от Gamwich. Проверенный VR-вариант, в пяти VR-сборках.",
+   "note": "Только текстуры. Надёжнее Iconic's; 4K для паука в VR не нужен.",
+   "reason": "Проверен в пяти VR-сборках"
+  },
+  {
+   "key": "id:18107",
+   "keep": true,
+   "section": "creatures",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "2K-ретекстур спригганов (серия Rustic). Только текстуры; 5 из 9 VR-листов.",
+   "note": "Дополняет Rustic creature textures из первого прохода. Конфликтов не видно.",
+   "reason": "Пять VR-сборок, только текстуры"
+  },
+  {
+   "key": "id:29223",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-кролики: цветовые варианты и детальный меш, опционально с мехом. Кролики под ногами, в VR на уровне глаз.",
+   "note": "Три VR-сборки. Брать Standard, если Fluffworks не ставится.",
+   "reason": "На уровне глаз, три VR-сборки"
+  },
+  {
+   "key": "id:85647",
+   "keep": true,
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры драконьих курганов. Крупные заметные объекты.",
+   "note": "Нет VR-списков, 10 SE-списков. Проверить структуру архива, брать 2K, ставить после Dragons SE.",
+   "reason": "Нет VR-списков, крупный объект"
+  },
+  {
+   "key": "id:69570",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Правка коллизии скелета слизнерыб.",
+   "note": "Нет VR-подтверждения, правит скелет; ценность мала.",
+   "reason": "Нет VR-подтверждения, риск скелета"
+  },
+  {
+   "key": "id:112525",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенная модель и текстуры слотерфиш. Рыбу хорошо видно в прозрачной воде при близком взгляде.",
+   "note": "Чистая замена ассетов, одна VR-сборка. Improved Fish SE не брать.",
+   "reason": "Видно в воде вблизи"
+  },
+  {
+   "key": "id:90547",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые модели и текстуры спригганов. Меши без DLL, сопровождают Dragons SE и Falmer Overhaul.",
+   "note": "Одна VR-сборка. Модели, а не текстуры: с Rustic Spriggan конфликта нет.",
+   "reason": "Модели, без DLL"
+  },
+  {
+   "key": "id:17540",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ретекстур пса Барбаса из квеста Клавикуса Вайла.",
+   "note": "Узкий эффект, привязан к квесту.",
+   "reason": "Узкий, привязан к квесту"
+  },
+  {
+   "key": "id:39356",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "HD-ретекстур скелетов мамонтов.",
+   "note": "Узкий эффект, 4K требует VRAM.",
+   "reason": "Узкий, 4K"
+  },
+  {
+   "key": "id:42508",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": "saddle",
+   "what": "2K-ретекстур сёдел лошадей. В седле постоянно перед глазами, в VR различие заметно.",
+   "note": "Один вариант седла из двух: с Imperial Saddle брать один. Дополняет HD Reworked Horses.",
+   "reason": "Седло перед глазами, одна из двух"
+  },
+  {
+   "key": "id:12128",
+   "keep": false,
+   "section": "creatures",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Улучшенные дремора: лица и текстуры.",
+   "note": "Дубль Additional Dremora faces, уже взятого во втором раунде.",
+   "reason": "Дубль Additional Dremora faces"
+  },
+  {
+   "key": "id:19002",
+   "keep": true,
+   "section": "equipment",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Сотни новых предметов брони и одежды в лутe и у торговцев, распределение через SPID.",
+   "note": "Нужна сборка в BodySlide под 3BA. Меняет лутлисты: проверить патчи после установки.",
+   "reason": "Две VR-сборки, большой объём"
+  },
+  {
+   "key": "id:92845",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Исправляет ошибки усыновления, супругов и переезда.",
+   "note": "Нужен только при браке и усыновлении; нет VR-подтверждения.",
+   "reason": "Узкий случай, нет VR-подтверждения"
+  },
+  {
+   "key": "id:107239",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Описания книг и записок в инвентаре через Description Framework; удобно читать в VR без лишних меню.",
+   "note": "Без DLL, Description Framework уже в ядре. Две VR-сборки.",
+   "reason": "Удобно в VR, фреймворк в ядре"
+  },
+  {
+   "key": "id:107094",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Описания ключей (какую дверь открывает) через Description Framework.",
+   "note": "Пара к All Books Descriptions. Без DLL, две VR-сборки.",
+   "reason": "Пара к книгам, две VR-сборки"
+  },
+  {
+   "key": "id:153425",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Шаблоны ambient-освещения интерьеров для световых модов.",
+   "note": "Может спорить с Lux и Light Placer; свет уже в ядре.",
+   "reason": "Конфликт со световым стеком ядра"
+  },
+  {
+   "key": "id:5990",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Хозяин таверны сам показывает снятую комнату.",
+   "note": "Диалоговая мелочь, одна VR-сборка.",
+   "reason": "Диалоговая мелочь"
+  },
+  {
+   "key": "id:113023",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Окклюзионные объекты через BOS для меньшей отрисовки скрытого.",
+   "note": "Пересекается с eFPS из ядра; риск артефактов видимости.",
+   "reason": "Пересекается с eFPS в ядре"
+  },
+  {
+   "key": "id:64524",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Убирает слишком яркие падающие листья ночью.",
+   "note": "Мелкая правка частиц, одна VR-сборка.",
+   "reason": "Мелочь"
+  },
+  {
+   "key": "id:29434",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправленные точки посадки бабочек: садятся на растения, а не зависают над ними.",
+   "note": "ESP с ESL-флагом, нужен Skyrim VR ESL Support из ядра.",
+   "reason": "Заметно в VR на уровне глаз"
+  },
+  {
+   "key": "id:44249",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фикс вылетов в пещере Chillwind Depths. Крохотный ESP-FE.",
+   "note": "Ставить только при вылетах в этой пещере. Проверить, что USSEP его не закрывает.",
+   "reason": "Фикс вылетов, условный"
+  },
+  {
+   "key": "id:53817",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Чинит не стартующие квесты Коллегии Винтерхолда: незаполненные алиасы.",
+   "note": "Правка, а не квестовый контент. ESL: нужен Skyrim VR ESL Support. Порядок по LOOT.",
+   "reason": "Правка багов, три VR-сборки"
+  },
+  {
+   "key": "id:72019",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фреймворк, раздающий рецепты ковки и алхимии по ини-файлам.",
+   "note": "Нативная VR-сборка. Ставить по зависимости, а не отдельно.",
+   "reason": "Нативный VR, нужен как зависимость"
+  },
+  {
+   "key": "id:44874",
+   "keep": true,
+   "section": "misc",
+   "tag": "alt",
+   "choose_one_group": "ui_theme",
+   "what": "Бумажная тема SkyUI VR с категориями в избранном; пара 100170 красит меню крафта COCKS.",
+   "note": "Альтернатива Norden UI VR из ядра: ровно одна тема. Файлы ниже SkyUI VR в MO2.",
+   "reason": "Альтернатива Norden UI, одна тема"
+  },
+  {
+   "key": "id:39260",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправляет ошибки мешей и материалов ванили, не закрытые другими модами.",
+   "note": "Ставить ниже Assorted Mesh Fixes и Unofficial Material Fix; пересечение вероятно.",
+   "reason": "Дополняет AMF из ядра"
+  },
+  {
+   "key": "id:65530",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Убирает лаги от скриптового эффекта Клинка Кровавого Черепа.",
+   "note": "Узкий фикс, только для Солстхейма с этим клинком.",
+   "reason": "Узкий фикс"
+  },
+  {
+   "key": "id:90252",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Женские NPC присаживаются на уступы и облокачиваются на стены и перила, реагируя позой на погоду.",
+   "note": "Вероятно OAR/DAR без DLL, проверить. Table Leaning и Swimming не брать.",
+   "reason": "Анимации без DLL, нужна проверка"
+  },
+  {
+   "key": "id:87315",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Заменяет курсор-прицел перка «Орлиный глаз».",
+   "note": "Дубль уже взятого Eagle Eye Cursor Replacer for Skyrim VR из второго прохода.",
+   "reason": "Дубль уже взятого"
+  },
+  {
+   "key": "id:164369",
+   "keep": true,
+   "section": "misc",
+   "tag": "alt",
+   "choose_one_group": "embers_xd",
+   "what": "Облегчённые меши огня Embers XD: меньше полигонов на каждый костёр.",
+   "note": "Либо основной Embers XD из ядра, либо этот. Проверить патч FEC (#69446).",
+   "reason": "Облегчённый вариант ядра"
+  },
+  {
+   "key": "id:116601",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Расширяет визуальные эффекты зачарований оружия и брони; нативный VR-порт DLL.",
+   "note": "Требует SKSEVR и VR Address Library. Оценить цену эффектов в VR.",
+   "reason": "Нативный VR-порт"
+  },
+  {
+   "key": "id:62144",
+   "keep": false,
+   "section": "misc",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Исправление формулы цены зачарованных вещей.",
+   "note": "Файл и VR-статус не подтверждены, мелкая правка.",
+   "reason": "Не подтверждено, мелочь"
+  },
+  {
+   "key": "id:19608",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Уровень зоны подземелья больше не замораживается при первом входе: враги и лут растут вместе с вами. SKSE-плагин.",
+   "note": "Версия для VR есть, четыре VR-сборки. Дополняет Locational Encounter Zones; проверить в игре, нет ли двойного масштабирования.",
+   "reason": "VR-версия есть, четыре сборки"
+  },
+  {
+   "key": "id:2357",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Классические текстуры крови, брызг и следов в бою. В бою на расстоянии вытянутой руки кровь заметна больше.",
+   "note": "Четыре VR-сборки. Ставить после Dynamic Bloodpool и Dirt and Blood, проверить, что кровь не двоится.",
+   "reason": "Четыре VR-сборки, заметно в бою"
+  },
+  {
+   "key": "id:103807",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Огонь костров наклоняется по ветру. Меши пламени под Embers XD, почти бесплатны, видны на каждом лагере.",
+   "note": "Перезаписывает меши Embers XD: проверить, что свет костра остаётся. Если свет пропал, убрать.",
+   "reason": "Перезаписывает меши Embers XD"
+  }
+ ]
+}
