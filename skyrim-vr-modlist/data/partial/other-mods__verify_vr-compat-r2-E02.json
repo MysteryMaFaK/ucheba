@@ -1,0 +1,194 @@
+{
+ "verdicts": [
+  {
+   "key": "id:95121",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Лёгкая живность Mihail: фазаны, вороны, олени, мамонтята, снежные киты.",
+   "note": "Брать только модели животных (фазаны, вороны, олени, мамонтята, киты) в версии SE-AE. Talkative Falmers/Hagravens, Troll Cubs, Cliff Racers, Giants Overhaul, оружие и Hircine не брать. Проверить масштаб рядом с Creatures Resized for VR и Precision Creatures.",
+   "reason": "Карточка: 2 VR-листа (Tahrovin, Tempus Maledic). Моды Mihail — esp и ассеты без DLL (знание, не проверено по карточке). Оживляет мир при малой нагрузке."
+  },
+  {
+   "key": "id:45191",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Исправление вылета при призыве Bound Dagger.",
+   "note": "Назначение и состав файла не подтверждены: поиск ничего не дал. Перед установкой открыть архив: DLL быть не должно (или должен быть VR-вариант). Ставить, только если используется призванный кинжал. Это не дубль Fixed Bound Sword and Dagger Collision (#60064).",
+   "reason": "Карточка: vr=3, se=0 (FUS, Librum VR, Tempus Maledic), VR-листы используют, но подтверждения VR-статуса нет."
+  },
+  {
+   "key": "id:41335",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Патчи совместимости SunHelm с другими модами.",
+   "note": "Ставить только патчи под реально установленные моды. Архив 2020 года: часть патчей может устареть, проверить в SSEEdit.",
+   "reason": "SunHelm в ядре (#39414), три VR-листа (Librum VR, Panda's Sovnga, Yggdrasil VR). Патчи-esp, DLL не ожидается."
+  },
+  {
+   "key": "id:67864",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Магические источники тепла (огненные заклинания, атронахи) греют в SunHelm.",
+   "note": "Мелкая надстройка к SunHelm. Проверить, что в архиве нет DLL (знание: esp со скриптами, не проверено).",
+   "reason": "Карточка: vr=3 (Panda's Sovnga, Spirit of Grit, Tahrovin - Gri); SunHelm в ядре."
+  },
+  {
+   "key": "id:24201",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "alt",
+   "choose_one_group": "bodyslide_presets",
+   "what": "Пресеты BodySlide/RaceMenu для CBBE 3BA: Greek Goddess или Teraru Diosa del Acero.",
+   "note": "Выбрать один пресет: Greek Goddess (24201) или Diosa del Acero (61377). BD's Armor и остальные Teraru не брать. Требуют CBBE 3BA (#30174) и BodySlide (#201); для NPC пресет работает через OBody NG.",
+   "reason": "Карточка: vr=3 (Spirit of Grit, Tahrovin, Tahrovin - Gri). Пресеты — только данные. Вкусовой выбор, не обязателен."
+  },
+  {
+   "key": "id:62314",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Исправление заряда зачарованного оружия.",
+   "note": "Состав файла не подтверждён (поиск вернул другой мод). Открыть архив: если есть SKSE DLL, нужен VR-вариант, иначе не ставить. Проверить конфликты с Adamant и Blade and Blunt в SSEEdit.",
+   "reason": "Карточка: vr=2, se=1 (FUS, Tahrovin). Утверждение «без DLL» из прошлого прохода не подтверждено."
+  },
+  {
+   "key": "id:3077",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Полуоткрытые шлемы стражи: лица видны вблизи.",
+   "note": "Только меши. Faultier's PBR Armors может перекрывать шлемы стражи: после установки прогнать PGPatcher и посмотреть шлем в игре. Lollygaggin' и Improved Closefaced Helmets не брать как конкурентов.",
+   "reason": "Карточка: vr=2 (Spirit of Grit, Tahrovin - Gri). Меши без DLL; вблизи в VR заметно."
+  },
+  {
+   "key": "id:32500",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые лорные виды оружия в таблицах лута, 2K-текстуры.",
+   "note": "Из конкурирующих пакетов оружия (Aetherium, Insane Armory, JaySuS) брать только этот. Проверить конфликты с Adamant, Better-Shaped Weapons (#2017) и Dynamic Leveled Lists в SSEEdit. 2K BSA: следить за VRAM.",
+   "reason": "Карточка: vr=2 (Tempus Maledic, Yggdrasil VR), файл 2K BSA. Оружие в руке видно близко."
+  },
+  {
+   "key": "id:114114",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Подповерхностное рассеивание кожи как модуль Community Shaders.",
+   "note": "Сначала проверить, есть ли SSS уже внутри Open Shaders 2.17 (папка Features): если есть, отдельный мод не ставить. Иначе поставить и сравнить кожу в шлеме и стоимость кадра при двух глазах.",
+   "reason": "Карточка: vr=2 (FUS, Librum VR), но эти листы стоят на другой VR-сборке CS. Работа на Open Shaders 2.17 не подтверждена. Мод может быть избыточным."
+  },
+  {
+   "key": "id:4933",
+   "keep": true,
+   "section": "equipment",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Плащи Winter Is Coming: носимая вещь на теле, плюс к SunHelm.",
+   "note": "Меши без DLL. Проверить слоты брони в SSEEdit против IED, Wearable Lanterns и Bandolier. Версию с физикой (SMP) не брать, дороже по CPU. Ретекстур от Faultier плащи не покрывает.",
+   "reason": "Карточка: vr=2 (Librum VR, Yggdrasil VR). Архив 2.4 для SE, патчи SunHelm берутся из #41335."
+  },
+  {
+   "key": "id:28268",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные эффекты зачарований на оружии.",
+   "note": "Эффекты видны в руке. Проверить в шлеме свечение при Open Shaders. Vibrant Weapons EAE не брать как конкурент. Проверить совместимость с Deadly Spell Impacts и Dynamic Impact (#86071).",
+   "reason": "Карточка: vr=2 (Panda's Sovnga, Yggdrasil VR). Меши и текстуры без DLL (знание, не проверено). Старый мод 2019."
+  },
+  {
+   "key": "id:162491",
+   "keep": true,
+   "section": "equipment",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Капюшон и диадема одновременно: убирает конфликт слотов.",
+   "note": "Состав не подтверждён: поиск ничего не дал. Открыть архив, DLL быть не должно. Возможен конфликт слотов с Faultier, IED и CC Open Helmets (#70992).",
+   "reason": "Карточка: vr=2 (Spirit of Grit, Tahrovin - Gri), 2025. Мелкое удобство."
+  },
+  {
+   "key": "id:64405",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Улучшенные брови для RaceMenu.",
+   "note": "Файл на карточке для High Poly Head (BM_Brows_HPH), а HPH в стеке нет. Ставить только если на странице есть вариант для ванильной головы. Проверить брови вместе с Nordic Faces и Face Discoloration Fix; перекрытие бровей убрать.",
+   "reason": "Карточка: vr=3 (Spirit of Grit, Tahrovin, Tahrovin - Gri), но все три листа на HPH. Для ванильной головы не подтверждено."
+  },
+  {
+   "key": "id:84288",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Зубы и рот BnP с 2K-текстурами.",
+   "note": "Проверить требования на странице мода (BnP Female Skin #65274, ванильная или HPH голова). Брать 2K. Проверить совместимость с Expressive Facial Animation и Expressive Facegen Morphs.",
+   "reason": "Карточка: файл 2k, Panda's Sovnga (VR), 1 VR-лист. Тег rec снят: мало VR-подтверждения. NPC вблизи в VR заметны."
+  },
+  {
+   "key": "id:49373",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Оверлеи волос на теле для HIMBO через RaceMenu.",
+   "note": "Только для мужского персонажа. Нужны HIMBO (#46311) и RaceMenu VR. Файл на карточке называется «Automation Tools r6c»: проверить, что внутри именно оверлеи. Следить за лимитом слотов оверлеев.",
+   "reason": "Карточка: vr=2 (Librum VR, Tahrovin); оверлеи без DLL. Свои руки в VR видны постоянно."
+  },
+  {
+   "key": "id:101500",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Анимированные имперские палатки: полог шевелится.",
+   "note": "Меши с анимацией, DLL нет, нагрузка мала. Faultier's PBR Skyrim может покрывать палатки: прогнать PGPatcher. 4K Imperial Tents Retexture не брать (VRAM).",
+   "reason": "Карточка: vr=2 (FUS, Panda's Sovnga). Малая, но заметная живость лагерей."
+  },
+  {
+   "key": "id:113064",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Исправление бесконечного блока у NPC.",
+   "note": "Поиск мод не нашёл. Открыть архив: DLL нужен только с VR-сборкой. Проверить, что не дублирует Blade and Blunt, Adamant, Combat Pathing Revolution и Block Condition Freeze CTD Fix (#193168). Тест: бой с NPC со щитом.",
+   "reason": "Карточка: vr=3 (Spirit of Grit, Tahrovin - Gri, Tempus Maledic). Тег rec снят: назначение и состав не подтверждены."
+  },
+  {
+   "key": "id:6580",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мужская кожа в высоком качестве и реальные ступни.",
+   "note": "В FOMOD выбрать 2K (VRAM, два глаза). Для женского персонажа достаточно BnP Female Skin. Меши ступней могут конфликтовать с HIMBO и CBBE 3BA: при конфликте брать только текстуры.",
+   "reason": "Карточка: 2025, Yggdrasil VR (1 VR-лист, 5 SE-листов). Ступни видны с VRIK. Нужен HIMBO (#46311)."
+  },
+  {
+   "key": "id:81498",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Замена малой нордской палатки.",
+   "note": "",
+   "reason": "Мелкая замена одной модели, текстуры и разрешение неизвестны, возможен конфликт с PBR-ретекстурами Faultier. Малая отдача для кураторского списка; Imperial Tents - Animated уже покрывает палатки."
+  }
+ ]
+}

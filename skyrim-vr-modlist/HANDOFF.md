@@ -24,7 +24,9 @@
 | Группы «одно из», правила порядка в MO2 и плагинов, найденные противоречия, системные требования | **Готовы** (17 групп, 22 + 14 правил, 38 противоречий) | `CONFLICTS.md`, `manifest.yaml` |
 | Проверка процедуры (MO2, Root Builder, SKSEVR, Engine Fixes, xEdit, DynDOLOD, NGIO, Synthesis) | **Выполнена**; низкая надёжность помечена **(проверить)** | `INSTALL_GUIDE.md`, `data/partial/install-spec__procedure_fact-check.json` |
 | Системный промпт и навык `/skyrim-vr-install` | Готовы | `SYSTEM_PROMPT.md`, `.claude/skills/skyrim-vr-install/` |
-| «Other Mods 2026» — список | **Готов, опубликован**: 128 модов + 23 запрета (из 178 кандидатов оставлено 151) | https://claude.ai/artifact/GRjZnT1B4zRCYUyV4UppH9 · `OTHER_MODS.md` · `site/skyrim-vr-other-mods-2026.html` |
+| «Other Mods 2026» — первый проход | **Готов, опубликован**: 128 модов + 23 запрета (из 178 кандидатов оставлено 151) | https://claude.ai/artifact/GRjZnT1B4zRCYUyV4UppH9 · `OTHER_MODS.md` · `site/skyrim-vr-other-mods-2026.html` |
+| «Other Mods 2026» — второй проход (все непросмотренные кандидаты 27 сборок) | **Оценка готова, проверка частично** (на 21.10): решения по 1573 кандидатам (990 отброшено с причиной), принято 151, ждут лёгкой проверки 351. Страница и `OTHER_MODS.md` ещё не пересобраны | `data/partial/other-mods__collect_r2-*`, `data/other2/`, см. «Лёгкий режим» ниже |
+| «Взаимодействие в VR» | **Готово**: 39 модов + 16 «не ставить», правила совместимости с HIGGS/PLANCK/VRIK, раздел «рассмотрено и не взято» | `VR_INTERACTION.md`, `data/vr_interaction_result.json` |
 | «Other Mods 2026» — файлы установки (файл, FOMOD, требования, порядок) | **Не сделаны** | см. шаг 2 ниже |
 
 ## Требования к окружению
@@ -43,7 +45,8 @@
 | `site/skyrim-vr-core-2026.html` | `tools/build_page.py` (основной список) и `tools/additions.py` (добавления 08.10), затем `python tools/build_page.py site/skyrim-vr-core-2026.html` |
 | `data/kit/draft_manifest.json` | не вручную: `python tools/make_draft_manifest.py` (читает `build_page.py` и `additions.py`) |
 | `manifest.yaml`, `MODLIST.md`, `CONFLICTS.md`, `links/` | **карточки модов**: `data/partial/install-spec__enrich_*.json` (источник) либо точечно `data/kit/fixups.json` (`mod_patches` по ключу мода, `text_fixes` для замены текста, `key_aliases` для переименованных ключей); **группы, порядок, противоречия**: `data/partial/install-spec__critic_consistency.json`. Затем `python tools/merge_partials.py install-spec` и `python tools/build_kit.py data/install_spec.json` |
-| `OTHER_MODS.md`, `site/skyrim-vr-other-mods-2026.html` | `data/partial/other-mods__*.json`, затем `merge_partials.py other-mods` и `build_other.py` (см. шаг 3) |
+| `OTHER_MODS.md`, `site/skyrim-vr-other-mods-2026.html` | первый проход: `data/partial/other-mods__collect_*/verify_*.json` → `merge_partials.py other-mods`; **затем всегда** второй проход: `python tools/merge_other2.py` (точечные правки первого прохода и описаний разделов — `data/other2/fixups.json`); потом `build_other.py` (см. шаг 3) |
+| `VR_INTERACTION.md`, `data/vr_interaction_result.json` | `data/partial/vr-interaction__*.json`, затем `python tools/merge_ix.py` |
 
 Закрывая метку «проверить» в карточке мода: поправьте поля в `data/partial/install-spec__enrich_<группа>.json` (источник; ключ карточки — поле `key`) или добавьте запись в `mod_patches` файла `fixups.json`, потом пересоберите. Правка прямо в `manifest.yaml` не переживёт пересборку.
 
@@ -60,6 +63,22 @@
 После запуска: `python tools/save_journal.py "<Transcript dir>" <install-spec|other-mods>` (существующие файлы не перезаписывает; `--overwrite` заменяет с копией в `data/partial/_backup/`), затем `merge_partials.py`, затем `build_kit.py` / `build_other.py`. Это можно делать и фоном: `tools/autosave.sh <кампания>=<Transcript dir>` (с `--push` добавит коммит и пуш, только с разрешения владельца).
 
 **Без Workflow:** прочитайте нужный скрипт, возьмите из него текст запроса агента (`CONTEXT`, `prompt`, схему результата) и выполните ту же работу самостоятельно, сохраняя результат в файл формата `data/partial/<кампания>__<метка>.json`.
+
+## Лёгкий режим второго прохода «Other Mods» (экономия токенов, с 21.10)
+
+Тяжёлые воркфлоу второго прохода (`skyrim-vr-other-mods-complete`, сбор «взаимодействия») **больше не запускать**: оценка уже сделана и лежит в `data/partial/`. Осталось проверить 351 предложение и свести дубли. Оценка расхода: ~4 агента проверки + 3 агента сведения, порядка 0,3–0,4 млн токенов (вместо ~5 млн по старой схеме).
+
+1. `python tools/verify_chunks.py` — собирает порции `data/other2/verify_chunks/V*.json` (по 100) из ещё не проверенного и печатает `args`. Метки сборщика `rec` и `dont` принимаются без проверки (`data/other2/auto_accepted.json`).
+2. `Workflow({scriptPath: "<абс. путь>/workflows/skyrim-vr-verify-light.js", args: <args из шага 1>})` — один проверяющий на порцию, без вызовов инструментов, `effort: medium`, остановка при первом сбое.
+3. `python tools/save_journal.py "<Transcript dir>" other-mods` и `python tools/merge_other2.py`. Если прогон остановился на лимите — после сброса просто повторить шаги 1–3: проверенное в порции не попадёт.
+4. `python tools/consolidate_input.py` — печатает `args`; `Workflow({scriptPath: "<абс. путь>/workflows/skyrim-vr-consolidate-light.js", args: ...})` — три редактора (пробелы, текстуры, мир), каждый читает один компактный файл.
+5. `python tools/save_journal.py "<Transcript dir>" other-mods`, `python tools/merge_other2.py`, `python tools/build_other.py data/other_result.json site/skyrim-vr-other-mods-2026.html OTHER_MODS.md`.
+   Повторное сведение (если меняли проверку) — с `save_journal.py ... --overwrite`: имена файлов сведения постоянные (`consolidate_r2-<часть>`), а номера порций проверки сквозные и не повторяются.
+6. `python tools/coverage_check.py 3` — проверка полноты без агентов (сейчас без решения только 5 модов из 3+ VR-сборок, все — инструменты).
+
+Почему так (замеры по журналам): VR-проверка в паре проверяющих ни разу не сняла мод, который оставила проверка пользы (0 из 210), — поэтому один проверяющий; метки `rec`/`dont` подтверждались в 16 из 16 случаев; основная трата старой схемы — вызовы инструментов на каждый мод и большие файлы в контексте (до 35 млн токенов кэша на агента). **Не продолжайте воркфлоу через `resumeFromRunId`**: кэш сопоставляется по порядку вызовов и при параллельных стадиях ломается — уже готовые оценки запускались заново. Продолжение — через пересборку порций (шаг 1), она сама исключает сделанное.
+
+Что отсеяно без агентов (можно вернуть): `data/other2/auto_excluded.tsv` (правила владельца: контент, спутники и т. д.), `data/other2/prefilter_skipped.tsv` (полосы C/D: только SE-сборки, ENB, патчи к модам вне списков). Причины по каждому оценённому кандидату — `data/other2/dispositions.json`.
 
 ## Что осталось
 
@@ -109,3 +128,5 @@ python tools/fetch_reports.py
 - Читайте страницы модов на Nexus напрямую, а не через поисковые сниппеты.
 - Карточки установки заполняйте по группам; для рутинных групп хватит модели поменьше.
 - `tools/whouses.py` ничего не стоит по токенам и сразу показывает, какой файл выбирают VR-сборки.
+- Правила для любых новых агентов (по замерам 09–21.10): данные готовить скриптом заранее и класть в карточку (имена файлов из сборок, число VR/SE-сборок), агенту — один компактный файл и запрет на вызовы инструментов по каждому моду; крупные порции (80–100) вместо мелких; `effort: medium` для сортировки; один проверяющий вместо двух; без агента-критика (есть `coverage_check.py`); не запускать несколько воркфлоу одновременно; при сбое (лимит) — остановка, а не повторы.
+- Шаг 2 (файлы установки «Other Mods») делать так же: файл и вариант — скриптом из `data/rep` (`whouses.py`), агентам — только моды с меткой `rec`/`alt` и только выбор опций FOMOD, порциями.

@@ -1,0 +1,13 @@
+{
+ "round1": {
+  "100781": {
+   "tag": "dont",
+   "section": "dont",
+   "what": "Не ставить вместе с Physical Collision VR из ядра: карточка PCVR запрещает сочетание, парирование уже даёт PLANCK + PCVR.",
+   "note": "Конфликт найден сбором «взаимодействие в VR» (VR_INTERACTION.md, «Конфликты»). Ставить только если отказались от Physical Collision VR."
+  }
+ },
+ "leads": {
+  "physics": "Для VR главное — физика тела и волос (CBPC с коллизиями рук, FSMP для SMP-волос и одежды). Парирование и коллизии оружия уже даёт ядро (PLANCK + Physical Collision VR): Pseudo Physical Parry с ним не сочетать."
+ }
+}

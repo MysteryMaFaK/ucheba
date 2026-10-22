@@ -40,6 +40,13 @@ for kind in ('vr-compat', 'value-perf'):
         for v in ld(f).get('verdicts', []):
             verd.setdefault((bid, kind), {})[v['key']] = v
 
+single = {}    # лёгкая проверка: один проверяющий (workflows/skyrim-vr-verify-light.js)
+for f in sorted(glob.glob(f'{P}/other-mods__verify_single-*.json')):
+    for v in ld(f).get('verdicts', []):
+        single[v['key']] = v
+autop = os.path.join(O2, 'auto_accepted.json')
+auto = {a['key']: a for a in ld(autop)} if os.path.exists(autop) else {}
+
 verified, disp, done = [], [], set()
 pending = []
 for bid in sorted(evals):
@@ -53,7 +60,13 @@ for bid in sorted(evals):
         if e['decision'] == 'drop':
             disp.append(row); continue
         a, b = ma.get(key), mb.get(key)
-        if not (ma and mb):
+        if key in single:                      # один проверяющий заменяет оба старых
+            a = b = single[key]
+        elif not (a and b) and key in auto:    # rec/dont сборщика — без проверки
+            syn = dict(key=key, keep=True, section='dont' if e['decision'] == 'dont' else e['section'], tag='dont' if e['decision'] == 'dont' else e['tag'],
+                       choose_one_group=e['choose_one_group'], what=e['what'], note=e['note'], reason='без проверки: ' + auto[key]['reason'])
+            a = b = syn
+        if not (a and b):
             pending.append((bid, key)); row['decision'] = 'pending_verify'; disp.append(row); continue
         keep = bool(a and b and a['keep'] and b['keep'])
         row['decision'] = ('keep' if keep else 'rejected_by_verifier') + (':dont' if e['decision'] == 'dont' else '')
@@ -89,8 +102,22 @@ for v in verified:
         v['value'] = val
     applied[a['action']] = applied.get(a['action'], 0) + 1
 
+# точечные правки первого прохода (data/other2/fixups.json: {"round1": {"<nexus id>": {"tag": ..., "section": ..., "what": ..., "note": ...}}})
+fxp = os.path.join(O2, 'fixups.json')
+fx = ld(fxp).get('round1', {}) if os.path.exists(fxp) else {}
+for v in round1:
+    f1 = fx.get(str(v.get('id')))
+    if f1 and v.get('value'):
+        v['value'] = dict(v['value'], **f1)
+        if v.get('compat') and f1.get('tag') == 'dont':
+            v['compat'] = dict(v['compat'], tag='dont')
+
+for l in res.get('leads', []):        # правки описаний разделов (fixups.json: {"leads": {"<раздел>": "<текст>"}})
+    if l['section'] in (ld(fxp).get('leads', {}) if os.path.exists(fxp) else {}):
+        l['lead'] = ld(fxp)['leads'][l['section']]
+
 critic = ld(f'{P}/other-mods__critic_r2.json') if os.path.exists(f'{P}/other-mods__critic_r2.json') else None
-summary = dict(batches=len(evals), dispositions=len(disp), kept=sum(v['keep'] for v in verified), verified=len(verified), pending_verify=len(pending), consolidation_files=len(cons), applied=applied)
+summary = dict(single_verdicts=len(single), auto_accepted=len(auto), round1_fixups=len(fx), batches=len(evals), dispositions=len(disp), kept=sum(v['keep'] for v in verified), verified=len(verified), pending_verify=len(pending), consolidation_files=len(cons), applied=applied)
 print(json.dumps(summary, ensure_ascii=False))
 import collections
 print('решения:', dict(collections.Counter(d['decision'] for d in disp)))

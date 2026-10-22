@@ -1,0 +1,184 @@
+{
+ "verdicts": [
+  {
+   "key": "id:80515",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "FYX - Black-Briar and Riftweald Manors",
+   "note": "Два здания; параллакс-меши бесполезны, пока Complex Material в VR не подтверждён.",
+   "reason": "trivial: два поместья, зависит от неподтверждённого параллакса; риск конфликта с Tomato's Riften (#157340)"
+  },
+  {
+   "key": "id:153681",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "3D Whiterun Trellis - Complex Material and PBR",
+   "note": "Мелкая деталь одного города под неподтверждённый PBR.",
+   "reason": "trivial: решётки в Вайтране, PBR на Open Shaders VR не подтверждён"
+  },
+  {
+   "key": "id:47802",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Текстуры двемерской техники со светящимися картами: шестерни и трубы светятся в тёмных руинах.",
+   "note": "Только текстуры. Нужен как не-PBR запас, пока PBR в VR не подтверждён. Не смешивать с PBR-паками двемеров; порядок относительно Dwemer Pipework Reworked (#46507) проверить.",
+   "reason": "Два VR-списка (Tempus Maledic, Yggdrasil VR), без DLL и без нагрузки; ENB не нужен, свечение даёт glowmap."
+  },
+  {
+   "key": "id:100088",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Правит коллизии ступеней Высокого Хротгара: в VR подъём по лестнице без застреваний.",
+   "note": "Без DLL. Вариант файла выбрать под свои меши Хротгара (в карточке файл Parallax - Soft).",
+   "reason": "Реальный фикс ходьбы в VR, ничего не стоит; не дублирует ничего из inventory."
+  },
+  {
+   "key": "id:27618",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанные меши двемерских руин снаружи: больше объёма вблизи.",
+   "note": "Мод 2019 года, только меши. Ставить до текстур двемеров; проверить конфликт с ERM (#121336) и Dwemer Pipework (#46507) и совпадение с LOD DynDOLOD.",
+   "reason": "Два VR-списка, заметные ориентиры (Мзулфт, Альфтанд); нагрузка умеренная. Единственный мод внешних двемерских мешей в батче."
+  },
+  {
+   "key": "id:6130",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Distinct Interiors",
+   "note": "Старый общий пак интерьеров, спорит по стилю с Noble Skyrim и Tomato's/Vanaheimr.",
+   "reason": "redundant: интерьеры уже закрывают Noble Skyrim HD-2K (#21423), Tomato's города, Vanaheimr (#158524); разрешение AIO неизвестно, VRAM"
+  },
+  {
+   "key": "id:48724",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Текстуры двемерских автоматонов со светящимися картами: светятся в тёмных руинах.",
+   "note": "Только текстуры, без DLL. Пара к Dwemer Tech Glowmapped. Если PBR-пак закроет автоматонов, его не ставить.",
+   "reason": "Автоматоны встречаются в двемерских руинах постоянно, два VR-списка; не дублирует Precision Creatures (#74887, это поведение)."
+  },
+  {
+   "key": "id:8016",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Dwemer Spectres Special Edition",
+   "note": "Редкий враг, замена модели ради одного типа.",
+   "reason": "trivial: спектры встречаются редко, выигрыш не оправдывает ещё одну замену моделей"
+  },
+  {
+   "key": "id:89215",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанные столбы-головоломки в нордских руинах: рассматриваются вблизи на расстоянии руки.",
+   "note": "Без DLL. Ставить после Rudy HQ Nordic Ruins (#19365) и Ruins Clutter Improved (#5870); при PBR-варианте проверить совпадение материалов.",
+   "reason": "Объект, к которому подходят вплотную, лёгкий; тема не закрыта другими паками. Одно упоминание (FUS), поэтому только opt."
+  },
+  {
+   "key": "id:4819",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Разные пограничные ворота у холдов вместо одинаковых.",
+   "note": "Без DLL. Патч Fort Dawnguard из архива; проверить пересечение с FYX Stockades Walls and Gate (#66037).",
+   "reason": "Два VR-списка (Librum VR, Yggdrasil VR), лёгкие меши, не дублирует inventory."
+  },
+  {
+   "key": "id:158918",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Window Emittance Consistency (WEC)",
+   "note": "Содержимое не подтверждено, окна ночью уже ведёт Lux Orbis.",
+   "reason": "covered_elsewhere: вероятно пересекается с Lux Orbis (#56095); поиск мод не нашёл, содержимое по названию"
+  },
+  {
+   "key": "id:61417",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "'No hole in the roof' opening scene FIX VR",
+   "note": "Нужен только при ванильном старте.",
+   "reason": "trivial: в стеке альтернативные старты (#18223, #14553, #272), сцена повозки не используется"
+  },
+  {
+   "key": "id:83802",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Ayleid Ruins Retexture",
+   "note": "В ванильном Скайриме айлейдских руин нет.",
+   "reason": "low_value: ретекстур айлейдского набора для контентных модов (Bruma и т.п.), которых в стеке нет; se=0 по 18 SE-спискам"
+  },
+  {
+   "key": "id:149920",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Dynamic Interior Ambient Lighting (DIAL)",
+   "note": "Заменён Helios.",
+   "reason": "covered_elsewhere: Helios + MMSF (#181533) в ядре, у Helios на странице указано «преемник DIAL»"
+  },
+  {
+   "key": "id:70354",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Don't sheathe bound weapons DAR animations",
+   "note": "Меняет анимацию убирания вызванного оружия; у игрока в VR она не играет.",
+   "reason": "low_value: анимации DAR; в VR с VRIK и True Wield (#191123) убирание оружия иное, польза только для NPC-чародеев; формат DAR поверх OAR"
+  },
+  {
+   "key": "id:38194",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмные HD-амулеты: видны на шее у NPC вблизи и на теле игрока с VRIK.",
+   "note": "Только меши и текстуры, брать оптимизированную версию. Если PBR-пак брони закроет амулеты, он выигрывает.",
+   "reason": "Лёгкий, без DLL, украшения не закрыты ни Faultier's PBR Armors (#175319), ни Cathedral Armory (#20199) в inventory. Один VR-список, поэтому opt."
+  },
+  {
+   "key": "id:22671",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "Guards Armor Replacer SSE",
+   "note": "Старая замена брони стражей, спорит по стилю с PBR-бронёй.",
+   "reason": "redundant: броня уже закрыта Faultier's PBR Armors and Clothes (#175319), CBBE 3BA Vanilla Outfits Redone (#109194); мод 2019 года, нужны меши в BodySlide, каждый страж добавляет полигонов в городе"
+  },
+  {
+   "key": "id:43103",
+   "keep": false,
+   "section": "none",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "NordwarUAs Armor Replacers - BodySlide",
+   "note": "Только вместе с Guards Armor Replacer, который не берём.",
+   "reason": "redundant: зависимость отклонённого #22671"
+  }
+ ]
+}

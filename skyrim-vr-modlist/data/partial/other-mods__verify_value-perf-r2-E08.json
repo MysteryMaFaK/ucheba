@@ -1,0 +1,84 @@
+{
+ "verdicts": [
+  {
+   "key": "id:69851",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправления LOD-мешей под DynDOLOD.",
+   "note": "",
+   "reason": "covered_elsewhere: LOD-модели уже закрывают #87521 LOD Model Library и #73381 Icy Mesh Remaster; FOMOD завязан на моды, которых в стеке нет, ценность узкая."
+  },
+  {
+   "key": "id:156773",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "VR-фикс вылетов из-за leveled lists (SKSE-плагин): защита при большом числе записей в списках лута.",
+   "note": "Нативный VR-DLL, нужны SKSEVR и VR Address Library. Ставить рядом с Dynamic Leveled Lists #172083 и Engine Fixes VR; при вылетах сверять Crash Logger. Используют Librum VR и Tempus Maledic.",
+   "reason": "Реальная стабильность при больших списках лута и SPID/DLL, нативный VR, нет дубля в inventory."
+  },
+  {
+   "key": "id:38944",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Звуки меню в стиле бумаги.",
+   "note": "",
+   "reason": "trivial: косметика звуков меню, пересекается с Audio Overhaul/ISC из ядра, ценности для VR почти нет."
+  },
+  {
+   "key": "id:34292",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстура Рейвен-Рока (Солстхейм), 2K.",
+   "note": "",
+   "reason": "outdated: не-PBR 2021 года, спорит с PBR-стеком и FYX Raven Rock Docks #66037, один город Солстхейма, один VR-список."
+  },
+  {
+   "key": "id:47742",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мохнатые коровы вместо гладких ванильных: вблизи в VR разница заметна.",
+   "note": "Без DLL, дёшево по VRAM. Не конфликтует с Creatures Resized for VR #51551. Файл Rallys Shaggycows of Skyrim 1.2, 2021 (список FUS). Текстуры не-PBR, на ферме не мешают.",
+   "reason": "Небольшая, но видимая вблизи замена, ни с чем из inventory не пересекается."
+  },
+  {
+   "key": "id:70260",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Доски объявлений с новыми мешами и текстурами.",
+   "note": "",
+   "reason": "trivial: один тип статика, один VR-список, не-PBR; польза почти нулевая на фоне SMIM и Skyland Bits and Bobs."
+  },
+  {
+   "key": "id:94436",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Озвучка книг: слушать вместо чтения мелкого текста в VR.",
+   "note": "Брать файл Voiced Books of Skyrim - VR 1.1 (есть отдельный VR-файл). Есть ли в нём DLL, по карточке неизвестно: проверить на странице и в логе Crash Logger. Аудио большое по диску. Списки Spirit of Grit и Tahrovin - Gri.",
+   "reason": "Реальная польза в VR (чтение мелкого текста), раздел voice не подходит (это не голосовые команды); try, потому что VR-вариант может нести плагин."
+  },
+  {
+   "key": "id:15831",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые модели даэдрических зверей.",
+   "note": "",
+   "reason": "redundant: добавляет новых существ (контент), а даэдра-текстуры уже закрывает #19272 Rustic creature textures; вариант и VR-безопасность не подтверждены."
+  }
+ ]
+}

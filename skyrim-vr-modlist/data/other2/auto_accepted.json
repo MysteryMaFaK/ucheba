@@ -1,0 +1,134 @@
+[
+ {
+  "batch": "A06",
+  "key": "id:75610",
+  "name": "Ancient Dwemer Metal (+ Ancient Automatons, My patches for SMIM/Dawnguard/Dragonborn)",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "A07",
+  "key": "id:463",
+  "name": "SkyHUD",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "A07",
+  "key": "id:18722",
+  "name": "Skyrim VR USSEP Dwarven Ballista missing texture fix",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "A07",
+  "key": "id:5436",
+  "name": "RUGNAROK - Special Edition",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "A07",
+  "key": "id:43532",
+  "name": "Scrambled Bugs",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "A07",
+  "key": "id:23581",
+  "name": "[серия «whose quest», 3 модов] Whose Quest Is It Anyway и др.",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "A07",
+  "key": "id:28456",
+  "name": "Dual Wield Block VR",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "A07",
+  "key": "id:159",
+  "name": "Even Better Quest Objectives SE - EBQO SE",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "A08",
+  "key": "id:50197",
+  "name": "3D Casting FX - Fire and Frost Hand FX Replacer",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B01",
+  "key": "id:68815",
+  "name": "Stony AF Markarth and Dwemer Ruins - Retextures - 2K - 4K - Parallax",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B01",
+  "key": "id:24108",
+  "name": "ENB Particle Lights - Dwemer Lanterns",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B02",
+  "key": "id:48120",
+  "name": "Whiterun Mesh Fixes",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B02",
+  "key": "id:58862",
+  "name": "Mage Armor Script Fix",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B03",
+  "key": "id:134772",
+  "name": "Bound Weapon Fix",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B04",
+  "key": "id:63980",
+  "name": "Contextual Crosshair",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B06",
+  "key": "id:27141",
+  "name": "NAT.ENB III - Natural and Atmospheric Tamriel ENB",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B06",
+  "key": "id:56956",
+  "name": "TK Dodge RE и аддоны",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B06",
+  "key": "id:103077",
+  "name": "Cubemap Reflections",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B08",
+  "key": "id:17639",
+  "name": "RUSTIC DRAGON CORPSE - Special Edition",
+  "reason": "метка сборщика rec — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B10",
+  "key": "id:668",
+  "name": "VioLens - A Killmove Mod SE",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B11",
+  "key": "id:41891",
+  "name": "Survival Control Panel",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ },
+ {
+  "batch": "B11",
+  "key": "id:156952",
+  "name": "Upscaling - Community Shaders",
+  "reason": "метка сборщика dont — по данным подтверждается в 100% случаев"
+ }
+]

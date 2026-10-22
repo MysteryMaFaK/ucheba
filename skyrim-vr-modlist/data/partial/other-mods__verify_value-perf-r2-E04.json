@@ -1,0 +1,154 @@
+{
+ "verdicts": [
+  {
+   "key": "id:38820",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Серые ретекстуры причёсок KS Hairdos.",
+   "note": "",
+   "reason": "drop_code: covered_elsewhere. Нужен KS Hairdos, которого в стеке нет; волосы уже закрыты Vanilla hair remake (#63979). Ставить ретекстуру пака, которого нет, бессмысленно."
+  },
+  {
+   "key": "id:135417",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Хаб рефитов брони и одежды под мужское тело HIMBO: убирает клиппинг на мужских персонажах.",
+   "note": "Только под HIMBO (#46311). Ставьте рефиты лишь для брони, которая реально стоит, затем сборка в BodySlide. Нет HIMBO — пропустить.",
+   "reason": "HIMBO в стеке (other1), клиппинг брони вблизи в VR заметен. Два VR-листа, файл с датой 2025-01. Аналогов в батче нет."
+  },
+  {
+   "key": "id:54296",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Пресет BodySlide Norse God для HIMBO.",
+   "note": "",
+   "reason": "drop_code: trivial. Вкусовой пресет формы тела, ценности для VR не добавляет; HIMBO и BodySlide настраиваются и без него."
+  },
+  {
+   "key": "id:1704",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые текстуры аргониан (лицо, чешуя): Nordic Faces их не затрагивает.",
+   "note": "Только текстуры, без DLL. Карточка из листов — 4K: берите 2K/1K, если они есть в файлах, иначе ужмите через VRAMr (#90557).",
+   "reason": "Закрывает пробел: аргониане остаются ванильными при Nordic Faces. Два VR-листа, DLL нет. Конкурента в батче нет (BAT — только хвосты, мелочь)."
+  },
+  {
+   "key": "id:99024",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фикс: мёртвые NPC не остаются голыми после смены outfit/OBody.",
+   "note": "Нужен OBody NG (#77016). VR-совместимость по файлам не проверена, возможен DLL: смотрите VR-файл. Если Death Drop Overhaul (#151590) уже решает, пропустить.",
+   "reason": "Голые трупы вблизи в VR заметны, стоит при OBody. Один VR-лист шипит мод, поэтому try, а не opt."
+  },
+  {
+   "key": "id:28060",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-модель и текстура факела: он постоянно в руке и виден вплотную в VR.",
+   "note": "Без DLL. Грузить после Rally's Candlelight (#36594), проверить свет и пламя под Lux / CS Light / Light Placer. Если PBR-пак уже меняет факел, оставить его.",
+   "reason": "Предмет в руке, виден вплотную — ровно тот случай, где HD в VR окупается; одна модель, дёшево. В inventory факелов нет. Один VR-лист."
+  },
+  {
+   "key": "id:35823",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Хаб патчей совместимости AI Overhaul.",
+   "note": "",
+   "reason": "drop_code: trivial. Патчи в основном под контентные моды, которых в стеке нет (в карточке — Cutting Room Floor Patch); гарантированной ценности нет. При появлении конкретного конфликта искать патч точечно к AI Overhaul (#21654)."
+  },
+  {
+   "key": "id:70978",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фикс к SPID for Footprints (#3808), который уже в ядре.",
+   "note": "Плагин, без DLL. Нужен только если стоит #3808; при замене на Dynamic Footprints (#175254) не ставить.",
+   "reason": "Исправляет мод из ядра, два VR-листа, ничего не весит. Условный, поэтому opt."
+  },
+  {
+   "key": "id:118746",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Фикс опыта алхимии в VR: навык не прокачивается как надо.",
+   "note": "Родной VR-DLL (SKSEVR), три VR-листа. Experience (#17751) в ядре: проверьте в игре, что опыт алхимии не удваивается.",
+   "reason": "Единственный VR-специфичный фикс в батче, vr 3 / se 0, DLL собран под VR. Лёгкий и проверенный тремя листами."
+  },
+  {
+   "key": "id:175385",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Плагин MO2: группы и заметки в списке плагинов.",
+   "note": "",
+   "reason": "drop_code: covered_elsewhere. Группы и сортировку уже даёт LOOT (ядро); это инструмент удобства, не игровая часть, один лист, описание функций не проверено."
+  },
+  {
+   "key": "id:107292",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Описания у еды и напитков в инвентаре.",
+   "note": "Конфиг для Description Framework (#105799, в ядре), DLL у мода не ожидается; всё же проверьте VR-архив.",
+   "reason": "Три VR-листа, дёшево, опирается на уже стоящий Description Framework. Ценность небольшая, поэтому opt."
+  },
+  {
+   "key": "id:138586",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фикс оверлеев RaceMenu (мерцание и пропадание на теле и голове).",
+   "note": "Скорее всего SKSE-DLL, пре-релиз 1.45, VR-сборка не подтверждена: проверьте файлы и комментарии. Нужен только если вы используете оверлеи RaceMenu.",
+   "reason": "Один VR-лист (Tahrovin) шипит его с RaceMenu VR; польза только при оверлеях, поэтому try."
+  },
+  {
+   "key": "id:22087",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-текстуры еды: её берёшь в руки через HIGGS, видна вплотную.",
+   "note": "Только текстуры, берите 1K/2K. Грузить после Food Resized (#44776). Если PBR-пак уже покрывает еду, проверить порядок и PGPatcher.",
+   "reason": "Еда в руках — близкий осмотр в VR, два VR-листа, ничего не весит. В inventory только Food Resized (размеры), текстуры еды не закрыты."
+  },
+  {
+   "key": "id:96117",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Иконки для книг заклинаний в инвентаре с I4.",
+   "note": "Без DLL. В ядре I4 (#85702) и I5 (#192976): проверьте в игре, что иконки показываются.",
+   "reason": "Два VR-листа, быстрее находить томы в инвентаре. Косметика, поэтому opt."
+  },
+  {
+   "key": "id:112297",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Патч Spellsiphon и Experience: опыт за поглощение магии.",
+   "note": "Плагин-патч. Нужны оба мода: Spellsiphon (#26627) и Experience (#17751), оба в ядре.",
+   "reason": "Сшивает два мода ядра, три VR-листа, нулевая цена. Без патча Spellsiphon не даёт опыта."
+  }
+ ]
+}

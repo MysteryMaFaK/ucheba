@@ -1,0 +1,174 @@
+{
+ "verdicts": [
+  {
+   "key": "id:88987",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые модели и текстуры блуждающих огоньков (Mihail).",
+   "note": "Только меши и текстуры, без DLL. Ставить вместе с Wraiths из той же серии.",
+   "reason": "Карточка: 2 VR-списка (Spirit of Grit, Tahrovin - Gri), файл will o the wisp (se). Скелет не затрагивает, с Precision Creatures не спорит. Опровергнуть VR-совместимость нечем."
+  },
+  {
+   "key": "id:68069",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые меши и текстуры волков (версия 2026, файл с Glowing Fluffy Wolves Fix).",
+   "note": "Брать 2K: мех с альфой дороже в VR. После установки проверить хитбоксы у Precision Creatures и размер из Creatures Resized for VR.",
+   "reason": "Карточка: VR-список Panda's Sovnga, свежий файл 2026-01-11, без DLL. Волки встречаются часто, вблизи заметны. Меш-замена не должна ломать VR, но волки с Precision Creatures не проверены, поэтому тест в заметке."
+  },
+  {
+   "key": "id:24558",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые модели и текстуры призраков (Mihail).",
+   "note": "Только меши и текстуры. Ставить вместе с Wisps.",
+   "reason": "Карточка: VR-список Librum VR, файл wraiths (se) 3.2. DLL нет, нагрузка как у ванили. Конкурентов в inventory нет (Draugrs, Falmer, Hagraven взяты, призраков нет)."
+  },
+  {
+   "key": "id:141070",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переработка Рейвен-Рока (JK): новые здания и детали.",
+   "note": "Плагин и меши без DLL. Конфликтует по правкам порта с FYX RavenRock Docks (#75794): сверить в xEdit, при дублировании оставить один порт. После установки пересобрать LOD в DynDOLOD.",
+   "reason": "Карточка: VR-список Panda's Sovnga, файл 1.0.6, обновление 2026-06-18. Город маленький, нагрузка на отрисовку умеренная. Единственный риск, который нашёл, это пересечение с FYX Docks из inventory. Quaint Raven Rock (#20851) из той же партии не нужен, это конкурент."
+  },
+  {
+   "key": "id:90526",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Интерфейсный мод для ингредиентов SkyUI.",
+   "note": "",
+   "reason": "drop (не подтверждено): страница мода и его назначение не нашлись, а в карточке один VR-список (Tempus Maledic). Мод трогает слой SkyUI, где в стеке уже I5 (#192976), Object Categorization Framework, COCKS и Norden UI VR (#169537). В VR интерфейс держится на SWF, подмена способна его сломать. Риск больше пользы."
+  },
+  {
+   "key": "id:14910",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Уникальные модели и текстуры стоячих камней вместо одинаковых ванильных.",
+   "note": "Меши и текстуры без DLL, камней мало, нагрузка нулевая. Это обычные (не PBR) текстуры: рядом с PBR/Complex-ландшафтом камни могут выглядеть по-другому, посмотреть в игре. Сверить с ERM по тем же мешам камней.",
+   "reason": "Карточка: 2 VR-списка (Tempus Maledic, Yggdrasil VR), файл Andromeda 1.1.2. Стоячие камни в VR разглядывают вблизи. Единственное сомнение это неподтверждённый PBR в VR, а у мода его нет."
+  },
+  {
+   "key": "id:26913",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Подводный мир: растения, камни, обломки и дно.",
+   "note": "Плагин и меши без DLL, но много статиков под водой. Работает вместе с Underwater NG (#187230) и Simplicity of Sea (#56520), они не заменяют друг друга. Если упадёт FPS у воды, отключить плагин.",
+   "reason": "Карточка: 2 VR-списка (Librum VR, Panda's Sovnga), файл Depths of Skyrim 1.1.7. DLL нет. Минус только CPU на статики, поэтому оставлено как необязательное."
+  },
+  {
+   "key": "id:3038",
+   "keep": true,
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "what": "FNIS: генератор поведения. Не ставить.",
+   "note": "У FNIS есть VR-версия, но в стеке Pandora (#133232) и OAR (#92109). FNIS и Pandora вместе поведение не собирают, анимации ломаются. Моды только под FNIS ставить через OAR-версии.",
+   "reason": "Карточка: 3 VR-списка (Tahrovin, Tahrovin - Gri, Yggdrasil VR), файл FNIS Behavior VR 7_6 XXL. Популярный, люди будут копировать, поэтому в раздел «не ставить»."
+  },
+  {
+   "key": "id:103003",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мелкий аддон к GIST: чинит Звезду Азуры при новой системе душ.",
+   "note": "Только плагин. Нужен лишь при установленном GIST (#15755, он в ядре), грузить после GIST. Что именно меняет, прочитать на странице мода перед установкой.",
+   "reason": "Карточка: 3 VR-списка (все VR, se=0), файл GIST - Azura's Star Restore, дата 2023-10-20. GIST в ядре есть. Опровергнуть нечем, тянется только за GIST."
+  },
+  {
+   "key": "id:8767",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Поваленные деревья в лесах.",
+   "note": "Плагин и меши без DLL, добавляет немного статиков. Перегенерировать LOD в DynDOLOD, проверить в xEdit, что не стоят в тех же местах, что новые деревья Happy Little Trees.",
+   "reason": "Карточка: 2 VR-списка (Tempus Maledic, Yggdrasil VR), файл 2.0.2. Мод 2018 года, правит ячейки мира: возможны пересечения с HLT, поэтому в заметке проверка."
+  },
+  {
+   "key": "id:30817",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые фонари по миру: меши, текстуры и свет.",
+   "note": "Без DLL. Свет сверить с Light Placer, Lux и Lights Conflict Resolver (#175086), в FOMOD взять вариант без собственного света, если он есть. Проверить пересечение с Skyland Bits and Bobs (#95032) и Rally's. Ночью в VR следить за FPS: свет дорогой.",
+   "reason": "Карточка: 2 VR-списка (Tempus Maledic, Yggdrasil VR), файл FOMOD v4.1, обновление 2025-11-29. Тег снижен с rec до opt: у списков стек света другой, чем у нас (Light Placer, Lux, CS Light), и совместимость на нашем наборе не подтверждена."
+  },
+  {
+   "key": "id:48745",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Картины и украшения для таверн.",
+   "note": "Плагин и меши без DLL. Возможен конфликт с Skyland Bits and Bobs (#95032) по тем же интерьерам: проверить в xEdit.",
+   "reason": "Карточка: 3 VR-списка (все VR, se=0), файл cozy tavern skyrim paint. Дёшево, в интерьерах видно вблизи, DLL нет."
+  },
+  {
+   "key": "id:76278",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-ретекстуры шахтных дверей и кувшина молока из серии «My version SE».",
+   "note": "Брать из серии только Minedoors Redone (76278) и Jug of Milk (92939). Двери 2K, кувшин 1K. Остальные четыре мода серии не нужны. Сверить с GDOS (#32376) и Vanaheimr Mines and Caves (#137033): двери могут пересечься.",
+   "reason": "Карточка: VR-список Tempus Maledic, файл Minedoors Redone - My version SE - 2K, члены 76278 и 92939 (у кувшина 2 VR-списка). Только меши и текстуры, DLL нет."
+  },
+  {
+   "key": "id:128956",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новое центральное дерево Фолкрита, файл под Lux Orbis.",
+   "note": "Меш и текстура без DLL. Брать файл «Lux Orbis» (Lux Orbis #56095 в ядре). На странице мода проверить, не нужен ли ещё какой-то основной мод. После установки пересобрать LOD в DynDOLOD, сверить с HLT.",
+   "reason": "Карточка: VR-список Tempus Maledic, файл COTN Falkreath Center Tree Replacer - Lux Orbis. Опровергнуть нечем, кроме неизвестных требований к основному моду, они вынесены в заметку."
+  },
+  {
+   "key": "id:128579",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Значки должностей в стиле JS.",
+   "note": "Малый предмет, достаточно 1K. Та же серия JS, что Shrines of the Divines и Purses and Septims в списке (#33394).",
+   "reason": "Карточка: VR-список Tempus Maledic, файл 1k Textures, обновление 2026-01-28. Без DLL. Ценность небольшая, но стоит почти нуль, поэтому как необязательное."
+  },
+  {
+   "key": "id:90824",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "3D-замена тыквенных растений в огородах.",
+   "note": "Брать вариант 1K (в файле 2k-1k). Сверить с Cathedral Plants и Merethic: растения могут пересечься.",
+   "reason": "Карточка: VR-список Tempus Maledic, файл Kabu's Really Gourd Plant Replacer 2k-1k. Мелочь, но руками их трогают, DLL нет."
+  },
+  {
+   "key": "id:52153",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Чайки на побережье и в портах, ESL-плагин.",
+   "note": "Без DLL, но это живые существа с ИИ и полётом, то есть нагрузка на CPU. В портах (Солитьюд, Данстар, Виндхельм) проверить FPS. В ядре есть CritterSpawn Congestion Fix (#67276), он помогает.",
+   "reason": "Карточка: VR-список Librum VR, файл Seagulls of Skyrim - ESL. Прежняя заметка называла нагрузку малой без проверки, поправил: актёры дороже статиков."
+  }
+ ]
+}

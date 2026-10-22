@@ -1,0 +1,114 @@
+{
+ "verdicts": [
+  {
+   "key": "id:90713",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанные женские руки (3BA-патч под CBBE). В VR свои руки видны постоянно.",
+   "note": "Только для женского персонажа. Ставить после BnP - Female Skin, проверить швы рук и тела.",
+   "reason": "Не дублирует инвентарь: BnP и CBBE 3BA дают тело и кожу, а руки у них не переделаны. Цена в VR нулевая, DLL нет. Осталось из-за постоянной видимости рук."
+  },
+  {
+   "key": "id:21726",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур мишеней 2K.",
+   "note": "",
+   "reason": "trivial: мишени стоят в паре мест, мод 2018 года, один VR-список. Ценность близка к нулю, а в PBR-стеке старая текстура может выпасть из общего вида."
+  },
+  {
+   "key": "id:135488",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Конфиги Light Placer: источники света на объектах мира.",
+   "note": "",
+   "reason": "covered_elsewhere: в стеке уже Light Placer + Lux, Lux Via, Lux Orbis с патч-хабами, CS Light, Lights Conflict Resolver, Embers XD. Лишние конфиги дадут двойной свет и добавят источников на кадр в VR."
+  },
+  {
+   "key": "id:29179",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур грибов Чёрного предела 2K.",
+   "note": "",
+   "reason": "covered_elsewhere: пещерную флору закрывают Faultier's PBR Skyrim и Vanilla PBR AIO, Underground и Vanaheimr - Mines and Caves тоже в списке. Не-PBR текстура 2019 года с ними конфликтует и занимает VRAM ради одной локации."
+  },
+  {
+   "key": "id:50767",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-урны данмеров (меш и текстуры).",
+   "note": "",
+   "reason": "trivial: мелкий объект, один VR-список, мод 2021 года. Ему вряд ли выжить рядом с Rally's All The Things (Solstheim AIO), SMIM PBR и Faultier's PBR; в итоге он перекрывается или перекрывает другие."
+  },
+  {
+   "key": "id:11055",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Реалистичная текстура лосося. Рыбу видно вблизи, когда идёшь по реке.",
+   "note": "Крошечный объём, без DLL. Конкурентов по лососю в списках нет.",
+   "reason": "Два VR-списка, конкурента среди креатур нет (Dragons, Draugrs, Falmer и др. рыбу не трогают). В VR есть Wade in Water и Interactive Waters, так что рыбу видно вплотную. Цена в VRAM и CPU почти нулевая."
+  },
+  {
+   "key": "id:93209",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Экранные тени Community Shaders: тени от травы, мелких объектов и самотени. Есть VR-порт.",
+   "note": "Дорого по GPU, а в VR кадр считается дважды. Сначала проверить, не входит ли это уже в Open Shaders или CSX. Включать только после замера кадра.",
+   "reason": "Реальный визуальный выигрыш, и список из двух VR-сборок (FUS, Librum VR) его использует. Но возможно дублирует функции Open Shaders / CSX и бьёт по GPU, поэтому только try."
+  },
+  {
+   "key": "id:15891",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Текстуры Совнгарда 2K: другие паки эту локацию не трогают.",
+   "note": "Локация посещается один раз, так что VRAM не страдает. Если Faultier's PBR Skyrim уже закрыл Совнгард, ставить не нужно.",
+   "reason": "Два VR-списка, свежий релиз 2024-10, 2K. В инвентаре Совнгард не заменяется нигде: Sovngarde - A Nordic Font это шрифт. Локация большая и смотрится вблизи, а цена только на время пребывания там."
+  },
+  {
+   "key": "id:37541",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Текстуры дыма (FOMOD, есть 4K).",
+   "note": "",
+   "reason": "covered_elsewhere: дым и частицы уже закрывают Embers XD, KittyVFX и slightly Better Dust + Improved Sparks. Мод 2023 года, один VR-список, а в файле по умолчанию 4K, что в VR лишний груз для VRAM."
+  },
+  {
+   "key": "id:7644",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-текстуры Серого капюшона Ноктюрнал.",
+   "note": "",
+   "reason": "covered_elsewhere: броню и одежду закрывает Faultier's PBR Armors and Clothes, а старая не-PBR текстура с ним конфликтует. К тому же капюшон нужен только в гильдии воров."
+  },
+  {
+   "key": "id:176593",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Блок отравленным оружием не тратит яд. Полезно при физическом блоке в VR.",
+   "note": "Скорее всего SKSE-DLL, нужен VR-билд (у списка Stormcrown VR он стоит). Проверить файл и порядок с Blocking and Flash VR - Redux.",
+   "reason": "Мелкая правка с реальным смыслом только для тех, кто играет с ядами. VR-статус не подтверждён, но мод свежий (2026-09) и стоит в VR-сборке. Дубля в инвентаре нет, поэтому try, а не opt."
+  }
+ ]
+}

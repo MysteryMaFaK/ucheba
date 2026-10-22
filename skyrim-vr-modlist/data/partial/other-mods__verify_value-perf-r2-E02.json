@@ -1,0 +1,194 @@
+{
+ "verdicts": [
+  {
+   "key": "id:95121",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Живность Mihail: фазаны, вороны, олени, мамонтята, киты — оживляет окрестности.",
+   "note": "Брать только Pheasants, Crows and Ravens, Reindeer Herds (+ Baby Mammoths и Snow Whales по желанию). Остальное из серии не ставить. Модели без DLL, но это лишние акторы: после установки смотреть FPS. Проверить совместимость с Precision Creatures и Creatures Resized for VR.",
+   "reason": "Оставлено слабо: 2 VR-листа, вклад косметический, но дёшево и не конкурирует с ядром."
+  },
+  {
+   "key": "id:45191",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фикс вылета при призыве Bound Dagger; ставят три VR-листа.",
+   "note": "Поиск подтверждения не дал, содержимое неизвестно: проверить, что это esp без DLL, и что он не дублирует Fixed Bound Sword and Dagger Collision (#60064). Ставить только если есть вылеты при призыве.",
+   "reason": "Мелкий CTD-фикс, 3 VR-листа без SE-листов; оставлено как try из-за неподтверждённого состава."
+  },
+  {
+   "key": "id:41335",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Патчи совместимости SunHelm с другими модами.",
+   "note": "Ставить выборочно, только патчи под реально установленные моды стека. Файл 2020 года, сверить версию с SunHelm #39414.",
+   "reason": "SunHelm в ядре, три VR-листа ставят патчи вместе с ним; польза условная, поэтому opt."
+  },
+  {
+   "key": "id:67864",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Магические источники тепла для SunHelm.",
+   "note": "",
+   "reason": "low_value: мелкая надстройка к одной механике SunHelm, пользы в VR почти нет; список должен быть короче."
+  },
+  {
+   "key": "id:24201",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "alt",
+   "choose_one_group": "bodyslide_presets",
+   "what": "Пресет BodySlide/RaceMenu для CBBE 3BA: Greek Goddess или Diosa del Acero.",
+   "note": "Выбрать один пресет (24201 или 61377). BD's Armor Replacer и остальные Teraru не брать. Нужны CBBE 3BA и BodySlide из стека. Вопрос вкуса: если пресет не нужен, пропустить.",
+   "reason": "CBBE 3BA и BodySlide уже в стеке, пресет логичное дополнение; 3 VR-листа, DLL нет. Остальные пресеты серии отброшены как redundant."
+  },
+  {
+   "key": "id:62314",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Исправляет баг заряда зачарованного оружия.",
+   "note": "Малый esp без DLL. Проверить в SSEEdit конфликты с Adamant и Blade and Blunt.",
+   "reason": "Два VR-листа, реальный фикс, ничего не стоит; конфликт с боевым стеком проверяется вручную."
+  },
+  {
+   "key": "id:3077",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Полуоткрытые шлемы стражи: лица видны вблизи.",
+   "note": "Меши без DLL. После установки прогнать PGPatcher, иначе меши потеряют PBR от Faultier. Lollygaggin' и Improved Closefaced Helmets не ставить: конкуренты.",
+   "reason": "Лица стражи заметны вблизи в VR, дёшево; 2 VR-листа. Конфликт с PBR-армором решается патчером."
+  },
+  {
+   "key": "id:32500",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые лорные виды оружия в таблицах лута.",
+   "note": "",
+   "reason": "redundant: ядро уже содержит LeanWolf's Better-Shaped Weapons, Cathedral Armory, Adamant и Blade and Blunt; ещё один пакет оружия конфликтует по лутовым спискам и не даёт VR-выигрыша."
+  },
+  {
+   "key": "id:114114",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Подповерхностное рассеивание кожи как функция Community Shaders.",
+   "note": "В VR-форке Open Shaders 2.17 не подтверждено: сначала проверить, есть ли функция в списке Features. Плюс заметен на лицах вблизи, но это ещё один проход на оба глаза: смотреть GPU-время в fpsVR.",
+   "reason": "Ставят два VR-листа (FUS, Librum VR), ценность для лиц реальна; статус на Open Shaders неизвестен, поэтому try."
+  },
+  {
+   "key": "id:4933",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Плащи Winter Is Coming.",
+   "note": "",
+   "reason": "low_value: старые модели и текстуры не в PBR-стиле стека, конфликты слота со спины с IED и капюшонами, с SMP дороже по CPU; 2 VR-листа."
+  },
+  {
+   "key": "id:28268",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные эффекты зачарований на оружии.",
+   "note": "",
+   "reason": "redundant: мод 2019 года пересекается с KittyVFX, Deadly Spell Impacts, Dynamic Impact Slash Effects X и FEC в ядре и других проходах; риск перекрытия шейдеров эффектов."
+  },
+  {
+   "key": "id:162491",
+   "keep": true,
+   "section": "equipment",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Капюшон и диадема вместе: нет конфликта слотов у магов и воров.",
+   "note": "Мод 2025 года; проверить в архиве отсутствие SKSE DLL (должен быть только плагин слотов). Возможен конфликт с Faultier и IED.",
+   "reason": "Практичная мелочь, 2 VR-листа; состав не подтверждён поиском, поэтому проверка DLL в примечании."
+  },
+  {
+   "key": "id:64405",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные брови для RaceMenu; лицо вблизи в VR.",
+   "note": "Файл на карточке для High Poly Head, которого в стеке нет: искать ванильный вариант в файлах мода, HPH не ставить. Проверить, что брови не перекрыты Nordic Faces.",
+   "reason": "3 VR-листа, лёгкие меши и текстуры, лицо вблизи заметно; но вариант под ванильную голову не подтверждён карточкой."
+  },
+  {
+   "key": "id:84288",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Зубы и рот 2K в стиле BnP; NPC смотрят в лицо.",
+   "note": "Требует BnP Female Skin (#65274) из стека. Брать 2K. Проверить, что Nordic Faces не заменяет зубы.",
+   "reason": "Совпадает по автору и стилю с кожей в стеке, 5 SE-листов; в VR только один VR-лист, поэтому opt, а не rec."
+  },
+  {
+   "key": "id:49373",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Оверлеи волос на теле HIMBO для RaceMenu.",
+   "note": "",
+   "reason": "low_value: работает только для игрока-мужчины, пол персонажа неизвестен; узкая косметика, 2 VR-листа."
+  },
+  {
+   "key": "id:101500",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Анимированные имперские палатки.",
+   "note": "",
+   "reason": "low_value: 4K-ретекстур отброшен, значит на анимированных мешах остаются ванильные текстуры, что спорит с PBR-паками фортов; палаток мало, анимация мешей лишняя нагрузка."
+  },
+  {
+   "key": "id:113064",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фикс бесконечного блока у NPC; помогает в ближнем бою.",
+   "note": "Поиск мод не нашёл, VR-статус и наличие DLL неизвестны. Проверить, что это esp или DLL с VR-сборкой; не пересекается ли с Blade and Blunt и AI Overhaul. Три VR-листа ставят его.",
+   "reason": "Три VR-листа и реальный боевой баг, но состав не подтверждён; понижено с rec до try."
+  },
+  {
+   "key": "id:6580",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Мужская кожа 2K и реальные ступни: свои ноги с VRIK.",
+   "note": "Брать 2K (VRAM, два глаза). Требует HIMBO из стека. Закрывает пробел: женская кожа есть (BnP), мужской нет.",
+   "reason": "Мужская кожа касается всех NPC-мужчин, не только игрока, и дополняет HIMBO; 1 VR-лист и 5 SE-листов."
+  },
+  {
+   "key": "id:81498",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Замена модели малой нордской палатки.",
+   "note": "",
+   "reason": "low_value: косметика лагерей без видимого VR-эффекта; палатки могут быть уже покрыты SMIM и другими пакетами стека, текстуры возможно спорят с PBR."
+  }
+ ]
+}

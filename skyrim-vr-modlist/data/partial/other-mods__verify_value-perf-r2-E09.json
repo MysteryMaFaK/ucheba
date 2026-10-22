@@ -1,0 +1,174 @@
+{
+ "verdicts": [
+  {
+   "key": "id:5916",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "children",
+   "what": "Улучшенные модели и лица детей: в VR дети стоят вплотную.",
+   "note": "Без DLL, esp + FaceGen. Выбрать одно с Rustic Children. Мод 2020 г., проверить в xEdit на конфликт с USSEP.",
+   "reason": "Единственный мод в пачке, реально меняющий модели детей (карта: Yggdrasil VR, файл TK Children SE-5916); оставлен как вариант в группе."
+  },
+  {
+   "key": "id:3564",
+   "keep": true,
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "NPC подсказывают дорогу диалогом: удобно без карты в руках.",
+   "note": "Только плагин, без DLL. Дополняет Navigate VR и Palm Compass, не заменяет.",
+   "reason": "3 VR-списка (Librum, Panda's Sovnga, Yggdrasil), другая функция, чем у навигации в ядре; цена нулевая."
+  },
+  {
+   "key": "id:157413",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Автоназвания зачарованных предметов: читаемый инвентарь без ручного переименования.",
+   "note": "Скорее всего SKSE DLL: проверить VR-файл. Два VR-списка его ставят, но VR-сборка не подтверждена. Проверить порядок с Tamrielic Names.",
+   "reason": "Мелочь, но полезна при крафте зачарований; оба VR-списка (Spirit of Grit, Tahrovin - Gri) ставят, свежий 2025-12. Тег try из-за неподтверждённого DLL."
+  },
+  {
+   "key": "id:82648",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меха и кузнечные меши лучше: кузницы видны вплотную.",
+   "note": "Брать файл с Embers XD (из ядра). Без DLL. Если PBR-паки уже перекрасили кузницу, поставить выше по приоритету только меши.",
+   "reason": "Кузница в VR рассматривается вплотную, меши дёшевы, 2 VR-списка (Panda's Sovnga, Tempus Maledic); файл прямо под Embers XD из ядра."
+  },
+  {
+   "key": "id:133451",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Правка ушей эльфов Dint.",
+   "note": "",
+   "reason": "redundant/unverified: суть и требования не подтверждены (веб-поиск мод не нашёл), вероятно зависит от другого мода ушей; возможный конфликт с Nordic Faces #40658 и RaceMenu-пресетами; выигрыш мал."
+  },
+  {
+   "key": "id:24511",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Костёр и фляга ElSopa в 2K.",
+   "note": "",
+   "reason": "covered_elsewhere: костёр и клаттер перекрывают Faultier's PBR Skyrim #125308 / Vanilla PBR AIO #174091 (по знанию, не по карте); не-PБР 2K ElSopa-текстуры под PBR-стек конфликтуют, 2K на мелкий предмет тратит VRAM."
+  },
+  {
+   "key": "id:102948",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Манекены для тренировки в 1K.",
+   "note": "",
+   "reason": "trivial: пара манекенов в игре, один список, Skyland Bits and Bobs #95032 и PBR-паки уже закрывают клаттер; ценности для VR нет."
+  },
+  {
+   "key": "id:63889",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Невидимость, читаемая в VR; дополняет NPCs React To Invisibility.",
+   "note": "VR-версия (1_Enhanced Invisibility VR 1.3.0). Проверить визуально, нет ли конфликта эффекта с шейдерами Open Shaders.",
+   "reason": "3 VR-списка (Panda's Sovnga, Tahrovin, Yggdrasil VR), сделан под VR, ядро с #91480 его не дублирует."
+  },
+  {
+   "key": "id:65880",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "MCM-меню настроек для Experience (в ядре).",
+   "note": "Только вместе с Experience #17751. Без него не ставить.",
+   "reason": "Настройка скорости опыта в MCM для мода из ядра; только плагин, без DLL; не дублирует ничего из inventory."
+  },
+  {
+   "key": "id:64185",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Решётки тюрем в стиле SMIM.",
+   "note": "",
+   "reason": "trivial: тюремные решётки редки, перекрыто SMIM #659 и Assorted Mesh Fixes #32117; один список."
+  },
+  {
+   "key": "id:126492",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Настраиваемые названия качества оружия и брони.",
+   "note": "",
+   "reason": "trivial: косметика текста, DLL и порядок с Tamrielic Names #73153 лишний риск; Durability VR и Honed Metal из ядра уже закрывают тему улучшения."
+  },
+  {
+   "key": "id:63353",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "children",
+   "what": "Только тела детей в 1K под Rustic Clothing; без плагина.",
+   "note": "Выбрать одно с TK Children. Брать 1K. Текстуры без DLL, записи не трогает, поэтому безопаснее TK Children.",
+   "reason": "Дёшево по VRAM и без конфликтов записей; согласован с Rustic Clothing #4703 из стека (файл RUSTIC CHILDREN - BODY - 2K-1K, Tempus Maledic)."
+  },
+  {
+   "key": "id:88161",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переделанные радуги.",
+   "note": "",
+   "reason": "trivial: радугу вызывают записи погоды, у Azurite Weathers III #42731 свои погоды, совместимость не подтверждена, эффект редкий; один список."
+  },
+  {
+   "key": "id:22169",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Оверлеи RaceMenu: макияж, грязь, раскраска.",
+   "note": "Нужен RaceMenu VR. Файл ESL, текстуры небольшие, DLL нет. Оверлеи накладываются по слотам, не набирать много паков.",
+   "reason": "3 VR-списка (Spirit of Grit, Tahrovin, Tahrovin - Gri); внешность вблизи видна в VR, цена мала; в inventory оверлей-паков нет."
+  },
+  {
+   "key": "id:112605",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Эффекты экрана вместо полосок здоровья, маны и выносливости.",
+   "note": "",
+   "reason": "covered_elsewhere: Wearable Health bars - Soul Gauge #65737, Clear HUD VR #49657 и Minimal Enemy Healthbar VR #17812; ImageSpace-эффекты в VR могут вызывать дискомфорт, DLL не подтверждён."
+  },
+  {
+   "key": "id:170945",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Висячий мох в 1K.",
+   "note": "",
+   "reason": "redundant: мох на деревьях закрывают Happy Little Trees #50961 / Tomato's Vanilla Trees PBR #139375, сам автор плана допускает конфликт; один список, суть по карте не подтверждена."
+  },
+  {
+   "key": "id:110947",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Анимированные тележки торговцев.",
+   "note": "",
+   "reason": "trivial: мелкая анимация, лишняя нагрузка на CPU на рынках в VR, VR-статус неизвестен; No Silly Physics Damage #36132 уже трогает тележки."
+  }
+ ]
+}

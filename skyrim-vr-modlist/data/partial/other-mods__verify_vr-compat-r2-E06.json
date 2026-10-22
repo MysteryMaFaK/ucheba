@@ -1,0 +1,114 @@
+{
+ "verdicts": [
+  {
+   "key": "id:17946",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Животные больше не считаются свидетелями преступлений. Мелкий плагин без DLL.",
+   "note": "Из серии берём только NARC: билборды решает DynDOLOD, верёвки не нужны. Оба VR-списка (Spirit of Grit, Tahrovin - Gri) из одной семьи, так что это не два независимых подтверждения; для плагина без DLL риска нет.",
+   "reason": "Карточка: vr 2, файл NARC Remade 1.1.0, плагин-фикс (знание). В inventory дубля нет."
+  },
+  {
+   "key": "id:156824",
+   "keep": true,
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Дракон, убитый в воздухе, падает, а не зависает. Версия 1.1.2 (2025-10).",
+   "note": "VR подтверждён одним списком (Tempus Maledic), наличие DLL неизвестно: если в архиве есть SKSE-плагин, нужен VR-билд. Проверить рядом с Dragons SE (#132218) и Dragonactorscript fix (#87940), убив дракона в полёте. Старый «Dragons Fall Down - Immersive Airborne Death» (#56317) не ставить вместе с этим.",
+   "reason": "Карточка: newest 2025-10-17, vr 1 (Tempus Maledic), файл 1-1-2. Требование к Dragons SE в карточке не подтверждено, это допущение."
+  },
+  {
+   "key": "id:25628",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меньше животных на единицу площади: реже охота, чуть меньше актёров вокруг. Плагин без DLL.",
+   "note": "Прирост FPS в VR не доказан, ставить ради меньшей населённости, а не ради кадров. Пропустить, если нравится охота. Файл True Hunter 5.0 (обновлён 2026-05).",
+   "reason": "Карточка: vr 1 (Panda's Sovnga), newest 2026-05-29. Плагин без DLL (знание). Ценность небольшая, поэтому opt."
+  },
+  {
+   "key": "id:94508",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Более объёмные кости и скелеты драконов; в VR их разглядываешь вблизи.",
+   "note": "Брать только основной файл «Dragon Skeleton and Bone Clutter». Шипы стен и башен Whiterun не брать: их заменяет Tomato's Whiterun Remake (#173747). Корни Eldergleam: VR 0, не брать. Первый файл в архиве списка (Panda's Sovnga) — патч с Better Dynamic Snow. Better Dynamic Snow у нас в ядре (#9121), так что патч, скорее всего, нужен, а не лишний: сверить с описанием мода, ставить после BDS.",
+   "reason": "Карточка: серия, vr 1, файл «HPVDS - Better Dynamic Snow Definitive Edition», Panda's Sovnga (VR). Исправлена прежняя заметка: снежный патч не лишний."
+  },
+  {
+   "key": "id:96817",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Внешность вампира меняется в зависимости от сытости. Версия 1.3, обновлён 2026-05.",
+   "note": "Оба списка VR (Panda's Sovnga, Tempus Maledic), но механика (DLL или только скрипты и RaceMenu) не подтверждена. Если есть SKSE-плагин, нужен VR-билд. Проверить на вампире: меняется ли кожа и не рвётся ли шов тела с Vampire Body for VR (#57318). Если ломает тело, убрать.",
+   "reason": "Карточка: vr 2, se 1, newest 2026-05-29, файл Dynamic Vampire Appearance 1.3. Зависимость от RaceMenu — допущение."
+  },
+  {
+   "key": "id:167064",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Палатки и клатч лесных ведьм (Forsworn) вместо ванильных, версия LessPoly.",
+   "note": "Единственный файл в карточке — «Animated patch (LessPoly)», то есть патч: нужен основной файл мода (вариант LessPoly), патч анимации по желанию. Подтверждён одним VR-списком (Panda's Sovnga). Проверить в лагере Forsworn: FPS и нет ли розовых или тусклых текстур, если архив несёт PBR для нераспознанного в VR пути. Мод Hagraven Houses - Animated (#101952) не ставить вместе.",
+   "reason": "Карточка: newest 2025-12-14, vr 1 (Panda's Sovnga), файл Animated patch (LessPoly). Связь с #160407 в inventory (Hagraven модели) допущение. Понижено с opt до try."
+  },
+  {
+   "key": "id:157985",
+   "keep": true,
+   "section": "music",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Патч, чтобы Combat Music Fix NG и Unique Battle Music работали вместе. Оба мода уже в сборке.",
+   "note": "Сам патч без DLL (только настройка и плагин); DLL Combat Music Fix NG уже в ядре. Ставить после обоих модов.",
+   "reason": "Файл «Combat Music Fix - UBM Patch», vr 2 (Spirit of Grit, Tahrovin - Gri); inventory: #110459 Combat Music Fix NG, #91231 Unique Battle Music."
+  },
+  {
+   "key": "id:14060",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фикс ИИ: драконы перестают бесконечно кружить и выслеживать игрока. Мелкий плагин.",
+   "note": "Плагин без DLL, VR-списков два (Librum VR, Panda's Sovnga). Может пересекаться с Dragons SE (#132218) и фиксами драконов в ядре (#87940, #69026): если Dragons SE уже правит те же пакеты ИИ, пропустить. Ставить ниже Dragons SE.",
+   "reason": "Карточка: vr 2, se 0, файл 1-3, Librum VR и Panda's Sovnga. Ценность небольшая, поэтому opt."
+  },
+  {
+   "key": "id:46989",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые голоса и звуки фалмеров; в VR объёмный звук делает пещеры страшнее.",
+   "note": "Звуковой мод без DLL. Возможен конфликт с Audio Overhaul for Skyrim (#12466): ставить после него и проверить, что звуки фалмеров не двоятся. Жёсткая зависимость от Falmer Overhaul (#86338) не подтверждена, но сочетается по смыслу.",
+   "reason": "Карточка: файл v3.0, FUS и Yggdrasil VR (VR); inventory #12466, #86338."
+  },
+  {
+   "key": "id:167190",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Блокирует сохранение в бою и верхом.",
+   "note": "Идёт вразрез со сборкой: Saving on Steed (#173629) как раз чинит сохранение верхом, Seamless Saving VR (#174106) уже закрывает сохранения. Запрет сохранений в бою в VR вредит, а не защищает. Оба списка из одной семьи (Gri), VR-билд DLL не подтверждён.",
+   "reason": "covered_elsewhere: Saving on Steed #173629 и Seamless Saving VR #174106; мод противоречит первому."
+  },
+  {
+   "key": "id:85866",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмный цветок Dragon's Tongue в стиле Cathedral 3D; вблизи в VR лучше плоской модели.",
+   "note": "Меши и текстуры без DLL, оба списка VR (FUS, Panda's Sovnga). Dragon's Tongue нет в списке цветов #41312; в #80687 его наличие не проверено: если он уже там, пропустить. Ставить после Cathedral 3D.",
+   "reason": "Карточка: vr 2, se 0, newest 2024-01-19, файл Rally's Dragons Tongue; inventory #80687, #41312."
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "verdicts": [
+  {
+   "key": "id:135776",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "PBR-материалы для посуды Rudy HQ Silverware.",
+   "note": "",
+   "reason": "Тривиально: мелкая посуда, и нужен ещё оригинал Rudy HQ Silverware, которого нет в стеке. PBR на Open Shaders в VR не подтверждён, а PBR Hub и Vanilla PBR AIO (#174091) уже закрывают столовые предметы. Цена настройки выше пользы."
+  },
+  {
+   "key": "id:3144",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Модели луков Real Bows (DecimusMaximus).",
+   "note": "",
+   "reason": "covered_elsewhere: луки уже перекрывает LeanWolf's Better-Shaped Weapons (#2017). Real Bows старый (около 2013 г., по знанию), с риском конфликта перезаписи. Два набора мешей луков не нужны."
+  },
+  {
+   "key": "id:56337",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Масло 1K (Roos' Butter).",
+   "note": "",
+   "reason": "Тривиально: один предмет еды. Еду уже закрывают Food Resized (#44776) и Skyland Bits and Bobs (#95032). Одну мелочь из 2021 года ставить не стоит."
+  },
+  {
+   "key": "id:38946",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Простые стальные прицелы для арбалетов: целиться через мушку при стрельбе в VR.",
+   "note": "VR-мод без DLL (по знанию), ставить после Sighted Crossbows VR (#28948). Нужен только тем, кто играет с арбалетами. Обе VR-сборки (Panda's Sovnga, Yggdrasil VR) ставят его вместе с Sighted Crossbows VR.",
+   "reason": "Не дублирует ничего: это надстройка к Sighted Crossbows VR из инвентаря, VR-нативный, почти ничего не стоит по VRAM и CPU. Нишевый, поэтому opt."
+  }
+ ]
+}

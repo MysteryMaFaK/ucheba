@@ -1,0 +1,114 @@
+{
+ "verdicts": [
+  {
+   "key": "id:17946",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Животные больше не становятся свидетелями преступлений: волк или олень не выдают вам розыск.",
+   "note": "Берём только NARC; билборды (решает DynDOLOD) и верёвки не нужны. Плагин без DLL.",
+   "reason": "Реальный фикс ванильной странности, ноль нагрузки, 2 VR-списка (Spirit of Grit, Tahrovin - Gri); не дублирует ничего из inventory."
+  },
+  {
+   "key": "id:156824",
+   "keep": true,
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Дракон, убитый в воздухе, падает на землю, а не зависает. Версия 1.1.2 (2025-10).",
+   "note": "Нужен Dragons SE (#132218). Статус VR не подтверждён (1 VR-список, Tempus Maledic): если в архиве есть DLL, нужен VR-билд. Старый Dragons Fall Down (#56317) не брать.",
+   "reason": "Малый, но заметный в VR эффект, свежий; не конфликтует с Dragonactorscript fix. Пометка try из-за неизвестного VR-статуса."
+  },
+  {
+   "key": "id:25628",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меньше животных на единицу площади.",
+   "note": "Выигрыш FPS в VR не доказан, зато мир беднеет и возможны конфликты с Merethic Grasslands и мопами фауны.",
+   "reason": "trivial: 1 VR-список, спорная польза, правит плотность спавна по всему миру."
+  },
+  {
+   "key": "id:94508",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмные кости и скелеты драконов: в VR их разглядывают вблизи.",
+   "note": "Шипы стен Whiterun не брать (их заменяет Tomato's Whiterun Remake, #173747), корни Eldergleam: VR 0. Снежный патч лишний, есть Better Dynamic Snow. Брать только основной файл.",
+   "reason": "Дешёвый по CPU (единичные статики), заметный вблизи; ничего из inventory не дублирует."
+  },
+  {
+   "key": "id:96817",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Внешность вампира зависит от сытости.",
+   "note": "Своё лицо в VR почти не видно; DLL/RaceMenu-зависимость не подтверждена, риск стыка с Vampire Body for VR (#57318).",
+   "reason": "trivial: низкая ценность в VR, VR-статус неизвестен, пересечение с Vampire Body for VR (#57318) и Vampire Lord fixes (#174135)."
+  },
+  {
+   "key": "id:167064",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Анимированные палатки и клатч Лесных ведьм (Forsworn), версия LessPoly.",
+   "note": "Нужен Hagraven - New models and Textures (#160407). Брать только LessPoly (дешевле для CPU и VRAM); Hagraven Houses и More realistic fur не брать как конкурентов.",
+   "reason": "Лучший из группы ведьминых лагерей, свежий (2025-12), дополняет Hagraven (#160407) из сборки; стоимость умеренная."
+  },
+  {
+   "key": "id:157985",
+   "keep": true,
+   "section": "music",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Патч совместимости Combat Music Fix NG и Unique Battle Music: без него моды спорят за боевую музыку.",
+   "note": "Плагин без DLL; ставить после обоих (#110459, #91231).",
+   "reason": "Оба мода уже в сборке, патч нужен для их работы вместе; 2 VR-списка (Spirit of Grit, Tahrovin - Gri)."
+  },
+  {
+   "key": "id:14060",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фикс ИИ: драконы не кружат бесконечно и не выслеживают игрока.",
+   "note": "Плагин без DLL; проверить рядом с Dragons SE (#132218), при перекрытии убрать.",
+   "reason": "Реальный ванильный баг, нулевая нагрузка, 2 VR-списка (Librum VR, Panda's Sovnga); Dragonactorscript fix (#87940) — другой баг."
+  },
+  {
+   "key": "id:46989",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые голоса и звуки фалмеров; объёмный звук в VR делает их страшнее.",
+   "note": "Нужен Falmer Overhaul (#86338). Без DLL; ставить после Audio Overhaul (#12466), чтобы победили звуки фалмеров.",
+   "reason": "Дополняет Falmer Overhaul из сборки, VRAM и CPU не нагружает; 2 VR-списка (FUS, Yggdrasil VR)."
+  },
+  {
+   "key": "id:167190",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Блокирует сохранение в бою и верхом.",
+   "note": "Запрет сохранения верхом прямо спорит с Saving on Steed (#173629), а защиту от битых сохранений даёт Seamless Saving VR (#174106).",
+   "reason": "covered_elsewhere: Seamless Saving VR (#174106) и Saving on Steed (#173629); возможен DLL без VR-билда."
+  },
+  {
+   "key": "id:85866",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Объёмный Dragons Tongue в стиле Cathedral 3D: в VR заметно лучше плоского растения.",
+   "note": "Меши и текстуры без DLL, одно растение — нагрузка мизерная. В Cathedral 3D-цветы (#41312) не входит.",
+   "reason": "Закрывает пробел рядом с Cathedral 3D Grass Library (#80687) и #41312; 2 VR-списка (FUS, Panda's Sovnga)."
+  }
+ ]
+}

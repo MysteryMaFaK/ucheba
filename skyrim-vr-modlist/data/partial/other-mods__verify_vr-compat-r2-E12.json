@@ -1,0 +1,44 @@
+{
+ "verdicts": [
+  {
+   "key": "id:135776",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "PBR-материалы для посуды Rudy HQ Silverware: металл корректно блестит при освещении Lux и Light Placer.",
+   "note": "Нужен оригинал Rudy HQ - Silverware (его в инвентаре нет) + PBR Hub + PGPatcher. Как проверить: поставить, прогнать PGPatcher, посмотреть ложки и кубки в таверне; если PBR на Open Shaders в VR не работает (тёмный или плоский металл), откатить на обычный Rudy HQ Silverware. Только текстуры, DLL нет, VRAM почти не тратит.",
+   "reason": "Две VR-сборки (Panda's Sovnga, Tempus Maledic) ставят, DLL нет. PBR-путь на Open Shaders в VR не подтверждён, поэтому try, а не opt."
+  },
+  {
+   "key": "id:3144",
+   "keep": true,
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новые модели и текстуры луков (DecimusMaximus). Лук в VR всё время в руке, поэтому качество меша видно.",
+   "note": "Только меши и текстуры, DLL нет. Скептик: ставит свои меши луков, а Seamless Arrow Nocking VR и Simple Realistic Archery VR опираются на узлы тетивы и стрелы. Проверка: наложить стрелу в обеих руках, убедиться, что тетива и стрела встают на место. Грузить после LeanWolf's Better-Shaped Weapons. Используется одной VR-сборкой (Librum VR), файл 'Real Bows - Alternate Textures'.",
+   "reason": "Меши неподтверждённо стыкуются с VR-нокингом стрелы (один VR-список), поэтому try вместо opt. Дубля в инвентаре нет: LeanWolf's заменяет в основном ближнее оружие."
+  },
+  {
+   "key": "id:56337",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Меш и текстура масла 1K.",
+   "note": "",
+   "reason": "low_value: масло почти не попадается на глаза, пользы для VR нет. Меняет меш масла, который уже правит Food Resized (#44776), риск разного масштаба. Одна VR-сборка (Yggdrasil VR)."
+  },
+  {
+   "key": "id:38946",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Простые стальные прицелы для арбалетов: целиться через мушку, а не на глаз.",
+   "note": "VR-мод, DLL нет, только меши. Ставить строго после Sighted Crossbows VR (#28948, уже в инвентаре) и только если играешь с арбалетами. Совместим по замыслу с Immersive Crossbow Reload VR (#117254), но проверить прицеливание после перезарядки. Использует две VR-сборки (Panda's Sovnga, Yggdrasil VR).",
+   "reason": "Расширение уже взятого Sighted Crossbows VR, VR-родной, не конфликтует со стеком. Узкая польза, поэтому opt."
+  }
+ ]
+}

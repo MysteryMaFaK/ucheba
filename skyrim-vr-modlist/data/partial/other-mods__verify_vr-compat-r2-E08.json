@@ -1,0 +1,84 @@
+{
+ "verdicts": [
+  {
+   "key": "id:69851",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Исправления LOD-мешей под DynDOLOD (артефакты дальних объектов).",
+   "note": "Меши без DLL, в VR работают. Польза не подтверждена: часть может перекрываться с #87521 LOD Model Library и #73381 Icy Mesh Remaster. В FOMOD брать только пункты под реально установленные моды. Ставить до генерации DynDOLOD, сравнить LOD до и после и перегенерировать.",
+   "reason": "Evidence: Tempus Maledic, файл LOD Mesh Fixes for DynDOLOD - FOMOD, 2023. Конкретные исправления не проверены, поэтому try, а не opt."
+  },
+  {
+   "key": "id:156773",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "VR-фикс вылетов из-за leveled lists (SKSE-плагин).",
+   "note": "Файл называется Leveled List Crash Fix VR, его ставят два VR-списка (Librum VR, Tempus Maledic), так что VR-сборка DLL есть. Нужны SKSEVR и VR Address Library. После установки сверить лог Crash Logger. Рядом с #172083 Dynamic Leveled Lists и Engine Fixes VR не должно быть конфликта, но если появятся вылеты на загрузке, отключить его первым.",
+   "reason": "Evidence: карточка (2 VR-списка, файл 1.1.1, 2025-08). Полезен при тяжёлых leveled lists из SPID и Dynamic Leveled Lists."
+  },
+  {
+   "key": "id:38944",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Звуки меню в стиле бумаги и пергамента вместо ванильных.",
+   "note": "Только звуки, без DLL. Ставить после Audio Overhaul и ISC, чтобы файлы не перезаписались. В VR это дело вкуса, громкость проверить в наушниках.",
+   "reason": "Evidence: Librum VR, Yggdrasil VR, файл Paper UI Sounds 6.1 (2020). Ничего не ломает, дёшево. Польза небольшая."
+  },
+  {
+   "key": "id:34292",
+   "keep": true,
+   "section": "tex_arch",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстура Рейвен-Рока (Солстхейм): здания и стены в 2K.",
+   "note": "Брать вариант 2K. Текстуры не PBR, работают и без PBR-пути на Open Shaders. Не смешивать с PBR-паками без PGPatcher. Порядок с #66037 FYX (Raven Rock Docks) проверить по конфликтам мешей и текстур. Рейвен-Рок в сборке больше нигде не ретекстурирован.",
+   "reason": "Evidence: Yggdrasil VR, файл Rally's Raven Rock 2K (2021). Старый мод, но без DLL и PBR не требует."
+  },
+  {
+   "key": "id:47742",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Коровы с шерстью вместо гладких ванильных.",
+   "note": "Меши и текстуры без DLL, дёшево по VRAM. С #51551 Creatures Resized for VR не пересекается: тот меняет только размер. Хорошо заметно вблизи.",
+   "reason": "Evidence: FUS, файл Rallys Shaggycows of Skyrim 1.2 (2021). Конкурентов среди коров в инвентаре нет."
+  },
+  {
+   "key": "id:70260",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Доски объявлений с новыми мешами и текстурами.",
+   "note": "Брать 2K Performance, как и в списке Librum VR. Ставить после SMIM и #95032 Skyland Bits and Bobs; если Skyland уже заменяет доски, оставить победителем одну из версий по просмотру в NIF Preview. DLL нет.",
+   "reason": "Evidence: Librum VR, файл The Notice Board Redefined 2K (Performance). Мелкий объект, но виден в каждом городе. Пересечение со Skyland не проверено."
+  },
+  {
+   "key": "id:94436",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Озвучка книг: слушать вместо чтения мелкого текста в VR.",
+   "note": "Брать VR-файл Voiced Books of Skyrim - VR 1.1. Это не голосовые команды, поэтому раздел misc. Аудио большое по диску. После установки открыть одну книгу и проверить, что звук запускается. Рядом с #84909 Reading Is Good и Scaleform Translation Plus Plus проблем быть не должно. Сторонние сведения об авторах и озвучке не проверял.",
+   "reason": "Evidence: Spirit of Grit, Tahrovin - Gri, файл Voiced Books of Skyrim - VR (2023). Отдельный VR-файл есть и используется двумя списками."
+  },
+  {
+   "key": "id:15831",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые даэдрические звери Huntbeasts of Hircine и Bloodhorns (opusGlass).",
+   "note": "",
+   "reason": "low_value: по поиску мод не ретекстура, а добавляет новых существ в leveled lists и дикие встречи. Это геймплейный контент, а не визуальное улучшение. Данные поиска касаются оригинала для LE, SE-версия 2.1 не подтверждена. Риск конфликта с #172083 Dynamic Leveled Lists и #19272 Rustic creature textures. Список из Librum VR и Yggdrasil VR достаточным основанием не считаю."
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "verdicts": [
+  {
+   "key": "id:30411",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Чёткие брови для всех рас в RaceMenu; в VR лицо видно вплотную.",
+   "note": "Без DLL. Не ставить вместе с Loverboy Brows (одна ветка). Положить после Nordic Faces и проверить, что брови не перебиваются.",
+   "reason": "Карточка: 3 VR-списка (Spirit of Grit, Tahrovin, Tahrovin - Gri), файл Hvergelmir's Aesthetics - Brows 4.0.1; знание: ESP + текстуры, DLL нет. Все три списка из одной ветки, но VR-блокеров нет. Дополняет Beards (#1067), с живым стеком не конфликтует."
+  },
+  {
+   "key": "id:91438",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Расширяет мимику NPC по настроению и ситуации; в VR лица видны близко.",
+   "note": "Пересекается по роли с Expressive Facial Animation (#19532) и Expressive Facegen Morphs (#35785), которые уже в стеке. Ставить последним, смотреть, не дёргается ли мимика и нет ли лишней нагрузки скриптов. Если конфликтует с EFA, убрать.",
+   "reason": "Карточка: 2 VR + 2 SE списка (Tahrovin, Tempus Maledic), файл Conditional Expressions Extended 1.4.3. Работу в VR списки не подтверждают, зависит от MFG Fix NG (#133568, в ядре). Моё допущение, не проверено: управляется скриптами. Правдоподобно, но не доказано, поэтому try."
+  },
+  {
+   "key": "id:27050",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Новая модель факела; в VR факел держишь в руке у лица.",
+   "note": "Заменяет меш факела без DLL. Проверить в игре: положение факела в руке при VRIK, точка света и огонь с Lux, Light Placer и CS Light. Если факел смещён или тёмный, убрать.",
+   "reason": "Карточка: только Yggdrasil VR (1 VR-список), файл Medieval Torch 1.0.2 от 2019. В VR как работает при VRIK-хвате, подтверждения нет, в отличие от статичного клаттера. Понижено с opt до try."
+  },
+  {
+   "key": "id:67147",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "warpaint",
+   "what": "Ретекстур ванильной боевой раскраски в высоком разрешении, видна вблизи.",
+   "note": "Текстуры без DLL. Одна раскраска из группы, второй вариант отброшен. Если VRAM тесно, брать 2K.",
+   "reason": "Карточка: Librum VR (VR-список), файл Painterly_HighResVanillaWarpaint 1.0. Заменяет ванильные текстуры, поэтому не добавляет нагрузки сверх текстур. Ценность небольшая, но нет конфликта со стеком (BnP, Nordic Faces, Authentic Eyes)."
+  },
+  {
+   "key": "id:173617",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Исправляет вылет при загрузке косейва RaceMenu (SKEE) в долгой кампании с оверлеями.",
+   "note": "Скорее всего SKSE DLL; VR-сборка не подтверждена, а RaceMenu VR 2 (#192158) может быть несовместим. Ставить только если ловишь вылеты при загрузке сейва: сначала смотреть лог SKSE на ошибку загрузки DLL, при ошибке убрать. Поиск ничего не подтвердил.",
+   "reason": "Карточка: Librum VR (1 VR-список), файл 1.1.0 от 2026-03. Версия DLL для VR и 1.4.15 не проверена; список мог поставить его без проверки. Правдоподобно, но не доказано."
+  },
+  {
+   "key": "id:95926",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Переработанные орочьи крепости (меши и текстуры); продолжение Spaghetti's Palaces.",
+   "note": "Без DLL, локации малые, нагрузка на CPU небольшая. Положить после Vanaheimr Mines and Caves и Spaghetti's Palaces, проверить интерьеры, затем прогнать DynDOLOD.",
+   "reason": "Карточка: Panda's Sovnga (VR-список), файл Spaghetti's Orc Strongholds - AIO 1.3; в инвентаре есть #93733 Spaghetti's Palaces того же автора, прямого дубля нет. Текстуры не PBR, подтверждение PBR не требуется."
+  },
+  {
+   "key": "id:64065",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "alt",
+   "choose_one_group": "body_preset",
+   "what": "Сдержанные реалистичные пресеты CBBE для BodySlide (Moderate Curvy, Natural Curves).",
+   "note": "Выбрать один пресет из серии и собрать в BodySlide на базе CBBE 3BA (#30174). Если у пресета нет слайдеров 3BA, они применятся частично, проверить в BodySlide. Остальные два пресета серии не брать.",
+   "reason": "Карточка: серия из 4, 3 VR-списка одной ветки (Spirit of Grit, Tahrovin, Tahrovin - Gri), члены 64065 и 41906; из десятков пресетов в пакете оставлен один умеренный вариант. Вкусовой выбор, DLL нет."
+  },
+  {
+   "key": "id:88707",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Java-утилита, конвертирует пресеты BodySlide в файлы BodyGen для RaceMenu.",
+   "note": "",
+   "reason": "covered_elsewhere: в стеке уже OBody NG (#77016). Поиск показал: jBS2BG делает templates.ini и morphs.ini для BodyGen RaceMenu, OBody NG их не читает и назначает пресеты BodySlide сам. Пометка «для OBody NG» в выборке неверна; запускать BodyGen вместе с OBody не следует."
+  },
+  {
+   "key": "id:130164",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Ретекстур или набор боевой раскраски для RaceMenu.",
+   "note": "",
+   "reason": "redundant: второй мод боевой раскраски рядом с Painterly (#67147). Поиск страницу мода не нашёл, суть (ретекстур ванили или новые оверлеи) не подтверждена, а Painterly подкреплён файлом и VR-списком. В группе warpaint оставлен один."
+  }
+ ]
+}

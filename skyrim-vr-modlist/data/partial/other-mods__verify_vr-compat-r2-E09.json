@@ -1,0 +1,174 @@
+{
+ "verdicts": [
+  {
+   "key": "id:5916",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "children",
+   "what": "Улучшенные модели и лица детей: в VR дети стоят вплотную, ванильные заметно хуже остальных NPC.",
+   "note": "Без DLL: плагин, меши, FaceGen. Выбрать одно с Rustic Children. Мод 2020 г.: проверить совместимость с Lively Children Animations (OAR) и Nordic Faces ICO.",
+   "reason": "Карта: Yggdrasil VR, файл TK Children SE. DLL нет, VR-риска нет. Остаётся один конфликт по головам с Nordic Faces ICO, поэтому в группе и без тега rec."
+  },
+  {
+   "key": "id:3564",
+   "keep": true,
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "NPC подсказывают дорогу диалогом: удобно, когда не хочется лезть в карту.",
+   "note": "Только плагин, без DLL. Дополняет Navigate VR и Compass Navigation Overhaul, не заменяет. Проверить, показывает ли он маркер или только текст.",
+   "reason": "Карта: 3 VR-списка (Librum VR, Panda's Sovnga, Yggdrasil VR). Поиск ничего о моде не дал, вывод из знания: esp-мод, DLL нет."
+  },
+  {
+   "key": "id:157413",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Автоназвания собственных зачарованных предметов: инвентарь читается без ручного переименования.",
+   "note": "Скорее всего SKSE DLL: проверить, что в архиве есть VR-совместимый файл, иначе не ставить. Порядок с Tamrielic Names и Improvement Names проверить в игре.",
+   "reason": "Карта: 2 VR-списка (Spirit of Grit, Tahrovin - Gri), версия 1.0.3 от 2025-12-25. Поиск не подтвердил ни страницу, ни DLL, поэтому try."
+  },
+  {
+   "key": "id:82648",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Улучшенные меха и кузнечные меши: кузницы видны вплотную, вариант с ElSopa-наковальней под Embers XD.",
+   "note": "Брать файл-вариант «5. Better Bellows ElSopa Anvil EmbersXD» (Embers XD из ядра). Без DLL, меши дешёвые.",
+   "reason": "Карта: 2 VR-списка (Panda's Sovnga, Tempus Maledic), файл с EmbersXD. Embers XD уже в ядре, конфликта со стеком нет."
+  },
+  {
+   "key": "id:133451",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Правка ушей эльфов Dint.",
+   "note": "",
+   "reason": "redundant: описание не проверено (поиск мод не нашёл), вероятно правит головы эльфов и конфликтует с Nordic Faces ICO и RaceMenu-пресетами из стека; выигрыш мал, а риск для лиц высок."
+  },
+  {
+   "key": "id:24511",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Костёр и фляга в 2K: у костра в VR стоишь вплотную.",
+   "note": "Не PBR. Если Vanilla PBR AIO или Faultier's PBR Skyrim уже меняют костёр и PBR в VR заработает, этот мод пропустить или поставить ниже по приоритету.",
+   "reason": "Карта: 2 VR-списка (Librum VR, Yggdrasil VR), файл 2k Campfire Clean Waterskin. Текстуры без DLL; пересечение с PBR-паками возможно, поэтому opt."
+  },
+  {
+   "key": "id:102948",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Тренировочные манекены в 1K: аккуратнее меши, по ним можно бить рукой.",
+   "note": "Малоценный, но почти бесплатный по VRAM. Проверить, что Skyland Bits and Bobs и Rally's All The Things не перекрывают.",
+   "reason": "Карта: Panda's Sovnga, файл 1k. ElSopa, без DLL. Оставлен как дешёвое дополнение, приоритет низкий."
+  },
+  {
+   "key": "id:63889",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Невидимость, читаемая в VR: игрок и руки остаются видны владельцу; дополняет NPCs React To Invisibility.",
+   "note": "VR-порт по названию файла. Проверить с VRIK: тело и руки не должны пропадать целиком. Детали мода не проверены.",
+   "reason": "Карта: 3 VR-списка (Panda's Sovnga, Tahrovin, Yggdrasil VR), файл 1_Enhanced Invisibility VR 1.3.0 от 2025-07-31. VR-версия по названию, не знание содержимого."
+  },
+  {
+   "key": "id:65880",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "MCM-меню настроек для Experience (в ядре): темп получения опыта без правки ini.",
+   "note": "Только вместе с Experience #17751, без него не ставить. Проверить, что версия MCM подходит к версии Experience.",
+   "reason": "Inventory: #17751 Experience в ядре; карта: Tempus Maledic. Плагин и MCM под SkyUI VR, DLL нет."
+  },
+  {
+   "key": "id:64185",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Решётки тюрем в стиле SMIM: тюрьмы часто видишь вплотную.",
+   "note": "Под SMIM из стека. Без DLL, дёшево. Если SMIM PBR перекрывает текстуры решёток, оставить только меши.",
+   "reason": "Карта: Yggdrasil VR, файл Improved Jail Bars SMIM; SMIM в Inventory (#659, #151346)."
+  },
+  {
+   "key": "id:126492",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Настраиваемые названия качества оружия и брони, VR-версия.",
+   "note": "Нужен SKSEVR. Проверить порядок с Tamrielic Names и Durability VR + Immersive Smithing, чтобы названия не дублировались.",
+   "reason": "Карта: 3 VR-списка (FUS, Panda's Sovnga, Stormcrown VR), файл Improvement Names Customized VR. VR-сборка по названию и спискам."
+  },
+  {
+   "key": "id:63353",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "children",
+   "what": "Ретекстур детей и их одежды в 2K/1K в стиле Rustic Clothing; легче TK Children, лица не трогает.",
+   "note": "Выбрать одно с TK Children. Брать вариант 1K. Текстуры без DLL, сочетается с Rustic Clothing из стека.",
+   "reason": "Карта: Tempus Maledic, файл RUSTIC CHILDREN - BODY - 2K-1K. Rustic Clothing (#4703) уже в стеке, стиль единый."
+  },
+  {
+   "key": "id:88161",
+   "keep": true,
+   "section": "tex_water_sky",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Переделанные радуги: красивый небесный эффект, дёшев.",
+   "note": "Сначала Hotfix Patch. Проверить, что радугу вызывает погода Azurite Weathers III, иначе эффекта не будет или будет конфликт с её небом.",
+   "reason": "Карта: Tempus Maledic, файл Hotfix Patch 1.2.1. Совместимость с Azurite и CS-небом не подтверждена, поэтому try."
+  },
+  {
+   "key": "id:22169",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Оверлеи RaceMenu: макияж, грязь, раскраска для создания персонажа.",
+   "note": "Нужен RaceMenu VR из ядра. Оверлеи привязаны к UV тела: проверить на BnP/CBBE 3BA. Текстуры небольшие, DLL нет.",
+   "reason": "Карта: 3 VR-списка (Spirit of Grit, Tahrovin, Tahrovin - Gri); поиск: оверлеи RaceMenu. ESL-плагин и текстуры."
+  },
+  {
+   "key": "id:112605",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Эффекты экрана вместо полосок здоровья/маны/выносливости: помогает держать HUD минимальным.",
+   "note": "Imagespace-эффекты в VR могут вызывать дискомфорт: проверить в бою и убавить в конфиге либо отключить. Наличие DLL не подтверждено.",
+   "reason": "Карта: 3 VR-списка (Spirit of Grit, Tahrovin - Gri, Tempus Maledic), версия 2024 г. Субъективная комфортность в VR неизвестна."
+  },
+  {
+   "key": "id:170945",
+   "keep": true,
+   "section": "tex_flora",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Висячий мох в 1K: деревья Фолкрита и болот выглядят живее, дёшево по VRAM.",
+   "note": "Ставить после Happy Little Trees, проверить, что HLT не заменяет мох своими мешами. Без DLL.",
+   "reason": "Карта: Panda's Sovnga, 2026 г., файл ValArt_hangingmoss_1k. Содержимое не проверено, вывод по названию файла и размеру 1K."
+  },
+  {
+   "key": "id:110947",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Анимированные тележки торговцев: живая мелочь в городах.",
+   "note": "Механика анимации неизвестна (поиск страницу мода не дал): проверить, нет ли DLL без VR-сборки. Следить за FPS на рынках Вайтрана и Солитьюда.",
+   "reason": "Карта: 2 VR-списка (FUS, Panda's Sovnga), версия 1.1 от 2024-02-05. Автор и механика не подтверждены, поэтому try."
+  }
+ ]
+}

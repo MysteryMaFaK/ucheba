@@ -1,0 +1,154 @@
+{
+ "verdicts": [
+  {
+   "key": "id:38820",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Серые (тонируемые) ретекстуры причёсок KS Hairdos: цвет задаётся в RaceMenu.",
+   "note": "Только текстуры, без DLL. Ставить только вместе с KS Hairdos SE (его нет в ядре и в первом проходе), иначе пропустить. 1K/2K для VRAM. Salt and Wind (#16582) не брать: дубль.",
+   "reason": "Кандидат условный: полезен лишь при наличии базового пака причёсок. VR-риска нет (текстуры), Tempus Maledic (VR)."
+  },
+  {
+   "key": "id:135417",
+   "keep": true,
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Хаб рефитов брони и одежды под мужское тело HIMBO: убирает клиппинг на мужских персонажах.",
+   "note": "Ставить только рефиты под реально стоящие брони, затем сборка в BodySlide. Нужен HIMBO (#46311, уже в Other).",
+   "reason": "Только меши и BodySlide-файлы, без DLL; два VR-листа (Spirit of Grit, Tahrovin - Gri). Реальная ценность при мужском теле HIMBO."
+  },
+  {
+   "key": "id:54296",
+   "keep": true,
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": "himbo_preset",
+   "what": "Пресет BodySlide Norse God для мужского тела HIMBO: готовая форма вместо ручной настройки.",
+   "note": "Из серии только Norse God. Greek God и The Common Guy — альтернативы, вместе не ставить. Нужны HIMBO (#46311) и BodySlide (#201).",
+   "reason": "XML-пресет без DLL, два VR-листа. Один из нескольких вкусовых пресетов, поэтому выбор одного."
+  },
+  {
+   "key": "id:1704",
+   "keep": true,
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Новые текстуры и детали аргониан (лица, чешуя) для рас, которые Nordic Faces не охватывает.",
+   "note": "Знание: Nordic Faces делает людей и эльфов, не аргониан. Файл в карточке 4K: брать вариант 2K/1K, если он есть в архивах, иначе проверить VRAM. Только текстуры.",
+   "reason": "Два VR-листа (Panda's Sovnga, Tempus Maledic), DLL нет, закрывает пробел по аргонианам."
+  },
+  {
+   "key": "id:99024",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фикс для мёртвых NPC при работе OBody (по названию: не остаются голыми).",
+   "note": "Поиск описание не подтвердил. Из карточки только Tempus Maledic (VR). Перед установкой открыть VR-страницу и список файлов: если есть SKSE DLL, нужна VR-сборка. Тест: убить NPC в одежде и осмотреть труп.",
+   "reason": "Правдоподобно при OBody NG (#77016, уже в Other), но суть и наличие DLL не подтверждены, поэтому try."
+  },
+  {
+   "key": "id:28060",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-модель и текстура факела: он постоянно в руке и виден вплотную в VR.",
+   "note": "Без DLL, но это замена меша: проверить положение в руке с VRIK/HIGGS и свет факела под Lux/CS Light. Возможен конфликт с #36594 и Rally's All The Things (#33669), порядок по результату теста.",
+   "reason": "Старый мод, один VR-лист (Yggdrasil VR). Ценность в VR реальна (предмет у лица), риск только в позиции и свете."
+  },
+  {
+   "key": "id:35823",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Хаб официальных патчей совместимости AI Overhaul (#21654) с другими модами.",
+   "note": "Ставить только патчи под моды, которые реально стоят: пример Cutting Room Floor Patch нужен лишь при самом Cutting Room Floor. Сверить список в SSEEdit. Плагины без DLL.",
+   "reason": "Два VR-листа, AI Overhaul в ядре. Ценность зависит от набора модов, поэтому опционально."
+  },
+  {
+   "key": "id:70978",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Фикс к SPID for Footprints (#3808), который уже в ядре.",
+   "note": "Нужен, только если остаётся Footprints + SPID for Footprints. При Dynamic Footprints (#175254) пропустить. В ядре есть оба, оставить один вариант.",
+   "reason": "Мелкий плагин без DLL, два VR-листа (Tempus Maledic, Yggdrasil VR). Не конфликтует со стеком."
+  },
+  {
+   "key": "id:118746",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "VR-порт Alchemy XP Fix: опыт алхимии за открытие эффектов ингредиентов при варке.",
+   "note": "Знание и поиск по оригиналу (powerofthree): фикс даёт опыт за открытие эффектов, быстрее прокачку не делает. Родной VR-DLL, три VR-листа. Проверить, что Experience (#17751) не дублирует правку.",
+   "reason": "VR-native подтверждён картой (vr 3, se 0). Описание в черновике исправлено. Понижено до opt: польза небольшая, возможное пересечение с Experience."
+  },
+  {
+   "key": "id:175385",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Плагин MO2 для списка плагинов с группами и заметками.",
+   "note": "",
+   "reason": "drop_code: low_value. Инструмент менеджера без эффекта в игре и VR, один VR-лист, LOOT и SSEEdit уже в ядре; сторонний Python-плагин для MO2 добавляет риск без явной выгоды."
+  },
+  {
+   "key": "id:107292",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Описания у еды и напитков в карточке предмета.",
+   "note": "Нужны Description Framework (#105799) и I4/I5 из ядра. Три VR-листа ставят его в VR, DLL мод сам не ввозит (по карточке). Проверить, что описание видно в SkyUI VR.",
+   "reason": "Три VR-листа и зависимость из ядра подтверждают работу в VR; ценность скромная, поэтому opt."
+  },
+  {
+   "key": "id:138586",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Фикс оверлеев RaceMenu в VR: мерцание татуировок на руках, оверлеи в зеркале и вне тела.",
+   "note": "Поиск (Reddit r/skyrimvr, вторичный источник): мод чинит оверлеи в VR. Версия 1.45 prerelease, патч от 03APR2025 лежал в комментариях. Проверить DLL и VR-сборку на странице, затем тест в RaceMenu и в зеркале.",
+   "reason": "Один VR-лист (Tahrovin), пререлиз, вероятно SKSE DLL, поэтому try. Чинит реальную проблему VR."
+  },
+  {
+   "key": "id:22087",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HD-текстуры еды: её берут в руки через HIGGS, видна вплотную.",
+   "note": "Только текстуры. Размеры в архиве не проверены: брать 1K/2K, если есть, иначе сжать через VRAMr (#90557). Грузить после Food Resized (#44776); сверить с Rally's All The Things и Skyland, если они затрагивают еду.",
+   "reason": "Два VR-листа, без DLL. Ценность в VR из-за вещей в руках. Файл 2018 года, поэтому не rec."
+  },
+  {
+   "key": "id:96117",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Иконки для книг заклинаний в интерфейсе I4.",
+   "note": "Только данные для I4 (#85702), в ядре также I5 (#192976): проверить, что иконки появляются в SkyUI VR при выбранном варианте.",
+   "reason": "Два VR-листа (Librum VR, Tempus Maledic), DLL нет. Косметика с малой ценностью, не rec."
+  },
+  {
+   "key": "id:112297",
+   "keep": true,
+   "section": "misc",
+   "tag": "rec",
+   "choose_one_group": null,
+   "what": "Патч совместимости Spellsiphon и Experience: опыт за поглощение магии.",
+   "note": "Плагин-патч без DLL. Spellsiphon (#26627) и Experience (#17751) уже в ядре. Ставить после обоих.",
+   "reason": "Три VR-листа, оба мода в ядре, без патча функции не стыкуются: ясная ценность при нулевом риске."
+  }
+ ]
+}

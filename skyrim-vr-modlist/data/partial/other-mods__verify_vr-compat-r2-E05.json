@@ -1,0 +1,164 @@
+{
+ "verdicts": [
+  {
+   "key": "id:59142",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "moreHUD Inventory Edition VR: в инвентаре видны известные эффекты ингредиентов и свойства предметов.",
+   "note": "SKSE DLL, VR-билд по имени файла. В стеке уже есть I4 и I5 и Norden UI. Проверить, что иконки и столбцы появляются в списке инвентаря; если Norden UI их не рисует, не ставить. Ставить после moreHUD VR.",
+   "reason": "Три VR-списка (Librum VR, Panda's Sovnga, Tempus Maledic), VR в имени файла. Через try, потому что Norden UI меняет интерфейс инвентаря, и совместимость в списках не подтверждена."
+  },
+  {
+   "key": "id:57607",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Awesome Potions Simplified: аккуратные модели и текстуры зелий. В VR зелья держишь в руке.",
+   "note": "Без DLL. Файл на карточке — ZUPA-патч, он нужен только при ZUPA. Не ставить рядом с другими заменами моделей зелий. Если Paraphernalia #90557 трогает бутылки, этот мод ставить после неё.",
+   "reason": "Два VR-списка (FUS, Yggdrasil VR). Только ассеты. Зелья в стеке не заменяет ни один мод из inventory (Food Resized меняет только размер)."
+  },
+  {
+   "key": "id:81731",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Constructible Object Custom Keyword System NG: фреймворк ключевых слов для рецептов крафта.",
+   "note": "Ставить, только если Crafting Categories (COCKS) #81409 требует его на странице. Это DLL, VR-билд не подтверждён: перед установкой проверить файлы мода, при отсутствии VR-версии не ставить.",
+   "reason": "Один VR-список (Tempus Maledic, 2026-08-21). В inventory уже есть #81409 Crafting Categories for SkyUI VR (COCKS); это его возможная зависимость, поэтому отдельной ценности нет."
+  },
+  {
+   "key": "id:114119",
+   "keep": true,
+   "section": "tex_pbr_tools",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Dynamic Cubemaps - Metals: металлы, настроенные под динамические кубмапы Community Shaders.",
+   "note": "Нужен функционал Dynamic Cubemaps в Open Shaders 2.17, а его работа в VR не подтверждена. Ставить последним, проверить отражения на металле и FPS; если ничего не меняется или падает FPS, убрать.",
+   "reason": "Два VR-списка (Tahrovin, Tempus Maledic, 2024-03-16), но какой шейдерный путь у них, на карточке не видно. Отражения в двух глазах стоят GPU."
+  },
+  {
+   "key": "id:149913",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Campfire - Script Optimization: облегчённые скрипты Campfire, которым пользуется SunHelm.",
+   "note": "Без DLL, скрипты и плагин. Нужны Campfire и SunHelm (#39414). Ставить после них, затем проверить, что палатки и костры работают, а SunHelm не ругается на версию Campfire.",
+   "reason": "Один VR-список (Librum VR, 2025-05-13). Описание выведено из названия и зависимости SunHelm, содержимое мода не проверялось, поэтому try."
+  },
+  {
+   "key": "id:47227",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "ElSopa - High Quality Buckets SE",
+   "note": "",
+   "reason": "redundant: только ведро, и то в 2K, а для мелкого клатера в VR нужен 1K; пересекается с клатер-паками стека (Skyland Bits and Bobs #95032, Rally's All The Things #33669). Выигрыша на фоне VRAM-цены нет."
+  },
+  {
+   "key": "id:17285",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HORNCANDLES: HD-рога со свечами в нордских домах и залах.",
+   "note": "Без DLL. В файле 4k-2k брать 2K. Свой свет мод не добавляет, свет даёт Light Placer/Lux.",
+   "reason": "Два VR-списка (Librum VR, Tempus Maledic). Рога со свечами не заменяет ни один мод из inventory."
+  },
+  {
+   "key": "id:45917",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Iconic's Blackreach Crystals Retexture: свечение потолка и кристаллов Блэкрича.",
+   "note": "Без DLL, но в файле 4K, поэтому сжать через VRAMr до 2K. Ставить после Underground #14365, если тот трогает Блэкрич.",
+   "reason": "Два VR-списка (Panda's Sovnga, Tempus Maledic). Блэкрич — один большой интерьер, в VR заметно, а через сжатие VRAM не страдает."
+  },
+  {
+   "key": "id:41469",
+   "keep": true,
+   "section": "tex_clutter",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Iconic's WOODFIRES - Redux: реалистичные поленья под кострами и в очагах.",
+   "note": "Без DLL. Embers XD (core) тоже подменяет огонь: меши могут перекрыть друг друга. Ставить до Embers XD, чтобы частицы остались от него, и посмотреть костёр и очаг. Если огонь пропал или поленья странные, убрать.",
+   "reason": "Один VR-список (Tempus Maledic). Совместимость с Embers XD на карточке не подтверждена, поэтому try."
+  },
+  {
+   "key": "id:119899",
+   "keep": true,
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "No Player Position on World Map (VR): убирает маркер игрока с карты мира.",
+   "note": "Родная VR-версия. Только для навигации без подсказок. Проверить вместе с Navigate VR, Local Map Upgrade VR и A Clear Map: если карта ломается, убрать. Не нужен, если хочется видеть позицию.",
+   "reason": "Два VR-списка (Spirit of Grit, Tahrovin - Gri), VR в названии. Не дублирует ничего в стеке: Navigate VR и Local Map Upgrade позицию не прячут."
+  },
+  {
+   "key": "id:167570",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Rustic Repose - A Common Bed Replace (LessPoly)",
+   "note": "",
+   "reason": "redundant: кровати уже закрывает Rustic Furniture #17228; замена через BOS может сбить маркеры мебели у Sleeping Expanded #59250 и Be Seated, а выигрыш мал. Один VR-список."
+  },
+  {
+   "key": "id:119738",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Sonorum Arcana - The Magic Sound Compendium",
+   "note": "",
+   "reason": "covered_elsewhere: звуки магии уже закрывают Immersive Sounds Compendium #523 и ISC-SRDified #78446 (плюс Audio Overhaul #12466). Два пакета подменяют одни звуковые дескрипторы через SRD, побеждает последний."
+  },
+  {
+   "key": "id:9762",
+   "keep": true,
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Undiscovered Means Unknown - Map Markers: скрывает необнаруженные маркеры на карте.",
+   "note": "Плагин и текстуры, без DLL. Ставить после иконок маркеров (Hi-Res VR Map Markers, Natural Colored Map Markers). Не нужен, если хочется видеть все места. Проверить на карте и в Navigate VR.",
+   "reason": "Два VR-списка (Librum VR, Yggdrasil VR). Единственный мод в стеке, прячущий необнаруженные места."
+  },
+  {
+   "key": "id:47541",
+   "keep": true,
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Bears of the North: новые модели и текстуры медведей.",
+   "note": "Без DLL. Проверить с Precision Creatures #74887 и Creatures Resized for VR #51551: масштаб, хитбоксы, скелет. Если медведь ходит странно или не получает урон, убрать.",
+   "reason": "Один VR-список (Panda's Sovnga). Медведей не заменяет ни один мод из inventory (Rustic creature textures их не включают)."
+  },
+  {
+   "key": "id:166188",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Hovels of Hagravens: замена палаток и клатера лагерей Изгнанников.",
+   "note": "Без DLL. В файле смесь 2K/4K, брать 2K ради VRAM. Согласовать с Hagraven - New models #160407: если оба трогают одни файлы, этот ставить после.",
+   "reason": "Один VR-список (Panda's Sovnga, 2025-12-08). Лагеря Изгнанников в Предгорье Рич встречаются часто, а в стеке их никто не заменяет."
+  },
+  {
+   "key": "id:89905",
+   "keep": true,
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "Iconic's Vampire Lord Retexture: 2K-текстуры Лорда-вампира.",
+   "note": "Без DLL. Ставить после Vampire Body for VR #57318 и Vampire Lord fixes #174135, затем проверить руки и крылья от первого лица. Если текстуры не совпадают с мешами, убрать.",
+   "reason": "Один VR-список (Panda's Sovnga). Пересечение с #57318 и #174135 не проверено, поэтому try; мод нишевый, только при пути вампира."
+  }
+ ]
+}

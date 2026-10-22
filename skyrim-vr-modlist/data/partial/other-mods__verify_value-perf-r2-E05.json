@@ -1,0 +1,164 @@
+{
+ "verdicts": [
+  {
+   "key": "id:59142",
+   "keep": true,
+   "section": "misc",
+   "tag": "try",
+   "choose_one_group": null,
+   "what": "moreHUD Inventory Edition VR: в инвентаре показывает известные эффекты ингредиентов и свойства предметов.",
+   "note": "SKSE DLL, родной VR-билд (имя файла, три VR-списка). Мод 2022 года: проверить работу с I5 и Norden UI, при поломке списка предметов убрать.",
+   "reason": "Дополняет moreHUD VR (#33215) и I4/I5 из ядра, не дублирует их. Тег try: DLL 2022 года и Norden UI меняет инвентарь, совместимость не подтверждена."
+  },
+  {
+   "key": "id:57607",
+   "keep": true,
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Awesome Potions Simplified: аккуратные модели и текстуры зелий.",
+   "note": "Без DLL. Брать 1K/2K, ZUPA-патч только при ZUPA. Не ставить вместе с другими заменами моделей зелий.",
+   "reason": "В VR зелье берёшь в руку и рассматриваешь вблизи (HIGGS, VR Equip Potions). Замены моделей зелий в inventory нет (Food Resized только еда). Два VR-списка."
+  },
+  {
+   "key": "id:81731",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "COCKS NG: фреймворк ключевых слов для рецептов крафта.",
+   "note": "",
+   "reason": "covered_elsewhere: это зависимость Crafting Categories for SkyUI VR (COCKS, #81409), уже в ядре. Отдельной ценности нет; если установщик #81409 потребует, подтянется как требование."
+  },
+  {
+   "key": "id:114119",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Dynamic Cubemaps - Metals: металлические материалы под динамические кубмапы CS.",
+   "note": "",
+   "reason": "unverified_vr: Complex Material и кубмапы на Open Shaders в VR не подтверждены ни одним VR-списком. Металл уже закрывают PBR-паки из ядра и первого прохода (PBR Hub, Faultier's PBR, PGPatcher). Лишний риск и VRAM."
+  },
+  {
+   "key": "id:149913",
+   "keep": true,
+   "section": "misc",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Campfire - Script Optimization: облегчает скрипты Campfire, нужного SunHelm.",
+   "note": "Без DLL, только плагин и скрипты. Ставить после Campfire и SunHelm.",
+   "reason": "Реальная польза для Papyrus в VR, SunHelm (#39414) в стеке, а SCROTE (#97155) скрипты Campfire не трогает. Цена нулевая."
+  },
+  {
+   "key": "id:47227",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "ElSopa HD Buckets: HD-вёдра.",
+   "note": "",
+   "reason": "low_value: один тип предмета; вёдра уже улучшены SMIM и Skyland Bits and Bobs (#659, #95032) и Rally's All The Things (#33669). Лишний набор мешей ради вёдер, 2K на мелочь, один VR-список."
+  },
+  {
+   "key": "id:17285",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "HORNCANDLES: HD-текстуры рогов со свечами.",
+   "note": "",
+   "reason": "low_value: мелкий клатер в нескольких домах; свечи и клатер закрывают Rally's Candlelight Fix (#36594), Skyland Bits and Bobs (#95032), SMIM. Файл 4K/2K ради одного статика."
+  },
+  {
+   "key": "id:45917",
+   "keep": true,
+   "section": "tex_dungeons",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Iconic's Blackreach Crystals: свечение потолка и кристаллы Блэкрича.",
+   "note": "Без DLL, но файл 4K: сжать через VRAMr до 2K. Проверить пересечение с Underground (#14365) и Vanaheimr Mines and Caves (#137033), ставить после них.",
+   "reason": "Блэкрич целиком одна огромная пещера с видимым потолком, в стеке его явно не закрывает ни один мод. Два VR-списка. Тег opt из-за 4K и возможного перекрытия с паками пещер."
+  },
+  {
+   "key": "id:41469",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Iconic's WOODFIRES Redux: поленья под кострами и в очагах.",
+   "note": "",
+   "reason": "low_value: огонь и частицы уже закрыты Embers XD и KittyVFX, поленья и костры затронуты SMIM (#659/#151346) и Skyland Bits and Bobs. Мод 2021 года, один VR-список, выигрыш мелкий."
+  },
+  {
+   "key": "id:119899",
+   "keep": true,
+   "section": "navigation",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "No Player Position on World Map (VR): убирает маркер игрока с карты мира.",
+   "note": "Нативный VR. Только если нужна навигация без маркера: в связке с Navigate VR и Palm Compass VR. Проверить с Clear Map и Local Map Upgrade VR.",
+   "reason": "VR-native, без DLL-рисков, подходит стеку Navigate VR + Palm Compass VR. Явно необязательный стилевой выбор, поэтому opt."
+  },
+  {
+   "key": "id:167570",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Rustic Repose: замена обычных кроватей (LessPoly).",
+   "note": "",
+   "reason": "covered_elsewhere: кровати в рустик-стиле уже даёт Rustic Furniture SE (#17228). Две замены одной модели дадут конфликт, лишний слой BOS-раздачи ради кровати."
+  },
+  {
+   "key": "id:119738",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Sonorum Arcana: новые звуки магии через SRD.",
+   "note": "",
+   "reason": "covered_elsewhere: звуки магии уже даёт ISC с SRD-версией (#523, #78446) и Audio Overhaul (#12466) вместе с Mysticism и Deadly Spell Impacts. Один VR-список, наложение звуков вероятно."
+  },
+  {
+   "key": "id:9762",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Undiscovered Means Unknown: скрывает необнаруженные маркеры карты.",
+   "note": "",
+   "reason": "covered_elsewhere: карту и маркеры ведут Navigate VR (#47174), Hi-Res VR Map Markers (#35627), Natural Colored Map Markers (#27503). Мод 2021 года пересекается с ними по иконкам, конфликтоопасен. Иммерсию навигации уже даёт No Player Position."
+  },
+  {
+   "key": "id:47541",
+   "keep": true,
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Bears of the North: новые модели и текстуры медведей.",
+   "note": "Без DLL. Проверить с Precision Creatures и Creatures Resized for VR (масштаб, скелет); при конфликте отдать приоритет им.",
+   "reason": "Медведи не закрыты ни Rustic creature textures (#19272), ни другими моделями из inventory. Частая встреча, в VR видны вблизи. Конкурентов по медведям в батче нет."
+  },
+  {
+   "key": "id:166188",
+   "keep": true,
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Hovels of Hagravens: палатки и клатер лагерей Изгнанников.",
+   "note": "Без DLL. Файл 2k/4k mix: брать 2K, 4K ужать через VRAMr. Ставить после Hagraven - New models (#160407).",
+   "reason": "Дополняет Hagraven - New models (#160407), а не заменяет. Лагеря Предгорья Рич часто встречаются, мало объектов, нагрузка невелика. Мод свежий, 2025 год."
+  },
+  {
+   "key": "id:89905",
+   "keep": false,
+   "section": "none",
+   "tag": "opt",
+   "choose_one_group": null,
+   "what": "Iconic's Vampire Lord Retexture: 2K-текстуры Лорда-вампира.",
+   "note": "",
+   "reason": "low_value: нишевая ветка Dawnguard, форма видна только при трансформации. Руки и тело уже сделаны Vampire Body for VR (#57318) и Vampire Lord fixes (#174135), ретекстура может с ними конфликтовать по текстурам."
+  }
+ ]
+}
