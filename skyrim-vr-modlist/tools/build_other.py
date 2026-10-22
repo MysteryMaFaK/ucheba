@@ -88,6 +88,14 @@ for ptitle, plead, secs in PARTS:
                       + (f" Требует: {'; '.join(t['requires'])}." if t['requires'] else '') + (f" Одно из: `{t['group']}`." if t['group'] else '') + (f" {t['note']}" if t['note'] else ''))
         md.append('')
 md += ['## Не ставить в VR', ''] + [f'- **{a}** — {b}' for a, b in dont]
+_cp = os.path.join(SCR, 'data', 'other2', 'consolidation.json')   # результат сведения второго прохода (tools/merge_other2.py)
+if os.path.exists(_cp):
+    _c = json.load(open(_cp, encoding='utf-8'))
+    if _c.get('groups'):
+        md += ['', '## Группы «одно из»', ''] + [f"- `{g['group']}` — по умолчанию {g['default_pick']}. Варианты: {'; '.join(g['members'])}. {g['rule']}" for g in _c['groups']]
+    for _t, _k in (('Порядок в MO2', 'order_rules'), ('Конфликты и решения сведения', 'conflicts')):
+        if _c.get(_k):
+            md += ['', f'## {_t}', ''] + [f'- {r}' for r in _c[_k]]
 SRC = [('Отчёты Wabbajack по 27 сборкам', 'https://github.com/wabbajack-tools/mod-lists/tree/master/reports'),
        ('Отчёт Panda\'s Sovngarde (VR, упор на графику)', 'https://github.com/wabbajack-tools/mod-lists/blob/master/reports/VirtualPanda/PandasSovngarde/status.md'),
        ('Отчёт Stormcrown VR', 'https://github.com/wabbajack-tools/mod-lists/blob/master/reports/Stormcrown_VR/Stormcrown_VR/status.md'),

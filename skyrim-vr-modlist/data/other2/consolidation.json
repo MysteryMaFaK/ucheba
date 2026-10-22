@@ -1,7 +1,394 @@
 {
- "groups": [],
- "order_rules": [],
- "conflicts": [],
- "notes": [],
+ "groups": [
+  {
+   "group": "alt-start",
+   "members": [
+    "Ralof or Hadvar (#14553)",
+    "Realm of Lorkhan — Freeform Alternate Start (#18223)",
+    "Alternate Start — Live Another Life (#272)"
+   ],
+   "default_pick": "Ralof or Hadvar (#14553)",
+   "rule": "Ровно один альтернативный старт."
+  },
+  {
+   "group": "map-markers",
+   "members": [
+    "Hi-Res VR Map Markers (#35627)",
+    "Natural Colored Map Markers 4K VR and SSE (#27503)"
+   ],
+   "default_pick": "Hi-Res VR Map Markers (#35627)",
+   "rule": "Одни текстуры маркеров карты."
+  },
+  {
+   "group": "controller-bindings",
+   "members": [
+    "VRIK Rift-Index-WMR Controller Bindings (#23416)",
+    "Alternative VRIK Controller Bindings (#49650)",
+    "FUS Patch Compendium — Controller Bindings (#53186)"
+   ],
+   "default_pick": "VRIK Rift-Index-WMR Controller Bindings (#23416)",
+   "rule": "Одна схема раскладки VRIK."
+  },
+  {
+   "group": "soundtrack",
+   "members": [
+    "LORKHAN — Soundtrack Replacer (#115096)",
+    "Chapter II — Jeremy Soule Inspired Music (#37792)"
+   ],
+   "default_pick": "LORKHAN — Soundtrack Replacer (#115096)",
+   "rule": "Одна основная музыкальная линия; добавки (Northerner Diaries #28108, Emeratu #117413, Soulmancer #22551) идут через MTD."
+  },
+  {
+   "group": "bard-songs",
+   "members": [
+    "Bard Instrumentals Mostly — Sing Rarely (#10927)",
+    "ванильные барды"
+   ],
+   "default_pick": "Bard Instrumentals Mostly — Sing Rarely (#10927)",
+   "rule": "Одна правка репертуара бардов."
+  },
+  {
+   "group": "lanterns",
+   "members": [
+    "Wearable Lanterns + VR Patch (#7560)",
+    "без носимых фонарей"
+   ],
+   "default_pick": "Wearable Lanterns + VR Patch (#7560)",
+   "rule": "Один мод носимых фонарей."
+  },
+  {
+   "group": "skyui-theme",
+   "members": [
+    "ванильная тема SkyUI VR",
+    "Dear Diary VR - Paper SkyUI (#44874)"
+   ],
+   "default_pick": "ванильная тема SkyUI VR",
+   "rule": "Одна тема SkyUI VR; Dear Diary со своим скином COCKS."
+  },
+  {
+   "group": "embers-xd",
+   "members": [
+    "Embers XD (Less Poly) (#164369)",
+    "Embers XD (полная версия)"
+   ],
+   "default_pick": "Embers XD (Less Poly) (#164369)",
+   "rule": "Одна версия мешей огня; FYX Campfire #103807 ставить поверх."
+  },
+  {
+   "group": "landscape",
+   "members": [
+    "Sloppy Vanilla Landscapes - Parallax and PBR (#143767)",
+    "Vanaheimr - Landscapes - AIO (#145439)",
+    "TomatoRim PBR - Landscapes AIO (#177621)",
+    "MystiriousDawn's HD Skyrim Overhaul (#19421)"
+   ],
+   "default_pick": "Sloppy Vanilla Landscapes - Parallax and PBR (#143767)",
+   "rule": "Один основной пак ландшафта; MystiriousDawn's — если PBR в VR не заработал."
+  },
+  {
+   "group": "arch-base",
+   "members": [
+    "Faultier's PBR Skyrim (#125308)",
+    "Vanilla PBR AIO (#174091)",
+    "Noble Skyrim Mod HD-2K (#21423)"
+   ],
+   "default_pick": "Faultier's PBR Skyrim (#125308)",
+   "rule": "Одна база архитектуры; Noble — классический путь."
+  },
+  {
+   "group": "whiterun",
+   "members": [
+    "Tomato's Whiterun Remake - PBR (#173747)",
+    "Illustrious Whiterun SE (#28950)"
+   ],
+   "default_pick": "Tomato's Whiterun Remake - PBR (#173747)",
+   "rule": "Один пак Вайтрана."
+  },
+  {
+   "group": "windhelm",
+   "members": [
+    "Tomato's Windhelm - PBR or Complex Material (#174492)",
+    "Ancient AF Windhelm - Windhelm Retextured (#63330)"
+   ],
+   "default_pick": "Tomato's Windhelm - PBR or Complex Material (#174492)",
+   "rule": "Один пак Виндхельма; Ancient AF — без PBR."
+  },
+  {
+   "group": "doors-gdos",
+   "members": [
+    "Glorious Doors of Skyrim (GDOS) SE (#32376)",
+    "Glorious Doors of Skyrim (GDOS) SE PBR (#150727)"
+   ],
+   "default_pick": "Glorious Doors of Skyrim (GDOS) SE (#32376)",
+   "rule": "Один вариант GDOS по выбранному пути (PBR или классика)."
+  },
+  {
+   "group": "clutter-style",
+   "members": [
+    "Skyland Bits and Bobs - A Clutter Overhaul (#95032)",
+    "RUSTIC CLUTTER COLLECTION - Special Edition (#5795)"
+   ],
+   "default_pick": "Skyland Bits and Bobs - A Clutter Overhaul (#95032)",
+   "rule": "Один стиль мелкого клаттера."
+  },
+  {
+   "group": "furniture-style",
+   "members": [
+    "Rally's Common Furniture (#110370)",
+    "Rally's Noble Furniture (#113326)",
+    "Rally's Upper Furniture (#112256)",
+    "Rally's Orc Furniture (#111457)",
+    "RUSTIC FURNITURE - SPECIAL EDITION (#17228)"
+   ],
+   "default_pick": "Rally's Common Furniture (#110370)",
+   "rule": "Либо серия Rally's (всеми частями), либо Rustic Furniture."
+  },
+  {
+   "group": "dungeon-style",
+   "members": [
+    "Vanaheimr - Mines and Caves (#137033)",
+    "Underground - a dungeon texture overhaul (#14365)"
+   ],
+   "default_pick": "Vanaheimr - Mines and Caves (#137033)",
+   "rule": "Один пак пещер и подземелий."
+  },
+  {
+   "group": "trees-pbr",
+   "members": [
+    "Tomato's Vanilla Trees PBR (#139375)",
+    "Happy Little Trees - PBR (#159171)"
+   ],
+   "default_pick": "Tomato's Vanilla Trees PBR (#139375)",
+   "rule": "Один PBR-слой деревьев поверх HLT."
+  },
+  {
+   "group": "night-sky",
+   "members": [
+    "Realistic Galaxy (#111458)",
+    "Rally's Celestial Canvas (#110869)"
+   ],
+   "default_pick": "Realistic Galaxy (#111458)",
+   "rule": "Одна текстура ночного неба."
+  },
+  {
+   "group": "armor-weapon-textures",
+   "members": [
+    "Faultier's PBR Armors and Clothes (#175319)",
+    "Cathedral - Armory (#20199)",
+    "Xavbio Weapons Retexture SE (#91136)",
+    "Xavbio Armors Retexture SE (#90153)"
+   ],
+   "default_pick": "Faultier's PBR Armors and Clothes (#175319)",
+   "rule": "Один путь текстур брони и оружия: PBR (Faultier's), Cathedral или Xavbio (оружие и броня Xavbio — пара)."
+  },
+  {
+   "group": "female-bodyslide-preset",
+   "members": [
+    "Pomona Amphora Bodyslide Preset (#56872)",
+    "Vestal Body 3BA (#87642)",
+    "Greek Goddess Preset (#24201)"
+   ],
+   "default_pick": "Pomona Amphora Bodyslide Preset (#56872)",
+   "rule": "Для игрока — один пресет; в пул OBody NG можно добавить все."
+  },
+  {
+   "group": "male-skin",
+   "members": [
+    "BnP - Male Skin (#65402)",
+    "SkySight Skins (#6580)"
+   ],
+   "default_pick": "BnP - Male Skin (#65402)",
+   "rule": "Одна мужская кожа; BnP в паре с BnP Female Skin."
+  },
+  {
+   "group": "brows",
+   "members": [
+    "Brows (Hvergelmir's Aesthetics) (#1062)",
+    "Blackmoon's Brows (#64405)"
+   ],
+   "default_pick": "Brows (Hvergelmir's Aesthetics) (#1062)",
+   "rule": "Один набор бровей."
+  },
+  {
+   "group": "warpaints",
+   "members": [
+    "Vanilla Warpaints Absolution (#20751)",
+    "PAINTERLY (#67147)"
+   ],
+   "default_pick": "Vanilla Warpaints Absolution (#20751)",
+   "rule": "Одни текстуры боевой раскраски."
+  },
+  {
+   "group": "argonian-tex",
+   "members": [
+    "FAR - Forgotten Argonian Roots (#1704)",
+    "Flawn's Vanilla Argonians Redux (#43389)"
+   ],
+   "default_pick": "FAR - Forgotten Argonian Roots (#1704)",
+   "rule": "Одни текстуры аргониан."
+  },
+  {
+   "group": "children",
+   "members": [
+    "TK Children SE (#5916)",
+    "Prince and The Pauper SE (#8354)",
+    "RUSTIC CHILDREN (#63353)"
+   ],
+   "default_pick": "TK Children SE (#5916)",
+   "rule": "Один мод детей."
+  },
+  {
+   "group": "spriggans",
+   "members": [
+    "Spriggans SE (#90547)",
+    "RUSTIC SPRIGGAN (#18107)"
+   ],
+   "default_pick": "Spriggans SE (#90547)",
+   "rule": "Новые модели или ретекстур ванильных — не вместе."
+  },
+  {
+   "group": "dragon-fall",
+   "members": [
+    "Dragons Fall Down - Immersive Airborne Death (#56317)",
+    "Dragons (Actually) Fall Down (#156824)"
+   ],
+   "default_pick": "Dragons Fall Down - Immersive Airborne Death (#56317)",
+   "rule": "Одно падение драконов."
+  },
+  {
+   "group": "torch",
+   "members": [
+    "Medieval Torch (#27050)",
+    "Ultimate HD Torch (#28060)"
+   ],
+   "default_pick": "Medieval Torch (#27050)",
+   "rule": "Одна модель факела."
+  },
+  {
+   "group": "potions",
+   "members": [
+    "ElSopa - Potions Redone (#80832)",
+    "Awesome Potions Simplified (#57607)"
+   ],
+   "default_pick": "ElSopa - Potions Redone (#80832)",
+   "rule": "Один набор зелий."
+  },
+  {
+   "group": "thrones",
+   "members": [
+    "The Royal Seat (#118892)",
+    "Rally's Thrones (#115859)"
+   ],
+   "default_pick": "The Royal Seat (#118892)",
+   "rule": "Одна замена тронов."
+  },
+  {
+   "group": "hovels-of-hagravens",
+   "members": [
+    "Hovels of Hagravens LessPoly (#167064)",
+    "Hovels of Hagravens (#166188)"
+   ],
+   "default_pick": "Hovels of Hagravens LessPoly (#167064)",
+   "rule": "Одна версия мода."
+  },
+  {
+   "group": "jewelry",
+   "members": [
+    "ElSopa - Glorious HD Amulets SE (#38194)",
+    "Gemling Queen Jewelry SE (#4294)"
+   ],
+   "default_pick": "ElSopa - Glorious HD Amulets SE (#38194)",
+   "rule": "Либо Gemling, либо ElSopa Amulets + JS Vanilla Circlets (#131813)."
+  },
+  {
+   "group": "reshade-sharpen",
+   "members": [
+    "Glamur ReShade VR (#61434)",
+    "VrVision (#47989)"
+   ],
+   "default_pick": "Glamur ReShade VR (#61434)",
+   "rule": "Один шейдер резкости."
+  }
+ ],
+ "order_rules": [
+  "Сначала тело (реплейсер и BodySlide-пресеты), потом броня (Armor and Clothing Extension #19002), потом выход BodySlide последним модом.",
+  "Рельеф: ландшафтные и травяные моды (Merethic Grasslands) → Northern Roads #77530 и его патчи → FOLIP #79197 → выход DynDOLOD/xLODGen в самом низу; после Northern Roads LOD пересобрать.",
+  "HLT → Riverwood Log Pile FIX #147305 (BOS-ini поверх HLT).",
+  "Embers XD #164369 → FYX Campfire Reacts to the Wind #103807.",
+  "Меши: Dlizzio's Mesh Fixes #39260 выше, частные меши (Snowy Surfaces #76257, огонь, FOLIP) ниже, чтобы перекрывали.",
+  "Иконки: B.O.O.B.I.E.S #89241 → Keyword Patch Collection #92529 → пакеты I4 (#106432, #90508, #96117).",
+  "Квесты: EBQO #159 выше, Whose Quest Is It Anyway с VR-файлом ниже; VR-файл серии поверх базового.",
+  "CATA #51507 → аддон Leviathan II #81463.",
+  "Combat Music Fix NG и Unique Battle Music #91231 → патч #157985 ниже обоих.",
+  "Experience → Experience - MCM #65880 → Spellsiphon - Experience patch #112297; GIST → Azura's Star Restore #103003; SunHelm → патчи #41335.",
+  "Description Framework VR → #107292, #107239, #107094.",
+  "Текстуры (Enhanced Blood #2357, Skill Interface #1523) — свободные файлы, ставить ниже общих текстурных паков.",
+  "Cleaned Skyrim SE Textures — в самом низу, под всеми текстурами.",
+  "Меши ниже текстур: SMIM → Rally's мебель / Better Chests / Use Those Blankets → паки текстур → PBR-конверсии (SMIM PBR, Ruins Clutter PBR, PBR Hub) сразу над своей базой.",
+  "Ландшафт: основной пак (Sloppy) → Northern Shores / Seasonal Landscapes → Blended Roads → Misc. Blended Road Fixes → Parallax Bridges and Roads.",
+  "Скалы: ERM → ERM Fix and Addon → ERM DynDOLOD Add-On.",
+  "Архитектура: Faultier's (база) ниже городских паков Tomato's; Stony AF Markarth → Ancient Dwemer Metal → Stony AF Markarth PBR.",
+  "RUGNAROK → Fixed Meshes for Rugnarok; Peltapalooza → WiZkiD Hunter's Camp → Peltapalooza CPO.",
+  "Icy Mesh Remaster → Icy Cave Remaster; Obsidian Mountain Fogs → Obsidian Mountain Fogs Tweaked.",
+  "Cathedral 3D plants / 3D-цветы → Snowberries-аддон → Cathedral PBR Plants (только если PBR-файлы под эти меши).",
+  "Iconic Statues → Dibella statue; Book Covers Skyrim → Rally's Spell Tomes; Realistic HD Food → Retexture Soup/Bread.",
+  "HD LODs Textures и все паки текстур ставить до генерации DynDOLOD; после смены текстур пересобрать LOD.",
+  "Paraphernalia VRAMr — последним по всему набору, его вывод в самом верху.",
+  "CBBE (#198) → CBBE 3BA → HIMBO → кожа (BnP Female/Male) → Female Hands Redone → пресеты BodySlide → рефиты брони (Vanilla Outfits Redone, HIMBO Refit Hub, Dwemer Armor 3BA, COCO) → вывод BodySlide отдельным модом в самом низу.",
+  "Armor Mesh Fixes и WACCF → Cathedral/Xavbio/Faultier's → Dragon Priests Retexture → 3BA/HIMBO рефиты.",
+  "SMIM → SMIM Improvement Mod → Whiterun Objects SMIMed → Whiterun Mesh Fixes; Markarth Fixed AF → Stony AF Markarth → Sconces of Skyrim Markarth.",
+  "Меш-моды городов выше текстурных паков; меш-фиксы ниже модов, которые несут свои меши тех же объектов.",
+  "Spaghetti's Palaces → Snazzy Windhelm / фикс дворца Королей (только непересекающиеся меши).",
+  "FYX 3D (первая часть) → новые FYX; дубли файлов не держать.",
+  "Unique Border Gates → Unique Border Gates Fixes.",
+  "Skyrim 3D серия → Vanilla Table Replacers / Rally's → Skyrim Food Expansion → Food Resized последним.",
+  "Stunning Statues → Daedric Shrines AIO.",
+  "HD Reworked Horses → сёдла и упряжь (Imperial Saddle, Yee Haaaa, Shoulder Harness).",
+  "Nordic Faces → BeastHHBB / FAR → Face Discoloration Fix; Racial Skin Variance только с ним.",
+  "После Great Villages, Riften Docks, Unique Border Gates, Lanterns of Skyrim II, Nordic Ruins — пересобрать кэш травы и DynDOLOD."
+ ],
+ "conflicts": [
+  "NPC Infinite Block Fix #113064 и NPC Block Loop Fix #151384 правят одно и то же: оставлен только #151384.",
+  "Trattatello #47639: правит fontconfig.txt, как и Sovngarde #386, и, по всей видимости, без кириллицы. В книгах будут квадраты: исключён.",
+  "Northern Roads #77530 меняет рельеф: конфликтует с ландшафтом и травой без патчей, требует пересборки DynDOLOD.",
+  "Патч Combat Music Fix NG #157985 без UBM #91231 и Combat Music Fix NG не нужен.",
+  "Dear Diary VR #44874 заменяет SWF SkyUI VR: несовместим с другой темой SkyUI.",
+  "Пакеты иконок I4 (#106432, #90508, #96117) работают, только если I4 запускается в VR; без B.O.O.B.I.E.S бесполезны.",
+  "Описания #107292, #107239, #107094 требуют Description Framework в VR-сборке; если её нет, не ставить.",
+  "OverlayFix #138586 и SKEE cosave crash fix #173617 — DLL: брать только сборку для RaceMenu VR.",
+  "Feral #34552 и Vampires have Claws #87746 оба трогают вампиров: проверить руки вампира от первого лица.",
+  "Armor and Clothing Extension #19002 требует сборки в BodySlide под выбранное тело.",
+  "FYX Campfire #103807 рассчитан на Embers XD: без него огонь будет выглядеть ванильно или сломанно.",
+  "Encounter Zones Unlocked #19608 конфликтует с модами, правящими зоны столкновений: проверить, что это ESP, а не DLL для SE.",
+  "RUGNAROK (#5436): в описании скалы и горы, на деле это ретекстур ковров — перенесён в клаттер; скалы покрывает ERM.",
+  "Rustic Furniture (#17228) в первом проходе стоит в группе clutter_style, но это мебель — её реальный конкурент серия Rally's, а не Skyland.",
+  "Realistic HD Mushrooms (#21996) и Cathedral PBR Plants (#135836) заменяют одни и те же грибы.",
+  "Rally's Noble Furniture (#113326) пересекается с мебелью Noble Skyrim (#21423), если выбран классический путь.",
+  "Rustic Windows (#1937) и Boreal Boats (#47608) пересекаются с окнами и кораблями Faultier's PBR (#125308).",
+  "Soul Cairn HD (#59741) лишний при Vanaheimr Landscapes AIO (#145439).",
+  "Cave Rocks Improved (#120229) пересекается с Vanaheimr Mines and Caves / Underground.",
+  "Better Chests (#71680) пересекается с сундуками SMIM и Rudy HQ Nordic Ruins (#19365).",
+  "Northern Shores (#27041) и Seasonal Landscapes (#66903) — классические текстуры земли поверх PBR-ландшафта, возможен разнобой по стилю.",
+  "Cathedral 3D plants (#68793) может пересекаться с кустами Diverse PBR shrubs (#154489).",
+  "JK's Dragonsreach (#34000) против Spaghetti's Palaces (#93733): тот же интерьер — убран.",
+  "Windhelm Palace of King fix (#104972) и Snazzy Windhelm (#108315) против Spaghetti's Palaces: дворец Королей.",
+  "FYX 3D Solitude серия (#68048) пересекается с FYX 3D из первой части (#66037) и отдельными FYX (#77355, #86964, #100088).",
+  "Skyrim 3D серия (#23007): Skyrim 3D Signs против Skyking Signs, Skyrim 3D Trees против Happy Little Trees.",
+  "Skyrim Food Expansion (#110935) против Food Resized (#44776): меши еды, Food Resized должен победить.",
+  "RUSTIC DRAGON CORPSE (#17639) против Dragons SE (#132218): текстуры под ванильные UV.",
+  "RUSTIC SPRIGGAN (#18107) против Spriggans SE (#90547): ретекстур не подходит к новым мешам.",
+  "SUEMR (#18147) против Authentic Eyes (#36063): меши глаз.",
+  "SkySight Real Feet (#6580) против HIMBO (#46311): ступни.",
+  "Gemling Queen (#4294) против ElSopa Amulets (#38194) и JS Circlets (#131813).",
+  "BeastHHBB (#38480) против FAR/Flawn's: головы и текстуры зверорас.",
+  "Racial Skin Variance SPID (#81668) без Face Discoloration Fix (#42441) даёт тёмные лица.",
+  "Female Hands Redone (#90713) против BnP Female Skin (#65274): текстуры рук.",
+  "Great Villages (#42639), Riften Docks (#40021) против Merethic Grasslands / DynDOLOD: правки ландшафта."
+ ],
+ "notes": [
+  "Убран 1 дубль (#113064), 1 мод перенесён в «не ставить» (Trattatello, кириллица). Понижены: Enhanced Blood, Staggerlock, Remove Distracting Things, патч боевой музыки — до opt; SunHelm-патчи, CRD VR, No Player Position — до try. Группы переименованы в формат с дефисами, добавлены skyui-theme и embers-xd. Конфликтов с фиксированными модами первого прохода нет.",
+  "Дубль убран один: Rally's Cathedral 3D Dragons Tongue (входит в серию #68793). rec оставлены только за Stony AF Markarth (база для #127407) и Cubemap Reflections (VR-специфичный). Complex Material/Parallax без подтверждения в VR — try. Группы из одного мода (vram_tool, terrain_noise, solitude, imperial_forts) убраны как ненужные. Порядок тел/брони к этой части не относится.",
+  "Все 171 новых ключа размечены. Убраны дубли: Brows #30411 (повтор #1062) и JK's Dragonsreach (уже есть в Spaghetti's Palaces). Группы переименованы в kebab-case: female_body и bodyslide_presets объединены, группы из одного мода (frostbite_spider_tex, khajiit_tex) сняты, saddle снята — эти моды не взаимоисключающие. «rec» убран у WACCF, Security Overhaul, Skyrim 3D, Stairs, двух мелких фиксов, Rustic Dragon Corpse, Azura's Star. SKSE-плагины без проверенной VR-сборки (Beard Mask Fix, Conditional Expressions через MFG Fix) помечены «try». Точный состав серий JS Dwemer, JK's и FYX 3D не проверен: дубли файлов отсеять при установке."
+ ],
  "critic": null
 }

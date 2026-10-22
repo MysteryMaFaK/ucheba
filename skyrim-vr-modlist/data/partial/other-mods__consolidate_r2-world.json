@@ -1,0 +1,1544 @@
+{
+ "adjustments": [
+  {
+   "key": "id:77355",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; входит в FYX 3D — ставить один раз."
+  },
+  {
+   "key": "id:82728",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Явный выбор: основа для Stony AF Markarth."
+  },
+  {
+   "key": "id:67631",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; проверить, не входят ли сюда JS Dwarven Oil и Essence Extractor."
+  },
+  {
+   "key": "id:46334",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:69125",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; ставить выше Whiterun Mesh Fixes."
+  },
+  {
+   "key": "id:4294",
+   "action": "regroup",
+   "section": "armor",
+   "tag": "alt",
+   "choose_one_group": "jewelry",
+   "reason": "Пересекается с ElSopa Amulets и JS Circlets: те же амулеты и венцы, мод старее."
+  },
+  {
+   "key": "id:101101",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; ставить ниже Cathedral/Faultier's, если хотите маски Xavbio."
+  },
+  {
+   "key": "id:41863",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:91136",
+   "action": "regroup",
+   "section": "armor",
+   "tag": "alt",
+   "choose_one_group": "armor-weapon-textures",
+   "reason": "Группа одна с Faultier's PBR и Cathedral Armory."
+  },
+  {
+   "key": "id:90153",
+   "action": "regroup",
+   "section": "armor",
+   "tag": "alt",
+   "choose_one_group": "armor-weapon-textures",
+   "reason": "Пара к Xavbio Weapons, та же группа."
+  },
+  {
+   "key": "id:42746",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:65921",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:60756",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Без изменений: Havok, мерить кадр."
+  },
+  {
+   "key": "id:131813",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Идёт в паре с ElSopa Amulets; с Gemling конфликтует по венцам."
+  },
+  {
+   "key": "id:65346",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:34100",
+   "action": "keep",
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Без изменений: плагин списков добычи."
+  },
+  {
+   "key": "id:198",
+   "action": "keep",
+   "section": "chars_body",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Обязательная база для CBBE 3BA."
+  },
+  {
+   "key": "id:720",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:20751",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": "warpaints",
+   "reason": "Пересекается с PAINTERLY; эта по умолчанию (5 VR-листов)."
+  },
+  {
+   "key": "id:6817",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:1062",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": "brows",
+   "reason": "Брови по умолчанию: тот же автор, что Beards."
+  },
+  {
+   "key": "id:24482",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:20183",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:97946",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:38480",
+   "action": "retag",
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Меняет головы зверорас, перекрывается с FAR/Flawn's и фейсгеном: проверить."
+  },
+  {
+   "key": "id:45148",
+   "action": "retag",
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Нужен MFG Fix в VR-сборке: проверить."
+  },
+  {
+   "key": "id:112042",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:67602",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:64313",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:65402",
+   "action": "regroup",
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": "male-skin",
+   "reason": "По умолчанию: пара к BnP Female Skin."
+  },
+  {
+   "key": "id:174652",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:81668",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Только с Face Discoloration Fix, иначе тёмные лица."
+  },
+  {
+   "key": "id:58224",
+   "action": "retag",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "SKSE: брать только VR-порт 58298, явным победителем не считается."
+  },
+  {
+   "key": "id:33261",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:32349",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:33041",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пересекается со Skyrim 3D Furniture по столам: ставить ниже."
+  },
+  {
+   "key": "id:53406",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:80832",
+   "action": "regroup",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": "potions",
+   "reason": "Пересекается с Awesome Potions; этот по умолчанию."
+  },
+  {
+   "key": "id:56130",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:69944",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:87277",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:56123",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:74722",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:57038",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:18817",
+   "action": "regroup",
+   "section": "creatures",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Группа из одного мода снята."
+  },
+  {
+   "key": "id:33845",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Не дублировать JK-интерьеры, взятые отдельно."
+  },
+  {
+   "key": "id:14328",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:68048",
+   "action": "retag",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пересекается с FYX 3D из первой части (#66037) и отдельными FYX: брать только недостающие."
+  },
+  {
+   "key": "id:3375",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Без изменений; ниже него — Daedric Shrines."
+  },
+  {
+   "key": "id:18107",
+   "action": "regroup",
+   "section": "creatures",
+   "tag": "alt",
+   "choose_one_group": "spriggans",
+   "reason": "Текстуры под ванильный меш; с Spriggans SE несовместим."
+  },
+  {
+   "key": "id:29223",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:463",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Плоский HUD SE; в VR свой интерфейс."
+  },
+  {
+   "key": "id:23007",
+   "action": "retag",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Серия разнородна; Skyrim 3D Signs не брать (есть Skyking Signs), Trees не брать (Happy Little Trees)."
+  },
+  {
+   "key": "id:43532",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "SKSE-фиксы SE/AE, VR-сборки нет."
+  },
+  {
+   "key": "id:66770",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; не дублировать с серией JS Dwemer."
+  },
+  {
+   "key": "id:66578",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; не дублировать с серией JS Dwemer."
+  },
+  {
+   "key": "id:85447",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:81764",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:80828",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:37302",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:114178",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:18147",
+   "action": "retag",
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Меши глаз пересекаются с Authentic Eyes: проверить сочетание."
+  },
+  {
+   "key": "id:33565",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:24324",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пересекается с Rudy Candles по подсвечникам: порядок решает."
+  },
+  {
+   "key": "id:81282",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:24108",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "ENB-свет, с Open Shaders не работает."
+  },
+  {
+   "key": "id:48293",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:53554",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:33685",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:56371",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:70854",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:40021",
+   "action": "retag",
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Плагин правит Рифтен, рядом FYX Riften Canal; после него пересобрать LOD."
+  },
+  {
+   "key": "id:48120",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Без изменений; ниже Whiterun Objects SMIMed."
+  },
+  {
+   "key": "id:56973",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:42472",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:86964",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; часть FYX 3D."
+  },
+  {
+   "key": "id:76169",
+   "action": "retag",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Мелкий фикс, не явный победитель."
+  },
+  {
+   "key": "id:39704",
+   "action": "keep",
+   "section": "armor",
+   "tag": "rec",
+   "choose_one_group": null,
+   "reason": "Без изменений; ставить выше Cathedral/Faultier's."
+  },
+  {
+   "key": "id:81046",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; собирать в BodySlide."
+  },
+  {
+   "key": "id:134772",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:82682",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:108315",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Пересекается с фиксом дворца Королей и Spaghetti's Palaces."
+  },
+  {
+   "key": "id:78399",
+   "action": "retag",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Удобство, не обязательный мод."
+  },
+  {
+   "key": "id:6308",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:18994",
+   "action": "retag",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Меняет записи и статы, требует патчей: не явный победитель."
+  },
+  {
+   "key": "id:104972",
+   "action": "retag",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Spaghetti's Palaces перекрывает дворец Королей: брать, только если меши не пересекаются."
+  },
+  {
+   "key": "id:80232",
+   "action": "retag",
+   "section": "chars_faces",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "SKSE-плагин: нужна проверка VR-сборки."
+  },
+  {
+   "key": "id:43389",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "argonian-tex",
+   "reason": "Пересекается с FAR; одно из двух."
+  },
+  {
+   "key": "id:186",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Группа из одного мода снята."
+  },
+  {
+   "key": "id:25204",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:63980",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:121203",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:42577",
+   "action": "regroup",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Имперское седло, не замена Yee Haaaa: группа снята."
+  },
+  {
+   "key": "id:87642",
+   "action": "regroup",
+   "section": "chars_body",
+   "tag": "alt",
+   "choose_one_group": "female-bodyslide-preset",
+   "reason": "Пресет игрока — один; в OBody можно добавить все."
+  },
+  {
+   "key": "id:107380",
+   "action": "keep",
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:2014",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:20382",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; не смешивать с PBR-руинами."
+  },
+  {
+   "key": "id:56872",
+   "action": "regroup",
+   "section": "chars_body",
+   "tag": "opt",
+   "choose_one_group": "female-bodyslide-preset",
+   "reason": "Пресет по умолчанию."
+  },
+  {
+   "key": "id:118892",
+   "action": "regroup",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": "thrones",
+   "reason": "Шире Rally's Thrones (скамьи, кресла, троны): по умолчанию."
+  },
+  {
+   "key": "id:55852",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:27141",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:65974",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:138889",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:56956",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:34000",
+   "action": "drop_duplicate",
+   "section": "city_meshes",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Драконий Предел уже переделан в Spaghetti's Palaces (первая часть)."
+  },
+  {
+   "key": "id:89148",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:42639",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Правит ландшафт: патчи к травам и пересборка DynDOLOD."
+  },
+  {
+   "key": "id:42514",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ниже HD Reworked Horses."
+  },
+  {
+   "key": "id:85647",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:41929",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:58612",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:42508",
+   "action": "regroup",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Обычное седло, сочетается с Imperial Saddle: группа снята."
+  },
+  {
+   "key": "id:17639",
+   "action": "retag",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Текстуры под ванильные туши; с Dragons SE проверить совпадение UV."
+  },
+  {
+   "key": "id:90547",
+   "action": "regroup",
+   "section": "creatures",
+   "tag": "rec",
+   "choose_one_group": "spriggans",
+   "reason": "По умолчанию: та же серия, что Dragons SE и Falmer Overhaul."
+  },
+  {
+   "key": "id:46531",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:116289",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:78772",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Ниже Stunning Statues."
+  },
+  {
+   "key": "id:18345",
+   "action": "retag",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Один предмет: хорошее дополнение, не обязательный."
+  },
+  {
+   "key": "id:55959",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:67386",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ниже Markarth Fixed AF."
+  },
+  {
+   "key": "id:134836",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:668",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Киллмувы с камерой от третьего лица в VR неуместны."
+  },
+  {
+   "key": "id:65481",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:8354",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "children",
+   "reason": "Одно из модов детей."
+  },
+  {
+   "key": "id:115859",
+   "action": "regroup",
+   "section": "clutter_meshes",
+   "tag": "alt",
+   "choose_one_group": "thrones",
+   "reason": "Те же троны, что в Royal Seat."
+  },
+  {
+   "key": "id:41891",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:156952",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:41254",
+   "action": "keep",
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:70534",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:98579",
+   "action": "keep",
+   "section": "armor",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:28113",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:100088",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:34950",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только вместе с Unique Border Gates, ниже него."
+  },
+  {
+   "key": "id:4819",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; после него пересобрать LOD."
+  },
+  {
+   "key": "id:38194",
+   "action": "regroup",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": "jewelry",
+   "reason": "По умолчанию вместе с JS Vanilla Circlets."
+  },
+  {
+   "key": "id:24201",
+   "action": "regroup",
+   "section": "chars_body",
+   "tag": "alt",
+   "choose_one_group": "female-bodyslide-preset",
+   "reason": "Группа объединена с female_body."
+  },
+  {
+   "key": "id:3077",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:59123",
+   "action": "keep",
+   "section": "physics",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:64405",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "brows",
+   "reason": "Альтернатива Hvergelmir's Brows."
+  },
+  {
+   "key": "id:84288",
+   "action": "keep",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:6580",
+   "action": "regroup",
+   "section": "chars_body",
+   "tag": "alt",
+   "choose_one_group": "male-skin",
+   "reason": "Мужская кожа — раздел тела; конкурирует с BnP Male Skin, ступни спорят с HIMBO."
+  },
+  {
+   "key": "id:30411",
+   "action": "drop_duplicate",
+   "section": "chars_faces",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Повтор Brows (Hvergelmir's Aesthetics) #1062."
+  },
+  {
+   "key": "id:27050",
+   "action": "regroup",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": "torch",
+   "reason": "Факел по умолчанию."
+  },
+  {
+   "key": "id:67147",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "warpaints",
+   "reason": "Те же раскраски, что Absolution."
+  },
+  {
+   "key": "id:95926",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:135417",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Только с HIMBO; собирать в BodySlide."
+  },
+  {
+   "key": "id:96143",
+   "action": "keep",
+   "section": "armor",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:1704",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": "argonian-tex",
+   "reason": "Текстуры аргониан по умолчанию."
+  },
+  {
+   "key": "id:28060",
+   "action": "regroup",
+   "section": "clutter_meshes",
+   "tag": "alt",
+   "choose_one_group": "torch",
+   "reason": "Тот же факел, что Medieval Torch."
+  },
+  {
+   "key": "id:57607",
+   "action": "regroup",
+   "section": "clutter_meshes",
+   "tag": "alt",
+   "choose_one_group": "potions",
+   "reason": "Те же зелья, что ElSopa."
+  },
+  {
+   "key": "id:166188",
+   "action": "regroup",
+   "section": "city_meshes",
+   "tag": "alt",
+   "choose_one_group": "hovels-of-hagravens",
+   "reason": "Полная версия того же мода; для VR лучше LessPoly."
+  },
+  {
+   "key": "id:156824",
+   "action": "regroup",
+   "section": "creatures",
+   "tag": "try",
+   "choose_one_group": "dragon-fall",
+   "reason": "Новая версия, VR не проверен."
+  },
+  {
+   "key": "id:90675",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений; проверить с Werewolf Body for VR."
+  },
+  {
+   "key": "id:112525",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:94508",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:167064",
+   "action": "regroup",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": "hovels-of-hagravens",
+   "reason": "LessPoly по умолчанию: дешевле для VR."
+  },
+  {
+   "key": "id:56317",
+   "action": "regroup",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": "dragon-fall",
+   "reason": "По умолчанию: скриптовый, без DLL, работает в VR."
+  },
+  {
+   "key": "id:68069",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:141070",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Рядом FYX RavenRock Docks из первой части: проверить стыки."
+  },
+  {
+   "key": "id:14910",
+   "action": "keep",
+   "section": "city_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:3038",
+   "action": "keep",
+   "section": "dont",
+   "tag": "dont",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:30817",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Добавляет объекты: пересобрать DynDOLOD."
+  },
+  {
+   "key": "id:48745",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:47742",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:110935",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Ниже — Food Resized, чтобы масштаб VR победил."
+  },
+  {
+   "key": "id:5916",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "opt",
+   "choose_one_group": "children",
+   "reason": "Моды детей: этот по умолчанию."
+  },
+  {
+   "key": "id:63353",
+   "action": "regroup",
+   "section": "chars_faces",
+   "tag": "alt",
+   "choose_one_group": "children",
+   "reason": "Одно из модов детей."
+  },
+  {
+   "key": "id:82648",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:90713",
+   "action": "retag",
+   "section": "chars_body",
+   "tag": "try",
+   "choose_one_group": null,
+   "reason": "Руки пересекаются с BnP Female Skin: проверить швы."
+  },
+  {
+   "key": "id:151874",
+   "action": "keep",
+   "section": "clutter_meshes",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  },
+  {
+   "key": "id:11055",
+   "action": "keep",
+   "section": "creatures",
+   "tag": "opt",
+   "choose_one_group": null,
+   "reason": "Без изменений."
+  }
+ ],
+ "groups": [
+  {
+   "group": "armor-weapon-textures",
+   "members": [
+    "Faultier's PBR Armors and Clothes (#175319)",
+    "Cathedral - Armory (#20199)",
+    "Xavbio Weapons Retexture SE (#91136)",
+    "Xavbio Armors Retexture SE (#90153)"
+   ],
+   "default_pick": "Faultier's PBR Armors and Clothes (#175319)",
+   "rule": "Один путь текстур брони и оружия: PBR (Faultier's), Cathedral или Xavbio (оружие и броня Xavbio — пара)."
+  },
+  {
+   "group": "female-bodyslide-preset",
+   "members": [
+    "Pomona Amphora Bodyslide Preset (#56872)",
+    "Vestal Body 3BA (#87642)",
+    "Greek Goddess Preset (#24201)"
+   ],
+   "default_pick": "Pomona Amphora Bodyslide Preset (#56872)",
+   "rule": "Для игрока — один пресет; в пул OBody NG можно добавить все."
+  },
+  {
+   "group": "male-skin",
+   "members": [
+    "BnP - Male Skin (#65402)",
+    "SkySight Skins (#6580)"
+   ],
+   "default_pick": "BnP - Male Skin (#65402)",
+   "rule": "Одна мужская кожа; BnP в паре с BnP Female Skin."
+  },
+  {
+   "group": "brows",
+   "members": [
+    "Brows (Hvergelmir's Aesthetics) (#1062)",
+    "Blackmoon's Brows (#64405)"
+   ],
+   "default_pick": "Brows (Hvergelmir's Aesthetics) (#1062)",
+   "rule": "Один набор бровей."
+  },
+  {
+   "group": "warpaints",
+   "members": [
+    "Vanilla Warpaints Absolution (#20751)",
+    "PAINTERLY (#67147)"
+   ],
+   "default_pick": "Vanilla Warpaints Absolution (#20751)",
+   "rule": "Одни текстуры боевой раскраски."
+  },
+  {
+   "group": "argonian-tex",
+   "members": [
+    "FAR - Forgotten Argonian Roots (#1704)",
+    "Flawn's Vanilla Argonians Redux (#43389)"
+   ],
+   "default_pick": "FAR - Forgotten Argonian Roots (#1704)",
+   "rule": "Одни текстуры аргониан."
+  },
+  {
+   "group": "children",
+   "members": [
+    "TK Children SE (#5916)",
+    "Prince and The Pauper SE (#8354)",
+    "RUSTIC CHILDREN (#63353)"
+   ],
+   "default_pick": "TK Children SE (#5916)",
+   "rule": "Один мод детей."
+  },
+  {
+   "group": "spriggans",
+   "members": [
+    "Spriggans SE (#90547)",
+    "RUSTIC SPRIGGAN (#18107)"
+   ],
+   "default_pick": "Spriggans SE (#90547)",
+   "rule": "Новые модели или ретекстур ванильных — не вместе."
+  },
+  {
+   "group": "dragon-fall",
+   "members": [
+    "Dragons Fall Down - Immersive Airborne Death (#56317)",
+    "Dragons (Actually) Fall Down (#156824)"
+   ],
+   "default_pick": "Dragons Fall Down - Immersive Airborne Death (#56317)",
+   "rule": "Одно падение драконов."
+  },
+  {
+   "group": "torch",
+   "members": [
+    "Medieval Torch (#27050)",
+    "Ultimate HD Torch (#28060)"
+   ],
+   "default_pick": "Medieval Torch (#27050)",
+   "rule": "Одна модель факела."
+  },
+  {
+   "group": "potions",
+   "members": [
+    "ElSopa - Potions Redone (#80832)",
+    "Awesome Potions Simplified (#57607)"
+   ],
+   "default_pick": "ElSopa - Potions Redone (#80832)",
+   "rule": "Один набор зелий."
+  },
+  {
+   "group": "thrones",
+   "members": [
+    "The Royal Seat (#118892)",
+    "Rally's Thrones (#115859)"
+   ],
+   "default_pick": "The Royal Seat (#118892)",
+   "rule": "Одна замена тронов."
+  },
+  {
+   "group": "hovels-of-hagravens",
+   "members": [
+    "Hovels of Hagravens LessPoly (#167064)",
+    "Hovels of Hagravens (#166188)"
+   ],
+   "default_pick": "Hovels of Hagravens LessPoly (#167064)",
+   "rule": "Одна версия мода."
+  },
+  {
+   "group": "jewelry",
+   "members": [
+    "ElSopa - Glorious HD Amulets SE (#38194)",
+    "Gemling Queen Jewelry SE (#4294)"
+   ],
+   "default_pick": "ElSopa - Glorious HD Amulets SE (#38194)",
+   "rule": "Либо Gemling, либо ElSopa Amulets + JS Vanilla Circlets (#131813)."
+  },
+  {
+   "group": "reshade-sharpen",
+   "members": [
+    "Glamur ReShade VR (#61434)",
+    "VrVision (#47989)"
+   ],
+   "default_pick": "Glamur ReShade VR (#61434)",
+   "rule": "Один шейдер резкости."
+  }
+ ],
+ "order_rules": [
+  "CBBE (#198) → CBBE 3BA → HIMBO → кожа (BnP Female/Male) → Female Hands Redone → пресеты BodySlide → рефиты брони (Vanilla Outfits Redone, HIMBO Refit Hub, Dwemer Armor 3BA, COCO) → вывод BodySlide отдельным модом в самом низу.",
+  "Armor Mesh Fixes и WACCF → Cathedral/Xavbio/Faultier's → Dragon Priests Retexture → 3BA/HIMBO рефиты.",
+  "SMIM → SMIM Improvement Mod → Whiterun Objects SMIMed → Whiterun Mesh Fixes; Markarth Fixed AF → Stony AF Markarth → Sconces of Skyrim Markarth.",
+  "Меш-моды городов выше текстурных паков; меш-фиксы ниже модов, которые несут свои меши тех же объектов.",
+  "Spaghetti's Palaces → Snazzy Windhelm / фикс дворца Королей (только непересекающиеся меши).",
+  "FYX 3D (первая часть) → новые FYX; дубли файлов не держать.",
+  "Unique Border Gates → Unique Border Gates Fixes.",
+  "Skyrim 3D серия → Vanilla Table Replacers / Rally's → Skyrim Food Expansion → Food Resized последним.",
+  "Stunning Statues → Daedric Shrines AIO.",
+  "HD Reworked Horses → сёдла и упряжь (Imperial Saddle, Yee Haaaa, Shoulder Harness).",
+  "Nordic Faces → BeastHHBB / FAR → Face Discoloration Fix; Racial Skin Variance только с ним.",
+  "После Great Villages, Riften Docks, Unique Border Gates, Lanterns of Skyrim II, Nordic Ruins — пересобрать кэш травы и DynDOLOD."
+ ],
+ "conflicts": [
+  "JK's Dragonsreach (#34000) против Spaghetti's Palaces (#93733): тот же интерьер — убран.",
+  "Windhelm Palace of King fix (#104972) и Snazzy Windhelm (#108315) против Spaghetti's Palaces: дворец Королей.",
+  "FYX 3D Solitude серия (#68048) пересекается с FYX 3D из первой части (#66037) и отдельными FYX (#77355, #86964, #100088).",
+  "Skyrim 3D серия (#23007): Skyrim 3D Signs против Skyking Signs, Skyrim 3D Trees против Happy Little Trees.",
+  "Skyrim Food Expansion (#110935) против Food Resized (#44776): меши еды, Food Resized должен победить.",
+  "RUSTIC DRAGON CORPSE (#17639) против Dragons SE (#132218): текстуры под ванильные UV.",
+  "RUSTIC SPRIGGAN (#18107) против Spriggans SE (#90547): ретекстур не подходит к новым мешам.",
+  "SUEMR (#18147) против Authentic Eyes (#36063): меши глаз.",
+  "SkySight Real Feet (#6580) против HIMBO (#46311): ступни.",
+  "Gemling Queen (#4294) против ElSopa Amulets (#38194) и JS Circlets (#131813).",
+  "BeastHHBB (#38480) против FAR/Flawn's: головы и текстуры зверорас.",
+  "Racial Skin Variance SPID (#81668) без Face Discoloration Fix (#42441) даёт тёмные лица.",
+  "Female Hands Redone (#90713) против BnP Female Skin (#65274): текстуры рук.",
+  "Great Villages (#42639), Riften Docks (#40021) против Merethic Grasslands / DynDOLOD: правки ландшафта."
+ ],
+ "notes": "Все 171 новых ключа размечены. Убраны дубли: Brows #30411 (повтор #1062) и JK's Dragonsreach (уже есть в Spaghetti's Palaces). Группы переименованы в kebab-case: female_body и bodyslide_presets объединены, группы из одного мода (frostbite_spider_tex, khajiit_tex) сняты, saddle снята — эти моды не взаимоисключающие. «rec» убран у WACCF, Security Overhaul, Skyrim 3D, Stairs, двух мелких фиксов, Rustic Dragon Corpse, Azura's Star. SKSE-плагины без проверенной VR-сборки (Beard Mask Fix, Conditional Expressions через MFG Fix) помечены «try». Точный состав серий JS Dwemer, JK's и FYX 3D не проверен: дубли файлов отсеять при установке."
+}
